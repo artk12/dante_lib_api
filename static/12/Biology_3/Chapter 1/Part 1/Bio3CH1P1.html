@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: "Nastaliq";
+            src: url('nas.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+      
+        li.MsoNormal,
+        div.MsoNormal,
+        ul.MsoNormal,
+        ol.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+            
+        }
+        p.MsoNas
+         {
+            margin: 0.5em;
+            
+            font-size: clamp(1.5rem, 1.7vw, 2rem);
+            font-family: "Nastaliq";
+            line-height: 2.3em;
+            color: #dcd7e0;
+            text-align: center;
+         letter-spacing: 0em;
+         word-spacing: 0.4em;
+            
+        }
+        p.MsoNormal
+         {
+            margin: 0in;
+           
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-indent: 1em;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi, b {
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSemic,
+        li.MsoSemic,
+        div.MsoSemic {
+            margin: 0in;
+           
+            font-size: clamp(1.2rem, 1.6vw, 1.3rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #b19af2;
+            text-align: justify;
+            
+        }
+        
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #6ca4ec;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+        span.uline{
+            border-bottom: 0.1em solid #64E9E1;
+        }
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .boxp {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .boxg {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#00f2ff11; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        .boxb {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#0c4e9f2d; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        ::selection {
+            background-color: #59078fa1; /* Change this to your desired highlight color */
+            color: #ffffff; /* Change this to your desired text color */
+          }
+
+
+          mark{
+            background-color:#078b8fa1 ;
+            color: #ffffff;
+            padding: 0 7px;
+        }
+
+        .hlg { background-color: rgba(0, 234, 255, 0.334);  }
+        .hlp { background-color:#5f1487; }
+      
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+    <body class="custom-scrollbar">
+
+
+
+        <p class="MsoBold">فصل 1 : مولکول های اطلاعاتی</p>
+        <p class="MsoNormal">یکی از پرسش هایی که یافتن جوابی برای آن بیش از پنجاه سال طول کشید، این بود که ژن چیست و از چه ساخته شده است؟</p>
+        <p class="MsoNormal">پاسخ این سؤال، به ظاهر شاید ساده باشد ولی برای رسیدن به آن، پژوهش ها و آزمایش های زیادی انجام شد که در حال حاضر هم ادامه دارد.</p>
+        <p class="MsoNormal">در این فصل مطالب در قالب زنجیره ای از آزمایش ها توضیح داده می شود که نتایج آنها آگاهی ما را از ژن و مولکول های مرتبط به آن یعنی دِنا (DNA)، ر ِنا (RNA) و پروتئین بیشتر می کند. آشنا شدن با ساختار این مولکول ها مقدمه ای است برای فهم بهتر فصل های دیگر این کتاب. همچنین، در کنار این مباحث با سازوکار مولکولی و چگونگی ذخیره و انتقال اطلاعات وراثتی آشنا می شویم.</p>
+        
+
+        <br>
+        <br>
+
+
+
+        <p class="MsoBold">گفتار ۱ : نوکلئیک اسیدها</p>
+        <p class="MsoNormal">هریک از یاخته های بدن ما ویژگی هایی مانند شکل و اندازه دارند. این ویژگی ها تحت فرمان هسته هستند. دستورالعمل های هسته در حین تقسیم از یاخته ای به یاخته دیگر و در حین تولید مثل از نسلی به نسل دیگر منتقل می شود. اطلاعات و دستورالعمل فعالیت های یاخته در چه قسمتی از هسته ذخیره می شود؟</p>
+        <p class="MsoNormal">قبلاً آموختیم که فام تن ها در هسته قرار دارند و در ساختار آنها دِنا و پروتئین مشارکت می کنند. کدام یک از این دو ماده، ذخیره کننده اطلاعات وراثتی است؟</p>
+        <p class="MsoNormal">پاسخ این سؤال مشخص شده است. این ماده دِنا است که به عنوان ماده ذخیره کننده اطلاعات وراثتی عمل می کند. اما دانشمندان چگونه به این پاسخ رسیده اند؟</p>
+        <p class="MsoNormal">اطلاعات اولیه در مورد ماده وراثتی از فعالیت ها و آزمایش های باکتری شناسی انگلیسی به نام گریفیت به دست آمد. او سعی داشت واکسنی برای آنفلوانزا تولید کند. در آن زمان تصور می شد عامل این بیماری، نوعی باکتری به نام استرپتوکوکوس نومونیا است. گریفیت با دو نوع از این باکتری، آزمایش هایی را روی موش ها انجام داد. نوع بیماری زای آن که پوشینه دار (کپسول دار) است در موش ها سبب سینه پهلو می شود ولی نوع بدون پوشینه آن موش ها را بیمار نمی کند.</p>
+        
+
+        <br>
+        <br>
+
+
+        <p class="MsoStep">بیشتر بدانید</p>
+        <p class="MsoNormal">دانشمندی سوئیسی به نام میشر در سال 1869 نوکلئیک اسیدها را کشف کرد. او ترکیبات سفید رنگی را از هسته گویچه های سفید انسان و اسپرم ماهی استخراج کرد که نسبت نیتروژن و فسفات در این ترکیبات با نسبت آن در ترکیبات حاصل از بخش های دیگر یاخته متفاوت بود. همین باعث شد که میشر این ترکیب زیستی را به عنوان ترکیب جدیدی معرفی کند. او این ماده را نوکلئیک اسید (اسید هسته ای) نامید؛ چون از هسته (Nucleus) استخراج شده بود و خاصیت اسیدی ضعیفی هم داشت.</p>
+        
+        <br>
+        <br>
+
+        <p class="MsoNormal">گریفیت مشاهده کرد تزریق باکتری های پوشینه دار به موش باعث بروز علائم بیماری و مرگ در آنها می شود؛ در حالی که تزریق باکتری های بدون پوشینه به موش های مشابه، باعث بروز علائم بیماری نمی شود. او در آزمایش دیگری باکتری های پوشینه دار کشته شده با گرما را به موش ها تزریق و مشاهده کرد که موش ها سالم ماندند. گریفیت نتیجه گرفت وجود پوشینه به تنهایی عامل مرگ موش ها نیست.</p>
+
+
+        <p class="MsoNormal">سپس مخلوطی از باکتری های پوشینه دار کشته شده با گرما و زنده بدون پوشینه را به موش ها تزریق کرد؛ برخلاف انتظار، موش ها مردند! او در بررسی خون و شش های موش های مرده، تعداد زیادی باکتری های پوشینه دار زنده مشاهده کرد. مسلماً باکتری های مرده، زنده نشده اند بلکه تعدادی از باکتری های بدون پوشینه به نحوی تغییر کرده و پوشینه دار شده اند.</p>
+
+
+        <p class="MsoNormal">از نتایج این آزمایش ها مشخص شد که ماده وراثتی می تواند به یاخته دیگری منتقل شود ولی ماهیت این ماده و چگونگی انتقال آن مشخص نشد.</p>
+        
+
+        <br>
+        <br>
+
+
+        <p class="MsoStep">بیشتر بدانید</p>
+        <p class="MsoNormal">گریفیت در سال 1928 نشان داد که خصوصیات یک باکتری به باکتری دیگر قابل انتقال است.</p>
+        
+
+        <br>
+        <br>
+
+
+        <p class="MsoStep">عامل اصلی انتقال صفات وراثتی، مولکول دِنا است</p>
+        <p class="MsoNormal">عامل مؤثر در انتقال این صفت تا حدود 16 سال بعد از گریفیت همچنان ناشناخته ماند. تا اینکه نتایج کارهای دانشمندی به نام ایوری و همکارانش عامل مؤثر در آن را مشخص کرد. آنها ابتدا از عصاره استخراج شده از باکتری های کشته شده پوشینه دار استفاده کردند و در آن تمامی پروتئین های موجود را تخریب کردند. به نظر شما چگونه این کار انجام شد؟</p>
+        <p class="MsoNormal">آنها سپس باقی مانده محلول را به محیط کشت باکتری فاقد پوشینه اضافه کردند و دیدند که انتقال صفت صورت می گیرد؛ پس می توان نتیجه گرفت که پروتئین ها ماده وراثتی نیستند.</p>
+        <p class="MsoNormal">در آزمایش دیگری عصاره استخراج شده از باکتری های کشته شده پوشینه دار را در یک گریزانه (سانتریفیوژ) با سرعت بالا قرار دادند و مواد آن را به صورت لایه لایه جدا کردند. با اضافه کردن هریک از لایه ها به صورت جداگانه به محیط کشت باکتری فاقد پوشینه مشاهده کردند که انتقال صفت فقط با لایه ای که در آن دِنا وجود دارد انجام می شود.</p>
+        <p class="MsoNormal">نتایج این آزمایش ها، ایوری و همکارانش را به این نتیجه رساند که عامل اصلی و مؤثر در انتقال صفات، دِنا است. به عبارت ساده تر، دِنا همان ماده وراثتی است. با این حال نتایج به دست آمده مورد قبول عده ای قرار نگرفت؛ چون در آن زمان بسیاری از دانشمندان بر این باور بودند که پروتئین ها ماده وراثتی هستند.</p>
+        <p class="MsoNormal">در آزمایش های دیگری عصاره باکتری های پوشینه دار را استخراج و آن را به چهار قسمت تقسیم کردند. به هر قسمت، آنزیم تخریب کننده یک گروه از مواد آلی (کربوهیدرات ها، پروتئین ها، لیپید ها، نوکلئیک اسیدها) را اضافه کردند. سپس هر کدام را به محیط کشت حاوی باکتری بدون پوشینه منتقل و اجازه دادند تا فرصتی برای انتقال صفت و رشد و تکثیر داشته باشند. مشاهده شد که در همه ظروف انتقال صورت می گیرد به جز ظرفی که حاوی آنزیم تخریب کننده دِنا است.</p>
+        
+
+        <br>
+        <br>
+
+
+        <p class="MsoStep">بیشتر بدانید</p>
+        <p class="MsoNormal">ایوری و همکارانش برای اولین بار در سال 1944 نشان دادند که دِنا، ماده ژنتیک است.</p>
+        
+
+        <br>
+        <br>
+
+
+        <p class="MsoStep">ساختار نوکلئیک اسیدها</p>
+        <p class="MsoNormal">نوکلئیک اسیدها که شامل دئوکسی ریبونوکلئیک اسید (دِنا) و ریبونوکلئیک اسید (رِنا) هستند، همگی بسپارهایی (پلیمرهایی) از واحدهای تکرارشونده به نام نوکلئوتید هستند. با توجه به شکل 3 هر نوکلئوتید شامل سه بخش است: یک قند پنج کربنه، یک باز آلی نیتروژن دار و یک تا سه گروه فسفات.</p>
+        <p class="MsoNormal">قند پنج کربنه در دِنا، وکسی ریبوز و در رِنا، ریبوز است. دئوکسی ریبوز یک اکسیژن کمتر از ریبوز دارد. باز آلی نیتروژن دار می تواند پورین باشد که ساختار دو حلقه ای دارد؛ شامل آدنین (A) و گوانین (G) یا می تواند پیریمیدین باشد که ساختار تک حلقه ای دارد؛ شامل تیمین (T) سیتوزین (C) و یوراسیل (U). در دِنا باز یوراسیل شرکت ندارد و به جای آن تیمین وجود دارد و در رِنا به جای تیمین، باز یوراسیل وجود دارد.</p>
+        <p class="MsoNormal">برای تشکیل یک نوکلئوتید، باز آلی نیتروژن دار و گروه یا گروه های فسفات با پیوند اشتراکی (کووالانسی) به دو سمت قند متصل می شوند (شکل3).</p>
+ه های فسفات با یکدیگر تفاوت دارند.</p>
+        <p class="MsoNormal">رشته های پلی نوکلئوتیدی یا به تنهایی نوکلئیک اسید را می سازند، مثل رنا، یا به صورت دوتایی مقابل هم قرار می گیرند و نوکلئیک اسیدهایی مثل دِنا را می سازند.</p>
+        
+        <br>
+        <br>
+
+        <p class="MsoStep">بیشتر بدانید</p>
+        <p class="MsoNormal">انواع بازهای آلی نیتروژن دار و پنتوز ها</p>
+        <p class="MsoNormal">بنابراین مولکول های دِنا از دو رشته پلی نوکلئوتید و مولکول های رِنا از یک رشته پلی نوکلئوتید تشکیل می شوند (شکل 4).</p>
+        
+
+    <p class="MsoStep">بیشتر بدانید</p>
+    <p class="MsoSemi">فسفودی استر</p>
+    <p class="MsoNormal">در درس شیمی با استرها آشنا شدید که دارای گروه عاملی 
+        
+        <br>$$ O = C - O $$<br>
+        
+        هستند. این گروه عاملی در ساختار برخی مواد سازنده بدن موجودات زنده از جمله نوکلئیک اسیدها وجود دارد. با این توصیف گروه عاملی 
+        
+        <br>$$ O = P - O $$<br> 
+        
+        فسفواتر و گروه عاملی 
+        
+        <br>$$ O - P - O $$<br> 
+        
+        فسفودی‌استر نامیده می‌شوند که در زیست‌شناسی آن را پیوند فسفودی‌استر می‌خوانند.</p>
+
+<br><br>
+
+<p class="MsoNormal">
+    دو انتهای رشته‌های پلی‌نوکلئوتید نیز می‌توانند با پیوند فسفودی‌استر به هم متصل شوند و
+    نوکلئیک اسید حلقوی را ایجاد کنند؛ برای مثال دنا در باکتری‌ها به‌صورت حلقوی است.
+    در نوکلئیک اسیدهای خطی، گروه فسفات در یک انتها و گروه هیدروکسیل در انتهای دیگر آزاد
+    است؛ بنابراین هر رشتهٔ دنا و رنای خطی همیشه دو سر متفاوت دارد (شکل ۵).
+</p>
+<br>
+<p class="MsoStep">تلاش برای کشف ساختار مولکولی دنا</p>
+<p class="MsoNormal">
+    در ابتدا تصور می‌شد که چهار نوع نوکلئوتید موجود در دنا به نسبت مساوی در سراسر مولکول توزیع
+    شده‌اند. بر این اساس دانشمندان انتظار داشتند که مقدار ۴ نوع باز آلی در تمامی مولکول‌های دنا از هر
+    جانداری که به دست آمده باشد، با یکدیگر برابر باشد.
+</p>
+<p class="MsoNormal">
+    اما مشاهدات و تحقیقات چارگاف<sup>۱</sup> روی دناهای جانداران نشان داد که مقدار آدنین در دنا با مقدار
+    تیمین برابر است و مقدار گوانین در آن با مقدار سیتوزین برابری می‌کند. تحقیقات بعدی دانشمندان دلیل
+    این برابری نوکلئوتیدها را مشخص کرد.
+</p>
+<br>
+<p class="MsoStep">بیشتر بدانید</p>
+<p class="MsoNormal">
+    چارگاف در سال ۱۹۵۰ نشان داد که
+    در دناهای جانداران گوناگون A=T و
+    G=C است.
+</p>
+<br>
+
+<p class="MsoStep">بیشتر بدانید</p>
+<p class="MsoNormal">برخی از نتایج آزمایش های چارگاف (درصد)</p>
+<br>
+
+<div class="custom-scrollbar" style="overflow-y: hidden; overflow-x:auto;">
+<table class="MsoNormal" style="margin:auto;width:fit-content;direction:rtl;text-align:center;border:1px solid black;">
+    <tr style="background-color:#ffcccc;">
+        <th>گونه</th>
+        <th>A</th>
+        <th>T</th>
+        <th>G</th>
+        <th>C</th>
+        <th>$ \dfrac{A \ + \ G}{ T \  + \ C} $ </th>
+        <th>$ \dfrac{A \ + \ T}{ G \  + \ C} $ </th>
+    </tr>
+    <tr>
+        <td>انسان</td>
+        <td>۳۱/۰</td>
+        <td>۳۱/۵</td>
+        <td>۱۹/۱</td>
+        <td>۱۸/۴</td>
+        <td>۱/۰۰</td>
+        <td>۱/۶۶</td>
+    </tr>
+    <tr>
+        <td>مگس سرکه</td>
+        <td>۲۷/۳</td>
+        <td>۲۷/۶</td>
+        <td>۲۲/۵</td>
+        <td>۲۲/۶</td>
+        <td>۰/۹۹</td>
+        <td>۱/۲۲</td>
+    </tr>
+    <tr>
+        <td>ذرت</td>
+        <td>۲۵/۶</td>
+        <td>۲۵/۳</td>
+        <td>۲۴/۵</td>
+        <td>۲۴/۶</td>
+        <td>۱/۰۰</td>
+        <td>۱/۰۴</td>
+    </tr>
+</table>
+<br></div>
+
+<br>
+
+<p class="MsoNormal" style="font-size: smaller;">اختلاف کم درصدها به دلیل خطاهای آزمایش است.</p>
+
+<br>
+<br>
+
+
+<p class="MsoStep">استفاده از پرتو ایکس برای تهیهٔ تصویر از دنا</p>
+<p class="MsoNormal">
+    ویلکینز<sup>۱</sup> و فرانکلین<sup>۲</sup> با استفاده از پرتو ایکس از مولکول‌های دنا تصاویری تهیه کردند (شکل ۶).
+    با بررسی این تصاویر در مورد ساختار دنا، نتایجی را به دست آوردند از جمله اینکه دنا حالت مارپیچی و
+    بیش از یک رشته دارد. البته با استفاده از این روش، ابعاد مولکول‌ها را نیز تشخیص دادند.
+</p>
+<br>
+<p class="MsoStep">مدل مولکولی دنا</p>
+<p class="MsoNormal">
+    واتسون<sup>۳</sup> و کریک<sup>۴</sup> با استفاده از نتایج آزمایش‌های چارگاف و داده‌های حاصل از تصاویر تهیه‌شده با
+    پرتو ایکس و با استفاده از یافته‌های خود، مدل مولکولی نردبان مارپیچ را ساختند که باعث شد در سال
+    ۱۹۶۲ جایزه نوبل را دریافت کنند. نتایج حاصل از این تحقیقات با پژوهش‌های امروزی مورد تأیید قرار
+    گرفته‌اند.
+</p>
+
+<br>
+<br>
+
+<p class="MsoStep">نکات کلیدی مدل واتسون و کریک</p>
+<p class="MsoNormal">
+    هر مولکول دنا در حقیقت از دو رشته پلی‌نوکلئوتیدی ساخته شده است که به دور محوری فرضی
+    پیچیده شده و ساختار مارپیچ دو رشته‌ای را ایجاد می‌کند. این مارپیچ اغلب با یک نردبان پیچ‌خورده
+    مقایسه می‌شود. ستون‌های این نردبان را قند و فسفات و پله‌ها را بازهای آلی تشکیل می‌دهند. بین قند
+    یک نوکلئوتید و قند نوکلئوتید مجاور پیوند فسفودی‌استر، و بین بازهای روبه‌روی هم پیوند هیدروژنی
+    برقرار است (شکل ۸).
+</p>
+<p class="MsoNormal">
+    پیوندهای هیدروژنی بین بازها، دو رشته دنا را در مقابل هم نگه می‌دارد. این پیوندها بین جفت بازها
+    به‌صورت اختصاصی تشکیل می‌شوند. آدنین (A) با تیمین (T) روبه‌روی هم قرار می‌گیرند و گوانین (G)
+    با سیتوزین (C) جفت می‌شوند. به این جفت بازها بازهای مکمل می‌گویند. بین C و G نسبت به A و T
+    پیوند هیدروژنی بیشتری تشکیل می‌شود.
+</p>
+<p class="MsoNormal">
+    قرارگیری جفت بازها به این شکل باعث می‌شود که قطر مولکول دنا در سراسر آن یکسان باشد؛
+    زیرا یک باز تک‌حلقه‌ای در مقابل یک باز دو‌حلقه‌ای قرار می‌گیرد و باعث پایداری مولکول دنا می‌شود.
+</p>
+<p class="MsoNormal">
+    نتیجۀ دیگر جفت شدن بازهای مکمل این است که اگرچه دو رشتهٔ یک مولکول دنا یکسان نیستند،
+    ولی شناسایی ترتیب نوکلئوتیدهای هر کدام می‌تواند ترتیب نوکلئوتیدهای رشتهٔ دیگر را هم مشخص
+    کند؛ مثلاً اگر ترتیب نوکلئوتیدها در یک رشته ATGC باشد ترتیب نوکلئوتیدها در رشتهٔ مکمل آن باید
+    TACG باشد.
+</p>
+<p class="MsoNormal">
+    اگرچه هر پیوند هیدروژنی به‌تنهایی انرژی پیوند کمی دارد، ولی وجود هزاران یا میلیون‌ها نوکلئوتید
+    و برقراری پیوند هیدروژنی بین آنها به مولکول دنا حالت پایدارتری می‌دهد. در عین حال، دو رشته دنا در
+    موقع نیاز هم می‌توانند در بعضی نقاط از هم جدا شوند، بدون اینکه پایداری آنها به‌هم بخورد.
+</p>
+<br>
+<p class="MsoStep">رنا و انواع آن</p>
+<p class="MsoNormal">
+    گفتیم که نوع دیگری از نوکلئیک اسیدها، رنا است. مولکول رنا تک‌رشته‌ای است و از روی
+    بخشی از یکی از رشته‌های دنا ساخته می‌شود. رناها نقش‌های متعددی دارند که به بعضی از آنها
+    اشاره می‌کنیم:
+</p>
+<ul class="MsoNormal">
+    <li>رنا پیک (mRNA): اطلاعات را از دنا به رناتن‌ها می‌رساند. رناتن با استفاده از اطلاعات رنا
+        پیک، پروتئین‌سازی می‌کند که در فصل بعد با آن آشنا خواهید شد.</li>
+    <li>رنا ناقل (tRNA): آمینواسیدها را برای استفاده در پروتئین‌سازی به سمت رناتن‌ها می‌برد.</li>
+    <li>رنا رناتنی (rRNA): در ساختار رناتن‌ها علاوه بر پروتئین، رنای رناتنی نیز شرکت دارد.</li>
+</ul>
+<p class="MsoNormal">
+    علاوه بر این نقش‌ها، رناها نقش آنزیمی و دخالت در تنظیم بیان ژن نیز دارند.
+</p>
+<br>
+<p class="MsoStep">ژن چیست؟</p>
+<p class="MsoNormal">
+    در طی این گفتار با ساختار دنا آشنا شدید. طبق آزمایش‌های ایوری و همکارانش، اطلاعات وراثتی
+    در دنا قرار دارد و از نسلی به نسل دیگر منتقل می‌شوند. این اطلاعات در واحدهایی به نام ژن سازماندهی
+    شده‌اند. ژن بخشی از مولکول دنا است که بیان آن می‌تواند به تولید رنا یا پلی‌پپتید بینجامد. اینکه رنا
+    چگونه دستورالعمل‌های دنا را اجرا می‌کند، در فصل‌های آینده با آن آشنا خواهید شد.
+</p>
+
+
+
+<br>
+
+
+<br>
+
+
+<p class="MsoStep">بیشتر بدانید</p>
+<ul class="MsoNormal">
+    <li><b>سال ۱۸۶۹م:</b> میشر در عصارهٔ یاخته‌ها به وجود اسیدهای هسته‌ای (نوکلئیک اسیدها) پی برد.</li>
+    <li><b>سال ۱۹۲۸م:</b> گریفیت نشان داد که خصوصیات یک باکتری به باکتری دیگر قابل انتقال است.</li>
+    <li><b>سال ۱۹۴۴م:</b> ایوری و همکارانش برای اولین بار نشان دادند که دنا، مادهٔ ژنتیک است.</li>
+    <li><b>سال ۱۹۵۰م:</b> چارگاف نشان داد که در دناهای جانداران گوناگون تعداد T مساوی تعداد A و تعداد C مساوی تعداد G است.</li>
+    <li><b>سال ۱۹۵۲م:</b> فرانکلین و ویلکینز نشان دادند که دنا ساختار مارپیچی و چند رشته‌ای دارد.</li>
+    <li><b>سال ۱۹۵۳م:</b> واتسون و کریک مدل مارپیچ دو رشته‌ای را برای دنا ارائه کردند.</li>
+</ul>
+<br>
+
+<br>
+<br>
+
+
+<p class="MsoStep">دخالت نوکلئوتیدها در واکنش‌های سوخت و سازی</p>
+<p class="MsoNormal">
+    نوکلئوتیدها علاوه بر شرکت در ساختار دنا و رنا نقش‌های اساسی دیگری نیز در یاخته بر عهده دارند.
+    برای مثال نوکلئوتید آدنین‌دار ATP (آدنوزین تری‌فسفات) به‌عنوان منبع رایج انرژی در یاخته است و
+    یاخته در فعالیت‌های مختلف از آن استفاده می‌کند.
+</p>
+
+ 
+<p class="MsoNormal">
+    همچنین نوکلئوتیدها در ساختار مولکول‌هایی وارد می‌شوند که در فرایندهای فتوسنتز و تنفس یاخته‌ای
+    نقش حامل الکترون را بر عهده دارند. با این مولکول‌ها در فصل‌های آینده آشنا خواهید شد.
+</p>
+
+
+
+
+<br><br><br><br><br>
+
+
+    </body>
+
+
+</html>

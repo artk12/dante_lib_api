@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi {
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSemic,
+        li.MsoSemic,
+        div.MsoSemic {
+            margin: 0in;
+           
+            font-size: clamp(1.2rem, 1.6vw, 1.3rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #b19af2;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #6ca4ec;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .boxp {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .boxg {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#00f2ff11; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        .boxb {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#0c4e9f2d; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        ::selection {
+            background-color: #59078fa1; /* Change this to your desired highlight color */
+            color: #ffffff; /* Change this to your desired text color */
+          }
+
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+        mark{
+            background-color:#078b8fa1 ;
+            color: #ffffff;
+            padding: 0 7px;
+        }
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+
+    <body class="custom-scrollbar">
+
+
+
+        <div class="MsoBold">فصل ۱
+            <br>
+            ترسیم‌های هندسی و استدلال</div>
+        <p class="MsoNormal">
+            هندسه و به‌ویژه ترسیم‌های هندسی از دیرباز مورد استفاده بشر بوده‌ است.
+        </p>
+        
+
+<br><hr>
+
+<p class="MsoBold">
+    درس اول
+    <br>
+    ترسیم های هندسی 
+</p>
+
+<p class="MsoNormal">
+    انسان از دوران باستان تاکنون همواره از هندسه و به ویژه از ترسیم‌های هندسی برای حل مسائل مختلف یاری گرفته است.
+    از تقسیم‌بندی زمین‌های کشاورزی تا طراحی انواع ابزارهای کاربردی پیشرفته کنونی، همگی نیازمند ترسیم‌های هندسی است.
+</p>
+<br><hr><br>
+<p class="MsoStep">
+    فعالیت
+</p>
+<p class="MsoNormal">
+    (برای مراحل زیر از خط‌کش و پرگار استفاده کنید.)
+</p>
+<br>
+<p class="MsoNormal">١ــ نقطه‌ای مانند $O$ را در صفحه در نظر بگیرید و نقاطی را مشخص کنید که فاصله یکسانی از نقطه $O$ دارند. (مثلاً همهٔ نقاطی که فاصله‌شان از نقطه $O$ برابر $۲$ سانتی‌متر است.)</p>
+<br>
+<p class="MsoNormal">٢ــ خط $d$ را در نظر بگیرید و تمام نقاطی که به فاصله $۲$ سانتی‌متر از خط $d$ قرار دارند را مشخص کنید.</p>
+<br>
+<p class="MsoNormal">٣ــ نقاط $A$ و $B$ را در نظر بگیرید. دهانهٔ پرگار را بیش از نصف طول پاره‌خط $AB$ باز کنید و یک‌بار به مرکز $A$ و بار دیگر به مرکز $B$ و با همان شعاع قبلی کمان بزنید تا یکدیگر را در نقاط $U$ و $V$ قطع کنند. $U$ و $V$ چه ویژگی مشترکی دارند؟</p>
+<br>
+<p class="MsoNormal">٤ــ نقطه $A$، مانند شکل مقابل به فاصله $۱$ سانتی‌متر از خط $d$ قرار دارد. نقاطی از خط $d$ را بیابید که به فاصله $۲$ سانتی‌متر از نقطه $A$ باشند.</p>
+<br>
+<p class="MsoNormal">٥ــ نقاط $A$ و $B$ را به فاصله $۵$ سانتی‌متر از هم در نظر بگیرید. دهانهٔ پرگار را به اندازهٔ $۳$ سانتی‌متر باز کنید و از نقطه $A$ یک کمان بزنید. سپس دهانهٔ پرگار را به اندازهٔ $۴$ سانتی‌متر باز کنید و از نقطه $B$ یک کمان بزنید.</p>
+<br>
+<p class="MsoNormal">
+    الف) نقاط روی کمان اول چه ویژگی مشترکی دارند؟ 
+    <br>
+    ب) نقاط روی کمان دوم چه ویژگی مشترکی دارند؟
+</p>
+
+<br><br>
+
+<p class="MsoNormal">پ) نقاط تقاطع دو کمان فاصله‌شان از نقاط $A$ و $B$ چگونه است؟ برای اینکه چنین نقاط تقاطعی وجود داشته باشند، اندازهٔ شعاع آنها و فاصلهٔ نقاط $A$ و $B$ چه شرطی باید داشته باشند؟</p><br>
+<p class="MsoNormal">ت) طول اضلاع مثلث $AUB$ چقدر است؟</p><br>
+
+<br><hr><br>
+<p class="MsoStep">
+   کار در کلاس
+</p>
+
+<p class="MsoNormal">١ــ دو نقطه مانند $A$ و $B$ را به فاصلهٔ $٣$ سانتی‌متر از هم در نظر بگیرید. نقاطی را بیابید که فاصله‌شان از $2$، $A$ و از $2.5$، $B$ سانتی‌متر باشد.</p><br>
+
+<p class="MsoNormal">٢ــ توضیح دهید که چگونه می‌توان مثلثی به طول اضلاع $٤$ و $٥$ و $٦$ واحد رسم کرد.</p><br>
+
+<p class="MsoNormal">٣ــ نقاط $A$ و $B$ به فاصلهٔ $٧$ سانتی‌متر از هم قرار دارند. نقطه‌ای پیدا کنید که فاصله‌اش از نقطه $A$ برابر $ . . . .$ و از نقطه $B$ برابر $ . . . .$ باشد. جاهای خالی را به‌گونه‌ای کامل کنید که مسئلهٔ زیر:</p><br>
+
+<p class="MsoNormal">الف) دو جواب داشته باشد.</p>
+<p class="MsoNormal">ب) یک جواب داشته باشد.</p>
+<p class="MsoNormal">پ) جواب نداشته باشد.</p>
+
+
+<br><hr>
+
+<p class="MsoBold">برخی خواص نیم‌ساز و ترسیم آن</p>
+<p class="MsoStep">
+    فعالیت
+</p>
+
+<p class="MsoNormal">١ــ زاویه $xOy$ و نیم‌خط $Oz$ را نیم‌ساز آن در نظر بگیرید. فرض کنید نقطه $A$ نقطه‌ای دلخواه روی $Oz$ باشد. ثابت کنید که فاصلهٔ نقطه $A$ از دو ضلع زاویه $xOy$ یکسان است. (یعنی اگر از نقطه $A$ عمودهایی بر نیم‌خط‌های $Oy$، $Ox$ رسم کنیم طول آنها با هم برابر است.)</p><br>
+
+<div class="boxp">
+    <p class="MsoStep">
+       نتیجه
+       1
+    </p>
+<p class="MsoNormal"> اگر نقطه‌ای روی نیم‌ساز یک زاویه قرار داشته باشد
+
+    $. . . . . . . . . . . . $ .
+</p>
+
+</div>
+
+<br>
+<p class="MsoNormal">٢ــ زاویه $xOy$ و نقطه $A$ را چنان در نظر می‌گیریم که فاصلهٔ نقطه $A$ از نیم‌خط‌های $Oy$ و $Ox$ با هم برابر باشد.</p><br>
+<p class="MsoNormal">نشان دهید که نقطه $A$ روی نیمساز زاویه $xOy$ قرار دارد.</p><br><br>
+<p class="MsoNormal">(راهنمایی: پاره‌خط $OA$، و دو عمود از نقطهٔ $A$ بر خطوط $Ox$ و $Oy$ رسم کنید و نشان دهید پاره‌خط $OA$ همان نیمساز $xOy$ است.)</p><br>
+
+<div class="boxp">
+    <p class="MsoStep">
+        نتیجه 2
+    </p>
+    <p class="MsoNormal"> اگر نقطه‌ای به فاصلهٔ یکسان از دو ضلع یک زاویه باشد، آن نقطه روی نیمساز زاویه قرار دارد.</p>
+</div>
+<br>
+<div class="boxp">
+    <p class="MsoStep">
+نتیجه گیری 
+    </p>
+<p class="MsoNormal">
+    <mark>از نتایج قبلی نتیجه می‌گیریم:</mark>
+    هر نقطه که روی $. . . . . . .$ یک زاویه قرار داشته باشد٬ $. . . . . . . $ و هر نقطه که از دو ضلع یک زاویه به یک فاصله باشد٬ روی $. . . . . . . .$ آن زاویه قرار دارد .
+
+</p>
+
+
+</div>
+<br><hr><br>
+<div class="MsoStep">فعالیت</div><br>
+<p class="MsoNormal">١ــ زاویه $xOy$ را در نظر بگیرید. دهانهٔ پرگار را کمی باز کنید و به مرکز $O$ کمانی بزنید تا نیم‌خط‌های $Ox$ و $Oy$ را به ترتیب در نقاط $A$ و $B$ قطع کند.</p><br>
+<p class="MsoNormal">ــ طول پاره‌خط‌های $OA$ و $OB$ نسبت به هم چگونه‌اند؟ چرا؟</p><br>
+<p class="MsoNormal">٢ــ دهانهٔ پرگار را کمی باز کنید (بیش از نصف طول $AB$) و یک بار به مرکز $A$ و بار دیگر به مرکز $B$ با همان اندازهٔ کمان بزنید تا دو کمان مانند شکل در نقاطی مانند $W$ همدیگر را قطع کنند.</p><br>
+<p class="MsoNormal">ــ پاره‌خط‌های $WA$ و $WB$ را رسم کنید. دو مثلث $OAW$ و $OBW$ نسبت به هم چگونه‌اند؟ چرا؟</p><br>
+<p class="MsoNormal">ــ اندازهٔ زاویه‌های $AOW$ و $BOW$ نسبت به هم چگونه‌اند؟ چرا؟</p><br>
+<p class="MsoNormal">ــ پاره‌خط $OW$ برای زاویه $xOy$ چه نوع پاره‌خطی است؟</p><br>
+
+
+<br><hr><br>
+<div class="MsoStep">کار در کلاس</div>
+<p class="MsoNormal">روش رسم نیمساز یک زاویه را توضیح دهید.</p><br>
+
+<br><hr><br>
+
+
+<div class="MsoBold">برخی خواص عمودمنصف و ترسیم آن</div>
+<div class="MsoStep">فعالیت</div>
+<p class="MsoNormal">١ــ پاره‌خط $AB$ و عمودمنصف آن را مانند شکل مقابل در نظر بگیرید و فرض کنید $W$ نقطه‌ای روی عمودمنصف $AB$ باشد. نشان دهید نقطه $W$ از دو سر پاره‌خط $AB$ به یک فاصله است.</p>
+<br>
+<div class="boxp">
+    <p class="MsoStep">
+        نتیجه ١
+    </p>
+    <p class="MsoNormal"> اگر نقطه‌ای روی عمودمنصف یک پاره‌خط قرار داشته باشد، از دو سر آن پاره‌خط  $ . . . . . . . . . . . . . . . . . . . . . $  .</p>
+</div>
+<br><br>
+<p class="MsoNormal">٢ــ نقطه $W$ را به $A$ و $B$ و به وسط پاره‌خط $AB$ وصل کنید و نشان دهید مثلث‌های ایجاد شده باهم هم‌نهشت هستند و از این مطلب استفاده کنید و نشان دهید $W$ روی عمودمنصف پاره‌خط $AB$ قرار دارد.</p><br>
+<p class="MsoNormal">(راهنمایی: از نقطه $W$ به $A$ و $B$ و به وسط پاره‌خط $AB$ وصل کنید و نشان دهید مثلث‌های ایجاد شده باهم هم‌نهشت هستند و از این مطلب استفاده کنید و نشان دهید $W$ روی عمودمنصف پاره‌خط $AB$ قرار دارد.)</p><br>
+
+<div class="boxp">
+    <p class="MsoStep">نتیجه ٢</p>
+    <p class="MsoNormal">اگر نقطه‌ای از دو سر یک پاره‌خط به یک فاصله باشد، $. . . . . . . . . . . . . .  . . . . . .  . . . .$.</p>
+</div><br>
+
+<div class="boxp">
+<div class="MsoStep">نتیجه‌گیری</div>
+<p class="MsoNormal">
+    <mark>از (١) و (٢) نتیجه می‌گیریم:
+    </mark>هر نقطه که روی عمودمنصف یک پاره‌خط قرار داشته باشد،
+    
+$. . . . . . . . . . . .$ و هر نقطه که $. . . . . . . . . . . .$ روی عمود منصف $. . . . . . . . . . . .$ .
+
+</p>
+</div>
+
+<br><hr><br>
+<div class="MsoStep">فعالیت</div>
+<p class="MsoNormal">١ــ یک نقطه را در صفحه در نظر بگیرید و خطی بکشید که از آن نقطه عبور کند. چند خط متنافر می‌توانید رسم کنید که از نقطه مورد نظر بگذرد؟</p><br>
+<p class="MsoNormal">٢ــ دو نقطه را در یک صفحه در نظر بگیرید و خطی بکشید که از آن دو نقطه عبور کند. چند خط متنافر می‌توانید رسم کنید که از هر دو نقطه مورد نظر بگذرد؟</p><br>
+<p class="MsoNormal">٣ــ به نظر شما برای اینکه یک خط به طور کامل مشخص باشد، حداقل چند نقطه از آن خط را باید داشته باشیم؟</p><br>
+
+
+<br><hr><br>
+
+<div class="MsoStep">فعالیت</div>
+<p class="MsoNormal">پاره‌خط $AB$ را مانند شکل مقابل در نظر بگیرید.</p><br>
+<p class="MsoNormal">١ــ دهانهٔ پرگار را بیش از نصف طول $AB$ باز کنید و یک بار از نقطه $A$ و بار دیگر با همان اندازه از نقطه $B$ کمان بزنید تا یکدیگر را در دو نقطه مانند $U$ و $V$ قطع کنند.</p><br>
+<p class="MsoNormal">٢ــ طول پاره‌خط‌های $AU$ و $BU$ نسبت به هم چگونه‌اند؟ چرا؟</p><br>
+<p class="MsoNormal">٣ــ طول پاره‌خط‌های $AV$ و $BV$ نسبت به هم چگونه‌اند؟ چرا؟</p><br>
+<p class="MsoNormal">٤ــ آیا می‌توان گفت نقاط $U$ و $V$ روی عمودمنصف پاره‌خط $AB$ قرار دارند؟ چرا؟</p><br>
+<p class="MsoNormal">٥ــ عمودمنصف پاره‌خط $AB$ را رسم کنید.</p><br>
+<br><hr><br>
+<div class="MsoStep">کار در کلاس</div>
+<p class="MsoNormal">مراحل رسم عمودمنصف یک پاره‌خط را توضیح دهید.</p>
+<br><hr><br>
+<div class="MsoBold">رسم خط عمود بر یک خط و رسم خط موازی با یک خط</div>
+
+<div class="MsoStep">فعالیت</div>
+<p class="MsoSemi">رسم خط عمود بر یک خط از نقطه‌ای روی آن</p><br>
+<p class="MsoNormal">خط $d$ و نقطه $M$ را روی آن، مانند شکل مقابل در نظر بگیرید. می‌خواهیم خطی بکشیم که از $M$ بگذرد و بر $d$ عمود باشد.</p><br>
+<p class="MsoNormal">١ــ به کمک پرگار چگونه می‌توانید نقاط $A$ و $B$ را روی خط $d$ بیابید؛ به‌گونه‌ای که $A$ و $B$ وسط پاره‌خط $AB$ باشد.</p><br>
+<p class="MsoNormal">٢ــ عمودمنصف پاره‌خط $AB$ را رسم کنید.</p><br>
+<p class="MsoNormal">٣ــ عمودمنصف پاره‌خط $AB$ خطی است که بر خط $  . . . . . . . \quad d$ 
+         و از نقطه $. . . . . . . . .$ عبور می‌کند.</p><br>
+
+
+<br><hr><br>
+<div class="MsoStep">کار در کلاس</div>
+<p class="MsoNormal">مراحل رسم خط عمود بر یک خط از نقطه‌ای روی آن را توضیح دهید.</p>
+<br><hr><br>
+<div class="MsoStep">فعالیت</div>
+<p class="MsoSemi">رسم خط عمود بر یک خط از نقطه‌ای غیر واقع بر آن</p>
+<br>
+<p class="MsoNormal">خط $d$ و نقطه $T$ را که غیر واقع بر آن است، مانند شکل مقابل در نظر بگیرید. می‌خواهیم خطی بکشیم که از $T$ بگذرد و بر خط $d$ عمود باشد.</p><br>
+<p class="MsoNormal">١ــ به کمک پرگار چگونه می‌توانید نقاط $A$ و $B$ را روی خط $d$ بیابید به‌گونه‌ای که از نقطه $T$ به یک فاصله باشد.</p><br>
+<p class="MsoNormal">٢ــ عمودمنصف پاره‌خط $AB$ را رسم کنید.</p><br>
+<p class="MsoNormal">٣ــ آیا عمودمنصف پاره‌خط $AB$ از نقطه $T$ می‌گذرد؟ چرا؟</p><br>
+<p class="MsoNormal">عمودمنصف پاره‌خط $AB$ خطی است که بر خط $d$ عمود است و از نقطه $T$ می‌گذرد.</p><br>
+<br><hr><br>
+<div class="MsoStep">کار در کلاس</div>
+<p class="MsoNormal">روش رسم خط عمود بر یک خط از نقطه‌ای غیر واقع بر آن را توضیح دهید.</p>
+<br><hr><br>
+<div class="MsoStep">فعالیت</div>
+<p class="MsoSemi">رسم خط موازی با خط داده شده از یک نقطه غیر واقع بر آن</p>
+<br>
+<p class="MsoNormal">خط $d$ و نقطه $T$ مانند شکل مقابل داده شده‌اند. می‌خواهیم خطی رسم کنیم که از نقطه $T$ بگذرد و با خط $d$ موازی باشد.</p><br>
+<p class="MsoNormal">١ــ خط $d_1$ را به‌گونه‌ای رسم کنید که از نقطه $T$ بگذرد و بر خط $d$ عمود باشد.</p><br>
+<p class="MsoNormal">٢ــ خط $d_2$ را به‌گونه‌ای رسم کنید که از نقطه $T$ بگذرد و بر خط $d_1$ عمود باشد.</p><br>
+<p class="MsoNormal">٣ــ خط $d$ نسبت به خط $T$ چه وضعیتی دارد؟ چرا؟ (خط $D_1$ را مورب در نظر بگیرید.)</p><br>
+<br><hr><br>
+<div class="MsoStep">کار در کلاس</div>
+<p class="MsoNormal">روش رسم خط موازی با یک خط از نقطه‌ای غیرواقع بر آن را توضیح دهید.</p>
+<br><hr><br>
+<div class="MsoStep">تمرین</div>
+<p class="MsoNormal">١ــ فرض کنیم هر چهارضلعی که قطرهایش منصف هم باشند، موازی‌الاضلاع است. موازی‌الاضلاعی رسم کنید که طول قطرهای آن $٤$ و $٧$ باشد. چند متوازی‌الاضلاع به طول قطرهای $٤$ و $٧$ می‌توان رسم کرد؟</p>
+
+<br><br>
+
+<p class="MsoNormal">٢ــ فرض کنیم هر چهارضلعی که قطرهایش باهم برابر و منصف هم باشند، مستطیل است. مستطیلی رسم کنید که طول قطر آن $٦$ سانتی‌متر باشد.</p><br>
+<br>
+<p class="MsoNormal">٣ــ فرض کنیم که برای لوزی بودن یک چهارضلعی کافی است که قطرهای آن چهارضلعی عمودمنصف یکدیگر باشند. رسم‌های زیر را انجام دهید.</p><br>
+<p class="MsoNormal">الف) یک لوزی رسم کنید که طول قطرهای آن $٣$ و $٥$ باشد.</p><br>
+<p class="MsoNormal">ب) یک لوزی به طول ضلع $٥$ و طول قطر $٦$ رسم کنید.</p><br>
+<br>
+<p class="MsoNormal">٤ــ دو ضلع یک زاویه را در نظر بگیرید.</p><br>
+<p class="MsoNormal">الف) نقطه‌ای بیابید که فاصله‌اش از هر ضلع زاویه مورد نظر $٢$ واحد باشد.</p><br>
+<p class="MsoNormal">ب) با استفاده از نقطه‌ای که در قسمت (الف) یافتید، نیمساز زاویه را رسم کنید.</p><br>
+<br>
+<p class="MsoNormal">٥ــ به قسمت (الف) پاسخ دهید و از نتیجه آن در قسمت (ب) استفاده کنید.</p><br>
+<p class="MsoNormal">الف) وری یک دایره را در نظر بگیرید. وضعیت عمودمنصف $AB$ و مرکز دایره نسبت به هم چگونه‌اند؟ چرا؟</p><br>
+<p class="MsoNormal">ب) آیا می‌دانستید که در زمین فوتبال نقطه پنالتی مرکز دایره‌ای است که قسمتی از قوس آن در جلوی محوطه جریمه کشیده شده است؟</p><br>
+<p class="MsoNormal">یک داور فوتبال لحظه‌ای که اعلام پنالتی می‌کند، متوجه می‌شود که نقطه پنالتی مشخص نیست. اگر او وسایل لازم برای کشیدن خط راست و کمان دایره را داشته باشد، چگونه می‌تواند با استفاده از دایرهٔ موجود جلوی محوطه جریمه نقطه پنالتی را مشخص کند؟</p><br>
+
+
+
+
+
+
+<br><br><br><br><br>
+
+
+    </body>
+
+
+</html>

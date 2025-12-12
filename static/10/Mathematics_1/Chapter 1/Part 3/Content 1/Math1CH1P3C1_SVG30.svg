@@ -1,0 +1,24 @@
+<svg width="390" height="98" viewBox="0 0 390 98" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="23" y="49" width="43" height="28" fill="#572371" stroke="#AB8EC8" stroke-width="2"/>
+<path d="M66 49H109V77H66V49Z" fill="#E0CCEB" fill-opacity="0.8"/>
+<path d="M66 49V48H65V49H66ZM66 77H65V78H66V77ZM66 50H109V48H66V50ZM109 76H66V78H109V76ZM67 77V49H65V77H67Z" fill="#AB8EC8"/>
+<path d="M109 49H152V77H109V49Z" fill="#E0CCEB" fill-opacity="0.8"/>
+<path d="M152 49H153V48H152V49ZM152 77V78H153V77H152ZM109 50H152V48H109V50ZM151 49V77H153V49H151ZM152 76H109V78H152V76Z" fill="#AB8EC8"/>
+<path d="M152 49H195V77H152V49Z" fill="#E0CCEB" fill-opacity="0.8"/>
+<path d="M152 49V48H151V49H152ZM152 77H151V78H152V77ZM152 50H195V48H152V50ZM195 76H152V78H195V76ZM153 77V49H151V77H153Z" fill="#AB8EC8"/>
+<path d="M195 49H238V77H195V49Z" fill="#E0CCEB" fill-opacity="0.8"/>
+<path d="M238 49H239V48H238V49ZM238 77V78H239V77H238ZM195 50H238V48H195V50ZM237 49V77H239V49H237ZM238 76H195V78H238V76Z" fill="#AB8EC8"/>
+<path d="M238 49H281V77H238V49Z" fill="#E0CCEB" fill-opacity="0.8"/>
+<path d="M238 49V48H237V49H238ZM238 77H237V78H238V77ZM238 50H281V48H238V50ZM281 76H238V78H281V76ZM239 77V49H237V77H239Z" fill="#AB8EC8"/>
+<path d="M281 49H324V77H281V49Z" fill="#E0CCEB" fill-opacity="0.8"/>
+<path d="M324 49H325V48H324V49ZM324 77V78H325V77H324ZM281 50H324V48H281V50ZM323 49V77H325V49H323ZM324 76H281V78H324V76Z" fill="#AB8EC8"/>
+<rect x="324" y="49" width="43" height="28" fill="#572371" stroke="#AB8EC8" stroke-width="2"/>
+<rect x="23" y="21" width="43" height="28" fill="#572371" stroke="#AB8EC8" stroke-width="2"/>
+<rect x="66" y="21" width="43" height="28" fill="#572371" stroke="#AB8EC8" stroke-width="2"/>
+<rect x="109" y="21" width="43" height="28" fill="#572371" stroke="#AB8EC8" stroke-width="2"/>
+<rect x="152" y="21" width="43" height="28" fill="#572371" stroke="#AB8EC8" stroke-width="2"/>
+<rect x="195" y="21" width="43" height="28" fill="#572371" stroke="#AB8EC8" stroke-width="2"/>
+<rect x="238" y="21" width="43" height="28" fill="#572371" stroke="#AB8EC8" stroke-width="2"/>
+<rect x="281" y="21" width="43" height="28" fill="#572371" stroke="#AB8EC8" stroke-width="2"/>
+<rect x="324" y="21" width="43" height="28" fill="#572371" stroke="#AB8EC8" stroke-width="2"/>
+</svg>

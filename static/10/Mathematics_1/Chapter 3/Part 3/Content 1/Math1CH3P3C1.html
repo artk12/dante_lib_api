@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #badaff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+    <body class="custom-scrollbar">
+        
+        <div class="MsoBold">
+            درس سوم: توان‌های گویا
+        </div>
+        <hr><br>
+         
+        <div class="MsoStep">
+          فعالیت
+        </div>
+       
+            <p class="MsoNormal">
+                پدر محمد یک زیست‌شناس است و در یک آزمایشگاه پزشکی کار می‌کند. در آزمایشی یک نوع باکتری کشت داده شده که در شرایط مساعد، جرم این باکتری‌ها در هر ساعت ۲ برابر می‌شود. جرم باکتری‌ها در لحظه شروع ۱ گرم است. بنابراین جرم باکتری‌ها پس از یک ساعت ۲ گرم، پس از ۲ ساعت برابر ۴ گرم، و پس از ساعت $n$ برابر $2^n$ گرم می‌شود:
+            </p>
+            <p class="MsoNormal" style="text-align: center;">
+               $ 1, 2, 4, 8, 16, 32,  \dots $
+            </p>
+            <br>
+            <p class="MsoNormal">
+                محمد از پدرش پرسید: "آیا حتماً تا پایان ساعت باید منتظر بمانیم؟ آیا می‌توانیم جرم باکتری‌ها را پس از نیم ساعت محاسبه کنیم؟"
+            </p>
+
+            <p class="MsoNormal">
+                پدرش گفت: "تو فکر می‌کنی جرم باکتری‌ها پس از نیم ساعت چقدر می‌شود؟"
+            </p>
+            <p class="MsoNormal">
+                محمد گفت: "حدس می‌زنم جرم آن‌ها $2^{\frac{1}{2}}$ گرم شده باشد. چون نیم همان $\frac{1}{2}$ است."
+            </p>
+            <p class="MsoNormal">
+                پدرش گفت: "نه، $2^{\frac{1}{2}}$ چقدر است؟"
+            </p>
+                
+                <p class="MsoNormal">
+                    اگر فرض کنیم در هر نیم‌ساعت جرم باکتری‌ها برابر شود، در این صورت بعد از یک ساعت جرم باکتری‌ها باید برابر $b \times b = b^2$ شود. اما می‌دانیم پس از یک ساعت جرم باکتری‌ها دو برابر می‌شود، پس $b^2 = 2$ یعنی $b = \sqrt{2}$ (زیرا $b$ مثبت است).
+                </p>
+                
+                <p class="MsoNormal">
+                    نتیجه جالبی است! مشابه این رابطه را می‌توانیم برای توان‌های دیگر نیز تعریف کنیم:
+                    $$ 2 ^{\frac{1}{4}} = \sqrt[4]{2} \qquad , \qquad 2 ^{\frac{1}{3}} = \sqrt[3]{2} $$
+                </p>
+                
+                <p class="MsoNormal">
+
+                همچنین برای عدد های دیگر:
+
+                $$  5 ^{\frac{1}{3}} = \sqrt[3]{5}  $$
+
+                    می‌توانیم نماهای کسری با صورت 
+                    $1$
+                    را تعریف کنیم. 
+                    $a$
+                    عددی حقیقی و مثبت است
+                </p>
+
+                <br>
+                <div class="MsoNormal" style="text-align:right; background-color:#a600ff20; padding:20px; margin:20px; border: 5px solid black; box-shadow: 5px 5px 0 black;border-radius:12px;">
+            
+                    برای هر عدد طبیعی $n \geq 2$، توان $ \frac{1}{n} $ عدد مثبت $a$ را چنین تعریف می‌کنیم:
+                    <p class="MsoNormal" >
+                     $$ a^{\frac{1}{n}} = \sqrt[n]{a} $$
+                    </p>
+                </div>
+                <br>
+                <p class="MsoNormal">
+                    اگر $a < 0$، 
+                    $ a^{\frac{1}{n}} $ 
+                    تعریف نمی‌شود. به عنوان مثال، عبارت‌هایی مانند 
+                    $ (-1)^{\frac{1}{۳}} $ 
+                    و 
+                    $ (-2)^{\frac{2}{4}} $ 
+                    تعریف نمی‌شوند. در تمام این فصل، در عبارت 
+                    $ a^{\frac{1}{n}} $، 
+                    $a$ را عددی مثبت درنظر می‌گیریم.
+                </p>
+                
+                <br><hr><br>
+
+                
+                <div class="MsoStep">
+                    فعالیت
+                  </div>
+
+                    <p class="MsoNormal">
+                        هر یک از عبارت‌های زیر را به شکل رادیکالی نوشته و در صورت امکان حاصل آنها را به‌دست آورید.
+                    </p>
+                <br>
+                    <table class="table" style="margin:auto; text-align: center; min-width:280px">
+                        <tr>
+                            <td>$ 2^{\frac{1}{3}} = \sqrt[3]{2} $</td>
+                            <td>$  3^{\frac{1}{2}} = $</td>
+                            <td>$  4 ^{\frac{1}{4}} = $</td>
+                        </tr>
+                        <tr>
+                            <td>$  5 ^{\frac{1}{7}} = $</td>
+                            <td>$  6 ^{\frac{1}{4}} = $</td>
+                            <td>$  81 ^{\frac{1}{4}} = $</td>
+                        </tr>
+                    </table>
+                
+                    
+
+                    <br><hr><br>
+
+                    <div class="MsoStep">
+                        فعالیت
+                      </div>
+
+                      <p class="MsoNormal">
+                        حاصل $ a ^{\frac{m}{n}} $ که $a > 0$ و $m$ و $n$ دو عدد طبیعی هستند را چگونه حساب می‌کنیم؟
+                    </p>
+                    <br>
+                    <p class="MsoNormal">
+                        در مبحث توان با نمادهای طبیعی یادمان هست چگونه عمل کردیم؟
+                    </p>
+                    <br>
+                    <p class="MsoNormal" style="text-align: center;">
+                        (قاعده ضرب توان) 
+                        $ 2^6 = 2^{ \ \ 2 \times 3 } = (2^{2})^{3}    \qquad \qquad $
+                    </p>
+                    <br>  
+                    <p class="MsoNormal">
+                        در مورد توان‌های گویا هم می‌توانیم به طریق مشابه عمل کنیم:
+                    </p>
+                    <br>
+                    <p class="MsoNormal">
+                        $$
+                        \begin{align*}
+                            2^{\frac{2}{3}} &= (2^2)  ^{2 \times {\frac{1}{3}}} = (2 ^{2}) ^{\frac{1}{3}} = \sqrt[3]{2 ^{2}} \\ \\ 
+                            5^{\frac{8}{3}} &= 5 ^{8 \times {\frac{1}{3}}} = (5 ^{8}) ^{\frac{1}{3}} = \sqrt[3]{5 ^{8}} 
+                        \end{align*}
+                        $$
+                    </p>
+                    <br>
+                    <p class="MsoNormal">
+                        به‌طور کلی:
+                    </p>
+                    
+
+                    <div class="MsoNormal" style="text-align:right; background-color:#a600ff20; padding:20px; margin:20px; border: 5px solid black; box-shadow: 5px 5px 0 black;border-radius:12px;">
+
+                    <p class="MsoNormal">
+                        هرگاه $a > 0$ برای هر دو عدد طبیعی $m$ و $n$ $ a^{\frac{m}{n}}  \text{,} $ را چنین تعریف می‌کنیم:
+                    </p>
+                    
+                    <p class="MsoNormal" style="text-align: center;">
+                        $$ a^{\frac{m}{n}} = \sqrt[n]{a^m} $$
+                    </p>
+                    
+                    <p class="MsoNormal">
+                        اگر $a > 0$ و $m$ و $n$ دو عدد طبیعی، $a^{\frac{m}{n}}$ به‌صورت زیر تعریف می‌شود:
+                    </p>
+                    
+                    <p class="MsoNormal" style="text-align: center;">
+                        $$ a^{\frac{m}{n}} = (a ^{\frac{1}{n}}) ^{m} = (a ^m) ^{\frac{1}{n}} $$
+                    </p>
+
+                    <p class="MsoNormal" >
+                        بنابراین:
+                        
+                        $$ a^{\frac{m}{n}} = (\sqrt[n]{a}) ^{m} = \sqrt[n]{a^{m}}  $$
+                    </p>
+
+                    <p class="MsoNormal">
+                        همچنین $a^{-\frac{m}{n}}$ نیز به‌صورت زیر تعریف می‌شود:
+                   </p>
+                    
+                    <p class="MsoNormal" style="text-align: center;">
+                        $$ a^{-\frac{m}{n}} = \frac{1}{a^{\frac{m}{n}}} $$
+                    </p>
+                    
+                    </div>
+                    <br><br>
+
+                    <p class="MsoNormal">
+                        اکنون شما اعداد توان‌دار زیر را به شکل رادیکالی بنویسید و در صورت امکان حاصل آنها را به‌دست آورید.
+                    </p>
+                    <br>
+                    <p class="MsoNormal" style="text-align: center;"> 
+                        (الف) $\qquad \qquad$ $5 ^{\frac{5}{2}}$
+
+                        
+
+                         (ب) $3 ^{\frac{2}{7}}$
+
+                        <br><br>
+
+                        (پ) $\qquad \qquad$ $81 ^{\frac{3}{4}}$
+                        
+                        
+
+                        (ت) $16 ^{-\frac{1}{4}}$
+                        
+                    </p>
+                    <br><br>
+                 
+                    
+
+
+                    <div class="MsoNormal" style="text-align:right; background-color:#a600ff20; padding:20px; margin:20px; border: 5px solid black; box-shadow: 5px 5px 0 black;border-radius:12px;">
+                        <p class="MsoNormal">
+                            اگر $r$ و $s$ دو عدد گویا باشند، و $a$ و $b$ اعدادی مثبت باشند، داریم:
+                        </p>
+                        <br>
+                    <p class="MsoNormal" style="text-align: center;">
+                       
+                        $$ 
+                        \begin{align*}
+
+                        \text{1)} & \qquad  a^r \times a^s = a^{r+s} \\ \\
+                        
+                        \text{2)} & \qquad(a^r)^s = a^{rs} \\ \\
+
+                        \text{3)} & \qquad(ab)^r = a^r \times b^r 
+
+                        \end{align*}
+                        $$
+                    </p>
+                    
+                    </div>
+
+                    <br><hr style="background-color: #D6D1DA;"><br>
+
+                    <p class="MsoStep" style="opacity: 0.6;">
+
+                        بیشتر بدانیم
+                    </p>
+
+                    <p class="MsoNormal">
+                        باکتری‌ها موجودات بسیار ریزی هستند که در انواع مختلف در همه جا حضور دارند. بیشتر باکتری‌ها در فاصله ۲۰ دقیقه به حداکثر رشد خود می‌رسند و می‌توانند شروع به تولید مثل کنند. در شرایط محیطی مناسب، باکتری‌ها با سرعت باورنکردنی تکثیر می‌شوند. مثلاً یک باکتری بعد از ۲۰ دقیقه به دو باکتری تبدیل می‌شود و بعد از ۴۰ دقیقه، تعداد باکتری‌ها چهار برابر می‌شود و به ترتیب تعداد باکتری‌ها دو برابر می‌شود و به ترتیب ۸، ۱۶، ۳۲، ۶۴، ۱۲۸، ۲۵۶ و ... باکتری پدید می‌آید. اگر این روند بیشتر از ۲۴ ساعت ادامه یابد، از یک باکتری، توده‌ای از باکتری‌ها به وجود خواهد آمد. البته معمولاً چنین اتفاقی نمی‌افتد، زیرا در این مدت مواد غذایی آن‌ها تمام می‌شود و به زودی محیط زندگی آن‌ها تغییر می‌کند و دیگر قادر به تولید مثل بیشتر نخواهند بود. اگرچه بعضی از باکتری‌ها عامل فساد مواد غذایی و بیماری هستند، اما بسیاری از باکتری‌ها مفیدند. باکتری‌ها در تهیه فرآورده‌های غذایی، شیمیایی و همچنین در شناسایی و استخراج معادن و پاکسازی محیط زیست کاربرد دارند. باکتری‌هایی نیز برای خالص‌سازی عناصر معدنی مانند مس و اورانیوم کاربرد دارند. همچنین باکتری‌ها در پاکسازی آب‌ها و خاک‌های آلوده به آلاینده‌های نفتی و شیمیایی کاربرد وسیعی دارند. باکتری‌ها نقش بسیار مهم در اکوسیستم جهانی (اکوسیستم‌های آبی و خشکی) دارند. مهم‌ترین راه دستیابی گیاهان به نیتروژن توسط برخی از باکتری‌ها صورت می‌گیرد.
+                    </p>
+
+                    
+                    <br><hr><br>
+
+
+                    <p class="MsoStep">
+                        کار در کلاس
+                    </p>
+
+                    <p class="MsoNormal">
+                        ۱) تساوی‌های زیر را مانند نمونه به‌صورت رادیکالی بنویسید.
+                    </p>
+                    <br>
+                    <p class="MsoNormal" style="text-align: left;">
+                        $ 3 ^{\frac{2}{5}} = \sqrt[5]{3^2} $ <br><br>
+                        $ 3 ^{\frac{5}{4}} = \sqrt[4]{3^5} = \sqrt[4]{3^4 \times 3} = \sqrt[4]{3^4} \times \sqrt[4]{3} = 3 \sqrt[4]{3} $ <br><br>
+                        $ 4 ^{\frac{1}{5}} = $  <br><br>
+                        $ 2 ^\frac{2}{3} \times 2 ^\frac{3}{2} =  $ <br><br>
+                        $ (4 \times 2) ^{\frac{1}{3}} = $ <br><br>
+                        $ 5 ^{-\frac{4}{3}} =  $  <br><br>
+                        $ (16 ^\frac{1}{3} ) ^\frac{3}{4} =  $  <br><br>
+                        $ 6 ^{\frac{3}{8}} =  $ 
+                        
+                    </p>
+
+                    <br><br>
+
+                    <p class="MsoNormal">
+                        ۲) رادیکال‌ها را در صورت امکان به شکل توان کسری بنویسید.
+                    </p>
+                    <br>
+                    <p class="MsoNormal" style="text-align: left;">
+                        $ \sqrt[7]{3^2} = 3 ^{\frac{2}{7}} $  <br><br>
+                        $ \sqrt{2 ^5} = $  <br><br>
+                        $ \sqrt[3]{7 ^2} = $  <br><br>
+                        $ \sqrt[5]{19} = $  <br><br>
+                        $ \sqrt[5]{64} = $  <br><br>
+                        $ \sqrt[5]{2 ^5} = $  <br><br>
+                        
+                    </p>
+                    <br><br>
+
+                    <p class="MsoNormal">
+                        ۳) با استفاده از نمای کسری نشان دهید که:
+                        $$ \sqrt[m]{\sqrt[n]{a}} = \sqrt[nm]{a} $$
+                        تساوی را کامل کنید $ (a > 0) $.
+                    </p>
+                    
+                    <p class="MsoNormal" style="text-align: left;">
+                        $ \sqrt[m]{\sqrt[n]{a}} = \sqrt[m]{a^{\frac{1}{n}}} = (a^{\frac{1}{n}})^{\frac{1}{m}} = a^{\frac{1}{mn}} = \dots $
+                    </p>
+                    
+                    <br><hr><br>
+
+                    <p class="MsoStep">
+                      تمرین
+                    </p>
+
+                    <p class="MsoNormal">
+                        ۱) هر یک از توان‌های کسری زیر را به‌صورت رادیکالی نوشته و در صورت امکان حاصل آنها را به‌دست آورید.
+                    </p>
+                    <br>
+                    <p class="MsoNormal" style="text-align: left;">
+                        $ 16 ^{\frac{1}{2}} =   $ <br><br>
+                        $ 5 ^{\frac{1}{2}} =  $ <br><br>
+                        $ 4 ^{\frac{3}{7}} =   $ <br><br>
+                        $  3 ^{\frac{1}{3}} \times 3 ^{\frac{2}{3}} = $ <br><br>
+                        $ (4 ^{\frac{1}{2}}) ^{\frac{2}{3}} = $ <br><br>
+                        $ 4 ^{\frac{2}{3}}  =   $  <br><br>
+                        $ 32 ^{-\frac{1}{5}} =   $ <br><br>
+                        $ 32 ^{\frac{2}{5}} =  $ <br><br>
+                        $ 125 ^{-\frac{2}{3}} =  $
+                    </p>
+                    <br><br>
+
+                    <p class="MsoNormal">
+                        ۲) می‌دانیم:
+                    </p>
+                    <br>
+                    <p class="MsoNormal" style="text-align: left;">
+                        $ \sqrt[6]{a^2} = a^{\frac{2}{6}} = a^{\frac{1}{3}} = \sqrt[3]{a} $ <br><br>
+                        $ \sqrt[12]{a^4} = (a^4) ^{\frac{1}{12}} = a ^{\frac{4}{12}} = a ^{\frac{1}{3}} = \sqrt[3]{a}  $
+                       
+                    </p>
+                    <br><br>
+                    
+                    
+                    <p class="MsoNormal">
+                        آیا تساوی $ \sqrt[km]{a^{km}} = \sqrt[m]{a^k} $ همواره برقرار است، به‌شرط اینکه $ a > 0 $ و $ n، m، k $ اعدادی طبیعی باشند؟ <br>
+                        اکنون نتیجه بگیرید که آیا هر سه عدد $ \sqrt[6]{2^3}، \sqrt[4]{2^2}، \sqrt{2} $ برابرند یا خیر.
+                    </p>
+                    
+                    <br><br>
+
+                    <p class="MsoNormal">
+                        ۳) فرض کنیم $a = 64$، $r = \frac{1}{2}$ و $s = \frac{1}{4}$، مقدارهای عددی $a^{r-s}$ و $a^s$ را محاسبه و با هم مقایسه کنید.
+                    </p>
+                    
+                    <p class="MsoNormal">
+                        اکنون خودتان، مانند نمونه سه مقدار دیگر برای $a$، $r$ و $s$ انتخاب کنید و بار دیگر مقدارهای $\frac{a^r}{a^s}$ و $a^{r-s}$ را محاسبه و با هم مقایسه کنید. می‌توانید از ماشین‌حساب کمک بگیرید. چه نتیجه‌ای می‌گیرید؟
+                    </p>
+                    <br><br>
+                    <p class="MsoNormal">
+                        ۴) حساب کنید:
+                    </p>
+                    
+                    <p class="MsoNormal" style="text-align: center;">
+                        $$
+                          \sqrt[3]{\sqrt{5}} =   \qquad   \qquad 
+                          \sqrt{\sqrt[3]{64}} =  \qquad  \qquad 
+                          \sqrt{\sqrt{81}} = 
+                        $$
+                    </p>
+                    
+
+    </body>
+
+
+</html>

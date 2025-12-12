@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #badaff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+    <body class="custom-scrollbar">
+
+
+        <div class="MsoBold">درس سوم: روابط بین نسبت‌های مثلثاتی</div>
+
+<p class="MsoNormal">در درس‌های قبل با نسبت‌های مثلثاتی و دایرهٔ مثلثاتی آشنا شدید. در این درس روابط بین این نسبت‌ها و کاربردهایی از آن‌ها را بیان می‌کنیم.</p>
+
+<br><br>
+
+<div class="MsoBold">فعالیت</div>
+
+<p class="MsoNormal">مثلث قائم‌الزاویه ABC را درنظر بگیرید.</p>
+<img class="images" src="Math1CH2P3C1_svg1.svg" style="max-width: 350px; mix-blend-mode:difference">
+
+<p class="MsoNormal">(الف) اندازهٔ وتر یعنی \( x \) را بیابید و سپس مقدار عددی هر یک از چهار نسبت مثلثاتی را برای زاویه \( \theta \) و \( \alpha \) به‌دست آورید.</p>
+<br><br>
+<div class="MsoNormal" style="text-align:left; padding-left:30px;">
+    
+$
+\sin \theta = \frac{BC}{AC} = \frac{3}{ \quad }
+$
+<br><br>
+$
+\cos \theta = \dots
+$
+<br><br>
+$
+\tan \theta = \frac{BC}{AB} = \frac{\sin \theta}{\cos \theta} = \dots
+$
+<br><br>
+$
+\cot \theta = \frac{1}{\dots} = \frac{\cos \theta}{ \dots}
+$
+<br><br>
+$
+\sin \alpha = \dots 
+$
+<br><br>
+$
+\cos \alpha = \frac{BC}{AC} = \frac{3}{\dots}
+$
+<br><br>
+$
+\tan \alpha = \frac{AB}{BC} = \dots
+$
+<br><br>
+$
+\cot \alpha = \dots 
+$
+
+
+</div>
+
+<br><br>
+<p class="MsoNormal">ب. با توجه به مقادیر عددی حاصل در قسمت (الف)، مقدار \( \sin^2 \alpha + \cos^2 \alpha \) و \( \sin^2 \theta + \cos^2 \theta \) را به‌دست آورید.</p>
+<br><hr><br>
+<div class="MsoNote" style="text-align: center; background-color:#a600ff20; padding:20px; margin:20px; border: 5px solid black; box-shadow: 5px 5px 0 black;border-radius:12px;">
+    \( \sin \theta \times \sin \theta = (\sin \theta)^2 = \sin^2 \theta \)
+</div>
+<br><hr><br>
+<br>
+<p class="MsoNormal">پ. درستی رابطهٔ \( \sin^2 \theta + \cos^2 \theta = 1 \) را با استفاده از تعریف و اطّلاع مثلث بررسی کنید.</p>
+
+<p class="MsoNormal" style="text-align: center;">
+
+    $$
+    \begin{align*}
+    
+    &(\sin^2 \theta) + (\cos^2 \theta) \\ \\
+    &= \sin^2 \theta + \cos^2 \theta \\ \\
+    &= (\frac{BC}{AC})^2 + ( \frac{AB}{AC})^2 \\ \\
+    &= \frac{BC^2 + AB^2}{AC^2} = \ \ . . . . . . 
+
+    \end{align*}
+    $$
+
+</p>
+
+<br><br>
+
+<p class="MsoNormal">ت. مشابه قسمت (ب)، درستی رابطهٔ \( \sin^2 \alpha + \cos^2 \alpha = 1 \) را بررسی کنید.</p>
+
+<br>
+
+
+
+
+<br><hr><br>
+<div class="MsoNormal" style="text-align: center; background-color:#a600ff20; padding:20px; margin:20px; border: 5px solid black; box-shadow: 5px 5px 0 black;border-radius:12px;">
+<br>
+
+اگر \( \alpha \) زاویه دلخواهی باشد، همواره داریم:
+
+$$
+\sin^2 \alpha + \cos^2 \alpha = 1
+$$
+</div>
+
+<br><hr><br>
+
+
+<p class="MsoStep">کار در کلاس</p>
+
+<p class="MsoNormal">با توجه به رابطه بالا، یعنی \( \sin^2 \alpha + \cos^2 \alpha = 1 \)، جاهای خالی را پر کنید:</p>
+
+<br><br>
+
+<p class="MsoNormal">
+    الف)
+$$
+\begin{align*}
+    & \sin^2 \alpha + \cos^2 \alpha = 1  \\ \\
+    &  \implies \sin^2 \alpha = \dots \dots  \\ \\
+    &  \implies \sin \alpha = \pm \ \ \sqrt{\dots \dots} 
+\end{align*}
+$$
+</p>
+<br><br>
+<p class="MsoNormal">
+
+
+(ب) 
+$$
+\begin{align*}
+& \sin^2 \alpha + \cos^2 \alpha = 1 \\ \\ 
+& \implies \cos^2 \alpha = \dots \dots  \\ \\
+& \implies \cos \alpha = \pm \ \ \sqrt{\dots \dots}  
+\end{align*}
+$$
+
+
+
+</p>
+<br><br>
+<div class="MsoNormal" style="text-align:right; background-color:#a600ff20; padding:20px; margin:20px; border: 5px solid black; box-shadow: 5px 5px 0 black;border-radius:12px;">
+
+تذکر: در رابطه‌هایی که به‌دست آوردید، علامت نسبت مثلثاتی زاویه \( \alpha \) با توجه به ناحیه‌ای که زاویه \( \alpha \) در آن قرار دارد، تعیین می‌شود.
+</div>
+
+
+
+
+
+
+
+<div class="MsoBold">مثال</div>
+
+<p class="MsoNormal">اگر \( \alpha \) زاویه‌ای در ناحیهٔ سوم مثلثاتی باشد و \( \sin \alpha = \frac{-4}{5} \)، آنگاه مقدار \( \cos \alpha \)، \( \tan \alpha \)، و \( \cot \alpha \) را به‌دست آورید.</p>
+
+<br>
+<p class="MsoNormal">
+$$
+\begin{align*}
+ \cos \alpha &= \pm \sqrt{1 - \sin^2 \alpha} \\ \\
+ \overset{\text{در ناحیهٔ سوم}}{\Rightarrow} \quad \cos \alpha &= -\sqrt{1 - ( \frac{-4}{5})^2} \\ \\
+& = -\sqrt{\frac{9}{25}}  \\ \\
+& = -\frac{3}{5} \\ \\
+\end{align*}
+$$
+</p>
+<br><br>
+<p class="MsoNormal" style="text-align: center;">
+\[
+\tan \alpha = \frac{\sin \alpha}{\cos \alpha} = \frac{-\frac{4}{5}}{-\frac{3}{5}} = \frac{4}{3}
+\]
+</p>
+<br><br>
+<p class="MsoNormal" style="text-align: center;">
+\[
+\cot \alpha = \frac{1}{\tan \alpha} = \frac{1}{\frac{4}{3}} = \frac{3}{4}
+\]
+</p>
+
+
+
+
+
+
+<br><hr><br>
+<p class="MsoSub">رابطه‌های تانژانت بر حسب کسینوس و کتانژانت بر حسب سینوس</p>
+
+<br><hr><br>
+<div class="MsoStep">کار در کلاس</div>
+
+
+<p class="MsoNormal">در این قسمت رابطه‌ای برای تانژانت بر حسب کسینوس یک زاویه و همچنین رابطه‌ای برای کتانژانت بر حسب سینوس، به‌دست می‌آوریم:</p>
+<br><br>
+<p class="MsoNormal" style="text-align: center;">
+\[
+\sin^2 \alpha + \cos^2 \alpha = 1 \implies \frac{\sin^2 \alpha}{\cos^2 \alpha} + \frac{\cos^2 \alpha}{. . . . . . } = \frac{1}{. . . . . . }
+\]
+</p>
+
+<div class="MsoNormal" style="text-align:right; background-color:#a600ff20; padding:20px; margin:20px; border: 5px solid black; box-shadow: 5px 5px 0 black;border-radius:12px;">
+    \[
+\implies \tan^2 \alpha + 1 = \frac{1}{\cos^2 \alpha} \quad \quad \quad (\cos \alpha \neq 0)
+\]
+</div>
+
+<br><br>
+
+<p class="MsoNormal" style="text-align: center;">
+\[
+\sin^2 \alpha + \cos^2 \alpha = 1 \implies \frac{\sin^2 \alpha}{\sin^2 \alpha} + \frac{. . . . . .}{. . . . . .} = \frac{. . . . . .}{. . . . . .}
+\]
+</p>
+
+<div class="MsoNormal" style="text-align:right; background-color:#a600ff20; padding:20px; margin:20px; border: 5px solid black; box-shadow: 5px 5px 0 black;border-radius:12px;">
+    \[
+\implies 1 + \cot^2 \alpha = \frac{1}{\sin^2 \alpha}  \quad \quad \quad (\sin \alpha \neq 0)
+\]
+</div>
+
+<br><br>
+
+<p class="MsoNormal">۳. اگر \( 90^0 < \alpha < 180^0 \) و \( \tan \alpha = \frac{-3}{4} \)، آنگاه سایر نسبت‌های مثلثاتی زاویه \( \alpha \) را به‌دست آورید.</p>
+<br>
+<br><hr>
+
+<p class="MsoBold">اتحاد مثلثاتی</p>
+<hr><br>
+<p class="MsoNormal">هر یک از تساوی‌های زیر یک اتحاد مثلثاتی هستند:</p>
+<br>
+<p class="MsoNormal" style="text-align: left;">
+$
+1 + \tan^2 \alpha = \frac{1}{\cos^2 \alpha} \quad \quad(\cos \alpha \neq 0)
+$
+<br><br>
+$
+\sin^2 \alpha + \cos^2 \alpha = 1
+$
+<br><br>
+$
+1 + \cot^2 \alpha = \frac{1}{\sin^2 \alpha} \quad \quad (\sin \alpha \neq 0)
+$
+</p>
+<br>
+
+<p class="MsoNormal">این تساوی‌ها برای هر زاویه \( \alpha \) همواره برقرار است و یک اتحاد مثلثاتی را تشکیل می‌دهند.</p>
+
+<br><br>
+
+
+
+<p class="MsoNormal">هرگاه بخواهیم ثابت کنیم بین دو عبارت مثلثاتی یک تساوی (اتحاد) برقرار است، می‌توانیم یک طرف تساوی را بنویسیم و با توجه به روابط بین نسبت‌های مثلثاتی به‌طرف دیگر برسیم. به مثال زیر توجه کنید:</p>
+
+
+<div class="MsoBold">مثال</div>
+
+<p class="MsoNormal">درستی اتحاد مثلثاتی زیر را بررسی کنید:</p>
+
+<p class="MsoNormal" style="text-align: center;">
+\[
+\left( \frac{1}{\cos \theta} + \tan \theta \right)(1 - \sin \theta) = \cos \theta
+\]
+</p>
+
+<div class="MsoNormal" style="text-align:right; background-color:#a600ff20; padding:20px; margin:20px; border: 5px solid black; box-shadow: 5px 5px 0 black;border-radius:12px;">
+$$
+(1 + \sin \theta)(1 - \sin \theta) \quad \xrightarrow{\text{اتحاد مزدوج}} \quad \cos \theta 
+
+$$
+</div>
+
+<p class="MsoBold">حل:</p>
+
+<p class="MsoNormal" style="text-align: center;">
+
+    \[
+    \begin{align*}
+    \text{طرف چپ} \ \ &= \ \  \left( \frac{1}{\cos \theta} + \tan \theta \right)(1 - \sin \theta) \\ \\
+    & = \left( \frac{1}{\cos \theta} + \frac{\sin \theta}{\cos \theta} \right)(1 - \sin \theta) \\ \\
+    & = \frac{1 + \sin \theta}{\cos \theta}(1 - \sin \theta) \\ \\
+    & = \frac{1 - \sin^2 \theta}{\cos \theta} \\ \\
+    & = \frac{\cos^2 \theta}{\cos \theta} \\ \\
+        & = \cos \theta \ \ = \ \ \text{طرف راست}
+    \end{align*}
+    \]
+  
+</p>
+
+<br><hr><br>
+
+<div class="MsoStep">کار در کلاس</div>
+
+<p class="MsoNormal">۱. با فرض بامعنی بودن هر کسر، درستی هر یک از تساوی‌های زیر را بررسی کنید:</p>
+<br><br>
+<p class="MsoNormal" style="text-align: left;">
+ \( \sin^4 \theta - \cos^4 \theta = \sin^2 \theta - \cos^2 \theta \) :(الف)
+</p>
+<br>
+<p class="MsoNormal" >
+\[
+\begin{align*}
+& \text{طرف چپ} = \sin^4 \theta - \cos^4 \theta \\ \\
+& \xrightarrow{\text{اتحاد مزدوج}} (\sin^2 \theta - \cos^2 \theta)(\sin^2 \theta + \cos^2 \theta) 
+\end{align*}
+\]
+</p>
+
+<br><br><br>
+<p class="MsoNormal" style="text-align:left;">
+  
+    
+   $ \frac{1}{\cos \alpha} + \cot \alpha = \frac{\tan \alpha + \cos \alpha}{\sin \alpha} $   :(ب)
+   
+    </p>
+    <br><br>
+    <p class="MsoNormal" style="text-align:left;">
+
+    \(
+    \begin{align*}
+    \text{طرف راست} &= \frac{\tan \alpha + \cos \alpha}{\sin \alpha} \\ \\
+    & =  \frac{\tan \alpha}{\cos \alpha} + \frac{\cos \alpha}{\sin \alpha} \\ \\
+    & = \frac{\frac{\cos \alpha}{\sin \alpha}}{\sin \alpha} + \ \ . . . . . . \\ \\
+    & = \ \ . . . . . . \ \ + \ \  . . . . . . 
+     
+    \end{align*}
+    \)
+    </p>
+    <br><br>  
+    <p class="MsoNormal">۲) کدام یک از تساوی‌های زیر یک اتحاد است؟ چرا؟</p>
+    <br>
+    <p class="MsoNormal" style="text-align:left;">
+    \( \sin^4 \alpha + \cos^4 \alpha = 1 - 2 \sin^2 \alpha \cos^2 \alpha \) : (الف)
+    </p>
+    <br>
+    <p class="MsoNormal" style="text-align:left;">
+     \( \sin^4 \alpha + \cos^4 \alpha = \sin^2 \alpha + \cos^2 \alpha \) :(ب)
+    </p>
+    <br><br>
+    <p class="MsoNormal">۳) با ضرب کردن طرفین اتحاد مثلثاتی \( 1 + \tan ^2 \alpha = \frac{1}{\cos ^2 \alpha} \) در \( 1 + \cot^2 \alpha \)، یک اتحاد مثلثاتی بسازید؛ سپس درستی آن را اثبات کنید.</p>
+    
+    <br><hr><br>
+
+    <div class="MsoBold">تمرین</div>
+
+    <p class="MsoNormal">
+    ۱) فرض کنید \( \alpha \) زاویه‌ای در ناحیهٔ دوم مثلثاتی باشد و \( \cos \alpha = - \frac{3}{5} \). نسبت‌های دیگر مثلثاتی زاویهٔ \( \alpha \) را به‌دست آورید.
+    </p>
+    <br><br>
+    <p class="MsoNormal">
+    ۲) اگر \( \tan \alpha = \frac{-4}{3} \) و \( \alpha \) زاویه‌ای در ناحیهٔ چهارم مثلثاتی باشد، نسبت‌های دیگر مثلثاتی زاویهٔ \( \alpha \) را به‌دست آورید.
+    </p>
+    <br><br>
+    <p class="MsoNormal">
+    ۳) اگر \( \sin 135^0 = \frac{\sqrt{2}}{2} \)، آنگاه نسبت‌های دیگر مثلثاتی زاویهٔ \( 135^0 \) را به‌دست آورید.
+    </p>
+
+    <br><br>
+
+    <p class="MsoNormal">
+    ۴) اگر \( \tan 240^0 = \sqrt{3} \)، آنگاه نسبت‌های دیگر مثلثاتی زاویهٔ \( 240^0 \) را به‌دست آورید.
+    </p>
+    
+    <br><br>
+
+    <p class="MsoNormal">
+    ۵) شخصی می‌خواهد عرض یک رودخانه را اندازه‌گیری کند. او ابتدا مطابق شکل، نقطه‌ای چون \( C \) و سپس نقطه‌ای مانند \( A \) را در امتداد \( C \) و در طرف دیگر رودخانه مشخص می‌کند و به اندازهٔ \( 200 \) متر از \( C \) به‌صورت افقی در امتداد رودخانه حرکت می‌کند تا به نقطهٔ \( B \) برسد. اگر زاویهٔ دید این شخص (از نقطهٔ \( B \) به نقطهٔ \( A \)) \( 20^0 \) باشد و \( \sin 20^0 = 0.342 \)، او چگونه می‌تواند عرض رودخانه را محاسبه کند؟ (پاسخ خود را تا دو رقم اعشار بنویسید.)
+    </p>
+        
+    <br><br>
+
+    <p class="MsoNormal">۶) با فرض بامعنی بودن هر کسر، درستی هر یک از تساوی‌های زیر را بررسی کنید.</p>
+
+    <br><br>
+    <p class="MsoNormal" style="text-align: left;">
+        \( \frac{1}{\sin \theta} \times \tan \theta = \frac{1}{\cos \theta} \) : (الف)
+        </p>
+        <br><br>
+        <p class="MsoNormal" style="text-align: left;">
+        \( \frac{\cos \theta}{1 + \sin \theta} = \frac{1 - \sin \theta}{\cos \theta} \) : (ب)
+        </p>
+        <br><br>
+        <p class="MsoNormal" style="text-align: left;">
+        \( \frac{1 + \tan \alpha}{1 + \cot \alpha} = \tan \alpha \) : (پ)
+        </p>
+        <br><br>
+        <p class="MsoNormal" style="text-align: left;">
+        $ 1 - \frac{cos^2 x}{1 + sin x} = sin x $ : (ت)
+        </p>
+        <br><br>
+
+        <p class="MsoNormal" style="text-align: left;">
+            $ \frac{1}{cos x} - tan x = \frac{cos x }{1 + sin x} $ : (ث)
+            </p>
+        <br><br>
+
+
+
+
+    <br><hr style="background-color: #D6D1DA;"><br>
+<p class="MsoStep" style="opacity: 0.6;">بیشتر بدانیم</p>
+
+
+<div class="MsoNormal">اولین دانشمندی که جدول سینوس، کسینوس، شعاع دایره‌ای و نسبت مثلثاتی را کشف کرد، ابوالوفا محمد بن یحیی بن اسماعیل بن عباس بوزجانی خراسانی است.</div>
+
+<p class="MsoNormal">وی یکی از مفاخر علمی ایران، ریاضیدان و اخترشناس سدۀ چهارم هجری قمری در اول رمضان ۳۲۸ (هـ.ق) در بوزجان (تربت جام امروزی)، در مرز خراسان و افغانستان زاده شد. او مقدمات ریاضیات زمان را همان جا، نزد پدر و عمویش فرا گرفت. در سن ۲۰ سالگی به بغداد رفت و نزد اساتید مختلفی به تحصیل خود ادامه داد. وی پس از مدتی به یکی از دانشمندان مشهور زمان خود تبدیل شد و با دانشمندان هم عصر خود، مکاتبات علمی داشت. به عنوان مثال، وقتی ابوریحان در خوارزم بود، برای یوزجانی که در بغداد بود، همزمان فرهنگی ماه را با هم مقایسه می‌کردند. ابوالوفا در سال ۳۸۸ (هـ.ق) در بغداد درگذشت.</p>
+
+<p class="MsoNormal">او آثار پیشینیان (ایرانی و یونانی) مثل "مقدمات" اقلیدس، "جبر و مقابله" خوارزمی، "جبر دیوفانت" و "مسئله" بطلمیوس و غیره را تفسیر نوشت. خود نیز ابتکارات و نوآوری‌های بسیاری در هندسه و مثلثات دارد.</p>
+
+
+
+
+    </body>
+
+
+</html>

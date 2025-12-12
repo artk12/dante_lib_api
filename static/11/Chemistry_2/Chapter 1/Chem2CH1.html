@@ -1,0 +1,2911 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi {
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSemic,
+        li.MsoSemic,
+        div.MsoSemic {
+            margin: 0in;
+           
+            font-size: clamp(1.2rem, 1.6vw, 1.3rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #b19af2;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #6ca4ec;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+     
+            .icon {
+                display: inline-block;
+                width: 40px;
+                height: 27px;
+                margin: 10px;
+                text-align: center;
+                line-height: 30px;
+        
+                
+                color: rgb(0, 0, 0);
+                border-radius: 5px;
+            }
+            .Al { background-color: #e4eb8b; }  /* Aluminum */
+            .Sb { background-color: #7ad9c1; }  /* Antimony */
+            .Cr { background-color: #e4eb8b; }  /* Chromium */
+            .Cu { background-color: #e4eb8b; }  /* Copper */
+            .Au { background-color: #e4eb8b; }  /* Gold */
+            .Hf { background-color: #e4eb8b; }  /* Hafnium */
+            .In { background-color: #e4eb8b; }  /* Indium */
+            .Pb { background-color: #e4eb8b; }  /* Lead */
+            .Ni { background-color: #e4eb8b; }  /* Nickel */
+            .P { background-color: #a56de8; }   /* Phosphorus */
+            .Rh { background-color: #e4eb8b; }  /* Rhodium */
+            .Pt { background-color: #e4eb8b; }  /* Platinum */
+            .Ag { background-color: #e4eb8b; }  /* Silver */
+            .Ti { background-color: #e4eb8b; }  /* Titanium */
+            .Sn { background-color: #e4eb8b; }  /* Tin */
+            .U { background-color: #aed284; }   /* Uranium */
+            .Zn { background-color: #e4eb8b; }  /* Zinc */
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .boxp {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .boxg {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#00f2ff11; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        .boxb {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#0c4e9f0d; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        .boxy {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#5b532f15; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        .boxr {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#7d202015; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        .boxpink {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#3c18360c; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        .boxgray {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#0000004a; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        
+                ::selection {
+            background-color: #59078fa1; /* Change this to your desired highlight color */
+            color: #ffffff; /* Change this to your desired text color */
+          }
+
+
+          mark{
+            background-color:#078b8fa1 ;
+            color: #ffffff;
+            padding: 0 7px;
+        }
+
+        .hlg { background-color: rgba(0, 234, 255, 0.334);  }
+        .hlp { background-color:#5f1487; }
+      
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+           
+            text-align: right;
+            color:white;
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+     
+        }
+      
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+    <body class="custom-scrollbar">
+
+  
+
+        
+        
+        <div class="MsoBold">فصل 1<br>قدر هدایای زمینی را بدانیم</div>
+        
+   
+        <p class="MsoNormal">
+           <mark> أَلَمْ تَرَوْا أَنَّ اللَّهَ سَخَّرَ لَكُمْ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ... </mark>
+        </p>
+        <p class="MsoNormal">(سورۀ لقمان – آیۀ 20)</p>
+                
+        <br><br>
+        <p class="MsoNormal">آیا ندیدید خداوند آنچه را در آسمانها و زمین است مس ّخر شما كرده و نعمتهای آشكار و پنهان خود را به طور فراوان بر شما ارزانی داشته است.</p>
+        
+        <br><br>
+        <p class="MsoNormal">زمین، خانۀ ماست. نه! زمین، تنها خانۀ ماست. در آن زاده میشویم و زندگی میكنیم. زمین سرشار از نعمتها و هدایای پیدا و ناپیدای گوناگونی است كه هر یك اندازۀ معینی دارد. هدایایی كه انسان با شناخت و بهرهگیری از آنها توانسته است با ساختن ابزار و دستگاههایی به همۀ نقاط كرۀ زمین از قطب شمال تا جنوب، اعماق دریاها و اقیانوسها دست یابد و فضای دوردست و بیكران را نیزكشف كند. توانایی انسان در بیرون كشیدن موادی مانند نفت و فلزها به او این امكان را داده است تا سرپناهی ایمن و گرم برای زندگی خود فراهم سازد. دانش شیمی به ما كمك میكند تا ساختار دقیق این هدایا را شناسایی كنیم، به رفتار آنها پی ببریم و بهره برداری درست از آنها را بیاموزیم. باشد كه دریابیم زمین، امانت خداست و دوستی با آن را باور كنیم.</p>
+        
+        <br><br>
+        <p class="MsoNormal">مواد در زندگی ما نقشی شگرف و مؤثر دارند بهطوری كه صنایع گوناگون مانند غذا، پوشاك، حملونقل، ساختمان، ارتباطات و هر بخش از زندگی ما كموبیش تحت تأثیر مواد قراردارند. اغراق نیست اگر رشد و گسترش تمدن بشری را در گرو كشف و شناخت مواد جدید بدانیم. بررسی تمدنها از گذشته تاكنون نشان میدهد كه توسعه جوامع انسانی به توانمندی افرادی هوشمند گره خورده است. آنان كه توانستهاند برای رفع نیازهای خود و جامعه، موادی تولید كنند یا با دستكاری مواد، خواص آنها را تغییر دهند. انسانهای پیشین فقط از برخی مواد طبیعی مانند چوب، سنگ، خاك، پشم و پوست بهره میبردند، اما با گذشت زمان توانستند موادی مانند سفال را تولید و برخی فلزها را نیز استخراج كنند كه خواص مناسبتری داشتند.</p>
+        
+        <br><br>
+        <p class="MsoNormal">با گسترش دانش تجربی، شیمیدانها به رابطه میان خواص مواد با عنصرهای سازندۀ آنها پی بردند. آنها همچنین دریافتند كه گرما دادن به مواد و افزودن آنها به یكدیگر سبب تغییر و گاهی بهبود خواص میشود. با این روند، آنها به توانایی انتخاب مناسبترین ماده برای یك كاربرد معین دست یافتند تا جایی كه میتوانند موادی نو با ویژگیهای منحصر بهفرد و دلخواه طراحی كنند. امروزه با رشد و توسعه فناوری، هزاران ماده تهیه و تولید شده كه زندگی مدرن و پیچیده امروزی را ممكن كرده است (شكل1).</p>
+        
+        <br>
+
+
+
+    <div class="boxgray">
+        <p class="MsoNormal">گسترش فناوری به میزان دسترسی به مواد مناسب وابسته است، بهطوری كه كشف و درك خواص یك مادۀ جدید پرچمدار توسعۀ فناوری است. برای نمونه گسترش صنعت خودرو مدیون شناخت و دسترسی به فولاد است. همچنین پیشرفت صنعت الكترونیك بر اجزایی مبتنی است كه از موادی به نام نیمهرساناها ساخته میشوند.</p>
+    </div>
+
+
+
+       <br>
+        <div class="boxpink">
+        <div class="MsoStep">آیا میدانید</div>
+        
+      
+        <p class="MsoNormal">تمدنهای آغازین را بر اساس گستره كاربری مواد به سه دوره سنگی، برنزی و آهنی نامگذاری میكنند. تاریخ آغاز این دورهها به ترتیب به 2/5 میلیون، 3500 و 1000 سال پیش از میلاد بر میگردد.</p>
+        </div>
+
+        <br>
+
+
+   <div class="boxy">
+        <div class="MsoStep">خود را بیازمایید</div>
+        
+    
+        <p class="MsoNormal">1ــ شكل زیر فرایند كلی تولید دوچرخه را نشان میدهد.</p>
+        
+        <br><br>
+        <p class="MsoNormal">الف) دربارۀ این فرایند گفتوگو كنید. ب) آیا در فرایند تولید ورقههای فولادی و تایر دوچرخه، موادی دور ریخته میشوند؟ پ) با گذشت زمان چه اتفاقی برای قطعههای دوچرخه میافتد؟</p>
+        
+        <br>
+        <p class="MsoNormal">2ــ شكل زیر نمایی از چرخۀ مواد را نشان میدهد. با توجه به آن به پرسشها پاسخ دهید:</p>
+    
+        <br>
+        <p class="MsoNormal">الف) آیا جملۀ «همۀ مواد طبیعی1 و ساختگی 2 از كرۀ زمین به دست میآیند» درست است؟ توضیح دهید.</p>
+        
+        <br>
+        <p class="MsoNormal">ب) موادی كه از طبیعت به دست میآوریم، به چه شكلی به طبیعت بازمیگردند؟ پ) آیا به تقریب جرم كل مواد در كرۀ زمین ثابت میماند ؟ چرا؟ ت) برخی بر این باورند كه: «هر چه میزان بهرهبرداری از منابع یك كشور بیشتر باشد، آن كشور توسعه یافتهتر است.» این دیدگاه را در كلاس نقد كنید.</p>
+        
+        <br><br>
+        <p class="MsoNormal">3ــ نمودار زیر برآورد میزان تولید یا مصرف نسبی برخی مواد را در جهان نشان میدهد.</p>
+        
+        <br>
+        <p class="MsoNormal">با توجه به نمودار:
+            <br><br>
+            الف)
+             در سال 2015 به تقریب چند میلیارد تن فلز در جهان استخراج و مصرف شده است؟
+             <br><br>
+             ب)
+              پیشبینی میشود كه در سال 2030 به تقریب در مجموع چند میلیارد تن از این مواد استخراج و مصرف شوند؟
+              
+              <br><br>
+              پ)
+              
+              دربارۀ این جمله كه: «زمین منبع عظیمی از هدایای ارزشمند و ضروری برای زندگی است» گفتوگو كنید.</p>
+        
+            </div>    
+<br>
+        <div class="boxpink">
+        <div class="MsoStep">آیا میدانید</div>
+        
+         
+        <p class="MsoNormal">سالانه بیش از 70 میلیارد تن از منابع انرژی، سوختهای فسیلی، فلز و منابع شیمیایی از زمین استخراج میشود. با این توصیف مصرف سرانه هدایای ذخیره شده در زمین، حدود ده تن است.</p>
+        
+       </div>
+
+
+<br>
+
+        <p class="MsoNormal">دریافتید كه زندگی روزانۀ ما به منابع شیمیایی وابسته است. صبحانۀ امروز خود را در نظر بگیرید، چای خود را با استكانی شیشهای نوشیدهاید كه از شن و ماسه ساخته شده است، در ظرفی كه از خاك چینی ساخته شده است، غذا خوردهاید و برای هم زدن چای از قاشقی استفاده كردهاید كه از فولاد زنگنزن ساخته شده است. فولادی كه پس از طی مراحل طولانی از سنگ معدن به دست میآید. همچنین برای طعم دادن به غذای خود، نمك به دست آمده از خشكی و دریا را روی آن پاشیدهاید؛ سبزیجات و میوههایی را خوردهاید كه با استفاده از كودهای پتاسیم، نیتروژن و فسفردار رشد كردهاند. از سوی دیگر، سوختی را كه با استفاده از آن خانه را گرم یا باك خودرو را پر میكنید، از دل زمین بیرون كشیدهاند.</p>
+        
+        <br><br>
+        <p class="MsoNormal">با پیشرفت صنعت، شهرها و روستاها گسترش یافتند و سطح رفاه در جامعه بالاتر رفت. با این روند میزان مصرف منابع گوناگون نیز افزایش یافت، به گونهای كه امروزه همۀ افراد جامعه در پی استفاده از تلفن همراه، خودروی شخصی و انواع وسایل الكترونیكی هستند. تأمین این نیازها به همراه تولید انواع دستگاهها و ابزارآلات صنعتی، نظامی، كشاورزی و دارویی، سبب شده است تا تقاضای جهانی برای استفاده از هدایای زمینی افزایش یابد، به گونهای كه سالانه حجم انبوهی از منابع شیمیایی بهرهبرداری میشود. با این توصیف باید باور كنیم كه زمین انباری از ذخایر ارزشمند است كه بیهیچ منتی به ما هدیه شده است (شكل 2)، هرچند كه این منابع بهطور یكسان توزیع نشدهاند.</p>
+        
+ <br>
+
+<div class="boxr">
+        <div class="MsoStep">در میان تارنما ها</div>
+       
+        <p class="MsoNormal">با مراجعه به منابع اینترنتی معتبر دربارۀ میزان مصرف منابع شیمیایی گوناگون در جهان اطلاعاتی را جمعآوری كنید و به كلاس گزارش دهید.</p>
+    </div>  
+<br>
+
+
+
+<div class="boxpink">
+        <div class="MsoStep">آیا میدانید</div>
+
+        <p class="MsoNormal">
+            برآورد مقدار برخی عنصرها در جهان
+        </p>
+
+<br>
+
+        
+<table class="table" style="margin: auto; width:fit-content; text-align:left;" >
+    <thead>
+        <tr>
+            <th style="text-align: left;">نام عنصر</th>
+            <th style="text-align: left;">مقدار (تن)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><div class="icon Al">Al</div> آلومینیم</td>
+            <td class="mathalign">$3.34 \times 10^{10}$</td>
+        </tr>
+        <tr>
+            <td><div class="icon Sb">Sb</div> آنتیموان</td>
+            <td class="mathalign">$3.86 \times 10^6$</td>
+        </tr>
+        <tr>
+            <td><div class="icon Cr">Cr</div> کروم</td>
+            <td class="mathalign">$7.79 \times 10^8$</td>
+        </tr>
+        <tr>
+            <td><div class="icon Cu">Cu</div> مس</td>
+            <td class="mathalign">$9.37 \times 10^8$</td>
+        </tr>
+        <tr>
+            <td><div class="icon Au">Au</div> طلا</td>
+            <td class="mathalign">$8.97 \times 10^4$</td>
+        </tr>
+        <tr>
+            <td><div class="icon Hf">Hf</div> هافنیم</td>
+            <td class="mathalign">$1.12 \times 10^3$</td>
+        </tr>
+        <tr>
+            <td><div class="icon In">In</div> ایندیم</td>
+            <td class="mathalign">$6.0 \times 10^3$</td>
+        </tr>
+        <tr>
+            <td><div class="icon Pb">Pb</div> سرب</td>
+            <td class="mathalign">$1.44 \times 10^8$</td>
+        </tr>
+        <tr>
+            <td><div class="icon Ni">Ni</div> نیکل</td>
+            <td class="mathalign">$1.43 \times 10^8$</td>
+        </tr>
+        <tr>
+            <td ><div class="icon P">P</div> فسفر</td>
+            <td class="mathalign">$4.97 \times 10^{10}$</td>
+        </tr>
+        <tr>
+            <td><div class="icon Rh">Rh</div> رودیم</td>
+            <td class="mathalign">$7.98 \times 10^4$</td>
+        </tr>
+        <tr>
+            <td><div class="icon Pt">Pt</div> پلاتین</td>
+            <td class="mathalign">$7.98 \times 10^4$</td>
+        </tr>
+        <tr>
+            <td><div class="icon Ag">Ag</div> نقره</td>
+            <td class="mathalign">$5.69 \times 10^5$</td>
+        </tr>
+        <tr>
+            <td><div class="icon Ti">Ti</div> تیتان</td>
+            <td class="mathalign">$1.53 \times 10^5$</td>
+        </tr>
+        <tr>
+            <td><div class="icon Sn">Sn</div> قلع</td>
+            <td class="mathalign">$1.12 \times 10^7$</td>
+        </tr>
+        <tr>
+            <td><div class="icon U">U</div> اورانیم</td>
+            <td class="mathalign">$3.30 \times 10^6$</td>
+        </tr>
+        <tr>
+            <td><div class="icon Zn">Zn</div> روی</td>
+            <td class="mathalign">$4.60 \times 10^8$</td>
+        </tr>
+    </tbody>
+</table>
+
+</div>
+
+<br>
+<div class="boxgray">
+<p class="MsoNormal">دانشمندان برجسته و بزرگ، دانشمندانی هستند كه میتوانند با بررسی دقیق اطلاعات و یافتههای موجود دربارۀ مواد و پدیدههای گوناگون، الگوها، روندها و روابط بین آنها را درك كنند و توضیح دهند. مندلیف یكی از آنها است كه جدول دورهای را طراحی كرده است.</p>
+</div>
+
+<br>
+<p class="MsoNormal">اكنون این پرسش مطرح میشود كه این هدایای زمینی به چه شكلی استفاده میشوند؟ آیا آنها به همان شكل مصرف میشوند یا آنها را به عنصرهای سازنده تبدیل میكنند، سپس به كار میبرند؟ چگونه میتوان تشخیص داد كه در یك نمونه سنگ معدن، كدام عنصرها وجود دارد و به چه میزانی قابل استخراج است؟ روشهای استخراج و تهیۀ یك عنصر چیست؟ استخراج یك مادۀ شیمیایی چه آثاری روی محیطزیست برجای میگذارد؟ آیا مصرف مواد بهصورت خام مقرون به صرفه است یا فراوری شده؟ بهرهبرداری از هدایای زمینی بر چرخههای طبیعی چه اثری دارد؟ شیوههای حفظ و نگهداری این منابع ارزشمند برای آیندگان چیست؟ علم شیمی و شیمیدانها چه نقشی در استفاده از این منابع مبتنی بر توسعۀ پایدار دارند؟ شیمیدانها برای یافتن پاسخ این پرسشها، در پی كشف الگوها و روندهای موجود در رفتار مواد و عنصرها هستند.</p>
+
+
+
+
+
+
+<br>
+
+
+
+
+<p class="MsoBold">الگوها و روندها در رفتار مواد و عنصرها</p>
+<p class="MsoNormal">شیمیدانها با مشاهدۀ مواد و انجام آزمایشهای گوناگون، آنها را دقیق بررسی میكنند. هدف همۀ این بررسیها، یافتن اطلاعات بیشتر و دقیقتر دربارۀ ویژگیها و خواص مواد است. اما برقراری ارتباط میان این دادهها و اطلاعات، همچنین یافتن الگوها و روندها گامی مهمتر و مؤثرتر در پیشرفت علم به شمار میآید زیرا بر اساس این روندها، الگوها و روابط میتوان به رمز و راز هستی پی برد. علم شیمی را میتوان مطالعۀ هدفدار، منظم و هوشمندانۀ رفتار عنصرها و مواد برای یافتن روندها و الگوهای رفتار فیزیكی و شیمیایی آنها دانست. جدول دورهای عنصرها، نمایشی بینظیر از چیدمان عنصرها بوده و همانند یك نقشه راه برای شیمیدانهاست كه به آنها كمك میكند حجم انبوهی از مشاهدهها را سازماندهی و تجزیه و تحلیل كنند تا الگوهای پنهان در رفتار عنصرها را آشكار نمایند. در شیمی 1 آموختید كه عنصرها در جدول دورهای بر اساس بنیادیترین ویژگی آنها یعنی عدد اتمی (Z)، چیده شدهاند. در این جدول، عنصرهایی كه آرایش الكترونی لایۀ ظرفیت اتم آنها مشابه است، در یك گروه جای گرفتهاند. این جدول شامل 7 دوره و 18 گروه است. همچنین دریافتید تعیین موقعیت (دوره و گروه) یك عنصر در جدول دورهای، كمك شایانی به پیشبینی خواص و رفتار آن خواهد كرد.</p>
+<br>
+<p class="MsoNormal">بررسیها نشان میدهند كه عنصرهای جدول دورهای را بر اساس رفتار آنها میتوان در سه دسته شامل فلز، نافلز و شبه فلز1 جای داد. با برخی رفتار فلزها آشنا هستید (شكل 3). با بررسی این رفتارها میتوان ضمن دستهبندی عنصرها، به روندها و الگوهای موجود در خواص آنها پی برد. اكنون برای یافتن برخی از این موارد فعالیتهای صفحۀ بعد را انجام دهید.</p>
+
+
+<div class="boxgray">
+<p class="MsoNormal">هلیم با اینكه در گروه 18 جدول دورهای عنصرها جای دارد، اما عنصری از دسته s است و آرایش الكترونی لایه ظرفیت آن با دیگر گازهای نجیب متفاوت است.</p>
+</div>
+
+<br>
+
+<div class="boxb">
+
+<p class="MsoStep">با هم بیندیشیم</p>
+<p class="MsoNormal">در شكلهای زیر، عنصرهای گروه چهاردهم و عنصرهای دوره سوم جدول دورهای همراه با برخی ویژگیهای آنها نشان داده شده است. با بررسی آنها به پرسشها پاسخ دهید.</p>
+
+<p class="MsoNormal">1ــ در شكل «الف» سطح كدام عنصرها براق و صیقلی است؟</p>
+<br>
+
+<p class="MsoNormal">2ــ در شكل «الف» كدام عنصرها ویژگیهای مشترك بیشتری با یكدیگر دارند (رفتارهای فیزیكی و شیمیایی آنها شبیه هم هستند)؟</p>
+
+<br>
+<p class="MsoNormal">3ــ شكلهای «الف» و «ب» را با هم مقایسه و مشخص كنید رفتار كدام عنصرها به یكدیگر شباهت بیشتری دارند. نتیجۀ مقایسۀ خود را یادداشت كنید.</p>
+
+<br>
+<p class="MsoNormal">4ــ با كامل كردن جدول صفحۀ بعد به یك جمعبندی از یافتههای خود برسید و عنصرهای مشخصشده در بالا را در سه دسته فلز، نافلز و شبه فلز قرار دهید.</p>
+<br>
+
+<div class="custom-scrollbar" style="overflow-x: auto; overflow-y:hidden; direction:rtl; ">
+<table class="table" style="direction: ltr; width:max-content;text-align:center;margin:auto">
+    <tr>
+        <th colspan="11">
+            نماد شیمیایی
+        </th>
+        <th rowspan="2">خواص فیزیکی یا شیمیایی</th>
+
+    </tr>
+    <tr>
+        
+        <th>Ge</th>
+        <th>Pb</th>
+        <th>P</th>
+        <th>Mg</th>
+        <th>Cl</th>
+        <th>Sn</th>
+        <th>Al</th>
+        <th>Na</th>
+        <th>S</th>
+        <th>Si</th>
+        <th>C</th>
+     
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>ندارد</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>دارد</td>
+        <td>رسانایی الکتریکی</td>
+    </tr>
+    <tr>
+        <td>دارد</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>ندارد</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>ندارد</td>
+        <td>رسانایی گرمایی</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>سطح صیقلی</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>چکش خواری</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>الکترون
+            <br>
+            می‌دهد
+        </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>اشتراک</td>
+        <td></td>
+        <td>تمایل به دادن، گرفتن<br> یا اشتراک الکترون</td>
+    </tr>
+</table>
+<br>
+</div>
+
+
+
+
+<br><br>
+
+
+
+
+
+<p class="MsoNormal">5 ــ در گروه 14 از بالا به پایین، خصلت فلزی چه تغییری كرده است؟</p>
+
+<br>
+<p class="MsoNormal">6 ــ روند تغییر خصلت فلزی و نافلزی در دورۀ سوم جدول را بررسی كنید.</p>
+<br>
+
+<p class="MsoNormal">7ــ پیشبینی كنید كدام عنصر در گروه اول جدول دورهای خصلت فلزی بیشتری دارد.</p>
+
+<br>
+
+<p class="MsoNormal">8 ــ عبارت زیر را با خط زدن واژۀ نادرست در هر مورد، كامل كنید.</p>
+    
+<br>
+ <p class="MsoNormal">   
+    در هر دوره از جدول دورهای، از چپ به راست از خاصیت 
+    $ \dfrac{ \text{فلزی} }{ \text{نافلزی} } $
+    كاسته 
+    و به خاصیت 
+    $ \dfrac{ \text{فلزی} }{ \text{نافلزی} } $
+
+    افزوده میشود.
+     در گروههای 15، 16 و 17 عنصرهای 
+     
+     $ \dfrac{ \text{بالاتر} }{ \text{پایین‌تر} } $
+
+
+    خاصیت نافلزی بیشتری دارند زیرا از بالا به پایین خاصیت 
+    $ \dfrac{ \text{فلزی} }{ \text{نافلزی} } $
+
+    زیاد میشود.</p>
+
+</p>
+
+
+</div>
+
+<br>
+
+<div class="boxpink">
+<div class="MsoStep">آیا میدانید</div>
+<p class="MsoNormal">گسترش صنایع الكترونیك و ساخت انواع وسایل و دستگاههای الكترونیكی مانند تلویزیون، رایانه، تلفن همراه و ماشین حساب مدیون ویژگی نیمه رسانایی عنصر سیلیسیم است.</p>
+</div>
+
+
+<br><hr><br>
+
+
+
+<p class="MsoNormal">بیشتر عنصرهای جدول دورهای را فلزها تشكیل میدهند كه بهطور عمده در سمت چپ و مركز جدول قراردارند. اما نافلزها در سمت راست و بالای جدول چیده شدهاند. شبه فلزها همانند مرزی بین فلزها و نافلزها قرار دارند. خواص فیزیكی شبه فلزها بیشتر به فلزها شبیه بوده در حالیكه رفتار شیمیایی آنها همانند نافلزها است. دیدید كه خصلت فلزی در یك دوره از چپ به راست كاهش مییابد و در یك گروه از بالا به پایین افزایش مییابد. این روند در دیگر گروهها و دورهها نیز مشاهده میشود. به دیگر سخن خواص فیزیكی و شیمیایی عنصرها بهصورت دورهای تكرار میشود كه به قانون دورهای عنصرها معروف است.</p>
+
+
+
+<br><hr><br>
+
+
+
+<div class="MsoBold">تفكر نقادانه</div>
+<p class="MsoSemi">«جدول عنصرها در آینده به چه شكل خواهد بود؟»</p>
+<br>
+<p class="MsoNormal">میدانید كه همۀ 118 عنصر جدول دورهای شناسایی و توسط آیوپاك تأیید شده است، بهطوری كه هیچ خانهای در جدول خالی نیست. بنابراین چنین به نظر میرسد كه جستوجو برای كشف عنصرهای طبیعی به پایان رسیده و تنها راه افزایش شمار عنصرها، تهیه و تولید آنها بهصورت ساختگی است. شاید شما نیز گزارشهایی دربارۀ ساخت و شناسایی عنصر شمارۀ 120 یا 121 در آزمایشگاههای تحقیقاتی و مدرن شنیده باشید. شناسایی عنصرها با عدد اتمی بیشتر از 118، سبب خواهد شد تا طبقهبندی تازهای از عنصرها ارائه شود زیرا در جدول دورهای امروزی، جایی برای آنها پیشبینی نشده است. در صورت كشف این عنصرها، آنها را در كجای جدول قرار میدهید؟ چگونه و بر چه اساسی آنها را طبقهبندی خواهید كرد؟ شارل ژانت شیمیدان فرانسوی در سال 1927 با كنار هم چیدن عنصرهای شناخته شده در زمان خود، الگویی ارائه كرد كه بر اساس آن میتوان عنصرهای با عدد اتمی بزرگتر از 118 را نیز طبقهبندی كرد.</p>
+<br>
+<p class="MsoNormal">الف) دربارۀ این طبقهبندی، ملاك آن، روندهای دورهای، شمار عنصرهای دستۀ g و ... در كلاس گفتوگو و جدول را از جنبههای گوناگون نقد كنید.</p>
+<br>
+<p class="MsoNormal">ب) شما چه جدولی پیشنهاد میكنید؟ توضیح دهید.</p>
+
+
+
+<br><hr><br>
+
+
+
+
+
+<div class="MsoBold">رفتار عنصرها و شعاع اتم</div>
+<p class="MsoNormal">رفتارهای فیزیكی فلزها شامل داشتن جلا، رسانایی الكتریكی و گرمایی، خاصیت چكش خواری، شكل پذیری (مانند قابلیت ورقه و مفتول شدن) و... است. در حالیكه رفتار شیمیایی فلزها به میزان توانایی اتم آنها بهاز دست دادن الكترون وابسته است. هر چه اتم فلزی در شرایط معین آسانتر الكترون از دست بدهد، خصلت فلزی بیشتری دارد و فعالیت شیمیایی آن بیشتر است. روندهای تناوبی در جدول بر اساس كمیتهای وابسته به اتم قابل توضیح است. یكی از این كمیتها، شعاع اتمی است. در شیمی دهم آموختید كه مطابق مدل كوانتومی، اتم را مانند كرهای در نظر میگیرند كه الكترونها پیرامون هسته و در لایههای الكترونی در حال حركتاند. بنابراین میتوان برای هر اتم شعاعی در نظر گرفت و آن را اندازهگیری كرد. بدیهی است كه شعاع اتمهای مختلف، یكسان نیست و هرچه شعاع یك اتم بزرگتر باشد، اندازۀ آن اتم نیز بزرگتر است (شكل 4).</p>
+<br>
+<p class="MsoNormal">جدول پیشنهادی شارل ژانت (1932ــ1849 میلادی) با مدل كوانتومی همخوانی داشت. در دو ردیف جدید این جدول، زیر لایه g به عنوان زیر لایه پنجم پس از زیر لایههای d،p،s و f پر میشود.</p>
+
+
+
+<div class="boxpink">
+
+
+<div class="MsoStep">آیا میدانید</div>
+<p class="MsoNormal">تعیین اندازۀ اتم همانند جرم آن بسیار دشوار است. برای برخی اتمها نصف فاصله بین هسته های دو اتم یكسان در پیوند اشتراكی یگانه را شعاع اتم در نظر میگیرند. برای نمونه:</p>
+<p class="MsoNormal">
+
+$$
+
+\text{شعاع‌اتم} = \dfrac{228 \ \ pm}{2} = 114 \ \ pm
+
+$$
+
+$$
+
+1 \ \ pm = 10^{-12} m
+
+$$
+
+</p>
+
+
+</div>
+
+
+<br>
+
+<div class="boxpink">
+<div class="MsoStep">آیا میدانید</div>
+<p class="MsoNormal">شعاع دستۀ دیگری از اتمها به روش زیر اندازهگیری میشود. شعاع اتم 2 برای نمونه شعاع اتم سدیم برابر با 186 پیكومتر است.</p>
+</div>
+
+
+
+<br>
+
+<div class="boxb">
+
+<div class="MsoStep">با هم بیندیشیم</div>
+
+
+<p class="MsoNormal">1ــ با توجه به جایگاه عنصرهای لیتیم، سدیم و پتاسیم (فلزهای قلیایی) در جدول دورهای، پیشبینی كنید در واكنش با گاز كلر، اتمهای كدامیك آسانتر الكترون از دست خواهد داد؟ چرا؟</p>
+<br>
+<p class="MsoNormal">2ــ تصویر زیر واكنش این فلزها با گاز كلر را در شرایط یكسان نشان میدهد. آیا دادههای این تصویر پیشبینی شما را تأیید میكند؟ (راهنمایی: هرچه مادهای سریعتر و شدیدتر واكنش بدهد، فعالیت شیمیایی بیشتری دارد)</p>
+<br>
+<p class="MsoNormal">3ــ به نظر شما آیا جملۀ «هرچه شعاع اتمی یك فلز بزرگتر باشد، آسانتر الكترون از دست میدهد» درست است؟ چرا؟</p>
+<br>
+<p class="MsoNormal">4ــ جدول زیر را كامل كنید و توضیح دهید بین شمار لایههای الكترونی با شعاع اتم چه رابطهای وجود دارد.</p>
+<br>
+
+
+
+<table class="table" style="text-align: center; margin:auto; width:fit-content">
+    <tr>
+        <th>نماد شیمیایی عنصر</th>
+        <th> $_{3}  {Li} $</th>
+        <th> $_{11}  {Na} $</th>
+        <th> $_{19}  {K} $</th>
+    </tr>
+    <tr>
+        <td>آرایش الکترونی فشرده</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>نماد آخرین زیرلایه</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>تعداد لایه‌های الکترونی در اتم</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>شعاع اتمی (pm)</td>
+        <td>$152$</td>
+        <td>$186$</td>
+        <td>$152$</td>
+    </tr>
+</table>
+
+
+
+
+
+
+<br><br>
+
+<p class="MsoNormal">5ــ با توجه به جدول زیر، پیشبینی كنید اتم كدامیك از فلزهای گروه دوم (فلزهای قلیایی خاكی) جدول دورهای در واكنش با نافلزها، آسانتر به كاتیون +M2 تبدیل میشود. چرا؟</p>
+
+<br>
+
+<div class="custom-scrollbar" style="overflow-x: auto;overflow-y:hidden;direction:ltr;">
+<table class="table" style="text-align: center; margin:auto; width:fit-content">
+    <tr>
+        <th>نام و نماد شیمیایی عنصر</th>
+        <th> Mg (منیزیم)</th>
+        <th> Ca (کلسیم)</th>
+        <th> Sr (استرانیسم)</th>
+    </tr>
+    <tr>
+        <td>شعاع اتمی (pm)</td>
+        <td>$160$</td>
+        <td>$197$</td>
+        <td>$215$</td>
+    </tr>
+
+</table>
+<br>
+
+
+</div>
+
+
+<br>
+
+
+</div>
+
+
+
+<br>
+
+
+
+<div class="boxgray">
+<p class="MsoNormal">تولید نور، آزادسازی گرما، تشكیل رسوب و خروج گاز نشانههایی از تغییر شیمیایی هستند. هرچه شدت نور یا آهنگ خروج گاز آزاد شده بیشتر باشد، واكنش شیمیایی سریعتر و شدیدتر بوده و واكنش دهنده فعالیت شیمیایی بیشتری دارد.</p>
+
+</div>
+
+<br><hr><br>
+
+
+
+<p class="MsoNormal">یكی دیگر از روندهای تناوبی، روند تغییر شعاع اتمی عنصرهای جدول دورهای است. در یك گروه، از بالا به پایین شعاع اتمی افزایش مییابد، زیرا تعداد لایههای الكترونی بیشتر میشود. در حالیكه در یك دوره، شعاع اتمی عنصرها از چپ به راست كاهش مییابد؛ زیرا در یك دوره، تعداد لایههای الكترونی ثابت میماند در حالیكه تعداد پروتونهای هسته افزایش مییابد. با افزایش تعداد پروتونها، نیروی جاذبهای كه هسته به الكترونها وارد میكند افزایش یافته و بدین ترتیب شعاع اتم كاهش مییابد (نمودار 1).</p>
+<br>
+<p class="MsoNormal">نافلزها در واكنشهای شیمیایی برخلاف فلزها تمایل دارند با گرفتن الكترون به آنیون تبدیل شوند. برای مثال نافلزهای گروه 17 (هالوژنها) با گرفتن یك الكترون به آنیون با یك بار منفی (یون هالید) تبدیل میشوند.</p>
+
+
+
+<div class="boxy">
+
+<div class="MsoStep">خود را بیازمایید</div>
+<p class="MsoNormal">الف) جدول زیر را كامل كنید.</p>
+<br>
+
+<table class="table" style="text-align: center; margin:auto; width:fit-content">
+    <tr>
+        <th>نماد شیمیایی عنصر</th>
+        <th> $_{9}  {F} $</th>
+        <th> $_{17}  {Cl} $</th>
+        <th> $_{35}  {Br} $</th>
+    </tr>
+    <tr>
+        <td>آرایش الکترونی فشرده</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>نماد آخرین زیرلایه</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>تعداد لایه‌های الکترونی در اتم</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>شعاع اتمی (pm)</td>
+        <td>$71$</td>
+        <td>$99$</td>
+        <td>$114$</td>
+    </tr>
+</table>
+
+
+
+
+
+
+
+<br><br>
+
+
+<p class="MsoNormal">ب) پیشبینی كنید در شرایط یكسان كدام هالوژن واكنش‌پذیرتر است. چرا؟</p>
+<br>
+<p class="MsoNormal">پ) در جدول زیر شرایط واكنش این نافلزها با گاز هیدروژن نشان داده شده است. با توجه به آن، مشخص كنید آیا پیشبینی شما درست است.</p>
+<br>
+
+
+<table class="table" style="text-align: right; direction:rtl">
+    <tr>
+        <th style="text-align: center;">نام هالوژن</th>
+        <th style="text-align: center;">شرایط واكنش با گاز هیدروژن</th>
+    </tr>
+    <tr>
+        <th style="text-align: center;">فلوئور</th>
+        <td>حتی در دمای 
+            $-200^{0}C$ به سرعت واكنش می‌دهد.</td>
+    </tr>
+    <tr>
+        <th style="text-align: center;">كلر</th>
+        <td>در دمای اتاق به آرامی واكنش می‌دهد.</td>
+    </tr>
+    <tr>
+        <th style="text-align: center;">برم</th>
+        <td>در دمای 
+            $200^{0} C$
+             واكنش می‌دهد.</td>
+    </tr>
+    <tr>
+        <th style="text-align: center;">ید</th>
+        <td>در دمای بالاتر از 
+            $400^{0} C$ واكنش می‌دهد.</td>
+    </tr>
+</table>
+
+
+
+
+<br>
+<p class="MsoNormal">ت) توضیح دهید خصلت نافلزی با شعاع اتمی چه رابطه‌ای دارد.</p>
+
+
+</div>
+
+<br>
+
+
+
+<div class="boxgray">
+<p class="MsoNormal">در تولید لامپ چراغ‌های جلوی خودروها، از هالوژن‌ها استفاده می‌شود.</p>
+</div>
+
+
+<br><hr><br>
+
+
+
+
+<p class="MsoNormal">اگرچه همۀ فلزها در حالت‌های كلی رفتارهای مشابهی دارند، اما تفاوت‌های قابل توجهی میان آنها وجود دارد، به‌طوری كه هر فلز رفتارهای ویژهٔ خود را دارد. برای نمونه، فلز سدیم نرم است و با چاقو بریده شده و به سرعت در هوا تیره می‌شود اما آهن فلزی محكم است و از آن برای ساخت در و پنجرۀ فلزی استفاده می‌شود. این فلز با اكسیژن در هوای مرطوب به كندی واكنش می‌دهد و به زنگ آهن تبدیل می‌شود. این در حالی است كه طلا در گذر زمان جلای فلزی خود را حفظ می‌كند و همچنان خوشرنگ و درخشان باقی می‌ماند (شكل 5). فلزهای دستهٔ d نیز رفتاری شبیه فلزهای دستهٔ s و p دارند. آنها نیز رسانای جریان الكتریكی و گرما هستند، چكش‌خوارند و قابلیت ورقه شدن دارند. با وجود این، هر یك از این فلزها نیز رفتارهای ویژه‌ای دارند كه در ادامه با برخی از آنها آشنا می‌شویم.</p>
+
+
+<br><hr>
+
+
+
+
+<div class="MsoBold">دنیایی رنگی با عنصرهای دستهٔ d</div>
+<p class="MsoNormal">یكی از اصیل‌ترین و ارزنده‌ترین صنایع دستی كشورمان شیشه‌گری است، صنعتی كه پشتوانه و سابقه‌ای دیرینه دارد. گردنبندی با دانه‌های شیشه‌ای آبی رنگ متعلق به هزاران سال پیش كه در ناحیۀ شمال غربی ایران كشف شده و قطعات شیشه‌ای مایل به سبزی كه طی كاوش‌های باستان‌شناسی در لرستان و شوش به‌دست آمده است، نشان از وجود این صنعت در روزگاران بسیار دور دارد. شیشه‌های رنگی و طرح‌دار در معماری پر نقش و نگار ایرانی بخشی از فرهنگ غنی ما است؛ پنجره‌هایی كه در مساجد و خانه‌های تاریخی ایران به فراوانی دیده می‌شوند و هنگامی كه خورشید بر آنها می‌تابد، نقشی از طرح و رنگ‌های خیره‌كننده در فضا پدیدار می‌شود (شكل 6).</p>
+<br>
+<p class="MsoNormal">شكل 6 - الف) مسجد نصیرالملك شیراز یكی از زیباترین مساجد ایران است. عبور نور از میان شیشه‌های رنگی این مسجد در هنگام صبح، زیبایی خاصی به آن می‌بخشد. ب) نمایی از یك خانهٔ قدیمی در كاشان.</p>
+<br>
+<p class="MsoNormal">یكی از هدایای زمینی، سنگ‌های گران‌بهای آن است كه به‌دلیل رنگ‌های گوناگون و زیبای خود، كاربرد گسترده‌ای در جواهرسازی دارند. شاید از خودتان پرسیده باشید كه این تنوع و زیبایی رنگ‌ها در شیشه به دلیل وجود چه موادی است؟ چه چیزی سبب سرخی یاقوت شده است؟ چرا زمرد سبز رنگ است؟ رنگ زیبای سنگ فیروزه به چه دلیل است؟ در پاسخی ساده می‌توان گفت كه این رنگ‌های زیبا، نشانی از وجود برخی تركیب‌های فلزهای واسطه است (شكل 7).</p>
+
+
+<br>
+
+<div class="boxpink">
+
+<div class="MsoStep">آیا میدانید</div>
+<p class="MsoNormal">یاقوت همان آلومینیم اكسید است كه در ساختار آن برخی از یون‌های آلومینیم با یون‌های $Cr^{3}$ جایگزین شده و رنگ سرخ زیبای یاقوت را ایجاد كرده است. با عبور نور سفید از یك یاقوت، طول موج‌های بلندتر آن یعنی رنگ سرخ بازتاب می‌شود.</p>
+</div>
+
+<br>
+
+<p class="MsoNormal">فلزهای دستهٔ d، دسته‌ای از عنصرهای جدول دورهای هستند كه زیر لایۀ d اتم آنها در حال پر شدن است. در شكل زیر نخستین سری از این فلزها كه در دورۀ چهارم جدول جای دارند، نشان داده شده است. اغلب این فلزها در طبیعت به شكل تركیب‌های یونی همچون اكسیدها، كربنات‌ها و... یافت می‌شوند. برای نمونه آهن، دو اكسید طبیعی با فرمول‌های $FeO$ و $Fe_2O_3$ دارد. در این اكسیدها، كدام كاتیون‌های آهن وجود دارد؟ به نظر شما اتم آهن برای تشكیل این كاتیون‌ها، كدام الكترون‌های خود را از دست داده است؟ فلزهای دستهٔ d نیز به هنگام تشكیل كاتیون، الكترون‌های بیرونی‌ترین زیر لایهٔ خود را از دست می‌دهند. پس آرایش یون‌های $Fe^{2+}$ و $Fe^{3+}$ به‌صورت زیر خواهد بود:</p>
+<br>
+
+
+<p class="MsoNormal">$$ Fe : \ \ [Ar] \ \ 3d^{6} 4s^{2} \ \  \xrightarrow{-2e}   \ \ Fe^{2+} : \ \ [Ar] \ \ 3d^{6}  $$</p>
+
+<p class="MsoNormal">$$  Fe^{2+}  : \ \ [Ar] \ \ 3d^{6} \ \  \xrightarrow{-e}   \ \ Fe^{3+} : \ \ [Ar] \ \ 3d^{5}  $$</p>
+
+
+<br>
+
+
+<p class="MsoNormal">همانگونه كه می‌بینید، آرایش الكترونی یون‌های $Fe^{2+}$ و $Fe^{3+}$ همانند آرایش الكترونی هیچ گاز نجیبی نیست. بررسی‌ها نشان می‌دهد كه اتم اغلب فلزهای واسطه با تشكیل كاتیون به آرایش گاز نجیب دست نمی‌یابند. در حالیكه كاتیون حاصل از فلزهای اصلی اغلب به آرایش پایدار گاز نجیب می‌رسند، مانند:</p>
+<br>
+
+<p class="MsoNormal" style="text-align: left;">
+
+$$
+\begin{align*}
+  _{3} Li : \ \ [ _{2} He ] \ \ 2s^1 \ \ &\rightarrow \ \ _3 Li^{+} : \ \ [ _{2} He ]   \\ \\
+
+  _{13} Al : \ \ [ _{10} Ne ] \ \ 3s^2 \ \ 3p^1  \ \ &\rightarrow \ \ _{13} Al^{3+} : \ \ [ _{10} Ne ]   \\ \\
+
+  _{30} Zn : \ \ [ _{18} Ar ] \ \ 3d^10 \ \ 4s^2  \ \ &\rightarrow \ \ _{30} Zn^{2+} : \ \ [ _{18} Ar ] \ \ 3d^{10}   \\ 
+  \\
+
+\end{align*}
+$$
+</p>
+
+<p class="MsoNormal" style="text-align: center;">
+    آرایش الکترونی یون روی شبیه هیچ گازی نیست.
+</p>
+
+
+<br>
+
+
+
+<div class="boxpink">
+<div class="MsoStep">آیا میدانید</div>
+<p class="MsoNormal">استفاده از نمک‌های گوناگون فلزهای واسطه در ساخت شیشه‌ها، رنگ‌های متنوعی ایجاد می‌کند.</p>
+</div>
+
+<br>
+
+
+<div class="boxpink">
+<div class="MsoStep">آیا میدانید</div>
+<p class="MsoNormal">خرچنگ نعل اسبی، كه به‌عنوان فسیل زنده شناخته می‌شود، خونی به رنگ آبی دارد، درحالیكه خون انسان به رنگ قرمز است. رنگ خون به‌دلیل وجود یونی از فلزهای واسطه است. در خون خرچنگ نعل اسبی، یون $Cu^{2+}$ و در خون انسان یون $Fe^{2+}$ وجود دارد. خون این جانور کاربردهای زیادی در صنعت پزشکی دارد.</p>
+</div>
+
+
+<br>
+
+
+<div class="boxy">
+
+<div class="MsoStep">خود را بیازمایید</div>
+
+<p class="MsoNormal">1ــ اسكاندیم 
+    ( $ _{21} Sc $ )
+    ، نخستین فلز واسطه در جدول دورهای است كه در وسایل خانه مانند تلویزیون رنگی و برخی شیشه‌ها وجود دارد.</p>
+<br>
+<p class="MsoNormal">الف) آرایش الكترونی اتم آن را بنویسید.</p>
+<br>
+<p class="MsoNormal">ب) كاتیون این فلز در تركیب‌هایش، سه بار مثبت دارد. آرایش الكترونی فشرده كاتیون اسكاندیم را رسم كنید.</p>
+<br>
+<p class="MsoNormal">2ــ جدول زیر را كامل كنید.</p>
+
+<br>
+
+
+<div class="custom-scrollbar" style="overflow-x: auto; overflow-y:hidden;">
+<table class="table" style="text-align: center; margin:auto;width:fit-content;">
+    <tr>
+        <th>نماد فلز / یون</th>
+        <th>آرایش الکترونی</th>
+        <th>نماد فلز / یون</th>
+        <th>آرایش الکترونی</th>
+    </tr>
+    <tr>
+        <td>$_{23} V$</td>
+        <td>$[Ar] 3d^3 4s^2$</td>
+        <td>$_{24} Cr$</td>
+        <td>............</td>
+    </tr>
+    <tr>
+        <td>$V^{2+}$</td>
+        <td>............</td>
+        <td>$Cr^{2+}$</td>
+        <td>$[Ar] 3d^4$</td>
+    </tr>
+    <tr>
+        <td>$V^{3+}$</td>
+        <td>............</td>
+        <td>$Cr^{3+}$</td>
+        <td>............</td>
+    </tr>
+</table>
+
+<br>
+</div>
+
+</div>
+
+
+
+
+<br>
+
+
+
+<div class="boxpink">
+<div class="MsoStep">آیا میدانید</div>
+<p class="MsoNormal">در خاك معدن طلای زرشوران، میزان طلا حدود 4 ppm است. به دیگر سخن در هر تن خاك این معدن، حدود 4 گرم طلا وجود دارد. در مجتمع طلای موته اصفهان نیز سالانه حدود 300 كیلوگرم طلا استخراج می‌شود.</p>
+</div>
+
+
+
+<br><hr><br>
+
+
+
+<div class="MsoStep">پیوند با صنعت</div>
+<p class="MsoNormal">هر كجا كه هستید به اطراف خود نگاهی بیندازید، آیا جسم یا وسیله‌ای می‌بینید كه از جنس طلا باشد یا در ساختن آن از طلا استفاده شده باشد؟ شاید به دنبال زیورآلاتی مانند گردنبند، انگشتر، دستبند، گنبد طلایی یا مواردی مشابه می‌گردید. آیا فلز طلا را می‌توان در وسایل دیگر نیز یافت؟ طلا فلزی ارزشمند و گران‌بها است كه افزون بر ویژگی‌های مشترك فلزها، ویژگی‌های منحصر به‌فردی نیز دارد. فلز طلا به اندازه‌ای چكش‌خوار و نرم است كه چند گرم از آن را می‌توان با چكشكاری به صفحه‌ای با مساحت چند متر مربع تبدیل كرد.</p>
+<br>
+<p class="MsoNormal">«طلا که پاک است چه منتش به خاک است» یك ضرب‌المثل ایرانی است اما یك مفهوم شیمیایی را بیان می‌كند. در مورد آن گفتگو كنید.</p>
+<br>
+<p class="MsoNormal">به همین دلیل ساخت برگه‌ها و رشته سیم‌های بسیار نازك (نخ طلا) به‌راحتی امكان‌پذیر است. رسانایی الكتریكی بالای طلا و حفظ این رسانایی در شرایط دمایی گوناگون، همچنین واكنش ندادن آن با گازهای موجود در هواكره و مواد موجود در بدن انسان همراه با بازتاب زیاد پرتوهای خورشیدی از جمله ویژگی‌های خاص طلاست كه سبب شده كاربردهای این فلز گسترش یافته و تقاضای جهانی آن روزبه‌روز افزایش یابد (شكل 8).</p>
+<br>
+<p class="MsoNormal">هرچند طلا در طبیعت به شكل فلزی و عنصری خود نیز یافت می‌شود، اما مقدار آن در معادن طلا بسیار كم است. به‌طوری كه برای استخراج مقدار كمی از آن باید از حجم انبوهی خاك معدن استفاده كرد. به همین دلیل پسماند بسیار زیادی تولید می‌شود. برای نمونه، در تولید مقدار طلای مورد نیاز برای ساخت یك عدد حلقهٔ عروسی حدود سه تن پسماند ایجاد می‌شود. از این‌رو استخراج طلا همانند دیگر فعالیت‌های صنعتی آثار زیانبار زیست‌محیطی بر جای می‌گذارد. امید است كه در پیوند صنعت با دانشگاه و انجام پژوهش‌های مناسب، راه‌هایی برای استخراج فلزها پیدا شود كه ضمن بهره‌برداری از منابع، منجر به كاهش ردپای محیط‌زیستی شده و هماهنگ با توسعه پایدار باشد. مجتمع طلای موته در اصفهان و زرشوران در آذربایجان غربی از منابع استخراج طلا در ایران هستند.</p>
+<br><hr>
+
+
+
+
+<div class="MsoBold">عنصرها به چه شكلی در طبیعت یافت می‌شوند؟</div>
+<p class="MsoNormal">یافته‌ها نشان می‌دهد كه اغلب عنصرها در طبیعت به شكل تركیب یافت می‌شوند، هرچند برخی نافلزها مانند اكسیژن، نیتروژن، گوگرد و... به شكل آزاد در طبیعت وجود دارند و وجود نمونه‌هایی از فلزهای نقره، مس، پلاتین نیز در طبیعت گزارش شده است. البته در میان فلزها، تنها طلا به شكل كلوخه‌ها یا رگه‌های زرد لابه‌لای خاك یافت می‌شود (شكل 9).</p>
+<br>
+<p class="MsoNormal">در دنیای مدرن و صنعتی امروزی، از فلزهای بسیار زیادی استفاده می‌شود آن‌چنان كه چرخ‌های اقتصادی كشورها به تولید و مصرف این مواد گره خورده است (شكل 10).</p>
+
+
+
+
+<br>
+
+
+
+<div class="boxpink">
+
+<div class="MsoStep">آیا میدانید</div>
+<p class="MsoNormal">سالانه مقدار قابل توجهی فلز در سطح دنیا تولید و مصرف می‌شود. جدول زیر مقدار مصرف سالانه چند فلز را نشان می‌دهد.</p>
+<br>
+<table class="table" style="text-align: center; width:fit-content; margin:auto;direction:rtl">
+    <tr>
+        <th>نام فلز</th>
+        <th>مقدار مصرف (تن)</th>
+    </tr>
+    <tr>
+        <td>آهن</td>
+        <td>۷۴۰۰۰۰۰۰۰</td>
+    </tr>
+    <tr>
+        <td>آلومینیم</td>
+        <td>۴۰۰۰۰۰۰۰</td>
+    </tr>
+    <tr>
+        <td>منیزیم</td>
+        <td>۲۲۰۰۰۰۰۰</td>
+    </tr>
+    <tr>
+        <td>مس و کروم</td>
+        <td>۸۰۰۰۰۰۰</td>
+    </tr>
+</table>
+
+</div>
+
+<br>
+
+<br><hr><br>
+<p class="MsoNormal">آهن فلزی است كه در سطح جهان بیشترین مصرف سالانه را در بین صنایع گوناگون دارد. در كشور ما نیز مصرف آهن بسیار زیاد است. همان‌طور كه می‌دانید آهن اغلب در طبیعت به شكل اكسید یافت می‌شود. اكنون این پرسش مطرح می‌شود كه چگونه می‌توان وجود آهن را در سنگ معدن شناسایی و به چه روشی می‌توان آن را استخراج كرد؟ شیمیدان‌ها با بررسی دقیق مواد، رفتار آنها را می‌شناسند تا پاسخ این‌گونه پرسش‌ها را بیابند. یكی از حوزه‌های پركاربرد و اقتصادی علم شیمی، یافتن راه‌های گوناگون و مناسب برای استخراج و تولید عنصرها از طبیعت است.</p>
+
+
+<br>
+
+<div class="boxpink">
+
+
+<div class="MsoStep">آیا میدانید</div>
+<p class="MsoNormal">شیمی تجزیه، شاخه‌ای از دانش شیمی است كه به مطالعه روش‌های شناسایی، جداسازی و بررسی كمی و كیفی اجزای یك ماده می‌پردازد. شیمی تجزیه‌دان‌ها با استفاده از دانش خود و به‌كارگیری دستگاه‌ها، رایانه و علم آمار، مسائل گوناگون صنعتی و علمی را حل می‌كنند. برای نمونه كنترل كیفی و سلامت آب، دارو، غذا و اندازه‌گیری اجزای یك نمونه خون مثال‌هایی از قلمرو این رشته است.</p>
+
+</div>
+
+
+<br><hr><br>
+
+    <div class="MsoStep">کاوش کنید (1)</div>
+    <p class="MsoNormal">دربارۀ اینكه «چگونه می‌توان فلز موجود در یک نمونه را شناسایی كرد؟» كاوش كنید.</p>
+<br>
+    <p class="MsoNormal">وسایل و مواد مورد نیاز: آهن (II) كلرید، آهن (III) كلرید، آب مقطر، سدیم هیدروكسید، محلول هیدروكلریك اسید، لولۀ آزمایش، قطره‌چكان، قاشقك.</p>
+</div>
+
+
+<br>
+
+
+
+    <div class="MsoSemi" style="font-size:larger;">آزمایش 1</div>
+    <br>
+    <p class="MsoNormal">الف) سه لولۀ آزمایش بردارید و آنها را شماره‌گذاری كنید.</p>
+ <br>
+    <p class="MsoNormal">ب) مقدار كمی از آهن (II) كلرید را با قاشقك بردارید و در لولۀ آزمایش شمارۀ «1» بریزید. سپس درون آن تا نیمه آب مقطر بریزید و آن را تكان دهید تا محلول شفافی به‌دست آید.</p>
+  <br>
+    <p class="MsoNormal">پ) مقدار كمی از سدیم هیدروكسید را با قاشقك بردارید و در لولۀ آزمایش شماره «2» بریزید. سپس درون آن تا نیمه آب بریزید و آن را تكان دهید تا محلول شفافی به‌دست آید.</p>
+  <br>
+    <p class="MsoNormal">ت) با استفاده از قطره‌چكان در لولۀ آزمایش شماره «3» در حدود یك میلی‌لیتر از محلول آهن (II) كلرید را بریزید و به آن قطره‌قطره محلول سدیم هیدروكسید بیفزایید.</p>
+  <br>
+    <p class="MsoNormal">ث) چه مشاهده می‌كنید؟ مشاهده‌های خود را بنویسید.</p>
+  <br>
+    <p class="MsoNormal">ج) در این واكنش، رسوب آهن (II) هیدروكسید و محلول سدیم‌كلرید تشكیل می‌شود. معادلۀ نمادی واكنش انجام شده را بنویسید و موازنه كنید.</p>
+    <br>
+    <p class="MsoNormal">چ) از این آزمایش چه نتیجه‌ای می‌گیرید؟</p>
+
+<br><br>
+
+    <div class="MsoSemi" style="font-size:larger;">آزمایش 2</div>
+    <br>
+    <p class="MsoNormal">الف) در آزمایش 1 به جای آهن (II) كلرید، آهن (III) كلرید بردارید و آزمایش را تكرار كنید.</p>
+   <br>
+    <p class="MsoNormal">ب) مشاهده‌های خود را بنویسید.</p>
+    <br>
+    <p class="MsoNormal">پ) با توجه به اینكه فراورده‌های این واكنش، رسوب آهن (III) هیدروكسید و محلول سدیم‌كلرید است، معادلۀ نمادی واكنش شیمیایی انجام شده را بنویسید و موازنه كنید.</p>
+   <br>
+    <p class="MsoNormal">ت) از این آزمایش چه نتیجه‌ای می‌گیرید؟</p>
+
+
+    <br><br>
+
+
+    <div class="MsoSemi" style="font-size:larger;">آزمایش 3</div>
+   <br>
+    <p class="MsoNormal">الف) یك میخ زنگ‌زده یا یك وسیله آهنی زنگ‌زده را بردارید و زنگ آهن سطح آن را با قاشقك خراش بدهید و جمع‌آوری كنید.</p>
+  <br>
+    <p class="MsoNormal">ب) زنگ آهن جمع‌آوری شده را در یك لوله آزمایش بریزید و قطره‌قطره محلول هیدروكلریك‌اسید به آن بیفزایید. این عمل را تا جایی ادامه دهید كه همۀ زنگ آهن حل شود.</p>
+   <br>
+    <p class="MsoNormal">پ) قطره‌قطره محلول سدیم هیدروكسید به لوله بیفزایید، این عمل را تا جایی ادامه دهید كه رسوب رنگی تشكیل شود.</p>
+  <br>
+    <p class="MsoNormal">ت) مشاهده‌های خود را بنویسید.</p>
+  <br>
+    <p class="MsoNormal">ث) در زنگ آهن كدام یون آهن وجود دارد؟ چرا؟</p>
+
+
+
+
+    <div class="boxgray">
+    <p class="MsoNormal">واكنش‌پذیری هر فلز، تمایل آن را برای انجام واكنش شیمیایی نشان می‌دهد. هرچه فلز واكنش‌پذیرتر باشد، تمایل آن برای انجام واكنش بیشتر است.</p>
+    </div>
+
+<br>
+
+<div class="boxpink">
+<div class="MsoStep">آیا میدانید</div>
+<p class="MsoNormal">فلزهای سدیم و پتاسیم در حدود 200 سال پیش شناسایی شده است در حالیكه استفاده از فلز روی به حدود 1500 سال پیش و فلزهای مس و طلا به چند هزار سال پیش برمی‌گردد.</p>
+</div>
+
+<br><hr><br>
+
+
+<div class="MsoStep">کاوش کنید (2)</div>
+
+<p class="MsoNormal">دربارۀ اینكه «کدام فلز واكنش‌پذیرتر است؟» كاوش كنید.</p>
+<br>
+<p class="MsoNormal">مواد و وسایل: میخ آهنی، مس (II) سولفات، آب مقطر، بشر.</p>
+<br>
+<p class="MsoNormal">1ــ درون بشری تا یك سوم حجم آن آب بریزید و نصف قاشق چای‌خوری مس (II) سولفات به آن بیفزایید و آن را هم بزنید تا محلول آبی‌رنگ به‌دست آید.</p>
+<br>
+<p class="MsoNormal">2ــ دو عدد میخ آهنی درون بشر بیندازید و مدتی صبر كنید.</p>
+<br>
+<p class="MsoNormal">3ــ مشاهده‌های خود را بنویسید.</p>
+<br>
+<p class="MsoNormal">4ــ اگر فراورده‌های واكنش انجام شده، فلز مس و محلول آهن (II) سولفات باشند، معادلۀ نمادی واكنش را بنویسید.</p>
+<br>
+<p class="MsoNormal">5ــ از این آزمایش چه نتیجه‌ای می‌گیرید؟</p>
+<br>
+<p class="MsoNormal">6ــ به نظر شما كدام فلز واكنش‌پذیرتر است؟ برای درستی دلیل خود، شواهد تجربی ارائه كنید.</p>
+
+
+
+
+
+<br>
+
+
+<div class="boxpink">
+<div class="MsoStep">آیا میدانید</div>
+<p class="MsoNormal">شیمی معدنی، شاخه‌ای از دانش شیمی است كه ویژگی‌ها و رفتار تركیب‌های معدنی شامل فلزها، مواد معدنی، تركیب‌های آلی فلزی را بررسی می‌كند. به عبارت دیگر این بخش از دانش شیمی، به تحلیل و تفسیر خواص و واكنش‌های عنصرها و تركیب‌های آنها به‌جز تركیب‌های كربن می‌پردازد.</p>
+</div>
+
+<br>
+
+
+<div class="boxb">
+<div class="MsoStep">با هم بیندیشیم</div>
+
+<p class="MsoNormal">در جدول زیر واكنش‌پذیری سه دسته از فلزها با هم مقایسه شده است. با توجه به آن، به پرسش‌های مطرح شده پاسخ دهید.</p>
+<br>
+
+<table class="table" style="text-align: center; margin:auto; width:fit-content; direction:rtl">
+    <tr>
+        <th rowspan="2">رفتار</th>
+        <th colspan="3">واکنش‌ پذیری</th> 
+         
+    </tr>
+    <tr>
+       
+        <td>زیاد</td>
+        <td>کم</td>
+        <td>ناچیز</td>
+    </tr>
+    <tr>
+        <th>نام فلز</th>
+        <td>سدیم ٬ پتاسیم</td>
+        <td>آهن ٬ روی</td>
+        <td>مس ٬ نقره ٬ طلا</td>
+      
+    </tr>
+ 
+</table>
+
+<br>
+
+
+
+
+
+
+<br>
+<p class="MsoNormal">الف) در شرایط یكسان كدام فلزها برای تبدیل شدن به كاتیون تمایل كمتری دارند؟</p>
+
+<br>
+<p class="MsoNormal">ب) در شرایط یكسان كدام فلز زیر در هوای مرطوب، سریع‌تر واكنش می‌دهد؟ $Ag$, $Na$, $Zn$</p>
+<br>
+<p class="MsoNormal">پ) تأمین شرایط نگهداری كدام فلزها دشوارتر است؟ چرا؟</p>
+<br>
+<p class="MsoNormal">ت) دربارۀ درستی جملۀ صفحه بعد، نخست گفتگو نموده سپس بر اساس آن مشخص كنید كدام واكنش زیر (I یا II) انجام می‌شود؟ چرا؟</p>
+
+<br>
+
+<p class="MsoNormal">«به‌طور کلی در هر واکنش شیمیایی که به‌طور طبیعی انجام می‌شود، واکنش‌پذیری فراورده‌ها از واکنش‌دهنده‌ها کمتر است».</p>
+
+<br>
+
+<p class="MsoNormal" style="text-align: left;">
+
+    I.
+    $
+    
+    FeO(s) + 2Na(s) \ \  \xrightarrow{\Delta}  \ \ Na_{2}O(s) + Fe(s)
+ 
+    $
+</p>
+
+<br>
+
+
+<p class="MsoNormal" style="text-align: left;">
+
+    II.
+    $
+    
+    FeO(s) + Cu(s) \ \  \xrightarrow{\Delta}  \ \ Fe(s) + CuO(s)
+ 
+    $
+</p>
+
+
+
+
+
+
+<br><br>
+
+
+<p class="MsoNormal">ث) در هر یك از واكنش‌های زیر، واکنش‌پذیری مواد واکنش‌دهنده را با مواد فراورده مقایسه کنید.</p>
+<br>
+
+<p class="MsoNormal" style="text-align: left;">
+
+    I.
+    $
+    
+    FeO(s) + C(s) \ \  \xrightarrow{\Delta}  \ \ CO_2 (g) + Fe(s)
+ 
+    $
+</p>
+<br>
+
+
+<p class="MsoNormal" style="text-align: left;">
+
+    II.
+    $
+    
+    Na_{2} O (s) + C(s) \ \  \xrightarrow{\Delta}  \ \ \text{واکنش‌نمی‌دهد}
+ 
+    $
+</p>
+
+</div>
+
+<br>
+
+
+<div class="boxpink">
+<div class="MsoStep">آیا میدانید</div>
+<p class="MsoNormal">مهارت انسان در استفاده از فلز آهن، عمری بیش از 3000 سال دارد. با این حال، گسترش كاربرد آن به قرن 14 باز می‌گردد، زمانی كه كوره‌های ذوب گسترش پیدا كردند. در شركت‌های فولاد مباركه و ذوب‌آهن اصفهان، سالانه میلیون‌ها تن آهن به شكل‌های گوناگون تولید می‌شود. فرایند صنعتی استخراج آهن در كورۀ بلند انجام می‌شود.</p>
+</div>
+
+<br>
+
+<div class="boxpink">
+<div class="MsoStep">آیا میدانید</div>
+<p class="MsoNormal">معدن سنگ‌آهن چادرملو كه در حال حاضر بزرگ‌ترین تولیدكننده كنسانترۀ سنگ‌آهن در كشور است با ذخیرۀ قابل استخراج به مقدار 320 میلیون تن در قلب كویر مركزی ایران و در 180 كیلومتری شمال شرقی شهرستان یزد واقع شده است.</p>
+</div>
+
+
+<br><hr><br>
+
+
+
+<p class="MsoNormal">واكنش‌پذیری هر عنصر به معنای تمایل اتم آن به انجام واكنش شیمیایی است. هرچه واكنش‌پذیری اتم‌های عنصری بیشتر باشد، در شرایط یكسان تمایل آن برای تبدیل شدن به تركیب بیشتر است. هرچه فلز فعال‌تر باشد، میل بیشتری به ایجاد تركیب دارد و تركیب‌هایش پایدارتر از خودش است. به‌دیگر سخن هرچه واكنش‌پذیری فلزی بیشتر باشد، استخراج آن فلز دشوارتر است. فلزها از جمله هدایای زمینی هستند كه اغلب در طبیعت به شكل سنگ معدن یافت می‌شوند. در كشور ما فولاد مباركه، مس سرچشمه، آلومینیم اراك و منیزیم خراسان جنوبی از جمله مجتمع‌های صنعتی هستند كه برای استخراج فلزها بنا شده‌اند.</p>
+<br>
+<p class="MsoNormal">اكنون می‌خواهیم بررسی كنیم چگونه می‌توان فلز $Fe$ را از $Fe_2O_3$ استخراج كرد. برای انجام این كار می‌توان از واكنش $Fe_2O_3$ با فلز سدیم یا عنصر كربن بهره برد. از آنجا كه دسترسی به كربن آسان‌تر است و صرفه اقتصادی بیشتری دارد، در فولاد مباركه مانند همۀ شركت‌های فولاد جهان، برای استخراج آهن از كربن استفاده می‌شود. معادلۀ واكنشی كه منجر به تولید آهن می‌شود، به‌صورت زیر است:</p>
+<br>
+<p class="MsoNormal">$$2Fe_2O_3 (s) + 3C (s) \ \ \xrightarrow{\Delta} \ \ 4Fe (s) + 3CO_2 (g)$$</p>
+<br>
+<p class="MsoNormal">در شیمی دهم با روش محاسبۀ مقدار فراورده از مقدار مشخصی واكنش‌دهنده آشنا شدید. بر اساس همان روابط می‌توان حساب كرد كه به ازای مصرف مقدار معینی $Fe_2O_3$ تولید چه مقدار فلز آهن انتظار می‌رود.</p>
+
+
+
+<br><hr><br>
+<div class="MsoStep">نمونه حل شده</div>
+<p class="MsoNormal">با توجه به معادلۀ واكنش صفحه پیش و با مراجعه به جدول دورهای حساب كنید، از واكنش یك تن $Fe_2O_3$ با مقدار كافی از كربن، انتظار می‌رود چند تن آهن تولید شود.</p>
+<br>
+<p class="MsoSemi">
+    پاسخ
+    :
+</p>
+<br><br>
+
+<div class="custom-scrollbar" style="overflow-x: auto; overflow-y:hidden; direction:ltr">
+<p class="MsoNormal">
+$
+? ton Fe = 1 ton Fe_{2} O_{3} \times \dfrac{1000kg}{1ton} \times \dfrac{1000g}{1kg} \times \dfrac{1mol Fe_{2} O_{3}}{160gFe_{2}O_{3}} 
+\times \dfrac{4molFe}{2molFe_{2}O_{3} } \times \dfrac{56gFe}{1molFe} \times \dfrac{1kg}{1000kg} \times \dfrac{1ton}{1000kg} \times
+= 0.7 ton Fe
+$
+</p>
+
+<br>
+</div>
+
+
+
+<br>
+
+<div class="boxy"
+
+
+<div class="MsoStep">خود را بیازمایید</div>
+<p class="MsoNormal">مطابق واكنش بالا، از واكنش 40 گرم آهن(III) اكسید با مقدار كافی كربن، انتظار می‌رود چند گرم آهن به‌دست آید؟</p>
+<br><hr><br>
+
+
+
+<div class="MsoBold">دنیای واقعی واکنش‌ها</div>
+<p class="MsoNormal">دانشجویی در آزمایشگاه، واكنش زیر را سه بار در شرایط ایمن انجام داده است. او هر بار 40 گرم آهن (III) اكسید را با مقدار كافی كربن در شرایط مناسب وارد واكنش نموده است. جدول زیر نتایج آزمایش‌های او را نشان می‌دهد:</p>
+<br>
+
+<table class="table" style="text-align: center; margin:auto; width:fit-content; direction:rtl">
+    <tr>
+        <th>شماره آزمایش</th>
+        <th>جرم واكنش دهنده $Fe_{2}O_{3}$ (گرم)</th>
+        <th>جرم فراورده‌ای که دانشجو به‌دست آورده است (گرم)</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>40</td>
+        <td>19.5</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>40</td>
+        <td>19.6</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>40</td>
+        <td>19.7</td>
+    </tr>
+</table>
+
+
+<br><br>
+<p class="MsoNormal">این در حالی است كه بر اساس محاسبه، انتظار می‌رفت 28 گرم فراورده (فلز آهن) تولید شود. اما هر بار جرمی كه این دانشجو به‌دست آورده از جرم مورد انتظار كمتر است. به‌دیگر سخن مقدار عملی واكنش (19.6 گرم فلز آهن) از مقدار نظری واكنش (28 گرم فلز آهن) كوچك‌تر است. برای توضیح این مسئله، می‌توان چنین بیان كرد كه آهن (III) اكسید ناخالص است. شاید همۀ آن نیز وارد واكنش نشده یا دانشجو نتوانسته است همۀ آهن تولیدشده را جداسازی و جمع‌آوری كند. آزمایش‌هایی از این دست بسیارند و نشان می‌دهند كه باید شیمیدان‌ها روشی برای بیان میزان خلوص مواد واكنش‌دهنده، میزان كارایی و بازدۀ هر واكنش را پیدا كنند تا بتوانند محاسبه‌های كمی را دقیق و درست انجام دهند.</p>
+<br><hr><br>
+    <div class="MsoStep">پیوند با ریاضی</div>
+    <p class="MsoNormal">اگر 65 درصد از نوعی كیك را آرد تشكیل دهد، به این معناست كه هر 100 گرم كیك شامل 65 گرم آرد و 35 گرم از مواد دیگر است. با توجه به این مفهوم، پاسخ پرسش‌های زیر را بیابید.</p>
+  <br>
+    <p class="MsoNormal">1ــ الف) آهن در طبیعت به‌صورت كانۀ هماتیت یافت می‌شود. اگر درصد خلوص این كانه برابر با 70 باشد، معنی آن چیست؟</p>
+ <br>
+    <p class="MsoNormal">ب) رابطه‌ای برای درصد خلوص مواد بیابید.</p>
+  <br><br>
+    <p class="MsoNormal">2ــ الف) شیمیدان‌ها برای محاسبۀ مقدار واقعی فراوردۀ تولید شده در یك واكنش از مفهومی به نام بازده درصدی استفاده می‌كنند (كمیتی كه كارایی یك واكنش را نشان می‌دهد)، رابطه‌ای برای آن بنویسید.</p>
+ <br>
+    <p class="MsoNormal">ب) با توجه به داده‌های جدول زیر، بازده درصدی واكنش را حساب كنید.</p>
+<br>
+
+
+
+<table class="table" style="text-align: center; margin:auto; width:fit-content; direction:rtl">
+
+    <tr>
+        <th>نماد شیمیایی ماده</th>
+        <th>مقدار ماده (گرم)</th>
+    </tr>
+    <tr>
+        <td>$Fe_2O_3$</td>
+        <td>40</td>
+    </tr>
+    <tr>
+        <td>$Fe$ (فراورده‌ای که دانشجو به‌دست آورده است)</td>
+        <td>19.6</td>
+    </tr>
+    <tr>
+        <td>$Fe$ (فراورده‌ای که انتظار داشتیم به‌دست آید)</td>
+        <td>28</td>
+    </tr>
+</table>
+
+
+<br>
+
+
+   <br><hr> <br>
+<p class="MsoNormal">به مقدار فراوردۀ مورد انتظار در هر واكنش، مقدار نظری و به مقدار فراورده‌ای كه در عمل به‌دست می‌آید، مقدار عملی می‌گویند.</p>
+<br><hr><br>
+
+
+
+<p class="MsoNormal">واكنش‌های شیمیایی همیشه مطابق آنچه انتظار می‌رود پیش نمی‌روند، زیرا ممكن است واكنش‌دهنده‌ها ناخالص باشند یا ممكن است واكنش به‌طور كامل انجام نشود، حتی گاهی نیز همزمان با آن، واكنش‌های ناخواستۀ دیگری انجام می‌شود. با این توصیف مقدار واقعی فراورده از مقدار مورد انتظار كمتر است. در واقع بازده درصدی واكنش‌های شیمیایی از صد كمتر است.</p>
+
+
+<br><hr><br>
+
+
+
+    <div class="MsoStep">نمونه حل شده</div>
+    
+    <p class="MsoNormal">1ــ یكی از راه‌های تهیۀ سوخت سبز، استفاده از بقایای گیاهانی مانند نیشكر، سیب‌زمینی و ذرت است. واكنش بی‌هوازی تخمیر گلوكز، از جمله واكنش‌هایی است كه در این فرایند رخ می‌دهد.</p>
+  <br>
+    <p class="MsoNormal">$$C_6H_{12}O_6 (aq) \rightarrow 2 C_2H_5OH (aq) + 2CO_2 (g)$$</p>
+   <br>
+    <p class="MsoNormal">حساب كنید از تخمیر 1.5 تن گلوكز موجود در پسماندهای گیاهی، چند تن سوخت سبز (اتانول) تولید می‌شود. بازده واكنش را 80 درصد در نظر بگیرید.</p>
+    <br>
+    <p class="MsoSemi">پاسخ:</p>
+    <p class="MsoNormal">نخست با توجه به معادله واكنش، باید محاسبه شود چند تن فراورده مورد انتظار است.</p>
+
+    <div class="custom-scrollbar" style="overflow-x: auto; overflow-y:hidden; direction:ltr">
+
+    <p class="MsoNormal">
+
+$$
+
+? ton C_{2} H_{5} OH = 1.5 ton C_{6} H_{12} O_{6} \times \dfrac{1000kg}{1ton} \times \dfrac{1000g}{1kg} \times 
+\dfrac{1mol C_{6} H_{12} O_{6}}{180g C_{6} H_{12} O_{6}} \times \dfrac{2mol C_{2} H_{5} OH}{1mol C_{6} H_{12} O_{6}} 
+\times \dfrac{46g C_{2} H_{5} OH}{1mol C_{6} H_{12} O_{6}} \times \dfrac{46g C_{2} H_{5} OH }{1mol C_6 H_{12} O_{6}} 
+\times \dfrac{1kg}{1000g} \times \dfrac{1kg}{1000g} \times \dfrac{1ton}{1000kg} = 0.77 ton C_{2} H_{5} OH  
+ 
+$$
+
+
+
+    </p>
+<br>
+
+
+    </div>
+
+<br><br>
+
+
+<p class="MsoNormal">
+
+    اینک:
+</p>
+
+
+<p class="MsoNormal" style="text-align: left;">
+
+
+$
+\text{بازده‌درصدی} = \dfrac{ \text{مقدار‌عملی}}{\text{مقدارنظری}} \times 100
+$
+<br><br>    
+$
+80 = \dfrac{x}{0.77} \times 100 \rightarrow x = 0.62 ton C_{2} H_{5} OH
+$
+</p>
+
+<br><br>
+
+
+<p class="MsoNormal">2ــ فلز آهن طبق واكنش زیر با محلول هیدروكلریك اسید واكنش می‌دهد. تیغه‌ای فولادی به جرم 10 گرم با خلوص 95% را در مقدار كافی محلول هیدروكلریك اسید می‌اندازیم. حجم گاز هیدروژن تولید شده توسط دو دانش‌آموز در STP محاسبه شده است. كدام‌یك درست است؟ چرا؟</p>
+
+<p class="MsoNormal">
+
+$$
+Fe(s) + 2HCL(aq) \times FeCl_{2} (aq) + H_2(g)
+$$
+
+<br><br>
+
+روش ۱
+<br>
+
+$$
+?LH_2 = 10gFe \times \dfrac{1molFE}{56gFe} \times \dfrac{1molH_2}{1molFe} \times \dfrac{22.4 LH_{2}}{1molH_{2}}
+$$
+
+<br>
+
+روش ۲
+<br>
+
+$$
+?LH_2 = 9.5gFe \times \dfrac{1molFE}{56gFe} \times \dfrac{1molH_2}{1molFe} \times \dfrac{22.4 LH_{2}}{1molH_{2}}
+$$
+
+<br>
+
+
+<p class="MsoNormal">پاسخ: روش 2 درست است، زیرا در محاسبه‌های استوکیومتری باید مقدار خالص واكنش‌دهنده‌ها را در نظر گرفت.</p>
+
+
+
+
+</p>
+
+
+
+
+    <br><hr><br>
+
+
+        <div class="MsoStep">خود را بیازمایید</div>
+    <p class="MsoNormal">1ــ یكی از واكنش‌هایی كه در صنعت جوشكاری از آن استفاده می‌شود واكنش ترمیت است.</p>
+ <br>
+
+
+
+    <p class="MsoNormal">$$2Al (s) + Fe_2O_3 (s) \rightarrow Al_2O_3 (s) + 2Fe (l)$$</p>
+ <br>
+    <p class="MsoNormal">الف) مشخص كنید كدام فلز فعال‌تر است، آلومینیم یا آهن؟ چرا؟</p>
+ <br>
+    <p class="MsoNormal">ب) حساب كنید برای تولید $279$ گرم آهن، چند گرم آلومینیم با خلوص $80$ درصد لازم است.</p>
+    <br><br>
+ 
+    <p class="MsoNormal">2ــ آهن(III) اكسید به عنوان رنگ قرمز در نقاشی به‌كار می‌رود. از واكنش 10 كیلوگرم از این ماده با گاز كربن مونوكسید طبق معادلۀ زیر، $5200$ گرم آهن به‌دست آمده است. بازده درصدی واكنش را به‌دست آورید.</p>
+  <br>
+    <p class="MsoNormal">$$Fe_2O_3 (s) + 3CO (g) \rightarrow 2Fe (s) + 3CO_2 (g)$$</p>
+
+
+<br>
+
+<p class="MsoNormal">3ــ یكی از روش‌های بیرون كشیدن فلز از لابه‌لای خاك، استفاده از گیاهان است. در این روش در معدن یا خاك دارای فلز، گیاهانی را می‌كارند كه می‌توانند آن فلز را جذب كنند. سپس گیاه را برداشت می‌كنند، می‌سوزانند و از خاكستر حاصل، فلز را جداسازی می‌كنند.</p>
+<br>
+
+<p class="MsoNormal">در جدول زیر، داده‌هایی دربارۀ این روش ارائه شده است. با توجه به آن:</p>
+<br>
+
+
+<table class="table" style="text-align: center; margin:auto;width:fit-content;direction:rtl">
+    <tr>
+        <th>نماد شیمیایی فلز</th>
+        <th>قیمت هر کیلوگرم فلز (ریال)</th>
+        <th>بیشترین مقدار فلز در یک کیلوگرم از گیاه (گرم)</th>
+        <th>درصد فلز در سنگ معدن</th>
+    </tr>
+    <tr>
+        <td>Au</td>
+        <td>1,200,000,000</td>
+        <td>0.1</td>
+        <td>0.002%</td>
+    </tr>
+    <tr>
+        <td>Ni</td>
+        <td>820,000</td>
+        <td>38</td>
+        <td>2%</td>
+    </tr>
+    <tr>
+        <td>Cu</td>
+        <td>245,000</td>
+        <td>14</td>
+        <td>0.5%</td>
+    </tr>
+    <tr>
+        <td>Zn</td>
+        <td>155,000</td>
+        <td>40</td>
+        <td>5%</td>
+    </tr>
+</table>
+
+
+<br>
+
+
+
+
+
+
+
+<br>
+<p class="MsoNormal">الف) در صورتی‌كه در پالایش طلا به كمك گیاهان، در هر هكتار بتوان 20 تن گیاه برداشت كرد؛ حساب كنید در هر هكتار چند گرم طلا از زمین بیرون كشیده می‌شود.</p>
+<br>
+<p class="MsoNormal">ب) یك كیلوگرم از گیاهی كه برای پالایش نیكل به‌كار می‌رود، 159 گرم خاكستر می‌دهد؛ درصد نیكل را در این خاكستر حساب كنید.</p>
+<br>
+<p class="MsoNormal">پ) این روش برای استخراج فلزهای روی و نیكل مقرون به صرفه نیست، در این مورد گفتگو كنید.</p>
+
+
+
+
+
+
+    <br><hr><br>
+
+
+
+
+    <div class="MsoStep">آیا میدانید</div>
+    <p class="MsoNormal">گیاه‌پالایی فرایندی است كه در آن از گیاهان برای پالایش آب‌های سطحی، خاك و هوا استفاده می‌شود. ریشه‌های عمیق، برگ‌های پرپشت و قدرت جذب بالا به همراه باكتری‌های موجود در ریشۀ گیاهان به آنها اجازه می‌دهد تا آلاینده‌های موجود در آب را جذب، تغلیظ یا تجزیه كنند. بدیهی است یافتن گیاه مناسب برای پالایش هر آلاینده یكی از دشوارترین و مهم‌ترین مراحل این فرایند است. درخت سپیدار، گل همیشه بهار، سنبل آبی و گل ختمی نمونه‌هایی از گیاهان مناسب برای گیاه‌پالایی است.</p>
+
+<br><hr><br>
+
+
+
+<p class="MsoStep">پیوند با صنعت</p>
+<p class="MsoBold">گنج‌های اعماق دریا</p>
+
+<p class="MsoNormal">شاید این عنوان شما را به یاد جواهرات و اشیای ارزشمندی بیندازد كه به دلیل غرق شدن كشتی‌ها در بستر دریا دفن شده‌اند یا شاید یادآور مرواریدهای غلتان، زیبا و رنگارنگی باشد كه در دل صدف‌ها رشد می‌كنند. اما این پاسخ ساده‌انگارانه است! زیرا بستر اقیانوس‌ها منبعی غنی از منابع فلزی گوناگون است. منابعی كه انسان به تازگی آن را كشف كرده است. به دلیل نیاز روزافزون جهان به منابع شیمیایی و كاهش میزان این منابع در سنگ‌كره، شیمیدان‌ها را بر آن داشت تا در جست‌وجوی منابع تازه باشند. این جست‌وجو از رازی پرده برداشت كه نشان می‌داد گنجی عظیم در اعماق دریاها نهفته است. این گنج در برخی مناطق محتوی سولفید چندین فلز واسطه و در برخی مناطق دیگر به‌صورت كلوخه‌ها و پوسته‌هایی غنی از فلزهایی مانند منگنز، كبالت، آهن، نیكل، مس و ... یافت می‌شود (شكل 11).</p>
+<br>
+<p class="MsoNormal">غلظت بیشتر گونه‌های فلزی موجود در كف اقیانوس نسبت به ذخایر زمینی، بهره‌برداری از این منابع را نوید می‌دهد. امروزه شركت‌هایی از برخی كشورها طرح‌های استخراج این مواد را از بستر اقیانوس‌ها در دست دارند. پیش‌بینی می‌شود اكتشاف و بهره‌برداری از منابع شیمیایی بستر دریا به یكی از صنایع كلیدی و تأثیرگذار در روابط كشورها تبدیل شود. امید است با گسترش شركت‌های دانش‌بنیان و تقویت دانش و فناوری، كشور ما نیز از این منابع عظیم خدادادی بهره‌مند شود.</p>
+<br><hr><br>
+
+
+
+
+
+
+<div class="MsoStep">آیا میدانید</div>
+<p class="MsoNormal">سازمان بین‌المللی بستر دریا، قوانین مربوط به بهره‌برداری از بستر دریا مانند مقررات زیست‌محیطی، تفاهم‌نامه‌های اجرایی و قوانین مالی تهیه و تنظیم می‌كند. حوزه نظارت و عملكرد این سازمان، خارج از حوزه قضایی ملی كشورهاست. این سازمان تاكنون چندین قرارداد با كشورهای گوناگون بسته است و استخراج بخشی از منابع فلزی شناخته شده را طبق قوانین موجود به آنها سپرده است.</p>
+
+
+
+<br><hr><br>
+
+
+<div class="MsoStep">در میان تارنما ها</div>
+<p class="MsoNormal">با مراجعه به منابع معتبر دربارۀ ذخایر بستر دریا (Seabed Minerals)، چگونگی تشكیل آنها و سازمان بین‌المللی بستر دریا (International Seabed Authority) اطلاعاتی جمع‌آوری و به كلاس گزارش كنید.</p>
+
+
+<br><hr>
+
+<p class="MsoBold">
+    جریان فلز بین محیط زیست و جامعه
+</p>
+
+
+
+
+<p class="MsoNormal">طبیعت منشأ و منبع هدایای گرانبهایی است كه خداوند مهربان آن را به انسان ارزانی داشته است. انسان نیز با بهره‌گیری از توانایی‌های وجودی خود كه آن را نیز خداوند به وی عطا كرده است، از این هدایا برای برآورده‌كردن نیازهای خود به شكل‌های گوناگون استفاده می‌كند. استخراج فلز از سنگ معدن آن یكی از این روش‌ها است. دیدید كه سالانه صدها میلیون تن فلز از دل زمین استخراج می‌شود. سپس از این فلزها، ابزار، وسایل و مواد گوناگونی تهیه می‌شود. در شیمی دهم آموختید كه براساس توسعۀ پایدار باید در تولید یك ماده یا عرضه خدمات، همۀ هزینه‌ها و ملاحظه‌های اقتصادی، اجتماعی و زیست‌محیطی را در نظر گرفت. به‌طوری كه اگر مجموع هزینه‌های بهره‌برداری از یك معدن با در نظر گرفتن این ملاحظه‌ها، كمترین مقدار ممكن باشد، در آن صورت در مسیر پیشرفت پایدار حركت می‌كنیم؛ یعنی رفتارهای ما، آسیب كمتری به جامعه‌ای كه در مسیر حفظ محیط‌زیست است، وارد می‌كند و ردپای زیست‌محیطی ما را كاهش می‌دهد. با این روند در استفادۀ درست از این هدایای زمینی و نگهداری آنها برای آیندگان موفق خواهیم شد.</p>
+
+
+<br><hr><br>
+
+
+<div class="MsoStep">با هم بیندیشیم</div>
+<p class="MsoNormal">در شكل زیر فرایند استخراج فلز از طبیعت و بازگشت آن به طبیعت نشان داده شده است. با گفت‌وگو دربارۀ آن، پاسخ پرسش‌های زیر را بیابید.</p>
+
+<br>
+<p class="MsoNormal">الف) آیا آهنگ مصرف و استخراج فلز با آهنگ بازگشت فلز به طبیعت به شكل سنگ معدن یكسان است؟ توضیح دهید.</p>
+<br>
+<p class="MsoNormal">ب) فلزها، منابعی تجدیدپذیرند یا تجدیدناپذیر؟ چرا؟</p>
+<br>
+<p class="MsoNormal">پ) دربارۀ شكل بالا گفت‌وگو و مشخص كنید كدام عبارت‌ها درست و كدام‌ها نادرست‌اند؟ چرا؟</p>
+<br>
+<p class="MsoNormal">بازیافت فلزها و از جمله فلز آهن: ردپای كربن‌دی‌اكسید را كاهش می‌دهد. سبب كاهش سرعت گرمایش جهانی می‌شود. گونه‌های زیستی بیشتری را از بین می‌برد. به توسعه پایدار كشور كمك می‌كند.</p>
+
+
+<br><hr><br>
+<p class="MsoNormal">ارزیابی چرخه عمر اصطلاحی است كه برای ارزیابی میزان تأثیر یك فراورده بر روی محیط‌زیست در مدت طول عمر آن به‌كار می‌رود. این ارزیابی شامل ارزیابی از چهار مرحله استخراج و تولید مواد خام برای تولید یك فراورده، توزیع، مصرف و دفع آن است. ارزیابی چرخه عمر شامل بررسی و ارزیابی میزان آب و انرژی مصرفی، پایدار بودن فرایند تأمین مواد خام، میزان زباله و پسماند ایجاد شده و سهم حمل و نقل در همه مراحل است.</p>
+<br>
+<p class="MsoNormal">ارزیابی چرخه عمر حاصل تلاش برای یافتن شاخص‌هایی است كه كمك می‌كنند صنایع گوناگون در مسیر بهره‌گیری از دانش فنی و تخصصی سازگارتر با محیط‌زیست حركت كنند و رفتار و عملكرد خود را در مسیر رسیدن به توسعه پایدار اصلاح كنند. جدول زیر مثال ساده‌ای از این چرخه برای یك كیسه پلاستیكی و پاكت كاغذی را نشان می‌دهد.</p>
+
+<br>
+<div class="custom-scrollbar" style="overflow-x: auto; overflow-y:hidden; direction:rtl;">
+<table class="table" style="text-align: right; margin:auto;width:max-content; direction:rtl">
+    <tr style="text-align: center;">
+        <th colspan="2" >مراحل چرخه عمر</th>
+        <th >پاکت کاغذی</th>
+        <th>کیسه پلاستیکی</th>
+        
+    </tr>
+    <tr>
+        <th rowspan="4">استخراج و تولید 
+            <br>
+            مواد اولیه و خام</th>
+
+        <td>ماده اولیه یا خام چیست؟</td>
+
+        <td>درخت</td>
+        <td>نفت خام</td>
+    </tr>
+    <tr>
+        <td>پایداری تأمین ماده اولیه و خام</td>
+
+        <td>نسبتاً پایدار ــ میتوان
+            <br>
+            تعداد زیادی درخت كاشت</td>
+
+        <td>ناپایدار ــ نفت 
+            <br>
+            تجدید نشدنی است</td>
+
+    </tr>
+    <tr>
+        <td>تأثیر تولید ماده 
+            <br>
+            خام روی محیط زیست</td>
+
+
+        <td>با بریدن درختان زیستگاه
+            <br>
+            جانداران زیادی تخریب میشود.</td>
+        <td>در استخراج نفت خام
+            <br>
+            انرژی زیادی مصرف میشود.</td>
+
+    </tr>
+    <tr>
+        <td>تأثیر حمل و نقل
+            <br>
+            ماده خام روی محیط زیست</td>
+        <td>آلودگی هوا را به دنبال دارد.</td>
+        <td>سبب آلودگی هوا، خاك و
+            <br>
+            آب میشود.</td>
+    </tr>
+    <tr>
+        <th style="text-align: center;">تولید</th>
+
+        <td>تأثیر روی محیط‌زیست</td>
+        <td>در تولید كاغذ آب به مقدار
+            <br>
+            زیاد و برخی مواد شیمیایی
+            مضر
+            <br>
+            برای محیط زیست مصرف میشود.</td>
+
+
+        <td>در پالایش نفت خام و واكنش پلیمری
+            <br>
+            شدن انرژی زیادی مصرف میشود.</td>
+    </tr>
+    <tr>
+        <th style="text-align: center;">مصرف</th>
+        <td>تأثیر حمل و نقل ماده
+            <br>
+            خام روی محیط زیست</td>
+        <td>سبب آلودگی هوا میشود.</td>
+        <td>سبب آلودگی هوا میشود.</td>
+
+    </tr>
+    <tr>
+        <th style="text-align: center;" rowspan="3">دفع</th>
+        <td>دفن كردن</td>
+        <td>تجزیه میشود اما گاز متان
+            <br>
+            تولید میكند كه آلاینده هوا است.</td>
+        <td>تجزیه نمیشود و در زمین برای
+            <br>
+            سالیان طولانی باقی میماند.</td>
+
+    </tr>
+    <tr>
+        <td>سوزاندن زباله</td>
+        <td>سبب انتشار گازهای گلخانه ای
+            <br>
+            و آلودگی هوا میشود.</td>
+            <td>سبب انتشار گازهای گلخانه ای
+                <br>
+                و آلودگی هوا میشود.</td>
+    </tr>
+    <tr>
+        <td>بازیافت</td>
+        <td>حمل و نقل پسماندهای 
+            <br>
+            كاغذی سبب آلودگی هوا میشود.</td>
+        <td>حمل و نقل پسماندهای پلاستیكی و
+            <br>
+             ذوب كردن آنها انرژی مصرف میكند
+             <br>
+             و سبب آلودگی هوا میشود.</td>
+    </tr>
+</table>
+
+<br>
+
+</div>
+
+<br><hr>
+<p class="MsoBold">نفت، هدیه‌ای شگفت‌انگیز</p>
+
+<p class="MsoNormal">در اواخر سدۀ ۱۸ میلادی شیمیدان‌ها با ماده‌ای روبه‌رو شدند که رفتار آن به مواد شناخته‌شده تا آن زمان شبیه نبود؛ ماده‌ای که بعدها نفت‌خام نامیده شد. این ماده یکی از سوخت‌های فسیلی است که به شکل مایع غلیظ سیاه‌رنگ یا قهوه‌ای متمایل به سبز از دل زمین بیرون کشیده می‌شود (شکل ۱۲).</p>
+<br>
+<p class="MsoNormal">شیمیدان‌ها در آن زمان نمی‌دانستند که در این مخلوط سیاه‌رنگ چه موادی وجود دارد، این مواد چه خواصی دارند و هنگام انجام آزمایش و بررسی آن، چه اتفاقاتی ممکن است رخ دهد.</p>
+<br>
+<p class="MsoNormal">دیری نپایید که برخی شیمیدان‌ها با بررسی نفت‌خام، موفق به شناسایی برخی مواد سازندۀ آن، ساختار و رفتار آن‌ها شدند. این ویژگی‌ها و رفتارها، چنان جذاب و غیرمنتظره بود که سبب افزایش چشم‌گیر پژوهش‌ها در مورد نفت‌خام در سراسر جهان شد. پژوهش‌هایی که با یافتن کاربردهای جدید و مناسب برای مواد موجود در نفت‌خام، خبرهای خوشی را نوید می‌داد. حل مشکل حمل‌ونقل از شهری به شهر دیگر یا از کشوری به کشور دیگر و ساخت داروهای تازه برای درمان بیماری‌های گوناگون از جملهٔ آن‌ها بود. بدین ترتیب آن مایع سیاه، نه‌تنها ترسناک و ناشناخته نماند بلکه به کیمیایی شگفت‌انگیز تبدیل شد. کیمیایی که از دل زمین بیرون کشیده می‌شد و به دلیل رفتارهایش، نظر همهٔ جهانیان را به خود جلب کرد.</p>
+<br>
+
+<p class="MsoNormal">امروزه این هدیهٔ زمینی ارزشمند را طلای سیاه می‌نامند. امروزه نفت خام در دنیای کنونی دو نقش اساسی ایفا می‌کند. نقش نخست آن، منبع تأمین انرژی بوده و در نقش دوم، مادهٔ اولیه برای تهیهٔ بسیاری از مواد و کالاهایی است که در صنایع گوناگون از آن‌ها استفاده می‌شود (شکل ۱۳).</p>
+
+
+<br><hr><br>
+<p class="MsoStep">
+    آیا می‌دانید
+</p>
+<p class="MsoNormal">  نخستین چاه نفت جهان در سال ۱۸۵۹ میلادی در
+     ایالت پنسیلوانیای آمریکا حفر شد. این چاه ۲۱ متر عمق داشت و
+     روزانه بین ۲۰ تا ۴۰ بشکه نفت از آن بیرون کشیده می‌شد.
+     نخستین چاه نفت ایران نیز در سال ۱۲۸۷ خورشیدی در شهر مسجدسلیمان حفر شد.</p>
+<br>
+
+<hr><br>
+
+
+
+<p class="MsoNormal">پژوهش‌ها و یافته‌های تجربی نشان می‌دهد که نفت‌خام، مخلوطی از هزاران ترکیب شیمیایی است که بخش عمدۀ آن را هیدروکربن‌های گوناگون تشکیل می‌دهند. ترکیب‌هایی که شامل هیدروژن و کربن هستند. از آنجا که عنصر اصلی سازندۀ نفت خام کربن است، برای پی بردن به ویژگی‌ها و خواص مواد سازندۀ نفت‌خام، نخست باید با رفتارها و ویژگی‌های اتم کربن آشنا شد.</p>
+<br><hr><br>
+
+<p class="MsoStep">
+    آیا می‌دانید
+</p>
+
+<p class="MsoNormal">  اتم‌های کربن سازندۀ اصلی مولکول‌های زیستی و جهان زنده هستند. 
+    در حالی که در جهان غیرزنده، سیلیسیم عنصر اصلی سازنده مواد است.</p>
+<br>
+
+<br><hr>
+<p class="MsoBold">
+    کربن، اساس استخوان‌بندی هیدروکربن‌ها
+</p>
+
+<p class="MsoNormal">عنصر کربن در خانهٔ شمارهٔ ۶ جدول دوره‌ای جای داشته 
+    و اتم آن در لایهٔ ظرفیت خود چهار الکترون دارد. این اتم رفتارهای منحصر‌به‌فردی
+     دارد که آن را از اتم دیگر عنصرهای جدول متمایز می‌سازد. به‌طوری‌که 
+    ترکیب‌های شناخته‌شده از اتم کربن، از مجموع ترکیب‌های شناخته‌شده 
+    از دیگر عنصرهای جدول دوره‌ای بیشتر است. دلیل این رفتار ویژه چیست؟</p>
+<br>
+
+<hr><br>
+<p class="MsoStep">
+    خود را بیازمایید
+</p>
+<p class="MsoNormal">   الف)
+     آرایش الکترونی اتم کربن را بنویسید.
+
+     <br><br>
+
+     ب) آرایش الکترون نقطه‌ای اتم کربن را رسم کنید.
+
+     <br><br>
+     پ) اتم کربن برای رسیدن به آرایش هشت‌تایی چند پیوند اشتراکی یگانه، دوگانه یا سه‌گانه می‌تواند تشکیل دهد؟</p>
+<br>
+
+<hr><br>
+
+<p class="MsoNormal">دیدید که اتم کربن می‌تواند الکترون‌هایش را با اتم‌های دیگر به اشتراک بگذارد و با رسیدن به آرایش هشت‌تایی، پایدار شود (شکل ۱۴).</p>
+<br>
+<p class="MsoNormal">این رفتار کربن مشابه رفتار دیگر نافلزها (نیتروژن، فسفر، گوگرد و ...) است. برای مثال اتم نیتروژن (۷N) سه پیوند اشتراکی تشکیل می‌دهد تا به آرایش هشت‌تایی برسد. اما تعداد ترکیب‌های شناخته‌شده از آن محدود است. اکنون می‌پرسید چه چیزی سبب شده است تا اتم‌های کربن بتوانند میلیون‌ها ترکیب تشکیل دهند؟ اتم کربن افزون بر تشکیل پیوند اشتراکی یگانه، توانایی تشکیل پیوندهای اشتراکی دوگانه و سه‌گانه را با خود و برخی اتم‌های دیگر دارد (شکل ۱۵).</p>
+<br>
+<p class="MsoNormal">کربن همچنین توانایی تشکیل زنجیر و حلقه‌های کربنی را دارد، به دیگر سخن اتم‌های کربن می‌توانند با پیوند اشتراکی به یکدیگر متصل شوند و زنجیرها و حلقه‌هایی در اندازه‌های گوناگون بسازند (شکل ۱۶).</p>
+<br>
+<p class="MsoNormal">نفت‌خام مخلوطی شامل شمار زیادی از انواع هیدروکربن‌ها است (شکل ۱۷). در این شکل پنج نوع از هیدروکربن‌ها نشان داده شده است. در برخی از آن‌ها، بین اتم‌های کربن فقط پیوندهای یگانه وجود دارد، درحالی‌که برخی دیگر دارای یک پیوند سه‌گانه یا دارای یک یا چند پیوند دوگانه هستند. با توجه به ساختار متفاوت این هیدروکربن‌ها انتظار می‌رود که رفتار آن‌ها نیز با هم تفاوت داشته باشد. در ادامهٔ این فصل با بررسی ساختار و رفتار برخی هیدروکربن‌ها بیشتر آشنا می‌شوید.</p>
+<br>
+<p class="MsoNormal">البته اتم کربن می‌تواند با اتم عنصرهای هیدروژن، اکسیژن، نیتروژن و ... به شیوه‌های گوناگون متصل شده و مولکول شمار زیادی از مواد مانند کربوهیدرات‌ها، چربی‌ها، آمینواسیدها، آنزیم‌ها، پروتئین‌ها و... را بسازد. این ویژگی‌های کربن سبب شده تا از این عنصر ترکیب‌های گوناگون و بسیار زیادی پدید آید. افزون بر این، اتم‌های کربن می‌توانند با یکدیگر به روش‌های گوناگون متصل شده و دگر‌شکل‌های متفاوتی مانند گرافیت، الماس و... ایجاد کنند. با این دگر‌شکل‌ها که ساختارها و خواص متفاوتی دارند، در سال آینده آشنا می‌شوید.</p>
+
+
+<br><hr><br>
+
+
+<p class="MsoStep">
+    آیا می‌دانید
+</p>
+<p class="MsoNormal"> گاز شهری مخلوطی از هیدروکربن‌های سبک است که متان بخش عمدۀ آن را تشکیل می‌دهد. درحالی‌که کپسول گاز خانگی، به‌طور عمده شامل گازهای پروپان و بوتان است.</p>
+
+<br><hr>
+
+
+
+
+<p class="MsoBold">
+    آلکان‌ها، هیدروکربن‌هایی با پیوندهای یگانه
+</p>
+
+<p class="MsoNormal"> آلکان‌ها دسته‌ای از هیدروکربن‌ها هستند که در آن‌ها 
+    هر اتم کربن با چهار پیوند یگانه به اتم‌های کناری متصل شده است. متان ($CH_4$) ساده‌ترین و نخستین عضو خانوادۀ آلکان‌هاست. اعضای دیگر این خانواده شامل مولکول‌هایی است که شمار اتم‌های کربن آن‌ها از دو تا ده‌ها کربن متغیر است. اتم‌های کربن در ساختار آلکان‌ها می‌توانند پشت سر هم و همانند یک زنجیر به هم متصل شده باشند (شکل ۱۸ــ الف) هرچند که برخی از آن‌ها به شکل شاخهٔ جانبی به زنجیر متصل می‌شوند (شکل ۱۸ــ ب). با این توصیف در هر آلکان راست‌زنجیر هر اتم کربن به یک یا دو اتم کربن دیگر متصل است، درحالی‌که در آلکان شاخه‌دار، برخی کربن‌ها به سه یا چهار اتم کربن دیگر متصل‌اند.</p>
+    <br>
+
+
+
+    <hr><br>
+<p class="MsoStep">
+    خود را بیازمایید
+</p>
+    <p class="MsoNormal"> فرمول ساختاری یا پیوند ــ خط را برای هر هیدروکربن داده شده رسم کنید.</p>
+    <br>
+
+    <hr><br>
+    <p class="MsoNormal">شمار اتم‌های کربن نقش مهمی در رفتار هیدروکربن‌ها دارد. به‌طوری‌که با تغییر تعداد اتم‌های کربن، اندازه و جرم مولکول‌های هیدروکربن تغییر می‌یابد و در پی آن نیروی بین مولکولی، نقطۀ جوش و... تغییر می‌کنند. با انجام دادن فعالیت صفحه بعد با برخی رفتارهای هیدروکربن‌ها آشنا می‌شوید.</p>
+    
+
+
+    <br><hr><br>
+    <p class="MsoStep">با هم بیندیشیم</p>
+    <p class="MsoNormal">۱ــ شکل زیر برخی ویژگی‌ها و رفتارهای فیزیکی آلکان‌های راست زنجیر را نشان می‌دهد. با توجه به آن به پرسش‌ها پاسخ دهید:</p>
+    
+    <br>  <p class="MsoNormal">الف) با افزایش شمار کربن‌ها، نقطۀ جوش آلکان‌ها در فشار یک اتمسفر چه تغییری می‌کند؟</p>
+    <br>  <p class="MsoNormal">ب) پیش‌بینی کنید نقطۀ جوش کدام آلکان بالاتر است؟ $C_{12}H_{26}$ یا $C_{21}H_{44}$</p>
+    <br>  <p class="MsoNormal">پ) در شرایط یکسان کدام آلکان فرّارتر است؟ چرا؟ $C_{10}H_{22}$ یا $C_{6}H_{14}$</p>
+    <br>  <p class="MsoNormal">ت) پژوهش‌ها نشان می‌دهد که گشتاور دو قطبی آلکان‌ها حدود صفر است. با این توصیف مولکول‌های این مواد، قطبی یا ناقطبی هستند؟</p>
+    <br>  <p class="MsoNormal">ث) نیروی بین‌مولکولی در آلکان‌ها از چه نوعی است؟ افزایش شمار اتم‌های کربن بر این نیروها چه اثری دارد؟</p>
+    <br>  <p class="MsoNormal">ج) چرا با بزرگ‌تر شدن زنجیر کربنی، گرانروی آلکان افزایش می‌یابد؟</p>
+    <br>  <p class="MsoNormal">چ) پیش‌بینی کنید کدام ماده چسبنده‌تر است؟ چرا؟ گریس (با فرمول تقریبی $C_{18}H_{38}$) یا وازلین (با فرمول تقریبی $C_{25}H_{52}$)</p>
+    <br><br>
+    <p class="MsoNormal">۲ــ نمودار زیر ترتیب نقطۀ جوش آلکان‌های راست‌زنجیر را نشان می‌دهد. با توجه به آن:</p>
+    <br>
+    <p class="MsoNormal">الف) کدام آلکان‌ها در دمای 
+        $22^0 C$
+         به حالت گاز هستند؟</p>
+    <br>
+    <p class="MsoNormal">ب) رابطه بین نقطۀ جوش و جرم مولی آلکان‌ها را توصیف کنید.</p>
+    <br><hr><br>
+
+
+    <p class="MsoStep">
+        آیا می‌دانید
+    </p>
+
+    <p class="MsoNormal"> وازلین نامی تجاری است که به مخلوطی از هیدروکربن‌های
+         سنگین‌تر داده شده است. این هیدروکربن‌ها اغلب به‌عنوان نرم‌کننده
+         و محافظ بدن استفاده می‌شوند. این مخلوط ویژگی روان‌کنندگی نیز دارد و 
+        در تهیه بیشتر مرطوب‌کننده‌ها، پمادها و مواد آرایشی به‌کار می‌رود.</p>
+    <br><hr><br>
+
+
+
+    <p class="MsoStep">پیوند با ریاضی</p>
+    <p class="MsoNormal">در جدول زیر نام، فرمول مولکولی و شمار اتم‌های کربن و هیدروژن برای برخی اعضای خانواده آلکان‌ها داده شده است. جدول را کامل کنید و فرمول مولکولی عضو $n$ام را بیابید.</p>
+  
+  
+  <br>
+
+
+  <div class="custom-scrollbar" style="overflow-x: auto; overflow-y:hidden; direction:rtl;">
+  <table class="table" style="text-align: center; margin:auto; width:max-content;direction:rtl;">
+    <tr>
+        <th>شماره عضو </th>
+        <th>اول</th>
+        <th>دوم</th>
+        <th>سوم</th>
+        <th>چهارم</th>
+        <th>پنجم</th>
+        <th>
+n
+ام
+
+        </th>
+    </tr>
+    <tr>
+        <td>نام</td>
+        <td>متان</td>
+        <td>اتان</td>
+        <td>پروپان</td>
+        <td>بوتان</td>
+        <td>پنتان</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>شمار $C$</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>شمار $H$</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>فرمول</td>
+        <td>$CH_4$</td>
+        <td>$C_2H_6$</td>
+        <td>$C_3H_8$</td>
+        <td>$C_4H_{10}$</td>
+        <td>$C_5H_{12}$</td>
+        <td></td>
+    </tr>
+</table>
+<br>
+</div>
+    <br><hr><br>
+
+
+
+    <p class="MsoNormal">آلکان‌ها به دلیل ناقطبی بودن در آب نامحلول‌اند. این ویژگی سبب می‌شود تا بتوان از آن‌ها برای حفاظت از فلزها استفاده کرد. به‌طوری‌که قرار دادن فلزها در آلکان‌های مایع یا اندودکردن سطح فلزها و وسایل فلزی با آن‌ها، مانع از رسیدن آب به سطح فلز می‌شود و از خوردگی فلز جلوگیری می‌کند. ویژگی مهم و برجستۀ آلکان‌ها این است که در ساختار آن‌ها هر اتم کربن با چهار پیوند اشتراکی به چهار اتم دیگر متصل بوده و به اصطلاح سیرشده هستند. از این‌رو آلکان‌ها تمایل چندانی به انجام واکنش‌های شیمیایی ندارند. این ویژگی سبب می‌شود تا میزان سمی بودن آن‌ها کمتر شده و استنشاق آن‌ها بر شش‌ها و بدن تأثیر چندانی نداشته باشد و تنها سبب کاهش مقدار اکسیژن در هوای دم می‌شود. با وجود این هیچگاه برای برداشتن بنزین از باک خودرو یا بشکه از مکیدن شیلنگ استفاده نکنید، زیرا بخارهای بنزین وارد شش‌ها شده و از انتقال گازهای تنفسی در شش‌ها جلوگیری می‌کند و نفس کشیدن دشوار می‌شود. اگر میزان بخارهای وارد شده به شش‌ها زیاد باشد، ممکن است سبب مرگ فرد شود. بنابراین هنگام کارکردن با این مواد باید نکات ایمنی را جدی بگیرید و رعایت کنید.</p>
+    <br>
+
+
+    <hr><br>
+
+
+    <p class="MsoStep">
+        آیا می‌دانید 
+    </p>
+    <p class="MsoNormal">از آلکان‌های با بیش از ۲۰ اتم کربن (پارافین‌ها) به‌عنوان پوشش محافظتی میوه‌ها 
+        استفاده می‌شود. این پوشش، از تبخیر آب میوه، چروکیده شدن آن و از رشد کپک 
+        روی میوه‌ها جلوگیری می‌کند و در عین حال میوه را براق می‌کند. از آلکان‌های $C_{29}H_{60}$ و $C_{27}H_{56}$ برای جلا دادن سیب استفاده می‌شود. البته رعایت استانداردهای سازمان غذا و دارو در میزان مصرف آلکان‌ها و کندن پوست میوه‌ها سبب کاهش آسیب به بدن می‌شود.</p>
+    
+<br><hr><br>
+
+    <p class="MsoStep">خود را بیازمایید</p>
+    <br>
+    <p class="MsoNormal">تجربه نشان می‌دهد كه گشتاور دو قطبی مولكول‌های سازندۀ چربی‌ها حدود صفر است. با توجه به آن:</p>
+    <br>
+    <p class="MsoNormal">الف) چرا افرادی كه با گریس كار می‌كنند دستشان را با بنزین یا نفت (مخلوطی از هیدروكربن‌ها) می‌شویند؟</p>
+    <br>
+    <p class="MsoNormal">ب) توضیح دهید چرا پس از شستن دست با بنزین، پوست خشك می‌شود؟</p>
+    <br>
+    <p class="MsoNormal">پ) شستن پوست یا تماس آن با آلكان‌های مایع در دراز مدت به بافت‌های پوست آسیب می‌رساند. چرا؟</p>
+
+
+    <br><hr>
+
+
+<p class="MsoBold">نامگذاری آلكان‌ها</p>
+<p class="MsoNormal">با نام آلكان‌هایی مانند متان ($CH_4$)، اتان ($C_2H_6$)، آشنا هستید. همان‌طور كه می‌بینید نام آلكان‌ها به پسوند «آن» ختم می‌شود. جدول زیر نام و فرمول مولكولی ده آلكان راست‌زنجیر را نشان می‌دهد.</p>
+<br>
+<table class="table" style="text-align: center; margin:auto; width:max-content; direction:rtl;min-width:300px;">
+    <tr>
+        <th>فرمول مولکولی</th>
+        <th>نام</th>
+    </tr>
+    <tr>
+        <th>$CH_4$</th>
+        <td>متان</td>
+    </tr>
+    <tr>
+        <th>$C_2H_6$</th>
+        <td>اتان</td>
+    </tr>
+    <tr>
+        <th>$C_3H_8$</th>
+        <td>پروپان</td>
+    </tr>
+    <tr>
+        <th>$C_4H_{10}$</th>
+        <td>بوتان</td>
+    </tr>
+    <tr>
+        <th>$C_5H_{12}$</th>
+        <td>پنتان</td>
+    </tr>
+    <tr>
+        <th>$C_6H_{14}$</th>
+        <td>هگزان</td>
+    </tr>
+    <tr>
+        <th>$C_7H_{16}$</th>
+        <td>هپتان</td>
+    </tr>
+    <tr>
+        <th>$C_8H_{18}$</th>
+        <td>اکتان</td>
+    </tr>
+    <tr>
+        <th>$C_9H_{20}$</th>
+        <td>نونان</td>
+    </tr>
+    <tr>
+        <th>$C_{10}H_{22}$</th>
+        <td>دکان</td>
+    </tr>
+</table>
+
+<br>
+
+
+
+<br>
+<p class="MsoNormal">مطابق جدول بر اساس قواعد آیوپاك برای نامیدن آلكان راست‌زنجیر كافی است شمار اتم‌های كربن را با پیشوند معادل بیان كرده و پسوند «آن» را بیفزایید. توجه كنید كه در چهار عضو نخست آلكان‌ها، پیشوندی كه شمار اتم‌های كربن را معلوم كند، وجود ندارد و نام آن‌ها بر اساس این روش انتخاب نشده است. اما نامگذاری آلكان‌های شاخه‌دار كمی پیچیده‌تر است. از این رو آیوپاك قواعد بیشتری را برای نامیدن آلكان‌ها بنا نهاده است. در این قواعد چگونگی یافتن نوع و نام شاخه فرعی و جهت شماره‌گذاری زنجیر اصلی مشخص شده است.</p>
+
+<br>
+
+<table class="table" style="text-align: center; margin:auto; width:max-content; direction:ltr;min-width:300px;">
+
+    <tr>
+        <th>تعداد کربن</th>
+        <th>پیشوند</th>
+    </tr>
+    <tr>
+        <td>۵</td>
+        <td>پنت</td>
+    </tr>
+    <tr>
+        <td>۶</td>
+        <td>هگز</td>
+    </tr>
+    <tr>
+        <td>۷</td>
+        <td>هپت</td>
+    </tr>
+    <tr>
+        <td>۸</td>
+        <td>اوکت</td>
+    </tr>
+    <tr>
+        <td>۹</td>
+        <td>نون</td>
+    </tr>
+    <tr>
+        <td>۱۰</td>
+        <td>دک</td>
+    </tr>
+</table>
+<br>
+
+
+
+<br><hr><br>
+
+
+
+<p class="MsoStep">با هم بیندیشیم</p>
+    <p class="MsoNormal">1ــ نام دو آلكان زیر را در نظر بگیرید.</p>
+<br>
+    <p class="MsoNormal">الف) هر عدد و هر واژه در نام هیدروكربن نشان‌دهندۀ چیست؟</p>
+    <br>
+    <table class="table" style="text-align: center; margin:auto; width:max-content; direction:rtl;min-width:300px;">
+
+        <tr>
+            <th>نام شاخه فرعی</th>
+            <th>فرمول شاخه فرعی (آلکیل)</th>
+        </tr>
+        <tr>
+            <td>متیل</td>
+            <td>$-CH_3$</td>
+        </tr>
+        <tr>
+            <td>اتیل</td>
+            <td>$-CH_2CH_3$</td>
+        </tr>
+    </table>
+<br><br>
+    <p class="MsoNormal">ب) تفاوت این دو تركیب در چیست؟</p>
+
+    <br>
+    <table class="table" style="text-align: center; margin:auto; width:max-content; direction:rtl;min-width:300px;">
+
+        <tr>
+            <th>پیشوند</th>
+            <th>معنی</th>
+        </tr>
+        <tr>
+            <td>دی</td>
+            <td>دو</td>
+        </tr>
+        <tr>
+            <td>تری</td>
+            <td>سه</td>
+        </tr>
+        <tr>
+            <td>تترا</td>
+            <td>چهار</td>
+        </tr>
+    </table>
+
+
+
+    
+    <br><br>
+    <p class="MsoNormal">2ــ ساختار 3-متیل هگزان و 4-متیل هپتان را رسم كنید.</p>
+    <br><br>
+    <p class="MsoNormal">3ــ در ساختار 3-متیل هگزان، سه زنجیر كربنی وجود دارد. نخست آن‌ها را بیابید سپس از میان آن‌ها زنجیر اصلی را انتخاب كنید.</p>
+    <br><br>
+    <p class="MsoNormal">4ــ با توجه به داده‌های زیر روشی برای تشخیص زنجیر اصلی (زنجیری كه بیشترین تعداد اتم‌های كربن را دارد) و شماره‌گذاری كربن‌ها در این زنجیر بیابید.</p>
+    <br><br>
+    <p class="MsoNormal">5ــ با توجه به نامگذاری زیر، روشی برای نامیدن آلكان‌های با بیش از یك شاخه فرعی را بیابید.</p>
+
+
+
+<br><hr><br>
+
+
+<p class="MsoNormal">آموختید كه برای نامگذاری آلكان‌ها باید نخست نام زنجیر اصلی را براساس نام آلكان راست‌زنجیر نوشته سپس نام شاخه فرعی را به‌صورت آلكیل پیش از نام زنجیر اصلی بنویسید. البته باید محل شاخه فرعی را با شمارۀ كربنی كه به آن متصل است، نیز پیش از نام شاخه فرعی مشخص كنید. برای نمونه، 4-متیل نونان، آلكانی با زنجیر اصلی نه‌كربنی را نشان می‌دهد كه به كربن شمارۀ 4 آن یك شاخه فرعی متیل متصل است.</p>
+
+
+
+<br><hr><br>
+
+
+<p class="MsoStep">خود را بیازمایید</p>
+
+<p class="MsoNormal">1ــ آلكان‌های زیر را نامگذاری كنید. (راهنمایی: در نامگذاری آلكان‌های شاخه‌دار، نوشتن نام اتیل بر متیل مقدم است).</p>
+<br><br>
+
+<p class="MsoNormal">2ــ چرا نام 2-اتیل پنتان برای تركیب زیر نادرست است؟</p>
+
+
+<br><hr>
+
+
+<p class="MsoBold">آلكن‌ها، هیدروكربن‌هایی با یک پیوند دوگانه</p>
+<p class="MsoNormal">این هیدروكربن‌ها در ساختار خود یك پیوند دوگانۀ كربن-كربن  دارند. برای نامگذاری آلكن‌های راست‌زنجیر، كافی است پسوند «آن» را در نام آلكان راست‌زنجیر بردارید و به جای آن پسوند «ـِـن» قرار دهید؛ سپس محل پیوند دوگانه را با شمارۀ نخستین كربنی كه به پیوند دوگانه متصل است، مشخص كنید.</p>
+
+<br><br>
+
+<p class="MsoNormal">اتن نخستین عضو خانوادۀ آلکن‌هاست. این ماده در بیشتر گیاهان وجود دارد. موز و گوجه‌فرنگی رسیده گاز اتن آزاد می‌کنند. اتن آزاد شده از یک موز یا گوجه‌فرنگی رسیده به نوبه خود موجب رسیدن سریع‌تر میوه‌های نارس می‌شود. به همین دلیل در کشاورزی، از گاز اتن به‌عنوان «عمل‌آورنده» استفاده می‌شود (شکل 20).</p>
+<br>
+<p class="MsoNormal">رفتار آلکن‌ها همانند همۀ مواد به ساختار آن‌ها وابسته است. وجود پیوند دوگانه در آلکن‌ها سبب شده است تا رفتار آن‌ها با آلکان‌ها تفاوت زیادی پیدا کند. به گونه‌ای که آلکن‌ها برخلاف آلکان‌ها، واکنش‌پذیری بیشتری دارند و در واکنش‌های گوناگونی شرکت می‌کنند. واکنش‌پذیری زیاد آلکن‌ها به این دلیل است که در ساختار آن‌ها دو اتم کربن به سه اتم دیگر متصل بوده و از این رو «سیر نشده» هستند؛ این درحالی است که اتم کربن تمایل دارد تا از حداکثر امکان خود برای تشکیل پیوندهای یگانه استفاده کند و چهار پیوند یگانه تشکیل دهد. گاز اتن سنگ بنای صنایع پتروشیمی است؛ زیرا در این صنایع با استفاده از اتن حجم انبوهی از مواد گوناگون تولید می‌شود. برای نمونه با وارد‌کردن گاز اتن در مخلوط آب و اسید در شرایط مناسب، اتانول را در مقیاس صنعتی تولید می‌کنند. معادلۀ زیر، واکنش شیمیایی انجام شده را نشان می‌دهد.</p>
+<br>
+
+<p class="MsoNormal" style="text-align: center;">
+    $
+    CH_{2} = CH_{2} + HOH \ \  \xrightarrow{H_{2}SO_{4}} \ \ CH_{3} CH_{2} OH
+    $
+</p>
+
+<br>
+<p class="MsoNormal">از مقایسۀ مولکول اتانول با مولکول اتن، درمی‌یابید که یکی از پیوندها میان اتم‌های کربن‌ــ‌کربن در مولکول اتن شکسته شده و به یکی از آن‌ها، اتم H و به دیگری، گروه OH متصل شده است. به دیگر سخن مولکول آب به اتم‌های کربن پیوند دوگانه افزوده شده و فراوردۀ سیر‌شده‌ای تولید شده است. از دیگر واکنش‌های گاز اتن، ترکیب‌شدن آن با برم مایع است. به طوری‌که هر گاه گاز اتن را در محلولی از برم وارد کنیم، رنگ قرمز محلول از بین می‌رود. این تغییر رنگ، نشانه انجام واکنش شیمیایی زیر است:</p>
+<br><br>
+
+
+
+
+
+
+<br><br>
+<p class="MsoNormal">در این واکنش نیز، مولکول برم به پیوند دوگانۀ کربن‌ــ‌کربن در مولکول اتن افزوده می‌شود، و فراورده‌ای سیر‌شده پدید آمده است. همۀ آلکن‌ها در این واکنش شرکت می‌کنند به‌گونه‌ای که این واکنش یکی از روش‌های شناسایی آن‌ها از هیدروکربن‌های سیر‌شده است.</p>
+<br>
+
+
+<br><hr><br>
+<p class="MsoNormal">اتانول، الکلی دو‌کربنی، بی‌رنگ و فرّار است که به هر نسبتی در آب حل می‌شود. این الکل یکی از مهم‌ترین حلال‌های صنعتی است که در تهیه مواد دارویی، بهداشتی و آرایشی به‌کار می‌رود. از اتانول در بیمارستان‌ها به عنوان ضدعفونی‌کننده استفاده می‌شود.</p>
+
+
+<br><hr><br>
+<p class="MsoNormal">صنعت پتروشیمی یکی از صنایع مهم جهان است. در این صنعت، ترکیب‌ها و مواد گوناگون از نفت یا گاز طبیعی به‌دست می‌آیند که به فراورده‌های پتروشیمیایی معروف هستند. در کشور ما نیز شرکت‌های پتروشیمی گوناگونی در حال فعالیت هستند. در این شرکت‌ها سالانه میلیون‌ها تن مواد شیمیایی مانند آمونیاک، پلی‌اتن، سولفوریک اسید و... تولید می‌شود.</p>
+<br><hr><br>
+
+
+<p class="MsoStep">
+    خود را بیازمایید
+</p>
+<p class="MsoNormal"> شکل زیر نمایی از واکنش تکه‌ای گوشت چرب با بخار برم را نشان می‌دهد.
+     با توجه به آن پیش‌بینی کنید مولکول چربی موجود در این گوشت سیر شده است یا سیر نشده؟ چرا؟ 
+    (راهنمایی: در این واکنش تنها چربی موجود در گوشت با بخار برم واکنش می‌دهد).</p>
+
+
+<br><hr><br>
+
+
+
+
+
+
+<p class="MsoNormal">پلیمری شدن دستۀ دیگری از واکنش آلکن‌هاست
+     که با استفاده از آن می‌توان انواع لاستیک‌ها، پلاستیک‌ها،
+     الیاف و پلیمرهای سودمند را تهیه کرد. این واکنش‌ها در فصل ۳ بررسی خواهد شد.</p>
+<br>
+
+<hr>
+
+
+<p class="MsoBold">
+    آلکین‌ها، سیر‌نشده‌تر از آلکن‌ها
+</p>
+
+<p class="MsoNormal"> آیا واژۀ جوش کاربیدی را شنیده‌اید؟
+     در این جوشکاری از سوختن گاز اتین، دمای لازم برای جوش‌دادن قطعه‌های فلزی تأمین می‌شود.
+     اتین هیدروکربنی است که در ساختار خود یک پیوند سه‌گانۀ کربن‌ــ‌کربن دارد. به 
+    هیدروکربن‌های سیر‌نشده با یک پیوند سه‌گانۀ کربن‌ــ‌کربن، آلکین گفته می‌شود. برای نام‌گذاری
+     آن‌ها به‌جای پسوند «آن» در نام آلکان هم‌کربن، پسوند «ین» قرار می‌گیرد. اتین با فرمول مولکولی C₂H₂، ساده‌ترین آلکین و پروپین دومین عضو خانوادۀ آلکین‌ها است. از نام پروپین چنین برمی‌آید که هر مولکول آن سه کربن داشته و یک پیوند سه‌گانه میان دو کربن آن وجود دارد.</p>
+<br>
+
+
+
+
+<p class="MsoNormal" style="text-align: center;">
+    
+  $  CH_3 - C ≡ CH $
+    
+    <br>
+    پروپین</p>
+<br><br>
+<p class="MsoNormal">آلکین‌ها نیز واکنش‌پذیری زیادی دارند و با مواد شیمیایی مختلف واکنش می‌دهند.</p>
+<br><hr>
+
+
+<p class="MsoBold">هیدروکربن‌های حلقوی</p>
+
+<p class="MsoNormal">ترکیب‌های آلی بسیاری شناخته شده است که در آن‌ها اتم‌های کربن طوری به یکدیگر متصل شده‌اند که ساختاری حلقوی به وجود آورده‌اند. سیکلوهگزان از آن جمله است. این نام نشان می‌دهد که این ماده، هیدروکربن سیر شده‌ای است که حلقه‌ای از شش اتم کربن دارد.</p>
+<br>
+<p class="MsoNormal">بنزن، هیدروکربنی سیر‌نشده با فرمول ساختاری زیر، سر‌گروه خانوادۀ مهمی از هیدروکربن‌ها به‌نام آروماتیک است. نفتالن نیز از جملۀ این ترکیب‌هاست. نفتالن مدتی به‌عنوان ضد‌بید برای نگهداری فرش و لباس کاربرد داشته است.</p>
+<br><hr><br>
+
+
+<p class="MsoNormal">سیـکلو (Cyclo) پیشوندی به معنای حلقوی است که برای نام‌گذاری برخی ترکیب‌های آلی حلقوی به‌کار می‌رود.</p>
+<br>
+
+
+<hr><br>
+
+
+<p class="MsoStep">خود را بیازمایید</p>
+<p class="MsoNormal">الف) فرمول مولکولی هر یک از هیدروکربن‌های حلقوی بالا را بنویسید.</p>
+
+<br>
+<p class="MsoNormal">ب) فرمول پیوند ــ خط را برای هر یک از آن‌ها رسم کنید.</p>
+
+<br><br>
+
+
+
+<br><hr>
+<p class="MsoBold">نفت، ماده‌ای که اقتصاد جهان را دگرگون ساخت</p>
+<p class="MsoNormal">نفت خام مخلوطی از هیدروکربن‌های گوناگون، برخی نمک‌ها، اسیدها، آب و... است. البته مقدار نمک و اسید در نفت خام کم بوده و در نواحی گوناگون متغیر است. (چرا؟) آلکان‌ها بخش عمدۀ هیدروکربن‌های موجود در نفت خام را تشکیل می‌دهند و به دلیل واکنش‌پذیری کم اغلب به‌عنوان سوخت به‌کار می‌روند، به‌طوری‌که بیش از ۹۰ درصد نفت خام صرف سوزاندن و تأمین انرژی می‌شود و تنها مقدار کمی از آن به‌عنوان خوراک پتروشیمی در تولید مواد پتروشیمیایی به‌کار می‌رود. همان‌طور که در شکل روبه‌رو مشاهده می‌کنید، از نفت خام دسته‌های متفاوتی از هیدروکربن‌ها به دست می‌آید. ترکیب‌های موجود در این دسته‌ها چه ویژگی‌هایی دارند؟ جداسازی آن‌ها از نفت خام بر چه مبنایی و با چه دستگاهی انجام می‌شود؟</p>
+
+<br>
+
+<div class="boxb">
+
+    <p class="MsoStep">با هم بیندیشیم</p>
+   
+    <p class="MsoNormal">در شکل زیر چهار نوع نفت خام بر اساس درصد اجزای سازنده مقایسه شده‌اند. با توجه به آن به پرسش‌ها پاسخ دهید.</p>
+   <br>
+    <p class="MsoNormal">الف) اندازۀ مولکول‌های نفت کوره با بنزین چه تفاوتی دارد؟</p>
+    <br>
+    <p class="MsoNormal">ب) کدام دسته از مواد در نفت سنگین بیشتر از نفت سبک وجود دارد؟</p>
+    <br>
+    <p class="MsoNormal">پ) ملاک دسته‌بندی نفت خام به دو دستۀ سبک و سنگین چیست؟</p>
+    <br>
+    <p class="MsoNormal">ت) چرا قیمت نفت برنت دریای شمال از دیگر نفت‌ها بیشتر اما قیمت نفت سنگین کشورهای عربی کمتر است؟</p>
+</div>
+<br>
+<p class="MsoStep">آیا می‌دانید</p>
+<p class="MsoNormal">خلیج فارس یکی از پر رفت‌وآمدترین مناطق دریایی جهان است و سالانه هزاران کشتی اقیانوس‌پیما وارد این منطقه می‌شوند. سوخت این کشتی‌ها نفت کوره است و می‌توانند سوخت مورد نیاز خود را در شمال خلیج فارس دریافت کنند و به سفر دریایی خود ادامه دهند. از این‌رو سوخت‌رسانی به این کشتی‌ها یکی از مهم‌ترین زمینه‌های ارزآوری و اشتغال‌زایی صنایع دریایی می‌تواند باشد. کشور ایران با توجه به موقعیت جغرافیایی ویژه در خلیج‌فارس می‌تواند سهم زیادی از این منافع را نصیب خود کند.</p>
+
+<br><hr><br>
+
+<p class="MsoNormal">پس از جدا کردن نمک‌ها، اسیدها و آب، نفت خام را پالایش می‌کنند. در واقع با استفاده از تقطیر جزء به جزء، هیدروکربن‌های آن را به‌صورت مخلوط‌هایی با نقطۀ‌جوش نزدیک به‌هم جدا می‌کنند. برای این کار، نفت خام را درون محفظه‌ای بزرگ گرما می‌دهند و آن را به برج تقطیر هدایت می‌کنند. برجی که در آن از پایین به بالا دما کاهش می‌یابد. هنگامی که نفت خام داغ به قسمت پایین برج وارد می‌شود، مولکول‌های سبک‌تر و فرّارتر از جمله مواد پتروشیمیایی، از مایع بیرون آمده و به سوی بالای برج حرکت می‌کنند. به‌تدریج که این مولکول‌ها بالاتر می‌روند، سرد شده و به مایع تبدیل می‌شوند و در سینی‌هایی که در فاصله‌های گوناگون برج قرار دارند وارد شده و از برج خارج می‌شوند. بدین ترتیب مخلوط‌هایی با نقطۀ جوش نزدیک به‌هم از نفت خام جداسازی می‌شوند. دستیابی به دانش و فناوری پالایش نفت خام، سبب ایجاد تحولی بزرگ در صنعت حمل‌ونقل، پتروشیمی و دیگر صنایع شد. پالایش نفت خام، از سویی سوخت ارزان و مناسب را در اختیار صنایع قرار می‌داد و از سوی دیگر، منجر به تولید انرژی الکتریکی ارزان قیمت می‌شد. همۀ این روند سبب شد تا ارزش و اهمیت طلای سیاه روز به روز بیشتر شود تا جایی که استفاده و شناخت بیشتر آن، چهرۀ زندگی را آشکارا تغییر داد. این هدیه الهی در سدۀ گذشته کانون توجه و تحولات اجتماعی، سیاسی و اقتصادی در سطح جهان بود. اما استخراج و مصرف بی‌حساب این منبع خدادادی سبب شده تا این اندوخته رو به پایان باشد (نمودار ۲).</p>
+
+
+
+<br><hr><br>
+<p class="MsoStep">در میان تارنماها</p>
+<p class="MsoNormal">با مراجعه به وبگاه <a href="http://www.worldmeters.info/fa">www.worldmeters.info/fa</a> مصرف لحظه‌ای نفت خام و سوخت‌های فسیلی را مشاهده کنید.</p>
+
+<br><hr><br>
+<p class="MsoNormal">زغال‌سنگ یکی از سوخت‌های فسیلی است. برآوردها نشان می‌دهد که طول عمر ذخایر زغال‌سنگ به ۵۰۰ سال می‌رسد. از این‌رو زغال سنگ می‌تواند به‌عنوان سوخت، جایگزین نفت شود. اما جایگزینی نفت با زغال سنگ سبب ورود مقدار بیشتری از انواع آلاینده‌ها به هوا‌کره شده و تشدید اثر گلخانه‌ای می‌شود (جدول ۱). چرا؟</p>
+<br>
+
+
+
+<table class="table" style="text-align: cetner; margin:auto; width:fit-content;direction:rtl ">
+    <tr>
+        <th>نام سوخت</th>
+        <td>بنزین</td>
+        <td>زغال سنگ</td>
+    </tr>
+    <tr>
+        <th>گرمای آزاد شده (kJ/g)</th>
+        <td>48</td>
+        <td>30</td>
+    </tr>
+    <tr>
+        <th>فراورده های سوختن</th>
+        <td style="text-align: left;">$CO_2$ <br> $CO$ <br> $H_2O$</td>
+        <td style="text-align: left;">$SO_2$ <br> $CO_2$ <br> $NO_2$ <br> $CO$ <br> $H_2O$</td>
+    </tr>
+    <tr>
+        <th>مقدار کربن دی‌اکسید به ازای هر کیلوژول انرژی تولید شده (g)</th>
+        <td>0.065</td>
+        <td>0.104</td>
+    </tr>
+</table>
+
+
+<br><br>
+
+<p class="MsoNormal">بنابراین باید به دنبال راه‌های بهبود کارایی زغال سنگ مانند موارد زیر باشیم:</p>
+<p class="MsoNormal">
+    _ 
+    شست‌وشوی زغال سنگ به‌منظور حذف گوگرد و ناخالصی‌های دیگر
+    <br>
+    _ 
+    به دام انداختن گاز گوگرد دی‌اکسید خارج شده از نیروگاه‌ها با عبور گازهای خروجی از روی کلسیم اکسید
+  </p>
+
+<p class="MsoNormal">
+    $$
+    SO_{2} (g) + CaO(s) \ \ \rightarrow CaSO_{2} (s)
+    $$
+</p>
+
+
+
+
+
+  <br>
+<p class="MsoNormal">یکی از مشکلات زغال‌سنگ، شرایط دشوار استخراج آن است. به‌گونه‌ای که در سده اخیر بیش از ۵۰۰۰۰۰ نفر در سطح جهان در اثر انفجار یا فروریختن معدن جان خود را از دست داده‌اند. این انفجارها اغلب به‌دلیل تجمع گاز متان آزاد شده از زغال‌سنگ در معدن رخ می‌دهد. متان گازی سبک، بی‌بو و بی‌رنگ است و هر گاه مقدار آن در هوای معدن به بیش از ۵ درصد برسد، احتمال انفجار وجود دارد. البته با افزایش درصد متان تا مقدار معینی، همچنان احتمال انفجار وجود خواهد داشت. بنابراین ضروری است استانداردها و اصول ایمنی در معدن به طور دقیق رعایت و مقدار گاز متان در هوای معدن پیوسته اندازه‌گیری و کنترل شود. البته یکی از راه‌های کاهش متان در هوای معدن استفاده از تهویه مناسب و قوی است.</p>
+
+
+<br><hr><br>
+<p class="MsoStep">آیا می‌دانید</p>
+<p class="MsoNormal">فرمول کلی زغال‌سنگ را به صورت C₁₃₅ H₉₆ O₉ NS برآورد می‌کنند. زغال‌سنگ، پراکندگی نسبی مناسبی در سراسر جهان دارد و تقریباً در همه کشورها یافت می‌شود. جزء اصلی سازنده زغال‌سنگ کربن است. به‌طوری که بیش از ۸۰ درصد آن را کربن تشکیل می‌دهد. زغال‌سنگ نیز مخلوطی از ترکیب‌های گوناگون است که به مقدار قابل توجهی عنصرهای دیگری مانند گوگرد، نیتروژن و اکسیژن نیز دارد. البته در زغال‌سنگ مقادیر کمی از فلزهای گوناگون مانند نیکل، مس، آلومینیم، سرب، آرسنیک، جیوه و... وجود دارد. مقدار جیوه در زغال سنگ ۵۰ــ۲۰۰ ppm است. با این توصیف، نیروگاه‌هایی که زغال سنگ می‌سوزانند روزانه هزاران گرم جیوه به هوا‌کره وارد می‌کنند.</p>
+
+
+<br><hr><br>
+<p class="MsoStep">آیا می‌دانید</p>
+<p class="MsoNormal">برای ایجاد اشتعال و انفجار، مقدار گاز متان در هوای معادن زغال‌سنگ باید بیشتر از ۵ درصد و کمتر از ۱۷ درصد باشد. به دیگر سخن، اگر مقدار گاز متان در هوای یک معدن کمتر از ۵ درصد یا بیشتر از ۱۷ درصد باشد تقریباً انفجاری رخ نخواهد داد. همچنین توجه داشته باشید که به‌دلیل سبک بودن گاز متان، این گاز عمدتاً در طبقات بالای معادن زغال‌سنگ انباشته می‌شود.</p>
+
+
+
+<br><hr><br>
+<p class="MsoStep">پیوند با صنعت</p>
+<p class="MsoNormal">حمل‌و‌نقل هوایی سریع‌ترین حالت حمل‌و‌نقل بوده و مزایای آن مانند عدم نیاز به جاده‌سازی و تعمیرات آن، مسافرت آسان، خدمت‌رسانی خوب در مواقع اضطراری حتی در نقاط دوردست و ... است. اما به دلیل هزینه بسیار زیاد آن، برخی شرکت‌ها مانند پست و همچنین شمار محدودی از افراد جامعه می‌توانند از آن استفاده کنند. با وجود این مسئله، این صنعت رو‌به‌گسترش است و رقابت زیادی بین شرکت‌های هواپیمایی گوناگون در ساخت و بهره‌گیری از هواپیما وجود دارد. این روند اهمیت سوخت هواپیما را نشان می‌دهد. سوخت هواپیما از پالایش نفت خام در برج‌های تقطیر پالایشگاه‌ها تولید می‌شود. این سوخت به‌طور عمده از نفت سفید که مخلوطی از آلکان‌هاست تهیه می‌شود. امروزه تولید سوخت هواپیما یکی از صنایع مهم و ارز‌آور است که به دانش فنی بالایی نیز احتیاج دارد. از این‌رو شرکت‌های دانش‌بنیان می‌توانند با ورود به این عرصه کارآفرینی کرده و در شکوفایی اقتصاد کشور قدم‌های مؤثری را بردارند. یکی از مسائل مهم در تأمین سوخت، انتقال آن به مراکز توزیع و استفاده آن است که در حدود ۶۶ درصد آن از طریق خطوط لوله و بقیه با استفاده از راه‌آهن، نفت‌کش جاده‌پیما و کشتی‌های نفتی انجام می‌شود (شکل ۲۱).</p>
+
+
+<br><hr><br>
+
+<p class="MsoNormal">نفت سفید شامل آلکان‌هایی با ده تا پانزده کربن است.</p>
+
+<br><hr><br>
+
+
+<div class="MsoNormal">
+    <p class="MsoStep">آیا می‌دانید</p>
+    <p>انتقال فرآورده‌های نفتی توسط شرکت خطوط لوله و مخابرات نفت از طریق چهارده هزار کیلومتر خطوط لوله انجام می‌شود. به‌طوری که در سال ۱۳۹۵ خورشیدی بیش از ۱۲۰ میلیارد لیتر فرآورده‌های نفتی به سراسر کشور انتقال داده شده است که سوخت هواپیما نزدیک به ۲/۲ میلیارد لیتر از این مقدار را به خود اختصاص داده است.</p>
+</div>
+
+
+<br><hr><br>
+
+<div class="MsoNormal">
+    <p class="MsoStep">در میان تارنماها</p>
+    <p>با مراجعه به منابع معتبر و پایگاه‌های اینترنتی شرکت خطوط لوله و مخابرات نفت ایران اطلاعاتی درباره مشکلات، نکات ایمنی، مسائل زیست‌محیطی و... مرتبط با انتقال فرآورده‌های نفتی تهیه و آن را به کلاس گزارش کنید.</p>
+</div>
+
+<br><hr><br>
+
+
+<div class="MsoNormal">
+    <p class="MsoStep">تمرین‌های دوره‌ای</p>
+  
+  
+    <p>1ــ یون سولفات موجود در 2.45 گرم نمونه‌ای کود شیمیایی را با استفاده از یون باریم، جداسازی کرده و 2.18 گرم باریم سولفات به دست آمده است. درصد خلوص کود شیمیایی را بر حسب یون سولفات حساب کنید.</p>
+   
+   <br><br>
+    <p>2ــ از واکنش 1.8 گرم فلز آلومینیوم با خلوص 90 درصد با محلول مس (II) سولفات مطابق واکنش زیر، چند گرم فلز مس آزاد می‌شود؟</p>
+    <p>$$2Al(s) + 3CuSO_4(aq) \rightarrow 3Cu(s) + Al_2(SO_4)_3(aq)$$</p>
+ 
+    <br><br>
+    <p>3ــ سیلیسیم عنصر اصلی سازندهٔ سلول‌های خورشیدی است که از واکنش زیر تهیه می‌شود.</p>
+    <p>$$SiO_2(s) + 2C(s) \ \ \xrightarrow{\Delta} \ \ Si(l)  + 2CO(g)$$</p>
+    <p>الف) واکنش‌پذیری کربن را با سیلیسیم مقایسه کنید.</p>
+    <p>ب) مقدار ناخالصی در 100 گرم سیلیسیم مصرفی در صنایع الکترونیک 0.0001 گرم است. درصد خلوص آن را حساب کنید.</p>
+
+    <br><br>
+    <p>4ــ نمودار زیر روند کلی تغییر واکنش‌پذیری عنصرهای دورهٔ دوم جدول دوره‌ای را نشان می‌دهد.</p>
+    <p>الف) چرا واکنش‌پذیری عنصرهای گروه 18 در حدود صفر است؟</p>
+    <p>ب) روند تغییر واکنش‌پذیری را توضیح دهید.</p>
+ 
+    <br><br>
+    <p>5ــ هر یک از هیدروکربن‌های زیر را به روش آی‌یوپاک نام‌گذاری کنید.</p>
+ 
+    <br><br>
+    <p>6ــ با توجه به واکنش‌های زیر به پرسش‌های مطرح‌شده پاسخ دهید.</p>
+    <p>$$\text{1) } TiCl_4 + Mg \ \ \xrightarrow{\Delta} \ \ Ti + MgCl_2$$</p>
+    <p>$$\text{2) } Fe_2O_3 + Ti \ \ \xrightarrow{\Delta} \ \ Fe + TiO_2$$</p>
+    <p>الف) هر یک از آن‌ها را موازنه کنید.</p>
+    <p>ب) ترتیب واکنش‌پذیری عنصرهای Fe، Mg و Ti را مشخص کنید.</p>
+    <p>پ) برای تهیهٔ فلز تیتانیم، باید واکنش شماره (1) را در حضور گاز آرگون انجام داد. چرا وجود گازهای اکسیژن و نیتروژن در محیط واکنش مانع از انجام واکنش می‌شود؟ (توجه: گاز نیتروژن به جو بی‌اثر معروف است)</p>
+    <p>ت) پیش‌بینی کنید آیا واکنش زیر در شرایط مناسب انجام می‌شود؟ چرا؟ در صورت انجام، آن را کامل و موازنه کنید.</p>
+    <p>$$Mg + Fe_2O_3 \ \ \xrightarrow{\Delta} \ \ ..... \ \ + \ \ .....$$</p>
+    <p>ث) تیتانیم فلزی محکم، با چگالی کم و مقاوم در برابر خوردگی است. یکی از کاربردهای آن استفاده در بدنهٔ دوچرخه است. اگر در کارخانه‌ای از مصرف \(3.54 \times 10^7\) گرم تیتانیم (IV) کلرید، \(7.91 \times 10^6\) گرم فلز تیتانیم به دست آید، بازده درصدی واکنش را حساب کنید.</p>
+  
+    <br><br>
+    <p>7ــ معدن مس سرچشمهٔ کرمان، یکی از بزرگ‌ترین مجتمع‌های صنعتی معدنی جهان به‌شمار می‌رود و بزرگ‌ترین تولیدکنندهٔ مس است. برای تهیهٔ مس خام از سنگ معدن آن، واکنش زیر انجام می‌شود.</p>
+    
+    <p style="text-align: center;">$Cu_2S + O_2 \rightarrow Cu + SO_2$
+        <br>
+        (موازنه نشده) 
+    </p>
+    <br>
+    <p>الف) با مصرف $400$ کیلوگرم مس (I) سولفید با خلوص 
+        $  85$
+        درصد
+        حدود $190.54$ کیلوگرم مس خام تهیه می‌شود. بازده درصدی واکنش را حساب کنید.</p>
+    <p>ب) چرا این واکنش روی محیط زیست تأثیر زیانباری دارد؟</p>
+    <br><br>
+ 
+    <p>8ــ هگزان (C_6H_{14}) و 1ــ هگزن (C_6H_{12}) دو مایع بی‌رنگ هستند.</p>
+    <p>الف) روشی برای تشخیص این دو مایع پیشنهاد کنید.</p>
+    <p>ب) جای خالی را در واکنش زیر پر کنید.</p>
+    <p>$$C_6H_{12}(l) + \ \ ..... \ \  \xrightarrow{Ni(s)} \ \ C_6H_{14}(l)$$</p>
+   
+<br>
+    <p>9ــ هیدروکربنی به فرمول \(C_xH_y\) شناسایی شده است. افزودن چند قطره از آن به مقدار کمی از محلول برم در یک حلال آلی، سبب بی‌رنگ شدن محلول می‌شود.</p>
+    <p>الف) این هیدروکربن جزو آلکان‌ها، آلکن‌ها یا سیکلوآلکان‌هاست؟ چرا؟</p>
+    <p>ب) نسبت جرمی کربن به هیدروژن در آن برابر با $6$ و جرم مولی آن برابر با$ 140.2$ گرم است. فرمول مولکولی آن را بیابید.</p>
+    <p>پ) با مراجعه به نمودار صفحهٔ 36، حالت فیزیکی این هیدروکربن را پیش‌بینی کنید.</p>
+</div>
+
+<br><br>
+
+
+
+
+
+
+
+
+
+
+
+<br><br><br><br><br>
+
+
+    </body>
+
+
+</html>

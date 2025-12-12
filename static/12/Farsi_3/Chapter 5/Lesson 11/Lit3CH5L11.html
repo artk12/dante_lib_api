@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: "Nastaliq";
+            src: url('nas.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+      
+        li.MsoNormal,
+        div.MsoNormal,
+        ul.MsoNormal,
+        ol.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+            
+        }
+        div.MsoNas,
+        p.MsoNas
+         {
+            margin: 0.5em;
+            
+            font-size: clamp(1.5rem, 1.7vw, 2rem);
+            font-family: "Nastaliq";
+            line-height: 2.3em;
+            color: #dcd7e0;
+            text-align: center;
+         letter-spacing: 0em;
+         word-spacing: 0.4em;
+            
+        }
+        p.MsoNormal
+         {
+            margin: 0in;
+           
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-indent: 1em;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi {
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSemic,
+        li.MsoSemic,
+        div.MsoSemic {
+            margin: 0in;
+           
+            font-size: clamp(1.2rem, 1.6vw, 1.3rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #b19af2;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #6ca4ec;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+        span.uline{
+            border-bottom: 0.1em solid #64E9E1;
+        }
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .boxp {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .boxg {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#00f2ff11; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        .boxb {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#0c4e9f2d; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        ::selection {
+            background-color: #59078fa1; /* Change this to your desired highlight color */
+            color: #ffffff; /* Change this to your desired text color */
+          }
+
+
+          mark{
+            background-color:#078b8fa1 ;
+            color: #ffffff;
+            padding: 0 7px;
+        }
+
+        .hlg { background-color: rgba(0, 234, 255, 0.334);  }
+        .hlp { background-color:#5f1487; }
+      
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+    <body class="custom-scrollbar">
+        <p class="MsoNormal">
+            من را هم گفتید که بروم، همه را گفتید امّا نمی‌شد آقا! نمی‌توانستم، شما عصبانی شدید؛ گفتید که دستور می‌دهید، امّا باز هم من نتوانستم بروم؛ بقیّه توانستند، بقیّه رفتند، امّا من نتوانستم آقا! دست خودم نبود؛ پاهایم سست شده بود؛ قلبم می‌لرزید؛ عرق کرده بودم؛ قوّت اینکه قدم از قدم بردارم، نداشتم. نمی‌خواستم که خدای‌ناکرده حرف شما را زیر پا گذاشته باشم. گفتن ندارد، خودتان می‌دانید که من بیش از همه مُصِر بودم در شنیدن حرف‌های شما. صحبت امروز و دیروز نیست، همیشه این‌طور بوده است. از آن زمان که معلّمم بودید تا اکنون که باز معلّمم هستید.
+        </p>
+        
+        <p class="MsoNormal">
+            صحبت ترس نبود؛ دوست داشتن بود؛ عشقم به این بود که حرفتان را بشنوم، فرمانتان را ببرم... . الآن هم دوستتان دارم؛ بیشتر از همیشه.
+        </p>
+        
+        <p class="MsoNormal">
+            مدیر را کلافه کردم بعد از رفتن شما، از بس سراغ شما را از او گرفتم. می‌گفت نمرات ثلث سوم را که داده‌اید، رفته‌اید آقا! بی‌خبر و می‌گفت برای گرفتن حقوقتان هم حتّی سر نزده‌اید. احتمال می‌داد که جبهه رفته باشید ولی یقین نداشت، من هم یقین نداشتم تا وقتی با چشم‌های خودم ندیدم که بر بالای تلّ خاکی‌ایستاده‌اید ـ چفیه بر گردن و کُلت بر کمر ـ و برای بچه‌ها صحبت می‌کنید، یقین نکردم.
+        </p>
+        
+        <p class="MsoNormal">
+            آفتاب، چشم‌هایتان را می‌زد؛ برای همین، دستتان را بر چشم‌های درشتتان که در نور آفتاب جمع شده بود، حمایل کرده بودید، دست دیگرتان را هم به هنگام صحبت کردن تکان می‌دادید. با یک سال و نیم پیش فرق زیادی نکرده بودید. وقتی یقینم شد که خودتانید، نزدیک بود بی‌اختیار به‌سویتان خیز بردارم و فریاد بزنم: آقای موسوی! من موحّدی‌ام، شاگرد شما، ولی این کار را نکردم؛ بر خودم مسلّط شدم و پشت ردیف آخر، گوشه‌ای کز کردم. شما هم مرا دیدید. معلوم است که دیدید ولی اینکه همان دم شناخته باشیدم، مطمئن نیستم. یادم رفت برای چه کاری آمده بودم، آن‌قدر جذب دیدار شما شده بودم که فراموش کردم برای رساندن پیغام به گردان شما آمده‌ام.
+        </p>
+        
+        <p class="MsoNormal">
+            مثل کلاس، گرم و پرشور حرف می‌زدید و مثل کلاس، طنز و شوخی از کلامتان نمی‌افتاد. از صحبت‌هایتان پیدا بود که حمله در کار است. وقتی حرف‌هایتان تمام شد و تکبیر و صلوات بچه‌ها فرو نشست، به سمت من آمدید. فکر اینکه مرا شناخته باشید، دلم را گرم کرد. از جا کنده شدم و به سمت شما دویدم. قبل از اینکه بگویم: «آقای موسوی، من...». شما آغوش گشودید و لبخند زدید و گفتید: «به به! سلام علیکم احمد جان موحّدی!» تعجّب کردم از اینکه اسم و فامیلم را هنوز از یاد نبرده‌اید؛ همدیگر را سخت در آغوش فشردیم و بوسیدیم.
+        </p>
+        
+        <p class="MsoNormal">
+            دست مرا گرفتید و از میان بچه‌ها در آمدیم. از حال و روز سؤال کردید و من خبر قابل عرض نداشتم. پرسیدم اگر اشتباه نکنم، بوی حمله می‌آید؟ گفتید: «از شامّۀ قوّی شما تشخیص بوی حمله غریب نیست.» گفتم: «فکر می‌کنید امام حسین ما را دوست داشته باشد؟» گفتید: «چرا که نه، شما عاشق حسینید و حسین بیش از هر کس دوست داشتن را می‌فهمد و قدر می‌داند.» گفتم: «پس در این حمله مرا هم با خود همراه می‌کنید؟ نه برای جنگیدن، برای با شما همراه بودن، برای جنگ یاد گرفتن.» نمی‌پذیرفتید، بهانه می‌آوردید و طفره می‌رفتید ولی اصرارهای من که بوی التماس می‌داد، عاقبت شما را متقاعد کرد.
+        </p>
+        
+        <p class="MsoNormal">
+            مقدّمات کار بسیار زودتر از آنچه من و شما تصوّر می‌کردیم، انجام شد. بچه‌ها بعد از شام پراکنده شدند، هر کدام به سویی رفتند. من هم می‌توانستم و می‌خواستم که چون دیگر بچه‌ها در گوشه‌ای خودم را گم کنم و با خدای خود به درد دل بنشینم امّا همراهی با شما را دوست‌تر داشتم.
+        </p>
+        
+
+    
+        <p class="MsoNormal">
+            بی آنکه بدانید تعقیبتان کردم؛ چون شما معلّمم بودید و از آموختن هیچ چیز به شاگردانتان دریغ نداشتید، تنها و تنها برای تعلیم گرفتن، شبح شما را در میان تاریکی تعقیب می‌کردم.
+        </p>
+        <p class="MsoNormal">
+            آن قدر مراقب پنهان‌کاری خودم بودم که نفهمیدم چقدر از سنگرها فاصله گرفته‌ایم. میانۀ دو تپّه‌ای که در کنار هم برآمده بود، جای دنجی بود برای خلوت کردن با خدا. همین گمان مرا به سوی آن دو تلّ خاک کشانید. پیدا بود که پیش از این، سنگر دیده‌بانی یا انفرادی دشمن بوده است.
+        </p>
+        <p class="MsoNormal">
+            زمزمۀ لطیف و سبک و ملایم شما گمان مرا تأیید کرد. می‌بایست هر چه زودتر مخفیگاهی پیدا کنم که از هر دید رسی در امان بمانم. جز گودالی که از کنجکاوی گلولۀ توپ در خاک فراهم آمده بود، کجا می‌توانست مخفیگاه من باشد، در زمانی که ماه داشت سربلند از پشت ابرهای تیره بیرون می‌آمد؟ ولی عمق گودال آن قدر نبود که بتواند جثّۀ آدمی را ایستاده یا نشسته در خود بگیرد. سجده بهترین حالتی بود که می‌توانست مرا با خاک همسطح و یکسان کند.
+        </p>
+        <p class="MsoNormal">
+            صدایی که می‌آمد، حزین‌ترین و عاشقانه‌ترین لحنی بود که در عمرم شنیده بودم. دعای کمیل می‌خواندید؛ از حفظ هم؛ پیدا بود که از حفظ می‌خوانید. آنجا که شما نشسته بودید، جای برافروختن روشنی نبود، مگر چقدر فاصله بود تا نیروهای دشمن؟! از لحنتان پیدا بود که راز و نیاز و مناجات دارد به انتها می‌رسد. اوّل سر را از گودال در آوردم و اطراف را پاییدم، خبری نبود یا اگر بود به چشم نمی‌آمد. آرام از گودال در آمدم، دوباره اطراف را برانداز کردم و راه بازگشت را پیش گرفتم، از همان مسیری که آمده بودم. می‌بایست پیش از شما به سنگرها می‌رسیدم.
+        </p>
+        <p class="MsoNormal">
+            قدری از راه را که رفتم، ماندم، جهت را نمی‌توانستم پیدا کنم. فکر کردم اگر پیش‌تر بروم، به حتم گم می‌شوم. بر تلّ خاکی نشستم. خیلی طول نکشید که آمدید. به حال خودتان نبودید؛ حتّی اگر من صدایتان نمی‌کردم، متوجّه حضور من نمی‌شدید. نبودید، در این دنیا نبودید. اگر بودید، از من می‌پرسیدید که آن وقت شب آنجا چه می‌کنم؟ و من هم پاسخی را که آماده کرده بودم، تحویلتان می‌دادم.
+        </p>
+        <p class="MsoNormal">
+            ولی نپرسیدید. با هم به سوی موضع، راه افتادیم. شما که یقیناً راه را بلد بودید. وقتی به موضع رسیدیم، بچه‌ها که گوشه و کنار پراکنده بودند، دور شما جمع شدند و شما را در میان گرفتند.
+        </p>
+        <p class="MsoNormal">
+            چند نفری زمان حمله را از شما پرسیدند.
+        </p>
+        <p class="MsoNormal">
+            گفتید: «خیلی نباید مانده باشد.»
+        </p>
+        <p class="MsoNormal">
+            گفتند: «فرصت خوابیدن هست؟»
+        </p>
+        <p class="MsoNormal">
+            خسته بودند. شب قبل نخوابیده بودند. باران بی‌امان باریده بود و سنگرها را آب برداشته بود.
+        </p>
+        <p class="MsoNormal">
+            گفتید: «فرصت چُرتی شاید باشد، امّا سیرخواب نباید شد. خواب را مزمزه کنید، بچشید ولی سیر نخوابید. ایستاده یا نشسته بخوابید؛ آن چنان که بی‌کمترین صدا برخیزید؛ نه امشب فقط که همیشه بر همه‌چیتان مسلّط باشید. نگذارید که هیچ تمایل و خواسته‌ای بر شما مسلّط شود. اگر چنین باشد، دشمن هم نمی‌تواند بر شما مسلّط شود. حالا بروید و منتظر خبر باشید.»
+        </p>
+        <p class="MsoNormal">
+            اطرافتان که خلوت شد، به سمت سنگرتان راه افتادید و من هم با فاصله‌ای نه چندان دور سعی کردم که پا جای پای شما بگذارم، مثل برق و باد خودم را به سنگر برسانم و تفنگم را بردارم. آنچه مشکل بود، یافتن شما بود در این معرکه و تاریکی.
+        </p>
+        <p class="MsoNormal">
+            توپخانه شروع کرده بود و صدای مهیب آن، صدای کودکانه امّا خشک کلاش را در خود هضم می‌کرد. مسلّم بود که در میان یا پشت نیروها شما را نمی‌شود پیدا کرد. به سمتی که بچه‌ها پیش می‌رفتند، بنا را بر دویدن گذاشتم. گم کرده داشتم. آمده بودم که جنگیدن یاد بگیرم و اگر شما را پیدا نمی‌کردم، ناکام می‌ماندم. از ردّ صدای شما می‌بایست پیدایتان می‌کردم. راه تنگ و باریک بود و پیشی گرفتن از بچه‌ها سخت مشکل.
+        </p>
+        
+
+
+    <p class="MsoNormal">
+        مَعبَر تمام شد و وارد محوّطه پیش روی خاک‌ریزهای دشمن شدیم امّا هنوز از شما نشانی نبود. تیربارها، دوشکاها، تک‌تیرها و رگبارها همه تلاششان این بود که بچه‌ها را از نزدیک شدن به خاک‌ریز باز دارند امّا فاصلهٔ بچه‌ها با خاک‌ریز کمتر می‌شد.
+    </p>
+    <p class="MsoNormal">
+        وقتی بچه‌هایی که می‌افتادند، خوابیده به سمت خاک‌ریز نشانه می‌رفتند و آخرین رمق‌هایشان را در آخرین فشنگ‌هایشان می‌ریختند و شلیک می‌کردند، جایز نبود که من همچنان بی‌حرکت بمانم و فقط دنبال شما بگردم. آن قسمت خاک‌ریز را که بیشتر آتش به پا می‌کرد، نشانه رفتم و یک خشاب فشنگم را درست در همان نقطۀ آتش، خالی کردم. با خاموش شدن آن آتش که تیر بار به نظر می‌آمد، نیرو گرفتم و بچه‌ها هم که انگار از دست آن ذلّه شده بودند، تکبیر گفتند.
+    </p>
+    <p class="MsoNormal">
+        بعد از فرو نشستن صدای تکبیر بود که صدای شما را شنیدم. از سمت چپ با شور و حالی عجیب بچه‌ها را به اسم صدا می‌کردید و هر کدام را به کاری فرمان می‌دادید. یک لحظه که چشمتان به من افتاد، گفتید: «تو چرا واستادی؟ برو جلو دیگه. تو که ماشاءالله خوب بلدی آتیش خاموش کنی، برو جلو دیگه؛ برو! دو تا تکبیر دیگه بگی کار تمومه.»
+    </p>
+    <p class="MsoNormal">
+        از طرفی ذوق کردم، بال درآوردم، عشق کردم از اینکه فهمیده‌اید که انهدام آن تیربار کار من بوده است و از طرفی دلم نمی‌خواست که حضور مرا بفهمید و مرا از خودتان دور کنید. خودم را آهسته به پشت سرتان کشاندم تا بلکه از یادتان بروم و بتوانم همچنان با شما باشم.
+    </p>
+    <p class="MsoNormal">
+        یک لحظه فکر کردم که اگر قرار بود شما فقط کار یک نفر را انجام بدهید، سرنوشت حمله چه می‌شد؟ چه معلّم عجیبی!
+    </p>
+    <p class="MsoNormal">
+        درست در همان لحظه، شما «یا مهدی» غریبانه‌ای گفتید و تفنگ از دستتان افتاد و من نفهمیدم چرا. ولی بی‌اختیار پیش دویدم تا تفنگ را بردارم و به دستتان بدهم؛ مثل گاهی که در کلاس، قلمی، کاغذی از دستتان می‌افتاد و ما بی‌اختیار، خم می‌شدیم تا آن را به شما بدهیم.
+    </p>
+    <p class="MsoNormal">
+        ایستاده بودید ولی تفنگ را نگرفتید. به دستتان نگاه کردم، دیدم که از مچتان خون می‌ریزد. تفنگ را با دست چپ از من گرفتید و همه را گفتید که بروند، من را هم گفتید و باز برگشتید به حال اوّلتان، انگار نه انگار که یک دست از دست داده‌اید.
+    </p>
+    <p class="MsoNormal">
+        یک تیر هم به زانوی من خورد که مرا در هم پیچاند امّا همان یک لحظه پیش، از شما یاد گرفته بودم که با تیر بر زمین نیفتم. شما دوباره «یا مهدی» گفتید امّا این بار جگر خراش‌تر. نتوانستید ایستاده بمانید، به خود پیچیدید و تا من بگیرمتان، به زمین افتاده بودید. سرتان را توانستم در دست بگیرم؛ دیگران هم آمدند، تیر انگار خورده بود به جناق سینه‌تان، به زیر قلبتان.
+    </p>
+    <p class="MsoNormal">
+        از اینکه بچه‌ها دورتان جمع شدند، عصبانی شدید، با آخرین رمق‌هایتان داد زدید و به همه دستور دادید که بروند. وقتی که تعلّل کردند، موظّفشان کردید. گفتید که دستور می‌دهید؛ به یک نفر هم گفتید که به برادر محسن خبر بدهد که ادامۀ حمله را در دست بگیرد.
+    </p>
+    <p class="MsoNormal">
+        دوباره به من تشر زدید که بروم، سرتان را روی زمین بگذارم و بروم. من می‌خواستم دستورتان را اطاعت کنم امّا نتوانستم، باور کنید که نتوانستم.
+    </p>
+    <p class="MsoNormal">
+        شما شهادتین گفتید و یک بار دیگر امام زمان را صدا زدید و خاموش شدید. آخرین کلامتان «یا مهدی» بود.
+    </p>
+    <p class="MsoNormal">
+        افتخارم این است که خودم با پای لنگ شما را به خط رساندم و بیهوش شدم و حالا دل خوشی‌ام به این است که هر روز صبح با این یک پا و دو عصا به اینجا بیایم. گرد قاب عکستان را پاک کنم، سنگتان را بشویم، گلدانتان را آب بدهم و خاطراتم را با شما مرور بکنم. هر روز چیزهای بیشتری از آن شب عزیز یادم می‌آید. به همین زنده‌ام آقا!
+    </p>
+    <p class="MsoSemi" style="text-align: left;">$*$ سانتاماریا (مجموعه آثار)، سیّد مهدی شجاعی</p>
+
+
+
+    <br><hr><br>
+
+
+
+
+
+        <p class="MsoBold">کارگاه متــن پژوهــی</p>
+        <p class="MsoStep">قلمرو زبانی</p>
+
+
+
+        <p class="MsoNormal">1. با توجّه به متن درس، معنای واژه‌های زیر را بنویسید:</p>
+        <br>
+
+        <ul class="MsoNormal">
+            <li>مَعبَر: </li>
+            <li>ذلّه شدن: </li>
+        </ul>
+
+        <br>
+        <br>
+
+        <p class="MsoNormal">
+            2. شش واژۀ مهم املایی از متن درس انتخاب کنید و به کمک آنها ترکیب‌های وصفی یا اضافی بسازید.
+        </p>
+
+        <br>
+        <br>
+
+        <p class="MsoNormal">
+            3. در بند پنجم، زمان فعل‌ها را مشخّص کنید.
+        </p>
+
+        <br>
+        <br>
+        
+        <p class="MsoNormal">
+            4. برای کاربرد هر یک از ضمایر زیر، جمله‌ای مناسب از متن درس بیابید؛ سپس مرجع ضمیرها را مشخّص کنید:
+        </p>
+        <br>
+
+        <ul class="MsoNormal">
+            <li>ضمیر پیوسته (متّصل): </li>
+            <li>ضمیر گسسته (جدا): </li>
+        </ul>
+
+        
+
+        <br><hr><br>
+
+        <p class="MsoStep">قلمرو ادبی</p>
+        <p class="MsoNormal">1. با توجّه به متن درس:</p>
+        <br>
+
+        <ul class="MsoNormal">
+            <li>
+                الف) دو «کنایه» بیابید و مفهوم هر یک را بنویسید.
+            </li>
+            <br>
+
+            <li>
+                ب) یک نمونه «حس‌آمیزی» مشخّص کنید.
+            </li>
+        </ul>
+
+        <br>
+        <br>
+
+        <p class="MsoNormal">
+            2. فضاسازی، در کدام قسمت از متن درس، نقش مؤثّری در پیشبرد داستان داشته است؟
+        </p>
+    </div>
+
+
+    <br><hr><br>
+
+
+    <p class="MsoStep">قلمرو فکری</p>
+    <p class="MsoNormal">
+        1. سروده‌های زیر را از نظر محتوا بررسی کنید و دربارۀ ارتباط هریک از آنها با متن درس به اختصار توضیح دهید:
+    </p>
+    <br>
+    <div class="MsoNormal" style="text-align: center;">
+        <p>الف) کس چـون تو طریق پاک بـازی نگرفت<br>
+            بـا زخـم نشـان سـرفرازی نگرفـت<br>
+            زین پیش دلّاورا، کسـی چون تو شگفت<br>
+           حیثیـت مـرگ را بـه بـازی نگرفـت!</p>
+           <p>$*$ سیّد حسن حسینی</p>
+    </div>
+
+    <br>
+
+
+  <div class="MsoNormal" style="text-align: center;">
+    <p>ب) بـرای وصـف ِ میدان هـای پُر میـن<br>
+       بـرای وصـف ِ خـال و زلـف ِ چین چیـن<br>
+       نـه در شـیراز و نـه در شـهرِ گنجـه<br>
+        «نظامـی» می شـوم در «قصرشـیرین»</p>
+        <p>$*$ علی سهامی</p>
+  </div>
+
+
+<br><br>
+
+
+    <p class="MsoNormal">
+        2. سرودۀ زیر با کدام قسمت از متن درس مناسبت دارد؟
+    </p>
+  
+    <br>
+    <div class="MsoNormal" style="text-align: center;">
+
+  <p>  
+    هـر سـال چـو نوبهـار خـرّم<br>
+      بیـدار شـود ز خـواب نوشـین<br>
+      تـا بـاز کنـد بـه روی عالـم<br>
+      دیباچـۀ خاطـرات شـیرین<br>
+      از لّالـه دهـد بـه سـبزه زیـور<br>
+      ای دوسـت، مـرا بـه خاطـر آور!</p>
+      <p >$*$ محمّدتقی بهار</p>
+    </div>
+
+
+<br><hr><br>
+
+<p class="MsoStep">
+    شعرخوانی :‌شکوه چشمان تو
+</p>
+
+
+
+<div class="MsoNas" style="text-align: center;">
+    <p>$$1$$</p>
+    <p>آه این سرِ بریده ماه است در پگاه؟</p>
+    <p>یا نه! سرِ بریده خورشیدِ شامگاه؟</p>
+    <p>$$***$$</p>
+    <p>خورشید، بی حفاظ نشسته به روی خاک؟</p>
+    <p>یا ماه بی ملاحظه افتاده بین راه؟</p>
+    <p>$$***$$</p>
+    <p>ماه آمده به دیدن خورشید، صبح زود</p>
+    <p>خورشید رفته است سر شب سراغِ ماه</p>
+    <p>$$***$$</p>
+    <p>حُسن شهادت از همه حُسنی فراتر است</p>
+    <p>ای محسن شهید من، ای حُسن بیگناه</p>
+    <p>$$5$$</p>
+    <p>ترسم تو را ببیند و شرمندگی کشد</p>
+    <p>یوسف، بگو که هیچ نیاید برون ز چاه</p>
+    <p>$$***$$</p>
+    <p>شاهد، نیاز نیست که در محضر آورند</p>
+    <p>در دادگاه عشق، رگ گردنت گواه</p>
+    <p>$$***$$</p>
+    <p>دارد اسارت تو به زینب اشارتی</p>
+    <p>از اشتیاقِ کیست که چشمت کشیده راه؟</p>
+    <p>$$***$$</p>
+    <p>از دوردست میرسد آیا کدام پیک؟</p>
+    <p>ای مسلمِ شرف، به کجا میکنی نگاه؟</p>
+    <p>$$***$$</p>
+    <p>لبریز زندگی است نفس‌های آخرت</p>
+    <p>آورده مرگ، گرم به آغوش تو پناه</p>
+    <p>$$10$$</p>
+    <p>یک کربلا شکوه به چشمت نهفته است</p>
+    <p>ای روضه مجسّمِ گودالِ قتلـگاه</p>
+</div>
+<br>
+
+<p class="MsoSemi" style="text-align: left;">$*$ مرتضی امیری اسفندقه</p>
+
+<br><hr><br>
+
+
+
+
+<p class="MsoStep">درک و دریافت</p>
+
+<p class="MsoNormal">1 برای خوانش مناسب شعر، بهتر است ترکیبی از کدام انواع لحن را به کار گیریم؟</p>
+<br><br>
+
+<p class="MsoNormal">2 با توجّه به متن شعرخوانی به پرسش های زیر پاسخ دهید.</p><br>
+
+<ul class="MsoNormal" style="list-style-type: none;">
+    <li><p>الف) در بیت های ششم تا هشتم، شاعر به کدام ویژگی های شهید محسن حججی اشاره دارد؟</p></li> </ul>
+    <ul class="MsoNormal" style="list-style-type: none;">
+
+    <li>ب) برای پاسداشت ارزش های قیام عاشورا و راه شهدا چه باید کرد؟</li> </ul>
+
+<br><hr><br>
+
+</ul>
+
+
+
+
+
+
+    <br><br>
+
+
+
+
+
+
+<br><br><br><br><br>
+
+
+    </body>
+
+
+</html>

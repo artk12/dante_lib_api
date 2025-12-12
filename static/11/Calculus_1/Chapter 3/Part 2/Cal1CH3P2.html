@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal, ul.MsoNormal {
+            margin: 0in;
+           
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi , b{
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #badaff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .MsoPapDefault {
+           
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #722a85;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background-color: #1abbbbe1; /* Scrollbar thumb color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color: #05ffe2;
+        }
+    </style>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+<body class="custom-scrollbar">
+    <p class="MsoBold">درس ۲
+
+        :
+
+تابع لگاریتمی و لگاریتم</p>
+    
+<p class="MsoNormal">
+    بار دیگر، مسئله افزایش جرم توده باکتری در محیط کشت را که در ابتدای این فصل مطرح شد، در نظر بگیرید. می‌خواهیم بدانیم در چه زمانی وزن باکتری‌ها 
+    $۵۱۲$ 
+    گرم است، یعنی اگر 
+    $m = ۵۱۲$،
+    می‌خواهیم 
+    $t$ 
+    را بیابیم. چون تابع 
+    $m(t) = ۲^t$ 
+    یک تابع یک به یک است، پس وارون‌پذیر است و از این رو 
+    $t = m^{-۱}(۵۱۲)$.
+    به جدول‌های زیر نگاه کنید:
+    </p>
+    
+
+<br>
+
+<table class="MsoNormal" style="margin:auto;width:fit-content;direction:ltr;text-align:center;">
+    <tr>
+      <td>
+        
+        (زمان)
+    t
+    </td>
+      <td>
+        t
+جرم باکتری‌ها در زمان 
+,
+$m(t) = p$
+        <br>
+        </td>
+    </tr>
+    <tr>
+      <td>$۰$</td>
+      <td>$۱$</td>
+    </tr>
+    <tr>
+      <td>$۱$</td>
+      <td>$۲$</td>
+    </tr>
+    <tr>
+      <td>$۲$</td>
+      <td>$۴$</td>
+    </tr>
+    <tr>
+      <td>$۳$</td>
+      <td>$۸$</td>
+    </tr>
+    <tr>
+      <td>$۴$</td>
+      <td>$۱۶$</td>
+    </tr>
+    <tr>
+      <td>$۵$</td>
+      <td>$۳۲$</td>
+    </tr>
+  </table>
+  
+
+  <p class="MsoNormal">
+$$
+\Downarrow
+$$
+
+  </p>
+
+<table class="MsoNormal" style="margin:auto;width:fit-content;direction:rtl;text-align:center;">
+    <tr>
+      <td>
+        t
+        (زمان) </td>
+      <td>
+        $\ m^{-۱}(p)$ ,
+    زمان رسیدن به جرم 
+    p
+        <br>
+        </td>
+    </tr>
+    <tr>
+      <td>$۰$</td>
+      <td>$۱$</td>
+    </tr>
+    <tr>
+      <td>$۱$</td>
+      <td>$۲$</td>
+    </tr>
+    <tr>
+      <td>$۲$</td>
+      <td>$۴$</td>
+    </tr>
+    <tr>
+      <td>$۳$</td>
+      <td>$۸$</td>
+    </tr>
+    <tr>
+      <td>$۴$</td>
+      <td>$۱۶$</td>
+    </tr>
+    <tr>
+      <td>$۵$</td>
+      <td>$۳۲$</td>
+    </tr>
+  </table>
+  
+
+<br><hr><br>
+
+
+<p class="MsoStep">خواندنی</p>
+<p class="MsoSemi">
+جان نپر (John Napier)
+</p>
+<p class="MsoNormal">
+جان نپر، ریاضیدان اسکاتلندی، مفهوم لگاریتم را پایه‌ریزی کرد. لگاریتم برای ساده کردن محاسبات ابداع شد و در قرن ۱۶ و ۱۷، بزرگ‌ترین پیشرفت در علم حساب بود. لگاریتم در علوم زیادی کاربرد دارد. مثلاً در زلزله‌شناسی برای اندازه‌گیری شدت زلزله، محاسبات بسیار کاربرد دارد. لگاریتم در حسابداری و مسائل مالی نیز کاربردهای زیادی دارد.
+</p>
+
+<br><hr><br>
+
+
+
+<p class="MsoNormal">
+    نمودارهای تابع $y = f(x) = 2^x$ و تابع وارون آن در شکل روبه‌رو رسم شده‌اند. دقت کنید که برای رسم تابع وارون $y = 2^x$ کافی است قرینه نقاط روی تابع را نسبت به خط $y = x$ پیدا کنیم. به عنوان مثال، نقطه $(۲,۴)$ روی تابع نمایی $y = 2^x$ و نقطه $(۴,۲)$ که قرینه آن نسبت به خط $y = x$ است، روی تابع وارون آن (تابع لگاریتمی) قرار دارد. می‌توان دید:
+    </p>
+    <p class="MsoNormal">
+    $$
+    D_f = (-\infty, +\infty) \ \ , \ \  R_f = (۰, +\infty)
+    $$
+    </p>
+    <p class="MsoNormal">
+    $$
+    D_{f^{-۱}} = (۰, +\infty) \ \ , \ \  R_{f^{-۱}} = (-\infty, +\infty)
+    $$
+    </p>
+    <p class="MsoNormal">
+    توجه کنید که دامنه $f$ با برد $f^{-۱}$ برابر است و برد $f$ با دامنه $f^{-۱}$.
+    </p>
+    
+<br><hr><br>
+         
+    <p class="MsoStep">فعالیت</p>
+    <p class="MsoNormal">
+    ۱. با توجه به نمودار تابع $f(x) = ۳^x$، نمودار تابع $f^{-۱}$ را رسم کنید و جدول زیر را کامل کنید.
+    </p>
+    
+
+
+
+
+
+
+    <table class="MsoNormal" style="margin:auto;width:fit-content;direction:ltr;text-align:center;">
+        <tr>
+          <td>$f(-۲) = ۳^{-۲} = \dfrac{1}{9}$</td>
+          <td>⟷</td>
+          <td>$f^{-۱} \left( \dfrac{1}{9} \right) = -۲$</td>
+        </tr>
+        <tr>
+          <td>$f(-۱) =$</td>
+          <td>⟷</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>$f(۰) =$</td>
+          <td>⟷</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>$f(۱) =$</td>
+          <td>⟷</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>$f\left(\dfrac{۳}{۲}\right) =$</td>
+          <td>⟷</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>$f(۲) =$</td>
+          <td>⟷</td>
+          <td></td>
+        </tr>
+      </table>
+      
+
+      <br><br>
+      
+      <p class="MsoNormal">
+        ۲. گزینه درست را با ✓ و گزینه غلط را با × علامت بزنید.
+        </p>
+<br>
+        <ul class="MsoNormal">
+            <li>
+                نقطه $(-۲, \frac{1}{9})$ روی نمودار $f$ قرار دارد.
+                </li>
+                <li>
+                    نقطه $(-1, \frac{1}{ \frac{1}{3} })$ روی نمودار $f^{-1}$ قرار دارد.
+                    </li>
+                <li>
+                 نقطه $(\frac{1}{9}, -۲)$ روی نمودار $f^{-۱}$ قرار دارد.
+                </li>
+                <li>
+                 نقطه 
+                 $(1 , 0)$
+                  روی نمودار $f$ قرار دارد.
+                </li>
+                <li>
+                 تابع $f^{-۱}$ یک به یک است.
+                </li>
+                
+        </ul>
+
+<br><br>
+
+        <p class="MsoNormal">
+            فرض کنید داریم 
+            $f(x) = ۳^x$
+            و 
+            $y = f^{-۱}(x)$
+             . در این صورت $y$ را لگاریتم $x$ در پایه $3$ می‌خوانیم و آن را با نماد $y = \log_{ \ ۳} x$ نشان می‌دهیم و می‌خوانیم لگاریتم $x$ در پایه $3$.
+            </p>
+            
+
+
+        <br><hr><br>
+
+
+
+        <p class="MsoNormal">
+            اگر \(a\) عددی مثبت و مخالف یک باشد، تابع نمایی \(f(x) = a^x\) یک به یک است و از این رو دارای تابع وارون \(f^{-1}\) است که تابع لگاریتمی پایه \(a\) نامیده می‌شود و با نماد \(y = \log_{ \ a} x\) نشان داده می‌شود.
+            </p>
+
+            <br><hr><br>
+
+        <p class="MsoNormal">
+            <b>مثال :</b>
+             وارون تابع $f(x) = 5^x$
+              تابع 
+              $f^{-۱}(x) = \log_{ \ 5} x$
+               است.
+            </p>
+            <p class="MsoNormal">
+            همچنین وارون تابع $g(x) = (\dfrac{1}{۳})^x$ تابع $g^{-۱}(x) = \log_{\frac{1}{3}} x$ است.
+            </p>
+
+
+            <br><br>
+            <p class="MsoNormal">
+            <b>مثال :</b> با توجه به نمودار 
+            $f(x) = \log_{ \ 2} x$
+            ، می‌توان دید:
+            </p>
+        
+              <div class="MsoNormal" style="text-align: left;direction: ltr;">
+
+<br>
+                <p class="MsoNormal">
+                    $f(۱) = ۰$
+                    </p>
+                    <p class="MsoNormal">
+                    $f(۳) = ۱$
+                    </p>
+                    <p class="MsoNormal">
+                    $f(۹) = ۲$
+                    </p>
+                    
+              </div>
+
+
+              <br><br>
+
+
+
+              <p class="MsoNormal">
+                <b>مثال:</b> مقادیر زیر با استفاده از نمودار \(f(x) = \log_{ \ 3} x\) به‌دست آمده‌اند.
+                </p>
+                
+
+  <div class="MsoNormal" style="text-align: left;direction: ltr;">
+    <p class="MsoNormal">
+        \(f(1) = 0\)<br>
+        \(f(3) = 1\)<br>
+        \(f\left(\frac{1}{3}\right) = -1\)<br>
+        \(f(9) = 2\)
+        </p>
+  </div> <br>
+  <p class="MsoNormal">به‌طور کلی</p>
+  <p class="MsoNormal">
+  $$
+  y = \log_{ \ a} x \iff a^y = x
+  $$
+  </p>
+  <br>
+  <p class="MsoNormal">
+    به‌عنوان مثال :
+    $ log_{ \ 2 } 8 = 3 $
+     زیرا :
+     $ 2^3 = 8 $
+     <br><br>
+      و یا  :
+     $ 3 = log_{ \ 10} 1000 $
+       زیرا  :
+       $ 1000 = 10^3$
+       <br><br>
+   
+    همچنین :
+    $ \log_{ \ 10} \dfrac{1}{100} = -2 $
+    زیرا  : 
+   $ 10^{ \ -2} = \dfrac{1}{10^2} = \dfrac{1}{100} $
+    </p>
+    
+
+<br><br>
+
+    <p class="MsoNormal">
+        <b>مثال:</b> فرض کنید 
+      $ f(x) = log_{ \ 10 } x $ ،
+         مقدار تابع \(f\) را در هر یک از نقاط زیر در صورت وجود، حساب کنید.
+        </p>
+        <br>
+        <ul class="MsoNormal" style="text-align: left;direction: ltr; list-style-type: none;">
+            <li>الف) $ x = 10 $ </li>
+            <li>ب) $ x = 100  $ </li>
+            <li>پ) $ x = -2 $ </li>
+            <li>ت) $ x = 1000$ </li>
+        </ul>
+        
+
+<br><br>
+
+<p class="MsoSemi">
+    حل :
+</p>
+<br>
+<p class="MsoNormal">
+    الف )
+    $f(10) = \log_{ \ 10} 10 = 1$ 
+    زیرا
+    :
+     $10^1 = 10$.
+</p>
+<br>
+
+<p class="MsoNormal">
+    ب )
+    $f(100) = \log_{ \ 10} 100 = 2$
+    زیرا
+    :
+     $10^2 = 100$.
+</p>
+<br>
+
+<p class="MsoNormal">
+    پ )
+    $f(-10)$ موجود نیست، زیرا لگاریتم اعداد منفی تعریف نمی‌شود.
+</p>
+<br>
+<p class="MsoNormal">
+    ت )
+    $f(1000) = \log_{ \ 10} 1000 = 3$
+     زیرا
+    :
+    $10^3 = 1000$.
+</p>
+
+
+<br><hr><br>
+<p class="MsoStep">خواندنی</p>
+<p class="MsoNormal">
+    برای محاسبه لگاریتم در ماشین حساب کافی است از دکمه log استفاده کنیم. مثلاً برای محاسبه
+    $ \log_{ \ 10} 10 $، ابتدا دکمه log سپس عدد $10$ و در نهایت دکمه = را می‌زنیم. همچنین برای محاسبه
+    $ \log_{ \ 10} \frac{1}{4} $، به‌صورت روبرو عمل می‌کنیم:
+</p>
+<p class="MsoNormal">
+    و ماشین حساب مقدار آن را به‌صورت زیر نشان می‌دهد.
+</p>
+
+<br><hr><br>
+
+
+<p class="MsoNormal"><b>مثال:</b> با توجه به تعریف لگاریتم، جدول زیر را داریم:</p>
+<br>
+<table class="MsoNormal" style="margin:auto;width:fit-content;direction:ltr;text-align:center;">
+    <tr>
+        <td>$$2^5 = 32$$</td>
+        <td>$$\log_{ \ 2} 32 = 5 $$</td>
+    </tr>
+    <tr>
+        <td>$$6^2 = 36$$</td>
+        <td>$$\log_{ \ 6} 36 = 2$$</td>
+    </tr>
+    <tr>
+        <td>$$5^3 = 125$$</td>
+        <td>$$\log_{ \ 5} 125 = 3$$</td>
+    </tr>
+    <tr>
+        <td>$$ 2^{10} = 1024$$</td>
+        <td>$$\log_{ \ 2} 1024 = 10 $$</td>
+    </tr>
+    <tr>
+        <td>$$3^{4} = 81$$</td>
+        <td>$$\log_{ \ 3} 81 = 4$$</td>
+    </tr>
+</table>
+
+<br>
+<br><br>
+
+
+<p class="MsoNormal"><b>مثال:</b> تساوی‌های زیر را به صورت توان بیان کنید.</p>
+
+<br>
+  <div class="MsoNormal" style="text-align: left; direction: ltr;">
+    <p class="MsoNormal">(الف) $\log_{ \ 7} 1 = 0$</p>
+    
+<p class="MsoNormal">(ب) $\log_{ \ 3}\dfrac{1}{27} = -3$</p>
+
+  </div>
+
+
+  <br><br>
+
+  <p class="MsoNormal"><b>حل:</b></p>
+<p class="MsoNormal">(الف) اگر 
+    $\log_{ \ 7} 1 = 0$
+    ، آن‌گاه طبق تعریف داریم 
+    $ 1 = 7^0 $.</p>
+    <br>
+<p class="MsoNormal">(ب) اگر $\log_{ \ 3} \dfrac{1}{27} = -3$، آن‌گاه طبق تعریف داریم 
+    $\dfrac{1}{27} = 3^{-3}  $
+    .</p>
+
+
+<br><br>
+<p class="MsoNormal"><b>مثال:</b> مقادیر زیر را محاسبه کنید:</p>
+<br>
+
+  <div class="MsoNormal" style="text-align:left;direction: ltr;">
+    <p class="MsoNormal">(الف) $\log_{ \ 2} 32$</p>
+<p class="MsoNormal">(ب) $\log_{ \ 6} 6$</p>
+<p class="MsoNormal">(پ) $\log_{ \ 4} 1$</p>
+  </div>
+
+
+  <br><br>
+
+
+  <p class="MsoNormal"><b>حل:</b></p>
+  <p class="MsoNormal">(الف) اگر $\log_{ \ 2} 32 = a$، آن‌گاه طبق تعریف داریم $2^a = 32$ و از این رو $a = 5$.</p>
+  <br>
+  <p class="MsoNormal">(ب) اگر $\log_{ \ 6} 6 = b$، آن‌گاه $6^b = 6$ و در نتیجه $b = 1$.</p>
+  <br>
+  <p class="MsoNormal">(پ) اگر $\log_{ \ 4} 1 = c$، آن‌گاه $4^c = 1$ و در نتیجه $c = 0$.</p>
+  <br><hr><br>
+  <p class="MsoStep">کاردرکلاس</p>
+<p class="MsoNormal">
+    <b>1</b>. (الف) نمودار سه تابع 
+    $f(x) = \log_{ \ 2} x$, $g(x) = \log_{ \ 3} x$, و $h(x) = \log_{  \ 5} x$ 
+    در شکل زیر رسم شده‌اند. ضابطه هر یک را روی نمودار آن بنویسید.
+</p>
+<br>
+<p class="MsoNormal">
+    (ب) محل دقیق هر یک از نقاط زیر را روی نمودار متناظرشان نشان دهید:
+    $(5, 1)$, $(9, 2)$, $(16, 4)$
+</p>
+<br>
+<p class="MsoNormal">
+    (پ) با توجه به نمودار 
+    $y = (\frac{1}{2})^x$
+    ، نمودار 
+    $y = \log_{ \ \frac{1}{2}} x$
+     را رسم کنید و سپس آنها را با هم مقایسه کنید.
+</p>
+<br><br>
+<p class="MsoNormal">
+    2. مشخص کنید هر یک از نمودارهای زیر به کدام‌یک از ضابطه‌های زیر تعلق دارد؟
+</p>
+  <div class="MsoNormal" style="text-align: left;direction: ltr;">
+    <p class="MsoNormal">(الف) $y = -2^x + 2$</p>
+<p class="MsoNormal">(ب) $y = \log_{ \ 2} x + 1$</p>
+<p class="MsoNormal">(پ) $y = (\dfrac{1}{2})^{x-1}$</p>
+  </div>
+  <br><br>
+  <p class="MsoNormal">
+    <b>3</b>. حاصل عبارت‌های زیر را به‌دست آورید.
+</p>
+  <div class="MsoNormal" style="text-align: left;direction: ltr;">
+    <p class="MsoNormal">(الف) $ \log_{ \ 3} 81 $</p>
+<p class="MsoNormal">(ب) $ \log_{ \ \frac{1}{6}} \dfrac{1}{6} $</p>
+<p class="MsoNormal">(پ) $ \log_{ \ 2} 8 $</p>
+  </div>
+  <br><hr><br>
+  <p class="MsoStep">تمرین</p>
+<p class="MsoNormal">
+   1. با استفاده از تعریف لگاریتم، حاصل عبارت‌های زیر را بیابید:
+</p>
+<p class="MsoNormal">
+    $$
+    \log_{ \ 10} 0.01 \ \ , \ \ \log_{ \ 6} \dfrac{1}{6} \ \ , \ \ \log_{ \ 2} \sqrt{2} \ \ , \ \ \log_{ \ 7} \sqrt[\phantom{}^{3 \  \  \ }]{7^2}
+    $$
+</p>
+<br><br>
+
+<p class="MsoNormal">
+    2. نمودار تابع $y = \log_{ \ a} x$ را برای دو حالت $a > 1$ و $0 < a < 1$ با هم مقایسه کنید.
+</p>
+<br><br>
+<p class="MsoNormal">
+    3.
+    (الف) خط $y = 27$ نمودار تابع $y = 3^x$ را در چه نقطه‌ای قطع می‌کند؟
+</p><br>
+<p class="MsoNormal">
+    (ب) خط $y = 10$ نمودار تابع $y = (0.01)^x$ را در چه نقطه‌ای قطع می‌کند؟
+</p>
+<br><br>
+<p class="MsoNormal">
+    4. نمودار دو تابع 
+    $f(x) = x^2$ و $g(x) = 2^x$ را رسم کنید و سپس آنها را با هم مقایسه کنید.
+</p>
+
+<br><br>
+<p class="MsoNormal">
+    5.
+    عبارت درست را با ✓ و عبارت غلط را با ✕ علامت بزنید.</p>
+<ul class="MsoNormal">
+    <li>لگاریتم اعداد مثبت کمتر از ۱ همواره عددی منفی است.</li>
+    <li>لگاریتم اعداد منفی تعریف نمی‌شود.</li>
+    <li>تابع لگاریتم، تابعی یک‌به‌یک است.</li>
+    <li>تابع لگاریتم محور yها را قطع می‌کند.</li>
+    <li>
+        
+        اگر نقطه $(b, d)$ روی نمودار $y = a^x$ قرار داشته باشد، آنگاه $(d, b)$ روی نمودار $y = \log_{ \ a} x$ قرار دارد.
+
+    </li>
+    <li>
+       اگر 
+       $ a > b > 0 $
+       ، آنگاه 
+       $ \log_{ \ 10 } a < \log_{ \ 10} b $
+    </li>
+</ul>
+
+<br><br>
+
+
+<p class="MsoNormal">
+    6.
+    نمودار تابع‌های زیر را رسم کنید.</p>
+
+    <br>
+
+
+    <ul class="MsoNormal" style="text-align: left;direction: ltr;list-style: none;">
+        <li>الف) $y = 1 + \log_{ \ 2} x$</li>
+        <li>ب) $y = -3^{ \ \ x } - 2$</li>
+        <li>پ) $y = 4( \dfrac{1}{3} )^x$</li>
+    </ul>
+    
+
+
+
+    <br><br><br><br><br><br><br ><br><br><br><br><br><br><br><br><br><br><br>
+
+</body>
+
+
+</html>

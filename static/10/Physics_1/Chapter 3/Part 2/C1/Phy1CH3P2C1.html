@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 900px;
+            margin: auto;
+            font-size: clamp(1rem, 2.5vw, 2rem);
+        }
+
+        span {
+            font-size: clamp(1rem, 2.4vw, 2rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 2.5vw, 2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.5rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.1rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #87a5ff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+
+        .images {
+            width: -webkit-fill-available;
+            display: block;
+            max-width: 80%;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1.0rem, 3vw, 2.5rem);
+            text-align: right;
+            color:white;
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #464646;
+            font-size: clamp(1.0rem, 3vw, 2.5rem);
+        }
+        table span{
+            
+            font-size: clamp(1.3rem, 3vw, 2.5rem);
+            
+        }
+    </style>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+<body>
+
+
+<p class="MsoStep">کار انجام شده توسط نیروی ثابت</p>
+<p class="MsoNormal">
+    در علم سال هفتم، دیدید که مفهوم کار در فیزیک با مفهوم آن در زندگی روزمره متفاوت است. همچنین با تعریف کار آشنا شدید. در فیزیک، کار انجام شده توسط یک نیرو 
+    <span class="MsoMath">($F$)</span> 
+    که به جسمی وارد می‌شود و جسم را جابه‌جا می‌کند برابر است با حاصل‌ضرب اندازه نیروی ثابت 
+    <span class="MsoMath">($F$)</span> 
+    در اندازه جابه‌جایی جسم در راستای نیرو 
+    <span class="MsoMath">($d$)</span>.
+</p>
+
+<br>
+
+<p class="MsoNormal">
+    (۳ــ۲)  
+    $$
+ W = Fd
+    $$
+</p>
+
+<br>
+
+<p class="MsoNormal">
+    در این رابطه 
+    <span class="MsoMath">($F$)</span>
+    اندازه نیروی وارد بر جسم و 
+    <span class="MsoMath">($d$)</span>
+    اندازه جابه‌جایی آن است. کار، همان یکای انرژی را دارد و کمیتی نرده‌ای است. برای استفاده از این رابطه به منظور محاسبه کار باید به دو نکته توجه کرد. اول آنکه، نیروی ثابت وارد بر جسم، باید با جابه‌جایی آن هم‌جهت باشد و دوم آنکه، باید بتوان جسم را مانند یک ذره فرض کرد (بخش مدلسازی را در فصل اول ببینید).
+</p>
+<br><br>
+
+<p class="MsoStep">مثال ۳-۲</p>
+<p class="MsoNormal">
+    شکل زیر کارگری را در حال هل دادن یک جعبه با نیروی ثابت $250 \text{N}$ نشان می‌دهد. اگر جعبه $14 \text{m}$ در امتداد نیرو جابه‌جا شود، کار انجام شده توسط این نیرو چقدر است؟
+</p>
+<br>
+<p class="MsoNormal">
+    نیروی وارد شده به جعبه ثابت و با جابه‌جایی جعبه هم‌جهت است. بنابراین، از رابطه ۳-۲ داریم:
+</p>
+<p class="MsoNormal">
+    $$
+    W = Fd = (250 \, \text{N}) \ \  (14 \, \text{m}) = 3.5 \times 10^3 \, \text{J}
+    $$
+</p>
+<br><br>
+<p class="MsoStep">مثال ۳-۳</p>
+<p class="MsoNormal">
+    یک بیمار با جرم $72 \text{kg}$ روی یک تخت به جرم $15 \text{kg}$ دراز کشیده است. پرستاری این تخت را با نیروی ثابت و افقی $\vec{F}$ روی سطحی هموار و با اصطکاک ناچیز حرکت می‌دهد. مجموعه تخت و بیمار با شتاب $0.60 \text{m/s}^2$ حرکت می‌کند.
+</p>
+<br><br>
+<p class="MsoNormal">الف) اندازهٔ نیروی $\vec{F}$ چقدر است؟</p>
+<p class="MsoNormal">جرم کل بیمار و تخت برابر با $87 \text{kg}$ است. با استفاده از قانون دوم نیوتون داریم:</p>
+<p class="MsoNormal">
+    $$F = ma = (87 \text{kg}) \ \ (0.60 \text{m/s}^2) = 52.2 \text{N}$$
+</p>
+<br><br>
+<p class="MsoNormal">ب) اگر تخت $10 \text{m}$ در جهت این نیرو جابه‌جا شود، کار انجام شده توسط نیروی $\vec{F}$ چقدر است؟</p>
+<p class="MsoNormal">چون نیرو و جابه‌جایی در یک جهت هستند، با استفاده از رابطه $W = Fd$، کار نیروی $F$ برابر است با:</p>
+<p class="MsoNormal">
+    $W = (52.2 \text{N}) \ \ (10 \text{m}) = 5.2 \ \ \times \ \ 10^2   \text{J}$
+</p>
+<br><br>
+
+<p class="MsoStep">تمرین ۳-۳</p>
+<p class="MsoNormal">
+    ورزکاری وزنه‌ای به جرم $65 \text{kg}$ را به طور یکنواخت، $45 \text{cm}$ بالای سر خود می‌برد. کاری که این ورزشکار روی وزنه انجام داده است را محاسبه کنید. اندازه شتاب گرانش زمین را $9.8 \text{N/kg}$ بگیرید.
+</p>
+
+
+<p class="MsoStep">مهارت‌های ریاضی (یادآوری از ریاضی سال‌های هشتم و دهم)</p>
+<p class="MsoNormal">
+    در ریاضی سال هشتم با تجزیه یک بردار به مؤلفه‌های افقی و قائم آشنا شدید. همچنین در ریاضی دهم با استفاده از توابع مثلثاتی مانند سینوس و کسینوس می‌توان مؤلفه‌های بردار را به دست آورد.
+</p>
+<p class="MsoNormal">
+    مؤلفه‌های آن بر حسب بردارهای یکه $\vec{i}$ و $\vec{j}$ آشنا شدید (شکل روبه‌رو).
+</p>
+<br>
+
+
+<p class="MsoNormal">
+    اگر $R_x$ و $R_y$ مؤلفه‌های بردار $\vec{R}$ روی محورهای $x$ و $y$ باشند، می‌توان نوشت:
+</p>
+
+<br>
+<p class="MsoNormal">
+    رابطه (۱)
+    $$
+    \vec{R} = R_x \vec{i} + R_y \vec{j} 
+    $$
+</p>
+
+<br>
+<p class="MsoNormal">
+    همچنین در ریاضی سال دهم دیدیم که در یک مثلث قائم‌الزاویه، مانند مثلث $OAB$ در شکل بالا، توابع مثلثاتی سینوس و کسینوس را برای زاویه‌ای مانند $\theta$ به صورت زیر تعریف می‌کنند:
+</p>
+<br>
+<p class="MsoNormal">
+    رابطه (۲)
+    $$\sin \theta = \frac{AB}{OA}, \quad \cos \theta = \frac{OB}{OA}$$
+</p>
+<br>
+<p class="MsoNormal">
+    اگر اندازه بردار $\vec{R}$ را با $R$ نشان دهیم، با توجه به شکل بالا داریم:
+</p>
+<p class="MsoNormal">
+    $$OA = R, \quad OB = R_x, \quad AB = R_y$$
+</p>
+<p class="MsoNormal">
+    به این ترتیب، مؤلفه‌های بردار $\vec{R}$ را می‌توان به صورت زیر نوشت:
+</p>
+<br>
+<p class="MsoNormal">
+    رابطه (3)
+    $$R_x = R \cos \theta, \quad R_y = R \sin \theta$$
+</p>
+<p class="MsoNormal">
+    با جایگذاری رابطه‌های (3) در رابطه (1) می‌توان یک بردار را بر حسب توابع مثلثاتی سینوس و کسینوس نوشت. به این ترتیب داریم:
+</p><br>
+<p class="MsoNormal">
+    رابطه (4)
+    $$\vec{R} = R \cos \theta \ \ \vec{i} + R \sin \theta \ \ \vec{j}$$
+</p>
+<br><br><br>
+<p class="MsoNormal">
+    مقادیر سینوس و کسینوس به ازای چند زاویۀ پرکاربرد
+</p>
+<table style="text-align: center; margin: 5% 25%">
+    <tr>
+        <th>θ</th>
+        <th>sinθ</th>
+        <th>cosθ</th>
+    </tr>
+    <tr>
+        <td>$0°$</td>
+        <td>$0$</td>
+        <td>$1$</td>
+    </tr>
+    <tr>
+        <td>$30°$</td>
+        <td>$\frac{1}{2}$</td>
+        <td>$\frac{\sqrt{3}}{2}$</td>
+    </tr>
+    <tr>
+        <td>$45°$</td>
+        <td>$\frac{\sqrt{2}}{2}$</td>
+        <td>$\frac{\sqrt{2}}{2}$</td>
+    </tr>
+    <tr>
+        <td>$60°$</td>
+        <td>$\frac{\sqrt{3}}{2}$</td>
+        <td>$\frac{1}{2}$</td>
+    </tr>
+    <tr>
+        <td>$90°$</td>
+        <td>$1$</td>
+        <td>$0$</td>
+    </tr>
+    <tr>
+        <td>$180°$</td>
+        <td>$0$</td>
+        <td>$-1$</td>
+    </tr>
+</table>
+<br><br><br>
+<p class="MsoNormal">
+    برای مثال وقتی جسمی را مطابق شکل روبه‌رو با نیروی $\vec{F}$ می‌کشیم، مؤلفه افقی این نیرو $F_x = F \cos \theta$ و مؤلفه قائم آن $F_y = F \sin \theta$ است که در آن $F$ اندازه نیروی $\vec{F}$ است.
+</p>
+<br><br>
+
+
+<p class="MsoNormal">
+    همان‌طور که تا اینجا دیدید، تعریف کار بر اساس رابطه $W = F d$ تنها برای حل مسئله‌هایی به کار می‌رود که نیرو و جابه‌جایی در یک جهت باشند. اگر مطابق شکل $۳-۳$ نیروی وارد شده به جسم با جابه‌جایی زاویه $\theta$ بسازد، در این حالت نیروی $\vec{F}$ دارای دو مؤلفه است؛ یکی موازی با جابه‌جایی و دیگری عمود بر آن. همان‌طور که از علوم هفتم نیز به یاد دارید، مؤلفه‌ای از نیرو که بر جابه‌جایی عمود است ($F_y$) کاری روی جسم انجام نمی‌دهد. کار انجام شده روی جسم تنها ناشی از مؤلفه‌ای از نیرو است که در راستای جابه‌جایی است ($F_x$). در این حالت، کاری که نیروی ثابت $\vec{F}$ به ازای جابه‌جایی $\vec{d}$ روی جسم انجام می‌دهد از رابطه زیر به دست می‌آید:
+</p>
+
+<p class="MsoNormal"> (۳-۳)
+    $$
+    W = (F \cos \theta) d \quad 
+    $$
+</p>
+<br>
+
+<br>
+
+<p class="MsoStep">مثال ۳-۴</p>
+
+<p class="MsoNormal">
+    شکل روبه‌رو شخصی را نشان می‌دهد که جعبه‌ای را با نیروی ثابت $200 \text{N}$ روی سطحی هموار و با اصطکاک ناچیز، به اندازه 
+$10.0m$
+ جابه‌جا می‌کند.
+</p>
+<br>
+<p class="MsoNormal">الف) کار انجام شده توسط این نیرو چقدر است؟</p>
+<p class="MsoNormal">پاسخ: با جایگذاری اطلاعات داده شد
+    و 
+    $ cos \theta = cos30 ^\circ = \frac{ \sqrt{3}}{2} $
+    
+     در رابطه $۳-۳$ داریم:</p>
+<br>
+
+<p class="MsoNormal">
+    $$
+    W = (F \ \ cos \theta) \ \ d = (200 \text{N} \times \frac{ \sqrt{3}}{2}) \times ( 10.0 \text{m} ) = 1.73 \times 10^3 \text{J}
+    $$
+</p>
+
+<p class="MsoNormal">ب) نیروهای دیگری که بر جسم وارد می‌شوند مشخص کنید.</p>
+<p class="MsoNormal">
+    نیروی وزن و نیروی عمودی سطح بر جابه‌جایی عمودند و کاری روی جسم انجام نمی‌دهند (توجه کنید که:$cos \theta =\cos 90^\circ = 0$ ).
+</p>
+
+<br><br><br>
+
+
+    <p class="MsoStep">تمرین ۳-۴</p>
+    <p class="MsoNormal">
+        تمرین ۳-۳ را دوباره ببینید. کار انجام شده توسط ورزشکار را روی وزنه برای حالتی حساب کنید که ورزشکار با وارد کردن همان نیروی $\vec{F}$، وزنه را به آرامی پایین می‌آورد (شکل روبه‌رو). توضیح دهید که در این دو حالت، چه تفاوتی بین مقادیر به دست آمده برای کار انجام شده توسط ورزشکار وجود دارد.
+    </p>
+
+    <br><br>
+    <p class="MsoStep">پرسش ۳-۲</p>
+    <p class="MsoNormal">
+        شخصی جسمی را یک بار با طنابی بلند (شکل الف) و بار دیگر با طنابی کوتاه‌تر (شکل ب) روی سطحی هموار می‌کشد. اگر جابه‌جایی و کاری که این شخص در هر دو بار روی جعبه انجام می‌دهد یکسان باشد، توضیح دهید در کدام حالت، شخص نیروی بزرگ‌تری وارد کرده است. اصطکاک را در هر دو حالت، ناچیز فرض کنید.
+    </p>
+    
+    <br><br>
+    
+    <p class="MsoStep">کار کل</p>
+    <p class="MsoNormal">
+        اگر به جای یک نیرو، چند نیرو بر جسمی وارد شود، با استفاده از رابطه $۳-۳$، کار انجام شده توسط هر نیرو را به طور جداگانه محاسبه می‌کنیم. سپس با جمع جبری کار انجام شده توسط تک‌تک نیروها، کار کل ($W_t$) را می‌یابیم.
+    </p>
+    
+    <br><br>
+
+    <p class="MsoStep">مثال ۳-۵</p>
+    <p class="MsoNormal">
+        شکل زیر پدر و پسری را در حال جابه‌جا کردن یک جعبه سنگین روی سطحی هموار نشان می‌دهد. نیروی $F_۱$ را پدر و نیروی $F_۲$ را پسر به جسم وارد می‌کنند و $f_k$ نیز نیروی اصطکاک جنبشی است که با حرکت جسم مخالفت می‌کند و در خلاف جهت جابه‌جایی به جعبه وارد می‌شود. کار کل انجام شده روی جسم را محاسبه کنید.
+    </p>
+    
+<br>
+<p class="MsoNormal">پاسخ:</p>
+<br>
+<p class="MsoNormal">کار انجام شده توسط هر نیرو را به طور جداگانه محاسبه می‌کنیم. برای محاسبهٔ کار نیروی $F_1$، اطلاعات داده شده و $\cos \theta = \cos 30^\circ = \frac{\sqrt{3}}{2}$ را در رابطه $۳-۳$ جایگذاری می‌کنیم. به این ترتیب داریم:</p>
+<p class="MsoNormal">$$W_1 = (F_1 \cos \theta) d = (150 \text{N} \times \frac{\sqrt{3}}{2}) (10.0 \text{m}) = 1.30 \times 10^3 \text{J}$$</p>
+<p class="MsoNormal">چون پسر جعبه را در جهت جابه‌جایی هُل می‌دهد، کار انجام شده توسط نیروی $F_2$ برابر است با:</p>
+<p class="MsoNormal">$$W_2 = F_2 d = (60 \text{N}) (10.0 \text{m}) = 600 \text{J}$$</p>
+<p class="MsoNormal">برای محاسبهٔ کار نیروی $f_k$، اطلاعات داده شده و $\cos \theta = \cos 180^\circ = -1$ را در رابطه $۳-۳$ جایگذاری می‌کنیم. پس:</p>
+<p class="MsoNormal">$$W_3 = (f_k \cos \theta) d = (30 \text{N} \times -1) (10.0 \text{m}) = -300 \text{J}$$</p>
+<p class="MsoNormal">همان‌طور که گفتیم کار کل ($W_t$) انجام شده با جمع جبری مقدار کار انجام شده توسط تک تک نیروها برابر است. توجه کنید که کار نیروی وزن و نیروی عمودی تکیه‌گاه صفر است. به این ترتیب داریم:</p>
+<p class="MsoNormal">$$W_t = W_1 + W_2 + W_3 = 1.30 \times 10^3 \text{J} + 600 \text{J} - 300 \text{J} = 1.60 \times 10^3 \text{J}$$</p>
+<br><br>
+<p class="MsoStep">تمرین ۳-۵</p>
+<p class="MsoNormal">
+    کشاورزی توسط تراکتور، سورتمه‌ای پر از قطعه‌های چوبی برش داده شده برای کارخانه را روی سطح افقی و در مسیر مستقیم به اندازه $200 \text{m}$ جابه‌جا می‌کند (شکل زیر). وزن کل سورتمه و بار آن $15000 \text{N}$ است. تراکتور نیروی ثابت $F = 5500 \text{N}$ را در زاویه $\theta = 45^\circ$ بالای افق به سورتمه وارد می‌کند. نیروی اصطکاک جنبشی $f_k = 3500 \text{N}$ است که برخلاف جهت حرکت به سورتمه وارد می‌شود. کار کل انجام شده روی سورتمه را محاسبه کنید.
+</p>
+
+
+</body>
+
+</html>

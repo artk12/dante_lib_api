@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal ,
+        ul.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi , b{
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #badaff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #722a85;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background-color: #1abbbbe1; /* Scrollbar thumb color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color: #05ffe2;
+        }
+    </style>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+ 
+</head>
+
+
+
+<body class="custom-scrollbar">
+
+<p class="MsoBold">
+درس ۲ :
+
+
+<br>
+
+
+   تابع درجه سوم، توابع یکنوا و بخش‌پذیری و تقسیم</p>
+
+    
+    <p class="MsoNormal">
+    فرض کنید $n$ یک عدد صحیح نامنفی و $a_n, a_{n-1}, \ldots, a_1, a_0$ اعداد حقیقی باشند که $a_n \neq 0$. تابع $f(x)$ که به صورت زیر تعریف می‌شود، <span class="MsoBold">تابع چند جمله‌ای از درجه $n$</span> نامیده می‌شود:
+    </p>
+    <br>
+    <p class="MsoNormal">
+        $$
+        f(x) = a_n x^n + a_{n-1} x^{n-1} + \cdots + a_2 x^2 + a_1 x + a_0.
+        $$
+        </p>
+        
+    <br>
+    
+    <p class="MsoNormal">
+        تابع ثابت $f(x) = c$، یک تابع چند جمله‌ای از درجه صفر و تابع خطی $f(x) = mx + b$ که $m \neq 0$ یک تابع 
+
+        چند جمله‌ای از درجه یک است. به همین ترتیب یک سهمی به معادله $f(x) = ax^2 + bx + c$ یک تابع 
+
+        چند جمله‌ای از درجه دو است.
+        </p>
+        
+    
+        <br><hr><br>
+
+
+        <p class="MsoStep">کاردرکلاس</p>
+
+        <p class="MsoNormal">
+        در زیر چند تابع چند جمله‌ای نوشته شده‌اند. درجه هر کدام را مشخص کنید.
+        </p>
+        
+<br>
+
+<p class="MsoNormal" style="text-align: left;">
+$
+f(x) = 2x - 3 
+$
+<br><br>
+$
+h(x) = x^2 + x - 4
+$
+<br><br>
+$
+n(x) = 2x - x^3
+$
+<br><br>
+$
+g(x) = (x - 1)^2 + 3
+$
+<br><br>
+$
+m(x) = 5 
+$
+<br><br>
+$
+p(x) = x^2 (1 - x)^3
+$
+</p>
+
+
+
+
+<p class="MsoStep">فعّالیت</p>
+<br>
+<p class="MsoNormal">
+یکی از توابع چند جمله‌ای درجه سه، تابع $f(x) = x^3$ است.
+</p>
+<br>
+<p class="MsoNormal">
+۱. با تکمیل جدول مقابل، نمودار تابع $f(x) = x^3$ را رسم کنید.
+</p>
+
+
+<br>
+<p class="MsoNormal">
+    ۲. به کمک نمودار رسم شده برای تابع $f(x) = x^3$، نشان دهید که این تابع وارون‌پذیر است.
+    </p>
+    <br>
+    <p class="MsoNormal">
+    ۳. نمودار تابع $f^{-1}$ را رسم کنید و ضابطه $f^{-1}$ را تعیین کنید.
+    </p>
+    
+    <br>
+
+    <table class="MsoNormal" style="margin:auto;width:fit-content;direction:ltr;text-align:center;">
+        <tr>
+          <th>$x$</th>
+          <td>$y = x^3$</td>
+        </tr>
+        <tr>
+          <th>$-2$</th>
+          <td>$(-2)^3 = -8$</td>
+        </tr>
+        <tr>
+          <th>$-1$</th>
+          <td></td>
+        </tr>
+        <tr>
+          <th>$-\dfrac{1}{2}$</th>
+          <td>$(-\dfrac{1}{2})^3 = -\dfrac{1}{8}$</td>
+        </tr>
+        <tr>
+          <th>$0$</th>
+          <td>$0$</td>
+        </tr>
+        <tr>
+          <th>$\dfrac{1}{2}$</th>
+          <td></td>
+        </tr>
+        <tr>
+          <th>$1$</th>
+          <td>$1$</td>
+        </tr>
+        <tr>
+          <th>$2$</th>
+          <td></td>
+        </tr>
+      </table>
+      
+
+
+      <br><hr><br>
+
+
+
+      <p class="MsoStep">کاردرکلاس</p>
+
+<p class="MsoNormal">
+۱. نمودار هر یک از توابع زیر را به کمک نمودار تابع $y = x^3$ رسم کنید.
+</p>
+
+<br>
+
+<p class="MsoNormal" style="text-align: left;direction: ltr;">
+    الف) $y = (x + 1)^3$ 
+    <br>
+    ب) $y = -x^3 + 1$ 
+    <br>
+     پ) $y = x^3 - 3x^2 + 3x$
+    </p>
+    
+    <br>
+
+    <p class="MsoNormal">
+        ۲. نمودار هر یک از توابع $y = x^3$ و $y = x^2$ در فاصله $[0, 2]$ رسم شده است. 
+        </p>
+        <br>
+        <p class="MsoNormal">
+        در فاصله $[0, 1]$، نمودار کدام تابع پایین‌تر و نمودار کدام تابع بالاتر است؟ در فاصله $[1, 2]$ چطور؟
+        </p>
+        
+<br><hr>
+
+<p class="MsoBold">توابع صعودی و توابع نزولی</p>
+<hr><br>
+<p class="MsoStep">فعالیت</p>
+
+<p class="MsoNormal">
+تنفس هوای پاک در شهرهای صنعتی یکی از آرزوهای ساکنین این شهرهاست. بر اساس شاخص کیفیت هوا (AQI)، کیفیت 
+هوای یک منطقه، یکی از وضعیت‌های پاک، سالم، ناسالم برای گروه‌های حساس، ناسالم، بسیار ناسالم و خطرناک می‌باشد. 
+</p>
+<p class="MsoNormal">
+نمودار زیر، میانگین شاخص کیفیت هوا در ۱۵ روز پایانی دی ماه سال ۱۳۹۵ در شهر تهران را نشان می‌دهد.
+</p>
+
+
+<br>
+
+<p class="MsoNormal">
+    الف) شاخص کیفیت هوا در چه فاصله‌های زمانی رو به افزایش بوده است؟
+    </p>
+    <br>
+    <p class="MsoNormal">
+    ب) شاخص کیفیت هوا در چه فاصله‌های زمانی رو به کاهش بوده است؟
+    </p>
+    <br>
+    <p class="MsoNormal">
+    پ) این شاخص در چه فاصله زمانی ثابت بوده است؟
+    </p>
+    
+
+    <br><hr><br>
+
+
+    <p class="MsoNormal">
+        دامنهٔ تابع $f$ که در شکل مقابل دیده می‌شود، بازه $[1, 8]$ است. در بازه $[1, 3]$، هم‌زمان با افزایش $x$، نمودار تابع رو به بالا می‌رود. به همین خاطر به تابع $f$ در بازه $[1, 3]$ صعودی می‌گوییم. در بازه $[3, 4]$ مقدار تابع ثابت است.
+        </p>
+        <p class="MsoNormal">
+        در ادامه و در بازه $[4, 8]$، هم‌زمان با افزایش $x$، نمودار تابع رو به پایین می‌رود و به همین منظور به تابع $f$ در بازه $[4, 8]$ نزولی گفته می‌شود.
+        </p>
+        <br><hr><br>
+        <p class="MsoStep">توابع صعودی و توابع نزولی</p>
+<p class="MsoNormal">
+تابع $f$ را در مجموعه 
+$ (A \subseteq D_f)A $
+ <b>صعودی</b> می‌گوییم، اگر برای هر دو مقدار $a$ و $b$ در این مجموعه که $a < b$، آنگاه $f(a) \leq f(b)$. 
+در فاصله‌ای که یک تابع صعودی است، با حرکت روی نمودار (از چپ به راست)، رو به پایین نخواهیم رفت.
+نمودارهای زیر همگی مربوط به توابع صعودی‌اند.
+</p>
+<br>
+<p class="MsoNormal">
+    تابع $f$ را در مجموعه 
+    $ (A \subseteq D_f)A $
+     <b>نزولی</b> می‌گوییم، اگر برای هر دو مقدار $a$ و $b$ از این مجموعه که $a < b$، آنگاه $f(a) \geq f(b)$.
+    در فاصله‌ای که یک تابع نزولی است، با حرکت روی نمودار (از چپ به راست)، رو به بالا نخواهیم رفت.
+    نمودارهای زیر همگی مربوط به توابع نزولی‌اند.
+    </p>
+    <br>
+    <p class="MsoNormal">تابع $f$ را بر مجموعه $A$ یک‌نوا گوییم، هرگاه در این مجموعه، صعودی (نزولی) باشد.</p>
+    <br>
+    <p class="MsoNormal">تابع $f$ را در یک مجموعه، ثابت می‌گوییم، اگر برای تمام مقادیر $x$ در این مجموعه، مقدار $f(x)$ ثابت باشد. با توجه به تعاریف بالا: تابع ثابت در یک مجموعه، هم صعودی و هم نزولی محسوب می‌شود.</p>
+
+    <br><br>
+
+    <p class="MsoStep">
+        توابع اکیداً صعودی و توابع 
+        اکیداً نزولی</p>
+
+    <p class="MsoNormal">تابع $f$ را در یک مجموعه، <b>اکیداً صعودی</b> می‌گوییم، اگر برای هر دو مقدار $a$ و $b$ در این مجموعه که $a < b$، آنگاه $f(a) < f(b)$.</p>
+
+    <p class="MsoNormal">در فاصله‌ای که یک تابع اکیداً صعودی است، با حرکت روی نمودار (از چپ به راست)، همواره رو به بالا خواهیم رفت. (شکل الف)</p>
+    
+
+<br>
+<p class="MsoNormal">تابع $f$ را در یک مجموعه، <b>اکیداً نزولی</b> می‌گوییم، اگر برای هر دو مقدار $a$ و $b$ در این مجموعه که $a < b$، آنگاه $f(a) > f(b)$.</p>
+
+<p class="MsoNormal">در فاصله‌ای که یک تابع اکیداً نزولی است، با حرکت روی نمودار (از چپ به راست)، همواره رو به پایین خواهیم رفت. (شکل ب)</p>
+
+<br>
+<p class="MsoNormal">به تابعی که در یک مجموعه اکیداً صعودی یا اکیداً نزولی باشد، <b>اکیداً یکنوا</b> می‌گوییم.</p>
+<br>
+<p class="MsoNormal"><b>مثال:</b> نمودار تابع $f$ در شکل مقابل رسم شده است. در فاصله $(-\infty, -1]$ تابع $f$ ثابت است. همچنین در فاصله $[-1, 0]$ تابع اکیداً نزولی و در فاصله $[0, +\infty)$ تابع اکیداً صعودی است.</p>
+
+
+
+<br><hr><br>
+
+
+<p class="MsoStep">کار در کلاس</p>
+ 
+<p class="MsoNormal">۱. نمودار توابع زیر را رسم کنید.</p>
+
+
+<p class="MsoNormal" style="text-align: left;direction: ltr;">
+    $f(x) = x^2 + 2x $
+    <br>
+    $  g(x) = 2^{ -x }  $
+    <br>
+     $ h(x) =  \ \big| \  x + 2 \ \big| \ $
+    </p>
+    
+    <br><br>
+    <p class="MsoNormal">الف) در چه بازه‌هایی این توابع، اکیداً صعودی و در چه بازه‌هایی اکیداً نزولی هستند؟</p>
+    <br>
+    <p class="MsoNormal">ب) کدام یک از آنها در تمام دامنه خود، اکیداً یکنوا است؟</p>
+    
+<br><br>
+    <p class="MsoNormal">۲. نمودار تابع $f(x)$ را رسم کنید. در چه فاصله‌هایی این تابع صعودی و در چه فاصله‌هایی نزولی است؟</p>
+    <br>
+    <p class="MsoNormal">
+    $$
+    f(x) =
+    \begin{cases} 
+    x^2 & x \geq -1 \\\\
+    2 & x < -1 \\\\
+    \end{cases}
+    $$
+    </p>
+    
+
+<br><br>
+
+<p class="MsoNormal">۳. الف) اگر تابع $f$ در یک فاصله اکیداً صعودی باشد، آیا صعودی نیز هست؟ چرا؟</p>
+<br>
+<p class="MsoNormal">ب) اگر تابع $f$ در یک فاصله صعودی باشد، آیا اکیداً صعودی نیز خواهد بود؟ مثال بزنید.</p>
+
+<br><br>
+
+<p class="MsoNormal">۴. الف) فرض کنید تابع $f$ در یک فاصله اکیداً صعودی باشد و $a$ و $b$ متعلق به این فاصله باشند. اگر 
+    $f(a) \leq f(b)$
+    نشان دهید که 
+    $a \leq b$
+     .</p>
+<br>
+<p class="MsoNormal">ب) اگر $\log(x+1) \leq \log(2x-3)$، حدود $x$ را به‌دست آورید.</p>
+
+<br><hr>
+
+
+<p class="MsoBold">تقسیم و بخش‌پذیری</p>
+
+<p class="MsoStep">فعّالیت</p>
+
+<p class="MsoNormal">با تقسیم چند جمله‌ای‌ها بر یکدیگر آشنا هستید. چند جمله‌ای‌های 
+    $f(x) = x^3 - 3x^2 + 1$
+    و 
+    $p(x) = x^2 - 2$ 
+     را در نظر می‌گیریم.</p>
+<br>
+<p class="MsoNormal">الف) اگر $q(x)$ و $r(x)$ به ترتیب خارج قسمت و باقیمانده تقسیم $f(x)$ بر $p(x)$ باشند، نشان دهید که 
+    $q(x) = x - 3$
+     و 
+    $r(x) = 2x - 5$
+    .</p>
+<br>
+<p class="MsoNormal">ب) درستی تساوی $f(x) = p(x) q(x) + r(x)$ را بررسی کنید.</p>
+
+<br><hr><br>
+
+<p class="MsoStep">قضیه تقسیم برای چند جمله‌ای‌ها</p>
+<br>
+<p class="MsoNormal">اگر $p(x)$ و $f(x)$ چند جمله‌ای باشند و درجه $p(x)$ از صفر بزرگ‌تر باشد، آنگاه چند جمله‌ای‌های منحصر‌به‌فرد $q(x)$ و $r(x)$ وجود دارند به‌طوری که:</p>
+
+<p class="MsoNormal">$$f(x) = p(x) q(x) + r(x)$$</p>
+
+<p class="MsoNormal">که در آن $r(x) = 0$ یا درجه $r(x)$ از درجه $p(x)$ کمتر است.</p>
+
+<br><hr><br>
+
+
+
+<p class="MsoNormal">اگر $r(x) = 0$ باشد، چند جمله‌ای $f$ بر چند جمله‌ای $p$ بخش‌پذیر است.</p>
+
+<br><hr><br>
+
+<p class="MsoStep">کار در کلاس</p>
+
+<p class="MsoNormal">اگر 
+    $f(x) = x^2 - 16$
+    و 
+    $p(x) = x + 2$
+     ، نشان دهید که $f(x)$ بر $p(x)$ بخش‌پذیر است.</p>
+
+
+
+
+<br><hr><br>
+
+
+<p class="MsoStep">فعّالیت</p>
+
+<p class="MsoNormal">در تقسیم $f(x) = x^3 + 2$ بر  $q(x)$
+    
+    ,
+    
+     $p(x) = 2x - 1 \ $ و $r(x)$ به ترتیب خارج قسمت و باقی‌مانده‌اند.</p>
+<br>
+<p class="MsoNormal">الف) نشان دهید که $r(x)$ از درجه صفر است.</p>
+
+<p class="MsoNormal">ب) با توجه به قضیه تقسیم می‌توان نوشت:</p>
+
+
+<p class="MsoNormal">$$f(x) = (2x - 1) q(x) + r(x)$$</p>
+
+
+<br>
+
+
+<p class="MsoNormal">اکنون ریشه چند جمله‌ای $p(x) = 2x - 1$ را به‌دست آورید و با قرار دادن در رابطه بالا نشان دهید که $r(x) = f\left(\dfrac{1}{2}\right)$.</p>
+<br>
+<p class="MsoNormal">به‌طور کلی می‌توان گفت:</p>
+
+<br>
+<p class="MsoNormal">
+    <b>قضیه:</b>
+    باقی‌مانده تقسیم چند جمله‌ای $f(x)$ بر $ax + b$ عبارت است از $r(x) = f\left(-\dfrac{b}{a}\right)$.</p>
+<br><hr><br>
+
+<p class="MsoStep">کار در کلاس</p>
+
+<p class="MsoNormal">۱. باقی‌مانده تقسیم چند جمله‌ای 
+    $x^3 + x - 2$
+     را بر 
+    $2x + 1$ به‌دست آورید.</p>
+
+
+<br>
+
+<p class="MsoNormal">۲. اگر چند جمله‌ای $x^2 + ax - 2$ بر $x - a$ بخش‌پذیر باشد، مقدار $a$ را تعیین کنید.</p>
+
+<br><hr><br>
+
+<p class="MsoStep">فعّالیت</p>
+
+<p class="MsoNormal">با اتحادهای زیر از سال‌های قبل، آشنا هستید.</p>
+
+<p class="MsoNormal">$$x^2 - a^2 = (x - a)(x + a) $$
+    
+   $$ x^3 - a^3 = (x - a)(x^2 + ax + a^2)$$</p>
+
+
+<br>
+
+   <p class="MsoNormal">۱. از تقسیم $x^4 - a^4$ بر $x - a$ نشان دهید که:</p>
+
+   <p class="MsoNormal">$$x^4 - a^4 = (x - a)(x^3 + ax^2 + a^2x + a^3)$$</p>
+   
+<br>
+
+   <p class="MsoNormal">۲. آیا $x^n - a^n \; (n \in \mathbb{N})$ بر $x - a$ بخش‌پذیر است؟</p>
+   <br>
+   <p class="MsoNormal">۳. از تقسیم $x^n - a^n$ بر $x - a$ نشان دهید که $x^n - a^n$ به صورت زیر تجزیه می‌شود.</p>
+   
+<div class="custom-scrollbar" style="overflow-y: hidden; overflow-x:auto;direction:ltr;">
+   <p class="MsoNormal">$$x^n - a^n = (x - a)(x^{n-1} + ax^{n-2} + a^2x^{n-3} + \cdots + a^{n-2}x + a^{n-1})$$</p>
+</div>
+
+<br><br>
+
+<p class="MsoNormal">۴. چند جمله‌ای‌های $x^5 - 1$ و $x^6 - 64$ را به کمک اتحاد بالا تجزیه کنید.</p>
+
+
+<br><hr><br>
+
+
+<p class="MsoStep">کار در کلاس</p>
+<p class="MsoNormal">۱. در اتحاد بالا، اگر $n$ فرد باشد، با تغییر $a$ به $-a$، اتحاد زیر را نتیجه بگیرید.</p>
+
+<div class="custom-scrollbar" style="overflow-y: hidden; overflow-x:auto;direction:ltr;">
+    <p class="MsoNormal">$$x^n + a^n = (x + a)(x^{n-1} - ax^{n-2} + a^2x^{n-3} - \cdots -  a^{n-2}x + a^{n-1})$$</p>
+ </div>
+
+<br>
+ <p class="MsoNormal">به کمک این اتحاد، چند جمله‌ای $x^5 + 1$ را تجزیه کنید.</p>
+ <br><br>
+ <p class="MsoNormal">۲. در فعالیت بالا، اگر $n$ زوج باشد، با تغییر $a$ به $-a$، اتحاد زیر را نتیجه بگیرید.</p>
+
+
+ <div class="custom-scrollbar" style="overflow-y: hidden; overflow-x:auto;direction:ltr;">
+    <p class="MsoNormal">$$x^n - a^n = (x + a)(x^{n-1} - ax^{n-2} + a^2x^{n-3}- \cdots + a^{n-2}x - a^{n-1})$$</p>
+ </div>
+ 
+ <br><br>
+
+
+
+
+ <p class="MsoNormal">به کمک این اتحاد، چند جمله‌ای $x^4 - 16$ را طوری تجزیه کنید که $x + 2$ یک عامل آن باشد.</p>
+
+ <br><hr><br>
+
+
+
+ <p class="MsoStep">تمرین</p>
+
+ <p class="MsoNormal">۱. تابع $f(x) = (x - 2)^3 + 1$ را در نظر بگیرید.</p>
+ <br>
+ <p class="MsoNormal">الف) نمودار تابع $f$ را به کمک نمودار تابع $y = x^3$ رسم کنید.</p><br>
+ <p class="MsoNormal">ب) نشان دهید که $f$ وارون‌پذیر است و نمودار $f^{-1}$ را رسم کنید.</p><br>
+ <p class="MsoNormal">پ) ضابطه $f^{-1}$ را به‌دست آورید.</p>
+ <br><br>
+ <p class="MsoNormal">۲. نمودار توابع $f$ و  $g$ و $h$ در زیر رسم شده‌اند.</p>
+ <br>
+ <p class="MsoNormal">الف) تابع $f$ در چه فاصله‌هایی اکیداً صعودی و در چه فاصله‌هایی صعودی است؟</p>
+ <br>
+ <p class="MsoNormal">ب) تابع $g$ در چه فاصله‌هایی اکیداً نزولی و در چه فاصله‌هایی نزولی است؟</p>
+ <br>
+ <p class="MsoNormal">پ) تابع $h$ در چه فاصله‌هایی اکیداً نزولی است؟</p>
+ <br><br>
+ <p class="MsoNormal">۳. نمودار هر یک از توابع زیر را رسم کنید. کدام یک از آنها در تمام دامنه خود، اکیداً یکنوا است؟</p>
+ 
+
+ <br>
+
+
+
+  <div class="MsoNormal" style="text-align: left;direction: ltr;">
+
+    <p class="MsoNormal">الف) $f(x) = \sqrt{2 - x}$</p>
+    <p class="MsoNormal">ب) $g(x) = 2^{-x}$</p>
+    <p class="MsoNormal">پ) $h(x) = \log_{ \ 2} x$</p>
+    
+  </div>
+
+  <br><br>
+
+  <p class="MsoNormal">۴. الف) آیا تابعی وجود دارد که در یک فاصله، هم صعودی و هم نزولی باشد؟</p>
+<br>
+<p class="MsoNormal">ب) نمودار تابعی را رسم کنید که در هر یک از بازه‌های 
+    $(0, -\infty)$ و 
+    $ [0, +\infty)$ اکیداً صعودی باشد ولی در $\mathbb{R}$ اکیداً صعودی نباشد.</p>
+
+
+    <br><br>
+
+
+
+    <p class="MsoNormal">۵. اگر توابع $f$ و $g$ در یک فاصله اکیداً صعودی باشند، نشان دهید که تابع $f + \  g$ نیز در این فاصله اکیداً صعودی است. برای تابع $f - \  g$ چه می‌توان گفت؟</p>
+
+
+<br><br>
+
+
+<p class="MsoNormal">۶. اگر باقی‌مانده تقسیم چند جمله‌ای 
+    $x^3 + kx^2 + 2$ بر $x - 2$
+     برابر با $6$ باشد، $k$ را تعیین کنید.</p>
+
+<br><br>
+
+     <p class="MsoNormal">۷. مقادیر $a$ و $b$ را طوری تعیین کنید که چند جمله‌ای 
+        $x^3 + ax^2 + bx + 1$
+         بر $x - 2$ و $x + 1$ بخش‌پذیر باشد.</p>
+
+<br><br>
+
+<p class="MsoNormal">۸. هر یک از چند جمله‌ای‌های زیر را بر حسب عامل‌های خواسته‌شده تجزیه کنید.</p>
+<br>
+<p class="MsoNormal">الف) $x^6 - 1$ با عامل $x - 1$</p>
+<p class="MsoNormal">ب) $x^6 - 1$ با عامل $x + 1$</p>
+<p class="MsoNormal">پ) $x^5 + 32$ با عامل $x + 2$</p>
+
+<br><br>
+<p class="MsoNormal">۹. الف) فرض کنید تابع $f$ در یک بازه اکیداً نزولی باشد و $a$ و $b$ متعلق به این بازه باشند. اگر 
+    $f(a) \leq f(b)$
+    نشان دهید که 
+    $a \geq b$
+     .</p>
+<br>
+<p class="MsoNormal">ب) اگر 
+    $ (\dfrac{1}{2})^{3x-2} \leq \dfrac{1}{64} $
+    ، حدود $x$ را به‌دست آورید.</p>
+
+
+
+
+
+
+
+
+
+    <br><br><br><br><br><br><br><br><br><br>
+</body>
+
+
+</html>

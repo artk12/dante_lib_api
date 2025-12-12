@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #badaff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .box {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+    <body class="custom-scrollbar">
+
+        <div class="MsoBold">درس دوم: جایگشت</div>
+<hr>
+        <div class="MsoBold">جایگشت</div>
+<hr><br>
+        <p class="MsoNormal">سه فیش و سه درگاه مانند شکل مقابل وجود دارند که باعث اتصال دو دستگاه الکتریکی به‌هم می‌شوند. برای اتصال درست دو دستگاه، باید هر فیش به درگاه مخصوص به‌خود وصل شده باشد. چند حالت مختلف برای اتصال سه فیش به سه درگاه وجود دارد؟ بین تمام حالت‌ها فقط یکی منجر به کارکردن درست دستگاه می‌شود. آیا می‌دانید برای راحت‌تر پیدا کردن حالت درست، شرکت‌های تولیدی چگونه عمل می‌کنند؟</p>
+
+        <br><hr><br>
+
+        <div class="MsoStep">فعالیت</div>
+        
+        <p class="MsoNormal">۱. فرض کنید فیش‌ها را a و b و c بنامیم. حالت‌های مختلف قرار دادن آنها را در مربع‌های زیر بنویسید.</p>
+        
+
+        <br><br>
+        <p class="MsoNormal">۲. آیا در سه مربع به‌هم چسبیده، حرفی می‌تواند تکرار شود؟</p>
+        <br><br>
+        <p class="MsoNormal">۳. با توجه به اصل ضرب، چگونه می‌توان تعداد این چینش‌ها را به‌دست آورد؟</p>
+        
+
+        <br><hr><br>
+
+        <div class="MsoStep">فعالیت</div>
+
+        <p class="MsoNormal">به چند حالت مختلف می‌توان چهار عدد ۱ و ۲ و ۳ و ۴ را کنار هم قرار داد؟</p>
+
+        <p class="MsoNormal">می‌خواهیم مسئله قبل را با استفاده از اصل ضرب حل کنیم. فرض کنید ۴ مربع به‌صورت مقابل وجود دارد که پر کردن هر کدام از مربع‌ها یک مرحله از چیدمان است. واضح است که هر چهار مرحله باید انجام شود، لذا تعداد حالت‌های ممکن برای پر کردن مربع‌ها باید در هم ضرب شود.</p>
+
+        <p class="MsoNormal">۱. اولین مربع (مثلاً مربع سمت چپ) به چند روش می‌تواند پر شود؟</p>
+
+        <p class="MsoNormal">- پس از پر شدن اولین مربع چند عدد جدید نشده باقی مانده است؟</p>
+
+        <p class="MsoNormal">- حال دومین مربع را به چند روش می‌توان پر کرد؟ سومین و چهارمین مربع را چطور؟</p>
+
+        <p class="MsoNormal">- حال با توجه به اصل ضرب، تعداد حالت‌های ممکن برای این چیدمان برابر است با:</p>
+
+        <p class="MsoNormal" style="text-align: center;">$......  \times ...... \times ...... \times ......$ </p>
+        <br>
+        <div class="box">
+
+            «
+            اگر چند شئ متمایز داشته باشیم٬ به هر حالت چیدن آنها کنار هم٬ یک جایگشت از آن اشیا میگوییم.
+            »
+
+        </div>
+        <br>
+
+        <p class="MsoNormal">بنابراین تعداد راه‌های چیدن چهار شئ متمایز یا به‌عبارتی تعداد جایگشت‌های چهار شئ متمایز عبارت است از حاصل‌ضرب:</p>
+
+        <p class="MsoNormal" style="text-align: center;"> $...... \ \ \times \ \ ...... \ \ \times \ \ ...... \ \ \times \ \ ...... $</p>
+
+        <br>
+        <p class="MsoNormal">۲. به‌نظر شما تعداد روش‌های چیدن پنج حرف یونانی $\theta, \ \ \delta, \ \ \gamma, \ \ \beta, \ \ \alpha$ (به‌ترتیب آلفا، بتا، گاما، دلتا و تتا خوانده می‌شوند) کنار هم و بدون تکرار، با عبارت تعداد جایگشت‌های پنج شئ متمایز چندتاست؟</p>
+        <br>
+        <p class="MsoNormal">۳. تعداد کلمات هفت حرفی (با معنی و بدون معنی) که از کنار هم قرار دادن حروف «س»، «ش»، «و»، «ی»، «ا»، «ب»، «ت» می‌توان ساخت چندتاست؟ (بدون تکرار حروف)</p>
+        <br>
+        <p class="MsoNormal">۴. با استفاده از ارقام$ ۱، ۲، ۳، ۴، ۰، ۷، ۸، ۹ $چند عدد $9$ رقمی با ارقام متمایز می‌توان نوشت؟</p>
+        <br>
+        <p class="MsoNormal">۵. تعداد جایگشت‌های $10$ شئ متمایز چندتاست؟</p>
+        <br>
+        <p class="MsoNormal">۶. اگر n یک عدد طبیعی باشد، تعداد جایگشت‌های n شئ متمایز را با یک حاصل‌ضرب نشان دهید.</p>
+        <br><hr>
+        <div class="MsoBold">معرفی یک نماد</div>
+        <hr><br>
+        <div class="MsoNormal">اگر n یک عدد طبیعی باشد، حاصل‌ضرب اعداد طبیعی و متوالی از ۱ تا n را به‌صورت $n!$ (n فاکتوریل) نمایش می‌دهیم. به‌طور مثال
+            :
+            <br>
+            <p style="text-align: left;margin-left:10%;">
+            $
+            1! = 1 \\
+            2! = 2 \times 1 = 2 \\
+            3! = 3 \times 2 \times 1 = 6 
+            $
+            </p>
+
+            و الی آخر
+        قرار داد:
+        $ 0! = 1 \quad$
+        </div>
+        <br>
+        <p class="MsoNormal">حال با توجه به این نماد، تعداد جایگشت‌های n شئ متمایز برابر است با:
+            $.................$ .
+        </p>
+
+       <br><hr><br>
+
+       <div class="MsoStep">کار در کلاس</div>
+
+
+
+       <p class="MsoNormal">
+        ۱. مانند نمونه هر قسمت را کامل کنید.
+       </p>
+
+
+       <p class="MsoNormal" style="text-align: left;">
+       <br>
+       $6! = 6 \times 5 \times 4 \times 3 \times 2 \times 1 = 6 \times 5!$
+      ( الف<br>
+
+       $8!$
+      ( ب <br>
+        
+         $10!$
+         ( پ
+         <br>
+        
+         $n!$
+         ( ت
+         <br>
+        
+   
+       </p>
+
+
+       <br>  
+
+       <p class="MsoNormal">
+
+        ۲. حاصل عبارات زیر را به‌دست آورید.<br>
+       </p>
+
+<br>
+
+       <p class="MsoNormal" style="text-align: left;">
+     
+       
+       
+        $\frac{5!}{4!} =  \frac{5 \times (4 \times 3 \times 2 \times 1)}{(4 \times 3 \times 2 \times 1)} = 5$
+       
+        (
+            الف
+
+        <br><br>
+
+        $\frac{10!}{9!}$
+        (
+            ب
+
+        <br><br>
+        $\frac{n!}{(n-1)!}$
+        (
+            پ
+
+        <br><br>
+        $\frac{8!}{6!}$
+        (
+          ت  
+
+        <br><br>
+        $\frac{10!}{8!}$
+        (
+            ث
+
+        <br><br>
+        $\frac{n!}{(n-2)!}$
+        (
+            ج
+
+        <br><br>
+        $\frac{8!}{5!}$
+        (
+            چ
+
+        <br><br>
+        $\frac{10!}{7!}$
+        (
+            ح
+
+        <br><br>
+        $\frac{n!}{(n - 3)!}$
+        (
+            خ
+
+        <br><br>
+        $\frac{n!}{(n - 4)!}$
+        (
+            د
+        <br><br>
+        $\frac{n!}{(n - 5)!}$
+        (
+            ذ
+
+        <br><br>
+        $\frac{n!}{(n - k)!}$
+        (
+            ر
+        
+       
+    </p>
+
+<br><br>
+
+<p class="MsoNormal">۳. حاصل ضرب‌های زیر را مانند نمونه با استفاده از نماد فاکتوریل نمایش دهید.</p>
+<p class="MsoNormal" style="text-align: left;">
+
+<br>
+
+    $ 9 \times 8 = \frac{9!}{7!} $ 
+    (الف)
+    
+    <br><br>
+    
+    $9 \times 8 \times 7 \times 6$ 
+    (ب)
+    
+    <br><br>
+    
+    $11 \times 10 \times 9$ 
+    (پ)
+    
+    <br><br>
+    
+    $8$ 
+    (ت)
+    
+    <br><br>
+    
+    $n(n-1)$ 
+    (ث)
+    
+    <br><br>
+    
+    $n(n-1)(n-2)(n-3)$ 
+    (ج)
+    
+    </p>
+<br>
+<br><hr><br>
+<div class="MsoStep">فعالیت</div>
+
+<p class="MsoNormal">۱. تعداد کلمات هفت حرفی که بدون تکرار حروف با حروف $a, b, d, e, f, s, t$ می‌توان نوشت: یعنی تعداد جایگشت‌های هفت شئ متمایز برابر است با $...............$ . </p>
+<br>
+<p class="MsoNormal">۲. حال با توجه به اصل ضرب می‌خواهیم تعداد کلمات سه حرفی با حروف متمایز را که با همان هفت حرف بالا می‌توان نوشت، بدست آوریم.</p>
+<br>
+<p class="MsoNormal">- برای انتخاب اولین حرف از حروف کلمه سه حرفی چند انتخاب داریم؟ برای انتخاب دوم و سوم حرف چطور؟</p>
+<br>
+<p class="MsoNormal">بنابراین تعداد کلمات سه حرفی موردنظر برابر است با $..............$ . </p>
+
+<br>
+
+
+<p class="box">در واقع آنچه به‌دست آمد، تعداد راه‌های چیدن سه شئ از هفت شئ متمایز یا به‌عبارتی تعداد جایگشت‌های سه‌تایی از هفت شئ متمایز است.</p>
+<br><br>
+
+
+
+
+<p class="MsoNormal">۳. تعداد جایگشت‌های چهار‌تایی از نه شئِ متمایز را به‌دست آورید.</p>
+
+<br><br>
+
+<p class="MsoNormal">۴. اعداد به‌دست آمده در مراحل ۲ و ۳ را با استفاده از فاکتوریل بنویسید.</p>
+
+<br><br>
+
+<p class="MsoNormal">۵. تعداد جایگشت‌های سه‌تایی از n شئِ متمایز را به‌دست آورید و آن‌ها را با استفاده از فاکتوریل بنویسید.</p>
+
+<br><br>
+
+<p class="MsoNormal">۶. تعداد جایگشت‌های n‌تایی از n شئِ متمایز $(0 \leq r \leq n)$ را به‌دست آورید و آن‌ها را با استفاده از فاکتوریل بنویسید.</p>
+<br>
+<p class="box">
+تعداد جایگشت‌های r‌تایی از n شئِ متمایز یا به‌عبارتی تعداد انتخاب‌های r شئ از n شئ متمایز را که در آن‌ها ترتیب قرار گرفتن مهم باشد، با نماد P(n,r) نمایش می‌دهیم و مقدار آن از دستور زیر محاسبه می‌شود:
+\[
+P(n,r) = \frac{n!}{(n - r)!}
+\]
+</p>
+
+<br><hr><br>
+
+<div class="MsoStep">مثال</div>
+
+<p class="MsoNormal">با حروف کلمه «جهانگردی» و بدون تکرار حروف:</p>
+<br>
+<p class="MsoNormal">
+الف) چند کلمه ۸ حرفی می‌توان نوشت؟ چند تا از آن‌ها به «ی» ختم می‌شوند؟
+</p>
+<br>
+<p class="MsoNormal">
+ب) چند کلمه ۸ حرفی می‌توان نوشت که در آن‌ها حروف «د» و «ی» کنار هم قرار داشته باشند؟
+</p>
+<br>
+<p class="MsoNormal">
+پ) چند کلمه ۶ حرفی می‌توان نوشت؟ چند تا از آن‌ها به «گردی» ختم می‌شوند؟
+</p>
+<br>
+<p class="MsoNormal">
+ت) چند کلمه ۸ حرفی می‌توان نوشت که در آن‌ها حروف کلمه «جهان» چهار حرف اول باشند؟
+</p>
+<br>
+<p class="MsoNormal">
+ث) چند کلمه ۸ حرفی می‌توان نوشت که در آن‌ها حروف کلمه «جهان» کنار هم باشند؟
+</p>
+<br>
+<p class="MsoNormal">
+ج) چند کلمه ۸ حرفی می‌توان نوشت که با حرف نقطه‌دار شروع شوند؟
+</p>
+
+<br><br>
+
+
+<p class="MsoNormal">حل:</p>
+<br>
+<p class="MsoNormal">
+الف) برای نوشتن تمام کلمات ۸ حرفی بدون حروف تکراری با این ۸ حرف کافی است تعداد جایگشت‌های ۸ شئِ متمایز را به‌دست آوریم. لذا جواب برابر $8!$ است.
+</p>
+
+<p class="MsoNormal">
+در حالتی که حرف آخر «ی» باشد، کافی است تعداد جایگشت‌ها روی هفت حرف دیگر را به‌دست آوریم، لذا در این حالت جواب برابر $7!$ است.
+</p>
+<br>
+<p class="MsoNormal">
+ب) حروف «د» و «ی» به دو حالت («دی» و «ید») می‌توانند کنار هم بیایند. برای پیدا کردن تعداد کلماتی که در آن‌ها این دو حرف به‌صورت «دی» در کنار هم آمده‌اند، کافی است این دو حرف را یک حرف درنظر بگیریم، لذا کافی است تعداد جایگشت‌های هفت شئِ متمایز را به‌دست آوریم که برابر است با $7!$. چون همین تعداد هم برای حالت «ید» وجود دارد، پس جواب کلی برابر است با $2 \times 7!$.
+</p>
+<br>
+<p class="MsoNormal">
+پ) تعداد کلمات شش حرفی برابر است با تعداد جایگشت‌های شش‌تایی از هشت شئِ متمایز، یعنی:
+</p>
+
+<p class="MsoNormal" style="text-align: center;">
+$$ P(8,6) =  \frac{8!}{(8 - 6)!} = \frac{8!}{2!} $$
+</p>
+
+<p class="MsoNormal">
+در حالتی که کلمه بخواهد به «گردی» ختم شود، با توجه به اینکه چهار حرف آخر مشخص‌اند، لذا فقط باید تعداد حالت‌های نوشتن دو حرف اول توسط حروف کلمه «جهان» را به‌دست آورید که برابر است با تعداد جایگشت‌های دوتایی از چهار شئِ متمایز، یعنی:
+</p>
+
+<p class="MsoNormal" style="text-align: center;">
+$$ P(4, 2) = \frac{4!}{(4 - 2)!} = 12 $$
+</p>
+<br>
+
+<p class="MsoNormal">ت) چهار حرف اول، حروف کلمه «جهان» هستند که به $4!$ حالت می‌توانند بیایند. حال ۴ حرف آخر را باید با حروف باقی‌مانده (گ، ر، د، ی) نوشت که این کار را هم به $4!$ روش می‌توان انجام داد. بنابراین طبق اصل ضرب، نوشتن کلمه مورد نظر به $4! \times 4!$ روش می‌تواند انجام شود.</p>
+<br>
+<p class="MsoNormal">ث) تعداد حالت‌های قرار گرفتن حروف کلمه «جهان» در کنار هم برابر است با تعداد جایگشت‌های چهار شئِ متمایز، یعنی $4!$. حال هر کدام از این جایگشت‌ها را درنظر بگیریم، برای نوشتن کلمه ۸ حرفی کافی است این چهار حرف کنار هم قرار گرفته چهار حرف کلمه «جهان» را یک حرف حساب کنیم، بنابراین کافی است تعداد جایگشت‌های پنج شئِ متمایز را حساب کنیم که برابر است با $5!$. پس طبق اصل ضرب جواب برابر است با $4! \times 5! $.</p>
+<br>
+<p class="MsoNormal">ج) حروف اول باید یکی از سه حرف «ج»، «ن»، «يـ» باشد. پس ۳ انتخاب برای حرف اول داریم. حال با انتخاب هر کدام از این ۳ حرف برای چینش ۷ حرف دیگر $7!$ وجود دارد. بنابراین جواب برابر است با $$3 \times 7! = 3 \times 5040 = 15120$$.</p>
+
+
+<br><hr><br>
+<div class="MsoStep">کار در کلاس</div>
+
+<p class="MsoNormal">۱. یک مربی فوتبال قصد دارد برای بازی پیش‌رو در تیم خود یک دفاع راست، یک دفاع چپ، یک دفاع جلو و یک دفاع عقب قرار دهد. او شش بازیکن دفاعی دارد که می‌توانند در هر کدام از این چهار پست بازی کنند. در شروع بازی چند حالت برای چینش این خط دفاعی برای این مربی وجود دارد؟</p>
+
+<br>
+
+<p class="MsoNormal">۲. با اعدادهای $4$، $3$، $2$، $1$ و $5$ چند عدد سه رقمی با ارقام غیرتکراری می‌توان نوشت؟</p>
+
+
+<br><hr><br>
+
+
+<div class="MsoStep">تمرین</div>
+
+<p class="MsoNormal">۱. در یک لیگ فوتبال ۱۸ تیم قرار دارند. در پایان این لیگ تیم‌های اول تا سوم به چند حالت مختلف می‌توانند مشخص شوند؟</p>
+
+<br>
+<p class="MsoNormal">۲. از بین تعدادی کتاب مختلف می‌خواهیم سه کتاب را انتخاب کنیم و در قفسه‌ای بچینیم. اگر تعداد حالت‌های مختلف برای این کار ۲۱۰ تا باشد، تعداد کتاب‌ها چند تاست؟</p>
+<br>
+<p class="MsoNormal">۳. کدام‌یک از موارد زیر درست و کدام نادرست است؟</p>
+<br>
+<p class="MsoNormal" style="text-align: left;">
+    $6! = 3! + 3!$
+
+    <br>
+   
+    $6! = 6 \times 5!$
+
+    <br>
+   
+    $8! = 4! \times 2!$
+
+    <br>
+   
+    $ 2 \times 3! = 6!$
+
+    <br>
+   
+    $ (3!)^2 =  9! $
+
+   <br>
+
+    $ 4! = \frac{8!}{2!} $
+
+    </p>
+
+    <br><br>
+
+    <p class="MsoNormal">۴. در یک نوع ماشین حساب کوچک که دارای ۲۰ کلید است، برای انجام یک دستور خاص باید سه کلید مشخص با ترتیبی مشخص فشار داده شوند. اگر فردی نداند سه کلید مورد نظر کدام‌اند و بخواهد به‌طور تصادفی این کار را انجام دهد و فشردن هر سه کلید ۲ ثانیه زمان بخواهد، این فرد حداکثر (در بدترین حالت) در چه زمانی می‌تواند دستور مورد نظر را اجرا کند؟</p>
+    <br><br>
+    <p class="MsoNormal">۵. با حروف کلمه «گل پیرا» و بدون تکرار حروف</p>
+    <br>
+    <p class="MsoNormal">الف) چند کلمه ۴ حرفی می‌توان نوشت؟ چند تا از آن‌ها با «گل» شروع می‌شود؟</p>
+    <br>
+    <p class="MsoNormal">ب) چند کلمه ۴ حرفی می‌توان نوشت که در آن‌ها دو حرف «پ» و «ر» در کنار هم آمده باشند؟</p>
+    <br>
+    <p class="MsoNormal">پ) چند کلمه ۴ حرفی می‌توان نوشت که در آن‌ها دو حرف «پ» و «ر» در کنار هم آمده باشند؟</p>
+    <br>
+    <p class="MsoNormal">ت) چند کلمه ۴ حرفی می‌توان نوشت که در آن‌ها دو حرف «پ» و «ر» کنار هم نیامده باشند؟</p>
+    <br>
+    <p class="MsoNormal">ث) چند کلمه ۵ حرفی می‌توان نوشت که در آن‌ها حروف کلمه «پیرا» کنار هم آمده باشند؟</p>
+    
+
+
+
+
+
+
+        
+    </body>
+
+
+</html>

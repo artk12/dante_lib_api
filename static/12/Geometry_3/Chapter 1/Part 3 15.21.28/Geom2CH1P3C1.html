@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi {
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSemic,
+        li.MsoSemic,
+        div.MsoSemic {
+            margin: 0in;
+           
+            font-size: clamp(1.2rem, 1.6vw, 1.3rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #b19af2;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #6ca4ec;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .boxp {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .boxg {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#00f2ff11; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        .boxb {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#0c4e9f2d; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        ::selection {
+            background-color: #59078fa1; /* Change this to your desired highlight color */
+            color: #ffffff; /* Change this to your desired text color */
+          }
+
+
+          mark{
+            background-color:#078b8fa1 ;
+            color: #ffffff;
+            padding: 0 7px;
+        }
+
+        .hlg { background-color: rgba(0, 234, 255, 0.334);  }
+        .hlp { background-color:#5f1487; }
+      
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+    <body class="custom-scrollbar">
+
+
+        <p class="MsoBold">درس سوم:
+            <br>
+            چند ضلعی‌های محاطی و محیطی</p>
+        
+        <p class="MsoNormal">چند ضلعی را محاطی می‌گوییم اگر و فقط اگر دایره‌ای باشد که از همهٔ رؤوس آن بگذرد. در این صورت دایره را دایرهٔ محیطی آن چند ضلعی می‌نامیم.</p>
+        <br>
+        <p class="MsoNormal">به‌طور مثال $ABCDE$ یک پنج ضلعی محاطی است.</p>
+        <br>
+        <p class="MsoNormal">می‌دانیم برای اینکه دایره‌ای از دو نقطه بگذرد، باید مرکز آن روی عمود منصف پاره‌خطی باشد که آن دو نقطه دو سر آن است؛ بنابراین:</p>
+        
+        <div class="boxp">
+          
+            <p class="MsoNormal">یک چند ضلعی، محاطی است اگر و فقط اگر عمود منصف‌های همه ضلع‌های آن در یک نقطه همرس باشند.</p>
+        </div>
+        <br><br>
+        <p class="MsoNormal">این نقطه مرکز دایرهٔ محیطی چند ضلعی است؛ چرا؟</p>
+        <br>
+        <p class="MsoNormal">چند ضلعی را محیطی می‌گوییم اگر و فقط اگر دایره‌ای باشد که بر همه ضلع‌های آن مماس باشد. در این صورت دایره را دایرهٔ محاطی این چند ضلعی می‌نامیم.</p>
+        <br><hr><br>
+        <p class="MsoStep">فعالیت</p>
+        <p class="MsoNormal">فرض کنید دایرهٔ $C$ بر دو ضلع زاویه‌ای مانند شکل مماس باشد.</p>
+        <br>
+        <p class="MsoNormal">1. پاره‌خط‌هایی که مرکز دایره را به نقاط تماس اضلاع با دایره وصل می‌کند، رسم کنید و آنها را $OA$ و $OB$ بنامید.</p>
+        <br> <br>
+        <p class="MsoNormal">2. پاره‌خط‌های $OA$ و $OB$ برای دایره چه نوع پاره‌خطی هستند؟</p>
+        <br> <br>
+        <p class="MsoNormal">3. فاصلهٔ نقطه $O$ (مرکز دایره) تا ضلع‌های زاویهٔ مفروض با طول پاره‌خط‌های رسم شده ($OA$ و $OB$) چه رابطه‌ای دارد؟</p>
+        <br> <br>
+        <p class="MsoNormal">4. با توجه به (٢) و (٣) فاصلهٔ مرکز دایره از دو ضلع زاویه $. . . . . . . .$ و  بنابراین نقطهٔ $O$ روی $. . . . . . . .$ است.</p>
+        
+<br><br>
+
+<p class="MsoNormal">۵- فرض کنید مانند شکل مقابل، دایره در یک چند ضلعی محاط شده باشد. چرا مرکز دایره، محل برخورد نیمسازهای زاویه‌های داخلی چند ضلعی است؟</p>
+<br>
+<p class="MsoNormal">(ب) فرض کنید یک چند ضلعی مانند شکل مقابل به گونه‌ای باشد که نیمسازهای زاویه‌ای داخلی آن در نقطه $O$ یکدیگر را قطع کرده باشند و $OH$ پاره‌خط عمود به یک ضلع چند ضلعی باشد. دایره‌ای به مرکز $O$ و شعاع $OH$ برای چند ضلعی مفروض چه نوع دایره‌ای است؟ چرا؟</p>
+
+<div class="boxp">
+   
+    <p class="MsoNormal">
+        بنابراین؛
+        یک چند ضلعی محیطی است اگر و فقط اگر همهٔ نیمسازهای زاویه‌های آن در یک نقطه همرس باشند. این نقطه مرکز دایره محاطی چند ضلعی است.</p>
+</div>
+<br><hr><br>
+<p class="MsoStep">کار در کلاس</p>
+<p class="MsoNormal">اگر در یک $n$ ضلعی محیطی با مساحت $S$ و محیط $۲P$ شعاع دایره محاطی برابر ۲ باشد، نشان دهید $rp = S$.</p>
+<br>
+<p class="MsoNormal">راهنمایی: کافی است مساحت $n$ مثلث را محاسبه، و با هم جمع کنید.</p>
+<br><hr>
+<p class="MsoBold">دایره‌های محیطی و محاطی مثلث</p>
+<p class="MsoNormal">قبلاً همرس سه عمود منصف یک مثلث را ثابت کرده‌ایم؛ بنابراین نقطه همرس سه عمود منصف، تنها نقطه‌ای است که از هر سه رأس مثلث می‌گذرد؛ یعنی دایره محیطی مثلث است. پس نتیجه مثلث همواره محیطی است.</p>
+<br>
+<p class="MsoNormal">همچنین ثابت کرده‌ایم سه نیمساز زاویه‌های داخلی مثلث در نقطه‌ای درون مثلث همرس‌اند. در نتیجه مثلث محاطی نیز هست. بنابراین ویژگی نیمساز؛ این نقطه از هر سه ضلع مثلث به یک فاصله است.</p>
+<br>
+<p class="MsoNormal">پس مرکز دایره محاطی مثلث نقطه همرس سه نیمساز است و شعاع آن را با $r$ نشان می‌دهیم. فاصله این نقطه از هر یک از سه ضلع مثلث، برابر $r$ است. بنابراین آنچه در مورد $n$ ضلعی‌های محیطی نشان دادیم در مثلث نیز صادق است: $S = pr$ و $P$ نصف محیط مثلث است.</p>
+
+<br>
+
+<p class="MsoNormal">اگر نیمساز زاویه $A$ از $\triangle ABC$ را رسم کنیم، نیمساز زاویه خارجی $C$ را در نقطه‌ای مانند $O$ قطع می‌کند. این نقطه از خط $BC$ و خط‌های $AC$ و $AB$ به یک فاصله است؛ چرا؟</p>
+<br><p class="MsoNormal">بنابراین $O$ نیز مرکز دایره‌ای است که بر ضلع $BC$ و خط‌های شامل دو ضلع دیگر مماس است. این دایره را دایرهٔ محاطی خارجی نظیر رأس $A$ می‌نامند.</p>
+<br><p class="MsoNormal">شعاع این دایره را با $r_a$ نشان می‌دهند؛ به همین ترتیب دو دایره محاطی خارجی دیگر نظیر دو رأس $B$ و $C$ وجود دارد.</p>
+<br>
+<p class="MsoNormal">اکنون در فعالیت زیر محاسبهٔ شعاع دایرهٔ محاطی خارجی را بررسی می‌کنیم</p>
+<br><hr><br>
+<p class="MsoStep">فعالیت</p>
+<p class="MsoNormal">در شکل داریم: $S(ABC) = S(OAC) + S(OAB) - S(OBC)$</p>
+<p class="MsoNormal">اگر مساحت $\Delta ABC$ را به $S$ نشان دهیم و $S = \dfrac{1}{2} r_a ( \ \ . . . \ \  +  \ \ . . . \ \  -  \ \ . . . \ \  )$ و اگر محیط مثلث را با $2p$ نشان دهیم،
+      داریم
+     $2p = a + b + c $، 
+     پس
+     $2p - 2a = \ \ . . .$ ;
+     در نتیجه 
+     $S = r_a (P - a)$ و بنابراین $r_a = \dfrac{S}{p - a}$</p>
+     <br>
+<p class="MsoNormal">به طور مشابه برای اضلاع دیگر داریم:</p>
+<br>
+<p class="MsoNormal" style="text-align: center;">$ r_b =  \ \ . . . $ $\qquad \qquad$ $ r_c =  \ \ . . . $</p>
+
+<br><br>
+<p class="MsoNormal">برخلاف مثلث، همهٔ چند ضلعی‌های دیگر، لزوماً محاطی یا محیطی نیستند. در بخش بعد به شرایط محاطی یا محیطی بودن یک چهار ضلعی می‌پردازیم.</p>
+
+<br><hr>
+
+<p class="MsoBold">چهار ضلعی‌های محاطی و محیطی</p>
+
+<div class="boxb">
+    <p class="MsoSemi"><mark>قضیه:</mark></p>
+    <p class="MsoNormal">یک چهار ضلعی محاطی است، اگر و فقط اگر دو زاویهٔ مقابل آن مکمل باشند.</p>
+</div>
+
+<br><br>
+
+<p class="MsoSemi" style="font-size:larger;">اثبات</p>
+<p class="MsoNormal">١- فرض کنیم چهار ضلعی $ABCD$ محاطی باشد؛ مجموع اندازه‌های $\hat{A}$ و $\hat{C}$ نصف مجموع اندازه‌های کمان‌های $DAB$ و $DCB$ است؛ اما مجموع اندازه‌های این دو کمان ..... است و در نتیجه مجموع اندازه‌های $\hat{A}$ و $\hat{C}$ برابر ...... است.
+    <br>
+    به همین ترتیب، $\hat{B}$ و $\hat{D}$ مکمل‌اند.</p>
+<br><br>
+<p class="MsoNormal">٢- فرض کنیم چهار ضلعی $ABCD$ محیطی باشد. با برهان خلف ثابت می‌کنیم چهار ضلعی $ABCD$ محاطی است. از سه نقطه $B$, $C$ و $D$ همواره یک دایره می‌گذرد؛ چرا؟</p>
+<br>
+<p class="MsoNormal">اگر این دایره از $A$ نگذرد، خط $AD$ را در نقطه‌ای دیگری مانند $A'$ قطع می‌کند که $A'$ بین $D$ و $A$ یا $A'$ بین $A$ و $D$ است. اکنون چهارضلعی $ABCD$ هم اندازه باشد، پس $ \widehat{BA'D}$ و $ \widehat{BA'D}$ مکمل‌اند؛ در نتیجه باید $\widehat{A}$ و $\widehat{C}$ هم اندازه باشند و این ممکن نیست؛ چرا؟</p>
+<br>
+<p class="MsoNormal">در نتیجه $A'$ همان $A$ است.</p>
+
+<div class="boxb">
+    <p class="MsoSemi"><mark>قضیه:</mark></p>
+    
+    <p class="MsoNormal">یک چهار ضلعی محیطی است اگر و فقط اگر مجموع اندازه‌های دو ضلع مقابل، برابر مجموع اندازه‌های دو ضلع دیگر باشد.</p>
+</div>
+<br>
+
+<p class="MsoNormal">اساس اثبات بر این است که اگر از نقطه‌ای بیرون دایره دو مماس بر دایره رسم کنیم دو پاره خط مماس هم اندازه‌اند.</p>
+
+
+<br><br>
+<div class="MsoSemi" style="font-size: larger;">اثبات</div>
+<p class="MsoNormal">
+۱- اگر چهارضلعی ABCD محاطی باشد، <br>
+$$
+AB+CD=AM+...+PC+...=AQ+...+CN+...=AD+BC
+$$ 
+عکس این قضیه نیز با برهان خلف ثابت می‌شود.
+</p>
+<br><br>
+<p class="MsoNormal">
+    ۲- فرض کنید: $AB+CD=BC+AD$ . <br>
+    نیمسازهای زاویه‌های $B$ و $C$ همدیگر را در نقطه‌ای مانند $A$ قطع می‌کنند. با توجه به ویژگی نیمساز، چرا نقطه $A$ از سه ضلع $AB$ و $BC$ و $AB$ به یک فاصله است؟ $(IM=IN=IP)$
+    
+    <br><br>
+    چرا دایره‌ای به مرکز $I$ و شعاع $IM$ بر $AB$ و $BC$ و $CD$ مماس است؟ حال اگر این دایره بر $AD$ مماس نباشد، حکم ثابت شده است.
+    </p>
+    <br>
+    <p class="MsoNormal">
+    اما اگر این دایره بر $AD$ مماس نباشد از $A$ یک مماسی رسم می‌کنیم تا خط $CD$ را در نقطه‌ای مانند $A$ قطع کند. در این صورت $E$ بین $P$ و $D$ با $D$ و $P$ واقع می‌شود. <br>
+    پس $AD=DE+AE$. از این رابطه با استفاده از فرض رابطه $AD=DE+AE$ نتیجه می‌گیریم؟
+    </p>
+    <br>
+    <p class="MsoNormal">
+    این رابطه امکان ندارد؛ (چرا؟) پس $E$ همان $D$ است و دایره بر ضلع $AD$ نیز مماس است.
+    </p>
+    <br><hr><br>
+    
+<div class="MsoStep">کاردرکلاس</div>
+
+<p class="MsoNormal">جدول زیر را کامل کنید.</p>
+<br>
+<table class="table" style="text-align: center; margin:auto; width:fit-content; direction:rtl;">
+
+    <tr>
+        <th style="background-color:#36084d4a;">$\quad$</th>
+        <th>محاطی</th>
+        <th>محیطی</th>
+    </tr>
+
+    <tr>
+        <th>مربع</th>
+        <td> $\quad$ $ \checkmark $ $\quad$ </td>
+        <td>$\quad$ $ \checkmark $ $\quad$ </td>
+    </tr>
+    <tr>
+        <th>مستطیل</th>
+        <td> $\quad$ ... $\quad$ </td>
+        <td> $\quad$ ... $\quad$ </td>
+    </tr>
+    <tr>
+        <th>لوزی</th>
+        <td> $\quad$ ... $\quad$ </td>
+        <td> $\quad$ ... $\quad$ </td>
+    </tr>
+    <tr>
+        <th>ذوزنقه</th>
+        <td> $\quad$ ... $\quad$ </td>
+        <td> $\quad$ ... $\quad$ </td>
+    </tr>
+    <tr>
+        <th>متوازی‌الاضلاع</th>
+        <td> $\quad$ ... $\quad$ </td>
+        <td> $\quad$ ... $\quad$ </td>
+    </tr>
+    <tr>
+        <th>ذوزنقه</th>
+        <td> $\quad$ ... $\quad$ </td>
+        <td> $\quad$ ... $\quad$ </td>
+    </tr>
+    <tr>
+        <th>متساوی‌الساقین</th>
+        <td> $\quad$ ... $\quad$ </td>
+        <td> $\quad$ ... $\quad$ </td>
+    </tr>
+    <tr>
+        <th>کایت</th>
+        <td> $\quad$ ... $\quad$ </td>
+        <td> $\quad$ ... $\quad$ </td>
+    </tr>
+</table>
+    
+<br><br>
+
+
+
+<p class="MsoNormal">
+دیگر چندضلعی‌های محاطی و محیطی٬ چندضلعی‌های منتظم است.
+</p>
+<br>
+<div class="boxg">
+    <p class="MsoNormal">
+    یک چند ضلعی محدب را منتظم می‌نامند، هرگاه تمام ضلع‌های آن هم‌اندازه و تمام زاویه‌های آن نیز هم‌اندازه باشند.
+    </p>
+</div>
+<br>
+<p class="MsoNormal">
+مثلث متساوی‌الاضلاع سه ضلعی منتظم و مربع چهارضلعی منتظم است.
+</p>
+
+
+<br><br>
+
+
+
+<p class="MsoNormal">در فعالیت زیر نشان می‌دهیم هر چندضلعی منتظم، هم محاطی و هم محیطی است:</p>
+
+
+
+
+<br><hr><br>
+
+
+<div class="MsoStep">فعالیت</div>
+
+<p class="MsoNormal">
+    فرض کنید اندازه هر زاویه یک $n$ ضلعی منتظم $ABCD ...$ برابر $2\alpha$ باشد؛ عمود منصف‌های دو ضلع $AB$ و $BC$ را رسم می‌کنیم. فرض کنیم در $O$ متقاطع‌اند. بنابراین $OA= \ \ . . . \ \ =OC$ <br><br>
+    پس $\Delta OAB \cong \Delta OBC$ چرا؟  $\overset{\frown}{OAB} = \overset{\frown}{OBA} = \overset{\frown}{OBC} = \overset{\frown}{OCB} = \alpha$ <br><br>
+    اکنون از $D$ به $O$ وصل می‌کنیم. چرا اندازه $\overset{\frown}{OCD}$ برابر $\alpha$ است؟ چرا $\Delta OCD \cong \Delta OCB$ و $OA=OB=OC=OD$؟
+</p>
+<br><br>
+<p class="MsoNormal">
+    با ادامه این روند داریم:
+    <br>
+    $OA=OB=OC=OD=  \ \  ...$ و $OH=ON=OM= \ \ ...$ <br>
+    بنابراین، $O$ از همه رأس‌ها به یک فاصله است؛ پس مرکز دایره‌ای است که از تمام رأس‌های $n$ ضلعی منتظم می‌گذرد. <br>
+    به همین ترتیب $O$ از تمام ضلع‌ها به یک فاصله است؛ پس مرکز دایره‌ای است که بر تمام ضلع‌های $n$ ضلعی منتظم مماس است.
+</p>
+
+
+<br><hr><br>
+
+    <div class="MsoStep">تمرین</div>
+    
+    <p class="MsoNormal">
+    ۱- ثابت کنید یک ذوزنقه، محاطی است، اگر و تنها اگر متساوی‌الساقین باشد.
+    </p>
+    <br><br>
+    <p class="MsoNormal">
+    ۲- مساحت مثلث متساوی‌الاضلاع را به‌دست آورید که در دایره‌ای به شعاع $R$ محاط شده باشد.
+    </p>
+    <br><br>
+    <p class="MsoNormal">
+    ۳- ثابت کنید عمود منصف یک ضلع هر مثلث و نیمساز زاویه مقابل به آن ضلع، یکدیگر را روی دایرهٔ محیطی مثلث قطع می‌کنند.
+    </p>
+    <br><br>
+    <p class="MsoNormal">
+    ۴- یک ذوزنقه، هم محاطی است و هم محیطی. ثابت کنید مساحت این ذوزنقه برابر است با میانگین حسابی دو قاعده، آن ضرب در میانگین هندسی آنها.
+    </p>
+    <br><br>
+    <p class="MsoNormal">
+    ۵- اگر $r_a$, $r_b$, و $r_c$ شعاع‌های سه دایره محاطی خارجی مثلث و $r$ شعاع دایره محاطی داخلی باشد، نشان دهید: <br>
+    $$\dfrac{1}{r_a} + \dfrac{1}{r_b} + \dfrac{1}{r_c} = \dfrac{1}{r}$$
+    </p>
+    <br><br>
+
+    <p class="MsoNormal">
+        به همین ترتیب اگر $h_a$, $h_b$ و $h_c$ اندازه‌های سه ارتفاع باشند، نشان دهید:
+        </p>
+        
+        <p class="MsoNormal" style="text-align: center;">
+        $$\frac{1}{h_a} + \frac{1}{h_b} + \frac{1}{h_c} = \frac{1}{r}$$
+        </p>
+        <br><br>
+        <p class="MsoNormal">
+        ۶- اگر نقاط تماس دایره محاطی داخلی مثلث $ABC$ با اضلاع آن $N$, $M$ و $K$ باشند و $T$ و $T'$ نقاط‌های تماس یک دایره محاطی خارجی با خط‌های شامل دو ضلع باشند، نشان دهید:
+        </p>
+        <br>
+        <p class="MsoNormal" style="text-align: left;">
+        $AM = AN = P - a$ <br>
+        $BN = BK = P - b$, $CM = CK = P - c$ <br>
+        $AT = AT' = P$
+        </p>
+        <br><br>
+        <p class="MsoNormal">
+        ۷- یک دایره به شعاع $r$ و $n$ ضلعی‌های منتظم محاطی و محیطی در آن در نظر بگیرید. نشان دهید اگر $AB$ و $CD$ اندازه‌های ضلع‌های $n$ ضلعی‌های منتظم محاطی و محیطی باشند، آن‌گاه:
+        </p>
+        <br>
+        <p class="MsoNormal" style="text-align: center;">
+        $AB = 2r \tan \dfrac{180^0}{n}$ و $CD = 2r \sin \dfrac{180^0}{n}$
+        </p>
+        <br><br>
+        <p class="MsoNormal">
+        ۸- دو قطر عمود بر هم $AC$ و $BD$ از یک دایره را رسم می‌کنیم؛ چهارضلعی $ABCD$ یک مربع است؛ چرا؟ عمود منصف‌های ضلع‌های این مربع را رسم کنید تا دایره را قطع کنند. نشان دهید هشت ضلعی $AMBQCPDN$ منتظم است.
+        </p>
+        
+
+        <br><br>
+
+
+
+
+        
+
+
+
+
+<br><br><br><br><br>
+
+
+    </body>
+
+
+</html>

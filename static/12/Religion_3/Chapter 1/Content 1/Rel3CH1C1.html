@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #badaff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .box {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+    <body class="custom-scrollbar">
+        <p class="MsoBold">
+            بخش اول:
+                تفکّر و اندیشه
+                </p>
+                <hr><br>
+                
+                <p class="MsoNormal">اندیشه مانند بذری است که در ذهن جوانه می‌زند، در دل و قلب ریشه می‌دواند و برگ و بار آن به‌صورت اعمال ظاهر می‌گردد.<br>
+                اندیشه، بهار جوانی را پرطراوت و زیبا می‌سازد، استعدادها را شکوفا می‌کند و امید به آینده‌ای زیباتر را نوید می‌بخشد. علاوه بر آن می‌تواند برترین عبادت‌ها باشد. پیامبر اکرم می‌فرماید:<br>
+                
+                <br>
+                «اَفَضَلُ العِبادَةِ اِدمانُ التَّفَکُّرِ فِی اللّهِٰ وَ فی قُدرَتِهِ»</p>
+                <br>
+                <p class="MsoNormal">برترین عبادت، اندیشیدن مداوم دربارهٔ خدا و قدرت اوست.</p>
+                <br><br>
+                <p class="MsoNormal">این بخش از کتاب به همین عبادت پرداخته است: اندیشه دربارهٔ خدا.</p>
+      
+      <br>
+      <hr>
+                <p class="MsoBold">درس اول: هستی‌بخش</p>
+      
+                  <p class="MsoNormal">آیا تاکنون برایتان پیش آمده است که در فضایی آرام نشسته و به دور از هیجان و هیاهوی زندگی دربارهٔ این جهان پرجنب‌وجوش تفکر کرده باشید؟ تفکر دربارهٔ جهان دوردست؛ یعنی آسمان بیکران با کهکشان‌ها، منظومه‌ها، خورشید و سیارگان؛ و تفکر دربارهٔ همین جهان نزدیک، یعنی زمین با جنگل‌ها، دریاها، بیابان‌ها، جانوران، گیاهان و گل‌های زیبایش. آیا هرگز دربارهٔ آغاز و پایان این هستی پهناور فکر کرده‌اید؟ به راستی این میلیاردها میلیارد کهکشان و ستاره و سیاره، با میلیاردها موجود متنوع از کجا آمده‌اند؟ موجودات جهان، هستی خود را وامدار چه کسی هستند؟</p>
+      
+                  <br><hr><br>
+                  <p class="MsoStep">نیازمندی جهان به خدا در پیدایش</p>
+      
+                  <p class="MsoNormal">هر کدام از ما، براساس فطرت خویش، خدا را می‌یابیم و حضورش را درک می‌کنیم. به روشنی می‌دانیم در جهانی زندگی می‌کنیم که آفریننده‌ای حکیم آن را هدایت و پشتیبانی می‌کند و به موجودات مدد می‌رساند. با وجود این شناخت اولیه، قرآن کریم ما را به معرفت عمیق‌تر دربارهٔ خداوند فرا می‌خواند و راه‌های گوناگونی را برای درک وجود او و نیز شناخت صفات و افعال او به ما نشان می‌دهد. یکی از این راه‌ها، تفکر دربارهٔ نیازمند بودن جهان، در پیدایش خود، به آفریننده است. بیان این راه به شرح زیر است:</p><br><br>
+      
+                  <p class="MsoNormal">$*$ اگر به خود نظر کنیم، خود را پدیده‌ای می‌یابیم که وجود و هستی‌مان از خودمان نیست. در اشیای پیرامون نیز که بیندیشیم، آن‌ها را همین‌گونه می‌بینیم؛ حیوانات، گیاهان، جمادات، زمین، ستاره‌ها و کهکشان‌ها، همه را پدیده‌هایی می‌یابیم که وجودشان از خودشان نبوده و نیست.</p><br><br>
+      
+                  <p class="MsoNormal">$*$ پدیده‌ها، که وجودشان از خودشان نیست، برای موجود شدن نیازمند به پدیدآورنده‌ای هستند که خودش پدیده نباشد، بلکه وجودش از خودش باشد؛ همان‌طور که چیزهایی که شیرین نیستند، برای شیرین شدن نیازمند به چیزی هستند که خودش شیرین باشد. عبدالرحمان جامی این معنا را در دو بیت چنین بیان می‌کند:</p><br><br>
+      
+                  <p class="MsoNormal">ذات نایافته از هستی‌بخش<br>
+                  چون تواند که بود هستی‌بخش<br>
+                  خشک ابری که بود ز آب تهی<br>
+                  ناید از وی صفت آب‌دهی</p><br><br>
+      
+                  <p class="MsoNormal">آری، در آفرینش نیز، یک موجود فقط در صورتی در وجود خود نیازمند به دیگری نیست که خودش ذاتاً موجود باشد. در این صورت، چنین چیزی دیگر پدیده نیست و نیاز به پدیدآورنده نخواهد داشت؛ همواره بوده است و همواره خواهد بود.</p><br><br>
+      
+                  <p class="MsoNormal"> با توجه به دو مقدمهٔ فوق می‌توانیم نتیجه بگیریم که ما و همهٔ پدیده‌های جهان، در پدید آمدن و هست شدنِ خود به آفریننده‌ای نیازمندیم که خودش پدیده نباشد و سرچشمه هستی باشد. این وجود برتر و متعالی «خدا» نامیده می‌شود.</p><br><br>
+      
+                  <br><hr><br>
+                  <p class="MsoStep">تفکر در متن</p>
+      
+                  <p class="MsoNormal">توضیحات صفحه قبل را به‌صورت یک استدلال، به‌طور خلاصه بنویسید.<br>
+                  مقدمه اول: ما و این جهان .................................................<br>
+                  مقدمه دوم: موجوداتی که ..................................................<br>
+                  نتیجه: ...............................................................</p><br>
+      
+      
+      
+      
+                      <br><hr><br>
+                  <p class="MsoStep">پاسخ سؤالات شما (1)</p>
+                  <p class="MsoNormal">برخی می‌پرسند: چرا موجودات این جهان باید به آفریننده نیاز داشته باشند اما خود آفریننده به خالق نیاز نداشته باشد؟!</p><br><br>
+      
+                  <p class="MsoNormal">در پاسخ می‌گوییم: اگر با دقت بیشتر استدلال بیان شده در صفحه قبل را مرور کنیم، متوجه می‌شویم که جایی برای طرح این سؤال باقی نمی‌ماند. آن استدلال نمی‌گوید که «هر موجودی» به آفریننده نیاز دارد. بلی، اگر کسی این را بگوید، باید نتیجه بگیرد که خدا هم به آفریننده نیازمند است. نتیجهٔ چنین حرفی این است که هیچ چیزی وجود پیدا نکند، زیرا هر موجودی را که ما فرض کنیم، باید قبل از آن موجودی باشد تا آن را پدید آورد و این سلسله تا بی‌نهایت پیش خواهد رفت و هیچ‌گاه، هیچ موجودی پدید نخواهد آمد.</p><br><br>
+      
+                  <p class="MsoNormal">به عنوان مثال، در ساختار ساعت، ممکن است ده‌ها چرخ‌دنده وجود داشته باشد که هر یک باعث حرکت دیگری می‌شود. چرخ‌دندهٔ اول، چرخ‌دندهٔ دوم را می‌چرخاند و چرخ‌دندهٔ دوم چرخ‌دندهٔ سوم را و... . اگر به حرکت این چرخ‌دنده‌ها دقت کنید متوجه خواهید شد که موتور درون ساعت علت اصلی حرکت این چرخ‌دنده‌هاست که آن موتور برای حرکت خودش، نیاز به هیچ چرخ‌دنده‌ای ندارد. حال فرض کنید تعداد این چرخ‌دنده‌ها بی‌نهایت است و همگی در حال چرخیدن هستند. آیا امکان دارد که زنجیره این چرخ‌دنده‌ها به هیچ موتوری که حرکت‌دهندهٔ چرخ‌دنده‌ها باشد، نرسد؟ چنین چیزی غیرممکن است؛ یعنی امکان ندارد که بی‌نهایت چرخ‌دنده در حال چرخیدن باشند ولی هیچ محرک (موتور) مستقل و بی‌نیازی سبب ایجاد حرکت در آن‌ها نباشد. این همان مفهوم «تسلسل علت‌ها» است، یعنی اینکه سلسلهٔ علت و معلول‌ها تا بی‌نهایت ادامه یابد و به علتی نخستین ختم نشود، و این مطلب از نظر عقلی محال است.</p><br><br>
+      
+                  <p class="MsoNormal">با توجه به این نکته، عقل انسان نمی‌گوید که هر موجودی به آفریننده نیاز دارد، همان‌طور که نمی‌گوید تمام چیزهای شیرین، حتی شکر و قند، نیازمند به یک شیرین‌کننده هستند، بلکه ذهن ما اگر موجودی را ببیند که قبلاً نبوده و بعد پدید آمده، در اینجا می‌گوید «پدیده» نمی‌تواند خود به خود پدید آید و حتماً آفریننده‌ای آن را پدید آورده است.</p><br><br>
+      
+                  <p class="MsoNormal">همان‌طور که ذهن ما نمی‌پذیرد که یک پدیده بدون پدیدآورنده باشد همان‌طور هم، برعکس، نمی‌پذیرد وجودی که ذاتاً موجود است نیازی به پدیدآورنده داشته باشد.</p>
+      
+                  <br><hr><br>
+                  <p class="MsoStep">نیازمندی جهان به خدا در بقا</p>
+      
+                  <p class="MsoNormal">شما حتماً نام مسجد گوهرشاد را که در جوار حرم مطهر امام رضا (ع) است، شنیده‌اید. شاید بارها آن را دیده و در آن نماز خوانده‌اید. این مسجد یکی از شاهکارهای هنر ایرانی بازمانده از دورهٔ تیموریان است و جاذبهٔ زیادی برای گردشگران و زائران دارد. این مسجد باشکوه همچنان باقی است، اما از معمار و بنا و کارگرانی که آن را با عشق و هنر بنا کرده‌اند خبری نیست. آیا رابطهٔ خدا با جهان نیز مانند رابطهٔ بنا با مسجد است؟</p><br><br>
+      
+                  <p class="MsoNormal">اگر اندکی دقت کنیم، درمی‌یابیم که یک تفاوت بنیادین میان این دو رابطه وجود دارد. مسجد گوهرشاد از مصالح ساختمانی مانند خاک و سنگ و گچ و چوب و کاشی و... تشکیل شده که هیچ‌کدام از آن‌ها را بنا به وجود نیاورده است. هر یک از این مصالح نیز خواصی دارند که بنا آن را ایجاد نمی‌کند. بنا نه چسبندگی گچ را ایجاد می‌کند و نه سختی و استحکام سنگ را؛ به عبارت دیگر بنا نه اجزای ساختمان را پدید آورده و نه خواص آن اجزا را. کار بنا فقط جابه‌جا کردن مواد و چینش آن‌ها است. اما خداوند، خالق سنگ و گچ و چوب، و خواص آن‌ها و حتی خالق خود بنا است. بر این اساس وجود بنا و نیز وجود مصالح و خواص آن‌ها، همه وابسته به خداست و خداوند هر لحظه اراده کند، آن‌ها از بین می‌روند و ساختمان متلاشی می‌گردد. به همین جهت، جهان همواره و در هر «آن» به خداوند نیازمند است و این نیاز هیچ‌گاه قطع یا کم نمی‌شود.</p><br><br>
+      
+                  <p class="MsoNormal">به عنوان مثال می‌توان گفت که رابطهٔ خداوند با جهان، تا حدی شبیه رابطهٔ مولد برق با جریان برق است؛ همین که مولد متوقف شود جریان برق هم قطع می‌گردد و لامپ‌های متصل به آن نیز خاموش می‌شوند. بنابراین، مسجد با ساخته شدن، از بنا بی‌نیاز می‌شود اما موجودات چنین نیستند و پس از پیدایش نیز همچنان، مانند لحظهٔ نخست خلق شدن، به خداوند نیازمند هستند. از این رو دائماً با زبان حال، به پیشگاه الهی عرض نیاز می‌کنند.</p><br><br>
+      
+                  <p class="MsoNormal">زبان حال موجودات را مولوی این گونه بیان می‌کند:</p><br>
+      
+                  <p class="MsoNormal">
+                     ما چو ناییم و نوا در ما ز توست<br>
+                    ما چو کوهیم و صدا در ما ز توست<br>
+                    
+                 ما که باشیم ای تو ما را جان جان<br>
+                    تا که ما باشیم با تو در میان <br>
+                    
+                  ما عدم‌هاییم و هستی‌های ما<br>
+                  تو وجود مطلقی، فانی‌ نما<br>
+                  
+                  
+                  ما همه شیران ولی شیر عَلَم<br>
+                  حمل مان از باد باشد دم به دم</p><br>
+      
+                  <br><hr><br>
+      
+                  <p class="MsoStep">تدّبر در قرآن</p>
+
+                  <p class="MsoNormal">در آیات زیر تدبّر کنید و به سؤالات پاسخ دهید.</p><br>
+
+
+<p class="MsoNormal">یَا أَیُّهَا النَّاسُ<br>
+                  أَنتُمُ الْفُقَرَاءُ إِلَى اللَّهِ وَاللَّهُ هُوَ الْغَنِيُّ الْحَمِيدُ<br>
+                  ٣ــ سوره فاطر، آیه ١٥<br>
+                  يَسْأَلُهُ مَنْ فِي السَّمَاوَاتِ وَالْأَرْضِ</p><br>
+                  
+                  <p class="MsoNormal">ای مردم، شما به خداوند نیازمند هستید و خدا است که [تنها] بی‌نیاز ستوده است.<br>
+                  هر آنچه در آسمان‌ها و زمین است، پیوسته از او درخواست می‌کند. او همواره دست اندرکار امری است.</p><br>
+                  
+                  
+                  
+                  <br><hr><br><p class="MsoStep">پرسش‌ها:</p>
+                  <p class="MsoNormal">1ــ فکر می‌کنید چرا موجودات پیوسته از خداوند درخواست دارند؟</p>
+                  <p class="MsoNormal">2ــ نیاز انسان به خدا شامل چه چیزهایی می‌شود؟</p>
+                  <p class="MsoNormal">3ــ منظور از اینکه خداوند هر لحظه دست اندرکار امری است، چیست؟</p>
+                  
+                  <br><hr><br><p class="MsoStep">آگاهی، سرچشمۀ بندگی</p>
+                  
+                  <p class="MsoNormal">انسان‌های ناآگاه نسبت به نیاز دائمی انسان به خداوند، بی‌توجه‌اند؛ اما انسان‌های آگاه دائماً سایهٔ لطف و رحمت خدا را احساس می‌کنند و خود را نیازمند عنایات پیوستهٔ او می‌دانند. هرچه معرفت انسان به خود و رابطه‌اش با خدا بیشتر شود، نیاز به او را بیشتر احساس و ناتوانی و بندگی خود را بیشتر ابراز می‌کند.</p><br>
+                  
+                  <p class="MsoNormal">افزایش خودشناسی ← درک بیشتر فقر و نیاز ← افزایش بندگی</p><br>
+                  
+               
+                  
+                  <p class="MsoNormal">برای همین است که پیامبر گرامی ما، با آن مقام و منزلت خود در پیشگاه الهی، عاجزانه از خداوند می‌خواهد که برای یک لحظه هم، لطف و رحمت خاصش را از او نگیرد و او را به حال خود واگذار نکند:</p><br>
+                  
+                  <p class="MsoNormal">«اللّهُمَّ لا تَکِلني إِلى نَفسي طَرْفَةَ عَینٍ أَبَداً؛ خدایا هیچ‌گاه مرا چشم به هم زدنی به خودم وامگذار.»</p><br>
+                  
+                  <br><hr><br><p class="MsoStep">نور هستی</p>
+                  
+                  <p class="MsoNormal">قرآن کریم، رابطهٔ میان خداوند و جهان هستی را با کلمه‌ای بیان می‌کند که در نظر اول برای ما شگفت‌انگیز می‌نماید. اما پس از تفکر دقیق به معنای آن پی می‌بریم؛ قرآن کریم می‌فرماید:</p><br>
+                  
+                  <p class="MsoNormal">«اللّهُ نورُ السّماواتِ وَ الارضِ...»<br>
+                  خداوند نور آسمان‌ها و زمین است...</p><br>
+                  
+                  <p class="MsoNormal">ما با نور خورشید، نور لامپ و انواع نورهای دیگر آشنا هستیم و می‌دانیم که خداوند از نورهایی نیست که از اجسام ناشی می‌شوند، یعنی منشأ مادی دارند. پس، نور بودن خداوند به چه معناست؟</p><br>
+                  
+                  <p class="MsoNormal">نور آن چیزی است که خودش پیدا و آشکار است و سبب پیدایی و آشکار شدن چیزهای دیگر نیز می‌شود. نورهای معمولی هم این خاصیت را دارند که خودشان آشکارند و سبب آشکار شدن اشیای دیگر هم می‌شوند. خداوند نور هستی است، یعنی تمام موجودات، «وجود» خود را از او می‌گیرند، به سبب او پیدا و آشکار شده و پا به عرصهٔ هستی می‌گذارند و وجودشان به وجود او وابسته است.</p><br>
+                  
+                  <p class="MsoNormal">به همین جهت، هر چیزی در این جهان، بیانگر وجود خالق و آیه‌ای از آیات الهی محسوب می‌شود. در واقع، هر موجودی در حد خودش تجلی خداوند و نشانگر حکمت، قدرت، رحمت و سایر صفات الهی است. از همین رو آنان که به دقت و اندیشه در جهان هستی می‌نگرند، در هر چیزی خدا را مشاهده می‌کنند و علم و قدرت او را می‌بینند.</p><br>
+                  
+                  <p class="MsoNormal">
+                    دلی کز معرفت نور و صفا دید <br>
+                    به هر چیزی که دید، اول خدا دید <br><br>
+
+و به تعبیر باباطاهر: <br>
+
+                    
+                  «به دریا بنگرم دریا تو بینم<br>
+                  به صحرا بنگرم صحرا تو بینم<br>
+                  به هر جا بنگرم کوه و در و دشت<br>
+                  نشان از قامت رعنای تو بینم»</p><br>
+
+
+
+                  
+              <br>
+                  
+                  <br><hr><br><p class="MsoStep">تفکّر در حدیث</p>
+                  
+                  <p class="MsoNormal">امیرالمؤمنین امام علی (ع) می‌فرماید:<br><br>
+
+                    
+                  «ما رَأَیتُ شَیئًا إِلّا وَ رَأَیتُ اللّهَ قَبلَهُ وَ بَعدَهُ وَ مَعَهُ»<br>
+                    هیچ چیزی را ندیدم مگر اینگه خداوند را قبل و بعد و با آن آدم دیدم <br><br>
+                  مقصود امام علی (ع) از اینکه می‌فرماید قبل و بعد و همراه هر چیزی خدا را دیدم چیست؟</p><br><hr><br>
+                  
+                  <p class="MsoNormal">اینکه انسان بتواند با هر چیزی خدا را ببیند، معرفتی عمیق و والاست که در نگاه نخست مشکل به نظر می‌آید، اما هدفی قابل دسترس است، به‌خصوص برای جوانان و نوجوانان که پاکی و صفای قلب دارند. اگر قدم پیش گذاریم و با عزم و تصمیم قوی حرکت کنیم، به یقین خداوند نیز کمک خواهد کرد و لذت چنین معرفتی را به ما خواهد چشاند.</p><br>
+                  
+                  <br><hr><br><p class="MsoStep">ناتوانی در شناخت ذات و چیستی خداوند</p>
+                  
+                  <p class="MsoNormal">اکنون ممکن است برای شما این سؤال پیش آید که آیا می‌توان به ذات خداوند پی برد و چیستی او را مشخص کرد؟</p><br>
+                  
+                  <p class="MsoNormal">در پاسخ می‌گوییم: موضوعاتی که می‌خواهیم دربارهٔ آن‌ها شناخت پیدا کنیم، دو دسته‌اند:</p><br>
+                  
+                  <p class="MsoNormal">دستهٔ اول موضوعاتی هستند که در محدودهٔ شناخت ما قرار می‌گیرند، مانند گیاهان، حیوان‌ها، ستارگان و کهکشان‌ها؛ حتی کهکشان‌های بسیار دور هم ممکن است روزی شناسایی شوند و انسان بتواند به ماهیت و ذات آن‌ها دست یابد. در حقیقت، ذهن ما توان و گنجایش فهم چیستی و ذات چنین موضوعاتی را دارد، زیرا همهٔ آن‌ها اموری محدود هستند.</p><br>
+                  
+                  <p class="MsoNormal">دستهٔ دوم موضوعاتی هستند که نامحدودند و ذهن ما گنجایش درک آن‌ها را ندارد؛ زیرا لازمهٔ شناخت هر چیزی احاطه و دسترسی به آن است. در واقع، ما به دلیل محدود بودن ذهن خود نمی‌توانیم ذات امور نامحدود را تصور کنیم و چگونگی وجودشان را دریابیم. خداوند حقیقتی نامحدود دارد؛ در نتیجه، ذهن ما نمی‌تواند به حقیقت او احاطه پیدا کند و ذاتش را شناسایی نماید.</p><br>
+                  
+                  <p class="MsoNormal">بنابراین، با اینکه ما به وجود خداوند به عنوان آفریدگار جهان پی می‌بریم و صفات او را می‌توانیم بشناسیم، اما نمی‌توانیم ذات و چیستی او را دریابیم؛ از همین رو پیامبر اکرم فرموده است:</p><br>
+                  
+                  <p class="MsoNormal">«تَفَکَّرُوا فِی کُلِّ شَیءٍ وَ لا تَفَکَّرُوا فِی ذاتِ اللّهِ»<br>
+                  در همه چیز تفکر کنید ولی در ذات خداوند تفکر نکنید.</p><br>
+                  
+                  <br><hr><br><p class="MsoStep">دانش تکمیلی</p>
+                  
+                  <p class="MsoNormal">اگر می‌خواهید در موارد زیر اطلاعات بیشتری به دست آورید، به وبگاه گروه قرآن و معارف اسلامی دفتر تألیف کتاب‌های درسی عمومی و متوسطهٔ نظری به آدرس زیر مراجعه کنید:</p><br>
+                
+                  <p class="MsoNormal" style="text-align: center; color:#559890">
+                    http://quran-dept.talif.sch.ir
+                  </p>
+                  <br>
+                  <p class="MsoNormal">
+                 1ــ آشنایی با دلایلی دربارهٔ وجود خداوند<br>
+                    2ــ پاسخ به این پرسش که: آیا نظریهٔ تکامل داروین و یا نظریهٔ بیگ بنگ می‌تواند به مباحث خداشناسی لطمه‌ای بزند؟
+                  <br>
+                </p>
+                  <br><hr><br><p class="MsoStep">پاسخ سؤالات شما (2)</p>
+                  
+                  <p class="MsoNormal">چگونه می‌توان خدا را دید؟</p><br>
+                  
+                  <p class="MsoNormal">رؤیت خداوند با چشم غیرممکن است، زیرا چشم ساختار مادی و جسمانی دارد و فقط از اشیا می‌تواند عکسبرداری کند؛ آن هم اشیایی که طیف نوری قابل درک برای چشم را منعکس کنند؛ مثلاً چشم ما نورهای مادون قرمز و ماورای بنفش را نمی‌بیند. بنابراین، چشم حتی توانایی دیدن همهٔ اشیای مادی را هم ندارد، چه برسد به موجودات غیرمادی (مانند فرشتگان) و از این بالاتر به وجود مقدس خداوند که هیچ شکل و تصویری و هیچ طول و عرض و ارتفاعی ندارد. بنابراین، خداوند را نه تنها در این دنیا نمی‌توان با چشم مادی دید، بلکه در آخرت نیز نمی‌توان او را با این چشم مشاهده کرد.</p><br>
+                  
+                  <p class="MsoNormal">اما نوعی از دیدن وجود دارد که نه تنها امکان‌پذیر است، بلکه از برترین هدف‌های زندگی است و هر کس باید برای رسیدن به چنین دیدنی تلاش کند. این مرتبه، دیدن به وسیلهٔ «قلب» و ملاقات با خداست.</p><br>
+                  
+                  <p class="MsoNormal">«دوست نزدیک‌تر از من به من است<br>
+                  و این عجب‌تر که من از وی دورم<br>
+                  چه کنم با که توان گفت که دوست<br>
+                  در کنار من و من مهجورم»</p><br>
+                  
+                  <br><hr><br><p class="MsoStep">اندیشه و تحقیق</p>
+                  
+                  <p class="MsoNormal">با وجود شباهت‌های ظاهری رابطهٔ خدا و جهان با رابطهٔ ساعت‌ساز و ساعت، تفاوت‌های این دو رابطه را بنویسید.</p><br>
+                  
+
+<br><br><br><br><br>
+
+
+
+
+
+
+
+    </body>
+
+
+</html>

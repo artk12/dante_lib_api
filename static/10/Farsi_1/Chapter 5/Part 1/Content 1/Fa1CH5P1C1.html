@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #badaff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #722a85;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background-color: #1abbbbe1; /* Scrollbar thumb color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color: #05ffe2;
+        }
+    </style>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+<body class="custom-scrollbar">
+
+
+
+    <div class="MsoBold">
+        گونه شناسی
+    </div>
+    
+    
+    <div class="MsoStep">
+        ادبیات انقلاب اسلامی
+    </div>
+ 
+    
+    <div class="MsoNormal">
+        مقصود از «ادبیات انقلاب اسلامی»، سروده‌ها و نوشته‌هایی هستند که از سال 1357 تاکنون آفریده شده‌اند و درونمایۀ آنها از فرهنگ اسلامی، قیام امام حسین، اندیشه‌های امام خمینی و فضای فرهنگی، معنوی و شور و نشاط انقلابی جامعه، تأثیر پذیرفته است. اینگونه آثار، تصویری از تحوّلات فکری فرهنگی جامعۀ معاصر را به‌دست می‌دهند.
+    </div>
+    <br>
+    
+    <div class="MsoNormal">
+        نمونه‌های شعر و نثری که در این فصل می‌خوانیم، فضای فرهنگی، اجتماعی، سیاسی و منش انقلابی جامعۀ ایران پس از انقلاب اسلامی را وصف می‌کنند.
+    </div>
+
+
+    <br><hr>
+    
+    <div class="MsoBold">
+        درس دهم : دریادلان صف‌شکن
+    </div>
+
+    
+    <div class="MsoNormal">
+        غروب روز بیستم بهمن 1364 - حاشیۀ اروندرود
+    </div>
+    <br>
+    
+    <div class="MsoNormal">
+        غروب نزدیک می‌شود و تو گویی تقدیر تاریخ ِ زمین در حاشیۀ اروندرود جاری می‌گردد و مگر به‌راستی جز این است؟ تاریخ، مشیّت باریتعالی است که از طریق انسان‌ها به انجام می‌رسد و تاریخ فردای کرۀ زمین به وسیلۀ این جوانان تحقق می‌یابد؛ همین بچه‌هایی که اکنون در حاشیۀ اروندرود گرد آمده‌اند و با اشتیاق منتظر شب هستند تا به قلب دشمن بتازند.
+    </div>
+    <br>
+    
+    <div class="MsoNormal">
+        بچه‌ها، آماده و مسلح، با کوله‌پشتی و پتو و جلیقه‌های نجات، در میان نخلستان‌های حاشیۀ اروندرود، آخرین ساعات روز را به سوی پایان خوش انتظار طی می‌کنند. بعضی‌ها وضو می‌گیرند و بعضی دیگر پیشانی‌بندهایی را که رویشان نوشته‌اند «زائران کربلا»، بر پیشانی می‌بندند.
+    </div>
+    <br>
+    
+    <div class="MsoNormal">
+        بعضی دیگر از بچه‌ها گوشۀ خلوتی یافته‌اند و گذشتۀ خویش را با وسواسی قاضی می‌کاوند و سراپای زندگی خویش را محاسبه می‌کنند و وصیت‌نامه می‌نویسند: «حق‌الله را خدا می‌بخشد اما وای از حق‌الناس!» و تو به‌ناگاه دلت می‌لرزد: آیا وصیت‌نامه‌ات را تنظیم کرده‌ای؟
+    </div>
+    <br>
+    
+    <div class="MsoNormal">
+        از یک طرف، بچه‌های مهندسی جهاد، آخرین کارهای مانده را راست‌وریس می‌کنند و از طرف دیگر سکاندارها قایق‌هایشان را می‌شویند و با دقتی عجیب همه چیز را وارسی می‌کنند... راستی تو طرز استفاده از ماسک را بلدی؟ وسایل سنگین راه‌سازی را بار شناورها کرده‌اند تا به محض شکستن خطوط مقدم دشمن، آنها را به آن سوی رودخانۀ اروند حمل کنند.
+    </div>
+    <br>
+    
+    <div class="MsoNormal">
+        بچه‌ها نیز همان بچه‌های صمیمی و بی‌تکلّف و متواضع و ساده‌ای هستند که همیشه در مسجد و نماز جمعه و محل کار تو این‌جا و آن‌جا می‌بینی... اما در اینجا و در این ساعات، همۀ چیزهای معمولی حقیقتی دیگر می‌یابند. تو گویی اشیا گنجینه‌هایی از رازهای شگفت خلقت هستند، اما تو تا به‌حال در نمی‌یافتی.
+    </div>
+    <br>
+    
+    <div class="MsoNormal">
+        در اینجا و در این لحظات، دل‌ها آنچنان صفایی می‌یابند که وصف آن ممکن نیست. آن روستایی جوانی که گندم و برنج و خربزه می‌کاشته است، امشب سربازی است در خدمت ولیّ امر. به‌راستی آیا می‌خواهی سربازان رسول‌الله را بشناسی؟ بیا و ببین آن رزمنده، کشاورز است و این یک طلبه است و آن دیگری در یک مغازۀ گمنام، در یکی از خیابان‌های دورافتادۀ مشهد لبنیات‌فروشی دارد.
+    </div>
+    <br>
+    
+    <div class="MsoNormal">
+        به‌راستی آن چیست که همۀ ما را در اینجا، در این نخلستان‌ها گردآورده است؟ تو خود جواب را می‌دانی: عشق.
+    </div>
+    <br>
+    
+    <div class="MsoNormal">
+        اینجا سوله‌ای است که گردان عبدالله آخرین لحظات قبل از شروع عملیات را در آن می‌گذرانند. اینها که یکدیگر را در آغوش گرفته‌اند و اشک می‌ریزند، دریادلان صف‌شکنی هستند که دل شیطان را از رعب و وحشت می‌لرزانند و در برابر قوة الهی آنان هیچ قدرتی یارای ایستایی ندارد. 
+    </div>
+    <br>
+    
+    <div class="MsoNormal">
+        ساعتی بیش به شروع حمله نمانده است و اینجا آیینۀ تجلّی همۀ تاریخ است. چه می‌جویی؟ عشق؟ همینجاست. چه می‌جویی؟ انسان؟ اینجاست. همۀ تاریخ اینجا حاضر است؛ بدر و حنین و عاشورا اینجاست.
+    </div>
+    <br>
+    
+    <div class="MsoNormal">
+        صبح روز بیست و یکم بهمن ماه کنارۀ اروند
+    </div>
+    <br>
+    
+    <div class="MsoNormal">
+        هنوز فضا از نم باران آکنده است، اما آفتاب فتح در آسمان سینۀ مؤمنین درخششی عجیب دارد. دیشب در همان ساعات اولیه عملیات، خطوط دفاعی دشمن یکسره فروریخت. پیش از همه غواص‌ها در سکوت شب، بعد از خواندن دعای فرج و توسل به حضرت زهرای مرضیه، به آب زدند و خط را گشودند و آنگاه خیل قایق‌ها و شناورها به آن سوی اروند روان شدند. 
+    </div>
+    <br>
+    
+    <div class="MsoNormal">
+        صف طویل رزمندگان تازه نفس، با آرامش و اطمینانی که حاصل ایمان است، وسعت جبهۀ فتح را به سوی فتوحات آینده طی می‌کنند و خود را به خط مقدم می‌رسانند. گاه به گاه گروهی از خط‌شکن‌ها را می‌بینی که فاتحانه، اما با همان تواضع و سادگی همیشگی، بی‌غرور، بعد از شبی پرحادثه بازمی‌گردند. و به راستی چقدر شگفت‌آور است که انسان در متن عظیم‌ترین تحولات تاریخ جهان و در میان سردمداران این تحول زندگی کند و از نسیان و غفلت، هرگز درنیابد که در کجا و در چه زمانی زیست می‌کند.
+    </div>
+    <br>
+    
+    <div class="MsoNormal">
+        آنها با اشتیاق از بین گل‌ولایی که حاصل جزر و مد آب «خور» است، خود را به قایق‌ها می‌رسانند و ساحل را به سوی جبهه‌های فتح ترک می‌کنند. طلبۀ جوانی با یک بلندگوی دستی، همچون وجدان جمع، فضای نفوس را با یاد خدا معطر می‌کند و دائم از بچه‌ها صلوات می‌گیرد. 
+    </div>
+    <br>
+    
+    <div class="MsoNormal">
+        دشمن در برابر این جنود خدا، متکی به ماشین پیچیدۀ جنگ است. از همان نخستین ساعات فتح، هواپیماهای دشمن در پی تلافی شکست برمی‌آیند؛ حال آنکه در معرکۀ قلوب مجاهدان خدا، آرامشی که حاصل ایمان است، حکومت دارد. 
+    </div>
+    <br>
+    
+    <div class="MsoNormal">
+        دشمن حیرتزده است که چگونه ممکن است کسی از مرگ نهراسد؟! کجا از مرگ می‌هراسد آن کس که به جاودانگی روح خویش در جوار رحمت حق آگاه است؟ 
+    </div>
+    <br>
+    
+    <div class="MsoNormal">
+        و این‌چنین اگر یک دست تو نیز هدیه راه خدا شود، باز هم با آن دست دیگری که باقی است، به جبهه‌ها می‌شتابی. وقتی اسوه تو آن تمثیل وفاداری، عباس بن علی باشد، چه باک اگر هر دو دست تو نیز هدیه راه خدا شود؟
+    </div>
+    <br>
+    
+    <div class="MsoNormal">
+        اینها که نوشته‌ام، وصف حال رزمنده‌ای است که با یک دست و یک آستین خالی، در کنار «خور» ایستاده است. تفنگ دوربین‌دارش نشان می‌دهد که تک‌تیرانداز است و آن آستین خالیاش، که با باد این‌سو و آن‌سو می‌شود، نشانۀ مردانگی است و اینکه او به عهدی که با ابوالفضل بسته، وفادار است. 
+    </div>
+    <br>
+    
+    <div class="MsoNormal">
+        چیست آن عهد؟ «مبادا امام را تنها بگذاری!» 
+    </div>
+    <br>
+    
+    <div class="MsoNormal">
+        در خط، درگیری با دشمن ادامه دارد. دشمن، بردۀ ماشین است و تو ماشین را در خدمت ایمان کشیده‌ای. در زیر آن آتش شدید، بولدوزر جهاد خاکریز می‌زند. بر کوهی از آهن نشسته است و کوهی از خاک را جابه‌جا می‌کند و معنای خاکریز هم آنگاه تفهیم می‌شود که در میان یک دشت باز گرفتار آتش دشمن باشی. 
+    </div>
+    <br>
+    
+    <div class="MsoNormal">
+        یک رزمندۀ روستایی فریمانی در میان خاک نشسته است و با یک بیل‌دستی برای خود سنگری می‌سازد. آنها چه اُنسی با خاک گرفته‌اند و خاک، مظهر فقر مخلوق در برابر غنای خالق است. 
+    </div>
+    <br>
+    
+    <div class="MsoNormal">
+        معنای آنکه در نماز پیشانی بر خاک می‌گذاری، همین است و تا با خاک اُنس نگیری، راهی به مراتب قرب نداری. برو به آنها سلام کن؛ دستشان را بفشار و بر شانۀ پهنشان بوسه بزن. 
+    </div>
+    <br>
+    
+    <div class="MsoNormal">
+        آنها مجاهدان راه خدا و عَلَمداران آن تحول عظیمی هستند که انسان امروز را از بنیان تغییر می‌دهد. آنها تاریخ آیندۀ بشریت را می‌سازند و آیندۀ بشریت، آیندۀ الهی است.
+    </div>
+    <br>
+    
+    <div class="MsoNormal">
+        مرتضی آوینی، به نقل از مجلۀ ادبیات داستانی
+    </div>
+    
+<br><hr><br>
+
+        <div class="MsoBold">کارگاه متن پژوهی</div>
+        <br>
+
+    
+
+        <div class="MsoStep">قلمرو زبانی</div>
+        <br>
+
+        <div class="MsoNormal">
+            1. پنج گروه کلمۀ مهم املایی از متن درس بیابید و بنویسید.
+        </div>
+        <br><br>
+
+        <div class="MsoNormal">
+            2. مترادف واژه‌های زیر را از متن درس بیابید.
+        </div>
+        <br>
+
+        <div class="MsoNormal">
+            فراموشی (...................................) <br>
+            بی‌ریا و صمیمی (...................................)
+        </div>
+        <br>
+        <br>
+        <div class="MsoNormal">
+            3. به جمله‌های زیر توجّه کنید.
+        </div>
+        <br>
+
+        <div class="MsoNormal">
+            الف) خطوط دفاعی دشمن یکسره فروریخت. <br>
+            ب) آنها تاریخ آیندۀ بشریت را می‌سازند و آیندۀ بشریت، آیندۀ الهی است. <br>
+            پ) اینها دریادلان صف‌شکنی هستند که دل شیطان را از رعب و وحشت می‌لرزانند.
+        </div>
+        <br>
+    
+        <div class="MsoNormal">
+            به جملۀ «الف» که یک فعل دارد، «ساده» می‌گویند. در نمونۀ دوم، دو جمله به کمک حرف پیوند «و» در کنار هم قرار گرفته‌اند؛ «و» مهم‌ترین و پرکاربردترین پیوند همپایه‌ساز در زبان فارسی است. 
+        </div>
+        <br>
+
+        <div class="MsoNormal">
+            بدین معنا که اگر میان دو جمله بیاید، آنها را در یک ویژگی، «همپایه» می‌سازد؛ مثل کارکرد آن در نمونۀ «ب»؛ همان‌طور که می‌بینید «و» دو جملۀ ساده را به‌هم پیوند داده و آنها را از نظر مستقل بودن، همپایه قرار داده است. 
+        </div>
+        <br>
+
+        <div class="MsoNormal">
+            پیوندهای همپایه‌ساز عبارت‌اند از «و، اما، ولی، یا، ...». جملۀ «پ»، شامل دو جمله است که از نظر معنایی به یکدیگر وابسته‌اند؛ به‌طوری که یکی از جمله‌ها بدون دیگری ناقص است؛ به همین دلیل جملۀ «پ» را جملۀ «مرکب» می‌نامیم. حرف «که» پیوند وابسته‌ساز است و جملۀ دوم را به جملۀ وابسته تبدیل کرده است.
+        </div>
+        <br>
+
+        <div class="MsoNormal">
+            جملۀ مرکب، معمولاً از یک جملۀ پایه (هسته) و یک یا چند جملۀ پیرو (وابسته) تشکیل می‌شود. بخش‌هایی که پیوند وابسته‌ساز دارند، «پایه» است.
+        </div>
+        <br>
+
+        <div class="MsoNormal">
+            پیوندهای وابسته‌ساز عبارت‌اند از: «که، تا، چون، اگر، زیرا، به‌طوری‌که، هنگامی‌که و ...». 
+        </div>
+        <br>
+
+        <div class="MsoNormal">
+            جملۀ «پ» را از این دید بررسی می‌کنیم:
+        </div>
+        <br>
+
+        <div class="MsoNormal">
+            ـ جملۀ پایه یا هسته: اینها دریادلان صف‌شکنی هستند
+        </div>
+        <br>
+
+        <div class="MsoNormal">
+            ـ جملۀ پیرو یا وابسته:
+           
+            
+            $
+            ( \frac{ \text{که} }{ \text{پیوند‌وابسته‌ساز} } )
+            $
+
+          
+             دل شیطان را از رعب یا وحشت می‌لرزانند. پیوند وابسته‌ساز
+        </div>
+        <br>
+
+        <div class="MsoNormal">
+            حال از متن درس برای هریک از انواع جمله، نمونه‌ای بیابید و بنویسید.
+        </div>
+        <br><hr><br>
+
+        <div class="MsoStep">قلمرو ادبی</div>
+        <br>
+
+        <div class="MsoNormal">
+            1. هر قسمت مشخص‌شده، دربردارندۀ کدام آرایۀ ادبی است؟
+        </div>
+        <br>
+
+        <div class="MsoNormal">
+            حسرت نبرم به خواب آن مرداب <br>
+            کآرام درون دشت شب خفته است
+        </div>
+        <br>
+        <br>
+        <div class="MsoNormal">
+            2. در عبارت زیر، ارکان هر تشبیه را مشخص کنید.
+        </div>
+        <br>
+
+        <div class="MsoNormal">
+            «آفتاب فتح در آسمان سینۀ مؤمنین درخششی عجیب دارد.»
+        </div>
+        <br><hr><br>
+
+        <div class="MsoStep">قلمرو فکری</div>
+        <br>
+
+        <div class="MsoNormal">
+            1. نویسنده در کدام جمله، از مفهوم آیۀ «أَلا بِذِکرِ اللَّهِ تَطمَئِنُّ القُلُوب» (سورۀ رعد، آیۀ 28) بهره گرفته است؟
+        </div>
+        <br>
+        <br>
+        <div class="MsoNormal">
+            2. دربارۀ ارتباط محتوایی متن «دریادلان صف‌شکن» و این سرودۀ شفیعی کدکنی توضیح دهید.
+        </div>
+        <br>
+
+        <div class="MsoNormal">
+            حسرت نبرم به خواب آن مرداب <br>
+            کآرام درون دشت شب خفته است <br>
+            دریایم و نیست باکم از طوفان <br>
+            دریا همه عمر خوابش آشفته است
+        </div>
+        <br>
+        <br>
+        <div class="MsoNormal">
+            3. چرا نویسنده معتقد است که «همۀ تاریخ اینجا (جبهه) حاضر است؛ بدر و حنین و عاشورا اینجاست.»؟
+        </div>
+        <br><hr>
+        <div class="MsoBold">گنــج حکمــت</div>
+
+        <div class="MsoStep">یک گام، فراتر</div>
+     
+
+        
+      
+
+        <div class="MsoNormal">
+            شیخ یک بار به طوس رسید. مردمان از شیخ استدعای مجلس کردند. اجابت کرد. بامداد در خانقاه، تخت بنهادند. مردم می‌آمدند و می‌نشستند. چون شیخ بیرون آمد، مقریان، قرآن برخواندند و مردم بسیار درآمدند؛ چنان‌که هیچ‌جا نبود. معرّف بر پای خاست و گفت: «خدایش بیامرزاد که هرکسی از آنجا که هست، یک گام، فراتر آید.» 
+        </div>
+        <br>
+
+        <div class="MsoNormal">
+            شیخ گفت: «وَصَلَّى اللهُ عَلى مُحَمَّدٍ و آلِه أَجْمَعین» و دست به‌روی فرو آورد و گفت: «هرچه ما خواستیم گفت، و همه پیغمبران بگفته‌اند، او بگفت که از آنچه هستید، یک قدم فراتر آیید.» کلمه‌ای نگفت و از تخت فروآمد و بر این ختم کرد مجلس را.
+        </div>
+        <br>
+
+        <div class="MsoNormal">اسرارالتوحید، محمدبن منور</div>
+
+
+    
+</body>
+
+
+</html>

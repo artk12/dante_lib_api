@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal ,
+        ul.MsoNormal {
+            margin: 0in;
+           
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi , b{
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #badaff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .MsoPapDefault {
+           
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #722a85;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background-color: #1abbbbe1; /* Scrollbar thumb color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color: #05ffe2;
+        }
+    </style>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+ 
+</head>
+
+
+
+<body class="custom-scrollbar">
+
+
+
+
+    <p class="MsoStep">
+        ۲-۴ قانون القای الکترومغناطیسی فاراده
+        </p>
+        <p class="MsoNormal">
+        پیش از این دیدیم که به دلایلی مانند تغییر میدان مغناطیسی در محل یک پیچه، تغییر مساحت پیچه در حضور میدان مغناطیسی، یا چرخش پیچه درون میدان مغناطیسی، جریان الکتریکی در آن القا می‌شود. عامل اساسی و مشترک در ایجاد جریان القایی در همهٔ این آزمایش‌ها، <b>تغییر شار مغناطیسی</b> عبوری از پیچه است.
+        </p>
+        
+
+        <p class="MsoNormal">
+            شار مغناطیسی، کمیتی نرده‌ای است و برای میدان مغناطیسی یکنواخت $\overrightarrow{B}$ که از پیچه‌ای با مساحت معین $A$ می‌گذرد به صورت زیر تعریف می‌شود:
+            </p>
+
+            <br><hr><br>
+            </p>
+            <p class="MsoSemi" style="text-align: center;">
+            (۱-۴)
+            $$\Phi = B A \cos \theta$$
+            </p>
+            <br><hr><br>
+
+
+
+
+            <p class="MsoNormal">
+            همان‌طور که در شکل ۴-۴ دیده می‌شود: $\theta$ زاویهٔ بین بردار میدان مغناطیسی و نیم خط عمود بر سطح حلقه است (این نیم خط را به طور خط چین روی شکل نشان داده‌ایم).
+            </p>
+            
+
+            <br>
+
+
+        <p class="MsoNormal">
+        یکای SI شار مغناطیسی، وبر $(Wb)$ است که با توجه به رابطهٔ
+        4-1
+        داریم:
+        </p>
+        <p class="MsoNormal" style="text-align: center;">
+        $$ 1 \, Wb = 1 \, T \times 1 \, m^2 $$
+        </p>
+
+        <br>
+
+        <p class="MsoNormal">
+            <b>توجه:</b> همواره دو جهت برای رسم نیم‌خط عمود بر یک سطح معین وجود دارد. علامت شار مغناطیسی عبوری از این سطح نیز به انتخاب این جهت بستگی دارد. برای مثال، در شکل ۴-۴، نیم‌خط عمود را در طرفی از سطح رسم کرده‌ایم که زاویهٔ بین آن و جهت میدان $\overrightarrow{B}$ کمتر از $90^{\circ}$ است و در نتیجه شار عبوری از سطح مثبت می‌شود. اگر نیم‌خط عمود را در طرف دیگر سطح انتخاب کنیم، در این صورت، زاویهٔ آن با جهت میدان $\overrightarrow{B}$ بیشتر از $90^{\circ}$ خواهد شد و شار عبوری از سطح منفی می‌شود. هر دو انتخاب به یک اندازه مفیدند، ولی در حل یک مسئله، همواره باید یکی را انتخاب کنیم و تا پایان آن را تغییر ندهیم.
+            </p>
+            
+
+
+            <br><hr><br>
+
+
+
+            <p class="MsoStep">مثال
+             4-1
+            </p>
+
+            <p class="MsoNormal">
+            الف) مطابق شکل الف، سطح حلقۀ رسانا، به شکل مربع با ضلع $20 \, cm$، عمود بر میدان مغناطیسی یکنواختی به بزرگی $250 \, G$ قرار دارد. شار عبوری از این حلقه را به‌دست آورید.
+            </p>
+
+            <br>
+
+            <p class="MsoNormal">
+            ب) اگر حلقه را بچرخانیم، به طوری که سطح حلقه موازی با خط‌های میدان مغناطیسی شود، شار مغناطیسی عبوری از آن چقدر می‌شود؟
+            </p>
+
+            <br>
+
+            <p class="MsoNormal">
+            پ) تغییر شار مغناطیسی عبوری از حلقه را وقتی از موقعیت شکل الف به موقعیت شکل ب می‌چرخد به‌دست آورید.
+            </p>
+
+            <br>
+
+        <p class="MsoNormal">
+        ت) اگر این تغییر شار مغناطیسی در بازۀ زمانی $\Delta t = 0/01 \, s$ رخ داده باشد، آهنگ تغییر شار $(\Delta \Phi / \Delta t)$ را پیدا کنید.
+        </p>
+        <br>
+        <p class="MsoSemi">
+            پاسخ:
+        </p>
+
+        <p class="MsoNormal">
+            الف) وقتی مطابق شکل الف، سطح حلقه عمود بر خط‌های میدان مغناطیسی قرار می‌گیرد، زاویۀ بین میدان $\overrightarrow{B}$ و نیم‌خط عمود بر سطح حلقه برابر صفر می‌شود. به این ترتیب، شار عبوری از سطح حلقه برابر است با:
+            </p>
+            
+        <p class="MsoNormal">
+            $$
+            \begin{align*}
+            A &= 0/2 \, m \times 0/2 \, m  = 0/04 \, m^2 \\\\
+            B &= 250 \, G = 2/50 \times 10^{-2} \, T \\\\
+            \theta &= 0^{\circ}
+            \end{align*}
+            $$
+            </p>
+            
+
+ <hr style="background-color: #D6D1DA15; width: 60%;">
+
+
+
+        <p class="MsoNormal">
+            $$
+            \begin{align*}
+            \Phi &= B A \cos \theta \\\\
+            &= (2/50 \times 10^{-2} \, T)(0/04 \, m^2)(\cos 0^{\circ}) \\\\
+            &= 1 \times 10^{-3} \, Wb   \\\\
+            &= 1 \, mWb  \\\\
+            \end{align*}
+            $$
+            </p>
+            
+
+            <br>
+
+
+        <p class="MsoNormal">
+            ب) وقتی مطابق شکل ب، حلقه می‌چرخد و سطح آن موازی با خط‌های میدان مغناطیسی قرار می‌گیرد، زاویه بین میدان 
+            $\vec{B}$
+             و نیم‌خط عمود بر سطح حلقه برابر با 
+             $90^{\circ}$
+              می‌شود. از آنجا که 
+            $\cos 90^{\circ} = 0$
+            است، در این شرایط، هیچ شار‌ی از سطح حلقه عبور نمی‌کند.
+            </p>
+            
+
+            <br>
+
+    <p class="MsoNormal">
+        پ) همان‌طور که دیدید شار عبوری از سطح حلقه در وضعیت شکل الف و وضعیت شکل ب، به‌ترتیب، برابر با $\Phi_1 = 1 \, mWb$ و $\Phi_2 = 0$ است. به این ترتیب، تغییر شار عبوری از سطح حلقه برابر با:  
+        $$\Delta \Phi = \Phi_2 - \Phi_1 = -1 \, mWb$$  
+        علامت منفی نشان می‌دهد در حین چرخش حلقه از وضعیت شکل الف به وضعیت شکل ب، شار مغناطیسی عبوری از سطح آن کاهش یافته است.
+        </p>
+      
+        <br>
+
+    <p class="MsoNormal">
+        ت) با توجه به نتیجهٔ قسمت پ، آهنگ تغییر شار $(\Delta \Phi / \Delta t)$ برابر است با:  
+        $$
+        \frac{\Delta \Phi}{\Delta t} = \frac{-1 \times 10^{-3} \, Wb}{0/01 \, s} = -0/1 \, Wb/s
+        $$
+        </p>
+            
+        <br><hr><br>
+
+
+    <p class="MsoStep">تمرین
+      4-1
+        </p>
+    <p class="MsoNormal">
+    الف) حلقه‌ای به مساحت 
+    $25 \, cm^2$
+     درون میدان مغناطیسی یکنواخت درون سویی به اندازهٔ 
+    $0/03 \, T$
+     قرار دارد (شکل الف). 
+    شار مغناطیسی عبوری از حلقه را به دست آورید.
+    </p>
+
+    <br>
+
+    <p class="MsoNormal">
+        ب) اگر مطابق شکل ب و بدون تغییر 
+        $\vec{B}$
+        ، مساحت سطح حلقه را به 
+        $10 \, cm^2$
+         برسانیم، شار مغناطیسی عبوری از حلقه را در این وضعیت به دست آورید.
+        </p>
+        
+
+        <br>
+
+
+    <p class="MsoNormal">
+        پ) اگر این تغییر شار در بازهٔ زمانی 
+        $ \Delta t = 0/2 \, s $
+            رخ داده باشد، آهنگ تغییر شار $ (\Delta \Phi / \Delta t) $ را پیدا کنید.
+        </p>
+                
+
+
+        <br><hr><br>
+
+
+    <p class="MsoStep">
+        پرسش
+        4-1
+            </p>
+    <p class="MsoNormal">
+        کدام یک از یکاهای زیر معادل یکای وبر بر ثانیه $(Wb/s)$ است؟
+    </p>
+    
+     <ul class="MsoNormal">
+        
+        <p>
+            $ {\Box}  \quad  V/A  $
+        </p>
+        <p>
+            $ {\Box}  \quad  V  $
+        </p>
+        <p>
+            $ {\Box}  \quad  A  $
+        </p>
+        <p>
+            $ {\Box}  \quad  \Omega $
+        </p>
+
+     </ul>
+
+
+
+     <br><hr><br>
+
+     <br>
+
+
+     <p class="MsoNormal">
+        اکنون که با تعریف و مفهوم شار مغناطیسی آشنا شدید دوباره نگاهی می‌کنیم به پدیدهٔ القای الکترومغناطیسی که در بخش قبل بررسی کردیم. همان‌طور که گفتیم عامل مشترک در تمامی پدیده‌هایی که منجر به تولید جریان القایی در مدار می‌شود، تغییر شار مغناطیسی عبوری از پیچـه یا سیم‌لوله است. بنابر قانون فاراده، هرگاه شار مغناطیسی‌ای که از مدار بسته‌ای می‌گذرد تغییر کند، نیروی محرکه‌ای در آن القا می‌شود که بزرگی آن با آهنگ تغییر شار مغناطیسی متناسب است؛ یعنی هرچه آهنگ تغییر شار مغناطیسی بیشتر باشد، نیروی محرکهٔ القایی و در نتیجه جریان القایی تولید شده در مدار بیشتر خواهد بود. مثلاً در آزمایش‌های مربوط به شکل‌های 
+        4-1
+        و 
+        4-2
+         و 
+        4-3
+
+         ، هرچه حرکت سریع‌تر انجام شود، عقربهٔ گالوانومتر بیشتر منحرف می‌شود، و این نشان می‌دهد که جریان القایی بزرگ‌تری به‌وجود آمده است.
+        </p>
+
+    <p class="MsoNormal">
+    قانون فاراده برای پیچه‌ای که $N$ دور مشابه تشکیل شده باشد با رابطهٔ زیر بیان می‌شود:
+    </p>
+
+
+    <br><hr><br>
+    <p class="MsoSemi" style="text-align: center;">
+     ( 2-4 )
+    $$
+    \mathcal{E}_{ \ av} = - N \frac{\Delta \Phi}{\Delta t}
+    $$
+    </p>
+    <br><hr><br>
+
+    <p class="MsoNormal">
+        در این رابطه $ \mathcal{E}_{av} $ نیروی محرکه القایی متوسط برحسب ولت و $ \Delta \Phi / \Delta t $ آهنگ تغییر شار مغناطیسی برحسب وبر بر ثانیه $(Wb/s)$ است. اگر مقاومت پیچه یا سیم‌لوله برابر $ R $ باشد، جریان القایی متوسط در آن از رابطهٔ زیر محاسبه می‌شود:
+        </p>
+        
+
+        <br><hr><br>
+        <p class="MsoSemi" style="text-align: center;">
+            ( 3-4 )
+            $$ I_{av} = \frac{\mathcal{E}_{av}}{R} $$
+            </p>
+        <br><hr><br>
+
+
+    <p class="MsoNormal">
+        همان‌طور که از رابطه ۴-۳ دیده می‌شود، هرچه مقاومت پیچـه یا مداری که در آن شـار مغناطیسـی تغییر می‌کند، بیشتر باشد، جریان کوچک‌تری در آن القا می‌شود.
+        </p>
+            
+
+
+        <br><hr><br>
+
+
+
+    <p class="MsoStep">مثال ۴-۲</p>
+    <p class="MsoNormal">
+    پیچـه‌ای شـامل $۲۰۰$ دور که مسـاحت هر حلقـه آن 
+    $۲۵ \ cm^۲$ است، مطابق شکل روبه‌رو بین قطب‌های یک آهنربای الکتریکی قرار گرفته است که میدان مغناطیسی یکنواخت تولید می‌کند. خطـوط میدان بر سطح پیچـه عمـودنـد. اگر انـدازهٔ میـدان در بازهٔ زمانی 
+    $۲/۰ \  ms$
+     از 
+    $۰/۱۲ \  T$
+     به 
+     $۰/۲۲ \ T$
+
+     افزایش یابد،
+    </p>
+
+    <ul class="MsoNormal">
+        <p>
+            الف) نیروی محرکهٔ القایی متوسط ایجاد شده در پیچـه چقـدر است؟
+            </p>
+            <p>
+            ب) اگر مقـاومت پیـچه 
+            $ 10 \ \Omega$
+             باشد، جریان القـایی متوسط که از پیچـه می‌گذرد چقـدر است؟
+            </p>
+            
+    </ul>
+    <br>
+    <p class="MsoNormal">
+        <b>پاسخ:</b>
+        <br>
+         الف) نیم‌خط عمود بر سطح حلقه‌های پیـچه را همسو با $\vec{B}$ می‌گیریم. با توجـه به داده‌های مسئله داریم:
+        </p>
+        <br>
+    <p class="MsoNormal" style="text-align: center;">
+        $$
+        \begin{align}
+         N &= ۲۰۰ \text{ دور}  \quad &     A &= ۲۵ \, cm^۲ \\\\
+         A &= ۲۵ \, cm^۲  \quad  &    \theta &= ۰^\circ \\\\
+         \theta &= ۰^\circ \quad &  \Delta t &= ۲/۰ \, ms \\\\
+         B_۱ &= ۰/۱۸ \, T  \quad &   B_۲ & = ۰/۲۲ \, T \\\\
+        \end{align}
+        $$
+        $
+        \mathcal{E}_{av} = \  ?
+        $
+        </p>
+
+        <br>
+        <hr style="background-color: #D6D1DA15;width: 60%;">
+        <br>
+
+        <p class="MsoNormal">
+            $$
+            \begin{align*}
+            \Phi_۱ &= B_۱ A \cos \theta \\\\
+            &= (۰/۱۸ \, T)(۲/۵ \times ۱۰^{-۳} \, m^۲)(\cos ۰^\circ)  \\\\
+            &= ۴/۵ \times ۱۰^{-۴} \, Wb 
+            
+            \\\\\\
+
+
+            \Phi_۲ &= B_۲ A \cos \theta \\\\
+            &= (۰/۲۲ \, T)(۲/۵ \times ۱۰^{-۳} \, m^۲)(\cos ۰^\circ) \\\\
+            &= ۵/۵ \times ۱۰^{-۴} \, Wb 
+            \end{align*}
+            $$
+            </p>
+            
+
+            <br>
+
+
+            <p class="MsoNormal">
+                به این ترتیب، تغییر شار مغناطیسی برابر است با :
+            </p>
+                
+        <p class="MsoNormal">
+        $$
+        \begin{align}
+        \Delta \Phi &= \Phi_2 - \Phi_1 \\\\
+        &= (5/5 \times 10^{-4} \, Wb) - (4/5 \times 10^{-4} \, Wb) \\\\
+        &= 1/0 \times 10^{-4} \, Wb
+        \end{align}
+        $$
+        </p>
+
+        <br>
+
+        <p class="MsoNormal">
+            با قرار دادن این مقدار و داده‌های بالا در رابطه
+             4-2
+             داریم :
+            </p>
+    
+        <br>
+    <p class="MsoNormal">
+        $$
+        \begin{align}
+        \mathcal{E}_{av} &= -N \frac{\Delta \Phi}{\Delta t} \\\\
+        &= - (۲۰۰) \frac{۱/۰ \times ۱۰^{-۴} \, Wb}{۲/۰ \times ۱۰^{-۳} \, s} \\\\
+        &= -۱۰ \, V 
+        \end{align}
+        $$
+        </p>
+        
+
+        <br>
+
+
+        <p class="MsoNormal">
+            ب) با توجه به رابطهٔ 
+             ۴-۳ 
+            ، جریان القایی متوسط در پیچـه برابر است با:
+            </p>
+            
+<br>
+            <p class="MsoNormal">
+                $$
+                \begin{align*}
+                I_{av} &= \frac{\mathcal{E}_{av}}{R} \\\\
+                &= \frac{-۱۰ \, V}{۱۰ \, \Omega} \\\\
+               & = -۱/۰ \, A
+                \end{align*}
+                $$
+                </p>
+                
+
+            
+                <br><hr><br>
+    
+        <p class="MsoStep">
+        مثال
+        4-3
+        </p>
+        <p class="MsoNormal">
+            تغییرات شار مغناطیسی که از یک حلقه می‌گذرد برحسب زمان در نمودار شکل الف نشان داده شده است. نمودار نیروی محرّکهٔ القایی در حلقه را برحسب زمان در هریک از بازه‌های زمانی 
+            $ (  0  \ , \ 10 \ s ) $
+            و 
+            $ ( 10 \ s \ , \ 30 \ s  ) $
+             و 
+             $ ( 30 \ s \ , \ 40 \ s  ) $
+              رسم کنید.
+            </p>
+
+
+    <p class="MsoNormal">
+        پاسخ: همان‌طور که در نمودار شار مغناطیسی برحسب زمان دیده می‌شود در بازهٔ زمانی صفر تا 
+        $10 \, s$
+         شار به صورت خطی افزایش می‌یابد. در نتیجه مقدار لحظه‌ای آهنگ تغییر شار با مقدار متوسط آن برابر است. به این ترتیب، در تمامی لحظات این بازهٔ زمانی، نیروی محرّکهٔ القایی با نیروی محرّکهٔ القایی متوسط برابر است:
+        </p>
+        
+
+        <br>
+
+        <p class="MsoNormal">
+        $$
+        \begin{align}
+        \mathcal{E}_{av} &= -N \dfrac{\Delta \Phi}{\Delta t}  \\\\
+        &= -(1) \dfrac{(1/0 \times 10^{-3}\,\text{Wb} - 0)}{1\,s}  \\\\
+        &= -1/0 \times 10^{-4}\,\text{V}
+        \end{align}
+        $$
+        </p>
+
+        <br>
+        
+        <p class="MsoNormal">
+            در بازهٔ زمانی 
+            $10 \ s$
+             تا 
+             $30 \ s$
+             شار ثابت مانده است. در نتیجه، نیروی محرّک القایی در تمامی لحظات این بازهٔ زمانی برابر صفر است. در بازهٔ زمانی 
+             $30 \ s$
+              تا 
+              $40 \ s$
+               شار به صورت خطی کاهش یافته و سرانجام صفر شده است. بنابراین شبیه آنچه در مورد بازهٔ زمانی صفر تا 
+               $10 \ s$
+                گفتیم، نیروی محرّک القایی در تمام لحظات این بازه با مقدار متوسط آن برابر است. به این ترتیب، نیروی محرّک القایی در این بازهٔ زمانی برابر و مساوی 
+                $ 1/0 \times 10^{-4}\,\text{V}$ است. نمودار نیروی محرّک القایی برحسب زمان در شکل ب رسم شده است.
+            </p>
+            
+
+
+
+
+
+            <br><hr><br>
+
+
+
+
+            <p class="MsoStep">مثال
+            4-4
+                </p>
+        <p class="MsoNormal">
+        شکل روبه‌رو، رسانای U شکلی را درون میدان مغناطیسی یکنواخت $\vec{B}$ به اندازهٔ $0/18\,T$ نشان می‌دهد. میدان $\vec{B}$ عمود بر صفحهٔ شکل و رو به بیرون است. میله‌ای فلزی (سیم لغزنده) به طول $\ell = 20\,cm$ بین دو بازوی رسانا قرار دارد و مداری را تشکیل می‌دهد. میله را با تندی ثابت $v = 20  \ m/s$ به‌طرف راست حرکت می‌دهیم.
+        بزرگی نیروی محرّک القایی متوسط را پیدا کنید.
+        </p>
+
+        <br>
+        <p class="MsoSemi">
+            پاسخ:
+        </p>
+        <p class="MsoNormal">
+             با حرکت میلهٔ فلزی و به‌دلیل افزایش سطح حلقه، شار مغناطیسی در سطح حلقه یکنواخت است، پس شار مغناطیسی را از رابطهٔ $\Phi = B A \cos \theta$ محاسبه می‌کنیم. نیم‌خط عمود بر سطح حلقه را همسو با $\vec{B}$ می‌گیریم. بنابراین زاویهٔ نیم‌خط عمود با میدان $\vec{B}$ صفر است $(\theta = 0)$ و در نتیجه $\Phi = B A$ . از قانون القای فارادی داریم:
+            </p>
+            
+            <p class="MsoNormal">
+                $$
+                \begin{align}
+                \mathcal{E}_{av} &= -\dfrac{\Delta \Phi}{\Delta t} \\\\
+                &= -\dfrac{\Delta (B A)}{\Delta t} \\\\
+                &= -B \dfrac{\Delta A}{\Delta t}
+                \end{align}
+                $$
+                </p>
+        
+
+
+                <br>
+
+
+        <p class="MsoNormal">
+            برای محاسبۀ $\dfrac{\Delta A}{\Delta t}$، توجه کنید که میلۀ فلزی لغزنده در مدت $\Delta t$ مسافت $v \Delta t$ را طی می‌کند (شکل روبه‌رو) و سطح حلقه به مقدار $\Delta A = \ell v \Delta t$ افزایش می‌یابد. به این ترتیب، نیروی محرکۀ القا‌شده برابر است با:
+            </p>
+            <p class="MsoNormal">
+            $$
+            \begin{align}
+            \mathcal{E}_{av} &= -B \dfrac{\ell v \Delta t}{\Delta t}  \\\\
+            &= -B \ell v
+            \end{align}
+            $$
+            </p>
+            
+            <br>
+            <p class="MsoNormal">
+                با قرار دادن مقادیر داده‌شده، در رابطۀ بالا، داریم:
+                </p>
+            <br>
+
+                <p class="MsoNormal">
+                $$
+                \begin{align}
+                \mathcal{E}_{av} &= -(0/18\, T)(2/0 \times 10^{-2}\, m)(2/0\, m/s)  \\\\
+                &= -0/072\, V
+                \end{align}
+                $$
+                </p>
+                <br>
+                <p class="MsoNormal">
+                و بزرگی آن برابر است با:
+                </p>
+                <br>
+                <p class="MsoNormal">
+                $$
+                \ \big| \ \mathcal{E}_{av} \ \big| \ = 0/72\, V
+                $$
+                </p>
+                
+
+                
+            <br>
+
+
+
+            <p class="MsoNormal">
+                توجه کنید که به علت ثابت بودن تندی میلۀ لغزنده، نیروی محرّکۀ القایی ثابت است. در این حالت، رسانای U شکل با سیم لغزنده یک مولد جریان مستقیم است.
+                </p>
+                
+
+
+        <br><hr><br>
+
+        <p class="MsoStep">تمرین ۴−۲</p>
+        <p class="MsoNormal">
+        میدان مغناطیسی بین قطب‌های آهنربای الکتریکی شکل روبه‌رو که بر سطح حلقه عمود است با زمان تغییر می‌کند و در مدت $۰/۴۵ \ \mathrm{s}$ از $۰/۲۸ \ \mathrm{T}$ رو به بالا به $۰/۱۷ \ \mathrm{T}$ رو به پایین می‌رسد. در این مدت :
+        </p>
+        <ul class="MsoNormal">
+            <p>الف) نیروی محرّکۀ القایی متوسط در حلقه را به‌دست آورید.</p>
+            <p>ب) اگر مقاومت حلقه 
+                $۱۰ \ \Omega$ باشد، جریان القایی متوسط در حلقه را پیدا کنید.</p>
+        </ul>
+        
+
+
+
+        <br><hr><br>
+
+
+
+
+
+        <p class="MsoStep">پرسش ۴−۲</p>
+        <p class="MsoNormal">
+        تندی‌سنج دوچرخه‌های مسابقه‌ای شامل یک آهنربای کوچک و یک پیچۀ است. آهنربا به یکی از پره‌های چرخ جلو و پیچه به دو شاخ فرمان متصل است (شکل زیر). دو سر پیچه با سیم‌های رسانا به نمایشگر تندی‌سنج (که در واقع نوعی رایانۀ کوچک است) وصل شده است. به نظر شما تندی‌سنج دوچرخه چگونه کار می‌کند؟ این موضوع را در گروه خود به گفت‌و‌گو بگذارید و نتیجه را به کلاس درس ارائه دهید.
+        </p>
+        
+
+
+
+
+        <br><hr><br>
+
+
+
+
+
+        <p class="MsoStep">فناوری و کاربرد</p>
+        <p class="MsoSemi">کارت‌های اعتباری و دستگاه‌های کارت‌خوان</p>
+        <p class="MsoNormal">
+        نوار مغناطیسی پشت کارت‌های اعتباری حاوی تعداد بسیار زیادی ذرۀ فرومغناطیسی است که نوعی چسب خاص آنها را به هم متصل می‌کند. داده‌ها را که به‌صورت دودویی، یا صفر و یک به رمز درآورده‌اند، در نوار مغناطیسی پشت کارت ذخیره می‌کنند (شکل الف).
+        </p>
+        <p class="MsoNormal">
+        وقتی کارت اعتباری درون دستگاه کارت‌خوان کشیده می‌شود، میدان مغناطیسی ناشی از نوار مغناطیسی، روی پیچه‌ای قرار داده شده در دستگاه کارت‌خوان اثر می‌گذارد و جریان اندکی را در پیچه القا می‌کند (شکل ب). این جریان بسیار کوچک توسط دستگاه دیگری تقویت و داده‌های ذخیره شده در نوار مغناطیسی پشت کارت، رمزگشایی می‌شود. پس از رمزگشایی داده‌ها، دستور مورد نظر انجام می‌شود.
+        </p>
+        
+
+        <br>
+
+
+        <p class="MsoSemi">سامانهٔ تنظیم حد تندی خودرو</p>
+    <p class="MsoNormal">
+    در بسیاری از خودروهای امروزی، سامانه‌ای وجود دارد که به کمک آن می‌توان تندی خودرو را روی مقدار دلخواهی تنظیم کرد.
+
+    در این وضعیت، بدون آنکه لازم باشد راننده پای خود را روی پدال گاز قرار دهد، خودرو با تندی تعیین شده به حرکتش ادامه می‌دهد.
+
+    اساس کار این سامانه، جریان القایی است. وقتی محور محرک خودرو می‌چرخد آهنربایی که روی آن قرار دارد، شار مغناطیسی متغیری را از پیچه می‌گذراند و جریانی در آن القا می‌کند.
+    </p>
+
+
+    <p class="MsoNormal">
+        ریزپردازنده (مغز رایانه) تعداد تپ‌های جریان را در هر ثانیه می‌شمارد و به این روش، تندی خودرو را اندازه می‌گیرد.
+
+        سپس با مقایسهٔ تندی اندازه‌گیری شده با تندی تنظیم شده توسط راننده، سوخت مورد نیاز را به موتور تزریق می‌کند.
+
+        تا هنگامی که راننده ترمز نگیرد، حرکت خودرو با تندی تعیین شده، توسط این سامانه تنظیم می‌شود.
+        </p>
+        
+
+
+        <br><hr><br>
+
+
+<p class="MsoStep">خوب است بدانید
+</p>
+    <p class="MsoSemi">
+    معاینهٔ مغز با نیروهای محرّکۀ القایی</p>
+<p class="MsoNormal">
+برانگیزش (تحریک) مغناطیسی فراجمجمه‌ای (TMS) روشی برای بررسی عملکرد بخش‌های مختلف مغز است.
+
+در این روش، پیچـه‌ای روی سر شخص بیمار قرار داده می‌شود که جریان الکتریکی متغیّری از آن می‌گذرد و در نتیجه میدان مغناطیسی متغیّری تولید می‌کند.
+
+این میدان متغیّر، سبب ایجاد نیروی محرّکۀ القایی و جریان القایی در ناحیه‌ای از مغز می‌شود که در زیر پیچـه قرار دارد.
+
+پزشک با مشاهدهٔ واکنش مغز (مثلاً اینکه کدام عضله‌ها به علت برانگیزش بخش خاصی از مغز حرکت می‌کنند) می‌تواند شرایط عصب شناختی مختلفی را بیازماید.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+    <br><br><br><br><br><br><br><br><br><br>
+</body>
+
+
+</html>

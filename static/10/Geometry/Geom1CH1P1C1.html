@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi {
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSemic,
+        li.MsoSemic,
+        div.MsoSemic {
+            margin: 0in;
+           
+            font-size: clamp(1.2rem, 1.6vw, 1.3rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #b19af2;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #6ca4ec;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .boxp {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .boxg {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#00f2ff11; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        .boxb {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#0c4e9f2d; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        ::selection {
+            background-color: #59078fa1; /* Change this to your desired highlight color */
+            color: #ffffff; /* Change this to your desired text color */
+          }
+
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+
+    <body class="custom-scrollbar">
+
+
+
+
+        <p class="MsoBold">فصل ۷
+            <br>
+        زمین شناسی ایران</p>
+
+
+        <p class="MsoNormal">
+        ایران، به نظر بسیاری از زمینشناسان جهان که از مناطق مختلف آن بازدید کردهاند، بهشت زمینشناسی است. بهراستی، چه عواملی باعث این تفکر شده است؟ پدیدههای متنوع کمنظیری مانند آتشفشانهای نیمه فعال، گل فشانهای متعدد، کلوتهای وسیع و مرتفع، گنبدهای نمکی و ... در نقاط مختلف ایران یافت میشود که پژوهشگران زیادی را از سراسر جهان به خود علاقهمند کرده است. زمینشناسان از حدود دویست سال پیش تاکنون، پژوهشهای زیادی بر روی مناطق مختلف ایران انجام دادهاند ولی هنوز ناشناختههای بسیاری وجود دارد که توجه پژوهشگران را به خود جلب میکند.
+        </p>
+
+        <br><hr><br>
+
+        <p class="MsoStep">تاریخچه زمین شناسی ایران</p>
+        <p class="MsoNormal">
+        سرزمین ایران، تاریخ تکوین پیچیدهای را پشت سر گذاشته است. بخشهای مختلفی که اکنون ایران زمین را تشکیل میدهند، در دورههای مختلف زمینشناسی، بخشهایی از آن قسمتی از ابرقاره گندوانا و لورازیا بودهاند. تعیین سن سنگهای مناطق مختلف ایران نشان میدهد که در مقایسه با سنگهای قدیمی یافت شده در آمریکای شمالی، آفریقا، هند، سیبری، استرالیا و عربستان جوانتر هستند. قدیمیترین سنگهای کشف شده در ایران بین 600 میلیون تا بیش از 1 میلیارد سال سن دارند.
+        </p>
+        <p class="MsoNormal">
+        حدود 180 میلیون سال پیش تتیس کهن کاملاً بسته و رشته کوه البرز در ایران تشکیل شد. در حدود 65 میلیون سال پیش، ورقهٔ عربستان به ورقهٔ ایران برخورد کرد و اقیانوس تتیس بسته و شکل‌گیری رشته کوه زاگرس آغاز شد و تاکنون ادامه دارد. دریاچه خزر و آرال، از بازمانده‌های این اقیانوس هستند.
+        </p>
+
+        <br>
+
+        <div class="boxg">
+        <p class="MsoStep">تحقیق کنید</p>
+        <p class="MsoNormal">
+        قدیمی ترین سنگ های ایران در کدام مناطق یافت می شوند؟
+        </p>
+    </div>
+    <br><br>
+
+
+        <p class="MsoNormal">
+        حدود 600 میلیون سال پیش، قارهٔ بزرگی به نام پانگه‌آ بر روی کره زمین وجود داشت که از به‌هم پیوستن همهٔ خشکی‌ها به وجود آمده بود. این خشکی بزرگ در اواسط کامبرین، یعنی حدود 500 میلیون سال پیش، بر اثر فرایندهای زمین‌ساختی شروع به باز شدن کرد و اقیانوس تتیس در این زمان تشکیل شد. در اوایل پرمین، یعنی حدود 290 میلیون سال پیش به بیشترین وسعت خود رسید. در آن زمان، ایران مرکزی و البرز، بخشی از خشکی گندوانا بودند. اقیانوس تتیس کهن، طولی بیش از چندین هزار کیلومتر داشت و از استرالیا تا چین، ایران، و اروپای امروزی ادامه می یافت.
+        </p>
+        <br>
+        <p class="MsoNormal">
+        در اوایل پرمین، بر اثر باز شدن قاره گندوانا، تشکیل اقیانوس جدیدی به نام تتیس نوین در بخش جنوبی تتیس کهن، شروع شد. هرچه تتیس نوین بزرگ‌تر می‌شد، تتیس کهن بر اثر فرورانش به سمت جنوب کوچک‌تر می‌شد. پس از آن تتیس نوین به بیشترین وسعت خود رسید. دریای سیاه در شمال ترکیه، بازماندهٔ اقیانوس تتیس کهن است.
+        </p>
+        <br>
+        <p class="MsoNormal">
+        در حدود 100 میلیون سال پیش، با باز شدن اقیانوس هند، آفریقا و شبه‌قاره هند از گندوانا جدا شدند و به سمت شمال حرکت کردند. با این حرکت، اقیانوس تتیس نوین شروع به فرورانش به سمت شمال و به زیر قاره بزرگ شمالی (اوراسیا) کرد.
+        </p>
+
+        <br><hr><br>
+
+        <p class="MsoStep">نقشه‌های زمین‌شناسی</p>
+        <p class="MsoNormal">
+        در نقشه‌های زمین‌شناسی، جنس و پراکندگی سطحی سنگ‌ها، روابط سنی آن‌ها، وضعیت شکستگی‌ها و چین‌خوردگی‌ها و موقعیت کانسارها و ... نمایش داده می‌شوند.
+        </p>
+
+
+        <br><hr><br>
+
+        <p class="MsoStep">پهنه‌های زمین‌شناسی ایران</p>
+        <p class="MsoNormal">
+        مطالعات انجام‌شده توسط زمین‌شناسان، نشان می‌دهند که فرآیندهای زمین‌شناسی متعددی در طول زمان، چهره امروزی سرزمین ایران را به‌وجود آورده است. تحولات زمین‌شناختی ایران در دوره‌های مختلف زمین‌شناسی، پیچیده بوده است. سرزمین ایران، از چندین قطعه مختلف و جدا از هم سنگ‌کره تشکیل شده که هر کدام تاریخچه تکوین متفاوتی دارند. اشتوکلین، از پیشگامان مطالعات نوین زمین‌شناسی در ایران است. او با جمع‌بندی مطالعات و مشاهدات زمین‌شناسی، برای نخستین بار سرزمین ایران را از نظر ساختارهای زمین‌شناسی به چند بخش جداگانه تقسیم‌بندی کرد. این تقسیم‌بندی، مبنایی برای کار پژوهشگران بعدی شد.
+        </p>
+        
+        <div class="MsoNormal">در ادامه، با آگاهی‌های بیشتر از ویژگی‌های زمین‌شناسی ایران، تقسیم‌بندی‌های جامع‌تری ارائه می‌شود.</div>
+        <br> <br>
+        <div class="MsoSemi" style="text-align: center;">مشخصات برخی از پهنه‌های زمین‌ساختی در ایران</div>
+        <br>
+        <table class="tables" style="text-align: right; margin:auto; width:fit-content; direction:rtl">
+            <tr style="text-align: center;" >
+                <th>نام پهنه</th>
+                <th>سنگ‌های اصلی</th>
+                <th>منابع اقتصادی</th>
+                <th>ویژگی‌ها</th>
+              </tr>
+          <tr>
+            <th>زاگرس</th>
+            <td>سنگ‌های رسوبی</td>
+            <td>ذخایر نفت و گاز</td>
+            <td>تاقدیس‌ها و ناودیس‌های متوالی</td>
+          </tr>
+          <tr>
+            <th>سنندج ـ سیرجان</th>
+            <td>سنگ‌های دگرگونی</td>
+            <td>معادنی مانند: سرب و روی ایرانکوه</td>
+            <td>انواع سنگ‌های دگرگونی</td>
+          </tr>
+          <tr>
+            <th>ایران مرکزی</th>
+            <td>سنگ‌های رسوبی آذرین ـ دگرگونی</td>
+            <td>معادنی مانند: آهن چغارت و روی مهدی‌آباد</td>
+            <td>سنگ‌های پرکامبرین تا سنوزوییک</td>
+          </tr>
+          <tr>
+            <th>البرز</th>
+            <td>سنگ‌های رسوبی</td>
+            <td>رگه‌های زغال‌سنگ</td>
+            <td>دارای دو بخش شرقی ـ غربی دارای قله دماوند</td>
+          </tr>
+          <tr>
+            <th>شرق و جنوب شرق ایران</th>
+            <td>سنگ‌های آذرین و رسوبی</td>
+            <td>معادنی مانند: منیزیت ـ مس</td>
+            <td>دشت‌های پهناور، خشک و کم‌آب<br>فرورانش پوسته اقیانوسی دریای عمان به زیر ایران در منطقه مکران</td>
+          </tr>
+          <tr>
+            <th>کپه‌داغ</th>
+            <td>سنگ‌های رسوبی</td>
+            <td>ذخایر عظیم گاز</td>
+            <td>توالی رسوبی منظم</td>
+          </tr>
+          <tr>
+            <th>سهند ـ بزمان (ارومیه ـ دختر)</th>
+            <td>سنگ‌های آذرین</td>
+            <td>ذخایر فلزی</td>
+            <td>فرورانش تتیس نوین به زیر ایران مرکزی</td>
+          </tr>
+        </table>
+        <br>
+        
+
+<div class="boxg">
+    <div class="MsoStep">دانشمندان علوم زمین</div>
+  
+    <div class="MsoNormal">یووان اشتوکلین (Jovan Stocklin) زمین‌شناس سوئیسی و چهره‌ای ماندگار در زمین‌شناسی ایران است که نقش تأثیرگذاری در توسعه علم زمین‌شناسی در ایران داشته است. اشتوکلین، پس از اخذ مدرک دکترای زمین‌شناسی از دانشگاه ETH زوریخ در سوئیس، در سال 1950 میلادی (1329هـ.ش) در قالب همکاری با سازمان ملل متحد، به منظور انجام مطالعات زمین‌شناسی، راه‌اندازی سازمان زمین‌شناسی و اکتشافات معدنی کشور، و تربیت نیروی متخصص زمین‌شناسی به ایران آمد.</div>
+    <br>
+    <div class="MsoNormal">اشتوکلین به مدت 27 سال از عمر خود را در ایران گذراند، به همهٔ نقاط ایران سفر کرد و به مطالعه زمین‌شناسی پرداخت و برای اغلب نقاط با همکاری بسیاری از زمین‌شناسان ایران، نقشه‌های زمین‌شناسی را تهیه و تعداد زیادی از کانسارها و منابع نفت و گاز در خشکی را کشف کرد. وی در زمان اقامت و کار در ایران، با سفر به مناطق بکر و ناشناخته، با کمترین امکانات و با مسافرت در دشت‌ها، کوه‌ها، نمک‌زارها و مناطق خطرناک، مطالعات زمین‌شناسی را انجام داد.</div>
+    <br>
+    <div class="MsoNormal">وی که در کودکی، آرزوی دیدن شتر را در سر داشت، به گفته خودش، به مراد خود رسید و در بیشتر عملیات صحرایی خود در مناطق دشوار کوهستانی و بیابانی، با استفاده از شتر، این مطالعات را در شرایط دشوار آب و هوایی از سرمای کوهستان تا گرمای مناطق کویری با شوق وافر انجام داد.</div>
+    <br>
+    <div class="MsoNormal">اشتوکلین، علاقهٔ بسیاری به ایران داشت، به‌طوری که کمتر فرد خارجی را می‌توان یافت که تا این حد به ایران و ایرانیان عشق ورزیده باشد. در سال 1354، به این نتیجه رسید که وظیفه او در تربیت زمین‌شناسان خبره به انجام رسیده و بنابراین برای خدمت در کشور نپال عازم آنجا شد؛ اما، همچنان علاقه به ایران، در او وجود داشت تا اینکه در سال 1355 بار دیگر برای سرپرستی بخش اکتشاف در سازمان انرژی اتمی ایران، از وی دعوت به کار شد و او با اشتیاق پذیرفت.</div>
+    <br>
+    <div class="MsoNormal">زیرا به گفته وی، فرزندانش، ایران را بیشتر از سوئیس، وطن خود می‌دانستند و به آن علاقه داشتند. پس از پایان این مأموریت، با چشمانی اشکبار عازم سوئیس شد.</div>
+    <br>
+    <div class="MsoNormal">اشتوکلین در سال 2006 میلادی خاطرات زندگی هشتاد و چند ساله‌اش را در یک نوشتار 170 صفحه‌ای به نام «ایران، خاطرات یک زمین‌شناس» تدوین و تنظیم کرد و آن را به چهار فرزندش که در ایران متولد شده‌اند، هدیه کرده است. این کتاب با نام «سرزمین پارس، خاطرات و نوشته‌های یک زمین‌شناس ـ یووان اشتوکلین» به فارسی ترجمه و توسط سازمان زمین‌شناسی و اکتشافات معدنی کشور منتشر شده است.</div>
+    <br>
+    <div class="MsoNormal">یووان اشتوکلین در 15 آوریل 2008 میلادی (27 فروردین 1387هـ.ش) در خانه‌اش در شهر کوچکی در سوئیس، چشم از جهان فروبست. اشتوکلین در بخشی از کتاب خاطرات خود می‌نویسد: «... همسرم الیزابت نیز به ایران علاقه زیادی پیدا کرده بود، سه دخترم تبینا، فرانسیسکا و آنژلا و آخرین فرزند که پسری به نام ژرژ است، همگی در ایران متولد شده‌اند. ایام کودکی و نوجوانی آنها در منزل‌هایی که اجاره کرده بودم در داودیه، دزاشیب و نیاوران سپری شده، آنها همیشه از خاطراتشان می‌گویند.</div>
+    <br>
+    <div class="MsoNormal">از مدرسه‌ای در قلهک که در آنجا درس خوانده‌اند، خانواده‌ها و بچه‌های هم‌کلاسی ایرانی که با آنها دوست شده‌اند. ما همگی با همهٔ گوشه‌های ایران طی بیست و هفت سال اقامت در این کشور آشنا شدیم. ... علی، رانندهٔ سابق و باوفای من در سازمان زمین‌شناسی که چند سال بعد با تأثر شنیدم تنها فرزند پسرش در جنگ با عراق شهید شده، مرا به فرودگاه مهرآباد برد. به هنگام خداحافظی و روبوسی با من گونه‌هایش از اشک خیس شده بود.</div>
+    <br>
+    <div class="MsoNormal">این بار و برای همیشه به‌جای آنکه از غرب به شرق بیایم، از مشرق به مغرب پرواز می‌کردم. در ذهنم زندگی‌نامهٔ نزدیک به سی سال اقامتم در ایران را مرور می‌کردم. آن روزها از سرزمین پارسیان و قوم مهربان و متمدن و باوفای ایرانی هیچ چیز نمی‌دانستم ولی امروز همه گوشه‌های این سرزمین را می‌شناسم. متعجب و حیرتزده هستم. دلم نمی‌خواهد غمزده و دلتنگ از ایران بروم. وقتی هواپیمای سوئیس‌ایر صبحگاه از مرز ایران می‌گذشت و من از پنجره، طلوع آفتاب این روز زمستانی را می‌نگریستم، بی‌اختیار این جملات بر زبانم جاری شد: ایران باور کن دلم نمی‌خواهد از تو خداحافظی کنم. آدیوایران، خداحافظ ایران ....</div>
+    <br>
+
+</div>
+
+<br><hr><br>
+
+<div class="MsoStep">منابع معدنی ایران</div>
+
+<div class="MsoNormal">در فصل ۲ خواندید که منابع معدنی میتواند زیربنای اقتصاد و توسعه کشورها باشد. اگر کشوری، مواد معدنی مورد نیاز خود را نداشته باشد، چه اتفاقی می‌افتد؟ آنها را چگونه تأمین می‌کند؟ آیا می‌دانید ایران از نظر ذخایر معدنی چه جایگاهی در جهان دارد؟ آیا ما تمام مواد معدنی مورد نیاز را در کشور داریم؟</div>
+<br>
+<div class="MsoNormal">ایران، دارای ذخایر معدنی مهم و قابل توجهی است که آن را از بسیاری از کشورهای جهان متمایز می‌کند. فعالیت‌های معدنی در ایران به‌طور گسترده در بیشتر نقاط کشور انجام می‌شود و نقش مهمی در اقتصاد کشور دارد. معدنکاری در ایران، قدمت زیادی داشته به‌طوری که در هر گوشه ایران، آثار معدنکاری قدیمی دیده می‌شود. پیشینیان ما، تجربه بسیار زیادی در اکتشاف و بهره‌برداری از معادن و به‌خصوص ذخایر فلزی مانند مس، آهن، طلا، سرب و روی داشته‌اند؛ استفاده از فلزات از حدود ۸۵۰۰ سال پیش آغاز گردید. نتایج مطالعات پژوهشگران نشان می‌دهد استخراج و استفاده از فلزات برای اولین بار در فلات ایران و فلات آناتولی ترکیه صورت گرفت.</div>
+<br>
+
+<div class="boxg">
+<div class="MsoStep">جمع‌آوری اطلاعات</div>
+<div class="MsoNormal">در مورد سنگ‌های آذرین در رشته‌کوه البرز، اطلاعات جمع‌آوری کنید و به کلاس گزارش دهید.</div>
+
+</div>
+
+
+<br>
+
+<div class="boxg">
+<div class="MsoStep">جمع‌آوری اطلاعات</div>
+<div class="MsoNormal">در مورد معادن استان خود اطلاعاتی جمع‌آوری و در کلاس ارائه کنید.</div>
+
+</div>
+
+
+<br>
+
+<div class="boxg">
+<div class="MsoStep">بیشتر بدانید</div>
+<div class="MsoNormal">ایران با حدود ۰/۲۳ از مساحت کل کره زمین، حدود ۷ درصد ذخایر معدنی جهان را داراست. بیش از ۵۰ ماده معدنی در کشور تولید می‌شود. ایران در برخی مواد معدنی، در جهان رتبه‌های بالایی دارد. مقدار کل ذخایر شناسایی‌شدهٔ قطعی ایران، حدود ۳۷ میلیارد تن برآورد شده است که بخشی از آن در حال استخراج است. در حال حاضر حدود ۵۰۰۰ معدن بزرگ و کوچک فلزی و غیرفلزی در کشور فعال هستند.</div>
+<br>
+<div class="MsoSemi" style="text-align: center;">برخی معادن بزرگ ایران و موقعیت آنها</div>
+<br>
+<table class="tables" style="margin:auto; width:fit-content; text-align:center; direction:rtl;">
+    <tr>
+        <th>عنصر/ ماده معدنی</th>
+        <th>نام معدن</th>
+        <th>استان</th>
+        <th>شهرستان</th>
+    </tr>
+    <tr style="background-color: #79b9be3b;">
+        <td rowspan="3">آهن</td>
+        <td>گل گهر</td>
+        <td>کرمان</td>
+        <td>سیرجان</td>
+    </tr >
+    <tr style="background-color: #79b9be3b;">
+        
+        <td>چغارت، چادرملو، سه چاهون</td>
+        <td>یزد</td>
+        <td>بافق</td>
+    </tr>
+    <tr style="background-color: #79b9be3b;">
+        
+        <td>سنگان</td>
+        <td>خراسان رضوی</td>
+        <td>خواف</td>
+    </tr>
+    <tr>
+        <td rowspan="6">مس</td>
+        <td>سرچشمه</td>
+        <td>کرمان</td>
+        <td>رفسنجان</td>
+    </tr>
+    <tr>
+        
+        <td>میدوک</td>
+        <td>کرمان</td>
+        <td>شهربابک</td>
+    </tr>
+    <tr>
+     
+        <td>سونگون</td>
+        <td>آذربایجان شرقی</td>
+        <td>ورزقان</td>
+    </tr>
+    <tr>
+        
+        <td>تکنار</td>
+        <td>خراسان رضوی</td>
+        <td>کاشمر</td>
+    </tr>
+    <tr>
+        
+        <td>علی آباد و دره زرشک</td>
+        <td>یزد</td>
+        <td>تفت</td>
+    </tr>
+    <tr>
+       
+        <td>قلعه زری</td>
+        <td>خراسان جنوبی</td>
+        <td>بیرجند</td>
+    </tr>
+    <tr style="background-color: #79b9be3b;">
+        <td rowspan="6">سرب و روی</td>
+        <td>انگوران</td>
+        <td>زنجان</td>
+        <td>ماهنشان</td>
+    </tr>
+    <tr style="background-color: #79b9be3b;">
+        
+        <td>مهدی آباد</td>
+        <td>یزد</td>
+        <td>مهریز</td>
+    </tr>
+    <tr style="background-color: #79b9be3b;">
+     
+        <td>سورمه</td>
+        <td>فارس </td>
+        <td>فیروزآباد</td>
+    </tr>
+    <tr style="background-color: #79b9be3b;">
+        
+        <td>ایرانکوه</td>
+        <td>اصفهان </td>
+        <td>اصفهان </td>
+    </tr>
+    <tr style="background-color: #79b9be3b;">
+        
+        <td>عمارت</td>
+        <td>مرکزی</td>
+        <td>شازند</td>
+    </tr>
+    <tr style="background-color: #79b9be3b;">
+       
+        <td>آهنکران</td>
+        <td>همدان</td>
+        <td>ملایر</td>
+    </tr>
+    <tr>
+        <td rowspan="3">کروم</td>
+        <td>اسفندقه</td>
+        <td>کرمان</td>
+        <td>جیرفت</td>
+    </tr>
+    <tr>
+       
+        <td> سبزوار</td>
+        <td>خراسان رضوی</td>
+        <td>سبزوار</td>
+    </tr>
+    <tr>
+       
+        <td>خواجه جمالی</td>
+        <td>فارس </td>
+        <td>نیریز</td>
+    </tr>
+
+    <tr style="background-color: #79b9be3b;">
+        <td rowspan="2">منگنز</td>
+        <td>ونارچ</td>
+        <td>قم</td>
+        <td>قم</td>
+    </tr>
+    <tr style="background-color: #79b9be3b;">
+        
+        <td>میدوک</td>
+        <td>کرمان</td>
+        <td>شهربابک</td>
+    </tr>
+    <tr>
+        <td rowspan="4">طلا</td>
+        <td>موته</td>
+        <td>اصفهان</td>
+        <td>گلپایگان</td>
+    </tr>
+    <tr>
+      
+        <td>زرشوران</td>
+        <td>آذربایجان غربی</td>
+        <td>تکاب</td>
+    </tr>
+    <tr>
+      
+        <td>ساری گونای</td>
+        <td>کردستان</td>
+        <td>قروه</td>
+    </tr>
+    <tr>
+      
+        <td>باریکا</td>
+        <td>آذربایجان غربی</td>
+        <td>سردشت</td>
+    </tr>
+    <tr style="background-color: #79b9be3b;">
+        <td rowspan="2">فیروزه</td>
+        <td>نیشابور</td>
+        <td>خراسان رضوی</td>
+        <td>نیشابور</td>
+    </tr>
+    <tr style="background-color: #79b9be3b;">
+       
+        <td>باغو</td>
+        <td>سمنان</td>
+        <td>دامغان</td>
+    </tr>
+    <tr style="background-color: #79b9be3b;">
+        <td>آمتیست</td>
+        <td>طرود</td>
+        <td>سمنان</td>
+        <td>شاهرود</td>
+    </tr>
+    <tr style="background-color: #79b9be3b;">
+        <td>گارنت</td>
+        <td>اسفندقه</td>
+        <td>کرمان</td>
+        <td>جیرفت</td>
+    </tr>
+  
+</table>
+
+</div>
+
+<br><br>
+
+
+<div class="MsoStep">شما هم میتوانید جستجوگر معدن باشید</div>
+<div class="MsoNormal">مراحل کاوش و یافتن محل تمرکز مواد معدنی بی‌شباهت به روش یافتن یکی از دوستانتان که به دنبال او هستید، نیست. برای پیدا کردن دوست موردنظر ابتدا «محل» او را حدس می‌زنید و در آنجا به دنبال او می‌گردید. در مورد مواد معدنی هم مراحل تقریباً به همین شکل است. با توجه به آنکه هر ماده معدنی در شرایط ویژه‌ای تشکیل می‌شود. بنابراین برای یافتن ماده معدنی خاص، تنها باید مناطقی را مورد جستجو قرار داد که شرایط تشکیل ماده معدنی وجود داشته باشد. به عنوان مثال اگر به دنبال زغال سنگ هستیم، تنها باید قسمت‌هایی از ایران را جستجو کنیم که او ًلا دارای سنگ‌های رسوبی‌اند و ثانیًا در زمانی تشکیل شده‌اند که آب و هوا برای رویش گیاهان مناسب بوده است. شواهد زمین‌شناسی تاریخی نشانگر آن است که طی دوره‌های تریاس و ژوراسیک، شرایط جوی برای تشکیل زغال مناسب بوده است. بنابراین، جستجوی ما درباره زغال سنگ محدود به سنگ‌های این دو دوره خواهد شد. مجموعه شاخص‌هایی را که برای جستجوی مواد معدنی به کار می‌روند، معیارهای جستجو می‌گویند. بسته به نوع ماده معدنی و نحوه تشکیل آن معیارهای متفاوتی وجود دارد که در هر مورد باید معیارهای مناسب را بدین منظور به کار برد. به عنوان مثال به هنگام جستجوی نفت، باید ساختمان‌های زمین‌شناسی را مورد کاوش قرار داد که برای تشکیل نفتگیر، مناسب‌اند. حتی گاهی بررسی گیاهان یک منطقه نیز می‌تواند شما را به فراوانی یک عنصر با ارزش در خاک آن منطقه راهنمایی کند. حال شما هم با جستجو در فضای مجازی، روش‌های دیگری را برای یافتن منابع معدنی، پیدا کنید.</div>
+<br>
+
+<div class="boxg">
+<div class="MsoStep">بیشتر بدانید</div>
+<div class="MsoNormal">ایران یکی از ۱۵ کشور بزرگ معدنی جهان است و رتبه دوم جهان را از نظر ذخایر فلدسپار دارد و برای باریت و ژیپس در رتبه پنجم و از نظر سنگ آهن، در رتبه دهم جهان جای دارد. علاوه بر ذخایر فلزهای اساسی مانند آهن، روی، سرب و مس، ایران دارای ذخایر قابل توجهی نیز از آلومینیم، منگنز، مولیبدن، طلا، کروم و نیز مواد معدنی غیرفلزی مورد استفاده در صنعت مانند باریت، سنگ‌های ساختمانی، کائولن و بنتونیت است.</div>
+</div>
+
+<br><hr><br>
+<div class="MsoStep">ذخایر نفت و گاز ایران</div>
+
+<div class="MsoNormal">حفاری اولین چاه نفت خاورمیانه از سال ۱۲۸۶ هـ. ش در شهر مسجد سلیمان در استان خوزستان در منطقهای به نام میدان نفتون آغاز شد و در ۵ خرداد ۱۲۸۷ هـ. ش به نفت رسید. این چاه ۳۶۰ متر عمق داشت که از آن، روزانه ۳۶۰۰۰ لیتر نفت استخراج می‌شد. این چاه به «چاه شماره یک» معروف است و هم‌اکنون در شهر مسجد سلیمان به‌صورت موزه، تحت نظارت شرکت ملی مناطق نفت خیز جنوب قرار دارد.</div>
+<br>
+<div class="MsoNormal">ذخایر نفت ایران به‌طور عمده در لایه‌های سنگ آهک قرار دارند. برخی از میدان‌های مهم نفت ایران در جدول زیر ارائه شده است. ایران با دارا بودن حدود ۱۰ درصد از نفت جهان، در رده چهارم و از نظر ذخایر گاز، در رده دوم جهان قرار دارد. ذخایر نفت و گاز ایران به‌طور عمده در جنوب و غرب (منطقه زاگرس و خلیج فارس) و در شمال (دریای خزر) قرار دارند. ذخایر گاز خانگیران سرخس در شمال شرق نیز، از ذخایر مهم هیدروکربن در ایران است. بزرگترین میدان نفتی ایران، میدان اهواز است که در رده سومین میدان‌های نفتی جهان قرار دارد.</div>
+<br>
+
+<div class="boxg">
+<div class="MsoStep">فکر کنید</div>
+<div class="MsoNormal">دو دلیل ذکر کنید که چرا عمده ذخایر نفت ایران در منطقه زاگرس است؟</div>
+</div>
+
+<br>
+
+<div class="boxg" style="margin: 0;">
+<div class="MsoStep">بیشتر بدانید</div>
+<div class="MsoSemi" style="text-align: center;">برخی از مشخصات میدان‌های مهم نفتی ایران</div>
+<br>
+<table class="tables" style="width: fit-content;  margin:auto; text-align:center">
+    <tr>
+        <th>تولید روزانه (هزار بشکه)</th>
+        <th>ذخیره قابل برداشت (میلیارد بشکه)</th>
+        <th>ذخیره درجا (میلیارد بشکه)</th>
+        <th>نام میدان</th>
+        <th>رتبه</th>
+    </tr>
+    <tr>
+        <td>750/000</td>
+        <td>37</td>
+        <td>65/5</td>
+        <td>میدان نفتی اهواز</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>480/000</td>
+        <td>23/7</td>
+        <td>52/9</td>
+        <td>میدان نفتی گچساران</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>520/000</td>
+        <td>21/9</td>
+        <td>46/7</td>
+        <td>میدان نفتی مارون</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>40/000</td>
+        <td>5/2</td>
+        <td>33/2</td>
+        <td>میدان نفتی آزادگان</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>300/000</td>
+        <td>17/4</td>
+        <td>30/2</td>
+        <td>میدان نفتی آغاجاری</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>180/000</td>
+        <td>3/44</td>
+        <td>16/5</td>
+        <td>میدان نفتی رگ سفید</td>
+        <td>6</td>
+    </tr>
+    <tr>
+        <td>60/000</td>
+        <td>2/6</td>
+        <td>15/2</td>
+        <td>میدان نفتی آب تیمور</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td>46/000</td>
+        <td>10</td>
+        <td>14/2</td>
+        <td>میدان نفتی سروش</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>237/000</td>
+        <td>5/7</td>
+        <td>11/2</td>
+        <td>میدان نفتی کرنج</td>
+        <td>9</td>
+    </tr>
+    <tr>
+        <td>120/000</td>
+        <td>5/67</td>
+        <td>7/59</td>
+        <td>میدان نفتی بی‌بی‌حکیمه</td>
+        <td>10</td>
+    </tr>
+</table>
+<br>
+<div class="MsoNormal">میدان‌های گاز پارس جنوبی در خلیج فارس و خانگیران در منطقه سرخس، از مهمترین میدان‌های گازی ایران هستند.</div>
+
+
+</div>
+
+<br><hr><br>
+
+<div class="MsoStep">گسل‌های اصلی ایران</div>
+<div class="MsoNormal">پوسته ایران زمین، دارای گسل‌های متعددی است و کمتر جایی از کشور را می‌توان یافت که در آنجا گسلی وجود نداشته باشد. وجود این گسل‌ها، فعالیت پوسته ایران زمین را نشان می‌دهد. تعدادی از گسل‌های ایران، قدیمی و غیرفعال و برخی از گسل‌ها، جوان و لرزه‌خیز هستند که امروزه زمین‌لرزه‌ها، در امتداد آنها رخ می‌دهد.</div>
+<br>
+
+<div class="boxg">
+<div class="MsoStep">جمع‌آوری اطلاعات</div>
+<div class="MsoNormal">در نزدیکی محل سکونت شما کدام گسل/گسل‌ها وجود دارد؟ آیا در سال‌های اخیر این گسل/ گسل‌ها باعث زمین‌لرزه شده است؟</div>
+</div>
+
+<br><hr><br>
+
+
+<div class="MsoStep">آتشفشان‌های ایران</div>
+<div class="MsoNormal">مهم‌ترین کوه‌های آتشفشانی ایران، دماوند، تفتان، بزمان، سهند و سبلان هستند. دماوند، بلندترین قله آتشفشانی ایران، در گذشته فعال بوده و آثار فعالیت‌های آن هنوز به‌صورت خروج گازهای گوگردی در دامنه‌های نزدیک دهانه آتشفشان دیده می‌شود. بیشتر فعالیت‌های آتشفشانی جوان، در دوره کواترنری در ایران، آتشفشان‌هایی هستند که در امتداد نوار ارومیه ـ دختر قرار دارند.</div>
+<br>
+
+<div class="boxg">
+<div class="MsoStep">بیشتر بدانید</div>
+<div class="MsoNormal">دماوند: آتشفشان مخروطی شکل دماوند با ارتفاع 5671 متر، در بخش میانی رشته‌کوه البرز، بارزترین فعالیت آتشفشانی دوره کواترنری در ایران است. دامنه کوه دماوند پوشیده از جریان گدازه‌هایی به وسعت 400 کیلومتر مربع است. جدیدترین گدازه‌ها در دامنه غربی مخروط قرار گرفته‌اند و روی همین دامنه است که به‌طور محلی مخروط‌هایی از خاکستر وجود دارد. در ارتفاع 100 متر پایین‌تر از قله، در ضلع جنوبی دماوند، خروج گازها نمایان می‌شوند. دهانه این آتشفشان با 300 متر قطر، با دریاچه‌ای از یخ پوشیده شده است. فعالیت‌های عظیمی که کوه دماوند را به وجود آورده در حدود ده هزار سال قبل و آخرین فوران آن، مربوط به 7300 سال پیش می‌باشد.</div>
+<div class="MsoNormal">تفتان: ارتفاع این قله 4036 متر از سطح تراز دریا است و از دو دهانه آتشفشانی آن، بخارهای گوگرد خارج می‌شود. در ورودی حفره‌های آتشفشانی، بلورهای گوگردی خالص به‌وفور دیده می‌شوند. نزدیک‌ترین شهر به تفتان، خاش است. "تپت" در زبان بلوچی به‌معنای گرما و تفتان، برگرفته‌شده از "تپتانا" است.</div>
+</div>
+
+<br><hr><br>
+
+<div class="MsoStep">زمین‌گردشگری</div>
+<div class="MsoNormal">سیاره زمین، دارای مناظر و چشم‌اندازهای متنوعی است. این تنوع و گوناگونی، به دلیل اتفاقات و رویدادهای زمین‌شناختی است که در طول تاریخ شکل‌گیری و تکوین این سیاره رخ داده است. کشور ایران از نظر میراث زمین‌شناختی و گوناگونی پدیده‌های زمین‌شناختی، یکی از غنی‌ترین کشورهای جهان است. به همین دلیل زمین‌گردشگری می‌تواند در کشورمان، جایگاه اقتصادی ویژه‌ای داشته باشد. گروهی از پدیده‌های زمین‌شناختی مانند غارها، گل‌فشان‌ها، آبشارها و... که ارزش بالایی از نظر علمی و آموزشی یا زیبایی ویژه داشته و یا بسیار کمیاب هستند، به‌عنوان میراث زمین‌شناختی معرفی می‌شوند.</div>
+<br>
+
+
+<div class="boxg">
+<div class="MsoStep">تحقیق کنید</div>
+<div class="MsoNormal">1ـ زمین‌گردشگری چگونه در رونق اقتصادی کشور تأثیر می‌گذارد و شما در زمینه حفاظت از آن چه نقشی می‌توانید داشته باشید؟</div>
+<div class="MsoNormal">2ـ یکی از جاذبه‌های زمین‌گردشگری در اطراف محل سکونت خود را به کلاس معرفی کنید.</div>
+</div>
+
+
+<br>
+
+
+<div class="MsoStep">ژئوپارک</div>
+<div class="MsoNormal">برای حفاظت از جاذبه‌های میراث زمین‌شناختی در یک محدوده و بهره‌برداری درست از آنها ژئوپارک ایجاد می‌شود. ژئوپارک، یک محدوده مشخص است که در آن، میراث زمین‌شناختی با جاذبه‌های طبیعی و فرهنگی ویژه واقع شده است. در هر ژئوپارک، مردم آن منطقه با آموزش‌هایی که می‌بینند در حفاظت از جاذبه‌های زمین‌شناختی، طبیعی و فرهنگی همکاری و از این جاذبه‌ها، برای گردشگری بهره‌برداری و کسب درآمد می‌کنند. ژئوپارک باعث می‌شود که جامعه محلی، رشد و رونق اقتصادی و فرهنگی داشته باشد و این میراث‌ها حفظ شود. اکنون در کشور ما ژئوپارک جزیره قشم به ثبت جهانی رسیده است. با برنامه‌ریزی‌های انجام‌شده و براساس مطالعات علمی و گردشگری، در سال‌های آینده، تعداد ژئوپارک‌های کشورمان افزایش خواهد یافت.</div>
+
+
+<br><br>
+
+<div class="boxb">
+<div class="MsoStep">علم، زندگی، کارآفرینی</div>
+<div class="MsoSemi">ژئوتوریسم:</div>
+<div class="MsoNormal">اخیراً رشته جدیدی در گردشگری طبیعت به وجود آمده که توجه اصلی آن به میراث زمین‌شناختی است. این رشته را زمین‌گردشگری یا ژئوتوریسم نام‌گذاری کرده‌اند. هدف اصلی در زمین‌گردشگری، تماشا و شناخت پدیده‌های زمین‌شناختی است. البته هدف‌های بیشتری در زمین‌گردشگری دنبال می‌شوند. برخلاف اکوتوریسم (طبیعت‌گردی) که جاذبه‌های طبیعت جاندار را در مرکز توجه قرار داده است، این صنعت به‌طور کلی با جاذبه‌های طبیعت بی‌جان سر و کار دارد. مخاطبان زمین‌گردشگری نه تنها متخصصان و کارشناسان زمین‌شناسی و ژئومورفولوژی (زمین‌ریخت‌شناسی)، بلکه گردشگران عادی و علاقه‌مندان طبیعت هستند. در جریان فعالیت‌های زمین‌گردشگری، بازدیدکنندگان ضمن بازدید از پدیده‌های زیبا و ویژه زمین‌شناسی و ژئومورفولوژی، با مبانی پیدایش آنها آشنا می‌شوند و اهمیت وجودی آنها را درمی‌یابند.</div>
+<div class="MsoNormal">متخصصان این رشته تحصیلی در مراکزی مانند: سازمان زمین‌شناسی و اکتشافات معدنی کشور و سازمان میراث فرهنگی و گردشگری می‌توانند در شناخت و معرفی ژئوپارک‌های جدید، کمک شایانی داشته باشند.</div>
+</div>
+
+
+
+
+
+
+<br><br><br><br><br>
+
+
+    </body>
+
+
+</html>

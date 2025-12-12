@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: "Nastaliq";
+            src: url('nas.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+      
+        li.MsoNormal,
+        div.MsoNormal,
+        ul.MsoNormal,
+        ol.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+            
+        }
+        p.MsoNas
+         {
+            margin: 0.5em;
+            
+            font-size: clamp(1.5rem, 1.7vw, 2rem);
+            font-family: "Nastaliq";
+            line-height: 2.3em;
+            color: #dcd7e0;
+            text-align: center;
+         letter-spacing: 0em;
+         word-spacing: 0.4em;
+            
+        }
+        p.MsoNormal
+         {
+            margin: 0in;
+           
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-indent: 1em;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi, b {
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSemic,
+        li.MsoSemic,
+        div.MsoSemic {
+            margin: 0in;
+           
+            font-size: clamp(1.2rem, 1.6vw, 1.3rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #b19af2;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #6ca4ec;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+        span.uline{
+            border-bottom: 0.1em solid #64E9E1;
+        }
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .boxp {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .boxg {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#00f2ff11; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        .boxb {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#0c4e9f2d; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        ::selection {
+            background-color: #59078fa1; /* Change this to your desired highlight color */
+            color: #ffffff; /* Change this to your desired text color */
+          }
+
+
+          mark{
+            background-color:#078b8fa1 ;
+            color: #ffffff;
+            padding: 0 7px;
+        }
+
+        .hlg { background-color: rgba(0, 234, 255, 0.334);  }
+        .hlp { background-color:#5f1487; }
+      
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+    <body class="custom-scrollbar">
+
+        <p class="MsoBold">فصل ۸: رفتارهای جانوران</p>
+        <p class="MsoNormal">
+        هزاران سال است که انسان رفتارهای جانوران را مشاهده می‌کند و در پی یافتن علت این رفتارها و چگونگی بروز آنهاست. زندگی انسان به داشتن اطلاعات دربارۀ رفتار جانوران وابسته است. دانستن دربارۀ چگونگی زادآوری یک حشره آفت، می‌تواند به یافتن راه‌هایی برای مبارزه با آن منجر شود. دانستن دربارۀ مهاجرت یا تغذیۀ یک جانور در معرض خطر انقراض، می‌تواند به راه‌هایی برای حفظ آن گونه و حفاظت از تنوع زیستی بینجامد. در این فصل انواعی از رفتارهای جانوران، چگونگی انجام آنها و علت این رفتارها را از دیدگاه انتخاب طبیعی بررسی می‌کنیم.
+        </p>
+        <br>
+        <p class="MsoBold">گفتار ۱: اساس رفتار</p>
+        <p class="MsoNormal">
+        قمری‌های خانگی با جمع‌آوری شاخه‌های نازک درختان برای خود لانه ساخته و زادآوری می‌کنند. گوزن‌ها از شکارچی‌ها می‌گریزند. خرس‌های قطبی خواب زمستانی دارند. سارها برای زمستان‌گذرانی به مناطق گرم‌تر مهاجرت می‌کنند. اینها نمونه‌هایی از رفتارهای جانوران است. رفتار، واکنش یا مجموعه واکنش‌هایی است که جانور در پاسخ به محرک یا محرک‌ها انجام می‌دهد. محرک‌هایی مانند بو، رنگ، صدا، تغییر میزان هورمون‌ها یا گلوکز در بدن جانور، تغییر دمای محیط و تغییر طول روز موجب بروز رفتارهای گوناگون در جانوران می‌شوند.
+        </p>
+        <p class="MsoNormal">
+        جوجه‌های برخی از پرندگان برای غذای مورد نیازشان به والد (یا والدین) خود متکی هستند. مثلاً رفتار غریزی جوجه کاکایی برای دریافت غذا به منقار پرنده والد نوک می‌زند و والد بخشی از غذای خورده‌شده را برمی‌گرداند تا جوجه آن را بخورد. دریافت غذای کافی برای بقا و رشد جوجه اهمیت دارد. جوجه پس از بیرون آمدن از تخم، می‌تواند به منقار والد نوک بزند (شکل ۱).
+        </p>
+        <br>
+        <p class="MsoNormal">
+        <b>منشأ رفتار جوجه کاکایی چیست؟</b> جوجه پرنده پس از بیرون آمدن از تخم، می‌تواند رفتار درخواست غذا را انجام دهد، پس آیا این رفتار همانند ویژگی‌های بدنی جانور ژنی است؟ برای پاسخ به این سؤال یک پژوهش را بررسی می‌کنیم.
+        </p>
+        <p class="MsoNormal">
+        پژوهشگران ارتباط یک ژن را با رفتار مراقبت از زاده‌ها در موش ماده بررسی کرده‌اند. این ژن را ژن B می‌نامیم. موش ماده طبیعی اجازه نمی‌دهد بچه موش‌ها از او دور شوند؛ اگر بچه موش‌ها دور شوند، مادر آنها را می‌گیرد و به سمت خود می‌کشد (شکل ۲). موش مادر ابتدا نوزادان را وارسی می‌کند و اطلاعاتی از راه حواس به مغز آن ارسال می‌شود؛ درنتیجه ژن B در یاخته‌هایی در مغز موش مادر فعال می‌شود و دستور ساخت پروتئینی را می‌دهد که آنزیم‌ها و ژن‌های دیگری را فعال می‌کند.
+        </p>
+        <p class="MsoNormal">
+        در مغز جانور فرایندهای پیچیده‌ای به راه می‌افتد که در نتیجۀ آنها، موش ماده رفتار مراقبت مادری را نشان می‌دهد. پژوهشگران با ایجاد جهش در ژن B آن را غیرفعال کردند. موش‌های ماده‌ای که ژن‌های جهش‌یافته داشتند، ابتدا بچه موش‌های تازه متولد شده را وارسی کردند ولی بعد آنها را نادیده گرفتند و رفتار مراقبت نشان ندادند. به این ترتیب، مشخص شد رفتار مراقبت مادری در موش اساس ژنی دارد.
+        </p>
+        
+        <p class="MsoNormal">
+        رفتار موش مادر در مراقبت از فرزندان رفتاری غریزی است. اساس رفتار غریزی در همۀ افراد یک گونه یکسان است، زیرا ژنی و ارثی است. رفتار جوجه کاکایی برای به دست آوردن غذا، لانه‌سازی پرنده و رفتار مکیدن در شیرخواران نمونه‌های دیگری از رفتارهای غریزی‌اند. خواهید دید همۀ رفتارهای غریزی به طور کامل هنگام تولد در جانور ایجاد نشده‌اند.
+        </p>
+        <br>
+        <p class="MsoStep">بیشتر بدانید</p>
+        <p class="MsoNormal">
+        رفتارشناسی، علم مطالعۀ رفتارهای جانوران در آزمایشگاه و یا طبیعت است. سه دانشمند به نام‌های نیکولاس تین‌برگن هلندی، کنراد لورنتس و کارل فون فریش اتریشی در مشاهده رفتار جانوران در طبیعت نقش مهمی ایفا کردند. این تلاش‌ها جایزۀ نوبل رشتۀ کار اندام‌شناسی (فیزیولوژی) و پزشکی سال ۱۹۷۳ را برای آنان به ارمغان آورد. در دهه‌های اخیر رویکرد اصلی زیست‌شناسان در بررسی رفتار جانوران، بوم‌شناسی رفتاری است. بوم‌شناسی رفتاری علم بررسی رفتار جانوران در محیط طبیعی و از دیدگاه انتخاب طبیعی است.
+        </p>
+        
+
+        <br>
+        <p class="MsoStep">یادگیری و رفتار</p>
+        <p class="MsoNormal">
+        در رفتار درخواست غذا، نوک زدن‌های جوجه کاکایی به منقار والد در ابتدا دقیق نیست ولی به تدریج و با تمرین، این رفتار دقیق‌تر می‌شود. هرچه جوجه دقیق‌تر نوک بزند، والد سریع‌تر به درخواست آن برای غذا پاسخ می‌دهد. به این ترتیب جوجه می‌آموزد تا دقیق‌تر نوک بزند (شکل ۳). بنابراین، جوجه کاکایی تجربه به دست می‌آورد و رفتار غریزی آن تغییر می‌کند و اصلاح می‌شود.
+        </p>
+        <br>
+        <p class="MsoStep">بیشتر بدانید</p>
+        <p class="MsoNormal">
+        چندین گونه از خانوادۀ کاکایی‌ها از جمله کاکایی پازرد (خزری) و کاکایی سر سیاه، در کشور ما زندگی می‌کنند. بیشتر آزمایش‌ها و بررسی‌های این فصل درباره کاکایی سر سیاه انجام شده است.
+        </p>
+        <br>
+
+
+        <p class="MsoNormal">
+        جانوران در محیط تجربه‌های گوناگونی پیدا می‌کنند که رفتارهای آنها را تغییر می‌دهد. تغییر نسبتاً پایدار در رفتار که در اثر تجربه به وجود می‌آید یادگیری نام دارد. یادگیری انواع گوناگونی دارد که با آنها آشنا می‌شوید.
+        </p>
+        <br>
+        <p class="MsoNormal">
+        <b>خوگیری (عادی شدن):</b> جوجهٔ پرندگان اجسام گوناگونی مانند برگ‌های در حال افتادن را در بالای سر خود می‌بینند. در ابتدا جوجه‌ها با پایین آوردن سر خود و آرام ماندن به این محرک‌ها پاسخ می‌دهند، اما با دیدن مکرر اجسام در حال حرکت، یاد می‌گیرند آنها برایشان خطر یا فایده‌ای ندارند. در نتیجه، جوجه‌ها دیگر به این محرک‌ها پاسخ نمی‌دهند. این یادگیری را خوگیری می‌نامند. در این یادگیری، پاسخ جانور به یک محرک تکراری که سود یا زیانی برای آن ندارد، کاهش پیدا می‌کند و جانور می‌آموزد به برخی محرک‌ها پاسخ ندهد. جانوران در معرض محرک‌های متعددی قرار دارند که پاسخ به همۀ آنها، نیازمند صرف انرژی زیادی است. خوگیری موجب می‌شود جانور با چشم‌پوشی از محرک‌های بی‌اهمیت، انرژی خود را برای انجام فعالیت‌های حیاتی حفظ کند.
+        </p>
+        <br>
+        <p class="MsoStep">فعّالیت ۱</p>
+        <ul class="MsoNormal">
+            <li>الف) شکل روبه‌رو یادگیری خوگیری را نشان می‌دهد. آن را توضیح دهید.</li>
+            <li>ب) در برخی کشتزارها قوطی‌های فلزی را به مترسک آویزان می‌کنند، این کار چه فایده‌ای دارد؟</li>
+        </ul>
+        <br>
+        <p class="MsoNormal">
+        <b>شرطی شدن کلاسیک:</b> وقتی جانوری مانند سگ غذا می‌بیند و یا بوی آن را احساس می‌کند، بزاق او ترشح می‌شود. غذا محرک و ترشح بزاق، پاسخی غریزی و یک بازتاب طبیعی است. دانشمندی به نام پاولوف آزمایش‌های متعددی در این باره انجام داد. او متوجه شد بزاق سگ، با دیدن فرد غذا دهنده و قبل از دریافت غذا نیز ترشح می‌شود. پاولف آزمایشی طراحی کرد و در آن هم‌زمان با دادن پودر گوشت به سگ گرسنه، زنگی را به صدا درآورد. با تکرار این کار، سگ بین صدای زنگ و غذا ارتباط برقرار کرد، طوری که بزاق آن با شنیدن صدای زنگ و حتی بدون دریافت غذا نیز ترشح می‌شد. صدای زنگ در ابتدا یک محرک بی‌اثر بود ولی وقتی با محرک طبیعی یعنی غذا همراه شد، سبب بروز پاسخ ترشح بزاق شد (شکل ۴). صدای زنگ یک محرک شرطی است زیرا درصورتی می‌تواند موجب بروز پاسخ شود که با یک محرک طبیعی همراه شود. این نوع یادگیری شرطی شدن کلاسیک نام دارد.
+        </p>
+        <br>
+        <p class="MsoStep">بیشتر بدانید</p>
+        <p class="MsoNormal">
+        <b>تاریخ علم:</b> ایوان پتروویچ پاولوف (۱۹۳۶–۱۸۴۹) کار اندام‌شناس (فیزیولوژیست) روسی است که در سال ۱۹۰۴ برندۀ جایزۀ نوبل کار اندام‌شناسی و پزشکی شد. او بیشتر به علت پژوهش دربارۀ بازتاب شرطی مشهور است (نفر دوم از راست).
+        </p>
+        <br>
+<br>
+<p class="MsoNormal"><b>شرطی شدن فعال:</b> نوعی دیگر از شرطی شدن، شرطی شدن فعال یا یادگیری با آزمون و خطا نام دارد. در نخستین آزمایش‌های مربوط به این نوع یادگیری، دانشمندی به نام اسکینر موش گرسنه‌ای را در جعبه‌ای قرار داد که درون آن اهرمی وجود داشت و موش می‌توانست آن را فشار دهد (شکل ۵). موش درون جعبه حرکت می‌کرد و به طور تصادفی اهرم درون جعبه را فشار می‌داد. در نتیجه، تکه‌ای غذا به درون جعبه می‌افتاد و موش غذا دریافت می‌کرد. پس از چندبار تکرار این رفتار، موش به ارتباط بین فشار دادن اهرم و پاداش یعنی به دست آوردن غذا پی برد. موش پس از آن به طور عمدی، اهرم را فشار می‌داد تا غذا به دست آورد. در شرطی شدن فعال، جانور می‌آموزد بین رفتار خود با پاداش یا تنبیهی که دریافت می‌کند، ارتباط برقرار کرده و در آینده رفتاری را تکرار یا از انجام آن خودداری می‌کند.</p>
+<br>
+<p class="MsoStep">فعّالیت ۲</p>
+<ul class="MsoNormal">
+    <li>پرنده‌ای که در شکل زیر می‌بینید، پروانه مونارک را بلعیده و دچار تهوع شده است. پس از چنین تجربه‌هایی پرنده می‌آموزد، این حشره را نباید بخورد. چگونگی آموختن این رفتار را بر اساس یادگیری شرطی شدن توضیح دهید.</li>
+</ul>
+<br>
+<p class="MsoNormal"><b>حل مسئله:</b> برخی از جانوران می‌توانند از تجربه‌های قبلی خود برای حل مسئله‌ای که با آن روبه‌رو شده‌اند، استفاده کنند. در یکی از آزمایش‌های مربوط به این رفتار، شامپانزه‌ای را در اتاقی گذاشتند که تعدادی موز از سقف آن آویزان بود و چند جعبۀ چوبی هم در اتاق وجود داشت. شامپانزه پس از چند بار بالا پریدن و تلاش ناموفق برای رسیدن به موزها، جعبه‌ها را روی هم قرار داد، از آنها بالا رفت و به موزها دست یافت (شکل ۶). در رفتار حل مسئله، جانور بین تجربه‌های گذشته و موقعیت جدید ارتباط برقرار می‌کند و با استفاده از آنها برای حل مسئلۀ جدید، آگاهانه برنامه‌ریزی می‌کند.</p>
+
+<p class="MsoNormal">رفتارشناسان حل مسئله جانوران را در محیط طبیعی نیز بررسی کرده‌اند. شامپانزه‌ها برگ‌های شاخۀ نازک درختان را جدا می‌کنند و آن را درون لانۀ موریانه‌ها فرو می‌برند تا موریانه‌ها را بیرون بیاورند و بخورند. این جانوران از تکه‌های چوب یا سنگ به شکل سندان و چکش استفاده می‌کنند تا پوستۀ سخت میوه‌ها را بشکنند. کلاغ سیاهی که در شکل ۷ می‌بینید، کشف کرده است که چگونه تکه گوشت آویزان به انتهای نخ را به دست آورد. جانور هر بار بخشی از نخ را با منقار خود بالا می‌کشد و پنجۀ پای خود را روی آن قرار داده و سرانجام به گوشت دست پیدا می‌کند.</p>
+<br>
+<p class="MsoNormal"><b>نقش‌پذیری:</b> جوجه غازها پس از بیرون آمدن از تخم، نخستین جسم متحرکی را که می‌بینند، دنبال می‌کنند. جسم متحرک معمولاً مادر آنهاست (شکل ۸). این دنبال کردن موجب پیوند جوجه‌ها با مادر می‌شود. پیوند جوجه غازها و مادرشان در نتیجۀ نوعی یادگیری به نام نقش‌پذیری ایجاد می‌شود. نقش‌پذیری نوعی یادگیری است که در دورۀ مشخصی از زندگی جانور انجام می‌شود. نقش‌پذیری جوجه غازها طی چند ساعت پس از خروج از تخم رخ می‌دهد. این زمان، دورۀ حساسی است که در آن نقش‌پذیری با بیشترین موفقیت انجام می‌شود. جوجه غازها با نقش‌پذیری مادر خود را می‌شناسند. این شناسایی برای بقای جوجه‌ها حیاتی است، بدون آن جوجه‌ها تحت مراقبت مادر قرار نمی‌گیرند و ممکن است بمیرند. افزون بر آن، جوجه‌ها با نقش‌پذیری، رفتارهای اساسی مانند جست‌وجوی غذا را نیز از مادر یاد می‌گیرند. نقش‌پذیری در پستانداران نیز دیده می‌شود، مثلاً بره‌هایی که مادر خود را از دست داده‌اند و انسان آنها را پرورش داده است، دنبال او راه می‌افتند و تمایلی برای ارتباط با گوسفندهای دیگر نشان نمی‌دهند.</p>
+<br>
+<p class="MsoNormal">امروزه پژوهشگران می‌کوشند از نقش‌پذیری در حفظ گونه‌های جانوران در خطر انقراض استفاده کنند. مثلاً آنها برای پرورش جوجه پرنده‌هایی که والدین خود را از دست داده و تحت مراقبت انسان به دنیا آمده‌اند، صدای پرندگان همان گونه را پخش می‌کنند. افرادی که از این جوجه‌ها نگهداری می‌کنند، ظاهر خود را شبیه آن پرنده کرده و مانند آنها رفتار می‌کنند.</p>
+<br>
+<p class="MsoStep">برهم‌کنش غریزه و یادگیری</p>
+<p class="MsoNormal">بیشتر رفتارهای جانوران محصول برهم‌کنش ژن‌ها و اثرهای محیطی است که جانور در آن زندگی می‌کند. همان‌طور که در رفتار درخواست غذای جوجه کاکایی دیدیم، این رفتار غریزی به طور کامل در جوجه‌ای که از تخم بیرون می‌آید، بروز پیدا نمی‌کند. برای شکل‌گیری کامل آن، برهم‌کنش جوجه و والدین و کسب تجربه لازم است. جانور اساس ژنی لازم برای انجام این رفتار را دارد و همچنان که رشد می‌کند از آموخته‌های خود از محیط تجربه به دست می‌آورد و آنها را برای تغییر و اصلاح رفتار قبلی به کار می‌برد. یادگیری برای بقای جانوران لازم است، زیرا محیط جانوران همواره در حال تغییر است. برای آنکه جانوران بتوانند در این شرایط در حال تغییر زندگی کنند، باید بتوانند به تغییرات پاسخ‌های مناسبی بدهند. به این ترتیب، برهم‌کنش ژن‌ها و یادگیری امکان سازگار شدن جانور با این تغییرات را فراهم می‌آورد.</p>
+<br>
+<p class="MsoStep">بیشتر بدانید</p>
+<p class="MsoNormal"><b>تاریخ علم:</b> بررسی نقش‌پذیری در غازها از پژوهش‌های کنراد لورنتس اتریشی (۱۹۸۹–۱۹۰۳) است. لورنتس در آزمایش خود جوجه غازهایی را در دستگاه جوجه‌کشی پرورش داد، لورنتس نخستین جسمی بود که جوجه‌ها پس از بیرون آمدن از تخم دیدند. آنها او را دنبال کردند و نسبت به او نقش‌پذیر شدند.</p>
+<br>
+<p class="MsoStep">فعّالیت ۳</p>
+<ul class="MsoNormal">
+    <li>الف) شقایق دریایی با تحریک مکانیکی (تماس)، بازوهای خود را منقبض می‌کند اما به حرکت مداوم آب پاسخی نمی‌دهد. چرا؟</li>
+    <li>ب) رام‌کنندگان جانوران چگونه انجام حرکات نمایشی در سیرک را به آنها می‌آموزند؟</li>
+</ul>
+
+
+
+<br><br><br><br><br>
+
+
+    </body>
+
+
+</html>

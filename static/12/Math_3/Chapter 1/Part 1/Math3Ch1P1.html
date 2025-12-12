@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal ,
+        ul.MsoNormal {
+            margin: 0in;
+           
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi , b{
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #badaff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .MsoPapDefault {
+           
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #722a85;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background-color: #1abbbbe1; /* Scrollbar thumb color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color: #05ffe2;
+        }
+    </style>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+ 
+</head>
+
+
+
+<body class="custom-scrollbar">
+
+
+    <p class="MsoBold">فصل ۱
+
+        :
+
+
+تابع</p>
+
+<p class="MsoNormal">
+پل سفید اهواز یکی از پل‌های شهر اهواز است که یکی از نمادهای این شهر نیز محسوب می‌شود. این پل در سال ۱۳۱۵ بر روی رودخانه کارون ساخته شده است که دارای دو قوس فلزی ۱۲ و ۲۰ متری است.
+</p>
+
+
+<br><hr>
+
+<p class="MsoBold">درس اول
+    :
+
+توابع چند جمله‌ای – توابع صعودی و نزولی</p>
+
+
+<p class="MsoSemi">توابع چند جمله‌ای:</p>
+
+<p class="MsoNormal">
+در سال‌های گذشته با تابع خطی آشنا شدیم. هر تابع با ضابطه $f(x) = ax + b$ را یک تابع خطی می‌نامیم. اگر $a = 0$، تابع به‌صورت $f(x) = b$ در می‌آید که آن را تابع ثابت می‌نامیم. توابع ثابت و توابع خطی، مثال‌هایی از توابع چند جمله‌ای با درجه‌های $0$ و $1$ هستند.
+</p>
+
+
+<p class="MsoNormal">
+    هر تابع به‌صورت :
+
+</p>
+<div class="custom-scrollbar" style="overflow-y: hidden; overflow-x:auto;direction:ltr;">
+    <p class="MsoNormal">
+        $$ f(x) = a_n x^n + a_{n-1} x^{n-1} + \cdots + a_2 x^2 + a_1 x + a_0 $$ 
+        </p>
+    
+</div>
+<br>
+    <p class="MsoNormal">
+    که در آن $a, a_1, a_2, \dots, a_{n-1}, a_n$ اعداد حقیقی و $n$ یک عدد صحیح نامنفی و $a_n \neq 0$ باشد، یک تابع چند جمله‌ای از درجه $n$ می‌نامیم. دامنهٔ توابع چند جمله‌ای مجموعه اعداد حقیقی است.
+    </p>
+    
+
+    <br><br>
+
+
+
+    <p class="MsoNormal">
+        <b>مثال:</b>
+         توابع زیر نمونه‌ای از توابع چند جمله‌ای به‌ترتیب از درجه‌های $3$، $2$، $1$ و $5$ هستند.
+        </p>
+        
+
+  <div class="MsoNormal" style="text-align: left;">
+    <p>$ y = 3x + 5 $</p>
+<p>$ y = -8x^2 + 2x - \dfrac{1}{2} $</p>
+<p>$ y = \sqrt{2}x^3 - \dfrac{3}{4} x $</p>
+<p>$ y = 2x^5 - 4x^3 + \sqrt{7x^2} $</p>
+  </div>
+
+<br>
+
+<p class="MsoNormal">
+    انواع توابع چند جمله‌ای که تا به حال با آن‌ها آشنا شده‌ایم به‌صورت زیر است:
+    </p>
+    
+
+<br>
+
+<p class="MsoNormal" style="background-color: #530429;text-align: center;">this table needs chart images </p>
+<br>
+    <table class="MsoNormal" style="margin:auto;width:fit-content;direction:rtl;text-align:center;">
+        <tr>
+   
+            <td>ثابت</td>
+            <td>خطی</td>
+            <td>درجهٔ دوم</td>
+        </tr>
+        <tr>
+            <td>درجهٔ تابع</td>
+            <td>$0$</td>
+            <td>$1$</td>
+            <td>$2$</td>
+        </tr>
+        <tr>
+            <td>ضابطهٔ کلی</td>
+            <td>$ f(x) = b $</td>
+            <td>$ f(x) = ax + b $ <br> $ (a \neq 0) $</td>
+            <td>$ f(x) = ax^2 + bx + c $ <br> $ (a \neq 0) $</td>
+        </tr>
+        <tr>
+            <td>مثال</td>
+            <td>$ f(x) = 2 $</td>
+            <td>$ f(x) = -2x - 1 $</td>
+            <td>$ f(x) = x^2 - 6x + 9 $</td>
+        </tr>
+    </table>
+    
+<br><hr><br>
+<p class="MsoSemi">تابع درجهٔ ۳:</p>
+
+<div class="MsoNormal">
+تابع چند جمله‌ای با ضابطهٔ 
+:
+<div class="custom-scrollbar" style="overflow-y: hidden; overflow-x:auto;direction:ltr;">
+    <p class="MsoNormal" style="text-align: center;">
+        $ f(x) = ax^3 + bx^2 + cx + d \quad (a \neq 0) $
+    </p>
+
+</div>
+  
+ یک تابع درجهٔ $3$ است که در اینجا به‌طور خاص تابع $ f(x) = x^3 $ را بررسی می‌کنیم. 
+دامنه و برد این تابع $ \mathbb{R} $ است. ابتدا به کمک نقطه‌یابی نمودار این تابع را رسم می‌کنیم:
+</div>
+
+<br>
+<table class="MsoNormal" style="margin:auto;width:fit-content;direction:ltr;text-align:center;">
+    <tr>
+        <th>$ x $</th>
+        <th>$ f(x) = x^3 $</th>
+    </tr>
+    <tr>
+        <td>$ -2 $</td>
+        <td>$ -8 $</td>
+    </tr>
+    <tr>
+        <td>$ -1 $</td>
+        <td>$ -1 $</td>
+    </tr>
+    <tr>
+        <td>$ -\dfrac{1}{2} $</td>
+        <td>$ -\dfrac{1}{8} $</td>
+    </tr>
+    <tr>
+        <td>$ 0 $</td>
+        <td>$ 0 $</td>
+    </tr>
+    <tr>
+        <td>$ \dfrac{1}{2} $</td>
+        <td>$ \dfrac{1}{8} $</td>
+    </tr>
+    <tr>
+        <td>$ 1 $</td>
+        <td>$ 1 $</td>
+    </tr>
+    <tr>
+        <td>$ 2 $</td>
+        <td>$ 8 $</td>
+    </tr>
+</table>
+
+
+
+
+
+
+
+<br><hr><br>
+<p class="MsoSemi">خواندنی</p>
+<p class="MsoNormal">
+الگوی کلی لانهٔ زنبور عسل به‌صورت یک شش‌ضلعی است که در دور اول با شش تا شش‌ضلعی دیگر احاطه شده است. در دور دوم با دوازده تا شش‌ضلعی احاطه می‌شود و به همین ترتیب در دورهای دیگر تعداد شش‌ضلعی‌ها با الگویی خاصی افزایش می‌یابد.
+</p>
+<p class="MsoNormal">
+تعداد کل این شش‌ضلعی‌ها را می‌توان با تابع درجه دوم 
+$ f(r) = 3r^2 - 3r + 1 $
+ به دست آورد که $ r $ تعداد دورهاست. آیا می‌توانید تعداد کل شش‌ضلعی‌ها را برای $ r = 1 \ , \ 2  \ , \ 3  $ به دست آورید؟
+</p>
+
+<br><hr><br>
+
+<p class="MsoStep">فعالیت</p>
+
+<p class="MsoNormal">
+با استفاده از نمودار تابع $ f(x) = x^3 $، نمودار توابع زیر را رسم کرده و دامنه و برد آن‌ها را مشخص کنید.
+</p>
+
+  <div class="MsoNormal" style="text-align: left;direction: ltr;">
+
+    <p>الف) $ y = -x^3 - 2 $</p>
+<p>ب) $ y = (x + 2)^3 $</p>
+<p>پ) $ y = -(x - 2)^3 $</p>
+
+  </div>
+
+
+  <br><hr><br>
+
+  <p class="MsoStep">کار در کلاس</p>
+
+  <p class="MsoNormal">
+  به کمک نمودار تابع $ y = x^3 $، ضابطهٔ هر تابع را به نمودار آن نظیر کنید.
+  </p>
+  
+  <div class="MsoNormal" style="text-align: left;direction: ltr;">
+
+    <p>الف) $ y = (x - 1)^3 + 2 $</p>
+    <p>ب) $ y = (x - 2)^3 $</p>
+    <p>پ) $ y = -x^3 + 1 $</p>
+    <p>ت) $ y = (x + 1)^3 - 1 $</p>
+    <p>ث) $ y = -x^3 $</p>
+    <p>ج) $ y = ( x+ 1 )^3  $</p>
+    <p>چ) $ y = x^3 + 1 $</p>
+    <p>ح) $ y = -x^3 - 1$</p>
+    <p>خ) $ y = x^3 - 2 $</p>
+    
+  </div>
+
+
+<br><hr><br>
+
+<p class="MsoSemi">توابع صعودی و توابع نزولی:</p>
+
+<p class="MsoStep">فعالیت</p>
+
+
+<p class="MsoNormal">
+    یکی از دغدغه‌های ما ایرانی‌ها در اکثر سال‌ها، بحث کاهش بارندگی در کشورمان است که خسارات بسیاری را به بار می‌آورد. در نمودار زیر میزان بارندگی سالانه سه شهر گرگان، زاهدان و ارومیه از سال ۱۳۷۵ تا سال ۱۳۹۴ (برحسب میلی‌متر) آورده شده است. به‌طور مثال در شهر ارومیه در سال ۱۳۸۵، میزان بارندگی 
+        در سال ۸۵ ،
+    $372$
+    
+    میلی‌متر بوده و در سال ۹۰ میزان بارندگی 
+    
+    $۳۳۴$
+     میلی‌متر بوده است که روند نزولی بارندگی را در این شهر نشان می‌دهد. همچنین در شهر گرگان در سال ۸۵، میزان بارندگی $۵۲۲.۹۰$ میلی‌متر و در سال ۹۰ میزان بارندگی $۷۲۴$ میلی‌متر بوده است که روند صعودی بارندگی را در این شهر نشان می‌دهد.
+    با توجه به این نمودار به سؤالات زیر پاسخ دهید:
+    </p>
+    <br>
+
+      <ul class="MsoNormal">
+        <p>
+            الف) از سال ۷۵ تا ۹۱، در چه فاصله‌های زمانی، میزان بارندگی در شهر گرگان روند صعودی داشته است؟
+            </p>
+            <p>
+                ب) از سال ۹۱ تا ۹۴، در چه فاصله‌های زمانی، میزان بارندگی در شهر ارومیه روند نزولی داشته است؟
+                </p>
+            </ul>
+            
+
+
+            <br><hr><br>
+
+        <p class="MsoSemi">تابع صعودی</p>
+
+            <p class="MsoNormal">
+            اگر برای هر دو نقطهٔ $ x_1 $ و $ x_2 $ از مجموعهٔ $ A \quad ( A \subseteq D_f ) $ که $ x_1 < x_2 $ داشته باشیم $ f(x_1) \leq f(x_2) $، آنگاه تابع $ f $ را تابعی صعودی می‌نامیم.
+            </p>
+            
+
+            <br>
+
+            <p class="MsoSemi">تابع نزولی</p>
+
+        <p class="MsoNormal">
+        اگر برای هر دو نقطهٔ $ x_1 $ و $ x_2 $ از مجموعهٔ $ A \quad ( A \subseteq D_f ) $ که $ x_1 < x_2 $ داشته باشیم $ f(x_1) \geq f(x_2) $، آنگاه تابع $ f $ را تابعی نزولی می‌نامیم.
+        </p>
+
+
+<br>
+        <p class="MsoSemi">تابع اکیداً صعودی</p>
+
+            <p class="MsoNormal">
+            اگر برای هر دو نقطهٔ $ x_1 $ و $ x_2 $ از مجموعهٔ $ A \quad ( A \subseteq D_f ) $ که $ x_1 < x_2 $ داشته باشیم $ f(x_1) < f(x_2) $، آنگاه تابع $ f $ را تابعی اکیداً صعودی می‌نامیم.
+            </p>
+
+<br>
+            <p class="MsoSemi">تابع اکیداً نزولی</p>
+
+            <p class="MsoNormal">
+            اگر برای هر دو نقطهٔ $ x_1 $ و $ x_2 $ از مجموعهٔ $ A \quad ( A \subseteq D_f ) $ که $ x_1 < x_2 $ داشته باشیم $ f(x_1) > f(x_2) $، آنگاه تابع $ f $ را تابعی اکیداً نزولی می‌نامیم.
+            </p>
+            
+<br><br>
+
+            <p class="MsoNormal">
+                تابع $ f $ را در یک بازه ثابت می‌گوییم، اگر برای تمام مقادیر $ x $ در این بازه، مقدار $ f $ ثابت باشد. با توجه به تعاریف بالا، تابع ثابت در یک بازه، هم صعودی و هم نزولی محسوب می‌شود.
+                </p>
+                <br>
+                <p class="MsoNormal">
+                <b>نکته: </b>
+                به تابعی که اکیداً صعودی یا اکیداً نزولی باشد، تابع <b> اکیداً یکنوا </b> گوییم. همچنین، به تابعی که صعودی یا نزولی باشد، تابع <b>یکنوا</b> گوییم. توابع اکیداً یکنوا همواره یکنوا هستند. آیا عکس این مطلب صحیح است؟ توضیح دهید.
+                </p>
+
+
+        <br><hr><br>
+
+        <p class="MsoNormal">
+        ممکن است تابعی در یک بازه صعودی (اکیداً صعودی) و در بازهٔ دیگر نزولی (اکیداً نزولی) باشد.
+        </p>
+
+
+<br>
+        
+        <p class="MsoNormal">
+        <b>مثال:</b>
+        <br>
+        تابع $ f(x) =  \ \big| \ x \ \big| \ $ در بازهٔ $ (-{\infty} , 0 ] $ اکیداً نزولی و در بازهٔ $ [ 0 , +{\infty }) $ اکیداً صعودی است، اما در $ \mathbb{R} $ نه صعودی است نه نزولی.
+        </p>
+                                    
+
+
+<br><hr><br>
+
+
+    <p class="MsoStep">کار در کلاس</p>
+
+    <p class="MsoNormal">
+    هر کدام از توابع زیر در چه بازه‌هایی اکیداً صعودی و در چه بازه‌هایی اکیداً نزولی هستند؟
+    </p>
+
+    <br><hr><br>
+
+    <p class="MsoStep">کار در کلاس</p>
+
+    <p class="MsoNormal">
+    نمودار توابع $ y = \sin x $ و $ y = \cos x $ در بازهٔ $ [-2\pi , 2\pi] $ رسم شده است. صعودی یا نزولی بودن آن‌ها را در بازه‌های مشخص‌شده تعیین نمایید.
+    </p>
+
+
+    <br>
+
+    <table class="MsoNormal" style="margin:auto;width:fit-content;direction:rtl;text-align:center;">
+        <tr>
+            <th>$x$</th>
+            <th>$ y = \sin x $</th>
+        </tr>
+        <tr>
+            <td>$ \left[ -2\pi , -\dfrac{3\pi}{2} \right] $</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>$ \left[ -\dfrac{3\pi}{2} , -\pi \right] $</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>$ \left[ -\pi , -\dfrac{\pi}{2} \right] $</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>$ \left[ -\dfrac{\pi}{2} , 0 \right] $</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>$ \left[ 0 , \dfrac{\pi}{2} \right] $</td>
+            <td>صعودی</td>
+        </tr>
+        <tr>
+            <td>$ \left[ \dfrac{\pi}{2} , \pi \right] $</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>$ \left[ \pi , \dfrac{3\pi}{2} \right] $</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>$ \left[ \dfrac{3\pi}{2} , 2\pi \right] $</td>
+            <td></td>
+        </tr>
+    </table>
+    
+    <br><br>
+
+    
+    <table class="MsoNormal" style="margin:auto;width:fit-content;direction:rtl;text-align:center;">
+        <tr>
+            <th>$x$</th>
+            <th>$ y = \cos x $</th>
+        </tr>
+        <tr>
+            <td>$ \left[ -2\pi , -\dfrac{3\pi}{2} \right] $</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>$ \left[ -\dfrac{3\pi}{2} , -\pi \right] $</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>$ \left[ -\pi , -\dfrac{\pi}{2} \right] $</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>$ \left[ -\dfrac{\pi}{2} , 0 \right] $</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>$ \left[ 0 , \dfrac{\pi}{2} \right] $</td>
+<td></td>
+        </tr>
+        <tr>
+            <td>$ \left[ \dfrac{\pi}{2} , \pi \right] $</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>$ \left[ \pi , \dfrac{3\pi}{2} \right] $</td>
+            <td>صعودی</td>
+        </tr>
+        <tr>
+            <td>$ \left[ \dfrac{3\pi}{2} , 2\pi \right] $</td>
+            <td></td>
+        </tr>
+    </table>
+
+
+    <br><hr><br>
+
+    <p class="MsoStep">کار در کلاس</p>
+
+<p class="MsoNormal">
+نمودار توابع زیر را رسم کنید و مشخص کنید در چه بازه‌هایی صعودی و در چه بازه‌هایی نزولی هستند.
+</p>
+
+
+<table class="MsoNormal" style="margin:auto;width:fit-content;direction:ltr;text-align:center;">
+    <tr>
+        <td style="border: none;"></td>
+        <th>تابع</th>
+        <th>دامنه</th>
+    </tr>
+    <tr>
+        <th>الف)</th>
+        <td>$ f(x) = \cos(x - \dfrac{\pi}{3}) $</td>
+        <td>$ D_f = [0 , 2 \pi] $</td>
+    </tr>
+    <tr>
+        <th>ب)</th>
+        <td>$ g(x) = x + \ \big| \ x  \ \big| \ $</td>
+        <td></td>
+    </tr>
+    <tr>
+        <th>پ)</th>
+        <td>$ t(x) = -x^3 - 1 $</td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+<br><hr><br>
+
+<p class="MsoStep">فعالیت</p>
+
+<p class="MsoNormal">
+به نمودار تابع روبه‌رو دقت کنید.
+</p>
+
+<ul class="MsoNormal">
+    <p>
+        الف) این تابع اکیداً صعودی است یا اکیداً نزولی؟
+        </p>
+        
+        <p>
+        ب) این تابع یک‌به‌یک است؟
+        </p>
+        
+        <p>
+        پ) آیا تابعی وجود دارد که اکیداً صعودی یا اکیداً نزولی باشد ولی یک‌به‌یک نباشد؟
+        </p>
+        
+</ul>
+
+
+
+<br><hr><br>
+
+<p class="MsoStep">تمرین</p>
+
+<p class="MsoNormal">
+۱) نمودار توابع زیر را رسم کنید و دامنه و برد آن‌ها را مشخص نمایید.
+</p>
+  <div class="MsoNormal" style="text-align:left;direction: ltr;">
+    <p>الف) $ y = (x - 1)^3 - 1 $</p>
+<p>ب) $ y = (x + 2)^3 - 2 $</p>
+  </div>
+
+  <br>
+  <br>
+
+  <p class="MsoNormal">
+    ۲) نمودار تابع زیر را رسم کنید و بازه‌هایی را که در آن‌ها تابع صعودی، نزولی یا ثابت است، مشخص کنید.
+    </p>
+    
+    <p class="MsoNormal">
+        $$
+        f(x) =
+        \begin{cases} 
+        -2x - 3 & x < -4 \\\\
+        3 & -4 \leq x < 2 \\\\
+        3x - 2 & x \geq 2  \\\\
+        \end{cases}
+        $$
+    </p>
+    </p>
+        <br><br>
+
+
+    <p class="MsoNormal">
+        ۳) با استفاده از نمودار تابع زیر مشخص کنید این تابع در چه بازه‌هایی صعودی، نزولی یا ثابت است؟
+        </p>
+        
+
+          <br><br>
+          
+          <p class="MsoNormal">
+            ۴) تابع نمایی $ y = 2^x - 2 $ و تابع لگاریتمی 
+
+            $ y = -\log_{ \ 2}^{ \ x} x + 2 $
+
+             را رسم کنید و در مورد یکنوایی آن‌ها در کلاس بحث کنید.
+            </p>
+            <br><br>
+            <p class="MsoNormal">
+            ۵) تابع $ y = x^2 \ \big| \  x  \ \big| \  $ در بازهٔ $ (-\infty , a] $ نزولی است، حداکثر مقدار $ a $ چقدر است؟
+            </p>
+            <br><br>
+            <p class="MsoNormal">
+            ۶) تابعی مثال بزنید که در دامنهٔ خود اکیداً صعودی و تابعی مثال بزنید که در دامنهٔ خود اکیداً نزولی باشد.
+            </p>
+            <br><br>
+            <p class="MsoNormal">
+            ۷) نمودار تابعی را رسم کنید که در هر یک از بازه‌های 
+            $ (-{\infty} , 0) $ 
+            و 
+            $ (0 , +{\infty}) $
+             یک‌به‌یک باشد ولی در 
+             $ \mathbb{R} $
+              اکیداً صعودی نباشد.
+            </p>
+            
+
+
+
+
+    <br><br><br><br><br><br><br><br><br><br>
+</body>
+
+
+</html>

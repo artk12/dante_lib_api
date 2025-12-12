@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal ,
+        ul.MsoNormal {
+            margin: 0in;
+           
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi , b{
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #badaff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .MsoPapDefault {
+           
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #722a85;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background-color: #1abbbbe1; /* Scrollbar thumb color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color: #05ffe2;
+        }
+    </style>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+ 
+</head>
+
+
+
+<body class="custom-scrollbar">
+
+
+
+
+
+    <p class="MsoStep">
+        3-1 قانون کولن
+     </p>
+     <p class="MsoNormal">
+         همان‌طور که می‌دانیم نیروی الکتریکی که دو جسم باردار بر هم وارد می‌کنند می‌تواند جاذبه یا دافعه باشد. اگر بارهای الکتریکی دو جسم همنام باشند، این نیرو دافعه است (شکل ۱-۶). و اگر ناهمنام باشند، این نیرو جاذبه است.
+     </p>
+     
+ 
+     <br><hr><br>
+ 
+     <p class="MsoStep">
+         فعالیت ۱-۱ (کار در کلاس)
+     </p>
+     <p class="MsoNormal">
+         مطابق شکل، دو نی پلاستیکی را از نزدیکی یک انتهای آن‌ها خم کنید و پس از مالش دادن با پارچه‌ای پشمی، نزدیک یکدیگر قرار دهید. اگر نی‌ها به‌خوبی باردار شده باشند، نیروی دافعهٔ آن‌ها را می‌توانید به‌وضوح بر روی انگشتان خود حس کنید.
+     </p>
+     
+ 
+ <br><hr><br>
+ 
+ <p class="MsoNormal">
+     نیروی الکتریکی بین دو جسم باردار، به چه عامل‌هایی بستگی دارد و اندازهٔ این نیروها را از چه رابطه‌ای می‌توان محاسبه کرد؟ <b>شارل آگوستین کولن</b>، دانشمند فرانسوی برای نخستین بار با انجام آزمایش‌های ساده و هوشمندانه‌ای توانست عامل‌های مؤثر بر نیروی الکتریکی بین دو ذرهٔ باردار را که اصطلاحاً <b>بار نقطه‌ای</b> خوانده می‌شود، شناسایی کند. نتیجهٔ آزمایش‌های او امروزه به نام <b>قانون کولن</b> خوانده می‌شود. شکل ۱-۷ طرحی از آزمایش کولن را نشان می‌دهد.
+ </p>
+ 
+     <br>
+ 
+     <p class="MsoNormal">قانون کولن بیان می‌دارد:</p>
+ <p class="MsoNormal">
+     اندازهٔ نیروی الکتریکی (الکترواستاتیکی) بین دو بار نقطه‌ای که در راستای خط واصل آن‌ها اثر می‌کند، با حاصل‌ضرب بزرگی آن‌ها متناسب است و با مربع فاصلهٔ بین آن‌ها نسبت وارون دارد. بنابراین، اندازهٔ این نیرو برابر است با:
+ </p>
+ 
+ 
+ <br><hr><br>
+ <p class="MsoSemi" style="text-align: center;">
+     (2-1)
+     $$ F = k  \ \dfrac{ \ \big| \  q_{ \ 1} \ \big| \    \  \big| \ q_{ \ 2} \ \big| \ }{r^2} $$
+ </p>
+ <br><hr><br>
+ 
+ 
+ 
+ 
+ <p class="MsoNormal">
+     که در آن $q_{ \ 1}$ و $q_{ \ 2}$ بارهای الکتریکی دو بار نقطه‌ای برحسب کولن 
+    $ (C) $
+ و
+     $r$ فاصلهٔ بین دو بار برحسب متر 
+     
+     $(m)$
+ 
+      و 
+      $F$ بزرگی نیروی الکتریکی وارد بر هر بار برحسب نیوتون 
+     
+      است. در این رابطه $k$ ثابت الکترواستاتیکی یا ثابت کولن نام دارد و برابر است با:
+ </p>
+ 
+ 
+ 
+ 
+ 
+ <p class="MsoNormal">
+     $$
+     \begin{align*}
+     k &= 8/98755179 \times 10^9 \, N \cdot m^2 / C^2 \\ \\
+     &\approx 9/ \times 10^9 \, N \cdot m^2 / C^2
+     \end{align*}
+     $$
+ </p>
+ 
+ 
+ 
+ <br><hr><br>
+ <p class="MsoNormal">
+     ثابت کولن $(k)$ را می‌توان بر حسب یک ضریب ثابت دیگر به نام ضریب گذردهی الکتریکی خلأ $(\varepsilon_0)$ نیز نوشت:
+ </p>
+ <p class="MsoNormal">
+     $$ k = \dfrac{1}{4 \pi \varepsilon_0} $$
+ </p>
+ <p class="MsoNormal">
+     که در آن :
+ </p>
+ <p class="MsoNormal">
+     $$ \varepsilon_0 = 8/5 \times 10^{-12} \, C^2 / N \cdot m^2 $$
+ </p>
+ <br><hr><br>
+ 
+ 
+ 
+ <p class="MsoNormal">
+     در شکل ۱-۸، $\vec{F_{12}}$ نیرویی است که بار نقطه‌ای $q_{ \ 1}$ به بار نقطه‌ای $q_{ \ 2}$ وارد می‌کند و $\vec{F_{21}}$ نیرویی است که بار نقطه‌ای $q_{ \ 2}$ به بار نقطه‌ای $q_{ \ 1}$ وارد می‌کند. این دو نیروی الکتریکی (بنا به قانون سوم نیوتون) هم اندازه، هم راستا، و در خلاف جهت همدیگرند. به عبارتی:
+ </p>
+ 
+ <p class="MsoNormal">
+     $$ \vec{F_{12}} = -\vec{F_{21}} \implies F_{12} = F_{21} = \  F $$
+ </p>
+ 
+ 
+ <br><hr><br>
+ 
+ <p class="MsoStep">مثال ۱-۲</p>
+ <p class="MsoNormal">
+     (الف) در مدل بور برای اتم هیدروژن، فاصله الکترون از پروتون هسته در حالت پایه برابر 
+     
+     $5/3 \times 10^{-11} \, m$
+      است (شکل را ببینید). اندازهٔ نیروی الکتریکی که پروتون به الکترون وارد می‌کند را محاسبه کنید.
+ </p>
+ <br>
+ <p class="MsoNormal">
+     (ب) در هستهٔ اتم هلیم، دو پروتون به فاصلهٔ تقریبی $r = 2/4 \times 10^{-15} \, m$ از هم قرار دارند. اندازهٔ نیرویی که پروتون‌ها بر هم وارد می‌کنند را محاسبه کنید.
+ </p>
+ <br>
+ <p class="MsoSemi">پاسخ:</p>
+ <p class="MsoNormal">
+     (الف) با استفاده از قانون کولن برای بزرگی نیروی الکتریکی بین دو ذرهٔ باردار داریم:
+ </p>
+ <br>
+ <div class="custom-scrollbar" style="overflow-y: hidden; overflow-x:auto;direction:ltr;">
+     <p class="MsoNormal">
+         $$
+         \begin{align*}
+         F &= k \dfrac{ \ \big| \ q_{ \ 1} \ \big| \ \ \big| \ q_{ \ 2} \ \big| \ }{r^2} \\\\
+         & = k \dfrac{ \ \big| \ q_{ \ e} \ \big| \ \ \big| \ q_{ \ p} \ \big| \ }{r^2} \\ \\
+         &= (9/0 \times 10^9 \, N \cdot m^2 / C^2) \cdot \dfrac{(1/60 \times 10^{-19} \, C)^2}{(5/3 \times 10^{-11} \, m)^2} \\ \\
+         &= 8/2 \times 10^{-8} \, N
+         \end{align*}
+         $$
+     </p>
+ </div>
+ 
+ <br>
+ 
+ <p class="MsoNormal">
+     (ب) با استفاده از قانون کولن داریم:
+ </p>
+ 
+ <br>
+ 
+ <div class="custom-scrollbar" style="overflow-y: hidden; overflow-x:auto;direction:ltr;">
+     <p class="MsoNormal">
+         $$
+         \begin{align*}
+         F &= k \dfrac{ \ \big| \ q_{ \ p} \ \big| \ \ \big| \ q_{ \ p} \ \big| \ }{r^2} \\\\
+         &= (9/0 \times 10^9 \, N \cdot m^2 / C^2) \cdot \dfrac{(1/60 \times 10^{-19} \, C)^2}{(2/4 \times 10^{-15} \, m)^2} \\\\
+         &= 40 \, N
+         \end{align*}
+         $$
+     </p>
+ </div>
+ 
+ <br>
+ 
+ <p class="MsoNormal">
+     که این، به مراتب بزرگ‌تر از نیروی محاسبه‌شده در قسمت الف است. این نیروی بزرگ، از جنس دافعه است. بنابراین، هستهٔ اتم باید فرو بپاشد. از اینجا نتیجه می‌گیریم که باید نیروی دیگری وجود داشته باشد که مانع فروپاشی هسته شود. به این نیرو، نیروی هسته‌ای گفته می‌شود.
+ </p>
+ 
+ 
+ <br><hr><br>
+ <p class="MsoStep">خوب است بدانید</p>
+ <p class="MsoNormal">
+     تمامی اجسام به علت جرمشان بر یکدیگر نیروی گرانشی وارد می‌کنند که همواره از نوع جاذبه است. بزرگی این نیرو برای الکترون و پروتون اتم هیدروژن از مرتبه $10^{-47} \, N$ است. بنابراین، در حدود $10^{40}$ بار کوچک‌تر از نیروی الکتریکی بین این دو ذره است و این نشان می‌دهد نیروی گرانشی به مراتب ضعیف‌تر از نیروی الکتریکی است.
+ </p>
+ 
+ 
+ <br><hr><br>
+ 
+
+ <p class="MsoStep">خوب است بدانید: DNA</p>
+ <p class="MsoNormal">
+     اطلاعات ژنتیکی در مولکول‌های خاصی به نام دنا (DNA) وجود دارد. در واقع دنا دارای اطلاعات و دستورهایی برای تعیین و ایجاد صفات ارثی ما و همهٔ جانداران است. در مولکول‌های دنا چهار نوع باز به نام‌های آدنین (A)، سیتوزین (C)، گوانین (G) و تیمین (T) وجود دارد. دنا مولکولی دورشته‌ای است که به صورت مارپیچ دوگانه پیچیده شده است. همان‌طور که در شکل نشان داده شده است، این دو رشته توسط نیروی‌های الکتریکی به یکدیگر پیوند خورده‌اند. مثلاً در شکل می‌بینیم که همواره آدنین و تیمین در دو طرف رشته و مقابل هم قرار دارند. به همین ترتیب G و C نیز در دو طرف رشته و مقابل هم قرار دارند.
+ </p>
+ <p class="MsoNormal">
+     بارهای مثبت در یک طرف رشته و بارهای منفی در طرف دیگر، دو رشته را به هم زیپ می‌کنند. این جاذبه آن‌قدر هست که رشته‌ها از هم نگسلد، اما به حد کافی ضعیف نیز هست تا در فرآیند رونویسی از هم گسیخته گردد.
+ </p>
+ <br><hr><br>
+ 
+ <p class="MsoSemi">
+    برآیند نیروهای الکتریکی:
+</p>
+<p class="MsoNormal">
+    اگر به جای دو ذرّه باردار، تعدادی بار نقطه‌ای داشته باشیم،  
+    نیروی الکتریکی وارد بر هر ذرّه، برآیند نیروهایی است که هر یک از ذرّه‌های دیگر  
+    به‌تنهایی بر آن ذرّه وارد می‌کند.
+</p>
+
+
+ 
+ <br>
+ 
+ <p class="MsoNormal">
+     فرض کنید $n$ ذرّهٔ باردار داشته باشیم که در نزدیکی یک ذرّهٔ بار نقطه‌ای $q_{ \ 0}$ قرار دارند. آن گاه نیروی خالص (برآیند) وارد بر بار نقطه‌ای $q_{ \ 0}$ با جمع برداری زیر داده می‌شود:
+ </p>
+ <p class="MsoNormal">
+     $$ 
+     \vec{F_{T_0}} = \vec{F_{10}} + \vec{F_{20}} + \cdots + \vec{F_{n_0}}
+     $$
+ </p>
+ <p class="MsoNormal">
+     شکل ۱-۹ نیروی وارد بر بار $q_{ \ 0}$ از سوی چهار بار دیگر را نشان می‌دهد.  
+ 
+ <br><br>
+ 
+     در این کتاب، مثال‌هایی را بررسی می‌کنیم که در آن‌ها نیروهای الکتریکی وارد بر یک ذرّهٔ باردار در یک راستا قرار دارند یا عمود بر یکدیگرند.
+ </p>
+ 
+ 
+ <br><hr><br>
+ <p class="MsoStep">پرسش ۱-۲</p>
+ <p class="MsoNormal">
+     سه ذرّهٔ باردار مانند شکل روبه‌رو، روی یک خط راست قرار دارند و فاصلهٔ بارهای سمت راست و چپ از بار میانی برابر است.  
+ </p>
+ 
+   <ul class="MsoNormal">
+     <p>
+         (الف) جهت نیروی الکتریکی خالص وارد بر بار الکتریکی میانی را تعیین کنید. 
+     </p>
+     
+     <p>
+         (ب) اگر ذرّهٔ سمت راست به جای $q$ 
+         ،
+         بار $-q$ داشته باشد، جهت نیروی الکتریکی خالص وارد بر بار میانی چگونه خواهد بود؟
+     </p>
+   </ul>
+ 
+ <br><hr><br>
+ 
+   <p class="MsoStep">مثال ۱-۳</p>
+ <p class="MsoNormal">
+     سه ذرّه با بارهای 
+     $ q_{ \ 1} = +2/5 \, \mu C $
+     و
+     $ q_{ \ 2} = -1/0 \, \mu C $ 
+     و 
+     $ q_{ \ 3} = +4/0 \, \mu C $  
+     در نقطه‌های 
+     $A$
+      و 
+     $B$
+      و 
+     $C$
+      مطابق شکل روبه‌رو ثابت شده‌اند. نیروی الکتریکی خالص وارد بر بار 
+     $q_{ \ 3}$
+      را محاسبه کنید.
+ </p>
+ 
+ 
+ <br>
+ 
+ 
+ <p class="MsoSemi">پاسخ:</p>
+ <p class="MsoNormal">
+     نیروی الکتریکی خالصی که بر بار $q_{ \ 3}$ وارد می‌شود، برآیند دو نیرویی است که از طرف بارهای $q_{ \ 1}$ و $q_{ \ 2}$ بر آن وارد می‌شوند.  
+     برای محاسبهٔ این نیرو، نیرویی را که هر یک از بارهای $q_{ \ 1}$ و $q_{ \ 2}$ در نبود دیگری،  
+     نیروی الکتریکی وارد بر $q_{ \ 3}$، برآیند این دو نیرو است، محاسبه می‌کنیم.
+ 
+     نیروی الکتریکی وارد بر $q_{ \ 3}$، برآیند این دو نیرو است.  
+ 
+     <br><br>
+ 
+     فاصلهٔ بین بارهای $q_{ \ 1}$ و $q_{ \ 3}$ را با $r_{13}$ و فاصلهٔ بین بارهای $q_{ \ 2}$ و $q_{ \ 3}$ را با $r_{23}$ نشان می‌دهیم.  
+     با استفاده از رابطهٔ $2-1$ داریم:
+ </p>
+ 
+ <p class="MsoNormal">
+     $$
+     \begin{align*}
+     F_{1_3} &= k \dfrac{ \ \big| \ q_{ \ 1} \ \big| \ \big| \ q_{ \ 3} \ \big| \ }{r_{13}^2} \\\\
+     &= (9/0 \times 10^9 \, N \cdot m^2 / C^2) \cdot \dfrac{(2/5 \times 10^{-6} \, C)(4/0 \times 10^{-6} \, C)}{(6/0 \, m)^2} \\\\
+     &= 2/5 \times 10^{-3} \, N
+     \end{align*}
+     $$
+ </p>
+ 
+ <br>
+ <hr style="background-color: #D6D1DA30;width: 50%;">
+ <br>
+ 
+ <div class="custom-scrollbar" style="overflow-y: hidden; overflow-x:auto;direction:ltr;">
+     <p class="MsoNormal">
+         $$
+         \begin{align*}
+         F_{23} &= k \dfrac{ \ \big| \ q_{ \ 2} \ \big| \ \big| \ q_{ \ 3} \ \big| \ }{r_{23}^2} \\\\
+         &= (9/0 \times 10^9 \, N \cdot m^2 / C^2) \cdot \dfrac{(1/0 \times 10^{-6} \, C)(4/0 \times 10^{-6} \, C)}{(2/0 \, m)^2} \\\\
+         &= 9/0 \times 10^{-3} \, N
+         \end{align*}
+         $$
+     </p>
+ </div>
+ 
+ <br>
+ 
+ 
+ <p class="MsoNormal">
+     نیرویی که بار 
+     $q_{ \ 1}$
+      بر بار 
+      $q_{ \ 3}$ 
+      وارد می‌کند، دافعه و نیرویی که بار 
+      $q_{ \ 2}$
+       بر بار 
+       $q_{ \ 3}$ 
+     وارد می‌کند جاذبه است.  
+     مطابق شکل، نیروهای 
+     $\vec{F_{13}}$
+     و 
+     $\vec{F_{23}}$
+     در جهت‌های مخالف یکدیگرند و برآیند آنها برابر است با
+ </p>
+ 
+ <p class="MsoNormal">
+     $$
+     \vec{F_T} = \vec{F_{23}} + \vec{F_{13}}
+     $$
+ </p>
+ 
+ <br>
+ 
+ <p class="MsoNormal">
+     بنابراین، اندازهٔ نیروی برآیند برابر با تفاضل اندازهٔ آنهاست:
+ </p>
+ 
+ <p class="MsoNormal">
+     $$
+     \begin{align*}
+     F_T &= F_{23} - F_{13} \\\\
+     &= 6/5 \times 10^{-3} \, N
+     \end{align*}
+     $$
+ </p>
+ 
+ <br>
+ 
+ 
+ <p class="MsoNormal">
+     و جهت آن در جهت نیروی بزرگ‌تر $(\vec{F_{23}})$، یعنی از سمت راست به طرف چپ، است.  
+     اگر محور $x$ را روی خط واصل سه بار و جهت مثبت آن را به سمت راست در نظر بگیریم و بردار یکه محور $x$ را $\vec{i}$ بنامیم، داریم:
+ </p>
+ <p class="MsoNormal">
+     $$
+     \vec{F_T} = (-6/5 \times 10^{-3} \, N) \vec{i}
+     $$
+ </p>
+ 
+ 
+ 
+ <br><hr><br>
+ 
+ <p class="MsoStep">
+     تمرین 1-2
+ </p>
+ <p class="MsoNormal">
+     در مثال ۱-۳، نیروی خالص وارد بر بار $q_{ \ 2}$ را به‌دست آورید.
+ </p>
+ 
+ <br><hr><br>
+ 
+ 
+ <p class="MsoStep">
+    پرسش ۳-۱
+ </p>
+ <p class="MsoNormal">
+     سه ذرهٔ باردار مطابق شکل روبه‌رو، در سه گوشهٔ یک مربع قرار دارند.  
+ </p>
+ 
+ <ul class="MsoNormal">
+     <p>
+         الف) جهت نیروی الکتریکی خالص وارد بر بار سمت راستی پایینی را تعیین کنید.  
+     </p>
+     <p>
+         ب) اگر ذرهٔ سمت چپ پایینی به‌جای $q$، بار $-q$ داشته باشد، جهت نیروی الکتریکی خالص وارد بر بار سمت راستی پایینی چگونه خواهد بود؟  
+     </p>
+ </ul>
+ 
+ 
+ <br><hr><br>
+ 
+ 
+ <p class="MsoStep">
+   مثال ۱-۴
+ </p>
+ <p class="MsoNormal">
+     سه ذرهٔ باردار مطابق شکل روبه‌رو در سه رأس مثلث قائم‌الزاویه‌ای ثابت شده‌اند. نیروی الکتریکی خالصوارد بر ذرهٔ واقع در رأس قائمه را به‌دست آورده و اندازهٔ این نیرو را محاسبه کنید.  
+ </p>
+ <br>
+ <p class="MsoNormal">
+     <b>پاسخ:</b>
+     <br>
+     نیروی الکتریکی بین بارهای $q_{ \ ۱}$ و $q_{ \ ۲}$ دافعه و نیروی بین بارهای $q_{ \ ۱}$ و $q_{ \ w}$ جاذبه است. با استفاده از رابطهٔ ۱-۲ داریم:
+ </p>
+ 
+ 
+ <div class="custom-scrollbar" style="overflow-y: hidden; overflow-x:auto;direction:ltr;">
+     <p class="MsoNormal">
+         $$
+         \begin{align*}
+         F_{۲۱} &= k \dfrac{ \ \big| q_{ \ ۲} \big| \ \big| q_{ \ ۱} \big| }{r_{۲۱}^2} \\\\
+         &= (9/0 \times 10^9 \, N \cdot m^2 / C^2) \cdot \dfrac{(4/0 \times 10^{-6} \, C)(2/0 \times 10^{-6} \, C)}{(3/0 \, m)^2} \\\\
+         &= 8/0 \times 10^{-3} \, N
+         \end{align*}
+         $$
+     </p>
+     
+ </div>
+ 
+ <br>
+ 
+ <p class="MsoNormal">
+     با توجه به دستگاه مختصات داده‌شده،  
+ $\vec{F_{21}}$
+     در جهت مثبت محور $x$ 
+     است. 
+     بنابراین :
+         $$ \overrightarrow{F_{۲۱}} = (8/0 \times 10^{-۱} \ N) \ \vec{i} $$
+     به همین ترتیب، برای نیروی بین بارهای $q_{ \ ۲}$ و $q_{ \ 1}$ داریم:
+ </p>
+ 
+ <br>
+ 
+ <div class="custom-scrollbar" style="overflow-y: hidden; overflow-x:auto;direction:ltr;">
+     <p class="MsoNormal">
+         $$
+         \begin{align*}
+         F_{31} &= k \dfrac{ \ \big| q_{ \ 3} \big| \ \big| q_{ \ 1 } \big| }{r_{31}^2} \\\\
+         &= (9/0 \times 10^9 \, N \cdot m^2 / C^2) \cdot \dfrac{(3/0 \times 10^{-6} \, C)(2/0 \times 10^{-6} \, C)}{(3/0 \, m)^2} \\\\
+         &= 6/0 \times 10^{-3} \, N
+         \end{align*}
+         $$
+     </p>
+     
+ </div>
+ 
+ <br>
+ 
+ <p class="MsoNormal">
+     با توجه به دستگاه مختصات داده‌شده،  
+     $\vec{F_{31}}$
+     در جهت مثبت محور $y$ 
+     است.
+      بنابراین :
+ 
+     $$ \overrightarrow{F_{۳۱}} = (6/0 \times 10^{-۳} \ N) \ \vec{j} $$
+     
+     پس برآیند نیروهای الکتریکی وارد بر بار $q_{ \ ۱}$ برابر است با
+     :
+ 
+ </p>
+ 
+ <br>
+ 
+ <p class="MsoNormal">
+     $$
+     \begin{align*}
+     \overrightarrow{F_T} &= \overrightarrow{F_{۲۱}} + \overrightarrow{F_{۳۱}} \\\\
+     &= (8/0 \times 10^{-۳} \ N) \ \vec{i} + (6/0 \times 10^{-۳} \ N) \ \vec{j}
+     \end{align*}
+     $$
+ </p>
+ 
+ <br>
+ 
+ <p class="MsoNormal">
+     و بزرگی آن با استفاده از رابطهٔ فیثاغورس، چنین به‌دست می‌آید:  
+ </p>
+ 
+ <br>
+ 
+ <p class="MsoNormal">
+     $$
+     \begin{align*}
+     F_T &= \sqrt{F_{۲۱}^۲ + F_{۳۱}^۲} \\\\
+     &= \sqrt{(8/0 \times 10^{-۳} \ N)^2 + (6/0 \times 10^{-۳} \ N)^2} \\\\
+     &= 1/0 \times 10^{-۲} \ N
+     \end{align*}
+     $$
+ </p>
+ 
+ 
+ 
+ <br><hr><br>
+ 
+ <p class="MsoStep">
+     تمرین ۳-۱
+ </p>
+ <p class="MsoNormal">
+     در مثال ۱-۴:  
+     <br>
+     الف) اگر علامت بار $q_{ \ 2}$ تغییر کند، جهت نیروی برآیند وارد بر بار $q_{ \ 1}$
+     چگونه خواهد شد؟  
+     <br>
+     ب) اگر علامت بار $q_{ \ 3}$ تغییر کند، جهت نیروی برآیند وارد بر بار $q_{ \ 1}$
+     چگونه خواهد شد؟  
+     <br>
+     پ) آیا اندازهٔ نیروی برآیند وارد بر بار $q_{ \ 1}$ در قسمت‌های الف و ب با مقدار به‌دست‌آمده در مثال ۱-۴ متفاوت است؟  
+ </p>
+
+
+    
+
+    <br><br><br><br><br><br><br><br><br><br>
+</body>
+
+
+</html>

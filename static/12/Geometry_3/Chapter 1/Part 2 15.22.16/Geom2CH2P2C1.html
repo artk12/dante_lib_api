@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi {
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSemic,
+        li.MsoSemic,
+        div.MsoSemic {
+            margin: 0in;
+           
+            font-size: clamp(1.2rem, 1.6vw, 1.3rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #b19af2;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #6ca4ec;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .boxp {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .boxg {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#00f2ff11; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        .boxb {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#0c4e9f2d; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        ::selection {
+            background-color: #59078fa1; /* Change this to your desired highlight color */
+            color: #ffffff; /* Change this to your desired text color */
+          }
+
+
+          mark{
+            background-color:#078b8fa1 ;
+            color: #ffffff;
+            padding: 0 7px;
+        }
+
+        .hlg { background-color: rgba(0, 234, 255, 0.334);  }
+        .hlp { background-color:#5f1487; }
+      
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+    <body class="custom-scrollbar">
+
+
+
+        <div class="MsoBold">درس دوم:
+            <br>
+            کاربرد تبدیل‌ها</div>
+        
+        <p class="MsoNormal">
+        تبدیل‌های هندسی شامل بازتاب، انتقال، دوران و تجانس به طور مستقیم و غیرمستقیم در زندگی واقعی کاربرد دارد؛ برای مثال در سال‌های گذشته با کاربرد برخی تبدیل‌ها در کاشیکاری آشنا شدید. آیا می‌توانید با تأمل در محیط اطراف خود به نمونه‌هایی اشاره کنید که تبدیل‌های هندسی در آن به‌کار رفته‌اند؟
+        </p>
+        
+        <p class="MsoNormal">
+        به این تصاویر دقت کنید. کدامیک از تبدیل‌های هندسی بر زیبایی خوشنویسی‌های زیر افزوده است؟
+        </p>
+        
+
+<br><hr>
+
+
+
+<div class="MsoBold">کاربردهایی از بازتاب (قرینه‌یابی)</div>
+
+<p class="MsoNormal">
+بازتاب علاوه بر شاخه‌های مختلف ریاضی در دیگر علوم نظیر هنر، معماری، فیزیک و ... کاربرد دارد. در علم فیزیک، ویژگی‌های بازتاب همان ویژگی‌های آینه تخت است. کاربردهای دیگری از بازتاب را در ادامه خواهیم دید.
+</p>
+<br>
+<p class="MsoNormal">
+۱- می‌خواهیم کیکی به شکل زیر را به‌طور مساوی بین دو نفر تقسیم کنیم. نمای بالای کیک از مربع $BCDE$ و کمان $AE$ از یک دایره تشکیل شده است به طوری که $A$ و $B$ و $E$ روی یک خط هستند.
+</p>
+<br>
+<p class="MsoNormal">
+اگر نمای بالای کیک به شکل روبرو بود، تقسیم آن کار ساده‌ای بود؛ چرا که می‌توانستیم از روی خط بازتاب $m$ کیک را برش بزنیم و آن را به دو نیمه مساوی تقسیم کنیم.
+</p>
+<br>
+<p class="MsoNormal">
+این شکل، راه ساده‌ای برای برش زدن کیک و تقسیم آن به دو سهم برابر ارائه می‌کند. توضیح دهید که بازتاب به حل این مسئله چه کمکی کرده است.
+</p>
+<br><br>
+<p class="MsoNormal">
+۲- یکی از کاربردهای بازتاب، حل مسائلی است که به مسائل هم‌پیرامونی یا هم‌محیطی معروف است. در این گونه مسائل، هدف این است که بدون اینکه محیط یک چندضلعی تغییر کند، مساحت آن چندضلعی را تغییر دهیم.
+</p>
+<br>
+<p class="MsoNormal">
+برای مثال فرض کنید که زمینی به شکل چندضلعی $ABCDE$ داریم که دور آن را حصار کشیده‌ایم. حال می‌خواهم با ثابت نگه‌داشتن محیط و ثابت نگه‌داشتن تعداد اضلاع چندضلعی، بدون اینکه اندازهٔ حصار کشی تغییر کند، مساحت زمین را افزایش دهم.
+</p>
+
+
+<br>
+
+
+
+<p class="MsoNormal">
+    به کمک این تصویر توضیح دهید که این عمل را چگونه می‌توان انجام داد.
+    </p>
+    <br>
+    <p class="MsoNormal">
+    چرا محیط چندضلعی $ABCDE$ با محیط چندضلعی $ABC'DE$ یکی است؟
+    </p>
+    <br><hr>
+    <div class="MsoBold">مسائل پیدا کردن کوتاه‌ترین مسیر</div>
+    
+    <p class="MsoNormal">
+    (الف) هرون، ریاضی‌دانی است که به او دایرة‌المعارف ریاضی و فیزیک لقب داده‌اند. او که در فاصلهٔ زمان ۲۵ تا ۱۵۰ سال قبل از میلاد مسیح در مصر زندگی می‌کرد برای نخستین بار به کمک بازتاب، دستور پیدا کردن کوتاه‌ترین مسیر را در شرایطی خاص ارائه کرد.
+    </p>
+    <br>
+    <p class="MsoNormal">
+    او با این مسئله روبرو شده بود که:
+    </p>
+    <br>
+    <p class="MsoNormal">
+    «مردی می‌خواهد برای آب داشتن آن از خانه به ساحل رودخانه‌ای که لبهٔ مستقیمی دارد برود و بعد سطل آب را به اسطبل ببرد که در همان سمت رودخانه است. او از کدام نقطه از ساحل آب بردارد که در مجموع طی می‌کند، کمترین حالت ممکن باشد؟»
+    </p>
+    <br>
+    <p class="MsoNormal">
+    مسئله پیدا کردن نقطهٔ $M$ روی خط $d$ است به گونه‌ای که $AM + MB$ کمترین مقدار ممکن باشد.
+    </p>
+    <br>
+    <p class="MsoNormal">
+    هرون ابتدا بازتاب $A$ را نسبت به خط پیدا کرد و آن را $A'$ نامید. خط فرضی $A'B$ خط بازتاب را در نقطه‌ای مثل $M$ قطع می‌کند. او مدعی شد که این جواب مسئله است و $AM + MB$ کوتاه‌ترین مسیر ممکن است.
+    </p>
+    <br>
+    <p class="MsoNormal">
+    با هم دلیل ادعای هرون را بررسی می‌کنیم:
+    </p>
+    <br>
+    <p class="MsoNormal">
+    ۱- برای هر نقطه دلخواه دیگری نظیر $M_1$ داریم $M_1A = M_1A'$ (و به همین ترتیب $AM = A'M$)؛ چرا؟
+    </p>
+    <br><br>
+    <p class="MsoNormal">
+        ۲- در مثلث $A'M_1 B$ داریم $A'M_1 + M_1 B > A'B$؛ چرا؟ از تساوی $A'B = A'M + MB$ و(۱) و (۲) ادعای هرون را اثبات کنید.
+        </p>
+    <br><br>
+    <div class="MsoSemi" style="font-size:larger;">سوال:</div>
+    
+    <p class="MsoNormal">
+    در روش هرون نقطهٔ $A'$ طرف دیگر رودخانه قرار دارد. اگر در عمل به دنبال یافتن کوتاه‌ترین مسیر مورد نظر باشیم و امکان رفتن به طرف دیگر رودخانه نباشد، چگونه نقطه $M$ را می‌توان پیدا کرد؟
+    </p>
+    <br>
+    <p class="MsoNormal">
+    $*$
+    راهنمایی: از تساوی دو مثلث $AHM$ و $BH'M$ کمک بگیرید و توجه داشته باشید که اندازه‌های $AH$ و $BH'$ از مقدار معلوم هستند.
+    </p>
+    <br><br>
+
+
+    <p class="MsoNormal">
+        (ب) دو شهر $A$ و $B$ مطابق شکل در یک طرف رودخانه‌ای واقع‌اند. می‌خواهیم جاده‌ای از $A$ به $B$ بسازیم، به‌طوری که ۴ کیلومتر از این جاده در ساحل رودخانه ساخته شود. این ۴ کیلومتر را در چه قسمتی از رودخانه بسازیم تا مسیر $ACDB$ کوتاه‌ترین مسیر ممکن باشد؟
+        </p>
+        <br>
+
+
+
+        <p class="MsoSemi">
+        حل:
+        </p>
+        
+        <p class="MsoNormal">
+        مسئله را در چند مرحله حل می‌کنیم:
+        </p>
+        <br>
+        <p class="MsoNormal">
+        ۱- اگر جادهٔ ساحلی را از صورت مسئله حذف کنیم، به عبارتی اگر $CD = 0$. این مسئله به کدام‌یک از مسائلی شبیه است که قبلاً دیده‌ایم؟
+        </p>
+        <br><br>
+        <p class="MsoNormal">
+        ۲- با توجه به شرایط مسئله، مسیر موردنظر، باید مسیری به شکل مسیر $ACDB$ باشد. اما:
+        </p>
+        
+        <p class="MsoNormal">
+        (چرا؟!) طول مسیر $ACB'$ طول مسیر $ACDB$ 
+        <br>
+        $+ 4$ = طول مسیر $ACB$
+        </p>
+        
+        <p class="MsoNormal">
+        بنابراین:
+        </p>
+        <br><br>
+        <p class="MsoNormal">
+        ۳- پس کافی است برای پیدا کردن کوتاه‌ترین مسیر ممکن، به شکل مسیر $ACDB$ بسرا را به گونه‌ای انتخاب کنیم که طول $ACB'$ کوتاه‌ترین طول ممکن باشد.
+        </p>
+        <br><br>
+        <p class="MsoNormal">
+        ۴- به کمک مراحل ۱ تا ۳ و شکل روبرو توضیح دهید که رسم کوتاه‌ترین مسیر $ACDB$ چگونه است.
+        </p>
+        <br><hr><br>
+        <div class="MsoStep">کار در کلاس</div>
+
+        <p class="MsoNormal">
+        اگر دو شهر $A$ و $B$ دو طرف رودخانه باشند و بخواهیم جاده‌ای از $A$ به $B$ بسازیم به طوری که پل $MN$ بر راستای رودخانه عمود باشد، محل احداث پل را کجا در نظر بگیریم که مسیر $AMNB$ کوتاه‌ترین مسیر ممکن باشد؟
+    </p>
+        <br>
+        <p class="MsoNormal">
+            $*$
+        راهنمایی: به کمک فعالیت قبل و با توجه به تصویر داده شده، طریقه رسم مسیر $AMNB$ را شرح دهید و مشخص کنید چرا این مسیر، کوتاه‌ترین مسیر ممکن است.
+        </p>
+        
+
+        <br><hr><br>
+
+        <p class="MsoStep">
+            تمرین
+        </p>
+
+            <p class="MsoNormal">
+                ۱- دور زمین‌هایی مطابق شکل حصارکشی شده است. چطور می‌توان بدون کم و زیاد کردن حصارها، مساحت زمین را افزایش داد؟
+            </p>
+            
+            <br><br>
+        
+            <p class="MsoNormal">
+                ۲- می‌خواهیم کنار رودخانه‌ها، ۳ اسکله بسازیم. جای ۲ اسکله $A$ و $B$ مطابق شکل مشخص است. اسکله $M$ را در چه نقطه‌ای از ساحل رودخانه بسازیم که قایق‌ها هنگام طی مسیر $MABM$ کوتاه‌ترین مسیر را طی کنند؟
+            </p>
+            <br><br>
+            <p class="MsoNormal">
+                ۳- سه خط دو به دو ناموازی $l$ و $l'$ و $l''$ در صفحهٔ مفروض‌اند. پاره‌خطی به‌طول ۵ سانتی‌متر رسم کنید که دو سر آن روی $l$ و $l'$ و موازی $l''$ باشد.
+            </p>
+        
+            <br><br>
+            <div class="tamrin">
+                <p class="MsoNormal">
+                    ۴- فرض کنید $G$ محل برخورد میانه‌های مثلث $ABC$ (مرکز ثقل آن) باشد و مثلث $A'B'C'$ مجانس مثلث $ABC$ در تجانس به مرکز $G$ و نسبت $K = -\dfrac{1}{2}$ باشد.
+                </p>
+                <br>
+                <p class="MsoNormal">
+                    الف) جایگاه رأس‌های $A'$, $B'$, و $C'$ نسبت به مثلث $ABC$ کجاست؟
+                </p>
+                <br>
+                <p class="MsoNormal">
+                    ب) مساحت مثلث $A'B'C'$ چه کسری از مساحت مثلث $ABC$ است؟
+                </p>
+            </div>
+            
+            <br><br>
+            <p class="MsoNormal">
+                ۵- زمینی به شکل زیر داریم. می‌خواهیم بدون آنکه محیط این زمین تغییر کند مساحتش را افزایش دهیم. در هر مورد میزان افزایش مساحت را حساب کنید.
+            </p>
+        
+        
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br><br><br><br>
+
+
+    </body>
+
+
+</html>

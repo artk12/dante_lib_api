@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi {
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSemic,
+        li.MsoSemic,
+        div.MsoSemic {
+            margin: 0in;
+           
+            font-size: clamp(1.2rem, 1.6vw, 1.3rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #b19af2;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #6ca4ec;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .boxp {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .boxg {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#00f2ff11; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        .boxb {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#0c4e9f2d; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        ::selection {
+            background-color: #59078fa1; /* Change this to your desired highlight color */
+            color: #ffffff; /* Change this to your desired text color */
+          }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+
+    <body class="custom-scrollbar">
+
+
+        <p class="MsoBold">فصل ۴<br> زمین‌شناسی و سازه‌های مهندسی</p>
+
+        <p class="MsoNormal">انسان از گذشته‌های دور، بناهایی ساخته است که هنوز هم پس از گذشت هزاران سال، باقی مانده‌اند. ستون‌های بزرگ تخت جمشید، بناهای چغازنبیل، اهرام مصر، دیوار چین و قنات‌های باستانی با وجود گذشت سال‌ها، هنوز هم پابرجا هستند و دانش مهندسی را در عهد باستان نشان می‌دهند. به‌راستی، چه عواملی باعث شده است تا این بناها همچنان پا بر جا بمانند؟ در ساخت آن‌ها، از چه مصالحی استفاده شده است؟ جاده‌ها، راه‌آهن، پل‌ها، تونل‌ها، خطوط انتقال نفت، گاز و آب، سدها، کارخانه‌ها، ساختمان‌های بلند، برج‌های مخابراتی مانند برج میلاد و همه سازه‌های مهندسی، از موادی ساخته می‌شوند که از زمین به‌دست می‌آیند.</p>
+        
+        <p class="MsoNormal">بارها در رسانه‌ها، اخبار مربوط به انواع ریزش سنگ در جاده‌های کوهستانی، تخریب ساختمان‌ها و سازه‌های سنگین به دلیل گودبرداری، ریزش تونل‌ها، فرار آب از سدها و تخریب بدنۀ آن‌ها، ریزش پل‌ها و ... را شنیده‌اید.</p>
+        
+        <p class="MsoNormal">یکی از مسائل اصلی در ساخت و نگهداری سازه‌ها، پایداری زمین است. در ساخت سازه‌ها، مسائل مختلف زمین‌شناسی مطرح است که باید مورد مطالعه قرار گیرد. یکی از وظایف مهم زمین‌شناس، تشخیص احتمال وقوع فرایندهای مخرب و ارائه روش‌های مقابله با آن‌ها است به نحوی که، آسیبی به تأسیسات و سازه‌های مهندسی وارد نشود.</p>
+        
+        <br><hr><br>
+        
+        <p class="MsoStep">مکانیابی سازه‌ها</p>
+        <p class="MsoNormal">قبل از اجرای پروژه‌های عمرانی مانند سد، نیروگاه، بزرگراه، پل، مجتمع‌های تجاری و مسکونی، برج‌ها و ... که سازه نامیده می‌شوند، انجام مطالعات زمین‌شناسی سنگ بستر آن‌ها، ضروری است. در این مطالعات، ناهمواری‌های سطح زمین، استحکام سنگ‌ها، نفوذپذیری، پایداری دامنه‌ها در برابر ریزش و جنس مصالح به‌کار رفته در سازه مورد بررسی قرار می‌گیرد.</p>
+        
+        <br>
+        
+        <div class="boxg">
+        <p class="MsoStep">بیشتر بیندیشید</p>
+        <p class="MsoNormal">$*$ شکل روبه‌رو، دره V شکل است؛ با توجه به مورفولوژی منطقه، آیا احداث پل بر روی آن را مناسب می‌دانید؟</p>
+        </div>
+        
+        <br><br>
+        
+        <p class="MsoNormal">یکی از عوامل مهم در مکانیابی ساختگاه سازه‌ها، مقاومت زمین پِی آن‌ها در برابر نیروهای وارده است. به‌عنوان مثال، در پشت یک سد، فشار زیادی از طرف آب به لایه‌های زیرین، تکیه‌گاه و همچنین بدنۀ سد، وارد می‌شود. سد نیز، وزن زیادی دارد که گاه به چندین میلیون تن می‌رسد. بنابراین، سنگ‌های پِی سد، باید در برابر تنش‌های ناشی از وزن سد، مقاوم باشند و دچار گسیختگی و نشست نشوند.</p>
+        
+        <br><hr><br>
+        
+        <p class="MsoStep">تنش</p>
+        <p class="MsoNormal">هرگاه سنگ، تحت تأثیر نیرویی از خارج قرار گیرد، در داخل سنگ نیز، نیرویی بر واحد سطح وارد می‌شود که تنش نامیده می‌شود. تنش‌های وارده بر یک سنگ یا خاک، ممکن است به‌صورت کششی، فشاری یا برشی یا ترکیبی از آن‌ها باشند. تنش‌های وارده بر سنگ‌ها و خاک‌ها، باعث تغییر شکل آن‌ها می‌شود.</p>
+        
+
+        <p class="MsoNormal">
+
+            $$ \text{تنش} = \frac{ F \text{ نیرو }(N) }{ A  \text{ سطح } (m^2) }       $$
+        </p>
+
+        <br>
+
+        <table class="tables" style="text-align: center; margin:auto;width:min-content">
+
+            <tr>
+
+                <th>
+                    تغییر شکل
+                </th>
+                <th>
+                  اثر بر روی سنگ
+                </th>
+                <th>
+                   نوع تنش
+                </th>
+
+         
+            </tr>
+
+            <tr>
+                <td>
+                    <img class="images" src="png1.png" style="width: 150px;">
+                </td>
+                <td>
+                  گسستگی سنگ
+                </td>
+                <td>
+                  کششی
+                </td>
+                
+            </tr>
+            <tr>
+                <td>
+                    <img class="images" src="png1.png" style="width: 150px;">
+                </td>
+                <td>
+                 متراکم شدن سنگ
+                </td>
+                <td>
+                 فشاری
+                </td>
+                
+            </tr>
+            <tr>
+                <td>
+                    <img class="images" src="png1.png" style="width: 150px;">
+                </td>
+                <td>
+                بریدن سنگ
+                </td>
+                <td>
+                 برشی
+                </td>
+                
+            </tr>
+
+        </table>
+
+
+
+        <br><br>
+
+
+        <p class="MsoNormal">مقاومت سنگ، عبارت است از حداکثر تنش یا ترکیبی از تنش‌ها که سنگ می‌تواند تحمل کند، بدون آنکه بشکند. هر چه مقاومت سنگ، در مقابل این تنش‌ها، کمتر باشد، سنگ ناپایدارتر است و سطوح شکست بیشتری در آن ایجاد می‌شود. از این‌رو، شکستگی سنگ‌ها و ایجاد درزه‌ها، باعث ناپایداری سنگ یا خاک در پی سازه‌ها می‌شوند.</p>
+
+        <p class="MsoNormal">در مطالعات آغازین یک پروژه، به‌منظور نمونه‌برداری از خاک یا سنگ پی‌سازه، گمانه‌ها یا چال‌های باریک و عمیقی در نقاط مختلف محل احداث سازه حفر می‌شود. نمونه‌های سنگ یا خاک برداشت‌شده، به آزمایشگاه‌های تخصصی ارسال می‌شود و مقدار مقاومت سنگ و خاک در برابر تنش‌های وارده را مورد بررسی قرار می‌دهند (شکل 1ـ4).</p>
+        
+
+
+        <br><hr><br>
+        
+        <p class="MsoStep">رفتار مواد در برابر تنش</p>
+        <p class="MsoNormal">مواد جامد بر اثر تنش، تغییر شکل می‌دهند. مقدار و نوع تغییر شکل ایجاد شده، به رفتار آن‌ها در برابر تنش بستگی دارد (شکل 2ـ4).</p>
+        <br>  <p class="MsoNormal">برخی از اجسام، مانند سنگ‌ها از خود رفتار کشسان (الاستیک) نشان می‌دهند. بدین معنی که با اِعمال تنش، سنگ‌ها دچار تغییر شکل می‌شوند و با رفع تنش، به حالت اولیۀ خود بازمی‌گردند. اما، اگر تنش ناگهانی و از حد مقاومت سنگ بیشتر شود، سنگ دچار شکستگی می‌شود و درزه‌ها و گسل‌ها را به‌وجود می‌آورد.</p>
+        <br> <p class="MsoNormal">برخی از سنگ‌ها از خود رفتار خمیرسان (پلاستیک) نشان می‌دهند یعنی، پس از رفع تنش، سنگ‌های تغییر شکل یافته، به‌طور کامل به حالت اولیۀ خود برنمی‌گردند.</p>
+        
+        <br>
+        
+        <p class="MsoNormal">مقاومت انواع سنگ‌ها در برابر تنش وارده، متفاوت است. سنگ‌های آذرین، می‌توانند تکیه‌گاه مناسبی برای سازه‌ها باشند؛ مانند پی سنگ سد امیرکبیر که از جنس سنگ گابرو است. بعضی از سنگ‌های دگرگونی، مانند کوارتزیت و هورنفلس که مقاومت بیشتری دارند، می‌توانند تکیه‌گاه مناسبی برای سازه‌های سنگین باشند و برخی دیگر از آن‌ها مانند شیست‌ها که سست و ضعیف هستند، برای پِی سازه‌ها مناسب نیستند.</p>
+        <p class="MsoNormal">برخی از سنگ‌های رسوبی، مانند ماسه‌سنگ‌ها، استحکام لازم برای ساخت سازه را دارند اما، سنگ‌های تبخیری مانند سنگ گچ، ژیپس و نمک (به دلیل انحلال‌پذیری) و شیل‌ها (به دلیل تورق و سست بودن) در برابر تنش مقاوم نیستند.</p>
+        
+        <br><hr><br>
+        
+        <p class="MsoStep">نفوذپذیری</p>
+        <p class="MsoNormal">یکی دیگر از عوامل مؤثر در مکانیابی سازه‌ها، نفوذپذیری خاک و سنگ است. سنگ‌های کربناتی، به سنگ‌های رسوبی گفته می‌شود که بیش از 50 درصد آن‌ها کانی‌های کربناتی (کلسیت و دولومیت) باشد. این سنگ‌ها، اغلب درزه‌دار هستند. با گذشت زمان و در جریان آب‌های نفوذی، بخش‌هایی از این سنگ‌ها در آب، حل و در آن حفره‌هایی تشکیل می‌دهند. پیشرفت عمل انحلال، ممکن است منجر به تشکیل حفره‌های انحلالی بزرگ در این سنگ‌ها و ایجاد غارها شود (شکل 4ـ4).</p>
+        <br>
+        <p class="MsoNormal">سنگ آهک ضخیم‌لایه که فاقد حفرات انحلالی باشد، پِی و تکیه‌گاه خوبی برای احداث سازه می‌باشد اما، در صورتی که سنگ آهک، دارای حفرات انحلالی باشد، می‌تواند مشکلات جدی از قبیل فرار آب یا نشست زمین را به همراه داشته باشد.</p>
+        <br>
+        <p class="MsoNormal">انحلال‌پذیری سنگ‌های تبخیری (سنگ گچ و سنگ نمک)، بیش از سنگ‌های آهکی است. بنابراین حفره‌ها و غارهای انحلالی در این سنگ‌ها، سریع‌تر از دیگر سنگ‌ها ایجاد می‌شود. اگر سد بر روی لایه‌هایی از سنگ گچ احداث شود، ممکن است پس از چند سال، حفرات انحلالی در سنگ، ایجاد و باعث فرار آب از مخزن سد و همچنین ناپایداری بدنۀ سد شود.</p>
+        
+        <br><hr><br>
+
+        <p class="MsoStep">مکان مناسب برای ساخت سد</p>
+        <p class="MsoNormal">سد، سازه‌ای است که به‌منظور ذخیرهٔ آب، مهار سیلاب، تأمین آب شرب و کشاورزی و همچنین تولید نیروی الکتریسیته احداث می‌شود. بعضی از سدها چندمنظوره‌اند، یعنی به‌طور هم‌زمان چند هدف را تأمین می‌کنند.</p>
+        <p class="MsoNormal">سدها، از نظر نوع مصالح ساختمانی به‌کار رفته، به دو دستهٔ خاکی و بتنی تقسیم می‌شوند. مهم‌ترین عامل در تعیین نوع سد و محل احداث آن، شرایط زمین‌شناسی منطقه و مصالح موردنیاز است.</p>
+        <p class="MsoNormal">در مطالعات زمین‌شناسی سد، وضعیت مخزن، تکیه‌گاه‌ها و پی سد (شکل 5ـ4) از نظر پایداری و فرار آب مورد بررسی قرار می‌گیرد. برای آنکه فرار آب از مخزن سد صورت نگیرد باید دیواره‌ها و کف مخزن نفوذناپذیر باشند یا از نفوذپذیری بسیارکمی برخوردار باشند.</p>
+        <br>
+        
+        <div class="boxg">
+            <p class="MsoStep">جمع‌آوری اطلاعات</p>
+            <p class="MsoNormal">
+                $*$ در مورد نزدیک‌ترین سد به محل سکونت خود، اطلاعاتی جمع‌آوری کنید و به موارد زیر پاسخ دهید:
+                <br><br> 1ـ هدف از احداث سد 
+                <br> 2ـ نوع سد
+                <br> 3ـ جنس سنگ پی سد
+            </p>
+        </div>
+        <br>
+        
+        <p class="MsoStep">موقعیت لایه</p>
+        <p class="MsoNormal">موقعیت هر یک از لایه‌های چین‌خورده به‌وسیلهٔ امتداد و شیب مشخص می‌شود (شکل 7ـ4). امتداد لایه: فصل مشترک یک صفحهٔ افقی با سطح هر لایه را امتداد آن لایه گویند و آن را با زاویه‌ای که نسبت به شمال یا جنوب می‌سازد مشخص می‌کنند.</p>
+        <p class="MsoNormal">شیب لایه: زاویه‌ای است که سطح لایه با سطح افق می‌سازد. شیب لایه بین صفر (لایه‌های افقی) تا 90 درجه (لایه‌های قائم) تغییر می‌کند.</p>
+        <br>
+        
+        <div class="boxg">
+            <p class="MsoStep">بیشتر بدانید</p>
+            <p class="MsoNormal">سد کریت (کوریت)، یک سد تاریخی است که در شهرستان طبس و در کیلومتر 56 جادهٔ طبس ـ دیهوک واقع شده است. این سد که در سال 729 شمسی احداث شده، با ارتفاع 60 متر، تا اوایل قرن بیستم، بلندترین سد جهان بوده‌ است. این سد، بزرگ‌ترین سد قوسی جهان به مدت 550 سال بوده است. نکتهٔ جالب‌تر آنکه این سد، با عرض تاج یک متر، هنوز هم عنوان نازک‌ترین سد جهان را دارد. آجرهای مربعی‌شکل، سنگ و ساروج، آهک و خاک رس، از عمده‌ترین مصالح به‌کار رفته در ساخت سد است.</p>
+        </div>
+        <br>
+        
+        <p class="MsoNormal">قرار گرفتن سنگ‌های تبخیری مانند لایه‌های نمک در محدودهٔ دریاچهٔ سدها، معمولاً باعث تغییر نامطلوب کیفیت آب مخزن می‌شود. در سال‌های اخیر، وجود لایه‌های گچی و نمکی در محدودهٔ مخزن چند سد، باعث مشکلاتی در کیفیت آب مخزن آنها شده است.</p>
+        <br>
+        
+        <div class="boxg">
+            <p class="MsoStep">با هم بیندیشید</p>
+            <p class="MsoNormal">شرایط مختلفی از وضعیت شیب و امتداد لایه‌های سنگی و موقعیت انتخابی برای ساختگاه سد، در شکل زیر نمایش داده شده است. با در نظر گرفتن فرار آب و پایداری بدنهٔ سد، حالت مطلوب و حالت نامطلوب را برای احداث سد مشخص کنید.</p>
+        </div>
+        <br>
+        <p class="MsoNormal">رسوباتی که از طریق رودها به مخزن سدها حمل می‌شوند، به‌تدریج از ظرفیت مخزن می‌کاهند. بعضی از سدهای کشور، بر اثر انباشته شدن از رسوبات، بخش قابل‌توجهی از کارایی خود را از دست داده‌اند. برای رفع این مشکل، در فواصل زمانی لازم عمل لایروبی صورت می‌گیرد.</p>
+        
+<br><hr><br>
+
+
+<p class="MsoStep">مکان مناسب برای ساخت تونل و فضاهای زیرزمینی</p>
+<p class="MsoNormal">برخی از فعالیت‌های عمرانی و معدنی در زیر زمین صورت می‌گیرد. این فعالیت‌ها، نیاز به فضای زیرزمینی دارد. حفاری‌های زیرزمینی به‌صورت تونل و مغار است. تونل‌ها، به‌منظور حمل‌ونقل، انتقال آب، انتقال فاضلاب یا استخراج مواد معدنی مورد استفاده قرار می‌گیرند. مغارها، فضاهای زیرزمینی بزرگ‌تری هستند که برای ایجاد تأسیسات زیرزمینی مانند نیروگاه‌ها، ایستگاه‌های مترو، ذخیرۀ نفت و یا موارد دیگر استفاده می‌شوند. این‌گونه سازه‌ها، باید در زمین‌هایی با مقاومت کافی احداث شوند. بنابراین زمین‌شناس، باید مطالعات خود را بر شناسایی مناطقی با کمترین خردشدگی، هوازدگی یا نشت آب، متمرکز کند.</p>
+<br>
+
+<div class="boxg">
+    <p class="MsoStep">با هم بیندیشید</p>
+    <p class="MsoNormal">با توجه به شکل‌های زیر، احداث تونل در کدام مناسب‌تر است؟ دلیل خود را بیان کنید.</p>
+</div>
+<br>
+
+<p class="MsoNormal">وجود آب‌های زیرزمینی، بر ایمنی و پایداری سازه‌های سطحی مانند سدها و سازه‌های زیرزمینی مانند تونل‌ها در زمان ساخت و بهره‌برداری مؤثرند. جریان و فشار آب زیرزمینی، از عوامل مهم ناپایداری تونل‌ها و فضاهای زیرزمینی است. بخش بزرگی از مشکلات و خسارت‌ها در پروژه‌های عمرانی و معدنی، ناشی از برخورد با آب‌های زیرزمینی بوده است. در برخی موارد، پروژه‌هایی به علت این مشکلات، تکمیل نشده و متوقف شده‌اند. بنابراین، برآورد میزان و کنترل جریان آب زیرزمینی در تونل‌ها، ترانشه‌ها (شکل 8ـ4ـ الف) و زمین زیر سازه و حتی درون سازه‌هایی مانند سدها، بسیار مهم است. به‌طورکلی، تونل‌هایی که در بالای سطح ایستابی قرار می‌گیرند، از پایداری بیشتری برخوردار هستند. در شرایطی که سنگ‌های داخل تونل از نظر پایداری و نشت آب، وضعیت مطلوبی نداشته باشند، دیواره و سقف تونل با محافظی از بتن یا سایر مصالح پوشیده می‌شود (شکل 8ـ4ـ ب).</p>
+<br>
+
+<div class="boxg">
+    <p class="MsoStep">کاوش کنید</p>
+    <p class="MsoNormal">$*$ دلیل ناپایداری تونل در زیر سطح ایستابی را بررسی کنید.</p>
+</div>
+<br>
+
+<p class="MsoStep">مکان مناسب برای ساخت سازه‌های دریایی</p>
+<p class="MsoNormal">همیشه سازه‌ها بر روی خشکی بنا نمی‌شوند. کشور ما از جنوب و شمال به دریا منتهی می‌شود. از سوی دیگر، بخشی از ذخایر عظیم نفت ایران از بستر دریا استخراج می‌شوند. سازه‌های دریایی، مانند اسکله‌ها، پایانه‌های نفتی، تونل‌های زیردریایی، پل‌ها و جاده‌ها، در سواحل دریا یا در دریا احداث می‌شوند (شکل 9ـ4). در شمال و جنوب ایران، سازه‌های دریایی فراوانی احداث شده‌اند. در مکانیابی این سازه‌ها مانند سازه‌های خشکی، باید مطالعات زمین‌شناسی به‌طور ویژه مورد توجه قرار گیرد. افزون بر آن، توجه به جریان‌های دریایی و ویژگی‌های فیزیکی و شیمیایی آب دریا نیز ضروری می‌باشد.</p>
+<br>
+
+<div class="boxg">
+    <p class="MsoStep">بیشتر بدانید</p>
+    <p class="MsoNormal">تونل/کانال مانش با بیش از 50 کیلومتر طول که بندر پادوکاله فرانسه را به شهرک فوکستون انگلستان متصل می‌کند، در زیر بستر دریا حفر شده است. این تونل 40 متر پایین‌تر از کف دریا (بیش از 100 متر پایین‌تر از سطح تراز دریا) ساخته شده است. ساخت این تونل زیرآبی، مدت زمان مسافرت از پاریس به لندن را کاهش داده است. تونل مانش که به آن تونل کانال نیز گفته می‌شود، انگلستان را از طریق خشکی به دیگر کشورهای اروپایی متصل کرده است. مانش که انجمن مهندسان عمران امریکا آن را یکی از عجایب هفتگانۀ دنیای مدرن نامیده است، دارای دو خط ریلی و یک تونل جانبی برای خودروها است. این پروژه در زمان اجرا، با صرف 22/5 میلیارد دلار، پرهزینه‌ترین طرح مهندسی تاریخ به شمار می‌رفت.</p>
+</div>
+<br>
+<p class="MsoStep">پایداری سازه‌ها</p>
+<p class="MsoNormal">کشور ما، در یکی از کمربندهای لرزه‌خیز جهان واقع شده است و گسل‌های فعال در بیشتر مناطق آن وجود دارند. این گسل‌ها و زمین‌لرزه‌های احتمالی می‌توانند پایداری سازه‌های مختلف را تهدید کنند. از این‌رو زمین‌شناسان، در مطالعات مکانیابی سازه‌ها با استفاده از عکس‌های هوایی و ماهواره‌ای و بازدیدهای صحرایی، این گسل‌ها را شناسایی می‌کنند و با استفاده از داده‌های ثبت شده توسط دستگاه‌های لرزه‌نگاری و اطلاعات تاریخی زمین‌لرزه‌ها، احتمال فعالیت مجدد گسل‌ها و وقوع زمین‌لرزه و تأثیر آن بر سازه‌ها را مشخص می‌کنند. این اطلاعات در اختیار مهندسان عمران قرار می‌گیرد تا طراحی سازه را بر آن اساس انجام دهند. افزون بر این، پایداری محل احداث سازه در برابر حرکات دامنه‌ای از مواردی است که در مطالعات مکانیابی سازه‌ها، مورد توجه زمین‌شناسان است.</p>
+<br>
+
+<p class="MsoNormal">یکی از خطراتی که سازه‌ها را در مناطق شیب‌دار و کوهستانی تهدید می‌کند، خطر ریزش کوه و سقوط مواد در دامنه‌های پرشیب است. هرساله اخبار زیادی مبنی بر ریزش کوه و مسدود شدن جاده‌ها و خطوط ریلی مناطق کوهستانی می‌شنویم. امروزه، با اقداماتی مانند ایجاد انواع دیوار حائل، زهکشی برای تخلیۀ آب اضافی، ایجاد پوشش گیاهی و میخ‌کوبی، دامنه‌ها را پایدار می‌کنند (شکل 10ـ4).</p>
+<br>
+
+<p class="MsoNormal">لغزش و سقوط توده‌های بزرگ سنگ و خاک در دیوارهٔ مخزن سدها، تا به حال، باعث خرابی‌های عمده‌ای در سدهای بزرگ جهان شده است. لغزش توده‌های سنگ و خاک، افزون بر ایجاد امواج خطرناک در مخزن، باعث کاهش ظرفیت و عمر مفید مخزن می‌شود. با انتخاب محل مناسب برای ایجاد سد و پایدارسازی دیواره‌های مخزن سد، می‌توان از چنین اتفاقاتی جلوگیری کرد.</p>
+<br>
+
+<div class="boxg">
+    <p class="MsoStep">گفت‌و‌گو کنید</p>
+    <p class="MsoNormal">$*$ در پایداری دامنه‌ها، پوشش گیاهی، تأثیر مثبت و منفی دارد. در این مورد توضیح دهید.<br>
+    $*$ یکی از روش‌های پایدارسازی دامنه‌ها و ترانشه‌ها، میخ‌کوبی است که در شکل زیر نشان داده شده است. در مورد این روش‌ها در کلاس بحث کنید.</p>
+</div>
+<br>
+
+<p class="MsoStep">مصالح مورد نیاز برای احداث سازه‌ها</p>
+<p class="MsoNormal">در احداث سازه‌ها، از مواد سازندۀ زمین، مانند خاک، شن، ماسه و سنگ استفاده می‌شود. مواد مورد نیاز برای هر سازه، باید دارای مقاومت، نفوذپذیری و اندازۀ دانه‌های مشخصی باشد که توسط آزمایش‌های لازم در آزمایشگاه‌های مکانیک خاک و سنگ مشخص می‌شوند. مصالح به کار رفته در سازه‌های مختلف، متفاوت است؛ به‌عنوان مثال در سدهای بتنی از سیمان، ماسه، شن، میلگرد و در سدهای خاکی از خاک رس، ماسه، شن و قلوه‌سنگ استفاده می‌شود.</p>
+<br>
+
+<div class="boxg">
+    <p class="MsoStep">پاسخ دهید</p>
+    <p class="MsoNormal">$*$ به چه دلیل از هستۀ رسی برای ساخت سدهای خاکی استفاده می‌شود؟</p>
+</div>
+<br>
+
+<p class="MsoStep">رفتار خاک‌ها و سنگ‌ها در سازه‌ها</p>
+<p class="MsoNormal">طبقۀ‌بندی مهندسی خاک‌ها، بر مبنای دانه‌بندی، درجۀ خمیری بودن و مقدار مواد آلی آن‌ها انجام می‌شود. بر مبنای دانه‌بندی، خاک‌ها به دو دستۀ ریزدانه و درشت‌دانه تقسیم می‌شوند. در خاک‌های ریزدانه، مانند رس و لای، اندازۀ ذرات، کوچک‌تر از 0/075 میلی‌متر و در خاک‌های درشت‌دانه، مانند ماسه و شن، اندازۀ ذرات، بزرگ‌تر از 0/075 میلی‌متر است. از خاک‌های دانه‌ریز و دانه‌درشت، در بسیاری از سازه‌ها مانند بدنۀ سدهای خاکی، زیرسازی جاده‌ها و باند فرودگاه‌ها استفاده می‌شود. پایداری خاک‌های ریزدانه، به میزان رطوبت آن‌ها بستگی دارد. هر چقدر رطوبت خاک‌های ریزدانه بیشتر باشد، پایداری آن‌ها کمتر می‌شود. اگر رطوبت در این خاک‌ها، از حدی بیشتر شود، خاک به حالت خمیری در می‌آید و تحت‌تأثیر وزن خود روان می‌شود. لغزش خاک‌ها در دامنه‌ها و ترانشه‌ها، به‌ویژه در ماه‌های مرطوب سال، ناشی از این پدیده است (شکل 11ـ4).</p>
+<br>
+
+<div class="boxg">
+    <p class="MsoStep">پاسخ دهید</p>
+    <p class="MsoNormal">$*$ در حرکات دامنه‌ای، تفاوت زمین‌لغزش با ریزش چیست؟</p>
+</div>
+<br>
+
+<div class="boxg">
+    <p class="MsoStep">جمع‌آوری اطلاعات</p>
+    <p class="MsoNormal">$*$ یک کلوخ را روی سطح صافی قرار دهید و به تدریج روی آن آب بریزید و رطوبت آن را به‌تدریج افزایش دهید. تغییر شکل آن را در مراحل مختلف مشاهده کنید و اطلاعات خود را در کلاس ارائه دهید.</p>
+</div>
+<br>
+
+<p class="MsoStep">کاربرد مصالح خاک و خرده‌سنگی در راه‌سازی</p>
+<p class="MsoNormal">سطح طبیعی زمین، برای رفت‌و‌آمد وسایل نقلیه مناسب نیست زیرا، در مقابل عوامل جّوی مانند بارش، تغییرات دما و نیروهای وارده از چرخ خودروها مقاومت کافی ندارد، به همین دلیل برای احداث جاده از مصالح خاک در بخش زیرسازی و روسازی استفاده می‌شود که هر کدام از دو بخش تشکیل شده است. زیرسازی از دو بخش زیر اساس و اساس و روسازی از دو بخش آستر و رویه تشکیل می‌شود (شکل 12ـ4).</p>
+<br>
+
+<p class="MsoNormal">در بخش زیر اساس که به‌عنوان لایۀ زهکش عمل می‌کند، از مخلوط شن و ماسه یا سنگ شکسته استفاده می‌شود. لایه‌های آستر و رویه که بایستی مقاوم باشند، از جنس آسفالت می‌باشند که مخلوطی از شن، ماسه و قیر است. یکی از کاربردهای مصالح خرده‌سنگی، در زیرسازی و تکیه‌گاه ریل‌های راه‌آهن است. این قطعات سنگی یا بالاست، علاوه بر نگهداری ریل‌ها و توزیع بار چرخ‌ها، عمل زهکشی را نیز به عهده دارند. بالاست مورد نیاز خطوط راه‌آهن، معمولاً از خرد کردن سنگی که از معدن استخراج می‌شود، به‌دست می‌آید (شکل 13ـ4).</p>
+<br>
+
+<div class="boxb">
+<p class="MsoStep">علم، زندگی، کارآفرینی</p>
+<p class="MsoNormal">زمین‌شناسی مهندسی: شاخه‌ای از زمین‌شناسی است که رفتار و ویژگی‌های مواد سطحی زمین از نظر مقاومت در برابر فشارهای وارده و امکان ساخت یک سازه را در محلی خاص از زمین بررسی می‌کند. این علم، نقش بسیار مهمی در انتخاب مناسب‌ترین محل، برای ساخت سازه‌ها دارد.</p>
+<br>
+
+<p class="MsoNormal">متخصصین زمین‌شناسی مهندسی، در سازمان زمین‌شناسی و اکتشافات معدنی کشور، آزمایشگاه‌های مکانیک خاک و سنگ، وزارت نیرو، وزارت راه و شهرسازی، صنعت، معدن و تجارت و شهرداری‌ها، می‌توانند نقش مهمی در هدایت پروژه‌های عمرانی داشته باشند.</p>
+<br>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br><br><br><br>
+
+
+    </body>
+
+
+</html>

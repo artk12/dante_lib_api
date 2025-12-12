@@ -1,0 +1,2407 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi {
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSemic,
+        li.MsoSemic,
+        div.MsoSemic {
+            margin: 0in;
+           
+            font-size: clamp(1.2rem, 1.6vw, 1.3rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #b19af2;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #6ca4ec;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .boxp {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .boxg {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#00f2ff11; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        .boxb {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#0c4e9f2d; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        ::selection {
+            background-color: #59078fa1; /* Change this to your desired highlight color */
+            color: #ffffff; /* Change this to your desired text color */
+          }
+
+
+          mark{
+            background-color:#078b8fa1 ;
+            color: #ffffff;
+            padding: 0 7px;
+        }
+
+        .hlg { background-color: rgba(0, 234, 255, 0.334);  }
+        .hlp { background-color:#5f1487; }
+      
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+    <body class="custom-scrollbar">
+
+     
+
+        <p class="MsoBold">درس 1:
+            <br>
+            آشنایی با منطق ریاضی</p>
+
+        <p class="MsoNormal">منطق ریاضی که عمده‌ای به آن منطق نمادین نیز می‌گویند، دستور زبان ریاضی، با مطالعه ساختار جمله‌هایی است که در ریاضی به‌کار برده می‌شود. این شاخه از ریاضیات به بررسی دقیق استدلال‌ها می‌پردازد و اعتبار یک استدلال را مشخص می‌کند. امروزه منطق ریاضی در علم مربوط به رایانه نیز به‌کار گرفته می‌شود. در این درس، کار ما بسیار شبیه بیان قواعد دستوری برای یک زبان معین است.</p>
+       
+       
+        <br><hr><Br>
+       
+       
+        <p class="MsoBold">گزاره، ارزش گزاره و نقض آن</p>
+       
+      
+        <p class="MsoNormal">گزاره جمله‌ای خبری است که یا راست است یا دروغ؛ بنابراین جمله‌هایی که خبری نباشند مانند جملات استفهامی، تعجبی و ... گزاره نیستند. معمولاً گزاره‌ها را با حروف $p$، $q$، $r$ و ... نمایش می‌دهند.</p>
+       
+       <Br>
+        <p class="MsoNormal">درست یا نادرست بودن یک گزاره را ارزش گزاره می‌گوییم:</p>
+     
+     <Br>
+        <p class="MsoNormal">هر گزاره دارای ارزش درست یا نادرست است که ارزش گزاره درست را با حرف «د» یا $(T)$ و ارزش گزاره نادرست را با حرف «ن» یا $(F)$ نمایش می‌دهیم. بنابراین، هر گزاره مانند $p$ فقط یکی از دو حالت ارزش گزاره را طبق جدول روبه‌رو دارد.</p>
+        <br>
+
+
+        <table class="MsoNormal" style="margin:auto;width:fit-content;direction:ltr;text-align:center;">
+
+            <tr>
+
+                <th>$p$</th>
+
+            </tr>
+
+            <tr>
+
+                <td>د</td>
+
+            </tr>
+            <tr>
+
+                <td>ن</td>
+
+            </tr>
+
+
+
+        </table>
+        <br><br>
+
+        <p class="MsoNormal">ارزش‌های دو گزاره $p$ و $q$ طبق جدول روبه‌رو چهار حالت دارد:</p>
+       
+       <br><br>
+        <table class="MsoNormal" style="margin:auto;width:fit-content;direction:ltr;text-align:center;">
+            <tr>
+                <th>$p$</th>
+                <th>$q$</th>
+            </tr>
+            <tr>
+                <td>د</td>
+                <td>د</td>
+            </tr>
+            <tr>
+                <td>د</td>
+                <td>ن</td>
+            </tr>
+            <tr>
+                <td>ن</td>
+                <td>د</td>
+            </tr>
+            <tr>
+                <td>ن</td>
+                <td>ن</td>
+            </tr>
+        </table>
+
+        <br><br><br>
+
+            <p class="MsoNormal">نقیض گزاره $p$ به‌صورت $\sim p$ نوشته می‌شود و آن را «چنین نیست که $p$» می‌خوانیم. اگر ارزش گزاره $p$ درست باشد، در این صورت، ارزش گزاره $\sim p$ نادرست است و وقتی که $p$ نادرست باشد، ارزش نقض آن درست است. به علامت «$\sim$» نقض گفته می‌شود و «چنین نیست که» خوانده می‌شود.</p>
+            <br>
+            <p class="MsoNormal">مثال: نقض گزاره «۲ عددی گنگ است»، را می‌توان به‌صورت‌های زیر نوشت.</p>
+            <p class="MsoNormal">«چنین نیست که ۲ عددی گنگ باشد.» یا «۲ عددی گنگ نیست.»</p>
+            <br>
+            <p class="MsoNormal">جدول ارزش برای نقض یک گزاره که تمام حالت‌های ممکن را برای درستی یا نادرستی گزاره در نظر می‌گیرد، به‌صورت روبه‌روست:</p>
+            <br>
+            <table class="MsoNormal" style="margin:auto;width:fit-content;direction:ltr;text-align:center;">
+                <tr>
+                    <th>$p$</th>
+                    <th>$\sim p$</th>
+                </tr>
+                <tr>
+                    <td>د</td>
+                    <td>ن</td>
+                </tr>
+                <tr>
+                    <td>ن</td>
+                    <td>د</td>
+                </tr>
+            </table>
+            <br><br>
+            <p class="MsoNormal">مثال: جدول ارزش گزاره $(\sim p) \sim p$ را تشکیل دهید و ارزش آن را در هر حالت، با ارزش گزاره $p$ مقایسه کنید.</p>
+            <br>
+            <p class="MsoNormal">حل:</p>
+            <table class="MsoNormal" style="margin:auto;width:fit-content;direction:ltr;text-align:center;">
+                <tr>
+                    <th>$p$</th>
+                    <th>$\sim p$</th>
+                    <th>$(\sim p) \sim p$</th>
+                </tr>
+                <tr>
+                    <td>د</td>
+                    <td>ن</td>
+                    <td>د</td>
+                </tr>
+                <tr>
+                    <td>ن</td>
+                    <td>د</td>
+                    <td>ن</td>
+                </tr>
+            </table>
+            <br><br>
+            <p class="MsoNormal">همان‌طور که ملاحظه می‌کنید، در هر حالت از جدول، ارزش $(\sim p) \sim p$ با ارزش $p$ یکسان است. در این حالت می‌گوییم: دو گزاره $p$ و $q$ هم‌ارز هستند و می‌نویسیم: $p \equiv q$. می‌خواهیم: $p$ هم‌ارز است با $q$.</p>
+            <br><hr><br>
+            <p class="MsoBold">گزاره نما</p>
+            <p class="MsoStep">فعالیت</p>
+            <p class="MsoNormal">جملات خبری زیر را در نظر بگیرید:</p>
+
+            <br>
+
+            <p class="MsoNormal">(الف) $a$ عددی فرد است.</p>
+            <br>
+            
+            <p class="MsoNormal">(ب) در ترتیبی یک تاس، احتمال آنکه پیشامد A رخ دهد برابر با $ \dfrac{1}{2}$ است.</p>
+            
+            <br>
+            <p class="MsoNormal">(پ)
+
+                حاصل جمع سه برابر عددی با دو برابر عدد دیگر برابر با ۶ است
+
+                $
+                ( 3x + 2y = 6 )
+                $
+
+                            </p>
+            
+            
+            
+            <br><br>
+            
+            
+            <p class="MsoNormal">۱) ارزش کدام‌یک از جملات بالا را می‌توانید تعیین کنید؟</p>
+            
+            
+
+            <Br><Br>
+            <p class="MsoNormal">۲)
+                
+             اگر به جای متغیر در جمله 
+             ( a عددی فرد است )
+                قرار دهیم
+                $ a = 3 $
+                در این صورت، 
+                ارزش آن را تعیین کنید.
+            </p>
+            
+
+            
+            <br><hr><Br>
+            
+            
+            <p class="MsoNormal">هر جمله خبری که شامل یک یا چند متغیر است و با جای‌گذاری مقادیر به‌جای متغیر به یک گزاره تبدیل شود، 
+                
+                <mark class="hlp">گزاره‌نما</mark>
+                
+                نامیده می‌شود. گزاره‌نماها را برحسب تعداد متغیر به‌کاررفته در آن‌ها، یک‌متغیره، دو‌متغیره و ... می‌نامیم.</p>
+
+            <br><hr><br>
+
+
+            <p class="MsoStep">کار در کلاس</p>
+            <p class="MsoNormal">جاهای خالی را پر کنید:</p>
+           <br>
+            <p class="MsoNormal">اگر در جملهٔ «ب» قرار دهیم $A = \{\ ,\ ,\ \}$ در این صورت، ارزش گزاره حاصل درست می‌شود. به نظر شما چه مجموعه‌هایی را به جای $A$ قرار دهیم، تا اینکه ارزش گزاره حاصل درست شود.</p>
+            <Br>
+            <p class="MsoNormal">اگر در جملهٔ «ب» قرار دهیم $A = \{\ \}$ در این صورت ارزش گزاره حاصل، نادرست است.</p>
+            <Br>
+            <p class="MsoNormal">اگر در جملهٔ «پ» قرار دهیم $x = \dots$ و $y = \dots$ در این صورت، ارزش گزاره حاصل درست و در حالتی که $x = \dots$ و $y = \dots$ در این صورت، ارزش گزاره حاصل نادرست است.</p>
+            <br><hr>
+            <p class="MsoBold">دامنهٔ متغیر گزاره‌نما</p>
+           <br>
+            <p class="MsoNormal">در هر گزاره‌نما به مجموعهٔ مقادیری که می‌توان آنها را به‌جای متغیرهای آن قرار داد، تا اینکه گزاره‌نما به گزاره تبدیل شود، دامنهٔ متغیر گزاره‌نما می‌گویند و آن را با حرف $D$ نمایش می‌دهند.</p>
+            <br>
+            <p class="MsoNormal">برای مثال، دامنهٔ متغیر گزاره‌نمای «$p$ عددی اول است» مجموعهٔ اعداد طبیعی، دامنهٔ متغیر گزاره‌نمای «$x$ عددی زوج است» مجموعهٔ اعداد صحیح و دامنهٔ متغیر گزاره‌نمای $0 = 5 - 4x^2 + x$ مجموعهٔ اعداد حقیقی می‌توان درنظر گرفت.</p>
+           <br>
+            <p class="MsoNormal">در هر گزاره‌نما، به مجموعهٔ عضوهایی از دامنهٔ متغیر که به‌ازای آنها، گزاره‌نما تبدیل به گزاره‌ای با ارزش درست شود، مجموعهٔ جواب گزاره‌نما می‌گویند و آن را با حرف $S$ نمایش می‌دهند و همواره داریم: $S \subseteq D$.</p>
+            <br><hr>
+            <p class="MsoBold">ترکیب گزاره‌ها</p>
+            <p class="MsoNormal">از ترکیب دو یا چند گزاره به‌وسیلهٔ رابط‌های گزاره‌ای مانند «و»، «یا»، «اگر ــ آن‌گاه» و …، گزاره‌های مرکب به دست می‌آیند. نمونه‌های زیر گزاره‌های مرکب هستند:</p>
+            <br>
+            <div style="padding-right:10px;">
+            <p class="MsoNormal">
+                $*$
+                عدد 2 زوج است و عدد 5 مضرب 3 است.</p>
+           
+           
+                <p class="MsoNormal">
+                    $*$
+                    عدد 2 زوج است، یا عدد 5 مضرب 3 است.</p>
+            
+            
+                <p class="MsoNormal">
+                    $*$
+                    اگر عدد 2 زوج باشد، آن‌گاه عدد 5 مضرب 3 است.</p>
+           
+           
+                <p class="MsoNormal">
+                    $*$
+                    چنین نیست که عدد 2 زوج باشد.</p>
+           
+           
+                <p class="MsoNormal">
+                    $*$
+                    اگر عدد 2 زوج باشد، آن‌گاه عدد 5 مضرب 3 است و برعکس.</p>
+           
+           
+                <br>
+            </div>
+
+            <br><hr>
+           
+                <p class="MsoBold">ترکیب عطفی دو گزاره</p>
+            <p class="MsoNormal">هرگاه $p$ و $q$ دو گزاره باشند، گزارهٔ مرکب $(p \land q)$ که خوانده می‌شود «$p$ و $q$» را ترکیب عطفی دو گزاره می‌گوییم. در اینجا به رابط منطقی «$\land$» عاطف گفته می‌شود. ارزش ترکیب عطفی دو گزارهٔ $(p \land q)$ فقط وقتی درست است که ارزش هر دو گزارهٔ $p$ و $q$ درست باشد و در بقیه حالات ارزش $(p \land q)$ نادرست است.</p>
+            
+
+            <br><hr><br>
+
+
+            <p class="MsoStep">مثال</p>
+            <p class="MsoNormal">گزارهٔ مرکب زیر را در نظر بگیرید.</p>
+            <br>
+            <p class="MsoNormal">«سوگند فارغ‌التحصیل شد و پارسا عضو تیم فوتبال مدرسه است.»</p>
+            <br>
+            <p class="MsoNormal">فرض کنیم:</p>
+            
+            <p class="MsoNormal">$p$: سوگند فارغ‌التحصیل شد.</p>
+            <p class="MsoNormal">$q$: پارسا عضو تیم فوتبال مدرسه است.</p>
+            <br>
+
+            <div style="padding-right:10px;">
+
+            <p class="MsoNormal">
+                $*$
+                اگر ارزش $p$ درست و ارزش $q$ نادرست باشد، ارزش $p \land q$ نادرست است.</p>
+          
+          <br>
+                <p class="MsoNormal">
+                $*$
+                اگر ارزش $p$ نادرست و ارزش $q$ درست باشد، ارزش $p \land q$ نادرست است.</p>
+           
+                <br>
+                <p class="MsoNormal">
+                $*$
+                هرگاه ارزش دو گزارهٔ $p$ و $q$ نادرست باشد، ارزش $p \land q$ نادرست است.</p>
+            
+                <br>
+                <p class="MsoNormal">
+                $*$
+                
+                هرگاه ارزش دو گزارهٔ $p$ و $q$ درست باشد، ارزش $p \land q$ درست است.</p>
+
+            </div>
+            <br>
+            <p class="MsoNormal">بنابراین جدول ارزش $p \land q$ را به صورت روبه‌رو می‌توان نوشت:</p>
+            <br>
+            <table class="MsoNormal" style="margin:auto;width:fit-content;direction:ltr;text-align:center;">
+                <tr>
+                    <th>$p$</th>
+                    <th>$q$</th>
+                    <th>$p \land q$</th>
+                </tr>
+                <tr>
+                    <td>د</td>
+                    <td>د</td>
+                    <td>د</td>
+                </tr>
+                <tr>
+                    <td>د</td>
+                    <td>ن</td>
+                    <td>ن</td>
+                </tr>
+                <tr>
+                    <td>ن</td>
+                    <td>د</td>
+                    <td>ن</td>
+                </tr>
+                <tr>
+                    <td>ن</td>
+                    <td>ن</td>
+                    <td>ن</td>
+                </tr>
+            </table>
+            <br><Br>
+            <p class="MsoNormal">مثال: مقادیر $x$ و $y$ را چنان بیابید که داشته باشیم:</p>
+            <p class="MsoNormal" style="text-align: center;">$$(2x - y)^2 + (x - 1)^2 = 0$$</p>
+            <br>
+            <p class="MsoNormal">حل: چون
+                 
+                $ (x - 1)^2 \geq 0 $
+                 و
+                  
+                 $(2x - y)^2 \geq 0$
+                 ، بنابراین، تساوی بالا وقتی برقرار است که:</p>
+
+            
+
+                 <br>
+            <p class="MsoNormal" style="text-align:left;">
+            $
+            \begin{align*}\     
+            
+           & \qquad [ (2x - y)^2 = 0 ] \land [ (x-1)^2 = 0 ] \\ \\
+            
+           & \Rightarrow 
+                        
+                \begin{cases} 
+
+                2x - y = 0 \\ \\
+                x - 1 = 0 \Rightarrow x = 1 \\ \\
+
+                \end{cases}  \\ \\
+
+
+          & \Rightarrow \quad y = 2 
+
+         
+
+            \end{align*}
+
+
+            $
+
+
+            </p>
+            <br><hr><br>
+
+
+            <p class="MsoBold">ترکیب فصلی دو گزاره</p>
+            <p class="MsoNormal">گزاره‌های زیر را در نظر بگیرید:</p>
+           
+           <br>
+            <p class="MsoNormal">$p$: 3 عددی حقیقی است.</p>
+            <p class="MsoNormal">$q$: 2 عددی اول نیست.</p>
+            
+            <br>
+            <p class="MsoNormal">گزارهٔ مرکب «3 عددی حقیقی است، یا 2 عددی اول نیست» را که از ترکیب دو گزارهٔ $p$ و $q$ با رابط منطقی «یا» تشکیل شده است، ترکیب فصلی دو گزاره می‌گوییم.</p>
+        
+            <p class="MsoNormal">هرگاه $p$ و $q$ دو گزاره باشند، گزارهٔ مرکب «$p$ یا $q$» را که به‌صورت $p \lor q$ می‌نویسند، ترکیب فصلی دو گزاره می‌گوییم. در اینجا به رابط منطقی «$\lor$» فاصل گفته می‌شود. ارزش ترکیب فصلی دو گزارهٔ $(p \lor q)$ فقط وقتی نادرست است که ارزش هر دو گزاره $p$ و $q$ نادرست باشد و در بقیه حالات ارزش $p \lor q$ درست است.</p>
+
+            <Br><br>
+
+            <p class="MsoNormal">مثال: گزارهٔ مرکب زیر را در نظر بگیرید:</p>
+            <p class="MsoNormal">«پدر علی امروز برای گرفتن کارنامه به مدرسه می‌آید، یا مادر علی امروز برای گرفتن کارنامه به مدرسه می‌آید».</p>
+            <br>
+            <p class="MsoNormal">اگر پدر علی برای گرفتن کارنامه به مدرسه بیاید، در این صورت ارزش گزارهٔ مرکب بالا درست است. اگر مادر علی برای گرفتن کارنامه به مدرسه بیاید، نیز ارزش گزارهٔ مرکب درست است. در حالتی که هم پدر علی و هم مادر علی برای گرفتن کارنامه به مدرسه بیایند، ارزش گزارهٔ مرکب درست است. گزارهٔ مرکب بالا وقتی نادرست است که نه پدر و نه مادر علی برای گرفتن کارنامه مراجعه نکنند.</p>
+            <br>
+            <p class="MsoNormal">بنابراین جدول ارزش گزارهٔ $p \lor q$ به‌صورت روبه‌رو است:</p>
+            <br>
+            <table class="MsoNormal" style="margin:auto;width:fit-content;direction:ltr;text-align:center;">
+                <tr>
+                    <th>$p$</th>
+                    <th>$q$</th>
+                    <th>$p \lor q$</th>
+                </tr>
+                <tr>
+                    <td>د</td>
+                    <td>د</td>
+                    <td>د</td>
+                </tr>
+                <tr>
+                    <td>د</td>
+                    <td>ن</td>
+                    <td>د</td>
+                </tr>
+                <tr>
+                    <td>ن</td>
+                    <td>د</td>
+                    <td>د</td>
+                </tr>
+                <tr>
+                    <td>ن</td>
+                    <td>ن</td>
+                    <td>ن</td>
+                </tr>
+            </table>
+            <br><hr><br>
+            <p class="MsoStep">کار در کلاس</p>
+            <p class="MsoNormal">1. جدول زیر را کامل کنید.</p>
+            
+
+            <Br>
+
+                <div class="custom-scrollbar" style="overflow-x: auto; overflow-y:hidden; direction:rtl;">
+                <table class="MsoNormal" style="margin:auto;width:fit-content;direction:rtl;text-align:center;">
+                    <tr>
+                        <th>گزاره $p$</th>
+                        <th>گزاره $q$</th>
+                        <th>ارزش $p$</th>
+                        <th>ارزش $q$</th>
+                        <th>$p \lor q$</th>
+                        <th>$p \land q$</th>
+                    </tr>
+                    <tr>
+                        <td>هر دنباله با حسابی است یا هندسی.</td>
+                        <td>$\sin 30^0 = \dfrac{1}{2}$</td>
+                        <td></td>
+                        <td></td>
+                        <td></t    d>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>......</td>
+                        <td>$ \text{تابع‌نیست} \ \  x = 1$</td>
+                        <td>ن</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>$ \sqrt{-22} = -2 $</td>
+                        <td>......</td>
+                        <td></td>
+                        <td>ن</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>......</td>
+                        <td>......</td>
+                        <td>ن</td>
+                        <td>ن</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>$ \text{یک‌عبارت‌چند‌جمله‌ای‌است}  \ \ \sqrt{x} - 1  $</td>
+                        <td>......</td>
+                        <td></td>
+                        <td></td>
+                        <td>د</td>
+                        <td></td>
+                    </tr>
+                </table>
+
+                <br>
+                </div>                
+
+
+
+
+                <br><hr><Br>
+
+
+
+
+                    <p class="MsoNormal">۲. با کامل کردن جدول ارزش‌ها، نشان دهید که گُزاره‌های 
+                        
+                        $ \sim (p \lor q)$
+                         و 
+                         
+                        $ ( \sim p \land  \sim q) $
+                        
+                        هم‌ارز هستند.</p>
+                
+                <br>
+
+                <div class="custom-scrollbar" style="overflow-x:auto; overflow-y:hidden;">
+                    <table class="MsoNormal" style="margin:auto;width:fit-content;direction:ltr;text-align:center;">
+                        <tr>
+                            <th>$p$</th>
+                            <th>$q$</th>
+                            <th>$p \lor q$</th>
+                            <th>$ \sim (p \lor q)$</th>
+                            <th>$ \sim p$</th>
+                            <th>$ \sim q$</th>
+                            <th>$ \sim p \land \sim q$</th>
+                        </tr>
+                        <tr>
+                            <td>د</td>
+                            <td>د</td>
+                            <td>د</td>
+                            <td>ن</td>
+                            <td></td>
+                            <td>ن</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>د</td>
+                            <td>ن</td>
+                            <td>د</td>
+                            <td>ن</td>
+                            <td></td>
+                            <td>د</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>ن</td>
+                            <td>د</td>
+                            <td>د</td>
+                            <td></td>
+                            <td>د</td>
+                            <td></td>
+                            <td>ن</td>
+                        </tr>
+                        <tr>
+                            <td>ن</td>
+                            <td>ن</td>
+                            <td>ن</td>
+                            <td></td>
+                            <td>د</td>
+                            <td></td>
+                            <td>د</td>
+                        </tr>
+                    </table>
+                    <br>
+
+                </div>
+
+
+                    
+                <br><br>
+                <p class="MsoNormal">
+                    
+                    همان‌طور که ملاحظه می‌کنید، همه حالت‌های ارزش دو گُزاره 
+                    
+                    $  (  \sim p \lor \sim q  )  $ و $ \sim ( p \land q )$ 
+                
+                    یکسان‌اند. 
+                    پس: 
+                    
+                    $$ \sim ( p \lor q ) \, \equiv \, \sim p \land \sim q \ $$
+                    
+                    در منطق ریاضی به این هم‌ارزی 
+                    
+                    <mark class="hlp">قانون دمورگان</mark>
+                    
+                    گفته می‌شود.
+                </p>
+                
+
+
+                <br><Br>
+
+
+                    <p class="MsoNormal">۳. با توجه به جدول ارزش گُزاره‌ها نشان دهید که $~(p \land q) \equiv ~(p \lor ~q)$ .</p>
+
+                    <div class="custom-scrollbar" style="overflow-x:auto; overflow-y:hidden;">
+
+                    <table class="MsoNormal" style="margin:auto;width:fit-content;direction:ltr;text-align:center;">
+                        <tr>
+                            <th>$p$</th>
+                            <th>$q$</th>
+                            <th>$p \lor q$</th>
+                            <th>$ \sim (p \lor q)$</th>
+                            <th>$ \sim p$</th>
+                            <th>$ \sim q$</th>
+                            <th>$ \sim p \land \sim q$</th>
+                        </tr>
+                        <tr>
+                      
+                            <td>$ \quad $</td>
+                            <td>$ \quad $</td>
+                            <td>$ \quad $</td>
+                            <td>$ \quad $</td>
+                            <td>$ \quad $</td>
+                            <td>$ \quad $</td>
+                            <td>$ \quad $</td>
+                        </tr>
+                        <tr>
+                      
+                            <td>$ \quad $</td>
+                            <td>$ \quad $</td>
+                            <td>$ \quad $</td>
+                            <td>$ \quad $</td>
+                            <td>$ \quad $</td>
+                            <td>$ \quad $</td>
+                            <td>$ \quad $</td>
+                        </tr>
+                        <tr>
+                      
+                            <td>$ \quad $</td>
+                            <td>$ \quad $</td>
+                            <td>$ \quad $</td>
+                            <td>$ \quad $</td>
+                            <td>$ \quad $</td>
+                            <td>$ \quad $</td>
+                            <td>$ \quad $</td>
+                        </tr>
+                        <tr>
+                      
+                            <td>$ \quad $</td>
+                            <td>$ \quad $</td>
+                            <td>$ \quad $</td>
+                            <td>$ \quad $</td>
+                            <td>$ \quad $</td>
+                            <td>$ \quad $</td>
+                            <td>$ \quad $</td>
+                        </tr>
+                    
+                    </table>
+                    <br>
+
+                    </div>
+
+                    <br><hr>
+
+
+                    <p class="MsoBold">ترکیب شرطی دو گزاره</p>
+                    <p class="MsoNormal">
+                        هرگاه $p$ و $q$ دو گزاره باشند، گزاره مرکب $(p \implies q)$ که خوانده می‌شود «اگر $p$ آن‌گاه $q$» را ترکیب شرطی دو گزاره می‌گوییم. 
+                        در این ترکیب شرطی $p$ را مقدم (فرض) و $q$ را تالی (حکم) می‌نامیم. گزاره مرکب $(p \implies q)$ را به‌صورت‌های «$q$ شرط کافی برای $p$ است» و «$q$ شرط لازم برای $p$ است» نیز می‌خوانیم.
+                    </p>
+                    <Br><Br>
+
+
+
+                    <p class="MsoSemi">مثال:</p>
+                    <p class="MsoNormal">
+                        (الف) اگر مثلثی متساوی الساقین باشد. آن‌گاه دو زاویه مجاور به قاعده برابرند.
+
+
+                     
+                      
+                    </p>
+                    
+                    <br>
+ 
+                    <p class="MsoNormal" style="text-align: left;">
+
+                        $$
+                        \begin{align*}
+
+                         A \overset{\triangle}{B} C & :  \\ \\
+                        & AB \, = \, AC \ \implies  \hat{B} = \hat{C}
+                        
+
+                        \end{align*}
+                        $$
+
+                    </p>
+
+
+
+                    <br><br>
+
+
+
+            <p class="MsoSemi">مثال (ب):</p>
+            <p class="MsoNormal">
+                اگر در مثلث $ABC$، داشته باشیم: 
+                $$ MN \parallel BC \implies \dfrac{AM}{MB} = \dfrac{AN}{NC}. $$
+            </p>
+            <Br>
+      
+
+            <p class="MsoNormal">
+                جدول ارزش گزاره شرطی $p \implies q$ به‌صورت زیر است:
+            </p>
+
+<Br>
+    <div class="custom-scrollbar" style="overflow-x: auto; overflow-y:hidden; direction:rtl;">
+        <table class="MsoNormal" style="margin:auto;width:350px;direction:rtl;text-align:center;direction:ltr;">
+            <tr>
+                <th>$p$</th>
+                <th>$q$</th>
+                <th>$p \implies q$</th>
+            </tr>
+            <tr>
+                <td>د</td>
+                <td>د</td>
+                <td>د</td>
+            </tr>
+            <tr>
+                <td>د</td>
+                <td>ن</td>
+                <td>ن</td>
+            </tr>
+            <tr>
+                <td>ن</td>
+                <td>د</td>
+                <td>د</td>
+            </tr>
+            <tr>
+                <td>ن</td>
+                <td>ن</td>
+                <td>د</td>
+            </tr>
+        </table>
+        <Br>
+    </div>
+
+    <br><br>
+            <p class="MsoNormal">
+                ۱. هرگاه ارزش $p$ (مقدم) نادرست باشد، آنگاه ارزش گزاره مرکب بستگی ندارد.
+            </p>
+<br><br>
+
+            <p class="MsoNormal">
+                ۲. همواره درست است و ارزش $q$ به ارزش گزاره $q$ بستگی ندارد.
+            </p>
+        <Br>
+            
+            
+          
+            <p class="MsoNormal">
+                در این حالت می‌گویند: ارزش $(p \implies q)$ به انکار مقدم درست است.
+            </p>
+
+         <br>
+         
+            <p class="MsoNormal">
+                ارزش گزاره $p \implies q$ نادرست است که $p$ درست و $q$ نادرست باشد.
+            </p>
+
+         
+         
+            <br><br>
+
+            <p class="MsoSemi">مثال:</p>
+            <p class="MsoNormal">
+                اگر $x = 2$ فرد است، آنگاه $x < 5$ به‌ انتفای مقدم درست است.
+            </p>
+
+
+            <br><hr><br>
+
+            <p class="MsoStep">کار در کلاس</p>
+            
+            <p class="MsoNormal">۱. با پر کردن جاهای خالی در جدول زیر، نشان دهید که گزاره‌های $p \implies q$ و $\sim p \lor q$ هم‌ارز منطقی‌اند.</p>
+            
+            <br>
+
+
+            <div class="custom-scrollbar" style="overflow-x: auto; overflow-y:hidden; direction:rtl;">
+                <table class="MsoNormal" style="margin:auto;width:fit-content;direction:ltr;text-align:center;">
+                    <tr>
+                        <th>$p$</th>
+                        <th>$q$</th>
+                        <th>$p \implies q$</th>
+                        <th>$\sim p$</th>
+                        <th>$\sim p \lor q$</th>
+                    </tr>
+                    <tr>
+                        <td>د</td>
+                        <td>د</td>
+                        <td>د</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>د</td>
+                        <td>ن</td>
+                        <td>ن</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>ن</td>
+                        <td>ن</td>
+                        <td>د</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>ن</td>
+                        <td>د</td>
+                        <td>د</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+
+                <br>
+            </div>
+            
+            <br><br>
+            
+            <p class="MsoNormal">۲. 
+                
+                گزاره 
+                
+                $( q \implies p )$ 
+                
+                عکس ترکیب شرطی 
+                
+                $(p \implies q)$
+                
+                و گزاره 
+                
+                $ \sim q \implies \sim p  $
+                
+                عکس نقیض ترکیب شرطی 
+                
+                $p \implies q$
+                
+                
+                است.</p>
+
+
+                <br>
+
+
+            <p class="MsoNormal">
+                با توجه به جدول ارزش گزاره‌های زیر نشان دهید که 
+                :
+                $$ ( p \implies q ) \equiv ( \sim q \implies \sim p ) $$
+                
+                ، یعنی هر گزاره شرطی با عکس نقیض خود هم‌ارز است.
+            </p>
+            
+
+            <Br>
+
+
+            <div class="custom-scrollbar" style="overflow-x: auto; overflow-y:hidden; direction:rtl;">
+                <table class="MsoNormal" style="margin:auto;width:fit-content;direction:ltr;text-align:center;">
+                    <tr>
+                        <th>$p$</th>
+                        <th>$q$</th>
+                        <th>$p \implies q$</th>
+                        <th>$\sim q$</th>
+                        <th>$\sim p$</th>
+                        <th>$\sim q \implies \sim p$</th>
+                    </tr>
+                    <tr>
+                        <td>$\quad$</td>
+                        <td>$\quad$</td>
+                        <td>$\quad$</td>
+                        <td>$\quad$</td>
+                        <td>$\quad$</td>
+                        <td>$\quad$</td>
+                    </tr>
+                    <tr>
+                        <td>$\quad$</td>
+                        <td>$\quad$</td>
+                        <td>$\quad$</td>
+                        <td>$\quad$</td>
+                        <td>$\quad$</td>
+                        <td>$\quad$</td>
+                    </tr>
+                    <tr>
+                        <td>$\quad$</td>
+                        <td>$\quad$</td>
+                        <td>$\quad$</td>
+                        <td>$\quad$</td>
+                        <td>$\quad$</td>
+                        <td>$\quad$</td>
+                    </tr>
+                    <tr>
+                        <td>$\quad$</td>
+                        <td>$\quad$</td>
+                        <td>$\quad$</td>
+                        <td>$\quad$</td>
+                        <td>$\quad$</td>
+                        <td>$\quad$</td>
+                    </tr>
+                </table>
+
+                <Br>
+            </div>
+            
+
+
+
+
+            <br><hr><br>
+
+            <p class="MsoSemi">مثال:</p>
+            <p class="MsoNormal">ارزش گزاره‌های شرطی زیر را تعیین کنید:</p>
+
+            <br>
+            <p class="MsoNormal" style="text-align: center;">(الف) $ (p \implies p \lor q) \equiv T $</p>
+
+        
+
+            <div class="custom-scrollbar" style="overflow-x: auto; overflow-y:hidden; direction:rtl;">
+                <table class="MsoNormal" style="margin:auto;width:fit-content;direction:ltr;text-align:center;">
+                    <tr>
+                        <th>$p$</th>
+                        <th>$q$</th>
+                        <th>$p \land q$</th>
+                        <th>$p \implies p \lor q$</th>
+                    </tr>
+                    <tr>
+                        <td>د</td>
+                        <td>د</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>د</td>
+                        <td>ن</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>ن</td>
+                        <td>د</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>ن</td>
+                        <td>ن</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+
+            <br><br>
+            <p class="MsoNormal" style="text-align: center;">(ب) $ (p \land q \implies p) \equiv T $</p>
+
+            <div class="custom-scrollbar" style="overflow-x: auto; overflow-y:hidden; direction:rtl;">
+                <table class="MsoNormal" style="margin:auto;width:fit-content;direction:ltr;text-align:center;">
+                    <tr>
+                        <th>$p$</th>
+                        <th>$q$</th>
+                        <th>$p \land q$</th>
+                        <th>$p \land q \implies p$</th>
+                    </tr>
+                    <tr>
+                        <td>د</td>
+                        <td>د</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>د</td>
+                        <td>ن</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>ن</td>
+                        <td>د</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>ن</td>
+                        <td>ن</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+
+            <br><Br>
+
+                <br><hr><br>
+
+            <p class="MsoNormal">
+                همان‌گونه که می‌بینید در جدول همه حالت‌ها بررسی شده است، گاهی اوقات به کمک استدلال می‌توان با مسیری کوتاه‌تر، 
+                ارزش گزاره را مشخص کرد. برای مثال می‌توان ارزش گزاره الف را به‌صورت زیر تعیین کرد:
+            </p>
+
+
+            <Br><Br>
+
+
+            <p class="MsoNormal">
+                گزاره $p$ دو ارزش دارد:
+            </p>
+
+            <br>
+
+            <p class="MsoNormal">
+                به‌طور مشابه ارزش گزاره ب را تعیین نمایید.
+            </p>
+
+            <br><Br>
+
+                <p class="MsoNormal">
+                    گزاره‌هایی نظیر $(p \lor \sim p)$ یا $(p \implies p)$ را 
+                    گزاره‌های همیشه درست و گزاره‌هایی نظیر $(p \land \sim p)$ را همیشه نادرست می‌نامیم.
+                </p>
+            </div>
+
+            <br><br>
+
+            <p class="MsoSemi">مثال:</p>
+            <p class="MsoNormal">
+                ثابت کنید اگر $a \in \mathbb{Z}$ و $a$ عددی فرد باشد، آن‌گاه $a$ عددی فرد است.
+            </p>
+
+            <p class="MsoNormal">حل:</p>
+            <p class="MsoNormal">
+                به‌جای اثبات این حکم، عکس نقیض آن را ثابت می‌کنیم 
+                (اثبات عکس نقیض آن ساده‌تر است). 
+            </p>
+
+            <br>
+
+            <div class="custom-scrollbar" style="overflow-x: auto;overflow-y:hidden;">
+            <p class="MsoNormal">
+                $
+                (  \text{عددی‌فرد‌است} \ \ a^2 \, \implies \, \text{عددی‌فرد‌است} \ \ a )
+
+
+                \equiv
+
+
+                (  \text{عددی‌زوج‌است} \ \ a \, \implies \, \text{عددی‌زوج‌است} \ \ a^2)
+
+                $
+            </p>
+            <br>
+
+        </div>
+
+            <br>
+            <br>
+
+
+            <p class="MsoNormal">
+                اگر $a$ عددی زوج باشد، یعنی $a = 2k$، خواهیم داشت:
+            </p>
+
+            <p class="MsoNormal" style="text-align: center;">
+                $$ a^2 = (2k)^2 = 4k^2 = 2 ( 2k^2) = 2k^{\prime} $$
+            </p>
+
+            <p class="MsoNormal">
+                در نتیجه $a^2$ عددی زوج است.
+            </p>
+
+
+
+            <br><hr><br>
+
+
+
+                <p class="MsoBold">ترکیب دو شرطی ِ دو گزاره</p>
+
+                <p class="MsoNormal">
+                    هرگاه $p$ و $q$ دو گزاره باشند، گزارهٔ مرکب $(p \implies q) \land (q \implies p)$ را به‌صورت $p \iff q$ می‌نویسیم 
+                    و آن را ترکیب دو شرطی $p$ و $q$ می‌نامیم. 
+                </p>
+
+                <Br>
+
+                <p class="MsoNormal">
+                    گزارهٔ $p \iff q$ را به صورت زیر می‌خوانیم:
+                </p>
+
+                <Br><Br>
+                <p class="MsoNormal">
+         
+                    «اگر $p$، آن‌گاه $q$ و برعکس»
+                    <br>
+                <Br>
+                    «$p$ شرط لازم و کافی برای $q$ است»
+                    <br>
+                <Br>
+                    «$p$ اگر و تنها اگر $q$»
+                    <br>
+                </p>
+                <Br><Br><Br>
+                <p class="MsoSemi">مثال:</p>
+                <p class="MsoNormal">گزاره‌های زیر، نمونه‌ای از ترکیب دو شرطی گزاره‌هاست:</p>
+<br>
+                <p class="MsoNormal">(الف) 
+                    
+                    $ 2 > 5   \iff 6 \text{عدد‌اول‌است}   $</p>
+            
+            <Br>
+                <p class="MsoNormal">(ب) 
+                    
+                    $   \text{عدد‌گویاست} \, \sqrt{2}  \iff   \text{عدد‌اول‌نیست}  \, 99  $                
+                </p>
+                
+                <Br>
+                <p class="MsoNormal">
+                    (پ) در پرتاب یک تاس، شرط لازم و کافی برای آنکه احتمال پیشامدی برابر با صفر باشد، آن است که پیشامد تهی باشد.
+                </p>
+
+            <br>
+
+                <p class="MsoNormal">
+                    (ت) شرط لازم و کافی برای آنکه نقطه‌ای واقع بر عمودمنصف یک پاره‌خط $d$ باشد، آن است که فاصلهٔ آن نقطه تا دو سر 
+                    پاره‌خط برابر باشد:
+                </p>
+                <br>
+                <p class="MsoNormal" style="text-align: center;">
+                    $$ \big[ \, M {\in} d \ \ (AB \, \text{عمودمنصف پاره‌خط}) \, \big] \iff MB = MA $$
+                </p>
+
+
+                <br><hr><br>
+
+                <p class="MsoStep">کار در کلاس</p>
+
+                <p class="MsoNormal">۱. با پر کردن جاهای خالی، جدول ارزش گزاره مرکب $p \iff q$ را از جدول ارزش گزاره مرکب $(p \implies q) \land (q \implies p)$ نتیجه بگیرید.</p>
+
+                <br>
+
+                <div class="custom-scrollbar" style="overflow-x: auto; overflow-y:hidden; direction:rtl;">
+                    <table class="MsoNormal" style="margin:auto;width:fit-content;direction:ltr;text-align:center;">
+                        <tr>
+                            <th>$p$</th>
+                            <th>$q$</th>
+                            <th>$p \implies q$</th>
+                            <th>$q \implies p$</th>
+                            <th>$(p \implies q) \land (q \implies p)$</th>
+                        </tr>
+                        <tr>
+                            <td>د</td>
+                            <td>د</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>د</td>
+                            <td>ن</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>ن</td>
+                            <td>د</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>ن</td>
+                            <td>ن</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                    <br>
+                </div>
+
+                <br><br>
+
+                <p class="MsoNormal">
+                    با توجه به اینکه 
+                    :
+                    $$(p \iff q) \equiv ( p \implies q ) \land ( p \implies q ) $$ جدول ارزش گزاره $p \iff q$ به‌صورت زیر است:
+                </p>
+
+                <br>
+
+                <div class="custom-scrollbar" style="overflow-x: auto; overflow-y:hidden; direction:rtl;">
+                    <table class="MsoNormal" style="margin:auto;width:350px;direction:ltr;text-align:center;">
+                        <tr>
+                            <th>$p$</th>
+                            <th>$q$</th>
+                            <th>$p \iff q$</th>
+                        </tr>
+                        <tr>
+                            <td>د</td>
+                            <td>د</td>
+                            <td>د</td>
+                        </tr>
+                        <tr>
+                            <td>د</td>
+                            <td>ن</td>
+                            <td>ن</td>
+                        </tr>
+                        <tr>
+                            <td>ن</td>
+                            <td>د</td>
+                            <td>ن</td>
+                        </tr>
+                        <tr>
+                            <td>ن</td>
+                            <td>ن</td>
+                            <td>د</td>
+                        </tr>
+                    </table>
+
+                    <br>
+                </div>
+
+                <br><br>
+
+             
+
+                <p class="MsoNormal">۲. با استفاده از جدول ارزش درستی گزاره‌ها، هم‌ارزی‌های منطقی زیر را مانند نمونه اثبات کنید.</p>
+
+                <br>
+
+              <div class="MsoNormal" style="text-align:center;">
+
+                <p class="MsoNormal">(الف) قوانین جابه‌جایی</p>
+                <p class="MsoNormal">$q \lor p \equiv p \lor q  $</p>
+                <p class="MsoNormal">$  q \land p \equiv p \land q$</p>
+
+                <br>
+
+                <p class="MsoNormal">(ب) قوانین شرکت‌پذیری</p>
+                <p class="MsoNormal">$ (p \lor q) \lor r $ $ \equiv  $  $ p \lor (q \lor r) $</p>
+                <p class="MsoNormal">$   (p \land q) \land r $ $ \equiv $ $  p \land (q \land r) $</p>
+
+                <br>
+
+                <p class="MsoNormal">(پ) قوانین توزیع‌پذیری</p>
+                <p class="MsoNormal">$p \land (q \lor r) \equiv (p \land q) \lor (p \land r)$</p>
+                <p class="MsoNormal">$p \lor (q \land r) \equiv (p \lor q) \land (p \lor r)$</p>
+
+                <br>
+              </div>
+
+                <p class="MsoNormal">
+                    در زیر یکی از قوانین توزیع‌پذیری اثبات شده است:
+                </p>
+
+                <br>
+
+                <div class="custom-scrollbar" style="overflow-x: auto; overflow-y:hidden; direction:rtl;">
+                    <table class="MsoNormal" style="margin:auto;width:fit-content;direction:ltr;text-align:center;">
+                        <tr>
+                            <th>$p$</th>
+                            <th>$q$</th>
+                            <th>$r$</th>
+                            <th>$q \lor r$</th>
+                            <th>$p \land q$</th>
+                            <th>$p \land r$</th>
+                            <th>$p \land (q \lor r)$</th>
+                            <th>$(p \land q) \lor (p \land r)$</th>
+                        
+                        </tr>
+                        <tr>
+                            <td>د</td>
+                            <td>د</td>
+                            <td>د</td>
+                            <td>د</td>
+                            <td>د</td>
+                            <td>د</td>
+                            <td>د</td>
+                            <td>د</td>
+                        </tr>
+                        <tr>
+                            <td>د</td>
+                            <td>د</td>
+                            <td>ن</td>
+                            <td>د</td>
+                            <td>د</td>
+                            <td>ن</td>
+                            <td>د</td>
+                            <td>د</td>
+                        </tr>
+                        <tr>
+                            <td>د</td>
+                            <td>ن</td>
+                            <td>د</td>
+                            <td>د</td>
+                            <td>ن</td>
+                            <td>د</td>
+                            <td>د</td>
+                            <td>د</td>
+                        </tr>
+                        <tr>
+                            <td>د</td>
+                            <td>ن</td>
+                            <td>ن</td>
+                            <td>ن</td>
+                            <td>ن</td>
+                            <td>ن</td>
+                            <td>ن</td>
+                            <td>ن</td>
+                        </tr>
+                        <tr>
+                            <td>ن</td>
+                            <td>د</td>
+                            <td>د</td>
+                            <td>د</td>
+                            <td>ن</td>
+                            <td>ن</td>
+                            <td>ن</td>
+                            <td>ن</td>
+                        </tr>
+                        <tr>
+                            <td>ن</td>
+                            <td>د</td>
+                            <td>ن</td>
+                            <td>د</td>
+                            <td>ن</td>
+                            <td>ن</td>
+                            <td>ن</td>
+                            <td>ن</td>
+                        </tr>
+                        <tr>
+                            <td>ن</td>
+                            <td>ن</td>
+                            <td>د</td>
+                            <td>د</td>
+                            <td>ن</td>
+                            <td>ن</td>
+                            <td>ن</td>
+                            <td>ن</td>
+                        </tr>
+                        <tr>
+                            <td>ن</td>
+                            <td>ن</td>
+                            <td>ن</td>
+                            <td>ن</td>
+                            <td>ن</td>
+                            <td>ن</td>
+                            <td>ن</td>
+                            <td>ن</td>
+                        </tr>
+                    </table>
+                    <br>
+                </div>
+
+                <br>
+
+                <p class="MsoNormal">
+                    چون دو ستون آخر جدول یکسان شده است، پس $p \land (q \lor r) \equiv (p \land q) \lor (p \land r)$.
+                </p>
+
+                <br><hr>
+          
+
+                <p class="MsoBold">سورها</p>
+                
+                <p class="MsoNormal">به جملات زیر دقت کنید:</p>
+                
+                <p class="MsoNormal">
+                    «همهٔ دانش‌آموزان کلاس در سال گذشته قبول شده‌اند.»
+                    <br>
+                    «هر گِردی، یک دایره است.»
+                    <br>
+                    «هر مستطیلی، یک مربع است.»
+                    <br>
+                    «هر مثلث متساوی‌الساقین یک مثلث متساوی‌الاضلاع است.»
+                    <br>
+                    «بعضی از تیم‌های دسته یک به دسته برتر صعود می‌کنند.»
+                    <br>
+                    «بعضی از اعداد اول، زوج‌اند.»
+                    <br>
+                    «بعضی از ذوزنقه‌ها، مستطیل‌اند.»
+                    <br>
+                    «به ازای هر $x \in \mathbb{N}$، $x^2 - x = 1$.»
+                </p>
+
+                <Br>
+                
+                <p class="MsoNormal">
+                    گزاره‌ها به سور معروف‌اند. 
+                    گزاره‌ها شامل عباراتی مانند «هر»، «به ازای هر»، و «به ازای بعضی مقادیر» هستند. 
+                    عبارت‌هایی که شامل سور عمومی یا سور وجودی می‌شوند، 
+                    نمادهای «$\forall$» و «$\exists$» را به ترتیب برای سور عمومی و سور وجودی استفاده می‌کنند.
+                </p>
+                <br>
+                <p class="MsoNormal">
+                    برای بیان این عبارت‌ها با استفاده از نمادهای ریاضی، به جای «به ازای هر»، 
+                    نماد $\forall$ و به جای «وجود دارد»، نماد $\exists$ استفاده می‌کنیم. 
+                </p>
+                
+
+
+                <br><hr><br>
+
+      
+
+                <p class="MsoStep">کار در کلاس</p>
+
+                <p class="MsoNormal">جدول زیر را کامل کنید.</p>
+
+                <br>
+
+                <div class="custom-scrollbar" style="overflow-x: auto; overflow-y:hidden; direction:rtl;">
+                    <table class="MsoNormal" style="margin:auto;width:fit-content;direction:rtl;text-align:center;">
+                        <tr>
+                            <th>عبارت با زبان طبیعی</th>
+                            <th>عبارت با زبان ریاضی</th>
+                        </tr>
+                        <tr>
+                            <td>برای هر عدد حقیقی $x$، داریم: $x^2 \geq 0$</td>
+                            <td>$ {\forall} x \in R ; \, x^2 \geq 0$</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>$ {\forall} a \in E ; \, a = 2k \, (k \in Z )$</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>$ {\exists} p \in P ; \, p = 2k \, (k \in Z)$</td>
+                        </tr>
+                        <tr>
+                            <td>بعضی از اعداد فرد، عدد اول هستند.</td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+
+                <br>
+
+                <p class="MsoNormal">
+                    در جدول فوق، مجموعه اعداد زوج را با $E$، مجموعه اعداد فرد را با $O$ و مجموعه اعداد اول را با $P$ نمایش داده‌ایم.
+                </p>
+
+                <br>
+                <br>
+                <p class="MsoSemi">مثال:</p>
+                <p class="MsoNormal">
+                    ارزش گزاره $\forall x \in \mathbb{R} ; \, x^2 < 0$ نادرست است، زیرا $x = 1$ برای آن مثال نقض محسوب می‌شود.
+                </p>
+
+                <br>
+                <p class="MsoNormal">
+                    مثال: کدام‌یک از عبارت‌های زیر، گزاره‌هایی درست هستند؟
+                </p>
+
+                <br>
+
+                <p class="MsoNormal">(الف) 
+                    
+                    به ازای هر
+                    :
+              
+                    
+                    $ \dfrac{ x(x+1) }{2} \in Z \quad ; $
+                  
+                
+                    $ x \in Z $
+                
+                </p>
+
+
+                <br>
+
+
+                <p class="MsoNormal">(ب) 
+                
+                    
+                    $
+                    
+                   { \forall } x \in R ; \tan x \, \times \, \cot x = 1                    
+                    $
+                </p>
+
+                <br>
+
+                <p class="MsoSemi">حل 
+                    <br>
+                    (الف):</p>
+                <p class="MsoNormal">
+                    چون حاصل‌ضرب هر دو عدد متوالی صحیح، عددی زوج است. بنابراین، برای هر عنصر از دامنه متغیر ($Z$)،
+                    گزاره نادرست تبدیل به عبارت درست است.
+                </p>
+
+                <Br>
+
+                <p class="MsoSemi"> (ب):</p>
+                <p class="MsoNormal">
+                    $ x = 90^0$، نادرست است ; زیرا
+                    
+                    گزاره نما را
+                    به گزاره‌ای نادرست تبدیل می‌کند.
+                </p>
+
+                
+
+           <br><br>
+
+
+
+                <p class="MsoSemi">مثال:</p>
+                <p class="MsoNormal">
+                    گزاره 
+                    
+                    $$ {\exists} x \in Z \, ; \, |x| -1 < 0 $$
+                    
+                    درست است، 
+                    زیرا حداقل یک عضو $x$ وجود دارد که به ازای آن، گزاره‌نما به گزاره‌ای با ارزش درست تبدیل می‌شود.
+                </p>
+
+                <br>
+
+                <p class="MsoNormal">
+                    مثال: کدام‌یک از عبارت‌های زیر درست‌اند؟
+                </p>
+<br>
+                <p class="MsoNormal">(الف) $ {\exists} x \in Q \, ; \, x^2  \in Q $</p>
+                <p class="MsoNormal">(ب) $ {\exists} x \in R \, ; \, x^2 + 1 = 0 $</p>
+
+                <br>
+
+                <p class="MsoSemi">حل:</p>
+
+                <p class="MsoNormal">
+                    (الف)
+                     درست است، زیرا $\sqrt{2}$ عددی گنگ
+
+                     و 
+
+                    $ ( \sqrt{2} )^2 $
+                     عددی گویاست.
+                </p>
+                <br>
+                <p class="MsoNormal">
+                    (ب) نادرست است، زیرا عدد حقیقی‌ای وجود ندارد که در این تساوی صدق کند.
+                </p>
+
+                <br><hr><br>
+
+                <p class="MsoStep">کار در کلاس</p>
+
+                <p class="MsoNormal">درستی یا نادرستی گزاره‌های سوری زیر را با ذکر دلیل مشخص کنید:</p>
+
+                <br>
+
+                <p class="MsoNormal">(الف) هر عدد اول، فرد است.</p>
+                <br>
+                <p class="MsoNormal">(ب) $ {\exists} x \, \in \, N ; \, 2x^2 + 3x + 1 = 0 $</p>
+                <br>
+                <p class="MsoNormal">
+
+                    (پ)
+
+                    $
+                    {\exists} x \, \in \, Z \, ; \, 2x^2 + 3x + 1 = 0
+                     $
+
+                </p>
+
+                <Br>
+                    <p class="MsoNormal">
+                        ت) برای هر عدد طبیعی $n!$، $n$ عددی گویاست.
+                    </p>
+                    <br>
+                    <p class="MsoNormal">
+                        ث) در آمار، هر متغیّر ترتیبی یک متغیّر کیفی است.
+                    </p>
+                    <Br>
+                    <p class="MsoNormal">
+                        ج) در احتمال، هر مجموعه پیشامد زیرمجموعهٔ فضای نمونه است.
+                    </p>
+                    <br>
+                    <p class="MsoNormal">
+                        چ) در فضای نمونهٔ $S$، پیشامدی مانند $A$ وجود دارد به طوری که $P(A) > 1$.
+                    </p>
+                    <br>
+                    <p class="MsoNormal">
+                        ح) هر معادلهٔ درجهٔ دوم، حداقل یک ریشهٔ حقیقی دارد.
+                    </p>
+
+
+
+           <br><hr>
+
+            <p class="MsoBold">نقض گزاره‌های سوری</p>
+
+            <p class="MsoNormal">گزاره «علی به مدرسه رفت» را در نظر بگیرید و نقض آن را در زیر بنویسید.</p>
+
+            <br>
+
+            <p class="MsoNormal">معمولاً برای نقض کردن یک گزاره، فعل آن را منفی می‌کنند. اکنون گزاره زیر را در نظر بگیرید و نقض آن را بنویسید:</p>
+           <br>
+            <p class="MsoNormal">«هر آسیایی، ایرانی است.»</p>
+
+            <br>
+
+            <p class="MsoNormal">
+                در محاوره معمولاً این اشتباه رخ می‌دهد که برای نوشتن نقض این گزاره، فقط فعل آن را منفی می‌کنند و می‌نویسند:
+            </p>
+            <br>
+            <p class="MsoNormal">«هر آسیایی، ایرانی نیست.»</p>
+
+            <br>
+
+            <p class="MsoNormal">
+                همان‌طور که ملاحظه می‌کنید، ارزش در گزاره قبلی («هر آسیایی، ایرانی نیست») نادرست است و این غیر ممکن است (چرا؟)، 
+                بنابراین جمله دوم نمی‌تواند نقض جمله اول باشد.
+            </p>
+            <br>
+
+            <p class="MsoNormal">
+                برای رفع این مشکل، فرض کنیم مجموعه مردمان آسیا را $A$، ایرانی بودن را با $P(x)$ نمایش دهیم.
+            </p>
+
+            <br>
+
+            <p class="MsoNormal">
+                با این فرض، گزاره «هر آسیایی، ایرانی است» به‌صورت $ {\forall} x \in A {;} P(x) $ بیان می‌شود.
+            </p>
+
+            <br>
+            <p class="MsoNormal">
+                چون ارزش گزاره $ {\forall} x \in A $ $ ; P(x) $ نادرست است، پس ارزش گزاره نقض آن، یعنی:
+
+                $ \sim ( {\forall} x \in A {;} P(x) ) $
+
+                درست باشد. از آنجا که ارزش گزاره 
+
+                $ ({\forall} x \in A {;} P(x))  $
+                
+                نادرست است، یعنی وجود دارد $x \in A$ 
+                به‌طوری که $P(x)$ نادرست باشد، در نتیجه ارزش گزاره $ {\exists} x \in A ; \sim P(x)$ درست است و ارزش این گزاره با:
+                $ \sim ( {\forall} x \in A {;} P(x)) \equiv {\exists} x \in A {;} \sim P(x) $
+                یکسان است. بنابراین داریم:
+            </p>
+
+            <p class="MsoNormal" style="text-align: center;">
+                $$ \sim ( {\forall} x {;} P(x)) \equiv {\exists} x {;} \sim P(x) $$
+            </p>
+
+            <p class="MsoNormal">
+                در این صورت نقض گزاره «هر آسیایی، ایرانی است» به‌صورت زیر است:
+            </p>
+<br>
+            <p class="MsoNormal" style="text-align: center;">
+                «بعضی از آسیایی‌ها، ایرانی نیستند.»
+            </p>
+<br>
+            <p class="MsoNormal">
+                به همین ترتیب می‌توان نقض گزاره‌ای را که سور وجودی دارد، به‌صورت زیر نوشت:
+            </p>
+
+            <p class="MsoNormal">
+                $$ \sim ( {\exists} x {;} P(x)) \equiv {\forall} x {;} \sim P(x) $$
+            </p>
+
+          <br><br>
+
+            <p class="MsoSemi">مثال:</p>
+            <p class="MsoNormal">ارزش گزاره‌های سوری زیر را تعیین کنید و سپس نقض هرکدام را بنویسید:</p>
+            <br>
+            <p class="MsoNormal">(الف) $ {\forall} x \in R {;} x^2 > 0$</p>
+            <br>
+            <p class="MsoNormal">(ب) $ {\exists} y \in R {;} y < 0 \land y^2 \leq 1$</p>
+
+
+            <br><br>
+
+
+            <p class="MsoSemi">حل</p>
+            
+            <p class="MsoNormal">
+                (الف) ارزش این گزاره نادرست است؛ چون $x = 0$، مثالی نقض برای آن است:
+            </p>
+            
+            <p class="MsoNormal" style="text-align: center;">
+                $$ \sim (\forall x \in \mathbb{R} ; x^2 > 0) \equiv \exists x \in \mathbb{R} ; x^2 \leq 0 $$
+            </p>
+            
+            <p class="MsoNormal">
+                (ب) درست است؛ زیرا $y = -1$ در آن صدق می‌کند، پس مجموعه جواب آن ناتهی است:
+            </p>
+            
+            <p class="MsoNormal" style="text-align: center;">
+                $$ \sim (\exists y \in \mathbb{R} ; y < 1 \land y^2 \leq 1) \equiv \forall y \in \mathbb{R} ; (y \geq 1 \lor y^2 > 1) $$
+            </p>
+            
+            <br><hr><br>
+            
+            <p class="MsoStep">تمرین</p>
+            
+            <p class="MsoNormal">
+                ۱. در جاهای خالی عدد یا علامت مناسب قرار دهید، به‌طوری که گزاره‌های حاصل دارای ارزش درست باشند.
+            </p>
+            
+            <div class="MsoNormal" style="text-align:right;direction:rtl;">
+           
+                <p>(الف) $(0.1)^{5} \quad . . . \quad (0.1)^{3}$</p>
+
+                <p>(ب) اگر $0^0 < \alpha < 45^0$، آن‌گاه $\sin \alpha \quad . . . \quad \cos \alpha$.</p>
+    
+                <p>(پ) نمودار تابع $y = x^2$ از نقطه $ \quad . . . \quad $  می‌گذرد.</p>
+    
+                <p>(ت) $ -(x - 4)^2   \quad . . . \quad 0 $</p>
+
+                <p>(ث)    $ y^2 = x^2 $ تابع     $ \quad . . . \quad $ </p>
+    
+                <p>(ج) اگر $x^2 = a$، آن‌گاه $x =  \quad . . . \quad $.</p>
+    
+                <br>
+
+            </div>
+  
+            
+            <br>
+            
+            <p class="MsoNormal">
+                ۲. نقض گزاره‌های زیر را بنویسید.
+      
+            </p>
+            <Br>
+        <p class="MsoNormal">
+            (الف) اگر 
+            
+            $0 < x < 1$
+            
+            ، آن‌گاه $x^2 < x$.
+        </p>
+        <Br>
+        <p class="MsoNormal">
+            (ب) ابوالوفا محمد بوزجانی، ریاضی‌دان است.
+        </p>
+        <Br>
+        <p class="MsoNormal">
+            (پ) $a \in \{ b, c, d \}$
+        </p>
+        <Br>
+        <p class="MsoNormal">
+            (ت) $2$ عدد زوج است یا عدد $\pi$ گویاست.
+        </p>
+
+
+        <br><br><br>
+
+
+
+        <p class="MsoNormal">۳. ارزش گزاره‌های مرکب زیر را تعیین کنید.</p>
+
+        <br>
+        <div class="MsoNormal">
+            <p class="MsoNormal">(الف) 
+                $ ( 2 < 3 ) \land  ( 4 + 3 = 10 ) $
+            </p>
+            <br>
+            <p class="MsoNormal">(ب) 
+                $ ( 5 > 3 ) \lor ( (-1)^2 + 1 = 0 )  $
+            </p>
+    <br>
+            <p class="MsoNormal">(پ)
+                
+                $ ( \dfrac{1}{2} \neq \dfrac{3}{6} ) \lor ( 1 \in \{ 2, 3, 4 \} ) $
+            </p>
+    <br>
+            <p class="MsoNormal">(ت)
+                
+              اگر عدد
+              $4$
+               فرد باشد٬
+            آنگاه 
+            $4$
+            مربع کامل نیست.
+            </p>
+    <br>
+            <p class="MsoNormal">(ث) 
+                
+                $2$ عدد اول نیست، اگر و تنها اگر $2$ مربع کامل است.</p>
+    <br>
+            <p class="MsoNormal">(ج) 
+                
+                $ 2 > 3 \Leftrightarrow -2 < -3 $
+            </p>
+    <br>
+            <p class="MsoNormal">(چ) اگر $a \in \{b\}$، آن‌گاه $a = b$ و برعکس.</p>
+    <br>
+        </div>
+
+        <br>
+
+        <p class="MsoNormal">جدول زیر را کامل کنید.</p>
+
+        <br>
+
+        <div class="custom-scrollbar" style="overflow-x: auto; overflow-y:hidden; direction:rtl;">
+            <table class="MsoNormal" style="margin:auto;width:max-content;direction:rtl;text-align:center;">
+                <tr>
+                    <th>
+                        گزاره
+                        $p$
+                    </th>
+                    <th>
+                        گزاره
+                        $q$
+                    </th>
+                    <th>ارزش $p$</th>
+                    <th>ارزش $q$</th>
+                    <th>ارزش $p \implies q$</th>
+                    <th>ارزش $p \land q$</th>
+                </tr>
+                <tr>
+                    <td>عدد $2$ زوج است.</td>
+                    <td>$\quad$</td>
+                    <td>$\quad$</td>
+                    <td>$\quad$</td>
+                    <td>$\quad$</td>
+                    <td>د</td>
+                </tr>
+                <tr>
+                    <td>$\quad$</td>
+                    <td>$ 1 \not< 2 $</td>
+                    <td>$\quad$</td>
+                    <td>$\quad$</td>
+                    <td>ن</td>
+                    <td>$\quad$</td>
+                </tr>
+                <tr>
+                    <td> $2 \in \{1, 2\}$</td>
+                    <td>$\quad$</td>
+                    <td>$\quad$</td>
+                    <td>$\quad$</td>
+                    <td>$\quad$</td>
+                    <td>ن</td>
+                </tr>
+                <tr>
+                    <td>$\quad$</td>
+                    <td>عدد $7$ اول است.</td>
+                    <td>$\quad$</td>
+                    <td>$\quad$</td>
+                    <td>د</td>
+                    <td>$\quad$</td>
+                </tr>
+            </table>
+            <br>
+        </div>
+
+        <br><br>
+
+
+
+        <p class="MsoNormal">۵. جدول ارزش‌های هر یک از گزاره‌های زیر را رسم کنید:</p>
+        <br>
+
+        <div class="MsoNormal" style="text-align:left;direction:ltr">
+
+        <p class="MsoNormal">(الف) $p \land \sim q$</p>
+        <br>
+        <p class="MsoNormal">(ب) $\sim p \land q$</p>
+        <br>
+        <p class="MsoNormal">(پ) $ \sim p \lor p $</p>
+        <br>
+        <p class="MsoNormal">(ت) $ ( p \lor q ) \land \sim p $</p>
+        <br>
+        <p class="MsoNormal">(ث) $ (p \lor q) \Leftrightarrow q$</p>
+        <br>
+        <p class="MsoNormal">(ج) $\sim p \iff \sim q$</p>
+
+        </div>
+
+
+        <br><br>
+
+        <p class="MsoNormal">۶. با استفاده از جدول ارزش‌ها نشان دهید که:</p>
+        <br>
+
+        <div class="MsoNormal" style="text-align:left;direction:ltr">
+
+        <p class="MsoNormal">(الف) $ p \Leftrightarrow p \equiv T $</p>
+        <br>
+        <p class="MsoNormal">(ب) $ p \lor F \equiv p $</p>
+        <br>
+        <p class="MsoNormal">(پ) $ p \land T \equiv p $</p>
+        <br>
+        <p class="MsoNormal">(ت) $ \sim ( p \Leftrightarrow q) \equiv p \land \sim q $</p>
+        <br>
+        <p class="MsoNormal">(ث) $ p \land ( q \lor p ) \equiv p $</p>
+        <br>
+        <p class="MsoNormal">(ج) $ p \lor ( q \land p ) \equiv p $</p>
+        <br>
+        <p class="MsoNormal">(چ) $ p \Rightarrow ( q \Rightarrow r ) \equiv ( p \land q ) \Rightarrow r  $</p>
+        <br>
+        <p class="MsoNormal">(ح) $ \sim ( p \Leftrightarrow q ) \equiv \sim p \Leftrightarrow q $</p>
+
+        </div>
+
+        <br><br>
+
+        <p class="MsoNormal">۷. ثابت کنید هرگاه $n$ عددی صحیح و $n^2$ مضرب $3$ باشد، آن‌گاه $n$ نیز مضرب $3$ است.</p>
+
+
+        <br><br>
+
+
+
+        <p class="MsoNormal">۸. گزاره‌های زیر را با استفاده از نمادهای $\forall$ و $\exists$ بنویسید و ارزش هر یک را ذکر با دلیل مشخص کنید:</p>
+        <br>
+        <p class="MsoNormal">(الف) هر عدد طبیعی زوج یا فرد است.</p>
+        <br>
+        <p class="MsoNormal">(ب) برای بعضی از مقادیر $a$ در مجموعه اعداد حسابی داریم: $a^2 < 0$.</p>
+        <br>
+        <p class="MsoNormal">(پ) همه اعداد اول فرداند.</p>
+        <br>
+        <p class="MsoNormal">(ت) عدد صحیح مثبتی وجود دارد مانند $x$ به‌طوری که $1 - 2x > 5$.</p>
+        <br>
+        <p class="MsoNormal">(ث) حاصل جمع هر عدد حقیقی ناصفر، با معکوسش، بزرگ‌تر یا مساوی $2$ است.</p>
+        <br>
+        <p class="MsoNormal">(ج) برای بعضی از مقادیر حقیقی داریم $x^3 = x$.</p>
+
+        <br><br>
+
+        <p class="MsoNormal">۹. هرگاه دامنه متغیر شامل 
+
+            $A = \{x \in \mathbb{Z} \, | \, 0 < x \leq 5\}$
+            
+            باشد، ارزش گزاره‌های سوری زیر را تعیین کنید:</p>
+        <br>
+
+        <div class="MsoNormal" style="text-align:left;direction:ltr">
+
+        <p class="MsoNormal">(الف) $ {\exists} x \in A \, {;} \, x + 4 = 10 $</p>
+        <br>
+        <p class="MsoNormal">(ب) $ {\forall} x \in A \, {;} \, x + 2 \leq 9 $</p>
+        <br>
+        <p class="MsoNormal">(پ) $ {\forall} x \in A \, {;} \, x + 3 \leq 4 $</p>
+        <br>
+        <p class="MsoNormal">(ت) $ {\forall} x \in A \, {;} \, x + 1 \geq 6 $</p>
+
+        </div>
+
+        <br><br>
+
+
+
+        <p class="MsoNormal">۱۰. ارزش گزاره‌های سوری زیر را تعیین کنید، سپس نقض هر یک را بنویسید:</p>
+        <br>
+
+        <div class="MsoNormal" style="text-align:left;direction:ltr">
+        <p class="MsoNormal">(الف) $ {\forall} x \in R \, {;} \, \dfrac{ x^2 - 1 }{ x - 1 } = x + 1 $</p>
+        <br>
+        <p class="MsoNormal">(ب) $ {\forall} n \in N \, {;} \, ( 2^n + 1 ) \in P $</p>
+        <br>
+        <p class="MsoNormal">(پ) $ {\forall} x \in ( - {\infty} , 0  ) \, {;} \, x - \dfrac{1}{x} \leq -2 $</p>
+        <br>
+        <p class="MsoNormal">(ت) $ {\exists} y \in R \, {;} \, \dfrac{y - 3}{5} = 0 $</p>
+    </div>
+        <br><Br>
+
+
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br><br><br><br>
+
+
+    </body>
+
+
+</html>

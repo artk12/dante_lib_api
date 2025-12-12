@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi {
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSemic,
+        li.MsoSemic,
+        div.MsoSemic {
+            margin: 0in;
+           
+            font-size: clamp(1.2rem, 1.6vw, 1.3rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #b19af2;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #6ca4ec;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .boxp {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .boxg {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#00f2ff11; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        .boxb {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#0c4e9f2d; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+
+        ::selection {
+            background-color: #59078fa1; /* Change this to your desired highlight color */
+            color: #ffffff; /* Change this to your desired text color */
+          }
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+
+    <body class="custom-scrollbar">
+
+
+
+
+<p class="MsoBold">فصل ۶
+    <br>
+پویایی زمین</p>
+<p class="MsoNormal">با آنکه خداوند، زمین را محیطی آرام برای زندگی انسان و سایر جانداران مهیا نموده است، اما درون این سیاره، فعال و پرجنب و جوش است که باعث حرکت ورقه‌های سنگ‌کره شده است. جابه‌جایی ورقه‌های سنگ‌کره، سبب پیدایش پدیده‌های طبیعی مانند شکستگی، زمین‌لرزه، چین‌خوردگی، فوران آتشفشان و... می‌شود.</p>
+
+<br><hr><br>
+
+<p class="MsoStep">شکستگی‌ها</p>
+<p class="MsoNormal">شکستگی‌های پوسته زمین، یکی از نشانه‌های پویایی زمین است. مطالعهٔ آنها در هنگام ساخت جاده‌ها، سدها، تونل‌ها و سایر سازه‌های مهندسی اهمیت زیادی دارد. افزون بر آن، در تجمع آب‌های زیرزمینی و ذخایر نفت و گاز و تشکیل کانسنگ‌های گرمابی حائز اهمیت می‌باشد.</p>
+
+<p class="MsoNormal">یادآوری: در کتاب‌های درسی علوم تجربی آموختید که شکستگی‌ها، به دو دسته درزه و گسل تقسیم می‌شوند. تفاوت و تشابه درزه و گسل را بیان کنید. سطح گسل، شکستگی و جابه‌جایی در آن اتفاق افتاده است. اگر سطح گسل مایل باشد به طبقات روی سطح گسل، فرادیواره و به طبقات زیر سطح گسل، فرودی‌واره می‌گویند.</p>
+
+<br>
+
+<table class="tables" style="text-align: right;width:fit-content;direction:rtl">
+    <tr>
+        <th>نوع گسل</th>
+        <th>ویژگی</th>
+        <th>نوع تنش</th>
+        <th>شکل</th>
+      
+        
+        
+    </tr>
+    <tr>
+        <td>عادی</td>
+        <td>
+            1.
+             سطح گسل مایل است
+            
+            <br><br>
+            2.
+             فرادیواره نسبت به فروی‌واره به سمت پایین
+            
+             <br>
+             یا
+             <br>
+             
+              فرودیواره نسبت به فرادیواره به سمت بالا حرکت کرده است.
+            
+            </td>
+       
+        <td>کششی</td>
+    </tr>
+    <tr>
+        <td>معکوس</td>
+        
+        <td>
+           1.
+             سطح گسل مایل است
+            
+            <br><br>
+            2.
+             فرادیواره نسبت به فرودیواره، به سمت بالا
+          
+             <br>
+             یا
+             <br>
+
+
+
+              فرودیواره نسبت به فرادیواره به سمت پایین حرکت کرده است.</td>
+              <td>فشاری</td>
+    </tr>
+    <tr>
+        <td>امتداد لغز</td>
+       
+        <td>
+            1.
+             لغزش سنگ‌ها در امتداد سطح گسل است.
+            <br><br>
+            2.
+              حرکت قطعات شکسته شده، در امتداد افق است.</td>
+              <td>برشی</td>
+    </tr>
+</table>
+
+<br>
+
+<div class="boxg">
+<p class="MsoStep">فکر کنید</p>
+<p class="MsoNormal">در هر یک از گسل‌های زیر، نوع گسل را مشخص کنید.</p>
+</div>
+<br><hr><br>
+
+<p class="MsoStep">زمین‌لرزه</p>
+<p class="MsoNormal">زمین‌لرزه، نشانه آشکاری از پویایی زمین و بخشی از نظام آفرینش این سیاره است. در هر زمین‌لرزه، مقدار انرژی انباشته شده در سنگ‌ها، به‌طور ناگهانی آزاد می‌شود و به‌صورت امواج لرزه‌ای به اطراف حرکت می‌کند. نگاهی به نقشه پراکندگی زمین‌لرزه‌ها نشان می‌دهد که توزیع آنها، در همه جا یکسان نیست. علت اصلی زمین‌لرزه، حرکت ورقه‌های سنگ‌کره است. سنگ‌های سازنده سنگ‌کره در مقابل نیروی وارده، رفتار الاستیک از خود نشان می‌دهند. چنانچه تنش از مقاومت سنگ فراتر رود، سنگ‌ها دچار شکستگی شده و انرژی زمین‌لرزه از محل شکستگی به‌صورت امواج لرزه‌ای، آزاد می‌شود. در هر زمین‌لرزه، از گروه لرزه‌ها صحبت می‌شود که شامل پیش‌لرزه، لرزه اصلی و پس‌لرزه است. زمین‌لرزه، معمولاً کمتر از یک دقیقه طول می‌کشد. بسیاری از مناطق مسکونی، در معرض خطر زمین‌لرزه قرار دارند.</p>
+
+<br>
+
+<p class="MsoNormal">کشور ایران با قرار گرفتن در کمربند لرزه‌خیز آلپ ـ هیمالیا، تقریباً هر روز شاهد وقوع زمین‌لرزه در مناطق مختلف می‌باشد. بسیاری از مناطق مسکونی ایران، بارها توسط زمین‌لرزه ویران شده‌اند.</p>
+
+<br>
+
+<div class="boxg">
+<p class="MsoStep">با هم بیندیشید</p>
+<p class="MsoNormal">با استفاده از اطلاعات موجود در تصویر روبه‌رو در مورد پراکندگی جغرافیایی زمین‌لرزه‌های جهان، به پرسش‌های زیر پاسخ دهید:</p>
+
+
+
+
+
+<p class="MsoNormal">
+    $*$
+    محدوده کمربند لرزه‌خیز آلپ ـ هیمالیا را مشخص کنید.<br>
+    $*$
+    در پایه نهم با ورقه‌های سنگ کره آشنا شدید. دو تصویر روبه‌رو را با هم مقایسه کنید. چه نتیجه‌ای می‌گیرید؟<br>
+</p>
+</div>
+<br>
+
+<div class="boxg">
+
+<p class="MsoStep">گفت‌وگو کنید</p>
+<p class="MsoNormal">کدام یک از فعالیت‌های انسانی زیر می‌تواند باعث وقوع زمین‌لرزه شود؟</p>
+<br>
+<p class="MsoNormal">
+    
+    $*$انفجار معدن<br>
+    $*$تخلیه ناگهانی آب پشت سد<br>
+    $*$شخم زدن زمین<br>
+    $*$انفجارهای اتمی<br>
+    $*$آتش‌سوزی جنگل‌ها<br>
+</p>
+</div>
+
+
+<br><br>
+
+<p class="MsoSemi">
+    کانون زمین لرزه:
+</p>
+<p class="MsoNormal"> محلی درون زمین است که انرژی ذخیره شده از آنجا آزاد میشود.</p>
+<br><br>
+
+<p class="MsoSemi">
+    مرکز سطحی زمین لرزه:
+</p>
+<p class="MsoNormal"> نقطهای در سطح زمین است که در بالای کانون زمین لرزه قرار دارد. این مرکز، کمترین فاصله را از کانون زمینلرزه دارد.</p>
+
+<br>
+
+<div class="boxg">
+<p class="MsoStep">یادآوری</p>
+<p class="MsoNormal">طرح سه بعدی زیر، برخی از مشخصات محل وقوع زمینلرزه را نشان میدهد. با استفاده از اطلاعات موجود در تصویر، میزان خسارت احتمالی در دو نقطه X و Y را مقایسه کنید.</p>
+</div>
+
+<br><br>
+
+<p class="MsoStep">امواج لرزه‌ای</p>
+
+<p class="MsoSemi">
+    امواج درونی:
+</p>
+<p class="MsoNormal"> این امواج در کانون زمی نلرزه ایجاد میشوند و در داخل زمین منتشر میگردند و شامل امواج P و S میباشند.</p>
+<br>
+
+<p class="MsoSemi">
+    موج P (اولیه، طولی):
+</p>
+<p class="MsoNormal"> موج P، بیشترین سرعت را دارد به همین دلیل، اولین موجی است که توسط دستگاه لرزه‌نگار ثبت میشود. این موج، از محیطهای جامد، مایع و گاز میگذرد. سرعت امواج در محیطهای مختلف، متفاوت است. هرچه تراکم سنگها بیشتر باشد، امواج سریعتر حرکت میکنند.</p>
+<br>
+
+<p class="MsoSemi">
+    موج S (ثانویه، عرضی):
+</p>
+<p class="MsoNormal"> این موج بعد از موج P، توسط لرزه‌نگارها ثبت میشود. این موج، فقط از محیطهای جامد عبور میکند.</p>
+<br>
+
+
+<p class="MsoSemi">
+    امواج سطحی:
+</p>
+<p class="MsoNormal"> این امواج در کانون تولید نمیشوند؛ بلکه از برخورد امواج درونی با فصل مشترک لایهها و سطح زمین ایجاد میشوند. متداولترین آنها امواج لاو (L) و ریلی (R) هستند. موج L، موجی است که پس از موج S، توسط لرزه‌نگارها ثبت میشود.</p>
+<br>
+
+<p class="MsoSemi">
+    موج R:
+</p>
+<p class="MsoNormal"> مانند حرکت امواج دریا، ذرات را در یک مدار دایرهای به ارتعاش درمیآورد. البته در موج ریلی، جهت حرکت دایرهای مخالف جهت حرکت امواج دریاست. عمق نفوذ و تأثیر امواج ریلی مثل امواج دریا محدود است و از سطح به عمق کاهش پیدا میکند.</p>
+<br>
+
+
+
+<p class="MsoStep">مقیاس اندازهگیری زمین لرزه</p>
+
+<p class="MsoNormal">برای توصیف و اندازهگیری زمین لرزه از دو مقیاس شدت و بزرگی استفاده میشود.</p>
+<br>
+
+<p class="MsoSemi">
+    شدت زمین لرزه:
+</p>
+<p class="MsoNormal"> این مقیاس بر اساس میزان خرابیها در هر زمین لرزه بیان میشود. در واقع شدت زمین لرزه، یک مقیاس مشاهدهای و توصیفی است که بدون استفاده از دستگاه و ابزار اندازهگیری، به توصیف میزان خرابیهای ناشی از زمین لرزه میپردازد. با دور شدن از مرکز سطحی زمین لرزه، شدت زمینلرزه کاهش مییابد. مرکالی، شدت زمین لرزه را در مقیاس کم با عدد ۱ و در مقیاس ۱۲ ویرانی کامل، توصیف کرده است.</p>
+
+<div class="boxg">
+
+    <p class="MsoStep">
+        بیشتر بدانید
+    </p>
+
+    <p class="MsoSemi" style="text-align: center;">
+        جدول مرکالی توصیفی
+    </p>
+<table class="tables" style="text-align: right; width: fit-content; direction:rtl">
+    <tr>
+        <th>مقیاس</th>
+        <th style="text-align: center;">توصیف</th>
+    </tr>
+    <tr>
+        <td style="text-align: center;">I</td>
+        <td>احساس نمیشود: حساس نمیشود، مگر در شرایط ویژه. تنها توسط دستگاههای لرزهنگار قابل ثبت است.</td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">II</td>
+        <td>ضعیف: توسط افراد در حال استراحت و در طبقات بالای ساختمانها حس میشود. برخی از اشیای آویزان ممکن است نوسان کنند.</td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">III</td>
+        <td>ضعیف: در فضای باز و در طبقات بالایی ساختمانها کاملاً قابل احساس است. مردم آن را بهصورت زمینلرزه شناسایی نمیکنند. ارتعاش مانند عبور کامیون است. مدت زمان لرزش قابل تخمین است.</td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">IV</td>
+        <td>ملایم: در طی روز در فضای بسته توسط افراد زیادی حس میشود و در فضای باز عدۀ معدودی حس میکنند. در شب عدهای را از خواب بیدار میکند. بشقابها، پنجرهها و دربها تکانخورده و صدا میکنند. در ماشینهای ایستاده ارتعاش قابل درک است.</td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">V</td>
+        <td>متوسط: زمینلرزه توسط هر فردی قابل احساس است. بسیاری از خواب بیدار میشوند. برخی از پنجرهها، بشقابها و غیره شکسته میشوند. گچکاری ساختمانها ترک میخورند. اشیای ناپایدار، واژگون میگردند. سر و صدای درختان و سایر اشیای مرتفع شنیده میشود و آونگ ساعتها متوقف میگردند. دربها باز و بسته میشوند و امتداد حرکت زمینلرزه قابل درک است.</td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">VI</td>
+        <td>قابل توجه: زمینلرزه توسط بسیاری از افراد حس میشود و بسیاری از مردم وحشتزده به فضای باز پناه میآورند. اشیای سنگین جابهجا میشوند و قطعات از گچکاری کنده میشود. دودکشها فرو میریزند و خسارات جزئی به بار میآید. افراد به حالت نامتعادل قدم میزنند یا میایستند. پنجرهها، دربها و بشقابها شکسته میشوند. ساختمانهای خشتی و ضعیف ترک برمیدارند. زنگهای کوچک به صدا درمیآیند.</td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">VII</td>
+        <td>
+            مردم وحشت‌زده به فضای باز فرار می‌کنند. خسارت بسیار کمی در ساختمان‌هایی که خوب طراحی و ساخته شده‌اند وارد می‌شود. به ساختمان‌های متوسط و معمولی خسارات جزئی و متوسط وارد می‌گردد. خسارات قابل ملاحظه‌ای در ساختمان‌های ضعیف و بد طراحی شده وارد می‌شود. آجرهای سست، لق می‌شوند. ایستادن مشکل می‌شود و اثاثیه شکسته می‌شوند. زنگ‌های بزرگ به صدا درمی‌آیند. زهکش‌های سیمانی آبرسانی خسارت می‌بینند. لغزش‌های کوچک اتفاق می‌افتد.        </td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">VIII</td>
+        <td>قوی: خسارت در ساختمانهایی که طراحی ویژه شدهاند، بسیار جزئی است و در ساختمانهای ضعیف بسیار شدید است. دیوارهای جداکننده به خارج از قاب ساختمان پرتاب میشوند. دودکشها، ستونها، دیوارها و دودکشهای کارخانهها و سنگهای یادبود سقوط میکنند. اشیای سنگین واژگون میگردند. تغییراتی در سطح آب چاهها ایجاد میشود. ماسه و گل به مقدار کم بیرون زده میشوند. رانندگی مشکل میگردد. ترکهایی در زمینهای مرطوب و شیبهای ملایم ایجاد میشود. تغییراتی در آب و درجه حرارت چشمهها و چاهها ایجاد میشود. خانههای اسکلتدار بر روی سطح پی حرکت میکند. شاخههای درختان شکسته میشوند.</td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">IX</td>
+        <td>شدید: خسارت قابل ملاحظهای در ساختمانهایی که طراحی ویژه شدهاند، ایجاد میشود. ساختمانهای اسکلتی خوب طراحی شده کج میشوند. ساختمان بر روی پی تغییر مکان میدهد. ترکهایی آشکار در زمین ایجاد میگردد. خطوط لوله زیرزمینی شکسته میشوند. وحشت عمومی بر مردم غالب میشود. به ساختمانهای ضعیف خسارات سنگین وارد میشود و حتی ممکن است کاملاً فرو بریزند. در مناطق آبرفتی ماسه و گل بیرون میآیند.</td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">X</td>
+        <td>
+            سازه‌های چوبی خوب ساخته شده ویران می‌شوند. بسیاری از سازه‌های اسکلت‌دار بنایی به همراه پی ویران می‌شوند. در زمین ترک‌های بزرگی ایجاد می‌گردد. خطوط راه‌آهن کج می‌شوند. زمین‌لغزش‌های قابل ملاحظه‌ای در کنار رودخانه‌ها و شیب‌های ملایم اتفاق می‌افتد. خسارات جدی به سدها و مخازن وارد می‌گردد. در زمین، لغزش‌های بزرگ اتفاق می‌افتد و آب از مخازن و کانال‌ها و رودخانه‌ها و دریاچه‌ها و غیره بیرون ریخته می‌شود.        </td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">XI</td>
+        <td>تعداد کمی از ساختمانها استوار باقی میمانند. پلها ویران میگردند. خطوط لوله زیرزمینی کاملا ً غیرقابل استفاده میشوند. خطوط راهآهن به شدت کج میشوند. زمین باتلاقی میشود. لغزشهایی در زمینهای نرم ایجاد میشود.</td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">XII</td>
+        <td>ویرانی کامل، امواج بر روی سطح زمین مشاهده میشوند. اشیا به هوا پرتاب میشوند و سنگهای بزرگ جا به جا میشوند.</td>
+    </tr>
+</table>
+
+</div>
+<br>
+
+<div class="boxg">
+<p class="MsoStep">فکر کنید<br></p>
+<p class="MsoNormal">
+    چه ایرادی به مقیاس شدت زمینلرزه وارد است؟</p>
+</div>
+<br><br>  
+<p class="MsoSemi">
+    بزرگی زمین لرزه:
+</p>
+    <p class="MsoNormal"> بزرگی(بزرگا) زمین لرزه، براساس مقدار انرژی آزاد شده از زمینلرزه محاسبه میشود. هرچه انرژی آزاد شده، زیادتر باشد ارتعاشات ناشی از آن، شدیدتر و دامنۀ نوسانات امواج آن زمین لرزه، بزرگتر خواهد بود. بزرگی زمین لرزه را به کمک اطلاعات لرزهنگار، تعیین میکنند. واحد اندازه گیری بزرگی، ریشتر است. ریشتر، لگاریتم بزرگترین دامنه موجی است که در فاصلۀ یک صد کیلومتری از مرکز یک زمین لرزه، توسط لرزه نگار استاندارد ثبت شده باشد. به ازای هر یک واحد بزرگی، دامنه امواج 10 برابر و مقدار انرژی 31/6 برابر افزایش مییابد. بزرگی زمین لرزه در تمام نقاط زمین یکسان است، اما شدت آن با دور شدن از مرکز سطحی زمین لرزه کاهش مییابد.</p>
+    <br><br>  
+
+    <div class="boxg">
+    <p class="MsoStep">پیوند با ریاضی<br>
+
+
+     <p class="MsoNormal">   
+    مقدار انرژی آزاد شده و دامنه امواج زمینلرزهای با بزرگی 6 ریشتر، چند برابر زمینلرزهای با بزرگی 4 ریشتر است؟</p>
+    </div>
+
+    <br> 
+
+    <div class="boxg">
+
+    
+    <p class="MsoStep">فکر کنید</p>
+
+    <p class="MsoNormal">
+    بزرگی و شدت زمین لرزۀ بم را در شهرهای بم و تهران با هم مقایسه کنید.</p>
+    </div>
+
+
+<br><br>
+    <p class="MsoSub">دانشمندان علوم زمین<br>
+
+
+        <p class="MsoNormal">
+        
+    چارلز ریشتر ژئوفیزیکدان، با ارائه گزارش مطالعۀ زمینلرزههای کمعمق و عمیق که در سال 1928 به چاپ رسید، مقیاس خود را ابداع کرد و بعد از تکمیل این مقیاس با همکاری گوتنبرگ که با هم در مؤسسه تکنولوژی کالیفرنیا کار میکردند، اولین بار در سال 1935 از آن برای بیان بزرگی زمینلرزه استفاده کرد.</p>
+    
+    </p>
+
+    <br>
+
+
+    <p class="MsoStep">پیش بینی زمین لرزه</p>
+<p class="MsoNormal">از گذشته تاکنون، بشر همواره به دنبال پیشبینی زمان وقوع حوادث طبیعی مانند زمین لرزه بوده است. از میلیونها زمینلرزۀ کوچک و بزرگ که تاکنون رخ داده است، فقط تعداد انگشتشماری از آنها، قبل از وقوع، پیشبینی شدهاند. علیرغم پیشرفتهای وسیع ایجادشده در دهههای اخیر، دربارۀ فناوریهای مختلف و علم لرزهشناسی، هنوز دانشمندان در زمینۀ روشهای علمی قابل اعتماد برای پیشبینی زمان دقیق وقوع زمین لرزه به نتیجه نرسیدهاند. البته زمینشناسان محلهای لرزهخیز کره زمین را شناسایی کردهاند. به برخی از علائم و نشانهها که بتوان با استفاده از آنها وقوع زمین لرزه را پیشبینی کرد «پیش نشانگر» گفته میشود.</p>
+<br>
+<p class="MsoNormal">برخی از این نشانهها عبارتاند از:</p>
+<p class="MsoNormal">ـ تغییرات گاز رادون در آبهای زیرزمینی<br>ـ ایجاد تغییر در سطح تراز آب زیرزمینی<br>ـ پیشلرزه<br>ـ ناهنجاری در رفتار حیوانات<br>ـ ابر زمین لرزه</p>
+
+<br>
+<div class="boxg">
+<p class="MsoStep">جمع آوری اطلاعات</p>
+<p class="MsoNormal">وقوع زمین لرزه چه فوایدی دارد؟ دربارۀ فواید زمین لرزه، اطلاعات جمعآوری و در کلاس ارائه دهید.</p>
+
+</div>
+
+<br>
+
+<p class="MsoStep">
+    ایمنی در برابر زمین لرزه
+</p>
+
+<p class="MsoSemi">قبل از وقوع زمین لرزه چه باید کرد؟</p>
+<p class="MsoNormal">ـ امکان خطر آتشسوزی، از طریق سیمهای برق فرسوده، نشتی لولههای گاز و وسایل گازسوز را بررسی کنید.<br>ـ محل فیوز برق و شیر اصلی گاز و آب را به خاطر بسپارید.<br>ـ وسایل شکستنی از قبیل ظروف شیشهای و چینی، اشیا و وسایل سنگین را در طبقات پایین قفسهها بگذارید و قفسهها را به دیوار متصل کنید.<br>ـ لامپها و لوسترهای سقفی را محکم کنید.<br>ـ محلهای امن خانه، مدرسه یا محل کار خود را پیدا کنید.<br>ـ بسته وسایل کمکهای اولیه و مواد غذایی خشک لازم و ایمنی همچون چراغ قوه را تهیه و در جای مناسب قرار دهید.</p>
+<br>
+<p class="MsoSemi">هنگام وقوع زمین لرزه چه باید کرد؟</p>
+<p class="MsoNormal">ـ بیشتر آسیبدیدگیها مربوط به رفت و آمد افراد در زمان وقوع زمین لرزه است. هر جا هستید، در همانجا پناه بگیرید.<br>ـ اگر داخل ساختمان هستید به زیر یک میز محکم، محل دارای سقف کم وسعت، یا کنار دیوارهای داخلی پناه بگیرید. از شیشه پنجرهها دور شوید. از شمع، کبریت و هرچه که شعله دارد، استفاده نکنید.<br>ـ در بیرون از ساختمان، از پلها، تیرها، سیمهای برق، ساختمانها و دیوارها دور شوید.<br>ـ اگر داخل اتومبیل هستید، از پلها و ساختمانها فاصله بگیرید و فوراً متوقف شوید.</p>
+<br>
+<p class="MsoSemi">بعد از وقوع زمین لرزه چه باید کرد؟</p>
+<p class="MsoNormal">ـ مراقب پسلرزهها باشید.<br>ـ رادیو را روشن کنید و به پیامها و راهنماییها عمل کنید.<br>ـ ضمن مراقبت از سلامتی خود به افراد ناتوان و کودکان کمک کنید.<br>ـ اگر بوی گاز میآید، شیر اصلی گاز را ببندید و پنجرهها را باز کنید. نشت گاز را به مقامات مربوطه گزارش دهید.<br>ـ در صورت آسیبدیدگی سیمهای برق، کنتور برق را قطع کنید.<br>ـ اگر لولههای آب ، صدمه دیدهاند، شیر اصلی آب را ببندید.<br>ـ داروها و مواد شیمیایی زیانآور پخش شده را فوراً جمع کنید.</p>
+<br>
+<p class="MsoSemi">مهم ترین علت های آسیب دیدگی از زمین لرزه</p>
+<p class="MsoNormal">ـ فرو ریختن ساختمان، شیشۀ پنجرههای شکسته و در حال افتادن و قطعات اثاثیه، زیرا ممکن است پس لرزهها سبب فرو ریختن آنها شوند.<br>ـ خطرات آتشسوزی به علت شکستن لولههای گاز، اتصال سیمهای برق به علت افتادن آنها بر روی زمین و بیآب ماندن به علت شکستن لولههای آب.</p>
+<br>
+<p class="MsoSemi">در ساختمان سازی باید به نکات زیر توجه کرد:</p>
+<p class="MsoNormal">ـ ساختمان هرچه سبکتر باشد، بهتر است (بهخصوص سقفها).<br>ـ زمینهای شیبدار محل مناسبی برای ساختمانسازی نیستند.<br>ـ ساختمانهایی که تقارن بیشتری دارند مانند مکعب و مکعبمستطیل؛ از ساختمانهای دیگر استحکام بیشتری دارند.<br>ـ در و پنجره زیاد، ساختمان را ضعیف میکند؛ بنابراین، نباید آنها را در یک طرف ساختمان قرار داد.<br>ـ مصالح ساختمانی به ترتیب از مناسب تا نامناسب عبارتاند از: چوب؛ آجر با اسکلت بتنی؛ آجر بدون اسکلت بتنی؛ خشت.<br>ـ باید سقفها و دیوارها بهخوبی به یکدیگر متصل شوند.<br>ـ در ساختمانهای اسکلت فلزی، چهارچوبهای داخلی باید به وسیلۀ تیرآهنهای ضربدری به هم متصل شوند.<br>ـ نباید قسمتهای جدیدی را به ساختمان قبلی اضافه کرد.<br>ـ ساختمانهای خشتی نباید بیشتر از یک طبقه باشند.<br>ـ پشت دیوارهای خشتی را باید با حائل تقویت کرد.</p>
+<br><hr><br>
+
+
+<p class="MsoStep">چین خوردگی</p>
+<p class="MsoNormal">رشته کوههایی مانند البرز و زاگرس، حاصل چینخوردگی بخشی از سنگ کره است. چینها، به شکلهای تک شیب، تاقدیس و ناودیس دیده میشوند. درصورتی که لایههای سنگی طوری خم شوند که لایههای قدیمیتر در مرکز و لایههای جدیدتر در حاشیه قرار گیرند، تاقدیس تشکیل میشود و چنانچه لایههای جدیدتر در مرکز و لایههای قدیمیتر در حاشیه چین قرارگیرند، ناودیس به وجود میآید.</p>
+<br><hr><br>
+<p class="MsoStep">آتشفشان</p>
+<p class="MsoNormal">امروزه فعالیتهای آتشفشانی زیادی در تمام نقاط کرۀ زمین، داخل خشکیها، در بستر اقیانوسها، دریاها و دریاچههای بزرگ صورت میگیرد. مواد خارج شده از آتشفشانها، به صورت جامد (تفرا)، مایع (لاوا یا گدازه) و بخارهای آتشفشانی (فومرول) است.</p>
+<br>
+<p class="MsoSemi">تفرا</p>
+<p class="MsoNormal">به مواد آتشفشانی جامد که بهصورت ذرات ریز و درشت بر اثر فعالیت آتشفشان به هوا پرتاب میشود، تفرا میگویند.</p>
+<br>
+<table class="tables" style="text-align: center;width:fit-content; direction:rtl">
+    <tr>
+        <th>نام ذرات</th>
+        <th>اندازه ذرات (میلی متر)</th>
+    </tr>
+    <tr>
+        <td>خاکستر</td>
+        <td>کوچکتر از 2</td>
+    </tr>
+    <tr>
+        <td>لاپیلی</td>
+        <td>بین 2 تا 32</td>
+    </tr>
+    <tr>
+        <td>قطعه سنگ و بمب (دوکی شکل)</td>
+        <td>بزرگتر از 32</td>
+    </tr>
+</table>
+
+<br>
+
+<p class="MsoNormal">در آتشفشانهای انفجاری دارای سیلیس فراوان، مواد جامد آتشفشانی به هوا پرتاب میشوند. با فرونشینی آنها بر سطح زمین، از به هم چسبیدن و سخت شدن این مواد، گروهی از سنگهای آتشفشانی، به نام سنگهای آذرآواری تشکیل میشوند.</p>
+
+
+<br>
+
+<p class="MsoNormal">در صورتی که خاکستر آتشفشانی در محیطهای دریایی کمعمق تهنشین شوند، توف آتشفشانی بهوجود میآید. به عنوان مثال میتوان توفهای سبز البرز را نام برد. توف، یک نوع سنگ آذرآواری است.</p>
+<br>
+<p class="MsoSemi">گدازه:</p>
+<p class="MsoNormal">گدازهها، مواد مذابی هستند که از دهانۀ آتشفشان خارج میشوند. هر چه گدازه روانتر (سیلیس کمتر) باشد، مخروط آتشفشان، شیب و ارتفاع کمتری دارد.</p>
+<br>
+<p class="MsoSemi">بخارهای آتشفشانی:</p>
+<p class="MsoNormal">مواد مذاب درون زمین، حاوی مقداری گاز و بخار آب میباشد. ترکیب شیمیایی گازهای خروجی از آتشفشان، بسیار متفاوت است. بیشتر گازهای آتشفشانی را بخار آب، گازهای کربن دیاکسید، اکسیدهای گوگردی، نیتروژندار، کلردار و کربن مونو اکسید تشکیل میدهند. پس از فعالیت یک آتشفشان، خروج گاز(مرحله فومرولی) ممکن است سالها و حتی قرنها ادامه داشته باشد. در حال حاضر آتشفشانهای دماوند و تفتان، در مرحله فومرولی به سر میبرند و از دهانۀ آنها بخارآب، گاز گوگرد و... خارج میشوند.</p>
+<br><hr><br>
+<p class="MsoStep">فواید آتشفشان ها</p>
+<p class="MsoSemi">مطالعه درون زمین:</p>
+<p class="MsoNormal">هر آتشفشان به منزله پنجره‌ای به درون زمین است که از طریق آن اطلاعاتی در مورد پوسته و گوشته بالایی به دست میآید.</p>
+<br>
+<p class="MsoSemi">تشکیل هوا کره:</p>
+<p class="MsoNormal">در گذشته همراه با سردشدن زمین، بخش زیادی از گازهای درون زمین از طریق فعالیت آتشفشانها، از شکستگیها و منافذ سنگها و لایههای آبدار خارج شدند و شرایط لازم برای تشکیل هوا کره فراهم گردید.</p>
+<br>
+<p class="MsoSemi">تشکیل آب کره:</p>
+<p class="MsoNormal">بخشی از گازهای خروجی از آتشفشانها، با یکدیگر ترکیب شده و آب را به وجود آوردهاند. آب، فرورفتگیهای سطح زمین را پر کرده و باعث ایجاد اقیانوسها، دریاها، دریاچهها و رودها شده است.</p>
+<br>
+<p class="MsoSemi">تشکیل خاک و رسوب:</p>
+<p class="MsoNormal">خاکستر و گدازه آتشفشانی از دهانۀ آتشفشان خارج میشود و خاک حاصلخیزی را بهوجود میآورد. برخی از مزارع حاصلخیز جهان بر روی خاکسترهای آتشفشانی قرار گرفته است.</p>
+<br>
+<p class="MsoSemi">تشکیل پوستۀ جدید اقیانوسی:</p>
+<p class="MsoNormal">خروج آرام مواد مذاب گوشته از محور میانی رشته کوههای میان اقیانوسی، سبب تشکیل پوستۀ جدید اقیانوسی میشود. نتیجۀ این آتشفشانها، علاوه بر گسترش بستر اقیانوسها، سبب نزدیک شدن ورقهها در محل دراز گودالهای اقیانوسی میشوند. در این مناطق، به علت برخورد ورقهها، فرورانش صورت میگیرد و کوهها به وجود میآیند. کوهها نیز، با ایجاد پستی و بلندی در سطح زمین، سبب تداوم فرسایش و رسوبگذاری میگردند.</p>
+<br>
+<p class="MsoSemi">تشکیل رگه های معدنی:</p>
+<p class="MsoNormal">فعالیت آتشفشانی منجر به تشکیل برخی رگههای معدنی مانند طلا، نقره و مس میشود.</p>
+<br>
+<p class="MsoSemi">تشکیل چشمه های آب گرم:</p>
+<p class="MsoNormal">اطراف آتشفشانها، مناطق مناسبی برای تشکیل چشمههای آب گرم معدنی میباشند. آبهایی که درون پوسته هستند، گرم شده و از طریق شکستگیهای سطح زمین، به صورت چشمههای آب گرم در سطح زمین ظاهر میشوند. آب این چشمهها از نظر بهداشتی برای درمان بیماریهای پوستی و آرامش عضلانی مفید هستند و با جذب گردشگران، سبب رونق اقتصاد محلی میشوند.</p>
+<br>
+<p class="MsoSemi">انرژی زمین گرمایی:</p>
+<p class="MsoNormal">در مناطق آتشفشانی، از گرمای درون زمین به عنوان انرژی زمین گرمایی استفاده میشود. کشور ایسلند بخش عمده انرژی مورد نیاز خود را از انرژی زمین گرمایی تأمین میکند. اولین نیروگاه زمینگرمایی خاورمیانه نیز در نزدیکی آتشفشان سبلان در استان اردبیل تأسیس شده است.</p>
+<br>
+<p class="MsoSemi">دیگر فواید:</p>
+<p class="MsoNormal">آتشفشانها، افزون بر خروج انرژی درونی زمین، منجر به آرامش نسبی ورقههای سنگکره میشوند. از انواع سنگهای آتشفشانی در نمای ساختمانها و مصالح ساختمانی استفاده میشود.</p>
+
+<br><br>
+<div class="boxb">
+<p class="MsoStep">علم، زندگی، کارآفرینی</p>
+
+<p class="MsoSemi">
+    ژئوفیزیک:
+</p>
+<p class="MsoNormal"> ژئوفیزیکدانها، برای مطالعه ساختمان درونی زمین، که به راحتی در دسترس نیست و همچنین شناسایی ذخایر و معادن زیرزمینی با استفاده از امواج لرزهای، بررسی مغناطیس زمین، مقاومت الکتریکی و شدت گرانش سنگها، به مطالعۀ آنها میپردازند.</p>
+
+<br>
+<p class="MsoSemi">
+    زمین ساخت (تکتونیک):
+</p>
+<p class="MsoNormal"> زمینشناسی ساختمانی و زمین ساخت، علم شناسایی و بررسی ساختارهای تشکیل دهندۀ پوسته زمین و نیروهای به وجودآورنده آنهاست. گسلها، درزهها، چینها و دیگر ساختارهای زمین، نقش مهمی در تجمع منابع زیرزمینی و احداث پروژههای عمرانی دارند. از سوی دیگر، زمین ساخت به مطالعۀ ساختار درونی زمین، چگونگی تشکیل رشتهکوهها، اقیانوسها، زمینلرزهها و حرکت ورقههای سنگکره میپردازد. متخصصین این رشتهها، در مراکزی مانند سازمان زمینشناسی و اکتشافات معدنی کشور، مؤسسه ژئوفیزیک، پژوهشگاه زمینلرزه، مدیریت بحران، شهرداریها و... به کار مشغول میشوند.</p>
+</div>
+
+
+
+<br><br><br><br><br>
+
+
+    </body>
+
+
+</html>

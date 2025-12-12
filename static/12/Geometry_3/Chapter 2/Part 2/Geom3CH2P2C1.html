@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi {
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSemic,
+        li.MsoSemic,
+        div.MsoSemic {
+            margin: 0in;
+           
+            font-size: clamp(1.2rem, 1.6vw, 1.3rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #b19af2;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #6ca4ec;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .boxp {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .boxg {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#00f2ff11; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        .boxb {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#0c4e9f2d; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        ::selection {
+            background-color: #59078fa1; /* Change this to your desired highlight color */
+            color: #ffffff; /* Change this to your desired text color */
+          }
+
+
+          mark{
+            background-color:#078b8fa1 ;
+            color: #ffffff;
+            padding: 0 7px;
+        }
+
+        .hlg { background-color: rgba(0, 234, 255, 0.334);  }
+        .hlp { background-color:#5f1487; }
+      
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+    <body class="custom-scrollbar">
+
+      
+<p class="MsoNormal">
+    درس دوم:
+    <br>
+    دایره
+</p>
+
+<p class="MsoNormal">معروف‌ترین مقطع مخروطی، دایره است و چنانچه قبلاً دیدیم، دایره مکان هندسی نقاطی از صفحه است که از یک نقطه ثابت (مرکز دایره) به فاصله‌ای ثابت (شعاع دایره) واقع‌اند. حال می‌خواهیم ویژگی‌های دایره را به صورت تحلیلی در دستگاه مختصات دوبعدی نیز مرور کنیم:</p>
+<br>
+<br>
+<p class="MsoNormal">🔸 معادله دایره: دایره $C(O,r)$ را در دستگاه مختصات $xoy$ در نظر می‌گیریم. اگر $O'(\alpha, \beta)$ مرکز دایره باشد و $A(x,y)$ یک نقطه دلخواه روی آن باشد، با توجه به تعریف دایره، همراه با $O'A=r$ و با توجه به دستور تعیین فاصله بین دو نقطه می‌توان نوشت:</p>
+<br><br>
+
+<p class="MsoNormal" style="text-align: left;">
+$
+\begin{align*}
+
+ & \ \  |O'A| = \sqrt{(x - \alpha)^2 + (y - \beta)^2} = r \\ \\
+& \Rightarrow (x - \alpha)^2 + (y - \beta)^2 = r^2
+
+
+\end{align*}
+$
+</p>
+<br>
+<br>
+<p class="MsoNormal">و این معادله دایره‌ای به مرکز $(\alpha, \beta)$ و شعاع $r$ است، که به آن معادله استاندارد دایره نیز می‌گوییم.</p>
+<br>
+<br>
+<p class="MsoSemi" style="font-size: larger;">مثال:</p>
+<p class="MsoNormal">معادله دایره‌ای به مرکز $O'(2,-1)$ و شعاع $2$ را بنویسید و مختصات نقاط برخورد آن را با محورهای مختصات بدست آورید.</p>
+<br>
+<br>
+<p class="MsoSemi">حل:</p>
+<p class="MsoNormal">به کمک دستور بالا معادله استاندارد دایره فوق نوشته می‌شود:</p>
+<p class="MsoNormal">
+$$
+(x - 2)^2 + (y + 1)^2 = 4
+$$
+</p>
+
+<br>
+<p class="MsoNormal">اگر در این معادله، $y = 0$ قرار دهیم، نقاط برخورد دایره با محور $x$ بدست می‌آید:</p>
+<p class="MsoNormal" style="text-align: left;">
+$
+
+\begin{align*}
+
+& \quad \ \ (x - 2)^2 + 1 = 4  \\ \\
+& \Rightarrow (x - 2)^2 = 3 \\ \\
+& \Rightarrow x - 2 = \pm \sqrt{3} \\ \\
+& \Rightarrow x = 2 \pm \sqrt{3} \\ \\
+
+\end{align*}
+$
+</p>
+<p class="MsoNormal">لذا دایره فوق محور $x$ را در نقاط $A(2 - \sqrt{3}, 0)$ و $B(2 + \sqrt{3}, 0)$ قطع می‌کند و اگر در معادله دایره $x = 0$ قرار دهیم نقاط برخورد با محور $y$ پیدا می‌شوند:</p>
+<p class="MsoNormal">
+$$
+x = 0 \Rightarrow ( y + 1 ) ^2 \Rightarrow y = -1
+$$
+</p>
+
+
+<br>
+
+<p class="MsoNormal">بنابراین دایرهٔ فوق محور $y$ها را فقط در یک نقطه در نقطه $C(0,-1)$ قطع می‌کند و می‌دانیم که اگر یک خط دایره‌ای را فقط در یک نقطه قطع کند، در آن نقطه بر آن مماس است. پس همان‌طور که در شکل هم دیده می‌شود، دایره در نقطه $C$ بر محور $y$ها مماس است.</p>
+<p class="MsoNormal">در معادله دایره می‌توانیم به کمک اتحادها، عبارت‌های درجه دوم را ساده کنیم. مثلاً در معادله فوق داریم:</p>
+<br>
+
+<p class="MsoNormal" style="text-align: left;">
+$
+\begin{align*}
+& (x - 2)^2 + (y + 1)^2 = 4 \\ \\
+& \Rightarrow x^2 - 2x + y^2 + 2y + 1 = 4  \\ \\
+& \Rightarrow x^2 + y^2 - 2x + 2y - 3 = 0
+\end{align*}
+$
+</p>
+<br>
+
+<p class="MsoNormal">که این معادله را معادلهٔ ضمنی دایره می‌نامیم.</p>
+<br>
+<br>
+<p class="MsoSemi" style="font-size:larger;"> - تبدیل معادلهٔ ضمنی دایره به معادلهٔ استاندارد:</p>
+<br>
+
+
+<p class="MsoNormal">در حالت کلی معادله‌ای به صورت $x^2 + y^2 + ax + by + c = 0$ ممکن است معادلهٔ دایره‌ای باشد. برای این منظور عبارت‌های $y^2 + by$ و $x^2 + ax$ را به مربع کامل تبدیل می‌کنیم:</p>
+<br>
+<br>
+<p class="MsoSemi" style="font-size:larger;">مثال:</p>
+<p class="MsoNormal">مختصات مرکز و طول شعاع دایره به معادلهٔ $x^2 + y^2 + x - y - 4 = 0$ را بدست آورید.</p>
+<br>
+
+<p class="MsoSemi">حل:</p>
+<p class="MsoNormal" style="text-align: left;">
+$
+\begin{align*}
+
+
+& \quad \ \ x^2 + y^2 + x - y - 4 = 0 \\ \\
+& \Rightarrow (x + \frac{1}{2})^2 - \frac{1}{4} + (y - \frac{1}{2})^2 - \frac{1}{4} - 4 = 0 \\ \\
+& \Rightarrow (x + \frac{1}{2})^2 + (y - \frac{1}{2})^2 = 4 \\ \\
+& \quad \ \  O'(-\frac{1}{2}, \frac{1}{2}), r = 2
+\end{align*}
+$
+</p>
+
+<br>
+<hr><br>
+<p class="MsoStep">فعالیت ۱</p>
+<p class="MsoNormal">می‌خواهیم مختصات مرکز و طول شعاع دایره به معادلهٔ ضمنی $x^2 + y^2 + ax + by + c = 0$ را در حالت کلی بدست آوریم. با پر کردن جاهای خالی این کار را انجام دهید:</p>
+
+<br>
+
+<div class="MsoNormal" style="text-align: left;">
+
+$
+\begin{align*}
+
+& \quad \ \ ( x^2 + ax + \dfrac{a^2}{4} - \dfrac{a^2}{4} ) + (y^2 + by + \cdots - \cdots) + c = 0  \\ \\
+
+& \Rightarrow ( x + \cdots ) ^2 + ( y + \cdots ) ^2 - \cdots - \cdots + c = 0  \\ \\
+
+& \Rightarrow ( x + \cdots ) ^2 + ( y + \cdots ) ^2 = \dfrac{ \cdots }{4} \\ \\
+
+& \Rightarrow O( \cdots , \cdots ) , r = \dfrac{ \sqrt{ a^2 + b^2  - 4c } }{2} 
+
+\end{align*}
+
+$ 
+</div>
+
+<br><br>
+<p class="MsoNormal">با توجه به شرط نامنفی بودن عبارت زیر رادیکال چه نتیجه‌ای درباره $a, b, c$ بدست می‌آید؟</p>
+
+<br><br>
+
+
+<p class="MsoNormal">رابطهٔ ضمنی $x^2 + y^2 + ax + by + c = 0$ معادلهٔ یک دایره است، اگر و تنها اگر $a^2 + b^2 > 4c$ باشد و اگر $a^2 + b^2 < 4c$ باشد، این معادله هیچ نقطه‌ای از صفحه را مشخص نمی‌کند و اگر $a^2 + b^2 = 4c$ باشد، این معادله تنها یک نقطه به مختصات $(-\dfrac{a}{2}, -\dfrac{b}{2})$ را در صفحه مشخص می‌کند (چرا؟)</p>
+<br>
+
+<div class="boxp">
+    <p class="MsoSemi" style="font-size: larger;"><mark>نتیجه</mark></p>
+    <p class="MsoNormal">با داشتن مختصات مرکز و طول شعاع دایره، می‌توان معادلهٔ آن را تعیین کرد و برعکس با داشتن معادلهٔ دایره می‌توان مختصات مرکز و طول شعاع آن را به دست آورد.</p>
+</div>
+<br>
+<hr>
+<br>
+
+
+<p class="MsoStep">کاردرکلاس</p>
+<br>
+
+<p class="MsoNormal">۱- معادله دایره‌ای را بنویسید که مرکز آن $O(1,0)$ و شعاع آن $3$ واحد باشد.</p>
+<br>
+
+<p class="MsoNormal">۲- معادله دایره‌ای به مرکز مبدا مختصات و شعاع $2$ به چه صورت است؟</p>
+<br>
+
+<p class="MsoNormal">۳- کدام یک از روابط زیر می‌تواند معادلهٔ یک دایره باشد؟ مختصات مرکز و طول شعاع دایره‌ها را بدست آورید و دایره را رسم کنید.</p>
+<br>
+<div class="MsoNormal" style="direction: ltr; text-align:left;">
+
+    <p class="MsoNormal">الف) $x^2 + y^2 - 2x - 6y - 1 = 0$</p><br>
+    <p class="MsoNormal">ب) $x^2 + y^2 + 2x + 3y + 4 = 0$</p><br>
+    <p class="MsoNormal">ج) $2x^2 + y^2 - 3x + 4y - 2 = 0$</p><br>
+
+</div>
+
+<br><hr><br>
+
+
+<p class="MsoSemi" style="font-size: larger;">مثال:</p>
+<p class="MsoNormal">معادله دایره‌ای را بنویسید که نقطه $O(-2,-1)$ مرکز آن و $M(1,1)$ یک نقطه از آن باشد.</p>
+<br>
+
+<p class="MsoSemi" style="font-size: larger;">حل:</p>
+<p class="MsoNormal">مرکز دایره را داریم، پس باید طول شعاع آن را داشته باشیم تا معادله آن را بنویسیم. روشن است که $OM = r$ پس طول $OM$ را بدست می‌آوریم:</p>
+<p class="MsoNormal" style="text-align: left;">
+    <br>
+$
+\begin{align*}
+ OM & = \sqrt{(x_M - x_O)^2 + (y_M - y_O)^2}  \\ \\
+& = \sqrt{(1 + 2)^2 + (1 + 1)^2}  \\ \\
+& = \sqrt{13}
+
+\end{align*}
+$
+</p>
+<br>
+<p class="MsoNormal">و معادله دایره بصورت زیر نوشته می‌شود:</p>
+<p class="MsoNormal">
+$$
+(x + 2)^2 + (y + 1)^2 = 13
+$$
+</p>
+
+<br><hr><br>
+
+
+<p class="MsoStep">فعالیت ۲</p>
+<p class="MsoNormal">معادله دایره‌ای را بنویسید که نقطه $O(1,-1)$ مرکز آن بوده و بر خط به معادله $3x - 4y + 7 = 0$ مماس باشد.</p>
+<br>
+<br>
+<p class="MsoNormal">۱- با توجه به آنچه از هندسه ۲ به یاد دارید، شعاع دایره در نقطهٔ تماس $(H)$ بر خط .................</p>
+<br>
+<br>
+<p class="MsoNormal">۲- طول شعاع دایره برابر است با فاصلهٔ مرکز دایره از .................</p>
+<br>
+
+<br>
+
+<p class="MsoNormal">۳- به کمک دستور فاصله نقطه از خط داریم: </p>
+<br>
+<p class="MsoNormal">$$ r = OH = \frac{| \cdots |}{\sqrt{  {\cdots}  + {\cdots }}} = \cdots $$</p>
+
+<br>
+<p class="MsoNormal">۴- معادله دایره را با داشتن مختصات مرکز و شعاع آن می‌نویسیم:</p>
+<p class="MsoNormal">$$ (x - 1)^2 + (y + 1)^2 = \cdots \Rightarrow \cdots $$</p>
+
+<br><hr><br>
+
+
+
+<p class="MsoSemi" style="font-size: larger; ">کاردرکلاس</p>
+<br>
+
+<p class="MsoNormal">معادله دایره‌ای را بنویسید که $O(0,1)$ مرکز آن بوده و روی خط به معادله $x + y = 2$ وتر به طول $2\sqrt{2}$ جدا کند.</p>
+<p class="MsoNormal">(راهنمایی: می‌دانیم که عمودی که از مرکز دایره بر یک وتر رسم می‌شود، آن وتر را نصف می‌کند.)</p>
+<br>
+
+<p class="MsoSemi" style="font-size: larger; ">مثال:</p>
+<p class="MsoNormal">معادله دایره‌ای را بنویسید که مرکز آن نقطه $O(1,-1)$ بوده و بر دایره به معادله $x^2 + y^2 - 2x + 2y = 0$ مماس بیرونی باشد.</p>
+<br>
+
+<p class="MsoSemi">حل:</p>
+<p class="MsoNormal">مختصات مرکز و شعاع دایرهٔ فوق را بدست می‌آوریم:</p>
+<br>
+<p class="MsoNormal" style="text-align:left">
+$
+
+\begin{align*}
+
+& \ \   x^2 - 2x + y^2 +  2y = 0 \\ \\
+    \Rightarrow & \ \ (x - 1)^2 + (y + 1)^2 = 2 \\ \\
+    \Rightarrow & \ \ O'(1, -1), r' = \sqrt{2}
+ 
+\end{align*}
+
+$
+
+<br><br>
+</p>
+<p class="MsoNormal">و چنانچه از هندسه ۲ می‌دانیم اگر $d = OO'$ 
+    طول خط الکترونی دو دایره مماس خارج باشد
+    ٬
+    $ d = r + r' $
+    بنابراین داریم:</p>
+
+
+<p class="MsoNormal" style="text-align:left">
+
+<br>
+$
+
+\begin{align*}
+
+    & ( x + 1 )^2 + (y - 1)^2 = 2 \\ \\
+     \Rightarrow \ \ & x^2 + y^2 + 2x - 2y = 0
+     
+\end{align*}
+
+$
+
+</p>
+
+<br><hr><br>
+
+
+<p class="MsoStep">فعالیت ۳</p>
+<p class="MsoNormal">معادله دایره‌ای را بنویسید که مرکز آن $O(0,1)$ بوده و با دایره $x^2 + y^2 - 4x - 6y = 3$ مماس داخل باشد.</p>
+<br>
+<br>
+<p class="MsoNormal">۱- معادله دایره فوق را به صورت استاندارد تبدیل کنید و از آنجا مختصات مرکز و طول شعاع آن را بیابید.</p>
+<p class="MsoNormal">$$ (x - \cdots)^2 + (y - \cdots)^2 = \cdots \Rightarrow O'(\cdots, \cdots), r' = \cdots $$</p>
+<br>
+<br>
+<p class="MsoNormal">۲- طول خط مرکزین دو دایره را بدست می‌آوریم:</p>
+<p class="MsoNormal">$$ d = O O' = \sqrt{(0 - 2)^2 + (1 - 3)^2} = \cdots $$</p>
+<br>
+<br>
+<p class="MsoNormal">۳- با توجه به آنچه از هندسه ۲ می‌دانیم، داریم:</p>
+<br>
+<p class="MsoNormal" style="text-align: left;">
+    
+    
+    $
+    
+    \begin{align*}
+
+                  & \ \  d = |r - r'| \\ \\
+     \Rightarrow  & \ \ |r - \cdots| = \sqrt{\cdots} \\ \\ 
+     \Rightarrow  & \ \ r = \pm \sqrt{\cdots} \\ \\
+     \Rightarrow  & \ \ r = \cdots 
+    
+    \end{align*}
+     
+     $
+    
+    </p>
+<br>
+<br>
+<p class="MsoNormal">۴- با داشتن مختصات مرکز و طول شعاع، معادله دایره را می‌نویسیم:</p>
+<p class="MsoNormal">$$ (x - \cdots)^2 + (y - 1)^2 = (\cdots \pm \sqrt{\cdots})^2 $$</p>
+<br>
+
+<p class="MsoNormal">چرا مسئله دو جواب دارد؟</p>
+
+
+<br><hr><br>
+
+
+
+
+<p class="MsoStep">کاردرکلاس</p>
+<br>
+
+<p class="MsoNormal">وضعیت هر یک از جفت دایره‌های زیر را نسبت به هم مشخص کنید:</p>
+
+<div class="MsoNormal" style="direction: ltr;">
+
+    <p class="MsoNormal">الف) $x^2 + y^2 - 4x - 6y = 3 , \\\\ x^2 + y^2 - 10x - 14y + 73 = 0$</p><br>
+    <p class="MsoNormal">ب) $x^2 + y^2 - 2x = 1$ , $x^2 + y^2 = 1$</p><br>
+    <p class="MsoNormal">ج) $x^2 + y^2 = 9$ , $x^2 + y^2 - 2x + 2y + 1 = 0$</p><br>
+    <p class="MsoNormal">د) $x^2 + y^2 = 4$ , $x^2 + y^2 - 8x - 4y + 19 = 0$</p><br>
+
+
+</div>
+
+
+
+<br>
+
+<p class="MsoNormal"">(راهنمایی: مختصات مرکز و طول شعاع‌های هر دو دایره را بدست آورده و پس از تعیین طول خط مرکزین از اطلاعات خود از هندسه ۲ استفاده کنید.)</p>
+
+<br><hr><br>
+
+
+<p class="MsoStep">فعالیت ۴</p>
+<p class="MsoNormal">می‌خواهیم وضعیت خط به معادله $x + y = 4$ و دایره $x^2 + y^2 - 2y - 3 = 0$ را تعیین کنیم.</p>
+<br>
+<br>
+<p class="MsoNormal">روش اول: از معادله خط $y = 4 - x$ را در معادله دایره جایگزین می‌کنیم (با این کار در صورت برخورد خط و دایره، مختصات نقطه‌های برخورد از معادله حاصل بدست می‌آید):</p>
+<p class="MsoNormal" style="text-align: left;">
+$$
+
+x^2 + (4 - x)^2 - 2(4 - x) - 3 = 0 \Rightarrow \cdots
+
+$$
+</p>
+<br>
+
+<p class="MsoNormal">با ساده‌کردن معادله حاصل و تعیین علامت $\Delta$، نشان دهید معادله فوق ریشه حقیقی ندارد و در نتیجه خط و دایره نقطه برخوردی ندارند.</p>
+<br>
+<br>
+<p class="MsoNormal">روش دوم: معادله دایره را استاندارد کنید و مختصات مرکز و طول شعاع آن را بیابید، سپس فاصله مرکز دایره از خط را بیابید. چگونه تشخیص می‌دهید خط و دایره نسبت به هم چه وضعی دارند؟</p>
+<p class="MsoNormal">با رسم شکل خط و دایره در یک دستگاه مختصات، درستی نتیجه‌گیری‌تان را ببینید.</p>
+<br>
+<br>
+<p class="MsoSemi" style="font-size: larger; ">سوال:</p>
+<p class="MsoNormal">اگر در معادله حاصل از برخورد خط و دایره، 
+    $\Delta > 0$
+    یا 
+    $\Delta = 0$
+    شود وضعیت دایره و خط نسبت به هم چگونه است؟ در این حالت‌ها فاصله مرکز دایره از خط چگونه است؟</p>
+<br>
+
+<p class="MsoSemi" style="font-size: larger;">مثال:</p>
+<p class="MsoNormal">در نقطه $A(2,3)$ روی دایره $x^2 + y^2 - 2x - 2y = 3$ مماسی بر آن رسم کرده‌ایم. معادله این خط مماس را به دست آورید.</p>
+<br>
+<br>
+<p class="MsoSemi">حل:</p>
+<p class="MsoNormal">با توجه به اینکه شعاع دایره در نقطه تماس، بر خط مماس عمود است، با تعیین مختصات مرکز دایره شیب $OA$ را تعیین می‌کنیم و از آنجا شیب مماس را بدست آورده و معادله آن را تعیین می‌کنیم:</p>
+<p class="MsoNormal" style="text-align: left;">
+    <br>
+$
+\begin{align*}
+                & (x - 1)^2 + (y - 1)^2 = 5  \\ \\
+\Rightarrow \ \ & O(1,1)  \\ \\
+\Rightarrow \ \ & m_{OA} = \frac{3 - 1}{2 - 1} = 2 \\ \\
+\Rightarrow \ \ & m_d = -\dfrac{1}{2} \\ \\
+\Rightarrow \ \ & y - 3 = -\dfrac{1}{2} (x - 2) \\ \\
+\Rightarrow \ \ & \text{d معادله‌مماس‌} : y = \dfrac{1}{2}x + 4
+
+\end{align*}
+$
+</p>
+
+<br><hr><br>
+
+<p class="MsoStep">تمرین</p>
+
+
+<p class="MsoNormal">۱- معادله دایره‌ای را بنویسید که:</p>  <br>
+<p class="MsoNormal">الف) $O(1,1)$ مرکز آن و $A(3,2)$ نقطه‌ای از آن باشد.</p> <br>
+<p class="MsoNormal">ب) $O(2,1)$ مرکز آن بوده و بر خط $3x + 4y = 0$ مماس باشد.</p><br>
+<p class="MsoNormal">پ) $O(-1,-1)$ مرکز آن بوده و روی خط $x + y = 1$ وتری به طول $2$ ایجاد کند.</p><br>
+<p class="MsoNormal">ت) خطوط $x + y = 1$ و $x - y = 3$ شامل قطرهایی از آن بوده و خط $4x + 3y = 6$ بر آن مماس باشد.</p><br>
+<p class="MsoNormal">ث) از نقاط $A(1,2)$ و $B(3,0)$ بگذرد و $y = 2x - 1$ شامل قطری از آن باشد.</p>
+<br>
+<br>
+<p class="MsoNormal">۲- حدود برای $a$ را طوری بدست آورید که $x^2 + y^2 - 3x + 5y + a = 0$ بتواند معادله یک دایره باشد.</p>
+<br>
+<br>
+<p class="MsoNormal">۳- وضعیت هر یک از نقاط 
+    $A(-1, -1)$ و $B(1, -2)$ و $C(2 , 3)$ و $D(4,-1)$
+     را نسبت به دایره $x^2 + y^2 - 2x + 4y - 5 = 0$ تعیین کنید.</p>
+
+
+<br><Br>
+
+
+    <p class="MsoNormal">۴- وضعیت هر یک از جفت دایره‌های زیر را نسبت به هم مشخص کنید:</p>
+    <br>
+    <div class="MsoNormal" style="direction: ltr;">
+
+        <p class="MsoNormal">الف) $x^2 + y^2 = 4$ , $x^2 + y^2 - 2x = 4$</p><br>
+        <p class="MsoNormal">ب) $ x^2 + (y - 1)^2 = 1$ , $(x - 1)^2 + y^2 = 1$</p><br>
+        <p class="MsoNormal">ج) $x^2 + y^2 = 1$ , $x^2 + y^2 - 3\sqrt{2x} - 3\sqrt{2x} + 5   = 0$</p><br>
+        <p class="MsoNormal">د) $x^2 + y^2 = 1$ , $x^2 + y^2 - 6x -2y + 9 = 0$</p>
+        
+
+    </div>
+ <br><br>
+
+<p class="MsoNormal">۵- نقاط $A(-1,-1)$ و $B(1,1)$ و $C(1,-3)$ رؤوس مثلث $ABC$ هستند. معادله دایره محیطی مثلث $ABC$ را بنویسید. سپس معادله مماس بر این دایره را در رأس $B$ بدست آورید.</p>
+<br>
+<br>
+<p class="MsoNormal">۶- وضعیت هر یک از خطوط و دایره‌های زیر را نسبت به هم مشخص کنید:</p>
+
+
+<br>
+
+<div class="MsoNormal" style="direction: ltr;">
+<p class="MsoNormal">الف) $3x + 4y = 0$ , $x^2 + y^2 - 4x -  4y + 7 = 0$</p><br>
+<p class="MsoNormal">ب) $x + y = 2$ , $x^2 + y^2 = 2$</p><br>
+<p class="MsoNormal">ج) $x + y = 1$ , $x^2 + y^2 - 2x - 2y = 2$</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br><br><br><br>
+
+
+    </body>
+
+
+</html>

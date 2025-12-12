@@ -1,0 +1,1455 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal ,
+        ul.MsoNormal {
+            margin: 0in;
+           
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi , b{
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #badaff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .MsoPapDefault {
+           
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #722a85;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background-color: #1abbbbe1; /* Scrollbar thumb color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color: #05ffe2;
+        }
+    </style>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+ 
+</head>
+
+
+
+<body class="custom-scrollbar">
+
+
+    
+    <p class="MsoBold">
+        فصل ۱ : حرکت بر خط راست
+    </p>
+    <p class="MsoNormal">
+        در چه صورت بردار شتاب دو خودرو که بر خطّ راست و در جهت مخالف یکدیگر حرکت می‌کنند می‌تواند یکسان باشد؟
+        </p>
+        
+
+
+        <p class="MsoNormal">
+            بررسی حرکت اجسام، همواره مورد توجه بشر بوده است. در فیزیک نیز، شناخت و توصیف حرکت اجسام، یکی از مباحث مهمی است که در هر کتاب درسی به آن پرداخته می‌شود و زمینه‌ساز درک بهتر مباحث دیگر فیزیک است. آشنایی با حرکت اجسام، که به آن حرکت‌شناسی یا سینماتیک نیز گفته می‌شود، در بیشتر شاخه‌های مهندسی اهمیت زیادی دارد.
+
+            برای مثال، مدت زمان رسیدن تندی خودرو از صفر به $100\,km/h$ یکی از معیارهای مقایسهٔ خودروهای امروزی در صنعت خودروسازی است. همچنین مهندسانی که به طراحی و ساخت باند پرواز فرودگاه‌ها می‌پردازند توجه دارند که هواپیماهای مختلف برای آنکه به تندی لازم برای برخاستن برسند، چه مسافتی را باید روی باند پرواز طی کنند.
+ 
+            زمین‌شناسان نیز برای تعیین محل‌هایی که امکان وقوع زمین‌لرزه در آن‌ها بیشتر است باید حرکت صفحه‌های زمین را بررسی کنند و از مفاهیم مرتبط با بحث حرکت‌شناسی استفاده کنند.
+                افزون
+                بر این‌پا پژوهشگران پزشکی برای یافتن رگ مسدود باید به نحوهٔ حرکت خون در رگ‌ها توجه کنند.
+                </p>
+                <p class="MsoNormal">
+                در این فصل ابتدا نگاهی دقیق‌تر خواهیم انداخت به آنچه در علوم نهم در خصوص حرکت آموختید. پس از آن، به ساده‌ترین نوع حرکت، یعنی حرکت جسم بر خطّ راست، خواهیم پرداخت. در پایان فصل نیز، حرکت سقوط آزاد اجسام را به‌عنوان مثالی از حرکت با شتاب ثابت، بررسی می‌کنیم.
+                </p>
+                
+            <br><hr><br>
+
+
+            <p class="MsoStep">
+        ۱-۱
+                شناخت حرکت
+            </p>
+            <p class="MsoNormal">
+            در علوم سال نهم، با مفاهیم اولیّهٔ حرکت آشنا شدید. در این بخش ضمن مرور این مفاهیم و کمیت‌های مرتبط با آن‌ها، زمینهٔ لازم را برای شناخت و توصیف دقیق‌تر حرکت فراهم می‌کنیم.
+            </p>
+            <p class="MsoNormal">
+            مسافت و جابه‌جایی: شکل
+             1-1 
+             مسیر حرکت دونده‌ای را از مکان ۱ تا مکان ۲ نشان می‌دهد. طول این مسیر، مسافت پیموده شده یا به‌اختصار <b>مسافت</b> و همچنین برداری که مکان ۱ را به مکان ۲ وصل می‌کند  <b>
+            بردار
+            جابه‌جایی 
+            </b> این دونده در این تغییر مکان نامیده می‌شود.
+        </p>
+
+
+
+        <br><hr><br>
+
+
+        <p class="MsoStep">پرسش
+       1-1
+        </p>
+        <p class="MsoNormal">
+        ۱- شکل الف شخصی را در حال پیاده‌روی در راستای خطّ راست و بدون تغییر جهت، از مکان ۱ به مکان ۲ نشان می‌دهد. مسیر حرکت و بردار جابه‌جایی شخص را روی شکل مشخص و اندازۀ بردار جابه‌جایی را با مسافت مقایسه کنید.
+        </p>
+        <br>
+        <p class="MsoNormal">
+        ۲- شخص پس از رسیدن به مکان ۲، برمی‌گردد و روی همان مسیر به مکان ۳ می‌رود (شکل ب). مسیر حرکت و بردار جابه‌جایی شخص را روی شکل مشخص و اندازۀ بردار جابه‌جایی را با مسافت پیموده شده مقایسه کنید.
+        </p>
+        <br>
+
+        <p class="MsoNormal">
+        ۳- شکل پ مسیر حرکت ماه به دور زمین را نشان می‌دهد. وقتی ماه در جهت نشان داده شده در شکل، از مکان ۱ به مکان ۲ می‌رود مسیر حرکت و بردار جابه‌جایی آن را روی شکل مشخص و اندازۀ بردار جابه‌جایی آن را با مسافت پیموده شده مقایسه کنید.
+        </p>
+                    
+
+
+        <br><hr><br>
+
+
+        <p class="MsoStep">
+            فعّالیت
+        1-1
+        </p>
+        <p class="MsoNormal">
+        همانند شکل روبه‌رو و به کمک یک نرم‌افزار نقشه‌یاب، مکان خانه و مدرسه‌تان را مشخص کنید. سپس مسافت و اندازۀ بردار جابه‌جایی خانه تا مدرسه را تعیین کنید.
+        </p>
+
+        <br>
+
+
+    <p class="MsoNormal">
+        <b>تندی متوسط و سرعت متوسط:</b> اگر متحرکی مانند دوندهٔ شکل 
+        1-1
+        در مدت زمان $\Delta t$ از مکان ۱ به مکان ۲ برود و مسافت و بردار جابه‌جایی بین این دو مکان را به‌ترتیب با $l$ و $\vec{d}$ نشان دهیم، همان‌طور که در علوم سال نهم دیدید، تندی متوسط و سرعت متوسط دونده به‌صورت زیر تعریف می‌شوند:
+        </p>
+        
+
+    <br><hr><br>
+    <p class="MsoSemi" style="text-align: center;">
+        (1-1)
+        $$s_{av} = \dfrac{l}{\Delta t}$$
+        (تندی متوسط)
+        </p>
+    <br><hr><br>
+
+
+
+    <br><hr><br>
+    <p class="MsoSemi" style="text-align: center;">
+        (2-1)
+        $$\vec{v}_{av} = \dfrac{\vec{d}}{\Delta t}$$
+        (سرعت متوسط)
+        </p>
+    <br><hr><br>
+
+
+
+    <p class="MsoNormal">
+        همان‌طور که دیده می‌شود تندی متوسط، کمیتی نرده‌ای و سرعت متوسط، کمیتی برداری است و یکای SI آن‌ها، متر بر ثانیه $(m/s)$ است که می‌توان آن‌ها را برحسب یکاهای دلخواه دیگری مانند کیلومتر بر ساعت $(km/h)$ نیز بیان کرد.
+        </p>
+        
+        <br><hr><br>
+
+        <p class="MsoStep">مثال
+        ۱-۱
+        </p>
+        <p class="MsoNormal">
+        تندی متوسط و سرعت متوسط دانش‌آموز فعالیت
+         1-1 
+         را پیدا کنید.
+        </p>
+                <br>
+
+        <p class="MsoNormal">
+       <b>     پاسخ:</b>
+            <br>
+            با توجه به داده‌های روی نقشه، اگر دانش‌آموز در مدت زمان 
+            $\Delta t = 7/00 \text{ min} = 420 \text{ s}$ 
+            مسافت 
+            $l = 550 \text{ m}$
+             را از خانه تا مدرسه پیموده باشد، با توجه به رابطهٔ 
+             1-1
+         
+              تندی متوسط وی برابر
+              $s_{av} = \dfrac{550 \text{ m}}{420 \text{ s}} = 1/31 \text{ m/s}$
+              می‌شود و مفهوم فیزیکی آن این است که دانش‌آموز به‌طور متوسط در هر ثانیه 
+              $1/31 \text{ m}$
+               از طول مسیر را پیموده است.
+            </p>
+
+            <p class="MsoNormal">
+            همچنین با توجه به نقشه، اندازهٔ بردار جابه‌جایی دانش‌آموز $۳۲۵ \text{ m}$ و جهت آن به طرف جنوب غربی است. در نتیجه با توجه به رابطهٔ
+          1-2
+             اندازهٔ سرعت متوسط وی برابر 
+            $v_{av} = \dfrac{325 \text{ m}}{420 \text{ s}} = 0/774 \text{ m/s}$ و جهت آن به طرف جنوب غربی است.
+            </p>
+
+
+            <br><hr><br>
+
+            <p class="MsoStep">پرسش ۱-۲</p>
+            <p class="MsoNormal">
+            در چه صورت اندازهٔ سرعت متوسط یک متحرک با تندی متوسط آن برابر است؟ برای پاسخ خود می‌توانید به شکل‌های پرسش
+            1-1
+             نیز توجه کنید.
+            </p>
+
+
+            <br><hr><br>
+
+
+        <p class="MsoNormal">
+            اکنون سرعت متوسط را برای حالتی بررسی می‌کنیم که جسم بر خط راست حرکت می‌کند. به این منظور محوری مانند محور $x$ را انتخاب و فرض می‌کنیم که جسم در راستای آن حرکت می‌کند. توجه کنید که در انتخاب محور (در اینجا محور $x$)، مکان دلخواهی به عنوان مبدأ $(x = 0)$ روی محور در نظر گرفته می‌شود. برداری که مبدأ محور را به مکان جسم در هر لحظه وصل می‌کند، <b>بردار مکان</b> جسم در آن لحظه نامیده می‌شود.
+            </p>
+                
+            <br>
+            
+
+        <p class="MsoNormal">
+            شکل ۱−۲ الف و ب، بردار مکان شخصی را که در جهت محور $x$ می‌دود در دو لحظهٔ متفاوت $t_1$ و $t_2$ نشان می‌دهد. بردار مکان دونده را در این دو لحظه، می‌توان به‌صورت زیر نوشت:
+            </p>
+            
+        <p class="MsoNormal">
+            $$
+            \vec{r}_1 = x_1 \, \vec{i}
+            \quad 
+            \text{و} 
+            \quad 
+            \vec{r}_2 = x_2 \, \vec{i} 
+            $$
+            </p>
+            
+
+
+        <p class="MsoNormal">
+            در این صورت و با توجه به شکل ۱−۲ پ، بردار جابه‌جایی دونده برابر است با:
+            </p>
+                        
+        <p class="MsoNormal">
+            $$
+            \vec{d} = \vec{r_2} - \vec{r_1} = x_2 \, \vec{i} - x_1 \, \vec{i} = (\Delta x) \, \vec{i}
+            $$
+            </p>
+    
+    <p class="MsoNormal">
+        به این ترتیب رابطهٔ ۱-۲ مربوط به سرعت متوسط دونده را می‌توان به‌صورت زیر بازنویسی کرد:
+        </p>
+        
+
+        <br><hr><br>
+        <p class="MsoSemi" style="text-align: center;">
+            (3-1)
+        $$
+        \vec{v}_{av} = \dfrac{\Delta x}{\Delta t} \, \vec{i}
+        $$
+        ( سرعت متوسط در راستای محور x )
+        </p>
+        <br>
+        <br><hr><br>
+
+
+        <p class="MsoStep">مثال
+           2-1
+            </p>
+
+        <p class="MsoNormal">
+        کفش‌دوزکی که در جهت محور $x$ در حرکت است، در لحظه‌های 
+        $t_1 = 0 \ \text{s}$
+         و 
+         $t_2 = 74 \ \text{s}$
+          به ترتیب از مکان‌های 
+        $x_1 = -28 \ \text{cm}$
+         و 
+         $x_2 = 54 \ \text{cm}$
+          می‌گذرد.
+        </p>
+
+        <ul class="MsoNormal">
+            <p>الف) بردارهای مکان در لحظه‌های $t_1$ و $t_2$ و بردار جابه‌جایی کفش‌دوزک در این بازهٔ زمانی را رسم کنید.</p>
+            <p>ب) سرعت متوسط کفش‌دوزک را در این بازهٔ زمانی پیدا کنید.</p>
+        </ul>
+        
+        <br>
+
+        <p class="MsoNormal">
+          <b>  پاسخ:</b>
+            <br>
+            (الف)
+            </p>
+
+
+            <br>
+            
+    <p class="MsoNormal">
+        ب) چون کفش‌دوزک در راستای خط راست حرکت می‌کند، سرعت متوسط آن برابر است با:
+        </p>
+
+
+
+
+
+
+        <p class="MsoNormal">
+            $$
+            \begin{align}
+            \vec{v_{av}} &= \dfrac{\Delta x}{\Delta t} \vec{i} \\\\
+            &= \dfrac{x_2 - x_1}{t_2 - t_1} \vec{i} \\\\
+            &= \dfrac{54\, \text{cm} - (-28\, \text{cm})}{74\, \text{s} - 0\, \text{s}} \vec{i}  \\\\
+            &= (1/1 \, \text{cm/s}) \vec{i} 
+            \end{align}
+            $$
+            </p>
+            
+        <br><hr><br>
+
+
+        
+
+
+
+
+
+        <p class="MsoStep">تمرین ۱-۱</p>
+        <p class="MsoNormal">
+        جدول زیر را کامل کنید. فرض کنید هر چهار متحرک در مدت زمان $4/0\ \text{s}$ فاصلهٔ بین مکان آغازین و مکان پایانی را طی می‌کنند.
+        </p>
+    
+
+        <br>
+
+        <table class="MsoNormal" style="margin:auto;width:fit-content;direction:rtl;text-align:center;">
+            <tr>
+                <th>متحرک</th>
+                <th>مکان آغازین</th>
+                <th>مکان پایانی</th>
+                <th>بردار جابه‌جایی</th>
+                <th>سرعت متوسط</th>
+            </tr>
+            <tr>
+                <td>A</td>
+                <td>$(-2/0 \ \text{m}) \ \vec{i}$</td>
+                <td>$(6/4 \ \text{m}) \ \vec{i}$</td>
+            <td>$\quad$</td>
+            <td>$\quad$</td>
+            </tr>
+            <tr>
+                <td>B</td>
+                <td>$\quad$</td>
+                <td>$(-2/5 \ \text{m}) \ \vec{i}$</td>
+                <td>$(-5/6 \ \text{m}) \ \vec{i}$</td>
+                <td>$\quad$</td>
+            </tr>
+            <tr>
+                <td>C</td>
+                <td>$(2/0 \ \text{m}) \ \vec{i}$</td>
+                <td>$(8/6 \ \text{m}) \ \vec{i}$</td>
+                <td>$\quad$</td>
+                <td>$\quad$</td>
+            </tr>
+            <tr>
+                <td>D</td>
+                <td>$(-1/4 \ \text{m}) \ \vec{i}$</td>
+                <td>$\quad$</td>
+                <td>$\quad$</td>
+                <td>$(2/4 \ \text{m/s}) \ \vec{i}$</td>
+            </tr>
+        </table>
+        
+
+
+
+        <br><hr><br>
+
+        <p class="MsoNormal">
+            از آن‌جا که در ادامهٔ این فصل، تنها حرکت اجسام بر خط راست بررسی می‌شود، جابه‌جایی متحرک را به‌جای بردار 
+            $\vec{d}$
+            ، به‌صورت 
+            $\Delta x$
+             و سرعت متوسط را به‌جای بردار 
+             $\vec{v}_{av}$
+             ، به‌صورت 
+             $v_{av}$
+              به کار می‌بریم.
+            </p>
+            <p class="MsoNormal">
+            در این صورت علامت‌های جبری $\Delta x$ و $v_{av}$ جهت جابه‌جایی و سرعت متوسط را نشان می‌دهند. اگر متحرک در جهت محور $x$ حرکت کند، جابه‌جایی و سرعت متوسط آن مثبت و اگر متحرک در خلاف جهت محور $x$ حرکت کند، جابه‌جایی و سرعت متوسط آن منفی خواهد بود (شکل ۱-۳).
+            </p>
+            
+
+            <br><hr><br>
+                <p class="MsoSemi" style="text-align: center;">
+                    (4-1)
+                $${v_{av} = \dfrac{\Delta x}{\Delta t}}$$
+                (رابطهٔ سرعت متوسط برای حرکت در راستای محور x)
+                </p>
+
+            <br><hr><br>
+
+
+    <p class="MsoNormal">
+        برای توصیف حرکت یک جسم می‌توان از نمودار مکان‌–‌زمان، که مکان جسم را در هر لحظه نشان می‌دهد، استفاده کرد. برای رسم این نمودار، زمان را روی محور افقی و مکان را روی محور قائم در نظر می‌گیریم. برای مثال، به حرکت ذره‌ای که در شکل ۱−۴ الف نشان داده شده است، توجه کنید. این ذره در لحظهٔ $t_1 = 0\,s$ در مکان 
+        $x_1 = 1/0\,m$
+        ، در لحظهٔ 
+        $t_2 = 1/0\,s$
+         در مکان 
+         $x_2 = 3/0 \,m$
+          قرار دارد و به همین ترتیب در لحظه‌های دیگر در مکان‌های دیگر.
+        </p>
+        <p class="MsoNormal">
+        اگر بخواهیم نمودار مکان‌–‌زمان حرکت این ذره را رسم کنیم، ابتدا هر یک از محورهای مکان و زمان را با مقیاسی مناسب مدرج می‌کنیم. سپس نقاطی از نمودار را که مربوط به هر یک از زمان‌ها و مکان‌های داده شده است، مشخص می‌کنیم و با وصل کردن این نقاط به هم، به وسیلهٔ یک منحنی (خم) نمودار مکان‌–‌زمان را همانند شکل ۱−۴ ب رسم می‌کنیم.
+        </p>
+        
+
+
+
+        <br><hr><br>
+
+
+
+        <p class="MsoStep">مثال ۱−۳</p>
+        <p class="MsoNormal">
+        شکل روبه‌رو نمودار مکان‌–‌زمان مورچه‌ای را نشان می‌دهد که در راستای محور $x$ در حرکت است.
+        </p>
+        <ul class="MsoNormal">
+          <p>الف) در کدام بازهٔ زمانی مورچه در جهت محور $x$ حرکت می‌کند؟</p>
+          <p>ب) در کدام بازهٔ زمانی مورچه در خلاف جهت محور $x$ حرکت می‌کند؟</p>
+          <p>پ) در کدام بازه‌های زمانی مورچه ایستاده است؟</p>
+          <p>ت) در کدام لحظه‌هایی، فاصلهٔ مورچه از مبدأ $30\,cm$ است؟</p>
+          <p>ث) در کدام بازهٔ زمانی، فاصلهٔ مورچه از مبدأ محور بیشترین مقدار است؟</p>
+          <p>ج) جابه‌جایی و سرعت متوسط مورچه را در بازهٔ زمانی 
+            $4/0 \, s$
+             تا 
+             $8/0 \, s$
+              پیدا کنید.</p>
+        </ul>
+
+
+        <br>
+        <p class="MsoSemi">
+            پاسخ:
+        </p>
+
+        <ul class="MsoNormal">
+            <p>
+   
+                الف) در بازهٔ زمانی $t = 0/0 \,s$ تا $t = 8/0 \,s$، زیرا در این بازه، $x$ همواره در حال افزایش است.
+                </p>
+                <p>
+                ب) در بازهٔ زمانی $t = 12/0 \,s$ تا $t = 14/0 \,s$، زیرا در این بازه، $x$ همواره در حال کاهش است.
+                </p>
+                <p>
+                پ) در بازه‌های زمانی $t = 8/0 \,s$ تا $t = 12/0 \,s$ و $t = 14/0 \,s$ تا $t = 18/0 \,s$
+                </p>
+                <p>
+                ت) در لحظه‌های $t = 6/0 \,s$ و $t = 13/0 \,s$
+                </p>
+                <p>
+                ث) در بازهٔ زمانی $t = 8/0 \,s$ تا $t = 12/0 \,s$
+                </p>
+                <p>
+                    ج)
+                    <br>
+                            
+                        <p>
+                            $$
+                            \begin{align*}
+                            \Delta x &= x_2 - x_1 \\\\
+                            &= ۴۰\,\text{cm} - ۲۰\,\text{cm} \\\\
+                            &= ۲۰\,\text{cm} \\\\\\
+                            v_{av} &= \dfrac{\Delta x}{\Delta t} \\\\
+                            &= \dfrac{۲۰\,\text{cm}}{۸/۰ \,\text{s} - ۴/۰ \,\text{s}}  \\\\
+                            &= ۵/۰ \,\text{cm/s}
+                            \end{align*}
+                            $$
+                   
+                            </p>
+                           
+                                علامت مثبت نشان می‌دهد که مورچه در جهت مثبت محور $x$ جابه‌جا شده است.
+                            
+                                
+                        </p>
+
+                        </ul>
+
+
+    <br><hr><br>
+
+
+
+<p class="MsoSemi">تعیین سرعت متوسط به کمک نمودار مکان – زمان :</p>
+<br>
+<p class="MsoNormal">
+دوباره به نمودار شکل ۱-۴ که پاره‌خط بین دو نقطهٔ دلخواه آن مطابق شکل ۱-۵ رسم شده است توجه کنید. همان‌طور که از درس ریاضی می‌دانید نسبت $\dfrac{\Delta x}{\Delta t}$ برابر شیب پاره‌خطی است که دو نقطهٔ A و B را به هم وصل می‌کند.
+</p>
+<p class="MsoNormal">
+از سوی دیگر با توجه به رابطهٔ ۱-۴ می‌دانیم که این نسبت برابر سرعت متوسط متحرک در بازهٔ زمانی $t_1$ تا $t_2$ است. به این ترتیب می‌توان نتیجه گرفت که 
+
+<strong>سرعت متوسط متحرک بین دو لحظه از زمان برابر شیب پاره‌خطی است که نقاط نظیر آن دو لحظه در نمودار مکان – زمان را به یکدیگر وصل می‌کند.</strong>
+
+</p>
+
+<br><hr><br>
+
+<p class="MsoStep">مثال ۱-۴</p>
+<p class="MsoNormal">
+با توجه به نمودار مکان – زمان شکل ۱-۴، سرعت متوسط ذره را در بازهٔ زمانی $t_1 = ۲/۰ \ s$ تا $t_2 = ۳/۰ \ s$ به‌دست آورید.
+</p>
+<br>
+<p class="MsoNormal">
+<b>پاسخ: </b>
+<br>
+از رابطهٔ ۱-۴ داریم:
+</p>
+
+
+    <p class="MsoNormal">
+        $$
+        \begin{align*}
+        v_{av} &= \dfrac{\Delta x}{\Delta t} \\\\
+        &= \dfrac{۲/۰ \ \text{m} - ۴/۰ \ \text{m}}{۳/۰ \ \text{s} - ۲/۰ \ \text{s}}  \\\\
+        &= -۲/۰ \ \text{m/s}
+        \end{align*}
+        $$
+        </p>
+    
+<br>
+
+    <p class="MsoNormal">
+        علامت منفی $v_{av}$ نشان می‌دهد که شیب خطّ واصل بین این دو نقطه از نمودار مکان‌–‌زمان، منفی است. توجه کنید که بدون محاسبهٔ $v_{av}$ نیز، با توجه به فهم هندسی‌ای که از منفی بودن شیب خطّ واصل دو نقطهٔ نمودار داریم، می‌توانستیم به منفی بودن $v_{av}$ پی ببریم.
+        </p>
+        
+    
+
+        <br><hr><br>
+
+        <p class="MsoStep">مثال ۱−۵</p>
+    <p class="MsoNormal">
+        نمودار مکان‌–‌زمان موتورسواری که بر خطّ راست حرکت می‌کند مطابق شکل روبه‌رو است. سرعت متوسط موتورسوار را در هر یک از بازه‌های زمانی 
+        $۰/۰ \ \mathrm{s}$ تا 
+        $۱/۰ \ \mathrm{s}$
+        ، 
+        $۱/۰ \ \mathrm{s}$
+         تا 
+         $۲/۰ \ \mathrm{s}$
+         ، 
+         $۲/۰ \ \mathrm{s}$
+          تا 
+          $۴/۰ \ \mathrm{s}$
+          ، 
+          
+          $۴/۰ \ \mathrm{s}$ تا 
+          $۵/۰ \ \mathrm{s}$
+           محاسبه کنید. نتایج به‌دست‌آمده را با هم مقایسه و تفسیر کنید.
+        </p>
+
+        <br>
+
+        <p class="MsoNormal">
+            <b>      پاسخ: </b>
+            <br>
+            با توجه به داده‌های روی نمودار و بنابر رابطهٔ ۱−۴، سرعت متوسط موتورسوار، برای هر یک از بازه‌های زمانی خواسته‌شده، برابر است با:
+            </p>
+            
+
+
+<br>
+                
+    <p class="MsoNormal" style="text-align: center;">
+        بازهٔ زمانی 
+        $0/0 \, \text{s}$ تا 
+        $1/0  \, \text{s}$
+        $$
+        v_{av} = \dfrac{\Delta x}{\Delta t} = \dfrac{25/0  \, \text{m} - 0/0 \, \text{m}}{1/0 \, \text{s} - 0/0 \, \text{s}} = 25 \, \text{m/s}
+        $$
+        </p>
+
+<br>
+<hr style="background-color: #D6D1DA10; width: 60%;">
+<br>
+
+<p class="MsoNormal" style="text-align: center;">
+    بازهٔ زمانی 
+    $2/0 \, \text{s}$ تا 
+    $4/0  \, \text{s}$
+    $$
+    v_{av} = \dfrac{\Delta x}{\Delta t} = \dfrac{100/0  \, \text{m} - 5/0 \, \text{m}}{4/0 \, \text{s} - 2/0 \, \text{s}} = 25 \, \text{m/s}
+    $$
+    </p>
+    
+    <br>
+    <hr style="background-color: #D6D1DA10; width: 60%;">
+    <br>
+
+    <p class="MsoNormal" style="text-align: center;">
+        بازهٔ زمانی 
+        $1/0 \, \text{s}$ تا 
+        $5/0  \, \text{s}$
+        $$
+        v_{av} = \dfrac{\Delta x}{\Delta t} = \dfrac{125/0  \, \text{m} - 25/0 \, \text{m}}{5/0 \, \text{s} - 1/0 \, \text{s}} = 25 \, \text{m/s}
+        $$
+        </p>
+        
+        <br><br>
+
+        <p class="MsoNormal">
+            اگر در هر بازهٔ زمانی دلخواه دیگری نیز سرعت متوسط موتورسوار را حساب کنید، خواهید دید که همین مقدار برای آن به‌دست می‌آید. از آنجا که شیب نمودار مکان‌-‌زمان برای هر بازهٔ زمانی دلخواه برابر سرعت متوسط متحرک است، با توجه به ثابت بودن شیب نمودار مکان‌-‌زمان موتورسوار در طول حرکت، چنین انتظاری می‌رفت.
+            </p>
+       
+            
+            <br><hr><br>
+
+
+
+
+            <p class="MsoStep">مثال ۱-۶</p>
+            <p class="MsoNormal">
+            شکل روبه‌رو، نمودار مکان‌-‌زمان خودرویی را نشان می‌دهد که روی خط راست حرکت می‌کند.
+            </p>
+            
+            <ul class="MsoNormal">
+            
+                
+        <p>
+            الف) با استفاده از داده‌های روی شکل، سرعت متوسط خودرو را در هر یک از بازه‌های زمانی  زیر      حساب کنید.
+     
+        </p>
+            <ul class="MsoNormal">
+                <p>
+                    -
+                    $0/0 \, \text{s}$
+                    تا 
+                    $2/0 \, \text{s}$
+                </p>
+            <p>
+                -
+                $0/0 \, \text{s}$
+                تا 
+            $4/0 \, \text{s}$
+            </p>
+            <p>
+                -
+                $2/0 \, \text{s}$
+                تا 
+            $4/0 \, \text{s}$
+            </p>
+            <p>
+                -
+                $4/0 \, \text{s}$
+                تا 
+            $5/0 \, \text{s}$ 
+            </p>
+            </ul>
+
+            
+        
+
+            <p>
+                ب) در کدام یک از این بازه‌های زمانی، سرعت متوسط در جهت محور $x$ و در کدام یک در خلاف جهت محور $x$ است؟
+                </p>
+                
+
+
+            </ul>
+            
+
+            <br>
+
+            <p class="MsoNormal">
+           <b>     پاسخ:</b>
+                
+           <br>
+                الف) با توجه به داده‌های روی نمودار و بنابر رابطهٔ
+                1-3
+                ، سرعت متوسط خودرو برای هر یک از بازه‌های زمانی خواسته‌شده، برابر است با:
+                </p>
+        
+    <br>
+
+    <p class="MsoNormal" style="text-align: center;">
+        بازهٔ زمانی 
+        $0/0 \, \text{s}$ تا 
+        $2/0 \, \text{s}$
+        $$
+        v_{av} = \dfrac{\Delta x}{\Delta t} = \dfrac{20 \, \text{m} - 0 \, \text{m}}{2/0 \, \text{s} - 0/0 \, \text{s}} = 10 \, \text{m/s}
+        $$
+        </p>
+        
+
+    <br>
+    <hr style="background-color: #D6D1DA10; width: 60%;">
+    <br>
+
+    <p class="MsoNormal" style="text-align: center;">
+        بازهٔ زمانی 
+        $0/0 \, \text{s}$ تا 
+        $4/0 \, \text{s}$
+        $$
+        v_{av} = \dfrac{\Delta x}{\Delta t} = \dfrac{0 \, \text{m} - 0 \, \text{m}}{4/0 \, \text{s} - 0/0 \, \text{s}} = 0 \, \text{m/s}
+        $$
+        </p>
+        
+        <br>
+        <hr style="background-color: #D6D1DA10; width: 60%;">
+        <br>
+
+    <p class="MsoNormal" style="text-align: center;">
+        بازهٔ زمانی 
+        $2/0 \, \text{s}$ تا 
+        $4/0 \, \text{s}$
+        $$
+        v_{av} = \dfrac{\Delta x}{\Delta t} = \dfrac{0 \, \text{m} - 20 \, \text{m}}{4/0 \, \text{s} - 2/0 \, \text{s}} = -10 \, \text{m/s}
+        $$
+        </p>
+        
+        <br>
+        <hr style="background-color: #D6D1DA10; width: 60%;">
+        <br>
+
+<p class="MsoNormal" style="text-align: center;">
+    بازهٔ زمانی 
+    $2/0 \, \text{s}$ تا 
+    $5/0 \, \text{s}$
+    $$
+    v_{av} = \dfrac{\Delta x}{\Delta t} = \dfrac{-25 \, \text{m} - 20 \, \text{m}}{5/0 \, \text{s} - 2/0 \, \text{s}} = -15 \, \text{m/s}
+    $$
+    </p>
+        
+    <br>
+    <hr style="background-color: #D6D1DA10; width: 60%;">
+    <br>
+
+<p class="MsoNormal" style="text-align: center;">
+    بازهٔ زمانی 
+    $4/0 \, \text{s}$ تا 
+    $5/0 \, \text{s}$
+    $$
+    v_{av} = \dfrac{\Delta x}{\Delta t} = \dfrac{-25 \, \text{m} - 0 \, \text{m}}{5/0 \, \text{s} - 4/0 \, \text{s}} = -25 \, \text{m/s}
+    $$
+    </p>
+
+
+    <br>
+
+    <p class="MsoNormal">
+        ب) در بازه‌های زمانی‌ای که سرعت متوسط خودرو مثبت است، سرعت متوسط خودرو در جهت محور $x$ و در بازه‌های زمانی‌ای که سرعت متوسط منفی است، سرعت متوسط خودرو در خلاف جهت محور $x$ است.
+        </p>
+        
+
+
+
+    <br><hr><br>
+
+    <p class="MsoStep">پرسش ۱-۳</p>
+
+    <p class="MsoNormal">
+        با توجه به نمودار مکان – زمان شکل روبه‌رو به پرسش‌های زیر پاسخ دهید:
+        </p>
+
+        <ul class="MsoNormal">
+        
+            <p>
+                الف) متحرک چند بار از مبدأ مکان عبور می‌کند؟
+                </p>
+                <p>
+                ب) در کدام بازه‌های زمانی متحرک در حال دور شدن از مبدأ است؟
+                </p>
+                <p>
+                پ) در کدام بازه‌های زمانی متحرک در حال نزدیک شدن به مبدأ است؟
+                </p>
+                <p>
+                ت) جهت حرکت چند بار تغییر کرده است؟ در چه لحظه‌هایی؟
+                </p>
+                <p>
+                ث) جابه‌جایی کل در جهت محور $x$ است یا خلاف آن؟
+                </p>
+        
+                
+        </ul>
+
+
+
+
+
+        <br><hr><br>
+
+
+        <p class="MsoStep">تمرین ۱-۲</p>
+
+<p class="MsoNormal">
+شکل روبه‌رو نمودار مکان – زمان دوچرخه‌سواری را نشان می‌دهد که روی مسیری مستقیم در حال حرکت است.
+</p>
+
+<ul class="MsoNormal">
+    <p>
+    الف) در کدام لحظه‌ای دوچرخه‌سوار بیشترین فاصله از مبدأ را دارد؟
+    </p>
+    <p>
+    ب) در کدام بازه‌های زمانی دوچرخه‌سوار در جهت محور $x$ حرکت می‌کند؟
+    </p>
+    <p>
+    پ) در کدام بازهٔ زمانی دوچرخه‌سوار در خلاف جهت محور $x$ حرکت می‌کند؟
+    </p>
+    <p>
+    ت) در کدام بازهٔ زمانی، دوچرخه‌سوار ساکن است؟
+    </p>
+    
+
+    <p>
+        ث) تندی متوسط و سرعت متوسط دوچرخه‌سوار را در هر یک از بازه‌های زمانی زیر حساب کنید.
+        </p>
+        
+        <ul class="MsoNormal">
+      
+            <p>
+                -
+                $0/0  \, \text{s}$
+                تا 
+                $2/0  \, \text{s}$
+            </p>
+            <p>
+                -
+                $4/0  \, \text{s}$
+                تا 
+                $6/0  \, \text{s}$
+            </p>
+            <p>
+                -
+                $2/0  \, \text{s}$
+                تا 
+                $5/0  \, \text{s}$
+            </p>
+            <p>
+                -
+                $8/0  \, \text{s}$
+                تا 
+                $14/0  \, \text{s}$
+            </p>
+            <p>
+                -
+                $0/0  \, \text{s}$
+                تا 
+                $14/0 \, \text{s}$
+            </p>
+        </ul>
+        
+
+</ul>
+
+
+<br><hr><br>
+
+<p class="MsoSemi">تندی لحظه‌ای و سرعت لحظه‌ای</p>
+
+<p class="MsoNormal">
+تندی متحرک در هر لحظه از زمان را <b>تندی لحظه‌ای</b> می‌نامند. اگر هنگام گزارش تندی لحظه‌ای، به جهت حرکت متحرک نیز اشاره شود، در واقع <b>سرعت لحظه‌ای</b> $(\vec{v})$ آن را، که کمیتی برداری است بیان کرده‌ایم.
+</p>
+
+<p class="MsoNormal">
+برای مثال وقتی درون خودرویی به طرف شمال در حال حرکت باشید و در نقطه‌ای از مسیر، عقربهٔ تندی‌سنج خودروی شما روی $100 \, \text{km/h}$ باشد (شکل ۱-۶)، تندی لحظه‌ای خودرو برابر $100 \, \text{km/h}$ و سرعت لحظه‌ای آن به طرف شمال است.
+</p>
+
+<p class="MsoNormal">
+برای سادگی، بیشتر وقت‌ها سرعت لحظه‌ای و تندی لحظه‌ای را به‌ ترتیب به‌ صورت سرعت و تندی بیان می‌کنند. از آنجا که در ادامهٔ این فصل تنها حرکت اجسام بر خط راست بررسی می‌شود، سرعت لحظه‌ای متحرک را در حل مسئله‌ها به‌ جای بردار $\vec{v}$، به صورت $v$ به‌ کار می‌بریم. هر گاه متحرک در جهت مثبت محور $x$ حرکت کند $v$ مثبت است و هر گاه در جهت منفی محور حرکت کند $v$ منفی است.
+</p>
+
+
+
+
+<br><hr><br>
+<p class="MsoStep">پرسش ۱-۴</p>
+<p class="MsoNormal">
+از روی نمودار مکان – زمان توضیح دهید در چه صورت سرعت لحظه‌ای متحرک همواره با سرعت متوسط آن برابر است.
+</p>
+<br><hr><br>
+
+
+
+
+
+
+<p class="MsoSemi">تعیین سرعت لحظه‌ای به کمک نمودار مکان – زمان</p>
+
+<p class="MsoNormal">
+پیش از این دیدیم که سرعت متوسط متحرک بین هر دو لحظهٔ دلخواه، برابر شیب خطی است که نمودار مکان – زمان را در آن دو لحظه قطع می‌کند. همان‌طور که در شکل ۱-۷ دیده می‌شود اگر $\Delta t$ به‌تدریج کوچک و کوچکتر شود، نقطهٔ $B$ به نقطهٔ $A$ نزدیک و نزدیک‌تر می‌شود؛ به‌طوری که اگر $\Delta t$ به سمت صفر میل کند $(\Delta t \rightarrow 0)$ نقطهٔ $B$ به نقطهٔ $A$ بسیار نزدیک می‌شود و سرانجام خط واصل بین این دو نقطه، به خط مماس بر نمودار در نقطهٔ $A$ میل می‌کند.
+در این حالت، شیب خط مماس برای سرعت متحرک در لحظهٔ $t$ است. به این ترتیب می‌توان نتیجه گرفت که: 
+
+<strong>سرعت در هر لحظهٔ دلخواه $t$، برابر شیب خط مماس بر نمودار مکان – زمان در آن لحظه است.</strong>
+</p>
+
+
+<br><hr><br>
+
+<p class="MsoStep">مثال ۱-۷</p>
+<p class="MsoNormal">
+شکل روبه‌رو نمودار مکان – زمان متحرکی را نشان می‌دهد که در امتداد محور $x$ در حرکت است. 
+$d_1$ و $d_2$ خط‌های مماس بر منحنی را در دو لحظهٔ متفاوت نشان می‌دهند. 
+در کدام لحظه سرعت متحرک بیشتر است؟
+</p>
+<br>
+<p class="MsoNormal">
+<b>    پاسخ: </b>
+<br>
+    با توجه به شکل، شیب خط $d_2$ بیشتر از شیب خط $d_1$ است. بنابراین سرعت متحرک در لحظهٔ $t_2$ بیشتر از سرعت آن در لحظهٔ $t_1$ است ($v_2 > v_1$). توجه کنید که شیب هر دو خط مثبت است و بنابراین سرعت نیز در هر دو لحظه مثبت، یعنی در جهت محور $x$ است.
+    </p>
+
+
+<br><hr><br>
+
+
+<p class="MsoStep">پرسش ۱-۵</p>
+
+<p class="MsoNormal">
+شکل روبه‌رو نمودار مکان – زمان متحرکی را نشان می‌دهد که در امتداد محور $x$ در حرکت است.
+</p>
+
+<ul class="MsoNormal">
+    <p>الف) از لحظهٔ صفر تا لحظهٔ $t_1$ سرعت متحرک رو به افزایش است یا کاهش؟</p>
+    <p>ب) اگر در لحظهٔ $t_1$ خط مماس بر منحنی موازی محور زمان باشد، سرعت متحرک در این لحظه چقدر است؟</p>
+</ul>
+
+
+
+
+
+<br><hr><br>
+
+
+
+<p class="MsoStep">تمرین ۱-۳</p>
+
+<p class="MsoNormal">
+شکل روبه‌رو نمودار مکان – زمان متحرکی را نشان می‌دهد. خط مماس بر منحنی در لحظهٔ $t = 4/0 \, \text{s}$ رسم شده است. سرعت متحرک را در این لحظه پیدا کنید.
+</p>
+
+
+
+
+
+<br><hr><br>
+
+
+
+<p class="MsoSemi">شتاب متوسط و شتاب لحظه‌ای</p>
+<p class="MsoNormal">
+در علوم سال نهم دیدید که هرگاه سرعت جسمی تغییر کند حرکت آن شتاب‌دار است. با توجه به اینکه بردار سرعت در هر نقطه از مسیر، بر مسیر حرکت مماس است، تغییر سرعت جسم در نقاط مختلف مسیر حرکت می‌تواند به دلیل تغییر در اندازهٔ بردار سرعت (تندی) جسم باشد (شکل ۱-۸ الف)، یا می‌تواند به‌دلیل تغییر در جهت سرعت آن باشد (شکل ۱-۸ ب)، یا همچنین می‌تواند به‌دلیل تغییر در اندازه و جهت بردار سرعت متحرک باشد (شکل ۱-۸ پ).
+</p>
+
+
+<br>
+
+
+<p class="MsoNormal">
+    شتاب متوسط متحرک در هر بازهٔ زمانی دلخواه $t_1$ تا $t_2$ به‌صورت رابطهٔ 
+    1-5
+    تعریف می‌شود که در آن $\vec{v_1}$ سرعت متحرک در لحظهٔ $t_1$ و $\vec{v_2}$ سرعت متحرک در لحظهٔ $t_2$ است. همان‌طور که دیده می‌شود شتاب متوسط $(\vec{a}_{av})$، کمیتی برداری و هم‌جهت با بردار تغییر سرعت $(\Delta \vec{v})$ است.
+
+    یکای SI شتاب متوسط، متر بر مربع ثانیه $(\text{m/s}^2)$ است.
+    </p>
+    
+    <br><hr><br>
+    <p class="MsoSemi" style="text-align: center;">
+        (5-1)
+        $$
+        \vec{a}_{av} = \dfrac{\vec{v}_2 - \vec{v}_1}{t_2 - t_1} = \dfrac{\Delta \vec{v}}{\Delta t}
+        $$
+        (شتاب متوسط)
+        </p>
+        <br>
+    <br><hr><br>
+
+
+
+
+    <p class="MsoStep">مثال ۱-۸</p>
+<p class="MsoNormal">
+خودرویی از حال سکون در امتداد محور $x$ شروع به حرکت می‌کند. پس از $12\,\text{s}$، سرعت خودرو به $24\,\text{m/s}$ در جهت محور $x$ می‌رسد. شتاب متوسط خودرو را در این بازهٔ زمانی به‌دست آورید.
+</p>
+
+<br>
+
+<p class="MsoNormal">
+   <b> پاسخ: </b>
+    <br>
+    از رابطهٔ
+ 1-5
+     ، داریم:
+    </p>
+    
+    <p class="MsoNormal">
+        $$
+        \begin{align}
+        \vec{a}_{av} &= \dfrac{\vec{v}_2 - \vec{v}_1}{t_2 - t_1} \\\\
+        &= \dfrac{(24 \, \text{m/s}) \, \vec{i} - 0 \, \text{m/s}}{12 \, \text{s} - 0 \, \text{s}}  \\\\
+        &= (2 \, \text{m/s}^2) \, \vec{i}
+        \end{align}
+        $$
+        </p>
+        
+        <br>
+
+        <p class="MsoNormal">
+            همانطور که دیده می‌شود، اندازه شتاب متوسط خودرو 
+            $2/0 \, \text{m/s}^2$ و شتاب در جهت محور $x$ است.
+            </p>
+            
+
+        <br><hr><br>
+
+
+        <p class="MsoNormal">
+            اگر متحرک در یک راستا حرکت کند رابطه 
+          1-5
+             را می‌تواند به صورت زیر به کار برد ولی توجه به ماهیت برداری $v_1$ و $v_2$ باید به علامت‌های جریانی آن‌ها که نشان‌دهنده جهت آنهاست توجه کنیم.
+            </p>
+            
+            <br><hr><br>
+
+            <p class="MsoSemi" style="text-align: center;">
+                ( ۶-۱) 
+                $$
+                a_{av} = \dfrac{v_2 - v_1}{t_2 - t_1} = \dfrac{\Delta v}{\Delta t}
+                $$
+                شتاب متوسط در حرکت بر خط راست
+                </p>
+
+                <br><hr><br>
+
+
+        <p class="MsoSemi">تعیین شتاب متوسط و لحظه‌ای به کمک نمودار سرعت - زمان:</p>
+        <p class="MsoNormal">
+            در شکل
+           ۱-۹
+            الف
+
+            ،
+        نمودار سرعت - زمان متحرکی نشان داده شده است که روی خطّ راست حرکت می‌کند. با توجه به تعریف شتاب متوسط، معلوم می‌شود که شتاب متوسط بین دو لحظه برابر شیب خطی است که نمودار سرعت - زمان را در آن دو لحظه قطع می‌کند.
+        
+        همان‌طور که در شکل 1-9 ب دیده می‌شود، اگر $\Delta t$ به سمت صفر میل کند $(\Delta t \rightarrow ۰)$، خطّ واصل بین نقطه‌های $A$ و $B$، به خط مماس بر نمودار در نقطهٔ $A$ میل می‌کند. 
+        در این حالت، شیب خط مماس برابر شتاب متحرک در لحظهٔ $t_1$ است.
+        در این حالت، شیب خط مماس برابر شتاب متحرک در لحظهٔ $t_1$ است. 
+            به این ترتیب می‌توان نتیجه گرفت که:
+            <br>
+            <strong>    
+        شتاب در
+        هر لحظهٔ دلخواه $t$ برابر شیب خط مماس بر نمودار سرعت - زمان در آن لحظه است.
+        </strong>
+        <br>
+         در کتاب‌های فیزیک برای سادگی، <b>شتاب لحظه‌ای</b> را <b>شتاب</b> می‌نامند و آن را با نماد 
+        $a$ نشان می‌دهند.
+        </p>
+        
+
+        <br><hr><br>
+
+        <p class="MsoStep">مثال
+            1-9
+        </p>
+        <p class="MsoNormal">
+        نمودار سرعت‌ ـ زمان موتورسوارى که در امتداد محور $x$ حرکت مى‌کند در بازهٔ زمانى $۰/s$ تا $۱۲/s$، مطابق شکل روبه‌رو است. شتاب متوسط موتورسوار و جهت آن را در هر یک از بازه‌هاى زمانى
+        زیر
+        بیابید.    
+        </p>
+        <ul class="MsoNormal">
+            <p>
+                -
+                $0/0 \, \text{s}$
+                تا 
+                $2/0 \, \text{s}$
+            </p>
+
+            <p>
+                -
+                $4/0 \, \text{s}$
+                تا 
+                $8/0 \, \text{s}$
+            </p>
+
+            <p>
+                -
+                $10/0 \, \text{s}$
+                تا 
+                $12/0 \, \text{s}$
+            </p>
+        </ul>
+        
+        <p class="MsoNormal">
+        <b>
+            پاسخ:
+        </b>
+        
+        با توجه به داده‌هاى روى نمودار و بنابر رابطهٔ 
+        1-6
+        ، شتاب متوسط موتورسوار، براى هر یک از بازه‌هاى زمانى خواسته‌شده، برابر است با:
+        </p>
+        
+    <br>
+
+<div class="custom-scrollbar" style="overflow-y: hidden; overflow-x:auto;direction:ltr;">
+    <p class="MsoNormal" style="text-align: center;direction: rtl;">
+        بازهٔ زمانی 
+        $0/0 \, \text{s}$ تا 
+        $2/0 \, \text{s}$
+        $$
+        a_{av} = \dfrac{v_2 - v_1}{t_2 - t_1} = \dfrac{8/0 \, \text{m/s} - 4/0 \, \text{m/s}}{2/0 \, \text{s} - 0/0 \, \text{s}} = 2/0 \, \text{m/s}^2
+        $$
+    </p>
+</div>
+        
+        <br>
+        <hr style="background-color: #D6D1DA10; width: 60%;">
+        <br>
+        
+<div class="custom-scrollbar" style="overflow-y: hidden; overflow-x:auto;direction:ltr;">
+    <p class="MsoNormal" style="text-align: center;direction: rtl;">
+        بازهٔ زمانی 
+        $4/0 \, \text{s}$ تا 
+        $8/0 \, \text{s}$
+        $$
+        a_{av} = \dfrac{v_2 - v_1}{t_2 - t_1} = \dfrac{20/0 \, \text{m/s} - 12/0 \, \text{m/s}}{8/0 \, \text{s} - 4/0 \, \text{s}} = -2/0 \, \text{m/s}^2
+        $$
+    </p>
+</div>
+        
+        <br>
+        <hr style="background-color: #D6D1DA10; width: 60%;">
+        <br>
+        
+<div class="custom-scrollbar" style="overflow-y: hidden; overflow-x:auto;direction:ltr;">
+    <p class="MsoNormal" style="text-align: center;direction: rtl;">
+        بازهٔ زمانی 
+        $10/0 \, \text{s}$ تا 
+        $12/0 \, \text{s}$
+        $$
+        a_{av} = \dfrac{v_2 - v_1}{t_2 - t_1} = \dfrac{28/0 \, \text{m/s} - 24/0 \, \text{m/s}}{12/0 \, \text{s} - 10/0 \, \text{s}} = 2/0 \, \text{m/s}^2
+        $$
+    </p>
+</div>
+
+<br>
+
+<p class="MsoNormal">
+    با توجه به علامت مثبت $a_{av}$ در هر سه بازهٔ زمانی، شتاب متوسط در جهت مثبت محور $x$ است. اگر در هر بازهٔ زمانی دلخواه دیگری نیز شتاب متوسط موتورسوار را حساب کنید با توجه به ثابت بودن شیب نمودار 
+    سرعت - زمان،
+     اندازه و جهت یکسانی برای شتاب به‌دست می‌آید.
+    </p>
+    
+    
+
+
+    <br><hr><br>
+
+
+    <p class="MsoStep">پرسش ۱-۶</p>
+<p class="MsoNormal">
+شکل روبه‌رو نمودار سرعت ـ زمان دوچرخه‌سواری را نشان می‌دهد که در امتداد محور $x$ در حرکت است. جهت شتاب دوچرخه‌سوار را در هر یک از لحظه‌های 
+
+$ . . . $
+، 
+$t_3$
+، 
+$t_2$
+،   
+$t_1$
+و 
+$t_6$
+
+تعیین کنید.
+</p>
+
+
+
+<br><hr><br>
+
+
+<p class="MsoStep">تمرین ۱-۴</p>
+<p class="MsoNormal">
+نمودار سرعت ـ زمان خودرویی که در راستای محور $x$ حرکت می‌کند در بازهٔ زمانی $0/0 \, \text{s}$ تا $20/0 \, \text{s}$ مطابق شکل روبه‌رو است.
+</p>
+<ul class="MsoNormal">
+    <p>الف) شتاب متوسط خودرو در این بازهٔ زمانی چقدر است؟</p>
+    <p>ب) شتاب خودرو را در لحظهٔ $t = 8/0 \, \text{s}$ به‌دست آورید.</p>
+</ul>
+
+
+
+
+
+<br><hr><br>
+
+
+
+
+<p class="MsoStep">تمرین
+    
+1-5
+</p>
+<p class="MsoNormal">
+نمودار سرعت ـ زمان خودرویی که در راستای محور $x$ حرکت می‌کند در بازهٔ زمانی صفر تا $14/0 \, \text{s}$ مطابق شکل روبه‌رو است.
+</p>
+<ul class="MsoNormal">
+    <p>الف) شتاب متوسط خودرو در این بازهٔ زمانی چقدر است؟</p>
+    <p>ب) شتاب خودرو را در هر یک از لحظه‌های 
+        $t = 8/0 \, \text{s}$ 
+        ،
+        $t = 2/0 \, \text{s}$
+         و $t = 11/0 \, \text{s}$ به‌دست آورید.</p>
+</ul>
+
+
+
+    <br><br><br><br><br><br><br><br><br><br>
+</body>
+
+
+</html>

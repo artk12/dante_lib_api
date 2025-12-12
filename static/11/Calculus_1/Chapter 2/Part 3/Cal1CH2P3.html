@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi , b{
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #badaff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #722a85;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background-color: #1abbbbe1; /* Scrollbar thumb color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color: #05ffe2;
+        }
+    </style>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+<body class="custom-scrollbar">
+ 
+
+    <p class="MsoBold">درس ۳
+
+        :
+
+    وارون توابع</p>
+    <hr><br>
+    <p class="MsoStep">فعالیت</p>
+    <p class="MsoNormal">دو تابع $f$ و $g$ را در نظر بگیرید:</p>
+    
+
+
+
+    <p class="MsoNormal">الف) $f$ و $g$ را به‌صورت زوج‌های مرتب نمایش دهید و دامنه و برد هر یک را بنویسید.</p>
+    <br>
+  <div class="MsoNormal" style="text-align: left;direction: ltr;;">
+    <p class="MsoNormal">$f =$</p>
+    <p class="MsoNormal">$g =$</p>
+    <p class="MsoNormal">$D_f =$</p>
+    <p class="MsoNormal">$R_f =$</p>
+    <p class="MsoNormal">$D_g =$</p>
+    <p class="MsoNormal">$R_g =$</p>
+
+  </div>
+    
+<br>
+  <p class="MsoNormal">ب) اگر جای دو مؤلفهٔ هر زوج مرتب $f$ و $g$ را عوض کنیم، روابط جدیدی به‌دست می‌آید. آن‌ها را به ترتیب $h$ و $k$ بنامید. $h$ و $k$ را وارون رابطه‌های $g$ و $f$ می‌نامیم. $h$ و $k$ را به‌صورت مجموعه زوج‌های مرتب بنویسید.</p>
+  <br>
+  <div class="MsoNormal" style="text-align: left; direction: ltr;">
+    <p class="MsoNormal">$h =$</p>
+    <p class="MsoNormal">$k =$</p>
+
+  </div>
+  <br>
+  <p class="MsoNormal">کدام‌یک از رابطه‌های $h$ و $k$ تابع است؟ دلیل بیاورید.</p>
+  
+<br><hr><br>
+  <p class="MsoNormal">
+    اگر رابطه‌ای بین دو مجموعه به‌صورت زوج‌های مرتب داده شده باشد، رابطه‌ای را که از جابه‌جایی دو مؤلفه هر زوج مرتب به‌دست می‌آید، وارون آن رابطه می‌نامیم.
+    </p>
+    <br>
+    <p class="MsoNormal">
+    اگر $f$ یک تابع باشد، وارون آن را با $f^{-1}$ نمایش می‌دهیم و به‌صورت زیر تعریف می‌کنیم:
+    </p>
+    <br>
+    <p class="MsoNormal">
+    $$f^{-1} = \{(y, x) \ | \ (x, y) \in f\}$$
+    </p>
+
+
+    <p class="MsoNormal">
+    اگر $f^{-1}$ تابع باشد، آن‌گاه $f$ را وارون‌پذیر (معکوس‌پذیر) می‌نامیم و $f^{-1}$ را تابع وارون $f$ می‌نامیم.
+    </p>
+    
+    <br><hr><br>
+
+    <p class="MsoNormal">
+        توجه کنید که $f^{-1}$ را نباید با $\dfrac{1}{f}$ اشتباه گرفت.
+        </p>
+        
+<br>
+<hr>
+
+        <p class="MsoBold">توابع یک‌به‌یک</p>
+        
+        <p class="MsoNormal">
+        چه توابعی وارون‌پذیرند؟ در فعالیت قبل تابع $f$ وارون‌پذیر بود ولی تابع $g$ وارون‌پذیر نبود. بنابراین سؤال اساسی این است که یک تابع باید چه شرطی داشته باشد تا وارون‌پذیر باشد؟
+        </p>
+        
+
+
+
+
+
+
+        <br><hr><br>
+
+        <p class="MsoStep">فعالیت</p>
+        <br>
+        <p class="MsoNormal">توابع زیر را در نظر بگیرید:</p>
+        <br>
+        <p class="MsoNormal">الف) کدام‌یک از آن‌ها وارون‌پذیرند؟</p>
+        <br>
+        <p class="MsoNormal">ب) ویژگی مشترک توابع وارون‌پذیر چیست؟</p>
+
+
+        <br><hr><br>
+        
+        <p class="MsoNormal">
+            اگر $f$ یک تابع باشد و به هر عنصر در برد دقیقاً یک عنصر از دامنه نظیر شود تابع وارون‌پذیر است. اگر تابعی چنین ویژگی داشته باشد آن را یک به یک نامیم. به عبارت دیگر تابع $f$ یک به یک است هرگاه هر دو عنصر متمایز در دامنه، به دو عنصر متمایز در برد نظیر شوند.
+            </p>
+        <br><hr><br>
+
+
+
+        <p class="MsoNormal">
+            همان‌گونه که در فعالیت بالا دیده شد، اگر تابعی یک به یک باشد آن‌گاه وارون‌پذیر است.
+            </p>
+
+
+            <br><hr><br>
+            
+
+            <p class="MsoStep">فعالیت</p>
+            
+            <p class="MsoNormal">
+            توابع داده شده در (الف) و (ب) یک به یک هستند ولی توابع داده شده در (ب) و (ت) یک به یک نیستند. چرا؟ توضیح دهید.
+            </p>
+            
+
+<br><hr><br>
+
+<p class="MsoNormal">
+    به‌طور کلی می‌توان گفت که یک تابع در صورتی یک به یک است که هر خط موازی محور $x$ها، نمودار آن را حداکثر در یک نقطه فقط قطع کند.
+    </p>
+
+    
+    <br><hr><br>
+
+    <p class="MsoStep">کار در کلاس</p>
+    
+    <p class="MsoNormal">۱) کدام‌یک از توابع زیر یک به یک هستند؟
+
+        $$k = \{(1, 2), (3, 4), (8, 9)\} \quad l = \{(3, 7), (2, 5), (1, 5)\}$$
+        </p>
+
+        
+
+<br><br>
+
+    <p class="MsoNormal">
+        ۲) فرض کنید به هر یک از اعضای یک کلاس کد ملی آنها را نسبت دهم. توضیح دهید که چگونه رابطهٔ بین افراد و کد ملی آنها تابعی یک به یک را معلوم می‌کند.
+        </p>
+
+<br><hr><br>
+
+
+<p class="MsoStep">کار در کلاس</p>
+
+<p class="MsoNormal">
+توابع زیر یک به یک نیستند. چرا؟ با محدود کردن دامنه، تابعی یک به یک بسازید.
+</p>
+<br>
+<p class="MsoNormal" style="text-align: left;direction: ltr;">
+    
+    (الف) $y = \ \big| \ x + 3 \ \big| \ \quad$
+    <br>
+    (ب) $y = (x - 2)^2 \quad$
+    <br>
+    (پ) $y = \ \big| \  x \ \big| \ - 2 \quad$
+    <br>
+    (ت) $y = x^2- 1$</p>
+
+<br><hr><br>
+
+<p class="MsoBold">محاسبه وارون یک تابع</p>
+
+<p class="MsoNormal">
+اگر $f$ تابعی یک به یک باشد و $f^{-1}$ تابع وارون آن باشد، نمودار زیر کارکرد $f$ و $f^{-1}$ را نشان می‌دهد. در فعالیت بعد به‌صورت جزئی‌تر با کارکردهای $f$ و $f^{-1}$ و نحوهٔ به‌دست آوردن $f^{-1}$ آشنا می‌شویم.
+</p>
+<br><hr><br>
+
+
+<p class="MsoStep">فعالیت</p>
+
+<p class="MsoNormal">
+تابع 
+زیر
+را در نظر می‌گیریم:
+
+$$
+\begin{cases}
+f: \mathbb{R} \to \mathbb{R} \\\\
+f(x) = 2x+5 \\\\
+\end{cases}
+$$
+</p>
+<br>
+<p class="MsoNormal">
+الف) به کمک نمودار $f$ توضیح دهید که چرا $f$ یک به یک است.
+</p>
+
+
+
+\<p class="MsoNormal">
+    ب) نمودار روبه‌رو را توضیح دهید:
+    $$
+    (3, 11) \in f \quad \text{و} \quad (11, 3) \in f^{-1}
+    $$
+  
+    به عبارت دیگر:
+    $$
+    f(3) = 11 \quad \text{و} \quad f^{-1}(11) = 3
+    $$
+    </p>
+    <br>
+    <p class="MsoNormal">
+    پ) در حالت کلی برای هر عنصر $x \in D_f$، نمودار مقابل را مانند ب کامل کنید.
+    </p>
+    <br>
+    <p class="MsoNormal">
+    ت) بنابراین می‌توان نوشت:
+    </p>
+    <br>
+
+<p class="MsoNormal">
+$$f(x) = 2x + 5 \qquad (x \in D_f)$$  
+$$f^{-1}(y) = \dfrac{y - 5}{2} \qquad (y \in R_f)$$
+</p>
+
+
+
+<br>
+
+
+<p class="MsoNormal">
+$f^{-1}$ را به‌صورت‌های دیگری هم می‌توانیم نمایش دهیم. یک نمایش دیگر را بنویسید:
+</p>
+<br>
+  <div class="MsoNormal" style="text-align: left;direction: ltr;">
+<p class="MsoNormal">
+    $
+    \begin{cases}
+    f^{-1} : \mathbb{R} \to \mathbb{R} \\\\
+    f^{-1}(y) = \dfrac{y - 5}{2} \\\\
+    \end{cases}
+$
+<br><br>
+$
+    \begin{cases}
+    f^{-1} : \mathbb{R} \to \mathbb{R} \\\\
+     f^{-1}(t) = \dfrac{t - 5}{2} \\\\
+    \end{cases}
+$
+<br><br>
+$
+    \begin{cases}
+    f^{-1} : \mathbb{R} \to \mathbb{R} \\\\
+    \text{.............} \\\\
+    \end{cases}
+    $
+    </p>
+</div>
+
+
+
+<br><br>
+
+<p class="MsoNormal">
+    آنچه که اهمیت دارد این است که دامنه $f^{-1}$ همان برد $f$ است. بنابراین یک نمایش مناسب برای $f^{-1}$ به‌صورت زیر است:
+    </p>
+    <br>
+    <p class="MsoNormal">
+    $$
+    
+    \begin{cases}
+    f^{-1} : \mathbb{R} \to \mathbb{R} \\\\
+    f^{-1} (x) = \dfrac{x - 5}{2} \\\\
+    \end{cases}
+    $$
+    </p>
+    
+
+<br><hr><br>
+
+
+<p class="MsoNormal">
+    برای به‌دست آوردن ضابطهٔ تابع وارون یک تابع یک به یک مانند $f$، در معادله $y = f(x)$ در صورت امکان $x$ را برحسب $y$ محاسبه می‌کنیم، سپس با تبدیل $y$ به $x$، $f^{-1}(x)$ را به‌دست می‌آوریم.
+    </p>
+    
+
+    <br>
+    <br>
+
+
+
+
+
+    <p class="MsoNormal">
+        عملیات به‌دست آوردن $f^{-1}$ را به کمک نمودارهای صفحه قبل توضیح دهید.
+        </p>
+        <br>
+        <p class="MsoNormal">
+        $$
+        \begin{align*}
+        f(x) = 2x + 5 &\implies y = 2x + 5 \\\\
+        &\implies 2x = y - 5 \\\\
+        &\implies x = \dfrac{y - 5}{2} \\\\
+        &\implies f^{-1}(y) = \dfrac{y - 5}{2} \\\\
+        &\implies f^{-1}(x) = \dfrac{x - 5}{2}
+        \end{align*}
+        $$
+        </p>
+        
+<br><hr><br>
+
+        <p class="MsoStep">کار در کلاس</p>
+        
+        <p class="MsoNormal">
+        ۱) با توجه به فعالیت قبل اگر داشته باشیم $f(x) = 2x + 5$، نمودار $f$ و $f^{-1}$ را در یک دستگاه مختصات رسم کنید.
+        </p>
+        
+
+        <br><br>
+
+
+        <p class="MsoNormal">
+            ۲) اگر داشته باشیم $f(x) = \sqrt{x - 4}$، دامنه و برد $f$ را به‌دست آورید و نمودار آن را رسم کنید.
+            </p>
+            <br>
+            <p class="MsoNormal">
+            در معادله $y = \sqrt{x - 4}$، ضابطهٔ $f^{-1}$ را بنویسید. نمودار $f^{-1}$ را رسم و دامنه و برد $f^{-1}$ را معلوم کنید.
+            </p>
+            
+
+
+            <br><hr><br>
+
+            <p class="MsoNormal">
+                اگر $f$ یک تابع یک به یک باشد، برای به‌دست آوردن نمودار تابع $f^{-1}$ کافی است قرینهٔ نمودار تابع $f$ را نسبت به خط $y = x$ (نیم‌ساز ربع اول و سوم) به‌دست آوریم.
+                </p>
+
+                
+                <br><hr><br>
+
+
+                <p class="MsoStep">کار در کلاس</p>
+          
+                <p class="MsoNormal">
+                نمودار (تابع و وارون) هر کدام از تابع‌های زیر را که یک به یک است در همان دستگاه مختصات رسم کنید.
+                </p>
+                
+
+                <br>
+
+        <p class="MsoNormal">
+            اگر تابعی یک به یک نباشد وارون‌پذیر هم نیست. اما گاهی با محدود کردن دامنه یک تابع، می‌توان تابعی یک به یک به‌دست آورد. به‌طور مثال تابع $f(x) = x^2$ یک به یک نیست، ولی با محدود کردن تابع به بازهٔ $[0, \infty)$ و یا $(-\infty, 0]$، تابعی یک به یک به‌دست می‌آید.
+            </p>
+            
+
+
+            <br><br>
+
+
+
+            <p class="MsoNormal">
+               <b> مثال:</b>
+                 نمودار تابع $g(x) = x^2 - 2x + 3$ نشان می‌دهد که این تابع یک به یک نیست. به‌طور مثال $g(0) = g(2)$. می‌توان دامنه این تابع را محدود کرد و تابعی یک به یک به‌دست آورد و سپس وارون آن را حساب کرد.
+                </p>
+                <br>
+                <p class="MsoNormal">
+                در مورد تابع $g$ داریم:
+                
+            
+                </p>
+                        <br>
+<p class="MsoNormal" style="text-align: left; direction: ltr;">
+    $
+    g: \mathbb{R} \to \mathbb{R} \qquad D_g = \mathbb{R} \ \quad  \text{و} \ \quad R_g = [2, \infty) \\\\
+    $
+    <br>
+    $
+    g(x) = x^2 - 2x + 3 = (x - 1)^2 + 2
+    $
+</p>
+
+
+<br>
+
+<p class="MsoNormal">
+    دامنه $f$ را به بازهٔ $[1, +\infty)$ محدود می‌کنیم و تابع جدید را $f'$ می‌نامیم. بنابراین تابع جدید به‌صورت زیر خواهد بود که تابعی یک به یک و وارون‌پذیر است.
+    </p>
+    <br>
+    <p class="MsoNormal">
+        $$
+        \begin{cases}
+        f: [1, +\infty) \to \mathbb{R} \\\\
+        f(x) = (x - 1)^2 + 2 \\\\
+        \end{cases}
+        $$
+        </p>
+    <p class="MsoNormal">
+    $$
+    D_{f} = [1, +\infty) \quad , \quad R_{j} = [2, +\infty)
+    $$
+    </p>
+    
+<br>
+    <p class="MsoNormal">
+        اکنون سعی می‌کنیم $x$ را برحسب $y$ به‌دست آوریم:
+        </p>
+        <br>
+        <p class="MsoNormal">
+            $$
+            \begin{align*}
+            y &= (x - 1)^2 + 2 \\ \\
+            y - 2 &= (x - 1)^2 \\\\
+            (x-1)^2 & = y -2 \\\\
+            x - 1 &=  \pm \sqrt{y - 2} \\\\
+            \end{align*}
+            $$
+        </p>
+
+    <p class="MsoNormal">
+        جواب منفی قابل قبول نیست (چرا؟) بنابراین:
+        </p>
+        <br>
+        <p class="MsoNormal">
+            $$
+            \begin{align*}
+            x - 1 &= \sqrt{y - 2} \\\\
+            x &= \sqrt{y - 2} + 1 \\\\
+            f^{-1}(x) &= \sqrt{x - 2} + 1
+            \end{align*}
+            $$
+
+            </p>
+            <br>
+        
+<p class="MsoNormal">در حقیقت داریم:</p>
+
+<p class="MsoNormal">
+    $$\begin{cases} 
+    f^{-1} : [2, \infty) \to \mathbb{R} \\\\
+    f^{-1}(x) = \sqrt{x - 2} + 1  \\\\
+    \end{cases}$$
+</p>
+
+<p class="MsoNormal">
+    $$D_{f^{-1}} = [2, +\infty) \qquad R_{f^{-1}} = [1, +\infty)$$
+</p>
+
+<br>
+
+<p class="MsoNormal">نمودار $f$ و $f^{-1}$ در یک دستگاه مختصات رسم شده‌اند.</p>
+
+
+<br><hr><br>
+
+<p class="MsoStep">تمرین</p>
+
+<p class="MsoNormal">۱. تابعی از دنیای واقعی مثال بزنید که یک‌به‌یک نباشد.</p>
+
+<br><br>
+<p class="MsoNormal">
+    ۲. آیا تابع $f(x) = \dfrac{2}{5}$ وارون تابع $g(x) = \dfrac{5}{2}$ است؟
+</p>
+<br><br>
+<p class="MsoNormal">
+    ۳. به کمک رسم نمودار وارون‌پذیری توابع زیر را بررسی کنید و ضابطه تابع وارون را برای هر کدام که وارون‌پذیرند، به‌دست آورید:
+</p>
+
+
+  <div class="MsoNormal" style="text-align:left;direction: ltr;">
+
+<br>
+    <p class="MsoNormal">الف) $f(x) = (x+5)^2  \quad , \quad x \geq -5$</p>
+    <br>
+    <p class="MsoNormal">ب) $f(x) = - \ \big| \ x-1 \ \big| \ +1 \quad , \quad x \geq 2$</p>
+    <br>
+    <p class="MsoNormal">پ) $f(x) = (x-3)^2$</p>
+    <br>
+    <p class="MsoNormal">ت) $f(x) = \sqrt{x+2} - 3$</p>
+
+
+  </div>
+
+<br><br>
+<p class="MsoNormal">
+    ۴. اگر سنگی از ارتفاع $100$ متری سقوط کند، ارتفاع آن ($h$  برحسب متر) بعد از $t$ ثانیه از رابطهٔ 
+    $h(t) = 100 - 5t^2$
+    به‌دست می‌آید.
+</p>
+<br>
+<p class="MsoNormal">الف) دامنه و برد $h$ را به‌دست آورید.</p>
+<br>
+<p class="MsoNormal">ب) چرا $h$ تابعی یک‌به‌یک است؟</p>
+<br>
+<p class="MsoNormal">پ) تابع وارون $h$ را به‌دست آورید.</p>
+
+
+<br><br>
+
+<p class="MsoNormal">
+    ۵. نمودار تابعی مانند $f$ را رسم کنید که وارون‌پذیر نباشد و برای هر عدد حقیقی 
+    $x < f(x) \ ، \ x$.
+</p>
+<br><br>
+<p class="MsoNormal">
+    ۶. وارون تابع $f(x) = -\dfrac{1}{2}x + 3$ را بیابید و نمودار $f$ و وارون آن را رسم کنید.
+</p>
+
+
+
+
+
+
+
+
+    <br><br> <br><br><br><br>
+
+</body>
+
+
+</html>

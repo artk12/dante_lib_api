@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: "Nastaliq";
+            src: url('nas.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+      
+        li.MsoNormal,
+        div.MsoNormal,
+        ul.MsoNormal,
+        ol.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+            
+        }
+        p.MsoNas
+         {
+            margin: 0.5em;
+            
+            font-size: clamp(1.5rem, 1.7vw, 2rem);
+            font-family: "Nastaliq";
+            line-height: 2.3em;
+            color: #dcd7e0;
+            text-align: center;
+         letter-spacing: 0em;
+         word-spacing: 0.4em;
+            
+        }
+        p.MsoNormal
+         {
+            margin: 0in;
+           
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-indent: 1em;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi, b {
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSemic,
+        li.MsoSemic,
+        div.MsoSemic {
+            margin: 0in;
+           
+            font-size: clamp(1.2rem, 1.6vw, 1.3rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #b19af2;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #6ca4ec;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+        span.uline{
+            border-bottom: 0.1em solid #64E9E1;
+        }
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .boxp {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .boxg {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#00f2ff11; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        .boxb {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#0c4e9f2d; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        ::selection {
+            background-color: #59078fa1; /* Change this to your desired highlight color */
+            color: #ffffff; /* Change this to your desired text color */
+          }
+
+
+          mark{
+            background-color:#078b8fa1 ;
+            color: #ffffff;
+            padding: 0 7px;
+        }
+
+        .hlg { background-color: rgba(0, 234, 255, 0.334);  }
+        .hlp { background-color:#5f1487; }
+      
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+    <body class="custom-scrollbar">
+
+
+
+
+        <p class="MsoBold">گفتار ۲: تغییر در جمعیت‌ها</p>
+
+        <p class="MsoNormal">بعد از کشف پادزیست (آنتی‌بیوتیک)ها در نیمه قرن گذشته، آدمی به یکی از کارآمدترین ابزارهای دفاعی در برابر باکتری‌های بیماری‌زا مجهز شد و توانست در نبرد با آن‌ها پیروز شود. با این وجود، مدتی است که از گوشه و کنار دنیا خبر می‌رسد باکتری‌ها نسبت به پادزیست‌ها مقاوم شده‌اند. گرچه دانشمندان با طراحی داروهای جدید، برتری انسان را در این نبرد همچنان حفظ کرده‌اند اما در عین حال، روند مقاوم شدن باکتری‌ها آدمی را سخت نگران کرده است. مقاوم شدن باکتری‌ها نسبت به داروها، یکی از مثال‌هایی است که نشان می‌دهد «موجودات زنده می‌توانند در گذر زمان تغییر کنند». این تغییر چگونه رخ می‌دهد؟</p>
+        
+        <br>
+
+
+        <p class="MsoStep">تغییر در گذر زمان</p>
+        
+        <p class="MsoNormal">به انسان‌های اطراف خود نگاه کنید. همهٔ انسان‌ها ویژگی‌های مشترکی دارند که باعث می‌شود آنان را در گروهی به نام «انسان‌ها» قرار دهیم. در عین حال، در میان انسان‌ها «تفاوت‌های فردی» نیز وجود دارد که باعث شناخت آن‌ها از یکدیگر می‌شود. تفاوت‌های فردی منحصر به انسان نیست. در میان افراد گونه‌های دیگر هم تفاوت‌های فردی مشاهده می‌شود.</p>
+        
+        <p class="MsoNormal">تفاوت‌های فردی چگونه می‌تواند در پایداری گونه مؤثر باشد؟ این سؤال را با ذکر مثالی پاسخ می‌دهیم. فرض کنید در نوعی از جانوران، افراد تحمل متفاوتی نسبت به سرما دارند؛ یعنی بعضی‌ها می‌توانند سرما را تحمل کنند. اگر سرمای شدیدی رخ دهد، آن‌ها که سرما را تحمل می‌کنند شانس بیشتری برای زنده ماندن دارند. بنابراین، این افراد، بیشتر از دیگران تولیدمثل می‌کنند و در نتیجه صفت تحمل سرما، بیش از گذشته، به نسل بعد منتقل می‌شود. اگر سرما همچنان ادامه یابد، باز هم آن‌ها که سرما را تحمل می‌کنند، شانس بیشتری برای تولیدمثل و انتقال صفت به نسل‌های بعد را خواهند داشت.</p>
+        
+        <p class="MsoNormal">بنابراین، بعد از مدتی با جمعیتی روبه‌رو خواهیم شد که در آن، تعداد افرادی که سرما را تحمل می‌کنند در مقایسه با جمعیت اول، بیشتر است و این یعنی تغییر در جمعیت.</p>
+        
+        <p class="MsoNormal">مثال ساده‌ای که در بالا عنوان شد، نشان می‌دهد که برای تغییر، شرایطی لازم است. یکی از این شرایط، وجود تفاوت‌های فردی است. وقتی تفاوت فردی هست، این سؤال پیش می‌آید که کدام تفاوت‌ها بهترند. در مثال ما، آن‌ها که سرما را تحمل می‌کردند، در مقایسه با بقیه، شانس بیشتری برای زنده ماندن داشتند. با کمی دقت متوجه می‌شویم که این «بهتر» بودن یک صفت همیشگی نیست؛ بلکه شرایط محیط تعیین‌کنندهٔ صفات بهتر است. اگر هوا به جای سرد شدن گرم می‌شد، آن‌گاه افراد دیگری شانس زنده ماندن داشتند.</p>
+        
+        <p class="MsoNormal">بنابراین، زیست‌شناسان از واژهٔ «صفت بهتر» استفاده نمی‌کنند بلکه به جای آن می‌گویند «صفت سازگارتر با محیط». به روشنی دیده می‌شود این، «محیط» است که تعیین می‌کند کدام صفات با فراوانی بیشتری به نسل بعد منتقل شوند. این فرایند را که در آن افراد سازگارتر با محیط انتخاب می‌شوند، یعنی آن‌هایی که شانس بیشتری برای زنده ماندن و تولیدمثل دارند، انتخاب طبیعی می‌نامند.</p>
+        
+<br>
+
+<p class="MsoNormal">انتخاب طبیعی می‌تواند علت مقاوم شدن باکتری‌ها به پادزیست‌ها را نیز توضیح دهد (شکل ۶). در این مثال باکتری‌های غیرمقاوم از بین می‌روند و باکتری‌های مقاوم تکثیر می‌شوند و به تدریج همهٔ جمعیت را به خود اختصاص می‌دهند؛ در نتیجه جمعیت از غیرمقاوم به مقاوم تغییر می‌یابد.</p>
+
+<p class="MsoNormal">وقتی از تفاوت‌های فردی سخن می‌گوییم در واقع در حال بررسی جمعیتی از افراد هستیم نه یک فرد. انتخاب طبیعی «جمعیت» را تغییر می‌دهد نه «فرد» را. جمعیت، به افرادی گفته می‌شود که به یک گونه تعلق دارند و در یک زمان و مکان زندگی می‌کنند.</p>
+
+
+<br>
+
+
+<p class="MsoStep">بیشتر بدانید</p>
+
+<p class="MsoNormal">ابوریحان بیرونی، در کتاب تحقیق ماللهند، نخستین دانشمندی است که تغییر گونه‌ها را توصیف می‌کند. چارلز داروین (Charles Robert Darwin) و آلفرد والاس (Alfred Russel Wallace) مستقل از یکدیگر سازوکار انتخاب طبیعی را برای تغییر گونه‌ها ارائه کردند.</p>
+
+
+<br>
+
+
+
+<p class="MsoStep">خزانهٔ ژن</p>
+
+<p class="MsoNormal">قبل از کشف مفاهیم پایهٔ ژنتیک، زیست‌شناسان جمعیت را بر اساس صفات ظاهری توصیف می‌کردند. مثل گوناگونی رنگ بدن در یک جمعیت جانوری یا گوناگونی رنگ گلبرگ در یک جمعیت گیاهی. با شناخت ژن‌ها، این امکان فراهم شد که زیست‌شناسان، جمعیت را بر اساس ژن‌های آن توصیف کنند. مجموع همهٔ دگره‌های موجود در همهٔ جایگاه‌های ژنی افراد یک جمعیت را خزانۀ ژن آن جمعیت می‌نامند.</p>
+
+
+<br>
+
+
+<p class="MsoStep">تعادل در جمعیت</p>
+
+<p class="MsoNormal">اگر در جمعیتی فراوانی نسبی دگره‌ها یا ژن‌نمودها از نسلی به نسل دیگر ثابت باشد، آن‌گاه می‌گویند جمعیت در حال تعادل ژنی است. تا وقتی جمعیت در حال تعادل است، تغییر در آن، مورد انتظار نیست. اگر جمعیت از تعادل خارج شود، روند تغییر را در پیش گرفته است. عوامل زیر باعث می‌شوند جمعیت از حال تعادل خارج شود.</p>
+<br>
+<p class="MsoNormal">
+<b>    الف) جهش:</b>
+     یک باکتری را در نظر بگیرید که هر ۲۰ دقیقه تقسیم می‌شود. اگر جهش رخ دهد، آن‌گاه دگره‌های جدیدی ایجاد می‌شوند که این یعنی تغییر در فراوانی نسبی دگره‌ها. جهش، با افزودن دگره‌های جدید، خزانۀ ژن را غنی‌تر می‌کند و گوناگونی را افزایش می‌دهد. بسیاری از جهش‌ها تأثیری فوری بر رخ‌نمود ندارند و بنابراین ممکن است تشخیص داده نشوند. اما با تغییر شرایط محیط ممکن است دگرهٔ جدید، سازگارتر از دگره یا دگره‌های قبلی عمل کند.</p>
+<br>
+<p class="MsoNormal">
+    <b>ب) رانش دگره‌ای: </b>
+    فرض کنید گله‌ای شامل ۱۰۰ گوسفند در حال عبور از ارتفاعات است. حین عبور، تعدادی گوسفند به پایین سقوط می‌کنند و می‌میرند. اگر این گوسفندان زاده‌ای نداشته باشند، شانس انتقال ژن‌های خود به نسل بعد را از دست داده‌اند. به فرایندی که باعث تغییر فراوانی دگره‌ای بر اثر رویدادهای تصادفی می‌شود، رانش دگره‌ای می‌گویند. رانش دگره‌ای گرچه فراوانی دگره‌ها را تغییر می‌دهد اما برخلاف انتخاب طبیعی به سازش نمی‌انجامد.</p>
+
+<p class="MsoNormal">به مثال دیگری توجه کنید. گاهی در حوادثی نظیر سیل، زلزله، آتش‌سوزی و نظایر آن، تعداد آن‌هایی که می‌میرند ممکن است بیش از آن‌هایی باشند که زنده می‌مانند. بنابراین فقط بخشی از دگره‌های جمعیت بزرگ اولیه به جمعیت کوچک باقی‌مانده خواهد رسید و جمعیت آینده از همین دگره‌های برجای مانده تشکیل خواهند شد (شکل ۷). در این صورت نیز فراوانی دگره‌ها تغییر می‌کند اما این تغییر در فراوانی، ارتباطی با سازگاری آن‌ها با محیط و انتخاب طبیعی ندارد.</p>
+
+<p class="MsoNormal">هرچه اندازهٔ یک جمعیت کوچک‌تر باشد، رانش دگره‌ای اثر بیشتری دارد. به همین علت، برای آن‌که جمعیتی در تعادل باشد، باید اندازهٔ بزرگی داشته باشد. منظور از اندازهٔ جمعیت، تعداد افراد آن است.</p>
+
+<p class="MsoNormal">
+    <b>پ) شارش ژن:</b>
+    وقتی افرادی از یک جمعیت به جمعیت دیگری مهاجرت می‌کنند، در واقع تعدادی از دگره‌های جمعیت مبدأ را به جمعیت مقصد وارد می‌کنند و سبب تغییر در فراوانی نسبی دگره‌های هر دو جمعیت می‌شود. به این پدیده، شارش ژن می‌گویند. اگر بین دو جمعیت، شارش ژن به‌طور پیوسته و دوسویه ادامه یابد، سرانجام خزانۀ ژن دو جمعیت به هم شبیه می‌شود.</p>
+<br>
+<p class="MsoNormal">
+    <b>ت) آمیزش غیرتصادفی: </b>
+    برای آن‌که جمعیتی در حال تعادل باشد، لازم است آمیزش‌ها در آن تصادفی باشند. آمیزش تصادفی آمیزشی است که در آن احتمال آمیزش هر فرد با افراد جنس دیگر در آن جمعیت یکسان باشد. اگر آمیزش‌ها به رخ‌نمود یا ژن‌نمود بستگی داشته باشد دیگر تصادفی نیست و فراوانی نسبی ژن‌نمودها را تغییر می‌دهد. برای مثال، جانوران جفت خود را بر اساس ویژگی‌های ظاهری و رفتاری «انتخاب» می‌کنند (فصل ۸).</p>
+<br>
+<p class="MsoNormal">
+<b>    ث) انتخاب طبیعی: </b>
+    انتخاب طبیعی فراوانی دگره‌ها را در خزانۀ ژنی تغییر می‌دهد. انتخاب طبیعی افراد سازگارتر با محیط را برمی‌گزیند و از فراوانی دیگر افراد می‌کاهد. به این ترتیب، خزانۀ ژن نسل آینده دستخوش تغییر می‌شود. در مثال ابتدای این گفتار، دیدیم که چگونه در نتیجهٔ انتخاب طبیعی، بعضی از باکتری‌ها نسبت به تغییر شرایط (حضور پادزیست‌ها) سازش پیدا کرده‌اند.</p>
+
+
+    <br>
+
+    <p class="MsoStep">تداوم گوناگونی در جمعیت‌ها</p>
+
+<p class="MsoNormal">دانستیم که نتیجۀ انتخاب طبیعی، سازگاری بیشتر جمعیت با محیط است. با انتخاب شدن افراد سازگارتر، تفاوت‌های فردی و در نتیجه گوناگونی کاهش می‌یابد. از سوی دیگر، دیدیم که گوناگونی در میان افراد یک جمعیت، توانایی بقای جمعیت را در شرایط محیطی جدید بالا می‌برد. از این رو به سازوکارهایی نیاز است که با وجود انتخاب طبیعی، گوناگونی تداوم داشته باشد. در ادامه، این سازوکارها را بررسی می‌کنیم.</p>
+<br>
+<p class="MsoNormal">
+    
+    <b>الف) گوناگونی دگره‌ای در گامت‌ها: </b>
+    در تولیدمثل جنسی، هر والد از طریق گامت‌هایی که می‌سازد، نیمی از فام‌تن‌های خود را به نسل بعد منتقل می‌کند. اینکه هر گامت کدام‌یک از فام‌تن‌ها را منتقل می‌کند به آرایش چهار‌تایه‌ها (تترادها) در کاستمان ۱ بستگی دارد. در متافاز کاستمان ۱، فام‌تن‌ها با آرایش‌های مختلفی ممکن است در سطح میانی یاخته قرار گیرند که به ایجاد گامت‌های مختلف می‌انجامد. در شکل ۸ نحوهٔ توزیع فام‌تن‌ها طی کاستمان نشان داده شده است.</p>
+<br>
+<p class="MsoNormal">
+    <b>ب) نوترکیبی:</b>
+     در کاستمان ۱، هنگام جفت شدن فام‌تن‌های همتا و ایجاد چهارتایه، ممکن است قطعه‌ای از فام‌تن بین فامینک‌های غیرخواهری مبادله شود. این پدیده را چلیپایی شدن (کراسینگ‌اور) می‌گویند. اگر قطعات مبادله‌شده حاوی دگره‌های متفاوتی باشند، ترکیب جدیدی از دگره‌ها در این دو فامینک به‌وجود می‌آید و به آن‌ها فامینک‌های نوترکیب می‌گویند. از میان گامت‌ها، آن‌هایی که فامینک‌های نوترکیب را دریافت می‌کنند، گامت نوترکیب نامیده می‌شوند (شکل ۹).</p>
+<br>
+<p class="MsoNormal">
+    <b>پ) اهمیت ناخالص‌ها:</b>
+     اهمیت ناخالص‌ها در تداوم گوناگونی را می‌توان به‌وسیلهٔ بیماری کم‌خونی ناشی از گویچه‌های قرمز داسی‌شکل نیز نشان داد. افراد مبتلا به بیماری گویچه‌های قرمز داسی‌شکل، ژن‌نمود \( Hb^S Hb^S \) دارند و در سنین پایین معمولاً می‌میرند. ژن‌نمود ناخالص‌ها \( Hb^A Hb^S \) است و وضع بهتری دارند. گویچه‌های قرمز آن‌ها فقط هنگامی داسی‌شکل می‌شوند که مقدار اکسیژن محیط کم باشد.</p>
+
+<p class="MsoNormal">ژن‌شناسان با مطالعهٔ توزیع این بیماری در جهان دریافته‌اند که فراوانی دگرهٔ \( Hb^S \) در مناطقی که مالاریا شایع است، بسیار بیشتر از سایر مناطق است. بیماری مالاریا به‌وسیلهٔ نوعی انگل تک‌یاخته‌ای ایجاد می‌شود که بخشی از چرخهٔ زندگی خود را در گویچه‌های قرمز می‌گذراند. افرادی که گویچهٔ سالم دارند، یعنی \( Hb^A Hb^A \) هستند، در معرض خطر ابتلا به مالاریا قرار دارند. این انگل نمی‌تواند در افراد 
+    \( Hb^{S} Hb^{S} \) 
+    سبب بیماری شود، پس افراد \( Hb^A Hb^S \) در برابر مالاریا مقاوم‌اند. بنابراین، وجود دگرهٔ \( Hb^A Hb^S \) در این منطقه باعث بقای جمعیت می‌شود؛ حال آن‌که این دگره در سایر مناطق، دگرهٔ مناسبی نیست.</p>
+
+<p class="MsoNormal">این مثال، مثال خوبی است که نشان می‌دهد شرایط محیط، تعیین‌کنندهٔ صفتی است که حفظ می‌شود.</p>
+
+
+<br>
+<br>
+
+
+<p class="MsoStep">بیشتر بدانید</p>
+
+<p class="MsoNormal">نقشهٔ پراکنش جغرافیایی انگل مالاریا و بیماری کم‌خونی ناشی از گویچه‌های قرمز داسی‌شکل در آفریقا.</p>
+
+    
+
+
+<br><br><br><br><br>
+
+
+    </body>
+
+
+</html>

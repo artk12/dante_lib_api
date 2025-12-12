@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 900px;
+            margin: auto;
+            font-size: clamp(1rem, 2.5vw, 2rem);
+        }
+
+        span {
+            font-size: clamp(1rem, 2.4vw, 2rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 2.5vw, 2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.5rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.1rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #87a5ff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+
+        .images {
+            width: -webkit-fill-available;
+            display: block;
+            max-width: 80%;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+    </style>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+<body>
+    <div class="WordSection1">
+        <p class="MsoBold">فصل 1: جغرافیا چیست؟</p>
+        
+        
+        
+        <p class="MsoNormal">
+            جغرافیا علم بررسی روابط متقابل انسان و محیط طبیعی برای بهبود زندگی بشر است. شما در این درس با چرایی جغرافیا و روش مطالعه در آن آشنا
+            می‌شوید.
+        </p>
+        
+<br><br>
+        <p class="MsoBold">درس اول: جغرافیا، علمی برای زندگی بهتر</p>
+        <p class="MsoNormal">
+            طی سال‌های گذشته، مطالبی دربارهٔ محیط پیرامون خود و سایر مکان‌ها خوانده‌اید. اطلاعات مربوط به کرهٔ زمین، مانند زیستگاه‌های مختلف، آب و هوا، رودها و کوه‌ها و حتی مسائل مربوط به آداب و رسوم و سنت‌ها به ما کمک می‌کند که دانش ما از محیط پیرامون و سایر مکان‌ها افزایش یابد. آیا شناخت محیط در جهت بهبود کیفیت زندگی انسان نقشی داشته است؟
+        </p>
+        <br><br>
+        <p class="MsoNormal">
+            انسان در طول تاریخ تلاش کرده است که ناشناخته‌های جهان هستی را معلوم و با استفاده از علوم مختلف، وضع زندگی خود را بهبود بخشد. «جغرافیا» یکی از قدیمی‌ترین دانش‌های بشری به شمار می‌رود.
+        </p>
+        <br><br>
+        <p class="MsoNormal">
+            واژهٔ جغرافیا، که برای اولین بار توسط اراتوستن دانشمند یونانی ارائه شد، شامل کلمات GEO (زمین) و GRAPHY (ترسیم و توصیف) است. او جغرافیا را «علم مطالعهٔ زمین به عنوان جایگاه انسان» تعریف می‌کند.
+        </p>
+        <br><br>
+        <p class="MsoNormal">
+            امروزه بسیاری از جغرافیدانان اعتقاد دارند که جغرافیا آن قسمت از دانش بشری است که به انسان کمک می‌کند با ویژگی‌های طبیعی و انسانی و روابط بین آنها در محیط آشنا شود و از آنها در جهت بهبود زندگی خویش استفاده کند. بین جغرافیا و سایر رشته‌ها ارتباط وجود دارد. جغرافیا با کمک گرفتن از سایر علوم به سؤالات خود پاسخ می‌دهد.
+        </p>
+        <br><br>
+        <p class="MsoNormal">
+            <img src="shushtar_water_structures.jpg" alt="سازه‌های آبی شوشتر" class="images">
+            شکل1: سازه‌های آبی شوشتر (استان خوزستان) از بزرگترین مجموعه‌های صنعتی شناخته شده در عصر پیش از انقلاب صنعتی در جهان است و از سوی سازمان یونسکو (شاهکار نبوغ و خلاقیت) نامیده شده است.
+        </p>
+        <br><br>
+        <p class="MsoNormal">
+            <img src="relationship_between_geography_and_other_sciences.jpg" alt="ارتباط بین علوم و فنون مختلف جغرافیا و شاخه‌های آن" class="images">
+            شکل2: ارتباط بین علوم و فنون مختلف جغرافیا و شاخه‌های آن
+        </p>
+        <br><br>
+        <p class="MsoNormal">
+            مثال‌های زیر برای درک بهتر این مطلب ارائه شده‌اند: <br><br>
+            مثال: «با افزایش ارتفاع دما کاهش می‌یابد» یک اصل هواشناسی است ولی بررسی تأثیر این رابطه بر مکان و زندگی انسان نظیر: نوع مصالح ساختمانی، منابع آب، فعالیت اقتصادی، جاذبه‌های گردشگری و ... در حوزهٔ آب و هواشناسی است. <br><br>
+            مثال: علم اقتصاد تولید، توزیع و مصرف کالاها و خدمات، نظام‌های اقتصادی و عرضه و تقاضا را مطالعه می‌کند و جغرافیای اقتصادی به چگونگی معیشت گروه‌های انسانی در مکان‌های مختلف در رابطه با محیط زندگی‌شان می‌پردازد فرضاً چگونه منابع معدنی یک ناحیه در شکل‌گیری شهرهای صنعتی تأثیر دارد؟ <br><br>
+            مثال: «با افزایش ارتفاع دما کاهش می‌یابد» یک اصل هواشناسی است ولی بررسی تأثیر این رابطه بر مکان و زندگی انسان نظیر: نوع مصالح ساختمانی، منابع آب، فعالیت اقتصادی، جاذبه‌های گردشگری و ... در حوزهٔ آب و هواشناسی است. <br><br>
+            مثال: جغرافیدان جهت جمع‌آوری و تجزیه و تحلیل اطلاعات مورد نیاز خود از علم آمار و فناوری اطلاعات و ارتباطات کمک گرفته و با استفاده از سخت‌افزار و نرم‌افزارهای متعدد در زمان کوتاه و با دقت زیاد به سؤالات تحقیق خود پاسخ می‌دهد. بنابراین علم جغرافیا از یافته‌های علوم دیگر استفاده کرده و با یک دید همه‌جانبه بررسی‌ها و مطالعات خود را در مورد پراکندگی پدیده‌ها و روابط بین آنها انجام می‌دهد. البته این رابطهٔ بین جغرافیا با سایر علوم دو سویه بوده و در یک جریان دو طرفه از داده‌ها و یافته‌های یکدیگر استفاده می‌نمایند. <br><br>
+        </p>
+        
+        
+        <br><br>
+        <p class="MsoStep">مفاهیم اساسی دانش جغرافیا</p>
+        
+        <p class="MsoNormal">
+            اطلاع از مفاهیم پایه‌ای هر علم برای درک آن لازم و ضروری است؛ به همین دلیل با برخی از مهم‌ترین مفاهیم جغرافیا آشنا می‌شویم.
+        </p>
+        <br><br>
+        <p class="MsoNormal">
+            1. مکان: بسیاری از فعالیت‌های انسان در محل معینی انجام می‌شود که آن را مکان می‌نامند؛ به طور مثال: خانه، مزرعه، مدرسه و کارخانه. پدیده به یک واقعیت یا رویداد جغرافیایی که محسوس و مشهود شده باشد گفته می‌شود که می‌تواند عوارض طبیعی یا انسان ساخت باشد.
+        </p>
+        <br><br>
+        <p class="MsoNormal">
+            <img src="azadi_square_1986.jpg" alt="میدان آزادی ـ تهران 1365" class="images">
+            شکل3: میدان آزادی ـ تهران 1365
+        </p>
+        <br><br>
+        <p class="MsoNormal">
+            <img src="azadi_square_2016.jpg" alt="میدان آزادی ـ تهران 1395" class="images">
+            شکل4: میدان آزادی ـ تهران 1395
+        </p>
+        <br><br>
+        <p class="MsoNormal">
+            2. روابط متقابل انسان با محیط: انسان و محیط دو عامل مهم در علم جغرافیا است. محیط طبیعی، مجموعه‌ای متعادل است. با ورود انسان، زمینه‌های تغییر در محیط فراهم می‌شود. هوش و استعداد انسان به او در جهت تغییر کمک می‌کند تا از محیط خود بهره‌مند شود. در دهه‌های اخیر، فناوری به کمک انسان آمده و سبب شده است که انسان در محیط، تأثیر بسیاری بگذارد. فناوری‌های جدید، انسان را قادر به بهره‌برداری از اعماق زمین کرده و میزان دسترسی انسان را گسترش داده است.
+        </p>
+        <br><br>
+        <p class="MsoNormal">
+            <img src="abarkuh_windcatcher.jpg" alt="بادگیر دوطبقه ابرکوه ـ استان یزد" class="images">
+            شکل5: بادگیر دوطبقه ابرکوه ـ استان یزد
+        </p>
+        <br><br>
+        <p class="MsoNormal">
+            محیط جغرافیایی از تعامل بین محیط طبیعی و محیط انسانی به وجود می‌آید.
+        </p>
+        <br><br>
+        <p class="MsoNormal">
+            <img src="shah_abbasi_dam.jpg" alt="سد شاه عباسی" class="images">
+            شکل6: سد شاه عباسی (طبس، خراسان جنوبی) قدیمی‌ترین و بزرگترین سد قوسی جهان است که یکی از نمونه‌های عالی خلاقیت، دوراندیشی و سختکوشی ایرانیان است.
+        </p>
+        <br><br>
+        <p class="MsoNormal">
+            عملکرد انسان در ارتباط با محیط طبیعی به دو گونه است:
+        </p>
+        <br><br>
+        <p class="MsoNormal">
+             درک توان‌ها و استفاده از منابع برای رفع نیازها<br>
+             نگاه سودجویانه برای رسیدن به خواسته‌ها
+        </p>
+        <br><br>
+        <p class="MsoNormal">
+            <img src="deforestation.jpg" alt="قطع بی رویه درختان جنگل ـ مازندران" class="images">
+            شکل7: قطع بی رویه درختان جنگل ـ مازندران
+        </p>
+        <br><br>
+        <p class="MsoNormal">
+            <img src="tea_harvest.jpg" alt="کشاورزی و رفع نیازها ـ برداشت چای ـ لاهیجان ـ گیلان" class="images">
+            شکل8: کشاورزی و رفع نیازها ـ برداشت چای ـ لاهیجان ـ گیلان
+        </p>
+        <br><br>
+        <p class="MsoNormal">
+            به نظر شما کدام یک از این عملکردها تعادل محیط را در مدت طولانی حفظ می‌کند؟ از آنجا که جغرافیا روابط متقابل انسان را با محیط، مطالعه و بررسی می‌کند، بنابراین شناخت توان‌ها و ظرفیت‌های محیطی بدون دانش جغرافیا ممکن نیست؛ پس جغرافیا علمی برای زندگی بهتر است.
+        </p>
+        <br><br>
+        
+        
+        <p class="MsoStep">کل‌نگری یا دید ترکیبی در جغرافیا</p>
+        
+        <p class="MsoNormal">
+            چگونگی شکل‌گیری محیط‌های جغرافیایی، که حاصل روابط متقابل انسان و محیط است، سبب می‌شود جغرافیدان با دید ترکیبی یا کل‌نگری، موضوعات را مطالعه و بررسی کند؛ زیرا اجزا و عوامل محیط جغرافیایی در ارتباط با یکدیگر عمل می‌کند.
+        </p>
+        
+        <p class="MsoNormal">
+            به طور مثال جغرافیدان با هدف توسعهٔ یک شهر، به مطالعهٔ همه‌جانبه می‌پردازد و این مسائل را طرح و مطالعه می‌کند.
+        </p>
+        
+        <p class="MsoNormal">
+            1. با تهیهٔ نقشهٔ شهر، امکان گسترش فیزیکی شهر را بررسی می‌کند. (نقشه‌خوانی).<br>
+            2. با مطالعهٔ بافت جمعیت شهر، میزان رشد آن و امکان مهاجرپذیری آن را حدس می‌زند (جغرافیای جمعیت).<br>
+            3. با مطالعهٔ میزان منابع آب شهر، امکان توسعهٔ شهر را پیش‌بینی می‌کند (جغرافیای آب‌ها).<br>
+            4. ........................................
+        </p>
+        <br><br>
+        <p class="MsoNormal">
+            <img src="palangan_village.jpg" alt="روستای پالنگان ـ کامیاران ـ کردستان" class="images">
+            شکل10: روستای پالنگان ـ کامیاران ـ کردستان
+        </p>
+    </div>
+</body>
+
+
+
+
+
+
+</html>

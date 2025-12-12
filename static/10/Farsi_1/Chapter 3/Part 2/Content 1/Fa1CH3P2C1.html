@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #badaff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #722a85;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background-color: #1abbbbe1; /* Scrollbar thumb color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color: #05ffe2;
+        }
+    </style>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+<body class="custom-scrollbar">
+
+
+    <div class="MsoBold">درس هفتم: جمال و کمال</div>
+  
+    <div class="MsoNormal">
+        بدان که قرآن مانند است به بهشت جاودان؛ در بهشت از هزارگونه نعمت است و در قرآن از هزارگونه پند و حکمت است. و مَثَل قرآن، مَثَل آب است روان؛ در آب، حیات تنها بود و در قرآن، حیات دل‌ها بود.
+    </div>
+   
+    
+    <br>
+    <div class="MsoNormal">
+        در قرآن، قصه‌ها بسیار است و لکن قصۀ یوسف نیکوترین قصه‌هاست. این قصه، عجب‌ترین قصه‌هاست؛ زیرا که در میان دو ضد جمع بود: هم فرقت بود و هم وصلت؛ هم محنت بود، هم شادی؛ هم راحت بود، هم آفت؛ هم وفا بود، هم جفا؛ در بدایت بند و چاه بود، در نهایت تخت و گاه بود؛ پس چون در او این چندین اندوه و طرب بود، در نهاد خود شگفت و عجب بود.
+    </div>
+    <br>
+    <div class="MsoNormal">
+        گفته‌اند «نیکوترین» از بهر آن بود که یوسف صدیق، وفادار بود و یعقوب خود او را به صبر آموزگار بود، و زلیخا در عشق و درد او بی‌قرار بود، و اندوه و شادی در این قصه بسیار بود، و خبردهنده از او، ملک جبّار بود. قصۀ حال یوسف را نیکو نه از حسن صورت او گفت، بلکه از حسن سیرت او گفت؛ زیرا که نیکوخو، بهتر هزار بار از نیکورو.
+    </div>
+    <br>
+    <div class="MsoNormal">
+        نبینی که یوسف را از روی نیکو، بند و زندان آمد و از خوی نیکو، امر و فرمان آمد؟ از روی نیکوش حبس و چاه آمد و از خوی نیکوش تخت و گاه آمد. پادشاه عالم، خبر که داد در این قصه، از حسن سیرت او داد، نه از حسن صورت او داد، تا اگر نتوانی که صورت خود را چون صورت او گردانی؛ باری، بتوانی که سیرت خود را چون سیرت او گردانی.
+    </div>
+    <br>
+    <div class="MsoNormal">
+        آن که گفتیم سیرتش نیکوترین سیرت‌ها بود، از بهر آن که در مقابلۀ جفا، وفا کرد و در مقابلۀ زشتی، آشتی کرد و در مقابلۀ لئیمی، کریمی کرد.
+    </div>
+    <br>
+    <div class="MsoNormal">
+        برادران یوسف، چون او را زیادت نعمت دیدند و یعقوب را بدو میل و عنایت دیدند، آهنگ کید و مکر و عداوت کردند تا مگر او را هلاک کنند و عالم از آثار وجود او پاک کنند. تدبیر برادران برخلاف تقدیر رحمان آمد. ملک تعالی او را دولت بر دولت زیادت کرد و مملکت و نبوت، زیادت بر زیادت کرد، تا عالمیان بدانند که هرگز کید کایدان با خواست خداوند غیب برابر نیاید!
+    </div>
+    <br>
+    <div class="MsoNormal">
+        تفسیر سورۀ یوسف، احمد بن محمّد بن زید طوسی
+    </div>
+    <br><hr><br>
+    <div class="MsoBold">کارگاه متن‌پژوهی</div>
+
+    <div class="MsoStep">قلمرو زبانی</div>
+
+    <div class="MsoNormal">
+        1- با توجه به متن درس، معادل معنایی کلمه‌های زیر را بنویسید:<br>
+        دولت (....................) کریمی (....................) لئیمی (....................)
+    </div>
+    <br><br>
+    <div class="MsoNormal">
+        2- کدام قسمت جملۀ زیر حذف شده است؟ نوع حذف را مشخص کنید.<br>
+        «نیکوخو، بهتر هزار بار از نیکورو.»
+    </div>
+    <br><br>
+    <div class="MsoNormal">
+        3- در فارسی معیار و رایج، برخی واژه‌ها به دو شکل تلفظ می‌شوند؛ نظیر «مهَربان، مهْربان». در گفتار عادی، از هر دو گونۀ تلفظی می‌توان استفاده کرد، امّا در شعر، با توجه به وزن و آهنگ، باید تلفظ مناسب را انتخاب کرد.<br>
+        در متن درس، واژه‌های دو تلفظی را بیابید.
+    </div>
+    <br><hr><br>
+    <div class="MsoStep">قلمرو ادبی</div>
+   
+    <div class="MsoNormal">
+        1- در بند پنجم (قصۀ حال یوسف...)، کدام نوع از روابط معنایی واژه‌ها، بر زیبایی سخن افزوده است؟
+    </div>
+    <br><br>
+    <div class="MsoNormal">
+        2- در جملۀ زیر، دو رکن اصلی تشبیه (مشبّه و مشبّه‌به) را مشخص کنید.<br>
+        «قرآن مانند است به بهشت جاودان.»
+    </div>
+    <br><br>
+    <div class="MsoNormal">
+        3- در عبارت زیر، کدام واژه‌ها «جناس» دارند؟<br>
+        «از روی نیکوش، حبس و چاه آمد و از خوی نیکوش تخت و گاه آمد.»
+    </div>
+    <br><br>
+    <div class="MsoNormal">
+        4- به واژه‌هایی که در پایان دو جمله بیایند و از نظر صامت و مصوت‌های پایانی، وزن یا هر دوی آن‌ها هماهنگ باشند، واژه‌های «مسجع» و به آهنگ برخاسته از آن‌ها «سجع» می‌گویند. نمونه:<br>
+        <br>
+        زمین را از آسمان نثار است و آسمان را از زمین غبار.<br>
+        سعدی
+        <br><br>
+        ملک بیدین باطل است و دین بی‌ملک، ضایع.<br>
+        کلیله و دمنه
+        <br><br>
+        محبّت را غایت نیست؛ از بهر آن‌که محبوب را نهایت نیست.<br>
+        عطار<br><br>
+    </div>
+   
+    <div class="MsoNormal">
+        دو عبارت مسجع از متن درس بیابید و ارکان سجع را مشخص نمایید.
+    </div>
+    <br><hr><br>
+    <div class="MsoStep">قلمرو فکری</div>
+    <br>
+    <div class="MsoNormal">
+        1- به چه دلیل نویسنده معتقد است که: «مثَل قرآن، مثَل آب روان است»؟
+    </div>
+    <br><br>
+    <div class="MsoNormal">
+        2- کدام بخش از متن درس، به مفهوم آیۀ شریفۀ «و مکروا و مکر الله و الله خیر الماکرین.» (آل عمران، آیۀ 54) اشاره دارد؟
+    </div>
+    <br><br>
+    <div class="MsoNormal">
+        3- بیت زیر، با کدام عبارت درس، ارتباط معنایی دارد؟<br><br>
+        صورت زیبای ظاهر هیچ نیست<br>
+        ای برادر، سیرت زیبا بیار<br>
+        سعدی
+    </div>
+    <br><br>
+    <div class="MsoNormal">
+        4- دربارۀ ارتباط معنوی دو عبارت زیر، توضیح دهید:<br><br>
+        «اَلصَبرُ مِفتاحُ الفَرَج.»<br>
+        یعقوب، خود او را به صبر آموزگار بود.
+    </div>
+    <br><hr><br>
+    <div class="MsoBold">شعرخوانی</div>
+    
+    <div class="MsoStep">بوی گل و ریحان‌ها</div>
+    <p class="MsoNormal" style="text-align: center;">
+        poem placeholder
+    </p>
+    <br><hr><br>
+    <div class="MsoStep">درک و دریافت</div>
+   
+    <div class="MsoNormal">
+        1- کدام نوع لحن برای خوانش این شعر مناسب است؟ چرا؟
+    </div>
+    <br>
+    <div class="MsoNormal">
+        2- چرا این سروده، در ادب غنایی جا می‌گیرد؟
+    </div>
+    
+
+
+
+
+
+    
+    <br><br><br><br><br>
+
+
+
+    
+</body>
+
+
+</html>

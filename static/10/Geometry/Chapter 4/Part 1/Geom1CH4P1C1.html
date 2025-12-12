@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi {
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSemic,
+        li.MsoSemic,
+        div.MsoSemic {
+            margin: 0in;
+           
+            font-size: clamp(1.2rem, 1.6vw, 1.3rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #b19af2;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #6ca4ec;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .boxp {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .boxg {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#00f2ff11; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        .boxb {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#0c4e9f2d; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        ::selection {
+            background-color: #59078fa1; /* Change this to your desired highlight color */
+            color: #ffffff; /* Change this to your desired text color */
+          }
+
+
+          mark{
+            background-color:#078b8fa1 ;
+            color: #ffffff;
+            padding: 0 7px;
+        }
+
+        .hlg { background-color: rgba(0, 234, 255, 0.334);  }
+        .hlp { background-color:#5f1487; }
+      
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+    <body class="custom-scrollbar">
+
+<p class="MsoBold">
+    فصل چهارم:
+    <br>
+    تجسم فضایی
+</p>
+<br>
+
+<p class="MsoNormal">
+    تصویر سمت راست، آرامگاه ابوعلی سینا، واقع در همدان است. در مورد تصویر سمت چپ چه حدسی می‌زنید؟
+</p>
+
+
+
+
+        
+
+
+
+
+
+<br><hr>
+<p class="MsoBold">حالت‌های مختلف دو خط در صفحه و فضا</p>
+<p class="MsoNormal">به تصاویر روبه‌رو نگاه کنید.</p>
+
+<div class="boxg">
+    <p class="MsoNormal">دو خط در یک صفحه نسبت به هم موازی یا متقاطع‌اند. وقتی دو خط برهم منطبق می‌شوند، آن‌ها را یک خط در نظر می‌گیریم.</p>
+</div>
+
+<br>
+
+<p class="MsoStep">فعالیت</p>
+<p class="MsoNormal">مکعب روبه‌رو را در نظر بگیرید.</p>
+<p class="MsoNormal">در هر مورد وضعیت دو خط را نسبت به هم مشخص کنید و بنویسید که آیا می‌توان صفحه‌ای شامل آن دو خط در نظر گرفت؟ چرا؟</p><br>
+<p class="MsoNormal">
+    $HD$ و $HG$:<br>
+    $HG$ و $EF$:<br>
+    $FD$ و $EC$:<br>
+    $GC$ و $EA$:<br>
+    $AB$ و $GD$:<br>
+    $BC$ و $HD$:
+</p><br>
+
+<div class="boxp">
+    <p class="MsoSemi"><mark>تعریف:</mark></p>
+    <br>
+    <p class="MsoNormal">دو خط را که نقطه‌ی اشتراکی ندارند، در نظر بگیرید:</p>
+    <br>
+    <p class="MsoNormal">۱) اگر صفحه‌ای وجود داشته باشد که شامل هر دوی آن‌ها باشد، آن دو خط را موازی می‌نامیم.</p><br>
+    <p class="MsoNormal">۲) اگر هیچ صفحه‌ای وجود نداشته باشد که شامل هر دوی آن‌ها باشد، آن دو خط را متنافر می‌نامیم.</p>
+</div><br>
+<div class="boxb">
+<p class="MsoNormal">دو خط در فضا نسبت به هم
+    
+    $. . . . . . .$ یا $. . . . . . .$ یا $. . . . . . .$
+    
+    هستند.</p>
+</div>
+
+<br><hr><br>
+<p class="MsoStep">کاردرکلاس</p>
+<p class="MsoNormal">
+    ۱- به سؤالات زیر پاسخ دهید. (می‌توانید از تصاویر کمک بگیرید.)
+</p><br>
+<p class="MsoNormal">
+    - در صفحه از هر نقطه چند خط می‌گذرد؟<br>
+    - در فضا چطور؟
+</p><br>
+<p class="MsoNormal">
+    - در صفحه از یک نقطه غیر واقع بر یک خط، چند خط موازی آن خط می‌توان رسم کرد؟<br>
+    - در فضا چطور؟
+</p><br>
+<br>
+
+
+<p class="MsoNormal">
+    ۲- در شکل‌های زیر در صورت وجود، به خطوط موازی، متقاطع و متنافر اشاره کنید.
+</p><br>
+<br>
+<p class="MsoNormal">
+    ٣ــ دو خط موازی رسم کنید و آن‌ها را $d_1$ و $d_2$ بنامید. حالا خط $d_3$ را موازی با $d_2$ رسم کنید. دو خط $d_3$ و $d_1$ نسبت به هم چه وضعی دارند؟
+</p><br>
+
+
+<div class="boxp">
+    <p class="MsoSemi"><mark>نتیجه ۱:</mark></p>
+    <p class="MsoNormal">در یک صفحه دو خط موازی یا یک خط $. . . . . . . .$.</p>
+</div><br>
+<br>
+<p class="MsoNormal">
+    آیا در فضا نیز این نتیجه برقرار است؟
+</p><br><br>
+<p class="MsoNormal">
+    ۴- می‌دانیم که در صفحه دو خط عمود بر یک خط، با هم موازی‌اند. آیا در فضا هم این رابطه برقرار است؟
+</p><br><br>
+<p class="MsoNormal">
+    ۵- خط $d$ با صفحه $P$ متقاطع است. خط‌های موجود در صفحه $P$ نسبت به خط $d$ چه وضعیت‌هایی می‌توانند داشته باشند؟
+</p><br>
+<hr>
+<p class="MsoBold">حالت‌های مختلف خط و صفحه</p>
+
+<p class="MsoNormal">مدادتان را طوری در دست بگیرید که مداد یا امتداد آن، صفحه میز را قطع نکند.</p>
+
+<div class="boxp">
+    <p class="MsoNormal">
+         اگر خط و صفحه در یک نقطه مشترک باشند، نسبت به هم $. . . . . . . . .$ هستند.
+    </p>
+</div>
+
+
+<br><br>
+
+<p class="MsoNormal">نوک مدادتان را روی میز بگذارید. در این حالت مدادتان در یک نقطه با میز اشتراک دارد.</p>
+
+
+
+<div class="boxp">
+    <p class="MsoNormal">
+        اگر خط و صفحه در یک نقطه مشترک باشند، نسبت به هم $. . . . . . .$ هستند.
+    </p>
+</div>
+
+<br><br>
+
+
+
+<p class="MsoNormal">
+    مدادتان را روی میز قرار دهید.
+</p>
+
+<div class="boxp">
+    <p class="MsoNormal">
+        اگر خط و صفحه بی‌شمار نقطه اشتراک داشته باشند، خط بر صفحه واقع است.
+    </p>
+</div>
+
+
+<br>
+<div class="boxg">
+    <p class="MsoNormal">خط و صفحه در فضا نسبت به هم ________ یا ________ یا ________ هستند.</p>
+</div><br>
+
+
+
+<hr><br>
+
+
+<p class="MsoStep">کاردرکلاس</p>
+<p class="MsoNormal">
+    ۱- به سؤالات زیر پاسخ دهید. (می‌توانید از تصاویر کمک بگیرید.)
+</p><br>
+<p class="MsoNormal">
+    - از یک خط در فضا چند صفحه می‌گذرد؟
+</p><br>
+<p class="MsoNormal">
+    - از دو خط متقاطع چند صفحه می‌گذرد؟
+</p><br>
+<p class="MsoNormal">
+    - از دو خط موازی چطور؟
+</p><br>
+<p class="MsoNormal">
+    - از یک نقطه غیرواقع بر یک صفحه، چند خط موازی با آن صفحه می‌توان رسم کرد؟
+</p><br>
+
+<p class="MsoNormal">
+    ۲- دو خط در نقطه $A$ متقاطع‌اند و صفحه‌ی $P$ شامل نقطه $A$ است. با توجه به شکل‌های زیر حالت‌های مختلف خطوط متقاطع و صفحه‌ی $P$ را بررسی کنید.
+</p><br>
+
+<p class="MsoNormal">
+    ۳- دو خط $d_1$ و $d_2$ در فضا با هم موازی‌اند.
+</p><br>
+<p class="MsoNormal">
+    (الف) اگر صفحه‌ای مثل $P$ با یکی از این دو خط موازی باشد، نسبت به دیگری چه وضعیتی دارد؟
+</p><br>
+<p class="MsoNormal">
+    (ب) اگر صفحه‌ی $P$ شامل یکی از این دو خط باشد، نسبت به دیگری چه وضعیتی دارد؟
+</p><br>
+<p class="MsoNormal">
+    (ج) اگر صفحه‌ی $P$ با یکی از این خطوط متقاطع باشد، نسبت به دیگری چه وضعیتی دارد؟
+</p><br>
+
+<p class="MsoNormal">
+    ۴- مسئله قبل را برای حالتی حل کنید که دو خط، متنافرند.
+</p><br>
+
+<hr>
+
+
+<p class="MsoBold">حالت‌های مختلف دو صفحه</p>
+
+<p class="MsoNormal">یک برگه را طوری در دست بگیرید که خودش یا امتداد آن صفحه‌ی میز را قطع نکند.</p>
+
+<div class="boxp">
+    <p class="MsoNormal">اگر دو صفحه با هم نقطه اشتراکی نداشته باشند، نسبت به هم $. . . . . . . .$ هستند.</p>
+</div><br>
+<br>
+<p class="MsoNormal">
+    برگه را طوری در دست بگیرید که خودش یا امتداد آن صفحهٔ میز را قطع کند. اشتراک صفحه‌ای که برگه قسمتی از آن است، با سطح میز به چه شکلی است؟
+</p><br>
+<div class="boxp">
+<p class="MsoNormal">
+    اگر دو صفحه در یک خط راست مشترک باشند، نسبت به هم $. . . . . . .$ هستند.
+
+    خط راستی که اشتراک دو صفحهٔ متقاطع است، فصل مشترک آن دو صفحه نامیده می‌شود.
+</p>
+</div>
+<br>
+
+<div class="boxg">
+<p class="MsoNormal">دو صفحه در فضا نسبت به هم $. . . . . . .$ یا $. . . . . . .$ هستند. وقتی دو صفحه بر هم منطبق می‌شوند، آن‌ها را یک صفحه در نظر می‌گیریم.</p>
+</div>
+
+<br><hr><br>
+
+
+<p class="MsoStep">کاردرکلاس</p>
+<p class="MsoNormal">به این مکعب دقت کنید:</p><br>
+<p class="MsoNormal">
+    (الف) خط‌های $GF$ و $DA$ نسبت به هم چه وضعی دارند؟
+</p><br>
+<p class="MsoNormal">
+    خط‌های $DC$ و $HG$ چطور؟
+</p>
+<p class="MsoNormal">
+    خط‌های $GC$ و $EF$ چطور؟
+</p><br>
+<p class="MsoNormal">
+    (ب) هر خط با چند خط دیگر متقاطع است؟
+    <br>
+     با چند خط موازی است؟
+     <br>
+      با چند خط متنافر است؟
+</p><br>
+<p class="MsoNormal">
+    (ج) خط $HD$ با کدام صفحه موازی است؟<br> با کدام متقاطع است؟<br> بر کدام واقع است؟
+</p><br>
+<p class="MsoNormal">
+    (د) دو صفحه‌ی موازی و دو صفحه‌ی متقاطع نام ببرید.
+</p><br>
+
+<hr>
+
+
+<p class="MsoBold">تعامد</p>
+
+<p class="MsoNormal">
+    نوک مداد خود را مطابق شکل به‌صورت قائم بر صفحه‌ی کتاب نگه دارید. در این حالت مدادتان با بقیه‌ی خط‌های موجود در صفحه که از نقطه‌ی تقاطع مداد و سطح میز می‌گذرند، چه وضعیتی دارد؟
+</p><br>
+
+<div class="boxb">
+    <p class="MsoSemi"><mark>تعریف:</mark></p>
+    <p class="MsoNormal">
+        فرض کنید خط $d$ در نقطه‌ی $A$ صفحه‌ی $P$ را قطع می‌کند. خط $d$ بر صفحه‌ی $P$ عمود است؛ هرگاه بر تمام خط‌های صفحه‌ی $P$ که از نقطه‌ی $A$ می‌گذرند، عمود باشد.
+    </p>
+</div><br>
+
+<p class="MsoNormal">
+    آیا اگر خطی بر یکی از خطوط صفحه‌ای عمود باشد، می‌توانیم بگوییم آن خط به آن صفحه عمود است؟
+</p><br>
+
+<div class="boxp">
+    <p class="MsoNormal">
+        می‌توان نشان داد که:<br> اگر خطی بر دو خط متقاطع از صفحه‌ای، در محل تقاطع عمود باشد، بر آن صفحه عمود است.
+    </p>
+</div><br>
+
+<div class="boxb">
+    <p class="MsoSemi"><mark>تعریف:</mark></p>
+    <p class="MsoNormal">
+        دو صفحه بر هم عمودند؛ هرگاه هر کدام شامل خطی باشد که بر دیگری عمود است.
+    </p>
+</div><br>
+
+<hr><br>
+
+<p class="MsoStep">کاردرکلاس</p>
+<p class="MsoNormal">
+    می‌دانیم که در صفحه، دو خط عمود بر یک خط با هم موازی‌اند.
+</p><br>
+
+<p class="MsoNormal">
+    (الف) آیا دو خط عمود بر یک صفحه همیشه با هم موازی‌اند؟
+</p><br>
+<p class="MsoNormal">
+    (ب) آیا دو صفحه‌ی عمود بر یک صفحه همیشه با هم موازی‌اند؟
+</p><br>
+<p class="MsoNormal">
+    (ج) دو صفحه‌ی عمود بر یک خط نسبت به هم چه وضعی دارند؟
+</p><br>
+<p class="MsoNormal">
+    (د) اگر خطی بر یکی از دو صفحه‌ی موازی عمود باشد، نسبت به دیگری چه وضعیتی دارد؟
+</p><br>
+<p class="MsoNormal">
+    (ه) اگر یکی از دو خط موازی بر صفحه‌ای عمود باشد، وضعیت خط دوم با صفحه را بررسی کنید.
+</p><br>
+
+
+<hr><br>
+
+<p class="MsoStep">تمرین</p>
+<p class="MsoNormal">
+    ۱- با توجه به شکل به سؤالات پاسخ دهید:
+</p><br>
+<p class="MsoNormal">
+    (الف) چند صفحه در شکل می‌بینید. نام ببرید.
+</p><br>
+<p class="MsoNormal">
+    (ب) سه نقطه پیدا کنید که در یک صفحه‌اند.
+</p><br>
+<p class="MsoNormal">
+    (ج) چهار نقطه پیدا کنید که در یک صفحه نیستند.
+</p><br>
+<p class="MsoNormal">
+    (د) دو خط $AB$ و $CE$ نسبت به هم چه وضعی دارند؟ $AC$ و $CE$ چطور؟
+</p><br>
+<br>
+<p class="MsoNormal">
+    ۲- دو صفحه‌ی $P_1$ و $P_2$ را به گونه‌ای در نظر بگیرید که متقاطع باشند و خط $d$ فصل مشترک آن‌ها باشد (در هر دو حالت الف و ب تصویر مناسب را رسم کنید).
+</p><br>
+<p class="MsoNormal">
+    (الف) اگر $P'$ صفحه‌ای باشد که با $P_1$ موازی باشد، نسبت به $P_2$ چه وضعیتی خواهد داشت.
+</p><br>
+<p class="MsoNormal">
+    (ب) اگر $P'$ صفحه‌ای باشد که با $P_1$ متقاطع است، با $P_2$ چه وضعیتی می‌تواند داشته باشد.
+</p><br>
+<br>
+<p class="MsoNormal">
+    ۳- شکل زیر یک دیوار و یک در دولنگه را که در دیوار قرار گرفته است، نشان می‌دهد. وضعیت خط‌ها و صفحه‌های زیر را مشخص کنید.
+</p><br>
+<p class="MsoNormal">
+    (الف) وضعیت صفحه‌های $ABCD$ و $EFIH$ و $FGJI$ را دو به دو نسبت به هم بررسی کنید.
+</p><br>
+<p class="MsoNormal">
+    (ب) خطوط $FI$ و $BC$
+</p><br>
+<p class="MsoNormal">
+    (ج) خطوط $FI$ و $AB$
+</p><br>
+<p class="MsoNormal">
+    (د) خطوط $FG$ و $EF$
+</p><br>
+<p class="MsoNormal">
+    (ه) خطوط $FG$ و $HI$
+</p><br>
+
+<br>
+
+
+<p class="MsoNormal">
+    ۴- تجسم کنید دو لنگه در هر کدام $۳۰^0$ باز شده‌اند. وضعیت خط‌ها و صفحه‌های زیر را مشخص کنید.
+</p><br>
+<p class="MsoNormal">
+    (الف) وضعیت صفحه‌های $ABCD$ و $EIKH$ و $JFGL$ را دو به دو نسبت به هم بررسی کنید.
+</p><br>
+<p class="MsoNormal">
+    (ب) خط $FJ$ و صفحه $EIKH$
+</p><br>
+<p class="MsoNormal">
+    (ج) خط $JL$ و صفحه $EIKH$
+</p><br>
+<p class="MsoNormal">
+    (د) خط $EH$ نسبت به هر یک از صفحات
+</p><br>
+<p class="MsoNormal">
+    (ه) خطوط $EI$ و $JF$
+</p><br>
+<p class="MsoNormal">
+    (و) خطوط $FG$ و $EI$
+</p><br>
+<p class="MsoNormal">
+    (ز) خطوط $FJ$ و $BC$
+</p><br>
+<br>
+<p class="MsoNormal">
+    ۵- تصور کنید دو لنگه در هر کدام $۹۰^0$ باز شده‌اند. وضعیت خط‌ها و صفحه‌های زیر را مشخص کنید.
+</p><br>
+<p class="MsoNormal">
+    (الف) وضعیت صفحه‌های $EIKH$ و $FGLJ$ و $ABCD$ را دو به دو نسبت به هم بررسی کنید.
+</p><br>
+<p class="MsoNormal">
+    (ب) خط $FJ$ و صفحه $EIKH$
+</p><br>
+<p class="MsoNormal">
+    (ج) خط $JL$ و صفحه $EIKH$
+</p><br>
+<p class="MsoNormal">
+    (د) خطوط $EI$ و $FJ$
+</p><br>
+<p class="MsoNormal">
+    (ه) خطوط $FJ$ و $HK$
+</p><br>
+<br>
+<p class="MsoNormal">۶- منشور سه‌پهلو روبه‌رو را در نظر بگیرید و به سؤالات پاسخ دهید:</p>
+<br>
+<p class="MsoNormal">
+    (الف) سه جفت خط متنافر دو به دو موازی نام ببرید.
+</p><br>
+<p class="MsoNormal">
+    (ب) سه جفت خط متنافر دو به دو متنافر نام ببرید.
+</p><br>
+<p class="MsoNormal">
+    (ج) سه جفت خط دو به دو متقاطع نام ببرید.
+</p><br>
+<p class="MsoNormal">
+    (د) سه خط همرس نام ببرید.
+</p><br>
+<p class="MsoNormal">
+    (ه) سه جفت خط و صفحه موازی نام ببرید.
+</p><br>
+<p class="MsoNormal">
+    (و) دو صفحه موازی نام ببرید.
+</p><br>
+<p class="MsoNormal">
+    (ز) سه صفحه دو به دو متقاطع نام ببرید.
+</p><br>
+<br>
+
+
+<p class="MsoNormal">
+    ۷- از هر نقطه غیرواقع بر یک صفحه، چند خط می‌توان به آن صفحه عمود کرد؟
+</p><br><br>
+
+<p class="MsoNormal">
+    ۸- از هر خط غیرواقع بر یک صفحه، چند صفحه می‌توان گذراند که بر آن صفحه عمود باشد؟
+</p><br><br>
+<p class="MsoNormal">
+    (الف) خط بر صفحه عمود باشد.
+</p><br>
+<p class="MsoNormal">
+    (ب) خط بر صفحه عمود نباشد.
+</p><br>
+<br>
+<p class="MsoNormal">
+    ۹- دو صفحه $P$ و $Q$ بر هم عمودند و خط $d$ نیز بر صفحه $P$ عمود است. این خط نسبت به صفحه $Q$ چه وضعی دارد؟
+</p><br>
+<br>
+<p class="MsoNormal">
+    ۱۰- دو صفحه متقاطع $P$ و $Q$ بر صفحه $R$ عمودند. فصل مشترک این دو صفحه نسبت به صفحه $R$ چه وضعیتی دارد؟
+</p><br>
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br><br><br><br>
+
+
+    </body>
+
+
+</html>

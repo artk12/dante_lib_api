@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: "Nastaliq";
+            src: url('nas.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+      
+        li.MsoNormal,
+        div.MsoNormal,
+        ul.MsoNormal,
+        ol.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+            
+        }
+        p.MsoNas
+         {
+            margin: 0.5em;
+            
+            font-size: clamp(1.5rem, 1.7vw, 2rem);
+            font-family: "Nastaliq";
+            line-height: 2.3em;
+            color: #dcd7e0;
+            text-align: center;
+         letter-spacing: 0em;
+         word-spacing: 0.4em;
+            
+        }
+        p.MsoNormal
+         {
+            margin: 0in;
+           
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-indent: 1em;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi, b {
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSemic,
+        li.MsoSemic,
+        div.MsoSemic {
+            margin: 0in;
+           
+            font-size: clamp(1.2rem, 1.6vw, 1.3rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #b19af2;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #6ca4ec;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+        span.uline{
+            border-bottom: 0.1em solid #64E9E1;
+        }
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .boxp {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .boxg {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#00f2ff11; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        .boxb {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#0c4e9f2d; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        ::selection {
+            background-color: #59078fa1; /* Change this to your desired highlight color */
+            color: #ffffff; /* Change this to your desired text color */
+          }
+
+
+          mark{
+            background-color:#078b8fa1 ;
+            color: #ffffff;
+            padding: 0 7px;
+        }
+
+        .hlg { background-color: rgba(0, 234, 255, 0.334);  }
+        .hlp { background-color:#5f1487; }
+      
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+<body class="custom-scrollbar">
+
+
+
+    <p class="MsoBold">گفتار ۲: انتخاب طبیعی و رفتار</p>
+
+    <p class="MsoNormal">پژوهشگران در بررسی یک رفتار تلاش می‌کنند به دو نوع پرسش پاسخ دهند. پرسش نوع اول اینکه جانور چگونه رفتاری را انجام می‌دهد؟ برای پاسخ به این پرسش پژوهشگران فرایندهای ژنی، رشد و نمو و عملکرد بدن جانور را بررسی می‌کنند. پرسش نوع دوم این است که چرا جانور رفتاری را انجام می‌دهد؟ پرسش دوم به دیدگاه انتخاب طبیعی مربوط است. مثال زیر را بخوانید.</p>
+    
+    <p class="MsoNormal">پرنده کاکایی پس از آنکه جوجه‌هایش از تخم بیرون می‌آیند، پوسته‌های تخم را از لانه خارج می‌کند. جوجه‌ها و تخم‌های کاکایی در میان علف‌های اطراف آشیانه به خوبی استتار می‌شوند (شکل ۹). البته رنگ سفید داخل پوسته تخم‌های شکسته بسیار مشخص است.</p>
+    
+    <p class="MsoNormal">چرا کاکایی پوسته‌های تخم را از لانه خارج می‌کند؟ برای یافتن پاسخ این پرسش، پژوهشگری آزمایشی را طراحی کرد. او تخم‌های مرغ خانگی را شبیه تخم‌های کاکایی رنگ‌آمیزی کرد و آنها را در محل آشیانه‌سازی کاکایی‌ها، قرار داد. پژوهشگر در کنار تعدادی از این تخم‌ها، پوسته تخم‌های شکسته کاکایی را نیز قرار داد. او مشاهده کرد کلاغ‌ها بیشتر تخم‌مرغ‌هایی را که کنار پوسته‌های تخم کاکایی قرار داشتند، پیدا کرده و آنها را خوردند. رنگ سفید داخل پوسته تخم‌های شکسته، راهنمای کلاغ‌ها بود. پژوهشگر نتیجه گرفت کاکایی‌ها رفتار دور انداختن پوسته تخم‌های شکسته از لانه را برای کاهش احتمال شکار شدن و افزایش احتمال بقای جوجه‌ها انجام می‌دهند. کاکایی‌ها زمان بسیار کوتاهی را برای بیرون بردن پوسته تخم‌ها صرف می‌کنند اما این رفتار در بقای زاده‌های آنها نقشی حیاتی دارد.</p>
+    
+    <p class="MsoNormal">این رفتار کاکایی‌ها سازگارکننده است زیرا احتمال دسترسی شکارچی به زاده‌ها کاهش و احتمال بقای آنها را افزایش می‌دهد و به سود پرنده و زاده‌های آن است. رفتارهای سازگارکننده با سازوکار انتخاب طبیعی، برگزیده می‌شوند.</p>
+    
+    <p class="MsoNormal">در رفتارشناسی با دیدگاه انتخاب طبیعی، پژوهشگران برای پاسخ به پرسش چرایی رفتارها و اثر انتخاب طبیعی در شکل دادن به آنها پژوهش می‌کنند. آنها نقش سازگارکنندگی رفتارهای گوناگون و به عبارتی نقش رفتارها را در بقا و زادآوری بیشتر جانوران بررسی می‌کنند. این کار با بررسی سود و هزینه رفتار برای جانور، انجام می‌شود.</p>
+    
+
+    <br>
+    <p class="MsoStep">فعّالیت ۴</p>
+    
+    <p class="MsoNormal">در پژوهش دربارۀ رفتار بیرون انداختن پوسته تخم در کاکایی‌ها:</p>
+    <ul class="MsoNormal">
+        <li>الف) پژوهشگر چه فرضیه‌ای را دنبال می‌کرد؟</li>
+        <li>ب) چرا پژوهشگر فقط در کنار تعدادی از تخم‌مرغ‌های رنگ‌آمیزی شده، پوسته تخم کاکایی قرار داد؟</li>
+    </ul>
+    
+
+
+    <br>
+    <p class="MsoStep">زادآوری (تولیدمثل)</p>
+    
+    <p class="MsoNormal">داشتن بیشترین تعداد زاده‌های سالم، معیاری برای موفقیت زادآوری در جانوران است. جانوران برای دستیابی به موفقیت در زادآوری (تولیدمثل)، رفتارهای زادآوری انجام می‌دهند. انتخاب جفت یکی از این رفتارهاست. در رفتار انتخاب جفت، جانور ابتدا ویژگی‌های جفت را بررسی می‌کند و بعد تصمیم می‌گیرد با آن جفت‌گیری کند یا نه. برای مثال انتخاب جفت را در طاووس بررسی می‌کنیم. ویژگی‌های ظاهری طاووس‌های نر و ماده متفاوت است. در فصل زادآوری دم طاووس نر، پرهای پرنقش و نگاری پیدا می‌کند. طاووس نر برای جلب جفت، دم خود را مانند بادبزن می‌گستراند تا بهتر در معرض دید جانور ماده قرار گیرد. طاووس ماده دم طاووس‌های نر را بررسی می‌کند و نری را به عنوان جفت انتخاب می‌کند که رنگ درخشان و لکه‌های چشم‌مانند بیشتری روی پرهای دم خود داشته باشد (شکل ۱۰).</p>
+    
+
+
+<br>
+    <p class="MsoStep">بیشتر بدانید</p>
+    
+    <p class="MsoNormal"><b>تاریخ علم:</b> بررسی رفتار بیرون انداختن پوسته‌های تخم در کاکایی از پژوهش‌های نیکولاس تین‌برگن (۱۹۰۷ــ۱۹۸۸) است.</p>
+    
+
+    <br><br>
+    <p class="MsoNormal">در جانوران، ماده‌ها بیشتر از نرها رفتار انتخاب جفت را انجام می‌دهند. چرا چنین است؟ در جانوران هر یک از والدین باید انرژی و مدت زمانی را برای زادآوری و پرورش زاده‌ها صرف کنند. جانوران ماده معمولاً زمان و انرژی بیشتری صرف می‌کنند. برای مثال نگهداری از تخم‌ها و جوجه‌ها در پرندگان و بارداری و شیردادن به نوزادان در پستانداران فعالیت‌های پرهزینه‌ای هستند که جانوران ماده آنها را انجام می‌دهند. بنابراین، تولیدمثل برای آنها هزینه بیشتری دارد. پس جانوران ماده باید جفت انتخاب کنند تا موفقیت تولیدمثلی آنها تضمین شود.</p>
+    
+    <p class="MsoNormal">شاید برای شما این پرسش مطرح شده باشد که پرهای زینتی دم طاووس نر با موفقیت زادآوری جانور ماده چه ارتباطی دارد؟ پژوهش‌ها نشان داده‌اند، جانوران ماده در انتخاب جفت به ویژگی‌های ظاهری نرها توجه می‌کنند. درخشان بودن رنگ پرنده یکی از این ویژگی‌هایی است که نشانه سلامت و کیفیت رژیم غذایی آن است. جفت‌گیری با نری که این نشانه را دارد، سلامت جانور ماده و زاده‌هایش را تضمین می‌کند. ویژگی‌های ظاهری جانور نر نشانه‌ای از داشتن ژن‌های مربوط به صفات سازگارکننده نیز هستند؛ یعنی گرچه دم بلند و زینتی طاووس نر ممکن است حرکت جانور را دشوار و آن را در مقابل شکارچی‌ها آسیب‌پذیرتر کند و احتمال بقای آن را کاهش دهد، اما بقای جانوری با این ویژگی هنگام تولیدمثل، سازگارتر بودن آن را نشان می‌دهد.</p>
+    
+    <p class="MsoNormal">در نتیجه در صورت انتخاب آن، زاده‌ها علاوه بر ویژگی ظاهری، ژن‌های صفات سازگارتر را نیز به ارث می‌برند. ویژگی‌های ظاهری مانند دم زینتی طاووس نر یا شاخ گوزن نر از صفات ثانویه جنسی جانوران نر هستند که هنگام جفت‌یابی و رقابت با نرهای دیگر به کار می‌روند.</p>
+    
+    <p class="MsoNormal">البته در گونه‌های مختلف جانوران، انتخاب جفت را فقط جانوران ماده انجام نمی‌دهند. در نوعی جیرجیرک، جانور نر هزینه بیشتری در تولیدمثل می‌پردازد و بنابراین جفت را انتخاب می‌کند. جیرجیرک نر زامه‌های خود را درون کیسه‌ای به همراه مقداری مواد مغذی به جانور ماده منتقل می‌کند. جانور ماده هنگام تشکیل تخم و برای رشد و نمو جنین به مواد مغذی درون کیسه نیاز دارد (شکل ۱۱). این کیسه بخش قابل توجهی از وزن بدن جانور نر را تشکیل می‌دهد. جانور نر، جیرجیرک ماده‌ای را انتخاب می‌کند که بزرگ‌تر باشد، زیرا بزرگ‌تر بودن جیرجیرک ماده نشانه آن است که تخمک‌های بیشتری دارد و می‌تواند زاده‌های بیشتری تولید کند. در این جانوران جیرجیرک‌های ماده برای انتخاب شدن رقابت می‌کنند.</p>
+    
+    <p class="MsoNormal">رفتار تولیدمثلی دیگر در جانوران، نوع نظام جفت‌گیری آنهاست. طاووس نر نظام جفت‌گیری چندهمسری دارد. در این نظام یکی از والدین پرورش و نگهداری زاده‌ها را انجام می‌دهد. طاووس نر در نگهداری زاده‌ها نقشی ندارد، البته می‌تواند با نگهداری از قلمرو، منابع غذایی، محل لانه و پناهگاه ایمن از شکارچی‌ها، به طور غیرمستقیم به ماده‌ها کمک کند. در نتیجه، موفقیت تولیدمثلی هر دو جانور نر و ماده افزایش می‌یابد. بیشتر پستانداران نظام چندهمسری دارند و بیشتر پرندگان مثل قمری خانگی تک‌همسرند. در این نظام هر دو والد هزینه‌های پرورش زاده‌ها را می‌پردازند. همچنین، در این نظام جانور نر و ماده در انتخاب جفت سهم مساوی دارند.</p>
+    
+    <br>
+    <p class="MsoStep">غذایابی</p>
+
+    <p class="MsoNormal">رفتار غذایابی مجموعۀ رفتارهای جانور برای جست ‌وجو و به دست آوردن غذاست. غذاهایی که جانوران می‌خورند معمولاً اندازه‌های متفاوتی دارند. غذاهای بزرگ‌تر انرژی بیشتری دارند امّا ممکن است فراوانی آنها کمتر و به دست آوردن آنها دشوارتر باشد. بنابراین، برای جانوران میزان سود یعنی میزان انرژی موجود در غذا و هزینۀ به دست آوردن غذا و مصرف آن اهمیت دارد. موازنه بین محتوای انرژی غذا و هزینۀ به دست آوردن آن، <b>غذایابی بهینه</b> نام دارد. براساس انتخاب طبیعی، رفتار غذایابی‌ای برگزیده می‌شود که از نظر میزان انرژی دریافتی کارآمدتر باشد یعنی اینکه جانور در هر بار غذایابی، بیشترین انرژی خالص را دریافت کند. برای مثال خرچنگ‌های ساحلی صدف‌های با اندازه متوسط را ترجیح می‌دهند زیرا آنها بیشترین انرژی خالص را تأمین می‌کنند. صدف‌های بزرگ‌تر انرژی بیشتری دارند امّا برای شکستن آنها باید انرژی بیشتری صرف شود.</p>
+    
+    <p class="MsoNormal">هنگام غذایابی ممکن است جانور خود در خطر شکار شدن یا آسیب دیدن قرار گیرد. بنابراین رفتار برگزیده باید موازنه‌ای بین کسب بیشترین انرژی و کمترین خطر را نیز نشان دهد. به همین علت است که هنگام وجود شکارچی یا رقیب، جانوران رفتارهای غذایابی خود را تغییر می‌دهند و در حالتی آماده و گوش به زنگ به غذایابی مشغول می‌شوند.</p>
+    
+    <p class="MsoNormal">گاهی جانوران غذایی را مصرف می‌کنند که محتوای انرژی چندانی ندارد اما مواد موردنیاز آنها را تأمین می‌کند. برای مثال طوطی‌هایی که در شکل ۱۲ می‌بینید خاک رس می‌خورند تا مواد سمی حاصل از غذاهای گیاهی را در لولۀ گوارش آنها خنثی کند.</p>
+    
+    <br>
+    <p class="MsoStep">قلمروخواهی</p>
+    
+    <p class="MsoNormal">قلمرو یک جانور، بخشی از محدودۀ جغرافیایی است که جانور در آن زندگی می‌کند. جانوران در برابر افراد هم‌گونه یا افراد گونه‌های دیگر از قلمرو خود دفاع می‌کنند. این رفتار <b>قلمروخواهی</b> نام دارد. جانور با رفتارهایی مانند اجرای نمایش و یا تهاجم به جانوران دیگر اعلام می‌کند که قلمرو متعلق به آن است. مثلاً یک پرنده با آواز خواندن سعی می‌کند از ورود پرندۀ مزاحم به قلمرو خود جلوگیری کند. اگر آواز مؤثر نباشد، ممکن است پرندۀ صاحب قلمرو برای بیرون راندن مزاحم به آن حمله کند (شکل ۱۳). این فعالیت‌ها نیازمند صرف زمان و مصرف انرژی است. تهاجم ممکن است به آسیب دیدن پرندۀ صاحب قلمرو هم بینجامد. آواز خواندن ممکن است موقعیت پرنده را برای شکارچی آشکار کند. چرا پرنده هزینه‌های دفاع از قلمرو را می‌پذیرد؟</p>
+    
+    <p class="MsoNormal">قلمروخواهی برای جانوران فایده‌هایی دارد: استفادۀ اختصاصی از منابع قلمرو می‌تواند غذا و انرژی دریافتی جانور را افزایش دهد. امکان جفت‌یابی جانور و دسترسی به پناهگاه برای در امان ماندن از شکارچی نیز افزایش می‌یابد.</p>
+    
+
+    <br>
+    <p class="MsoStep">مهاجرت</p>
+    
+    <p class="MsoNormal">هر ساله با آغاز فصل پاییز پرندگان مهاجر از سیبری و اروپا به تالاب‌ها و آبگیر‌های شمال ایران مهاجرت می‌کنند. این پرنده‌ها پس از زمستان‌گذرانی، در اوایل بهار به سرزمین خود بازمی‌گردند. جابه‌جایی طولانی و رفت و برگشتی جانوران <b>مهاجرت</b> نام دارد.</p>
+    
+    <p class="MsoNormal">تغییر فصل و نامساعد شدن شرایط محیط و کاهش منابع موردنیاز، جانوران را وا می‌دارد به سوی زیستگاه‌های مناسب‌تر برای تغذیه، بقا و زادآوری مهاجرت کنند. مهاجرت رفتاری غریزی است که یادگیری نیز در آن نقش دارد. بررسی مهاجرت سارها نشان داده است سارهایی که تجربۀ مهاجرت دارند بهتر از آنهایی که برای نخستین بار مهاجرت می‌کنند، مسیر مهاجرت را تشخیص می‌دهند.</p>
+    
+    <p class="MsoNormal">در مسیر مهاجرت بسیاری از جانوران از جاهایی عبور می‌کنند که قبلاً در آنجاها نبوده‌اند. پس آنها چگونه در این محیط‌های ناآشنا، راه خود را پیدا می‌کنند؟ جانوران برای جهت‌یابی از نشانه‌های محیطی استفاده می‌کنند. مثلاً جهت‌یابی هنگام روز با استفاده از موقعیت خورشید و در شب با استفاده از موقعیت ستاره‌ها در آسمان انجام می‌شود.</p>
+    
+    <p class="MsoNormal">وقتی هوا ابری است جانوران چگونه مسیر حرکت را تشخیص می‌دهند؟ آیا میدان مغناطیسی زمین در جهت‌یابی جانوران نقش دارد؟ برای پاسخ به این پرسش، پژوهشگران در یک روز ابری آهنربای کوچکی را روی سر کبوتر خانگی قرار دادند. با وجود این آهنربا، پرنده نتوانست مسیر درست را بیابد و به لانه بازگردد. پژوهشگران نتیجه گرفتند کبوتر خانگی می‌تواند موقعیت خود را نسبت به میدان مغناطیسی زمین احساس و با استفاده از آن جهت‌یابی کند. پژوهشگران در سر بعضی از پرنده‌ها ذرات آهن مغناطیسی شده نیز یافته‌اند. لاک‌پشت‌های دریایی ماده پس از طی مسافت‌های طولانی، برای تخم‌گذاری به ساحل دریا می‌آیند و پس از تخم‌گذاری دوباره به دریا بازمی‌گردند. به نظر می‌رسد میدان مغناطیسی زمین در جهت‌یابی لاک‌پشت‌ها نیز نقش دارد.</p>
+    <br>
+
+    <p class="MsoStep">بیشتر بدانید</p>
+    <p class="MsoNormal">لاک‌پشت‌های دریایی منقار عقابی (<i>Eretmochelys imbricata</i>) به شدت در خطر انقراض قرار دارند. این جانوران در طول فصل زادآوری یعنی از اسفند تا تیرماه برای تخم‌گذاری به آب‌های منطقۀ خلیج فارس و دریای عمان مهاجرت می‌کنند. پناهگاه حیات وحش و تالاب بین‌المللی شیدور و جزیرۀ هندورابی در استان هرمزگان و جزایر ام‌الکرم و نخیلو در استان بوشهر مهم‌ترین مناطق لانه‌سازی این جانور است.</p>
+    <p class="MsoNormal">پروژۀ ردیابی ماهواره‌ای مهاجرت لاک‌پشت‌های دریایی در منطقۀ خلیج فارس و دریای عمان به پیشنهاد و حمایت مالی دفتر منطقۀ صندوق جهانی حیات وحش و بنیاد تحقیقات دریایی آژانس حفاظت محیط زیست ابوظبی و با مشارکت کشورهای ایران، قطر، امارات و عمان در فروردین سال ۱۳۸۹ با نصب پنج ردیاب روی لاک‌پشت‌های منقار عقابی در جزیرۀ شیدور در ایران انجام شد.</p>
+    <p class="MsoNormal">علائم دریافتی از ردیاب ماهواره‌ای ضمن کمک در شناسایی مسیرهای مهاجرت و مکان‌های تغذیۀ این جانوران، اطلاعات بسیار مهمی دربارۀ رفتارهای تولیدمثلی و مهاجرتی آنها فراهم می‌سازد.</p>
+    <br>
+
+
+    <p class="MsoStep">خواب زمستانی و رکود تابستانی</p>
+    
+    <p class="MsoNormal">برخی جانوران برای بقا، در زمستان، <b>خواب زمستانی</b> دارند. در این حالت جانور به خواب عمیقی فرو می‌رود و یک دورۀ کاهش فعالیت را طی می‌کند که در آن دمای بدن، مصرف اکسیژن، تعداد تنفس جانور و نیاز جانور به انرژی کاهش می‌یابد. پیش از ورود به خواب زمستانی، جانور مقدار زیادی غذا مصرف می‌کند و در بدن آن چربی لازم به مقدار کافی ذخیره می‌شود تا هنگام خواب به مصرف برسد.</p>
+    
+    <p class="MsoNormal">رکود تابستانی نیز یک دورۀ کاهش فعالیت است که در آن سوخت و ساز جانور کاهش پیدا می‌کند. رکود تابستانی در جانورانی دیده می‌شود که در جاهای به شدت گرم مانند بیابان زندگی می‌کنند. این جانوران در پاسخ به نبود غذا یا دوره‌های خشکسالی، رکود تابستانی انجام می‌دهند.</p>
+    
+    <br>
+
+    <p class="MsoStep">بیشتر بدانید</p>
+    
+    <p class="MsoNormal">خرس قهوه‌ای (<i>Ursus arctos</i>) در ایران زندگی می‌کند. برخی از این جانوران حالتی شبیه خواب زمستانی دارند و گاهی وقتی هوا گرم‌تر است از خواب بیدار می‌شوند. این خرس‌ها معمولاً از انسان دوری می‌کنند ولی خرس‌هایی که از خواب بیدار شده‌اند، ممکن است رفتاری تهاجمی داشته باشند.</p>
+    <br>
+    <p class="MsoStep">فعّالیت ۵</p>
+    
+    <p class="MsoNormal">لاک‌پشتی که در شکل روبه‌رو می‌بینید، حتی وقتی در آزمایشگاه قرار دارد و غذا و آب کافی دریافت می‌کند، رکود تابستانی را نشان می‌دهد. چرا رکود تابستانی را رفتاری ژنی می‌دانند؟</p>
+    
+
+
+
+<br><br><br><br><br>
+
+
+    </body>
+
+
+</html>

@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: "Nastaliq";
+            src: url('nas.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+      
+        li.MsoNormal,
+        div.MsoNormal,
+        ul.MsoNormal,
+        ol.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+            
+        }
+        p.MsoNas
+         {
+            margin: 0.5em;
+            
+            font-size: clamp(1.5rem, 1.7vw, 2rem);
+            font-family: "Nastaliq";
+            line-height: 2.3em;
+            color: #dcd7e0;
+            text-align: center;
+         letter-spacing: 0em;
+         word-spacing: 0.4em;
+            
+        }
+        p.MsoNormal
+         {
+            margin: 0in;
+           
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-indent: 1em;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi, b {
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSemic,
+        li.MsoSemic,
+        div.MsoSemic {
+            margin: 0in;
+           
+            font-size: clamp(1.2rem, 1.6vw, 1.3rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #b19af2;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #6ca4ec;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+        span.uline{
+            border-bottom: 0.1em solid #64E9E1;
+        }
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .boxp {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .boxg {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#00f2ff11; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        .boxb {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#0c4e9f2d; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        ::selection {
+            background-color: #59078fa1; /* Change this to your desired highlight color */
+            color: #ffffff; /* Change this to your desired text color */
+          }
+
+
+          mark{
+            background-color:#078b8fa1 ;
+            color: #ffffff;
+            padding: 0 7px;
+        }
+
+        .hlg { background-color: rgba(0, 234, 255, 0.334);  }
+        .hlp { background-color:#5f1487; }
+      
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+    <body class="custom-scrollbar">
+
+
+
+        <p class="MsoBold">گفتار ۳ : رشد و نمو جنین</p>
+<p class="MsoNormal">نوزاد آدمی، زندگی را به صورت یک یاختۀ تخم آغاز می‌کند. تخم با تقسیم‌های پی‌درپی و گذر از مراحلی سرانجام به جنین و نوزاد متمایز می‌شود.</p>
+
+
+<br>
+
+
+
+<p class="MsoStep">لقاح</p>
+<p class="MsoNormal">مام یاختۀ ثانویه پس از تخمک‌گذاری از طریق انتهای شیپورمانند (شیپور فالوپ) وارد لولۀ رحم می‌شود. حرکات زوائد انگشت‌مانند، انقباض دیواره و زنش مژک‌های دیوارۀ لولۀ رحم، مام یاختۀ ثانویه را به سمت رحم حرکت می‌دهند. با ورود مایع منی به رحم، میلیون‌ها زامه به سمت مام یاختۀ ثانویه شنا می‌کنند، ولی فقط تعداد کمی از آنها در لولۀ رحم به آن می‌رسند. زامه‌ها برای ورود باید از دو لایۀ خارجی و داخلی اطراف مام یاختۀ ثانویه عبور کنند. لایۀ خارجی، باقی‌ماندۀ یاخته‌های انبانکی و لایۀ داخلی، شفاف و ژله‌ای است (شکل 13). در حین عبور زامه از لایۀ خارجی، تارَک‌تن پاره می‌شود تا آنزیم‌های آن لایۀ داخلی را هضم کنند.</p>
+
+<p class="MsoNormal">لقاح موقعی آغاز می‌شود که غشای یک زامه و غشای مام یاختۀ ثانویه با همدیگر تماس پیدا کنند. در این زمان، ضمن ادغام غشای زامه با غشای مام یاخته، تغییراتی در سطح مام یاخته اتفاق می‌افتد که باعث ایجاد پوششی به نام جدار لقاحی می‌شود. جدار لقاحی از ورود زامه‌های دیگر به مام یاختۀ ثانویه جلوگیری می‌کند.</p>
+
+<p class="MsoNormal">با ورود سر زامه به مام یاخته، هستۀ آن به درون سیتوپلاسم وارد می‌شود. در همین حال، مام یاختۀ ثانویه کاستمان را تکمیل می‌کند و به تخمک تبدیل می‌شود. هستۀ تخمک با هستۀ زامه ادغام می‌شود و یاختۀ تخم با ۲۳ جفت فام‌تن شکل می‌گیرد (شکل 13).</p>
+
+<br>
+
+
+
+<p class="MsoStep">وقایع پس از لقاح</p>
+<p class="MsoNormal">حدود ۳۶ ساعت پس از لقاح، یاختۀ تخم تقسیمات رشتمانی را شروع می‌کند. نتیجۀ آن، ایجاد تودۀ یاخته‌ای است که تقریباً به اندازۀ تخم است؛ زیرا یاخته‌های حاصل از تقسیم رشد نکرده‌اند. این تودۀ پریاختۀ توپر با نام مورولا در لولۀ رحم به سمت رحم حرکت می‌کند. پس از رسیدن به رحم به شکل کرۀ توخالی درمی‌آید و درون آن با مایعات پر می‌شود. در این مرحله، به آن بلاستوسیست گفته می‌شود. بلاستوسیست، یک لایۀ بیرونی به نام تروفوبلاست دارد که در مراحل بعدی برون شامۀ جنین (پردۀ کوریون) را می‌سازد. برون شامۀ جنین به همراه بخشی از دیوارۀ رحم جفت را تشکیل می‌دهد (شکل 14).</p>
+
+<p class="MsoNormal">یاخته‌های درون بلاستوسیست، تودۀ یاختۀ درونی را تشکیل می‌دهند. این یاخته‌ها حالت بنیادی دارند و منشأ بافت‌های مختلف تشکیل‌دهندۀ جنین هستند. یاخته‌های بنیادی، یاخته‌هایی تخصص‌نیافته‌اند که توانایی تبدیل شدن به یاخته‌های متفاوتی را دارند. از تودۀ درونی لایه‌های زایندۀ جنینی شکل می‌گیرند که هرکدام منشأ بافت‌ها و اندام‌های مختلف‌اند.</p>
+
+
+<br>
+
+<br>
+
+
+
+<p class="MsoStep">بیشتر بدانید</p>
+<p class="MsoNormal">یاخته‌های بنیادی: جانوران عموماً دو دسته یاختۀ بنیادی دارند: جنینی و بالغ. یاخته‌های بنیادی جنینی می‌توانند به تمامی یاخته‌های مورد نیاز بدن تبدیل شوند. انواع بالغ تا حدّی تمایز یافته‌اند و توانایی محدودی در تولید یاخته‌های دیگر دارند. یاخته‌های بنیادی مغز استخوان و پوست از این نوع‌اند. خون موجود در رگ‌های بند ناف، منبعی سرشار از یاخته‌های بنیادی جنینی است. در حال حاضر، یاخته‌های بنیادی در پژوهش‌های پزشکی و زیست‌شناسی اهمیت زیادی دارند و پیش‌بینی می‌شود در آینده در درمان بسیاری از بیماری‌های علاج‌ناپذیر مثل صدمات نخاعی، پارکینسون، دیابت و بیماری‌های قلبی مؤثر واقع شوند.</p>
+
+
+<br>
+
+<br>
+
+
+<p class="MsoNormal">در ادامه، یاخته‌های لایۀ بیرونی بلاستوسیست، آنزیم‌های هضم‌کننده‌ای را ترشح می‌کنند که یاخته‌های جدار رحم را تخریب و حفره‌ای ایجاد می‌کنند که بلاستوسیست در آن جای می‌گیرد. به این فرایند جایگزینی گفته می‌شود. یاخته‌های جنین در این مرحله مواد مغذی مورد نیاز خود را از این بافت‌های هضم‌شده به دست می‌آورند (شکل 15).</p>
+
+<p class="MsoNormal">بعد از جایگزینی، پرده‌های محافظت‌کننده در اطراف جنین تشکیل می‌شوند که مهم‌ترین آنها درون‌شامۀ جنین (آمنیون) و برون‌شامۀ جنین (کوریون) هستند. درون‌شامۀ جنین در حفاظت و تغذیۀ جنین نقش دارد. برون‌شامۀ جنین در تشکیل جفت و بند ناف دخالت می‌کند. برون‌شامۀ جنین، هورمونی به نام HCG ترشح می‌کند که وارد خون مادر می‌شود و اساس تست‌های بارداری است. این هورمون سبب حفظ جسم زرد و تداوم ترشح هورمون پروژسترون از آن می‌شود. وجود این هورمون‌ها در خون از قاعدگی و تخمک‌گذاری مجدد جلوگیری می‌کند.</p>
+
+
+<br>
+
+
+
+
+<p class="MsoStep">تشکیل بیش از یک جنین</p>
+<p class="MsoNormal">در حین تقسیمات اولیۀ تخم ممکن است یاخته‌های بنیادی از هم جدا شوند یا تودۀ درونی بلاستوسیست به دو یا چند قسمت تقسیم شود. در این حالت، بیش از یک جنین شکل می‌گیرند که این جنین‌ها همسان‌اند. اگر این جنین‌ها کاملاً از هم جدا نشوند، به‌هم چسبیده متولد می‌شوند.</p>
+<p class="MsoNormal">ممکن است تخمدان‌های یک فرد در یک دوره بیش از یک مام یاختۀ ثانویه آزاد کنند و دو یا چند لقاح انجام شود. در این حالت، اگر مراحل رشد و نمو در آنها کامل شود، دوقلو یا چندقلوهای ناهمسان متولد می‌شوند که ممکن است شباهتی به هم نداشته و حتی از لحاظ جنسیت هم متفاوت باشند (شکل 16).</p>
+
+
+
+<br>
+<br>
+
+
+
+<p class="MsoStep">واژه‌شناسی</p>
+<p class="MsoNormal"><b>درون‌شامۀ جنین (amnion/آمنیون)</b></p>
+<p class="MsoNormal"><b>برون‌شامۀ جنین (chorion/کوریون)</b></p>
+<p class="MsoNormal">شامه به معنی پرده و پوشش است. جنین توسط دو پرده محافظت می‌شود: یک پردۀ درونی‌تر به نام درون‌شامه و دیگری که بیرون قرار می‌گیرد به نام برون‌شامه.</p>
+
+
+
+
+
+<br>
+<br>
+
+
+
+<p class="MsoStep">فعّالیت ۶</p>
+<ul class="MsoNormal">
+    <li>دوقلوهای ناهمسان از لحاظ جنسیت می‌توانند مشابه یا متفاوت باشند، به نظر شما علت چیست؟</li>
+    <li>دوقلوهای به‌هم چسبیده از لحاظ جنسیت و سایر صفات ظاهری نسبت به هم چگونه‌اند؟</li>
+    <li>در مورد اثر انگشت دوقلوهای همسان و ناهمسان اطلاعاتی را جمع‌آوری و گزارش آن را در کلاس ارائه کنید.</li>
+</ul>
+
+
+
+<br>
+
+
+<br>
+
+
+
+
+<p class="MsoNormal">از طرف دیگر ممکن است در بعضی از زنان یا مردان، یاختۀ جنسی تولید نشود یا به دلایلی بین زامه و تخمک، لقاح موفقی انجام نشود. در این صورت، موضوع ناباروری مطرح می‌شود که با روش‌ها و کمک فنّاوری، بعضی از آنها را برطرف می‌کنند.</p>
+
+
+<br>
+<br>
+
+
+
+
+<p class="MsoStep">کنترل ورود و خروج مواد در جفت</p>
+<p class="MsoNormal">تمایز جفت از هفتۀ دوم بعد از لقاح شروع می‌شود، ولی تا هفتۀ دهم ادامه دارد. بند ناف رابط بین جنین و جفت است که در آن سرخرگ‌ها خون جنین را به جفت می‌برند و سیاهرگ، خون را از جفت به جنین می‌رساند. خون مادر و جنین در جفت به دلیل وجود برون‌شامۀ جنین، مخلوط نمی‌شود، ولی می‌تواند بین دو طرف این پرده مبادلۀ مواد صورت گیرد (شکل 17).</p>
+<p class="MsoNormal">مواد مغذّی، اکسیژن و بعضی از پادتن‌ها از طریق جفت به جنین منتقل می‌شوند تا جنین تغذیه و محافظت شود و مواد دفعی جنین نیز از همین طریق به خون مادر منتقل می‌شود. در عین حال، عوامل بیماری‌زا و موادی مانند نیکوتین، کوکائین و الکل نیز می‌توانند از جفت عبور کنند و روی رشد و نمو جنین تأثیر سوء بگذارند.</p>
+
+
+<br>
+
+<br>
+
+
+
+
+<p class="MsoStep">بیشتر بدانید</p>
+<p class="MsoNormal">بیش از نیمی از زنان، بارداری را در سه ماهۀ اوّل به صورت تهوع و استفراغ صبحگاهی نشان می‌دهند که ناشی از ورود مواد دفعی جنین به داخل خون مادر است. تمایل بیشتر یا عدم تمایل به بعضی غذاها نیز در بیشتر افراد بروز می‌کند که به آن ویار گفته می‌شود. علت آن تغییر مقدار هورمون‌های بدن و تغییر در حس چشایی و بویایی است. البته افزایش نیازهای غذایی بدن به دلیل بارداری نیز در آن مؤثر است.</p>
+
+
+<br>
+
+<br>
+
+
+
+
+<p class="MsoNormal">با توجه به عبور مواد از جفت و تأثیر زیان‌آور بعضی از داروها روی رشد و نمو، زنان باردار باید از مصرف هرگونه دارو در دوران بارداری، به‌جز با تجویز پزشک متخصص، خودداری کنند.</p>
+
+
+<br>
+<br>
+
+
+
+
+<p class="MsoStep">فعّالیت ۷</p>
+<p class="MsoNormal">مادران باردار ممکن است تا پایان هفتۀ چهارم بعد از لقاح هنوز از بارداری خود مطلع نباشند. با توجه به زمان‌های چرخۀ قاعدگی به نظر شما این مادران از نظر قاعدگی در چه وضعیتی هستند؟</p>
+
+
+
+
+<br>
+
+<br>
+
+
+
+
+
+<p class="MsoNormal">همزمان با تشکیل جفت، یاخته‌های تودۀ درونی، لایه‌های زاینده را تشکیل می‌دهند که از رشد و تمایز آنها بافت‌های مختلف جنین ساخته می‌شود. در انتهای ماه اول اندام‌های اصلی شروع به تشکیل شدن می‌کنند و ضربان قلب آغاز می‌شود. ابتدا رگ‌های خونی و وروده شروع به نمو می‌کنند سپس جوانه‌های دست و پا ظاهر می‌شوند. در طی ماه دوم همه اندام‌ها شکل مشخصی می‌گیرند. در انتهای ماه اول اندام‌های جنسی مشخص شده و جنین دارای ویژگی‌های برای تشخیص جنسیت می‌شود.</p>
+<p class="MsoNormal">در سه‌ماهۀ دوم و سوم، جنین به سرعت رشد می‌کند و اندام‌های آن شروع به عمل می‌کنند به‌طوری که در انتهای سه‌ماهۀ سوم قادر است در خارج از بدن مادر زندگی کند.</p>
+
+
+<br>
+
+<br>
+
+
+
+<p class="MsoStep">بیشتر بدانید</p>
+<p class="MsoSemi">تشخیص ناهنجاری‌های ژنتیکی پیش از تولد</p>
+<p class="MsoNormal">بسیاری از والدین قبل از تولد فرزندانشان دغدغه و نگرانی بروز ناهنجاری‌های احتمالی را در فرزندان دارند و دوست دارند از این نگرانی خارج شوند. افراد متخصص می‌توانند به این والدین کمک کنند. برای این آزمایش‌ها از یاخته‌های آزاد یا مایع درون‌ساختۀ جنین یا خون مادر نمونه‌برداری می‌شود. سپس نمونه‌ها را خارج کرده و محتوای ژنتیکی آنها را تحلیل می‌کنند. چون محتوای ژنتیکی این یاخته‌ها با جنین مشابه است، می‌توان ناهنجاری‌های شایع فطری یا اختلالات را در کروموزوم آنها تشخیص داد.</p>
+
+
+
+<br>
+
+<br>
+
+
+<p class="MsoStep">صوت‌نگاری (سونوگرافی)</p>
+<p class="MsoNormal">در این روش تشخیص، از امواج صوتی با بسامد (فرکانس) بالا استفاده می‌کنند. این امواج برخلاف اشعۀ X که در رادیولوژی از آن استفاده می‌شود، برای جنین ضرری ندارد. امواج را با کمک دستگاهی به درون بدن می‌فرستند و بازتاب آن‌ها را دریافت کرده و به صورت تصویر ویدئویی نشان می‌دهند.</p>
+<p class="MsoNormal">تشخیص بارداری در ماه اول، اندازه‌گیری ابعاد جنین برای تعیین سن، جنسیت جنین، سالم بودن جنین از لحاظ حرکتی و عملکرد بعضی از اندام‌ها مثل قلب از جمله مواردی است که در سونوگرافی مشخص می‌شود.</p>
+
+<br>
+
+<br>
+
+
+<p class="MsoStep">فعّالیت ۸</p>
+<p class="MsoBold">تعیین زمان تولد</p>
+<p class="MsoNormal">متخصصان زنان و زایمان در پیش‌بینی زمان تولد نوزاد ۲۸۴ روز را به زمان شروع آخرین قاعدگی مادر اضافه می‌کنند. در این رابطه به پرسش‌های زیر پاسخ دهید:</p>
+<ul class="MsoNormal">
+    <li>چه ارتباطی بین قاعدگی و بارداری مشخص وجود دارد؟</li>
+    <li>چرا روز شروع آخرین قاعدگی را در نظر می‌گیرند؟</li>
+    <li>گفته می‌شود مدت زمان بارداری ۹ ماه یا ۲۷۰ روز است؛ چرا پزشکان ۲۸۴ روز را مطرح می‌کنند؟</li>
+</ul>
+
+
+<br>
+<br>
+
+
+
+
+<p class="MsoStep">بیشتر بدانید</p>
+<p class="MsoSemi">فناوری‌های کمک به رفع ناباروری</p>
+
+
+<p class="MsoNormal">تلقیح مصنوعی (Artificial Insemination):</p>
+<p class="MsoNormal">در این روش، زامۀ سالم شوهر، توسط متخصص در مجرای تولیدمثل زن، در کنار مام یاخته قرار داده می‌شود. به دلیل تعداد کم یا ضعف زامه، این روش می‌تواند کمک‌کننده باشد. اگر زامۀ سالم زیاد داشته باشد، ممکن است متقاضی این روش نباشد.</p>
+
+<p class="MsoNormal">لقاح آزمایشگاهی (In Vitro Fertilization or IVF):</p>
+<p class="MsoNormal">در این روش، زامه و تخمک در خارج از بدن زن لقاح می‌یابند. در بعضی زنان ممکن است تخمدان و رحم سالم، ولی لوله‌های رحمی مسدود باشند. ممکن است شخصی بخواهد از تخمک اهدایی به جای تخمک خود استفاده کند. در این روش، تخمک و زامه را در محیط کشت حاوی مایعات مورد نیاز قرار می‌دهند و پس از تشکیل تخم، آن را به رحم بازمی‌گردانند. به همین صورت آن را وارد رحم می‌کنند. این روش احتمال دوقلویی و بیشتر زاد و ولد را می‌دهد. آیا می‌دانید چرا؟</p>
+
+
+<br>
+
+<br>
+
+<p class="MsoStep">تولد ـ زایمان</p>
+<p class="MsoNormal">در ابتدا سر جنین به سمت پایین فشار وارد و کیسۀ درون‌شامه را پاره می‌کند. در نتیجه، مایع درون‌شامۀ یک‌مرتبه به بیرون رانده می‌شود. خروج این مایع، نشانۀ نزدیک بودن زایمان است.</p>
+<p class="MsoNormal">هورمون‌ها در این مرحله نقش اساسی دارند؛ از جمله اکسی‌توسین که ماهیچه‌های دیوارۀ رحم را تحریک می‌کند تا انقباض آغاز شود و در ادامه، دفعات و شدت انقباض را مرتباً بیشتر می‌کند. به همین دلیل، پزشکان برای سرعت دادن به زایمان، اکسی‌توسین را به مادر تزریق می‌کنند. شروع انقباض ماهیچه‌های رحم با دردهای زایمان همراه است. دهانۀ رحم در هر بار انقباض بیشتر باز می‌شود و سر جنین بیشتر به آن فشار می‌آورد. با افزایش انقباضات، ترشح اکسی‌توسین با بازخورد مثبت افزایش یافته و باعث می‌شود نوزاد آسان‌تر و زودتر از رحم خارج شود. به طور طبیعی ابتدا سر و سپس بقیۀ بدن از رحم خارج می‌شود. در مرحلۀ بعد با ادامۀ انقباض رحم، جفت و اجزای مرتبط با آن، از رحم خارج می‌شود.</p>
+<p class="MsoNormal">هورمون اکسی‌توسین، علاوه بر تأثیر در زایمان، ماهیچۀ صاف غدد شیری را نیز منقبض می‌کند تا خروج شیر انجام شود. البته تحریک گیرنده‌های موجود در غدد شیری با مکیدن نوزاد اتفاق می‌افتد و از طریق بازخورد مثبت، تنظیم می‌شود. مکیدن نوزاد باعث افزایش هورمون‌ها و افزایش تولید و ترشح شیر می‌شود.</p>
+
+
+<br>
+<br>
+
+
+
+
+<p class="MsoStep">فعّالیت ۹</p>
+<p class="MsoNormal">علاوه بر زایمان طبیعی، تولد نوزاد با عمل جراحی (سزارین) نیز انجام می‌شود. پزشکان زنان و زایمان بیشتر توصیه می‌کنند که زایمان به صورت طبیعی انجام شود. در مورد جنبه‌های مثبت و منفی جراحی سزارین، اطلاعاتی را جمع‌آوری کنید و نتایج به دست آمده را به صورت گزارش در کلاس ارائه کنید.</p>
+
+
+<br>
+
+<br>
+
+
+
+
+<p class="MsoStep">بیشتر بدانید</p>
+<p class="MsoSemi">سقط جنین (پایان بارداری قبل از زایمان):</p>
+<p class="MsoNormal">عوامل مختلفی می‌تواند باعث سقط جنین شود. در این حالت، جنین کامل نشده از دیوارۀ رحم جدا و از بدن مادر خارج می‌شود یا به عبارتی، بارداری به اتمام می‌رسد.</p>
+<p class="MsoNormal">سقط اگر در مراحل اولیۀ بارداری صورت گیرد، بیشتر ناشی از وجود ناهنجاری‌های فام‌تنی شدید مثل پلی‌پلوئیدی در جنین است. اما اگر در سه‌ماهۀ دوم اتفاق بیفتد، عامل آن ممکن است از طرف مادر باشد؛ مثلاً در اثر دیابت، فشار خون بالا، ناهنجاری‌های هورمونی، بیماری‌های عفونی، مشکل رحمی، یا مصرف مواد اعتیادآور ممکن است سقط رخ دهد. اما دلیل بیشتر سقط‌های جنین مشخص نیست.</p>
+
+
+
+<br>
+<br>
+
+<p class="MsoStep">بیشتر بدانید</p>
+<p class="MsoSemi">بیماری‌های مقاربتی</p>
+<p class="MsoNormal">همان‌طور که می‌دانید یکی از راه‌های انتقال عوامل بیماری‌زا از فردی به فرد دیگر ارتباط جنسی است. به این بیماری‌ها مقاربتی می‌گویند. بعضی از آنها عبارت‌اند از:</p>
+<br>
+<table class="MsoNormal" style="margin:auto;width:fit-content;direction:rtl;text-align:center;">
+  <tr>
+    <th>عامل</th>
+    <th>بعضی از علائم و پیامدها</th>
+    <th>بیماری</th>
+  </tr>
+  <tr>
+    <td>باکتری</td>
+    <td>خروج ترشحات چرکی، خارش، التهاب ناحیۀ لگن، دفع ادرار با سوزش</td>
+    <td>عفونت کلامیدیا</td>
+  </tr>
+  <tr>
+    <td>باکتری</td>
+    <td>خروج ترشحات چرکی، خارش، التهاب ناحیۀ لگن، دفع ادرار با سوزش</td>
+    <td>سوزاک</td>
+  </tr>
+  <tr>
+    <td>باکتری</td>
+    <td>زخم سطحی بدون درد و خارش در پوست و اندام تناسلی؛ لکه‌های قرمز رنگ در کف دست و پا</td>
+    <td>سیفلیس</td>
+  </tr>
+  <tr>
+    <td>ویروس</td>
+    <td>زرد شدن پوست، علائم مشابه آنفلوآنزا</td>
+    <td>هپاتیت B</td>
+  </tr>
+  <tr>
+    <td>ویروس</td>
+    <td>ضعف سیستم ایمنی، مستعد شدن بدن برای ابتلا به انواع بیماری</td>
+    <td>ایدز</td>
+  </tr>
+  <tr>
+    <td>ویروس</td>
+    <td>تاول‌های دردناک در ناحیۀ تناسلی؛ ران یا باسن؛ افزایش احتمال بروز سرطان</td>
+    <td>تبخال تناسلی</td>
+  </tr>
+  <tr>
+    <td>ویروس</td>
+    <td>بروز زگیل‌های دردناک در ناحیۀ تناسلی؛ افزایش احتمال بروز سرطان</td>
+    <td>زگیل تناسلی</td>
+  </tr>
+  <tr>
+    <td>آغازی</td>
+    <td>ترشحات، خارش و ترشحات چرکی</td>
+    <td>تریکوموناس</td>
+  </tr>
+</table>
+
+
+
+
+
+
+
+
+<br><br><br><br><br>
+
+
+    </body>
+
+
+</html>

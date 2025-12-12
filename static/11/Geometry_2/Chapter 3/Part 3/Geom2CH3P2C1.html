@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi {
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSemic,
+        li.MsoSemic,
+        div.MsoSemic {
+            margin: 0in;
+           
+            font-size: clamp(1.2rem, 1.6vw, 1.3rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #b19af2;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #6ca4ec;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .boxp {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .boxg {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#00f2ff11; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        .boxb {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#0c4e9f2d; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        ::selection {
+            background-color: #59078fa1; /* Change this to your desired highlight color */
+            color: #ffffff; /* Change this to your desired text color */
+          }
+
+
+          mark{
+            background-color:#078b8fa1 ;
+            color: #ffffff;
+            padding: 0 7px;
+        }
+
+        .hlg { background-color: rgba(0, 234, 255, 0.334);  }
+        .hlp { background-color:#5f1487; }
+      
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+    <body class="custom-scrollbar">
+
+
+
+        <div class="MsoBold">
+            درس سوم:
+            <br>
+            قضیهٔ نیم‌سازهای زاویه‌ای داخلی و محاسبهٔ طول نیم‌سازها</div>
+        
+        <div class="MsoBold">۱- قضیهٔ نیم‌سازهای زاویه‌ای داخلی</div>
+        <div class="boxb">
+            <p class="MsoSemi"><mark>قضیه 1:</mark></p>
+            <p class="MsoNormal">
+                در هر مثلث، نیم‌ساز هر زاویهٔ داخلی، ضلع روبه‌رو به آن زاویه را به نسبت اندازه‌های ضلع‌های آن زاویه تقسیم می‌کند.
+            </p>
+            <br>
+            <p class="MsoNormal" style="text-align: center;">
+            
+                
+                حکم: $\quad$  $\dfrac{AB}{AC} = \dfrac{BD}{CD}$
+
+                فرض:   $\overset{\frown}{A_1} = \overset{\frown}{A_2}$ 
+               
+            </p>
+        </div>
+        <br><br>
+
+
+
+
+        <p class="MsoSemi" style="font-size:larger;">اثبات:</p>
+        <p class="MsoNormal">
+            مطابق شکل از نقطهٔ $C$ خطی موازی نیم‌ساز $AD$ رسم می‌کنیم تا امتداد $AB$ را در نقطهٔ $E$ قطع کند.
+        </p><br>
+
+        <p class="MsoNormal">(الف) چرا $ \overset{\frown}{A_1} = \hat{E}$ و چرا $ \overset{\frown}{A_2} = \hat{C}$؟</p>
+        <br>
+        <p class="MsoNormal">
+            (ب) با توجه به فرض، چه نتیجه‌ای دربارهٔ زاویه‌های $E$ و $C$ می‌توان گفت؟ 
+            <br>
+            مثلث $AEC$ چه نوع مثلثی است؟
+        </p>
+        <br>
+        <p class="MsoNormal">
+            (پ) با توجه به قضیهٔ تالس در مثلث  $(AD \parallel EC)$ $EBC$ نسبت $\dfrac{BD}{CD}$ با کدام نسبت برابر است؟ با توجه به نتیجهٔ قسمت (ب) اثبات را کامل کنید:
+        </p>
+
+        <p class="MsoNormal">
+            $$
+            
+            AD \parallel EC \Rightarrow \dfrac{BD}{CD} = \frac{AB}{ \cdots } = \dfrac{ \cdots }{ \cdots }  
+            
+            $$
+        </p>
+        <br>
+        <p class="MsoNormal">یکی از نتایج فوری این قضیه این است که در هر مثلث به سادگی می‌توان طول‌های قطعه‌ای را که هر نیم‌ساز روی ضلع مقابل ایجاد می‌کند با داشتن طول‌های ضلع‌های مثلث، محاسبه کرد:</p>
+        <br>
+        <p class="MsoSemi" style="font-size: larger;">مثال:</p>
+        <p class="MsoNormal">
+            در مثلث $AC = 5 $، $AB = 7$، $ABC$ و $BC = 8$ است. طول‌های دو قطعه‌ای را به‌دست آورید که نیم‌ساز زاویهٔ $B$ روی ضلع مقابل ایجاد می‌کند.
+        </p>
+        <br>
+        <p class="MsoSemi">حل:</p>
+        <p class="MsoNormal" style="text-align: left;">
+
+            $
+            \begin{align*}
+
+
+            & \quad \dfrac{AB}{BC} = \dfrac{AD}{CD} = \dfrac{7}{8}  \\ \\
+           
+            & \Rightarrow \dfrac{AD + CD}{CD} = \dfrac{7 + 8}{8}  \\ \\
+            & \Rightarrow \dfrac{AC}{CD} = \dfrac{15}{8} \\ \\
+      
+            & \Rightarrow CD = \dfrac{8 \times 5}{15} = \dfrac{8}{3} \\ \\
+            & , \quad AD = AC - CD = 5 - \dfrac{8}{3} =  \dfrac{7}{3}
+
+
+
+            \end{align*}
+            $
+        </p>
+
+
+<br><hr><br>
+
+
+<div class="MsoStep">کاردرکلاس</div>
+<p class="MsoNormal">
+    در شکل روبرو، نیم‌ساز زاویهٔ $C$ را رسم کنید و طول‌های دو قطعه‌ای را به‌دست آورید که این نیم‌ساز روی $AB$ جدا می‌کند.
+</p>
+<br><hr>
+<br>
+<div class="MsoBold">۲- محاسبهٔ طول نیم‌سازهای زاویه‌ای داخلی مثلث</div>
+<p class="MsoNormal">
+    در مثلث $ABC$ برای محاسبهٔ طول نیم‌ساز داخلی زاویهٔ $\hat{A}$ $(\hat{A}_1 = \hat{A}_2)$، یعنی $AD$، $AD$ را امتداد می‌دهیم تا دایرهٔ محیطی مثلث را در $E$ قطع کند و به $C$ وصل می‌کنیم:
+</p>
+<br>
+<p class="MsoNormal">(الف) چرا $\hat{E} = \hat{B}$؟</p>
+<br>
+<p class="MsoNormal">
+    (ب) 
+   چرا مثلث های $ABD$ و $AEC$ متشابه اند؟
+
+</p><br>
+<p class="MsoNormal">(پ) نسبت‌های اضلاع متناظر آنها را بنویسید.</p>
+<p class="MsoNormal">
+    $$\dfrac{AC}{\cdots} = \dfrac{AE}{ \cdots } = \cdots$$
+</p>
+<br>
+<p class="MsoNormal">(ت) از تناسب اول نتیجه می‌گیریم:</p>
+<p class="MsoNormal">
+    $$AB \cdot AC = AD \cdot AE = AD(AD + DE) = AD^2 + AD \cdot DE$$
+</p>
+<br>
+<p class="MsoNormal">و چون $AD \cdot DE = BD \cdot DC$ 
+    
+    (چرا؟) 
+    <br><br>
+
+
+    بنابراین:</p>
+<p class="MsoNormal">$$AD^2 = AB \cdot AC - BD \cdot DC$$</p>
+<br>
+<div class="boxb">
+    <p class="MsoSemi"><mark>قضیهٔ ۲:</mark></p>
+    <p class="MsoNormal">
+        در هر مثلث، مربع اندازهٔ هر نیم‌ساز داخلی برابر است با حاصل‌ضرب اندازهٔ دو ضلع زاویه، منهای حاصل‌ضرب اندازهٔ دو نیم‌ساز روی ضلع مقابل ایجاد می‌کند.
+    </p>
+</div>
+<br><br>
+
+
+
+<p class="MsoSemi" style=font-size:larger>مثال:</p>
+<p class="MsoNormal">
+    در مثلث $AC = 5$، $AB = 3$، $ABC$ و $BC = 7$ است.
+    
+    طول نیمساز زاویه $A$ را بیابید. 
+</p>
+<br><br>
+
+<p class="MsoSemi">حل:</p>
+<p class="MsoNormal">
+    به کمک قضیهٔ (۱) طول‌های $BD$ و $CD$ را به‌دست می‌آوریم:
+</p>
+<br>
+<p class="MsoNormal" style="text-align: left;">
+
+    $
+    
+
+    \begin{align*}
+    & \quad \ \ \dfrac{BD}{CD} = \dfrac{AB}{AC} = \dfrac{3}{5} \\ \\ 
+    & \Rightarrow \dfrac{BD + CD}{CD} = \dfrac{8}{5}  \\ \\ 
+
+
+    & \Rightarrow \dfrac{BC}{CD} = \dfrac{8}{5} \\ \\
+    & \Rightarrow \dfrac{7}{CD} = \dfrac{8}{5} \\ \\ 
+    
+    
+    
+    & \Rightarrow CD = \dfrac{35}{8}  \\ \\ 
+    &  , \quad BD = 7 - \dfrac{35}{8} = \dfrac{21}{8} \\ \\ 
+    
+
+    \end{align*}
+    $
+
+</p>
+    
+    <br>
+    <p class="MsoNormal">
+        حال با توجه به قضیه (۲) داریم:
+
+    </p>
+    <br>
+
+
+<p class="MsoNormal" style="text-align: left;">
+
+$
+    
+\begin{align*}
+
+
+& \quad AD^2 = AB \cdot AC - BD \cdot CD \\ \\
+& \Rightarrow 3 \times 5 - \dfrac{35}{8}  \times \dfrac{21}{8} \\ \\
+& \Rightarrow 15 - \dfrac{735}{64} = \dfrac{225}{64} \\ \\
+& \Rightarrow AD = \dfrac{15}{8}
+
+
+\end{align*}
+
+$
+
+</p>
+
+<br><hr><br>
+
+
+
+<div class="MsoStep">تمرین</div>
+<p class="MsoNormal">
+    ۱- در مثلث $M$، $ABC$ وسط $BC$ و $MP$ و $MQ$ نیم‌سازهای زاویه‌های $AMC$ و $AMB$ هستند؛ ثابت کنید: $PQ \parallel BC$.
+</p>
+<br><br>
+<p class="MsoNormal">
+    ۲- در مثلث $AB = 7$، $ABC$ و $AC = 4$ و $BC = 10$ است. طول نیم‌ساز زاویهٔ داخلی $C$ را به‌دست آورید.
+</p>
+<br><br>
+<p class="MsoNormal">
+    ۳- با پر کردن جاهای خالی با فرض اینکه در شکل مقابل $AD$ نیم‌ساز زاویهٔ $\hat{A}$ است، روش دیگری برای اثبات قضیهٔ نیم‌سازهای زاویه‌ای داخلی ارائه کنید:
+</p>
+<br>
+<p class="MsoNormal">(الف) چرا $DH = DH'$؟</p>
+<br>
+<p class="MsoNormal">(ب)</p>
+<p class="MsoNormal">
+    $$\dfrac{S_{ABD}}{S_{ACD}} = \dfrac{\dfrac{1}{2} \times DH' \times \cdots}{\dfrac{1}{2} \times DH \times \cdots} = \dfrac{\cdots}{\cdots} \qquad (۱)$$
+</p>
+<br>
+<p class="MsoNormal">
+    $$\dfrac{S_{ABD}}{S_{ACD}} = \dfrac{\dfrac{1}{2} \times BD \times \cdots}{\dfrac{1}{2} \times CD \times \cdots} = \dfrac{\cdots}{\cdots} \qquad (۲)$$
+</p>
+<br><br>
+<p class="MsoNormal">
+    از مقایسهٔ (۱) و (۲) نتیجه می‌شود: $$\dfrac{\cdots}{\cdots} \ \ = \ \ \dfrac{\cdots}{\cdots}$$
+</p>
+
+<br><br>
+
+
+
+
+
+
+
+
+<br><br><br><br><br>
+
+
+    </body>
+
+
+</html>

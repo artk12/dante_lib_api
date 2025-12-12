@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #badaff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .box {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+    <body class="custom-scrollbar">
+
+        <p class="MsoBold">
+            <p class="MsoBold">
+
+                درس چهارم: فقط برای تو
+                
+                  </p>
+                
+                <p class="MsoNormal">بگو همانا نماز و عبادتهایم و زندگی و مرگم فقط برای خداست که پروردگار جهانیان است.</p><br>
+                
+                <p class="MsoNormal">در درس گذشته با سبک زندگی توحیدی و نیز آثار سوء شرک در زندگی آشنا شدیم. اکنون شایسته است بدانیم چگونه میتوان به سوی پرستش خالصانه این خدای بیهمتا گام نهاد و یک زندگی توحیدی را تجربه نمود و آنگونه که خداوند میپسندد، زندگی کرد.</p><br>
+                
+                <br><hr><br>
+                
+                <p class="MsoStep">تدّبر در قرآن</p>
+                <p class="MsoNormal">خدای بینیاز که جز کمال و سعادت بندگانش را نمیخواهد، در کلامی به پیامبر میفرماید:</p><br>
+                <p class="MsoNormal">قُلْ إِنَّمَا أَعِظُكُم بِوَاحِدَةٍ أَن تَقُومُوا لِلَّهِ مَثْنَىٰ وَفُرَادَىٰ...١<br>(به بندگانم) بگو شما را فقط یک موعظه میکنم، [و آن] اینکه به صورت گروهی و فردی برای خدا قیام کنید...</p><br>
+                <p class="MsoNormal">أَلَمْ أَعْهَدْ إِلَيْكُمْ يَا بَنِي آدَمَ أَن لَّا تَعْبُدُوا الشَّيْطَانَ إِنَّهُ لَكُمْ عَدُوٌّ مُّبِينٌ * وَأَنِ اعْبُدُونِي هَٰذَا صِرَاطٌ مُّسْتَقِيمٌ٢<br>ای فرزندان آدم، آیا از شما پیمان نگرفته بودم که شیطان را نپرستید که او دشمن آشکار شماست؟ و اینکه مرا بپرستید [که] این راه مستقیم است؟</p><br>
+                <p class="MsoNormal">با تفکر در این آیات توضیح دهید که:<br> 1ــ مقصود از قیام گروهی و قیام فردی چیست؟ برای هر کدام نمونه هایی ذکر کنید.<br> 2ــ آیا میان عبارت «َا ِن اعبُدونی» و «َان تَقوموا ِللِّٰه» رابطه ای می بینید؟ توضیح دهید.</p>
+                
+                <br><hr><br>
+                
+                <p class="MsoNormal">قبلاً آموختیم که هدف خلقت انسان تقّرب به خداست و این تقّرب بدون تلاش خود انسان به دست نمی آید. انسان، همواره بر سر دوراهی بندگی خداوند و بندگی هوای نفس و شیطان قرار دارد و زندگی، صحنه انتخاب یکی از این دو راه است. آن کس که راه توحید را برمیگزیند و در پی آن اندیشه و دل و عمل خویش را برای رضای حضرت دوست قرار میدهد، خطراتی او را تهدید میکند و احتمال انحراف از توحید برای او هست. در روایتی از پیامبر اکرم آمده است که راهیابی شرک به دل انسان از راه رفتن مورچه ای سیاه در شب تاریک بر تخته سنگی سیاه پنهان تر است.٣ پس باید ببینیم چگونه از حریم دل پاسبانی کنیم تا آفت شرک به آن راه نیابد و عمل ما خالص برای خداوند انجام شود.</p><br>
+                <p class="MsoNormal">
+                  پاسبان حرم دل شده ام شب همه شب
+                  <br>
+                  تا در این پرده جز اندیشه او نگذارم
+                  <br>
+                
+                </p>
+                
+                <br><hr><br>
+                
+                <p class="MsoStep">اخلاص در بندگی</p>
+                <p class="MsoNormal">اخلاص به معنی خالص کردن و پاک کردن یک چیز از غیر آن است. این کلمه در کاربرد دینی بدین معناست که شخص عملش را فقط برای رضای خداوند و همانگونه که او دستور داده است، انجام دهد. در اسلام، اخلاص شرط قبولی تمامی اعمالی است که فرد به درگاه خداوند عرضه میدارد.</p><br>
+                <p class="MsoNormal">اخلاص مانند دوست داشتن، سخاوت و شجاعت درجات و مراتبی دارد. همانگونه که در ارزشگذاری طلا، عیار یا درصد خلوص آن اهمیت دارد، اعمال انسان نیز هرچه با اخلاص بالاتری همراه باشد، ارزش بیشتری دارد. مهم این است که انسان تلاش کند تا عمل خود را روز به روز برای خداوند خالصتر گرداند. بر همین اساس پیامبر اکرم میفرماید:</p><br>
+                <p class="MsoNormal">«مؤمنان، با توجه به مراتب اخلاصشان، بر یکدیگر برتری پیدا میکنند.»1</p><br>
+                <p class="MsoNormal">توجه کنیم که هر عملی از دو جزء تشکیل شده است؛ اول: نیت که به آن هدف یا قصد نیز میگوییم. دوم: شکل و ظاهر عمل.</p><br>
+                <p class="MsoNormal">قصد و نیت به منزله روح عمل است و شکل عمل نیز در حکم بدن و کالبد آن روح میباشد. بنابراین، عمل بدون نیت، کالبد بیجانی بیش نیست. به همین جهت رسول خدا میفرماید:</p><br>
+                <p class="MsoNormal">نِيَّةُ الْمُؤْمِنِ خَيْرٌ مِنْ عَمَلِهِ2<br>نیت مؤمن از عمل او برتر است.</p><br>
+                <p class="MsoNormal">و نیز به خاطر همین جایگاه مهم و ارزشمند نیت است که ایشان فرمود:</p><br>
+                <p class="MsoNormal">إِنَّمَا الْأَعْمَالُ بِالنِّيَّاتِ3<br>همانا اعمال انسان وابسته به نیتهای اوست.</p><br>
+                
+                <br><hr><br>
+                
+                <p class="MsoStep">
+                  تفکر در حدیث
+                </p>
+                <p class="MsoNormal">امیرالمؤمنین علی میفرماید:<br><br> فَاعِلُ الْخَيْرِ خَيْرٌ مِنْهُ؛ وَفَاعِلُ الشَّرِّ شَرٌّ مِنْهُ.<br><br>انجام دهنده کار نیک، از آن کار بهتر است و انجام دهنده کار شر، از آن شر بدتر است. در این سخن حکیمانه تفکر کنید و رابطه آن را با اخلاص توضیح دهید.</p>
+                
+                <br><hr><br>
+                
+                <p class="MsoNormal">انسان مؤمن، علاوه بر اینکه میکوشد نیت خود را خالص کند و عمل را به خاطر خدا انجام دهد، تلاش میکند عمل را به همان صورت که خداوند دستور داده است، انجام دهد؛ یعنی عمل را از جهت کمیت، کیفیت، زمان، مکان و شیوه همانطوری انجام دهد که خداوند میخواهد؛ مثلاً اگر خداوند امر فرموده که نماز صبح در دو رکعت و با یک رکوع و دو سجده در هر رکعت و قبل از طلوع آفتاب انجام شود، انسان مؤمن نیز تلاش میکند نماز خود را به همین صورت انجام دهد تا صحیح و درست انجام داده باشد. پس در هر عملی باید دو «حسن» موجود باشد: حسن فاعلی و حسن فعلی. حسن فاعلی بدین معناست که انجام دهنده کار، دارای نیت الهی باشد. حسن فعلی نیز بدین معناست که کار به درستی و به همان صورت که خداوند فرمان داده است انجام شود.</p>
+                
+                <br><hr><br>
+                
+                <p class="MsoStep">تطبیق</p>
+                <p class="MsoNormal">با توجه به تعریف بالا از حسن فاعلی و حسن فعلی، موارد زیر را بررسی کنید:<br><br>١ــ آیا ممکن است عملی دارای حسن فعلی باشد اما حسن فاعلی نداشته باشد؟ و یا برعکس، حسن فعلی نداشته باشد ولی دارای حسن فاعلی باشد؟ مثال بزنید.<br><br>2ــ اگر فردی تنها برای لاغر شدن و یا سلامت جسم روزه بگیرد روزه اش درست است؟<br><br>3ــ اگر کسی به نیت شرکت در نماز جماعت مسجد از منزل بیرون بیاید و به دلیل مانعی نتواند به مسجد برسد، آیا نزد خدا پاداش دارد؟ به چه دلیل؟ در این کار کدامیک از اقسام حسن وجود دارد؟</p>
+                
+                <br><hr><br>
+                
+                <p class="MsoStep">بررسی</p>
+                <p class="MsoNormal">با توجه به اینکه ریا در مقابل اخلاص قرار میگیرد، بررسی کنید که هر یک از موارد زیر مصداق ریا قرار میگیرد یا مصداق اخلاص؟<br>1ــ حضور در نماز جماعت<br>2ــ کمک به افراد نیازمند در حضور دیگران</p>
+                
+                <br><hr><br>
+                
+                <p class="MsoStep">راههای تقویت اخلاص</p>
+                <p class="MsoNormal">برای تقویت اخلاص در وجود خود راههایی وجود دارد که چند مورد از آن را در اینجا میآوریم:</p><br>
+                <p class="MsoNormal">1ــ افزایش معرفت و شناخت نسبت به خداوند: پیوند محکمی میان معرفت به خداوند و ایمان به او وجود دارد. همچنین ارتباط دقیقی میان ایمان به خدا و اخلاص برقرار است. بنابراین، هر قدر که معرفت ما به خداوند بیشتر شود به افزایش درجه اخلاص کمک خواهد کرد. پس خوب است ساعاتی را صرف تفکر در آیات و نشانههای الهی کنیم تا بیشتر دریابیم که:</p><br>
+                <p class="MsoNormal">آفرینش همه تنبیه خداوند دل است<br>دل ندارد که ندارد به خداوند اقرار<br>این همه نقش عجب بر در و دیوار وجود<br>هر که فکرت نکند نقش بود بر دیوار1</p><br>
+                <p class="MsoNormal">البته اگر کسی گرفتار غفلت شد و چشم اندیشه را به روی جهان بست، آیات الهی را نخواهد یافت و دل به مهر او نخواهد داد.</p><br>
+                <p class="MsoNormal">مهر رخسار تو میتابد ز ذرات جهان<br>هر دو عالم پر ز نور و دیده نابینا، چه سود</p>
+                
+                <br><hr><br>
+                
+                <p class="MsoStep">توجه به یک نکتۀ مهم</p>
+                <p class="MsoNormal">
+                  عمل براساس معرفت و آگاهی بسیار ارزشمندتر و مقدستر از عملی است که در آن معرفتی نیست و یا با معرفت اندکی صورت میگیرد. نمازی که با معرفت انجام بگیرد، نزد خداوند بسیار ارزشمندتر از نمازی است که به جا آورنده آن نمیداند چه میگوید و برای چه میگوید. حتی گاه پیش میآید که انسانهای نادان به تصور اینکه کار خیر میکنند، مرتکب گناهان بزرگ میشوند.</p>
+                
+                <br><hr><br>
+
+
+
+                <p class="MsoStep">بیشتر بدانیم</p>
+                <p class="MsoNormal">
+                در سالهای اخير، وقتی نهضت بيداری اسلامی در کشورهای مسلمان خاورميانه و شمال آفريقا آغاز شد و مسلمانان برای آزادی از حکومتهای مستبد و تابع غرب قيام کردند، سازمانهای مخفی در آمريکا و اروپا و برخی حاکمان کشورهای اسلامی، يک جريان افراطی و انحرافی را که افکاری بسيار مخرب داشتند وارد قيام مسلمانان کردند. آنان نيز توانستند بسياری از جوانانی را که فقط تعصب دينی داشتند اما از معرفت صحيح دينی بی بهره بودند، به سوی خود جذب کنند و با استفاده از اين نيروهای با انگيزه، اما ناآگاه، جهت مبارزه را تغيير دهند و به جای مبارزه با دشمنان به کشتن مسلمانان در جهان اسلام بپردازند؛ در نتيجه، بسياری از سرزمينهای اسلامی در اين جنگها و کشمکشها به ويرانه تبديل شد. رسانه های کشورهای استعماری هم از اين فرصت استفاده کردند و خشونتهای آنان را به نام اسلام در دنيا پخش نمودند، به طوری که تا امروزه بسياری از مردم جهان وقتی نام اسلام را می شنوند آن را با سر بريدن، ويران کردن و جاهليت مساوی می پندارند.
+                </p>
+                <br><hr><br>
+                <p class="MsoNormal">راز و نیاز با خداوند و کمک خواستن از او</p>
+                <p class="MsoNormal">
+                نيايش و عرض نياز به پيشگاه خداوند و ياری جستن از او برای رسيدن به اخلاص، غفلت از خداوند را کم می کند، محبت او را در قلب تقويت می سازد و انسان را از کمکهای الهی بهره مند می نمايد.
+                </p>
+                <br><br>
+                <p class="MsoNormal">دوری از گناه و تلاش برای انجام واجبات</p>
+                <p class="MsoNormal">
+                گناه، ريشه درخت اخلاص و بندگی را می سوزاند و آن را به تدريج از بين می برد، به همين جهت اميرالمؤمنين علی می فرمايد: «تمام اخلاص در دوری از گناهان جمع شده است.» از طرف ديگر، توجه به واجبات، درخت اخلاص را آبياری می کند و رشد می دهد. در ميان اعمال واجب، روزه تأثير خاصی در تقويت اخلاص دارد. اميرالمؤمنين علی می فرمايد: «خداوند بدان جهت روزه را واجب کرد تا اخلاص مردم را بيازمايد.»
+                </p>
+                <br><hr><br>
+                <p class="MsoStep">میوه های درخت اخلاص</p>
+                <p class="MsoNormal">1ــ دستیابی به درجاتی از حکمت</p>
+                <p class="MsoNormal">
+                حکمت، به معنای علم محکم و استوار و به دور از خطاست که هدف درست و راه رسيدن به آن را نشان می دهد و مانع لغزشها و تباهیها می شود. انسان حکيم، به درجاتی از بصيرت و روشنبينی می رسد که می تواند در شرايط سخت و پيچيده، حق را از باطل تشخيص دهد و گرفتار باطل نشود. خداوند در قرآن کريم، علاوه بر آنکه لقمان را به داشتن حکمت، توصيف کرده، سفارشهای ارزنده و حکيمانه ای از ايشان نقل کرده است. پيامبر اکرم می فرمايد: «هرکس چهل روز کارهای خود را خالصانه برای خدا انجام دهد، چشمه های حکمت از قلبش بر زبانش جاری خواهد شد.»
+                </p>
+                <br><br>
+                <p class="MsoNormal">2ــ نفوذناپذیری در برابر وسوسه های شیطان</p>
+                <p class="MsoNormal">
+                اگر انسان در اخلاص پيش رود، به مرحله ای می رسد که ديگر فريب وسوسه های شيطان را نمی خورد، چرا که شيطان، خود اقرار کرده است که توانايی فريب دادن مؤمنان با اخلاص را ندارد.
+                </p>
+                <br><br>
+                <p class="MsoNormal">برو این دام بر مـرغی دگر نـه کـه عنقا را بلند است آشیانه</p>
+                <br><hr><br>
+                <p class="MsoStep">بررسی</p>
+                <p class="MsoNormal">
+                یکی از اوصافی که خداوند در قرآن برای حضرت یوسف ذکر کرده، داشتن اخلاص و رسیدن به مقام مخلَصین است. با بررسی آیات 32 تا 34 سوره یوسف بگویید شیطان چه دامی برای حضرت یوسف گسترده بود و او چگونه توانست از این دام نجات یابد؟
+                </p>
+                <br><hr><br>
+                <p class="MsoNormal">
+                شیطان امروزه نیز، از همان نوع دامی که برای کشاندن حضرت یوسف به گناه و فساد گسترده بود، به صورتهای گوناگون برای انسانها پهن کرده است تا هوس زودگذر آنها را تحریک کند و به گناه بکشاند و آنان را از بهشت جاویدان محروم سازد. فیلمها، وبگاهها، شبکه های ماهواره ای گمراه کننده، شبکه های مجازی ناسالم و گروهها و دسته های منحرف اجتماعی از جمله این دامهاست که مقاومت در برابر آنها نیازمند روی آوردن به پیشگاه خداوند و پذیرش خالصانه فرمانهای اوست. کسی که در چنین دامهایی گرفتار شود، هم زندگی پاک و با نشاط دنیا را از دست خواهد داد و هم حیات سرشار از شادکامی آخرت را.
+                </p>
+                <br>
+                <p class="MsoNormal">3ــ دریافت پاداش های وصف نشدنی</p>
+                <p class="MsoNormal">
+                بندگی خالصانه خداوند پاداشهایی دارد که چه بسا در ذهن ما نگنجد و از تصور و تخیل ما فراتر رود. از جمله این پاداشهای وصف نشدنی، دیدار محبوب حقیقى و تقرب به پیشگاه كسى است كه بنا به تعبیر امیرمؤمنان، «نهایت آرزوی عارفان، دوست دلهای صادقان، ولی مؤمنان و معبود عالمیان است.» کافی است به زندگی زیبای رسول خدا، امیرالمؤمنین علی، فاطمه زهرا و دیگر پیشوایان خود نظر بیفکنیم و ببینیم که چگونه از راه بندگی خالصانه خدا، این همه خوبی و زیبایی و آن مقام قرب و نزدیکی به محبوب را به دست آورده اند.
+                </p>
+
+
+
+<br><br><br><br><br>
+
+
+
+
+
+
+
+    </body>
+
+
+</html>

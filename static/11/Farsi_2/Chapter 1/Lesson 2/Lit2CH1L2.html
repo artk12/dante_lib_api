@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: "Nastaliq";
+            src: url('nas.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+      
+        li.MsoNormal,
+        div.MsoNormal,
+        ul.MsoNormal,
+        ol.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+            
+        }
+        p.MsoNas
+         {
+            margin: 0.5em;
+            
+            font-size: clamp(1.5rem, 1.7vw, 2rem);
+            font-family: "Nastaliq";
+            line-height: 2.3em;
+            color: #dcd7e0;
+            text-align: center;
+         letter-spacing: 0em;
+         word-spacing: 0.4em;
+            
+        }
+        p.MsoNormal
+         {
+            margin: 0in;
+           
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-indent: 1em;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi {
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSemic,
+        li.MsoSemic,
+        div.MsoSemic {
+            margin: 0in;
+           
+            font-size: clamp(1.2rem, 1.6vw, 1.3rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #b19af2;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #6ca4ec;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+        span.uline{
+            border-bottom: 0.1em solid #64E9E1;
+        }
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .boxp {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .boxg {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#00f2ff11; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        .boxb {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#0c4e9f2d; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        ::selection {
+            background-color: #59078fa1; /* Change this to your desired highlight color */
+            color: #ffffff; /* Change this to your desired text color */
+          }
+
+
+          mark{
+            background-color:#078b8fa1 ;
+            color: #ffffff;
+            padding: 0 7px;
+        }
+
+        .hlg { background-color: rgba(0, 234, 255, 0.334);  }
+        .hlp { background-color:#5f1487; }
+      
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+    <body class="custom-scrollbar">
+
+
+        <p class="MsoBold">درس دوم :
+            قاضی بست</p>
+
+        <p class="MsoNormal">
+            و روز دوشـنبه [امیرمسـعود] شـبگیر، برنشسـت و به کران ِ رودِ هیرمند رفت با بازان و یوزان و
+            حَشـم و ندیمان و مُطربان؛ و تا چاشـتگاه به صید مشـغول بودند. پس، به کران ِ آب فرود آمدند و
+            از قضای ِ آمده، پس از نماز، امیر کشتی‌ها بخواست و ناوی ده بیاوردند. يكی بزرگ‌تر، از جهت ِ خیمه
+            هـا و شِـراع‌ها زده بودند. نشست ِ او و جامه‌ها افگندند و شِراعی بر وی کشیدند. و وی آنجا رفت و
+            از هر دستی مردم در کشتی‌های دیگر بودند؛ ناگاه، آن دیدند که چون آب نیرو کرده بود و کشتی
+            پُر شده، نشستن و دریدن گرفت. آن گاه آگاه شدند که غَرقه خواست شد. بانگ و هَزاهز و غریو
+            خاست. امیر برخاست. و هنر آن بود که کشتی‌های دیگر به او نزدیک بودند. ایشان درجَستند
+            هفت و هشت تن، و امیر را دَوال پوست و گوشت بگسست و هیچ نمانده بود از غَرقه شدن.
+            امّا ایزد رحمت کرد پس از نمودن ِ قدرت. و سوری و شادی‌ای به آن بسیاری، تیره شد و چون
+            امیر به کشتی رسید، کشتی‌ها براندند و به کرانۀ رود رسانیدند.
+        </p>
+        <p class="MsoNormal">
+            و امیر از آن جهان آمده، به خیمه فرود آمد و جامه بگردانید و تَر و تباه شـده بود و برنشسـت و
+            به زودی به کوشـک آمد که خبری سـخت ناخوش در لشـکرگاه افتاده بود و اضطرابی و تشویشـی
+            بـزرگ بـه پـای شـده و اَعیـان و وزیر بـه خدمت ِ اسـتقبال رفتند. چون پادشـاه را سلامت یافتند،
+            خـروش و دعـا بـود از لشـکری و رعیّت و چنـدان صدقه دادند کـه آن را اندازه نبود.
+        </p>
+        <p class="MsoNormal">
+            و دیگـر روز، امیـر نامـه هـا فرمـود به غَزنیـن و جملۀ مملکت بـر این حادثۀ بـزرگ و صَعب که
+            افتـاد و سلامت کـه به آن مَقرون شـد و مثـال داد تا هزار هزار دِرَم به غَزنیـن و دو هزار هزار دِرَم به
+            دیگر ممالک، به مسـتَح ِ قّان و درویشـان دهند شُکرِ این را، و نبشـته آمد و به توقیع، مؤکَّد گشـت
+            و مُبشـّران برفتند.
+        </p>
+        <p class="MsoNormal">
+            و روز پنـج شـنبه، امیـر را تـب گرفت؛ تب ِ سـوزان و سَرسـامی افتاد، چنان که بار نتوانسـت داد
+            و محجـوب گشـت از مردمـان، مگـر از اطبّـا و تنـی چند از خدمتـکاران ِ مرد و زن و دل‌ها سـخت
+            متحیّـر شـد تا حال چون شـود.
+        </p>
+        <p class="MsoNormal">
+            تـا ایـن عارضـه افتـاده بود، بونصر نامه‌های رسـیده را، بـه خطِّ خویش، نُکَت بیـرون می‌آورد و
+            از بسـیاری نُکَت، چیزی که در او کَراهیَتی نبود، می‌فرسـتاد فرودِ سـرای، به دسـت ِ من و من به
+            آغاجـی ِ خـادم مـی‌دادم و خیرخیـر جواب مـی‌آوردم و امیر را هیچ ندیدمی تـا آن گاه که نامه‌ها آمد
+            ها پیش بردم و بشـارتی بود. آغاجی بسـتَد و پیش بُرد.
+        </p>
+        <p class="MsoNormal">
+            از پسـران علـی تکیـن و مـن نُکَـت آن نامه‌ها پیش رفتـم. یافتـم خانـه تاریک کـرده و پرده هـای کَتّان
+            آویخته و تَر کرده و بسـیار شـاخه‌ها نهـاده و تاس هـای بـزرگ ِ پُریَخ بـر زَبَرِ آن و امیر را یافتم آنجا
+            بر زَبَرِ تخت نشسـته، پیراهن ِ توزی، مِخنَقـه در گـردن، عِقـدی همه کافـور و بوالعَای ِ طبیب آنجا
+            زیرِ تخت نشسـته دیدم.
+        </p>
+        <p class="MsoNormal">
+            گفـت: «بونصـر را بگـوی که امروز دُرُسـتم و در این دو سـه روز، بـار داده آید که علّت و تب تمامی
+            زایل شد.»
+        </p>
+        <p class="MsoNormal">
+            عَزَّ وَجَـل بـر سلامت ِامیـر، و نامه نبشـته آمد. نزدیـک ِآغاجی بُـردم و راه یافتم، تا سـعادت ِدیدارِ من بازگشـتم و این چه رفت، با بونصر بگفتم. 
+            سـخت شـاد شـد و سـجدۀ شـکر کرد خدای را همایون ِ خداوند، دیگر باره یافتم و آن نامه را بخواند و دوات خواسـت و توقیع کرد و گفت: «چون 
+            نامه‌ها گُسـیل کرده شـود، تـو باز آی که پیغامی سـت سـوی ِ بونصـر در بابی، تـا داده آید.» گفتم: «چنیـن کنـم.» و بازگشـتم بـا نامۀ توقیعـی و این حال ها را بـا بونصر بگفتم.
+        </p>
+        <p class="MsoNormal">
+            و ایـن مـردِ بـزرگ و دبیـرِ کافی، به نشـاط، قلم درنهاد. تـا نزدیک نمازِ پیشـین، از این مهمّات فارغ شـده بود و خَیلتاشـان و سـوار را گُسـیل کرده. 
+            پس، رُقعَتی نبشـت به امیر و هر چه کرده بود، باز نمـود و مرا داد.
+        </p>
+        <p class="MsoNormal">
+            و ببُـردم و راه یافتـم و برسـانیدم و امیـر بخوانـد و گفـت: «نیـک آمد» و آغاجی ِ خـادم را گفت: «کیسـه‌ها بیاور!» و مرا گفت: «بسـتان؛ 
+            در هرکیسـه، هزار مثقال زَرِ پاره اسـت. بونصر را بگوی که زَرهاسـت کـه پـدرِ مـا از غَزوِ هندوسـتان آورده اسـت و بُتان ِ زَریّـن شکسـته 
+            و بگداخته و پاره کـرده و حال تـرِ مال هاسـت. و در هـر سـفری مـا را از ایـن بیارنـد تـا صدقه‌ای کـه خواهیم کرد شُبهَت باشـد، از این فرماييم؛ 
+            و می شـنویم که قاضی ِ بُسـت، بوالحسن ِ بولانی و پسرش بوبکر سـخت تنگدسـت‌اند و از کس چیزی نسـتانند و اندك مایه ضَیعَتی دارند. 
+            یک کیسـه به پدر باید داد و یک کیسـه به پسـر، تا خویشـتن را ضَیعَتَکی حال خرند و فَراخ‌تر بتوانند زیسـت و ما حَقّ ِاین نعمت ِ تندرسـتی 
+            کـه بازیافتیم، لَختی گزارده باشـیم.»
+        </p>
+        <p class="MsoNormal">
+            مـن کیسـه‌ها بسـتَدم و به نزدیک ِبونصـر آوردم و حال بازگفتم. دعا کـرد و گفت: «خداوند این سـخت نيكو کرد و شـنوده‌ام که ابوالحسـن و پسـرش وقت باشـد که به ده دِرَم درمانده‌اند.» 
+            و به خانه بازگشـت و کیسـه‌ها با وی بُردند و پس از نماز، کس فرسـتاد و قاضی بوالحسـن و پسـرش را بخوانـد و بیامدنـد. بونصر، پیغام امیر به قاضی رسـانید.
+        </p>
+        <p class="MsoNormal">
+            بسـیار دعـا کـرد و گفـت: «ایـن صِلَت فخر اسـت. پذیرفتـم و بـاز دادم که مرا به کار نیسـت و قیامت سـخت نزدیک اسـت، حسـاب ِاین نتوانم داد و نگویم که مرا سـخت دربایسـت نیسـت امّا 
+            چـون بـه آنچـه دارم و انـدک اسـت، قانعـم، وِزر و وَبال ِ این، چه بـه کار آید؟»
+        </p>
+        <p class="MsoNormal">
+            بونصـر گفـت: «ای سُبحانَ الله! زَری کـه سـلطان محمـود بـه غَـزو از بتخانه‌ها به شمشـیر بیـاورده باشـد و بتـان شکسـته و پـاره کـرده و آن را امیرالمؤمنین مـی روا دارد سـتدن، آن، قاضی 
+            همی نسـتانَد؟!»
+        </p>
+        <p class="MsoNormal">
+            گفـت: «زندگانـی ِ خداونـد دراز بـاد؛ حال ِ خلیفه دیگر اسـت که او خداوندِ ولایت اسـت و خواجه بـا امیـر محمـود به غزوها بوده اسـت و من نبوده‌ام و بر من پوشـیده اسـت کـه آن غَزوها 
+            بر طریق ِ سـنّت ِ مصطفی هسـت یا نه. من این نپذیرم و درعهدۀ این نشـوم.»
+        </p>
+        <p class="MsoNormal">
+            گفت: «اگر تو نپذیری، به شاگردان ِ خویش و به مُستَحِقّان و درویشان ده.»
+        </p>
+        <p class="MsoNormal">
+            گفت: «من هیچ مُسـتَح ِقّ نشناسـم در بُسـت که زَر به ایشـان توان داد و مرا چه افتاده اسـت کـه زَر کسـی دیگـر بَـرَد و شـمارِ آن به قیامت مـرا باید داد؟! به هیچ حال، ایـن عهده قبول نکنم.»
+        </p>
+        <p class="MsoNormal">
+            بونصر پسرش را گفت: «تو از آن ِ خویش بستان.»
+        </p>
+        <p class="MsoNormal">
+            گفت: «زندگانـی ِ خواجـه عَمیـد دراز بـاد؛ علـیٰ اَیِّ حال، مـن نیز فرزندِ این پدرم که این سـخن گفـت و علـم از وی آموختـه‌ام و اگـر وی را یـک روز دیـده بودمـی و احوال و عادات ِوی بدانسـته، 
+            واجـب کـردی کـه در مدّت ِ عمـر پیروی ِ او کردمی؛ پس، چه جای ِ آن که سـال‌ها دیده‌ام و من هم از آن حسـاب و توقّف و پرسـش ِ قیامت بترسـم که وی می‌ترسـد و آنچه دارم از اندك مایه حُطامِ 
+            دنیا حال اسـت و کفایت اسـت و به هیچ زیادت حاجتمند نیسـتم.»
+        </p>
+        <p class="MsoNormal">
+            بونصر گفت: «لله دَرُّکُما؛ بزرگا که شـما دو تنید!» و بگریسـت و ایشـان را بازگردانید و باقی ِ روز اندیشـه‌مند بـود و از این یاد می‌کرد.
+        </p>
+        <p class="MsoNormal">
+            و دیگر روز، رُقعتی نبشت به امیر و حال باز نمود و زَر باز فرستاد.
+        </p><br>
+        <p class="MsoNormal" style="text-align: left;">$*$ تاریخ بیهقی، ابوالفضل بیهقی</p>
+        
+   
+        <br><hr><br>
+
+        <p class="MsoBold">کـارگـاه متــن پژوهــی</p>
+        <p class="MsoStep">قلمرو زبانی</p>
+    
+        <p class="MsoNormal">1. از متـن درس، بـا توجّـه به رابطۀ معنایی «تناسـب»، واژه‌های مناسـب انتخاب کنید و در جاهای خالی قـرار دهید.</p>
+        
+        <ul>
+            <li class="MsoNormal">خَيلتاش، .................. ، ..................</li>
+            <li class="MsoNormal">رُقعت، .................. ، ..................</li>
+        </ul>
+        <br><br>
+        <p class="MsoNormal">2. معادل معنایی عبارت‌های زیر را از متن درس بیابید و بنویسید.</p>
+        
+        <ul>
+            <li class="MsoNormal">فرمان داد. (...........................)</li>
+        <li class="MsoNormal">سوار اسب شد. (...........................)</li>
+        <li class="MsoNormal">اجازۀ حضور داده شود. (...........................)</li>
+        </ul>
+        <br><br>
+        <p class="MsoNormal">3. کاربرد معنایی واژة «محجوب» را در عبارت‌های زیر بررسی کنید.</p>
+        <br>
+        <ul>
+        <li class="MsoNormal">محجوب گشت از مردمان، مگر از اطبّا و... .</li>
+        <li class="MsoNormal">مردي محجوب بود و ديده و دلش از گناه به دور.</li>
+        </ul>
+        <br><br>
+        <p class="MsoNormal">4. به دو جملة زیر و تفاوت آنها توجّه کنید:</p>
+        
+        <ul>
+            <li class="MsoNormal">الف) مریم کتاب می‌خواند.</li>
+        <li class="MsoNormal">ب) کتاب خوانده می‌شود.</li>
+        </ul>
+    <br>
+    <p class="MsoNormal">
+        فعل جملة «الف» به «نهاد» و
+         فعل جملة «ب»
+          به نهادی که قبلاً مفعول بوده است، نسبت داده شـده اسـت.
+           فعل جملة «الف» را <span class="uline">«معلوم»</span> و فعل جملة دوم را <span class="uline">«مجهول»</span> 
+        می‌نامیم. با دقّت در جدول زیر، با ساخت و شیوة مجهول کردن جملة معلوم آشنا می‌شویم:
+    </p>
+    <br>
+    <table class="MsoNormal" style="margin:auto; width:fit-content; direction:rtl; text-align:center; border:1px solid black; border-collapse:collapse;">
+        <tr>
+            <th style="border:1px solid black; text-align:center;">ساخت</th>
+            <th style="border:1px solid black; text-align:center;">نهاد</th>
+            <th style="border:1px solid black; text-align:center;">مفعول</th>
+            <th style="border:1px solid black; text-align:center;">فعل</th>
+        </tr>
+        <tr>
+            <td>معلوم</td>
+            <td>مریم</td>
+            <td>کتاب</td>
+            <td>می‌خواند</td>
+        </tr>
+        <tr>
+            <td>مجهول</td>
+            <td>کتاب</td>
+            <td>$ \rightarrow $</td>
+            <td>خوانده می‌شود</td>
+        </tr>
+        <tr>
+            <td>معلوم</td>
+            <td>مریم</td>
+            <td>کتاب</td>
+            <td>خواهد خواند</td>
+        </tr>
+        <tr>
+            <td>مجهول</td>
+            <td>کتاب</td>
+            <td>$ \rightarrow $</td>
+            <td>خوانده خواهد شد</td>
+        </tr>
+    </table>
+
+    <br><br>
+
+
+    <p class="MsoNormal">
+        همان‌طور که می‌بینید در مجهول ساختن جملۀ معلوم:
+    </p>
+    <br>
+   <ul>
+    <li class="MsoNormal">
+        الف) نهاد جملۀ معلوم را حذف می‌کنیم؛
+    </li><br>
+    <li class="MsoNormal">
+        ب) مفعولِ جملۀ معلوم را در جایگاه نهاد قرار می‌دهیم؛
+    </li><br>
+    <li class="MsoNormal">
+        پ) فعل اصلی جمله را به شکل «بن ماضی + ه/ ـه» می‌نویسیم؛ سپس، از «شدن»، فعلی متناسب با زمانِ فعل اصلی می‌آوریم.
+    </li><br>
+    <li class="MsoNormal">
+        ت) در مرحلۀ آخر، شناسه فعل را با نهاد جدید، از نظر شمار (مفرد یا جمع) مطابقت می‌دهیم.
+    </li>
+   </ul>
+    <br>
+    <p class="MsoNormal">
+        توجّه: امروزه، فعل مجهول به کمک مصدر «شدن» ساخته می‌شود امّا در گذشته، با فعل‌های دیگری، مانند «آمدن» و «گشتن» نیز ساخته می‌شد.
+    </p>
+    <br>
+    <p class="MsoNormal">اکنون از متن درس، نمونه‌هایی از فعل مجهول بیابید و معادل امروزی آنها را بنویسید.</p>
+    
+    <br><hr><br>
+    
+    <p class="MsoStep">قلمرو ادبی</p>
+    <p class="MsoNormal">1. دو نمونه از ویژگی‌های نثر متن درس را بیابید.</p>
+    <br><br>
+    <p class="MsoNormal">2. در عبارت‌های زیر، «مجاز»ها را بیابید و مفهوم آنها را بنویسید:</p>
+    <br>
+   <ul>
+    <li class="MsoNormal">الف) به کرانِ آب فرود آمدند و خیمه‌ها و شراع‌ها زده بودند.</li>
+    <br>
+    <li class="MsoNormal">
+        ب) زَری که سلطان محمود به غَزو از بتخانه‌ها به شمشیر بیاورده باشد و بتان شکسته و پاره کرده.
+    </li>
+   </ul>
+    <br><hr><br>
+    
+
+    <p class="MsoStep">قلمرو فکری</p>
+    <p class="MsoNormal">1. معنی و مفهوم عبارت زیر را به نثر روان بنویسید:</p>
+    <br>
+    <ul class="MsoNormal" >امیر از آن جهان آمده به خیمه فرود آمد و جامه بگردانید.</ul>
+    <br><br>
+    <p class="MsoNormal">2. با توجّه به جملۀ زیر، به پرسش‌ها پاسخ دهید:</p>
+    <br>
+    <ul class="MsoNormal" >«این مردِ بزرگ و دبیرِ کافی، به نشاط، قلم درنهاد.»
+    <br>
+    <ul><br>
+    <li class="MsoNormal">الف) مقصود از «این مرد» چه کسی است؟</li>
+    <li class="MsoNormal">ب) «دبیرِ کافی» به چه معناست؟</li>
+    </ul>
+    <br><br>
+    <p class="MsoNormal">
+        3. گویندۀ عبارت زیر، از کدام فضیلت‌های اخلاقی برخوردار است؟
+    </p>
+    <br>
+    <p class="MsoNormal">
+        «آنچه دارم از حُطامِ دنیا حال است و کفایت است و به هیچ زیادت حاجتمند نیستم.»
+    </p>
+    <br><br>
+    <p class="MsoNormal">4. دربارۀ مناسبت مفهومی بیت زیر و متن درس توضیح دهید:</p>
+    
+    <br>
+    
+    <p class="MsoNormal" style="text-align: center;">حساب خود اینجا کن، آسوده دل شو</p>
+    <p class="MsoNormal" style="text-align: center;">میفکن به روز جزا کار خود را</p>
+    <p class="MsoNormal" style="text-align: center;">$*$ صائب تبریزی</p>
+    <br><hr><br>
+
+
+
+
+    <p class="MsoStep">  
+          شعـرخـوانی
+        : 
+        زاغ و كبك
+        </p>
+
+<br>
+<div style="text-align: center!important;">
+    $$ * \ \ 1 \ \ * $$
+    <p class="MsoNas">زاغی از آنجا که فراغی گزید</p>
+    <p class="MsoNas">رخت خود از باغ به راغی کشید</p>
+    $$ *** $$
+    <p class="MsoNas">دید یکی عرصه به دامان کوه</p>
+    <p class="MsoNas">عرضه‌ده مخزن پنهان کوه</p>
+    $$ *** $$
+    <p class="MsoNas">نادره کبکی به جمال تمام</p>
+    <p class="MsoNas">شاهد آن روضهٔ فیروزه‌فام</p>
+    $$ *** $$
+    <p class="MsoNas">هم حرکاتش متناسب به هم</p>
+    <p class="MsoNas">هم خطواتش متقارب به هم</p>
+    $$ *** $$
+    <p class="MsoNas">زاغ چو دید آن ره و رفتار را</p>
+    <p class="MsoNas">و آن روش و جنبش هموار را</p>
+    $$ * \ \ 5 \ \ * $$
+    <p class="MsoNas">باز کشید از روش خویش پای</p>
+    <p class="MsoNas">در پی او کرد به تقلید جای</p>
+    $$ *** $$
+    <p class="MsoNas">بر قدم او قدمی می‌کشید</p>
+    <p class="MsoNas">وز قلم او رقمی می‌کشید</p>
+    $$ *** $$
+    <p class="MsoNas">در پی‌اش القصه در آن مرغزار</p>
+    <p class="MsoNas">رفت براین قاعده روزی سه چار</p>
+    $$ *** $$
+    <p class="MsoNas">عاقبت از خامی خود سوخته</p>
+    <p class="MsoNas">رهروی کبک نیاموخته</p>
+    $$ * \ \ 10 \ \ * $$
+    <p class="MsoNas">کرد فرامش ره و رفتار خویش</p>
+    <p class="MsoNas">ماند غرامت‌زده از کار خویش</p>
+    </div>
+    <br><hr><br>
+    <p class="MsoStep">درک و دریافت</p>
+    <p class="MsoNormal">1. این سروده را از دید لحن و آهنگ خوانش، بررسی نمایید.</p>
+    <br>
+    <p class="MsoNormal">2. با توجه به قلمرو فکری شعر، دربارۀ ریشه‌های پیامدهای تقلیدِ نابه‌جا و کورکورانه، گفت‌وگو کنید.</p>
+   
+    
+
+    <br><br>
+
+
+
+
+
+
+<br><br><br><br><br>
+
+
+    </body>
+
+
+</html>

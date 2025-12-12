@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #badaff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #722a85;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background-color: #1abbbbe1; /* Scrollbar thumb color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color: #05ffe2;
+        }
+    </style>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+<body class="custom-scrollbar">
+
+
+    <div class="MsoBold">
+     گونه شناسی
+    </div>
+
+    <div class="MsoStep">
+        ادبیات جهان
+    </div>
+   
+    <div class="MsoNormal">
+        از ابتدای کتاب تا این فصل، هرچه خواندیم، مربوط به فضای فکری و معنوی و جغرافیایی میهن عزیزمان ایران بوده است. امّا در این فصل با متن‌ها و شاعران و نویسندگانی آشنا می‌شویم که بیرون از جغرافیای فرهنگی ایران را تصویر می‌کنند و مسائل سرزمین‌های دیگر یا موضوع‌های بشری را در جهان نشان می‌دهند. از طریق مطالعۀ این فصل، با افکار مشاهیر، اندیشه‌های ملل و آثار برجسته و شخصیت‌های مشهور ادبیات جهان آشنا خواهیم شد.
+    </div>
+    <br><hr>
+    <div class="MsoBold">
+        درس هفدهم
+   :
+        سپیده دم
+    </div>
+
+    <br>
+    <div class="MsoNormal">
+        تو را «جنوب» نامیدم<br>
+        ای که ردای حسین را بر دوش و خورشید کربلا را در بر داری<br>
+        ای سرخ‌گل که فداکاری پیشه کردی<br>
+        ای انقلاب زمین که با انقلاب آسمان بَرین پیوند خورده‌ای<br>
+        ای سرزمینی که از خاکت خوشه‌های گندم می‌روید و پیامبران برمی‌خیزند.
+    </div>
+    <br>
+    <div class="MsoNormal">
+        <br><p class="MsoNormal" style="text-align: center;">$***$</p><br>
+        تو را جنوب نامیدم<br>
+        ای کشتی‌های صیادی که مقاومت پیشه کرده‌اید<br>
+        ای ماهی دریا که مقاومت پیشه کرده‌ای<br>
+        ای دفترهای شعری که مقاومت پیشه کرده‌اید<br>
+        ای روزهای عاشورا!
+    </div>
+    <br>
+    <div class="MsoNormal">
+        <br><p class="MsoNormal" style="text-align: center;">$***$</p><br>
+        تو را جنوب نامیدم<br>
+        تو را آب‌ها و خوشه‌ها<br>
+        و ستارۀ غروب نامیدم<br>
+        تو را سپیده‌دمی در انتظار زاده شدن<br>
+        و پیکری در اشتیاق شهادت نامیدم.
+    </div>
+    <br>
+    <div class="MsoNormal">
+        تو را انقلاب و شگفتی و تغییر نامیدم<br>
+        تو را پاک و پاکیزه و ارجمند و توانا نامیدم.
+    </div>
+    <br>
+    <div class="MsoNormal">
+        <br><p class="MsoNormal" style="text-align: center;">$***$</p><br>
+        تو را جنوب نامیدم<br>
+        ای چون سبزه برآمده از دفتر روزگاران<br>
+        ای مسافر دیرین بر روی خار و درد<br>
+        ای چون ستاره فروزان<br>
+        ای چون شمشیر درخشان<br>
+        بگذار بوسه زنیم بر شمشیری که در دستان توست<br>
+        بگذار گرد و خاک قدم‌هایت را برگیریم.
+    </div>
+    <br>
+    <div class="MsoNormal">
+        <br><p class="MsoNormal" style="text-align: center;">$***$</p><br>
+        ای سرور باران‌ها و فصل‌ها،<br>
+        تو را عطری نامیدم که در غنچه‌ها خانه دارد<br>
+        تو را پرستو نامیدم<br>
+        ای سرور سروران، ای برترین حماسه!
+    </div>
+    <br>
+    <div class="MsoNormal">
+        <br><p class="MsoNormal" style="text-align: center;">$***$</p><br>
+        دریا متنی نیلگون است که علی آن را می‌نویسد<br>
+        و مریم هر شب، روی شن‌ها به انتظار مهدی می‌نشیند<br>
+        و گل‌هایی را می‌چیند که از انگشتان شهیدان می‌رویند.
+    </div>
+    <br>
+    <div class="MsoNormal">
+        <br><p class="MsoNormal" style="text-align: center;">$***$</p><br>
+        تاریخ، روزی، روستای کوچکی را از روستاهای جنوب به یاد خواهد آورد که «معرکه» خوانده می‌شود.<br>
+        روستایی که با «صدر»ش، با سینه‌اش از شرافت خاک و کرامت انسان بودن دفاع کرد.
+    </div>
+    <br>
+    <div class="MsoNormal">
+        <br><p class="MsoNormal" style="text-align: center;">$***$</p><br>
+        سرورم! ای سرور آزادگان!<br>
+        در زمانۀ سقوط و ویرانی جز تو، کسی نمانده است<br>
+        که در زندگیمان خلوت عنبُتاکستان بکارد.<br>
+        جز تو کسی نمانده است؛ مگر تو! مگر تو!<br>
+        پس درهای امید و روشنایی را به روی ما بگشای!
+    </div>
+    <br>
+    <div class="MsoNormal">
+        سمفونی پنجم جنوب، نزار قبانی (1998ــ1923م)
+    </div>
+    
+<br><hr><br>
+    <div class="MsoBold">
+        کارگاه متن‌پژوهی
+    </div>
+  
+    <div class="MsoStep">
+        قلمرو زبانی
+    </div>
+ 
+    <div class="MsoNormal">
+        1. به نمونه‌های زیر، توجه کنید. بر پایۀ تناسب (همبستگی) بر پایۀ ترادف (هم‌معنایی)<br>
+       
+
+<img class="images" src="Fa1CH8P1C1_SVG1.svg" style="margin: auto; max-width:350px;">
+<hr style="background-color: #05ffe261;width:70%;">
+<img class="images" src="Fa1CH8P1C1_SVG2.svg" style="margin: auto; max-width:350px;">
+<br><br>
+
+$*$
+        اکنون بر پایۀ نمونه‌های داده شده، نمودارهای زیر را کامل کنید.<br>
+        <img class="images" src="Fa1CH8P1C1_SVG3.svg" style="margin: auto; max-width:350px;">
+        <hr style="background-color: #05ffe261;width:70%;">
+        <img class="images" src="Fa1CH8P1C1_SVG4.svg" style="margin: auto; max-width:350px;">
+        
+
+
+    </div>
+    <br>
+    <div class="MsoNormal">
+        2. از میان موارد زیر، ترکیب‌های وصفی و اضافی را جدا کنید؛ سپس، هستۀ هر یک را مشخص نمایید.<br>
+        «ستارۀ غروب، سرور آزادگان، مسافر دیرین، ماهی دریا، برترین حماسه»
+    </div>
+    <br><br>
+    <div class="MsoNormal">
+        3. در مصراع زیر، نقش دستوری اجزای مشخص‌شده را بنویسید.<br>
+        «پس، درهای امید و روشنایی را به روی ما بگشای»
+    </div>
+    <br><hr><br>
+    <div class="MsoStep">
+        قلمرو ادبی
+    </div>
+    <br>
+    <div class="MsoNormal">
+        1. مصراع‌های زیر را با توجه به آرایه‌های «تشخیص، کنایه و تشبیه» بررسی کنید.<br>
+        ای چون سبزه برآمده از دفتر روزگاران<br>
+        ای کشتی‌های صیادی که مقاومت پیشه کرده‌اید!<br>
+        بگذار بوسه زنیم بر شمشیری که در دستان توست.
+    </div>
+    <br><br>
+    <div class="MsoNormal">
+        2. کدام واژۀ مشخص‌شده، «استعاره» به شمار می‌آید؟ مفهوم آن را بنویسید.<br>
+        «ای مسافر دیرین بر روی خار و درد / ای چون ستاره، فروزان»
+    </div>
+    <br><br>
+    <div class="MsoNormal">
+        3. شاعر، «باران‌ها» و «فصل‌ها» را در کدام مفاهیم نمادین به کار برده است؟
+    </div>
+    <br><br>
+    <div class="MsoNormal">
+        4. کاربرد مناسب شبکۀ معنایی، در شعر و نثر، ضمن آنکه به تداعی معانی کمک می‌کند، سبب زیبایی و دلنشینی سخن می‌شود و آرایۀ «مراعات نظیر» را پدید می‌آورد.<br>
+        مثال: ابرو باد و مه و خورشید و فلک در کارند / تا تو نانی به کف آری و به غفلت نخوری (سعدی)<br>
+        از متن درس، دو نمونه مراعات نظیر بیابید.
+    </div>
+    <br><hr><br>
+    <div class="MsoStep">
+        قلمرو فکری
+    </div>
+    <br>
+    <div class="MsoNormal">
+        1. دریافت خود را از سرودۀ زیر بنویسید.<br>
+        «تو را جنوب نامیدم/......./ای انقلاب زمین که با انقلاب آسمانِ برین/ پیوند خورده‌ای»
+    </div>
+    <br><br>
+    <div class="MsoNormal">
+        2. در سرودۀ زیر:<br>
+        «ای سرزمینی کز خاکت/ خوشه‌های گندم می‌روید/ و پیامبران برمی‌خیزند»<br>
+        الف) کدام سرزمین مورد خطاب است؟<br>
+        ب) مقصود شاعر از مصراع‌های دوم و سوم چیست؟
+    </div>
+    <br><br>
+    <div class="MsoNormal">
+        3. از متن درس، مصراعی را معادل معنای یک قسمت مشخص‌شده بیابید.<br>
+        «تو را سپیده‌دمی در انتظار زاده‌شدن/ و پیکری در اشتیاق شهادت نامیدم»
+    </div>
+    <br><br>
+    <div class="MsoNormal">
+        4. قبانی در این بخش از شعرش بر چه نکته‌هایی تأکید دارد؟<br>
+        «ای که ردای حسین بر دوش داری/ و خورشید کربلا را در برداری ...»
+    </div>
+    <br><hr><br>
+    <div class="MsoBold">
+        گنج حکمت
+    </div>
+ 
+    <div class="MsoStep">
+        مزار شاعر
+    </div>
+    <br>
+    <div class="MsoNormal">
+        تیمورلنگ، گاه سوار بر اسبی که لگامی زرین داشت ـ سرگرم اندیشه‌های دور و دراز خود ـ از میدان جنگ به گورستان می‌رفت و از اسب پیاده می‌شد و تنها در میان قبرها به گردش می‌پرداخت. هر گاه بر مزار یکی از نیاکان خود یا شاعری بزرگ، سرداری دلاور و دانشمندی نامدار می‌گذشت، سر فرود می‌آورد و مزار او را می‌بوسید.
+    </div>
+    <br>
+    <div class="MsoNormal">
+        تیمور، پس از آنکه شهر توس را گشود، فرمان داد که از کشتار مردم آن دست بردارند؛ زیرا فردوسی، شاعر ایرانی، روزگار خود را در آن به سر برده بود. آنگاه تیمور بر سر مزار او شتافت و چون جذبه‌ای اسرارآمیز او را به سوی فردوسی می‌کشید، خواست که قبرش را بگشایند:
+    </div>
+    <br>
+    <div class="MsoNormal">
+        «مزار شاعر غرق در گل بود.» تیمور در اندیشه شد که پس از مرگ، مزار کشورگشایی چون او چگونه خواهد بود. پس، از راه قره‌قوم به سوی تاتار ـ آنجا که نیای بزرگش، چنگیز، در معبدی آهنین آرمیده است ـ روی آورد. در برابر زائر نامدار که زانو بر زمین زده و سر فرود آورده بود، سنگ بزرگی را که بر گور فاتح چین نهاده بودند، برداشتند؛ ولی تیمور ناگهان بر خود لرزید و روی بگردانید:
+
+        «گور ستمگر غرق در خون بود.»
+    </div>
+    <br>
+    <div class="MsoNormal">
+        فرانسوا کوپه
+    </div>
+    
+
+    
+</body>
+
+
+</html>

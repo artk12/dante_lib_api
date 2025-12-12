@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal ,
+        ul.MsoNormal {
+            margin: 0in;
+           
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi , b{
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #badaff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .MsoPapDefault {
+           
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #722a85;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background-color: #1abbbbe1; /* Scrollbar thumb color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color: #05ffe2;
+        }
+    </style>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+ 
+</head>
+
+
+
+<body class="custom-scrollbar">
+
+    <p class="MsoBold">درس دوم
+
+        :
+
+   وارون یک تابع و تابع یک‌به‌یک</p>
+    
+    <p class="MsoBold">وارون یک تابع</p>
+    
+
+    <br><hr><br>
+
+
+    <p class="MsoStep">کار در کلاس</p>
+
+    <p class="MsoNormal">
+        الف) هر مایل تقریباً \( 1/6 \) کیلومتر است. تعیین کنید که هر یک از جملات سمت راست مربوط به کدام‌یک از رابطه‌های سمت چپ است.
+    </p>
+
+    <p class="MsoNormal">
+        $$ f(x) = \dfrac{8}{5} x $$
+    </p>
+    
+    <p class="MsoNormal">
+        این رابطه برای تبدیل تقریبی «مایل» به «کیلومتر» است.
+    </p>
+    
+    <p class="MsoNormal">
+       $$ g(x) = \dfrac{5}{8} x $$
+    </p>
+    
+    <p class="MsoNormal">
+        این رابطه برای تبدیل تقریبی «کیلومتر» به «مایل» است.
+    </p>
+    
+<br>
+
+
+<p class="MsoNormal">
+    ب) تندی \( 30 \) مایل بر ساعت تقریباً معادل تندی چند کیلومتر بر ساعت است؟
+</p>
+
+
+<br><hr><br>
+
+
+<p class="MsoNormal">
+    هر تابع با ضابطه \( y = f(x) \) بیان می‌کند که متغیر \( y \) چه ارتباطی با متغیر \( x \) دارد و چگونه می‌توان با در دست داشتن مقدار \( x \)، مقدار \( y \) را به‌دست آورد. اما گاهی مهم است که بدانیم چگونه می‌توان از مقدار \( y \) به مقدار \( x \) رسید. تبدیل یکای اندازه‌گیری نمونه‌ای ساده از این حالت است.
+</p>
+
+
+
+
+
+<br><hr><br>
+<p class="MsoNormal">
+    با جابه‌جا کردن مؤلفه‌های زوج مرتب \( (a,b) \) می‌توان زوج مرتب \( (b,a) \) را به‌دست آورد. حال اگر مؤلفه‌های همه زوج‌های مرتب تابع \( f \) را جابه‌جا کنیم، رابطه جدیدی به‌دست می‌آید که آن را <b>وارون</b> تابع \( f \) می‌گوییم و با \( f^{-1} \) نشان می‌دهیم.
+</p>
+<br><hr><br>
+
+<p class="MsoNormal">
+    برای مثال، وارون تابع \( f \) که برابر با 
+    \( f = \{(6,4), (5,3), (2,1)\} \)
+     است، برابر خواهد بود با 
+     \( f^{-1} = \{(4,6), (3,5), (1,2) \} \).
+</p>
+
+<br><hr><br>
+
+<p class="MsoSemi">خواندنی</p>
+<br>
+<p class="MsoNormal">
+    سال‌هاست که ریاضی‌دانان، با کمک داده‌های آماری جمعیت، تلاش می‌کنند به تابع تخمین جمعیت دست یابند و در این زمینه، نتایجی هم رسیده‌اند. این تابع نشان می‌دهد که مثلاً در سال \( 1420 \) جمعیت ایران چه تعداد خواهد بود. با این همه، در عمل معمولاً وارون این تابع نیز اهمیت دارد؛ به عنوان مثال مهم است که مشخص کنیم در چه سالی جمعیت ایران به \( 100 \) میلیون نفر خواهد رسید. در فصل پنجم با نمونه‌ای از توابع تخمین جمعیت آشنا خواهید شد.
+</p>
+
+<br><hr><br>
+
+<p class="MsoStep">کار در کلاس</p>
+
+<p class="MsoNormal">
+    وارون تابع‌های داده‌شده را حساب کنید.
+</p>
+
+<br>
+<table class="MsoNormal" style="margin:auto;width:fit-content;direction:ltr;text-align:center;">
+    <tr>
+        <td> \( s = \{(4,1), (1,4), (3,3), (2,5)\} \) </td>
+        <td> \( s^{-1} = \qquad \qquad \) </td>
+    </tr>
+    <tr>
+        <td> \( t = \{(5,1), (1,4), (4,3), (2,3)\} \) </td>
+        <td> \( t^{-1} = \qquad  \qquad\) </td>
+    </tr>
+    <tr>
+        <td> \( u = \{(2,3), (5,2), (4,1), (3,4)\} \) </td>
+        <td> \( u^{-1} = \qquad \qquad \) </td>
+    </tr>
+</table>
+
+
+<br><hr><br>
+
+<p class="MsoStep">فعالیت</p>
+
+<p class="MsoNormal">
+    1.
+
+    در دستگاه مختصات داده‌شده نمودار تابع \( f \) رسم شده است.
+</p>
+
+<br>
+
+<ul class="MsoNormal">
+    <p class="MsoNormal">
+        الف) تابع \( f \) را به‌صورت مجموعه‌ای از زوج‌های مرتب نمایش دهید.
+    </p>
+    
+    <p class="MsoNormal">
+        ب) تابع \( f^{-1} \) را به‌صورت مجموعه‌ای از زوج‌های مرتب نمایش دهید.
+    </p>
+    
+    <p class="MsoNormal">
+        پ) در همین دستگاه مختصات نمودار \( f^{-1} \) را رسم کنید.
+    </p>
+    
+    <p class="MsoNormal">
+        ت) نمودار \( f \) و \( f^{-1} \) چه ارتباطی با هم دارند؟
+    </p>
+
+</ul>
+
+<br>
+
+<p class="MsoNormal">
+    «نمودار \( f \) و \( f^{-1} \) نسبت به $ . . . . . . $ . قرینه یکدیگرند.»
+</p>
+
+
+<br><br>
+
+<p class="MsoNormal">
+    2.
+    <br>
+    الف) در هر مورد بیان کنید چرا نمودار داده‌شده معرف یک تابع است و سپس وارون آن را رسم کنید.
+</p>
+<br>
+<p class="MsoNormal">
+    ب) عبارت زیر را کامل کنید.
+</p>
+
+<p class="MsoNormal">
+    برای رسم نمودار وارون یک تابع کافی است قرینه نمودار آن تابع را نسبت به $ . . . . . . . . . . . . $ رسم کنیم.
+</p>
+
+
+<br><br>
+
+<p class="MsoNormal">
+    3.
+     نمودار و وارون تابع داده‌شده را رسم کنید.
+</p>
+
+
+<br><hr>
+
+<p class="MsoBold">تابع یک به یک</p>
+
+<p class="MsoStep">فعالیت</p>
+
+<p class="MsoNormal">
+    1.
+    <br>
+     الف) به نمونه داده‌شده دقت کنید. با کمک نمودار پیکانی، وارون توابع داده‌شده را به‌دست آورید.
+</p>
+
+<br>
+
+<p class="MsoNormal">
+    ب) در جدول مقابل گزینه‌های درست را انتخاب کنید.
+
+
+</p>
+<br>
+<table class="MsoNormal" style="margin:auto;width:fit-content;direction:rtl;text-align:center;">
+    <tr>
+        <td> \( s^{-1} \) یک تابع است. </td>
+        <td> \( \square \) بله </td>
+        <td> \( \square \) خیر </td>
+    </tr>
+    <tr>
+        <td> \( t^{-1} \) یک تابع است. </td>
+        <td> \( \square \) بله </td>
+        <td> \( \square \) خیر </td>
+    </tr>
+    <tr>
+        <td> \( u^{-1} \) یک تابع است. </td>
+        <td> \( \square \) بله </td>
+        <td> \( \square \) خیر </td>
+    </tr>
+</table>
+
+<br><br>
+
+<p class="MsoNormal">
+    پ) عبارت زیر را کامل کنید.
+</p>
+
+<br>
+<p class="MsoNormal">
+    وارون تابع \( f \)، خود یک تابع است؛ هرگاه در زوج‌های مرتب متفاوت تابع \( f \)، مؤلفه‌های $ . . . . . . . . . $ تکراری وجود نداشته باشد.
+</p>
+
+
+
+
+<br><hr><br>
+<p class="MsoNormal">
+    به تابعی که در زوج‌های مرتب متفاوت خود، مؤلفه‌های دوم تکراری نداشته باشد،  
+    تابع 
+      <b>یک‌به‌یک</b> 
+    می‌گوییم.
+</p>
+<br><hr><br>
+
+
+
+<p class="MsoNormal">
+<b>    تذکر :</b>
+    وارون هر تابع یک‌به‌یک، خود یک تابع است.
+</p>
+
+<br>
+
+<p class="MsoNormal">
+    ت) تابع \( f = \{(1,2), (-2,4), (2,-1), (-1,2)\} \) را در نظر بگیرید. تعیین کنید که این تابع یک‌به‌یک است یا خیر؟
+</p>
+
+<br><br>
+
+<p class="MsoNormal">
+    2.
+    نمودارهای پیکانی زیر بیانگر تابع اثر انگشت و تابع گروه خونی علی و رضا است.
+</p>
+<br>
+<ul class="MsoNormal">
+    <p>
+        الف) مشخص کنید که کدام نمودار پیکانی مربوط به اثر انگشت و کدام نمودار پیکانی مربوط به گروه خونی است.
+    </p>
+
+    <p>
+        ب) آیا \( f \) و \( g \) هر دو تابع‌اند؟
+    </p>
+
+    <p>
+        پ) در مورد تابع بودن \( f^{-1} \) و \( g^{-1} \) چه می‌توان گفت؟
+    </p>
+
+    <p>
+        ت) کدام‌یک از دو تابع \( f \) و \( g \) یک‌به‌یک هستند؟
+    </p>
+
+    <p>
+        ث) عبارت‌های زیر را کامل کنید.
+    </p>
+    
+<p class="MsoNormal">
+    - با دانستن گروه خونی یک انسان، هویت او به‌طور یکتا تعیین $ . . . . . . $ .
+</p>
+
+<p class="MsoNormal">
+    - با دانستن اثر انگشت یک انسان، هویت او به‌طور یکتا تعیین $ . . . . . . $ .
+</p>
+</ul>
+
+<br><hr><br>
+
+
+<p class="MsoStep">فعالیت</p>
+
+<p class="MsoNormal">
+    در شکل داده‌شده، با وصل کردن نقاط مشخص‌شده به هم، نموداری رسم کنید که تابع باشد.
+</p>
+<br>
+<ul class="MsoNormal">
+
+    <p class="MsoNormal">
+        الف) آیا تابعی که رسم کرده‌اید یک‌به‌یک است؟
+    </p>
+    
+    <p class="MsoNormal">
+        ب) با کامل کردن عبارت زیر مشخص کنید که چگونه با در دست داشتن نمودار یک تابع،  
+        می‌توان تشخیص داد که آیا آن تابع یک‌به‌یک است یا خیر؟
+    </p>
+
+    
+</ul>
+
+
+
+<br><hr><br>
+<p class="MsoNormal">
+    اگر هر خط موازی محور ........................ نمودار تابع را حداکثر در یک نقطه قطع کند،  
+    آن‌گاه آن تابع یک‌به‌یک است.
+</p>
+<br><hr><br>
+
+
+
+
+
+
+<p class="MsoNormal">
+    2.
+     کدام‌یک از توابع زیر یک‌به‌یک است؟
+</p>
+
+
+
+<br><hr><br>
+<p class="MsoStep">خواندنی</p>
+
+<p class="MsoNormal">
+    قرن‌ها پیش رشیدالدین فضل‌الله همدانی، طبیب و مورخ برجسته ایرانی، در کتاب جامع‌التواریخ به رسم چهره‌ها در شناسایی افراد از طریق اثر انگشت اشاره کرده و توضیح داده بود که شواهد و تجربیات نشان می‌دهد که اثر انگشت هیچ دو نفری کاملاً یکسان نیست.  
+
+    در آن زمان مهر ایران نیز از اثر انگشت ساخته و مهر کردن اسناد استفاده می‌کردند.  
+    در اوایل قرن بیستم، غربی‌ها نیز با الهام گرفتن از شرقی‌ها برای شناسایی بهره گرفتند.  
+
+    امروزه تشخیص اثر انگشت به عنوان یکی از دقیق‌ترین و صحیح‌ترین روش‌های مشترک در حفظ امنیت سیستم‌های کنترل دسترسی و همچنین در ساعت‌های حضور و غیاب، کاربرد بسیاری دارد.
+</p>
+
+<br><hr>
+
+<p class="MsoBold">به‌دست آوردن ضابطه تابع وارون یک تابع خطی غیر ثابت</p>
+
+<p class="MsoNormal">
+    اگر \( f \) تابعی یک‌به‌یک باشد و \( f^{-1} \) تابع وارون آن باشد، نمودار زیر ارتباط \( f \) و \( f^{-1} \) را نشان می‌دهد.  
+    (\( R_f \) نماد برد تابع \( f \) است).
+</p>
+
+
+
+
+<br><hr><br>
+<p class="MsoStep">فعالیت</p>
+
+<p class="MsoNormal">
+    تابع با ضابطه \( f(x) = 2x + 1 \) را در نظر می‌گیریم.
+</p>
+
+<br>
+<p class="MsoNormal">
+    الف) به کمک نمودار \( f \) توضیح دهید که چرا \( f \) یک‌به‌یک است.
+</p>
+
+<img src="" alt="">
+
+
+<p class="MsoNormal">
+    ب) نمودار زیر را توضیح دهید:
+</p>
+
+<p class="MsoNormal" style="text-align: center;">
+    $ (3,7) \in  \ f $ و $ (7,3) \in \ f^{-1} $
+</p>
+
+<p class="MsoNormal">
+    به عبارت دیگر: 
+</p>
+
+<p class="MsoNormal" style="text-align: center;">
+
+    $ f (3) = 7 $
+    و 
+    $ f^{-1} (7) = 3 $
+</p>
+
+
+<br>
+<p class="MsoNormal">
+    پ) در حالت کلی برای هر عضو دامنه تابع با ضابطه \( f(x) = 2x + 1 \)، داریم:
+</p>
+
+<br>
+
+<p class="MsoNormal">
+    ت) بنابراین می‌توان نوشت:
+
+</p>
+<br>
+
+
+<table class="MsoNormal" style="margin:auto;width:fit-content;direction:ltr;text-align:left;">
+    <tr>
+        <td style="border:none">\( f(x) = 2x + 1 \)</td>
+        <td style="border:none">\( (x \in D_f) \)</td>
+    </tr>
+    <tr>
+        <td style="border:none">\( f^{-1}(y) = \dfrac{y - 1}{2} \)</td>
+        <td style="border:none">\( (y \in R_f) \)</td>
+    </tr>
+</table>
+
+
+
+<br>
+
+
+
+
+
+
+<br><hr><br>
+
+
+
+<p class="MsoNormal">
+    آنچه که اهمیت دارد این است که دامنه \( f^{-1} \) همان برد \( f \) است؛ بنابراین، یک نمایش مناسب برای \( f^{-1} \) به‌صورت زیر است:
+</p>
+
+
+<p class="MsoNormal">
+    \[
+    f^{-1}(x) = \dfrac{x - 1}{2}
+    \]
+</p>
+
+
+
+<br><hr><br>
+<p class="MsoSemi">به‌طور کلی:</p>
+<br>
+<p class="MsoNormal">
+    برای به‌دست آوردن ضابطه تابع وارون یک تابع خطی غیر ثابت مانند \( f \)، در معادله  
+    \( x \) 
+    ، 
+    \( y = f(x) \)
+    را برحسب \( y \) محاسبه می‌کنیم. سپس با جابه‌جا کردن \( y \) و 
+    \( x \)،  
+    ضابطه تابع \( f^{-1}(x) \) را به‌دست می‌آوریم.
+</p>
+<br><hr><br>
+
+
+<p class="MsoNormal">
+    وارون تابع با ضابطه \( f(x) = 2x + 1 \)، چنین محاسبه می‌شود:
+</p>
+
+
+<br>
+
+<p class="MsoNormal">
+    \[
+    \begin{align*}
+        f(x) = 2x + 1 & \Rightarrow y = 2x + 1 \\\\
+        &\Rightarrow 2x = y - 1 \\\\
+        &\Rightarrow x = \dfrac{y - 1}{2} \\\\
+        &\Rightarrow f^{-1}(y) = \dfrac{y - 1}{2} \\\\
+        &\Rightarrow f^{-1}(x) = \dfrac{x - 1}{2} \\\\
+    \end{align*}
+    \]
+</p>
+
+
+<br><hr><br>
+<p class="MsoStep">کار در کلاس</p>
+
+<p class="MsoNormal">
+    ۱) هر تابع خطی غیر ثابت یک‌به‌یک است. (چرا؟) وارون هر یک از توابع خطی زیر را به‌دست آورید.
+</p>
+<br>
+<p class="MsoNormal" style="text-align: left;direction: ltr;">
+    الف) \( f(x) = x + 5 \)
+</p>
+<br>
+<p class="MsoNormal" style="text-align: left;direction: ltr;">
+    ب) \( g(x) = 4x \)
+</p>
+<br>
+<p class="MsoNormal" style="text-align: left;direction: ltr;">
+    پ) \( u(x) = 2x + 3 \)
+</p>
+<br>
+<p class="MsoNormal" style="text-align: left;direction: ltr;">
+    ت) \( v(x) = \dfrac{2}{3} x - 4 \)
+</p>
+
+
+<br><br>
+
+
+<p class="MsoNormal">
+    ۲) 
+    
+
+
+
+    الف) چرا نمودار داده شده، نمودار یک تابع یک‌به‌یک نیست؟
+</p>
+<br>
+<p class="MsoNormal">
+    ب) با حذف تنها یک نقطه، نمودار مقابل را به یک تابع یک‌به‌یک تبدیل کنید.  
+    مسئله چند جواب دارد؟
+</p>
+
+
+<br><hr><br>
+
+<p class="MsoStep">کار در کلاس</p>
+
+<p class="MsoNormal">
+    الف) به نمودار تابع با ضابطه  
+    \( f(x) = x^2 - 4x + 3 \)
+    در شکل مقابل، دقت کنید.
+</p>
+
+<p class="MsoNormal">
+    با محدود کردن دامنهٔ این تابع روی کدام بازه‌های زیر می‌توان یک تابع یک‌به‌یک ساخت؟
+</p>
+
+  <div class="MsoNormal" style="text-align: left;direction: ltr;">
+    <p class="MsoNormal">
+        $ \square \quad [1,4) $
+    </p>
+    <p class="MsoNormal">
+        $ \square \quad [0,2] $
+    </p>
+  </div>
+
+  <br>
+
+  <p class="MsoNormal">
+    ب) آیا هر تابع درجهٔ $2$ تابعی یک‌به‌یک است؟ چرا؟
+</p>
+
+<br><hr><br>
+
+
+<p class="MsoStep">تمرین</p>
+
+<p class="MsoNormal">
+    ۱) وارون تابع $f = \{(2,3), (-2,1), (-1,2)\}$ را به‌دست آورید.
+</p>
+<br><br>
+<p class="MsoNormal">
+    ۲) نمودار وارون تابع داده‌شده در شکل مقابل را رسم کنید.
+</p>
+
+<br><br>
+<p class="MsoNormal">۳) ضابطهٔ وارون هر یک از توابع با ضابطه‌های زیر را بیابید.</p>
+<br>
+<table class="MsoNormal" style="margin:auto;width:fit-content;direction:ltr;text-align:center;">
+    <tr>
+        <th>الف</th>
+        <td class="MsoNormal">$$ f(x) = 5x - 2 $$</td>
+    </tr>
+    <tr>
+        <th>ب</th>
+        <td class="MsoNormal">$$ f(x) = \dfrac{3}{5} x + 4 $$</td>
+    </tr>
+    <tr>
+        <th>پ</th>
+        <td class="MsoNormal">$$ f(x) = \dfrac{-7x + 3}{5} $$</td>
+    </tr>
+
+
+</table>
+
+
+
+<br><br><br>
+<p class="MsoNormal">
+    4.
+می‌خواهیم با حذف تعدادی از نقاط نمودار مقابل، آن را به یک تابع یک‌به‌یک تبدیل کنیم. 
+حداکثر چند نقطه می‌تواند باقی بماند؟
+</p>
+
+
+
+<br><br>
+
+
+<p class="MsoNormal">
+    5.
+
+نمودار تابعی با دامنه $[۰,۲]$ و برد $[۲,۵]$ را رسم کنید:
+</p>
+<p class="MsoNormal">
+الف) به شرطی که این تابع یک‌به‌یک باشد.
+</p>
+<p class="MsoNormal">
+ب) به شرطی که این تابع یک‌به‌یک نباشد.
+</p>
+
+
+<br>
+<br>
+
+
+<p class="MsoNormal">
+    6.
+
+با حذف بخشی از نمودار نیم‌دایرهٔ داده شده، نمودار یک تابع یک‌به‌یک را مشخص کنید.
+</p>
+
+
+<br><br>
+
+
+
+
+
+    <br><br><br><br><br><br><br><br><br><br>
+</body>
+</html>

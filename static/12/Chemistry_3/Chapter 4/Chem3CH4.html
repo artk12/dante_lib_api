@@ -1,0 +1,2336 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi {
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSemic,
+        li.MsoSemic,
+        div.MsoSemic {
+            margin: 0in;
+           
+            font-size: clamp(1.2rem, 1.6vw, 1.3rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #b19af2;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #6ca4ec;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .boxp {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .boxg {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#00f2ff11; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        .boxb {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#0c4e9f2d; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        ::selection {
+            background-color: #59078fa1; /* Change this to your desired highlight color */
+            color: #ffffff; /* Change this to your desired text color */
+          }
+
+
+          mark{
+            background-color:#078b8fa1 ;
+            color: #ffffff;
+            padding: 0 7px;
+        }
+
+        .hlg { background-color: rgba(0, 234, 255, 0.334);  }
+        .hlp { background-color:#5f1487; }
+      
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+    <body class="custom-scrollbar">
+
+
+
+        <div class="MsoBold">فصل ٤
+            <br>
+            شیمی، راهی به سوی آینده ای روشن تر</div>
+        
+            <p class="MsoNormal">
+                <mark>وَأَن لَّيْسَ لِلْإِنسَانِ إِلَّا مَا سَعَى</mark>
+                <br>
+                (سوره النجم، آیه ٣٩)
+            </p>
+            
+        
+        <br>
+        
+        <p class="MsoNormal">
+            و اینکه برای انسان جز آنچه تلاش کرده (بهره‌ای) نیست.
+        </p>
+        
+        <br>
+        
+        <p class="MsoNormal">
+            رشد و پیشرفت هر جامعه تنها در سایه تلاش هدفمند و آگاهانه افراد خبره، کاردان و ورزیده دست یافتنی است. 
+            در واقع برای بالا رفتن از نردبان پیشرفت، افزون بر انگیزه باید نخست تکیه گاه مناسبی برای آن یافت. 
+            این تکیه گاه دانش، توانایی، مهارت و زیرساخت‌های لازم است. با تأمین این شرایط برای دستیابی به هدفی معین، 
+            تلاش و پشتکار شرط کافی خواهد بود. آنچنان که تداوم و خستگی ناپذیری در این راه پیامدهایی فراتر از انتظار 
+            توأم با کسب افتخار به دنبال خواهد داشت.
+        </p>
+        
+        <br>
+        
+        <p class="MsoNormal">
+            از جمله پیامدهای رشد و پیشرفت جامعه می‌توان دسترسی آسان و ارزان‌تر به فناوری نو را نام برد. بهره‌گیری از 
+            مبدل کاتالیستی در خودرو و کود شیمیایی سبز و همچنین تبدیل مواد شیمیایی خام به مواد ارزشمند از جمله 
+            فناوری‌هایی به شمار می‌رود که در آنها دانش شیمی همراه با انگیزه و تلاش راهی را به سوی آینده‌ای روشن‌تر رقم می‌زند.
+        </p>
+        
+        <br>
+        
+        <p class="MsoNormal">
+            یکی از ویژگی‌های ذاتی انسان، کنجکاوی و پرسشگری اوست. از این رو، پیوسته در پی شناخت محیط پیرامون 
+            خود است. او همواره برای زندگی و ادامه آن با چالش‌ها و مشکلات گوناگونی روبه‌رو بوده است اما با بهره‌گیری از 
+            هوش، خرد و الهام از طبیعت توانسته برای هر پرسش در ذهن خود پاسخی بیابد.
+        </p>
+        
+        <br>
+        
+        <p class="MsoNormal">
+            انسان همچنین برای حل مسئله در هر زمان و مکان، راهکاری عملی یافته است. هرچند که برخی پاسخ‌های ارائه 
+            شده و راهکارهای استفاده شده، ساده و برخی دیگر پیچیده‌اند، اما هر یک از آنها در جای خود نوآورانه و کارآمد بوده‌اند.
+        </p>
+        
+        <br>
+        
+        <p class="MsoNormal">
+            مجموعه چنین تلاش‌هایی در گذر زمان منجر به تولید و انباشت دانش و فناوری شده است. یکی از آنها، دانش 
+            شیمی و فناوری‌های آن است که نقش پررنگی برای گذر از تنگناها و رسیدن به زندگی مدرن امروزی داشته است.
+        </p>
+        
+        <br><hr><br>
+
+
+        
+        <div class="MsoStep">آیا می‌دانید</div>
+        
+        <p class="MsoNormal">
+            پزشکان برای انجام عمل جراحی بیماران مختلف، نیاز دارند که با استفاده از داروهای بیهوشی آنها را به طور کامل 
+            بیهوش کنند یا بخشی از بدن آنها را به طور موضعی بی‌حس کنند. اولین داروی بیهوشی در اواسط دهه ١٨٠٠ میلادی 
+            (١١٠٠ خورشیدی) کشف شد. پس از آن و در طول ٢٠٠ سال شیمی‌دانان داروهای بیهوشی بسیار زیادی از جمله کتامین 
+            طراحی کرده و ساخته‌اند. داروهایی که سبب شده است تا امروزه انواع جراحی‌ها به آسانی انجام شوند. برخی از داروهای 
+            بیهوشی، استنشاقی و برخی تزریقی هستند.
+        </p>
+        
+        <br>
+        <hr>
+        <br>
+        
+        <p class="MsoNormal">
+            شواهد تاریخی در گذر زمان نشان می‌دهد که انسان به تدریج با مسائل پیچیده‌تری روبه‌رو شده است. از این رو پیش‌بینی 
+            می‌شود که در آینده چالش‌های تازه و حیاتی پیش رو داشته باشد. بدیهی است برطرف کردن و حل هر یک از آنها به دانش 
+            و فناوری‌های پیشرفته‌تری نیاز خواهد داشت.
+        </p>
+        
+        <br><hr><br>
+        
+        <div class="MsoStep">آیا می‌دانید</div>
+        
+        <p class="MsoNormal">
+            شیمی‌دان ژاپنی برنده نوبل ٢٠٠١، ریوجی نویوری (Ryoji Noyori) معتقد است: شیمی آگاهی مورد نیاز برای دستیابی به توسعه 
+            پایدار و حل مسائلی که زندگی را روی زمین تهدید می‌کند، فراهم می‌نماید.
+        </p>
+        
+        <br>
+        <hr>
+        <br>
+        
+        <p class="MsoNormal">
+            باتوجه به کارآمدی علوم تجربی، بسیاری بر این باورند که این علوم و از جمله دانش شیمی و فناوری‌های آن می‌توانند آینده 
+            روشنی را برای جهان رقم بزنند. باید توجه داشت با اینکه استفاده بهینه و درست از دانش و فناوری، آسایش و رفاه را در زندگی 
+            تأمین می‌کند، اما استفاده نادرست از آن، آثار مخرب‌تر و زیانبارتری به دنبال خواهد داشت.
+        </p>
+        
+        <br>
+        
+        <p class="MsoNormal">
+            در این فصل با سه نمونه از دستاوردهای شیمی برای کاهش آلودگی هوا، افزایش فراورده‌های کشاورزی و افزایش بهره‌وری 
+            منابع شیمیایی آشنا خواهید شد.
+        </p>
+        
+        <br><hr><br>
+
+        <div class="MsoBold">به دنبال هوای پاک</div>
+
+            <p class="MsoNormal">
+                تماشای آسمان آبی و تنفس در هوای پاک همیشه لذت بخش و شادی آفرین است آنچنان که
+                سعدی، استاد سخن، می فرماید: «هر نفسی که فرو می رود مُم ُ ِ د ّ حیات است و چون بر می آید
+                م ُ ف َ ر َّ ح ذات، ...». افسوس که با رشد دانش و فناوری، گسترش صنایع گوناگون و با رفتارهای
+                نادرست، دسترسی به هوای پاک محدودتر شده است. شاید شما هم لَّایه قهوه ای روشن که سطح
+                شهرهای بزرگ جهان و کشورمان را به ویژه در زمستان می پوشاند، دیده باشید. هوایی که نه تنها
+                شادی آفرین نیست بلکه نفس کشیدن را دشوار کرده و مشکلات تنفسی ایجاد می کند (شکل 2).
+            </p>
+
+            <br><hr><br>
+            <p class="MsoStep">آیا می دانید</p>
+            <p class="MsoNormal">
+                هر فرد روزانه به طور میانگین 11000 لیتر هوا تنفس می کند.
+            </p>
+
+            <br><hr><br>
+
+
+            <p class="MsoStep">آیا می دانید</p>
+            <p class="MsoNormal">
+                هوای آلوده شامل ترکیبات آلی اکسیژن دار مانند اتانال است. این مواد از واکنش هیدروکربن ها با
+                سایر گازهای موجود در هواکره تشکیل می شوند.
+            </p>
+
+            <br><hr><br>
+
+
+            <p class="MsoNormal">
+                هوای خشک و پاک مخلوطی از گازهای گوناگون است که به طور یکنواخت در هوا کره پخش
+                شده اند. در حالی که هوای آلوده افزون بر آنها حاوی گازهای گوناگونی مانند $CO$، $NO_2$،
+                $O_3$، $SO_2$، $NO$، ذره های معلق و مواد آلی فرّار است. به دلیل وجود این آلَّاینده ها،
+                هوای آلوده بوی بدی دارد، چهرۀ شهر را زشت می کند، فرسودگی ساختمان ها و پوسیدگی خودروها
+                را سرعت می بخشد و سبب ایجاد و تشدید بیماری های تنفسی ازجمله برونشیت، آسم، سرطان ریه و
+                حتی مرگ می شود.
+            </p>
+
+            <br><hr><br>
+
+
+            <div class="MsoStep">خود را بیازمایید</div>
+            <p class="MsoNormal">
+                1ــ نمودار زیر غلظت برخی از این آلَّاینده ها را در نمونه ای از هوای یک شهر بزرگ نشان می دهد.
+            </p>
+
+            <br>
+            <p class="MsoNormal">
+                آ) مقدار این آلَّاینده ها بین چه ساعت هایی از شبانه روز به بیشترین حدّ خود می رسد؟
+            </p>
+
+            <br>
+            <p class="MsoNormal">
+                ب) چرا هوای آلوده به رنگ قهوه ای دیده می شود؟
+            </p>
+
+            <br>
+            <p class="MsoNormal">
+                پ) چرا با کاهش مقدار گاز $NO_2$، مقدار گاز $O_3$، رو به افزایش است؟
+            </p>
+
+            <br><hr><br>
+
+
+            <p class="MsoNormal">
+                2ــ در شیمی 1، آموختید که آلَّاینده های زیر در خروجی اگزوز خودروها وجود دارند: $CO$, $SO_2$, $NO$, $C_xH_y$.
+            </p>
+
+            <br>
+            <p class="MsoNormal">
+                آ) دلیل وجود هیدروکربن ها در گازهای خروجی از اگزوز را توضیح دهید.
+            </p>
+
+            <br>
+            <p class="MsoNormal">
+                ب) پیدایش گازهای کربن مونوکسید، گوگرد دی اکسید و نیتروژن مونوکسید را با نوشتن
+                معادله شیمیایی موازنه شده توجیه کنید.
+            </p>
+
+            <br><hr><br>
+
+            <table class="MsoNormal" style="margin:auto;width:fit-content;direction:rtl;text-align:center;">
+                <tr>
+                    <th>فرمول شیمیایی</th>
+                    <th>        مقدار آلاینده به ازای
+          <br>
+                        طی یک کیلومتر (گرم)</th>
+                </tr>
+                <tr>
+                    <td>5/99</td>
+                    <td>$CO$</td>
+                </tr>
+                <tr>
+                    <td>1/67</td>
+                    <td>$C_xH_y$</td>
+                </tr>
+                <tr>
+                    <td>1/04</td>
+                    <td>$NO$</td>
+                </tr>
+            </table>
+
+            <br>
+            <p class="MsoNormal">
+                حساب کنید روزانه چند تن آلَّاینده وارد هوا کره می شود؟ فرض کنید روزانه صد میلیون خودرو در جهان
+                به طور میانگین 50 کیلومتر مسافت می پیمایند.
+            </p>
+
+            <br><hr><br>
+
+<p class="MsoStep">
+
+    آیا می‌دانید
+</p>
+
+            <p class="MsoNormal">
+                یکی از کاربرد های برجستۀ الکتروشیمی، اندازه گیری غلظت گونه های شیمیایی است. کاربردی که با دقت بالَّا برای گسترۀ وسیعی از گونه ها در محیط های آزمایشگاهی، زیستی، صنعتی و... رایج شده اند.
+            </p>
+            
+            <br>
+            
+            <p class="MsoNormal">
+                اساس اغلب اندازه گیری های الکتروشیمیایی، وجود دو الکترود در ساختار یک سلول است. از این دو الکترود، یکی استاندارد و دیگری شناساگر است. پتانسیل الکترود استاندارد ثابت اما پتانسیل الکترود شناساگر به غلظت گونۀ آزمایشی بستگی دارد. 
+            </p>
+            
+            <br>
+            
+            <p class="MsoNormal">
+                از <em>emf</em> چنین سلول هایی می توان نخست پتانسیل الکترود شناساگر و سپس غلظت گونۀ آزمایشی را تعیین کرد. 
+            </p>
+            
+            <br>
+            
+            <p class="MsoNormal">
+                <strong>pH</strong> سنج دیجیتال، گلوکومتر و دستگاه اندازه گیری آلَّاینده ها در مراکز معاینۀ فنی خودروها بر همین اساس کار می کنند.
+            </p>
+            
+
+            <br><hr><br>
+
+            <p class="MsoNormal">
+                هوای آلوده حاوی آلَّاینده هایی است که اغلب بی رنگ هستند و نمی توان به آسانی وجود
+                آنها را تشخیص داد. همچنین نوع آلَّاینده ها و مقدار هریک از آنها در شهرهای گوناگون
+                متفاوت است.
+            </p>
+
+
+           <br>
+
+
+                
+                <p class="MsoNormal">
+                    هوای آلوده حاوی آلَّاینده هایی است که اغلب بی رنگ هستند و نمی توان به آسانی وجود
+                    آنها را تشخیص داد. همچنین نوع آلَّاینده ها و مقدار هریک از آنها در شهرهای گوناگون
+                    متفاوت است. آیا می دانید چگونه می توان نوع و مقدار آلَّاینده ها را در یک نمونه هوای آلوده
+                    تعیین کرد؟ برای پاسخ به این پرسش، باید رفتار این مواد را بررسی کرد. یکی از این رفتارها،
+                    برهم کنش مواد با پرتوهای الکترومغناطیسی است.
+                </p>
+
+
+
+                <br>
+
+
+                <p class="MsoNormal">
+                    پیش از این آموختید هرگاه یک نمونه ماده در برابر پرتوهای الکترومغناطیسی قرار گیرد،
+                    مُمکن است گستره معینی از آنها را جذب و پرتوهای باقی مانده را بازتاب کند یا عبور دهد.
+                </p>
+
+                <br><hr><br>
+
+
+                <div class="MsoStep">خود را بیازمایید</div>
+                <p class="MsoNormal">
+                    هر یک از شکل های زیر رفتار یک نمونه ماده را در برابر پرتوهای مرئی نشان می دهد، با توجه
+                    به آنها به پرسش های زیر پاسخ دهید.
+                </p>
+
+                <br>
+
+
+                <p class="MsoNormal">آ) کدام نمونه ماده طول موج های بیشتری از پرتوهای مرئی را جذب کرده است؟</p>
+
+                <br>
+
+
+                <p class="MsoNormal">ب) آیا ساختار این دو ماده یکسان است؟ چرا؟</p>
+
+
+
+
+
+                <br><hr><br>
+
+
+
+                <p class="MsoNormal">
+                    با توجه به اینکه پرتوهای مرئی، بخش کوچکی از گستره پرتوهای الکترومغناطیسی را
+                    دربرمی گیرد، انتظار می رود دیگر پرتوها مانند فروسرخ، فرابنفش و... نیز با ماده برهم کنش داشته
+                    باشند.
+                </p>
+
+                <br>
+                <p class="MsoNormal">
+                    شیمی دان ها با استفاده از چنین برهم کنش هایی میان ماده و پرتوهای الکترومغناطیسی،
+                    روش های گوناگون طیف سنجی را برای شناسایی ساختار مواد پایه گذاری کرده اند.
+                </p>
+
+                <br>
+                <p class="MsoNormal">
+                    یکی از رایج ترین روش های طیف سنجی که برای شناسایی گروه های عاملی به کار می رود،
+                    طیف سنجی فروسرخ نام دارد. با توجه به اینکه شمار و نوع اتم های سازنده هر گروه عاملی
+                    متفاوت از دیگری است، هر یک از آنها تنها گستره معین و منحصر به فردی از پرتوهای فروسرخ
+                    را جذب می کنند. همین تفاوت، اساس شناسایی گروه های عاملی از یکدیگر است.
+                </p>
+
+                <br>
+                <p class="MsoNormal">
+                    همچنین از طیف سنجی فروسرخ می توان برای شناسایی آلَّاینده هایی مانند کربن مونوکسید
+                    و اکسیدهای نیتروژن در هواکره و نیز شناسایی برخی مولکول ها در فضای بین ستاره ای
+                    استفاده کرد. افزون بر طیف سنجی فروسرخ می توان از برهم کنش پرتوهای فرابنفش، نور
+                    مرئی، امواج رادیویی و... نیز برای شناسایی مواد گوناگون بهره برد. ام. آر. آی (MRI) خود،
+                    نمونه ای از کاربرد طیف سنجی در علم پزشکی است.
+                </p>
+
+                <br><hr><br>
+                <div class="MsoStep">آیا می دانید</div>
+                <p class="MsoNormal">
+                    در شیمی 1 آموختید که نور، کلید شناخت جهان است. شیمی دان ها برای شناسایی ساختار دقیق مواد
+                    از رفتار آنها در برابر پرتوهای الکترومغناطیسی (نور) بهره بسیاری برده اند. هر بخش از گستره پرتوهای
+                    الکترومغناطیس برهم کنش ویژه ای با ماده دارد و برای شناسایی بخشی از آن ماده به کار می رود. برای نمونه
+                    طیف سنجی فروسرخ برای شناسایی و تشخیص گروه های عاملی به کار می رود. شکل زیر بخشی از طیف
+                    فروسرخ دو ماده با فرمول مولکولی یکسان را ($C_2H_6O$) نشان می دهد.
+                </p>
+
+                <br><hr>
+                <div class="MsoBold">انرژی فعال سازی در واکنش های شیمیایی</div>
+                
+                <p class="MsoNormal">
+                    در شیمی 2 آموختید که واکنش های شیمیایی با سرعت های گوناگون انجام می شوند.
+                    برای نمونه واکنش زنگ زدن آهن کُند در حالی که واکنش سوختن متان، تند است. به راستی
+                    چرا سرعت واکنش های شیمیایی با هم تفاوت دارند؟ همچنین می دانید که افزایش دما سبب
+                    افزایش سرعت واکنش های شیمیایی می شود؛ برای نمونه گاز نیتروژن با گاز اکسیژن در
+                    دمای اتاق واکنش نمی دهد اما درون موتور خودرو اندکی از آنها به نیتروژن مونوکسید تبدیل
+                    می شود. آیا می دانید چرا این واکنش در دمای اتاق انجام نمی شود؟
+                </p>
+
+                <br>
+                <p class="MsoNormal">
+                    هر واکنش برای انجام شدن به حداقلی از انرژی نیاز دارد. در واقع برای اینکه یک
+                    واکنش شیمیایی آغاز شود باید واکنش دهنده ها مقدار معینی انرژی داشته باشند.
+                </p>
+
+                <br>
+                <p class="MsoNormal">
+                    برای درک بهتر این موضوع، فرض کنید شخصی می خواهد گلوله ای را از نقطه $A$ به نقطه $B$
+                    منتقل کند. برای این منظور، او دست کم باید انرژی لَّازم برای رساندن گلوله به بالَّای قله را تأمین کند؛
+                    زیرا از آن به بعد گلوله بر اثر نیروی گرانش روی سطح شیب دار به پایین سرازیر می شود.
+                </p>
+                <p class="MsoNormal">
+                    برای این منظور، او دست کم باید انرژی لازم برای رساندن گلوله به بالای قله را تأمین کند؛ زیرا از آن به بعد گلوله بر اثر نیروی گرانش روی سطح شیب‌دار به پایین سرازیر می‌شود. بدیهی است هر چه ارتفاع قله کمتر باشد، انتقال گلوله آسان‌تر و سریع‌تر انجام می‌شود (چرا؟). 
+                </p>
+                
+                <br>
+                
+                <p class="MsoNormal">
+                    برای واکنش‌های شیمیایی نیز چنین است، به طوری که برای آغاز هر واکنش شیمیایی، مقدار معینی از انرژی لازم است که به آن <em>انرژی فعال‌سازی</em> واکنش می‌گویند.
+                </p>
+                
+                <br>
+                
+                <p class="MsoNormal">
+                    یکی از روش‌های تأمین این انرژی، گرما دادن به واکنش‌دهنده‌ها است. جالب اینکه واکنش‌های شیمیایی صرف نظر از اینکه گرماده یا گرماگیر باشند، برای آغاز شدن به انرژی نیاز دارند؛ برای نمونه به واکنش سوختن متان (گاز شهری) در اجاق گاز توجه کنید:
+                </p>
+                
+                <br>
+                
+                <p class="MsoNormal">
+                    $$CH_4(g) + 2O_2(g) \longrightarrow CO_2(g) + 2H_2O(g)$$ $$ \Delta H = -802  \text{kJ}$$
+                </p>
+                
+                <br>
+                
+                <p class="MsoNormal">
+                    هر چند این واکنش گرماده است اما برای آغاز شدن به جرقه یا شعله نیاز دارد. در واقع جرقه یا شعله فندک و کبریت، انرژی فعال‌سازی واکنش را تأمین می‌کند (نمودار ۲).
+                </p>
+                
+                <br>
+                
+                <p class="MsoNormal">
+                    این نمودار نشان می‌دهد که واکنش‌دهنده‌ها برای آغاز واکنش باید حداقلی از انرژی را داشته باشند تا با عبور از سد انرژی به فراورده‌ها تبدیل شوند. فراورده‌هایی که در این واکنش پایدارتر از واکنش‌دهنده‌ها هستند. به دیگر سخن اگر انرژی فعال‌سازی این واکنش تأمین نشود، واکنش‌دهنده‌ها دست نخورده باقی می‌مانند.
+                </p>
+                
+                <br>
+                
+                <p class="MsoNormal">
+                    بدیهی است که هرچه انرژی فعال‌سازی واکنشی بیشتر باشد، سرعت آن کمتر است.
+                     در نتیجه واکنش در شرایط دشوارتر و دمای بالاتری انجام می‌شود زیرا بزرگ بودن 
+                     $E_a$ نشان می‌دهد که واکنش‌دهنده‌ها برای عبور از این سد به
+                      انرژی بیشتری نیاز دارند. از این رو با افزایش دما، انرژی واکنش‌دهنده‌ها بیشتر می‌شود.
+                      به طوری که شمار ذره‌هایی که در واحد زمان می‌توانند به فراورده‌ها تبدیل شوند،
+                      افزایش یافته و در نتیجه سرعت واکنش افزایش می‌یابد.
+                </p>
+                
+                <br>
+                
+                <p class="MsoNormal">
+                    این توصیف کمک می‌کند تا بتوان با مقایسه $E_a$ واکنش‌ها، درباره سرعت و شرایط آغاز آنها اظهار نظر کرد.
+                </p>
+                
+                <br><hr><br>
+
+                <p class="MsoNormal">
+                    هنگامی که نوک کبریت روی سطح زبر قوطی کبریت کشیده شود، گرما تولید می‌شود. این گرما انرژی فعال‌سازی واکنش شیمیایی انجام شده را تأمین می‌کند.
+                </p>
+                
+                <br><hr><br>
+                
+                <p class="MsoNormal">
+                    انرژی فعال‌سازی واکنش را با $E_a$ نمایش می‌دهند و با یکای کیلوژول گزارش می‌کنند.
+                </p>
+                
+                <br><hr><br>
+                
+
+                <div class="MsoStep">خود را بیازمایید</div>
+
+                <p class="MsoNormal">
+                    با توجه به نمودارهای زیر به پرسش‌ها پاسخ دهید:
+                </p>
+                <br>
+                <p class="MsoNormal">
+                    آ) گرماده یا گرماگیر بودن هر یک از واکنش‌ها را مشخص کنید و پاسخ خود را توضیح دهید.
+                </p>
+                <br>
+                <p class="MsoNormal">
+                    ب) کدام واکنش در شرایط یکسان سریع‌تر انجام می‌شود؟ چرا؟
+                </p>
+                <br>
+                <p class="MsoNormal">
+                    پ) فسفر سفید برخلاف گاز هیدروژن در هوا و در دمای اتاق می‌سوزد. با توجه به این واقعیت کدام نمودار به کدام واکنش مربوط است؟ چرا؟
+                </p>
+                
+                <br><hr><br>
+                
+                <p class="MsoNormal">
+                    برخی واکنش‌ها در صنعت فقط در دما و فشار بالا انجام می‌شوند و تولید فراورده‌ها در آنها صرفه اقتصادی ندارد (چرا؟). از این رو شیمی‌دان‌ها در پی یافتن شرایط بهینه (دما و فشار پایین‌تر) برای انجام چنین واکنش‌هایی هستند. به نظر شما چگونه می‌توان واکنش‌هایی از این دست که انرژی فعال‌سازی زیادی دارند را در دما و فشار پایین با سرعت مناسب انجام داد؟ بدون تردید پاسخ شما، یافتن راهی برای کاهش انرژی فعال‌سازی است که با استفاده از کاتالیزگر امکان‌پذیر است. ماده‌ای که سرعت واکنش شیمیایی را افزایش می‌دهد، درحالی که خودش در پایان واکنش باقی می‌ماند. اما چگونه چنین چیزی ممکن است؟
+                </p>
+                
+                <br><hr><br>
+                
+                <p class="MsoStep">آیا می‌دانید</p>
+                
+                <p class="MsoNormal">
+                    کاتالیزگرها در واکنش شرکت می‌کنند؛ اما در پایان واکنش باقی می‌مانند. از این رو می‌توان آنها را بارها و بارها به کار برد. همچنین استفاده از کاتالیزگرها در صنایع گوناگون، سبب کاهش آلودگی محیط زیست می‌شود.
+                </p>
+                
+                <br><hr><br>
+                
+                <div class="MsoStep">با هم بیندیشیم</div>
+                
+                <p class="MsoNormal">
+                    1ــ جدول زیر برخی داده‌ها برای واکنش میان گازهای هیدروژن و اکسیژن را در شرایط گوناگون نشان می‌دهد، با توجه به آن به پرسش‌ها پاسخ دهید:
+                </p>
+                <br>
+                <div class="custom-scrollbar" style="overflow-x: auto; overflow-y: hidden;">
+                    <table class="MsoNormal" style="margin:auto;width:max-content;direction:rtl;text-align:center;">
+                        <tr>
+                            <th>شرایط آزمایش</th>
+                            <th>دما (°C)</th>
+                            <th>سرعت واکنش</th>
+                            <th>آنتالپی واکنش (kJ)</th>
+                        </tr>
+                        <tr>
+                            <td>بدون حضور کاتالیزگر</td>
+                            <td>25</td>
+                            <td>ناچیز</td>
+                            <td>$-572$</td>
+                        </tr>
+                        <tr>
+                            <td>ایجاد جرقه در مخلوط</td>
+                            <td>25</td>
+                            <td>انفجاری</td>
+                            <td>$-572$</td>
+                        </tr>
+                        <tr>
+                            <td>در حضور پودر روی</td>
+                            <td>25</td>
+                            <td>سریع</td>
+                            <td>$-572$</td>
+                        </tr>
+                        <tr>
+                            <td>در حضور توری پلاتینی</td>
+                            <td>25</td>
+                            <td>انفجاری</td>
+                            <td>$-572$</td>
+                        </tr>
+                    </table>
+                <br>
+                </div>
+
+                
+                <br>
+                <p class="MsoNormal">
+                    آ) توضیح دهید چرا این واکنش در دمای اتاق بدون حضور کاتالیزگر انجام نمی‌شود؟
+                </p>
+                <br>
+                <p class="MsoNormal">
+                    ب) نقش جرقه در انجام واکنش چیست؟
+                </p>
+                <br>
+                <p class="MsoNormal">
+                    پ) نقش پودر روی و توری پلاتینی در این واکنش چیست؟
+                </p>
+                <Br>
+                <p class="MsoNormal">
+                    ت) کدام کمیت برای این واکنش در هر شرایطی ثابت می‌ماند؟
+                </p>
+                <br><Br>
+                <p class="MsoNormal">
+                    2ــ هر یک از نمودارها را به کدام شرایط واکنش می‌توان نسبت داد؟ توضیح دهید.
+                </p>
+                <br>
+                <p class="MsoNormal">
+                    3ــ با خط زدن واژه نادرست در هر مورد، عبارت داده شده را کامل کنید:
+                </p>
+                <br>
+                <p class="MsoNormal">
+                    کاهش انرژی فعال‌سازی، سرعت واکنش را افزایش می‌دهد، اما آنتالپی واکنش ثابت می‌ماند.
+                </p>
+                
+                <br><hr><br>
+                
+                <p class="MsoStep">آیا می‌دانید</p>
+                
+                <p class="MsoNormal">
+                    در بدن انسان مجموعه‌ای از واکنش‌های پیچیده انجام می‌شود. همهٔ این واکنش‌ها باید با سرعت‌های کنترل شده و دقیقی انجام شوند تا انسان را زنده نگهدارند. آنزیم‌ها برای کنترل این واکنش‌ها نقش حیاتی دارند. بیشتر آنزیم‌ها پروتئین‌هایی با مولکول‌های بزرگ هستند. هر واکنشی که در بدن انسان انجام می‌شود، آنزیم ویژه‌ای به آن سرعت می‌بخشد. نکتهٔ جالب این است که برخی آنزیم‌ها تنها تولید یک مادهٔ خاص در یک واکنش ویژه را کنترل می‌کنند.
+                </p>
+
+
+
+
+                <br><hr><br>
+
+
+
+                <p class="MsoNormal">
+                    کاتالیزگر را می‌توان به تونلی در یک جاده کوهستانی تشبیه کرد. تونل با کوتاه کردن مسیر حرکت سبب می‌شود که مسافران زودتر به مقصد برسند، کاتالیزگر نیز با تغییر مسیر واکنش، انرژی فعال‌سازی را کاهش داده و سبب می‌شود واکنش‌دهنده‌ها سریع‌تر به فراورده‌ها تبدیل شوند.
+                </p>
+                
+                <br><hr><br>
+                
+                <p class="MsoStep">آیا می‌دانید</p>
+                
+                <p class="MsoNormal">
+                    گازهای خروجی از اگزوز تنها 0.4 ثانیه در تماس با کاتالیزگرهای مبدل کاتالیستی هستند.
+                </p>
+                 
+              <Br><hr><br>
+
+
+
+            
+                <div class="MsoStep">با هم بیندیشیم</div>
+
+                <p class="MsoNormal">
+                    1ــ برای حذف آلاینده‌های موجود در اگزوز خودروها ($CO$, $NO$, $C_xH_y$) قطعه‌ای را در مسیر خروج گازها قرار می‌دهند. با توجه به شکل زیر به پرسش‌ها پاسخ دهید.
+                </p>
+                
+<br>
+
+                <p class="MsoNormal">
+                    آ) هر آلاینده پس از عبور از قطعه A به چه فراورده‌ای تبدیل می‌شود؟
+                </p>
+
+<br>
+                
+                <p class="MsoNormal">
+                    ب) معادله شیمیایی حذف هر یک از آلاینده‌ها را بنویسید و موازنه کنید.
+                </p>
+
+<br><br>
+
+                
+                <p class="MsoNormal">
+                    2ــ با توجه به نمودارهای زیر به پرسش‌ها پاسخ دهید.
+                </p>
+                
+<Br>
+
+                <p class="MsoNormal">
+                    آ) چرا این واکنش‌ها در دماهای پایین انجام نمی‌شوند یا بسیار کند هستند؟
+                </p>
+                
+<Br>
+
+                <p class="MsoNormal">
+                    ب) انرژی فعال‌سازی و آنتالپی هر واکنش را تعیین کنید.
+                </p>
+                
+<br><br>
+                <div class="MsoNormal">
+                    3_
+                    جدول زیر مقدار این آلَّاینده‌ها را در حضور و غیاب قطعه A نشان می‌دهد.
+                    <br>
+                    <br>
+                    <div class="custom-scrollbar" style="overflow-x: auto; overflow-y:hidden;">
+
+                    <table class="MsoNormal" style="margin:auto;width:fit-content;direction:rtl;text-align:center;">
+                        <thead>
+                            <tr>
+                                <th colspan="2">فرمول شیمیایی آلاینده</th>
+
+
+                                <th>$CO$</th>
+                                <th>$C_x H_y$</th>
+                                <th>$NO$</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td rowspan="2">مقدار آلاینده بر حسب گرم
+                                    <br>
+                                    به‌ازای طی یک کیلومتر</td>
+
+                                <td>در غیاب قطعه A</td>
+                                <td>۵/۹۹</td>
+                                <td>۱/۶۷</td>
+                                <td>۱/۰۴</td>
+                            </tr>
+                            <tr>
+                                <td>در حضور قطعه A</td>
+
+                                <td>۰/۶۱</td>
+                                <td>۰/۰۷</td>
+                                <td>۰/۰۴</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <br>
+                </div>
+
+                    <br>
+                    آ) با توجه به آن پیش‌بینی کنید نقش این قطعه چیست؟
+                    <br>
+                    ب) تجربه نشان می‌دهد که کارایی قطعه A به نوع کاتالیزگرهای موجود در آن بستگی دارد.
+                    <br>
+                    این قطعه محتوی سه نوع کاتالیزگر است. با این توصیف کدام عبارت زیر درست است؟ چرا؟
+                    <br><br>
+                    <span>$*$ هر کاتالیزگر می‌تواند به همه واکنش‌ها سرعت ببخشد.</span>
+                    <br>
+                    <span>$*$ هر کاتالیزگر به شمار معدودی واکنش سرعت می‌بخشد.</span>
+            </div>
+
+
+
+    <br><hr><br>
+    <p class="MsoNormal">
+        دریافتید که در مسیر گازهای خروجی از خودروها قطعه‌ای قرار می‌دهند که می‌تواند باعث
+        حذف یا کاهش آلَّاینده‌ها شود. مبدل کاتالیستی<sup>1</sup> نامی است که به آن نسبت می‌دهند. بر روی
+        سطح این قطعه سرامیکی که به شکل توری به کار می‌رود، فلزهای رودیم (Rh)، پالَّادیم (Pd) و
+        پلاتین (Pt) نشانده شده است. برای افزایش کارایی مبدل کاتالیستی، گاهی سرامیک را به شکل
+        مِش (دانه) های ریز درمی‌آورند و کاتالیزگرها را روی سطح آن می‌نشانند (چرا؟) (شکل4).
+    </p>
+    <Br>
+    <p class="MsoNormal">
+        با اینکه مبدل کاتالیستی برای مدت طولانی کار می‌کند اما پس از مدت معینی کارایی آن
+        کاهش می‌یابد و دیگر قابل استفاده نیست.
+    </p>
+    <br><hr><br>
+    <p class="MsoStep">آیا می‌دانید</p>
+    <p class="MsoNormal">
+        برای صنعت خودروسازی جهان
+        در سال 2008 میلادی حدود
+        $1.3 \times 10^5 \, \text{kg Pd} \quad , \quad 1.2 \times 10^5 \, \text{kg Pt} \quad \text{و} \quad 4.2 \times 10^3 \, \text{kg Rh}$
+        مصرف شده است.
+    </p>
+    <br><hr><br>
+    <p class="MsoStep">در میان تارنماها</p>
+    <p class="MsoNormal">
+        با مراجعه به منابع معتبر اینترنتی درباره اینکه «سوخت مناسب برای خودروهای مجهز به
+        مبدل کاتالیستی، بنزین بدون سرب است» اطلاعاتی جمع‌آوری کنید و به کلاس گزارش دهید.
+    </p>
+    <br><hr><br>
+    <p class="MsoStep">خود را بیازمایید</p>
+    <p class="MsoNormal">
+        1ــ با وجود مبدل کاتالیستی، در گازهای خروجی از اگزوز خودروها به هنگام روشن و گرم شدن
+        خودرو به ویژه در روزهای سرد زمستان گازهای بیشتری مشاهده می‌شود.
+        <br>
+        آ) دلیل این پدیده را توضیح دهید.
+        <br>
+        ب) چه راهکاری برای برطرف کردن این مشکل پیشنهاد می‌کنید؟
+    </p>
+    <p class="MsoNormal">
+        2ــ درباره درستی جمله‌های زیر گفت‌وگو کنید.
+        <br><br>
+        <span>$*$ کاتالیزگر اغلب اختصاصی و انتخابی عمل می‌کند.</span>
+        <br> <br>
+        <span>$*$ در حضور کاتالیزگر نباید واکنش‌های ناخواسته دیگری انجام شود.</span>
+        <br> <br>
+        <span>$*$ کاتالیزگر در شرایط انجام واکنش باید پایداری شیمیایی و گرمایی مناسبی داشته باشد.</span>
+    </p>
+    <br><hr><br>
+    <p class="MsoNormal">
+        پی بردید که با استفاده از مبدل کاتالیستی می‌توان از ورود آلَّاینده‌های تولید شده در
+        خودروهای بنزینی به هواکره جلوگیری کرد. اما بررسی‌ها نشان می‌دهد که با استفاده از این
+        نوع مبدل‌ها نمی‌توان گازهای NO و NO<sub>2</sub> خروجی از خودروهای دیزلی را به گاز نیتروژن
+        تبدیل کرد. بنابراین ضروری است برای حل این مسئله، مبدلی نو طراحی کرد. پژوهشگران و
+        مهندسان برای خودروهای دیزلی مبدلی به شکل 5 طراحی کرده‌اند.
+    </p>
+    <p class="MsoNormal">
+        در این مبدل با ورود آمونیاک و انجام واکنش زیر، گازهای NO و NO<sub>2</sub> به گاز N<sub>2</sub> تبدیل شده
+        و تا حدود زیادی از ورود گازهای NO و NO<sub>2</sub> به هواکره جلوگیری می‌شود.
+        <br>
+        $$\text{NO(g) + NO}_2\text{(g) + 2NH}_3\text{(g)} \rightarrow 2\text{N}_2\text{(g) + 3H}_2\text{O(g)}$$
+    </p>
+    <br><hr><br>
+    <p class="MsoStep">تفکر نقادانه</p>
+    <p class="MsoNormal">
+        می‌دانید که افزایش کربن دی‌اکسید
+        سبب ایجاد اثر گلخانه‌ای و بالارفتن
+        دمای کره زمین شده است. درنتیجه
+        یخ‌های قطبی در حال آب شدن
+        هستند. این مسئله سبب خواهد شد
+        تا رفت‌وآمد کشتی‌ها و همچنین
+        حفاری در اعماق اقیانوس قطب
+        شمال و استخراج سوخت‌های
+        فسیلی آن منطقه آسان‌تر شود. بر این
+        اساس عده‌ای معتقدند که نیازی
+        به کنترل کربن دی‌اکسید هواکره
+        نیست. این دیدگاه را در کلاس نقد
+        کنید.
+    </p>
+</div>
+
+            
+<br><hr><br>
+
+
+
+
+    <p class="MsoBold">آمونیاک و بهره وری در کشاورزی</p>
+
+
+
+    <p class="MsoNormal">
+        می دانید که غذا به عنوان محور رشد و سلامتی، یکی از ضرورت های زندگی برای ادامه
+        آن به شمار می رود. اما محدودیت منابع و روند رو به افزایش جمعیت سبب شده تا تأمین
+        غذا به یکی دیگر از چالش های زندگی تبدیل شود. بهترین راه حل برای این مسئله، افزایش
+        بهره وری در تولید فراورده های کشاورزی است. در این راستا شناسایی، تولید و افزودن
+        کودهای شیمیایی مناسب به خاک راهگشا خواهد بود.
+    </p>
+
+<br>
+
+    <p class="MsoNormal">
+        گیاهان با جوی سرشار از گاز نیتروژن احاطه شده اند اما نمی توانند این عنصر ضروری برای
+        رشد خود را به طور مستقیم از هوا جذب کنند. از این رو باید نیتروژن را به شکل ترکیب های
+        نیتروژن دار از جمله آمونیاک و اوره به خاک افزود.
+    </p>
+    <br><hr><br>
+
+
+
+
+        <p class="MsoStep">آیا می دانید</p>
+        <p class="MsoNormal">
+            برای تأمین غذا افزون بر کودهای شیمیایی مناسب، دانش و فناوری های دیگری از جمله شناسایی و تولید
+            مواد شیمیایی برای کنترل آفت ها، به کارگیری دانش شیمی خاک، فراوری فراورده های کشاورزی و ...
+            نقش تعیین کننده ای دارند. برای نمونه تنظیم pH خاک در رشد گیاه مؤثر است.
+        </p>
+
+
+
+
+    <br><hr><br>
+
+
+    <p class="MsoNormal">
+        گیاهان برای رشد افزون بر کربن دی اکسید و آب به عنصرهایی مانند K ، P ، N ، S و ... نیاز دارند.
+    </p>
+
+
+
+    <br><hr><br>
+
+
+
+
+    <p class="MsoStep">خود را بیازمایید</p>
+    <p class="MsoNormal">
+        با توجه به معادله واکنش تعادلی تولید گاز آمونیاک و عبارت ثابت تعادل آن به پرسش ها پاسخ دهید.
+    </p>
+
+    <p class="MsoNormal">
+
+        $$ N_2 (g) + 3 H_2 (g) \rightleftharpoons 2NH_3 (g) $$
+    </p>
+
+    <p class="MsoNormal" style="text-align:center;">
+        $$K = \dfrac{[\text{NH}_3] \, ^2}{[\text{N}_2][\text{H}_2] \, ^3}$$
+    </p>
+
+    <br>
+
+
+    <p class="MsoNormal">
+        آ) توضیح دهید چگونه می توان از روی معادله یک واکنش، عبارت ثابت تعادل را برای آن نوشت؟
+    </p>
+
+<br>
+
+    <p class="MsoNormal">
+        ب) جدول صفحه بعد غلظت تعادلی گونه ها را در دمای معینی برای این واکنش نشان می دهد. با محاسبه $K$، مشخص کنید میزان پیشرفت واکنش در این دما کم است یا زیاد؟ چرا؟
+    </p>
+
+
+<br>
+
+    <table class="MsoNormal" style="margin:auto;width:fit-content;direction:ltr;text-align:center;">
+        <thead>
+            <tr>
+                <th>$[\text{NH}_3]$</th>
+                <th>$[\text{H}_2]$</th>
+                <th>$[\text{N}_2]$</th>
+                <th>$K$</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>0.4</td>
+                <td>0.5</td>
+                <td>0.02</td>
+                <td>.....................</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+    <br><hr><br>
+
+
+
+    <p class="MsoStep">با هم بیندیشیم</p>
+    <p class="MsoNormal">
+        در محفظه ای به حجم یک لیتر، تعادل زیر در دمای $200^0 C$ برقرار است:
+    </p>
+
+
+
+    <p class="MsoNormal" style="text-align:center;">
+        $\text{N}_2(g) + 3\text{H}_2(g) \rightleftharpoons 2\text{NH}_3(g)$
+    </p>
+
+<br>
+
+    <p class="MsoNormal">
+        شکل زیر افزودن مقداری نیتروژن را به این سامانه در دمای ثابت نشان می دهد. با توجه به شکل به پرسش ها پاسخ دهید.
+    </p>
+
+<Br>
+
+    <p class="MsoNormal">
+        جدول زیر را کامل کنید.
+    </p>
+
+<br>
+
+    <table class="MsoNormal" style="margin:auto;width:fit-content;direction:rtl;text-align:center;">
+        <thead>
+            <tr>
+                <th>کمیت</th>
+                <th>$[\text{NH}_3]$</th>
+                <th>$[\text{H}_2]$</th>
+                <th>$[\text{N}_2]$</th>
+                <th>$K$</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>تعادل (1)</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>تعادل (2)</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+
+
+<Br><br>
+
+
+    <p class="MsoNormal">
+        2ــ غلظت کدام مواد در تعادل (2) در مقایسه با تعادل (1) افزایش یافته است؟
+    </p>
+
+<Br><Br>
+    <p class="MsoNormal">
+        3ــ با افزودن $\text{N}_2(g)$ به تعادل (1)، واکنش در چه جهتی پیش رفته است تا به تعادل جدید برسد؟ چرا؟
+    </p>
+<Br><br>
+
+    <p class="MsoNormal">
+        4ــ $K$ در این آزمایش چه تغییری کرده است؟ از این ویژگی چه نتیجه ای می گیرید؟
+    </p>
+<Br><Br>
+
+    <p class="MsoNormal">
+        5 ــ با خط زدن واژه نادرست در هر مورد، عبارت زیر را کامل کنید.
+    </p>
+
+<br>
+    <p class="MsoNormal" >
+        هنگامی که در دمای ثابت، غلظت یکی از مواد شرکت کننده در سامانه تعادلی
+
+        $ \frac{ \text{کاهش} }{ \text{افزایش} } $
+
+          یابد، واکنش در جهت 
+          
+          $ \frac{ \text{تولید} }{ \text{مصرف} } $
+          
+          آن پیش می رود تا به تعادل 
+          
+          $ \frac{ \text{آغازی} }{ \text{جدید} } $
+          
+          برسد.
+
+    </p>
+
+
+
+
+<br><hr><br>
+
+
+<div class="MsoNormal">
+    <p class="MsoNormal">
+        پی بردید که واکنش تعادلی با افزایش غلظت یکی از مواد شرکت کننده در دمای ثابت، در
+        جهتی پیش می رود که تا حد امکان مقداری از آن را مصرف کند و به تعادل جدید برسد اما در
+        این جابه جایی، K ثابت می ماند.
+    </p>
+
+    <Br>
+    <p class="MsoNormal">
+        بدیهی است که با کاهش غلظت هر ماده شرکت کننده، واکنش تا حد امکان در جهت تولید
+        آن ماده پیش خواهد رفت. این ویژگی نشان می دهد که اگر تغییری سبب به هم خوردن یک
+        سامانه تعادلی شود، تعادل در جهتی جابه جا می شود که تا حد امکان اثر آن تغییر را جبران
+        کند. این توصیف، بیانی از اصل لوشاتلیه است.
+    </p>
+
+
+    <br><hr><br>
+    <p class="MsoStep">خود را بیازمایید</p>
+    <p class="MsoNormal">
+        واکنش تعادلی زیر در سامانه ای با حجم و دمای ثابت برقرار است. با هر یک از تغییرهای
+        زیر تعادل در چه جهتی جابه جا می شود؟ چرا؟
+    </p>
+
+    <p class="MsoNormal" style="text-align:center;">
+        $\text{N}_2(g) + 3\text{H}_2(g) \rightleftharpoons 2\text{NH}_3(g), \, 300^\circ \text{C}$
+    </p>
+    <Br>
+    <p class="MsoNormal">
+        1- خارج کردن مقداری گاز آمونیاک از سامانه
+        <br>
+        2- وارد کردن مقداری گاز هیدروژن در سامانه
+    </p>
+
+    <br><hr>
+       <p class="MsoBold">تغییر حجم سامانه در تعادل های گازی</p>
+    <p class="MsoNormal">
+        با اثر تغییر غلظت یکی از مواد شرکت کننده بر تعادل گازی در دمای ثابت آشنا شدید.
+        دریافتید که در دما و حجم ثابت با افزایش شمار مول های یکی از مواد شرکت کننده، غلظت
+        آن افزایش می یابد و مطابق اصل لوشاتلیه واکنش تعادلی تا حد امکان در جهت مصرف آن
+        جابه جا می شود.
+    </p>
+
+<Br>
+    <p class="MsoNormal">
+        برای تغییر غلظت مواد شرکت کننده می توان از روش دیگری نیز بهره برد. روشی که در آن
+        حجم سامانه در دمای ثابت تغییر می کند. برای نمونه اگر تعادل:
+    </p>
+<Br>
+
+    <p class="MsoNormal" style="text-align:center;">
+        $\text{N}_2(g) + 3\text{H}_2(g) \rightleftharpoons 2\text{NH}_3(g)$
+    </p>
+   
+   <br><Br>
+    <p class="MsoNormal">
+        در سیلندری مجهز به پیستون روان برقرار باشد، با افزایش فشار بر روی
+        پیستون می توان حجم چنین سامانه ای را در دمای ثابت کاهش داد.
+    </p>
+<Br>
+
+    <p class="MsoNormal">
+        یافته های تجربی نشان می دهد که کاهش حجم این سامانه سبب می شود تعادل در جهت
+        مول های گازی کمتر جابه جا شود.
+    </p>
+
+
+    <br><hr><br>
+    <p class="MsoStep">خود را بیازمایید</p>
+    <p class="MsoNormal">
+        1- اگر در سامانه ای، پیستون بیرون کشیده شود تا در دمای ثابت، حجم آن افزایش یابد:
+        <br>
+        - پیش بینی کنید تعادل در کدام جهت جابه جا می شود؟ چرا؟
+        <br>
+        - با این تغییر، شمار مول های آمونیاک چه تغییری می کند؟
+    </p>
+
+<Br><Br>
+
+    <p class="MsoNormal">
+        2- با خط زدن واژه نادرست در هر مورد عبارت زیر را کامل کنید:
+    </p>
+
+<Br>
+    <p class="MsoNormal" style="text-align:center;">
+        هنگامی که در دمای ثابت، فشار بر یک تعادل گازی کاهش یابد، واکنش در جهت شمار مول‌های گازی بیشتر پیش می‌رود تا به تعادل جدید برسد.
+    </p>
+
+<Br><Br>
+    <p class="MsoNormal">
+        3- پیش بینی کنید در دمای ثابت با افزایش فشار بر سامانه تعادلی زیر:
+    </p>
+
+<Br>
+    <p class="MsoNormal" style="text-align:center;">
+        $\text{H}_2(g) + \text{I}_2(g) \rightleftharpoons 2\text{HI}(g)$
+    </p>
+<br><Br>
+
+    <p class="MsoNormal">
+        - شمار مول های هر یک از مواد شرکت کننده چه تغییری می کند؟ چرا؟
+        <br>
+        - غلظت مولی هر یک از مواد شرکت کننده چه تغییری می کند؟ چرا؟
+    </p>
+
+
+
+    <br><hr>
+
+
+    <p class="MsoBold">دما، عاملی برای جابه جایی تعادل و تغییر K</p>
+    <p class="MsoNormal">
+        با رفتار تعادل گازی در برابر تغییر غلظت مواد شرکت کننده و تغییر فشار وارد بر سامانه در
+        دمای ثابت آشنا شدید، رفتاری که با اصل لوشاتلیه توجیه می شود.
+    </p>
+
+
+    <Br>
+
+
+    <p class="MsoNormal">
+        تنها عاملی که افزون بر جابه جا کردن تعادل، توانایی تغییر $K$ را نیز دارد، دماست. در واقع
+        هنگامی که دمای یک سامانه محتوی تعادل گازی تغییر می کند، پس از رسیدن به تعادل
+        جدید افزون بر تغییر غلظت مواد شرکت کننده، $K$ نیز تغییر خواهد کرد.
+    </p>
+
+    <br>
+
+    <p class="MsoNormal">
+        جالب اینکه اثر تغییر دما بر تعادل های گوناگون، یکسان نیست و به گرماده یا گرماگیر
+        بودن آنها بستگی دارد.
+    </p>
+
+
+
+    <br><hr><br>
+
+
+    <p class="MsoStep">با هم بیندیشیم</p>
+    <p class="MsoNormal">
+        1- جدول داده شده اثر دما را بر ثابت تعادل زیر نشان می دهد. با توجه به آن به پرسش ها
+        پاسخ دهید.
+    </p>
+
+
+    <p class="MsoNormal" style="text-align:center;">
+        $$2\text{SO}_3(g) \rightleftharpoons 2\text{SO}_2(g) + \text{O}_2(g)$$
+    </p>
+
+    <div class="MsoNormal">
+        <table class="MsoNormal" style="margin:auto;width:fit-content;direction:rtl;text-align:center;">
+            <thead>
+                <tr>
+                    <th>دما (°C)</th>
+                    <th>۲۵</th>
+                    <th>۲۲۵</th>
+                    <th>۴۳۵</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>K</td>
+                    <td>$2.5 \times 10^{-25}$</td>
+                    <td>$4 \times 10^{-11}$</td>
+                    <td>$4 \times 10^{-5}$</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    
+
+    <Br>
+    <p class="MsoNormal">
+
+        (آ)
+        عبارت ثابت تعادل را برای آن بنویسید.
+        <br>   <br>
+
+    (ب)
+        
+        میزان پیشرفت واکنش در کدام دما بیشتر است؟ چرا؟
+        <br>   <br>
+
+        (پ)
+         با افزایش دما $K$ چه تغییری کرده است؟ این تغییر، جابه جا شدن تعادل را در چه جهتی نشان می دهد؟
+        <br>   <br>
+
+(ت)
+         اگر برای این واکنش $\Delta H < 0$ باشد، جابه جا شدن تعادل و افزایش $K$ را به کمک اصل لوشاتلیه توجیه کنید.
+    </p>
+
+
+</div>
+
+<Br><br>
+
+
+    <p class="MsoNormal">
+        2ــ با خط زدن واژه نادرست در هر مورد، عبارت زیر را کامل کنید.
+    </p>
+
+<br>
+
+
+
+    <p class="MsoNormal">
+        هنگامی که دمای یک سامانه تعادلی افزایش می‌یابد،
+         واکنش در جهت 
+         
+        $ \frac{ \text{مصرف} }{ \text{تولید} } $
+
+          گرما پیش می‌رود، 
+        اگر این واکنش گرماگیر باشد مقدار 
+        
+        $ \frac{ \text{فراورده‌ها} }{ \text{واکنش‌دهنده‌ها} }  $
+        
+        در سامانه کاهش می‌یابد.
+    </p>
+
+
+
+
+<br><br>
+
+
+    <p class="MsoNormal">
+        3ــ نمودار زیر درصد مولی آمونیاک را برای سامانه تعادلی زیر در فشار ثابت نشان می‌دهد. 
+        باتوجه به آن به پرسش‌ها پاسخ دهید.
+    </p>
+
+
+<br>
+
+
+    <p class="MsoNormal" style="text-align:center;">
+        $$\text{N}_2(g) + 3\text{H}_2(g) \rightleftharpoons 2\text{NH}_3(g)$$
+    </p>
+
+<Br>
+
+
+    <p class="MsoNormal">
+        آ) با افزایش دما درصد مولی آمونیاک در سامانه چه تغییری می‌کند؟
+    </p>
+
+<Br>
+
+    <p class="MsoNormal">
+        ب) این واکنش گرماده است یا گرماگیر؟ چرا؟
+    </p>
+
+<Br>
+
+    <p class="MsoNormal">
+        پ) مقدار ثابت تعادل آن در سه دمای 25، 200 و 400 درجه سلسیوس به صورت زیر است:
+    </p>
+
+
+    <p class="MsoNormal" style="text-align:center;">
+        $$
+        
+        K_1 = 6.2 \times 10^{-4}
+        \quad , \quad 
+        K_2 = 2.24
+        \quad , \quad 
+        K_3 = 6.0 \times 10^{5}
+        
+        $$
+    </p>
+
+<br>
+
+    <p class="MsoNormal">
+        کدام یک، ثابت تعادل را در دمای اتاق نشان می‌دهد؟ توضیح دهید.
+    </p>
+
+
+    <br><hr><br>
+    <p class="MsoNormal">
+        تاکنون آموختید که با تغییر غلظت، فشار و دما می‌توان سامانه‌های تعادلی را در جهت دلخواه جابه‌جا کرد. 
+        فریتس هابر نیز انتظار داشت که با تغییر این عوامل بتواند مقدار آمونیاک را در مخلوط تعادلی افزایش دهد. 
+        او می‌دانست که با افزایش دما و تأمین انرژی فعال‌سازی، سرعت واکنش افزایش خواهد یافت. از این رو واکنش 
+        را در دماهای بالاتر بررسی کرد. دماهایی که در آن‌ها واکنش با سرعت چشمگیری انجام می‌شد، اما با پیشرفت 
+        کمی به تعادل می‌رسید به طوری که سامانه محتوی مخلوطی از هر سه گاز بود. جالب اینکه او هر چه دما را 
+        بالاتر می‌برد، درصد مولی آمونیاک در مخلوط کاهش می‌یافت. (چرا؟)
+    </p>
+
+
+
+    <p class="MsoNormal">
+        هابر دریافت که افزایش دما نمی‌تواند برای تولید آمونیاک بیشتر ثمربخش باشد. او با استفاده از کاتالیزگر توانست 
+        واکنش را در دماهای پایین‌تر با سرعت مناسب انجام دهد، هرچند که هنوز هم درصد مولی آمونیاک در مخلوط 
+        مطلوب نبود. او برای رفع این مشکل، از افزایش فشار بر سامانه بهره برد.
+    </p>
+
+
+
+    <p class="MsoNormal">
+        به این ترتیب هابر توانست شرایط بهینه برای تولید آمونیاک را بیابد. شرایطی که در آن تنها 28 درصد مولی مخلوط 
+        را آمونیاک تشکیل می‌دهد. در پایان برای جداسازی آمونیاک از مخلوط واکنش، از تفاوت آشکار در نقطه جوش 
+        آمونیاک با دو گاز دیگر استفاده کرد.
+    </p>
+
+
+    <br><hr><br>
+    <p class="MsoStep">
+        آیا می‌دانید
+    </p>
+
+
+    <p class="MsoNormal">
+        ساخت تجهیزات لازم برای تولید آمونیاک به روش هابر مدیون مهندسی کارل بوش است. او کسی بود که مهندسی 
+        تجهیزات تولید آمونیاک را گسترش داد. از این رو، گاهی از فرایند هابر به عنوان فرایند هابر-بوش نام برده می‌شود.
+    </p>
+
+
+
+    <p class="MsoNormal">
+        فریتس هابر شیمی‌دان مشهور آلمانی و همکارش کارل بوش برای تلاش در تهیه آمونیاک از واکنش گازهای 
+        نیتروژن و هیدروژن، جایزه نوبل دریافت کردند.
+    </p>
+
+
+    <br><hr><br>
+
+
+    <p class="MsoStep">
+        خود را بیازمایید
+    </p>
+
+
+
+    <p class="MsoNormal">
+        1ــ با توجه به شکل زیر که نمایی از فناوری تولید آمونیاک را نشان می‌دهد به پرسش‌ها پاسخ دهید:
+    </p>
+
+<br>
+
+    <p class="MsoNormal">
+        آ) در مورد روش کار هابر در این فناوری با یکدیگر گفت‌وگو کنید.
+    </p>
+
+<br>
+
+    <p class="MsoNormal">
+        ب) اگر نقطه جوش آمونیاک، نیتروژن و هیدروژن به ترتیب $-33^\circ$، $-196^\circ$ و $-253^\circ$ 
+        سلسیوس باشد، کدام دما ($-40^\circ$ یا $200^\circ$) را برای سردکننده مناسب می‌دانید؟ توضیح دهید.
+    </p>
+
+<br><br>
+
+    <p class="MsoNormal">
+        2ــ نمودار زیر تغییر غلظت فراورده را برای واکنش تعادلی 
+        $A(g) + B(g) \rightleftharpoons AB(g)$
+        در دو شرایط متفاوت نشان می‌دهد.
+    </p>
+
+<Br>
+
+    <p class="MsoNormal">
+        آ) این واکنش گرماده است یا گرماگیر؟ چرا؟
+    </p>
+
+<br>
+
+    <p class="MsoNormal">
+        ب) فشار $P_2$ از $P_1$ بزرگ‌تر است یا کوچک‌تر؟ پاسخ خود را توضیح دهید.
+    </p>
+
+<br><hr>
+
+
+
+
+        <p class="MsoBold">
+            ارزش فناوری‌های شیمیایی
+        </p>
+        <p class="MsoNormal">
+            نفت خام، ‌گاز طبیعی، زغال سنگ و معادن مس، آهن، طلا، مرمر و فیروزه از جمله منابع 
+            شیمیایی ارزشمندی هستند که به طور یکسان در جهان توزیع نشده‌اند. به همین دلیل برخی 
+            کشورها، صادرکننده این منابع و برخی دیگر واردکننده آنها هستند. در واقع برخی کشورهای 
+            دنیا با کسب درآمد از فروش منابع خود زمینه آسایش، رشد و توسعه را فراهم می‌کنند. 
+            نکته مهمی که باید به آن توجه کرد این است که بسیاری از کشورها منابع طبیعی خود را 
+            کم و بیش بدون فراوری و به همان صورتی که از طبیعت به دست می‌آید، به فروش می‌رسانند. 
+            فرایندی که به خام‌فروشی منابع معروف است. روش دیگر این است که به کمک فناوری‌های شیمیایی 
+            مواد خام و اولیه را به فراورده‌های دیگر تبدیل کرد تا بتوان به قیمت بالاتری به فروش رساند. 
+            برای نمونه فروش نفت خام ساده‌ترین راه بهره‌برداری از این منبع طبیعی است و راه دیگر آن، 
+            پالایش نفت خام و تبدیل آن به فراورده‌های پتروشیمیایی مانند آمونیاک، سولفوریک اسید، 
+            متانول، بنزین و ... است. خام‌فروشی برای منابع معدنی مانند سنگ معدن آهن، مس، روی 
+            و حتی منابع کشاورزی مانند پنبه نیز صادق است. برای نمونه قیمت یک تن مس خالص در 
+            بازارهای جهانی به هزاران برابر قیمت یک تن سنگ معدن مس می‌رسد. این تفاوت چشمگیر 
+            نشان می‌دهد که دانش و فناوری استخراج و خالص‌سازی تا چه اندازه ارزشمند است (شکل 9).
+        </p>
+        <br><hr><br>
+        <p class="MsoStep">
+            آیا می‌دانید
+        </p>
+        <p class="MsoNormal">
+            با وجود کشف منابع شیمیایی گوناگون، نفت هنوز مؤثرترین و 
+            مهم‌ترین ماده برای اقتصاد جهان است. بر همین اساس دانشمندان 
+            کشورهای گوناگون در جستجوی منابع جدید این ماده شگفت‌انگیز 
+            حتی در شمالگان و جنوبگان هستند.
+        </p>
+  
+        <br><hr><br>
+
+
+
+
+        <p class="MsoNormal">
+            در شیمی 2 با درصد خلوص مواد شیمیایی آشنا شدید، کمیتی که بر روی قیمت تمام‌شده 
+            آنها نقش تعیین‌کننده‌ای دارد. هر چه درصد خلوص ماده شیمیایی بیشتر باشد، قیمت آن 
+            نیز بیشتر خواهد بود. برای نمونه قیمت فلز مس با خلوص 99.9 درصد نسبت به فلز مس 
+            با خلوص 96 درصد به طور چشمگیری بیشتر است. به همین دلیل فناوری‌های جداسازی و 
+            خالص‌سازی مواد یکی از فناوری‌های پیشرفته، گران، پرکاربرد و در عین حال کارآفرین و 
+            درآمدزا به شمار می‌رود.
+        </p>
+        <br><hr><br>
+        <p class="MsoStep">خود را بیازمایید</p>
+        <p class="MsoNormal">
+            با توجه به شکل‌های زیر که قیمت تقریبی نفت خام و چند فراورده نفتی را نشان می‌دهد 
+            به پرسش‌ها پاسخ دهید.
+        </p>
+
+        <br>
+
+
+        <p class="MsoNormal">
+            آ) با جست‌وجو در منابع معتبر، جدول زیر را کامل کنید.
+        </p>
+
+
+        <br>
+
+
+<div class="custom-scrollbar" style="overflow-x: auto;overflow-y:hidden;">
+        <table class="MsoNormal" style="margin:auto; width:max-content; direction:rtl; text-align:center; border-collapse:collapse;">
+            <tr>
+                <th>نام ماده</th>
+                <th>روغن موتور</th>
+                <th>متانول</th>
+                <th>اتیلن گلیکول</th>
+                <th>پلی‌اتن</th>
+                <th>اتانول</th>
+            </tr>
+            <tr>
+                <td>قیمت 159 لیتر یا کیلوگرم (ریال)</td>
+                <td>...........</td>
+                <td>...........</td>
+                <td>...........</td>
+                <td>...........</td>
+                <td>...........</td>
+            </tr>
+        </table>
+        <Br>
+    </div>
+
+<br><br>
+
+        <p class="MsoNormal">
+            ب) درباره جمله زیر گفت‌وگو کنید. 
+        </p>
+<br>
+
+        <p class="MsoNormal">
+            «به کارگیری فناوری و تبدیل مواد خام به مواد فراوری شده، سبب رشد و بهره‌وری 
+            اقتصاد یک کشور می‌شود.»
+        </p>
+
+
+        <br><hr><br>
+        <p class="MsoStep">آیا می‌دانید</p>
+        <p class="MsoNormal">
+            پلیمر دینیما Dyneema از کولار مقاوم‌تر است. هنگامی که صحبت از پلیمرهای 
+            بسیار مقاوم در مقابل کشش می‌شود اکثراً یاد کولار می‌افتیم که مقاومت کششی آن 
+            حدود 5 تا 10 برابر مقاومت کششی فولاد هم‌جرم آن است. با این حال پلیمر تخصصی 
+            دینیما که جزو گریدهای پلی‌اتن سنگین با فشردگی بسیار بالا، UHMWPE 
+            یا Ultra High Molecular Weight Polyethene می‌باشد حتی مقاومت کششی بیشتری 
+            از کولار دارد. به دلیل مقاومت کششی بسیار بالای این پلیمر، از آن برای ساخت الیاف و 
+            طناب‌هایی بسیار مقاوم مانند طناب‌های کوهنوردی استفاده می‌شود.
+        </p>
+
+        <br>
+        <p class="MsoNormal">
+            این پلیمر بسیار گران‌قیمت بوده و در حال حاضر هر تن از آن حدود 
+            $25,000$ دلار ارزش دارد. حال بیایید به بررسی ارزش فناوری در تولید این 
+            ماده بپردازیم. شرکت پتروشیمی شازند اراک از اتن، نوعی پلی‌اتن سنگین با 
+            نشانه اختصاری CRP-100B تولید می‌کند که در ساخت انواع لوله‌های 
+            آب‌رسانی، کشاورزی و آشامیدنی به کار می‌رود. هر تن از این پلیمر 
+            حدود $1,100$ دلار ارزش دارد. اگر فرض کنیم قیمت هر تن اتن حدود 
+            $800$ دلار باشد، این شرکت پتروشیمی با تولید هر تن پلیمر CRP-100B 
+            حدود $300$ دلار ارزش افزوده ایجاد می‌کند. با این توصیف اگر شرکت 
+            پتروشیمی شازند اراک، پلیمر دینیما را از اتن تولید کند به ازای هر تن 
+            فراورده، در حدود $24,000$ دلار ارزش افزوده ایجاد خواهد کرد، زیرا هر تن 
+            پلیمر دینیما $25,000$ دلار ارزش دارد.
+        </p>
+        <br><hr><br>
+
+
+        <p class="MsoNormal">
+            فناوری را می‌توان به کار بردن دانش برای حل یک مسئله در صنعت یا زندگی روزانه 
+            برای رسیدن به هدفی خاص دانست. فناوری ارتباطات، کشاورزی، غذایی، نظامی، دارویی، 
+            الکترونیکی و آموزشی از جمله فناوری‌هایی هستند که بشر امروزی از آنها برای حل مسائل 
+            خود بهره می‌برد. فناوری همواره با ساخت یا استفاده از یک وسیله همراه است. برای نمونه 
+            دانشمندان و مهندسان با استفاده از دانش مواد و دانش الکتریسیته و مغناطیس، وسایلی 
+            مانند تلفن و رایانه همراه و بی‌سیم طراحی و تولید می‌کنند، وسایلی که مشکل برقراری ارتباط 
+            را برطرف می‌سازند. شیمی‌دان‌ها نیز با استفاده از دانش شیمی، مواد جدیدی می‌سازند یا 
+            روشی برای ساخت آسان‌تر و با صرفه‌تر آنها ارائه می‌کنند. آنها همچنین به دنبال یافتن روش، 
+            طراحی و ساخت دستگاه‌هایی برای شناسایی دقیق ساختار مواد هستند. هریک از این موارد 
+            بیانی از فناوری شیمیایی است.
+        </p>
+        <br><hr><br>
+
+ 
+        
+        <p class="MsoNormal">
+            مواد خام، موادی مانند نمک، سنگ معدن، نفت خام و هوا هستند 
+            که فراوری نشده‌اند و با استفاده از آنها می‌توان مواد شیمیایی جدید تولید کرد.
+        </p>
+
+
+        <br><hr>
+
+        <p class="MsoBold">گروه عاملی، کلید سنتز مولکول‌های آلی</p>
+        <p class="MsoNormal">
+            یکی از لذت‌بخش‌ترین فناوری‌های شیمیایی، سنتز مواد نو از جمله رنگ‌دانه‌ها، 
+            خوشبوکننده‌ها، داروهای ضد سرطان، الیاف، سوخت‌های دوستدار محیط زیست و مواد 
+            هوشمند است. در واقع سنتز را می‌توان کانون بسیاری از پژوهش‌های شیمیایی دانست که 
+            منجر به طراحی و تولید مواد جدید می‌شود.
+        </p>
+<br>
+        <p class="MsoNormal">
+            می‌دانید که اغلب مواد آلی شامل گروه‌های عاملی گوناگون هستند. گروه‌هایی که خواص 
+            و رفتار مواد آلی را تعیین می‌کنند. تولید یک ماده آلی جدید می‌تواند با تغییر ساختار یا 
+            ایجاد یک یا چند گروه عاملی همراه باشد. شیمی‌دان‌ها به کمک دانش مربوط به ساختار و 
+            رفتار گروه‌های عاملی و دانستن شرایط و عوامل مؤثر بر انجام واکنش‌های شیمیایی از مواد 
+            خام یا اولیه در دسترس، ماده‌ای نو برای کاربردی معین سنتز می‌کنند. در این فرایندها، 
+            شیمی‌دان‌ها با استفاده از مواد شیمیایی گوناگون، گروه‌های عاملی موجود در یک ماده آلی 
+            را تغییر داده و به گروه عاملی دیگر تبدیل می‌کنند. برای نمونه در شیمی 2 آموختید که برای 
+            سنتز یک استر می‌توان از واکنش یک اسید آلی با یک الکل در شرایط مناسب بهره برد.
+        </p>
+        <br><hr><br>
+     
+        
+        <p class="MsoNormal">
+            سنتز یک فرایند شیمیایی هدفمند است که در آن با استفاده از 
+            مواد ساده‌تر، مواد شیمیایی دیگر را تولید می‌کنند.
+        </p>
+
+        <br><hr><br>
+
+
+        <div class="MsoNormal">
+            <p class="MsoStep">خود را بیازمایید</p>
+            <p class="MsoNormal">
+                در نمودار زیر جاهای خالی را با نوشتن نام یا فرمول ماده شیمیایی پر کنید.
+            </p>
+            <br><hr><br>
+            <p class="MsoNormal">
+                اینک می پذیرید که می توان از گاز اتن مواد آلی گوناگون پر مصرف و اغلب ارزشمند تهیه کرد.
+                این گاز یکی از مهم ترین خوراک ‌ها در صنایع پتروشیمی است. به همین ترتیب با استفاده از مواد
+                مناسب و واکنش های شیمیایی می توان مواد آلی گوناگون را به یکدیگر تبدیل کرد (نمودار4).
+            </p>
+            <br><hr><br>
+            <p class="MsoStep">آیا می دانید</p>
+            <p class="MsoNormal">
+                سالانه در جهان حدود 130 میلیارد لیتر اتانول تولید و مصرف می شود.
+                اتانول را در صنعت از تخمیر مواد قندی موجود در گیاهانی مانند نیشکر، ذرت و ... تهیه می کنند.
+                دو کشور امریکا و برزیل بزرگ‌ترین تولید کننده اتانول در جهان هستند.
+                به طوری که در حدود 85 درصد کل اتانول تولید شده در جهان، مربوط به این دو کشور است.
+            </p>
+            <br><hr><br>
+            <p class="MsoNormal">
+                بدیهی است هر چه نوع و شمار گروه‌های عاملی در مولکول هدف بیشتر باشد، ساخت آن دشوارتر بوده
+                و به دانش پیشرفته‌تر و فناوری کارآمدتری نیاز دارد. توجه داشته باشید که بازده واکنش، هزینه مواد و انرژی
+                مصرف شده برای تولید ماده هدف به نوع واکنش و فناوری به کاررفته بستگی دارد. از این رو شیمی‌دان‌ها
+                در پی یافتن مواد مناسب، ارزان و دوستدار محیط زیست، همچنین واکنش‌های شیمیایی آسان و پربازده
+                هستند تا هزینه تمام شده تولید یا سنتز را کاهش دهند. در گام بعد دانش مهندسی برای تولید صنعتی
+                آن ماده، فناوری لازم را طراحی و اجرا می‌کند.
+            </p>
+            <br><hr><br>
+            <p class="MsoNormal">
+                صنایع شیمیایی یکی از بزرگ‌ترین صنایع کشور ما ایران است. کارخانه‌ها و شرکت‌های بسیار زیادی
+                در این صنعت فعال هستند. تولیدات صنایع شیمیایی یا به طور مستقیم در زندگی روزانه ما مصرف
+                می‌شوند یا برای تولید مواد و کالاهای جدید در صنایع دیگر مورد استفاده قرار می‌گیرند. به همین دلیل
+                صنایع شیمیایی بر صنایع دیگر تأثیر می‌گذارد، به طوری که هر چه صنایع شیمیایی پیشرفته‌تر باشند
+                و مواد با کیفیت بالایی تولید کنند، کالاها و محصولات تولید شده در شرکت‌ها و کارخانه‌های دیگر
+                نیز کیفیت بالاتری خواهند داشت.
+            </p>
+            <br><hr><br>
+            <p class="MsoNormal">
+                یکی از حقوق مصرف‌کنندگان این است که کالاهای تولید شده در صنایع گوناگون، از خلوص و کیفیت
+                مناسب و بالایی برخوردار باشند. در این راستا و برای اطمینان خاطر مصرف‌کنندگان همه کالاها باید
+                برچسب مشخصات و انواع مواد سازنده را داشته باشند. همچنین باید محتویات این برچسب‌ها توسط
+                متخصصان شاغل در هر کارخانه تأیید شده باشد. بر همین اساس، یکی از جنبه‌های مهم در همه
+                صنایع شیمیایی، کنترل کیفی فراورده‌های تولید شده است. افراد شاغل در این پست باید دانش علوم
+                تجربی و شیمی قوی داشته باشند.
+            </p>
+
+            <p class="MsoNormal">
+                برای فهم بهتر، به این مثال توجه کنید: برچسب خوراکی‌ها، خواص تغذیه‌ای آنها را مشخص می‌کند. 
+                اگر بدن شما به یک ماده غذایی، افزودنی یا نگهدارنده حساسیت دارد، این حق شماست که بدانید 
+                خوراکی‌ای که خریداری می‌کنید، از چه موادی تشکیل شده است. بنابراین باید روی برچسب مواد 
+                غذایی اطلاعات دقیق آن نوشته شده باشد.
+            </p>
+            <p class="MsoNormal">
+                بخش کنترل کیفی در هر کارخانه‌ای موظف است که با استفاده از روش‌های فیزیکی و شیمیایی دقیق و 
+                روزآمد و استفاده از ابزارها و دستگاه‌های اندازه‌گیری، محتویات و اجزای سازنده محصولات و مقدار 
+                آنها را تعیین و کنترل می‌کند.
+            </p>
+
+
+
+            <br><hr><br>
+            <p class="MsoStep">ساخت بطری آب</p>
+            <p class="MsoNormal">
+                سالانه شمار بسیار زیادی بطری پلاستیکی برای نگهداری و بسته‌بندی آب آشامیدنی تولید می‌شود.
+                بطری آب از پلیمری به نام پلی‌اتیلن ترفتالات (PET) ساخته می‌شود.
+                برای ساخت این بطری، نخست پلیمر آن را تهیه می‌کنند. سپس این پلیمر را به همراه برخی افزودنی‌ها
+                در قالب‌های ویژه‌ای می‌ریزند تا به شکل بطری مورد نظر درآید.
+            </p>
+        </div>
+
+
+        <br><hr><Br>
+
+
+                <p class="MsoStep">خود را بیازمایید</p>
+                <p class="MsoNormal">
+                    فرمول ساختاری پلیمر سازنده بطری آب به شکل زیر است. با توجه به آن به پرسش‌ها پاسخ دهید.
+                </p>
+                <br>
+                <p class="MsoNormal">
+                    آ) این پلیمر از کدام دسته پلیمرهاست؟ چرا؟ <br><br>
+                    ب) ساختار مونومرهای سازنده این پلیمر را رسم کنید.
+                </p>
+                <br><hr><br>
+                <p class="MsoStep">آیا می‌دانید</p>
+                <p class="MsoNormal">
+                    تریلن نام تجاری و قدیمی پلی‌اتیلن ترفتالات است. این نام از مونومرهای این پلیمر، 
+                    ترفتالیک اسید و اتیلن گلیکول گرفته شده است. البته نام تجاری امروزی این پلیمر، پت است.
+                </p>
+                <br><hr><br>
+                <p class="MsoNormal">
+                    با توجه به آنچه که آموخته‌اید برای سنتز این پلیمر چه پیشنهادی دارید؟ پاسخ شما درست است، 
+                    از واکنش مونومرهای سازنده این پلیمر یعنی اتیلن گلیکول (الکل دوعاملی) با ترفتالیک اسید 
+                    (اسید دوعاملی) در شرایط مناسب می‌توان پلی‌اتیلن ترفتالات را سنتز کرد. شکل 11، 
+                    الگوی تشکیل این ماده را نشان می‌دهد.
+                </p>
+                <p class="MsoNormal">
+                    اما مسئله این است که اتیلن گلیکول و ترفتالیک اسید در نفت خام وجود ندارند. به دیگر سخن، 
+                    به طور مستقیم نمی‌توان آنها را از نفت خام به دست آورد. پس چه باید کرد؟ در اینجا، با بهره‌گیری 
+                    از دانش شیمی می‌توان این مواد را با استفاده از مواد خام و اولیه که از نفت خام جداسازی می‌شوند، 
+                    سنتز کرد.
+                </p>
+                <p class="MsoNormal">
+                    اکنون باید در نقش یک شیمی‌دان، مواد اولیه و در دسترس را بررسی و بر اساس آموخته‌های خود، 
+                    مواد مناسب برای سنتز ترفتالیک اسید و اتیلن گلیکول را انتخاب کرد. سپس مواد اولیه انتخاب شده 
+                    را در شرایط مناسب واکنش داده و به ماده مورد نظر تبدیل نمود.
+                </p>
+                <br><hr><br>
+                <p class="MsoStep">آیا می‌دانید</p>
+                <p class="MsoNormal">
+                    یکی از مراحل مهم در تهیه یک ماده، جداسازی و خالص‌سازی آن است. واکنش پارازایلن با پتاسیم 
+                    پرمنگنات در محیط بازی را در نظر بگیرید. پس از انجام واکنش مخلوطی به دست می‌آید که شامل، 
+                    پتاسیم پرمنگنات اضافی، منگنز (IV) اکسید، آب، پارازایلن واکنش نداده، ترفتالیک اسید و مواد دیگر 
+                    است. اکنون باید با استفاده از دانش شیمی، ترفتالیک اسید (فراورده مورد نظر) را از مخلوط واکنش 
+                    جداسازی کرد. بدیهی است درصد خلوص ترفتالیک اسید به دانش و فناوری به کار رفته بستگی دارد.
+                </p>
+                <br><hr><br>
+                        
+                    <p class="MsoStep">باهم بیندیشیم</p>
+                    <p class="MsoNormal">
+                        1_
+                        بررسی‌ها نشان می‌دهند که می‌توان مواد زیر را طی فرایندهایی از نفت خام به دست آورد:
+                    </p>
+                 
+<Br>
+
+                    <p class="MsoNormal">
+                        با بررسی فرمول‌های ساختاری زیر به پرسش‌های داده شده پاسخ دهید:
+                    </p>
+                  
+    <br>                
+                 
+                        <p class="MsoNormal">
+                        آ) برای تهیه ترفتالیک اسید از پارازایلن، چه تغییری باید در ساختار پارازایلن ایجاد کرد؟ <br><br>
+                        ب) عدد اکسایش اتم‌های کربن ستاره‌دار را در این دو ترکیب تعیین کنید. <br><Br>
+                        پ) با توجه به آموخته‌های خود درباره واکنش‌های اکسایش ـ کاهش، برای تبدیل پارازایلن به ترفتالیک اسید کدام دسته از مواد زیر را مناسب می‌دانید؟ توضیح دهید.
+                    </p>
+                  <br>
+             
+                    <p class="MsoNormal">
+                        2_
+                        پتاسیم پرمنگنات اکسنده‌ای است که محلول غلیظ آن در شرایط مناسب پارازایلن را با بازده نسبتاً خوب به ترفتالیک اسید تبدیل می‌کند:
+                    </p>
+                  
+
+
+                    <Br>
+                    <p class="MsoNormal">
+                        آ) در این واکنش یون پرمنگنات به منگنز (IV) اکسید تبدیل می‌شود. تغییر عدد اکسایش اتم منگنز در این واکنش چند است؟ 
+                        (عدد اکسایش اتم منگنز در یون پرمنگنات برابر با $7+$ است). <br><br>
+                        ب) انرژی فعال‌سازی این واکنش زیاد است یا کم؟ چرا؟
+                    </p>
+                    <br><hr><br>
+             
+                    <p class="MsoStep">آیا می‌دانید</p>
+                    <p class="MsoNormal">در یک واکنش شیمیایی فراورده‌هایی تولید می‌شوند که دلخواه ما نیستند و پسماند واکنش محسوب می‌شوند. این پسماندها، گاهی سمی و آلَّاینده بوده و برای محیط زیست زیان‌آورند. بر همین اساس شیمی‌دان‌های دوستدار محیط زیست رشته‌ای دانشگاهی به نام شیمی سبز با راهکارهای زیر راه‌اندازی کرده‌اند.</p>
+                    <br>
+                  
+                    <p class="MsoNormal">شیمی سبز با طراحی مواد و فرایندهای شیمیایی مناسب سبب حذف یا کاهش مواد زیان‌آور و سمی و حرکت در مسیر توسعه پایدار می‌شود. توسعه پایدار به معنی بهره‌برداری هوشمندانه و مناسب از منابع برای تأمین نیازهای امروز بدون تحمیل هزینه به آیندگان تعریف می‌شود.</p>
+                    
+                    <br><hr><Br>
+
+
+                        <p class="MsoNormal">پی بردید که یون پرمنگنات گونه‌ای اکسنده است و سبب اکسایش گونه‌های دیگر می‌شود. با وجود غلظت بالای آن، باز هم شرایط تبدیل پارازایلن به ترفتالیک اسید تأمین نمی‌شود.</p>
+                        <br>
+                        <p class="MsoNormal">مگر آنکه دمای مخلوط واکنش افزایش یابد. با افزایش دما اگرچه شرایط انجام واکنش تأمین شده است اما بازده همچنان مطلوب نیست. همه اینها نشان می‌دهد که اکسایش پارازایلن به ترفتالیک اسید دشوار است. از این رو شیمی‌دان‌ها در پی یافتن شرایطی آسان‌تر برای انجام این واکنش با بازده بالا هستند. آنها با پژوهش‌های فراوان دریافتند که استفاده از اکسیژن هوا و کاتالیزگرهای مناسب می‌تواند راهگشا باشد. البته پژوهش‌ها برای یافتن واکنشی پربازده و با صرفه اقتصادی همچنان ادامه دارد.</p>
+                        <br>
+                        <p class="MsoNormal">تاکنون تهیه یکی از واکنش‌دهنده‌های مورد نیاز برای سنتز پلیمر به کار رفته در بطری آب را فرا گرفتید. هرچند انجام این واکنش در مقیاس صنعتی بسیار پیچیده‌تر و دشوارتر از آن چیزی است که روی کاغذ نوشته می‌شود.</p>
+                        <br>
+                        <p class="MsoNormal">اینک دومین واکنش‌دهنده (اتیلن گلیکول) را باید تهیه کرد. برای سنتز اتیلن گلیکول، باید گاز اتن را با یک ماده شیمیایی مناسب و مؤثر واکنش داد. بررسی‌ها نشان می‌دهد که گاز اتن در اثر واکنش با محلول آبی و رقیق پتاسیم پرمنگنات در شرایط مناسب به اتیلن گلیکول تبدیل می‌شود.</p>
+                        <br>
+                        <p class="MsoNormal">اکنون می‌توان با انجام واکنش اتیلن گلیکول با ترفتالیک اسید (مونومرهای سازنده پلیمر) پلی‌اتیلن ترفتالَّات را سنتز کرد.</p>
+                        <br>
+                        <p class="MsoNormal">این پلیمر همانند پلیمرهای سنتزی ماندگاری زیادی دارد و در طبیعت به کندی تجزیه می‌شود. به همین دلیل پسماند آنها تهدیدی جدی برای زندگی روی کره زمین به شمار می‌آید. بنابراین ضروری است بازیافت پلاستیک‌ها را به طور دقیق بررسی کنیم تا با نقش فناوری شیمیایی در بازیافت آنها آشنا شویم.</p>
+
+                        
+                    <br><hr><br>
+
+                    <p class="MsoStep">در میان تارنماها</p>
+                    <p class="MsoNormal">در شیمی 2 با پلیمرهای سبز که زیست تخریب پذیرند آشنا شدید. با مراجعه به منابع علمی معتبر، گزارشی از این پلیمرها در مقایسه با پلیمرهای حاصل از مواد نفتی از دیدگاه اقتصادی و زیست محیطی تهیه و در کلاس ارائه کنید.</p>
+                    <br><hr><br>
+                    <p class="MsoStep">آیا می‌دانید</p>
+                    <p class="MsoNormal">سالانه 8 تا 10 میلیارد کیلوگرم پلاستیک وارد اقیانوس‌ها می‌شوند. این مواد افزون بر ماده پلیمری شامل مواد شیمیایی گوناگونی نیز مانند نرم کننده‌ها، رنگ‌دانه‌ها و پایدارکننده هستند که برای جانداران مضرند و سامانه عصبی آنها را مختل می‌کنند.</p>
+                    <br><hr><br>
+                    <p class="MsoStep">بازیافت PET</p>
+                    <p class="MsoNormal">پلاستیک‌ها را می‌توان یکی از نتایج خلاقیت و نوآوری بشر دانست. این مواد به دلیل ویژگی‌هایی مانند چگالی کم، نفوذناپذیری نسبت به هوا و آب، ارزان بودن و مقاومت در برابر خوردگی، کاربردهای وسیعی در زندگی پیدا کرده‌اند؛ به طوری که امروزه سالانه حدود 400 میلیون تن از این مواد در جهان تولید می‌شود و این روند روبه افزایش است.</p>
+                    <br>
+                    <p class="MsoNormal">استفاده بی‌رویه و بیش از حد این مواد در صنایع گوناگون به همراه زیست‌تخریب‌ناپذیری آنها سبب شده که درجای جای کره زمین یافت شوند. از این رو بازیافت آنها اجتناب‌ناپذیر است. یکی از مواد پلاستیکی قابل بازیافت، پلی‌اتیلن ترفتالَّات است. برای این منظور، باید آنها را جداگانه جمع‌آوری و سپس با انجام فرایندهای فیزیکی و شیمیایی به مواد قابل استفاده تبدیل کرد.</p>
+                    <br><hr><br>
+                    <p class="MsoNormal">سالانه تعداد زیادی از جانوران دریایی در دام پلاستیک‌ها می‌افتند و می‌میرند.</p>
+                    <br><hr><br>
+                    <p class="MsoNormal">یکی از راه‌های بازیافت این است که آنها را پس از شست‌وشو و تمیز کردن، ذوب کرده و دوباره از آنها برای تولید وسایل و ابزار دیگر استفاده می‌کنند. البته پس از شست‌وشوی مواد پلاستیکی می‌توان آنها را خرد کرده و به تکه‌های کوچک به نام پَرک تبدیل و در تولید مواد پلاستیکی دیگر استفاده کرد. اما راه دیگری نیز وجود دارد که این پسماندها را به مونومرهای سازنده یا مواد اولیه مفید و ارزشمند تبدیل می‌کنند. باید توجه داشت که سطح فناوری هر کشور یا گروه صنعتی است که تعیین می‌کند کدام راه را باید انتخاب کرد، زیرا برگرداندن پسماندها به مونومرهای سازنده کاری بس دشوار است.</p>
+                    <br>
+                    <p class="MsoNormal">از آنجا که سالانه حجم انبوهی از پسماندهای این پلیمر تولید می‌شود، بازیافت شیمیایی آن بسیار ضروری و ارزشمند است. در شیمی 2 آموختید که پلی‌استرها قابل تبدیل به مونومرهای سازنده هستند. شیمی‌دان‌ها با بررسی‌های فراوان پی بردند که PET نیز در شرایط مناسب با متانول واکنش می‌دهد و به مواد مفیدی تبدیل می‌شود؛ موادی که می‌توان آنها را برای تولید پلیمرها به کار برد. بررسی‌ها نشان می‌دهد که سالانه به مقدار زیادی متانول در مقیاس صنعتی نیاز است. اکنون این پرسش مطرح می‌شود که چگونه می‌توان در مقیاس صنعتی متانول تولید کرد؟</p>
+                    <br>
+                    <p class="MsoNormal">متانول مایعی بی‌رنگ، بسیار سمی و ساده‌ترین عضو خانواده الکل‌ها است که می‌توان آن را از چوب تهیه کرد. از آنجا که این الکل کاربردهای زیادی در صنایع گوناگون دارد باید آن را در مقیاس صنعتی تولید کرد. در صنعت گاز کربن مونوکسید را با گاز هیدروژن در شرایط مناسب و در حضور کاتالیزگر واکنش می‌دهند. معادله شیمیایی این واکنش به صورت زیر است:</p>
+                    <br>
+                    <p class="MsoNormal" style="text-align: center;">
+                        
+                        $$ \text{CO} (g) + 2H_{2} (g) \xrightarrow{\text{کاتالیزگر، دما و فشار مناسب}} CH_{3}OH(l)$$
+                    
+                    </p>
+                    <br>
+                    <p class="MsoNormal">مواد واکنش‌دهنده برای این واکنش در دسترس نیستند از این رو نخست باید آنها را تولید و سپس به متانول تبدیل کرد. برای تهیه گازهای کربن مونوکسید و هیدروژن می‌توان از واکنش گاز متان با بخار آب در حضور کاتالیزگر بهره برد.</p>
+                    <br>
+                    <p class="MsoNormal" style="text-align: center;">
+                        
+                        $$CH_4(g) + H_2O(g) \xrightarrow{\text{کاتالیزگر}} \text{CO} (g) + 3H_2(g)$$
+                    
+                    </p>
+                    <br>
+                    <p class="MsoNormal">گاز متان سازنده اصلی گاز طبیعی است که در میدان‌های نفتی به فراوانی یافت می‌شود. در این میدان‌ها برای افزایش ایمنی، بخش قابل توجهی از آن را می‌سوزانند. گاز متان واکنش‌پذیری بسیار کمی دارد (چرا؟) و تبدیل آن به متانول فرایندی دشوار است که انجام آن به دانش و فناوری پیشرفته نیازمند است. به دلیل اهمیت متانول در صنایع گوناگون از یک سو و ارزان بودن گاز متان از سوی دیگر، پژوهش‌های شیمیایی زیادی در حال انجام است تا بتوان روشی برای تبدیل گاز متان به متانول پیدا کرد.</p>
+                    <br><hr><br>
+                    <p class="MsoStep">آیا می‌دانید</p>
+                    <p class="MsoNormal">سالانه حدود 70 میلیون تن متانول در سرتاسر دنیا تولید می‌شود. از متانول برای تولید فرمالدهید، استیک اسید، سوخت و ... استفاده می‌شود. شرکت‌های پتروشیمی ایران نیز سالانه مقدار قابل توجهی متانول تولید می‌کنند، به طوری که کشور ایران به یکی از صادرکنندگان متانول تبدیل شده است.</p>
+                    <br><hr><br>
+                    <p class="MsoStep">آیا می‌دانید</p>
+                    <p class="MsoNormal">سالانه 140 میلیارد متر مکعب گاز متان در میدان‌های نفتی در سرتاسر دنیا سوزانده می‌شود.</p>
+
+
+
+                    <br><hr><br>
+
+
+                    <p class="MsoStep">خود را بیازمایید</p>
+                    <p class="MsoNormal">1ــ در هر یک از واکنش‌های زیر مشخص کنید کدام گونه اکسایش و کدام کاهش یافته است؟</p>
+
+
+                    <p class="MsoNormal" style="text-align: center;">$$  \text{CO} (g) + 2H_2(g) \rightarrow CH_3OH(l)$$</p>
+
+
+                    <p class="MsoNormal" style="text-align: center;">$$CH_4(g) + H_2O(g) \rightarrow CO(g) + 3H_2(g)$$</p>
+
+
+                    <br>
+                    <p class="MsoNormal">2ــ شیمی سبز به دنبال طراحی واکنش‌هایی با کمترین آسیب به محیط زیست و بیشترین بازده است. معادله‌های شیمیایی موازنه نشده زیر تهیه ماده A را به دو روش نشان می‌دهد.</p>
+                   
+                    <p class="MsoNormal" style="text-align: center;">
+                        
+                        $$ C_{6 }H_{6} + H_{2 } SO_{4} + NaOH \rightarrow \text{A + X + Y} $$
+                    
+                    </p>
+                  
+                  
+                    <p class="MsoNormal" style="text-align: center;">$$C_6H_6 + C_3H_6 + O_2 \rightarrow \text{A + Z} $$</p>
+                   
+                   <br>
+                    <p class="MsoNormal">در این واکنش‌ها X و Y پسماند هستند، اما Z یک حلال صنعتی است.</p>
+                    <br>
+                  
+                  
+                    <p class="MsoNormal">آ) در کدام واکنش، همه اتم‌های مواد واکنش‌دهنده، به مواد ارزشمند تبدیل شده‌اند؟</p>
+                   
+                   <br>
+                    <p class="MsoNormal">یک واکنش شیمیایی هنگامی از دیدگاه اتمی به صرفه‌تر است که شمار بیشتری از اتم‌های واکنش‌دهنده به فراورده‌های سودمند تبدیل شود. چرا؟</p>
+                    <br>
+                    <p class="MsoNormal">ب) بر اساس اصول شیمی سبز، کدام واکنش از دیدگاه اتمی صرفه اقتصادی دارد؟ چرا؟</p>
+
+
+
+                    <br><hr><br>
+
+                    <p class="MsoStep">تمرین‌های دوره‌ای</p>
+                    
+                    <p class="MsoNormal">1- برای هر یک از جمله‌های زیر دلیلی بنویسید.</p>
+                    
+                    <br>
+
+                    <p class="MsoNormal">آ) استفاده از کاتالیزگر در صنایع گوناگون سبب کاهش آلودگی محیط زیست می‌شود.</p>
+                    
+<br>
+
+                    <p class="MsoNormal">ب) در تعادل‌های گازی گرماده، با افزایش دما در فشار ثابت، $K$ افزایش می‌یابد.</p>
+                    <br>
+                    
+                    <p class="MsoNormal">پ) واکنشی که در آن از یک هیدروکربن، ترکیب آلی اکسیژن‌دار تولید می‌شود، یک واکنش اکسایش-کاهش است.</p>
+                    
+                    
+                    <br>
+                    <Br>
+                    
+                    <p class="MsoNormal">2- با توجه به نمودارهای زیر به پرسش‌ها پاسخ دهید.</p>
+                    
+                    <br>
+                    
+                    <p class="MsoNormal">آ) انرژی فعال‌سازی و آنتالپی هر واکنش را روی نمودار مشخص کنید.</p>
+                    
+                    <Br>
+                    
+                    <p class="MsoNormal">ب) سرعت کدام واکنش در شرایط یکسان کمتر است؟ چرا؟</p>
+                    
+                    
+                    <br><Br>
+                    
+                    <p class="MsoNormal">3- در کدام سامانه تعادلی زیر، کاهش حجم سامانه در دمای ثابت سبب افزایش مقدار فرآورده‌ها می‌شود؟ توضیح دهید.</p>
+                    
+                    
+                    <p class="MsoNormal" style="text-align: center;">$$NO(g) + O_2(g) \leftrightarrow NO_2(g)$$</p>
+                    
+                    
+                    <p class="MsoNormal" style="text-align: center;">$$N_2O_4(g) \leftrightarrow 2NO_2(g)$$</p>
+                    
+                    
+                    <p class="MsoNormal" style="text-align: center;">$$CO(g) + H_2O(g) \leftrightarrow CO_2(g) + H_2(g)$$</p>
+                    
+                    
+                    <br><Br>
+                    
+                    <p class="MsoNormal">4- با توجه به نمودار روبه‌رو، درستی یا نادرستی هر یک از جمله‌های زیر را مشخص کنید:</p>
+                    
+                    <Br>
+                    <p class="MsoNormal">آ) انرژی فعال‌سازی برای انجام واکنش بزرگ‌تر است.</p>
+                    
+                <Br>    
+                    <p class="MsoNormal">ب) آنتالپی (محتوای انرژی) فرآورده‌ها از واکنش‌دهنده‌ها کمتر است.</p>
+            <Br>        
+                    
+                    <p class="MsoNormal">پ) مجموع آنتالپی واکنش‌دهنده‌ها بزرگ‌تر از فرآورده‌ها است.</p>
+                    
+        <Br>            
+                    <p class="MsoNormal">ت) اگر این واکنش درون سیلندری با پیستون روان به تعادل برسد، با افزایش فشار در دمای ثابت، شمار مول‌های ازون کاهش می‌یابد.</p>
+
+
+<Br><Br>
+
+                    <p class="MsoNormal">5- شکل زیر پیشرفت واکنش تبدیل گاز بی‌رنگ $N_2O_4$ به گاز قهوه‌ای‌رنگ $NO_2$ را با گذشت زمان در دمای ثابت نشان می‌دهد. با توجه به آن به پرسش‌ها پاسخ دهید.</p>
+                  
+                  
+                    <br>
+                 
+                 
+                    <p class="MsoNormal">آ) آیا واکنش به تعادل رسیده است؟ توضیح دهید.</p>
+                 
+                 
+                    <br>
+                    <p class="MsoNormal">ب) اگر حجم سامانه 2 لیتر و هر مخزن از 0.1 مول از آن گونه باشد، ثابت تعادل واکنش زیر را در این دما حساب کنید.</p>
+                 
+                 
+                    <p class="MsoNormal" style="text-align: center;">$$N_2O_4(g) \leftrightarrow 2NO_2(g)$$</p>
+                 
+                 
+                    <br><Br>
+                 
+                 
+                    <p class="MsoNormal">6- با توجه به ساختار ترکیب‌های زیر به پرسش‌ها پاسخ دهید.</p>
+                 
+                    <br>
+                 
+                    <p class="MsoNormal">آ) عدد اکسایش هر یک از اتم‌های کربن ستاره‌دار را تعیین کنید.</p>
+                 
+                    <Br>
+                 
+                    <p class="MsoNormal">ب) در تبدیل ترکیب $(2)$ به ترفتالیک اسید، عدد اکسایش کدام اتم ستاره‌دار تغییر می‌کند؟ توضیح دهید.</p>
+                 
+                 <Br>
+                    <p class="MsoNormal">پ) روش تهیه دی‌استر از مواد $(1)$ و فرآورده حاصل از اکسایش $(2)$ را با نوشتن معادله‌های شیمیایی موازنه‌شده نشان دهید.</p>
+                 
+                 
+                    <br><br>
+                 
+                 
+                    <p class="MsoNormal">7- هر یک از موارد زیر سنتز یک فرآورده هدف را نشان می‌دهد. هر نقطه‌چین را با فرمول شیمیایی مناسب پر کنید.</p>
+                 
+                 <br>
+                   
+                                                                            
+
+
+<br><br><br><br><br>
+
+
+    </body>
+
+
+</html>

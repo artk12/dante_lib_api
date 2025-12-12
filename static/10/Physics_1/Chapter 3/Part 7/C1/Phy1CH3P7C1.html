@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 900px;
+            margin: auto;
+            font-size: clamp(1rem, 2.5vw, 2rem);
+        }
+
+        span {
+            font-size: clamp(1rem, 2.4vw, 2rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 2.5vw, 2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.5rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.1rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #87a5ff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+
+        .images {
+            width: -webkit-fill-available;
+            display: block;
+            max-width: 80%;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1.0rem, 3vw, 2.5rem);
+            text-align: right;
+            color:white;
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #464646;
+            font-size: clamp(1.0rem, 3vw, 2.5rem);
+        }
+        table span{
+            
+            font-size: clamp(1.3rem, 3vw, 2.5rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #722a85;
+        }
+        .lphy span{
+            font-size: clamp(1.3rem, 3vw, 2.5rem);
+        }
+    </style>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+<body>
+
+    <p class="MsoBold">۳-۷ توان</p>
+<p class="MsoNormal">
+    در علوم نهم با برخی از ماشین‌های ساده آشنا شدید. یکی از مهمترین ویژگی‌های هر ماشین، چه ساده باشد چه پیچیده، مدت زمانی است که طول می‌کشد تا کار معینی را انجام دهد. یک ماشین می‌تواند کار معینی را آرام، یا تند انجام دهد. برای مثال، هرچه موتور یک خودرو قوی‌تر باشد راحت‌تر و سریع‌تر می‌تواند از یک جادهٔ کوهستانی بالا رود. در صورتی‌که برای پیمودن همین مسیر توسط خودرویی مشابه، ولی با موتور ضعیف‌تر، زمان طولانی‌تری لازم است. در اغلب موارد لازم است بدانیم در چه مدت زمانی می‌توان کار معینی را انجام داد. در فیزیک، آهنگ انجام کار را با کمیتی به نام توان توصیف می‌کنیم. هرچند در گفت‌وگوهای روزمره، معمولاً واژهٔ توان را با واژه‌های انرژی یا نیرو مترادف می‌گیرند، اما این کمیت در فیزیک تعریف دقیقی دارد. توان، همانند کار و انرژی، کمیتی است نرده‌ای و به صورت آهنگ انجام کار بیان می‌شود. هنگامی که کار $W$ در بازهٔ زمانی $\Delta t$ انجام می‌شود، کار انجام شده در واحد زمان یا توان متوسط $P_{\text{av}}$ به صورت زیر تعریف می‌شود:
+</p>
+<p class="MsoNormal">$$P_{\text{av}} = \frac{W}{\Delta t}$$</p>
+<p class="MsoNormal">
+    یکای SI توان، وات (W) است که به احترام جیمز وات مخترع انگلیسی نامگذاری شده است. مطابق تعریف توان (رابطه ۳-۹)، یک وات برابر است با یک ژول بر ثانیه ($1W = 1J/s$). استفاده از یکاهای بزرگتر توان، مانند کیلووات (kW) و مگاوات (MW) نیز متداول است. یکای قدیمی توان، به نام اسب بخار ($1hp = 746W$) هنوز نیز استفاده می‌شود. این یکا نخستین بار توسط وات برای ارزیابی توان خروجی اختراع جدیدش، ماشین بخار، معرفی شد. توان موتور بیشتر وسایل نقلیه با این یکا بیان می‌شود.
+</p>
+
+<p class="MsoStep">مثال ۳-۱۴</p>
+<p class="MsoNormal">
+    شکل روبه‌رو خودرویی به جرم $1300 \text{kg}$ را نشان می‌دهد که برای سبقت گرفتن از کامیونی، در مسیری افقی و در مدت $3.0 \text{s}$ تندی خود را از $v_1 = 13.0 \text{m/s}$ به $v_2 = 18.0 \text{m/s}$ تغییر داده است. توان متوسط موتور خودرو برای انجام این کار، دست کم چقدر باید باشد؟ نیروهای اتلافی را نادیده بگیرید.
+</p>
+<p class="MsoNormal">
+    پاسخ: با توجه به رابطه ۳-۴، کار کل انجام شده توسط موتور خودرو، برابر تغییر انرژی جنبشی آن است. به این ترتیب، با به دست آوردن انرژی جنبشی خودرو در دو وضعیت داده شده و محاسبهٔ کار کل موتور خودرو داریم:
+</p>
+<br>
+<p class="MsoNormal">$$
+    \begin{align*}
+    W_t & = K_2 - K_1 = \frac{1}{2} mv_2^2 - \frac{1}{2} mv_1^2 \\ \\ \\
+   & = \frac{1}{2} m (v_2^2 - v_1^2)  \\ \\ 
+   & = \frac{1}{2} (1300 \text{kg}) [(18.0 \text{m/s})^2 - (13.0 \text{m/s})^2] \\ \\
+   & = 100750 \text{J} \approx 1.01 \times 10^5 \text{J}
+   \end{align*}
+   $$</p>
+   <br><br>
+<p class="MsoNormal">
+    با جایگذاری مقدار به دست آمده در رابطهٔ ۳-۹، کمترین توان متوسط موتور خودرو برای انجام این کار برابر است با:
+</p>
+<p class="MsoNormal">$$P_{\text{av}} = \frac{W}{\Delta t} = \frac{100750 \text{J}}{3.0 \text{s}} \approx 3.4 \times 10^4 \text{W} = 45 \text{hp}$$</p>
+<p class="MsoNormal">
+    در واقع با وجود نیروهای اتلافی (مانند مقاومت هوا) در حین حرکت خودرو، توان مورد نیاز از این مقدار بیشتر است.
+</p>
+
+<p class="MsoNormal">
+    جیمز وات (۱۸۱۹-۱۷۳۶م) مخترع و مهندس اسکاتلندی، فعالیت حرفه‌ای خود را با اصلاح و تکمیل ماشین‌بخار نیوکامن آغاز کرد. پس از آن در سال ۱۷۶۹ میلادی، ماشین بخار دیگری طراحی کرد که نسبت به ماشین‌های بخار موجود، بازده و سرعت عمل بیشتری داشت. اختراع جدید وات، مورد استقبال زیادی قرار گرفت به طوری که ظرف چند سال پس از اختراع وی، حدود ۵۰۰ دستگاه از آن، در سراسر انگلستان مورد استفاده قرار گرفت. مقدار اسب بخار ($1hp = 746W$) از آزمایش‌هایی به دست آمده که توسط وات انجام شده است. نتیجهٔ این آزمایش‌ها این بود که یک اسب می‌تواند در بالا بردن زغال‌سنگ از معدن در هر دقیقه ۳۳۰۰۰ فوت-پوند ($1 \text{ft} - \text{lb} \approx 1.36 \text{J}$) کار انجام دهد.
+</p>
+
+<p class="MsoStep">مثال ۳-۱۵</p>
+<p class="MsoNormal">
+    جرم اتاقک بالابری به همراه بار آن $500 \text{kg}$ است (شکل روبه‌رو). اگر این بالابر در مدت $10 \text{s}$ از طبقهٔ همکف به طبقهٔ دوم در ارتفاع $6.0 \text{m}$ برود، توان متوسط موتور این بالابر چند اسب بخار است؟ نیروهای اتلافی را نادیده بگیرید.
+</p>
+<p class="MsoNormal">
+    پاسخ: با توجه به رابطه ۳-۴، کار کل انجام شده روی اتاقک بالابر (شامل کار نیروی وزن و کار نیروی موتور بالابر) برابر تغییر انرژی جنبشی آن است. به این ترتیب داریم:
+</p>
+
+<p class="MsoNormal">$$
+
+    W_{\text{وزن}} + W_{\text{موتور}} = K_2 - K_1  
+   
+
+    $$
+</p>
+
+<p class="MsoNormal">$$ - m g (h_2 - h_1) + W_{\text{موتور}} = 0 - 0 $$
+    
+    $$
+    \begin{align*}
+    W_{\text{وزن}} &= m g (h_2 - h_1) \\ \\
+    &= (500 \text{kg}) (9.8 \text{m/s}^2) (6.0 \text{m} - 0) \\ \\
+    &= 29400 \text{J} \approx 2.9 \times 10^4 \text{J}
+    \end{align*}
+    $$</p>
+    <br>
+<p class="MsoNormal">
+    در محاسبهٔ بالا، مبدأ انرژی پتانسیل گرانشی را سطح زمین (طبقهٔ همکف) گرفته‌ایم. با توجه به رابطه ۳-۹، توان متوسط موتور بالابر برابر است با:
+</p>
+<p class="MsoNormal">$$P_{\text{av}} = \frac{W_{\text{موتور}}}{\Delta t} = \frac{29400 \text{J}}{10 \text{s}} \approx 2.9 \times 10^3 \text{W} = 3.9 \text{hp}$$</p>
+<br>
+<p class="MsoStep">تمرین ۳-۱۶</p>
+<p class="MsoNormal">
+    هر یک از دو موتور جت یک هواپیمای مسافربری، پیشران‌هایی (نیروی جلوبر هواپیما) برابر $2.0 \times 10^5 \text{N}$ ایجاد می‌کند. اگر هواپیما در هر دقیقه $15 \text{km}$ در امتداد این نیرو حرکت کند، توان متوسط هر یک از موتورهای هواپیما چند اسب بخار است؟
+</p>
+<br><br><br>
+<p class="MsoStep">بازده</p>
+<p class="MsoNormal">
+    در هر سامانه تنها بخشی از انرژی ورودی (انرژی مصرفی سامانه) به انرژی مورد نظر ما تبدیل می‌شود. برای مثال، وقتی موتور بالابری کار می‌کند بخشی از انرژی الکتریکی ورودی به کار مکانیکی تبدیل می‌شود و اتاقک بالابر را جابه‌جا می‌کند. بخش دیگری از انرژی الکتریکی ورودی به صورت انرژی‌های ناخواستنی مانند گرم‌تر شدن اجزای موتور و کابل بالابر در می‌آید. شکل ۳-۱۰ طرح واره‌ای است که این نوع تبدیل انرژی‌ها در سامانه را نشان می‌دهد.
+</p>
+<p class="MsoNormal">
+    همان طور که طرح واره شکل ۳-۱۰ نشان می‌دهد تنها بخشی از انرژی ورودی قابل استفاده است که به آن انرژی خروجی یا کار مفید می‌گویند. نسبت انرژی خروجی به انرژی ورودی را بازده می‌نامیم. معمولاً بازده هر سامانه را برحسب درصد بیان می‌کنند، که همواره عددی کوچکتر از ۱۰۰ است. با توجه به تعریف بازده، از رابطهٔ زیر می‌توان درصد بازده هر سامانه را به سادگی محاسبه کرد.
+</p>
+<p class="MsoNormal">$$\text{بازده برحسب درصد} = 100 \times \frac{\text{انرژی خروجی}}{\text{انرژی ورودی}}$$</p>
+
+<p class="MsoStep">مثال ۳-۱۶</p>
+<p class="MsoNormal">
+    تلمبه‌ای با توان ورودی $15 \text{kW}$ در هر ثانیه $70 \text{لیتر}$ آب دریاچه‌ای به چگالی $1000 \text{kg/m}^3$ را مطابق شکل روبه‌رو تا ارتفاع $15 \text{متر}$ می‌فرستد. بازدهٔ تلمبه چند درصد است؟
+</p>
+<p class="MsoNormal">
+    پاسخ: انرژی الکتریکی ورودی به تلمبه برابر است با:
+</p>
+<p class="MsoNormal">
+    $$
+    \begin{align*}
+    E_{\text{ورودی}} &= (15000 \text{W}) (1.0 \text{s}) \\ \\
+    &= 15000 \text{J} \\ \\
+    & \approx 1.5 \times 10^4 \text{J} \\ \\
+    \end{align*}
+    $$</p>
+<p class="MsoNormal">
+    جرم هر لیتر آب دریاچه $1.0 \text{kg}$ و کار مفید تلمبه برابر است با:
+</p>
+<p class="MsoNormal">$$
+    
+    \begin{align*}
+    E_{\text{خروجی}} & = m g (h_2 - h_1)  \\ \\
+    & = (70 \text{kg}) (9.8 \text{N/kg}) (15 \text{m} - 0) \\ \\
+    & = 10290 \text{J} \\ \\
+    & \approx 1.0 \times 10^4 \text{J}
+    \end{align*}
+    $$</p>
+<p class="MsoNormal">
+    در محاسبهٔ بالا، مبدأ انرژی پتانسیل گرانشی را سطح آب دریاچه گرفته‌ایم. با توجه به رابطه ۳-۱۰، درصد بازده تلمبه برابر است با:
+</p>
+<p class="MsoNormal">$$\text{بازده برحسب درصد} \approx 100 \times \frac{10290 \text{J}}{15000 \text{J}} = 68\%$$</p>
+<p class="MsoNormal">
+    لازم است توجه کنید که بخشی از توان ورودی تلمبه به دلیل اصطکاک آب در حال حرکت با جدار داخلی لوله تلف می‌شود.
+</p>
+<br><br>
+<p class="MsoStep">تمرین ۳-۱۷</p>
+<p class="MsoNormal">
+    آب ذخیره شده در پشت سد یک نیروگاه برق آبی، از مسیری مطابق شکل روی پره‌های توربینی می‌ریزد و آن را می‌چرخاند. با چرخش توربین، مولد می‌چرخد و انرژی الکتریکی تولید می‌شود (شکل روبه‌رو). اگر ۸۵ درصد کار نیروی گرانش به انرژی الکتریکی تبدیل شود، در هر ثانیه چند متر مکعب آب باید روی توربین بریزد تا توان الکتریکی خروجی مولد نیروگاه به $200 \text{MW}$ برسد؟ جرم هر متر مکعب آب را $1000 \text{kg}$ در نظر بگیرید.
+</p>
+<br><br>
+<p class="MsoStep">فعالیت ۳-۱</p>
+<p class="MsoNormal">
+    شکل زیر طرح واره‌ای از درصد انرژی مفید و انرژی تلف شده در یک نیروگاه سوخت فسیلی یا هسته‌ای را از آغاز تا مصرف در یک لامپ رشته‌ای نشان می‌دهد.
+</p>
+<br>
+<p class="MsoNormal">
+    الف) یک نیروگاه سوخت فسیلی را در نظر بگیرید که با مصرف گازوئیل، انرژی الکتریکی تولید می‌کند. با سوختن هر لیتر گازوئیل حدود $35 \text{MJ}$ انرژی گرمایی تولید می‌شود. برای اینکه یک لامپ رشته‌ای $100 \text{واتی}$ در طول یک ماه به مدت $180 \text{ساعت}$ روشن بماند (به طور میانگین هر شبانه روز $6 \text{ساعت}$)، چقدر گازوئیل باید در نیروگاه مصرف شود؟
+</p><br>
+<p class="MsoNormal">
+    ب) با توجه به نتیجه قسمت الف، درک خود از هشدار معروف «لامپ اضافی خاموش!» را بیان کنید.
+</p><br>
+<p class="MsoNormal">
+    پ) اگر در سراسر ایران، هر خانه در طول یک ماه، معادل انرژی الکتریکی مصرف شده در قسمت الف، صرفه‌جویی کند، مقدار گازوئیل صرفه‌جویی شده را محاسبه کنید.
+</p>
+<br><br><br>
+<p class="MsoStep">فعالیت ۳-۲</p>
+<p class="MsoNormal">
+    مدت زمانی که طول می‌کشد تا با دویدن به بالای یک راه‌پله برسید را اندازه بگیرید. توان متوسط مفید خودتان را در این فعالیت برحسب وات و اسب بخار بیان کنید.
+</p>
+
+
+<br><br>
+<p class="MsoStep" style="opacity: 0.6;">خوب است بدانید</p>
+
+<p class="MsoNormal">بهینه‌سازی مصرف انرژی :</p>
+<p class="MsoNormal">
+امروزه انرژی در همه عرصه‌های زندگی بشر و همچنین توسعه زیرساخت‌های صنعتی و اقتصادی نقش محوری ایفا می‌کند و یکی از ارکان استقلال و اقتدار سیاسی کشورها محسوب می‌شود. افزایش روز افزون مصرف انواع مختلف انرژی در جهان، هم‌اینکه به یکی از چالش‌های فراروی بشر تبدیل شده است (شکل روبرو ). این امر به‌ویژه پس از بحران انرژی در دهۀ 1970 میلادی، متخصصان حوزۀ انرژی را به بررسی و ارائه راهکارهایی برای استفاده و مصرف بهینه انرژی واداشته است.
+</p>
+
+<p class="MsoNormal">
+همان‌طور که دیده می‌شود بهینه‌سازی مصرف انرژی از نظر اقتصادی نه تنها یک ضرورت است، بلکه از جنبه زیست محیطی نیز اهمیت بسیاری دارد. بهینه‌سازی مصرف انرژی به بیان ساده به مجموعۀ ای از راهکارها و عملکردها گفته می‌شود که منجر به کاهش مصرف مقدار انرژی در بخش‌های مختلفی از قبیل تولید، خدمات و مسکونی شود. به این منظور دولت‌ها تلاش می‌کنند تا برنامه‌های مختلفی را پس از برنامه‌ریزی دقیق و به خصوص توجه به جنبه‌های زیست محیطی آن، به‌اجرا درآورند. 
+</p>
+
+<p class="MsoNormal">
+برای مثال یکی از موارد مهمی که در سال‌های اخیر در ایران از طرف مسئولان مورد تأکید نظری و عملی قرار گرفته است، تعیین ملاک‌هایی برای مصرف انرژی کلیۀ وسایل خانگی است که عملکرد آن‌ها به انرژی وابسته است. حاصل این کار تهیه و تدوین برچسب انرژی است که شامل اطلاعات مربوط به مصرف انرژی کالای تولید شده است (شکل روبرو ).
+</p>
+
+
+<br>
+
+<br><br><br>
+
+
+
+</body>
+</html>

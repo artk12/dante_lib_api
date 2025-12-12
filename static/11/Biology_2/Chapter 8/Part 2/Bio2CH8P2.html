@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: "Nastaliq";
+            src: url('nas.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+      
+        li.MsoNormal,
+        div.MsoNormal,
+        ul.MsoNormal,
+        ol.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+            
+        }
+        p.MsoNas
+         {
+            margin: 0.5em;
+            
+            font-size: clamp(1.5rem, 1.7vw, 2rem);
+            font-family: "Nastaliq";
+            line-height: 2.3em;
+            color: #dcd7e0;
+            text-align: center;
+         letter-spacing: 0em;
+         word-spacing: 0.4em;
+            
+        }
+        p.MsoNormal
+         {
+            margin: 0in;
+           
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-indent: 1em;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi , b{
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSemic,
+        li.MsoSemic,
+        div.MsoSemic {
+            margin: 0in;
+           
+            font-size: clamp(1.2rem, 1.6vw, 1.3rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #b19af2;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #6ca4ec;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+        span.uline{
+            border-bottom: 0.1em solid #64E9E1;
+        }
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .boxp {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .boxg {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#00f2ff11; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        .boxb {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#0c4e9f2d; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        ::selection {
+            background-color: #59078fa1; /* Change this to your desired highlight color */
+            color: #ffffff; /* Change this to your desired text color */
+          }
+
+
+          mark{
+            background-color:#078b8fa1 ;
+            color: #ffffff;
+            padding: 0 7px;
+        }
+
+        .hlg { background-color: rgba(0, 234, 255, 0.334);  }
+        .hlp { background-color:#5f1487; }
+      
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+    <body class="custom-scrollbar">
+
+        <p class="MsoBold">گفتار ۲ 
+            :
+            تولیدمثل جنسی</p>
+        <p class="MsoNormal">با ساختار گل در سال های گذشته آشنا شده اید. می دانید گل بخش های متفاوتی دارد. نام بخش هایی از گل را که به یاد دارید، بنویسید. هر یک از این بخش ها چه کاری انجام می دهد؟</p>
+        
+        
+        <br>
+    
+        <p class="MsoStep">هر گلی کامل نیست</p>
+        <p class="MsoNormal">گل ساختاری اختصاص یافته برای تولیدمثل جنسی است. گلی که در شکل 5 می‌بینید دارای گلبرگ، کاسبرگ، پرچم و مادگی است که روی بخشی به نام نهنج قرار دارند. نهنج وسیع و ممکن است صاف، برآمده یا گود باشد.</p>
+        <p class="MsoNormal">اجزای گل در چهار حلقۀ هم مرکز تشکیل می‌شوند. کاسبرگ‌ها در خارجی‌ترین حلقه قرار می‌گیرند. گلبرگ‌ها در حلقۀ دوم و معمولاً به رنگ‌های متفاوت وجود دارند. آیا می‌دانید رنگی بودن گلبرگ‌ها چه اهمیتی دارد؟ پرچم ها در حلقۀ سوم و مادگی در چهارمین حلقه تشکیل می شوند.</p>
+        <p class="MsoNormal">مادگی گل از یک یا تعدادی برچه ساخته شده است. در واقع برچه واحد سازندۀ مادگی است. در مادگی های چند برچه ای، ممکن است فضای مادگی با دیوارۀ برچه ها از هم جدا شوند (شکل ۵ـ ب).</p>
+        
+
+        <br>
+
+
+
+        <p class="MsoStep">فعّالیت ۴</p>
+        <p class="MsoNormal">چند نوع گل را با تعداد گلبرگ های چهار تا شش به کلاس بیاورید.</p>
+        <p class="MsoNormal">الف) تک لپه یا دولپه ای بودن آنها را مشخص کنید.</p>
+        <p class="MsoNormal">ب) تعداد هر یک از اجزای دیگر گل چیست؟</p>
+        <p class="MsoNormal">پ) گل ها را به دقت با ذره بین مشاهده و ویژگی های هر یک از اجزا را یادداشت کنید.</p>
+        <p class="MsoNormal">ت) با استفاده از تیغ برش های طولی و عرضی از مادگی گل، تهیه و آنچه را می بینید یادداشت و ترسیم کنید.</p>
+        <p class="MsoNormal">ث) با استفاده از داده هایی که به دست آورده اید، ساختار هر گل را گزارش کنید.</p>
+        
+
+
+
+        <br>
+<br>
+
+
+
+        <p class="MsoNormal">آیا در همۀ گل‌ها این چهار حلقه تشکیل می‌شوند؟ مشاهدۀ گل در گیاهان متفاوت نشان می‌دهد، چنین چیزی نیست. بنابراین، گل‌ها را بر اساس وجود هر چهار حلقه یا نبودن بعضی حلقه ها در دو گروه گل‌های کامل یا ناکامل قرار می‌دهند. همچنین گل‌هایی که هر دو حلقۀ پرچم و مادگی را داشته باشند، گل دو جنسی و آنهایی که فقط یکی از این حلقه‌ها را دارند، گل تک جنسی می نامند (شکل ۶).</p>
+        
+
+        <br>
+
+
+        <p class="MsoStep">تشکیل یاخته های جنسی</p>
+        <p class="MsoNormal">می دانید که در تولیدمثل جنسی از لقاح یاختۀ جنسی نر با یاختۀ جنسی ماده، تخم ایجاد می‌شود. یاختۀ جنسی نر در گیاهانی مانند خزه، همانند یاختۀ جنسی نر در جانوران وسیلۀ حرکتی دارد و می‌تواند در قطره‌های آب یا رطوبتی که سطح گیاه را پوشانده، شنا کند و خود را به یاختۀ جنسی ماده برساند. اما یاختۀ جنسی نر در گیاهان گل دار وسیلۀ حرکتی ندارد. بنابراین، در این گیاهان برای انتقال یاختۀ جنسی نر ساختاری به نام لولۀ گرده تشکیل می شود.</p>
+        
+        <p class="MsoNormal">به شکل ۷ نگاه کنید. کیسه‌های گرده در بساک تشکیل می شوند و یاخته‌های دولاد دارند. از تقسیم کاستمان این یاخته‌ها، چهار یاختۀ تک لاد ایجاد می‌شود که در واقع گرده های نارس اند. هریک از این یاخته ها با انجام دادن تقسیم رشتمان و تغییراتی در دیواره به دانۀ گرده رسیده تبدیل می شود. دانۀ گرده رسیده یک دیوارۀ خارجی، یک دیوارۀ داخلی، یک یاخته رویشی و یک یاختۀ زایشی دارد.</p>
+        
+        <p class="MsoNormal">تخمدان که به صورت بخشی متورّم در گل دیده می‌شود، محل تشکیل تخمک هاست. تخمک پوششی دو لایه ای دارد که یاخته های دولادی را در بر می گیرد. مجموع این یاخته ها، بافتی به نام بافت خورش را می سازند (شکل ۷).</p>
+        <p class="MsoNormal">یکی از یاخته‌های بافت خورش بزرگ می‌شود و با تقسیم کاستمان چهار یاختۀ تک لادی ایجاد می‌کند. از این چهار یاخته فقط یکی باقی می‌ماند که با تقسیم رشتمان، ساختاری به نام کیسۀ رویانی با تعدادی یاخته ایجاد می کند. تخم زا و یاختۀ دو هسته ای از یاخته های کیسه رویانی اند که در لقاح با یاخته های جنسی نر شرکت می‌کنند.</p>
+        
+
+        <br>
+
+        <br>
+
+
+
+        <p class="MsoStep">بیشتر بدانید</p>
+        <p class="MsoNormal">طلای سرخ</p>
+        <p class="MsoNormal">زعفران گیاهی تک لپه و چند ساله است. زعفران با نوعی ساقۀ زیرزمینی به نام بُنه تکثیر می شود. در بُنه برخلاف پیاز مواد غذایی در برگ ها ذخیره نمی شود؛ بلکه در ساقه تجمع می یابند. پوشش گل زعفران شش قسمتی است. کلالۀ سه رشته ای و قرمزرنگ آن برای مزه دار و معطر کردن خوراکی ها به کار می رود. زعفران از صادرات مهم ایران است.</p>
+        
+        <br>
+        <br>
+
+
+        <p class="MsoStep">گرده افشانی و لقاح</p>
+        <p class="MsoNormal">با شکافتن دیوارۀ بساک، گرده‌ها رها می‌شوند (شکل ۸ـ الف). دیوارۀ خارجی دانه‌های گرده منفذ‌دار و ممکن است صاف یا دارای تزئیناتی باشد (شکل ۸ـ ب).</p>
+        
+        <p class="MsoNormal">دانه‌های گرده به وسیلۀ باد، آب و جانوران در محیط پراکنده و از گلی به گل دیگر منتقل می‌شوند. به انتقال دانۀ گرده از بساک به کلاله گرده افشانی می‌گویند. در صورتی که کلاله گرده را بپذیرد، یاختۀ رویشی رشد می‌کند و از رشد آن لولۀ گرده تشکیل می‌شود. لولۀ گرده به درون بافت کلاله و خامه نفوذ می‌کند و همراه با خود، دو زامه را که از تقسیم یاختۀ زایشی در لولۀ گرده ایجاد شده‌اند، به سمت تخمک و کیسه رویانی می‌برد (شکل ۹).</p>
+        
+
+        <br>
+
+        <br>
+
+
+        <p class="MsoStep">بیشتر بدانید</p>
+        <p class="MsoNormal">گرده ها</p>
+        <p class="MsoNormal">کاروتنوئیدها از ترکیبات دیوارۀ گرده‌اند؛ به همین علت دانه های گرده به رنگ‌های متفاوت زرد، یا نارنجی دیده می‌شوند. دانه های گرده به علت داشتن پروتئین و چربی، منبع غذایی جانوران گرده افشان نیز هستند. امروزه یکی از زمینه های پژوهشی در دنیای علم، شناسایی ترکیبات دانه های گرده و بررسی اثر آنها بر سلامت انسان است.</p>
+        
+
+        <br>
+
+        <br>
+
+
+
+        <p class="MsoNormal">از آمیزش یکی از زامه ها با یاختۀ تخم‌زا، تخم اصلی تشکیل می‌شود. این تخم به رویان نمو می‌یابد. زامۀ دیگر با یاختۀ دو هسته‌ای آمیزش می‌یابد که نتیجۀ آن تشکیل تخم ضمیمه است. تخم ضمیمه با تقسیم‌های متوالی بافتی به نام درون‌دانه (آندوسپرم) را ایجاد می‌کند. این بافت از یاخته‌های پارانشیمی ساخته شده و ذخیرۀ غذایی برای رشد رویان است (شکل ۹). همین طور که دیدید، دو لقاح رخ می دهد، به همین علت گفته می شود که نهاندانگان لقاح مضاعف یا دوتایی دارند.</p>
+        
+        <p class="MsoNormal">اگر هستۀ تخمِ ضمیمه تقسیم شود، اما تقسیم سیتوپلاسم انجام نگیرد، بافت درون‌دانه به صورت مایع دیده می شود. شیر نارگیل مثالی از چنین بافتی است. در حالی که بخش گوشتی و سفیدرنگ نارگیل، درون‌دانه‌ای است که در آن تقسیم سیتوپلاسم نیز انجام شده است (شکل ۱۰).</p>
+        
+
+        <br>
+        <br>
+
+
+        <p class="MsoStep">واژه شناسی</p>
+        <p class="MsoNormal">درون‌دانه (endosperm/آندوسپرم)</p>
+        <p class="MsoNormal">endo به معنای درون و sperm به معنی دانه است. بافت ذخیره ای درون‌دانه با این نام خوانده می شود که واژه درون‌دانه با تعریف علمی آن مطابقت دارد.</p>
+        <br>
+        <br>
+
+        <p class="MsoStep">گل ها و گرده افشان ها</p>
+        <p class="MsoNormal">به نظر شما گل ها چه ویژگی هایی باید داشته باشند که جانوران را به سمت خود جلب کنند؟ جانورانی که گرده ها را از گلی به گل دیگر منتقل می کنند، گرده افشان نامیده می شوند. پیکر این جانوران، هنگام تغذیه از گل‌ها به دانه های گرده آغشته می شود و به این ترتیب، دانه‌های گرده را از گلی به گل دیگر منتقل می کنند (شکل ۱۱). رنگ های درخشان، بوهای قوی و شهد گل ها از عوامل جذب جانوران به سمت گل ها هستند.</p>
+        <p class="MsoNormal">زنبورهای عسل گل‌هایی را گرده افشانی می کنند که شهد آنها قند فراوانی داشته باشد؛ همچنین این گل ها علائمی دارند که فقط در نور فرابنفش دیده می‌شوند و زنبور را به سوی شهد گل هدایت می‌کنند (شکل ۱۲).</p>
+        <p class="MsoNormal">گرده افشانی بعضی گیاهان وابسته به باد است. این گیاهان تعداد فـراوانی گل های کوچک تـولید می کنند و فـاقد رنگ هـای درخشان، بوهای قوی و شیره اند (شکل ۱۳).</p>
+        <br><br>
+
+        <p class="MsoStep">فعّالیت ۵</p>
+        <p class="MsoNormal">الف) بعضی گرده افشان‌ها، مانند خفاش در شب تغذیه می‌کنند. به نظر شما گل هایی که به وسیلۀ این جانوران گرده افشانی می شوند، چه ویژگی هایی دارند؟ با مراجعه به منابع معتبر درستی نظر خود را بررسی و نتیجه را گزارش کنید.</p>
+        <p class="MsoNormal">ب) با توجه به ویژگی گل ها در گیاهانی که با جانوران یا باد گرده افشانی می شوند، نوع گرده افشانی را در گیاهان محیط پیرامون خود پیش بینی و گزارش کنید.</p>
+        <br>
+        <br>
+
+
+        <p class="MsoStep">بیشتر بدانید</p>
+        <p class="MsoNormal">گل ‌های فریب کار!</p>
+        <p class="MsoNormal">بعضی گل‌ها حشرات را فریب می‌دهند. مثلاً گل رافلزیا بوی گوشت گندیده می‌دهد و مگس‌ها را به سمت خود می‌کشاند. مگس‌ها چیزی گیرشان نمی‌آید، اما وقتی از روی گل بلند می‌شوند، گرده‌های آن را با خود به گل دیگر می برند.</p>
+        
+        
+
+<br><br><br><br><br>
+
+
+    </body>
+
+
+</html>

@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal ,
+        ul.MsoNormal {
+            margin: 0in;
+           
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi , b{
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #badaff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .MsoPapDefault {
+           
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #722a85;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background-color: #1abbbbe1; /* Scrollbar thumb color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color: #05ffe2;
+        }
+    </style>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+ 
+</head>
+
+
+
+<body class="custom-scrollbar">
+
+
+
+    <p class="MsoBold">درس سوم
+
+        :
+
+    توابع مثلثاتی</p>
+    
+
+<p class="MsoNormal">
+    توابعی نظیر تابع سینوس با ضابطهٔ $y = \sin x$ و تابع کسینوس با ضابطهٔ $y = \cos x$ نمونه‌هایی از توابع مثلثاتی‌اند که در این درس با نمودار آن‌ها آشنا می‌شوید.
+</p>
+
+<br><hr>
+
+
+<p class="MsoBold">رسم تابع سینوس</p>
+
+<p class="MsoStep">فعالیت</p>
+
+<p class="MsoNormal">۱) جدول روبه‌رو را کامل کنید.</p>
+
+<br>
+<table class="MsoNormal" style="margin:auto;width:fit-content;direction:rtl;text-align:center;">
+    <tr>
+        <th>مختصات نقطه</th>
+        <th>$y = \sin x$</th>
+        <th>$ \qquad x   \qquad$</th>
+    </tr>
+    <tr>
+        <td>$(0,0)$</td>
+        <td>$0$</td>
+        <td>$0$</td>
+    </tr>
+    <tr>
+        <td>...</td>
+        <td>...</td>
+        <td>$-$</td>
+    </tr>
+    <tr>
+        <td>...</td>
+        <td>...</td>
+        <td>$\dfrac{\pi}{2}$</td>
+    </tr>
+    <tr>
+        <td>...</td>
+        <td>...</td>
+        <td>$\dfrac{5\pi}{6}$</td>
+    </tr>
+    <tr>
+        <td>...</td>
+        <td>...</td>
+        <td>$\pi$</td>
+    </tr>
+</table>
+
+<br><br>
+<p class="MsoNormal">
+    مجموعهٔ زوج‌های مرتب حاصل در جدول مقابل یک تابع به صورت زیر مشخص می‌کند.
+</p>
+<p class="MsoNormal">
+    $$ 
+    f = \left\{ (0,0) \ , \ \left( \dfrac{\pi}{6}, \cdots \right) \ , \ (\cdots, \cdots) \ , \ (\cdots, \cdots) \ , \ (\cdots, \cdots) \right\}
+    $$
+</p>
+
+
+<br><br>
+
+<p class="MsoNormal">۲. نقاط حاصل در جدول را در شکل زیر مشخص کنید.</p>
+
+
+<br><br>
+<p class="MsoNormal">
+    ۳. با افزودن نقاط 
+
+    زیر 
+
+    (با فرض 
+    $ \sqrt{2} \simeq ۱/4$ 
+    و 
+    $ \sqrt{3} \simeq ۱/۷$ 
+    )
+    به جدول بالا، شکل زیر به‌دست می‌آید.
+    </p>
+    <br>
+    <p class="MsoNormal">
+        $ (\dfrac{\pi}{4} \  و  \ \dfrac{\sqrt{2}}{2})$ 
+        و
+        $ (\dfrac{\pi}{3} \  و \ \ . . .  \ )$ 
+        و
+        $ (\dfrac{2\pi}{2} \ و \  \dfrac{\sqrt{3}}{2})$ 
+        و
+        $ (\dfrac{3\pi}{4} \ و \ \ . . . \  )$ 
+    </p>
+
+
+    <br>
+    <br>
+
+    <p class="MsoNormal">
+        ۴. نقاط حاصل در شکل را به‌ترتیب به یکدیگر وصل می‌کنیم تا شکل مقابل به‌دست بیاید. با افزودن تعداد نقاط جدول فوق در بازه 
+        $[0 , \pi]$
+        این شکل به‌طور دقیق‌تری به‌دست می‌آید. شکل حاصل نمودار تابع سینوس با ضابطه 
+        $y = \sin x$
+        را در این بازه مشخص می‌کند.
+        </p>
+        
+
+<br><br>
+
+<p class="MsoNormal">
+    ۵. مراحل صفحه قبل را برای رسم نمودار تابع سینوس در بازه 
+    $[\pi , 2\pi]$
+    انجام دهید. برای این کار، ابتدا جدول زیر را کامل کنید. سپس نقاط به‌دست آمده در جدول را در صفحه مختصات مطابق شکل مشخص و آن‌ها را به‌ترتیب به یکدیگر وصل کنید.
+    </p>
+
+
+    <br>
+
+
+    <table class="MsoNormal" style="margin:auto;width:fit-content;direction:rtl;text-align:center;">
+        <tr>
+            <th>مختصات نقطه</th>
+            <th>$y = \sin x$</th>
+            <th>$x$</th>
+        </tr>
+        <tr>
+            <td>$(\pi , 0)$</td>
+            <td>$0$</td>
+            <td>$\pi$</td>
+        </tr>
+        <tr>
+            <td>...</td>
+            <td>...</td>
+            <td>$\dfrac{7\pi}{6}$</td>
+        </tr>
+        <tr>
+            <td>...</td>
+            <td>...</td>
+            <td>$\dfrac{3\pi}{2}$</td>
+        </tr>
+        <tr>
+            <td>...</td>
+            <td>$\dfrac{-1}{2}$</td>
+            <td>$\dfrac{11\pi}{6}$</td>
+        </tr>
+        <tr>
+            <td>...</td>
+            <td>...</td>
+            <td>$2\pi$</td>
+        </tr>
+    </table>
+    
+<br><br>
+
+
+<p class="MsoNormal">
+    6.
+با توجه به شکل‌های فوق، نمودار تابع با ضابطه 
+$y = \sin x$ 
+در بازه 
+$[0 , 2\pi]$
+ در شکل زیر رسم شده است. حال با توجه به این شکل جدول زیر را درباره مقدار این تابع در هر بازه تکمیل کنید.
+</p>
+
+<br>
+
+<div class="custom-scrollbar" style="overflow-y: hidden; overflow-x:auto;direction:ltr;">
+    
+<table class="MsoNormal" style="margin:auto;width:fit-content;direction:ltr;text-align:center;">
+    <tr>
+        <td>$\left[ 0 , \dfrac{\pi}{2} \right]$</td>
+        <td>$\left[ \dfrac{\pi}{2} , \pi \right]$</td>
+        <td>$\left[ \pi , \dfrac{3\pi}{2} \right]$</td>
+        <td>$\left[ \dfrac{3\pi}{2} , 2 \pi \right]$</td>
+    </tr>
+    <tr>
+        <td style="direction: rtl;">مقدار تابع سینوس از $0$ به $1$ افزایش می‌یابد.</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td style="direction: rtl;">مقدار تابع سینوس در ربع اول مثبت است.</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+</div>
+
+<br><br>
+
+<p class="MsoNormal">
+    با توجه به رابطه $ \ k \in \mathbb{Z} \  , \  \sin (x + k\pi) = \sin x  $ که در درس قبل آشنا شدید می‌توان گفت:
+    </p>
+    
+    <p class="MsoNormal">
+    $$ \sin (x + 2\pi) = \sin x $$
+    </p>
+    
+
+    <p class="MsoNormal">
+        یعنی مقدار تابع سینوس با اضافه کردن $2\pi$ رادیان به کمان آن تغییری نمی‌کند. بنابراین نمودار تابع سینوس در بازه‌های $[0 \ , \ 2\pi]$ و $[2\pi \ , \ 4\pi]$ یکسان است.
+        </p>
+        
+        <p class="MsoNormal">
+        همچنین داریم:
+        </p>
+        
+        <p class="MsoNormal">
+        $$ \sin (x - 2\pi) = \sin x $$
+        </p>
+        <p class="MsoNormal">
+            یعنی مقدار تابع سینوس با کم کردن $۲\pi$ رادیان از کمان آن تغییری نمی‌کند. در نتیجه نمودار تابع سینوس در بازه‌های $[۰ , ۲\pi]$
+
+                و .......... یکسان است. در حالت کلی چون مقدار تابع سینوس با اضافه یا کم کردن مضارب زوج $\pi$ رادیان به کمان آن تغییر نمی‌کند.
+
+    نمودار تابع سینوس در بازه‌های  و $[۲k\pi
+    \  \text{و} \
+      (۲k+۲)\pi] , k \in \mathbb{Z}$ یکسان است.
+
+به این ترتیب منحنی این تابع که در بازه 
+$[۰ \  , \  ۲\pi]$
+رسم شده، در بازه‌های 
+
+$[۲\pi \  ,  \ ۴\pi]$
+و
+
+$[۴\pi \  , \ . . . \ ]$
+ و
+  $[-۲\pi \  ,  \ . . . \ ]$
+  و
+ $[-۴\pi \  , \ . . . \ ]$
+
+   تکرار می‌شود.</p>
+
+
+
+<br><br>
+
+<p class="MsoNormal">در شکل زیر نمودار تابع سینوس در $۲$ تکرار رسم شده است. این نمودار را برای $۴$ تکرار کامل کنید.</p>
+
+
+<br><br>
+
+
+<p class="MsoNormal">۸. با توجه به شکل بالا جاهای خالی را دربارهٔ ویژگی‌های تابع سینوس با ضابطه $y = \sin x$ کامل کنید.</p>
+<br>
+<p class="MsoNormal">الف) دامنهٔ تابع سینوس ...... و برد آن ...... است.</p>
+<br>
+<p class="MsoNormal">ب) مقدار تابع سینوس در طول‌های $x = k\pi \ , \  k \in \mathbb{Z}$ برابر با ...... است.</p>
+<br>
+<p class="MsoNormal">پ) حداکثر مقدار تابع سینوس برابر با ...... است که در نقاطی به طول‌های 
+ 
+      $x = ......$ , $x = ......$ , $x = ......$ 
+    ,    $x = \frac{\pi}{۲}$
+     و در حالت کلی
+
+$x = \dfrac{\pi}{۲} + k\pi \ , \  k \in \mathbb{Z}$ بدست می‌آید.</p>
+<br>
+<p class="MsoNormal">ت) حداقل مقدار تابع سینوس برابر با ...... است که در نقاطی به طول‌های 
+     $x = ......$ , $x = ......$ , $x = ......$
+  ,  $x = \dfrac{۳\pi}{۲}$ 
+      و در حالت کلی
+    $x = \dfrac{۳\pi}{۲} + 2k\pi \  , \  k \in \mathbb{Z}$ بدست می‌آید.</p>
+
+<br><hr><br>
+
+    <p class="MsoStep">کار در کلاس</p>
+    <p class="MsoNormal">هر یک از توابع با ضابطه‌های داده شده دارای کدام نمودار است؟</p>
+    
+
+      <div class="MsoNormal" style="text-align: left;direction: ltr;">
+        <p>۱) $y = ۲\sin x$</p>
+<p>۲) $y = \sin \left( x - \dfrac{\pi}{2} \right)$</p>
+<p>۳) $y = \sin x + ۱$</p>
+<p>۴) $y = -\sin x + ۱$</p>
+
+      </div>
+
+
+      <br><hr>
+
+
+<p class="MsoBold">رسم تابع کسینوس</p>
+<p class="MsoStep">فعالیت</p>
+<p class="MsoNormal">۱) جدول زیر را کامل کنید.</p>
+<br>
+<table class="MsoNormal" style="margin:auto;width:fit-content;direction:rtl;text-align:center;">
+    <tr>
+        <th>مختصات نقطه</th>
+        <th>$y = \cos x$</th>
+        <th>$x$</th>
+    </tr>
+    <tr>
+        <td>$(۰ , ۱)$</td>
+        <td>$۱$</td>
+        <td>$۰$</td>
+    </tr>
+    <tr>
+        <td>$\left( \dfrac{\pi}{۴} , 0/7 \right)$</td>
+        <td>$\dfrac{\sqrt{۲}}{۲} \simeq 0/7  $</td>
+        <td>$\dfrac{\pi}{۴}$</td>
+    </tr>
+    <tr>
+        <td>......</td>
+        <td>......</td>
+        <td>$\dfrac{\pi}{۲}$</td>
+    </tr>
+    <tr>
+        <td>......</td>
+        <td>......</td>
+        <td>$\dfrac{3\pi}{4}$</td>
+    </tr>
+    <tr>
+        <td>......</td>
+        <td>......</td>
+        <td>$\pi$</td>
+    </tr>
+</table>
+
+<br><br>
+
+<p class="MsoNormal">به این ترتیب مجموعه زوج‌های مرتب زیر بدست می‌آید.</p>
+
+<p class="MsoNormal">$$ f = \{ (0 , 1) , (\dots , \dots) , (\dots , \dots) , (\dots , \dots) , (\dots , \dots) \} $$</p>
+
+<br><br>
+<p class="MsoNormal">۳) نقاط به طول‌های 
+    $x = \dfrac{\pi}{۶} , \dfrac{\pi}{۳} , \dfrac{۲\pi}{۳} , \dfrac{۵\pi}{۶}$
+     را به جدول بالا اضافه کنید تا شکل زیر بدست آید. $ (\sqrt{۳} \simeq ۱/۷) $.</p>
+
+
+<br>
+<div class="custom-scrollbar" style="overflow-y: hidden; overflow-x:auto;direction:ltr;">
+    
+<table class="MsoNormal" style="margin:auto;width:fit-content;direction:ltr;text-align:center;">
+    <tr>
+        <th>$x$</th>
+        <th>$\dfrac{\pi}{۶}$</th>
+        <th>$\dfrac{\pi}{۳}$</th>
+        <th>$\dfrac{۲\pi}{۳}$</th>
+        <th>$\dfrac{۵\pi}{۶}$</th>
+    </tr>
+    <tr>
+        <th>$y = \cos x$</th>
+        <td>......</td>
+        <td>......</td>
+        <td>$ \dfrac{-۱}{۲}$</td>
+        <td>......</td>
+    </tr>
+</table>
+</div>
+
+<br><br>
+
+<p class="MsoNormal">4) نقاط شکل صفحهٔ قبل را به ترتیب به یکدیگر وصل می‌کنیم تا شکل مقابل بدست آید.</p>
+
+<p class="MsoNormal">این شکل نمودار تابع کسینوس با ضابطه $y = \cos x$ را در بازهٔ $[۰ , \pi]$ مشخص می‌کند.</p>
+
+
+
+<br><br>
+
+
+<p class="MsoNormal">۵) جدول زیر را کامل کنید تا نمودار تابع کسینوس در بازهٔ $[۲\pi , ۴\pi]$ و $[۴\pi , ۶\pi]$ به‌صورت شکل مقابل بدست آید.</p>
+
+<br>
+
+<table class="MsoNormal" style="margin:auto;width:fit-content;direction:ltr;text-align:center;">
+    <tr>
+        <td>$x$</td>
+        <td>$\pi$</td>
+        <td>$\dfrac{۵\pi}{۴}$</td>
+        <td>$\dfrac{۳\pi}{۲}$</td>
+        <td>$\dfrac{۷\pi}{۴}$</td>
+        <td>$۲\pi$</td>
+    </tr>
+    <tr>
+        <td>$y$</td>
+        <td>$-۱$</td>
+        <td>......</td>
+        <td>......</td>
+        <td>......</td>
+        <td>$۱$</td>
+    </tr>
+</table>
+
+<br><br>
+
+<p class="MsoNormal">۶) با توجه به مراحل بالا نمودار تابع کسینوس با ضابطه 
+    $y = \cos x$
+     در بازهٔ $[۰ , ۲\pi]$ در شکل زیر رسم شده است. با توجه به این شکل جدول زیر را کامل کنید.</p>
+
+
+<br><br>
+
+  <div class="MsoNormal" style="text-align: center;">
+    <table class="MsoNormal" style="margin:auto;width:fit-content;direction:ltr;text-align:center;">
+        <tr>
+            <td>$[۰ , \dfrac{\pi}{۲}]$</td>
+            <td>$[\dfrac{\pi}{۲} , \pi]$</td>
+            <td>$[\pi , \dfrac{۳\pi}{۲}]$</td>
+            <td>$[\dfrac{۳\pi}{۲} , ۲\pi]$</td>
+        </tr>
+        <tr>
+            <td style="direction: rtl";>مقدار تابع کسینوس از $۱$ به $۰$ کاهش می‌یابد.</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>مقدار تابع کسینوس در ربع اول مثبت است.</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+  </div>
+
+<br>
+<br>
+
+<p class="MsoNormal">۷) تابع کسینوس دارای نمودار یکسانی در بازه‌های 
+    $[۰ , ۲\pi]$
+    و
+    $[۲\pi , ۴\pi]$
+    و
+    $[-۲\pi , ۰]$
+    و 
+     $[-۴\pi , -۲\pi]$
+     است.
+     
+در شکل زیر نمودار تابع کسینوس در بازهٔ $[۰ , ۴\pi]$ رسم شده است. شکل را کامل کنید.</p>
+
+<br><br>
+
+
+<p class="MsoNormal">۸) با توجه به شکل صفحهٔ قبل، جاهای خالی را در خصوص ویژگی‌های تابع با ضابطه $y = \cos x$ کامل کنید.</p>
+<br>
+<p class="MsoNormal">الف) دامنهٔ تابع کسینوس ...... و برد آن ...... است.</p>
+<br>
+<p class="MsoNormal">ب) مقدار تابع کسینوس در طول‌های ...... برابر با صفر است.</p>
+<br>
+<p class="MsoNormal">پ) حداکثر مقدار تابع کسینوس ...... است که در طول‌های $x = ۲k\pi \ , \  k \in \mathbb{Z}$ بدست می‌آید.</p>
+<br>
+<p class="MsoNormal">ت) حداقل مقدار تابع کسینوس ...... است که در طول‌های ...... بدست می‌آید.</p>
+
+
+
+<br><hr><br>
+
+
+<p class="MsoStep">کار در کلاس</p>
+<p class="MsoNormal">شکل زیر نمودار تابع با ضابطه $y = ۳\cos x$ را نشان می‌دهد. به‌طور مشابه هر یک از توابع با ضابطه‌های داده شده را در بازهٔ $[۰ , ۲\pi]$ با استفاده از نمودار تابع کسینوس رسم کنید.</p>
+
+
+  <div class="MsoNormal" style="text-align: left; direction: ltr;">
+    <p>۱) $y = \cos \left( x + \dfrac{\pi}{2} \right)$</p>
+<p>۲) $y = \cos x - ۱$</p>
+<p>۳) $y = ۱ - \dfrac{۱}{۲} \cos x$</p>
+<p>۴) $y = \cos \left( x - \dfrac{\pi}{2} \right) + ۱$</p>
+  </div>
+
+
+  <br><hr><br>
+
+  <p class="MsoStep">تمرین</p>
+<p class="MsoNormal">۱) آیا نمودارهای هر جفت از توابع با ضابطه‌های زیر بر هم منطبق‌اند یا خیر؟</p>
+
+<br>
+<div class="MsoNormal" style="text-align: left; direction: ltr;">
+    <p>۱) $y = \sin x$ , $y = \cos \left( x - \dfrac{\pi}{۲} \right)$</p>
+<p>۲) $y = \cos x$ , $y = \sin \left( \dfrac{\pi}{۲} + x \right)$</p>
+<p>۳) $y = \cos x$ , $y = \cos \left( 2\pi - x \right)$</p>
+<p>۴) $y = \sin x$ , $y = \sin \left( 5\pi - x \right)$</p>
+
+  </div>
+
+<br><br>
+
+<p class="MsoNormal">۲) نمودار هر یک از توابع با ضابطه‌های زیر را در دستگاه مختصات در بازه‌های داده شده رسم کنید.</p>
+
+
+  <div class="MsoNormal" style="text-align:left;direction: ltr;">
+    <p>۱) $y = \dfrac{۱}{2} \sin x  \quad$ , $\quad [۰ , ۲\pi]$</p>
+<p>۲) $y = ۲\cos x + ۱  \quad$ , $\quad [-۲\pi , ۲\pi]$</p>
+<p>۳) $y = ۱ - \sin x \quad $ , $\quad [-۲\pi , ۲\pi]$</p>
+<p>۴) $y = -۱ + \cos x  \quad$ , $\quad [-4\pi , 4\pi]$</p>
+<p>۵) $y = ۱ + \sin \left( x + \dfrac{\pi}{۴} \right)  \quad$ , $\quad [۰ , ۲\pi]$</p>
+<p>۶) $y = \cos \left( x - \dfrac{\pi}{2} \right)  \quad$ , $\quad [۲\pi , ۴\pi]$</p>
+
+  </div>
+
+  <br><br>
+
+  <p class="MsoNormal">۳) با توجه به نمودار توابع سینوس و کسینوس، مشخص کنید هر یک از دو نمودار زیر کدام‌یک از ضابطه‌های داده شده را دارند.
+  نمودار تابع سایر ضابطه‌ها را نیز رسم کنید.</p>
+  
+  <div class="MsoNormal" style="text-align: left;direction: ltr;">
+<p>الف) $y = ۲\cos x + ۱$</p>
+<p>ب) $y = ۲\sin x - ۱$</p>
+<p>پ) $y = ۲ - \cos x$</p>
+<p>ت) $y = \sin x - ۲$</p>
+  </div>
+
+  <br>
+
+  <p class="MsoNormal">۴) با ذکر دلیل مشخص کنید کدام‌یک از گزاره‌های زیر درست و کدام نادرست‌اند.</p>
+<br>
+<p class="MsoNormal">الف) شکل زیر نمودار تابع با ضابطه $y = \dfrac{۱}{۲} \sin x$ را نشان می‌دهد.</p>
+<br>
+<p class="MsoNormal">ب) شکل زیر، نمودار تابع با ضابطه 
+    $y = \cos x - \dfrac{۱}{۲}$
+     را نشان می‌دهد.</p>
+<br>
+     <p class="MsoNormal">پ) برای رسم نمودار تابع با ضابطه $y = ۱ + \sin x$ کافی است نمودار تابع سینوس را به‌اندازهٔ یک واحد در راستای محور $y$ها انتقال دهیم.</p>
+    <br>
+     <p class="MsoNormal">ت) برای رسم نمودار تابع با ضابطه 
+        $y = -\cos x$
+         کافی است نمودار تابع کسینوس را نسبت به محور $x$ها قرینه کنیم.</p>
+     
+
+
+         <br><hr><br>
+
+         <p class="MsoSemi">خواندنی</p>
+         <br>
+<p class="MsoNormal">اصوات به‌صورت مخلوطی از موج‌های سینوسی شکل با بسامدهای مختلف می‌توانند نمایش داده شوند.</p>
+<br><hr><br>
+
+
+
+<br><hr><br>
+<p class="MsoSemi">خواندنی</p>
+<p class="MsoNormal">طول روز به‌طور تقریبی در ایران در $t$ امین روز سال برحسب ساعت با استفاده از تابع متناوب $H$ با ضابطهٔ زیر مدل‌سازی می‌شود.
+
+$$ H(t) = ۱۲ + ۲/۴ \sin  \dfrac{۲\pi}{۳۶۵} (t - ۱)  $$
+در این رابطه عدد $۱$ که به‌معنای اولین روز سال یعنی اولین روز فروردین ماه است، اعتدال بهاری نام دارد. در این روز، مدت زمان روز و شب در سراسر کرهٔ زمین با هم برابر است.
+همچنین عدد $۱۲$ تعداد ساعات روشنایی در یک روز به‌طور متوسط است.
+ضریب $2/4$ در این رابطه عددی است که اگر آن را با $t - ۱$ جمع یا از آن کم کنیم، طولانی‌ترین و کوتاه‌ترین مدت زمان روز در یک سال به‌دست می‌آید که عبارت‌اند از:
+از $۱۴/۴$ ساعت (اول تیر ماه) و $۹/۶$ ساعت (اول دی ماه)، عدد $۳۶۵$ نیز تعداد روزهای سال است.
+
+به‌عنوان مثال طول روز در اول مهر ماه که $۱۸۷$ امین روز سال است، تقریباً برابر است با:
+
+$$ H(۱۸۷) = ۱۱/۸ \text{ ساعت} $$
+
+حال، شما طول تقریبی روز را در روزهای $۱۲$ اردیبهشت ماه، $۱۵$ مرداد ماه، $۲۲$ بهمن ماه و $۳۰$ آذر ماه به‌دست آورید.</p>
+
+
+
+<br><br>
+
+
+
+
+
+    <br><br><br><br><br><br><br><br><br><br>
+</body>
+
+
+</html>

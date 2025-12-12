@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi , b{
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #badaff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .MsoPapDefault {
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #722a85;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background-color: #1abbbbe1; /* Scrollbar thumb color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color: #05ffe2;
+        }
+    </style>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+<body class="custom-scrollbar">
+ 
+<p class="MsoBold">
+
+    فصل ۲ :‌تابع
+</p>
+
+<hr>
+
+<p class="MsoBold"> درس 1
+    :
+آشنایی بیشتر با تابع</p>
+
+
+
+<p class="MsoNormal">
+    یک تابع از مجموعه $A$ به مجموعه $B$، رابطه‌ای بین این دو مجموعه است که در آن به هر عضو $A$، دقیقاً یک عضو از $B$ نسبت داده می‌شود. $A$ را دامنه تابع و $B$ را هم‌دامنه تابع می‌نامند. برد تابع زیرمجموعه‌ای از هم‌دامنه است.
+</p>
+
+<br><hr><br>
+
+<p class="MsoStep">کادر کلاس</p>
+<p class="MsoNormal">
+    (الف) با توجه به توابع داده شده در جدول زیر، مشخص کنید هر نمودار مربوط به کدام تابع است و جدول را نیز کامل کنید. شباهت‌ها و تفاوت‌های نمودارها را با هم مقایسه کنید.
+</p>
+
+<br>
+
+
+<div class="custom-scrollbar" style="overflow-y: hidden; overflow-x:auto;direction:ltr;">
+
+
+    <table class="MsoNormal" style="margin:auto;width:max-content;direction:ltr;text-align:center;">
+        <tr>
+            <td>تابع</td>
+            <td>$f(x) = 2x$</td>
+            <td>$g(x) = 2x$</td>
+            <td>$h(x) = 2x$</td>
+            <td>$t(x) = x^2$</td>
+            <td>$s(x) = x^2$</td>
+            <td>$k(x) = x^2$</td>
+        </tr>
+        <tr>
+            <td>دامنه تابع</td>
+            <td>$\mathbb{R}$</td>
+            <td>$ \{-1, 1, 2 \} $</td>
+            <td>${(-2, 2]}$</td>
+            <td>$\mathbb{R}$</td>
+            <td>${(-\infty, 0 ]}$</td>
+            <td>${[-\dfrac{1}{2}, 2]}$</td>
+        </tr>
+        <tr>
+            <td>برد تابع</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        
+    </table>
+    
+<br>
+</div>
+
+<br><br>
+
+<p class="MsoNormal">
+    ب) جدول روبه‌رو را به دلخواه (متفاوت از قسمت الف) کامل و نمودار هر تابع را رسم کنید. پاسخ خود را با پاسخ دوستانتان مقایسه کنید. چند پاسخ متفاوت برای $f$ و $g$ می‌توان ارائه کرد؟
+</p>
+
+<br>
+
+<table class="MsoNormal" style="margin:auto;width:fit-content;direction:ltr;text-align:center;">
+    <tr>
+        <td>تابع</td>
+        <td>$f(x) = 2x$</td>
+        <td>$g(x) = x^2$</td>
+    </tr>
+    <tr>
+        <td>دامنه</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>برد</td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+
+
+<br>
+
+<br><hr><br>
+
+<p class="MsoNormal">
+    برای مشخص بودن یک تابع، باید دامنه، هم‌دامنه و دستور یا قاعده‌ای که نحوهٔ ارتباط بین اعضای دامنه و اعضای هم‌دامنه را نشان دهد معلوم باشد.
+</p>
+
+
+<br><hr><br>
+
+
+
+<p class="MsoNormal">
+    به‌طور مثال تابع $f$ در قسمت الف کار در کلاس قبل، تابعی است با دامنه $\mathbb{R}$ و هم‌دامنه $\mathbb{R}$ و ضابطهٔ آن نیز $f(x) = 2x$ است.
+    برای سادگی و اختصار، این تابع را به‌صورت مقابل نمایش می‌دهند:
+</p>
+
+<br>
+
+
+<p class="MsoNormal"  style="text-align: center;">
+ 
+    $
+\quad
+    \begin{cases}
+    &f : \mathbb{R} \to \mathbb{R} \\ \\
+    &f(x) = 2x \\\\
+    \end{cases}
+
+    $
+    ( f
+    تابعی از
+   R
+    به
+R
+است.
+    )
+</p>
+
+<br>
+
+<p class="MsoNormal">
+    به همین ترتیب تابع $h$ قسمت الف را می‌توان چنین نمایش داد:
+</p>
+<p class="MsoNormal">
+    $$
+    \begin{cases}
+    &h : (-2, 2] \to (-4, 4] \\\\
+    &h(x) = 2x \\\\
+    \end{cases}
+    $$
+</p>
+
+
+<br>
+
+
+<p class="MsoNormal">
+    تابع $h$ را به‌صورت مقابل هم می‌توان معرفی کرد:
+</p>
+<p class="MsoNormal">
+    $$
+    \begin{cases}
+    &h : (-2, 2] \to \mathbb{R} \\\\
+    &h(x) = 2x \\\\
+    \end{cases}
+    $$
+</p>
+
+<br>
+
+<p class="MsoNormal">
+    در هر دو نمایش اخیر تابع $h$، دامنه مجموعه $(-2, 2]$ و ضابطه آن $h(x) = 2x$ است. در نمایش اول هم‌دامنه 
+    $ ( -4, 4]$
+     است که همان برد تابع است. 
+    در نمایش دوم، هم‌دامنه را $\mathbb{R}$ در نظر گرفته‌ایم. در این حالت نیز برد تابع $ (4,4]$ است.
+</p>
+
+<br><hr><br>
+
+<p class="MsoNormal">
+    هم‌دامنهٔ تابع را می‌توان هر مجموعهٔ دلخواهی شامل برد تابع در نظر گرفت.
+</p>
+
+<br><hr><br>
+
+<p class="MsoStep">کاردرکلاس</p>
+<p class="MsoNormal">
+برای تابع :
+$$
+\begin{cases}
+& f: [0,  \dfrac{1}{3} ] \to [0, \dfrac{1}{9}] \\\\
+& f(x) = x^2 \\\\
+\end{cases}
+$$
+کدام‌یک از نمایش‌های زیر نیز قابل قبول است؟
+</p>
+<br>
+
+<p class="MsoNormal" style="direction: ltr;">
+    (الف)
+    $
+    \begin{cases}
+    f: \mathbb{R} \to \mathbb{R}, \\\\
+    f(x) = x^2 \\\\
+    \end{cases}
+    $
+    </p>
+    <br>
+    <p class="MsoNormal" style="direction: ltr;">
+        (ب)  
+        $
+        \begin{cases}
+        f: [0, \dfrac{1}{3}] \to [0, \infty), \\\\
+        f(x) = x^2 \\\\
+        \end{cases}
+        $
+        </p>
+        
+        <br>
+
+    <p class="MsoNormal" style="direction: ltr;">
+        (پ)  
+        $
+        \begin{cases}
+        f: \mathbb{R} \to \left[0, \dfrac{1}{9}\right], \\\\
+        f(x) = x \\\\
+        \end{cases}
+        $
+        </p>
+        
+    <br>
+
+
+
+    <p class="MsoNormal" style="direction: ltr;">
+        (ت)  
+        $
+        \begin{cases}
+        f: [0, \dfrac{1}{3}] \to \mathbb{R} \\\\
+        f(x) = x^2 \\\\
+        \end{cases}
+        $
+        </p>
+        
+        <br><hr>
+
+
+
+        <p class="MsoBold">تابع به عنوان یک ماشین</p>
+<p class="MsoNormal">
+می‌توان تابع را همچون ماشینی در نظر گرفت که یک ورودی را دریافت می‌کند و در ازای آن یک خروجی تحویل می‌دهد. ورودی‌ها از دامنه داده می‌شوند و خروجی‌ها به برد تعلق دارند و برای هر ورودی دقیقاً یک خروجی وجود دارد (البته ممکن است چند ورودی مختلف خروجی یکسانی داشته باشند). اگر $x$ عنصری دلخواه از دامنه $f$ و نمایش خروجی نظیر آن باشد، $x$ را متغیر مستقل و $y$ را متغیر وابسته می‌نامند.
+</p>
+<p class="MsoNormal">
+در این صورت می‌نویسیم: $y = f(x)$.
+</p>
+
+
+
+<br><hr><br>
+
+
+<p class="MsoStep">کاردرکلاس</p>
+<p class="MsoNormal">
+فرض کنید ماشین $f$ به عنوان ورودی، اعداد (حقیقی) را قبول می‌کند و پس از دریافت هر عدد، آن را سه برابر و سپس $5$ واحد به آن اضافه می‌کند. در این صورت به ازای ورودی $10$، خروجی $35$ را می‌دهد. به سؤالات زیر پاسخ دهید:
+</p>
+<br>
+<p class="MsoNormal">
+(الف) ماشین به ازای ورودی $- \ 2$، چه خروجی خواهد داشت؟
+</p>
+<br>
+<p class="MsoNormal">
+(ب) اگر خروجی ماشین $4$ باشد ورودی آن چقدر بوده است؟
+</p>
+<br>
+<p class="MsoNormal">
+(پ) نمایش تابع به صورت زیر است: $$
+\begin{cases}
+f: \mathbb{R} \to \mathbb{R} \\\\
+f(x) =\ . . .  \\\\
+\end{cases}
+$$
+
+</p>
+<p class="MsoNormal">
+(ت) نمودار تابع را رسم و دامنه و برد آن را معلوم کنید.
+</p>
+
+<br><hr>
+<p class="MsoBold">برابری دو تابع</p>
+<p class="MsoNormal">
+اگر نمودارهای دو تابع در یک دستگاه مختصات داده شده باشند، هنگامی این دو تابع با هم برابرند که نمودارهای آن‌ها کاملاً بر هم منطبق شوند. به طور مثال هیچ‌کدام از توابع داده شده در قسمت $1$ کار در کلاس صفحه $38$ با یکدیگر برابر نیستند.
+</p>
+<p class="MsoNormal">
+اگر دو تابع به صورت مجموعه زوج‌های مرتب داده شده باشند، هنگامی با هم برابرند که به عنوان دو مجموعه با هم برابر باشند.
+</p>
+<br><hr><br>
+<p class="MsoNormal">
+دو تابع $f$ و $g$ را برابر نامیم هرگاه:
+</p>
+<p class="MsoNormal">
+1. دامنه $f$ و دامنه $g$ با هم برابر باشند.
+</p>
+<p class="MsoNormal">
+2. برای هر $x$ از این دامنه، داشته باشیم: $f(x) = g(x)$.
+</p>
+<br><hr><br>
+<p class="MsoNormal">
+ <b>مثال:</b>
+ تابع‌های
+ $f(x) = \sqrt{x^2}$
+  و
+  $ g(x) = \ \big| \ x \ \big| \ $
+با هم برابرند
+ ولی تابع‌های 
+ $ f(x) = \dfrac{x}{x} $
+  و 
+  $g(x) = 1$
+   برابر نیستند. چرا؟
+</p>
+<br><hr><br>
+
+<p class="MsoStep">کاردرکلاس</p>
+<p class="MsoNormal">
+1. در جدول زیر کدام‌یک از توابع داده‌شدهٔ زیر باهم برابرند؟ دلیل بیاورید:
+</p>
+
+<br>
+
+<table class="MsoNormal" style="margin:auto;width:fit-content;direction:ltr;text-align:center;">
+    <tr>
+      <th>۱</th>
+      <td>$f = \{(۱, ۲), (5, 7)\}$</td>
+      <td>$g = \{(۱, 7), (5, ۲)\}$</td>
+    </tr>
+    <tr>
+      <th>۲</th>
+      <td>$f = \{(a, b), (c, d)\}$</td>
+      <td>$g = \{(c, d), (a, b)\}$</td>
+    </tr>
+    <tr>
+      <th>۳</th>
+      <td>
+        $
+        \begin{cases}
+        f: \mathbb{R} \to \mathbb{R} \\\\
+        f(x) = ۳x \\\\
+        \end{cases}
+        $
+      </td>
+      <td>
+        $
+        \begin{cases}
+        g: \mathbb{R}^+ \to \mathbb{R} \\\\
+        g(x) = ۳x \\\\
+        \end{cases}
+        $
+      </td>
+    </tr>
+    <tr>
+      <th>۴</th>
+      <td>$f(x) = x \ \big| \ x \ \big| \ $</td>
+      <td>$g(x) = x^2$</td>
+    </tr>
+    <tr>
+      <th>۵</th>
+      <td>$f(x) = ۴x$</td>
+      <td>$g(x) = \dfrac{ 8 x}{2}$</td>
+    </tr>
+  </table>
+  
+<br><br>
+
+
+<p class="MsoNormal">
+    2. وقتی در آسمان پدیدهٔ آذرخش رخ می‌دهد، اندکی پس از دیدن نور آن صدای آن را نیز می‌شنویم. صدای ناشی از آذرخش هر $3$ ثانیه حدود یک کیلومتر را طی می‌کند. رابطه بین فاصله ما از مکان وقوع آذرخش و زمانی که طول می‌کشد تا صدای آن را بشنویم در جدول زیر (برای برخی زمان‌ها) داده شده است. اگر $t \in [1, 4]$:
+    </p>
+    <p class="MsoNormal">
+    (الف) جدول را کامل کنید.
+    </p>
+    
+    <br>
+    <table class="MsoNormal" style="margin:auto;width:fit-content;direction:rtl;text-align:center;">
+        <tr>
+          <th> t 
+    (ثانیه)    
+        </th>
+          <th>
+            h 
+            (کیلومتر)
+          </th>
+        </tr>
+
+
+        <tr>
+            <td>
+                $
+                4
+                $
+            </td>
+            <td>
+                $
+                \dfrac{4}{3}
+                $
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                $
+                4 \dfrac{1}{2}
+                $
+            </td>
+            <td>
+                $
+                \dfrac{3}{2}
+                $
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                $
+              5
+                $
+            </td>
+            <td>
+               
+            </td>
+        </tr>
+       
+        <tr>
+            <td>
+             
+            </td>
+            <td>
+                $
+              2
+                $
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+             $8$
+            </td>
+            <td>
+             
+            </td>
+        </tr>
+       
+
+        <tr>
+            <td>
+                $
+              9
+                $
+            </td>
+            <td>
+               
+            </td>
+        </tr>
+       
+        <tr>
+            <td>
+                $
+              10 \ \dfrac{1}{5}
+                $
+            </td>
+            <td>
+               
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+            $   \dfrac{11}{3} $
+            </td>
+        </tr>
+        <tr>
+            <td>
+                $
+              12
+                $
+            </td>
+            <td>
+               
+            </td>
+        </tr>
+      </table>
+      <br>
+      
+      <p class="MsoNormal">
+        (ب) چرا $h$ تابعی از $t$ است؟
+        </p>
+        <p class="MsoNormal">
+        (پ) دامنه و برد این تابع را بنویسید.
+        </p>
+        <p class="MsoNormal">
+        (ت) نمایش مقابل از تابع $h$ را کامل کنید:
+        </p>
+        
+        <p class="MsoNormal">
+            $$
+            \begin{cases}
+            h: [ \qquad ] \to [ \qquad ] \\\\
+            h(t) = \\\\
+            \end{cases}
+            $$
+            </p>
+            
+            <p class="MsoNormal">
+                (ث) نمودار تابع $h$ و نمودار تابع $y = \dfrac{1}{3} x $ را رسم کنید و شباهت‌ها و تفاوت‌های آن‌ها را بیان کنید.
+                </p>
+                
+
+                <br><hr><br>
+
+    <p class="MsoStep">تمرین</p>
+    <p class="MsoNormal">
+   1. در صفحه مختصات روبه‌رو تابعی رسم کنید که نقاط $A$ و $B$ روی آن قرار داشته باشند. چه تعداد از این توابع وجود دارند؟
+    </p>
+    
+    <br>
+<br>
+
+<p class="MsoNormal">
+    2. کدام‌یک از موارد زیر درست و کدام‌یک نادرست است؟ دلیل بیاورید.
+    </p>
+    <p class="MsoNormal">
+    (الف) اگر دامنه دو تابع باهم برابر و برد آن‌ها نیز با یکدیگر برابر باشند، دو تابع برابرند.
+    </p>
+    <br>
+    <p class="MsoNormal">
+    (ب) برد و هم‌دامنهٔ تابع می‌توانند یکی باشند.
+    </p>
+    <br>
+    <p class="MsoNormal">
+    (پ) هم‌دامنهٔ تابع زیر مجموعه‌ای از برد آن است.
+    </p>
+    <br>
+    <p class="MsoNormal">
+    (ت) می‌شمار تابع وجود دارد که دامنهٔ آن بازهٔ $[۰, ۳]$ است.
+    </p>
+    <br><br>
+    <p class="MsoNormal">
+        3.
+     تابعی مثال بزنید که دامنهٔ آن مجموعهٔ اعداد حقیقی مثبت باشد. چه تعداد از این توابع وجود دارند؟
+    </p>
+    <br><br>
+    <p class="MsoNormal">
+    4. همه تابع‌های از مجموعه 
+    $A = \{a, b, c\}$
+     به مجموعه 
+     $B = \{d, e\}$
+      را بنویسید (از نمودار پیکانی کمک بگیرید).
+    </p>
+    
+    <br><br>
+
+    <p class="MsoNormal">
+        5. تابع‌های مساوی را مشخص کنید.
+        </p>
+        
+  <div class="MsoNormal" style="text-align: left;">
+    $
+    \begin{cases}
+    f: \mathbb{R} \to \mathbb{R} \\\\
+    f(x) = \ \big| \ x \ \big| \ \\\\
+    \end{cases}
+  $
+<br><br>
+  $
+    \begin{cases}
+    g: \mathbb{R} \to \mathbb{R} \\\\
+    g(x) = ۵x \\\\
+    \end{cases}
+  $
+<br><br>
+  $
+  \begin{align*}
+ & h: \mathbb{R} \to \mathbb{R} \\
+& h(x) = 
+    \begin{cases}
+    x & x \geq 0 \\\\
+    - \ x & x < 0 \\\\
+    \end{cases}
+\end{align*}
+  $
+
+<br><br>
+
+  $
+
+  \begin{cases}
+  r: [0, +\infty) \to \mathbb{R} \\\\
+  r(a) = ۵a \\\\
+  \end{cases}
+  
+  $
+  
+  <br><br>
+  
+  
+  $
+  
+  \begin{cases}
+  s: \mathbb{R} \to \mathbb{R} \\\\
+  s(a) = ۵a \\\\
+  \end{cases}
+  
+  $
+  
+  <br><br>
+  
+  $
+  
+  \begin{cases}
+  t: R - \  \{0\}  \rightarrow R \\\\
+  t(x) = ۵x \\\\
+  \end{cases}
+  
+  $
+  
+  
+</div>
+
+<br><br>
+<p class="MsoNormal">
+    6. تابع $f$ در همهٔ شرایط زیر صدق می‌کند. $f$ را رسم کنید و ضابطهٔ آن را بنویسید.
+    </p>
+    <p class="MsoNormal">
+    (الف) دامنهٔ $f$ مجموعه اعداد حقیقی است و $f(-۵) = -۲$، $f(۲) = ۳$ و $f(۲) = -۲$.
+    </p>
+    <br>
+    <p class="MsoNormal">
+    (ب) $f$ در بازهٔ $[۰, ۲]$ ثابت است.
+    </p>
+     <br>
+    <p class="MsoNormal">
+    (پ) تابع $f$ به هر عدد بزرگ‌تر از $۲$ مربع آن را نسبت می‌دهد.
+    </p>
+    <br>
+    <p class="MsoNormal">
+    (ت) تابع $f$ برای اعداد منفی، خطی است و نمودار آن محور $x$ها را در نقطه‌ای به طول $-۳$ قطع می‌کند.
+    </p>
+    <br><br>
+
+    <p class="MsoNormal">
+        7. با استفاده از یک تابع خطی و با در دست داشتن طول استخوان بازو (از آرنج تا شانه)، می‌توان طول قد یک انسان بزرگ‌سال را برآورد کرد:
+        </p>
+        <br>
+        <p class="MsoNormal">
+        تابع خطی برای مردان:  
+        $M(x) = ۲/۸۹x + ۷۰/۶۴$
+        </p>
+        <br>
+        <p class="MsoNormal">
+        تابع خطی برای زنان:  
+        $F(x) = ۲/۷۵x + ۷۱/۴۸$
+        </p>
+        <br>
+        <p class="MsoNormal">
+        که در آن‌ها $x$ طول استخوان بازو بر حسب سانتی‌متر است.
+        </p>
+<br>
+        <p class="MsoNormal">
+        (الف) اگر طول استخوان بازوی یک مرد $۳۵$ سانتی‌متر باشد، طول قد او چقدر است؟
+        </p>
+      <br>
+        <p class="MsoNormal">
+        (ب) اگر قد یک مرد $۱۸۵$ سانتی‌متر باشد، طول استخوان بازوی او چقدر است؟
+        </p>
+        <br>
+        <p class="MsoNormal">
+        (پ) برای تابع $F(x)$ نیز مشابه الف و ب یک سؤال طرح کنید و به آن پاسخ دهید.
+        </p>
+        <br><hr><br>
+        <p class="MsoStep">خواندنی</p>
+        <p class="MsoNormal">
+        نتایج یک مطالعه در مورد قد مردان و زنان از سال ۱۹۱۴ تا ۲۰۱۴ نشان می‌دهد که میانگین قد مردان ایرانی در طی این صد سال از ۱۵۷/۱ به ۱۷۳/۶ سانتی‌متر و میانگین قد زنان ایرانی از ۱۴۸/۵ به ۱۵۹/۷ سانتی‌متر رسیده است. مردان ایرانی بیشترین افزایش طول قد در دنیا را در ۱۰۰ سال اخیر داشته‌اند.
+        </p>
+        <br><hr><br>
+
+
+
+
+
+
+
+
+
+<br><br><br><br><br><br><br>
+</body>
+</html>

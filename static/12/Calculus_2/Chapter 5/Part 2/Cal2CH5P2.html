@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal ,
+        ul.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi , b{
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #badaff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #722a85;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background-color: #1abbbbe1; /* Scrollbar thumb color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color: #05ffe2;
+        }
+    </style>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+ 
+</head>
+
+
+
+<body class="custom-scrollbar">
+
+
+
+
+    <p class="MsoBold">
+        درس ۲ :
+        جهت تقعر نمودار یک تابع و نقطۀ عطف آن
+        </p>
+        
+
+
+
+        <p class="MsoNormal">
+            با تابع $f(x) = x^3$ آشنایی دارید. از آنجا که مشتق این تابع $f'(x) = 3x^2$ در $x = 0$ برابر صفر و در سایر نقاط همواره مثبت است، لذا شیب خطوط مماس بر منحنی این تابع در $x = 0$ برابر صفر و در تمام نقاط دیگر مثبت است و این تابع همواره صعودی است. با این حال اگر خطوط مماس بر این منحنی را به‌صورت پاره‌خط‌هایی کوچک در اطراف نقاط مماس رسم کنید خواهید دید که این پاره‌خط‌ها برای $x$های منفی در بالای نمودار و برای $x$های مثبت در زیر نمودار واقع‌اند. اصطلاحاً گفته می‌شود که جهت تقعر این تابع در بازۀ $(-\infty, 0)$ به سمت پایین است و در بازۀ $(0, +\infty)$ به سمت بالا است. برای درک بهتر مفهوم تقعر منحنی یک تابع به دو شکل زیر توجه کنید.
+            </p>
+            
+
+        <br><hr><br>
+
+        <p class="MsoStep">فعالیت</p>
+<p class="MsoNormal">
+در زیر بخشی از نمودارهای دو تابع 
+$h(x) = x^2$ 
+و 
+$g(x) = \sqrt{x}$
+ در بازۀ 
+ $[0, +{\infty})$ و خطوط مماس بر منحنی‌های آنها در برخی نقاط این بازه رسم شده است.
+</p>
+
+<br>
+
+
+<p class="MsoNormal">
+    1.
+با حرکت از نقطۀ $x = 0$ به سمت راست، شیب خطوط مماس در هر کدام از منحنی‌ها چگونه تغییر می‌کند؟ (کم می‌شود یا زیاد). جهت تقعر منحنی در هر کدام از نمودارها چگونه است؟
+</p>
+ 
+<br><br>
+
+
+
+<p class="MsoNormal">
+    2.
+جهت تقعر منحنی چه ارتباطی با تغییرات شیب (کم شدن یا زیاد شدن) خطوط مماس دارد؟
+</p>
+
+
+<br><br>
+
+
+<p class="MsoNormal">
+    3.
+تابع 
+$h'(x)$ در بازه 
+$[۰, +\infty)$ صعودی است یا نزولی؟
+</p>
+
+
+<br><br>
+
+
+
+
+
+<p class="MsoNormal">
+    4.
+تابع $g'(x)$ در بازه $[۰, +\infty)$ صعودی است یا نزولی؟
+</p>
+
+
+<br><br>
+
+
+
+
+
+<p class="MsoNormal">
+    5.
+(الف) در حالت کلی، صعودی یا نزولی بودن تابع $f$ چه ارتباطی با علامت تابع $f'(x)$ دارد؟
+</p>
+<br>
+<ul class="MsoNormal">
+    <li>علامت $f'(x)$ بر بازه $I$ مثبت است، آنگاه تابع $f$ بر بازه 
+        $ . . . . . . . . .$
+        $ I $ 
+        است.</li>
+        <li>علامت $f'(x)$ بر بازه $I$ منفی است، آنگاه تابع $f$ بر بازه 
+            $ . . . . . . . . .$
+            $ I $ 
+            است.</li>
+</ul>
+
+
+<br><br>
+
+<p class="MsoNormal">
+    (ب) با توجه به قسمت (الف)، صعودی یا نزولی بودن تابع $f'$ چه ارتباطی با علامت تابع $f"(x)$ دارد؟
+    </p>
+    <br>
+
+    
+    <ul class="MsoNormal">
+        <li>علامت $f"(x)$ بر بازه $I$ مثبت است، آنگاه تابع $f'$ بر بازه 
+            $ . . . . . . . . .$
+            $ I $ 
+            است.</li>
+            <li>علامت $f"(x)$ بر بازه $I$ منفی است، آنگاه تابع $f'$ بر بازه 
+                $ . . . . . . . . .$
+                $ I $ 
+                است.</li>
+    </ul>
+
+
+    <br><br>
+
+
+    
+    <p class="MsoNormal">
+        ۶) با توجه به آنچه گفته شد موارد زیر را کامل کنید:
+        </p>
+        
+<br>
+        <p class="MsoNormal">
+            (الف) اگر مقدار 
+            $f"$ در یک بازه مثبت باشد، تابع 
+            $f'$ در آن بازه ............ است و لذا شیب خطوط مماس بر منحنی در آن بازه ............ است و تقعر منحنی تابع $f$ در آن بازه رو به ............ است.
+            </p>
+            <br>
+            <p class="MsoNormal">
+                (ب) اگر مقدار $f"$ در یک بازه منفی باشد، تابع $f'$ در آن بازه ............ است و لذا شیب خطوط مماس بر منحنی در آن بازه ............ می‌یابد و تقعر منحنی تابع $f$ در آن بازه رو به ............ است.
+                </p>
+        
+                <br><hr><br>
+
+
+                <p class="MsoNormal">
+                    آنچه در فعالیت قبل مورد بررسی قرار گرفت به‌طور خلاصه در قضیه زیر، که آزمونی برای تعیین جهت تقعر نمودار تابع است، آورده شده و در این کتاب اثبات آن مدنظر نیست.
+                    </p>
+                    
+            
+
+                    <br><hr><br>
+
+
+        <p class="MsoSemi">قضیه:</p>
+<p class="MsoNormal">
+فرض کنیم $f(x)$ به ازای هر نقطه $x$ از بازه $I$ موجود باشد.
+</p>
+<br>
+<ul class="MsoNormal">
+
+    <p class="MsoNormal">
+        (الف) اگر به ازای هر $x$ از 
+        
+        $f"(x) > 0$
+        ،
+        $I$
+        
+        ، 
+        آنگاه نمودار $f$ روی بازه 
+        $I$
+         تقعر رو به بالا دارد.
+        </p>
+        <p class="MsoNormal">
+        (ب) اگر به ازای هر $x$ از 
+
+        $f"(x) < 0$
+        ، 
+        $I$
+        ، 
+        آنگاه نمودار 
+        $f$ روی بازه $I$ تقعر رو به پایین دارد.
+        </p>
+        <p class="MsoNormal">
+        (پ) اگر به ازای هر $x$ از 
+        $f"(x) = 0$
+        
+        ، 
+        $I$
+         آزمونی بی‌نتیجه است.
+        </p>
+        
+</ul>
+
+<br><hr><br>
+
+
+<p class="MsoNormal">
+    
+<b>    مثال: </b>
+    
+    جهت تقعر توابع زیر را در دامنهٔ تعریفشان به دست آورید.</p>
+
+    <br>
+    <ul class="MsoNormal">
+        <p class="MsoNormal">(الف) 
+            $f(x) = \dfrac{1}{x}$
+        </p>
+        <br>
+        <p class="MsoNormal">(ب) $g(x) = x^3 + 3x^2 + 1$</p>
+    </ul>
+    
+
+    <br><br>
+
+
+    <p class="MsoNormal"><b>حل : </b>
+        <br>
+    الف
+     )
+    
+        داریم $D_f = \mathbb{R} - \{0\}$</p>
+
+
+
+        
+        <br>
+
+
+        <p class="MsoNormal" >
+            $$
+        
+            f(x) = \dfrac{1}{x}
+         \implies     f'(x)  = \dfrac{-1}{x^2} 
+             \implies f"(x)  = \dfrac{2}{x^3}  
+          
+            $$
+        </p>
+        
+
+
+
+        <br>
+
+
+
+
+            <p class="MsoNormal">
+                بنابراین:
+                <br><br>
+                اگر 
+                $ x > 0 $
+                ، آنگاه
+                $f"(x) > 0$
+                
+                جهت تقعر نمودار این تابع بر بازه 
+                $(0, +{\infty})$
+                 رو به بالا است.
+            </p>
+            <br>
+            <p class="MsoNormal">
+                اگر 
+                $ x < 0 $
+                ،
+                آنگاه
+                $f"(x) < 0$
+                ، آنگاه جهت تقعر 
+                نمودار این تابع بر بازه 
+                $(-{\infty} , 0)$
+                 رو به پایین است.
+            </p>
+
+
+
+            <br><br>
+
+
+            <p class="MsoNormal">(ب) داریم $D_g = \mathbb{R}$</p>
+
+            <br>
+                
+
+    <p class="MsoNormal">
+        $$
+        \begin{align*}
+        g(x) & = x^3 + 3x^2 + 1 \\\\
+        g'(x) & = 3x^2 + 6x \\\\
+        g"(x) & = 6x + 6 \\\\
+        g"(x) & = 0 \\\\
+        6x + 6 & = 0 \\\\
+        x & = -1   
+        \end{align*}
+        $$
+    </p>
+
+
+    <br>
+
+    
+    <p class="MsoNormal">
+        بنابراین:
+    </p>
+    <br>
+    <p class="MsoNormal">
+        اگر $x > -1$ آنگاه $g"(x) > 0$ و لذا جهت تقعر نمودار این تابع بر بازۀ $(-1, +{\infty})$ به سمت بالا است.
+    </p>
+    <br>
+    <p class="MsoNormal">
+        اگر $x < -1$ آنگاه $g"(x) < 0$ و لذا جهت تقعر نمودار این تابع بر بازۀ $(-{\infty}, -1)$ به سمت پایین است.
+    </p>
+    
+
+    <br><hr><br>
+
+
+    <p class="MsoStep">کار در کلاس</p>
+<p class="MsoNormal">
+    نمودار تابع $y = f(x)$ را با اطلاعات زیر رسم کنید:
+</p>
+<br>
+  <div class="MsoNormal">
+    <p class="MsoNormal">
+        $f(0) = f(1) = f(2) = 0$
+    </p>
+    <p class="MsoNormal">
+        و بر بازۀ 
+        $f"(x) < 0$
+        ,
+        $(-\infty, 1)$
+    </p>
+    <p class="MsoNormal">
+        و بر بازۀ 
+        $f"(x) > 0$ 
+        ,
+        $(1, + {\infty})$
+    </p>
+  </div>
+
+<br><hr>
+  <p class="MsoBold">نقطۀ عطف نمودار یک تابع</p>
+
+
+  <p class="MsoNormal">نمودار تابع 
+    $f(x) = x^3$ 
+    را در نظر بگیرید. دیدیم که جهت تقعر نمودار این تابع در بازۀ 
+    $(-{\infty} , 0)$ 
+    رو به پایین و در بازۀ $(0 , +\infty)$ رو به بالا است.
+    <br>
+    بنابراین نقطۀ 
+    $x = 0$
+     نقطه‌ای است که جهت تقعر منحنی در آن عوض می‌شود. از طرفی در $x = 0$ منحنی دارای مماس نیز هست. چنین نقطه‌ای از یک منحنی را نقطۀ عطف آن منحنی گوییم. به عبارت دیگر:</p>
+  
+<br><hr><br>
+    <p class="MsoSemi">تعریف</p><br>
+        <p class="MsoNormal">فرض کنیم تابع $f$ در نقطه $x = c$ پیوسته است. در این صورت نقطه $(c, f(c))$ نقطه عطف تابع $f$ است، هرگاه هر دو شرط زیر برقرار باشند:</p>
+
+        <br>
+   <ul class="MsoNormal">
+    <p class="MsoNormal">الف) نمودار $f$ در نقطه $(c, f(c))$ خط مماس داشته باشد.</p>
+    <p class="MsoNormal">ب) جهت تقعر $f$ در نقطه $(c, f(c))$ تغییر کند.</p>
+    
+
+   </ul>
+   
+   <br><hr><br>
+
+
+
+   <p class="MsoNormal">از شرط (الف) در تعریف نقطۀ عطف تابع $f$ نتیجه می‌شود که $f"(c)$ موجود است و یا تابع $f$ در نقطۀ $c$ مماس قائم دارد.</p>
+   <br>
+<p class="MsoNormal">از شرط (ب) می‌توان نتیجه گرفت که خط مماس بر نمودار تابع در نقطۀ $(c, f(c))$ از نمودار تابع عبور می‌کند.</p>
+
+<br><hr><br>
+
+<p class="MsoNormal">
+    از آنجا که تقعر تابع در دو طرف نقطۀ عطف تغییر می‌کند: لذا 
+    $f"$
+    در یک طرف نقطۀ 
+    $c$
+    مثبت و در طرف دیگر آن منفی است.
+
+    بنابراین 
+    $f"(c)$
+    نمی‌تواند مقداری به جز صفر داشته باشد؛ یعنی برای اینکه 
+    $(c , f(c))$
+    یک نقطۀ عطف منحنی باشد، یا باید 
+    $f"(c)$
+    وجود نداشته باشد و یا اگر وجود دارد باید داشته باشیم 
+    $f"(c) = 0$.
+    با این حال شرط 
+    $f"(c) = 0$
+    برای نقطۀ عطف بودن 
+    $x = c$
+    به تنهایی کافی نیست؛ یعنی ممکن است 
+    $f"(c) = 0$
+    ولی 
+    $x = c$
+    یک نقطۀ عطف تابع نباشد. 
+    به‌طور مثال تابع 
+    $f(x) = x^4$
+    را بررسی می‌کنیم. داریم:
+</p>
+<p class="MsoNormal">
+    $$ f'(x) = 4x^3 \quad , \quad f"(x) = 12x^2 $$
+</p>
+
+<br>
+
+<p class="MsoNormal">
+    با اینکه 
+    $f"(0) = 0$ 
+    اما تابع 
+    $f"$ 
+    در دو طرف 
+    $x = 0$ 
+    مثبت است و لذا تقعر همواره به سمت بالاست و جهت تقعر در 
+    $x = 0$ 
+    عوض نمی‌شود و لذا 
+    $x = 0$ 
+    یک نقطۀ عطف این تابع نیست.
+</p>
+
+<br><hr><br>
+
+
+<p class="MsoStep">
+    کار در کلاس
+</p>
+<p class="MsoNormal">
+    ۱. در هر یک از نمودارهای زیر، نقاط عطف را در صورت وجود مشخص و خط مماس بر منحنی در نقاط عطف را رسم کنید.
+</p>
+<br><br>
+<p class="MsoNormal">
+    ۲. کدام‌یک از گزاره‌های زیر درست و کدام نادرست است؟ برای گزاره‌های نادرست مثال نقض بیاورید.
+</p>
+<br>
+<ul class="MsoNormal" style="list-style: none;">
+    <li>الف) در نقطۀ عطف علامت $f"(x)$ تغییر می‌کند.</li>
+    <li>ب) هر نقطه که علامت $f"$ در آن تغییر کند، نقطۀ عطف است.</li>
+    <li>پ) هر نقطه‌ای که در آن مقدار $f"$ برابر صفر شود، یک نقطۀ عطف است.</li>
+    <li>ت) تابع می‌تواند بیش از یک نقطۀ عطف داشته باشد.</li>
+    <li>ث) تابع صعودی اکید، نقطۀ عطف ندارد.</li>
+</ul>
+
+
+<br><hr><br>
+
+
+<p class="MsoNormal">
+    <b>مثال:</b> جهت تقعر نمودار تابع زیر را مشخص کنید و نقاط عطف آنها را به‌دست آورید.
+</p>
+
+  <div class="MsoNormal">
+
+<br>
+    <p class="MsoNormal">
+        الف) $f(x) = x^3 - 6x^2 + 15$
+    </p>
+    <p class="MsoNormal">
+        ب) $f(x) = \sqrt[3]{x}$
+    </p>
+
+
+  </div>
+
+
+
+
+  <br><br>
+
+
+
+        <p class="MsoNormal">
+            $$ f'(x) = 3x^2 - 12x \quad \text{و} \quad f"(x) = 6x - 12 $$
+        </p>
+        <p class="MsoNormal">
+            $$ f"(x) = 0 \implies x = 2 $$
+        </p>
+
+
+
+        <br><br>
+
+
+        <p class="MsoNormal">
+            از آنجا که 
+            $f"(x)$ 
+            یک تابع خطی است، و در تمام 
+            $\mathbb{R}$
+            تعریف شده است و تنها در 
+            $x = 2$ 
+            برابر صفر می‌شود، بنابراین تنها نقطه‌ای که می‌تواند نقطۀ عطف باشد 
+            $x = 2$ 
+            است به شرط آنکه:
+        </p>
+        <br>
+        <ul class="MsoNormal" style="list-style: none;">
+            <li>۱) $f'(2)$ موجود باشد.</li>
+            <li>۲) $f"(x)$ در دو طرف $x = 2$ تغییر علامت دهد.</li>
+        </ul>
+        
+
+        <br>
+
+
+
+        <p class="MsoNormal">
+            اما $f'(x)$ یک تابع چند جمله‌ای است و دامنۀ آن $\mathbb{R}$ است و $f'(2)$ نیز موجود و برابر $-12$ است. از طرفی داریم:
+        </p>
+
+
+
+<br>
+
+
+<div class="custom-scrollbar" style="overflow-y: hidden; overflow-x:auto;direction:ltr;">
+<table class="MsoNormal" style="margin:auto;width:fit-content;direction:ltr;text-align:center;border-collapse:collapse;">
+    <tr style="border: solid 4px black">
+        <th  style="border: solid 4px black">$x$</th>
+        <td style="border:none;">$-{\infty}$</td>
+        <td style="border:none;">$2$</td>
+        <td style="border:none;">$+{\infty}$</td>
+    </tr>
+    <tr style="border: solid 4px black">
+        <th  style="border: solid 4px black">$f"$</th>
+        <td style="border:none;">
+         -
+        </td>
+        <td style="border:none;">$0$</td>
+        <td style="border:none;">
+            +
+        </td>
+    </tr>
+    <tr style="border: solid 4px black">
+        <th  style="border: solid 4px black">$f$</th>
+        <td style="border:none;"></td>
+        <td style="border:none;">$-1$<br>نقطۀ عطف</td>
+        <td style="border:none;"></td>
+    </tr>
+</table>
+</div>
+<br><br>
+<br>
+<p class="MsoNormal"> 
+ب)
+
+</p>
+
+<p class="MsoNormal">
+    $$
+    \begin{align*}
+        f(x) & = \sqrt[3 \ \ ]{x} \\\\
+        f'(x) & = \dfrac{1}{3\sqrt[3]{x^2}} \\\\
+        f"(x) & = \dfrac{-2 }{9\sqrt[3 \ \ ]{x^5}} \\\\
+    \end{align*}
+    $$
+</p>
+<p class="MsoNormal">
+    از آنجا که مقدار $\sqrt[3]{x^5}$ به ازای $x$ های مثبت، مثبت و به ازای $x$ های منفی، منفی است. داریم:
+</p>
+
+<br>
+
+<ul class="MsoNormal">
+
+    <li>
+        اگر $x > 0$، آنگاه $f"(x) < 0$ و بنابراین جهت تقعر منحنی به سمت پایین است.
+    </li>
+    
+    <li>
+        اگر $x < 0$، آنگاه $f"(x) > 0$ و بنابراین جهت تقعر منحنی به سمت بالاست.
+    </li>
+
+</ul>
+
+
+<br>
+
+
+<p class="MsoNormal">
+    لذا جهت تقعر این تابع در $x = 0$ عوض می‌شود. از طرفی در فصل مشتق دیدیم که این تابع در نقطۀ $x = 0$ دارای مماس (مماس قائم) است.
+</p>
+<br><br>
+<p class="MsoNormal">
+    بنابراین $x = 0$ نقطۀ عطف این تابع است.
+</p>
+
+
+<br><hr><br>
+
+
+<p class="MsoStep">
+    کار در کلاس
+</p>
+<p class="MsoNormal">
+    ۱) اگر شکل کشیده شده در صفحۀ شطرنجی مربوط به نمودار تابع $f'$ باشد کدام نمودار می‌تواند نمودار تابع $f$ باشد؟
+</p>
+
+
+
+<br>
+
+
+
+<p class="MsoNormal">
+    ۲) اگر شکل زیر مربوط به نمودار تابع $f"$ باشد کدام نمودار می‌تواند نمودار تابع $f$ باشد؟
+</p>
+
+
+
+<br><hr><br>
+
+
+<p class="MsoStep">
+    تمرین
+</p>
+<p class="MsoNormal">
+    ۱) نمودار تابع $f$ را به گونه‌ای رسم کنید که در نقطه‌ای مانند $a$ جهت تقعر عوض شود ولی این نقطه، نقطۀ عطف نباشد.
+</p>
+<br><br>
+<p class="MsoNormal">
+    ۲) جهت تقعر توابع زیر را در دامنۀ آنها بررسی کرده و نقطۀ عطف آنها را در صورت وجود به دست آورید.
+</p>
+
+<br>
+
+
+  <div class="MsoNormal" style="text-align: left;direction: ltr;">
+
+    <p class="MsoNormal">
+        الف) $f(x) = \dfrac{1}{3}x^3 - x^2 - 3x + 4$
+    </p>
+    <br>
+    <p class="MsoNormal">
+        ب) $f(x) = \dfrac{x + 1}{x - 1}$
+    </p>
+    <br>
+    <p class="MsoNormal">
+        پ) $f(x) = \sqrt[3 \ \ \ ]{x + 1}$
+    </p>
+    
+    
+  </div>
+
+
+  <br><br>
+
+
+
+  <p class="MsoNormal">
+    ۳) برای هر مورد یک تابع درجۀ ۳ مثال بزنید که نقطۀ داده شده نقطۀ عطف آن باشد.
+</p>
+
+
+  <ul class="MsoNormal" >
+    <li>
+        الف)   نقطۀ $(0 , 0)$
+    </li>
+    <li>
+        ب)  نقطۀ $(1 , 0)$
+    </li>
+    <li>
+        پ) نقطۀ $(0 , 1)$
+    </li>
+    <li>
+        ت)   نقطۀ $(2 , 2)$
+    </li>
+    
+
+</ul>
+
+
+
+<br><br>
+
+<p class="MsoNormal">
+    ۴) مقادیر $a$ و $b$ و $c$ را در تابع $f(x) = ax^3 + bx^2 + c$ طوری به دست آورید که در شرایط زیر صدق کند.
+</p>
+<br>
+<p class="MsoNormal">
+
+    $f(0) = 1$
+     و 
+     $f(1) = 2$
+     و 
+     $x = \dfrac{1}{2}$
+      طول نقطۀ عطف نمودار تابع 
+      $f$
+       باشد 
+
+</p>
+
+<br><br>
+
+
+<p class="MsoNormal">
+    ۵) اگر $(0 , 0)$
+     نقطۀ عطف تابع درجۀ سوم با ضابطۀ 
+     $y = x^3 + ax^2 + bx + c$
+      باشد که نمودار آن در شکل زیر رسم شده است، $a$ و $b$ و $c$ را پیدا کنید.
+</p>
+
+
+
+    <br><br><br><br><br><br><br><br><br><br>
+</body>
+
+
+</html>

@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #badaff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #722a85;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background-color: #1abbbbe1; /* Scrollbar thumb color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color: #05ffe2;
+        }
+    </style>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+<body class="custom-scrollbar">
+    <div class="MsoBold">
+        فصل ۱
+        <br>
+        مجموعه، الگو و دنباله</div>
+        <hr style="mix-blend-mode: difference;">
+    <div class="MsoBold">درس اول:<br> مجموعه‌های متناهی و نامتناهی</div>
+    <br>
+    
+
+    <div class="MsoSub">مجموعه‌های اعداد</div>
+    <br><br>
+    <p class="MsoNormal">
+        انسان در طول تاریخ برحسب نیاز خود از مجموعه‌های مختلف اعداد استفاده کرده است. برخی از این مجموعه‌ها که در سال‌های قبل با آنها آشنا شدیم، به شرح زیرند:
+    </p>
+    <br>
+    <br>
+
+  
+<p class="MsoNormal" style="text-align: center;"> 
+    $\mathbb{N} = \{ 1, 2, 3, 4, \ldots \}$ : مجموعه اعداد طبیعی<br><br>
+    $\mathbb{W} = \{ 0, 1, 2, 3, 4, \ldots \}$ : مجموعه اعداد حسابی<br><br>
+    $\mathbb{Z} = \{ \ldots, -2, -1, 0, 1, 2, 3, \ldots \}$ : مجموعه اعداد صحیح<br><br>
+    $\mathbb{Q} = \left\{ \frac{m}{n} \ \  |  \ \  m, n \in \mathbb{Z}, n \neq 0 \right\}$ : مجموعه اعداد گویا
+</p>
+
+
+
+<br><br>
+
+
+<div class="MsoNormal"> 
+ 
+
+    <p class="MsoNormal">
+          
+    $$
+    \begin{align*}
+    \  \text{مجموعه اعداد گنگ }  : \mathbb{Q}'   = & \ \  \text{مجموعه اعدادی که} \\ 
+    
+    & \text{نتوان آنها را به‌صورت} \\
+    & \text{نسبت دو عدد} \\
+    & \text{صحیح نمایش داد} \\
+    \end{align*}
+     $$
+    </p>
+</div>
+
+
+
+<br><br>
+
+
+<p class="MsoNormal" style="text-align:center;">
+    $ R = Q \cup Q'$: مجموعه اعداد حقیقی
+</p>
+
+
+<br><br>
+
+
+<p class="MsoNormal">
+    همان‌طور که ملاحظه می‌شود رابطهٔ زیرمجموعه بودن بین این مجموعه‌ها به شکل 
+    $\mathbb{R} \ \ \supseteq \mathbb{Q} \supseteq \mathbb{Z} \supseteq \mathbb{W} \supseteq \mathbb{N}$ 
+    برقرار است. به عبارت دیگر، تمام مجموعه‌های اعدادی که تاکنون با آنها آشنا شده‌ایم، زیرمجموعه‌هایی از اعداد حقیقی‌اند. در نتیجه، هر عدد دلخواهی را که در نظر بگیریم، باید جایی روی محور اعداد حقیقی داشته باشد و همچنین هر نقطه روی این محور نشان‌دهندهٔ یک عدد حقیقی مشخص است.
+</p>
+<br>
+<hr ><br>
+
+    <div class="MsoStep">کار در کلاس</div>
+  
+    <div class="MsoNormal">
+        1. الف) مجموعه $R - Q$ چه نام دارد؟ آن را روی شکل مقابل هاشور بزنید و دو عضو دلخواه از آن را در ناحیهٔ هاشورخورده بنویسید.<br>
+        <br>ب) دو عدد گویا مثال بزنید که عدد صحیح نباشند و آنها را روی شکل مقابل در محل مناسب بنویسید.<br><br>
+        پ) اعداد زیر را روی شکل و در محل مناسب بنویسید.
+       
+        $$
+        \sqrt{17}  \ \ , \ \ 0   \ \ ,  \ \ 200  \ \ , \ \ \frac{\pi}{2}  \ \ , \ \ 2.6  \ \ , \ \ 2 \sqrt{5}  \ \ , \ \ - \frac{25}{3}  \ \  , \ \ - 9
+        $$
+        <img class="images" src="Math1CH1P1C1_SVG1.svg" style="margin: 0 auto!Important;">
+<br>
+ت) مجموعه اعداد صحیح غیر حسابی را با نمایش اعضا بنویسید. $$ Z - W = \{ \quad \quad \quad \quad \quad \quad \quad \quad \quad 	\} $$
+<br>
+        ث) مجموعهٔ $W - \ \  N$ چند عضو دارد؟<br>
+     
+    </div>
+
+<br><br>
+
+
+
+<div class="MsoNormal">
+    هر یک از اعداد داده شده را در یکی از جاهای مشخص شده روی محور بنویسید. کدام یک از این شش عدد گنگ‌اند؟ زیر آنها خط بکشید.
+    <br><br>
+    $$ 2.45 \ \ , \ \ \frac{-7}{2} \ \ , \ \ 6 \ \ , \ \ - 4.9 \ \ , \ \ \pi \ \ , \ \ - \sqrt{2} $$
+    <img class="images" src="Math1CH1P1C1_SVG2.svg" style="mix-blend-mode:difference;margin: 0 auto!Important;" >
+</div>
+<br>
+<hr style="mix-blend-mode: difference;"><br>
+<div class="MsoSub">بازه‌ها</div>
+<div class="MsoNormal">
+    در اینجا گونهٔ دیگری از زیرمجموعه‌های $\mathbb{R}$ را در نظر می‌گیریم. فرض کنید $A$ مجموعهٔ شامل تمام اعداد حقیقی بین $-2$ و $1$ به همراه خود این دو عدد باشد؛ یعنی $A = \{x \in \mathbb{R} \ \  |  \ \  -2 \le x \le 1\}$. اعضای $A$ را روی محور زیر، با رنگ کردن مشخص کنید. آیا می‌توان تمام اعضای $A$ را فهرست کرد؟ آیا می‌توان اولین عدد حقیقی بعد از $-2$ را مشخص کرد؟
+</div>
+<br><br>
+<p class="MsoNormal">
+    چنین زیرمجموعه‌هایی از $\mathbb{R}$ که مشخص‌کنندهٔ یک قطعه از محور اعداد حقیقی باشد را «بازه» یا «فاصله» می‌نامیم. بازه‌ها در ریاضیات از اهمیت نسبتاً زیادی برخوردارند و ما هم در برخی از فصل‌های بعدی این کتاب به دفعات با آنها سر و کار خواهیم داشت. از این رو شایسته است که برای نشان دادن آنها از نماد ساده‌تری استفاده شود. بازه‌هایی مثل $A$ که شامل هر دو نقطهٔ انتهایی خود می‌باشد را بازهٔ بسته از $-2$ تا $1$ می‌نامیم و آن را با نماد $[-2, 1]$ نشان می‌دهیم. حال اگر نقاط ابتدایی و انتهایی این بازه یعنی $-2$ و
+    
+    
+    $1$ را از $A$ حذف کنیم، آنگاه مجموعه‌ای مانند $B = \{x \in \mathbb{R} \ \  |  \ \  -2 < x < 1\}$ به دست می‌آید که آن را بازهٔ باز بین $-2$ و $1$ می‌نامیم و با نماد $(-۲, 1)$ نشان می‌دهیم. طول بازه $B$ برابر 5 است.
+</p>
+<br><br>
+<p class="MsoNormal">
+    به طور خلاصه:
+</p>
+<br>
+
+<p class="MsoNormal" style="text-align: center!important;">
+   
+    $A = [-2, 1] = \{x \in \mathbb{R} \ \  |  \ \  -2 \le x \le 1\}$
+    : بازه بسته بین ۲-  و ۱ 
+</p>
+<img class="images" src="Math1CH1P1C1_SVG3.svg" style="mix-blend-mode:difference; margin: 0 auto;" >
+<br>
+<br>
+
+
+<p class="MsoNormal" style="text-align: center!important;">
+   
+    $B = (-2, 1) = \{x \in \mathbb{R} \ \  |  \ \  -2 < x < 1\}$
+    : بازه باز بین ۲-  و ۱ 
+</p>
+<img class="images" src="Math1CH1P1C1_SVG4.svg"  style="mix-blend-mode:difference; margin: 0 auto!Important;" >
+<br><br>
+
+
+
+<p class="MsoNormal">
+
+    همچنین بازه‌هایی مثل $[2, 7) = \{x \in \mathbb{R} \ \  |  \ \  2 \le x < 7\}$ که تنها شامل یکی از نقاط انتهایی خود می‌باشد را بازه‌های نیم باز می‌نامیم.
+</p>
+<br>
+<hr><br>
+<div class="MsoStep">فعالیت</div>
+
+<p class="MsoNormal">
+    اگر $a$ و $b$ دو عدد حقیقی دلخواه باشند، به طوری که $a < b$ آنگاه جدول زیر را کامل کنید:
+</p>
+
+
+
+<div class="custom-scrollbar" style="overflow-x: auto; width: 100%; max-width: 100%; margin: 0 auto;">
+    <table border="1" style="width: 100%; text-align: center; white-space: nowrap;">
+        <tr>
+            <th>نوع بازه</th>
+            <th>بازه</th>
+            <th>نمایش مجموعه‌ای</th>
+            <th>نمایش هندسی</th>
+        </tr>
+        <tr>
+            <td>باز</td>
+            <td></td>
+            <td>$ (a, b) = \{x \in \mathbb{R} \ \  |  \ \  a < x < b\} $</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>بسته</td>
+            <td></td>
+            <td></td>
+            <td><img src="Math1CH1P1C1_SVG5.svg" style="margin: 0 auto!Important;mix-blend-mode:difference;" alt="line"></td>
+        </tr>
+        <tr>
+            <td>نیم باز</td>
+            <td>$[a, b)$</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>نیم باز</td>
+            <td>$(a, b]$</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>$ [a, b) = \{x \in \mathbb{R} \ \  |  \ \  a \le x < b\} $</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td style="justify-content: center;"><img src="Math1CH1P1C1_SVG6.svg" style="margin: 0 auto!Important;mix-blend-mode:difference;" alt="line"></td>
+        </tr>
+    </table>
+
+
+</div>
+
+
+
+<br>
+<hr ><br>
+
+
+<p class="MsoNormal">
+    گاهی تمام اعداد حقیقی مثلاً بزرگ‌تر از $2$ مورد نظر است. به‌عنوان مثال، می‌دانیم که مجموعهٔ جواب نامعادلهٔ 
+    $2x>4$ به‌صورت $\{ x \in \mathbb{R} \ \  | \ \  x > 2 \}$ است. اعضای $C = \{ x \in \mathbb{R} \ \  | \ \   x > 2 \}$ را روی محور زیر نشان دهید.
+</p>
+<br>
+<img src="Math1CH1P1C1_SVG7.svg" alt="Number Line" class="images" style="mix-blend-mode:difference;margin: 0 auto!Important;">
+<br><br>
+<p class="MsoNormal">
+    آیا می‌توانید به‌صورت یک بازه بنویسید؟ برای اینکه این مجموعه را به شکل بازه بنویسیم، از نماد $+∞$ (بخوانید: مثبت بینهایت) استفاده می‌کنیم. مجموعهٔ $C$ را در قالب بازه با نماد $(2, +∞)$ نمایش می‌دهیم که یک بازه باز محسوب می‌شود. به همین ترتیب برای مجموعه‌های مثل $D = \{ x \in \mathbb{R} \ \  |  \ \  x \le -1 \}$ نمایش بازه‌ای به‌صورت $(-∞, -1]$ خواهیم داشت که یک بازه نیم باز است. توجه داریم که $+∞$ و $-∞$ اعداد حقیقی نیستند. در سال‌های آینده با این دو نماد بیشتر آشنا خواهیم شد.
+</p>
+<br>
+<hr><br>
+<div class="MsoStep">فعالیت</div>
+
+<p class="MsoNormal">
+    اگر $a$ عدد حقیقی دلخواهی باشد، جدول زیر را کامل کنید:
+</p>
+<br><br>
+
+
+<div  class="custom-scrollbar" style="overflow-x: auto; width: 100%; max-width: 100%; margin: 0 auto;">
+    <table border="1" style="width: 100%; text-align: center; white-space: nowrap;">
+        <tr>
+            <th>نوع بازه</th>
+            <th>بازه</th>
+            <th>نمایش مجموعه‌ای</th>
+            <th>نمایش هندسی</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>$ \{ x \in \mathbb{R}  \ \  |  \ \  x > a \} $</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>نیم باز</td>
+            <td>$[a, + \infty)$</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><img src="Math1CH1P1C1_SVG8.svg" style="margin: 0 auto!Important;" alt="line"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>$[ - \infty , a)$</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>$R$</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td style="justify-content: center;"><img src="Math1CH1P1C1_SVG9.svg" style="margin: 0 auto!Important;" alt="line"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>$ \{ x \in \mathbb{R}  \ \  |  \ \  x < 5 \} $</td>
+            <td></td>
+        </tr>
+    </table>
+
+
+</div>
+<br>
+<br>
+<hr>
+<br><br>
+
+
+
+
+
+
+<div class="MsoStep">مثال</div>
+
+<p class="MsoNormal">
+    می‌خواهیم اجتماع و اشتراک دو بازه $A = (-1, 4]$ و $B = (2, + \infty)$ را به‌دست آوریم. نمایش هندسی هر دو بازه را مطابق شکل روی یک محور رسم می‌کنیم:
+</p>
+
+<img class="images" src="Math1CH1P1C1_SVG10.svg" alt="Interval Union Intersection" style="mix-blend-mode:difference;">
+
+
+<p class="MsoNormal">
+    از روی شکل دیده می‌شود که 
+    $A \cup B$ 
+    برابر است با مجموعهٔ تمام اعداد حقیقی بزرگ‌تر از 
+    $-1$؛ 
+    یعنی: 
+    
+    $$(-1, 4) \cup (2, + \infty) = (-1, + \infty)$$
+
+    همچنین با توجه به شکل ملاحظه می‌شود که 
+
+    $A \cap B$ 
+
+    برابر است با مجموعهٔ تمام اعداد حقیقی بین 
+    $2$ 
+    و 
+    $4$ 
+    به همراه خود عدد 
+    $4$؛ 
+    یعنی: 
+    
+    $$(-1, 4) \cap (2, + \infty) = (2, 4)$$
+    
+    توضیح دهید که چرا 
+    $2 \notin A \cap B $.
+</p>
+
+
+<br>
+<br>
+<hr>
+<br><br>
+
+<div class="MsoStep">کار در کلاس</div>
+
+<div class="MsoNormal">
+
+
+    1. درستی یا نادرستی عبارت‌های زیر را مشخص کنید:
+
+    <p class="MsoNormal" style="text-align:left">
+
+    <br>
+     $ \frac{4}{3} \in [ \frac{1}{2} , 2) $ (الف)
+     <br><br>
+     $ -2 \in( -2 , 0 ] $   (ب)
+    <br><br>
+     $ 0 \in ( -2, 0 ] $ (پ)
+    <br><br>
+     $ -2 \in \{-2, 0 \} $ (ت)
+    <br><br>
+     $ -1 \in \{ -2, 0 \} $ (ث) 
+    <br><br>
+     $ [-1, 2] \subseteq (-1, 2) $ (ج)
+    <br><br>
+     $ {0, 1} \subseteq [-1, 2) $ (چ)
+    <br><br>
+     $ \ \ \varnothing  \subseteq (-17 , 0 ] $ (ح)
+    <br><br>
+     $ [2, 5) = (2, 5] $ (خ)
+    <br><br>
+     $ \sqrt{2} \in (0, 1) $ (د)
+    <br><br><br>
+
+
+
+    </p>
+</div>
+
+<div class="MsoNormal">
+    2. هر یک از اعداد زیر عضو یک یا چند تا از بازه‌های داده شده هستند. هر عدد را به بازه یا بازه‌های نظیر آن وصل کنید.
+    <br><br>
+    <table class="table" style="text-align: center;">
+        <tr>
+            <td>$[1, 4]$</td>
+            <td>$-2$</td>
+        </tr>
+        <tr>
+            <td>$(-\infty, -4]$</td>
+            <td>$\sqrt{3}$</td>
+        </tr>
+        <tr>
+            <td>$[-2, 0)$</td>
+            <td>$-500$</td>
+        </tr>
+        <tr>
+            <td>$[3, +\infty)$</td>
+            <td>$\frac{-5}{4}$</td>
+        </tr>
+        <tr>
+            <td>$\left(-\frac{1}{2}, \frac{1}{2}\right]$</td>
+            <td>$6/0.022 \times 10^{23}$</td>
+        </tr>
+        <tr>
+            <td>$(-2, 3)$</td>
+            <td>$0.2$</td>
+        </tr>
+    </table>
+    <br><br>
+</div>
+<br><br>
+<p class="MsoNormal">
+    3. نمایش هندسی دو بازه $A = (-4, 2]$ و $B = (-1, 3]$ را روی محور زیر رسم کنید و سپس حاصل عبارت‌های زیر را بنویسید.
+</p>
+
+
+<img class="images" src="Math1CH1P1C1_SVG11.svg" alt="Number Line">
+
+
+<p class="MsoNormal" style=" margin-top:-5%;">
+    \[
+    \begin{align*}
+    \text{(الف)} \ \ \ \ & A \cap B   \\ \\
+    \text{(ب)} \ \ \ \ & A \cup B   \\ \\
+    \text{(پ)} \ \ \ \ & A - B & \\ \\
+    \text{(ت)} \ \ \ \ & B - A & 
+    \end{align*}
+    \]
+</p>
+<br>
+<br>
+<hr>
+<br><br>
+<p class="MsoSub">مجموعه‌های متناهی و نامتناهی</p> <br>
+<p class="MsoStep">فعالیت</p>
+
+<p class="MsoNormal">
+   
+    فرض کنید $A$ مجموعهٔ اعداد طبیعی کمتر از $4$ و $B$ مجموعهٔ اعداد صحیح کمتر از $4$ باشد.
+    <br> <br>
+    الف) این دو مجموعه را با نمایش اعضای آن‌ها مشخص کنید.
+    <br>
+    $$ A = \{   \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \} $$
+    $$ B = \{   \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \} $$
+    <br><br>
+    ب) $A$ چند عضو دارد؟
+    <br> <br>
+    پ) دربارهٔ تعداد اعضای $B$ چه می‌توان گفت؟
+</p>
+<br><br><br><br><br>
+
+<p class="MsoNormal">
+    مجموعه‌هایی مانند $A$ را که تعداد اعضای آن‌ها یک عدد حسابی است،
+ $\text{مجموعه‌های متناهی}$
+می‌نامیم.
+</p>
+<br><br>
+
+<p class="MsoNormal">
+    با توجه به مطلب فوق، $B$ یک مجموعهٔ متناهی نیست؛ زیرا نمی‌توان تعداد اعضای آن را با یک عدد بیان کرد. در واقع تعداد اعضای این مجموعه از هر عددی که در نظر بگیریم، بزرگ‌تر است. چنین مجموعه‌هایی را
+$\text{مجموعه‌های نامتناهی}$
+می‌نامیم.
+</p>
+
+<br>
+<br>
+<hr>
+<br><br>
+
+
+<div class="MsoStep">کار در کلاس</div>
+
+<p class="MsoNormal">
+۱. متناهی یا نامتناهی بودن هر یک از مجموعه‌های زیر را مشخص کنید. دربارهٔ مجموعه‌های متناهی سعی کنید تعداد دقیق یا تقریبی اعضای هر یک از آنها را بنویسید.
+</p>
+<div  class="custom-scrollbar" style="overflow-x: auto; width: 100%; max-width: 100%; margin: 0 auto;">
+<table class="table" style="width: 100%; text-align: right;" >
+    <tr>
+        <td>مجموعه</td>
+        <td>نامتناهی</td>
+        <td>متناهی</td>
+        <td>تعداد اعضا <br> (در مورد مجموعه‌های متناهی)</td>
+    </tr>
+    <tr>
+        <td>مجموعه اعداد اول یک رقمی</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>مجموعه انسان‌های روی زمین</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>مجموعه اعداد طبیعی</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>مجموعه سلول‌های مغز میمون جنگل آمازون</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>مجموعه نام‌برهای مبنا در مبنای مضاعفات</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>مجموعه دندان‌های شما</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>مجموعه درخت‌های جنگل‌های آمازون</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>مجموعه کره‌های مبنا با صورت یک</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>مجموعه مضرب‌های طبیعی عدد ۱۰</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>مجموعه اعداد اول کمتر از ۱۰۰</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>مجموعه ساکنان جزیره‌های موجود در یک کول مشخصی از آب</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+
+</div>
+<br><br>
+<p class="MsoNormal">
+۲. دو مجموعه متناهی نام ببرید.
+</p>
+<br>
+<p class="MsoNormal">
+۳. دو مجموعه نامتناهی مثال بزنید که یکی از آنها زیرمجموعهٔ دیگری باشد.
+</p>
+<br>
+
+
+<p class="MsoNormal">
+    ۴. دو مجموعه نامتناهی مثل $A$ و $B$ مثال بزنید که $A \subseteq B$ بوده و $B - A$  تک عضوی  باشد.
+    </p>
+
+
+<br>
+<hr>
+<br>
+
+<div class="MsoNormal">
+تذکر: تعداد اعضای برخی از مجموعه‌های متناهی ممکن است بسیار زیاد باشد؛ اما، با داشتن امکانات لازم و صرف وقت کافی ممکن است بتوان تعداد آنها را به‌دست آورد.
+</div>
+<br><hr style="background-color: #d6d1da50;"><br>
+<p class="MsoStep" style="opacity: 0.6;">
+   جنگل‌های آمازون
+    </p>
+    
+    <p class="MsoNormal">
+    آمازون که به ریه‌های زمین مشهور است، جنگل بسیار بزرگی در شمال آمریکای جنوبی است و به‌دلیل همین وسعت، به آن جنگل‌های آمازون گفته می‌شود. حدود ۶۰ درصد این جنگل در خاک برزیل قرار دارد، همچنین بخش‌هایی از آن هم در کشورهای پرو، اکوادور، گویان، کلمبیا، ونزوئلا، بولیوی و سورینام واقع شده است. در واقع این جنگل بیش از سه برابر خاک کشور ما وسعت دارد.
+    </p>
+    
+    <p class="MsoNormal">
+    رودخانهٔ آمازون با طول حدود ۶۵۰۰ کیلومتر به‌عنوان پرآب‌ترین رودخانهٔ دنیا که ۵ درصد آب شیرین جهان را در خود جای می‌دهد، نیز از دل این جنگل عبور می‌کند. نتیجهٔ یک مطالعهٔ بزرگ که مدت ۱۰ سال به طول انجامید، نشان می‌دهد که ۳۹۰,۰۰۰,۰۰۰,۰۰۰ اصله درخت در ۱۶,۰۰۰ گونهٔ مختلف در جنگل‌های آمازون وجود دارد. با این حساب سهم هر فرد دنیا از این جنگل چند درخت می‌شود؟! با وجود این، مجموعه درخت‌های جنگل‌های آمازون یک مجموعه متناهی محسوب می‌شود یا نامتناهی؟
+    </p>
+
+
+    <br>
+    <hr>
+    <br>
+
+    <div class="MsoStep">فعالیت</div>
+
+        <p class="MsoNormal">الف) $\frac{1}{3}$عددی بین $0$ و $10$ است. چهار عدد گویای دیگر از بازه $(0, 1)$ بنویسید و جواب خود را با جواب‌های دوستانتان مقایسه کنید.</p>
+        <br>
+        <p class="MsoNormal">ب) آیا می‌توان بین $0$ و $1$ هر تعداد دلخواه عدد گویا ارائه کرد؟</p>
+        <br>    
+        <p class="MsoNormal">پ) در مورد متناهی یا نامتناهی بودن اعداد گویای موجود در بازه $(0, 1)$ چه نتیجه‌ای می‌گیرید؟</p>
+        <br>
+        <p class="MsoNormal">ت) در مورد متناهی یا نامتناهی بودن $Q$ چه می توان گفت؟</p>
+        <br>
+        <p class="MsoNormal">ث) اگر $A$ دارای یک زیرمجموعه ناشناسی باشد، آنگاه $A$ یک مجموعه ........... خواهد بود.</p>
+        <br>
+        <hr>
+        <br>
+       
+        <div class="MsoStep">تمرین</div>
+
+        <p class="MsoNormal">1) فرض کنید $U$ مجموعه تمام مضرب‌های طبیعی عدد $5$ باشد.</p>
+
+        <ul class="MsoNormal">
+            <li class="MsoNormal">الف) $L$ را با نمایش اعضای آن بنویسید.</li>
+            <li class="MsoNormal">ب) $L$ متناهی است یا نامتناهی؟</li>
+            <li class="MsoNormal">پ) یک زیرمجموعه متناهی از $L$ بنویسید.</li>
+            <li class="MsoNormal">ت) دو زیرمجموعه ناشناسی مانند $C$ و $D$ از $L$ بنویسید؛ به طوری که $C \subseteq D$.</li>
+        </ul>
+        
+        <br>
+        <p class="MsoNormal">2) متناهی یا نامتناهی بودن مجموعه‌های زیر را مشخص کنید.</p>
+        
+        <ul>
+            <li class="MsoNormal">الف) مجموعه اعداد طبیعی.</li>
+            <li class="MsoNormal">ب) مجموعه شمارنده‌های طبیعی عدد $36$.</li>
+            <li class="MsoNormal">پ)  بازه  $ (\frac{1}{2}, \frac{1}{4})$</li>
+            <li class="MsoNormal">ت) $A=\{x \in \mathbb{N} \ \ |  \ \ \ \ 1 < x < 2 \}$</li>
+        </ul>
+        
+        <br>
+        
+        <p class="MsoNormal">3) دو مجموعه نامتناهی مثال بزنید که اشتراک آنها مجموعه‌ای متناهی باشد.</p>
+        <br>
+
+        <p class="MsoNormal">4) حاصل هر یک از مجموعه‌های زیر را با رسم بازه‌های آنها روی یک محور بدست آورید:</p>
+        <br>
+        <div  class="MsoNormal" style="text-align: center;">
+             $(-3,0) \cup (-2,5]$ (الف) 
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             $(-\infty, 6) \cap (2, 9)$ (ب)
+            <br><br>
+             $(3,+ \infty) \cap (6,10]$ (پ)
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             $(-\infty, 1) \cup [1,+\infty)$ (ت)
+            <br><br>
+             $(3,+\infty) - [2,4)$ (ث)
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             $[2,4) - (3, +\infty)$ (ج)
+         </div>
+        <br><br>
+        <p class="MsoNormal">5) مجموعه $\mathbb{R} - \{3\}$ را روی محور نشان دهید و سپس آن را به صورت اجتماع دو بازه بنویسید.</p>
+        <br>
+        <p class="MsoNormal">6) اگر $A \subseteq B$ و مجموعه $B$ متناهی باشد، آنگاه $A$ متناهی خواهد بود یا نامتناهی؟</p>
+
+
+
+        <br>
+        <hr style="background-color:#D6D1DA">
+        <br>
+
+        <div class="MsoStep" style="opacity: 0.6;">عدد آووگادرو</div>
+
+        <p class="MsoNormal">
+        در شیمی تعداد $6.022 \times 10^{23}$ عدد از هر ذره (مولکول یا اتم) را یک مول از آن ذره می‌نامند. برای درک میزان بزرگی این عدد، فرض کنیم تعداد مولکول‌های موجود در یک مول آب که ۱۸ گرم است، بتوانیم مولکول به مولکول بشماریم و کار شمردن هر مولکول آن هم یک ثانیه زمان ببرد. در این صورت کار شمارش نزدیک به ۲۰ میلیون میلیارد سال به طول خواهد انجامید که این زمان حدود یک میلیون برابر عمر جهان است! به نظر شما، مجموعه مولکول‌های یک مول مشخص از آب، یک مجموعه متناهی است یا نامتناهی؟
+        </p>
+
+</body>
+
+
+</html>

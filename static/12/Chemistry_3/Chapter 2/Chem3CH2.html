@@ -1,0 +1,1802 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi {
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSemic,
+        li.MsoSemic,
+        div.MsoSemic {
+            margin: 0in;
+           
+            font-size: clamp(1.2rem, 1.6vw, 1.3rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #b19af2;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #6ca4ec;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .boxp {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .boxg {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#00f2ff11; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        .boxb {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#0c4e9f2d; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        ::selection {
+            background-color: #59078fa1; /* Change this to your desired highlight color */
+            color: #ffffff; /* Change this to your desired text color */
+          }
+
+
+          mark{
+            background-color:#078b8fa1 ;
+            color: #ffffff;
+            padding: 0 7px;
+        }
+
+        .hlg { background-color: rgba(0, 234, 255, 0.334);  }
+        .hlp { background-color:#5f1487; }
+      
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+    <body class="custom-scrollbar">
+
+
+        <p class="MsoBold">فصل 2
+ 
+ <br>
+            آسایش و رفاه در سایه شیمی</p>
+       
+        <p class="MsoSemi">
+            
+            <mark>هُوَ الَّذِی یُرِیکُمُ الْبَرْقَ خَوْفًا وَطَمَعًا... (سورهٔ رعد، آیهٔ 12)</mark>
+        
+        </p>
+       
+        <Br>
+
+        <p class="MsoNormal">اوست که برق را به شما نشان می دهد که هم مایه ترس و هم مایه امید است.</p>
+       
+        <br><br>
+
+
+        <p class="MsoNormal">پدیده های طبیعی همچون تندر و آذرخش نشان می دهند كه انرژی ممكن است به شكل انرژی الكتریكی میان سامانه واكنش و محیط پیرامون جاری شود. پدیده هایی از این دست كه از ماهیت الكتریكی ماده سرچشمه می گیرند سبب شد تا تلاش برای شناسایی واكنش های شامل داد و ستد الكترون به شکل هدفمند دنبال شود. واکنش هایی که مبنای تولید انرژی الکتریکی هستند. تولید انرژی الکتریکی پاک و ارزان دستاوردی از دانش الکتروشیمی است که در سایه فناوری های پیشرفته، افزایش سطح رفاه و آسایش را در جهان به دنبال داشته است. الکتروشیمی افزون بر تهیه مواد جدید به کمک انرژی الکتریکی می تواند در راستای پیاده کردن اصول شیمی سبز گام بردارد.</p>
+        <br>
+        <p class="MsoNormal">رشد دانش و پیشرفت فناوری، انجام فعالیت های فردی، اقتصادی، صنعتی و... را آسان تر كرده و افزایش سطح رفاه و آسایش را به دنبال داشته است. تأمین روشنایی، گرمایش و سرمایش آسان تر، حمل و نقل سریع تر و ایمن تر، درمان و كاهش اثر نقص عضو و انتقال ایمن آب آشامیدنی نیم رخی از افزایش سطح رفاه و آسایش را نشان می دهند (شكل 1).</p>
+        <br>
+        <p class="MsoNormal">دو ركن اساسی تحقق این فناوری ها، دستیابی به مواد مناسب و تأمین انرژی است. می دانید كه پركاربرد ترین شكل انرژی در به کارگیری این فناوری ها انرژی الكتریكی است. الكتروشیمی شاخه ای از دانش شیمی است كه در بهبود خواص مواد و تأمین انرژی نقش بسزایی دارد (شكل 2).</p>
+        <br>
+        <p class="MsoNormal">باتری یكی از فراورده های مهم صنعتی است كه در محل مورد نیاز با انجام واکنش های شیمیایی، الکتریسیته تولید می کند. برای نمونه تأمین انرژی الکتریکی برای تنظیم کننده ضربان قلب، سمعک، تلفن همراه، اندام مصنوعی، دوربین دیجیتال، رایانه قابل حمل و خودروی الکتریکی به باتری وابسته است (شكل 3).</p>
+        <br>
+        <p class="MsoNormal">از سوی دیگر ساخت لوله های فلزی انتقال آب، قوطی های محتوی مواد غذایی، لوازم آشپزی كه در برابر خوردگی مقاوم هستند و مانع از آلوده شدن آب و مواد غذایی می شوند، همچنین كسب اطمینان از كیفیت تولید فراورده های دارویی، بهداشتی، غذایی و... چهره ای دیگر از افزایش سطح رفاه و آسایش هستند. دستیابی به این موفقیت ها در گرو بهره گیری از دانش الكتروشیمی است. دانشی که می تواند دستاوردهای گوناگونی را برای رفاه بشر به ارمغان آورد و در ایجاد آسایش بیشتر برای مردم همچنین پیشرفت کشورمان نقش ایفا کند. برای دستیابی به این مهم نخست باید بدانید در چه واكنش هایی الكترون داد و ستد می شود؟ چگونه می توان از این واكنش ها در تأمین الكتریسیته بهره جست؟ الكتروشیمی چه نقشی در تأمین انرژی سبز و پاك دارد؟ چگونه می توان خواص مواد را بهبود بخشید؟</p>
+        
+
+
+        <br><hr>
+
+
+        <p class="MsoBold">انجام واکنش با سفر الکترون</p>
+      
+        <p class="MsoNormal">از درس علوم به یاد دارید كه یكی از راه های بهره گیری از انرژی ذخیره شده در فلزها، اتصال آنها در شرایط مناسب به یكدیگر است. برای نمونه با یك تیغه مسی و تیغه ای دیگر مانند روی و با میوه ای مانند لیمو می توان نوعی باتری ساخت و با آن یك لامپ LED را روشن كرد (شكل 4).</p>
+       <br>
+        <p class="MsoNormal">موتورسیكلت برقی و تلفن همراه نمونه هایی از وسایلی هستند كه با انرژی ذخیره شده در باتری كار می کنند. در واقع باتری، مولدی است كه در آن واكنش های شیمیایی با سفر الکترون رخ می دهد تا بخشی از انرژی شیمیایی مواد به انرژی الكتریكی تبدیل شود و موتور را به حركت درآورد. با این توصیف شناخت نوع و شیوه انجام واكنش های درون باتری ها كمك خواهد كرد تا بتوان از واكنش های شیمیایی برای رفع نیازها به درستی بهره برد.</p>
+        
+
+        <br><hr><br>
+    
+        <p class="MsoStep">آیا می دانید</p>
+      
+        <p class="MsoNormal">فاصله میان اندام های مصنوعی و واقعی هر روز کمتر و کمتر می شود و به لطف پیشرفت های چشمگیر در زمینه ساخت باتری، روبات های کنترل شونده با مغز و هوش مصنوعی، اندام های مکانیکی به عضوی از بدن تبدیل می شوند.</p>
+        
+
+        <br><hr><Br>
+        <p class="MsoNormal">چراغ خورشیدی یک ابزار روشنایی است که از لامپ LED، سلول خورشیدی و باتری قابل شارژ تشکیل شده است.</p>
+<br><hr><Br>
+        
+
+
+    <p class="MsoStep">با هم بیندیشیم</p>
+
+    <p class="MsoNormal">اكسیژن نافلزی فعال است كه با اغلب فلز ها واكنش می دهد و آنها را به اكسید فلز تبدیل می کند، در حالی که با برخی فلزها مانند طلا و پلاتین واكنش نمی دهد. شكل زیر الگوی ساده ای از واكنش بین اتم های روی و اكسیژن را با ساختار لایه ای اتم نشان می دهد.</p>
+  <br>
+  
+    <p class="MsoNormal">آ) كدام ساختار، اتم روی و كدام یك، اتم اكسیژن را نشان می دهد؟</p>
+  <br>
+  
+    <p class="MsoNormal">ب) كدام اتم الكترون از دست داده و كدام الكترون گرفته است؟</p>
+  
+  <br>
+    <p class="MsoNormal">پ) اگر گرفتن الكترون را كاهش و از دست دادن الكترون را اكسایش بنامیم، كدام گونه کاهش و كدام اكسایش یافته است؟</p>
+  
+  <br>
+    <p class="MsoNormal">ت) شیمی دان ها هریک از فرایندهای گرفتن و از دست دادن الکترون را با یک نیم واکنش نمایش می دهند كه هر نیم واکنش باید از لحاظ جرم (اتم ها) و بار الكتریكی موازنه باشد. اینك با قرار دادن شمار معینی الکترون، هریک از نیم واکنش های زیر را موازنه کنید.</p>
+  
+  
+    <p class="MsoNormal" style="text-align: center;">$$\text{Zn(s)} \to \text{Zn}^{2+}(s) + \dots$$</p>
+  
+  
+    <p class="MsoNormal" style="text-align: center;">$$\text{O}_2(g) + \dots \to 2\text{O}^{2-}(s)$$</p>
+  
+  <br>
+    <p class="MsoNormal">ث) كدام یك از نیم واکنش های بالا، نیم واکنش اكسایش و كدام یك نیم واکنش كاهش را نشان می دهد؟ چرا؟</p>
+  
+  <br>
+    <p class="MsoNormal">ج) ماده ای که با گرفتن الکترون سبب اکسایش گونۀ دیگر می شود، اکسنده و ماده ای که با دادن الکترون سبب کاهش گونۀ دیگر می شود، کاهنده نام دارد. در واکنش روی با اکسیژن، گونۀ اکسنده و کاهنده را مشخص کنید.</p>
+  
+    <br><hr><br>
+    <p class="MsoNormal">دریافتید كه در واكنش های اكسایش ــ کاهش، گونه های شیمیایی الكترون داد و ستد می کنند به طوری كه برخی گونه ها با ازدست دادن الكترون اكسایش می یابند و در مقابل، برخی گونه ها با گرفتن الكترون كاهش می یابند.</p>
+    
+    <br><br>
+    
+    <p class="MsoNormal">برای نمونه هرگاه تیغه ای از جنس روی درون محلول مس (II) سولفات آبی رنگ قرار گیرد، به تدریج از شدت رنگ محلول كاسته می شود. این تغییر رنگ نشان دهنده انجام واكنش شیمیایی زیر است:</p>
+    
+    
+    <p class="MsoNormal" style="text-align: center;">$$\text{Zn(s)} + \text{Cu}^{2+}(aq) \to \text{Cu(s)} + \text{Zn}^{2+}(aq)$$</p>
+    
+    
+    <br>
+    
+    <p class="MsoNormal">در این واكنش اتم های روی $(\text{Zn})$ هر یک با از دست دادن دو الكترون به یون های روی $(\text{Zn}^{2+})$ اكسایش یافته و هم زمان با آن، هر یون مس $(\text{Cu}^{2+})$ با دریافت همان دو الكترون به اتم مس $(\text{Cu})$ كاهش می یابد. در واكنش هایی از این دست، فراورده ها پایدارتر از واكنش دهنده ها هستند (شكل 5).</p>
+    
+<br><br>
+
+    <p class="MsoNormal">بنابراین می توان نتیجه گرفت كه در هر واكنش شیمیایی هنگامی که بار الكتریكی یك گونه (اتم، مولكول یا یون) مثبت تر می شود، آن گونه اكسایش یافته و گونه ای كه بار الكتریكی آن منفی تر می شود، كاهش می یابد.</p>
+    
+    <br><hr><br>
+
+
+    <p class="MsoNormal">
+        $*$
+        اکسایش: از دست دادن الکترون</p>
+
+    <p class="MsoNormal" style="font-weight: bold;">
+        $*$
+        کاهش: به دست آوردن الکترون</p>
+    
+<br><hr><br>
+
+    <p class="MsoNormal">اغلب فلزها در واکنش با نافلزها تمایل دارند یک یا چند الکترون خود را به نافلزها داده و ضمن اکسایش به کاتیون تبدیل شوند. نافلزها نیز با گرفتن یك یا چند الکترون کاهش یافته و به آنیون تبدیل می شوند. از این رو فلزها اغلب كاهنده و نافلزها اغلب اكسنده هستند.</p>
+    
+    <br><hr><br>
+
+        <p class="MsoStep">خود را بیازمایید</p>
+ 
+    <p class="MsoNormal">1ــ اغلب فلزها در واكنش با محلول اسیدها، گاز هیدروژن و نمک تولید می کنند. با توجه به این شكل كه نمایی از این واكنش را نشان می دهد، به پرسش ها پاسخ دهید.</p>
+<br>
+    <p class="MsoNormal">آ) كدام گونه اكسایش و كدام گونه كاهش یافته است؟ چرا؟</p>
+    <br>
+    <p class="MsoNormal">ب) نیم‌واكنش‌های اكسایش و كاهش را بنویسید و موازنه كنید.</p>
+    <br>
+    <p class="MsoNormal">پ) نیم‌واكنش‌ها را با هم جمع كنید تا با حذف الكترون‌ها، معادله واكنش به دست آید.</p>
+    <br>
+    <p class="MsoNormal">ت) با خط زدن واژه نادرست در هر مورد، عبارت داده شده را كامل كنید.</p>
+    <br> <br>
+
+
+
+    <p class="MsoNormal">
+        
+        در این واکنش، اتم‌های روی 
+        الکترون از
+        
+        $\frac{ \text{از‌دست‌می‌دهند} }{ \text{به‌دست‌می‌آورند} }$
+        
+        و 
+        
+        $ \frac{ \text{کاهش} }{\text{افزایش}} $
+        
+        می‌یابند و
+        سبب
+        
+        $ \frac{ \text{کاهش} }{ \text{اکسایش} } $
+        
+        
+        یون‌های هیدروژن می‌شوند. از این رو 
+        اتم‌های روی نقش 
+        
+        $ \frac{ \text{اکسنده} }{ \text{کاهنده} } $
+        
+        دارند. در حالی .
+        که
+        کاهش یون‌های هیدروژن    
+        الکترون
+        
+        $ \frac{ \text{از‌دست‌می‌دهند} }{ \text{به‌دست‌می‌آورند} } $
+        وابسته    
+        
+        $\frac{ \text{کاهش} }{ \text{اکسایش} } $
+        
+         سبب 
+         
+         $ \frac{ \text{کاهش} }{ \text{اکسایش} } $
+         
+         روی می‌شوند.
+         از این رو یون‌های هیدروژن نقش
+         
+        
+         $ \frac{ \text{کاهش} }{ \text{اکسایش} } $
+        
+         دارند.
+        
+        </p>
+    
+    
+    
+    <br><br>
+    <p class="MsoNormal">2ــ در هر یك از واكنش‌های زیر، گونه‌های اكسنده و كاهنده را مشخص کنید.</p>
+    <br>
+    <br>
+
+    <div class="MsoNormal" style="text-align: left; direction:ltr">
+    <p class="MsoNormal">آ) $2\text{Al}(s) + 3\text{Cu}^{2+}(aq) \to 2\text{Al}^{3+}(aq) + 3\text{Cu}(s)$</p>
+<br>
+    <p class="MsoNormal">ب) $\text{Cu}^{2+}(aq) + \text{Mn}(s) \to \text{Cu}(s) + \text{Mn}^{2+}(aq)$</p>
+<br>
+    <p class="MsoNormal">پ) $\text{Zn}(s) + 2\text{V}^{2+}(aq) \to \text{Zn}^{2+}(aq) + 2\text{V}^{3+}(aq)$</p>
+
+
+</div>
+
+<br><hr><br>
+
+
+    <p class="MsoStep">در میان تارنماها</p>
+    <p class="MsoNormal">در گذشته برای عكاسی از سوختن منیزیم به عنوان منبع نور استفاده می شد. در این واكنش $Mg(s)$ با نور خیره‌كننده‌ای می‌سوزد و به $MgO(s)$ تبدیل می‌شود. در این واكنش گونه‌های اكسنده و كاهنده را مشخص كنید.</p>
+   
+   
+    <br><hr>
+
+
+    <p class="MsoBold">جاری شدن انرژی با سفر الکترون</p>
+  
+   
+   
+    <p class="MsoNormal">در برخی واكنش‌های اكسایش ــ كاهش افزون بر داد و ستد الكترون، انرژی نیز آزاد می‌شود. در شیمی 1 دیدید كه فلزهایی مانند منیزیم و سدیم در اكسیژن می‌سوزند و نور و گرما تولید می‌كنند.</p>
+   
+   <br>
+    <p class="MsoNormal">همچنین از واكنش میان فلزهایی مانند روی، آهن و آلومینیم با محلول مس (II) سولفات گرما آزاد می‌شود. شكل 6، واكنش بین فلز آلومینیم با محلول مس (II) سولفات را همراه با معادله شیمیایی آن نشان می‌دهد:</p>
+   
+   <br>
+    <p class="MsoNormal" style="text-align: center;">$$2\text{Al}(s) + 3\text{Cu}^{2+}(aq) \to 2\text{Al}^{3+}(aq) + 3\text{Cu}(s)$$</p>
+   <br>
+   
+    <p class="MsoNormal">در واكنش بالا هر اتم آلومینیم سه الكترون از دست می‌دهد و اكسایش می‌یابد، در حالی كه هر یون مس دو الكترون می‌گیرد و كاهش می‌یابد. با این توصیف، بر اساس معادله موازنه شده واكنش، چند الكترون میان اتم‌های آلومینیم و یون‌های مس داد و ستد می‌شود؟</p>
+   
+   
+    <br><hr><br>
+
+
+   
+   
+    <p class="MsoStep">خود را بیازمایید</p>
+   
+   
+    <p class="MsoNormal">جدول زیر داده‌هایی را از قرار دادن برخی تیغه‌های فلزی درون محلول مس (II) سولفات در دمای $20^\circ C$ نشان می‌دهد. با توجه به آن به پرسش‌ها پاسخ دهید:</p>
+   
+   
+    <br>
+   
+    <table class="MsoNormal" style="margin:auto;width:fit-content;direction:rtl;text-align:center;">
+        <tr>
+            <th>نام فلز</th>
+            <th>نشانه شیمیایی فلز</th>
+            <th>دمای مخلوط واكنش پس از مدتی (°C)</th>
+        </tr>
+        <tr>
+            <td>آهن</td>
+            <td>Fe</td>
+            <td>33</td>
+        </tr>
+        <tr>
+            <td>طلا</td>
+            <td>Au</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>روی</td>
+            <td>Zn</td>
+            <td>26</td>
+        </tr>
+        <tr>
+            <td>مس</td>
+            <td>Cu</td>
+            <td>20</td>
+        </tr>
+    </table>
+    
+
+
+
+   <br><br>
+    <p class="MsoNormal">آ) تغییر دمای مخلوط واكنش نشان‌دهنده چیست؟</p>
+    <br>
+    <p class="MsoNormal">ب) هر یك از واكنش‌های زیر را كامل كرده سپس گونه‌های كاهنده و اكسنده را مشخص كنید:</p>
+    <p class="MsoNormal" style="text-align: center;">$$\text{Fe}(s) + \text{Cu}^{2+}(aq) \to \ \ . . . . . . \ \   (aq) + \ \ . . . . . . \ \  (s)$$</p>
+    <p class="MsoNormal" style="text-align: center;">$$\text{Zn}(s) + \text{Cu}^{2+}(aq) \to \ \ . . . . . . \ \  (aq) +\ \ . . . . . . \ \  (s)$$</p>
+    <br>
+    <p class="MsoNormal">پ) با توجه به تغییر دمای هر سامانه، كدام فلز تمایل بیشتری به از دست دادن الكترون دارد؟ چرا؟</p>
+    <br>
+    <p class="MsoNormal">ت) فلزهای $Zn$، $Fe$، $Au$ و $Cu$ را بر اساس قدرت كاهندگی مرتب كنید.</p>
+    <br>
+    <p class="MsoNormal">ث) پیش‌بینی كنید هرگاه تیغه مس درون محلول روی سولفات قرار گیرد، آیا واكنشی انجام می‌شود؟ چرا؟</p>
+
+
+<br><hr><br>
+
+        <p class="MsoNormal">تیغه مس در محلول روی سولفات پس از مدت طولانی تغییری نمی‌کند.</p>
+        <br><hr><br>
+
+
+        <p class="MsoNormal">آموختید كه تمایل فلزها برای از دست دادن الكترون در محلول‌های آبی یكسان نیست. به دیگر سخن، فلزها قدرت كاهندگی متفاوتی دارند. برای نمونه، فلز روی كاهنده‌تر از مس است. با این توصیف، در یك واكنش اكسایش ــ كاهش، فلزی كه قدرت كاهندگی بیشتری دارد، می‌تواند با برخی كاتیون‌های فلزی واكنش دهد و آنها را به اتم‌های فلزی بكاهد.</p>
+        <br>
+
+
+        <p class="MsoNormal">در واكنش‌هایی از این دست، مخلوط واكنش گرم‌تر می‌شود زیرا سامانه واكنش بخشی از انرژی خود را به شكل گرما به محیط می‌دهد. به نظر شما آیا می‌توان این واكنش‌ها را به گونه‌ای انجام داد تا همراه با تولید گرما، از الكترون‌های داد و ستد شده برای ایجاد جریان الكتریكی استفاده كرد؟</p>
+        
+
+
+        <br><hr><br>
+
+
+        <p class="MsoStep">آیا می‌دانید</p>
+        <p class="MsoNormal">آلساندرو ولتا، سلول ولتا را ابداع كرد. سلولی كه از صفحه‌های دایره‌ای شكل از جنس مس و روی تشكیل شده و به صورت یك در میان روی هم قرار گرفته‌اند و بین آنها كاغذی آغشته به محلول نمک خوراکی وجود دارد.</p>
+      
+        
+
+        <br><hr><br>
+
+
+        <p class="MsoBold">واکنش‌های شیمیایی و سفر هدایت‌شده الکترون‌ها</p>
+        <p class="MsoNormal">برای ایجاد جریان الكتریكی باید الكترون‌ها را از یك مسیر معین عبور داد یا از نقطه‌ای به نقطه دیگر جابه‌جا نمود. اگر به جای داد و ستد مستقیم الكترون بین گونه‌های اكسنده و كاهنده در یك واكنش، بتوان الكترون‌ها را از طریق یك مدار بیرونی هدایت و جابه‌جا كرد، آنگاه می‌توان بخشی از انرژی آزاد شده در واكنش اكسایش ــ كاهش را به شكل انرژی الكتریكی در دسترس تبدیل نمود. آیا می‌دانید برای دستیابی به این هدف چه تغییری باید در شرایط و چگونگی انجام یك واكنش اكسایش ــ كاهش صورت گیرد؟</p>
+        <br>
+        <p class="MsoNormal">اگر پس از انجام واكنش، تیغه‌های روی و مس را از سلول گالوانی جدا کنید، خواهید دید كه از جرم تیغه روی كاسته شده و بر جرم تیغه مس افزوده شده است (شكل 8).</p>
+    
+      
+      
+        <br>
+        <p class="MsoNormal">شیمی‌دان‌ها در پژوهش‌ها دریافتند كه هرگاه تیغه روی درون محلولی از روی سولفات (نیم‌سلول روی) و تیغه مس درون محلولی از مس (II) سولفات (نیم‌سلول مس) قرار گیرد و نیم‌سلول‌ها همانند شكل زیر به یکدیگر وصل شوند، الكترون‌ها در مدار بیرونی جابه‌جا شده و جریان الكتریكی ایجاد می‌شود. جریانی كه سبب روشن شدن لامپ خواهد شد. نتایج حاصل از چنین پژوهش‌هایی منجر به ساخت سلول گالوانی شد (شكل 7).</p>
+        <br>
+
+
+
+        <br><hr><br>
+        <p class="MsoStep">آیا می‌دانید</p>
+        <p class="MsoNormal">شواهد تاریخی نشان می‌دهد كه ایرانیان باستان با ظرف‌های سفالی، قطعه‌هایی از فلزهای آهن و مس همراه با محلول نمک خوراکی یا سرکه، دستگاهی برای تبدیل انرژی شیمیایی به الكتریكی ساخته بودند.</p>
+    
+    
+        <br><hr><br>
+        <p class="MsoStep">با هم بیندیشیم</p>
+       
+       
+        <p class="MsoNormal">شكل زیر نمای ذره‌ای از سلول گالوانی روی ــ مس (Cu ــ Zn) را نشان می‌دهد. با توجه به آن به پرسش‌ها پاسخ دهید.</p>
+     
+     <br>
+        <p class="MsoNormal">آ) نیم‌واكنش‌های انجام شده در هر نیم‌سلول و واكنش كلی سلول را بنویسید.</p>
+        <br>
+        <p class="MsoNormal">ب) آند الكترودی است كه در آن نیم‌واكنش اكسایش و كاتد الكترودی است كه در آن نیم‌واكنش كاهش رخ می‌دهد. با این توصیف، كدام الكترود نقش آند و كدام نقش كاتد را دارد؟</p>
+        <br>
+        <p class="MsoNormal">پ) در مدار بیرونی، حركت الكترون‌ها در چه جهتی است؟ چرا؟</p>
+        <br>
+        <p class="MsoNormal">ت) توضیح دهید چرا پس از مدتی جرم تیغه روی كم و جرم تیغه مس زیاد شده است؟</p>
+
+
+        <br><hr><br>
+
+        <p class="MsoNormal">آموختید كه سلول گالوانی، دستگاهی است كه می‌تواند بر اساس قدرت كاهندگی فلزها انرژی الكتریكی تولید كند. برای نمونه در سلول گالوانی روی ــ مس، نیم واكنش اكسایش در آند (الكترود روی) انجام می‌شود و هر اتم روی دو الكترون از دست می‌دهد و به شكل یون روی وارد محلول می‌شود. به دلیل تولید الكترون در این الكترود، آن را با علامت منفی نشان می‌دهند.</p>
+        <br>
+        <p class="MsoNormal">الكترون‌های تولید شده در سطح الكترود روی از طریق مدار بیرونی (سیم رابط) به سوی كاتد (الكترود مس) روانه می‌شوند. هر یون مس موجود در محلول، این دو الكترون را می‌گیرد و به شكل اتم مس بر سطح تیغه می‌نشیند.</p>
+        <br>
+        <p class="MsoNormal">انتظار می‌رود با ادامه این روند، به تدریج در محلول پیرامون الكترود آند، غلظت كاتیون روی از آنیون‌ها بیشتر شده اما در محلول پیرامون الكترود كاتد، غلظت آنیون‌ها از كاتیون مس بیشتر شود. جالب اینکه در عمل هیچ گاه چنین پدیده‌ای رخ نمی‌دهد زیرا برای ادامه واكنش اكسایش ــ كاهش، محلول‌های موجود در هر دو ظرف باید از نظر بار الكتریكی خنثی بمانند.</p>
+        <br>
+        <p class="MsoNormal">این مهم هنگامی امكان پذیر است كه كاتیون‌ها از نیم سلول آند به كاتد و آنیون‌ها از نیم سلول كاتد به آند با گذر از دیواره متخلخل مهاجرت كنند.</p>
+
+
+        <br><hr><br>
+        <p class="MsoNormal">نیم‌واكنش اكسایش را نیم‌واكنش آنُدی و نیم‌واكنش كاهش را نیم‌واكنش كاتُدی می‌نامند.</p>
+        <br><hr><br>
+
+
+        <p class="MsoStep">آیا می‌دانید</p>
+        <p class="MsoNormal">نور تولید شده توسط كرم شب‌تاب، نتیجه انجام واكنش شیمیایی زیر است كه یك واكنش شیمیایی منحصر به فرد از نوع اكسایش و كاهش است. این واكنش‌ها به بیولومینسانس معروف‌اند كه از طریق آنها این جانور و برخی جانوران دیگر به جفت خود پیام می‌دهند. واكنش‌دهنده در این واكنش شیمیایی، لوسيفرينِ كرم شب‌تاب و آنزیمی كه این واكنش را كاتالیز می‌كند، لوسيفراز نام دارد.</p>
+
+        <br><hr><br>
+
+        <p class="MsoStep">خود را بیازمایید</p>
+        <p class="MsoNormal">شكل زیر سلول گالوانی مس ــ نقره (Ag ــ Cu) را نشان می‌دهد. با توجه به آن به پرسش‌ها پاسخ دهید:</p>
+        <br>
+        <p class="MsoNormal">آ) علامت الكترودهای مس و نقره را مشخص كنید.</p>
+        <br>
+        <p class="MsoNormal">ب) نیم واکنش‌های انجام شده در آند و كاتد را بنویسید.</p>
+        <br>
+        <p class="MsoNormal">پ) با انجام واكنش، جرم الكترودها چه تغییری می‌کند؟ توضیح دهید.</p>
+        <br>
+        <p class="MsoNormal">ت) جهت حركت یون‌ها را از دیواره متخلخل مشخص كنید.</p>
+        <br><hr><br>
+
+        
+        
+        <p class="MsoNormal">اندازه‌گیری پتانسیل یك نیم‌سلول به طور جداگانه ممكن نیست و باید این كمیت به طور نسبی اندازه‌گیری شود. شیمی‌دان‌ها برای دستیابی به این هدف، نیم‌سلول استاندارد هیدروژن (SHE) را به عنوان مبنا انتخاب كردند و پتانسیل آن را برابر با صفر در نظر گرفتند.</p>
+        <br>
+        <p class="MsoNormal">در ادامه با تشكیل سلول گالوانی از هر نیم‌سلول با SHE توانستند پتانسیل بسیاری از نیم‌سلول‌ها را اندازه‌گیری كرده و در جدولی ثبت كنند (جدول 1). این اندازه‌گیری‌ها در دمای $25^\circ C$، فشار 1 atm و غلظت یك مولار برای محلول الكترولیت‌ها انجام شده است. در این شرایط پتانسیل اندازه‌گیری شده را <b>پتانسیل استاندارد نیم‌سلول</b> می‌نامند و با $E^\circ$ نمایش می‌دهند.</p>
+      
+      
+      
+        <br><hr><br>
+        <p class="MsoStep">آیا می‌دانید</p>
+        <p class="MsoNormal">SHE شامل یك الكترود پلاتینی است كه در محلولی با $pH = 0$ و دمای $25^\circ C$ قرار دارد و گاز هیدروژن با فشار 1 atm از روی آن عبور داده می‌شود.</p>
+       
+        
+
+        <br><hr><br>
+
+
+
+        <p class="MsoNormal">همان‌گونه كه مشاهده می‌كنید، در این جدول نیم‌واكنش‌ها به شكل كاهش نوشته شده‌اند و این پیشنهاد آیوپاك برای هماهنگی در همه منابع علمی معتبر به کار می‌رود. در هر نیم‌واكنش، گونه كاهنده در سمت راست و گونه اكسنده در سمت چپ نوشته می‌شود. در این جدول، علامت $E^\circ$ فلزهایی كه قدرت كاهندگی بیشتری از $H_2$ دارند، منفی و علامت $E^\circ$ فلزهایی كه قدرت كاهندگی كمتری از $H_2$ دارند، مثبت است.</p>
+  
+        <br><hr><br>
+  
+
+        <p class="MsoStep">آیا می‌دانید</p>
+        <p class="MsoNormal">هر یک از نیم‌واكنش‌های جدول $E^\circ$، می‌تواند بسته به شرایط انجام واكنش كلی، در جهت رفت یا برگشت پیش برود.</p>
+      
+      
+      
+        <br><hr><br>
+
+
+        <p class="MsoStep">خود را بیازمایید</p>
+        <p class="MsoNormal">با استفاده از جدول 1 مشخص كنید در سلول گالوانی ساخته شده از نقره و منیزیم:</p>
+        <br>
+        <p class="MsoNormal">آ) كدام الكترود آند و كدام كاتد خواهد بود؟ چرا؟</p>
+        <br>
+        <p class="MsoNormal">ب) نیم‌واكنش‌های انجام شده را بنویسید و واكنش كلی سلول را به دست آورید.</p>
+
+
+        <br><hr><br>
+
+        <p class="MsoStep">پیوند با ریاضی</p>
+   
+        
+
+        <p class="MsoNormal">1ــ با مراجعه به جدول 1، هریك از جاهای خالی را پر كنید.</p>
+        <p class="MsoNormal" style="text-align: center;">$$E^0 (\text{Cu}^{2+}/ \ \ . . . \ \  ) = + \ \ . . . \ \  \text{V}$$</p>
+        <p class="MsoNormal" style="text-align: center;">$$E^0 ( \ \ . . . \ \ /\text{Zn}) = - \ \ . . . \ \  \text{V}$$</p>
+        <br>
+        <p class="MsoNormal">2ــ در سلول گالوانی تشكیل شده از دو نیم‌سلول بالا مشخص كنید كدام‌یك نقش آند و كدام‌یك نقش كاتد را دارد؟</p>
+        <br><br>
+        <p class="MsoNormal">3ــ شكل زیر سلول گالوانی استاندارد روی ــ مس را نشان می‌دهد. با توجه به آن به پرسش‌های زیر پاسخ دهید:</p>
+        <br>
+        <p class="MsoNormal">آ) $emf$ این سلول را از روی شكل مشخص كنید.</p>
+        <br>
+        <p class="MsoNormal">ب) كدام رابطه زیر برای محاسبه این كمیت به كار رفته است؟ توضیح دهید.</p>
+
+        <p class="MsoNormal" style="text-align: center;">$$emf = E^0 (\text{آند}) - E^0   (\text{کاتد})$$</p>
+        <p class="MsoNormal" style="text-align: center;">$$emf = E^0 (\text{کاتد}) - E^0 (\text{آند})$$</p>
+     
+     
+        <br><br>
+
+
+        <p class="MsoNormal">4ــ در نمودار زیر هر خط رنگی نشان‌دهنده یك سلول گالوانی تشكیل شده از دو فلز را نشان می‌دهد. با توجه به جدول پتانسیل استاندارد به پرسش‌ها پاسخ دهید.</p>
+        
+
+        <p class="MsoNormal">آ) نخست برای هر سلول گالوانی، آند و كاتد را مشخص كرده سپس $emf$ را حساب كنید و در جای خالی بنویسید.</p>
+      
+      
+        <br>
+
+
+        <p class="MsoNormal">ب) اگر چند نیم‌سلول در اختیار داشته باشید و بخواهید از آنها یك سلول گالوانی با بیشترین ولتاژ بسازید، از كدام نیم‌سلول‌ها استفاده می‌كنید؟ چرا؟</p>
+      
+      
+        <br><br>
+
+
+        <p class="MsoNormal">5 ــ با استفاده از جدول 1، $emf$ سلولی را حساب كنید كه واكنش اكسایش ــ كاهش زیر در آن رخ می‌دهد:</p>
+        <p class="MsoNormal" style="text-align: center;">$$3\text{Mg}(s) + 2\text{Au}^{3+}(aq) \to 3\text{Mg}^{2+}(aq) + 2\text{Au}(s)$$</p>
+      
+      
+      
+        <br><hr><br>
+        <p class="MsoStep">آیا می‌دانید</p>
+        <p class="MsoNormal">$emf$ كمیتی از جنس انرژی است كه آن را در فیزیك با نام نیروی محركه الكتریكی شناختید. شیمی‌دان‌ها در منابع علمی معتبر آن را با $E^\circ_{\text{سلول}}$ نیز نشان می‌دهند.</p>
+     
+     
+     
+        <br><hr><br>
+        <p class="MsoStep">آیا می‌دانید</p>
+        <p class="MsoNormal">در هر تن از نمك دریاچه قم، بیش از ۲۰۰ گرم لیتیم وجود دارد.</p>
+      
+      
+      
+      
+        <br><hr><br>
+        <p class="MsoNormal">با واكنش‌های اكسایش ــ كاهش و كاربرد آنها در ساخت سلول‌های گالوانی آشنا شدید. سلول‌هایی كه می‌توانند به عنوان باتری، منبع تولید انرژی الكتریكی باشند. باید توجه داشت كه هر باتری، ساختاری مناسب برای كاربردی معین دارد. در ادامه با برخی از آنها آشنا خواهید شد.</p>
+      
+      
+        <br><hr><br>
+        <p class="MsoStep">آیا می‌دانید</p>
+        <p class="MsoNormal">مقدار فلزهای موجود در ۵۰۰ میلیون تلفن همراه به شرح زیر است:</p>
+        <br>
+        <table class="MsoNormal" style="margin:auto;width:fit-content;direction:rtl;text-align:center;">
+            <tr>
+                <th>نام فلز</th>
+                <th>مقدار (تن)</th>
+            </tr>
+            <tr>
+                <td>مس</td>
+                <td>۷۹۰۰</td>
+            </tr>
+            <tr>
+                <td>نقره</td>
+                <td>۱۷۸</td>
+            </tr>
+            <tr>
+                <td>طلا</td>
+                <td>۱۷</td>
+            </tr>
+            <tr>
+                <td>پالادیم</td>
+                <td>7/4</td>
+            </tr>
+            <tr>
+                <td>پلاتین</td>
+                <td>۰/۱۸</td>
+            </tr>
+        </table>
+        
+
+        <br><hr><br>
+
+
+        <p class="MsoStep">پیوند با زندگی</p>
+       
+        <p class="MsoSemi" style="font-size: larger;">لیتیم، فلزی ارزشمند برای ذخیره انرژی الكتریكی</p>
+       
+        <br>
+       
+        <p class="MsoNormal">اگر به پیرامون خود توجه كنید، وسایلی را می‌یابید كه با باتری كار می‌كنند. ساعت مچی و تلفن همراه از جمله وسایلی هستند كه انرژی الكتریكی آنها با استفاده از باتری تأمین می‌شود. باتری‌هایی كه در شكل، اندازه و كارایی با یكدیگر تفاوت آشكاری دارند اما در همه آنها با انجام شدن نیم‌واكنش‌های آندی و كاتدی، جریان الكتریكی در مدار بیرونی برقرار می‌شود.</p>
+       
+       
+        <br>
+       
+       
+        <p class="MsoNormal">با رشد و پیشرفت چشمگیر صنایع گوناگون، هر روز نیاز و تقاضا برای ساخت باتری‌ها با ویژگی‌های گوناگون و كاربرد معین افزایش یافته است. شیمی‌دان‌ها در پی پاسخ به این نیازها طی پژوهش‌های بسیاری توانستند به فناوری ساخت باتری‌های جدید دست یابند. در این فناوری، نقش فلز لیتیم پررنگ است زیرا لیتیم در میان فلزها، كمترین چگالی و $E^\circ$ را دارد. این ویژگی‌های لیتیم سبب شد راه برای ساخت باتری‌های سبک‌تر، كوچک‌تر و با توانایی ذخیره بیشتر انرژی هموار شود. باتری‌های لیتیمی از نوع دگمه‌ای در شكل‌ها و اندازه‌های گوناگون به كار می‌روند. دسته‌ای دیگر از باتری‌های لیتیمی آنهایی هستند كه در تلفن و رایانه همراه به كار می‌روند و می‌توان آنها را بارها شارژ كرد (شكل 9).</p>
+       
+       
+       
+       
+        <br><hr><br>
+
+
+        <p class="MsoStep">آیا می‌دانید</p>
+       
+       
+        <p class="MsoNormal">با بازیافت باتری‌ها می‌توان حجم انبوهی از فلزهای گوناگون را به چرخه مصرف برگرداند. جدول زیر مصرف سالانه فلزها برای تولید باتری در جهان را نشان می‌دهد:</p>
+       
+       
+        <br>
+       
+       
+        <table class="MsoNormal" style="margin:auto;width:fit-content;direction:rtl;text-align:center;">
+            <tr>
+                <th>نام فلز</th>
+                <th>مقدار (كیلوتن)</th>
+            </tr>
+            <tr>
+                <td>كبالت</td>
+                <td>۱۳</td>
+            </tr>
+            <tr>
+                <td>لیتیم</td>
+                <td>۳۰</td>
+            </tr>
+            <tr>
+                <td>نیكل</td>
+                <td>۱۵۰</td>
+            </tr>
+            <tr>
+                <td>منگنز</td>
+                <td>۵۲۰۰</td>
+            </tr>
+            <tr>
+                <td>پلاتین</td>
+                <td>۰/۱۸</td>
+            </tr>
+        </table>
+      
+      
+        <br><hr><br>
+      
+      
+        <p class="MsoNormal">افزایش تقاضا برای باتری‌های لیتیمی سبب شد این فلز جایگاه ممتازی در تأمین انرژی جهان پیدا كند به طوری كه سالانه از میلیاردها باتری لیتیمی درون دستگاه‌های الكترونیك در سرتاسر جهان استفاده می‌شود و سرانجام این دستگاه‌ها به همراه باتری‌های درون خود به شكل پسماند دور ریخته می‌شوند. به این ترتیب حجم انبوهی از پسماندهای الكترونیكی مانند تلفن و رایانه همراه، باتری‌های لیتیمی و... تولید می‌شود. این پسماندها به دلیل داشتن مواد شیمیایی گوناگون، سمی هستند و نباید در طبیعت رها یا دفن شوند زیرا محیط زیست را آلوده می‌كنند. از سوی دیگر برخی از این پسماندها به دلیل داشتن مقدار قابل توجهی از مواد و فلزهای ارزشمند و گران‌قیمت، منبعی برای بازیافت این مواد هستند.</p>
+      
+      
+        <br><hr><br>
+      
+      
+        <p class="MsoStep">آیا می‌دانید</p>
+      
+      
+        <p class="MsoNormal">در سال ۱۸۳۹ ویلیام گرو، فیزیك‌دان و روزنامه‌نگار انگلیسی، اصول كار سلول سوختی را كشف كرد. اما تولید سلول سوختی به سال ۱۸۸۹ توسط لودویك مند و چارلز لنجر برمی‌گردد. از سال ۱۹۶۰ ناسا از سلول‌های سوختی در سفینه‌های جیمینی و آپولو برای تأمین الكتریسیته و آب مورد نیاز فضانوردان استفاده كرد. در دهۀ هفتاد میلادی فناوری سلول سوختی در وسایل خانگی و خودروها به كار گرفته شد. از دهۀ هشتاد به بعد شركت بالارد كانادا زیردریایی مجهز به سلول سوختی را ساخت. پهپاد سلول سوختی در سال ۲۰۰۰ با نیروی محركۀ دوگانه (باتری خورشیدی و سلول سوختی) با توان شش ماه پرواز به بهره‌برداری رسید.</p>
+      
+      
+        <br><hr><br>
+      
+      
+        <p class="MsoBold">سلول سوختی، منبعی برای تولید انرژی سبز</p>
+      
+      
+        <p class="MsoNormal">سوخت‌های فسیلی رایج‌ترین سوخت برای خودروها و نیروگاه‌ها به شمار می‌روند. از این رو استخراج و مصرف بی‌رویۀ این سوخت‌ها سبب شده تا از ذخایر آنها به سرعت كاسته شود. از سوی دیگر گسترش روزافزون آلودگی ناشی از مصرف سوخت‌های فسیلی، جهان را با چالشی نگران‌كننده روبه‌رو كرده است. با این توصیف، یافتن جایگزینی مناسب برای سوخت‌های فسیلی به ویژه در خودروها ضروری است. سلول سوختی نوعی سلول گالوانی است كه شیمی‌دان‌ها برای گذر از این تنگنای تأمین انرژی و كاهش آلودگی محیط زیست پیشنهاد می‌دهند. این سلول‌ها افزون بر كارایی بیشتر می‌توانند ردپای كربن دی‌اكسید را كاهش دهند به طوری كه دوستدار محیط زیست بوده و منبع انرژی سبز به شمار می‌روند.</p>
+      
+      
+        <br><hr><br>
+      
+        <p class="MsoStep">خود را بیازمایید</p>
+      
+      
+      
+        <p class="MsoNormal">در هر یک از روش‌های زیر مراحل تبدیل انرژی شیمیایی موجود در یک سوخت به انرژی الكتریكی نشان داده شده است. با توجه به آن به پرسش‌ها پاسخ دهید:</p>
+      
+      
+        <br>
+      
+      
+        <p class="MsoNormal">آ) در کدام روش اتلاف انرژی به شکل گرما بیشتر است؟ چرا؟</p>
+      
+      
+        <br>
+      
+      
+        <p class="MsoNormal">ب) کدام روش کارایی بالاتری دارد؟ توضیح دهید.</p>
+      
+
+
+
+      
+        <br><hr><br>
+
+
+      
+        <p class="MsoNormal">سوزاندن گاز هیدروژن در موتور درون‌سوز، بازدهی نزدیک به ۲۰ درصد دارد در حالی كه اكسایش آن در سلول سوختی بازده را تا سه برابر افزایش می‌دهد.</p>
+      
+      
+        <br><hr><br>
+      
+      
+        <p class="MsoStep">آیا می‌دانید</p>
+      
+      
+        <p class="MsoNormal">در برخی از دانشگاه‌ها و مراكز تحقیقاتی كشور، پژوهش‌های خوبی روی سلول‌های سوختی انجام شده و موفقیت‌هایی نیز به دست آمده است. تولید تودۀ سلول سوختی در دانشگاه شهید رجایی نمونه‌ای از آنها است.</p>
+      
+      
+        <br><hr><br>
+      
+      
+      
+        <p class="MsoNormal">رایج‌ترین سلول سوختی، سلول هیدروژن ــ اكسیژن است. دستگاهی كه در آن گاز هیدروژن با گاز اكسیژن به صورت كنترل شده واكنش می‌دهد و بخش قابل توجهی از انرژی شیمیایی به انرژی الكتریكی تبدیل می‌شود (شكل ۱۰).</p>
+      
+      
+        <p class="MsoNormal">همان‌گونه كه شكل ۱۰ نشان می‌دهد هر سلول سوختی سه جزء اصلی دارد به طوری كه شامل یك غشا، الكترود آند و الكترود كاتد است. در این سلول، آند و كاتد دارای كاتالیزگرهایی هستند كه به نیم‌واكنش‌های اكسایش و كاهش سرعت می‌بخشند. واكنش كلی در چنین سلولی به صورت زیر است:</p>
+      
+      
+        <p class="MsoNormal" style="text-align: center;">$$2\text{H}_2(g) + \text{O}_2(g) \to 2\text{H}_2\text{O}(g)$$</p>
+        <p class="MsoNormal">از عملكرد این سلول پیداست كه گاز هیدروژن به عنوان سوخت پیوسته وارد شده، اكسایش می‌یابد و هم‌زمان با آن گاز اكسیژن در واكنش با سوخت كاهش می‌یابد. روندی كه در معادله واكنش دیده نمی‌شود زیرا همه گونه‌های شركت‌كننده در واكنش، مولكول‌های خنثی هستند و شمار الكترون‌های ظرفیت اتم‌ها در واكنش تغییر نمی‌كند. به راستی در واكنش‌هایی از این دست چگونه می‌توان گونه‌های اكسنده و كاهنده را مشخص كرد؟ شیمی‌دان‌ها با معرفی عدد اكسایش راه حل مناسبی برای حل این مشكل ارائه كردند.</p>
+       
+       
+       
+        <br><hr><br>
+
+
+        <p class="MsoStep">آیا می‌دانید</p>
+        <p class="MsoNormal">مهندسان و پژوهشگران كشور در چند دانشگاه نمونه‌هایی از خودروهای برقی را طراحی كرده و ساخته‌اند. این خودرو از طریق تركیب هیدروژن و اكسیژن در سلول سوختی، انرژی خود را تأمین می‌كند. همچنین در این خودرو یك باتری شارژی وجود دارد.</p>
+
+        <br><hr><br>
+
+
+        <p class="MsoStep">با هم بیندیشیم</p>
+        <br>
+        <p class="MsoNormal">1ــ با توجه به واكنش كلی سلول سوختی هیدروژن ــ اكسیژن به پرسش‌های زیر پاسخ دهید:</p>
+        <br>
+        <p class="MsoNormal">آ) ساختار الكترون ــ نقطه‌ای گونه‌های شركت‌کننده را رسم كنید:</p>
+        <p class="MsoNormal">$$H_2, \ O_2, \ H_2O$$</p>
+        <br>
+        <p class="MsoNormal">ب) در هر ساختار:</p>
+        <br>
+        <p class="MsoNormal">
+    
+            $*$
+            به ازای هر جفت الكترون پیوندی میان دو اتم یكسان، یك الكترون به هر اتم نسبت دهید.
+            <br>
+            
+            $*$
+            همه الكترون‌های ناپیوندی روی هر اتم را به همان اتم نسبت دهید.
+            <br>
+            
+            $*$
+            به ازای هر جفت الكترون پیوندی میان دو اتم متفاوت، هر دو الكترون را به اتم با خصلت نافلزی بیشتر نسبت دهید.
+            <br>
+        </p>
+        <br>
+        <p class="MsoNormal">پ) الكترون‌های نسبت داده شده به هر اتم را بشمارید و آن را از شمار الكترون‌های ظرفیت همان اتم كم كنید. عدد به دست آمده عدد اكسایش اتم مورد نظر را نشان می‌دهد.</p>
+        <br><br>
+        <p class="MsoNormal">2ــ هرگاه بدانید كه بیشتر شدن عدد اكسایش، نشان‌دهنده اكسایش یافتن و كمتر شدن آن نشان‌دهنده كاهش یافتن اتم‌هاست، در واكنش زیر گونه‌های اكسایش‌یافته، كاهش‌یافته، اكسنده و كاهنده را مشخص كنید:</p>
+        <p class="MsoNormal" style="text-align: center;">$$2H_2(g) + O_2(g) \to 2H_2O(g)$$</p>
+        <br><br>
+        <p class="MsoNormal">3ــ دانش‌آموزی نیم‌واكنش‌های انجام شده در نوعی سلول سوختی هیدروژن ــ اكسیژن را به صورت زیر از منابع علمی معتبر استخراج كرده است:</p>
+        <p class="MsoNormal" style="text-align: center;">$$O_2(g) + H^+(aq) + e^- \to H_2O(l) \quad E^\circ = +1.23 \, \text{V}$$</p>
+        <p class="MsoNormal" style="text-align: center;">$$H_2(g) \to H^+(aq) + e^- \quad E^\circ = 0.00 \, \text{V}$$</p>
+        <p class="MsoNormal">آ) هر یك از نیم‌واكنش‌ها را موازنه كنید سپس واكنش كلی سلول را به دست آورید.</p>
+        <br>
+        <p class="MsoNormal">ب) $emf$ این سلول را حساب كنید.</p>
+        <br><br>
+        <p class="MsoNormal">4ــ با پیشرفت علم و فناوری، سلول‌های سوختی تازه‌ای طراحی شده‌اند كه در آنها به جای گاز خطرناك هیدروژن، گاز متان مصرف می‌شود. با توجه به معادله واكنش كلی زیر به پرسش‌ها پاسخ دهید:</p>
+        <p class="MsoNormal" style="text-align: center;">$$CH_4(g) + 2O_2(g) \to CO_2(g) + 2H_2O(g)$$</p>
+        <br>
+        <p class="MsoNormal">آ) با تعیین عدد اكسایش اتم‌ها، گونه‌های اكسنده و كاهنده را مشخص كنید.</p>
+        <br>
+        <p class="MsoNormal">ب) از دید محیط‌زیست گاز هیدروژن چه مزیتی نسبت به گاز متان دارد؟</p>
+        <br>
+        <hr><br>
+        <p class="MsoNormal">افزایش عدد اكسایش به معنای از دست دادن الكترون و فرایند اكسایش است در حالی كه كاهش آن به معنای به دست آوردن الكترون و فرایند كاهش است. این نمودار گستره عدد اكسایش در گروه ۱۴ را نشان می‌دهد.</p>
+        <br>
+        <hr><br>
+        <p class="MsoNormal">با تعیین عدد اكسایش اتم‌ها در یك گونه شیمیایی آشنا شدید. برای نمونه عدد اكسایش هیدروژن و اكسیژن به حالت آزاد برابر با صفر است. از این رو عدد اكسایش دیگر عنصرها نیز به حالت آزاد مانند $Mg$, $Fe$, و $Cl_2$ برابر با صفر خواهد بود. در حالی كه عدد اكسایش یون‌های تك‌اتمی برابر با بار الكتریكی آنهاست. برای نمونه عدد اكسایش یون اكسید و یون كلسیم در $CaO$ به ترتیب برابر با $2^-$ و $2^+$ است. همچنین دریافتید كه با تغییر عدد اكسایش اتم‌ها در یك واكنش می‌توان گونه‌های اكسنده و كاهنده را تعیین كرد. روشی كه به كمك آن می‌توان واكنش اكسایش ــ كاهش را از دیگر واكنش‌ها تشخیص داد.</p>
+        <br>
+        <hr><br>
+        <p class="MsoNormal">اغلب نافلزها و فلزهای واسطه عدد اكسایش گوناگونی در تركیب‌های خود دارند. برای نمونه عدد اكسایش آهن در $FeCl_2$ و $FeCl_3$ به ترتیب $2^+$ و $3^+$ است. به همین دلیل این تركیب‌ها را آهن (II) كلرید و آهن (III) كلرید می‌نامند. همچنین عدد اكسایش اتم گوگرد در $SO_2$ و $SO_3$ به ترتیب $4^+$ و $6^+$ است. (چرا؟)</p>
+<br><hr><br>
+
+        <p class="MsoStep">خود را بیازمایید</p>
+
+        
+
+        <p class="MsoNormal">1ــ در هر مورد با تعیین عدد اكسایش مشخص كنید كه آن اتم اكسایش یا كاهش یافته است:</p>
+      
+        
+<br>
+<div class="MsoNormal" style="direction: ltr;">
+    <p class="MsoNormal">آ) $\text{Cu}^{2+}(aq) \to \text{Cu}(s)$</p>
+       <br>
+    <p class="MsoNormal">ب) $\text{Cr}^{3+}(aq) \to \text{Cr}^{7+}(aq)$</p>
+    <br>
+    <p class="MsoNormal">پ) $\text{C}(s) \to \text{CO}(g)$</p>
+    <br>
+    <p class="MsoNormal">ت) $\text{NH}_3(g) \to \text{N}_2(g)$</p>
+    </div>
+      <br>
+      
+        <br>
+        <p class="MsoNormal">2ــ در هر یك از واكنش‌های زیر با محاسبه تغییر عدد اكسایش، گونه كاهنده و اكسنده را تعیین كنید:</p>
+
+
+        <br>
+
+        <div class="MsoNormal" style="direction: ltr;">
+        <p class="MsoNormal">آ) $2\text{Al}(s) + \text{Fe}_2\text{O}_3(s) \to \text{Al}_2\text{O}_3(s) + 2\text{Fe}(s)$</p>
+        <br>
+        <p class="MsoNormal">ب) $2\text{CO}(g) + \text{O}_2(g) \to 2\text{CO}_2(g)$</p>
+</div>
+
+        <br><hr><br>
+
+        <p class="MsoNormal">اینك می‌پذیرید که برای تأمین انرژی الكتریكی می‌توان از واكنش‌های اكسایش ــ كاهش در سلول‌های گالوانی مانند باتری‌ها و سلول‌های سوختی بهره برد. با اینكه سلول‌های سوختی برخلاف باتری‌ها، انرژی شیمیایی را ذخیره نمی‌كنند اما در آنها نیز پیوسته سوخت در شرایط كنترل‌شده مصرف و جریان الكتریكی برقرار می‌شود. یکی از چالش‌هایی كه در كاربرد سلول‌های سوختی هیدروژن ــ اكسیژن خودنمایی می‌كند، تأمین سوخت آنهاست. آیا با استفاده از دانش الكتروشیمی می‌توان راهی برای تولید گاز هیدروژن یافت؟</p>
+
+
+
+        <br><hr>
+
+        <p class="MsoBold">برقكافت آب، راهی برای تولید گاز هیدروژن</p>
+       
+       
+        <p class="MsoNormal">تاكنون با سلول‌هایی آشنا شدید كه در آنها با انجام واكنش‌های اكسایش ــ كاهش انرژی تولید می‌شود. نوع دیگری از سلول‌های الكتروشیمیایی وجود دارند كه با اعمال یك ولتاژ بیرونی و عبور جریان الكتریكی از درون محلول الكترولیت می‌توان یك واكنش شیمیایی را در خلاف جهت طبیعی پیش راند.</p>
+        <br>
+       
+       
+        <p class="MsoNormal">این سلول‌ها به سلول‌های الكترولیتی معروف هستند و برقكافت آب یك نمونه از واكنش‌هایی است كه در آنها انجام می‌شود (شكل 11).</p>
+       
+       
+       
+        <br>
+        <hr><br>
+        
+        
+        <p class="MsoNormal">آب خالص رسانایی الكتریكی ناچیزی دارد از این رو برای برقكافت آن باید اندكی الكترولیت به آب افزود.</p>
+        
+        
+        <br>
+        <hr><br>
+        
+        
+        
+        <p class="MsoStep">خود را بیازمایید</p>
+        
+        
+        <p class="MsoNormal">نیم‌واكنش‌های انجام شده در سلول الكترولیتی هنگام برقكافت آب به صورت زیر است:</p>
+        
+        
+        <p class="MsoNormal" style="text-align: center;">$$\text{H}_2\text{O}(l) \to \text{O}_2(g) + \text{H}^+(aq)$$</p>
+        
+        
+        <p class="MsoNormal" style="text-align: center;">$$\text{H}_2\text{O}(l) \to \text{H}_2(g) + \text{OH}^-(aq)$$</p>
+        
+        
+        <br>
+        
+        <p class="MsoNormal">آ) با وارد كردن نماد الكترون در هر نیم‌واكنش مشخص كنید كدام نیم‌واكنش، آندی و كدام كاتدی است؟</p>
+        
+        <br>
+        
+        <p class="MsoNormal">ب) هر یك از نیم‌واكنش‌ها را موازنه كنید و معادله كلی واكنش را به دست آورید.</p>
+        
+        <br>
+        
+        <p class="MsoNormal">پ) پیش‌بینی كنید كاغذ pH در محلول پیرامون آند و كاتد به چه رنگی درمی‌آید؟ چرا؟</p>
+        <br><hr><br>
+
+
+        <p class="MsoNormal">دریافتید که در سلول الكترولیتی، دو الكترود درون یك الكترولیت قرار دارند، الكترودهایی که اغلب گرافیتی هستند. در این سلول‌ها، كاتد الکترودی است که به قطب منفی باتری و آند به قطب مثبت باتری متصل است و الكترولیت محتوی یون‌هایی است كه آزادانه جابه‌جا می‌شوند.</p>
+<br>
+<p class="MsoNormal">در واقع الكترولیت، یك محلول یونی یا یك تركیب یونی مذاب است. هنگامی که به این سلول ولتاژ معینی اعمال شود، یون‌ها به سوی الكترود با بار ناهمنام حركت می‌کنند. به طوری كه كاتیون‌ها به سوی كاتد و آنیون‌ها به سوی آند روانه می‌شوند تا به سطح الكترودها برسند و در نیم‌واكنش اكسایش و کاهش شركت كنند.</p>
+
+        
+        <br>
+        <hr>
+        
+        
+        <p class="MsoBold">برقكافت NaCl(l) و تهیه فلز سدیم</p>
+        
+        
+        <p class="MsoNormal">فلز سدیم یك كاهنده قوی است كه در طبیعت به حالت آزاد یافت نمی‌شود، عنصری كه در تركیب‌های طبیعی و گوناگون خود تنها به شكل یون سدیم وجود دارد. این واقعیت نشان می‌دهد كه یون‌های سدیم بسیار پایدارتر از اتم‌های آن هستند. به همین دلیل برای تهیه فلز سدیم باید انرژی زیادی مصرف كرد. شكل 12، تهیه این فلز را از برقكافت سدیم كلرید مذاب در یك سلول الكترولیتی نشان می‌دهد.</p>
+        
+        <br>
+        
+        <p class="MsoNormal">از آنجا كه دیگر فلزهای فعال نیز كاهنده‌های قوی هستند، باید آنها را همانند سدیم از برقكافت نمك مذاب آنها تهیه كرد. برای نمونه فلز منیزیم را در صنعت از برقكافت منیزیم كلرید مذاب تهیه می‌كنند.</p>
+        
+        
+        
+        <br>
+        <hr><br>
+        
+        
+        <p class="MsoStep">آیا می‌دانید</p>
+        
+        
+        <p class="MsoNormal">سلول دانز یك سلول الكترولیتی است كه در صنعت برای تهیه فلز سدیم به كار می‌رود. در این سلول، برقكافت سدیم كلرید مذاب انجام می‌شود.</p>
+      
+      
+        <br><hr><br>
+        
+        
+        <p class="MsoNormal">سدیم كلرید خالص در $801^\circ C$ ذوب می‌شود. افزودن مقداری كلسیم كلرید به آن، دمای ذوب را تا حدود $587^\circ C$ پایین می‌آورد. این كار از نظر اقتصادی چه مزیتی دارد؟</p>
+        
+        
+        <br>
+        <hr><br>
+        
+        
+        
+        <p class="MsoStep">خود را بیازمایید</p>
+        <p class="MsoNormal">شكل صفحۀ بعد مراحل تهیه فلز منیزیم را از آب دریا نشان می‌دهد. جاهای خالی را پركرده و درباره این روش در كلاس گفت‌وگو كنید.</p>
+
+        <br><hr><br>
+
+        <p class="MsoNormal">تاكنون با دو نوع سلول الكتروشیمیایی آشنا شدید. در سلول گالوانی، انجام یك واكنش اكسایش ــ كاهش منجر به تولید انرژی الكتریكی شده اما در سلول الكترولیتی با اعمال ولتاژ بیرونی معین، یك واكنش اكسایش ــ كاهش دلخواه انجام می‌شود. واكنش‌های انجام شده در هر دو سلول، مطلوب و سودمند هستند، این در حالی است كه پیرامون ما واكنش‌های اكسایش ــ كاهش زیادی مانند سیاه شدن وسایل نقره‌ای، فساد مواد خوراكی و... انجام می‌شوند كه مطلوب ما نیستند و گاهی زیان‌هایی به دنبال دارند.</p>
+       
+       
+        <br><hr>
+
+
+        <p class="MsoBold">خوردگی، یك واكنش اكسایش ــ كاهش ناخواسته</p>
+        <p class="MsoNormal">سالانه صدها میلیون تن از فلزهای گوناگون به ویژه آهن برای ساختن اسكله نفتی، اسكلت ساختمان، پل، كشتی، لوكوموتیو و راه‌آهن، خودرو، هواپیما و... مصرف می‌شود. هنگامی كه فلزها در هوا قرار می‌گیرند، اغلب اكسایش یافته و به شكل اكسید درمی‌آیند. در فلزهایی مانند آهن با ادامه اكسایش، لایه‌ای ترد و شكننده تشكیل می‌شود كه به تدریج فرو می‌ریزد. در این حالت می‌گویند فلز خورده شده است.</p>
+        <br>
+
+
+        <p class="MsoNormal">از آنجا كه آهن پرمصرف‌ترین فلز در جهان است، خوردگی آن خسارت‌های هنگفتی به اقتصاد كشورها وارد می‌كند به طوری كه سالانه حدود ۲۰ درصد از آهن تولیدی برای جایگزینی قطعه‌های خورده شده مصرف می‌شود.</p>
+        <br>
+
+
+        <p class="MsoNormal">پتانسیل كاهشی اغلب فلزها منفی بوده اما پتانسیل كاهشی اكسیژن مثبت است. با این توصیف اكسیژن به عنوان اكسنده تمایل دارد با گرفتن الكترون از فلزها، آنها را اكسید كند. هنگامی كه وسایل آهنی در هوای مرطوب قرار گیرند، یك واكنش اكسایش ــ كاهش انجام می‌شود. واكنشی كه به طور طبیعی باعث اكسایش آهن می‌شود و از زیبایی و استحكام آن می‌كاهد (شكل ۱۳).</p>
+      
+      
+        <br>
+        <hr><br>
+
+
+        <p class="MsoNormal">ظرف نقره‌ای در اثر انجام واكنش اكسایش ــ كاهش كدر می‌شود.</p>
+        <br>
+        <hr><br>
+
+
+        <p class="MsoNormal">ظرف نقره‌ای كه در اثر انجام واكنش اكسایش ــ كاهش، جلا می‌یابد.</p>
+        <br>
+        <hr><br>
+
+
+        <p class="MsoNormal">خوردگی به فرایند ترد شدن، خرد شدن و فروریختن فلزها بر اثر واكنش اكسایش ــ كاهش گفته می‌شود. زنگ زدن آهن و زنگار سبز بر سطح مس نمونه‌هایی از خوردگی هستند.</p>
+        <br>
+        <hr>
+
+
+        <p class="MsoStep">با هم بیندیشیم</p>
+        <br>
+
+
+        <p class="MsoNormal">۱ ــ با توجه به شکل‌های زیر، به پرسش‌های مطرح شده پاسخ دهید:</p>
+        <br>
+
+
+        <p class="MsoNormal">آ) چگونگی تشكیل زنگ آهن را توصیف كنید.</p>
+        <br>
+
+        
+        <p class="MsoNormal">ب) هر یك از نیم‌واكنش‌های زیر را موازنه كنید:</p>
+        <p class="MsoNormal" style="text-align: center;">$$\text{Fe}(s) \to \text{Fe}^{2+}(aq) + \ \ . . . \ \ $$</p>
+        <p class="MsoNormal" style="text-align: center;">$$\text{O}_2(g) + \text{H}_2\text{O}(l) +  \ \ . . . \ \  \to \text{OH}^-(aq)$$</p>
+        <br>
+
+
+        <p class="MsoNormal">پ) با توجه به اینكه زنگ آهن حاوی یون آهن (III) است، نیم‌واكنش اكسایش یون آهن (II) به یون آهن (III) را بنویسید.</p>
+        <br>
+
+
+        <p class="MsoNormal">ت) فراورده نهایی خوردگی، زنگ آهن است. اگر فرمول شیمیایی آن را $Fe(OH)_3$ در نظر بگیریم، معادله واكنش زیر را به روش وارسی موازنه كنید:</p>
+        <p class="MsoNormal" style="text-align: center;">$$\text{Fe}(s) + \text{H}_2\text{O}(l) + \text{O}_2(g) \to \text{Fe(OH)}_3(s)$$</p>
+        <br>
+<br>
+
+<p class="MsoNormal">۲ ــ با توجه به نیم‌واكنش‌های زیر توضیح دهید چرا:</p>
+      <br>
+
+
+<div class="MsoNormal" style="direction: ltr;">
+    <p class="MsoNormal">$\text{O}_2(g) + 4\text{H}^+(aq) + 4e^- \to 2\text{H}_2\text{O}(l) \qquad E^\circ = +1.23 \, \text{V}$</p>
+<br>
+    <p class="MsoNormal">$\text{O}_2(g) + 2\text{H}_2\text{O}(l) + 4e^- \to 4\text{OH}^-(aq) \qquad E^\circ = +0.40 \, \text{V}$</p>
+<br>
+    <p class="MsoNormal">$\text{Au}^{3+}(aq) + 3e^- \to \text{Au}(s) \qquad E^\circ = +1.50 \, \text{V}$</p>
+<br>
+    <p class="MsoNormal">$\text{Fe}^{2+}(aq) + 2e^- \to \text{Fe}(s) \qquad E^\circ = -0.44 \, \text{V}$</p>
+</div>     
+
+
+<br>
+        <br>
+       
+       
+        <p class="MsoNormal">آ) خوردگی آهن در محیط اسیدی به میزان بیشتری رخ می‌دهد؟</p>
+    
+        <br>
+    
+        <p class="MsoNormal">ب) با گذشت زمان فلز طلا در هوای مرطوب و حتی در اعماق دریا همچنان درخشان باقی می‌ماند.</p>
+     
+     
+        <br>
+        <hr><br>
+     
+     
+        <p class="MsoStep">آیا می‌دانید</p>
+     
+     
+        <p class="MsoNormal">فرمول شیمیایی 
+
+
+            $4Fe(OH)_3$ 
+            را نیز به
+            شكل 
+            $2 ( Fe_{2} O_{3} . H_{2} O )$
+
+            نشان می‌دهند
+             و با نام آهن (III) اكسید آب‌پوشیده خوانده می‌شود.</p>
+      
+      
+        <br><hr><br>
+      
+      
+        <p class="MsoNormal">پی بردید كه فلزهای نجیبی مانند طلا و پلاتین حتی در محیط‌های اسیدی اكسایش نمی‌یابند اما وسایل آهنی در هوای مرطوب دچار خوردگی می‌شوند. واكنش ناخواسته‌ای كه در شهرهای بندری و ساحلی بیشتر خودنمایی می‌كند. بدیهی است كه ساده‌ترین راه برای جلوگیری از خوردگی آهن، ایجاد یك پوشش محافظ است تا از رسیدن اكسیژن و رطوبت به آهن جلوگیری كند. پوششی كه با روش‌هایی مانند رنگ زدن، قیراندود كردن و روكش دادن ایجاد می‌شود. باید توجه داشت كه چنین روش‌هایی نمی‌توانند به طور كامل از خوردگی پیشگیری كنند زیرا به تدریج رطوبت و اكسیژن از روزنه‌های این پوشش‌ها به درون نفوذ كرده و به سطح آهن می‌رسند و خوردگی دوباره آغاز می‌شود. با توجه به آنچه كه آموخته‌اید چه روش دیگری پیشنهاد می‌كنید كه تا حد امكان آسیب‌ها و زیان‌های خوردگی را كاهش دهد؟</p>
+
+
+<Br><hr><br>
+
+            <p class="MsoStep">پیوند با صنعت</p>
+        <p class="MsoNormal">فداكاری فلزها برای حفاظت آهن</p>
+  
+  
+        <p class="MsoNormal">هنگامی که دو فلز در هوای مرطوب با هم در تماس باشند، برای اكسایش یافتن با یكدیگر رقابت می‌کنند. بدیهی است كه فلز كاهنده‌تر در این رقابت برنده می‌شود. برای پیش‌بینی برنده باید از پتانسیل كاهشی استاندارد (°E) فلزها كمك گرفت. به مقادیر زیر توجه كنید:</p>
+      
+        <br>
+
+        <div class="MsoNormal" style="direction: ltr;">
+      
+            <p class="MsoNormal">$E^\circ(\text{Cu}^{2+}/\text{Cu}) = +0.34 \, \text{V}$</p>
+            <br>
+            <p class="MsoNormal">$E^\circ(\text{Fe}^{2+}/\text{Fe}) = -0.44 \, \text{V}$</p>
+            <br>
+            <p class="MsoNormal">$E^\circ(\text{Zn}^{2+}/\text{Zn}) = -0.76 \, \text{V}$</p>
+            <br>
+            <p class="MsoNormal">$E^\circ(\text{Mg}^{2+}/\text{Mg}) = -2.37 \, \text{V}$</p>
+         
+            
+    </div>
+
+    <br><Br>
+
+
+        <p class="MsoNormal">تصور کنید فلز روی یا منیزیم در هوای مرطوب با آهن تماس داشته باشد. با توجه به مقادیر °E آنها، بی‌شك روی یا منیزیم در رقابت برنده شده و اكسید می‌شود. اكسایشی كه نشان از فداكاری آنها داشته و سبب پیشگیری از اكسایش آهن خواهد شد. در مقابل، اگر فلز مس در تماس با آهن باشد، آهن دچار خوردگی می‌شود. اینك می‌پذیرید كه مهندسین با تكیه بر دانش الكتروشیمی توانسته‌اند روش‌های عملی و مؤثرتری برای حفاظت از آهن در محیط‌های گوناگون به كار گیرند (شكل ۱۴).</p>
+        <br>
+     
+     
+        <p class="MsoNormal">فداكاری فلز روی برای حفاظت از آهن سبب شد تا در صنعت ورقه‌های آهنی با پوششی از فلز روی تهیه شود. این نوع آهن به آهن گالوانیزه (آهن سفید) معروف است و در ساخت تانكر آب، كانال كولر و... به كار می‌رود.</p>
+     
+     <br>
+        <p class="MsoNormal">هنگامی که خراشی در سطح آهن گالوانیزه پدید می‌آید، هر دو فلز در مجاورت اكسیژن و رطوبت قرار می‌گیرند و برای اكسایش رقابت می‌کنند. بدیهی است كه فلز روی اكسید شده و آهن محافظت می‌شود (شكل ۱۵).</p>
+       
+       
+        <br>
+        <hr><br>
+       
+       
+       
+        <p class="MsoStep">آیا می‌دانید</p>
+        <p class="MsoNormal">هنگامی که خراشی در سطح آهن سفید ایجاد می‌شود، نیم‌واکنش كاتدی در سطح آهن انجام خواهد شد. گویی آهن نقش كاتد را دارد. به همین دلیل در منابع علمی فرایند حفاظت از آهن یا هر فلز دیگر با استفاده از فلزهای كاهنده‌تر را حفاظت كاتدی می‌نامند.</p>
+       
+       
+        <br>
+        <hr><br>
+      
+      
+        <p class="MsoStep">خود را بیازمایید</p>
+      
+      
+        <p class="MsoNormal">شکل زیر بخشی از یك ورقۀ آهنی را نشان می‌دهد كه با لایۀ نازكی از قلع پوشیده شده است. به این نوع آهن، حلبی می‌گویند. از ورقه‌های حلبی برای ساختن قوطی‌های روغن نباتی و كنسرو استفاده می‌شود. با مراجعه به جدول °E:</p>
+       
+        <br>
+      
+        <p class="MsoNormal">آ) در اثر ایجاد خراش در سطح این نوع آهن، كدام فلز خورده می‌شود؟ كدام فلز در برابر خوردگی محافظت می‌شود؟</p>
+       
+       <br>
+        <p class="MsoNormal">ب) نیم‌واكنش‌های اكسایش و كاهش را بنویسید.</p>
+       
+       <br>
+        <p class="MsoNormal">پ) توضیح دهید چرا برخلاف حلبی از آهن گالوانیزه نمی‌توان برای ساختن ظروف بسته‌بندی مواد غذایی استفاده كرد؟</p>
+      
+      
+        <br>
+        <hr><br>
+
+
+        <p class="MsoStep">پیوند با زندگی</p>
+   
+   
+        <p class="MsoNormal">در زندگی روزانه از وسایل و ابزار گوناگونی مانند وسایل آشپزخانه، شیرآلات ساختمان، دستگیره در و... استفاده می‌شود كه فلز اصلی سازنده آنها آهن یا مس است. خوردگی این فلزها از یك سو سبب از بین رفتن زیبایی وسیله می‌شود و از سوی دیگر به سلامتی بدن آسیب می‌رساند. به همین دلیل، سطح اغلب این وسایل فلزی را با فلزهایی مانند نقره، كروم، نیكل و طلا می‌پوشانند (شكل ۱۶).</p>
+     
+        <br>
+     
+     
+        <p class="MsoNormal">پوشاندن سطح یك فلز با لایه نازكی از فلزهای ارزشمند و مقاوم در برابر خوردگی، آبكاری نام دارد. فرایندی که در سلول الكترولیتی انجام می‌شود.</p>
+
+<br><hr><br>
+
+
+        <p class="MsoStep">خود را بیازمایید</p>
+     
+        <p class="MsoNormal">شكل زیر آبكاری یك قاشق فولادی را با فلز نقره نشان می‌دهد. با توجه به آن:</p>
+        <br>
+        <p class="MsoNormal">آ) قاشق فولادی به كدام قطب باتری متصل است؟</p>
+        <br>
+        <p class="MsoNormal">ب) نیم‌واكنش كاتدی را بنویسید.</p>
+      <br>
+        <p class="MsoNormal">پ) چرا الكترولیت را محلولی از نمك نقره انتخاب كرده‌اند؟</p>
+       
+       
+        <br><hr><br>
+        <p class="MsoNormal">برخی فلزها با اینكه اكسایش می‌یابند اما خورده نمی‌شوند. از این فلزها می‌توان برای ساخت وسایل گوناگونی بهره برد كه برای مدت طولانی‌تری استحكام خود را حفظ می‌کنند. آلومینیم یكی از این فلزهاست. فلزی فعال كه به سرعت در هوا اكسید می‌شود $$\big(E^\circ (\text{Al}^{3+}/\text{Al}) = -1.66 \, \text{V}\big).$$ این فلز با تشكیل لایه چسبنده و متراكم $Al_2O_3$ از ادامه اكسایش جلوگیری می‌كند به طوری كه لایه‌های زیرین برای مدت طولانی دست‌نخورده باقی می‌مانند و استحكام خود را حفظ می‌كنند. این ویژگی آلومینیم سبب شده كه از آن در ساخت لوازم خانگی، هواپیما، كشتی و ... استفاده شود (شكل ۱۷).</p>
+        <br>
+
+
+
+        <p class="MsoNormal">با این توصیف فلز آلومینیم نقش كلیدی در صنایع گوناگون دارد و فناوری تولید آن بسیار ارزشمند است. آلومینیم همانند دیگر فلزهای فعال در طبیعت به شكل تركیب یافت می‌شود؛ از این رو این فلز هم از برقكافت نمک‌های مذاب آن به دست می‌آید. رایج‌ترین روشی كه به فرایند هال معروف است:</p>
+      
+
+        <p class="MsoNormal" style="text-align: center;">$$2\text{Al}_2\text{O}_3(s) + 3\text{C}(s) \to 4\text{Al}(l) + 3\text{CO}_2(g)$$</p>
+      
+      
+        <br>
+        <hr><br>
+        <p class="MsoNormal">چارلز مارتین هال (۱۹۱۴-۱۸۶۳)</p>
+        <p class="MsoNormal">این شیمی‌دان آمریکایی در ۲۳ سالگی این روش را ابداع كرد.</p>
+        <br>
+        <hr><br>
+        <p class="MsoNormal">آلومینیم مذاب تولید شده در فرایند هال</p>
+        <br>
+        <hr><br>
+        <p class="MsoNormal">فرایند هال به علت مصرف مقدار زیادی انرژی الکتریکی هزینه بالایی دارد؛ از این رو با بازیافت فلز آلومینیم می‌توان ضمن افزایش عمر یکی از مهم‌ترین منابع تجدیدناپذیر طبیعت، برخی از هزینه‌های تولید این فلز را كاهش داد. برای نمونه تولید قوطی‌های آلومینیمی از قوطی‌های كهنه فقط به ۷ درصد از انرژی لازم برای تهیۀ همان تعداد قوطی از فرایند هال نیاز دارد.</p>
+        <br><hr><br>
+
+
+        <p class="MsoStep">آیا می‌دانید</p>
+        <p class="MsoNormal">آلومینیم در صنایع به طور عمده به شكل آلیاژ استفاده می‌شود. از این فلز آلیاژهای گوناگونی تهیه می‌شود. نمونه‌ای از آنها مگنالیوم است كه در ساخت بدنه كشتی به کار می‌رود. درصد فلزهای سازنده این آلیاژ مطابق جدول زیر است:</p>
+        <br>
+        <table class="MsoNormal" style="margin:auto;width:fit-content;direction:rtl;text-align:center;">
+        <tr>
+            <th>فلز</th>
+            <th>درصد جرمی</th>
+        </tr>
+        <tr>
+            <td>Al</td>
+            <td>83</td>
+        </tr>
+        <tr>
+            <td>Mg</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>Ca</td>
+            <td>2</td>
+        </tr>
+        </table>
+        <br><hr><Br>
+
+
+        <p class="MsoStep">خود را بیازمایید</p>
+        <p class="MsoNormal">لوحۀ آموزشی زیر، آبكاری یك قاشق مسی را با فلز نقره نشان می‌دهد. درباره آن در كلاس گفت‌وگو كنید.</p>
+
+
+<br><hr><br>
+
+
+        <p class="MsoStep">تمرین‌های دوره‌ای</p>
+
+        <p class="MsoNormal">۱- برای هر یک از جمله‌های زیر دلیلی بنویسید.</p>
+  
+        <br>
+        <p class="MsoNormal">آ) فلز پلاتین را می‌توان در بخش‌های مختلف بدن هنگام جراحی به کار برد.</p>
+     
+        <br>
+        <p class="MsoNormal">ب) فلوئور، اکسنده‌ترین عنصر در جدول دوره‌ای است.</p>
+      
+        <br>
+        <p class="MsoNormal">پ) عدد اکسایش اکسیژن در $OF_2$ برابر با $۲+$ است.</p>
+
+        <br><br>
+      
+        <p class="MsoNormal">۲- با مراجعه به جدول ۱ توضیح دهید کدام نمودار تغییر غلظت یون‌ها را در سلول گالوانی روی-مس در بخشی از زمان نشان می‌دهد.</p>
+
+        <br><br>
+     
+        <p class="MsoNormal">۳- emf سلولی که واکنش زیر در آن رخ می‌دهد برابر با $1.98$ است. 
+        $E^0$ نیم‌سلول $A$ را حساب کرده و با مراجعه به جدول ۱ مشخص کنید $A$ کدام فلز است؟</p>
+
+        <br>
+     
+        <p class="MsoNormal">
+            $$ A(s) +2Ag^+ (aq) \longrightarrow A^{2+}(aq) + 2Ag(s) $$
+        </p>
+
+        <br>
+      
+        <p class="MsoNormal">۴- عدد اکسایش اتم نشان داده شده با ستاره را مشخص کنید.</p>
+
+        
+      
+        <br><br>
+        <p class="MsoNormal">۵- در هر یک از واکنش‌های زیر گونه‌های اکسنده و کاهنده را مشخص کنید.</p>
+        <br>
+      
+
+        <div class="MsoNormal" style="direction:ltr">
+
+        <p class="MsoNormal">آ) $N_2(g) + O_2(g) \longrightarrow 2NO(g)$</p>
+        <br>
+      
+        <p class="MsoNormal">ب) $Cl_2(g) + 2KI(aq) \longrightarrow I_2 (s) + 2KCl(aq)$</p>
+     
+        <br>
+        <p class="MsoNormal">پ) $N_2(g) + 3H_2(g) \longrightarrow 2NH_3(g)$</p>
+
+    </div>
+
+        <br><br>
+
+
+      
+        <p class="MsoNormal">۶- باتری‌های روی-نقره از جمله باتری‌های گالوانی هستند که در آنها واکنش زیر انجام می‌شود.</p>
+      
+      
+        <p class="MsoNormal">
+            $$ \text{Zn(s)} + \text{Ag}_2\text{O(s)} \longrightarrow \text{ZnO(s)} + \text{2Ag(s)} $$
+        </p>
+
+      
+        <br> 
+        <p class="MsoNormal">آ) گونه‌های اکسنده و کاهنده را در این باتری مشخص کنید.</p>
+     
+     <br>
+     
+        <p class="MsoNormal">ب) آند و کاتد را در این باتری مشخص کنید.</p>
+
+
+    <br><br>
+
+        <p class="MsoNormal">۷- با توجه به جدول زیر به پرسش‌ها پاسخ دهید.</p>
+
+
+        <br>
+
+
+    <table class="MsoNormal" style="margin:auto;width:fit-content;direction:rtl;text-align:center;">
+        <tr>
+            <th>$$ E^{\circ} (\text{V}) $$</th>
+            <th>$$ \text{نیم‌واکنش کاهش} $$</th>
+        </tr>
+        <tr>
+            <td>$$ +1.33 $$</td>
+            <td>$$ \text{A}^{+}(aq) + e^{-} \longrightarrow \text{A}(s) $$</td>
+        </tr>
+        <tr>
+            <td>$$ +0.87 $$</td>
+            <td>$$ \text{B}^{+}(aq) + 2e^{-} \longrightarrow \text{B}(s) $$</td>
+        </tr>
+        <tr>
+            <td>$$ -0.12 $$</td>
+            <td>$$ \text{C}^{+}(aq) + e^{-} \longrightarrow \text{C}(aq) $$</td>
+        </tr>
+        <tr>
+            <td>$$ -1.59 $$</td>
+            <td>$$ \text{D}^{+}(aq) + 2e^{-} \longrightarrow \text{D}(s) $$</td>
+        </tr>
+    </table>
+<br>
+
+    <br>
+
+    <p class="MsoNormal">آ) کدام گونه قوی‌ترین و کدام ضعیف‌ترین اکسنده است؟</p>
+
+<Br>
+    <p class="MsoNormal">ب) کدام گونه قوی‌ترین و کدام ضعیف‌ترین کاهنده است؟</p>
+<br>
+
+    <p class="MsoNormal">پ) کدام گونه(ها) می‌توانند $ C^+ $ را اکسید کنند؟</p>
+
+
+    <br><br>
+
+
+    <p class="MsoNormal">۸- با توجه به واکنش‌های زیر که به‌طور طبیعی انجام می‌شوند، گونه‌های کاهنده و گونه‌های اکسنده را بر حسب کاهش قدرت مرتب کنید.</p>
+    
+    <br>
+
+
+    <div class="MsoNormal" style="direction:ltr">
+
+        <p class="MsoNormal">
+            $ \text{Cr}^{2+}(aq) + \text{Sn}^{2+}(aq) \longrightarrow \text{Cr}^{3+}(aq) + \text{Sn}(s) $
+        </p><br>
+        <p class="MsoNormal">
+            $ \text{Fe}(s) + \text{Sn}^{2+}(aq) \longrightarrow \text{Fe}^{2+}(aq) + \text{Sn}(s) $
+      </p>  <br>
+        <p class="MsoNormal">
+            $ \text{Fe}(s) + \text{Cr}^{3+}(aq) \longrightarrow \text{Fe}^{2+}(aq) + \text{Cr}^{2+}(aq) $
+    </p>    <br>
+        </div>
+    
+
+    <br><br>
+    <p class="MsoNormal">۹- با توجه به جدول پتانسیل‌های کاهش استاندارد توضیح دهید محلول هیدروکلریک اسید را در کدام ظرف (مس یا آهن) می‌توان نگه داشت؟</p>
+
+
+
+    <br><br>
+    <p class="MsoNormal">۱۰- قدر مطلق پتانسیل کاهش دو عنصر $ X $ و $ Y $ در زیر داده شده است. هنگامی که 
+        این دو نیم‌سلول را به هم
+         وصل می‌کنیم، جریان الکتریکی از اتم $ X $ به اتم $ Y $ برقرار می‌شود
+          و با اتصال نیم‌سلول $ X $ به نیم‌سلول هیدروژن، الکترون‌ها از اتم $ X $ به سمت نیم‌سلول هیدروژن جاری می‌شوند.
+           نیروی الکتروموتوری سلول
+           گالوانی شامل این دو نیم‌سلول را
+           حساب کنید.</p>
+
+           <br>
+    <p class="MsoNormal">
+        $$ Y^{2+} + 2e^{-} \longrightarrow X \quad |E^{\circ}| = 0.34 \, \text{V} $$
+    </p>
+    <p class="MsoNormal">
+        $$ X^{+} + 2e^{-} \longrightarrow Y \quad |E^{\circ}| = 0.25 \, \text{V} $$
+    </p>
+
+    
+
+    <br><br>
+
+    <p class="MsoNormal">۱۱- شیمی‌دان‌ها در برخی سلول‌های الکتروشیمیایی برای انجام واکنش اکسایش-کاهش از نور بهره می‌برند و آنها را سلول نور الکتروشیمیایی می‌نامند. در نمونه‌ای از آنها که برای تهیه گاز هیدروژن از آب به کار می‌رود، با توجه به نیم‌واکنش‌های زیر:</p>
+
+<br>
+    <div class="custom-scrollbar" style="overflow-x: auto;overflow-y:hidden; direction:ltr;">
+<p class="MsoNormal">
+    $$ \text{SiO}_Y(s) + 4\text{H}^+(aq) + 4e^- \longrightarrow \text{Si}(s) + 2\text{H}_2\text{O}(l) \quad , \quad E^{\circ} = -0.48 \, \text{V} $$
+</p>
+<p class="MsoNormal">
+    $$ 2\text{H}_2\text{O}(l) + 2e^- \longrightarrow \text{H}_2(g) + 2\text{OH}^-(aq) \quad , \quad E^{\circ} = -0.83 \, \text{V} $$
+</p>
+
+
+    </div>
+    <br>
+<br>
+
+<p class="MsoNormal">آ) نیم سلول آند و کاتد را مشخص و $ \text{emf} $ سلول را حساب کنید.</p>
+
+<br>
+<p class="MsoNormal">ب) یافته‌های تجربی نشان می‌دهند که افزون بر $ \text{emf} $، بازده و سرعت انجام واکنش در این سلول پایین است. با این توصیف چرا برخی استفاده از آنها را برای تهیه گاز هیدروژن مناسب می‌دانند؟</p>
+<br><br>
+
+
+<p class="MsoNormal">۱۲- در یک آزمایش چهار فلز $ A $، $ B $، $ C $ و $ D $ رفتارهای زیر را نشان داده‌اند:</p>
+<br>
+<p class="MsoNormal">● فقط فلزهای $ A $ و $ C $ با محلول $ 0.1 \, M \, \text{هیدروکلریک اسید} $ واکنش می‌دهند و گاز هیدروژن تولید می‌کنند.</p>
+
+<br><br>
+
+
+<p class="MsoNormal">● با قرار دادن فلز $ C $ در محلول‌های حاوی یون‌های $ A^+ $ و $ B^+ $ و $ D^+ $ به ترتیب فلزهای $ D $، $ B $ و $ A $ رسوب می‌کنند.</p>
+<br>
+<p class="MsoNormal">● یون $ B^+ $ اکسنده قوی‌تری از $ D^+ $ است.</p>
+<br>
+<p class="MsoNormal">با توجه به این داده‌ها ترتیب کاهندگی این چهار فلز را مشخص کنید.</p>
+<Br><br>
+<p class="MsoNormal">۱۳- جدول زیر نیروی الکتروموتوری سه سلول گالوانی را نشان می‌دهد:</p>
+
+<br>
+<table class="MsoNormal" style="margin:auto;width:fit-content;direction:ltr;text-align:center;">
+    <tr>
+        <th></th>
+        <th>$$ B^+/B $$</th>
+        <th>$$ C^+/C $$</th>
+       
+    </tr>
+    <tr>
+        <td>$$ A^+/A $$</td>
+        <td>$$ +0.89 \, \text{V} $$</td>
+        <td>$$ +0.58 \, \text{V} $$</td>
+    </tr>
+    <tr>
+        <td>$$ B^+/B $$</td>
+        <td>-</td>
+        <td>$$ +0.31 \, \text{V} $$</td>
+    </tr>
+</table>
+
+<br><br>
+
+
+<p class="MsoNormal">
+    اگر $ E^{0} \, C^+/C = +0.00 \, \text{V} $ و فلز $ A $ با یون $ C^+ $ واکنش ندهد:
+</p>
+<br>
+<p class="MsoNormal">آ) مقدار پتانسیل کاهش استاندارد را برای دو عنصر $ A $ و $ B $ به دست آورید.</p>
+<br>
+<p class="MsoNormal">ب) نماد اکسنده‌ترین و کاهنده‌ترین گونه را بنویسید.</p>
+
+
+
+
+
+
+
+
+<br><br><br><br><br>
+
+
+    </body>
+
+
+</html>

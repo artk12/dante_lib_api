@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: "Nastaliq";
+            src: url('nas.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+      
+        li.MsoNormal,
+        div.MsoNormal,
+        ul.MsoNormal,
+        ol.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+            
+        }
+        p.MsoNas
+         {
+            margin: 0.5em;
+            
+            font-size: clamp(1.5rem, 1.7vw, 2rem);
+            font-family: "Nastaliq";
+            line-height: 2.3em;
+            color: #dcd7e0;
+            text-align: center;
+         letter-spacing: 0em;
+         word-spacing: 0.4em;
+            
+        }
+        p.MsoNormal
+         {
+            margin: 0in;
+           
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-indent: 1em;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi, b {
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSemic,
+        li.MsoSemic,
+        div.MsoSemic {
+            margin: 0in;
+           
+            font-size: clamp(1.2rem, 1.6vw, 1.3rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #b19af2;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #6ca4ec;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+        span.uline{
+            border-bottom: 0.1em solid #64E9E1;
+        }
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .boxp {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .boxg {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#00f2ff11; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        .boxb {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#0c4e9f2d; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        ::selection {
+            background-color: #59078fa1; /* Change this to your desired highlight color */
+            color: #ffffff; /* Change this to your desired text color */
+          }
+
+
+          mark{
+            background-color:#078b8fa1 ;
+            color: #ffffff;
+            padding: 0 7px;
+        }
+
+        .hlg { background-color: rgba(0, 234, 255, 0.334);  }
+        .hlp { background-color:#5f1487; }
+      
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+    <body class="custom-scrollbar">
+
+
+
+        <p class="MsoBold">فصل ۷: فناوری های نوین زیستی</p>
+        <p class="MsoNormal">آیا تاکنون دربارهٔ تولید پلاستیک‌های قابل تجزیۀ زیستی شنیده‌اید؟ با توجه به اهمیّت محیط‌زیست و حفظ آن، تولید و استفاده از چنین پلاستیک‌هایی راهکار مناسبی برای پیشگیری از مصرف بی‌رویۀ پلاستیک‌های غیرقابل تجزیه است. امروزه به کمک روش‌های زیست‌فناوری، تولید پلاستیک‌های قابل تجزیه با صرف هزینۀ کمتر ممکن شده است. این کار با وارد کردن ژن‌های تولیدکنندۀ بسیاری از این نوع مواد از باکتری به گیاه امکان‌پذیر است.</p>
+        <p class="MsoNormal">چگونه می‌توان از فناوری‌های زیستی برای بهبود زندگی انسان و حفظ محیط‌زیست استفاده کرد؟ آیا می‌توان با استفاده از آنها همۀ مشکلات بشر را حل کرد؟ انسان از نظر اخلاقی تا چه حد می‌تواند این فناوری‌ها را به خدمت بگیرد؟</p>
+        <p class="MsoNormal">در این فصل با این فناوری‌ها آشنا می‌شویم و می‌توانیم در آخر، به بخشی از پرسش‌های مطرح‌شده در مورد این فناوری‌ها پاسخ دهیم.</p>
+        <br>
+        <p class="MsoBold">گفتار ۱: زیست‌فناوری و مهندسی ژنتیک</p>
+        <p class="MsoNormal">همان‌طور که می‌دانیم جهش در یک ژن و درنتیجه، تغییر در محصول آن می‌تواند به بروز بیماری منجر شود. اختلال در عملکرد و مقدار عوامل مؤثر در انعقاد خون از این دسته هستند. با توجه به افزایش افراد نیازمند به این ترکیبات، تأمین نیاز دارویی آنها با مشکل مواجه می‌شود.</p>
+        <p class="MsoNormal">امروزه استفاده از روش‌های زیست‌فناوری<sup>1</sup> و مهندسی ژنتیک<sup>2</sup> تحولات مهمی در زمینۀ تولید چنین فراورده‌هایی فراهم آورده است. تا چندی پیش، انتقال ژن‌های انسان به داخل یاخته‌های سایر موجودات زنده و یا استفاده از باکتری‌ها برای ساختن پروتئین‌های انسانی غیرقابل تصور بود اما اکنون روش‌های لازم برای تحقق آن توسعه یافته و کاربرد فراوانی پیدا کرده است.</p>
+        <p class="MsoNormal">آیا می‌دانید چگونه می‌توان از باکتری برای ساختن یک پروتئین انسانی استفاده کرد؟ فرض کنید می‌خواهیم باکتری را برای ساختن هورمون رشد انسانی تغییر دهیم، پس ضرورت دارد تمام احتیاجات این فرایند را در یاختۀ باکتری فراهم کنیم. در ادامه مطلب با مراحل این روش آشنا خواهیم شد.</p>
+        <br>
+        <p class="MsoStep">بیشتر بدانید</p>
+        <p class="MsoNormal">تاکنون تعاریف متعددی برای زیست‌فناوری ارائه شده است که علت آن را باید در ماهیت زیست‌فناوری جست‌وجو کرد. فرهنگستان علوم جمهوری اسلامی ایران زیست‌فناوری را چنین تعریف می‌کند: «تولید فراورده‌ها از طریق فرایند زیستی که مستلزم فنون مهندسی است».</p>
+        <br>
+        <p class="MsoStep">زیست‌فناوری چیست؟</p>
+        <p class="MsoNormal">به طور کلی به هرگونه فعالیت هوشمندانۀ آدمی در تولید و بهبود محصولات گوناگون با استفاده از موجود زنده، زیست‌فناوری گویند.</p>
+        <p class="MsoNormal">زیست‌فناوری قلمروی بسیار گسترده دارد و روش‌هایی مانند مهندسی ژنتیک، مهندسی پروتئین و بافت را دربرمی‌گیرد. زیست‌فناوری از گرایش‌های علمی متعددی مانند علوم زیستی، فیزیک، ریاضیات و علوم مهندسی بهره می‌برد. کاربردهای فراوان زیست‌فناوری، آن را به‌عنوان نشانۀ پیشرفت کشورها در قرن حاضر و به یکی از ابزارهای مهم برای تأمین نیازهای متنوع تبدیل کرده است.</p>
+        <br>
+        <p class="MsoStep">بیشتر بدانید</p>
+        <p class="MsoSemi">شاخه‌های زیست‌فناوری</p>
+        <p class="MsoNormal">امروزه متخصصان، این رشته را به شاخه‌های مختلفی از قبیل کشاورزی، پزشکی، دارویی، دامی، میکروبی، قضایی یا پزشکی قانونی، غذایی، صنعتی و... تقسیم‌بندی کرده‌اند.</p>
+        <p class="MsoNormal">در برخی تقسیم‌بندی‌ها به شاخه‌های زیست‌فناوری رنگ اختصاص داده‌اند که عبارت‌اند از:</p>
+        <ul class="MsoNormal">
+          <li>سبز: زیست‌فناوری کشاورزی؛ بهره‌برداری از گیاهان دست‌ورزی‌شدۀ ژنتیکی</li>
+          <li>قرمز: زیست‌فناوری پزشکی؛ بهره‌برداری از یاخته‌های دست‌ورزی‌شده برای درمان، تولید دارو و مسائل قضایی و پزشکی قانونی</li>
+          <li>خاکستری: زیست‌فناوری محیط‌زیست؛ جلوگیری و رفع مشکلات محیط‌زیست</li>
+          <li>سفید: زیست‌فناوری صنعتی؛ استفاده از موجودات زنده در مسائل صنعتی مثلاً ساخت مواد شیمیایی</li>
+          <li>آبی: زیست‌فناوری دریایی؛ بهره‌وری از فرایندهای دریایی و موجودات آبزی</li>
+        </ul>
+        <br>
+        <p class="MsoStep">تاریخچۀ زیست‌فناوری</p>
+        <p class="MsoNormal">برای زیست‌فناوری، که از سال‌های بسیار دور آغاز شده است، سه دوره در نظر می‌گیرند:</p>
+        <ul class="MsoNormal">
+          <li><b>زیست‌فناوری سنتی:</b> تولید محصولات تخمیری مانند سرکه، نان و فراورده‌های لبنی با استفاده از فرایندهای زیستی مربوط به این دوره است.</li>
+          <li><b>زیست‌فناوری کلاسیک:</b> با استفاده از روش‌های تخمیر و کشت ریزجانداران (میکروارگانیسم‌ها) تولید موادی مانند پادزیست‌ها، آنزیم‌ها و مواد غذایی در این دوره ممکن شد.</li>
+          <li><b>زیست‌فناوری نوین:</b> این دوره با انتقال ژن از یک ریزجاندار به ریزجاندار دیگر آغاز شد. دانشمندان توانستند با تغییر و اصلاح خصوصیات ریزجانداران، ترکیبات جدید را با مقادیر بیشتر و کارایی بالاتر تولید کنند.</li>
+        </ul>
+        <br>
+        
+
+        <p class="MsoStep">مهندسی ژنتیک</p>
+        <p class="MsoNormal">یکی از روش‌های مؤثر در زیست‌فناوری نوین، مهندسی ژنتیک است. در مهندسی ژنتیک قطعه‌ای از دنا (DNA) یک یاخته توسط ناقل به یاخته‌ای دیگر انتقال می‌یابد. در این حالت، یاختۀ دریافت‌کننده قطعه دنا دچار دست‌ورزی ژنتیکی و دارای صفت جدید می‌شود. به جانداری که از طریق مهندسی ژنتیک دارای ترکیب جدیدی از مواد ژنتیکی شده است، <b>جاندار تغییریافتۀ ژنتیکی</b><sup>1</sup> یا <b>تراژنی</b><sup>2</sup> می‌گویند.</p>
+        <p class="MsoNormal">گرچه این روش ابتدا با باکتری‌ها شروع شد؛ اما پیشرفت‌های بعدی، امکان دست‌ورزی ژنتیکی برای سایر موجودات زنده مثل گیاهان و جانوران را نیز فراهم کرد. مثلاً مراحل ایجاد گیاهان زراعی تراژنی از طریق مهندسی ژنتیک را می‌توان به‌صورت زیر خلاصه کرد:</p>
+        <ul class="MsoNormal" style="list-style: none;">
+          <li>١ــ تعیین صفت یا صفات مطلوب</li>
+          <li>٢ــ استخراج ژن یا ژن‌های صفت مورد نظر</li>
+          <li>٣ــ آماده‌سازی و انتقال ژن به گیاه</li>
+          <li>٤ــ تولید گیاه تراژنی</li>
+          <li>٥ــ بررسی دقیق ایمنی زیستی و اثبات بی‌خطر بودن برای سلامت انسان و محیط‌زیست</li>
+          <li>٦ــ تکثیر و کشت گیاه تراژنی با رعایت اصول ایمنی زیستی</li>
+        </ul>
+        <br>
+        <p class="MsoNormal">شکل ۱ بعضی از این مراحل را نشان می‌دهد.</p>
+        
+        <br>
+
+        <p class="MsoStep">مراحل مهندسی ژنتیک</p>
+        <p class="MsoNormal">یکی از اهداف مهندسی ژنتیک تولید انبوه ژن و فراورده‌های آن است. تولید انبوه ژن با  همسانه‌سازی دنا<sup>3</sup> انجام می‌شود. جداسازی یک یا چند ژن و تکثیر آنها را همسانه‌سازی دنا می‌گویند. در همسانه‌سازی دنا، مادۀ وراثتی با ابزارهای مختلفی در خارج از یاخته تهیه و به‌وسیلۀ یک ناقل همسانه‌سازی<sup>4</sup> به درون ژنوم میزبان منتقل می‌شود. هدف از این کار تولید مقادیر زیادی از دنای خالص است که می‌تواند برای دست‌ورزی، تولید یک مادۀ بخصوص و یا مطالعه مورد استفاده قرار گیرد.</p>
+        <br>
+        <p class="MsoNormal"><b>١ــ جداسازی قطعه‌ای از دنا:</b> این کار به‌وسیلۀ آنزیم‌های برش‌دهنده<sup>5</sup> انجام می‌شود. این آنزیم‌ها در باکتری‌ها وجود دارند و قسمتی از سامانۀ دفاعی آنها محسوب می‌شوند. اولین مرحله از همسانه‌سازی که جداسازی ژن‌ها است، به‌وسیلۀ این آنزیم‌ها انجام می‌شود.</p>
+        <p class="MsoNormal">این آنزیم‌ها توالی‌های نوکلئوتیدی خاصی را در دنا تشخیص و برش می‌دهند. مثلاً آنزیم EcoR1 توالی شش جفت نوکلئوتیدی 
+        $ ^{GAATTC} _{CTTAAG} $
+         را شناسایی و برش می‌دهد. به این توالی  جایگاه تشخیص آنزیم گفته می‌شود (شکل ۲).</p>
+        <p class="MsoNormal">همان‌طور که در شکل می‌بینید، در جایگاه تشخیص آنزیم EcoR1، توالی نوکلئوتیدهای هر دو رشته دنا از دو سمت مخالف یکسان خوانده می‌شود. این آنزیم پیوند فسفودی‌استر بین نوکلئوتید گوانین‌دار و آدنین‌دار هر دو رشته را برش می‌زند. در نتیجه، انتهایی از مولکول دنا ایجاد می‌شود که یک رشته آن بلندتر از رشته مقابل است و به آن انتهای چسبنده می‌گویند.</p>
+        <p class="MsoNormal">برای تشکیل چنین انتهایی از مولکول دنا، علاوه بر پیوندهای فسفودی‌استر، پیوندهای هیدروژنی بین دو رشته دنا در منطقۀ تشخیص نیز شکسته می‌شوند. استفاده از آنزیم‌های برش‌دهنده، دنا را به قطعات کوتاه‌تری تبدیل می‌کند. این قطعات را با روش‌های خاصی جدا می‌کنند و تشخیص می‌دهند.</p>
+        <br>
+        <p class="MsoNormal"><b> اتصال قطعۀ دنا به ناقل و تشکیل دنای نوترکیب:</b> مرحلۀ بعدی، اتصال قطعۀ دنای جداسازی‌شده به ناقل همسانه‌سازی است. این ناقلین، توالی‌های دنایی هستند که در خارج از فام‌تن اصلی قرار دارند و می‌توانند مستقل از آن تکثیر شوند.</p>
+        <p class="MsoNormal">یکی از این مولکول‌ها  دیسک حلقوی باکتری  است. این نوع دیسک یک مولکول دنای دورشته‌ای و خارج فام‌تنی است که معمولاً درون باکتری‌ها و بعضی قارچ‌ها مثل مخمرها وجود دارد و می‌تواند مستقل از ژنوم میزبان همانندسازی کند. دیسک‌ها را  فام‌تن‌های کمکی  نیز می‌نامند چون حاوی ژن‌هایی هستند که در فام‌تن اصلی باکتری وجود ندارند.</p>
+        <p class="MsoNormal">مثلاً ژن مقاومت به پادزیست در دیسک قرار دارد. در صورت انتقال قطعۀ دنای مورد نظر به دیسک و ورود آن به یاختۀ میزبان، با هر بار همانندسازی دیسک، دنای مورد نظر نیز همانندسازی می‌شود. بهتر است از دیسکی استفاده شود که فقط یک جایگاه تشخیص برای آنزیم برش‌دهنده داشته باشد. به نظر شما چرا؟</p>
+        <p class="MsoNormal">شکل ۳ طرح ساده‌ای از دیسک دارای یک جایگاه تشخیص آنزیم EcoR1 را نشان می‌دهد. بسیاری از دیسک‌ها دارای ژن‌های مقاومت به پادزیست‌ها هستند. چنین ژن‌هایی به باکتری این توانایی را می‌دهند که پادزیست‌ها را به موادی غیرکشنده و قابل استفاده برای خود تبدیل کنند.</p>
+        <p class="MsoNormal">این ویژگی در مهندسی ژنتیک اهمیت زیادی دارد که در مباحث بعد به آن می‌پردازیم. در ساخت یک دنای نوترکیب، قطعۀ دنای حاوی توالی مورد نظر در دنای ناقل جاسازی می‌شود. دانستید که برای جداسازی قطعۀ دنای مورد نظر از نوعی آنزیم برش‌دهنده استفاده می‌شود. توجه داشته باشید آنزیم مورد استفاده برای برش دادن دیسک، باید همان آنزیمی باشد که در جداسازی دنای مورد نظر استفاده شده است. چرا؟</p>
+        
+<br>
+
+
+<p class="MsoStep">بیشتر بدانید</p>
+<p class="MsoNormal"><b>باکتری‌خوارها (باکتریوفاژها)</b> ویروس‌هایی معمولاً دنادار هستند که به باکتری‌ها حمله می‌کنند و آنها را از بین می‌برند. نوکلئیک‌اسید این فاژها از دیسک بزرگ‌تر است. مزیت دنای فاژها به‌عنوان ناقل همسانه‌سازی در این است که می‌توان قطعات دنای بزرگ‌تری را در آنها جاسازی کرد.</p>
+<br>
+<p class="MsoNormal">برش دیسک با آنزیم، آن را به یک قطعۀ دنای خطی تبدیل می‌کند که دارای دو انتهای چسبنده است. همچنین قطعۀ دنای خارجی نیز دو انتهای چسبنده دارد. برای اتصال دنای مورد نظر به دیسک از آنزیم لیگاز  (اتصال‌دهنده) استفاده می‌شود. این آنزیم پیوند فسفودی‌استر بین دو انتهای مکمل را ایجاد می‌کند. به مجموعۀ دنای ناقل و ژن جاگذاری‌شده در آن، دنای نوترکیب گفته می‌شود (شکل ۴).</p>
+<br>
+<p class="MsoNormal"><b>وارد کردن دنای نوترکیب به یاختۀ میزبان:</b> در این مرحله، دنای نوترکیب را به درون یاختۀ میزبان مثلاً باکتری منتقل می‌کنند (شکل ۵). به این منظور باید در دیوارۀ باکتری منافذی ایجاد شود. این منافذ را می‌توان با کمک شوک الکتریکی و یا شوک حرارتی همراه با مواد شیمیایی ایجاد کرد.</p>
+<p class="MsoNormal">بر طبق اطلاعات به‌دست‌آمده، مشخص شده همۀ باکتری‌ها دنای نوترکیب را دریافت نمی‌کنند. بنابراین لازم است باکتری دریافت‌کنندۀ دیسک از باکتری فاقد آن تفکیک شود.</p>
+<br>
+<p class="MsoNormal"><b>جداسازی یاخته‌های تراژنی:</b> برای انجام این مرحله، از روش‌های متفاوتی می‌توان استفاده کرد. یکی از این روش‌ها استفاده از دیسکی است که دارای ژن مقاومت به پادزیستی مثل آمپی‌سیلین است. اگر باکتری، دنای نوترکیب را دریافت کرده باشد، در محیط حاوی پادزیست رشد می‌کند. باکتری‌های فاقد دنای نوترکیب به دلیل حساسیت به پادزیست در چنین محیطی از بین می‌روند (شکل ۶).</p>
+
+<p class="MsoNormal">در شرایط مناسب، باکتری‌های تراژنی با سرعت بالایی تکثیر می‌شوند. همچنین از دناهای نوترکیب نیز به‌صورت مستقل از فام‌تنِ اصلی یاخته، نسخه‌های متعددی ساخته می‌شود که در نتیجۀ آن دنای خارجی به‌سرعت تکثیر می‌شود. بنابراین، تعداد زیادی باکتری دارای دنای خارجی آماده خواهد شد که می‌توان از آنها برای تولید فراورده یا استخراج ژن استفاده کرد.</p>
+
+<p class="MsoNormal">امروزه با پیشرفت روش‌های مهندسی ژنتیک می‌توان یاخته‌های دیگری مثل مخمرها، یاخته‌های گیاهی و حتی جانوری را با این فرایند تغییر داد. دناها و سایر مولکول‌های حاصل از دناهای تولیدشده برای اهداف گوناگون علمی و کاربردی استفاده می‌شوند. در گفتارهای بعدی این فصل به برخی از این موارد اشاره شده است.</p>
+
+
+
+
+
+
+
+
+
+
+
+<br><br><br><br><br>
+
+
+    </body>
+
+
+</html>

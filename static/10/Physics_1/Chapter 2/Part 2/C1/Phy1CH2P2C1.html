@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 900px;
+            margin: auto;
+            font-size: clamp(1rem, 2.5vw, 2rem);
+        }
+
+        span {
+            font-size: clamp(1rem, 2.4vw, 2rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 2.5vw, 2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.5rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.1rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #87a5ff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+
+        .images {
+            width: -webkit-fill-available;
+            display: block;
+            max-width: 80%;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+    </style>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+<body>
+    <div class="MsoBold">2ـ2 نیروهای بین مولکولی</div>
+    <br>
+    <div class="MsoNormal">پیش از این با انجام فعالیت 2ــ2 دیدید که متراکم کردن آب درون سرنگ عملاً امکانپذیر نیست. برای توجیه پدیده‌هایی مشابه این، باید به نیروهای بین مولکولی در یک مایع توجه کنیم. به‌طورکلی، نیروهای بین مولکول‌های همسان مانند نیروهای بین مولکول‌های آب را نیروی هم‌چسبی می‌نامیم (شکل 2ــ7). وقتی سعی می‌کنیم فاصله بین مولکول‌های مایع را کم کنیم، نیروی دافعه بزرگی بین آن‌ها ظاهر می‌شود که از تراکم‌پذیری مایع جلوگیری می‌کند. همین‌طور وقتی مولکول‌های مایع را کمی از هم دور کنیم، نیروی جاذبه بین آن‌ها ظاهر می‌شود. این جاذبه در قطره آب آویزان از شاخه درخت دیده می‌شود. نیروهای بین مولکولی کوتاه‌بُرد هستند، یعنی وقتی فاصله بین مولکول‌ها چند برابر فاصله بین مولکولی شود، نیروهای بین مولکولی بسیار کوچک و عملاً صفر خواهند شد.</div>
+    
+
+    <br>
+    <div class="MsoStep">پرسش 2ـ2</div>
+
+    <div class="MsoNormal">وقتی شیشه می‌شکند با نزدیک کردن قطعه‌های آن به هم نمی‌توان اجزای شیشه را دوباره به هم چسباند؛ ولی اگر قطعه‌های شیشه را آنقدر گرم کنیم که نرم شوند می‌توان آن‌ها را به هم چسباند. این پدیده‌ها را با توجه به کوتاه‌بُردبودن نیروهای بین مولکولی توجیه کنید.</div>
+    <br>
+    <div class="MsoStep">کشش سطحی</div>
+    
+    <div class="MsoNormal">نشستن یا راه رفتن برخی حشره‌ها روی سطح آب (شکل 2ــ8ــ الف)، شناور ماندن گیره فلزی کاغذی روی سطح آب (شکل 2ــ8ــ ب) و تشکیل حباب‌های آب و صابون (شکل 2ــ8ــ پ) تنها نمونه‌هایی از وجود کشش سطحی هستند. کشش سطحی ناشی از هم‌چسبی مولکول‌های سطح مایع است و آن را می‌توان با نیروهای بین مولکولی توضیح داد. به دلیل نیروهای ربایشی که مولکول‌های سطح مایع به یکدیگر وارد می‌کنند سطح مایع شبیه یک پوستۀ تحت کشش رفتار می‌کند و کشش سطحی روی می‌دهد. با کشش سطحی همچنین می‌توان توضیح داد که چرا قطره‌هایی که آزادانه سقوط می‌کنند تقریباً کروی‌اند (شکل 2ــ8ــ ت). به ازای حجمی معین، کره نسبت به هر شکل هندسی دیگری، کوچکترین مساحت سطح را دارد. به این ترتیب سطح قطره‌ای که آزادانه سقوط می‌کند مانند یک پوسته کشیده شده، تمایل به کمینه کردن مساحتش را دارد.</div>
+    <br>
+   
+    <br>
+    <div class="MsoStep">فعالیت 2ـ3</div>
+
+    <div class="MsoNormal">
+        <div>الف) سعی کنید یک سوزن ته گرد یا گیره کاغذ را مطابق شکل روی سطح آب شناور کنید. برای این منظور می‌توانید از یک تکه دستمال کاغذی استفاده کنید.</div>
+        <div>ب) پس از شناور شدن سوزن یا گیره، سطح آب را به دقت مشاهده کنید و مشاهدات خود را به کلاس گزارش دهید.</div>
+        <div>پ) اکنون یکی دو قطره مایع شوینده را به آرامی به آب درون ظرف بیفزایید. مشاهدات خود را به کلاس گزارش کنید و دلیلی برای آن ارائه دهید.</div>
+    </div>
+    <br>
+    <div class="MsoStep">ترشوندگی</div>
+
+    <div class="MsoNormal">دیدیم که نیروی هم‌چسبی بین مولکول‌های یک ماده سبب بروز پدیده‌های جالبی می‌شود. هنگامی که دو ماده مختلف در تماس با یکدیگر قرار گیرند نیز جاذبه مولکولی مشابهی بین مولکول‌های آن‌ها ظاهر میشود که به آن نیروی دگرچسبی می‌گوییم. هم‌چسبی و دگرچسبی هر دو نیروهایی بین مولکولی هستند. تفاوت آن‌ها در این است که هم‌چسبی، جاذبه بین مولکول‌های همسان و دگرچسبی جاذبه بین مولکول‌های ناهمسان است. هرگاه مایعی در تماس با جامدی قرار گیرد دو حالت می‌تواند رخ دهد. یکی اینکه دگرچسبی بین مولکول‌های مایع و جامد از هم‌چسبی بین مولکول‌های مایع بیشتر باشد. در این صورت می‌گوییم مایع، جامد را تر یا خیس می‌کند. مثلاً در شکل 2ــ9ــ الف می‌بینیم که آب، سطح شیشۀ تمیز را خیس کرده و روی آن پهن شده است. اما اگر نیروی هم‌چسبی بین مولکول‌های مایع از نیروی دگرچسبی بین مولکول‌های مایع و جامد بیشتر باشد می‌گوییم مایع جامد را تر نمی‌کند. در شکل 2ــ9ــ ب می‌بینیم که سطح شیشه با جیوه خیس نشده و جیوه به شکل قطره روی سطح شیشه باقی مانده است (هرچه قطره بزرگتر باشد نیروی گرانش زمین، آن را تخت‌تر می‌کند).</div>
+    <br>
+   
+    <br>
+    <div class="MsoStep">پرسش 2ـ3</div>
+ 
+    <div class="MsoNormal">شکل روبه‌رو خروج قطره‌های روغن با دمای متفاوت را از دهانه دو قطره‌چکان نشان می‌دهد.</div>
+    <br>
+    <div class="MsoNormal">
+        <div>الف) توضیح دهید در کدام شکل دمای قطره‌های روغن کمتر است.</div>
+        <div>ب) افزایش دما چه تأثیری بر نیروی هم‌چسبی مولکول‌های یک مایع می‌گذارد؟</div>
+        <div>پ) چرا هنگام شستن ظروف، افزون بر استفاده از مایع ظرفشویی، ترجیح می‌دهیم از آب گرم نیز استفاده کنیم؟</div>
+    </div>
+    <br>
+    <div class="MsoStep">فعالیت 2ـ4</div>
+
+    <div class="MsoNormal">
+        <div>یک طرف یک تکه شیشۀ کوچک (با ابعادی حدود $10cm \times 10cm$) را کمی بالاتر از شعلۀ یک شمع بگیرید تا سطح شیشه به‌طور کامل دوده‌اندود شود. شیشه را از طرف تمیز آن روی سطحی افقی قرار دهید و سپس روی سطح دوده‌اندود شدۀ آن چند قطره آب بریزید. آنچه را مشاهده می‌کنید در گروه خود به بحث بگذارید و نتیجه را به کلاس ارائه دهید.</div>
+        <div>بار دیگر سطح شیشه را به جای دوده‌اندود کردن، با روغن چرب کنید و آزمایش را تکرار کنید. مشاهدهٔ خود را توضیح دهید و نتیجه را به کلاس گزارش دهید. (پس از بحث کافی در خصوص این فعالیت، دوباره به تصویر و پرسش شروع فصل بازگردید و پاسخی قانع‌کننده ارائه دهید.)</div>
+    </div>
+    <br>
+    <div class="MsoStep">فعالیت 2ـ5</div>
+    <br>
+    <div class="MsoNormal">این فعالیت به شما کمک می‌کند تا درک بهتری از نیروی دگرچسبی به دست آورید. به این منظور از یک لیوان پر از آب، یک کارت بانکی و تعدادی وزنه چند گرمی یا سکه‌های پول استفاده کنید. ابتدا مطابق شکل الف، کارت را طوری روی لبۀ لیوان قرار دهید که تنها نیمی از آن با آب در تماس باشد. وزنه‌های چند گرمی را روی قسمتی از کارت قرار دهید که با آب در تماس نیست (ابتدا وزنه 5 گرمی، سپس 10 گرمی و...). نتیجهٔ مشاهدهٔ خود را با توجه به مفاهیمی که تاکنون فرا گرفته‌اید توضیح دهید. یکی دو قطره مایع شوینده به آب اضافه کنید و آزمایش را تکرار کنید. نتیجهٔ مشاهدهٔ خود را در گروه خود به بحث بگذارید.</div>
+    <br>
+   
+    <br>
+    <div class="MsoStep">اثر مویینگی</div>
+    
+    <div class="MsoNormal">لوله‌هایی که قطر داخلی آن‌ها حدود یک دهم میلی‌متر $(0.1mm~)$ باشد، معمولاً لولهٔ مویین نامیده می‌شوند. واژهٔ مویین به معنای «مو مانند» است. آزمایش نشان می‌دهد اگر چند لولهٔ مویین شیشه‌ای و تمیز را وارد یک ظرف آب کنیم، آب در لوله‌های مویین بالا می‌رود و سطح آن بالاتر از سطح آب ظرف قرار می‌گیرد. همچنین هرچه قطر لولهٔ مویین کمتر باشد ارتفاع ستون آب در آن بیشتر است. افزون بر اینها سطح آب در بالای لوله‌های مویین فرورفته است. اگر همین آزمایش‌ها را با جیوه انجام دهیم مشاهده می‌کنیم که جیوه در لوله‌های مویین مقداری بالا می‌رود ولی سطح آن پایین‌تر از سطح جیوه ظرف قرار می‌گیرد. همچنین هرچه قطر لولهٔ مویین کمتر باشد ارتفاع ستون جیوه در آن کمتر است. افزون بر اینها سطح جیوه در لولهٔ مویین برآمده است. اثر مویینگی در لوله‌های با قطر داخلی بزرگتر از لوله‌های مویین نیز قابل مشاهده است. شکل‌های 2ــ10ــ الف و ب، اثر مویینگی را برای آب و شکل‌های 2ــ10ــ پ و ت اثر مویینگی را برای جیوه، در چنین لوله‌هایی نشان می‌دهد.</div>
+    <br>
+   
+    <br>
+    <div class="MsoStep">فعالیت 2ـ6</div>
+ 
+    <div class="MsoNormal">در ساختن دیوارهای ساختمان باید اثر مویینگی در نظر گرفته شود، زیرا تراوش آب از منفذهای مویین در این دیوارها می‌تواند سبب خسارت در داخل ساختمان شود. برای جلوگیری از این خسارت، دیوارهای داخلی یا خارج ساختمان را معمولاً با مواد ناتراوا (مانند قیر) می‌پوشانند. تحقیق کنید در معماری سنتی ایران به جای قیراندود کردن، چگونه از نفوذ آب به داخل سازه‌ها جلوگیری می‌کردند.</div>
+  
+    <br>
+  
+    
+</body>
+
+
+
+
+
+</html>

@@ -1,0 +1,2327 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi {
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSemic,
+        li.MsoSemic,
+        div.MsoSemic {
+            margin: 0in;
+           
+            font-size: clamp(1.2rem, 1.6vw, 1.3rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #b19af2;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #6ca4ec;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .boxp {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .boxg {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#00f2ff11; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        .boxb {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#0c4e9f2d; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        ::selection {
+            background-color: #59078fa1; /* Change this to your desired highlight color */
+            color: #ffffff; /* Change this to your desired text color */
+          }
+
+
+          mark{
+            background-color:#078b8fa1 ;
+            color: #ffffff;
+            padding: 0 7px;
+        }
+
+        .hlg { background-color: rgba(0, 234, 255, 0.334);  }
+        .hlp { background-color:#5f1487; }
+      
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+    <body class="custom-scrollbar">
+
+     
+
+
+            <p class="MsoBold">درس ۲:
+                <br>
+                جبر مجموعه‌ها</p>
+
+            <p class="MsoNormal">
+                یادآوری: در سال‌های قبل با مفهوم مجموعه آشنا شده‌اید؛ برای مثال، مجموعه اعداد اول یک‌رقمی به صورت زیر است:
+            </p>
+
+            <p class="MsoNormal" style="text-align: center;">$$ A = \{2, 3, 5, 7\} $$</p>
+
+            <p class="MsoNormal">
+                می‌توان این مجموعه را با نمادهای ریاضی به صورت 
+                $ A = \{x \in P \, | \, x < 10\} $
+                نوشت که در آن $P$ مجموعه اعداد اول است. چون عدد $2$ متعلق به مجموعه $A$ است، می‌نویسیم $2 \in A$، 
+                از طرفی واضح است که $6 \notin A$، به مجموعه $A$ تعلق ندارد.
+            </p>
+
+            <br><hr><br>
+
+            <p class="MsoBold">تعداد زیرمجموعه‌های یک مجموعه</p>
+
+            <p class="MsoStep">فعالیت</p>
+
+            <p class="MsoNormal">
+                مجموعه $A = \{a, b, c\}$ را در نظر بگیرید.
+            </p>
+
+
+            <br>
+
+
+            <p class="MsoNormal">۱. همه زیرمجموعه‌های $A$ را بنویسید.</p>
+
+            <br><br>
+
+            <p class="MsoNormal">
+                ۲. با دو رقم $۰$ و $۱$ می‌توانیم زیرمجموعه $B = \{b, c\}$ از مجموعه $A$ را با کد سه‌رقمی $011$ مشخص کنیم؛ 
+                 $a \notin B$
+                 
+               
+                 متناطر با آن کد
+                0
+                 ،
+                   و 
+                   
+                   $c \in B$ 
+                و
+                $b$
+                متناظر با آن‌ها کد ۱ 
+                   را در نظر گرفته‌ایم. 
+
+
+
+                همچنین زیرمجموعه $\{a\} {\subseteq} A$ را با کد ۱۰۰ متناظر می‌کنیم.
+                اکنون شماره‌گذاری زیرمجموعه‌های $A$ را با کدهای سه‌رقمی نظیر کنید.
+            </p>
+            
+            <br><br>
+
+            <p class="MsoNormal">
+                ۳. با این روش کدگذاری و به کمک اصل ضرب (سال گذشته در فصل شمارش، بدون شمردن خوانده‌اید)، 
+                تعداد زیرمجموعه‌های $A$ را تعیین کنید.
+            </p>
+
+            <br><br>
+
+            <p class="MsoNormal">
+                4.
+                فرض کنید $A = \{ \alpha_1, \alpha_2, \alpha_3, \alpha_4\}$، با روش کدگذاری با رقم‌های ۰ و ۱ و به کمک اصل ضرب تعیین کنید که $A$ چند زیرمجموعه دارد.
+            </p>
+
+            <br><br>
+
+
+
+            <p class="MsoNormal">۵. اگر $A = \{ \alpha_1, \alpha_2, \alpha_3, \dots, \alpha_n\}$، در این صورت، با این روش کدگذاری مشخص کنید که $A$ چند زیرمجموعه دارد.</p>
+
+            
+            <br><hr><br>
+
+            <p class="MsoNormal">
+                فرض کنید $A$ یک مجموعه $n$ عضوی باشد. تعداد زیرمجموعه‌های $A$ برابر با $2^n$ است.
+            </p>
+
+            <Br><Hr><Br>
+
+            <p class="MsoNormal">
+                مثال: مجموعه $A = \{a, \{a\}, {\emptyset} \}$ را در نظر بگیرید و همه زیرمجموعه‌های $A$ را در یک مجموعه بنویسید.
+            </p>
+
+            <br><hr><br>
+
+            <p class="MsoNormal">
+                مجموعه همه زیرمجموعه‌های $A$، مجموعه توانایی $A$ نامیده می‌شود و آن را با $P(A)$ نمایش می‌دهیم.
+                اگر $n$ عضو داشته باشد، در این صورت $P(A)$ شامل $2^n$ عضو دارد. 
+                <Br>
+                اگر $A {\subseteq} B$ به‌طوری که $A \neq B$، آن‌گاه $A$ زیرمجموعهٔ محض یا سرهٔ $B$ نامیده می‌شود.
+            </p>
+
+            <br><hr><Br>
+
+            <p class="MsoNormal">
+                مثال: مجموعه $\{a\}$ را در نظر بگیرید. اگر به اعضای $A$ دو عضو اضافه کنیم، تعداد زیرمجموعه‌های آن ۴۸ واحد افزایش می‌یابد. مشخص کنید چه تعداد عضوی است.
+            </p>
+<br>
+            <p class="MsoNormal">
+                حل: فرض کنید $A$ دارای $n$ عضو باشد. یعنی در حالت عادی، تعداد زیرمجموعه‌های این مجموعه برابر با $2^n$ است. 
+                اگر به اعضای $A$ دو عضو اضافه شود، در این صورت تعداد زیرمجموعه‌های $A$ ۴۸ واحد افزایش می‌یابد:
+            </p>
+            <br>
+            <p class="MsoNormal" style="text-align: left;">
+                $
+                \begin{align*}
+                & 2^n + 48 = 2^{n+2} \\\\
+                \implies & 2^n + 48 = 4 \times 2^n \\\\
+                \implies & 4 \times 2^n - 2^n = 48  \\\\
+                \implies & 3 \times 2^n = 48 \\\\
+                \implies & 2^n = 16 = 2^4 \\\\
+                \implies & n = 4
+                \end{align*}
+                $
+            </p>
+            <br>
+
+            <p class="MsoNormal">
+                در نتیجه مجموعه $A$، چهار عضوی است.
+            </p>
+
+            <br><hr>
+
+            <p class="MsoBold">تعریف زیرمجموعه به کمک نمادهای ریاضی</p>
+
+            <p class="MsoNormal">
+                فرض کنید $A$ و $B$ دو مجموعه باشند. به‌طوری که هر عضو $A$، عضوی از $B$ باشد. در این صورت $A$ را زیرمجموعه $B$ نامیده و می‌نویسند $A {\subseteq} B$. 
+                اگر عضوی در $B$ وجود داشته باشد، به‌طوری که آن عضو در مجموعه $A$ نباشد، در این صورت $A {\subseteq} B$ نیست و می‌نویسند $A \not{\subseteq} B$. 
+                با استفاده از نمادهای ریاضی می‌توان تعریف‌های زیر را نوشت:
+            </p>
+
+            <p class="MsoNormal" style="text-align: center;">
+                $$
+                A {\subseteq} B \iff {\forall} x \, {;} \, (x \in A \implies x \in B)
+                $$
+                $$
+                A \not{\subseteq} B \iff {\exists} x \, {;} \, (x \in A \land x \notin B)
+                $$
+            </p>
+
+
+            <br><hr><br>
+
+            <p class="MsoBold">روش عضوگیری دلخواه</p>
+
+            <p class="MsoNormal">
+                هرگاه بخواهیم ثابت کنیم $A {\subseteq} B$ و اعضای مجموعه‌های $A$ و $B$ در دسترس نباشند، کافی است عضوی دلخواه مانند $x$ از $A$ فرض کنیم. سپس با استفاده از فرض‌های داده شده نشان دهیم که $x$ در $B$ وجود دارد. از آنجا که $x$ دلخواه بوده است در واقع هر عضو $A$ در $B$ است. 
+            </p>
+
+            <br>
+
+            <p class="MsoNormal">
+                باتوجه به تعریف زیرمجموعه، ثابت کرده‌ایم $A {\subseteq} B$، در زیر چند ویژگی مهم در مجموعه‌ها با روش عضوگیری دلخواه ثابت شده است:
+            </p>
+
+            <br>
+
+            <p class="MsoSemi">ویژگی ۱:</p>
+
+            <p class="MsoNormal">
+                فرض کنید $A$, $B$ و $C$ در مجموعه با
+                 مرجع $U$ باشند،
+                 به‌طوری که 
+                 $A {\subseteq} B$ 
+                 و 
+                 $B {\subseteq} C$ 
+
+                 ثابت کنید 
+                 $ A {\subseteq} C $
+                 .
+                
+                    برای اثبات
+                    $ A {{\subseteq}} C $
+                    باید نشان دهیم که 
+                    :
+
+            </p>
+
+            <p class="MsoNormal" style="text-align: center;">
+                $$
+                {\forall} x {;} (x \in A \implies x \in C)
+                $$
+            </p>
+
+            <p class="MsoNormal">
+                برای این منظور از فرض‌ها یعنی $B {\subseteq} C$ و $A {\subseteq} B$ استفاده می‌کنیم:
+            </p>
+
+            <p class="MsoNormal" style="text-align: center;">
+                $$
+               {\forall} x {;} x \in A \overset{A \subseteq B}{\implies} x \in B \overset{B \subseteq C}{\implies} x \in C
+                $$
+            </p>
+
+            <p class="MsoNormal">
+                در نتیجه داریم:
+            </p>
+
+            <p class="MsoNormal" style="text-align: center;">
+                $$
+                {\forall} x ; (x \in A \implies x \in C) \implies A {\subseteq} C
+                $$
+            </p>
+
+            <br>
+
+            <p class="MsoSemi">ویژگی ۲:</p>
+
+            <p class="MsoNormal">
+                فرض کنید $A$ و $B$ دو مجموعه با مرجع $U$ باشند، 
+                ثابت کنید
+                $ B' {\subseteq} A' $
+                .
+                <br>
+                (
+                    $A'$ 
+                    و
+                    $B'$
+                    به ترتیب متمم‌های مجموعه‌های 
+                    $A$
+                    و
+                    $B$
+                    هستند.
+                )
+            </p>
+
+           <br>
+
+       
+            <p class="MsoNormal">
+                قبل از اثبات این ویژگی،
+                 تعریف متمم یک مجموعه را یادآوری می‌کنیم.
+                  فرض کنیم $A$ مجموعه‌ای با مرجع $U$ باشد.
+                   متمم مجموعه $A$ برابر با مجموعه‌ای از اعضای $U$ است
+                   که متعلق به مجموعه $A$ نباشند و آن را با $A'$ نمایش می‌دهند:
+            </p>
+
+            <p class="MsoNormal" style="text-align: center;">
+                $$ A' = \{ x \in U \, | \, x \notin A \} $$
+            </p>
+
+            <p class="MsoNormal">
+                
+            از این تعریف نتیجه می‌گیریم که اگر 
+            $x \in A$ 
+            آنگاه 
+            $x \notin A'$
+             و اگر 
+             $x \in A'$
+              آنگاه 
+             $x \notin A$.
+            </p>
+
+            <br>
+
+
+
+            <p class="MsoNormal">
+                اثبات: برای اینکه ثابت کنیم $B' \subseteq A'$ باید نشان دهیم که:
+            </p>
+
+            <p class="MsoNormal" style="text-align: center;">
+                $$ {\forall} x {;} (x \in B' \implies x \in A') $$
+            </p>
+
+            <p class="MsoNormal">
+                باتوجه به فرض داریم:
+            </p>
+
+            <p class="MsoNormal" style="text-align: center;">
+                $$ {\forall} x {;} ( x \in B' \implies x \notin B \overset{A \subseteq B}{\implies} x \notin A \implies x \in A' ) $$
+            </p>
+
+            <p class="MsoNormal">
+                در نتیجه:
+            </p>
+
+            <p class="MsoNormal" style="text-align: center;">
+                $$ {\forall} x {;} ( x \in B' \implies x \in A' ) \implies B' \subseteq A' $$
+            </p>
+            <br>
+
+            <p class="MsoSemi">ویژگی ۳:</p>
+
+            <p class="MsoNormal">
+                برای هر مجموعه دلخواه مانند $A$ با مجموعه مرجع $U$ ثابت کنید 
+                :
+                $ {\varnothing} \subseteq A $
+                .
+            </p>
+
+            <br>
+
+
+            <p class="MsoNormal">
+                اثبات: برای  اثبات   $ {\varnothing} \subseteq A $  باید نشان دهیم که ارزش گزاره شرطی 
+                
+                $ {\forall} x {;} (x \in {\emptyset} \implies x \in A)$
+                
+                همواره درست است. چون در 
+      
+                این گزاره شرطی، ارزش مقدم یعنی $x \in {\varnothing}$ نادرست است، 
+                پس به انتفای مقدم ارزش گزارهٔ شرطی درست است و در نتیجه:
+   
+                $ {\varnothing} \subseteq A $
+
+            </p>
+
+
+
+            <br><hr><br>
+
+
+            <p class="MsoStep">کار در کلاس</p>
+
+            <p class="MsoNormal">۱. برای مجموعه‌های $A$ و $B$ با مرجع $U$ ثابت کنید که $A \subseteq A \cup B$.</p>
+            <p class="MsoNormal">اثبات:</p>
+
+            <p class="MsoNormal" style="text-align: center;">
+                $$ {\forall} x {;}  ( {x \in A} \implies {x \in A}  \lor {\ x \in B} ) \implies x \in A \cup B $$
+            </p>
+
+            <p class="MsoNormal" style="text-align: center;">
+                $$ {\forall} x {;}  (x \in A \implies x \in A \cup B) \implies A \subseteq A \cup B $$
+            </p>
+
+            <p class="MsoNormal">بنابراین داریم: درستی استدلال بالا را توضیح دهید.</p>
+
+<br><br>
+
+
+
+            <p class="MsoNormal">۲. فرض کنیم $A, B, C, D$ چهار مجموعه با مرجع $U$ باشند. ثابت کنید: اگر $A \subseteq B$ و $C \subseteq D$ آن‌گاه $A \cup C \subseteq B \cup D$.</p>
+        
+
+            <br>
+           
+            <p class="MsoNormal">اثبات: جاهای خالی را پر کنید:</p>
+
+<br>
+            <div class="custom-scrollbar" style="overflow-x: auto; overflow-y:hidden;direction:ltr;">
+            <p class="MsoNormal" style="text-align: center;">
+                $$ {\forall} x {;} [x \in (A \cup C)] \implies
+                \begin{cases}
+                    x \in A \implies \cdots & (  A \subseteq B \quad \text{زیرا} ) \\ \\
+                    \lor \\ \\
+                    \cdots \implies x \in D & (  C \subseteq D \quad \text{زیرا} ) \\ \\
+                \end{cases} 
+                \implies x \in B \quad \lor \quad x \in D \implies \ \ . . . . .
+                $$
+            </p>
+            <br>
+        </div>
+
+            <br>
+            <p class="MsoNormal">بنابراین داریم:</p>
+
+            <p class="MsoNormal" style="text-align: center;">
+                $$ {\forall} x {;} [x \in (A \cup C) \implies x \in (B \cup D)] \implies \ \ . . . . . . $$
+            </p>
+
+
+    <Br><Br>
+
+        <p class="MsoNormal">
+            ۳. فرض کنیم $A$ و $B$ و $C$ سه مجموعه با مرجع $U$ باشند، ثابت کنید: اگر $A \subseteq C$ و $B \subseteq C$ آن‌گاه $A \cup B \subseteq C$.
+        </p>
+        
+        <Br>
+
+            
+        <p class="MsoNormal">راهنمایی: از ویژگی قسمت ۲ استفاده کنید.</p>
+        
+        <br><hr><br>
+        
+        <p class="MsoBold">دو مجموعه مساوی</p>
+        
+        <p class="MsoNormal">
+            فرض کنیم $A$ و $B$ دو مجموعه با مرجع $U$ باشند به طوری که هر عضو $A$، عضوی از $B$ و هر عضو $B$ عضوی از $A$ باشد؛
+            یعنی $A \subseteq B$ و $B \subseteq A$، در این صورت $A$ با $B$ مساوی است و می‌نویسیم: $A = B$. به عبارت دیگر می‌توان تساوی دو مجموعه
+            را به صورت زیر نوشت:
+        </p>
+        
+        <p class="MsoNormal" style="text-align: center;">
+            $$ A = B \iff [(A \subseteq B) \land (B \subseteq A)] $$
+        </p>
+        
+        <br><hr><br>
+        
+        <p class="MsoStep">کار در کلاس</p>
+        
+        <p class="MsoNormal">
+            فرض کنید $A = \{ 1, 2 \}$، کدام یک از مجموعه‌های زیر با $A$ مساوی است؟ (با ذکر دلیل).
+        </p>
+        
+        <br>
+        
+        <div class="MsoNormal" style="direction: ltr;">
+            <p class="MsoNormal">(الف) $ \{ x \in \mathbb{Q} \, | \, x^2 - 3x = 0 \} $</p>
+        <br>
+        
+        <p class="MsoNormal">(ب) $ \{ x \in \mathbb{R} \, | \, 1 \leq x \leq 2 \} $</p>
+        <br>
+        <p class="MsoNormal">(پ) $ \{ x \in \mathbb{Q} \, | \,  2x^2 + 3x + 1 = 0   \} $</p>
+        <br>
+        <p class="MsoNormal">(ت) $ \{ x \in \mathbb{N} \, | \, 1 \leq x \leq 2 \} $</p>
+        
+        </div>
+   
+        <br><br>
+
+        
+        <p class="MsoSemi" style="font-size: larger;">مثال:</p>
+        
+        <p class="MsoNormal">
+            فرض کنیم $A$ و $B$ دو مجموعه با مرجع $U$ باشند، ثابت کنید: $A \cap B = B \cap A$. (خاصیت جابه‌جایی اشتراک).
+        </p>
+        <Br>
+        <p class="MsoNormal">اثبات: برای اثبات حکم باید درستی دو رابطهٔ زیر را نشان دهیم:</p>
+       
+        <Br>
+        <div class="MsoNormal" style="direction: ltr;">
+             
+        <p>
+            (۱)   $ A \cap B \subseteq B \cap A  $
+           </p>
+
+           <p>
+            (۲)   $ B \cap A \subseteq A \cap B  $
+           </p>
+           
+        </div>
+
+
+        <br><br>
+
+        <p class="MsoSemi">اثبات:
+            (۱) :
+        
+        </p>
+
+        <p class="MsoNormal">
+            ( 
+      
+            طبق خاصیت جابه‌جایی
+            $\land$
+            )
+        
+        </p>
+        <br>
+
+        <p class="MsoNormal" style="text-align: center;">
+ 
+            $
+            \begin{align*}
+            & \forall x; \, [ x \in (A \cap B) \\\\
+              \implies & x \in A \land x \in B \\\\
+              \implies & x \in B \land x \in A \\\\
+              \implies & x \in (B \cap A) ] 
+            \end{align*}
+            $
+        </p>
+
+   <br>
+        <p class="MsoNormal">به روش مشابه می‌توان درستی رابطه (۲) را نشان داد.</p>
+
+        <br>
+
+        <p class="MsoSemi">مثال:</p>
+
+        <p class="MsoNormal">
+            فرض کنیم $A$ و $B$ دو مجموعه با مرجع $U$ باشند؛ ثابت کنید که اگر $A \subseteq B$ آن‌گاه $A - B = \emptyset$.
+        </p>
+        <br>
+
+
+        <p class="MsoSemi">اثبات:</p>
+
+        <p class="MsoNormal" style="text-align: center;">
+
+
+            $$
+            
+            \begin{align*}
+            &A - B = \{ x \in U \, | \, x \in A \land x \notin B \} \\\\
+            &= \{ x \in U \, | \, x \in B \land x \notin B \} \\\\
+             &{\varnothing}  =  A - B
+            \end{align*}
+
+            $$
+        </p>
+
+
+        <br><hr><br>
+
+        <p class="MsoBold">قوانین و اعمال بین مجموعه‌ها</p>
+
+        <p class="MsoNormal">
+            حال به بررسی قوانین و خواص مربوط به اعمال اجتماع و اشتراک و برای دو عمل جمع $(+)$ و ضرب $(\times)$ قوانینی چون جابه‌جایی، شرکت‌پذیری و توزیع‌پذیری می‌پردازیم. یعنی می‌دانیم:
+        </p>
+
+        <br>
+
+        <p class="MsoNormal" style="text-align:center;">
+            (1)
+         خاصیت جابه‌جایی:
+    
+            $$  {\forall} \ \ a {,} b \in R \quad {;} \quad {a + b} \ \ {=} \ \ {b + a} $$
+        </p>
+
+        <br>
+
+        <p class="MsoNormal" style="text-align: center;">
+            (2)
+            خاصیت شرکت‌پذیری:
+            $$  {\forall} \ \ a {,} b {,} c \ \ {\in} \ \ R {;} \begin{cases} 
+            a + (b + c) = (a + b) + c \\ \\
+            a \times (b \times c) = (a \times b) \times c \\ \\
+            \end{cases} $$
+        </p>
+
+        <br>
+
+        <p class="MsoNormal" style="text-align: center;">
+            (3)
+            خاصیت توزیع‌پذیری $(\times)$ نسبت به $(+)$:
+
+            $$  {\forall} \ \ a {,} b {,} c \ \ {\in} \ \ R {;} \ \  a \times (b + c) = (a \times b) + (a \times c) $$
+        </p>
+
+        <br>
+
+        <p class="MsoNormal">
+            توجه دارید که عمل $\times$ نسبت به عمل $+$ توزیع‌پذیر نیست. (با ذکر یک مثال نقض این مطلب را نشان دهید.)
+        </p>
+
+        <br>
+
+        <p class="MsoNormal">
+            در مجموعه‌ها نیز دو عمل $\cup$ و $\cap$ خواص مشابه فوق داشته، با توجه به خواصی که
+             در گزاره‌ها برای دو ترکیب $\lor$ و $\land$ بیان شد قابل بررسی و اثبات می‌باشند. در فعالیت زیر، 
+             ابتدا توسط نمودار ون برقراری این خواص را مشاهده می‌کنید.
+        </p>
+
+        <br><hr><br>
+
+        <p class="MsoStep">فعالیت</p>
+
+        <p class="MsoNormal">
+            ۱. در هر یک از حالت‌های زیر مجموعه‌های خواسته‌شده را هاشور بزنید. (برای هاشور زدن حالت $(\cap)$ از دو رنگ استفاده کنید.)
+        </p>
+
+        <br><Br>
+
+            <p class="MsoNormal">
+                با فرض اینکه 
+                $ U = \{ 1, 2, 3, 4, 5, 6 \} $
+                و  $ A = \{ 1, 2, 3 \} $
+                و  $ B = \{ 3, 4, 5 \} $
+                و  $ C = \{ 1, 2, 5, 6 \} $
+                 در این صورت، درستی هر یک از تساوی‌های زیر را بررسی کنید:
+            </p>
+            
+            <br>
+            
+            <div class="MsoNormal" style="text-align: left; direction:ltr">
+
+            <p>(الف) $ A \cap B = B \cap A $</p>
+            <p>(ب) $ A \cap (B \cap C') = (A \cap B) \cap C' $</p>
+            <p>(پ) $ A \cap (B \cup C') = (A \cap B) \cup (A \cap C') $</p>
+            
+            </div>
+
+
+            <br>
+            
+            <p class="MsoNormal">
+                یادآوری: برای اثبات تساوی بین دو مجموعه $ A $ و $ B $ می‌بایست ثابت کنیم $ A \subseteq B $ و $ B \subseteq A $.
+            </p>
+            
+            <br><hr><br>
+            
+            <p class="MsoStep">کار در کلاس</p>
+            
+            <p class="MsoNormal">
+                با توجه به تعریف اعمال اجتماع و اشتراک و خواص جابه‌جایی، شرکت‌پذیری و توزیع‌پذیری دو ترکیب فصلی و عطفی، می‌خواهیم این خواص یا قوانین را برای $ \cup $ و $ \cap $ اثبات کنیم. شما این اثبات‌ها را کامل کنید:
+            </p>
+            
+            <br>
+            
+            <p class="MsoNormal">۱. ثابت کنید، برای هر دو مجموعه دلخواه $ A $ و $ B $ از مجموعه مرجع $ U $، داریم:
+                $ A \cup B = B \cup A $
+            </p>
+      <br>
+            <p class="MsoNormal" style="text-align: left;">
+                $ 
+                \begin{align*}
+                A \cup B &= \{ x \in U \, | \, x \in A \, \lor \, ... \}  \qquad \text{تعریف‌اجتماع} \\ \\
+                &= \{ x \in U \, | \, x \in B \, \lor \, ... \} \qquad  \text{«v»جابه‌جایی}  \\ \\
+                &= B \cup A   \qquad  \qquad   \qquad  \qquad \text{تعریف اجتماع}
+                \end{align*} 
+                $
+            </p>
+            
+            <br><br>
+            
+
+            <p class="MsoNormal">
+                ۲. ثابت کنید، برای سه مجموعه دلخواه $ A $، $ B $ و $ C $ از مجموعه مرجع $ U $، داریم:
+            </p>
+            <br>
+            <div class="custom-scrollbar" style="overflow-x: auto; overflow-y:hidden;direction:ltr;">
+
+            
+                <p class="MsoNormal" style="text-align: left;">
+                    $
+                    \begin{align*}
+                    A \cup ( B \cup C ) &= ( A \cup B ) \cup C \\ \\
+                    A \cup (B \cup C) &= \{ x {\in} U \, | \, ... \lor \ \ x {\in} (B \cup C) \} \quad \text{تعریف‌اجتماع} \\ \\
+                    &= \{ x {\in} U \, | \, x {\in} A \lor (x {\in} B \lor ... ) \} \quad \text{تعریف‌اجتماع} \\ \\
+                    &= \{ x {\in} U \, | \, (... \lor x {\in} B) \lor x {\in} C \} \quad \text{«v»شرکت‌پذیری} \\ \\
+                    &= \{ x {\in} U \, | \, x {\in} (...)  \lor x {\in} C \} \quad \text{تعریف اجتماع} \\ \\
+                    &= (A \cup B) \cup C \quad \text{تعریف اجتماع}
+                    \end{align*}
+                    $
+                </p>
+            <br>
+        </div>
+
+            <br><br>
+
+            <p class="MsoNormal">
+                ۳. با استفاده از روش عضوگیری دلخواه، خاصیت توزیع‌پذیری 
+                $ \cup $ 
+                نسبت به 
+                $ \cap $
+                را ثابت کنید.
+                <br>
+                یعنی ثابت کنید:
+                $ A \cup (B \cap C) = (A \cup B) \cap (A \cup C) $
+            </p>
+            
+            <br>
+            <div class="custom-scrollbar" style="overflow-x: auto; overflow-y:hidden;direction:ltr;">
+
+            <p class="MsoNormal" style="text-align: left;">
+                $
+                \begin{align*}
+                
+                {\forall} x {;} & \ \ \text{فرض‌کنیم} \ \ x {\in} \ \ [ A \cup (B \cap C)] \\ \\
+                &\implies [x {\in} A \lor (x {\in} \ \ . . . )] \quad \text{تعریف اجتماع} \\ \\
+                &\implies [x {\in} A \lor ( x {\in} B \,  \land \ \ x {\in} \ \ . . .  )] \quad \text{تعریف اشتراک} \\ \\
+                &\implies [ ( x {\in} A \, \lor \, . . . ) \land ( . . . \, \lor \, x {\in} C ) ] \quad \land {\text{نسبت‌به}} \lor {\text{توزیع‌پذیری}}  \\ \\
+                &\implies [ x {\in} \, . . . \, \land \, x {\in} . . . ] \quad \cup \, {\text{تعریف}}  \\ \\
+                &\implies x {\in} [ ( A \cup B ) \cap \, . . . ] \quad \text{تعریف‌اشتراک} \\ \\
+                &\implies A \cup ( B \cap C ) \subseteq \, . . . 
+               \end{align*}
+                $
+            </p>
+            <br>
+            </div>
+
+            <Br><br>
+
+
+            <p class="MsoNormal">
+                به همین ترتیب ثابت می‌شود 
+                $ (A \cup B) \cap (B \cup C) \subseteq \dots $ 
+                بنابراین، دو مجموعه باهم برابراند. 
+                (
+               
+                توجه داریم که از طرف دیگر، خاصیت توزیع‌پذیری اصطلاحاً همان فاکتورگیری است، یعنی رسیدن از سمت راست تساوی به سمت چپ تساوی به معنای فاکتورگیری از «$A \cup$» است.
+            )
+            </p>
+            
+            <br><hr><br>
+
+            <p class="MsoSemi">تذکر:</p>
+            <br>
+            <p class="MsoNormal">
+                با توجه به تعریف متمم یک مجموعه، و اجتماع و اشتراک و مجموعه‌های مرجع و تهی، تساوی‌های زیر برقرارند:
+            </p>
+            
+            <div class="MsoNormal" style="text-align: left; direction:ltr">
+                <p>
+                    ۱) $A \, {\cup} \, A' \, = \, U$ <br>
+                    ۲) $A \, {\cap} \, A' \, = \, {\emptyset}$ <br>
+                    ۳) $A \, {\cup} \, U \, = \, U$ <br>
+                    ۴) $A \, {\cap} \, U \, = \, A$
+                </p>
+            </div>
+
+            <br><hr><br>
+
+            <p class="MsoSemi" style="font-size: larger;">مثال ۱:
+            </p>
+
+            <p class="MsoNormal">
+                با استفاده از خواص فوق ثابت کنید: 
+              (  $U$ مجموعه مرجع فرض شده است.)
+            </p>
+
+            <div class="MsoNormal" style="text-align: left; direction:ltr">
+
+            <p class="MsoNormal">
+                (الف) $(A  \cup B) \cap (B' \cup A) = A$ <br>
+                (ب) $(C \cap A) \cup (A' \cap \, C) = C$ <br>
+                (پ) $A \cup (B \cup A') = U$ <br>
+                (ت) $A - B \, {=} \, A \cap B'$
+            </p>
+            </div>
+            
+
+            <Br><br>
+
+
+            <div class="custom-scrollbar" style="overflow-x: auto;overflow-y:hidden;direction:ltr;">
+
+            
+            <p class="MsoNormal">
+
+                $
+
+                \begin{align*}
+                
+                {\text{ (الف) }} \quad {( A \cup B )} {\cap} {( B' \cup A )} & = (A \cup B) \cap (A \cup B') {\qquad} \text{جابه‌جایی} \\\\
+ 
+                &= A \cup ( B \cap B')  {\qquad} \text{خاصیت‌توزیع‌پذیری}  \\ \\
+
+                &= A \cup {\varnothing} \\ \\
+
+                &= A 
+                \end{align*}
+                
+                $
+            </p>
+
+            <br>
+                
+        </div>
+            
+        <br><br><br>
+
+
+
+        <div class="custom-scrollbar" style="overflow-x: auto;overflow-y:hidden;direction:ltr;">
+
+
+        <p class="MsoNormal">
+
+            $
+            
+            \begin{align*}
+
+            {\text{(ب)}} {\quad} ( C \cap A ) \cup ( A' \cap C ) &= ( C \cap A ) \cup ( C \cap A' ) \qquad  \text{جابه‌جایی} \\ \\
+
+            &= C \cap ( A \cup A') = C \cap U = C \qquad \text{توزیع‌پذیری} \\ \\
+
+            \end{align*}
+            
+            $
+
+
+        </p>
+        <br>
+
+        </div>
+
+        <br><br><br>
+
+
+
+        <div class="custom-scrollbar" style="overflow-x: auto;overflow-y:hidden;direction:ltr;">
+
+
+            <p class="MsoNormal">
+
+
+                $
+                
+                \begin{align*}
+
+                {\text{(پ)}} \quad A \cup ( B \cup A' ) &= A \cup ( A' \cup B )  \qquad \text{جابه‌جایی}  \\ \\
+
+                &= ( A \cup A' ) \cup B = U \cup B = U \qquad \text{شرکت‌پذیری}
+
+                \end{align*}
+                
+                
+                $
+
+
+            </p>
+
+            <br>
+
+        </div>
+
+
+        <br><br>
+
+
+
+        <div class="custom-scrollbar" style="overflow-x: auto;overflow-y:hidden;direction:ltr;">
+
+
+            <p class="MsoNormal">
+
+                \begin{align*}
+
+                \text{(ت)} \quad A - B &= \{  x {\in} U \, | \, x {\in} A \land x \notin B  \} = \{  x {\in} U \, | \, x {\in} A \land x {\in} B' \} \qquad \text{تعریف‌متمم} \\\\
+
+                &= A \cap B'  \qquad \text{تعریف‌اشتراک}
+
+                \end{align*}
+
+
+            </p>
+
+
+            <br>
+        </div>
+
+        <br><hr><br>
+
+        <p class="MsoSemi" style="font-size:larger;">قضیه:</p>
+        <p class="MsoNormal">
+            برای هر دو مجموعهٔ دلخواه از مجموعهٔ مرجع $U$، داریم:
+        </p>
+        <br>
+
+
+        <p class="MsoNormal" style="direction:ltr;text-align:left;">
+            (الف) $A \subseteq B \iff A \cup B = B$ <br>
+            (ب) $A \subseteq B \iff A \cap B = A$
+        </p>
+
+        <br>
+
+
+        <p class="MsoSemi">
+            برهان:
+        </p>
+        <p class="MsoNormal">
+           قبل از اثبات دقیق، ابتدا در نمودارهای زیر $(A \cup B)$ و $(A \cap B)$ را هاشور بزنید.
+        </p>
+    <Br>
+        <p class="MsoNormal">
+            همان‌طور که ملاحظه می‌کنید، هر یک از حالت‌های (الف) و (ب)، قضیه‌هایی دو شرطی بوده و برای اثبات هر یک از آن‌ها باید
+            دو قضیهٔ شرطی را ثابت کنیم.
+        </p>
+        <br>
+        <p class="MsoNormal">
+            <b>(الف)</b> فرض کنیم: $A \subseteq B$ و ثابت می‌کنیم: $A \cup B = B$ 
+        </p>
+        <Br>
+        <p class="MsoNormal">
+            برای این منظور باید ثابت کنیم: $(A \cup B) \subseteq B$ و $B \subseteq ( A \cup B)$.
+        </p>
+        <br>
+        <p class="MsoNormal">
+            رابطهٔ $B \subseteq (A \cup B) $ $(1)$ با توجه به تعریف اجتماع بدیهی است؛
+             بنابراین، به اثبات رابطه $ (A \cup B) \subseteq B$ می‌پردازیم:
+        </p>
+        <Br>
+
+            
+        <p class="MsoNormal" style="text-align: left; direction:ltr;">
+            $
+            \text{می‌دانیم:} \ \ B \subseteq B 
+            $
+            <br>
+            $
+            \text{طبق‌فرض:} \ \ A \subseteq B 
+            $
+
+            <br>
+
+            $
+            
+    
+            
+             \implies  ( A \cup B ) \subseteq ( B \cup B ) 
+             \implies  ( A \cup B ) \subseteq B \qquad (2)
+ 
+   
+            
+            $
+        </p>
+
+
+        <br><br>
+
+
+        <p class="MsoNormal">
+
+                    ( با توجه به (۱) و (۲) تساوی $ A \cup B = B $ 
+                    اثبات شده و حکم به دست می‌آید.
+                    )
+
+        </p>
+
+
+        <br>
+
+        <p class="MsoNormal" style="text-align:left; direction:ltr;">
+ 
+         $
+         
+         (1) {\text{و}} (2)
+         
+         $
+            $
+
+            \implies ( A \cup B ) = B
+            $
+
+
+        </p>
+
+        <br>
+        <p class="MsoNormal">
+            حال فرض کنیم $A \cup B = B$ , ثابت می‌کنیم $A \subseteq B$;
+        </p>
+
+        <br>
+
+        <p class="MsoNormal">
+
+            با توجه به تعریف اجتماع می‌دانیم:
+        </p>
+
+        <br>
+        <p class="MsoNormal" style="text-align: center;">
+            $
+             A \subseteq ( A \cup B ) \ \  \overset{ A \cup B = B }{\implies} \ \  A \subseteq B {\quad} {\text{(1)}}
+            $
+        </p>
+        <br>
+        <p class="MsoNormal">
+            (ب) ابتدا فرض کنیم $A \subseteq B$ , تساوی $A \cap B = A$ را اثبات می‌کنیم:
+        </p>
+        <br>
+        <p class="MsoNormal">
+
+         با توجه به تعریف اشتراک داریم
+        :
+        $$
+
+        (A \cap B ) \subseteq A \quad  \text{(1)}
+
+        $$
+        </p>
+
+        <br>
+        <p class="MsoNormal" style="text-align: left;">
+            $
+            \begin{align*}
+            & \text{می‌دانیم:} \quad A \subseteq B \\ \\
+            & \text{طبق فرض:} \quad A \subseteq B  \\ \\
+            & \implies  (A \cap B) \subseteq (A \cap B ) \implies A \subseteq ( A \cap B ) \quad \text{(2)} \\ \\
+            \end{align*}
+            $
+        </p>
+        <br>
+
+        <p class="MsoNormal">
+
+            (با توجه به 
+            (۱)
+            و
+            (۲)
+            تساوی
+            $ A \cap B = A $
+
+            ,
+
+            به دست می‌آید.
+            
+            )
+        </p>
+
+        <br>
+
+        <p class="MsoNormal" style="direction:ltr;text-align:left;">
+
+            $(1)
+            و 
+            (2)$
+            
+            $ \implies ( A \cap B ) = A $
+        
+        </p>
+
+        <Br>
+        <p class="MsoNormal">
+            حال فرض کنیم $A \cap B = A$ , ثابت می‌کنیم $A \subseteq B$
+            ;
+        </p>
+        <br>
+        <p class="MsoNormal">
+          با توجه به تعریف اشتراک می‌دانیم
+       :
+       $$
+
+       ( A \cap B ) \subseteq B \ \ \overset{ A \cap B = A }{\implies} \ \ A \subseteq B
+
+       $$
+        </p>
+   
+<br><hr><Br>
+
+
+    <p class="MsoStep">کار در کلاس</p>
+
+    <p class="MsoNormal">
+        (قوانین جذب یا هم‌پوشانی) اگر $A$ و $B$ دو مجموعه دلخواه از مجموعه مرجع $U$ باشند، می‌خواهیم تساوی‌های زیر را که به قوانین جذب معروف‌اند، با استفاده از قضیهٔ قبل و تعریف اجتماع و اشتراک اثبات کنیم:
+    </p>
+
+  <div class="MsoNormal" style="direction:ltr;text-align:left;">
+
+    <p class="MsoNormal">(الف) $A \cup (A \cap B) = A$</p>
+    
+    <p class="MsoNormal">(ب) $A \cap (A \cup B) = A$</p>
+
+
+  </div>
+
+    <br>
+
+    <p class="MsoNormal">
+        در قضیهٔ قبل ملاحظه کردید که اگر $C \subseteq D$ در این صورت $(C \cup D) = D$ و $(C \cap D) = C$ است.
+    </p>
+
+    <br>
+
+    <p class="MsoSemi" style="font-size: larger;">اثبات الف</p>
+    <p class="MsoNormal">
+  
+
+        طبق تعریف اشتراک می‌دانیم 
+        :
+
+  
+        
+       $$(A \cap B) \subseteq A \ \ \overset{ \text{قضیه} }{\implies} \ \ A \cup \, ( . . . . ) \, = \, . . . .   $$
+    
+    </p>
+
+    <br><br>
+
+  
+    <p class="MsoSemi" style="font-size: larger;">اثبات ب</p>
+    <p class="MsoNormal">
+  
+
+        طبق تعریف اجتماع می‌دانیم 
+        :
+
+  
+        
+       $$ A \subseteq ( A \cup B )  \ \  \overset{ \text{قضیه} }{\implies}  \ \  A \cup \, ( . . . . ) \, = \, . . . . 
+        $$
+
+    
+    </p>
+
+
+    <br><Br>
+
+
+    <p class="MsoNormal">
+        روش دیگری برای اثبات قوانین جذب نیز وجود دارد که شما با پرکردن جاهای خالی اثبات را کامل کنید:
+    </p>
+<br>
+    <div class="custom-scrollbar" style="overflow-x: auto;overflow-y:hidden; direction:ltr;">
+        <p class="MsoNormal" style="text-align: left;">
+            $ \begin{align*} \text{(الف)} \quad A \cup (A \cap B) &= (A \cap U) \cup (A \cap B) \\\\
+              &= A \cap \, (.....) \qquad \text{توزیع‌پذیری} \\\\
+              &= A \cap \, ..... \, = A \end{align*} $
+        </p><br>        
+    </div>
+<br><br>
+    <div class="custom-scrollbar" style="overflow-x: auto;overflow-y:hidden; direction:ltr;">
+        <p class="MsoNormal" style="text-align: left;">
+            $ \begin{align*} \text{(ب)} \quad A \cap (A \cup B) &= (A \cup U) \cap (A \cup B) \\\\
+              &= A \cup \, (.....) \qquad \text{توزیع‌پذیری} \\\\
+              &= A \cup \, ..... \, = A \end{align*} $
+        </p><br>        
+    </div>
+<br><br><br>
+    <p class="MsoSemi" style="font-size: larger;">مثال:</p>
+    <p class="MsoNormal">عبارت‌های زیر را ساده کنید:</p>
+<br>
+    <p class="MsoNormal" style="text-align: left; direction:ltr;">
+        $ \text{(الف)} \quad (A \cap B) \cup ((B \cup C) \cap [( B \cup A) \cap B ]) $
+    </p>
+<br>
+    <div class="custom-scrollbar" style="overflow-x: auto;overflow-y:hidden; direction:ltr;">
+    <p class="MsoNormal" style="text-align: left;direction:ltr;">
+        $ \begin{align*} (A \cap B) \cup ((B \cup C) \cap [( \underset{\text{جذب}}{B \cup A) \cap B}]) &= (A \cap B) \cup [(B \underset{\text{جذب}}{ \cup C) \cap \, } ..... \,  ] \\\\
+          &= \underset{\text{جذب}}{ (A \cap B) \cup } \, . . . . \, = \, . . . .  \end{align*} $
+    </p><br></div>
+<br><br>
+    <p class="MsoNormal" style="text-align: left; direction:ltr;">
+        $ \text{(ب)} \quad (A \cup B') \cap [(B \cap C) \cup (B' \cup A)] $
+    </p>
+<br>
+    <div class="custom-scrollbar" style="overflow-x: auto;overflow-y:hidden; direction:ltr;">
+    <p class="MsoNormal" style="text-align: left;direction:ltr;">
+        $ \begin{align*} (A \cup B') \cap [(B \cap C) \cup (B' \cup A)] &= ( \underset{\text{E}}{ A \cup B' } )
+        \cap [( \underset{\text{D}}{ B \cap C }) \cup ( \underset{\text{E}}{ A \cup } B')] \quad \text{جابه‌جایی} \\ \\
+        &= ( \underset{\text{E}}{ A \cup } B') \quad \text{جذب}  \end{align*} $
+    </p><br></div>
+<br><br><Br>
+    <p class="MsoSemi" style="font-size: larger;">مثال:</p>
+    <p class="MsoNormal">درستی هر یک از تساوی‌های زیر را بررسی کنید:</p>
+<br>
+    <div class="MsoNormal" style="text-align: left;direction:ltr">
+        <p>
+            (الف)
+            $ A - B = B' - A' $
+        </p>
+        <p>
+            (ب)
+            $ (X \subseteq A) \land (X \subseteq A') \implies X = {\varnothing} $
+        </p>
+        <p>
+            (پ)
+            $ (A - B) \cap (B - A) = {\varnothing}  $
+        </p>
+        <p>
+            (ت)
+            $ (A \cup B) - \, C = (A - \, C) \cup (B - \, C) $
+        </p>
+        <p>
+            (ث)
+            $ (A - B) \cup (A \cap B) \cup (B - A) = A \cup B $
+        </p>
+    </div>
+<br><br>
+    <p class="MsoSemi">حل:</p>
+<br>
+    <p class="MsoNormal" style="text-align: left;direction:ltr;">
+        $ \text{(الف)} \quad A - B = A \cap B' = B' \cap A = B' - A' $
+    </p>
+<br><br><br>
+    <p class="MsoNormal" style="text-align: left;direction:ltr;">
+        $ \text{(ب)} \quad 
+        \begin{cases} 
+        X \subseteq A \\\\
+        X \subseteq A' \\\\
+        \end{cases}
+        \implies ( X \cap X ) \subseteq ( A \cap A' ) \implies X \subseteq \, .... \ \ \text{(1)}
+        $
+    </p>
+<br>
+    <p class="MsoNormal">
+        از طرفی می‌دانیم
+        $ {\varnothing} \subseteq X $
+        و بنابراین:
+        $ X = {\varnothing} $
+    </p>
+<br><br><br>
+<div class="custom-scrollbar" style="overflow-x: auto;overflow-y:hidden; direction:ltr;">
+    <p class="MsoNormal" style="text-align: left;direction:ltr;">
+        $
+        \begin{align*}
+        (پ) \quad (A - B) \cap (B - A) &= ( A \cap B') \cap (B \cap A') \\ \\
+        &= [( A \cap B' ) \cap B] \cap A' \qquad \text{شرکت‌پذیری} \\ \\
+        &= [ A \cap ( B' \cap B ) ] \cap A' \qquad \text{شرکت‌پذیری} \\ \\
+        &= ( A \cap {\varnothing} ) \cap A' \qquad \text{تعریف‌متمم} \\ \\
+        &= {\varnothing} \cap A' = {\varnothing}
+        \end{align*}
+        $
+    </p>
+<br></div>
+<br><br><br>
+<div class="custom-scrollbar" style="overflow-x: auto;overflow-y:hidden; direction:ltr;">
+    <p class="MsoNormal" style="text-align: left;direction:ltr;">
+        $
+        \begin{align*}
+        (ت) \quad (A \cup B) - \, C &= (A \cup B) \cap C' \\ \\
+        &= (A \cap C') \cup (B \cap C') \qquad  \cup {\text{نسبت‌به} \cap {\text{توزیع‌پذیری}}} \\ \\
+        &= (A - C) \cup (B - C) \qquad \text{تبدیل‌اشتراک‌به‌تفاضل}
+        \end{align*}
+        $
+    </p>
+    <br></div>
+<br><br><br>
+<div class="custom-scrollbar" style="overflow-x: auto;overflow-y:hidden; direction:ltr;">
+    <p class="MsoNormal" style="text-align: left;direction:ltr;">
+        $
+        \begin{align*} 
+        & (ث) \quad (A - B) \cup (A \cap B) \cup (B - A) \\ \\
+        &= [ ( A - B ) \cup ( A \cap B ) ] \cup (B - A) \qquad \text{شرکت‌پذیری‌اجتماع} \\ \\
+        &= [( A \cap B' ) \cup ( A \cap B ) ] \cup (B \cap A') \qquad \text{تبدیل‌تفاضل‌به‌اشتراک} \\ \\
+        &= [ A \cap ( ..... \, \cup \, .....) ] \cup ( B \cap A' ) \qquad \text{توزیع‌پذیری} \\ \\
+        &= ( A \cap U ) \cup ( B \cap A' ) \qquad \text{تعریف‌متمم} \\ \\
+        &= A \cup ( B \cap A' ) \qquad \text{تعریف‌مرجع} \\ \\
+        &= ( A \cup \, ..... \, ) \, ..... \, ( A \cup \, ..... \, ) \qquad \text{توزیع‌پذیری} \\ \\
+        &= ( A \cup B ) \cap U  \qquad \text{تعریف‌متمم} \\ \\
+        &= A \cup B \qquad \text{تعریف‌مرجع} \\ \\
+        \end{align*}
+        $
+    </p>
+    <br></div>
+
+    <br><hr><br>
+
+    <p class="MsoBold">قوانین دمورگان</p>
+
+    <p class="MsoStep">فعالیت</p>
+
+    <p class="MsoNormal">
+        ۱. فرض کنیم $A$ و $B$ دو مجموعه از مجموعهٔ مرجع $U$ باشند. روی شکل سمت چپ، $(A' \cap B')'$ و روی نمودار سمت راست، $(A \cap B)'$ را هاشور بزنید. چه نتیجه‌ای می‌گیرید؟
+    </p>
+
+    <br><br>
+
+    <p class="MsoNormal">
+        ۲. اگر فرض کنیم: $U = \{0, 1, 2, ... , 10\}$، $A = \{2, 3, 5, 8\}$، $B = \{3, 4, 6, 8 \}$، هر یک از مجموعه‌های $(A' \cup B')$ و $(A \cap B)'$ را تشکیل داده و با هم مقایسه کنید. چه نتیجه‌ای می‌گیرید؟
+    </p>
+
+    <br>
+
+    <p class="MsoNormal">
+        تساوی‌های زیر را که به 
+        <mark class="hlp">قوانین دمورگان</mark>
+         معروف‌اند، برای هر دو مجموعهٔ دلخواه از مجموعهٔ مرجع $U$ برقرارند:
+    </p>
+
+        <Br>
+
+    <div class="MsoNormal" style="text-align: left;direction:ltr;">
+    <p class="MsoNormal">(الف) $(A \cup B)' =( A' \cap B')$</p>
+    <p class="MsoNormal">(ب) $(A \cap B)' = (A' \cup B')$</p>
+</div>
+
+    <br>
+
+    <p class="MsoNormal">
+        با استفاده از روش عضوگیری دلخواه و تعریف تساوی بین دو مجموعه، تساوی $(A \cup B)' = (A' \cap B')$ را اثبات کنید.
+    </p>
+
+    <br>
+
+    <p class="MsoNormal">
+   (     باید ثابت کنید که:
+
+        $ ( A \cup B )' \subseteq ( A' \cap B' ) $
+        و
+        $ (A' \cap B') \subseteq ( A \cup B )' $
+    )
+</p>
+<br><br>
+
+<p class="MsoNormal" style="text-align: left; direction:ltr;">
+
+    $
+    {\forall} x {;} [ x \in (A \cup B)' \implies  ( A \cup B ) \implies \ \ . . . . . \land x \notin B \\ \\
+    \implies x \in A' \land \ \  . . . . . \implies x \in ( A' \cap B' )] \\ \\ \implies ( A \cup B )' \subseteq ( A' \cap B') 
+    $
+</p>
+
+<br><Br>
+
+<p class="MsoNormal">
+    روابط صفحهٔ قبل برگشت‌پذیرند. شما به طریق مشابه نشان دهید که:
+
+    $
+    (A' \cap B') \subseteq (A \cup B)'
+    $
+
+    که در این صورت، تساوی (الف) نیز اثبات می‌شود.
+</p>
+
+<br><Br>
+
+
+    <p class="MsoStep">کار در کلاس</p>
+
+<p class="MsoNormal">
+    با استفاده از قوانین و خواص (جبر مجموعه‌ها)، درستی تساوی‌های زیر را بررسی کنید:
+</p>
+
+<br>
+
+<div class="MsoNormal" style="text-align: left; direction:ltr;">
+    <p class="MsoNormal">
+        (الف) $ (A - B)' = (A' \cup B) $
+    </p>
+
+    <p class="MsoNormal">
+        (ب) $ (A - B) - C = (A - C) - B $
+    </p>
+
+    <p class="MsoNormal">
+        (پ) $ A  - ( B \cap C ) = ( A - B ) \cup ( A - C ) $
+    </p>
+</div>
+
+<br><br>
+
+<p class="MsoNormal">
+    مثال: با استفاده از جبر مجموعه‌ها، درستی هر یک از تساوی‌های زیر را بررسی کنید.
+</p>
+<br>
+
+<div class="MsoNormal" style="text-align: left; direction:ltr;">
+
+<p class="MsoNormal">
+    (الف) $ A - (B \cup C) = (A - B) \cap (A - C) $
+</p>
+
+<p class="MsoNormal">
+    (ب) $ A \cap (B - C) = (A \cap B) - (A \cap C) $
+</p>
+
+<p class="MsoNormal">
+    (پ)  $ A = B $ آنگاه $ (A \cup B) = (A \cap B) $ اگر
+</p>
+
+</div>
+
+<Br><Br>
+
+<div class="custom-scrollbar" style="text-align:left; direction:ltr; overflow-x:auto; overflow-y:hidden;">
+    <p class="MsoNormal">
+        $ \begin{align*} \text{(الف)} \quad ( A - B ) \cap ( A - C ) &= ( A \cap B' ) \cap ( A \cap C' ) \qquad \text{تبدیل‌تفاضل‌به‌اشتراک} \\ \\
+        &= [( A \cap B' ) \cap A ] \cap C' \qquad \text{شرکت‌پذیری} \\ \\
+        &= [ A \cap ( A \cap B')] \cap C' \qquad \text{جابه‌جایی} \\ \\
+        &= [( A \cap A ) \cap B'] \cap C' \qquad ........ \\ \\
+        &= (A \cap B') \cap C' \qquad A \cap A = A \\ \\
+        &= A \cap ( B' \cap C') \qquad \text{شرکت‌پذیری} \\ \\
+        &= A - ( B' \cap C')' \qquad \text{تبدیل‌اشتراک‌به‌تفاضل} \\ \\
+        &= A - ( B \cup C) \qquad  \text{..... قانون} \\ \\
+          \end{align*}$
+    </p><br>
+</div>
+<br><br><br>
+<div class="custom-scrollbar" style="text-align:left; direction:ltr; overflow-x:auto; overflow-y:hidden;">
+    <p class="MsoNormal">
+        $ \begin{align*} \text{(ب)} \quad ( A \cap B ) - ( A \cap C ) &= ( A \cap B ) \cap ( A \cap C )' \qquad \text{تبدیل‌تفاضل‌به‌اشتراک} \\ \\
+        &= ( A \cap B ) \cap ( A' \cup C' ) \qquad \text{قانون‌دمورگان} \\ \\
+        &= [( A \cap B ) \cap A'] \cup [( A \cap B ) \cap C'] \qquad \text{توزیع‌پذیری} \\ \\
+        &= [( A \cap A' ) \cap B] \cup [ A \cap ( B \cap C' ) ]  \qquad \text{قوانین‌جابه‌جایی‌و‌شرکت‌پذیری} \\ \\
+        &= ({\varnothing} \cap B ) \cup [ A \cap ( B - C )] \qquad \text{تبدیل‌اشتراک‌به‌تفاضل‌وتعریف‌متمم} \\ \\
+        &= {\varnothing} \cup [ A \cap ( B - C )] \\ \\
+        &= A \cap ( B - C )
+        \end{align*} $
+    </p><br>
+</div>
+<br><br><br>
+<p class="MsoNormal">
+    (پ) با کمی تأمل پی می‌بریم که برای رسیدن از یک طرف تساوی به طرف دیگر، دچار مشکل می‌شویم و این کار انجام نمی‌شود،
+    ولی برای اینکه ادعا کنیم این تساوی همواره برقرار نیست، کافی است مثال نقض بزنیم:
+</p>
+<Br>
+<p class="MsoNormal" style="text-align: left; direction:ltr;">
+    $
+    \begin{align*}
+    A &= \{ 1, 2, 3, 4, 5 \}  \\\\
+    B &= \{ 3, 4, 5 \} \\\\
+    C &= \{ 5, 6, 7\} \\\\
+    U &= \{ 1, 2, \dots, 10 \} \\\\
+    \end{align*}
+    $
+</p>
+<br>
+<p class="MsoNormal" style="text-align: left;">
+    $
+    \begin{align*}
+    A - (B - C) &= \{ 1, 2, 3, 4, 5 \} - \{3, 4\} = \{ 1, 2, 5 \} \\ \\
+    (A - B) - C &= \{ 1, 2 \} - \{ 5, 6, 7 \} = \ \ . . . . . . \\ \\ 
+    \end{align*}
+    $
+</p>
+<br><br>
+<p class="MsoNormal">
+    (ت) وقتی می‌نویسیم: $C = D$، یعنی $C$ و $D$ یک مجموعه‌اند، با دو نام و لذا وقتی بین مجموعه‌ها تساوی به کار می‌بریم، 
+    می‌توان نوشت طرفین تساوی را با هر مجموعه‌ای اجتماع یا اشتراک بگیریم، یعنی از اینکه $C = D$ نتیجه می‌شود:
+
+    $ A \cup C {=} A \cup D $
+    و
+    $ A \cap C {=} A \cap D $
+</p>
+<Br>
+<div class="custom-scrollbar" style="text-align:left; direction:ltr; overflow-x:auto; overflow-y:hidden;">
+<p class="MsoNormal" style="text-align: left;">
+    $
+    \begin{align*}
+    & A \cup B {=} A \cap B \implies A \cap (A \cup B) = A \cap (A \cap B) \\ \\
+    & \xrightarrow{\text{قانون‌جذب‌و‌تعریف‌اشتراک}} \ \ A = ( A \cap B ) \xrightarrow{\text{قضیه}} \ \ A \subseteq B \qquad \text{(1)} \\ \\
+    & ( A \cup B ) = ( A \cap B ) \implies A \cup ( A \cup B ) = \ \ ....... \cup ( A \cap B ) \\ \\
+    & \xrightarrow{\text{قانون‌جذب‌و‌تعریف‌اجتماع}} \ \ ( A \cup B ) = A \xrightarrow{\text{قضیه}} \ \ ........ \ \ \subseteq \ \ ....... \qquad \text{(2)} \\ \\
+    & (1) {\text{و}} (2) \implies A = B
+    \end{align*}
+    $
+</p>
+<br></div>
+<br><br>
+<p class="MsoNormal">
+    روش دوم: دربارهٔ روش زیر که به اختصار نوشته شده است، با هم‌کلاسی خود گفت‌وگو کنید و توضیح دهید:
+</p>
+<br>
+<p class="MsoNormal" style="text-align: left;">
+    $
+    \begin{align*}
+    A \subseteq (A \cup B) &= (A \cap B) \subseteq B \implies A \subseteq B
+    \end{align*}
+    $
+</p>
+<br>
+<p class="MsoNormal">
+    و به طریق مشابه ثابت می‌شود: $B \subseteq A$ و نتیجه می‌شود: $A = B$.
+</p>
+<br><hr><br>
+
+    
+
+
+        <p class="MsoStep">کار در کلاس</p>
+        <p class="MsoNormal">
+            ۱. اگر 
+            $A = \{ 1, 2, \dots, 10 \}$
+            و
+            $ B = \{ 5, 6, \dots , 15 \} $ 
+            و
+            $ U = \{ 1, 2, \dots , 20 \} $            
+            حاصل هر یک از عبارات زیر را به‌دست آورید.
+        </p>
+        <br>
+        <div class="MsoNormal" style="text-align: left;direction:ltr;">
+            <p class="MsoNormal">
+                (الف) $ (A \cap B') \cup (A \cap B) $
+            </p>
+            <p class="MsoNormal">
+                (ب) $ (A - B) \cup ((A \cap B') \cap [(B - A) \cup A' ]) $
+            </p>
+        </div>
+        <br>
+        <p class="MsoNormal">
+            (راهنمایی: ابتدا با استفاده از جبر مجموعه‌ها عبارت‌ها را ساده کنید.)
+        </p>
+    
+        <br><br>
+    
+        <p class="MsoNormal">۲. با توجه به نمودار ون که در روبه‌رو رسم شده است، مانند نمونه برای هر حالت و به صورت جداگانه بخشی را که به صورت توصیفی مشخص کرده‌ایم، هاشور بزنید.</p>
+
+        <br>
+
+        <p class="MsoNormal">(الف) اعضایی که فقط در $A$ باشند.</p>
+        <p class="MsoNormal">(ب) اعضایی که فقط در یک مجموعه‌اند.</p>
+        <p class="MsoNormal">(پ) اعضایی که در $A$ و $B$ باشند، ولی در $C$ نباشند.</p>
+        <p class="MsoNormal">(ت) اعضایی که در $A$ یا $B$ باشند، ولی در $C$ نباشند.</p>
+
+        <br><hr>
+  
+            <p class="MsoBold">ضرب دکارتی بین دو مجموعه</p>
+            <p class="MsoNormal">
+                قبلاً با تعریف زوج مرتب آشنا شده‌اید و می‌دانید که «هر دو شئ مانند $x$ و $y$ تشکیل یک زوج می‌دهند که اگر برای آنها ترتیب قائل باشیم، به آن یک زوج مرتب می‌گوییم و با نماد $(x, y)$ نشان می‌دهیم». 
+                و البته می‌دانیم که $(x, y) = (z, t)$ اگر و تنها اگر $x = z$ و $y = t$.
+            </p>
+            <br>
+            <p class="MsoNormal">
+                عمل ضرب دکارتی بین دو مجموعه $A$ و $B$ این امکان را برای ما فراهم می‌سازد تا مجموعهٔ جدیدی بسازیم که اعضای آن هر کدام یک زوج مرتب باشند و هر یک از این زوج‌های مرتب شامل یک عضو از اعضای $A$ و یک عضو از اعضای $B$ باشند. بنابراین، مجموعه حاصل دارای اعضایی از جنس زوج مرتب بوده و با اعضای $A$ یا $B$ شبیه نبوده و فقط اعضای $A$ و $B$ در ساختن آنها نقش دارند.
+            </p>
+            <br>
+            <p class="MsoNormal">
+
+                <mark class="hlp">تعریف عمل ضرب دکارتی بین دو مجموعه:</mark>
+                
+                اگر $A$ و $B$ دو مجموعه دلخواه باشند، $A \times B$ مجموعه‌ای است که به صورت زیر تعریف می‌شود:
+            </p>
+            <p class="MsoNormal" style="text-align: center;">
+                $$ A \times B {=} \{ (x, y) \ | \ x \in A \ \ {\land} \ \  y \in B \} $$
+            </p>
+            <br>
+            <p class="MsoNormal">
+                در تعریف قبل توجه دارید که هر $(x, y)$ متعلق به $A \times B$، همراه مؤلفهٔ اول، باید از مجموعهٔ $A$ و منتاظر آن مؤلفهٔ دوم، یعنی $y$ باید از مجموعه $B$ باشد.
+            </p>
+            <br>
+            <p class="MsoNormal">
+                <b>مثال:</b> اگر $A = \{2, 4, 6\}$ و $B = \{4, 5\}$ در این صورت مجموعه‌های $A \times B$ و $B \times A$ را تشکیل دهید و با هم مقایسه کنید.
+            </p>
+            <p class="MsoNormal" style="text-align: center;">
+                $$ A \times B = \{(2, 4), (2, 5), \, . . . . \, , \, . . . . \, (6, 4) , \, . . . . \, \} $$
+                
+                $$ B \times A = \{ (4, 2) , (4, 4) , \, . . . . \, , (5, 2) , \, . . . . \, , \, . . . . \, \} $$
+            </p>
+            <br>
+            <p class="MsoNormal">
+                واضح است که $A \times B \ \ {\neq} \ \ B \times A$ (کافی است فقط یک عضو
+                باهم فرق داشته باشند;
+                  
+                مثلا
+                $ (4, 2) \neq  (2, 4) $
+                و
+                $ (2, 4) \in A \times B $
+                و
+                $ (2, 4) \notin B \times A $
+                )
+            </p>
+        </div>
+        <br><hr><br>
+        <p class="MsoStep">
+            کار در کلاس
+        </p>
+        <p class="MsoNormal">
+            در مثال قبل دیدید که در مجموعهٔ $A \times B$ هر عضو $A$ دو زوج مرتب تولید کرد و در کل شش زوج مرتب به وجود آمد. 
+            حال اگر 
+            $n(A)=m$ 
+              و   
+            $n(B) = k $
+             ، با استفاده از تعریف عمل ضرب دکارتی و حاصل ضرب، نشان دهید $n(A \times B) = m k$.
+        </p>
+        <br><hr><br>
+
+        <div class="MsoStep">فعالیت</div>
+
+        <p class="MsoNormal">
+            1. اگر $A = \{ 1, -1, 2, -2 \}$ و $B = \{0, 3, 4\}$، ابتدا مجموعه‌های $(A \times B)$ و $(B \times A)$ را تشکیل دهید 
+            و سپس نمودار مختصاتی هر یک از این مجموعه‌ها را رسم کنید. (نمودارها را کامل کنید.)
+        </p>
+        <br>
+
+    <div class="MsoNormal" style="text-align: left; direction:ltr;">
+        <p class="MsoNormal">
+            $A \times B =$
+        </p>
+        <p class="MsoNormal">
+            $B \times A =$
+        </p>
+    </div>
+
+    <br><br>
+<p class="MsoNormal">
+    2.
+    اگر فرض کنیم 
+    $A = (1, 4]$
+     و 
+     $B = \{1, 2\}$
+      در این صورت، نمودارهای مربوط به $A \times B$ و $B \times A$ که بخشی از آنها رسم 
+    شده است را تکمیل کنید.
+</p>
+<br>
+<p class="MsoNormal" style="text-align: left;">
+    $
+    \begin{align*}
+    A \times B &= \{(x, y) \, | \, x \in (1, 4] \ \ \land \ \ y \in B \} \\ \\
+    B \times A &= \{(x, y) \, | \, (x = 1 \ \ \lor \ \  x = 2) \ \ \land \ \ 1 < y \leq 4 \}
+    \end{align*}
+    $
+</p>
+<br><br>
+<p class="MsoNormal">
+    3.
+    اگر فرض کنیم $A = \{1, 4\}$ و $B = \{0, 1, 2\}$ نمودار $A \times B$ را رسم کنید.
+</p>
+
+<br><br>
+
+<p class="MsoNormal">
+    در صورتی که $A = [1, 4] $ و $B = \{ 0, 2 \} $ در این صورت، نمودار $(A \times B)$ را که بخشی از صفحهٔ مختصات دکارتی است، 
+    هاشور بزنید.
+</p>
+<br>
+<p class="MsoNormal" style="text-align: left;">
+    $
+    A \times B = \{(x, y) \, | \, 1 \leq x \leq 4 \land 0 \leq y \leq 2 \}
+    $
+</p>
+<br><br>
+
+
+<p class="MsoNormal">
+    5.
+    در صورتی که فرض کنیم: $A = \mathbb{R}$ و $B = \mathbb{R}$ در این صورت، حاصل‌ضرب $A \times B = \mathbb{R} \times \mathbb{R}$ را چگونه تعبیر می‌کنید؟
+</p>
+<br><hr><br>
+
+<p class="MsoStep">کار در کلاس</p>
+<p class="MsoNormal">
+    اگر $A$ و $B$ دو مجموعه دلخواه باشند، در این صورت:
+</p>
+
+<br>
+
+<div class="MsoNormal" style="text-align: left; direction:ltr;">
+<p class="MsoNormal">(الف) $A \times {\varnothing} $ = $ {\varnothing} \times A $ = $\varnothing$ </p>
+<p class="MsoNormal">(ب) $ A \times B {=} B \times A $ $ \implies A = {\varnothing}  \lor \ \ B {=} {\varnothing} \lor A {=} B $</p>
+</div>
+<br>
+
+
+<p class="MsoNormal">اثبات (الف) از برهان خلف استفاده می‌کنیم:</p>
+<p class="MsoNormal">
+    فرض کنیم: 
+    $A \times {\varnothing} $ $\neq$ $\varnothing$
+     (فرض خلف) در این صورت، حداقل یک عضو مانند 
+     $(x, y)$
+      در 
+      $ . . . . . . $
+       باید وجود داشته باشد که در این صورت:
+</p>
+<br>
+<p class="MsoNormal" style="text-align: center;">
+    $\emptyset {(x,y)} {\in} A \times $  $ \xrightarrow{\text{تعریف‌ضرب‌دکارتی}}$ $  \emptyset \dots{\land}{y}{\in} $
+</p>
+<br>
+<p class="MsoNormal">
+    و چون 
+    $\emptyset{y}{\in}$
+     یک تناقض است (مجموعهٔ $\emptyset$ فاقد عضو است) پس فرض خلف باطل شده است و حکم برقرار می‌باشد. به طریق مشابه ثابت کنید که 
+     $\emptyset {\times}{A}{=}{\varnothing}$
+     .
+</p>
+
+<br><br>
+
+<p class="MsoNormal">اثبات (ب): اگر $A = {\varnothing}$ یا $B = {\varnothing}$ حکم اثبات می‌شود.</p>
+<br>
+<p class="MsoNormal">
+    حال فرض کنیم: $A \neq {\varnothing}$ و $B \neq {\varnothing}$ که در این صورت، به روش عضوگیری و 
+    با توجه به تعریف ضرب دکارتی و فرض $A \times B {=} B \times A$ ثابت می‌کنیم $A = B$.
+</p>
+<br>
+<p class="MsoNormal" style="text-align: left;">
+  $
+  \begin{align*}
+
+    & {\forall} x \in A \ \ , \ \ {\forall} y \in B \\\\
+    & \xrightarrow{\text{تعریف‌ضرب‌دکارتی}} \ \ (x,y) \in A \times B \\\\
+    & \xrightarrow{ A \times B {=} B \times A } \ \ (x,y) \in \ \ . . . . . \\\\
+    & \xrightarrow{\text{تعریف‌ضرب‌دکارتی}} \ \ x \in B \land \ \ . . . . .  \\\\
+    & \implies \ \ . . . . . \ \ \land \ \ B \subseteq A \\\\
+    & \quad  A = B
+
+  \end{align*}
+  $
+</p>
+<br>
+<p class="MsoNormal">
+    (زیرا که از $A$ فرض کردیم ثابت شد در $B$ است و برای $B$ فرض کردیم ثابت شد در $A$ است.)
+</p>
+
+<br><hr><br>
+
+
+    <p class="MsoStep">تمرین</p>
+    
+    <p class="MsoNormal">١) کدام یک از مجموعه‌های زیر باهم مساوی‌اند؟</p>
+<br>
+<div class="MsoNormal" style="text-align: left; direction:ltr;">
+    <p class="MsoNormal">
+        $A = \{ m \in \mathbb{Z} \ | \ m \, | < 2 \}$<br>
+        $B = \{ x \in \mathbb{Z} \ | \ x^3 = x \}$<br>
+        $C = \{ y \in \mathbb{Z} \ | \ y^2 \leq 2y \}$<br>
+        $D = \{ m \in \mathbb{Z} \ | \ m^2 \leq 1 \}$<br>
+        $E = \{ m \in \mathbb{Z} \ | \ m^3 + 2m = 3m^2 \}$
+    </p>
+</div>
+<Br><Br>
+
+    <p class="MsoNormal">٢) اگر دو عضو از مجموعه $A$ حذف کنیم، تعداد زیرمجموعه‌های آن $348$ واحد کم می‌شود. مجموعه $A$ چند زیرمجموعه دارد؟</p>
+    
+<br><br>
+
+    <p class="MsoNormal">٣) اگر 
+        $A = \{ 2, x + 2y , 4 \}$
+         و 
+         $B = \{ 4, 5, x - y \}$
+         و
+        $ A = B $
+         در این صورت، مقادیر $x$ و $y$ را بیابید.</p>
+    
+<br><br>
+
+    <p class="MsoNormal">٤) ثابت کنید برای مجموعه‌های $A$ و $B$ با مرجع $U$ داریم:
+        $ A - B \subseteq A $
+        .
+    </p>
+    
+
+<br><br>
+
+
+    <p class="MsoNormal">
+        5)
+        فرض کنیم
+        $A$
+        و
+        $B$
+        و
+        $C$
+        سه مجموعه با مرجع 
+        $U$
+        باشند،
+        ثابت کنید:
+        اگر
+        $ A \subseteq B$
+        آن‌گاه:
+
+    </p>
+
+<div class="MsoNormal" style="text-align: left; direction:ltr">
+    <p class="MsoNormal">(الف) $A \cap C \subseteq B \cap C$</p>
+    <p class="MsoNormal">(ب) $A \cup C \subseteq B \cup C$</p>
+</div>  
+
+<br><br>
+
+    <p class="MsoNormal">
+        6)
+        مجموعه‌های
+        $A$
+        و
+        $B$
+        و
+        $C$
+        و
+        $D$
+        با مرجع 
+        $U$
+        را در نظر بگیرید،
+        ثابت کنید:
+        اگر
+        $ A \subseteq B $
+        و
+        $ C \subseteq D $
+        آن‌گاه:
+    </p>
+    <br>
+<div class="MsoNormal" style="text-align: left; direction:ltr">
+    <p class="MsoNormal">(الف) $A \cap C \subseteq B \cap C$</p>
+    <p class="MsoNormal">(ب) $A \cap C \subseteq B \cup D$</p>
+</div>
+
+<br><br>
+
+    <p class="MsoNormal">
+        7)
+        <br>
+        الف) فرض کنید 
+        :
+        $A \subseteq {\varnothing}$
+         ثابت کنید:
+        $ A = \ {\varnothing} $
+        <br>
+        ب) فرض کنید 
+        :
+        $ U \subseteq A$
+         ثابت کنید:
+        $ A = U $
+    </p>
+
+    
+
+    <br><br>
+    <p class="MsoNormal">
+        8)
+         هرگاه 
+        $A$
+         و 
+         $B$
+          
+        دو مجموعه با مرجع 
+        $U$
+         باشند
+          و 
+        $ A \cap B = \ {\varnothing} $ 
+          در این صورت
+          ثابت کنید:</p>
+<br>
+          <div class="MsoNormal" style="text-align: left; direction:ltr">
+            <p class="MsoNormal">(الف) $ B - A = B $</p>
+            <p class="MsoNormal">(ب) $ B \subseteq A' $</p>
+        </div>
+
+<br><br>
+
+
+<p class="MsoNormal">٩) با استفاده از تعریف اشتراک، اجتماع و خواص جابه‌جایی، شرکت‌پذیری و توزیع‌پذیری برای ترکیب فصل و عطفی در گزاره‌ها، هر یک از تساوی‌های زیر را ثابت کنید.</p>
+<br>
+<div class="MsoNormal" style="text-align: left; direction:ltr">
+
+<p class="MsoNormal">(الف) $A \cap B {=} B \cap A$</p>
+<p class="MsoNormal">(ب) $A \cap (B \cap C) = (A \cap B) \cap C$</p>
+<p class="MsoNormal">(پ) $A \cap (B \cup C) = (A \cap B) \cup (A \cap C)$</p>
+
+</div>
+
+<br><br>
+
+<p class="MsoNormal">١٠) درستی هر یک از تساوی‌های زیر را ثابت کنید.</p>
+<br>
+<div class="MsoNormal" style="text-align: left; direction:ltr">
+
+<p class="MsoNormal">(الف) $(A \cap B) \cup (B' \cap A) = A$</p>
+<p class="MsoNormal">(ب) $(A' \cap B') \cap A {=} \ {\varnothing}$</p>
+<p class="MsoNormal">(پ) $A \cap (B \cap C) = (A \cap B) \cap (A \cap C)$</p>
+<p class="MsoNormal">(ت) $A \cup (B \cup C) = (A \cup B) \cup (A \cup C)$</p>
+
+</div>
+
+<br><br>
+
+<p class="MsoNormal">١١) هر یک از عبارات‌های زیر را ساده کنید:</p>
+
+<div class="MsoNormal" style="text-align: left; direction:ltr">
+
+<p class="MsoNormal">(الف) $(A' \cap B) \cup ([(B \cap A) - B' ] \cap (B \cup A))$</p>
+<p class="MsoNormal">(ب) $(A \cup B) - B$</p>
+<p class="MsoNormal">(پ) $[(A \cup B) - A] \cup (A \cap B)$</p>
+
+</div>
+
+<Br><br>
+
+<p class="MsoNormal">١٢) درستی هر یک از تساوی‌های زیر را بررسی کنید:</p>
+<br>
+<div class="MsoNormal" style="text-align: left; direction:ltr">
+
+<p class="MsoNormal">(الف) $(A \subseteq X) \land (A' \subseteq X) \Rightarrow X = U$</p>
+<p class="MsoNormal">(ب) $(A - B) \cup (A \cap B) = A$</p>
+<p class="MsoNormal">(پ) $(A \cap B) - C = (A - C) \cap (B - C)$</p>
+<p class="MsoNormal">(ت) $(A - B) \cup (B - A) = (A \cup B) - (A \cap B)$</p>
+<p class="MsoNormal">(ث) $(A \cup B) \cap (A' \cap B') {=} \ {\varnothing}$</p>
+<p class="MsoNormal">(ج) $[(A \cup B) = (A \cup C) \land (A \cap B) = (A \cap C)] \implies  B = C$</p>
+
+</div>
+
+<br><br>
+
+
+<p class="MsoNormal">١٣) اگر $A = \{ y+2, 5, z \}$ و $B = \{ x+1, 4, -2 \}$ در این صورت، با فرض $A \times B {=} B \times A$، بیشترین مقدار برای $(x + y + z)$ را بیابید.</p>
+
+<br><br>
+
+<p class="MsoNormal">١٤) با توجه به مجموعه‌های داده شده، نمودار هر یک از حاصل‌ضرب‌های $A \times B$ و $B \times A$ را رسم کنید.</p>
+<br>
+<div class="MsoNormal" style="text-align: left; direction:ltr">
+
+<p class="MsoNormal">(الف) $A = \{ 2, 3\}, B = \{2, 3, 4 \}$</p>
+<p class="MsoNormal">(ب) $A = \{ 3, 4 \}, B = ( 1, 5 ] $</p>
+<p class="MsoNormal">(پ) $A = [ 2, 6 ], B = [3, 8]$</p>
+<p class="MsoNormal">(ت) $A {=} N , \ B {=} [1, 4] $</p>
+<p class="MsoNormal">(ث) $A {=} R , \ B {=} \{ 2, 3 \}$</p>
+
+
+</div>
+
+<br><br>
+
+
+
+<br><br><br><br><br>
+
+
+    </body>
+
+
+</html>

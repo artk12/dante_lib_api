@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: "Nastaliq";
+            src: url('nas.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+      
+        li.MsoNormal,
+        div.MsoNormal,
+        ul.MsoNormal,
+        ol.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+            
+        }
+        p.MsoNas
+         {
+            margin: 0.5em;
+            
+            font-size: clamp(1.5rem, 1.7vw, 2rem);
+            font-family: "Nastaliq";
+            line-height: 2.3em;
+            color: #dcd7e0;
+            text-align: center;
+         letter-spacing: 0em;
+         word-spacing: 0.4em;
+            
+        }
+        p.MsoNormal
+         {
+            margin: 0in;
+           
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-indent: 1em;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi {
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSemic,
+        li.MsoSemic,
+        div.MsoSemic {
+            margin: 0in;
+           
+            font-size: clamp(1.2rem, 1.6vw, 1.3rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #b19af2;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #6ca4ec;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+        span.uline{
+            border-bottom: 0.1em solid #64E9E1;
+        }
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .boxp {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .boxg {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#00f2ff11; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        .boxb {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#0c4e9f2d; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        ::selection {
+            background-color: #59078fa1; /* Change this to your desired highlight color */
+            color: #ffffff; /* Change this to your desired text color */
+          }
+
+
+          mark{
+            background-color:#078b8fa1 ;
+            color: #ffffff;
+            padding: 0 7px;
+        }
+
+        .hlg { background-color: rgba(0, 234, 255, 0.334);  }
+        .hlp { background-color:#5f1487; }
+      
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+    <body class="custom-scrollbar">
+
+
+    <p class="MsoBold">
+        درس دوازدهم
+        :
+        کاوۀ دادخواه</p>
+
+    <p class="MsoNormal">
+        در داسـتان‌های حماسـی ایـران و اسـاطیر باسـتان، چهـرۀ انقلابـی کاوۀ آهنگـر بی‌نظیـر اسـت و پیش‌بنـد چرمیـن او کـه بـر نیـزه کـرد و مـردم را بـه اتّحـاد و جنبـش فراخوانـد، درفشـی بـود انقلابـی کـه بـر ضـدّ پادشـاه وقـت، ضح ّ ـاک، برافراشـت. درفشـی کـه پشـتیبان آن، دل دردمنـد و بـازوی مـردم رنـج‌کشـیده و بی‌پناه بود.
+    </p>
+    
+    <p class="MsoNormal">
+        ضح ّ اک، معرّب اژی دهاک (اژدها)، در داسـتان‌های ایرانی، مظهر خوی شـیطانی اسـت و زشـتی و بدی؛ در اوسـتا موجودی اسـت «سـه پوزۀ سـه سـرِ شـش چشم»، دیـوزاد و مایـۀ آسـیب آدمیـان و فتنـه و فسـاد. بـه روایـت فردوسـی، ضح ّ ـاک بارها فریـب ابلیـس را می‌خـورد؛ بدیـن معنی که ابلیس بـا موافقت او، پـدرش، مَرداس، را کـه مـردی پاک‌دیـن بـود، از پا درمی‌آورد تا ضح ّ اک به پادشـاهی برسـد. سـپس در لباس خوالیگـری چـالاک، خورش‌هایـی حیوانی بـه او می‌خوراند و خوی بـد را در او می‌پـرورد؛ سـپس بـر اثـر بوسـه زدن ابلیس بـر دوش ضح ّ ـاک، دو مـار از دو کتف او می‌رویـد و مایـۀ رنج وی می‌شـود.
+    </p>
+    
+    <p class="MsoNormal">
+        پزشـکان فرزانـه از عهـدۀ عـلاج برنمی‌آینـد تا بـار دیگر ابلیس خـود را به‌صورت پزشـکی درمـی‌آورد و بـه نـزد ضح ّ اک می‌رود و بـه او می‌گویـد: «راه درمان این درد و آرام کـردن مـاران، سـیر داشـتن آنها با مغز سـر آدمیان اسـت.» ضح ّ ـاک نیز چنین می‌کنـد و بـرای تسـکین درد خـود بـه این کار می‌پـردازد. به این ترتیب که هر شـب دو مـرد را از کهتـران یـا مهتـرزادگان بـه دیـوان او می‌برنـد و جانشـان را می‌گیرند و خورشـگر، مغز سـر آنان را بیرون می‌آورد و به مارها می‌خوراند تا درد ضح ّ اک اندکی آرامـش یابـد. 
+    </p>
+    
+    <p class="MsoNormal">
+        در اسـاطیر ایران، مار مظهری اسـت از اهریمـن و در اینجا نیز بر دوش ضح ّ ـاک می‌روید که تجس ّ ـمی اسـت از خوهـای اهریمنی و بیـداد و منش خبیث.
+    </p>
+    
+    
+
+    <p class="MsoNormal">
+        شبی درخواب می‌بینـد سه تن مرد جنگی قصد او می‌کنند و یکی از آنان او را به ضرب گرز از پا درمی‌آورد… وی از بیـم برخود می‌پیچد و فریادزنان از خواب می‌پرد. ناچـار موبـدان و خردمندان را بـه مشـورت می‌خواند و خواب خود را حکایت می‌کنـد و تعبیر آن را از ایشـان می‌خواهد. آنان از بیم خشـم او تا سه روز چیزی نمی‌گویند. سـرانجام، یکی از ایشـان می‌گوید که زبونی ضح ّ اک به دسـت کسی انجام خواهد شـد که هنوز از مادر نزاده است. 
+    </p>
+
+    <p class="MsoNormal">
+        همین اشاره کافی اسـت که پادشاه بدمنش به جسـت‌وجوی چنین نوزادی فرمان دهد. امّا در این ایّام، فریدون از مادر می‌زاید و از گاوی به نام «بَرمایه» شیر می‌نوشد و در غاری پرورش می‌یابد. پدر او، آبتین که ناگزیر از بیم ضح ّ اک ترسان و گریزان است، روزی گرفتار می‌شود و مغز سرش را به ماران می‌دهند. مادر فریدون، فَرانَک، پسر را به البرزکوه می‌برد و به دست مردی پاک‌دین می‌سپرد. 
+    </p>
+
+    <p class="MsoNormal">
+        ضح ّ اک که به نهانگاه پیشین نوزاد پی می‌برد، به آنجا می‌رود؛ گاو برمایه و همۀ چهارپایان را می‌کشد و خانۀ آبتین را به آتش می‌کشد؛ اما پسر به خواست خداوند بزرگ می‌بالد و نیرو می‌گیرد و سرانجام، نام و نشان خود را از مادر می‌پرسد و چون از پادشاهی ضح ّ اک و جفاهـای او آگاه می‌شود، عزم می‌کند که از وی انتقام گیرد. از این رو در انتظار فرصتی مناسب چشم به راه آینده است. 
+    </p>
+
+    <p class="MsoNormal">
+        این فرصت گران‌بها را کاوه فراهم می‌آورد؛ یعنی یکی از مردم فرودسـت و پاک‌دین که سروکارش با آهن است و رنج و زحمت؛ امّا پایان‌بخش شب تیرۀ ستم می‌شود و نویدبخش پیروزی و بهروزی.
+    </p>
+
+    <p class="MsoNormal">
+        در محیطی که پادشاه بیدادپیشۀ ماردوش به وجود آورده بـود، تاریکی و ظلم بـر همه جا چیرگی داشـت و کسی ایمن نمی‌توانسـت زیست. فردوسی تصویری از آن روزهای سیاه را هر چه گویاتـر نشـان داده است؛ روزگاری که کاوه و هزاران تن دیگر را ناگزیر بـه بهای جان خویش به نافرمانی و قیام برانگیخت.
+    </p>
+    <br>
+    <p class="MsoSemi" style="text-align: left;">$*$ چشمۀ روشن، غلامحسین یوسفی</p>
+
+    <br><br>
+    $$ \ \ 1 \ \ $$
+    <p class="MsoNas" style="text-align: center;">چو ضحّاک بر تخت شد شهریار</p>
+    <p class="MsoNas" style="text-align: center;">بر او سالیان انجمن شد هزار</p>
+    $$ *** $$
+
+    <p class="MsoNas" style="text-align: center;">نهان گشت کردار فرزانگان</p>
+    <p class="MsoNas" style="text-align: center;">پراگنده شد کام دیوانگان</p>
+    $$ *** $$
+
+    <p class="MsoNas" style="text-align: center;">هنر خوار شد، جادوی ارجمند</p>
+    <p class="MsoNas" style="text-align: center;">نهان راستی، آشکارا گزند</p>
+    $$ *** $$
+
+    <p class="MsoNas" style="text-align: center;">برآمد برین روزگار دراز</p>
+    <p class="MsoNas" style="text-align: center;">کشید اژدها را به تنگی فراز</p>
+    $$ \ \ ۵ \ \ $$
+
+    <p class="MsoNas" style="text-align: center;">چنان بُد که ضحّاک را روز و شب</p>
+    <p class="MsoNas" style="text-align: center;">به نام فریدون گشادی دو لب…</p>
+    $$ *** $$
+
+    <p class="MsoNas" style="text-align: center;">ز هر کشوری مهتران را بخواست</p>
+    <p class="MsoNas" style="text-align: center;">که در پادشاهی کُند پشت راست</p>
+    $$ *** $$
+
+    <p class="MsoNas" style="text-align: center;">از آن پس، چنین گفت با موبدان</p>
+    <p class="MsoNas" style="text-align: center;">که ای پرهنر با گهر بِخْردان</p>
+    $$ *** $$
+
+    <p class="MsoNas" style="text-align: center;">مرا در نهانی یکی دشمن‌ است</p>
+    <p class="MsoNas" style="text-align: center;">که بر بخردان این سخن، روشن ست</p>
+    $$ *** $$
+
+
+    <p class="MsoNas" style="text-align: center;">یکی محضر اکنون بباید نوشت</p>
+    <p class="MsoNas" style="text-align: center;">که جز تخم نیکی، سپهبد نکِشت</p>
+    $$ ۱۰ $$
+
+    <p class="MsoNas" style="text-align: center;">ز بیمِ سپهبد همه راستان</p>
+    <p class="MsoNas" style="text-align: center;">بر آن کار گشتند همداستان</p>
+    $$ *** $$
+
+    <p class="MsoNas" style="text-align: center;">بدان محضر اژدها ناگزیر</p>
+    <p class="MsoNas" style="text-align: center;">گواهی نوشتند بُرنا و پیر</p>
+    $$ *** $$
+
+    <p class="MsoNas" style="text-align: center;">هم‌آنگه یکایک ز درگاهِ شاه</p>
+    <p class="MsoNas" style="text-align: center;">برآمد خروشیدنِ دادخواه</p>
+    $$ *** $$
+
+    <p class="MsoNas" style="text-align: center;">ستم دیده را پیش او خواندند</p>
+    <p class="MsoNas" style="text-align: center;">برِ نامدارانش بنشاندند</p>
+    $$ *** $$
+
+    <p class="MsoNas" style="text-align: center;">بدو گفت مهتر به روی دُژم</p>
+    <p class="MsoNas" style="text-align: center;">که برگوی تا از که دیدی ستم؟</p>
+    $$ ۱۵ $$
+
+    <p class="MsoNas" style="text-align: center;">خروشید و زد دست بر سر ز شاه</p>
+    <p class="MsoNas" style="text-align: center;">که شاها منم کاوۀ دادخواه!</p>
+    $$ *** $$
+
+    <p class="MsoNas" style="text-align: center;">یکی بی زیان مردِ آهنگرم</p>
+    <p class="MsoNas" style="text-align: center;">ز شاه، آتش آید همی بر سرم</p>
+    $$ *** $$
+
+    <p class="MsoNas" style="text-align: center;">تو شاهی و گر اژدها پیکری</p>
+    <p class="MsoNas" style="text-align: center;">بباید زدن داستان، داوری</p>
+    $$ *** $$
+
+    <p class="MsoNas" style="text-align: center;">اگر هفت کشور به شاهی تو راست</p>
+    <p class="MsoNas" style="text-align: center;">چرا رنج و سختی همه بهر ماست</p>
+
+    $$ *** $$
+    <p class="MsoNas" style="text-align: center;">شماریت با من بباید گرفت</p>
+    <p class="MsoNas" style="text-align: center;">بدان تا جهان ماند اندر شگفت</p>
+
+    $$ ۲۰ $$
+    <p class="MsoNas" style="text-align: center;">مگر کز شمار تو آید پدید</p>
+    <p class="MsoNas" style="text-align: center;">که نوبت ز گیتی به من چون رسید</p>
+    $$ *** $$
+    <p class="MsoNas" style="text-align: center;">که مرانت را مغز فرزند من</p>
+    <p class="MsoNas" style="text-align: center;">همی داد باید ز هر انجمن</p>
+    $$ *** $$
+
+    <p class="MsoNas" style="text-align: center;">سپهبد به گفتار او بنگرید</p>
+    <p class="MsoNas" style="text-align: center;">شگفت آمدش کان سخن‌ها شنید</p>
+    $$ *** $$
+
+    <p class="MsoNas" style="text-align: center;">بدو باز دادند فرزند اوی</p>
+    <p class="MsoNas" style="text-align: center;">به خوبی بجُستند پیوند او</p>
+    $$ *** $$
+
+    <p class="MsoNas" style="text-align: center;">بفرمود پس کاوه را پادشا</p>
+    <p class="MsoNas" style="text-align: center;">که باشد بدان محضر اندر گوا</p>
+    $$ ۲۵ $$
+
+    <p class="MsoNas" style="text-align: center;">چو برخواند کاوه، همه محضرش</p>
+    <p class="MsoNas" style="text-align: center;">سَبُک، سوی پیران آن کشورش</p>
+    $$ *** $$
+
+    <p class="MsoNas" style="text-align: center;">خروشید کای پایمردان دیو</p>
+    <p class="MsoNas" style="text-align: center;">بریده دل از ترسِ گیهان خدیو</p>
+    $$ *** $$
+
+    <p class="MsoNas" style="text-align: center;">همه سوی دوزخ نهادید روی</p>
+    <p class="MsoNas" style="text-align: center;">سپُردید دلها به گفتار اوی</p>
+    $$ *** $$
+
+    <p class="MsoNas" style="text-align: center;">نباشم بدین محضر اندر گوا</p>
+    <p class="MsoNas" style="text-align: center;">نه هرگز براندیشم از پادشا</p>
+    $$ *** $$
+
+    <p class="MsoNas" style="text-align: center;">خروشید و برجَست لرزان ز جای</p>
+    <p class="MsoNas" style="text-align: center;">بدَرّید و بسپَرد محضر به پای</p>
+    $$ ۳۰ $$
+
+    <p class="MsoNas" style="text-align: center;">چو کاوه برون شد ز درگاه شاه</p>
+    <p class="MsoNas" style="text-align: center;">بر او انجمن گشت بازارگاه</p>
+    $$ *** $$
+
+    <p class="MsoNas" style="text-align: center;">همی بر خروشید و فریاد خواند</p>
+    <p class="MsoNas" style="text-align: center;">جهان را سراسر، سوی داد خواند</p>
+    $$ *** $$
+
+    <p class="MsoNas" style="text-align: center;">از آن چرم، کاهنگران پشت پای</p>
+    <p class="MsoNas" style="text-align: center;">بپوشند هنگام زخمِ درای</p>
+    $$ *** $$
+
+    <p class="MsoNas" style="text-align: center;">همان کاوه آن بر سر نیزه کرد</p>
+    <p class="MsoNas" style="text-align: center;">همانگه ز بازار برخاست گرد</p>
+    $$ *** $$
+
+    <p class="MsoNas" style="text-align: center;">خروشان همی رفت نیزه به دست</p>
+    <p class="MsoNas" style="text-align: center;">که ای نامداران یزدان پرست</p>
+    $$ ۳۵ $$
+
+    <p class="MsoNas" style="text-align: center;">کسی کاو هوای فریدون کند</p>
+    <p class="MsoNas" style="text-align: center;">دل از بند ضحّاک بیرون کند</p>
+    $$ *** $$
+
+    <p class="MsoNas" style="text-align: center;">بپویید کاین مهتر آهرمن است</p>
+    <p class="MsoNas" style="text-align: center;">جهان آفرین را به دل، دشمن است</p>
+    $$ *** $$
+
+    <p class="MsoNas" style="text-align: center;">همی رفت پیش اندرون مرد گُرد</p>
+    <p class="MsoNas" style="text-align: center;">سپاهی بر او انجمن شد، نه خُرد</p>
+    $$ *** $$
+
+    <p class="MsoNas" style="text-align: center;">بدانست خود کافریدون کجاست</p>
+    <p class="MsoNas" style="text-align: center;">سر اندر کشید و همی رفت راست</p>
+    $$ *** $$
+
+    <p class="MsoNas" style="text-align: center;">بیامد به درگاه سالار نو</p>
+    <p class="MsoNas" style="text-align: center;">بدیدندش آن جا و برخاست غَو</p>
+    $$ ۴۰ $$
+
+    <p class="MsoNas" style="text-align: center;">فریدون چو گیتی برآن گونه دید</p>
+    <p class="MsoNas" style="text-align: center;">جهان پیش ضحّاک وارونه دید</p>
+    $$ *** $$
+
+    <p class="MsoNas" style="text-align: center;">همی رفت منزل به منزل چو باد</p>
+    <p class="MsoNas" style="text-align: center;">سری پر ز کینه، دلی پر ز داد</p>
+    $$ *** $$
+
+
+    <p class="MsoNas" style="text-align: center;">به شهر اندرون هر که بُرنا بدند</p>
+    <p class="MsoNas" style="text-align: center;">چه پیران که در جنگ، دانا بدند</p>
+    $$ *** $$
+
+    <p class="MsoNas" style="text-align: center;">سوی لشکر آفریدون شدند</p>
+    <p class="MsoNas" style="text-align: center;">ز نزدیک ضحّاک بیرون شدند</p>
+
+<br><p class="MsoSemi" style="text-align: left;">$*$ شاهنامه، فردوسی</p>
+
+        <p class="MsoNormal">فریـدون بـا لشـکری از مردم شـهر که بـه یاری اش آمده بودنـد، به رویارویی بـا ضح ّ اک آمد و دست به گرز گاو سـر برد و «بزد بر سـرش، ترگ بشکسـت خ ُ رد». «سـروش خجسـته» پیام آورد کـه او را مک ُ ـش کـه هنوز زمان مرگش فرا نرسـیده اسـت؛ او را با همین شکسـتگی به کوه دماوند ببر و همان جا در بند کن. فریدون دو دسـت و میان ضح ّ اک را به بندی بسـت، سـپس او را به کوه دماونـد و در غـاری که «بُنش ناپدید» بود، سـرنگون آویخت.</p>
+
+        <br><hr><br>
+        
+        <p class="MsoBold">کارگاه متــن پژوهــی</p>
+        
+        <p class="MsoStep">قلمرو زبانی</p>
+        <p class="MsoNormal">1. در متن درس، هر یک از واژه های زیر، در چه معنایی به کار رفته است؟</p>
+        <br>
+        <ul class="MsoNormal">
+            <li>هنر </li>
+            <li>محضر </li>
+            <li>درای </li>
+            <li>منزل </li>
+        </ul>
+        <br><br>
+        <p class="MsoNormal">2. در بيت زير، كلمة « گر » در چه معنايي به كار رفته است؟</p>
+        <br>
+        <p class="MsoNormal" style="text-align: center;">ببايـد زدن داسـتان، آوري</p>
+        <p class="MsoNormal" style="text-align: center;">تو شاهي و گر اژدها پیکري</p>
+        <br><br>
+        <p class="MsoNormal">3. واژه هـا و معنـای آنهـا همیشـگی و ماندگار نیسـتند. ممکن اسـت در گذر زمـان، برای هر واژه، یکـی از چهـار وضعیّت زیـر پیش آید:</p>
+       <br>
+        <ul class="MsoNormal">
+            <li>الف) بـه دلایل سیاسـی، فرهنگي، مذهبـي يا اجتماعي، از فهرسـت واژگان حذف شـود؛ ماننـد: «فتراک و برگسـتوان»</li>
+          <br>  <li>ب) بـا از دسـت دادن معنـاي پيشـين و پذيرفتـن معنـاي جديـد، بـه دوران بعـد منتقـل شود؛مانند:«كثيف و سـوگند»</li>
+          <br><li>پ) با همان معناي قديم به حيات خود ادامه دهد؛ مانند: « شادي و خنده»</li>
+          <br><li>ت) هم معناي قديم خود را حفظ كند و هم معناي جديد گيرد؛ مانند: «سپر و يخچال»</li>
+        </ul>
+        <br>
+        <p class="MsoNormal">
+            $*$
+            هریک از واژه هاي زير، مشمول كدام وضعيّت هاي چهارگانه شده اند؟</p>
+            <br>
+        <ul class="MsoNormal">
+            <li>پذیرش </li>
+            <li>سوفار </li>
+            <li>ركاب </li>
+            <li>شوخ </li>
+        </ul>
+        
+        <br><hr><br>
+        
+        <p class="MsoStep">قلمرو ادبی</p>
+        
+        <p class="MsoNormal">1. برای هر یک از ویژگی های شعر حماسی، نمونه ای از متن درس انتخاب کنید.</p>
+        <br>
+        <ul class="MsoNormal">
+            <li>زمينة ملّي</li>
+            <li>زمينة قهرماني</li>
+        </ul>
+        <br><br>
+        <p class="MsoNormal">2. بیت پنجم درس را از نظر آرایه های ادبی بررسی کنید.</p>
+        <Br><br>
+        <p class="MsoNormal">3. هر یک از واژه های مشخ ّ ص شده، مَجاز از چیست؟</p>
+        <div class="MsoNormal" style="text-align:center">
+            <p>بـر او انجمن گشـت <span class="uline">بـازارگاه</span></p>
+            <p>چو كاوه برون شـد ز درگاه شـاه</p>
+            <p>بپوشـند هنـگام زخـمِ دراي</p>
+            <p>از آن <span class="uline">چرم</span> ، كاهنگران پشت پاي</p>
+        </div>
+        <br><br>
+        <p class="MsoNormal">4. در بيت زير،«درفش کاويان»، در کدام مفهوم نمادین به کار رفته است؟</p>
+        <br>
+        <p class="MsoNormal" style="text-align: center;">تو یک ساعت، چو افريدون به ميدان باش، تا زان پس</p>
+        <p class="MsoNormal" style="text-align: center;">به هر جانب كه روي آري، درفش كاويان بيني</p>
+        <p class="MsoNormal" style="text-align: center;">$*$ سنايي</p>
+        
+        <br><hr><br>
+        
+        <p class="MsoStep">قلمرو فکری</p>
+        
+        <p class="MsoNormal">1. معنی و مفهوم بیت بیست و نهم را به نثر روان بنویسید.</p>
+        <br><br>
+        <p class="MsoNormal">2. مارانی را که بر دوش ضح ّ اک روییدند، مظهر چه خصلت هایی می توان دانست؟</p>
+        <br><br>
+        <p class="MsoNormal">3. انگيزة کاوه در قيام عليه ضح ّ اك چه بوده است؟</p>
+        <br><br>
+        <p class="MsoNormal">4. با توجّه به متن درس، «پايمردان ديو»، چه كساني بودند؟ شخصيّت آنها را تحليل كنيد.</p>
+
+        
+        <br><hr><Br>
+
+        <p class="MsoStep">گنــج حکمــت : کاردانی</p>
+        
+        <p class="MsoNormal">کشـتی گیری بـود کـه در زورآزمایی شـهره بود؛ بـدر در میـدان او هلالی بودی و رسـتم به دسـتان او زالی.</p>
+        <br>
+        <p class="MsoNas" style="text-align: center;">با جوانان چو دست بگشای</p>
+        <p class="MsoNas" style="text-align: center;">پای گردون پیر بر بستی</p>
+        <br>
+        <p class="MsoNormal">روزی یـاران الحـاح کردنـد و مرا به تفـرّج بردند؛ ناگاه مردی از کنـاره ای درآمد و نبـرد خواسـت، خلـق در وی حیران شـدند؛ زوربازویی که کـوه به هوا بردی!</p>
+        <p class="MsoNormal">از هـر طـرف، نفیـر برآمـد. در حال که آن مرد دسـت بر هم زد، کشـتی گیر پایش بگرفت و سـرش بـر زمین محکم زد.</p>
+        <p class="MsoNormal">گفتـم: «علـم در همـه بابی لایق اسـت و عالِـم در آن باب بر همه فایق؛ اسـتعداد مجرّد، جز حسـرت ِ روزگار نیسـت.»</p>
+        <br>
+        <p class="MsoNas" style="text-align: center;">زور داری  چون نداری علم کار</p>
+        <p class="MsoNas" style="text-align: center;">لالف آن نتوان به آسانی زدن</p>
+        <p class="MsoNormal" style="text-align: left;">$*$
+            روضه خلد، مجد خوافی
+        </p>
+
+        <br><br>
+
+
+
+
+<br><br><br><br><br>
+
+
+    </body>
+
+
+</html>

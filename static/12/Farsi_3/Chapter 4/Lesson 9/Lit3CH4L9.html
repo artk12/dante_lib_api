@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: "Nastaliq";
+            src: url('nas.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+      
+        li.MsoNormal,
+        div.MsoNormal,
+        ul.MsoNormal,
+        ol.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+            
+        }
+        div.MsoNas,
+        p.MsoNas
+         {
+            margin: 0.5em;
+            
+            font-size: clamp(1.5rem, 1.7vw, 2rem);
+            font-family: "Nastaliq";
+            line-height: 2.3em;
+            color: #dcd7e0;
+            text-align: center;
+         letter-spacing: 0em;
+         word-spacing: 0.4em;
+            
+        }
+        p.MsoNormal
+         {
+            margin: 0in;
+           
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-indent: 1em;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi {
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSemic,
+        li.MsoSemic,
+        div.MsoSemic {
+            margin: 0in;
+           
+            font-size: clamp(1.2rem, 1.6vw, 1.3rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #b19af2;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #6ca4ec;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+        span.uline{
+            border-bottom: 0.1em solid #64E9E1;
+        }
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .boxp {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .boxg {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#00f2ff11; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        .boxb {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#0c4e9f2d; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        ::selection {
+            background-color: #59078fa1; /* Change this to your desired highlight color */
+            color: #ffffff; /* Change this to your desired text color */
+          }
+
+
+          mark{
+            background-color:#078b8fa1 ;
+            color: #ffffff;
+            padding: 0 7px;
+        }
+
+        .hlg { background-color: rgba(0, 234, 255, 0.334);  }
+        .hlp { background-color:#5f1487; }
+      
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+    <body class="custom-scrollbar">
+
+
+    <p class="MsoBold">
+        درس نهم : کویر
+
+    </p>
+
+    <p class="MsoNormal">
+        چشمۀ آبی سرد که در تموز سوزان کویر، گویی از دل یخچالی بزرگ بیرون می‌آید، از دامنۀ کوه‌های شمالی ایران به سینۀ کویر سرازیر می‌شود و از دل ارگ مزینان سر برمی‌دارد. از این‌جا درختان کهنی که سالیانی دراز سر بر شانۀ هم داده‌اند، آب را تا باغستان و مزرعه مشایعت می‌کنند. درست گویی عشق‌آباد کوچکی است و چنان که می‌گویند، هم بر انگارۀ عشق‌آبادش ساخته‌اند. مزینان از هزار و صد سال پیش، هنوز بر همان مُهر و نشان است که بود...
+        </p>
+        
+        <p class="MsoNormal">
+        تاریخ بیهق از شاعران و دانشمندان و مردان فقه و حکمت و شعر و ادب و عرفان و تقوای مزینان یاد می‌کند. در آن روزگاری که باب علم بر روی فقیر و غنی، روستایی و شهری باز بود و استادان بزرگ حکمت و فقه و ادب، نه در «ادارات» که در غرفه‌های مساجد یا مَدرس‌های مدارس می‌نشستند و شاگرد بود که همچون جویندۀ تشنه‌ای می‌گشت و می‌سنجید و بالآخره می‌یافت و سر می‌سپرد؛ نه به زور «حاضر و غایب»، بل به نیروی ارادت و کشش ایمان.
+        </p>
+        
+        <p class="MsoNormal">
+        صحبت مزینان بود. سال‌ها پیش، مردی فیلسوف و فقیه که در حوزۀ درس مرحوم حاجی ملا هادی اسرار ـ آخرین فیلسوف از سلسلۀ حکمای بزرگ اسلام ـ مقامی بلند و شخصیتی نمایان داشت، به این ده آمد تا عمر را به تنهایی بگذراند. بعد از حکیم اسرار، همۀ چشم‌ها به او بود که حوزۀ حکمت را او گرم و چراغ علم و فلسفه و کلام را او که جانشین شایستۀ وی بود، روشن نگاه دارد؛ امّا در آستانۀ میوه دادن درختی که جوانی را به پایش ریخته بود و در آن هنگام که بهار حیات علمی و اجتماعی‌اش فرا رسیده بود، ناگهان منقلب شد. شهر را و گیرودار شهر را رها کرد و چشم‌ها را منتظر گذاشت و به دهی آمد که هرگز در انتظار آمدن چون او کسی نبود.
+        </p>
+        
+        <p class="MsoNormal">
+        وی جدّ پدر من بود. من نیم قرن پیش از آمدنم به این جهان، خود را در او احساس می‌کنم؛ در نگاه او نشانی از من بوده است... و امّا جدّ من، او نیز بر شیوۀ پدر رفت. به همین روستای فراموش باز آمد و از زندگی و مردمش کناره گرفت و به پاکی و علم و تنهایی و بی‌نیازی و اندیشیدن با خویش وفادار ماند که این فلسفۀ انسان ماندن در روزگاری است که زندگی سخت آلوده است و انسان ماندن، سخت دشوار. پس از او عموی بزرگم که برجسته‌ترین شاگرد حوزۀ ادیب بزرگ بود، پس از پایان تحصیل فقه و فلسفه و به ویژه ادبیات، ‌باز راه اجداد خویش را به سوی کویر پیش گرفت و به مزینان بازگشت.
+        </p>
+        
+    <p class="MsoNormal">
+        آن اوایل سال‌های کودکی، هنوز پیوند ما با زادگاه روستایی‌مان برقرار بود و برخلاف حال، پامان به ده باز بود و در شهر، دست و پاگیر نشده بودیم و هر سال تابستان‌ها را به اصل خود، مزینان برمی‌گشتیم و به تعبیر امروزمان «می‌رفتیم».
+        </p>
+        
+        <p class="MsoNormal">
+        آغاز تابستان، پایان مدارس! چه آغاز خوبی و چه پایان خوب‌تری! لحظۀ عزیز و شورانگیزی بود؛ لحظه‌ای که هر سال از نخستین دم بهار، بی‌صبرانه چشم به راهش بودیم و آن سال‌ها، هر سال انتظار پایان می‌گرفت و تابستان وصال، درست به هنگام، همچون همه ساله، امیدبخش و گرم و مهربان و نوازشگر می‌آمد و ما را از غربت زندان شهر به میهن آزاد و دامن گسترمان، کویر می‌بُرد؛ نه، باز می‌گرداند.
+        </p>
+        
+        <p class="MsoNormal">
+        ... در کویر، گویی به مرز عالم دیگر نزدیکیم و از آن است که ماوراءالطبیعه را ـ که همواره فلسفه از آن سخن می‌گوید و مذهب بدان می‌خواند ـ در کویر به چشم می‌توان دید، می‌توان احساس کرد و از آن است که پیامبران همه از اینجا برخاسته‌اند و به سوی شهرها و آبادی‌ها آمده‌اند. «در کویر، خدا حضور دارد!» این شهادت را یک نویسندۀ [اهل] رومانی داده است که برای شناختن محمّد و دیدن صحرایی که آواز پرِ جبرییل همواره در زیر غرفۀ بلند آسمانش به گوش می‌رسد و حتّی درختش، غارش، کوهش، هر صخرۀ سنگش و سنگریزه‌اش آیات وحی را بر لب دارد و زبان گویای خدا می‌شود، به صحرای عربستان آمده است و عطر الهام را در فضای اسرارآمیز آن استشمام کرده است.
+        </p>
+        
+        <p class="MsoNormal">
+        ... آسمان کویر، این نخلستان خاموش و پرمهتابی که هرگاه مشت خونین و بی‌تاب قلبم را در زیر باران‌های غیبی سکوتش می‌گیرم، نالۀ گریه‌آلود آن روح دردمند و تنها را می‌شنوم. نالۀ گریه‌آلود آن امام راستین و بزرگم را که همچون این شیعۀ گمنام و غریبش، در کنار آن مدینۀ پلید و در قلب آن کویر بی‌فریاد، سر در حلقوم چاه می‌برد و می‌گریست. چه فاجعه‌ای است... در آن لحظه که یک مرد می‌گرید! ... چه فاجعه‌ای!
+        </p>
+            
+    <p class="MsoNormal">
+        نیمه‌شب آرام تابستان بود و من هنوز کودکی هفت‌هشت‌ساله. آن شب نیز مثل هر شب در سایه‌روشن غروب، دهقانان با چهارپایانشان از صحرا بازمی‌گشتند و هیاهوی گلّه خوابید و مردم شامشان را که خوردند، به پشت‌بام‌ها رفتند؛ نه که بخوابند، که تماشا کنند و از ستاره‌ها حرف بزنند، که آسمان، تفرّجگاه مردم کویر است و تنها گردشگاه آزاد و آباد کویر.
+        </p>
+        
+        <p class="MsoNormal">
+        آن شب نیز من خود را بر روی بام خانه گذاشته بودم و به نظارۀ آسمان رفته بودم؛ گرم تماشا و غرق در این دریای سبز معلّقی که بر آن مرغان الماس‌پَر، ستارگان زیبا و خاموش، تک‌تک از غیب سر می‌زنند. آن شب نیز ماه با تلألؤ پرشکوهش از راه رسید و گل‌های الماس شکفتند و قندیل زیبای پروین سر زد و آن جادّۀ روشن و خیال‌انگیزی که گویی یک‌راست به ابدیّت می‌پیوندد: «شاهراه علی»، «راه مکّه»! شگفتا که نگاه‌های لوکس مردم آسفالت‌نشین شهر، آن را کهکشان می‌بیند و دهاتی‌های کاه‌کش کویر، شاهراه علی، راه کعبه، راهی که علی از آن به کعبه می‌رود. کلمات را کنار زنید و در زیر آن، روحی را که در این تلقّی و تعبیر پنهان است، تماشا کنید.
+        </p>
+        
+        <p class="MsoNormal">
+        چنین بود که هر سال که یک کلاس بالاتر می‌رفتم و به کویر برمی‌گشتم، از آن همه زیبایی‌ها و لذّت‌ها و نشئه‌های سرشار از شعر و خیال و عظمت و شکوه و ابدیت پر از قدس و چهره‌های پر از «ماورا» محروم‌تر می‌شدم تا امسال که رفتم، دیگر سر به آسمان بر نکردم و همه چشم در زمین که اینجا … می‌توان چند حلقه چاه عمیق زد و… آنجا می‌شود چغندر کاری کرد … ! و دیدارها همه بر خاک و سخن‌ها همه از خاک! که آن عالم پُرشگفتی و راز، سرایی سرد و بی‌روح شد، ساختۀ چند عنصر! و آن باغ پر از گل‌های رنگین و معطّر شعر و خیال و الهام و احساس، در این علم عددبین مصلحت‌اندیش آلود و من آن شب، پس از گشت‌وگذار در گردشگاهِ سَمو‌مِ سرد این عقل بی‌درد و بی‌دل پژمرد و صفای اهورایی آن همه زیبایی‌ها که درونم را پر از خدا می‌کرد، به این علم آلوده شد.
+        </p>
+        
+        <p class="MsoNormal">
+        آسمان، تماشاخانۀ زیبا و شگفت مردم کویر، فرود آمدم و بر روی بام خانه، خسته از نشئۀ خوب و پاک آن «اسرا» در بستر خویش به خواب رفتم.
+        </p>
+        <br>
+        <p class="MsoSemi" style="text-align: left;">$*$ کویر، علی شریعتی (با تلخیص)</p>
+        
+
+        <br><hr><br>
+    <p class="MsoBold">کارگاه متن‌پژوهی</p>
+    
+    <p class="MsoStep">قلمرو زبانی</p>
+    
+    
+    <p class="MsoNormal">۱. از متن درس، برای هر یک از معانی زیر، واژه‌های معادل بیابید:</p>
+<br>
+    <ul class="MsoNormal">
+        <li>باد گرم مهلک</li>
+        <li>تماشا </li>
+        <li>آویزان</li>
+        <li>نگرش</li> 
+    </ul>
+
+<br>
+    <br>
+
+    
+    <p class="MsoNormal">۲. چهار گروه اسمی که اهمّیت املایی داشته باشند، از متن درس بیابید و بنویسید.</p>
+
+    <br><br>
+    
+    <p class="MsoNormal">
+        3.
+        به انواع دیگر از «وابستۀ وابسته» توجّه کنید:</p>
+    <br>
+    <p class="MsoSemi" style="font-size:larger">الف) صفت ِ صفت:  <br>
+        اسم + ــِـ + صفت + ــِـ + صفت</p>
+    
+    <ul class="MsoNormal">
+        <p>برخی از صفت‌ها، صفت‌های همراه خود را بیشتر معرّفی می‌کنند و دربارۀ ویژگی‌های آنها توضیح می‌دهند؛ این صفت با صفت همراه خود، یک‌جا وابستۀ هسته می‌شود. مانند:</p>
+    </ul>
+
+    <img src="SVG1.svg" style="max-width:65%;margin:auto;display:flex;">
+
+
+    <img src="SVG2.svg" style="max-width:55%;margin:auto;display:flex;">
+
+
+
+
+
+
+    <br>
+
+    
+   <ul class="MsoNormal">
+    <p>در نمونه‌های بالا، واژه‌های «روشن» و «چمنی» وابستۀ وابسته از نوع «صفت ِ صفت» هستند.</p>
+   </ul>
+    
+    <br>
+
+    <p class="MsoSemi" style="font-size: larger;">ب) قیدِ صفت:</p>
+        
+      <ul class="MsoNormal">
+        <p>
+            کلمه‌ای است که دربارۀ اندازه و درجۀ صفت پس از خود توضیح می‌دهد؛ مانند:</p>
+      </ul>
+    
+    
+      <img src="SVG3.svg" style="max-width:65%;margin:auto;display:flex;">
+
+
+      <img src="SVG4.svg" style="max-width:65%;margin:auto;display:flex;">
+
+
+
+
+
+
+
+
+
+      <br>
+
+    <ul class="MsoNormal">
+        <p>واژه‌های «بسیار» و «تقریباً» وابستۀ وابسته، از نوع «قیدِ صفت» هستند.</p>
+    </ul>
+    
+    <br>
+
+
+
+
+
+
+<ul class="MsoNormal">
+
+        $*$
+        در کدام گروه‌های اسمی زیر، «وابستۀ وابسته» به کار رفته است؟ نوع هریک را مشخّص کنید.
+<br><br>
+       <ul>
+        <li>تموز سوزان کویر</li>
+        <li>قلب آن کویر</li>
+        <li>هوای نسبتاً پاک</li>
+        <li>سه دست لباس ایرانی</li>
+        <li>این معمار خوش ذوق</li>
+        <li>شاگرد حوزۀ ادبی</li>
+       </ul>
+</ul>
+
+
+
+    <br><br>
+
+    <p class="MsoNormal">
+       4.
+        عبارت زیر را با توجّه به موارد «الف» و «ب» بررسی کنید:</p>
+
+    <br>
+<ul class="MsoNormal">
+
+    <p><span class="uline">آن شب</span> نیز من خود را بر روی بام خانه گذاشته بودم و به <span class="uline">نظارۀ آسمان</span> رفته بودم.</p>
+</ul>
+
+
+
+   <ul class="MsoNormal" >
+    <p>الف) نوع جمله‌ها:
+    <br>
+    ب) نقش دستوری واژه‌های مشخّص شده:</p>
+   </ul>
+    
+    <br><hr><br>
+    
+    <p class="MsoStep">قلمرو ادبی</p>
+
+    
+    <p class="MsoNormal">۱. آرایه‌های ادبی را در بند «نهم» درس مشخّص کنید.</p>
+
+    <br>
+
+    <p class="MsoNormal">۲. دو نمونه «تلمیح» در متن درس بیابید و توضیح دهید.</p>
+
+    <br>
+
+    <p class="MsoNormal">۳. متن درس، بخشی از «سفرنامه» محسوب می‌شود یا «حسب حال»؟ دلیل خود را بنویسید.</p>
+    
+    <br><hr><br>
+    
+    <p class="MsoStep">قلمرو فکری</p>
+    
+    
+    <p class="MsoNormal">۱. در متن درس، چه کسی به «جوینده‌ای تشنه» مانند شده است؟ چرا؟</p>
+
+    <br>
+    <p class="MsoNormal">۲. نویسنده با مقایسۀ زندگی روستایی و زندگی شهری، به چه تفاوت‌هایی اشاره دارد؟</p>
+
+    <br>
+    <p class="MsoNormal">۳. مضمون کلّی هر سرودۀ زیر، از سهراب سپهری، با کدام بخش از متن درس ارتباط دارد؟</p>
+    
+   <ul class="MsoNormal">
+    <p>الف) در کف‌ها کاسۀ زیبایی، / بر لب‌ها تلخی ِ دانایی / شهرِ تو در جای دگر / ره می‌بَر با پای دگر.</p>
+    <p>ب) من نمازم را وقتی می‌خوانم / که اذانش را باد گفته باشد سر گلدستۀ سرو/ من نمازم را پی تکبیره الّاحرام علف می‌خوانم/ پی قد قامت موج</p>
+    
+   </ul>
+
+
+   <br><hr><br>
+
+   <p class="MsoStep">
+    روان خوانی : بوی جوی مولیان
+   </p>
+
+   <p class="MsoNormal">
+    من زندگانی را در چادر با تیر تفنگ و شیهۀ اسب آغاز کردم. در چهار سالگی پشت قاش زین نشستم. چیزی نگذشت که تفنگ خفیف به دستم دادند. تا ده سالگی حتّی یک شب هم در شهر و خانۀ شهری به سر نبردم.
+    </p>
+    
+    <p class="MsoNormal">
+    ایل ما در سال دو مرتبه از نزدیکی شیراز می‌گذشت. دست‌فروشان و دوره‌گردان شهر، بساط شیرینی و حلوا در راه ایل می‌گستردند. پول نقد کم بود. مزۀ آن شیرینی‌های باد و باران‌خورده و گرد و غبارگرفته را هنوز زیر دندان دارم.
+    </p>
+    
+    <p class="MsoNormal">
+    از شنیدن اسم شهر، قند در دلم آب می‌شد و زمانی که پدرم و سپس مادرم را به تهران تبعید کردند، تنها فرد خانواده که خوشحال و شادمان بود، من بودم؛ نمی‌دانستم که اسب و زینم را می‌گیرند و پشت میز و نیمکت مدرسه‌ام می‌نشانند. نمی‌دانستم که تفنگ مشقی قشنگم را می‌گیرند و قلم به دستم می‌دهند.
+    </p>
+    
+    <p class="MsoNormal">
+    پدرم مرد مهمّی نبود؛ اشتباهاً تبعید شد. مادرم هم زن مهمّی نبود؛ او هم اشتباهاً تبعید شد. دار و ندار ما هم اشتباهاً به دست حضرات دولتی و ملّتی به یغما رفت.
+    </p>
+    
+    <p class="MsoNormal">
+    برای کسانی که در کنار گواراترین چشمه‌ها چادر می‌افراشتند، آب‌انبار آن روزی تهران مصیبت بود. برای کسانی که به آتش سرخ بَن و بلوط خو گرفته بودند، زغال منقل و نفت بخاری آفت بود. برای مادرم که سراسر عمرش را در چادر باز و پُرهوای عشایری به سر برده بود، تنفّس در اتاقکی محصور، دشوار و جان‌فرسا بود. برایش در حیاط چادر زدیم و فقط سرمای کشنده و برف زمستان بود که توانست او را به چهاردیواری اتاق بکشاند.
+    </p>
+    
+    <p class="MsoNormal">
+    ما قدرت اجارۀ حیاط دربست نداشتیم. کارمان از آن زندگی پُرزرق و برق کدخدایی و کلانتری به یک اتاق کرایۀ در یک خانۀ چند اتاقی کشید. همه جور همسایه در حیاطمان داشتیم؛ شیرفروش، رفتگر شهرداری، پیشخدمت بانک و یک زن مجرّد. اسم زن همدم بود. از همه دل‌سوزتر بود.
+    </p>
+    
+    <p class="MsoNormal">
+    روزی پدرم را به شهربانی خواستند. ظهر نیامد. مأمور امیدوارمان کرد که شب می‌آید. شب هم نیامد. شب‌های دیگر هم نیامد. غصّۀ مادر و سرگردانی من و بچه‌ها حدّ و حصر نداشت. پس از ماه‌ها انتظار یک روز سر و کلّه‌اش پیدا شد. شناختنی نبود. شکنجه دیده بود. فقط از صدایش تشخیص دادیم که پدر است؛ همان پدری که اسب‌هایش اسم و رسم داشتند؛ همان پدری که ایلخانی قشقایی بر سفرۀ رنگینش می‌نشست؛ همان پدری که گلّه‌های رنگارنگ و ریز و درشت داشت و فرش‌های گران‌بهای چادرش زبانزد ایل و قبیله بود.
+    </p>
+    
+    <p class="MsoNormal">
+    پدرم غصّه می‌خورد. پیر و زمین‌گیر می‌شد. هر روز ضعیف و ناتوان‌تر می‌گشت. همه چیزش را از دست داده بود؛ فقط یک دل‌خوشی برایش مانده بود؛ پسرش با کوشش و تلاش درس می‌خواند.
+    </p>
+    
+    <p class="MsoNormal">
+    من درس می‌خواندم. شب و روز درس می‌خواندم. به کتاب و مدرسه دل‌بستگی داشتم. دو کلاس یکی می‌کردم. شاگرد اوّل می‌شدم. تبعیدی‌ها، مأموران شهربانی و آشنایان کوچه و خیابان به پدرم تبریک می‌گفتند و از آیندۀ درخشانم برایش خیال‌ها می‌بافتند. سرانجام تصدیق گرفتم. تصدیق لیسانس گرفتم. یکی از آن تصدیق‌های پررنگ و رونق روز. پدرم لیسانسم را قاب گرفت و بر دیوار گچ‌فرو ریختۀ اتاقمان آویخت و همه را به تماشا آورد. تصدیق قشنگی به شکل مربع مستطیل بود. مزایای قانونی تصدیق و نام و نشان مرا با خطّی زیبا بر آن نگاشته بودند. آشنایی در کوچه و محلّه نماند که تصدیق مرا نبیند و آفرین نگوید.
+    </p>
+    
+    <p class="MsoNormal">
+    پیرمرد دل‌خوشی دیگری نداشت. روز و شب با فخر و مباهات، با شادی و غرور به تصدیقم می‌نگریست و می‌گفت: «جان و مالم و همه چیزم را از دست دادم ولی تصدیق پسرم به همۀ آنها می‌ارزد.»
+    </p>
+    
+    <p class="MsoNormal">
+    پس از عزیمت رضا شاه ـ که قبلاً رضاخان بود و بعداً هم رضاخان شد ـ همۀ تبعیدی‌ها رها شدند و به ایل و عشیره بازگشتند و به ثروت از دست‌رفته و شوکت گذشتۀ خود دست یافتند. همه بی تصدیق بودند؛ به جز من. همه‌شان زندگی شیرین و دیرین را از سرگرفتند.
+    </p>
+    
+    <p class="MsoNormal">
+    چشمه‌های زلال در انتظارشان بود. کوه‌های مرتفع و دشت‌های بی‌کران در آغوششان کشید. باز زین و برگ را بر گردۀ کَهَرها و کُرَندها نهادند و سرگرم تاخت و تاز شدند. باز در سایۀ دل‌لاویز چادرها و در دامن معطّر چمن‌ها سفره‌های پُرسخاوت ایل را گستردند و در کنارش نشستند. باز با رسیدن مهر، بار سفر را بستند و سرما را پشت سر گذاشتند و با آمدن فروردین، گرما را به گرمسیر سپردند و راه رفته را باز آمدند.
+    </p>
+    
+    <p class="MsoNormal">
+        در میان آنان فقط من بودم که دودل و سرگردان و سر در گریبان بودم. بیش از یک سال و نیم نتوانستم از مواهب خداداد و نعمت‌های طبیعت بهره‌مند شوم. لیسانس داشتم. لیسانس نمی‌گذاشت که در ایل بمانم. ملامتم می‌کردند که با این تصدیق گران‌قدر، چرا در ایل مانده‌ای و عمر را به بطالت می‌گذرانی؟! باید عزیزان و کسانت را ترک گویی و به همان شهر بی‌مهر، به همان دیار بی‌یار، به همان هوای غبارآلود، به همان آسمان دودگرفته بازگردی و در خانه‌ای کوچک و کوچه‌ای تنگ زندگی کنی و در دفتری یا اداره‌ای محبوس و مدفون شوی تا ترقّی کنی.
+        </p>
+        
+        <p class="MsoNormal">
+        چاره‌ای نبود. حتّی پدرم که به رفاقت و هم‌نشینی من سخت خو گرفته بود و یک لحظه تاب جدایی‌ام را نداشت، گاه فرمان می‌داد و گاه التماس می‌کرد که تصدیق داری، باید به شهر بازگردی و ترقّی کنی!
+        </p>
+        
+        <p class="MsoNormal">
+        بازگشتم؛ از دیدار عزیزانم محروم ماندم. پدر پیر، برادر نوجوان و خانوادۀ گرفتارم را ـ درست در موقعی که نیاز داشتند ـ از حضور و حمایت خود محروم کردم. درد تنهایی کشیدم. از لطف و صفای یاران و دوستان دور افتادم. به تهران آمدم. با بدنم به تهران آمدم. ولی روحم در ایل ماند. در میان آن دو کوه سبز و سفید، در کنار آن چشمۀ نازنین، توی آن چادر سیاه، در آغوش آن مادر مهربان.
+        </p>
+        
+        <p class="MsoNormal">
+        در پایتخت به تکاپو افتادم و با دانشنامۀ رشتۀ حقوق قضایی، به سراغ دادگستری رفتم تا قاضی شوم و درخت بیداد را از بیخ و بن براندازم. دادیاری در دو شهر ساوه و دزفول به من پیشنهاد شد. سری به ساوه زدم و دربارۀ دزفول پرس‌وجو کردم. هر دو ویرانه بودند. یکی آب و هوایی داشت و دیگری آن را هم نداشت. دلم گرفت و از ترقّی عدلیّه چشم پوشیدم و به دنبال ترقّی‌های دیگر به راه افتادم. تلاش کردم و آن قدر حلقه به درها کوفتم تا عاقبت از بانک ملّی سر در آوردم و در گوشۀ یک اتاق پرکارمند، صندلی و میزی به دست آوردم و به جمع و تفریق محاسبات مردم پرداختم.
+        </p>
+        
+        <p class="MsoNormal">
+        شاهین تیزبال افق‌ها بودم. زنبوری طفیلی شدم و به کنجی پناه بردم. بیش از دو سال در بانک ماندم و مشغول ترقّی شدم. تابستان سوم فرا رسید. هوا داغ بود. شب‌ها از گرما خوابم نمی‌برد. حیاط و بهارخواب نداشتم. اتاقم در وسط شهر بود. بساط تهویه به تهران نرسیده بود. شاید هنوز اختراع نشده بود. خیس عرق می‌شدم. پیوسته به یاد ایل و تبار بودم. روزی نبود که به فکر ییلاق نباشم و شبی نبود که آن آب و هوای بهشتی را در خواب نبینم. در ایل چادر داشتم؛ در شهر خانه نداشتم. در ایل اسب‌سواری داشتم؛ در شهر ماشین نداشتم. در ایل حرمت و آسایش و کس‌وکار داشتم؛ در شهر آرام و قرار و غمخوار و اندوه‌گسار نداشتم.
+        </p>
+        
+        <p class="MsoNormal">
+        نامه‌ای از برادرم رسید، لبریز از مهر و سرشار از خبرهایی که خوابشان را می‌دیدم: «… برف کوه هنوز آب نشده است. به آب چشمه دست نمی‌توان برد. ماست را با چاقو می‌بریم. پشم گوسفندان را گل و گیاه رنگین کرده است. بوی شبدر دوچین هوا را عطرآگین ساخته است. گندم‌ها هنوز خوشه نبسته‌اند. صدای بلدرچین یک دم قطع نمی‌شود. جوجه‌کبک‌ها خط و خال انداخته‌اند. مادر چشم‌به‌راه توست. آب خوش از گلویش پایین نمی‌رود.»
+        </p>
+        
+        <p class="MsoNormal">
+        نامۀ برادر با من همان کرد که شعر و چنگ رودکی با امیر سامانی!
+        </p>
+        
+        <p class="MsoNormal">
+        آب جیحون فرو نشست؛ ریگ آموی پرنیان شد؛ بوی جوی مولیان مدهوشم کرد. فردای همان روز، ترقّی را رها کردم. پا به رکاب گذاشتم و به سوی زندگی روان شدم. تهران را پشت سر نهادم و به سوی بخارا بال و پر گشودم. بخارای من ایل من بود.
+        </p>
+        
+        <br>
+        <p class="MsoSemi" style="text-align: left;">$*$ بخارای من ایل من، محمّد بهمن بیگی</p>
+        
+<br><hr><br>
+
+<p class="MsoStep">
+    درک و دریافت
+    </p>
+    
+    <p class="MsoNormal">
+    1. نویسنده در این متن، از زبان طنز بهره گرفته است؛ دو نمونه از آن را در متن بیابید.
+    </p>
+    
+    <br><br>
+    <p class="MsoNormal">
+    2. با توجّه به جملۀ زیر:
+    </p>
+    
+    <ul class="MsoNormal">
+        <p >
+            «نامۀ برادر با من همان کرد که شعر و چنگ رودکی با امیر سامانی!»
+            </p>
+            
+            <p>
+            الف) چرا نویسنده با خواندن نامۀ برادر خود، داستان تاریخی امیر سامانی را به یاد می‌آورد؟
+            </p>
+            
+            <p>
+            ب) اشاره به شعر و چنگ رودکی، بیانگر کدام ویژگی «شعر» است؟
+            </p>
+            
+    </ul>
+
+
+
+    <br><br>
+
+
+
+
+
+
+<br><br><br><br><br>
+
+
+    </body>
+
+
+</html>

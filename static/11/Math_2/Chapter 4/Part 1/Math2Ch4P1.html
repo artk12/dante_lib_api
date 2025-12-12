@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal ,
+        ul.MsoNormal {
+            margin: 0in;
+           
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi , b{
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #badaff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .MsoPapDefault {
+           
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #722a85;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background-color: #1abbbbe1; /* Scrollbar thumb color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color: #05ffe2;
+        }
+    </style>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+ 
+</head>
+
+
+
+<body class="custom-scrollbar">
+
+
+    <p class="MsoBold">فصل ۴
+        :
+        مثلثات</p>
+
+
+
+        <p class="MsoNormal">
+            ماهوارهٔ امید اولین ماهوارهٔ ساخت ایران است که در بهمن ماه ۱۳۸۷ در مدار فضا قرار گرفت.  
+            در شکل بالا، این ماهواره در $ h $ کیلومتری سطح زمین قرار دارد و در مدار خودش حول خط استوا حرکت می‌کند. اگر $ \alpha $ زاویه بین مرکز زمین (نقطه $ O $) تا ماهواره و دوردست‌ترین نقطهٔ قابل دید روی کرهٔ زمین (نقطه $ p $) تا این ماهواره باشد، و شعاع تقریبی کرهٔ زمین $ ۶۴۰۰ $ کیلومتر باشد، آنگاه
+
+            $ \cos \alpha = \dfrac{۶۴۰۰}{۶۴۰۰ + h} $
+
+            و
+
+            $ \overset{\frown}{PA} = ۶۴۰۰ \times \hat{\alpha} $
+            (بر حسب رادیان)
+
+            </p>
+            
+<br><hr>
+
+<p class="MsoBold">درس اول
+    :
+واحدهای اندازه‌گیری زاویه</p>
+
+<p class="MsoStep">یادآوری</p>
+
+<ul class="MsoNormal">
+    <li>اگر محیط دایره‌ای را به ۳۶۰ کمان مساوی تقسیم کنیم، اندازهٔ زاویهٔ مرکزی روبه‌روی هرکدام از این کمان‌ها $ ۱ $ درجه است. اندازهٔ هر کمان با زاویهٔ مرکزی روبه‌روی آن کمان برحسب درجه برابر است.</li>
+    <li><b>دایرهٔ مثلثاتی</b> دایره‌ای است به شعاع واحد که جهت مثبت آن برخلاف گردش عقربه‌های ساعت است. به این جهت، <b>جهت مثلثاتی</b> می‌گوییم. معمولاً مرکز این دایره مبدأ مختصات است.</li>
+</ul>
+
+<br><br>
+
+<p class="MsoNormal">
+    شکل مقابل یک دایرهٔ مثلثاتی را نمایش می‌دهد که به $ ۲۴ $ قسمت مساوی تقسیم شده است. در جاهای خالی زاویهٔ مناسب را روی شکل مشخص کنید.
+    </p>
+    
+    <p class="MsoNormal">
+    برای اندازه‌گیری زاویه، واحد دیگری وجود دارد که در ادامه با آن آشنا می‌شوید.
+    </p>
+    
+    <br>
+
+    <p class="MsoNormal">
+        در فعالیت زیر رابطه بین اندازهٔ زاویهٔ مرکزی روبه‌رو به یک کمان و طول کمان روبه‌روی آن مشخص می‌شود.
+        </p>
+        
+<br><hr><br>
+
+<p class="MsoStep">فعالیت</p>
+
+<p class="MsoNormal">
+۱. یک شیء دایره‌ای شکل انتخاب کنید و نخی را دور آن بپیچید و سپس باز کنید. طول نخ را با خط‌کش اندازه بگیرید. طول این نخ چه کمیتی از دایره را مشخص می‌کند؟ با استفاده از این مقدار شعاع دایره را به‌دست آورید.
+</p>
+
+<br><br>
+
+
+<p class="MsoNormal">
+    ۲. قطعه نخی را به اندازهٔ شعاع دایره برش دهید و آن را از نقطهٔ $ A $ روی آن دایره قرار دهید تا نقطهٔ $ B $ حاصل شود (شکل مقابل). اندازهٔ $ A \overset{\frown}{O}B $ را با نقاله اندازه‌گیری کنید. این زاویه تقریباً چند درجه است؟
+
+
+    </p>
+    
+
+    <br><br>
+
+    <p class="MsoNormal">
+        ۳. دوباره این قطعه نخ را از نقطهٔ $ B $ روی دایره قرار دهید تا نقطهٔ $ C $ حاصل شود. این کار را ادامه دهید تا نقاط 
+        $ D $
+        و
+        $E$
+        و
+         $F$
+          و 
+          $ G $
+           روی دایره به‌دست آید (شکل مقابل). 
+
+
+            در این حالت 
+            $ B\overset{\frown}{O}C $
+            و 
+            $ C\overset{\frown}{O}D $
+             و 
+             $ D\overset{\frown}{O}E $
+             و 
+             $ E\overset{\frown}{O}F $ 
+             و 
+             $ F\overset{\frown}{O}G $
+
+             با زاویه 
+             ..........
+            برابر و هر یک تقریباً ........ درجه است.
+            آیا دو دایره برابر است. به هر یک از این زاویه‌ها 
+        <b>یک رادیان</b>
+            می‌گوییم.
+            </p>
+            
+
+
+
+
+
+
+        <br><hr><br>
+        <p class="MsoNormal">
+        <b>  یک رادیان</b>
+                برابر است با اندازهٔ زاویهٔ مرکزی روبه‌رو به کمانی از دایره به طول شعاع دایره.
+        </p>
+        <br><hr><br>
+
+        <p class="MsoNormal">
+            در تمام واحدهای زیر اندازهٔ زاویه مشخص شده 
+            $ ۱ $ رادیان است. در هر کدام با استفاده از نقاله اندازهٔ زاویه را بر حسب درجه مشخص کنید.
+            </p>
+            
+            <br>
+        <p class="MsoNormal">
+                به عبارت دیگر، اگر اندازهٔ 
+                $ ۱ $
+                ، 
+                $ A\overset{\frown}{O}B $
+                 رادیان باشد، در شکل مقابل داریم:
+        </p>
+                
+        <p class="MsoNormal">
+            $$ OA = \overset{\frown}{AB} $$  
+            $$ OA' = \overset{\frown}{A'B'} $$  
+            $$ OA'' = \overset{\frown}{A''B''} $$  
+            </p>
+            
+
+<br><br>
+
+
+<p class="MsoNormal">
+    ۴. جدول زیر را کامل کنید.
+    </p>
+<br>
+ 
+<div class="custom-scrollbar" style="overflow-y: hidden; overflow-x:auto;direction:rtl;">  
+     <table class="MsoNormal" style="margin:auto;width:max-content;direction:rtl;text-align:center;">
+    <tr>
+        <th>شکل</th>
+        <td><img src="shape1.png" alt="شکل ۱"></td>
+        <td><img src="shape2.png" alt="شکل ۲"></td>
+        <td><img src="shape3.png" alt="شکل ۳"></td>
+        <td><img src="shape4.png" alt="شکل ۴"></td>
+        <td><img src="shape5.png" alt="شکل ۵"></td>
+        <td><img src="shape6.png" alt="شکل ۶"></td>
+        <td><img src="shape7.png" alt="شکل ۷"></td>
+    </tr>
+    <tr>
+        <th>
+            طول کمان
+                <br>
+                $AB_i$
+                <br>
+            $ 1 \leq i \leq 7 $
+        </th>
+
+        <td>$ r $</td>
+        <td>$ \dfrac{3}{2} r $</td>
+        <td>$ 2r $</td>
+        <td>$ \quad $</td>
+        <td>$ 4r $</td>
+        <td>$ \quad $</td>
+        <td>$ 6r $</td>
+    </tr>
+
+    <tr>
+        <th>اندازه زاویه
+            <br>
+             $ {\angle} AOB_{i} $
+             <br>
+             $ 1 \leq i \leq 7 $
+        </th>
+        <td>$ 1 $ رادیان</td>
+        <td>$ \dfrac{3}{2} $ رادیان</td>
+        <td>$ 2 $ رادیان</td>
+        <td>$ 3 $ رادیان</td>
+        <td> $\quad$ </td>
+        <td>$ 5 $ رادیان</td>
+        <td> $\quad$ </td>
+    </tr>
+</table>
+<br>
+</div>
+
+<br><br>
+
+
+<p class="MsoNormal">
+    همان‌طور که می‌بینید، در هر ستون با تقسیم طول کمان به اندازهٔ شعاع دایره ($ r $)، اندازهٔ زاویهٔ مرکزی مربوط به آن بر حسب رادیان به‌دست می‌آید.
+    </p>
+    <br>
+    <p class="MsoNormal">
+    با توجه به جدول صفحهٔ قبل می‌توان گفت:
+    </p>
+    
+
+    <br><hr><br>
+
+<div class="custom-scrollbar" style="overflow-y: hidden; overflow-x:auto;direction:ltr;">
+    <p class="MsoNormal">
+        $$ \text{اندازه یک زاویه بر حسب رادیان} = \dfrac{\text{طول کمان روبه‌روی زاویه}}{\text{اندازه شعاع دایره}} $$
+        </p>
+        <br>
+        
+</div>
+    <br><hr><br>
+
+
+
+    <br>
+
+
+
+
+    <br><hr><br>
+<p class="MsoNormal">
+اگر 
+$ l $
+طول کمان روبه‌روی
+ زاویه 
+ ،
+ $ r $
+ اندازهٔ شعاع دایره 
+  و 
+  $ \alpha $
+  اندازهٔ زاویه بر حسب رادیان باشد، آنگاه رابطهٔ بالا را به‌صورت زیر می‌توان نوشت:
+$$ \alpha = \dfrac{l}{r} $$
+<br>
+در رابطهٔ بالا، $ l $ و $ r $ هم‌واحدند.
+</p>
+<br><hr><br>
+
+
+
+
+
+
+<br><hr><br>
+<p class="MsoStep">کار در کلاس</p>
+
+<p class="MsoNormal">
+با استفاده از رابطهٔ بالا، جدول زیر را کامل کنید:
+</p>
+
+
+<br>
+
+
+<div class="custom-scrollbar" style="overflow-y: hidden; overflow-x:auto;direction:ltr;">
+    <table class="MsoNormal" style="margin:auto;width:fit-content;direction:rtl;text-align:center;">
+        <tr>
+            <th>$ l $</th>
+            <th>$ r $</th>
+            <th>$ \alpha $</th>
+        </tr>
+        <tr>
+         <td></td>
+            <td>$ 5 $ متر</td>
+            <td>$ 1 $ رادیان</td>
+        </tr>
+        <tr>
+            <td>$500 $ سانتی‌متر</td>
+            <td>$ ۵ $ متر</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>$ 0.5 $ متر</td>
+            <td>$ 1/5 $ رادیان</td>
+        </tr>
+        <tr>
+            <td>$200 $ سانتی‌متر</td>
+            <td>$ 1 $ متر</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>$90 $ سانتی‌متر</td>
+            <td></td>
+            <td>$ 3 $ رادیان</td>
+        </tr>
+        <tr>
+            <td>$ 50 $ متر</td>
+            <td>$10 $ متر</td>
+           <td></td>
+        </tr>
+        <tr>
+            <td>$ 10 $ متر</td>
+            <td></td>
+            <td>$ 10 $ رادیان</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>$20 $ سانتی‌متر</td>
+            <td>$ 20 $ رادیان</td>
+        </tr>
+    </table>
+    <br>
+</div>
+
+
+<br><hr><br>
+
+<p class="MsoSemi">یادآوری</p>
+<br>
+<p class="MsoNormal">
+می‌دانیم نسبت محیط هر دایره به اندازهٔ قطر آن عددی ثابت است که آن را با $ \pi $ نمایش می‌دهند و به آن عدد پی می‌گویند. مقدار تقریبی این عدد $ ۳/۱۴ $ است. حال، جدول زیر را کامل کنید:
+</p>
+
+<br>
+<table class="MsoNormal" style="margin:auto;width:fit-content;direction:rtl;text-align:center;">
+    <tr>
+        <th>زاویه بر حسب رادیان</th>
+        <th>زاویه بر حسب درجه</th>
+    </tr>
+    <tr>
+        <td>$ 0/5 $ رادیان</td>
+        <td>تقریباً ........</td>
+    </tr>
+    <tr>
+        <td>$ 1 $ رادیان</td>
+        <td>تقریباً $ 57^\circ $</td>
+    </tr>
+    <tr>
+        <td>$ 2 $ رادیان</td>
+        <td>تقریباً ........</td>
+    </tr>
+    <tr>
+        <td>$ 3 $ رادیان</td>
+        <td>تقریباً ........</td>
+    </tr>
+    <tr>
+        <td>$ 3/14 $ رادیان</td>
+        <td>تقریباً ........</td>
+    </tr>
+    <tr>
+        <td>$ \pi $ رادیان</td>
+        <td>
+            دقیقاً
+            $ 180^\circ $</td>
+    </tr>
+
+</table>
+
+
+<br><br>
+
+<p class="MsoNormal">
+    بنابراین، اندازهٔ زاویهٔ مرکزی روبه‌روی کمان نیم دایره برابر است با ........ درجه یا ........ رادیان.  
+    به‌عبارت دیگر، اندازهٔ زاویهٔ نیم صفحه برابر است با ........ رادیان.  
+    در نتیجه:
+    </p>
+    
+    <p class="MsoNormal">
+        $$   \text{ درجه}  \ 1 = \text{ رادیان}  \  \dfrac{\pi}{۱۸۰}  $$
+        </p>
+    
+        <br><br>
+
+
+<p class="MsoNormal">
+
+    به این ترتیب :
+</p>
+
+<img src="" alt="">
+
+
+
+<p class="MsoStep">کار در کلاس</p>
+<p class="MsoNormal">
+    1.
+    مطابق نمونه، هر یک از زاویه‌ها را از درجه به رادیان تبدیل کنید:</p>
+<br>
+<table class="MsoNormal" style="margin:auto;width:max-content;direction:ltr;text-align:center;">
+
+    <tr>
+        <td rowspan="2" style="border: none;">$ 30^0 $</td>
+        <td  style="border: none;">
+          $  x \ \text{رادیان}  \ \frac{\pi}{180} $
+        </td>
+        <td rowspan="2"  style="border: none;">$ \text{رادیان} \ \dfrac{\pi}{6} $</td>
+    </tr>
+<tr>
+<td  style="border: none;">    $ \longrightarrow $ </td>
+</tr>
+
+</table>
+
+
+<table class="MsoNormal" style="margin:auto;width:max-content;direction:ltr;text-align:center;">
+
+    <tr>
+        <td rowspan="2" style="border: none;">$ 36^0 $</td>
+        <td  style="border: none;">
+          $ \qquad \qquad \quad $
+        </td>
+        <td rowspan="2"  style="border: none;">
+            $ . . . . . . . . $ 
+        </td>
+    </tr>
+<tr>
+<td  style="border: none;">    $ \longrightarrow $ </td>
+</tr>
+
+</table>
+    
+
+<table class="MsoNormal" style="margin:auto;width:max-content;direction:ltr;text-align:center;">
+
+    <tr>
+        <td rowspan="2" style="border: none;">$ 45^0 $</td>
+        <td  style="border: none;">
+          $ \qquad \qquad \quad $
+        </td>
+        <td rowspan="2"  style="border: none;">
+            $ . . . . . . . . $ 
+        </td>
+    </tr>
+<tr>
+<td  style="border: none;">    $ \longrightarrow $ </td>
+</tr>
+
+</table>
+
+<table class="MsoNormal" style="margin:auto;width:max-content;direction:ltr;text-align:center;">
+
+    <tr>
+        <td rowspan="2" style="border: none;">$ 60^0 $</td>
+        <td  style="border: none;">
+          $ \qquad \qquad \quad $
+        </td>
+        <td rowspan="2"  style="border: none;">
+            $ . . . . . . . . $ 
+        </td>
+    </tr>
+<tr>
+<td  style="border: none;">    $ \longrightarrow $ </td>
+</tr>
+
+</table>
+
+<table class="MsoNormal" style="margin:auto;width:max-content;direction:ltr;text-align:center;">
+
+    <tr>
+        <td rowspan="2" style="border: none;">$ 90^0 $</td>
+        <td  style="border: none;">
+          $ \qquad \qquad \quad $
+        </td>
+        <td rowspan="2"  style="border: none;">
+            $ . . . . . . . . $ 
+        </td>
+    </tr>
+<tr>
+<td  style="border: none;">    $ \longrightarrow $ </td>
+</tr>
+
+</table>
+
+<table class="MsoNormal" style="margin:auto;width:max-content;direction:ltr;text-align:center;">
+
+    <tr>
+        <td rowspan="2" style="border: none;">$ 180^0 $</td>
+        <td  style="border: none;">
+          $ \qquad \qquad \quad $
+        </td>
+        <td rowspan="2"  style="border: none;">
+            $ . . . . . . . . $ 
+        </td>
+    </tr>
+<tr>
+<td  style="border: none;">    $ \longrightarrow $ </td>
+</tr>
+
+</table>
+
+
+<br><hr><br>
+
+
+
+<p class="MsoNormal">
+    اگر $D$ اندازهٔ زاویهٔ $\alpha$ برحسب درجه و $R$ اندازهٔ زاویهٔ $\alpha$ برحسب رادیان باشد، آنگاه:
+</p>
+
+<p class="MsoNormal">
+    $$
+     \dfrac{D}{180^\circ} = \dfrac{R}{ \text{رادیان} \ \pi}
+      $$
+</p>
+
+<br><hr><br>
+
+<p class="MsoNormal">۲. حال جدول زیر را با استفاده از این رابطه کامل کنید:</p>
+
+<br>
+<table class="MsoNormal" style="margin:auto;width:250px;direction:rtl;text-align:center;">
+    <tr>
+
+        <th>$ \text{(درجه) } D$</th>
+        <th>$ \text{(رادیان)}  R$</th>
+    </tr>
+    <tr>
+
+        <td>$5^\circ$</td>
+        <td>$\dfrac{\pi}{36}$</td>
+    </tr>
+    <tr>
+
+        <td></td>
+        <td>$\dfrac{\pi}{7}$</td>
+    </tr>
+    <tr>
+        <td>$ 24^0 $</td>
+        <td></td>
+    </tr>
+    <tr>
+
+      <td></td>
+        <td>$\dfrac{2\pi}{5}$</td>
+    </tr>
+    <tr>
+        <td>$ 120^0 $</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>$\dfrac{5\pi}{4}$</td>
+    </tr>
+</table>
+
+
+<br><br>
+
+
+<p class="MsoNormal">3.
+     در شکل زیر در هریک از جاهای خالی، زاویهٔ مناسب را برحسب رادیان مشخص کنید.</p>
+
+
+
+     <br><hr><br>
+
+<p class="MsoStep">خواندنی</p>
+
+<p class="MsoNormal">
+    روز چهاردهم مارس به عنوان روز جهانی عدد پی نام‌گذاری شده است؛ زیرا اولین سه رقم این عدد تاریخ ۱۴ مارس را به‌صورت 3/14 نشان می‌دهد. این تاریخ مصادف با سالروز تولد آلبرت اینشتین نیز است. تاکنون حدود ۱۲ تریلیون رقم بعد از ممیز عدد پی محاسبه شده است. باوجود مهم و اعجاب‌برانگیز بودن این عدد، قاعدهٔ بودن آن اعشاری، آن امکان یافتن فرج ختم شدن آن را غیرممکن کرده است.
+</p>
+
+<p class="MsoNormal">
+    جملهٔ زیبای تولد شما، حساب بانکی، شمارهٔ تلفن و نظایر آن‌ها بین ارقام پی وجود دارد. مثلاً تاریخ تولد مرحوم پروفسور محمود حسابی ۲ اسفند ۱۲۸۱ است که می‌توان آن را به‌صورت ۸۱۱۲۰۳ نمایش داد. رقم ۸۱۱۲۰۳ در رشتهٔ ارقام اعشاری عدد پی یافت شده است. شما می‌توانید از طریق سامانهٔ <a href="https://www.mypiday.com">mypiday.com</a> این عدد را جست‌وجو کنید.
+</p>
+
+
+<br><hr><br>
+
+<p class="MsoStep">فعالیت</p>
+
+<p class="MsoNormal">
+    ایستگاه فضایی بین‌المللی را مطابق شکل مقابل در نظر بگیرید که در فاصلهٔ تقریبی $400$ کیلومتری بالای سطح کرهٔ زمین قرار دارد. اگر این ایستگاه، توسط ایستگاه رصدی از نقطهٔ $A$
+     تا نقطهٔ 
+     $B$ که با مرکز زمین زاویهٔ 
+     $۴۵^\circ$
+     می‌سازد، رصد شود، این ایستگاه چه مسافتی را در مدار خود از $A$ تا $B$ پوشش می‌دهد؟ شعاع تقریبی کرهٔ زمین را $۶۴۰۰$ کیلومتر فرض کنید.
+</p>
+<br>
+<p class="MsoNormal">۱- ابتدا زاویهٔ مرکزی 
+    $۴۵^\circ$
+     را به رادیان تبدیل کنید.</p>
+
+<br>
+<p class="MsoNormal">
+    اندازهٔ زاویهٔ مرکزی $A\overset{\frown}{O}B$ برحسب رادیان:
+</p>
+
+<p class="MsoNormal">
+    $$ \alpha = 45^\circ \times \ . . . . . . . \  = \dfrac{\pi}{4} \ \ \text{رادیان} $$
+</p>
+
+<br><br>
+
+<p class="MsoNormal">
+    ۲- شعاع مدار دایره‌ای شکلی که ایستگاه فضایی روی آن قرار دارد، برابر است با:
+
+    $$ r = \ . . . . .  $$ 
+</p>
+
+
+
+<br><br>
+
+
+<p class="MsoNormal">
+    ۳. طول کمان زمینی 
+    $A' \hat{O}B'$
+     با فرض 
+    $\pi = 3/14$ 
+    و با استفاده از رابطه 
+    $ \alpha = \dfrac{l}{r} $
+    به طور تقریبی برابر است با:
+</p>
+<br>
+<p class="MsoNormal" style="text-align: center;">
+    $ l = \dfrac{\pi}{4} \times \ . . . . . \  \simeq 5338 \text{ km} $
+</p>
+
+
+<br><hr><br>
+
+<p class="MsoStep">تمرین</p>
+
+<p class="MsoNormal">
+    ۱.
+     هر یک از زاویه‌های
+
+زیر
+     را به رادیان تبدیل کنید و روی دایرهٔ مثلثاتی نشان دهید.
+</p>
+<br>
+<p class="MsoNormal" style="text-align: left;direction: ltr;">
+    $ -12^\circ = \ . . . $
+<br>
+$36^\circ = \ . . . $
+<br>
+$72^\circ = \ . . . $
+<br>
+$-105^\circ = \ . . . $
+<br>
+$315^\circ = \ . . . $ 
+
+</p>
+
+<br><br>
+
+<p class="MsoNormal">
+2. هر یک از زاویه‌های
+
+زیر
+     را به درجه تبدیل کنید و روی دایرهٔ مثلثاتی نشان دهید.
+</p>
+
+
+<div class="MsoNormal" style="text-align: left;direction: ltr;">
+<p>    $ \text{رادیان} \ \ \dfrac{6\pi}{5}  = \ . . . $</p>
+    
+<p>    $ \text{رادیان} \ \ \dfrac{7\pi}{8} = \ . . . $</p>
+
+<p>    $ \text{رادیان} \ \ \dfrac{3\pi}{4} = \ . . . $</p>
+
+   <p> $ \text{رادیان} \ \ \dfrac{-7\pi}{5}  = \ . . . $</p>
+
+<p>    $ \text{رادیان} \ \ \dfrac{-\pi}{18}  = \ . . . $</p>
+</div>
+
+<br><br>
+
+<p class="MsoNormal">
+    3.
+     زاویهٔ $D$ برابر با $\dfrac{\pi}{20}$ رادیان است. اندازهٔ این زاویه چند درجه است؟
+</p>
+
+<br><br>
+
+<p class="MsoNormal">
+ 4.
+  دایره‌ای به شعاع $۱۰$ سانتی‌متر مفروض است. اندازهٔ زاویهٔ مرکزی مقابل به کمانی به طول $۸$ سانتی‌متر از این دایره چند رادیان است؟
+</p>
+
+<br><br>
+
+<p class="MsoNormal">
+    ۵. درستی یا نادرستی هر یک از جملات زیر را با ذکر دلیل بررسی کنید.
+</p>
+<br>
+<p class="MsoNormal">
+    الف) اگر زاویه بین دو ساق مثلث متساوی‌الساقین 
+    $1$ رادیان
+     باشد، آنگاه اندازهٔ قاعدهٔ این مثلث کوچک‌تر از اندازهٔ هر یک از ساق‌های آن است.
+</p>
+<br>
+<p class="MsoNormal">
+    ب) در دایره‌ای به شعاع $۱$ سانتی‌متر، طول کمان روبه‌روی زاویه $\pi$ رادیان تقریباً برابر با $۳/۱۴$ سانتی‌متر است.
+</p>
+<br>
+<p class="MsoNormal">
+    پ) انتهای کمان زاویه $\dfrac{6\pi}{5}$ رادیان در ربع دوم دایرهٔ مثلثاتی قرار دارد.
+</p>
+
+<p class="MsoNormal">
+    ت) زاویه‌های $\dfrac{2\pi}{3}$ رادیان، $\dfrac{\pi}{9}$ رادیان، و $\dfrac{7\pi}{36}$ رادیان، زوایای یک مثلث را تشکیل می‌دهند.
+</p>
+
+
+    <br><br><br><br><br><br><br><br><br><br>
+</body>
+
+
+</html>

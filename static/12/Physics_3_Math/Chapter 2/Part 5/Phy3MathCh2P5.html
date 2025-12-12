@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal ,
+        ul.MsoNormal {
+            margin: 0in;
+           
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi , b{
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #badaff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .MsoPapDefault {
+           
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #722a85;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background-color: #1abbbbe1; /* Scrollbar thumb color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color: #05ffe2;
+        }
+    </style>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+ 
+</head>
+
+
+
+<body class="custom-scrollbar">
+
+    <p class="MsoStep">
+        ۵-۲
+        
+        نیروی گرانشی</p>
+    <p class="MsoNormal">
+    وقتی سیبی از یک درخت جدا می‌شود، چه نیرویی سببِ سقوطِ آن به طرفِ زمین می‌شود؟ وقتی شیر آب را باز می‌کنیم، چه نیرویی سبب می‌شود آب به طرفِ زمین شارش کند؟ چرا وقتی یک جسم را به بالا پرتاب می‌کنیم، پس از مدتی به پایین می‌افتد؟
+    </p>
+    <br>
+    <p class="MsoNormal">
+    منشأ نیروی مرکزگرایی که سببِ چرخشِ ماه به‌دورِ زمین می‌شود چیست؟ زمین به همراهِ هفت سیّارهٔ دیگر نیز به دورِ خورشید می‌چرخند؛ منشأ نیروی مرکزگرای وارد بر زمین و سیاراتِ دیگر چیست؟
+    </p>
+    
+    <br>
+    
+    <p class="MsoNormal">
+        تا سال $1687$ داده‌های زیادی در مورد حرکتِ ماه و سیارات گردآوری شده بود، اما کسی شناختِ روشنی از نیروهای مؤثر بر آنها نداشت. در آن سال، ایزاک نیوتون، دانشمندِ کتاب اصولِ خود راز این معما را بیان کرد. 
+        با انتشارِ کتابِ اصولِ نیوتون، از قانون‌های نیوتون می‌دانیم که باید نیرویی خالصی بر ماه وارد شود. اگر چنین نبود، ماه به‌ جایِ مدار تقریباً دایره‌ای، به‌ گردِ زمین، باید رویِ خطِ راست حرکت می‌کرد. 
+        نیوتون استدلال کرد که این نیرو ناشی از نیرویِ جاذبهٔ بینِ ماه و زمین است و گفت این نیرو همان نیرویی است که اجسامِ نزدیکِ به سطحِ زمین – مانند سیب – را جذب می‌کند. 
+        نیوتون نشان داد هر جسمی در عالم، اجسامِ دیگری را به‌خود جذب می‌کند و این الهام‌بخش او برای قانونِ گرانشِ عمومی بوده است که بیان می‌دارد:
+        </p>
+        
+
+        <br>
+
+        
+
+            <p class="MsoNormal">
+        <strong>  
+            نیروی گرانشی میان دو ذره، با حاصل‌ضرب جرم دو ذره نسبت مستقیم و با مربع فاصلهٔ آنها از یکدیگر نسبت وارون دارد.
+        </strong>       
+        </p>
+        <br>
+        <p class="MsoNormal">
+        اگر مطابق شکل 
+      2-25
+        ، جرم دو ذره $m_1$ و $m_2$ و فاصلهٔ آنها از یکدیگر $r$ باشد، اندازهٔ نیروی گرانشی میان دو ذره یعنی $F$ از رابطهٔ زیر به‌دست می‌آید:
+        </p>
+        
+<br><hr><br>
+        <p class="MsoSemi" style="text-align: center;">
+        ( 15-2 )
+        $$
+        F = G \dfrac{m_1 m_2}{r^2}
+        $$
+        (اندازهٔ نیروی گرانشی بین دو ذره)
+        </p>
+<br><hr><br>
+
+
+
+<p class="MsoNormal">
+    در این رابطه، $G$ ثابت گرانش عمومی نام دارد و برابر است با:
+    </p>
+    <p class="MsoNormal">
+    $$
+    G = 6/67 \times 10^{-11} \, \text{N} \cdot \text{m}^2 / \text{kg}^2
+    $$
+    </p>
+    
+
+
+
+    <br><hr><br>
+    <p class="MsoStep">فعّالیت ۲-۵</p>
+    <p class="MsoNormal">
+    ثابت گرانشی $G$ را اولین بار هنری کاوندیش در سال 1798 اندازه‌گیری کرد. در مورد روش اندازه‌گیری $G$ توسط هنری کاوندیش تحقیق کنید و نتیجه را به کلاس گزارش دهید.
+    </p>
+<br><hr><br>
+
+
+
+        <p class="MsoStep">مثال ۲-۱۸</p>
+        <p class="MsoNormal">
+        جرم زمین و ماه به‌ترتیب حدود 
+        $5/98 \times 10^{24} \ \text{kg}$ و 
+        $7/36 \times 10^{22} \ \text{kg}$
+         و فاصلهٔ متوسط آن‌ها از یکدیگر حدود 
+         $3/84 \times 10^{8} \ \text{m}$
+          است. نیروی گرانشی را که زمین و ماه به یکدیگر وارد می‌کنند پیدا کنید.
+        </p>
+        <br>
+        <p class="MsoNormal">
+        <b>پاسخ:</b>
+        <br>
+         فاصلهٔ دو کره در این مثال خیلی بزرگ‌تر از قطر کره‌هاست. بنابراین می‌توان کره‌ها را ذره فرض کرد.
+        </p>
+        <p class="MsoNormal">
+        به کمک رابطهٔ 
+        2-15
+        ، نیروی گرانشی را که زمین و ماه بر هم وارد می‌کنند محاسبه می‌کنیم:
+        </p>
+
+
+        <div class="custom-scrollbar" style="overflow-y: hidden; overflow-x:auto;direction:ltr;">
+            <p class="MsoNormal">
+                $$
+                \begin{align*}
+                F_{۱۲} &= F_{۲۱} = G \dfrac{M_e M_m}{r^2} \\
+                &= (6/67 \times 10^{-11} \ \text{N} \cdot \text{m}^2 / \text{kg}^2) \cdot \dfrac{(5/98 \times 10^{24} \ \text{kg}) (7/36 \times 10^{22} \ \text{kg})}{(3/84 \times 10^8 \ \text{m})^2} \\
+                &= 1/99 \times 10^{20} \ \text{N}
+                \end{align*}
+                $$
+                </p>
+                
+        </div>
+        <br>
+        <p class="MsoNormal">
+            این نیرو سبب چرخش ماه به دور زمین می‌شود.
+            </p>
+            
+            <br><hr><br>
+
+            <p class="MsoStep">مثال ۲−۱۹</p>
+        <p class="MsoNormal">
+        دو کرهٔ هم‌گن به جرم‌های $8/0 \ \text{kg}$ و $1/2 \ \text{kg}$ را در نظر بگیرید که فاصلهٔ مرکز آن‌ها از یکدیگر $1/00 \ \text{m}$ است. نیروی گرانشی را که این دو کره بر یکدیگر وارد می‌کنند محاسبه کنید.
+        </p>
+        <br>
+        <p class="MsoNormal">
+        <b>پاسخ:</b> 
+        <br>
+        برای محاسبهٔ نیرویی که دو کرهٔ هم‌گن به‌هم وارد می‌کنند می‌توانیم فرض کنیم همهٔ جرم‌های دو کره در مرکز آن‌ها قرار دارند. بنابراین کره‌ها را به‌صورت ذراتی در نظر می‌گیریم که همان جرم کره‌ها را داشته باشند. به کمک رابطهٔ 
+        2-15
+        ، نیروی گرانشی را که دو کره به یکدیگر وارد می‌کنند محاسبه می‌کنیم:
+        </p>
+
+        <div class="custom-scrollbar" style="overflow-y: hidden; overflow-x:auto;direction:ltr;">
+                    
+        <p class="MsoNormal">
+            $$
+            \begin{align*}
+            F &= G \dfrac{m_1 m_2}{r^2} \\\\
+           & = (6/67 \times 10^{-11} \ \text{N} \cdot \text{m}^2/\text{kg}^2)
+            \dfrac{(8/0 \ \text{kg})(120/0 \ \text{kg})}{(1/00 \ \text{m})^2} \\\\
+            &= 6/40 \times 10^{-7} \ \text{N}
+            \end{align*}
+            $$
+            </p>
+        </div>
+            
+        <br>
+
+        <p class="MsoNormal">
+            همان‌طور که محاسبهٔ این مثال نشان می‌دهد، نیروی گرانشی میان جسم‌هایی با جرم کوچک قابل ملاحظه نیست.
+            </p>
+            
+
+        <br><hr><br>
+
+
+
+        <p class="MsoStep">مثال ۲−۲۰</p>
+        <p class="MsoNormal">
+        ماهواره‌ها در اثر نیروی گرانشی بین زمین و ماهواره، روی مدار تقریباً دایره‌ای به دور زمین می‌چرخند. اگر جرم ماهواره $200 \, \text{kg}$ و فاصلهٔ آن از سطح زمین $2600 \, \text{km}$ باشد، کمیت‌های زیر را محاسبه کنید:
+        </p>
+        <ul class="MsoNormal">
+          <p>الف) نیروی گرانشی بین ماهواره و زمین</p>
+          <p>ب) تندی مداری ماهواره</p>
+          <p>پ) دورهٔ گردش ماهواره 
+          </p>
+        </ul>
+
+        <p class="MsoNormal">
+            $$
+            \begin{align*}
+            G &= 6 / 67 \times 10^{-11} \, \text{N} \cdot \text{m}^2 / \text{kg}^2 \\\\
+            M_e &= 5 / 98 \times 10^{24} \, \text{kg} \\\\
+            \text{(
+                زمین
+                شعاع
+                )}  =   R_e &= 6400 \, \text{km} 
+            \end{align*}
+            $$
+            </p>
+            <br>
+            <p class="MsoSemi">
+                پاسخ:
+            </p>
+            <p class="MsoNormal">
+               
+                 ماهواره را به‌صورت ذره و زمین را به‌صورت کره‌ای همگن که جرم آن در مرکزش قرار دارد در نظر می‌گیریم و به کمک رابطهٔ ۲ـ۱۵، نیروی گرانشی بین آن‌ها را محاسبه می‌کنیم.
+                </p>
+
+        <br>
+        
+        <p class="MsoNormal">
+        الف)
+        </p>
+
+        <p class="MsoNormal">
+            $$
+            \begin{align*}
+            r &= R_e + h \\\\
+            &= 6400 \, \text{km} + 2600 \, \text{km} \\\\
+            &= 9000 \, \text{km} \\\\
+            &= 9 / 000 \times 10^6 \, \text{m}
+            \end{align*}
+            $$
+            </p>
+            <hr style="background-color: #D6D1DA10;width: 60%;">
+
+            <div class="custom-scrollbar" style="overflow-y: hidden; overflow-x:auto;direction:ltr;">
+                <p class="MsoNormal">
+                    $$
+                    \begin{align*}
+                    F &= G \dfrac{M_e m}{r^2} \\
+                    &= \left( 6 / 67 \times 10^{-11} \, \text{N} \cdot \text{m}^2 / \text{kg}^2 \right)
+                    \dfrac{(5 / 98 \times 10^{24} \, \text{kg}) (200/0 \, \text{kg})}{(9 / 000 \times 10^6 \, \text{m})^2} \\
+                    &= 985 \, \text{N}
+                    \end{align*}
+                    $$
+                    </p>
+            </div>
+                <br>
+            <p class="MsoNormal">
+                ب) از رابطهٔ 
+               2-14
+                ، برای پیدا کردن تندی ماهواره استفاده می‌کنیم:
+                </p>
+
+
+        <p class="MsoNormal">
+            $$
+            \begin{align*}
+            F_{\text{net}} &= m \dfrac{v^2}{r} \\\\
+            985 \, \text{N} 
+            &= (200/0 \, \text{kg}) \dfrac{v^2}{9/000 \times 10^6 \, \text{m}} \\\\
+             v &= 6/66 \times 10^6 \, \text{m/s}
+            \end{align*}
+            $$
+            </p>
+            
+
+            <br>
+
+
+            <p class="MsoNormal">
+                پ) با استفاده از رابطهٔ بین سرعت و دوره یعنی رابطهٔ 
+                2-12
+                ، می‌توانیم دوره را محاسبه کنیم:
+                </p>
+                
+        <p class="MsoNormal">
+            $$
+            \begin{align*}
+            T &= \dfrac{2 \pi r}{v} \\\\
+                &= \dfrac{2 (3/14 \, \text{rad}) (9/000 \times 10^6 \, \text{m})}{6/66 \times 10^3 \, \text{m/s}} \\\\
+                &= 8/49 \times 10^3 \, \text{s} \\\\
+                &= 2/36 \, \text{h}
+            \end{align*}
+            $$
+            </p>
+
+                    
+            <br>
+
+        <p class="MsoNormal">
+            یعنی این ماهواره در هر $2/36\, \text{h}$ یک بار به دور زمین می‌چرخد.
+            </p>
+            
+
+
+
+
+            <br><hr><br>
+
+
+
+            <p class="MsoStep">تمرین ۲-۱۱</p>
+            <p class="MsoNormal">
+            <b>     
+                مدار همگام با زمین و ماهواره‌های مخابراتی
+            </b>            
+            <br>
+            از دیدگاه مخابراتی، باقی‌ماندن ماهواره در یک محل نسبت به مکانی در روی زمین (مثلاً بالای ایران) امتیاز محسوب می‌شود. این در صورتی رخ می‌دهد که دورهٔ گردش ماهواره به دور زمین با مدت زمان یک دور چرخش زمین به دور خودش، یعنی $24/0\, \text{h}$ یکسان باشد.
+            </p>
+            <ul class="MsoNormal">
+              <p>الف) در چه فاصله‌ای از زمین می‌توان این مدار همگام با زمین را یافت؟</p>
+              <p>ب) تندی مداری این ماهواره چقدر است؟</p>
+            </ul>
+            
+
+
+
+            <br><hr><br>
+
+
+
+          <p class="MsoStep">پرسش ۲-۱۱</p>
+        <p class="MsoNormal">
+        نشان دهید مربع دورهٔ گردش ماهواره‌ها به دور زمین متناسب با مکعب فاصلهٔ ماهواره از مرکز زمین است.
+        </p>
+  
+
+
+        <br><hr><br>
+
+
+
+        <p class="MsoSemi">وزن و نیروی گرانشی:</p>
+        <p class="MsoNormal">
+        در بخش 
+        2-2
+        ، در مورد وزن یک جسم مطالبی را آموختیم. در آنجا گفتیم وزن یک جسم روی زمین برابر با نیروی گرانشی است که زمین بر جسم وارد می‌کند (شکل 
+        2-26
+        ).
+
+        اگر جرم جسم را با $m$، جرم زمین را با $M_e$ و شعاع زمین را با $R_e$ نمایش دهیم، وزن جسم روی سطح زمین از رابطهٔ زیر به‌دست می‌آید:
+        </p>
+        
+        <br><hr><br>
+         
+        <p class="MsoSemi" style="text-align: center;">
+            (16-2)
+           $$W = G \dfrac{M_e m}{R_e^2}$$
+            (وزن جسم در سطح زمین)
+            </p>
+            <br><hr><br>
+
+
+
+
+
+            <p class="MsoStep">تمرین ۲−۱۲</p>
+            <p class="MsoNormal">
+            نشان دهید شتاب گرانشی روی زمین برابر است با:
+            </p>
+            <p class="MsoNormal">
+            $$g = G \dfrac{M_e}{R_e^2}$$
+            </p>
+            
+
+
+
+            <br><hr><br>
+
+
+            <p class="MsoStep">تمرین ۲−۱۳</p>
+            <p class="MsoNormal">
+            تلسکوپ فضایی هابل با تندی $7560 \, \text{m/s}$ گردِ زمین می‌چرخد.
+            </p>
+            <ul class="MsoNormal">
+              <p>الف) فاصلهٔ این تلسکوپ از سطح زمین چند کیلومتر است؟</p>
+              <p>ب) وزن این تلسکوپ در این ارتفاع چند برابر وزن آن روی زمین است؟</p>
+              <p>پ) دورهٔ تناوب این تلسکوپ را پیدا کنید. $(R_e = 6380 \, \text{km})$</p>
+            </ul>
+            
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+r><br><br><br><br><br>
+</body>
+
+
+</html>

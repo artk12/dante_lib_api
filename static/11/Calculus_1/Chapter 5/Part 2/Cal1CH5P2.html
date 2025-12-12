@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal, ul.MsoNormal {
+            margin: 0in;
+
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi , b{
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #badaff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #722a85;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background-color: #1abbbbe1; /* Scrollbar thumb color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color: #05ffe2;
+        }
+    </style>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+<body class="custom-scrollbar">
+ 
+
+
+
+    <p class="MsoBold"> درس
+2
+<br>
+
+حدهای یک‌طرفه (حد چپ و حد راست)</p>
+
+
+
+
+<p class="MsoNormal">
+    در درس قبل دیدیم که تابع 
+    $f(x) = \sqrt{2-x}$
+    در نقطهٔ 
+    $3$
+    حد ندارد. (چون در هیچ همسایگی راست 
+    $2$
+    تعریف نشده است.) ولی با توجه به اینکه دامنهٔ این تابع بازهٔ 
+    $[ - \infty , 2)$
+    می‌باشد می‌توانیم رفتار تابع را در همسایگی چپ 
+    $۲$
+    بررسی نماییم.
+    </p>
+    <p class="MsoNormal">
+    گاهی لازم است، رفتار تابع را وقتی متغیر 
+    $x$
+    با مقادیر بزرگ‌تر از 
+    $a$
+    به 
+    $a$
+    نزدیک می‌شود یا وقتی متغیر 
+    $x$
+    با مقادیر کوچک‌تر از 
+    $a$
+    به 
+    $a$
+    نزدیک می‌شود بررسی و توصیف نماییم.
+    </p>
+
+
+    <br><hr><br>
+
+    <p class="MsoStep">فعّالیت</p>
+<p class="MsoNormal">
+نمودار تابع 
+$f(x)$
+به صورت روبه‌رو است:
+</p>
+<p class="MsoNormal" style="text-align: center;">
+$$
+f(x) = 
+\begin{cases} 
+-x + 3 & x > 2 \\\\
+x^2 & x < 2 \\\\
+\end{cases}
+$$
+</p>
+<p class="MsoNormal">
+(الف) اگر متغیر 
+$x$
+با مقادیر بزرگ‌تر از 
+$۲$
+به 
+$۲$
+نزدیک شود آن گاه مقادیر 
+$f(x)$
+به عدد ... نزدیک می‌شوند.
+</p>
+<br>
+<p class="MsoNormal">
+(ب) اگر 
+$x$
+با مقادیر کوچک‌تر از 
+$۲$
+به 
+$۲$
+نزدیک شود آن گاه مقادیر 
+$f(x)$
+به عدد ... نزدیک می‌شوند.
+</p>
+<br>
+<p class="MsoNormal">
+(پ) آیا تابع 
+$f$
+در نقطهٔ 
+$x = ۲$
+حد دارد؟
+</p>
+
+
+<br><hr><br>
+
+<p class="MsoStep">خواندنی</p>
+<p class="MsoNormal">
+حتماً متوجه شده‌اید که یخ همیشه بر روی آب شناور است. توده یخ هرچقدر بزرگ باشد، باز هم در آب غرق نمی‌شود؛ مانند کوه‌های بزرگ یخ که بر روی آب دریاها و اقیانوس‌ها شناورند. آیا می‌دانید چرا یخ در آب غرق نمی‌شود؟
+</p>
+<p class="MsoNormal">
+به‌طور کلی وقتی مایعی به شکل جامد درمی‌آید، منبسط می‌شود و مولکول‌هایش به هم نزدیک‌تر می‌شوند. به همین دلیل حجم ماده، کم می‌شود و چگالی آن افزایش می‌یابد. بنابراین در حالت جامد سنگین‌تر از زمانی‌ است که به شکل مایع درآمده‌ است.
+</p>
+<p class="MsoNormal">
+ولی آب مایعی است که خاصیت غیرعادی دارد. آب پس از انجماد به جای منبسط شدن، منقبض می‌شود؛ درنتیجه چگالی‌اش افزایش می‌یابد. تراکم یخ نه‌تنها کمتر از آب مایع است، بلکه از بسیاری از مواد دیگر که تراکم آن‌ها نیز زیاد است، کمتر است. به همین جهت وزن یخ کمتر از آب هم‌حجمش است. به این ترتیب وقتی یخ درون آب قرار می‌گیرد، تنها یک‌دهم آن در آب فرو می‌رود و ۹/۱۰ دیگرش بر روی آب شناور می‌ماند.
+</p>
+<p class="MsoNormal">
+نمودار چگالی آب و یخ بر حسب دما به صورت روبه‌رو است:
+</p>
+
+
+
+
+<br><hr><br>
+
+<p class="MsoNormal">
+    در فعالیت صفحهٔ قبل، مشاهده کردیم که وقتی از سمت راست (با مقادیر بزرگ‌تر از 
+    $۲$)
+    به 
+    $۲$
+    نزدیک می‌شویم، مقادیر تابع به عدد 
+    $۱$
+    نزدیک می‌شوند و اگر از سمت چپ (با مقادیر کوچک‌تر از 
+    $۲$)
+    به 
+    $۲$
+    نزدیک شویم مقادیر تابع به عدد 
+    $۴$
+    نزدیک می‌شوند. چون این دو مقدار با هم مساوی نیستند، پس وقتی 
+    $x$
+    در یک همسایگی محذوف 
+    $۲$
+    به عدد 
+    $۲$
+    نزدیک می‌شود، مقادیر 
+    $f(x)$
+    به عدد مشخصی نزدیک نمی‌شوند و درنتیجه این تابع در 
+    $۲$
+    حد ندارد.
+    </p>
+    
+
+
+
+    <br><hr><br>
+
+    <p class="MsoSemi">تعریف حد راست:</p>
+    <br>
+<p class="MsoNormal">
+اگر تابع 
+$f$
+در یک همسایگی راست نقطه‌ای مانند 
+$a$
+تعریف شده باشد، می‌گوییم حد راست تابع 
+$f$
+در نقطه 
+$x = a$
+برابر عدد 
+$L_1$
+است هرگاه مقادیر تابع 
+$f$
+را به هر اندازهٔ دلخواه بتوان به 
+$L_1$
+نزدیک کرد، به شرط آنکه متغیر 
+$x$
+(از سمت راست) به قدر کافی به 
+$a$
+نزدیک شود.
+</p>
+<p class="MsoNormal">
+در این صورت می‌نویسیم:
+</p>
+<p class="MsoNormal" style="text-align: center;">
+$$
+\lim_{{x \to a^+}} f(x) = L_1
+$$
+</p>
+
+
+<br><hr><br>
+
+    
+
+
+<p class="MsoSemi">تعریف حد چپ:</p>
+<br>
+<p class="MsoNormal">
+اگر تابع 
+$f$
+در یک همسایگی چپ نقطه‌ای مانند 
+$a$
+تعریف شده باشد، می‌گوییم حد چپ تابع 
+$f$
+در نقطه 
+$x = a$
+برابر عدد 
+$L_2$
+است هرگاه مقادیر تابع 
+$f$
+را به هر اندازهٔ دلخواه بتوان به 
+$L_2$
+نزدیک کرد، به شرط آنکه متغیر 
+$x$
+(از سمت چپ) به قدر کافی به 
+$a$
+نزدیک شود.
+</p>
+<p class="MsoNormal">
+در این صورت می‌نویسیم:
+</p>
+<p class="MsoNormal" style="text-align: center;">
+$$
+\lim_{{x \to a^-}} f(x) = L_2
+$$
+</p>
+
+<br><hr><br>
+
+<p class="MsoNormal">
+    اگر تابعی در یک همسایگی محذوف نقطه‌ای مانند 
+    $a$
+    تعریف شده باشد، آن گاه با توجه به مفهوم حد راست و حد چپ می‌توان گفت:
+    </p>
+    <br><hr><br>
+    <p class="MsoNormal" style="margin-right: 20px;">
+    حد تابع 
+    $f$
+    در نقطه 
+    $x = a$
+    وجود دارد اگر و تنها اگر حد چپ و راست تابع 
+    $f$
+    در 
+    $x = a$
+    موجود و با هم برابر باشند.
+    </p>
+
+    <br><hr><br>
+    <p class="MsoNormal">
+        <b>نتیجه</b>
+<br>
+    اگر حد چپ و حد راست 
+    $f$
+    در نقطه 
+    $x = a$
+    دو مقدار متمایز باشند، آن گاه تابع 
+    $f$
+    در نقطه 
+    $x = a$
+    حد ندارد.
+    </p>
+    
+
+
+    <br><hr><br>
+
+
+    <p class="MsoStep">کار در کلاس</p>
+    <p class="MsoNormal">
+    ۱. با توجه به نمودار 
+    $f$
+    ، حدهای خواسته‌شده را، در صورت وجود، به‌دست آورید.
+    </p>
+
+    <br>
+
+                    <table class="MsoNormal" style="margin:auto;width:fit-content;direction:ltr;text-align:center;">
+                        <tr>
+                            <td>$$\lim_{{x \to \ 2^+}} f(x) \dots$$</td>
+                            <td>$$\lim_{{x \to \ 2^-}} f(x) \dots$$</td>
+                            <td>$$\lim_{{x \to \ 2}} f(x) \dots$$</td>
+                        </tr>
+                        <tr>
+                            <td>$$\lim_{{x \to \ -1^-}} f(x) \dots$$</td>
+                            <td>$$\lim_{{x \to \ -1^+}} f(x) \dots$$</td>
+                            <td>$$\lim_{{x \to \ -1}} f(x) \dots$$</td>
+                        </tr>
+                        <tr>
+                            <td>$$\lim_{{x \to -3^+}} f(x) \dots$$</td>
+                            <td>$$\lim_{{x \to -3^-}} f(x) \dots$$</td>
+                            <td>$$\lim_{{x \to -3}} f(x) \dots$$</td>
+                        </tr>
+                        <tr>
+                            <td>$$\lim_{{x \to \ 1^-}} f(x) \dots$$</td>
+                            <td>$$\lim_{{x \to \ 1^+}} f(x) \dots$$</td>
+                            <td>$$\lim_{{x \to \ 1}} f(x) \dots$$</td>
+                        </tr>
+                    </table>
+                    
+
+                    <br><hr><br>
+
+
+
+                    <p class="MsoNormal">
+                        ۲. نموداری از یک تابع رسم کنید که:
+                        </p>
+                        <br>
+                        <p class="MsoNormal">
+                        (الف) در یک همسایگی محذوف 
+                        $۲$
+                        تعریف شده باشد و در این نقطه حد داشته باشد.
+                        </p>
+                        <br>
+                        <p class="MsoNormal">
+                        (ب) در یک همسایگی محذوف 
+                        $۲$
+                        تعریف شده باشد ولی در این نقطه حد نداشته باشد.
+                        </p>
+                        <br>
+                        <p class="MsoNormal">
+                        (پ) در یک همسایگی 
+                        $۲$
+                        تعریف شده باشد و در این نقطه حد نداشته باشد.
+                        </p>
+                        <br>
+                        <p class="MsoNormal">
+                        (ت) در یک همسایگی 
+                        $۲$
+                        تعریف شده باشد و در این نقطه حد داشته باشد ولی حد آن با مقدار تابع در نقطه 
+                        $۲$
+                        یکسان نباشد.
+                        </p>
+                        
+
+
+<br><hr><br><p class="MsoStep">فعّالیت</p>
+<p class="MsoNormal">
+۱. نمودار تابع 
+$f(x) = [x]$
+را در فاصله 
+$[-1, 2]$
+رسم کنید.
+</p>
+<p class="MsoNormal">
+۲. اگر 
+$x$
+از طرف چپ به عدد 
+$1$
+نزدیک شود، آن‌گاه مقادیر 
+$f(x)$
+به عدد ... نزدیک می‌شوند. بنابراین:
+</p>
+<p class="MsoNormal" style="text-align: center;">
+$$
+\lim_{{x \to 1^-}} f(x) = \dots
+$$
+</p>
+<p class="MsoNormal">
+۳. حد راست تابع 
+$f$
+در نقطه 
+$x = 1$
+را به‌دست آورید.
+</p>
+<p class="MsoNormal">
+۴. آیا تابع 
+$f$
+در نقطه 
+$x = 1$
+حد دارد؟ چرا؟
+</p>
+
+
+<br><hr><br>
+
+<p class="MsoNormal">
+    در فعالیت قبل مشاهده کردیم که در بازه 
+    $(1, 2)$
+    که یک همسایگی راست 
+    $1$
+    می‌باشد، نمودار تابع 
+    $f(x) = [x]$
+    بر نمودار تابع ثابت
+    $g(x) = 1$.
+    منطبق است و داریم 
+    :
+    $$
+    \lim_{{x \to 1^+}} [x] = \lim_{{x \to 1^+}} g(x) = 1
+    $$
+    </p>
+    <br>
+    
+    <p class="MsoNormal">
+        به همین ترتیب، در 
+        $(0, 1)$
+        که یک همسایگی چپ 
+        $1$
+        می‌باشد، نمودار تابع 
+        $f(x) = [x]$
+        بر نمودار تابع ثابت 
+        $h(x) = 0$
+        منطبق است و داریم:
+        </p>
+        <p class="MsoNormal" style="text-align: center;">
+        $$
+        \lim_{{x \to 1^-}} [x] = \lim_{{x \to 1^-}} h(x) = 0
+        $$
+        </p>
+        
+
+        <br><hr><br>
+
+        <p class="MsoNormal">
+            اگر دو تابع 
+            $f$
+            و 
+            $g$
+            در یک همسایگی راست نقطه‌ای مانند 
+            $a$
+            با هم برابر باشند و حد راست یکی از آنها در 
+            $a$
+            وجود داشته باشد، آن‌گاه حد راست تابع دیگر نیز در 
+            $a$
+            وجود دارد و مقدار این دو حد با هم برابرند، یعنی
+   
+                اگر :
+                $$
+           \lim_{{x \to a^+}} f(x) = L 
+           $$
+           آن‌گاه :
+           $$
+           \lim_{{x \to \  a^+}} g(x) = \lim_{{x \to \  a^+}} f(x) = L
+                $$
+                </p>
+                
+<br>
+                <p class="MsoNormal">
+                    به طریق مشابه، دو تابعی که در یک همسایگی چپ نقطه 
+                    $a$
+                    با هم برابرند، مقدار حد چپ آنها در نقطه 
+                    $a$
+                    (در صورت وجود) یکسان است.
+                    </p>
+                    
+<br>
+                    <p class="MsoNormal">
+                        بنابراین، دو تابع که در یک همسایگی نقطه 
+                        $a$
+                        (به‌جز احتمالاً خود 
+                        $a$)
+                        با هم برابر باشند، مقدار حد آنها در نقطه 
+                        $a$
+                        (در صورت وجود) یکسان است.
+                        </p>
+
+
+
+                        <br><hr><br>
+
+
+
+        <p class="MsoNormal">
+            <b>مثال:</b> مقدار حد راست تابع s
+            $f(x) = \dfrac{[x]}{x}$
+            را در نقطه 
+            $x = 0$
+            به دست آورید.
+            </p>
+            <br>
+            <p class="MsoNormal">
+            <b>حل:</b> می‌دانیم روی بازه 
+            $(0, 1)$
+            مقدار 
+            $[x]$
+            برابر صفر است، پس روی بازه 
+            $(0, 1)$
+            تابع
+            $f$
+            با تابع
+            ثابت 
+            $g(x) = 0$
+            برابر است. بنابراین:
+            </p>
+            <p class="MsoNormal" style="text-align: center;">
+            $$
+            \lim_{{x \to \  0^+}} \frac{[x]}{x} = \lim_{{x \to \ 0^+}} g(x) = 0
+            $$
+            </p>
+            
+        <br><hr><br>
+
+
+        <p class="MsoStep">کاردرکلاس</p>
+<p class="MsoNormal">
+۱. تابع 
+$f(x) = \dfrac{ \ \big| \ x \ \big| \ }{x}$
+را درنظر بگیرید:
+</p>
+<br>
+<p class="MsoNormal">
+(الف) با استفاده از تعریف قدرمطلق، تابع 
+$f$
+را به صورت دوقسمتی بنویسید.
+</p>
+<br>
+<p class="MsoNormal">
+(ب) نمودار تابع 
+$f$
+را رسم کنید.
+</p>
+<br>
+<p class="MsoNormal">
+(پ) با استفاده از نمودار 
+$f$
+، حد چپ و حد راست تابع در صفر را به دست آورید.
+</p>
+<br>
+<p class="MsoNormal">
+(ت) آیا تابع 
+$f$
+در نقطه صفر حد دارد؟ چرا؟
+</p>
+
+<br><hr><br>
+
+
+<p class="MsoStep">تمرین</p>
+<p class="MsoNormal">
+۱. نمودار تابع 
+$f$
+به صورت زیر است. حدهای زیر را در صورت وجود به دست آورید.
+</p>
+<div style="display: flex;flex-direction: row-reverse;">
+<table class="MsoNormal" style="width:fit-content;direction:ltr;text-align:center;">
+    <tr>
+        <td>(الف)</td>
+        <td>$$\lim_{{x \to 0}} f(x)$$</td>
+    </tr>
+    <tr>
+        <td>(ب)</td>
+        <td>$$\lim_{{x \to 2}} f(x)$$</td>
+    </tr>
+    <tr>
+        <td>(پ)</td>
+        <td>$$\lim_{{x \to 5}} f(x)$$</td>
+    </tr>
+    <tr>
+        <td>(ت)</td>
+        <td>$$\lim_{{x \to 6^-}} f(x)$$</td>
+    </tr>
+    <tr>
+        <td>(ث)</td>
+        <td>$$\lim_{{x \to -2^+}} f(x)$$</td>
+    </tr>
+    <tr>
+        <td>(ج)</td>
+        <td>$$\lim_{{x \to 8}} f(x)$$</td>
+    </tr>
+    <tr>
+        <td>(چ)</td>
+        <td>$$\lim_{{x \to 9}} f(x)$$</td>
+    </tr>
+</table>
+</div>
+
+<br><br>
+
+<p class="MsoNormal">
+    ۲. با رسم نمودار تابع 
+$f(x)$
+    به سؤالات زیر پاسخ دهید:
+    </p>
+    <p class="MsoNormal" style="text-align: center;">
+    $$
+    f(x) =
+    \begin{cases} 
+    2x + 1 & x > 0 \\\\
+    x^2 + 2x & x < 0  \\\\
+    \end{cases}
+    $$
+    </p>
+    
+
+    <br>
+
+    <p class="MsoNormal">
+        (الف) اگر 
+        $x$
+        از طرف چپ به عدد صفر نزدیک شود آن‌گاه مقادیر 
+        $f(x)$
+        به عدد ... نزدیک می‌شوند. بنابراین:
+        </p>
+        <p class="MsoNormal" style="text-align: center;">
+        $$
+        \lim_{{x \to 0^-}} f(x) = \dots
+        $$
+        </p>
+        
+
+        <br>
+        <p class="MsoNormal">
+            (ب) حد راست تابع 
+            $f$
+            در نقطهٔ 
+            $x = 0$
+            را به دست آورید.
+            </p>
+            <br>
+            <p class="MsoNormal">
+            (پ) آیا تابع 
+            $f$
+            در نقطهٔ 
+            $x = 0$
+            حد دارد؟ چرا؟
+            </p>
+            
+        <br><br>
+            <p class="MsoNormal">
+                ۳. با توجه به نمودارهای توابع داده‌شده در زیر، هر کدام از گزاره‌های پایین صفحه در مورد چند تا از این توابع برقرار است؟ در هر مورد توابع را مشخص کنید.
+                </p>
+                <br>
+                <ul class="MsoNormal">
+                    <li>تابع در همسایگی محذوف $2$ تعریف شده و در این نقطه حد دارد.</li>
+                    <li>تابع در همسایگی $2$ تعریف شده و در این نقطه حد دارد ولی مقدار حد با مقدار تابع در این نقطه برابر نیست.</li>
+                    <li>تابع در همسایگی چپ $2$ تعریف شده و در این نقطه حد ندارد.</li>
+                    <li>تابع در همسایگی $2$ تعریف شده و در این نقطه حد دارد و حد آن برابر مقدار تابع در این نقطه است.</li>
+                    <li>تابع در نقطه $2$ تعریف نشده ولی در این نقطه حد دارد.</li>
+                    <li>تابع در همسایگی راست $2$ تعریف شده ولی در این نقطه حد ندارد.</li>
+                </ul>
+                
+
+
+                <br>
+
+
+                <p class="MsoNormal">
+                    ۴. با توجه به دامنه تابع، در مورد حد چپ تابع 
+                    $f$
+                    با ضابطه 
+                    $f(x) = \sqrt{x^2 - x}$
+                    در نقطه 
+                    $x = 1$
+                    چه می‌توان گفت؟
+                    </p>
+                    
+
+
+                    <br><br>
+                    <p class="MsoNormal">
+                        با توجه به دامنه تابع، در مورد حد راست تابع 
+                        $f(x) = \dfrac{x}{ [ x ] - 2}$
+                        در نقطه $x = 2$ چه می‌توان گفت؟
+                    </p>
+                    
+
+                    <br><br>
+
+                    <p class="MsoNormal">
+                        با رسم نمودار تابع 
+                        $f(x) = -(x-1)^2 + 2$،
+                        حدود زیر را مشخص کنید.
+                    </p>
+                    
+
+                    <br>
+                    <br>
+
+                    
+  <table class="MsoNormal" style="margin:auto;width:fit-content;direction:ltr;text-align:center;">
+    <tr>
+        <td>الف)</td>
+        <td> $$\lim_{x \to \ 1 }  [ f(x) ]$$ </td>
+        
+    </tr>
+    <tr>
+        <td>
+            ب)
+        </td>
+        <td> $$ [ \lim_{x \to \ 1 } f(x) ] $$</td>
+
+    </tr>
+</table>
+<br>
+<p class="MsoNormal">
+    $[\ ]$ نماد جزء صحیح است.
+</p>
+
+<br><br>
+
+<p class="MsoNormal">
+    ۷) با رسم نمودار تابع $f(x) =  \ \big| \ x \ \big| \ $:
+</p>
+
+<br>
+
+<p class="MsoNormal">
+    الف) مقدار زیر را به‌دست آورید.
+    $$ \lim_{x \to 0} \ \big| \ x \ \big| \ $$
+</p>
+<p class="MsoNormal">
+    ب) اگر $a \in \mathbb{R}$ یک عدد دلخواه باشد، آیا تساوی زیر برقرار است؟
+
+    $$ \lim_{x \to a}  \ \big| \ x \ \big| \  = \ \big| \  a \ \big| \ $$
+</p>
+
+
+
+
+
+
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+</body>
+
+
+</html>

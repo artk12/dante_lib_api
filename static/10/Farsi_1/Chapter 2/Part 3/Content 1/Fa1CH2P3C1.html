@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #badaff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #722a85;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background-color: #1abbbbe1; /* Scrollbar thumb color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color: #05ffe2;
+        }
+    </style>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+<body class="custom-scrollbar">
+
+
+    <p class="MsoBold">
+        درس پنجم : بیداد ظالمان
+    </p>
+
+<p class="MsoNormal" style="text-align: center;">
+    poem placeholder
+</p>
+
+
+
+
+
+
+
+<br><hr>
+
+
+
+
+<div class="MsoBold">
+    کارگاه متن‌پژوهی
+</div>
+
+<div class="MsoStep">
+    قلمرو زبانی
+</div>
+<br>
+<div class="MsoNormal">
+    1- در شعری که خواندید، پنج واژهٔ مهم املایی بیابید و بنویسید.<br>
+    2- تفاوت معنایی فعل «کشت» را در ابیات زیر توضیح دهید:
+</div>
+<br>
+<div class="MsoNormal">
+    گفتم که نوش لعلت ما را به آرزو کشت<br>
+    گفتا تو بندگی کن کاو بنده‌پرور آید<br>
+    بادی که در زمانه بسی شمع‌ها بکشت<br>
+    هم بر چراغ‌دان شما نیز بگذرد
+</div>
+<br><br>
+<div class="MsoNormal">
+    3- برای هر واژهٔ مشخص‌شده، یک مترادف از متن درس بیابید.<br><br>
+    بر در بخت بد فرود آید<br> هر که گیرد عنان مرکبش، آز<br>
+    ناصرخسرو<br><br>
+    همت بلند دار که نزد خدا و خلق باشد<br>
+    به قدر همت تو اعتبار تو<br>
+    ابن یمین
+</div>
+<br><hr><br>
+<div class="MsoStep">
+    قلمرو ادبی
+</div>
+<br>
+<div class="MsoNormal">
+    1- قافیه و ردیف را در بیت نخست این سروده مشخص کنید.<br><br>
+    2- در بیت زیر، کنایه‌ها را بیابید و مفهوم آن‌ها را بنویسید.
+</div>
+<br>
+<div class="MsoNormal">
+    بر تیر جورتان ز تحمل سپر کنیم<br>
+    تا سختی کمان شما نیز بگذرد
+</div>
+<br><br>
+<div class="MsoNormal">
+    3- به بیت زیر توجه کنید:<br>
+    بر کن ز بن این بنا که باید<br>
+    از ریشه بنای ظلم برکند<br>
+    محمدتقی بهار
+</div>
+<br>
+<div class="MsoNormal">
+    در مصراع اول، مقصود شاعر از «بنا»، مفهوم «ظلم» است؛ یعنی شاعر، «ظلم» را به «بنا» تشبیه کرده است؛ سپس به سبب شباهت آن دو به هم مشبه (ظلم) را حذف کرده و فقط مشبه‌به (بنا) را ذکر کرده است تا شباهت را تا مرحلهٔ یکی شدن نشان دهد؛ به این تصویر خیال‌انگیز، «استعاره» می‌گویند.
+</div>
+<br>
+<div class="MsoNormal">
+    در استعاره، یک طرف تشبیه (مشبه یا مشبه‌به) ذکر نمی‌شود. مثال برای حذف «مشبه‌به»: خورشید شکفت. «خورشید» به «گل» تشبیه شده است و «شکفتن» از ویژگی‌های گل است که به خورشید نسبت داده شده است.
+</div>
+<br>
+<div class="MsoNormal">
+    $*$
+    در بیت پنجم، استعاره‌ها را مشخص کنید و مفهوم هر یک را بنویسید.
+</div>
+<br><hr><br>
+<div class="MsoStep">
+    قلمرو فکری
+</div>
+<br>
+<div class="MsoNormal">
+    1- با توجه به توضیح زیر، معنی و مفهوم بیت اول در سرا به نثر روان بنویسید.<br><br>
+    سیف‌الدین محمد فرغانی، در سدهٔ هفتم هجری، هنگامی که شهرهای بزرگ و آباد ایران، در آتش بیداد مغولان می‌سوخت، این شعر را سرود. سیف در این سروده، از رفتار ظالمانهٔ فرمانروایان و تاخت‌وتاز سپاه مغول، با بیان کوبنده‌ای انتقاد می‌کند.
+</div>
+<br><br>
+<div class="MsoNormal">
+    2- در بیت زیر، مقصود شاعر از «رمه»، «چوپان گرگ‌طبع» و «گرگِ شبان» چیست؟
+</div>
+<br>
+<div class="MsoNormal">
+    ای تو رمه سپرده به چوپان گرگ‌طبع<br>
+    این گرگِ شبان شما نیز بگذرد
+</div>
+<br><br>
+<div class="MsoNormal">
+    3- از متن درس، برای حدیث و آیهٔ زیر، نمونه بیتی مرتبط بیابید و بنویسید.
+</div>
+<br>
+<div class="MsoNormal">
+    «الدَّهْرُ یَوْمَانِ یَوْمٌ لَکَ وَ یَوْمٌ عَلَیْکَ.» امام علی (ع)
+</div>
+<br>
+<div class="MsoNormal">
+    «کُلُّ نَفْسٍ ذَائِقَةُ الْمَوْتِ.» (سورهٔ آل عمران، آیه ۵۸)
+</div>
+<br><br>
+<div class="MsoNormal">
+    4- سرودهٔ زیر، یادآور کدام بیت در درس است؟
+</div>
+<br>
+<div class="MsoNormal">
+    ما بارگه دادیم، این رفت ستم بر ما<br>
+    بر قصر ستم‌کاران، گویی چهرهٔ خذلان<br>
+    خاقانی
+</div>
+<br>
+<div class="MsoNormal">
+    5- .................................................................................
+</div>
+<br><hr><br>
+<div class="MsoStep">
+    شعرخوانی
+</div>
+
+<div class="MsoStep">
+    همای رحمت
+</div>
+<p class="MsoNormal" style="text-align: center;">
+    poem placeholder
+</p>
+
+<br><hr><br>
+<div class="MsoStep">
+    درک و دریافت
+</div>
+
+
+<div class="MsoNormal">
+    1- برای خوانش مناسب و تأثیرگذار این سروده به چه نکاتی باید توجه داشت؟<br><br>
+    2- در این سروده به کدام ویژگی‌های شخصیت والای حضرت علی (ع) اشاره شده است؟
+</div>
+
+
+
+
+
+
+
+
+    
+</body>
+
+
+</html>

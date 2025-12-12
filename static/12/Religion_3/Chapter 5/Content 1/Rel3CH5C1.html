@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #badaff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .box {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+    <body class="custom-scrollbar">
+
+
+        <p class="MsoBold">درس پنجم: قدرت پرواز</p>
+        <p class="MsoNormal">در درس‌های پیشین دانستیم که تنها خالق، مالک، ولی، رب و مدبر جهان خداست و هیچ‌یک از مخلوقات در ادارهٔ جهان با او شریک نیستند. همهٔ موجودات، تحت اراده و تدبیر خداوند قرار دارند و به اذن او عمل می‌کنند.</p>
+        <br>
+        <p class="MsoNormal">در این درس، به بررسی و پاسخ این سؤال‌ها خواهیم پرداخت که:</p>
+        <br>
+        <p class="MsoNormal">۱ــ با توجه به اینکه همهٔ رخدادهای جهان، تحت قوانین و تدبیر خداوند است، نقش اختیار انسان در این نظام جهانی چیست؟ آیا این قوانین مانع اختیار انسان است یا بستری مناسب برای شکوفایی آن؟</p>
+        <br>
+        <p class="MsoNormal">۲ــ در این نظام که با ارادهٔ الهی اداره می‌شود، جایگاه ارادهٔ انسان کجاست؟ آیا ارادهٔ الهی مانع ارادهٔ انسان است؟</p>
+        
+        <br><hr><br>
+        <p class="MsoStep">اختیار، حقیقتی وجدانی و مشهود</p>
+        <p class="MsoNormal">میان حرکات قلب یک فرد برای گردش خون و حرکات پای وی به هنگام قدم زدن، تفاوت اساسی وجود دارد، همچنان که تفاوت است میان حرکات دستی که بر اثر بیماری لرزش دارد با حرکت دستی که خود شخص برای غذا خوردن بالا و پایین می‌آورد. ضربان قلب و حرکت دستی که لرزش دارد اختیاری نیست؛ ولی حرکات پا برای رفتن به سوی یک مقصد و حرکات دست در هنگام غذا خوردن اختیاری و تابع ارادهٔ انسان است.</p>
+        <br><br>
+        <p class="MsoNormal">اختیار که به معنای توانایی بر انجام یک کار و یا ترک آن است، یک حقیقت وجدانی است و هر انسانی آن را در خود می‌یابد و می‌بیند که شبانه‌روز در حال تصمیم‌گرفتن برای انجام یک کار یا ترک آن است. حتی کسی که اختیار را در سخن یا بحث انکار می‌کند، در عمل از آن بهره می‌برد و آن را اثبات می‌کند. مولوی این حقیقت را در قالب یک مثال این‌گونه یادآوری می‌کند:</p>
+        <br><br>
+        <p class="MsoNormal">آن یکی می‌رفت بالای درخت<br>صاحب باغ آمد و گفت ای دنی<br>گفت: از باغ خدا بندهٔ خدا<br>می‌خورد خرما که حق کردش عطا<br>گفت: آخر از خدا شرمی بدار<br>می‌فشاند آن میوه را دزدانه سخت<br>پس ببستش سخت آن دم بر درخت<br>گفت: کز چوب خدا این بندهاش<br>می‌زدش بر پشت و پهلو چوب سخت<br>گفت توبه کردم از جبر ای عیار<br>اختیار است، اختیار است، اختیار</p>
+        <br><br>
+        <p class="MsoNormal">البته باید توجه داشته باشیم که بسیاری از امور اختیاری نیست و ما در وقوع آنها نقشی نداریم. به‌عنوان مثال، هیچ‌یک از ما در عملکرد دستگاه‌های مختلف بدن خود، مانند دستگاه گوارش و یا گردش خون و همچنین در قوانین حاکم بر طبیعت مانند قانون جاذبه زمین، توالی فصل‌ها و... نقشی نداریم و این امور خارج از اختیار ما و به‌صورت طبیعی انجام می‌شود. در عین حال، باید توجه داشت که همین اختیار محدودی که داریم، مبنای تصمیم‌گیری‌های ما و تعیین‌کنندهٔ سرنوشت ماست.</p>
+        
+        <br><hr><br>
+        <p class="MsoStep">شواهد اختیار</p>
+        <p class="MsoNormal">باوجود روشن بودن اختیار و بی‌نیازی آن از استدلال، همهٔ ما شواهدی بر وجود آن در خود می‌یابیم که عبارت‌اند از:</p>
+        <br><br>
+        <p class="MsoNormal"><b>تفکر و تصمیم:</b> هرکدام از ما همواره تصمیم‌هایی می‌گیریم و برای این تصمیم‌ها ابتدا اندیشه می‌کنیم و جوانب آن را می‌سنجیم و سپس دست به عمل می‌زنیم. گاهی نیز دچار تردید می‌شویم که از میان چندین راه و چندین کار، کدام‌یک را انتخاب کنیم. دست آخر، پس از بررسی‌های لازم، یکی را برگزیده و عمل می‌کنیم.<br>این که فردا این کنم یا آن کنم<br>خود دلیل اختیار است ای صنم</p>
+        <br><br>
+        <p class="MsoNormal"><b>احساس رضایت یا پشیمانی:</b> هرگاه در کاری موفق شویم، احساس رضایت و خرسندی وجودمان را فرا می‌گیرد. این احساس رضایت نشان‌دهندهٔ آن است که آن کار را از خود و نتیجهٔ اراده و تصمیم عاقلانهٔ خود می‌دانیم. گاهی نیز در کاری مرتکب اشتباه می‌شویم و به خود یا دیگری زیان می‌رسانیم. در این هنگام احساس پشیمانی می‌کنیم و با خود می‌گوییم ای کاش آن کار را انجام نمی‌دادم. این احساس پشیمانی نشانگر آن است که من توان ترک آن کار را داشته‌ام.<br>گر نبودی اختیار این شرم چیست<br>این دریغ و خجلت و آزرم چیست؟<br>وان پشیمانی که خوردی زان بدی<br>ز اختیار خویش گشتی مهتدی</p>
+        <br><br>
+        <p class="MsoNormal"><b>مسئولیت‌پذیری:</b> هرکدام از ما خودمان را مسئول کارهای خود می‌دانیم. به همین جهت آثار و عواقب عمل خود را می‌پذیریم و اگر به کسی زیان رسانده‌ایم، آن را جبران می‌کنیم. عهدها و پیمان‌ها نیز بر همین اساس استوارند. بنابراین، اگر کسی پیمان‌شکنی کند و مسئولیتش را انجام ندهد خود را مستحق مجازات می‌داند.<br>هیچ گویی سنگ را فردا بیا<br>هیچ با سنگی عتابی کس کند؟<br>ور نیایی من دهم بد را سزا؟<br>هیچ عاقل مر کلوخی را زند؟</p>
+        
+        
+        <br><hr><br>
+        
+        <p class="MsoNormal">خدای متعال، متناسب با همین قوۀ اختیار، بشر را راهنمایی کرده و او را مختار گذاشته است که از راهنمایی خداوند استفاده کند و سپاسگزار باشد، یا ناسپاسی کند و از هدایت و لطف الهی بهره نبرد و مسیر شقاوت را بپیماید:</p>
+        <br><br>
+        <p class="MsoNormal"><b>إِنَّا هَدَيْناهُ السَّبِيلَ إِمَّا شاكِراً وَ إِمَّا كَفُوراً</b><br>ما راه را به او نشان دادیم، یا سپاسگزار خواهد بود یا ناسپاس</p>
+        
+        
+        <br><hr><br>
+        <p class="MsoStep">تدبر در قرآن</p>
+        <p class="MsoNormal">در آیات زیر تأمل کنید و توضیح دهید هر یک از این آیات کدام یک از شواهد و نشانه‌های وجود اختیار در انسان را بیان می‌کند؟</p>
+        <br>
+        <p class="MsoNormal">قَدْ جاءَكُمْ بَصائِرُ مِنْ رَبِّكُمْ فَمَنْ أَبْصَرَ فَلِنَفْسِهِ وَ مَنْ عَمِيَ فَعَلَيْها...</p>
+        <br>
+        <p class="MsoNormal">ذلِكَ بِما قَدَّمَتْ أَيْدِيكُمْ وَ أَنَّ اللَّهَ لَيْسَ بِظَلَّامٍ لِلْعَبِيدِ</p>
+        <br>
+        <p class="MsoNormal">به راستی که دلایل روشن از جانب پروردگارتان به سوی شما آمده است. پس هر کس که بینا گشت، به سود خود اوست و هر کس کور دل گردد، به زیان خود اوست... این [عقوبت]، به خاطر کردار پیشین شماست [و نیز به خاطر آن است که] خداوند هرگز به بندگان ستم نمی‌کند.</p>
+        
+        
+        <br><hr><br>
+        <p class="MsoStep">قانونمندی جهان، زمینه‌ساز شکوفایی اختیار</p>
+        <p class="MsoNormal">خداوند، قدرت اختیار و اراده را به ما عطا کرده و از ما خواسته است با استفاده از آن، برای زندگی خود برنامه‌ریزی کنیم و در مسیر رشد و کمال تا آنجا پیش برویم که جز خداوند کسی به عظمت آن آگاه نیست.</p>
+        <br><br>
+        <p class="MsoNormal">ممکن است در اینجا این سؤال به ذهن برسد که ما در جهانی زندگی می‌کنیم که خداوند امور آن را تدبیر می‌کند و قوانین مشخصی را بر آن حاکم کرده و جهان هستی مطابق با آن قوانین عمل می‌کند و به پیش می‌رود. به عبارت دیگر، ما در جهانی زندگی می‌کنیم که قدر و قضای الهی بر آن حاکم است (قانونمند است)؛ پس در این صورت، آیا قدر و قضای الهی مانع اختیار ما نیست؟</p>
+        
+        
+        <br><hr><br>
+        <p class="MsoStep">قدر و قضای الهی</p>
+        <p class="MsoNormal">قبل از پاسخ به این سؤال لازم است این دو اصطلاح قرآنی، یعنی «قدر» و «قضا» را بیشتر بشناسیم و در معنا و مفهوم آنها عمیق‌تر تأمل کنیم.</p>
+        <br><br>
+        <p class="MsoNormal"><b>قدر و قضای الهی:</b> «قَدر» و «تقدیر» به معنای «اندازه» و «اندازه‌گرفتن» است. «قضا» نیز به معنای «به انجام رساندن»، «پایان دادن»، «حکم کردن» و «حتمیت بخشیدن» است. مخلوقات جهان، از آن جهت که خدای متعال با علم خود، اندازه، حدود، ویژگی، موقعیت مکانی و زمانی آنها را تعیین می‌کند، به تقدیر الهی وابسته هستند و از آن جهت که با فرمان و حکم و ارادهٔ الهی ایجاد می‌شوند، به قضای الهی وابسته‌اند. پس اینکه می‌گوییم قدر و قضای الهی بر جهان حاکم است، به این معناست که نقشۀ جهان با همهٔ موجودات و ریزه‌کاری‌ها و ویژگی‌ها و قانون‌هایش از علم خداست (قدر) و اجرا و پیاده کردن آن نیز به ارادهٔ خداست (قضا). به همین دلیل، نه در نقشهٔ جهان نقصی هست و نه در اجرا و پیاده کردن آن.</p>
+        <br><br>
+        <p class="MsoNormal">حال با توجه به معنای قدر و قضا اگر وضع جهان غیر از این بود، یعنی تحت نظام قدر و قضای الهی قرار نداشت (قانونمند نبود)، آیا می‌توانستیم با همین اطمینان خاطری که اکنون داریم، با اختیار خود دست به انتخاب زده و در این جهان کار و فعالیت کنیم؟</p>
+        <br><br>
+        <p class="MsoNormal">از این‌رو فقط با زندگی در یک جهان قانونمند است که امکان بهره‌مندی از اختیار و انتخاب وجود دارد، زیرا اگر وقایع جهان قانونمند نبود و همه چیز اتفاقی رخ می‌داد، انسان نمی‌دانست باید دست به چه انتخابی بزند. آبی که برای رفع تشنگی می‌نوشیم، به سبب اعتماد به همین تقدیر و قضاست؛ یعنی می‌دانیم که خداوند آب را با این ویژگی‌ها آفریده که سبب رفع تشنگی می‌شود. اما اگر کسی این تقدیرها را نبیند و نظم فعلی جهان را یک اتفاق از میان میلیاردها اتفاق ممکن دیگر بداند، اگر واقعاً بخواهد همین نگاه را مبنای عمل خود در زندگی قرار دهد، چه خواهد کرد؟ آیا امکان استفاده از اختیار را در چنین جهانی خواهد داشت؟</p>
+        <br><hr><br>
+
+        <p class="MsoStep">تفکر</p>
+        <p class="MsoNormal">دربارهٔ سؤال‌های بالا بیندیشید و نظر خود را دربارهٔ هر یک از آن‌ها ارائه دهید.</p>
+
+        <br><hr><br>
+        <p class="MsoStep">اصلح یک پندار</p>
+        <p class="MsoNormal">برخی که می‌پندارند قدر و قضای الهی با اختیار انسان ناسازگار است، تصور می‌کنند تقدیر، چیزی غیر از قانون‌مندی جهان و نظم در آن است که وقتی به حادثه‌ای تعلق گرفت، هر قانونی را لغو و هر نظمی را برهم می‌زند؛ درحالی‌که دیدیم معنای قدر و قضای الهی این است که هر چیزی مهندسی و قاعدهٔ خاص خود را دارد و تمام جهان بر اساس قواعدی بنا شده است و این قواعد، توسط انسان قابل یافتن و بهره‌گیری است.</p>
+        <p class="MsoNormal">پس بدون قدر و قضای الهی هیچ نظمی برقرار نمی‌شود و هیچ زمینه‌ای برای کار اختیاری پدید نمی‌آید. روزی امیرالمؤمنین علی (ع) با جمعی از یاران خود در سایهٔ دیواری نشسته بود. آن حضرت متوجه کجی و سستی دیوار شد و برای اینکه مبادا دیوار روی او و یاران خراب شود، از آنجا برخاست و زیر سایهٔ دیوار دیگری نشست. یکی از یاران به آن حضرت گفت:</p>
+        <p class="MsoNormal">ــ یا امیرالمؤمنین آیا از قضای الهی می‌گریزی؟ امام فرمود: «از قضای الهی به قدر الهی پناه می‌برم.» یعنی از نوعی قضا و قدر الهی، به نوع دیگری از قضا و قدر الهی پناه می‌برم.</p>
+
+        <br><br>
+
+        <p class="MsoNormal">برداشت نابجای آن شخص چنین بود که ما هیچ اختیاری در تعیین سرنوشت خود نداریم و اگر قرار باشد دیوار بر سرمان خراب شود حتماً این اتفاق خواهد افتاد و ما نمی‌توانیم تغییری در آن ایجاد کنیم؛ بنابراین، حرکت و تغییر مکان و تصمیم‌گیری بر اساس دستور عقل بی‌فایده است. اما امیرالمؤمنین (ع) با رفتار و سپس گفتار خود، نگرش صحیح خود از قدر و قضای الهی را نشان داد و به آن شخص و دیگران آموخت که اعتقاد به قدر و قضا، نه تنها مانع تحرک و عمل انسان نیست، بلکه عامل و زمینه‌ساز آن است. در واقع، فرو ریختن دیوار سست و کج یک قضای الهی است، اما این قضا متناسب با ویژگی و تقدیر خاص آن دیوار، یعنی سستی و کجی آن است. اما اگر دیوار، ویژگی دیگری داشته باشد، مثلاً محکم باشد، قضای دیگری را به دنبال خواهد آورد و انسانی که این دو تقدیر و این دو قضا را بشناسد تصمیم می‌گیرد و دست به انتخاب مناسب‌تر می‌زند.</p>
+        <p class="MsoNormal">بنابراین، جهان آفرینش مجموعه‌ای از قدرها و قضاهای الهی است و این انسان است که باید با تشخیص درست، بهترین‌ها را انتخاب کند.</p>
+
+        <br><hr><br>
+
+        <p class="MsoStep">اختیار انسان، یک تقدیر الهی</p>
+        <p class="MsoNormal">وقتی از تقدیر جهان به‌وسیلهٔ خداوند سخن می‌گوییم، منظورمان فقط تعیین طول، عرض، حجم، مکان و زمان یک موجود نیست. این‌ها ساده‌ترین و آشکارترین تقدیرها هستند. تقدیر الهی شامل همهٔ ویژگی‌ها، کیفیت‌ها، کمیت‌ها و کلیهٔ روابط میان موجودات می‌شود. اینکه آب در چه درجه‌ای به جوش آید، تعداد الکترون‌های هر عنصر چه تعداد باشد، ماه در کدام مدار دور زمین گردش کند، بدن انسان از چه اعضایی تشکیل شود، هر عضوی کدام کار را انجام دهد، همه و همه از تقدیرات الهی است.</p>
+        <br>
+        <p class="MsoNormal">یکی از تقدیرات الهی برای انسان این است که او دارای اختیار باشد؛ یعنی همان‌طور که مثلاً به آب، ویژگی مایع بودن را داده است، به انسان نیز ویژگی مختاربودن را عطا کرده است. به تعبیر دیگر، خداوند این‌گونه تقدیر کرده که انسان کارهایش را «با اختیار انجام دهد» و کسی نمی‌تواند از اختیار که ویژگی ذاتی اوست، فرار کند؛ حتی اگر بخواهد آن را انکار کند و از آن فرار کند، باز هم این کار اختیاری بوده، چون همین کار را با خواست و ارادهٔ خود انجام داده است.</p>
+        <br><hr><br>
+        <p class="MsoStep">رابطهٔ اختیار انسان با ارادهٔ خداوند</p>
+        <p class="MsoNormal">در اینجا ما با یک مسئلهٔ دیگر روبه‌رو می‌شویم. آن مسئله این است که: چگونه می‌توان هم به قضا و ارادهٔ الهی اعتقاد داشت و گفت همهٔ کارها با ارادهٔ خداوند انجام می‌شود و هم انسان را موجودی مختار دانست که کارهایش را با ارادهٔ خودش انجام می‌دهد؟</p>
+        <p class="MsoNormal">برای پاسخ به این پرسش لازم است ابتدا با علت‌هایی که در پیدایش یک پدیده دخالت دارند، بیشتر آشنا شویم. این علل، بر دو دسته‌اند:</p>
+        <br><br>
+        <p class="MsoNormal">علل عرضی</p>
+        <p class="MsoNormal">در پیدایش هر پدیده ممکن است چند عامل به‌صورت مجموعه و با همکاری یکدیگر مشارکت کنند؛ مثلاً برای رویش یک گل، مجموعه‌ای از باغبان، خاک، آب، نور و حرارت دست به دست هم می‌دهند و با مشارکت یکدیگر گل را پدید می‌آورند؛ یا مثلاً وقتی دو نفر دسته‌های یک گلدان بزرگ را می‌گیرند و جابه‌جا می‌کنند، هرکدام از این دو نفر نیروی خاصی را وارد می‌کند که باعث جابه‌جایی گلدان می‌شود. در هر دو مثال، هر یک از این عوامل و عناصر اثر خاصی را، مستقل از دیگری، اعمال می‌کند تا گل بروید یا گلدان جابه‌جا شود. این‌گونه علل را «علل عرضی» می‌گویند.</p>
+        <p class="MsoNormal">در علل عرضی، هر عامل به‌طور مستقیم نقش خاصی را برعهده دارد که با نقش دیگری متفاوت است.</p>
+        <br><br>
+        <p class="MsoNormal">علل طولی</p>
+        <p class="MsoNormal">گاهی تأثیر چند عامل در پیدایش یک پدیده این‌گونه است که یک عامل در عامل دوم اثر می‌گذارد و عامل دوم در عامل سوم تأثیر می‌کند تا اثر عامل اول را به معلول منتقل کند. برای مثال، به هنگام نوشتن، چند عامل در طول هم در انجام این کار دخالت دارند:</p>
+        <p class="MsoNormal">ــ نفس یا روح که ارادهٔ نوشتن می‌کند؛<br>ــ ساختار عصبی بدن که با ارادهٔ نفس، موجب حرکت دستمان می‌شود؛<br>ــ دست که قلم را به حرکت درمی‌آورد؛<br>ــ قلم که با حرکت خود در صفحه، جملات را می‌نگارد.</p>
+        <br><br>
+        <p class="MsoNormal">کل کار نوشتن را به هر یک از این عوامل می‌توان نسبت داد؛ بدین معنا که اگر هر یک از این عوامل نبود، عمل نوشتن ممکن نمی‌شد، اما هر علتی، به‌ترتیب، علت بودن خود را از عامل بالاتر می‌گیرد. قلم می‌نویسد، اما حرکت آن ناشی از حرکت دست است. حرکت دست به نوبهٔ خود محصول کار دستگاه عصبی است. این کار هم ناشی از اراده‌ای است که برآمده از نفس شماست. این علت‌ها را «علل طولی» می‌گویند.</p>
+        <p class="MsoNormal">در مثال پرورش گل، علت‌ها در عرض هم قرار داشتند (در یک ردیف و هر کدام مستقل از دیگری بودند)، اما در مثال نوشتن، علت‌ها در طول هم هستند (در یک ردیف و مستقل نیستند بلکه نسبت به هم در مرتبه‌های مختلف قرار دارند و علت مرتبهٔ پایین، وابسته به علت مرتبهٔ بالایی است.)</p>
+        <br><br>
+        <p class="MsoNormal">وجود اختیار و اراده در انسان ناشی از ارادهٔ الهی و خواست خداست. به عبارت دیگر، خداوند اراده کرده است که انسان موجودی مختار و دارای اراده باشد. در فعل اختیاری، تا زمانی که ما ارادهٔ کاری را نکرده‌ایم، آن کار انجام نمی‌گیرد؛ در عین حال، وجود ما، ارادهٔ ما و عملی که از ما سر می‌زند همگی وابسته به ارادهٔ خداوند است؛ یعنی ارادهٔ انسان در طول ارادهٔ خداست و با آن منافات ندارد.</p>
+
+        <br><hr><br>
+        <p class="MsoStep">بررسی</p>
+        <p class="MsoNormal">با اینکه قضای الهی و اختیار، هر دو، چه در موفقیت‌ها و چه در شکست‌های انسان نقش دارند، چرا برخی انسان‌ها می‌کوشند شکست‌های خود را به قضا و قدر الهی نسبت دهند؟</p>
+
+        <br><hr><br>
+        <p class="MsoStep">پاسخ سؤالات شما</p>
+
+        <p class="MsoNormal">ممکن است برای شما این سؤال پیش آید که «اگر خداوند از قبل، سرنوشت و آیندهٔ مرا می‌داند، پس دیگر تلاش و ارادهٔ من، چه نقشی در آینده‌ام دارد؟»</p>
+        <p class="MsoNormal">چنین برداشتی از علم الهی، ناشی از مقایسه کردن علم خدای متعال با علم انسان است و از لغزشگاه‌هایی است که قرآن کریم پیوسته در این باره هشدار می‌دهد.</p>
+        
+        <p class="MsoNormal">کلید پاسخ به این سؤال در این نکته نهفته است که علم خداوند هم پایان و نتیجهٔ امور و هم فرایند انجام حوادث را در برمی‌گیرد، در حالی که علم انسان‌ها چنین نیست. مثلاً یک کارشناس فوتبال که نتیجهٔ یک مسابقه را پیش‌بینی می‌کند، یا معلمی که آیندهٔ یک دانش‌آموز را حدس می‌زند، هر یک بر اساس اطلاعات محدودی که دارند، دست به این کار می‌زنند؛ اما آن معلم علم ندارد که این دانش‌آموز از لحظهٔ بعد تا روز امتحان چه تصمیم‌هایی خواهد گرفت، آیا متحول خواهد شد یا به راه گذشته ادامه خواهد داد. در حالی که علم خداوند این‌گونه نیست. او همان‌طور که پایان فرایند را می‌بیند بر تمام اتفاقات و تصمیم‌گیری‌های طول فرایند هم شاهد و آگاه است. او می‌داند که مثلاً فردا آن دانش‌آموز به اختیار خود تصمیم می‌گیرد ساعات مطالعهٔ خود را افزایش دهد، تصمیم می‌گیرد از میزان خواب خود کم کند و ده‌ها تصمیم اختیاری دیگر. همچنین می‌بیند که این تصمیم‌ها در پایان، منجر به قبولی وی خواهد شد. پس علم خداوند منحصر به نتیجهٔ پایانی فرایند نیست، بلکه به سلسلهٔ تصمیم‌ها و عوامل دیگر مؤثر در آن فرایند نیز متعلق است.</p><br>
+        <p class="MsoNormal">در حقیقت، علم خداوند، پیش‌بینیِ صرف دربارهٔ نتیجه نیست، بلکه خداوند با شناخت کامل و دقیقی که از مخلوقات خود دارد، می‌داند که این فرد با انتخاب خودش، چه مسیری را در پیش می‌گیرد.</p>
+        
+
+
+<br><br><br><br><br>
+
+
+
+
+
+
+
+    </body>
+
+
+</html>

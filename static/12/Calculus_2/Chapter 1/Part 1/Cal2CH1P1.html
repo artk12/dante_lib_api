@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal ,
+        ul.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi , b{
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #badaff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #722a85;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background-color: #1abbbbe1; /* Scrollbar thumb color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color: #05ffe2;
+        }
+    </style>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+ 
+</head>
+
+
+
+<body class="custom-scrollbar">
+
+    <p class="MsoBold">درس ۱
+        :
+    تبدیل نمودار توابع</p>
+    
+    <p class="MsoNormal">برای رسم بسیاری از توابع، نیاز به روش‌های پیچیده نیست. اگر نمودار یک تابع را در اختیار داشته باشیم، می‌توانیم به کمک برخی از تبدیل‌ها، نمودار توابع دیگری را رسم کنیم.</p>
+
+
+    <br><hr><br>
+    <p class="MsoBold">انتقال‌های عمودی و افقی</p>
+    <p class="MsoNormal">در سال‌های قبل با انتقال‌های عمودی و افقی آشنا شده‌اید. به‌عنوان مثال می‌توانید نمودار توابع
+        $y = (x + 2)^2$
+        و
+        $y = x^2 + 3$
+
+    را به کمک نمودار تابع
+    $y = x^2$
+    رسم کنید.</p>
+    
+
+
+    <p class="MsoNormal">در حالت کلی (مانند مثال بالا، قسمت ب) اگر $(x, y)$ یک نقطه از نمودار تابع $y = f(x)$ باشد و تابع $g(x)$ به‌صورت $g(x) = f(x) + k$ تعریف شده باشد، آنگاه:</p>
+    <p class="MsoNormal">
+    $$g(x_0) = f(x_0) + k = y_0 + k$$
+    </p>
+    <p class="MsoNormal">بنابراین نقطه $(x, y + k)$ از نمودار تابع $g$ متناظر با نقطه $(x, y)$ از نمودار $f$ است.</p>
+    
+
+    <br><hr><br>
+
+    <p class="MsoNormal">برای رسم نمودار $y = f(x) + k$، اگر $k > 0$ باشد، کافی است نمودار تابع $f(x)$ را $k$ واحد در راستای قائم به سمت بالا انتقال دهیم و برای $k < 0$ این انتقال به سمت پایین انجام می‌شود.</p>
+
+<br><hr><br>
+
+
+<p class="MsoNormal"><b>مثال:</b> نمودار تابع $y = \sin x$ با دامنه $[0, 2\pi]$ رسم شده است.
+     می‌خواهیم نمودار تابع 
+     $f(x) = \sin x + 2$ 
+     و 
+     $g(x) = \sin(x - \dfrac{\pi}{2})$ 
+     را به کمک انتقال رسم کنیم. با توجه به توضیحات صفحهٔ قبل، کافی است نمودار تابع 
+     $y = \sin x$ را $2$ واحد به بالا انتقال دهیم تا $f(x)$ رسم شود (شکل الف) و
+      اگر آن را $\dfrac{\pi}{2}$ واحد به راست انتقال دهیم، $g(x)$ رسم می‌شود (شکل ب).</p>
+
+
+      <br><hr><br>
+
+
+      <p class="MsoStep">کار در کلاس</p>
+
+      <p class="MsoNormal">
+        1.
+        الف) نمودار تابع $f(x) = \sqrt{x}$ را با دامنه $[0, 4]$ رسم کنید و برد تابع را مشخص کنید.</p>
+        <br>
+      <p class="MsoNormal">ب) نمودار توابع 
+          $k(x) = f(x - 2)$
+          و 
+          $g(x) = f(x) + 3$
+          را به کمک انتقال رسم کنید.</p>
+      <br>
+      <p class="MsoNormal">پ) دامنه و برد توابع $k$ و $g$ را محاسبه و با دامنه و برد تابع $f$ مقایسه کنید.</p>
+      
+<br>
+<div class="custom-scrollbar" style="overflow-y: hidden; overflow-x:auto;direction:ltr;">
+      <table class="MsoNormal" style="margin:auto;width:max-content;direction:ltr;text-align:center;">
+        <tr>
+            <td></td>
+            <td>$f(x) = \sqrt{x}$</td>
+            <td>$k(x) = f(x - 2)$</td>
+            <td>$g(x) = f(x) + 3$</td>
+        </tr>
+        <tr>
+            <td>دامنه</td>
+            <td>$[0, 4]$</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>برد</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <br>
+</div>
+
+<br><br>
+
+
+
+<p class="MsoNormal">
+    2.
+    در زیر، نمودار توابع 
+    $ y = 2^x $
+    و
+    $ y = \log_{ \ 2} x $
+    و
+    $  y = cos x $
+     رسم شده‌اند. 
+     نمودار توابع 
+    زیر 
+      را به کمک انتقال رسم کنید.</p>
+
+  <div class="MsoNormal" style="text-align: left;">
+
+$y = 2^{x-1} + 2$
+<br>
+$y = \log_{ \ 2}(x + 2)$
+<br>
+$y = \cos(x + \dfrac{\pi}{2})$
+
+  </div>
+
+<br><hr><br>
+
+
+
+<p class="MsoNormal"><b>مثال:</b> نمودار تابع $f$، به صورت زیر داده شده است. با انتقال‌های افقی و عمودی، نمودار تابع $y = f(x + 1) - 3$ را رسم می‌کنیم.</p>
+
+
+
+<br>
+
+
+<p class="MsoNormal">برای این کار ابتدا نمودار تابع $f$ را یک واحد به سمت چپ انتقال می‌دهیم تا نمودار تابع $y = f(x + 1)$ رسم شود (شکل الف) و سپس این نمودار را سه واحد به پایین منتقل می‌کنیم تا نمودار تابع $y = f(x + 1) - 3$ رسم شود (شکل ب).</p>
+
+<br><hr>
+
+
+<p class="MsoBold">انبساط و انقباض عمودی</p>
+<p class="MsoStep">فعالیت</p>
+<p class="MsoNormal">۱. در جدول زیر، چند نقطه از نمودارهای توابع 
+    $y = \sin x$ و $y = 3 \sin x$ را مشخص کرده و نمودار آنها را در بازه $[0, 2\pi]$ رسم کرده‌ایم. با تکمیل این جدول، 
+    نمودار تابع $y = \dfrac{1}{2} \sin x$ را نیز در دستگاه زیر رسم کنید.</p>
+
+
+
+    <br>
+
+
+    <table class="MsoNormal" style="margin:auto;width:fit-content;direction:ltr;text-align:center;">
+        <tr>
+            <th>$x$</th>
+            <th>$0$</th>
+            <th>$\dfrac{\pi}{2}$</th>
+            <th>$\pi$</th>
+            <th>$\dfrac{3\pi}{2}$</th>
+            <th>$2\pi$</th>
+        </tr>
+        <tr>
+            <td>$y = \sin x$</td>
+            <td>$0$</td>
+            <td>$1$</td>
+            <td>$0$</td>
+            <td>$-1$</td>
+            <td>$0$</td>
+        </tr>
+        <tr>
+            <td>$y = 3 \sin x$</td>
+            <td>$0$</td>
+            <td>$3$</td>
+            <td>$0$</td>
+            <td>$-3$</td>
+            <td>$0$</td>
+        </tr>
+        <tr>
+            <td>$y = \dfrac{1}{2} \sin x$</td>
+            <td>$\cdots$</td>
+            <td>$\cdots$</td>
+            <td>$\cdots$</td>
+            <td>$\cdots$</td>
+            <td>$\cdots$</td>
+        </tr>
+    </table>
+    
+
+    <br><br>
+
+
+
+
+<p class="MsoNormal">
+    2.
+    با مقایسهٔ نمودارهای بالا، نمودارهای توابع $y = 3 \sin x$ و $y = \dfrac{1}{2} \sin x$ چه تفاوتی با نمودار تابع $y = \sin x$ دارند؟</p>
+
+
+<br><br>
+
+
+<p class="MsoNormal">
+    3.
+    دامنه و برد توابع $y = 3 \sin x$ و $y = \dfrac{1}{2} \sin x$ چه تفاوتی با دامنه و برد تابع $y = \sin x$ دارند؟</p>
+
+
+
+    <p class="MsoNormal">در حالت کلی اگر $(x, y)$ یک نقطه از نمودار تابع $y = f(x)$ باشد و تابع $g$ به صورت $g(x) = k f(x)$ تعریف شده باشد، آنگاه:</p>
+    <p class="MsoNormal">
+    $g(x) = k f(x) = k y.$
+    </p>
+    <p class="MsoNormal">بنابراین نقطه $(x, k y)$ یک نقطه از نمودار تابع $g$ متناظر با نقطه $(x, y)$ از نمودار تابع $f$ است.</p>
+    
+<br><hr><br>
+
+<p class="MsoNormal">برای رسم نمودار تابع $y = k f(x)$، کافی است عرض نقاط نمودار تابع $y = f(x)$ را در $k$ ضرب کنیم. در شکل‌های زیر، نمودار تابع $y = k f(x)$ برای دو حالت $k > 1$ و $0 < k < 1$ رسم شده است.</p>
+
+
+
+<br><hr><br>
+
+
+<p class="MsoNormal">اگر $k > 1$ باشد، نمودار $y = k f(x)$ از انبساط عمودی نمودار $y = f(x)$ حاصل می‌شود و اگر $0 < k < 1$ باشد، نمودار $y = k f(x)$ از انقباض عمودی نمودار $y = f(x)$ به‌دست می‌آید.</p>
+
+
+<br><hr><br>
+
+
+
+
+<p class="MsoNormal">اگر عرض نقاط تابع $y = f(x)$ را قرینه کنیم، نقاط تابع $y = -f(x)$ به‌دست می‌آیند. بنابراین نمودار تابع $y = -f(x)$ قرینهٔ نمودار تابع $y = f(x)$ نسبت به محور $x$ است.</p>
+
+
+<br><hr><br>
+
+
+
+<p class="MsoStep">کار در کلاس</p>
+<p class="MsoNormal">۱. اگر دامنه و برد تابع $y = f(x)$ به ترتیب بازه‌های $[a, b]$ و $[c, d]$ باشند، دامنه و برد تابع $y = k f(x)$ را برای $k > 0$ و $k < 0$ تعیین کنید.</p>
+<br>
+<p class="MsoNormal">۲. نمودار توابع زیر را به کمک نمودار تابع $y = x^2$ رسم کنید.</p>
+<p class="MsoNormal">الف) $y = -x^2$</p>
+<p class="MsoNormal">ب) $y = 2x^2 - 1$</p>
+<p class="MsoNormal">پ) نمودار روبه‌رو از قرینه‌یابی و انتقال نمودار تابع $y = \ \big| \  x \ \big| \ $ به‌دست آمده است. ضابطه این تابع را مشخص کنید.</p>
+
+<br>
+
+
+<p class="MsoNormal">
+    3.
+    نمودار تابع $y = f(x)$ در زیر رسم شده است. با انجام مراحل زیر، نمودار تابع $y = -f(x - 1) + 2$ را رسم کنید.</p>
+
+
+    <br><hr><br>
+
+
+
+    <p class="MsoBold">انبساط و انقباض افقی</p>
+    <p class="MsoStep">فعالیت</p>
+    <p class="MsoNormal">در دستگاه زیر، نمودار تابع $y = \sin x$ در فاصله $[0, 2\pi]$ رسم شده است.</p>
+    <br>
+    <p class="MsoNormal">۱. با تکمیل جدول زیر، نقاطی از نمودار تابع $y = \sin 2x$ مشخص می‌شود. با کمک این جدول، نمودار این تابع را در فاصله $[0, \pi]$ رسم کنید.</p>
+
+    <br>
+
+
+    <table class="MsoNormal" style="margin:auto;width:fit-content;direction:ltr;text-align:center;">
+        <tr>
+            <th>$x$</th>
+            <td>$0$</td>
+            <td>$\dfrac{\pi}{4}$</td>
+            <td>$\dfrac{\pi}{2}$</td>
+            <td>$\dfrac{3\pi}{4}$</td>
+            <td>$\pi$</td>
+        </tr>
+        <tr>
+            <th>$y = \sin 2x$</th>
+            <td>$\cdots$</td>
+            <td>$\cdots$</td>
+            <td>$\cdots$</td>
+            <td>$\cdots$</td>
+            <td>$\cdots$</td>
+        </tr>
+    </table>
+    
+<br>
+    <p class="MsoNormal">
+        2.
+        با مقایسه نمودارهای توابع $y = \sin x$ و $y = \sin 2x$، چه تفاوتی بین آنها وجود دارد؟</p>
+    
+
+
+        <p class="MsoNormal">در حالت کلی اگر $(x, y)$ یک نقطه دلخواه از نمودار تابع $y = f(x)$ باشد و تابع $g$ به صورت $g(x) = f(kx)$ تعریف شده باشد، آنگاه:</p>
+        <p class="MsoNormal">
+        $$g\left(\dfrac{x_0}{k}\right) = f\left(k \dfrac{x_0}{k}\right) = f(x_0) = y_0$$
+        </p>
+        <p class="MsoNormal">بنابراین نقطه $\left(\dfrac{x_0}{k}, y_0\right)$ یک نقطه از نمودار تابع $g$ و متناظر با نقطه $(x_0, y_0)$ از نمودار تابع $f$ است.</p>
+        
+
+        <br><hr><br>
+
+
+
+        <p class="MsoNormal">برای رسم نمودار تابع $y = f(kx)$، کافی است طول نقاط نمودار تابع $y = f(x)$ را در $\dfrac{1}{k}$ ضرب کنیم.</p>
+
+
+        <br><hr><br>
+
+
+
+        <p class="MsoNormal">در شکل‌های زیر، نمودار تابع $y = f(kx)$ برای دو حالت $k > 1$ و $0 < k < 1$ رسم شده است.</p>
+
+
+        <br><hr><br>
+
+        <p class="MsoNormal">اگر $k > 1$ باشد، نمودار $y = f(kx)$ از انقباض افقی نمودار $y = f(x)$ در راستای محور $x$ها به‌دست می‌آید و اگر $0 < k < 1$ باشد، این نمودار از انبساط افقی نمودار $y = f(x)$ حاصل می‌شود.</p>
+
+
+
+        <br><hr><br>
+
+        <p class="MsoNormal">اگر طول نقاط تابع $y = f(x)$ را قرینه کنیم، نقاط تابع $y = f(-x)$ به‌دست می‌آیند. بنابراین نمودار تابع $y = f(-x)$ قرینهٔ نمودار تابع $y = f(x)$ نسبت به محور $y$ است.</p>
+
+
+
+        <br><hr><br>
+
+        <p class="MsoStep">کار در کلاس</p>
+        <p class="MsoNormal">۱. اگر دامنه و برد تابع $y = f(x)$ به ترتیب بازه‌های $[a, b]$ و $[c, d]$ باشند، دامنه و برد تابع $y = f(kx)$ را برای $k > 0$ و $k < 0$ تعیین کنید.</p>
+        
+
+<br>
+<p class="MsoNormal">۲. اگر نمودار تابع $y = f(x)$ به صورت مقابل باشد، نمودار توابع $y = f(3x)$ و $y = f\left(-\dfrac{x}{2}\right)$ را رسم کنید.</p>
+<br>
+<p class="MsoNormal">۳. نمودار توابع زیر را به کمک نمودار تابع $y = \cos x$ رسم کنید.</p>
+
+  <div class="MsoNormal" style="text-align: left;direction: ltr;">
+
+    <p class="MsoNormal">الف) $y = \cos 2x - 1$</p>
+    <p class="MsoNormal">ب) $y = 2 \cos\left(\dfrac{x}{3}\right)$</p>
+    
+
+  </div>
+
+
+  <br><hr><br>
+
+
+  <p class="MsoNormal"><b>مثال:</b> اگر نمودار تابع $f$ به صورت زیر باشد، نمودار تابع $g(x) = f(2x + 1)$ را به کمک آن رسم می‌کنیم.</p>
+
+  <br>
+
+
+<p class="MsoNormal">اگر $A = (x_0, y_0)$ یک نقطه از نمودار تابع $f$ 
+    باشد، آنگاه 
+    $A' = \left(\dfrac{x_0 - 1}{2}, y_0\right)$
+    نقطه متناظر آن روی نمودار تابع 
+    $g$
+     است، زیرا:
+    </p>
+
+     <p class="MsoNormal" style="font-size: smaller;">
+(برای یافتن طول نقطه $A'$، از معکوس تابع $y = 2x + 1$ استفاده می‌کنیم.)
+</p>
+
+<p class="MsoNormal">
+    \[
+    \begin{align*}
+    g\left(\dfrac{x_0 - 1}{2}\right) &= f\left(2\left(\dfrac{x_0 - 1}{2}\right) + 1\right) \\\\
+    &= f(x_0 - 1 + 1) \\\\
+    &= f(x_0) = y_0
+    \end{align*}
+    \]
+    </p>
+    
+
+    <br>
+
+
+    <p class="MsoNormal">بنابراین نقاط مشخص شده در نمودار $f$ را یک واحد به سمت چپ منتقل کرده و سپس طول آنها را بر $2$ تقسیم می‌کنیم تا نقاط متناظر از $g$ به دست آیند.</p>
+
+    <br>
+
+    <p class="MsoNormal">با توجه به اینکه $\dfrac{x_0 - 1}{2} = \dfrac{x_0}{2} - \  \dfrac{1}{2}$، آیا می‌توانید روشی دیگر برای رسم نمودار تابع $g$ پیشنهاد کنید؟</p>
+    <br>
+    <p class="MsoNormal">آیا می‌توان برای رسم نمودار تابع $g$، ابتدا نمودار تابع $y = f(2x)$ را رسم کرد و سپس آن را یک واحد به چپ منتقل کرد تا $g(x) = f(2x + 1)$ رسم شود؟ چرا؟</p>
+    
+
+    <br><hr><br>
+
+
+
+    <p class="MsoStep">تمرین</p>
+<p class="MsoNormal">۱. هر یک از توابع زیر، تبدیل یافته تابع $y = \sqrt{x}$ هستند. هر یک از آنها را به نمودارش نظیر کنید.</p>
+<br>
+
+  <div class="MsoNormal" style="text-align: left;direction: ltr;">
+
+    <p class="MsoNormal">الف) $y = \sqrt{2 + x}$</p>
+    <br>
+    <p class="MsoNormal">ب) $y = 2 + \sqrt{x}$</p>
+    <br>
+    <p class="MsoNormal">پ) $y = -2\sqrt{x}$</p>
+    <br>
+    <p class="MsoNormal">ت) $y = \sqrt{\dfrac{x}{2}}$</p>
+    <br>
+    <p class="MsoNormal">ث) $y = 2 + \sqrt{x - 2}$</p>
+    <br>
+    <p class="MsoNormal">ج) $y = \sqrt{-2x}$</p>
+    
+
+  </div>
+  
+  <br>
+  <br>
+
+  <p class="MsoNormal">۲. نمودار تابع $f$ در شکل زیر رسم شده است. نمودار هر یک از توابع زیر را رسم کنید.</p>
+
+  <br>
+
+  <div class="MsoNormal" style="text-align: left; direction: ltr;">
+
+    <p class="MsoNormal">الف) $y = f(-x)$</p>
+    <br>
+    <p class="MsoNormal">ب) $y = 2f(x-1)$</p>
+    <br>
+    <p class="MsoNormal">پ) $y = -f(x) + 2$</p>
+    <br>
+    <p class="MsoNormal">ت) $y = f(2x - 1)$</p>
+    <br>
+    <p class="MsoNormal">ث) $y = f(3 - x)$</p>
+  
+  </div>
+  
+  <br><br>
+
+  <p class="MsoNormal">
+    ۳) نمودار تابع $f$ در شکل زیر رسم شده است. نمودار توابع زیر را رسم کنید و آن‌ها را با نمودار $f$ مقایسه کنید.
+  </p>
+
+
+  <br><br>
+
+  <div class="MsoNormal" style="text-align: left;direction: ltr;">
+    <p class="MsoNormal">الف) $y = f(-x)$</p>
+    <br>
+    <p class="MsoNormal">ب) $y = -f(x)$</p>
+    <br>
+    <p class="MsoNormal">پ) $y = -f(-x)$</p>
+  </div>
+  
+  <br><br>
+
+  <p class="MsoNormal">
+    4.
+    نمودار تابع مقابل فقط از قرینه‌یابی و انتقال نمودار تابع $y = \sqrt{x}$ به‌دست آمده است. ضابطه این تابع را بنویسید.</p>
+
+
+    <br><br>
+
+
+
+    
+
+
+
+
+    <br><br><br><br><br><br><br><br><br><br>
+</body>
+
+
+</html>

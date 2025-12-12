@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal ,
+        ul.MsoNormal {
+            margin: 0in;
+           
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi , b{
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #badaff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .MsoPapDefault {
+           
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #722a85;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background-color: #1abbbbe1; /* Scrollbar thumb color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color: #05ffe2;
+        }
+    </style>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+ 
+</head>
+
+
+
+<body class="custom-scrollbar">
+
+
+
+    <p class="MsoStep">
+    ۴-۲ نیروی محرکۀ الکتریکی و مدارها
+    </p>
+        
+    <br>
+        <p class="MsoNormal">
+        برای بالا بردن آب از سطح زمین به یک تلمبۀ آب نیاز است تا آب را به ارتفاع معینی برساند. بدین ترتیب، آب انرژی پتانسیل گرانشی لازم برای جریان یافتن و انجام کار معینی را کسب می‌کند ( شکل ۲-۲۷ ) . برای اینکه بارهای الکتریکی را نیز از یک مقاومت الکتریکی عبور دهیم تا جریان ثابتی برقرار شود، لازم است بین دو سر مقاومت اختلاف پتانسیلی برقرار کنیم. این کار می‌تواند توسط وسیله‌هایی مانند باتری انجام شود. به چنین وسیله‌هایی که با انجام کار روی بار الکتریکی، جریان ثابتی از بارهای الکتریکی در یک مدار ایجاد می‌کند، منبع نیروی محرکۀ الکتریکی گفته می‌شود. منبع‌های نیروی محرکۀ الکتریکی (مانند باتری‌ها)، بارهای الکتریکی مثبت را در خلاف جهت میدان الکتریکی از پتانسیل پایین‌تر به پتانسیل بالاتر می‌برند و با افزایش انرژی پتانسیل آنها، جریان ثابتی را در مدار برقرار می‌کنند (شکل ۲-۲۸).
+        </p>
+        
+
+        <br>
+
+    <p class="MsoNormal">
+        انرژی لازم برای ایجاد اختلاف پتانسیل الکتریکی در یک منبع نیروی محرکۀ الکتریکی با سازوکارهای مختلفی به دست می‌آید. مثلاً باتری‌ها که در علوم هشتم با آنها آشنا شدید این انرژی را از طریق واکنش‌های شیمیایی که در آنها رخ می‌دهد مهیا می‌سازند. پیل‌های سوختی، سلول‌های خورشیدی، و مولدهای الکتریکی نمونه‌های دیگری از منبع‌های نیروی محرکۀ الکتریکی‌اند.
+        </p>
+        
+        <br>
+
+        <p class="MsoNormal">
+            مدار سادۀ الکتریکی شکل ۲-۲۹ را در نظر بگیرید. منبع نیروی محرکه هنگام عبور بار $ \Delta q $ از منبع کاری به اندازۀ $ \Delta W $ روی آن انجام می‌دهد تا آن را در مدار به حرکت درآورد. کاری که منبع نیروی محرکۀ الکتریکی روی واحد بار الکتریکی مثبت انجام می‌دهد تا آن را از پایانهٔ مثبت تا از پایانهٔ کمتر به پایانهٔ با
+            پتانسیل بیشتر ببرد، اصطلاحاً نیروی محرکۀ الکتریکی ( $ emf $ ) نامیده و با رابطۀ زیر تعریف می‌شود : 
+            </p>
+    
+
+        <br><hr><br>
+
+        <p class="MsoSemi" style="text-align: center;">
+            ( 5-2 )
+                $$ \mathcal{E} = \frac{\Delta W}{\Delta q} $$
+            </p>
+            
+        <br><hr><br>
+
+
+        <p class="MsoNormal">
+            یکای کمیت نیروی محرکهٔ الکتریکی همان یکای اختلاف پتانسیل الکتریکی، یعنی ولت ($V$) است ($1 \,V = 1 \,J / 1 \,C$). پس اگر نیروی محرکهٔ یک باتری مثلًا $1/5 \,V$ باشد، به این معناست که باتری روی هر کولن باری که از آن می‌گذرد $1/5 \,J$ کار انجام می‌دهد و به این ترتیب انرژی پتانسیل الکتریکی آن را $1/5 \,J$ افزایش می‌دهد.
+        </p>
+        
+        <br><hr><br>
+
+        <p class="MsoStep">فعّالیت ۲-۴</p>
+        <p class="MsoNormal">
+            به کمک یک باتری، سیم‌های رابط، لامپ کوچک، ولت‌سنج و کلید، مداری همانند شکل روبه‌رو درست کنید. قبل از بستن کلید عددی را که ولت‌سنج نشان می‌دهد بخوانید. سپس کلید را ببندید و دوباره عددی را که ولت‌سنج نشان می‌دهد بخوانید. در کدام حالت ولت‌سنج عدد بزرگ‌تری را نشان می‌دهد؟ چرا؟  
+            <br>
+            در ادامه با علت تفاوت این دو عدد آشنا خواهید شد.
+        </p>
+
+        <br><hr><br>
+
+
+        <p class="MsoNormal">
+            منبع‌های نیروی محرّکهٔ الکتریکی، یا آرمانی هستند و یا واقعی. اگر پایانه‌های منفی و مثبت یک منبع نیروی محرّکه را به ترتیب با 
+            $a$ 
+            و 
+            $b$ 
+            نمایش دهیم، اختلاف پتانسیل میان این دو پایانه برای یک منبع آرمانی برابر با نیروی محرّکهٔ الکتریکی 
+            $\mathcal{E}$ 
+            آن است:
+        </p>
+        
+        <br><hr><br>
+
+        <p class="MsoSemi" style="text-align: center;"> 
+            
+        ( 6-2 )
+        $$ V_b - V_a = \mathscr{E} $$
+        </p>
+
+        <br><hr><br>
+        <p class="MsoStep">فعالیت ۲-۵</p>
+        <p class="MsoNormal">
+            میدان الکتریکی درون باتری از پایانهٔ مثبت به سمت پایانهٔ منفی است. توضیح دهید چرا وقتی از پایانهٔ مثبت باتری به سمت پایانهٔ منفی آن می‌رویم، پتانسیل کاهش می‌یابد و بالعکس.
+        </p>
+        <br><hr><br>
+        
+        <p class="MsoNormal">
+            منبع آرمانی در واقعیت وجود ندارد و منبع‌های نیروی محرکهٔ الکتریکی همواره دارای مقاومتی داخلی ($r$) هستند؛ یعنی درون آنها مقاومتی در برابر حرکت بارها وجود دارد. بنابراین، وقتی جریان از این منابع بگذرد، اختلاف پتانسیل بین پایانه‌های آنها، برخلاف منابع آرمانی، متفاوت از نیروی محرکهٔ الکتریکی خواهد شد. شکل ۲-۳۰ نماد منبع نیروی محرکه را در مدارهای الکتریکی نشان می‌دهد.
+        </p>
+        
+
+    <br><hr><br>
+
+    <p class="MsoStep">
+        خوب است بدانید 
+    </p>
+    <p class="MsoSemi">
+        ماهی الکتریکی
+    </p>
+    <br>
+    <p class="MsoNormal">
+        ماهی‌های عظیم‌الجثّهٔ الکتریکی مانند تورپیدو در اقیانوس اطلس شمالی و ماهی <b>الکتروفوروس</b> در آمازون می‌توانند جریانی کافی برای کشتن یا بی‌حس کردن طعمه، یا حتی بی‌حس کردن یک انسان تولید کنند. مثلاً ماهی تورپیدو این کار را با یک تپ (پالس) $50$ آمپر و حدوداً $60$ ولت انجام می‌دهد. در زمان‌های دور، گاهی از ماهی‌های الکتریکی برای مقاصد درمانی استفاده می‌شد که این نخستین نوع شوک درمانی بود. ولتاژ این شوک ناشی از سلول‌های زیستی پولکی شکلی موسوم به الکتروپلاک است
+        که در واقع مانند یک باتری عمل می‌کنند. شکل، تصویر ماهی الکتریکی تورپیدو را نشان می‌دهد. در زیر بالچه‌های این ماهی، انبوهی از الکتروپلاک‌ها کنار هم قرار گرفته‌اند.
+    </p>
+    
+
+    <br><hr><br>
+
+
+    <p class="MsoStep">
+         خوب است بدانید
+    </p>        
+    <p class="MsoSemi">
+            آثار تخریبی الکتریسیته بر بدن انسان 
+    </p>
+    <br>
+    <p class="MsoNormal">
+        اگر بین دو نقطه از بدن ما اختلاف پتانسیلی برقرار شود، جریان الکتریکی از بدن می‌گذرد. مقدار این جریان، به مقاومت الکتریکی بدن بستگی دارد که عمدتاً ناشی از پوست است. هرچه پوست خشک‌تر باشد، مقاومت بیشتری دارد، ولی اگر پوست خیس یا مرطوب باشد، زخمی سر باز داشته باشد، و یا با کرمی پوشیده شده باشد، مقاومت کمتر می‌شود و مقدار خطرناکی از جریان می‌تواند از بدن شخص عبور کند. به همین ترتیب، اگر شخصی بر زمین خیس، یا در آب ایستاده باشد و بین نقطه‌ای از بدن او با منبع ولتاژ تماس خوبی برقرار شود، جریان نسبتاً زیادی از بدن وی عبور خواهد کرد. در این صورت، حتی اگر ولتاژ کم هم باشد، جریان می‌تواند آنقدر زیاد باشد که موجب مرگ شود. از سوی دیگر اگر مقاومت الکتریکی منطقه تماس زیاد باشد، و مثلاً شخص بر پایه‌های عایق ایستاده باشد، این خطر بسیار کم می‌شود.
+    </p>
+    <br>
+    <p class="MsoNormal">
+        دستگاه مرکزی اعصاب انسان در مقابل شوک‌های الکتریکی بسیار آسیب‌پذیر است. اگر جریانی که در یک شوک الکتریکی از مغز بگذرد بزرگ باشد، ممکن است به بیهوشی کامل بینجامد و حتی در برخی موارد، موجب فراموشی شود. به طوری که بیمار زمان‌های قبل از وقوع حادثه را نیز به یاد نمی‌آورد. معمولاً مرگ در اثر شوک الکتریکی به سبب ایست قلبی یا تنفسی روی می‌دهد. جدول بالا اثر برخی از جریان‌های الکتریکی بر بدن را نشان می‌دهد.
+    </p>
+    
+    <br>
+    
+    <table class="MsoNormal" style="margin:auto;width:fit-content;direction:rtl;text-align:center;">
+        <tr>
+            <td colspan="2">
+                اثر جریان‌های الکتریکی بر بدن
+            </td>
+        </tr>
+        <tr>
+            <th>
+                جریان
+            </th>
+            <th>
+                اثر
+            </th>
+        </tr>
+        <tr>
+            <td>کمتر از $۰/۰۰۰۱ \ A$</td>
+            <td>جریان حس نمی‌شود.</td>
+        </tr>
+        <tr>
+            <td>$۰/۰۰۱ \ A$</td>
+            <td>احساس سوزش یا گرما</td>
+        </tr>
+        <tr>
+            <td>$۰/۰۰۱ \ A$ تا $۰/۰۱۵ \ A$</td>
+            <td>انقباض غیرعادی عضله‌ها، احساس درد</td>
+        </tr>
+        <tr>
+            <td>$۰/۰۱۵ \ A$</td>
+            <td>از دست رفتن کنترل عضله‌ها</td>
+        </tr>
+        <tr>
+            <td>$۰/۰۷ \ A$</td>
+            <td>اگر از قلب بگذرد، سبب اختلال جدی می‌شود.</td>
+        </tr>
+        <tr>
+            <td>$۰/۱ \ A$ تا $۰/۵ \ A$</td>
+            <td>پرش عضلهٔ بطنی قلب</td>
+        </tr>
+        <tr>
+            <td>$۰/۵ \ A$ تا چند آمپر</td>
+            <td>ایست قلبی. اگر جریان سریع قطع شود، قلب مجدداً به‌کار می‌افتد.</td>
+        </tr>
+        <tr>
+            <td>بیشتر از چند آمپر</td>
+            <td>ایست قلبی، قطع تنفس، سوختگی.</td>
+        </tr>
+    </table>
+    
+
+    <br><hr><br>
+
+    <p class="MsoNormal">
+        <b>مدار تک‌حلقه‌ای و افت پتانسیل در مقاومت :</b> 
+        مدار سادهٔ تک‌حلقه‌ای شکل ۲-۳۱ را در نظر بگیرید. این مدار شامل باتری آرمانی $B$ با نیروی محرکهٔ $\mathcal{E}$، مقاومت $R$، و دو سیم رابط است. فرض کنید می‌خواهیم از نقطهٔ دلخواهی شروع کنیم و مدار را به‌طور ذهنی در یک جهت دور بزنیم و هرجا با اختلاف پتانسیل‌ها مواجه شدیم، آنها را به‌طور جبری جمع کنیم. اگر از نقطهٔ $a$ به‌طور ساعتگرد شروع کنیم، نخست با باتری $B$ مواجه می‌شویم. همان‌طور که دیدیم با حرکت از پایانهٔ منفی باتری به سمت پایانهٔ مثبت آن، پتانسیل الکتریکی به اندازهٔ $ + \ \mathcal{E}$ افزایش می‌یابد. وقتی در طول سیم بالایی
+        حرکت می‌کنیم، هیچ تغییر پتانسیلی وجود ندارد؛ زیرا در بستن مدارها فرض کرده‌ایم از سیم‌های رابط با مقاومت ناچیز استفاده شده است. 
+    </p>
+
+    <br>
+        
+        <p class="MsoNormal">
+            وقتی از مقاومت می‌گذریم، پتانسیل طبق رابطهٔ $\Delta V = IR$ تغییر می‌کند، ولی توجه کنید پتانسیل باید کاهش یابد؛ زیرا ما از طرف پتانسیل بالاتر به سمت پتانسیل پایین‌تر حرکت کرده‌ایم (شکل $۲-۳۳$). بنابراین، در شکل ما تغییر پتانسیل هنگام عبور از مقاومت برابر با $-IR$ است؛ یعنی اصطلاحاً در مقاومت افت پتانسیلی رخ می‌دهد. اگر با حرکت در طول سیم پایینی به نقطهٔ $a$ باز گردیم چون مقاومت این سیم نیز ناچیز فرض شده است باز تغییر پتانسیل نخواهیم داشت. با بازگشت به نقطهٔ $a$، پتانسیل دوباره برابر با پتانسیل نقطهٔ $a$ می‌شود؛ یعنی می‌توان نوشت :
+        </p>
+
+        <p class="MsoNormal">
+        $$  V_a + \mathcal{E} - IR = V_a $$
+        </p>
+                
+                
+        <p class="MsoNormal">
+            و با حذف $V_a$ از دو طرف معادلهٔ بالا به رابطهٔ زیر می‌رسیم :
+
+        </p>
+
+        <p class="MsoNormal">
+            $$   \mathcal{E} - IR = 0  $$
+        </p>
+
+
+
+
+        <p class="MsoNormal">
+            این رابطه نشان می‌دهد که جمع جبری اختلاف پتانسیل‌ها در مدار ما برابر با صفر است.
+            <br>
+            توجه کنید که اگر حلقه را در خلاف جهت نشان داده شده در شکل دور می‌زدیم، به رابطهٔ 
+            $- \mathcal{E} + IR = 0$ 
+            می‌رسیدیم که همان رابطهٔ بالاست. در حالت کلی جمع جبری اختلاف پتانسیل‌ها در هر حلقه صفر است. به این قاعده، قاعدهٔ حلقه می‌گویند. قاعدهٔ حلقه یا قانون ولتازها بیان می‌دارد :
+            </p>
+            
+            
+            <br>
+
+
+            <p class="MsoNormal">
+                <strong>                در هر دورزدن کامل حلقه‌ای از مدار، جمع جبری اختلاف پتانسیل‌های اجزای مدار صفر است. 
+                </strong>
+            </p>
+
+            <br>
+            <p class="MsoNormal">
+                نشان داده می‌شود که قاعدهٔ حلقه چیزی جز پایستگی انرژی نیست (تمرین ۲-۴ را ببینید). 
+            </p>
+
+
+            <p class="MsoNormal">
+
+                اکنون اگر باتری آرمانی مدار شکل ۲-۳۱ را با یک باتری واقعی که مقاومت داخلی $r$ دارد جایگزین کنیم (شکل ۲-۳۳)، با به کاربستن قاعدهٔ حلقه به رابطهٔ زیر می‌رسیم :
+                </p>
+                
+        <p class="MsoNormal">
+            $$ V_a  +  \mathcal{E} - Ir = 0  $$
+        </p>
+
+        <p class="MsoNormal">
+            و یا :
+        </p>
+
+        <br><hr><br>
+        <p class="MsoSemi" style="text-align: center;">
+            ( 7-2 )
+            $$ V_a  + V_b  =  \mathcal{E} - Ir   $$
+        </p>
+        <br><hr><br>
+
+
+        <p class="MsoNormal">
+            در حلّ مسئله‌های مدار تک‌حلقه‌ای همواره دو دستورالعمل سادهٔ زیر را به کار می‌بندیم : 
+            </p>
+            
+
+        <p class="MsoNormal">
+            ۱- هرگاه در مدار در جهت جریان از مقاومت مثلاً $R$ بگذریم، پتانسیل به اندازهٔ $IR$ کاهش می‌یابد و اگر در خلاف جهت جریان حرکت کنیم، پتانسیل به همان اندازه افزایش می‌یابد.
+        </p>
+
+        <br>
+
+
+        <p class="MsoNormal">
+            ۲- هرگاه از پایانهٔ منفی به طرف پایانهٔ مثبت یک منبع نیروی محرّکه حرکت کنیم، پتانسیل به اندازهٔ $ \mathcal{E} $ افزایش می‌یابد و اگر در خلاف این جهت (یعنی از پایانهٔ مثبت به طرف پایانهٔ منفی) حرکت کنیم پتانسیل به اندازهٔ $ \mathcal{E} $ کاهش می‌یابد. در جدول ۲-۴ این دستورالعمل ها خلاصه شده‌اند.
+            </p>
+            
+            <br>
+
+<div class="custom-scrollbar" style="overflow-y: hidden; overflow-x:auto;direction:ltr;">
+
+    <table class="MsoNormal" style="margin:auto;width:fit-content;direction:rtl;text-align:center;">
+        <tr>
+            <td colspan="3">
+                جدول ۲-۴ جدول قرارداد تعیین علامت اختلاف پتانسیل‌ها در یک مدار تک حلقه‌ای، شامل مقاومت و منبع نیروی محرّکهٔ الکتریکی
+
+
+            </td>
+        </tr>
+        <tr>
+            <th>عنصر مدار</th>
+            <th>جهت حرکت</th>
+            <th>تغییر پتانسیل</th>
+        </tr>
+        <tr>
+            <td>مقاومت</td>
+            <td>در جهت جریان</td>
+            <td>$-IR$</td>
+        </tr>
+        <tr>
+            <td>مقاومت</td>
+            <td>در خلاف جهت جریان</td>
+            <td>$+IR$</td>
+        </tr>
+        <tr>
+            <td>منبع نیروی محرّکه</td>
+            <td>از پایانهٔ منفی به پایانهٔ مثبت</td>
+            <td>$+\mathcal{E}$</td>
+        </tr>
+        <tr>
+            <td>منبع نیروی محرّکه</td>
+            <td>از پایانهٔ مثبت به پایانهٔ منفی</td>
+            <td>$-\mathcal{E}$</td>
+        </tr>
+        </table>
+
+        <br>
+</div>
+                
+
+<br><hr><br>
+
+
+    <p class="MsoStep">مثال ۲-۶</p>
+    <p class="MsoNormal">
+    در مدار شکل ۲-۳۳ فرض کنید 
+    $ \mathcal{E} = ۱۲ \  V $
+     و 
+     $ r = ۲/۰ \ \Omega $
+     و 
+     $ R = ۴/۰ \ \Omega $
+       باشد. 
+    </p>
+
+<ul class="MsoNormal">
+
+    <p>
+        الف) جریان عبوری از مدار چقدر است؟ 
+    </p>
+    <p>
+        ب) اختلاف پتانسیل دو سر باتری را محاسبه کنید. 
+    
+    </p>    
+
+
+</ul>
+
+<br>
+
+<p class="MsoSemi">
+    پاسخ: 
+</p>
+ <br>
+<p class="MsoNormal">
+    الف)
+    اگر مدار را در جهت جریان نشان داده شده دور بزنیم، بر اساس آنچه گفته شد، در یک حلقهٔ کامل با استفاده از قاعدهٔ حلقه داریم:
+</p>
+
+<p class="MsoNormal">
+    و در نتیجه :
+</p>
+
+<p class="MsoNormal">
+    $$ 
+    \mathcal{E} - Ir - IR = 0
+    $$
+</p>
+
+    <p class="MsoNormal">
+        $$
+        \begin{align*}
+        I &= \dfrac{\mathcal{E}}{R + r} \\\\
+        &= \dfrac{۱۲ \,V}{۴/۰ \,\Omega + ۲/۰ \,\Omega} \\\\
+        &= ۲/۰ \,A
+        \end{align*}
+        $$
+    </p>
+
+    <br>
+
+    <p class="MsoNormal">
+        ب) با استفاده از رابطه ۲-۷ اختلاف پتانسیل دو سر باتری برابر است با :
+        </p>
+    
+
+    <p class="MsoNormal">
+        $$
+        \begin{align*}
+        V_b - V_a &= \mathcal{E} - Ir \\\\
+        &= ۱۲ \,V - (۲/۰ \,A)(۲/۰ \,\Omega) \\\\
+        &= ۸ \,V
+        \end{align*}
+        $$
+        </p>
+
+        <br><hr><br>
+
+    <p class="MsoStep">تمرین ۲-۳</p>
+    <p class="MsoNormal">
+    مثال بالا را با حرکت در خلاف جهت جریان نشان داده شده، حل و نتیجه را با پاسخ مثال مقایسه کنید.
+    </p>
+
+    <br><hr><br>
+
+
+    <p class="MsoStep">مثال ۲-۷</p>
+    <p class="MsoNormal">
+    مدار شکل روبه‌رو را در نظر بگیرید. مقادیر نیروهای محرکهٔ الکتریکی و مقاومت‌های مدار عبارت‌اند از:
+    </p>
+
+    <br>
+
+<p class="MsoNormal" style="text-align: left;">
+    $ \mathcal{E}_1 = 8/0 \,V $ <br>
+    $ \mathcal{E}_2 = 2/0\,V $ <br>
+    $ r_1 = 2/0 \,\Omega $ <br>
+    $ r_2 =1/5 \,\Omega $ <br>
+    $ R = 8/5 \,\Omega $
+</p>
+
+<ul class="MsoNormal">
+    <p>
+        الف) جهت جریان عبوری از مدار و مقدار آن را تعیین کنید.  
+    </p>
+    <p></p>
+        ب) اختلاف پتانسیل دو سر باتری‌های ۱ و ۲ را محاسبه کنید.
+        </p>
+</ul>
+
+<br>
+
+<p class="MsoSemi">
+    پاسخ :  
+</p>
+<p class="MsoNormal">
+    الف)
+     با استفاده از دستورالعمل‌های حل مدارهای تک حلقه‌ای، مسئله را حل می‌کنیم. گرچه لازم نیست که جهت جریان $I$ را بدانیم، ولی می‌توانیم آن را با مقایسهٔ نیروهای محرّکهٔ الکتریکی دو باتری تعیین کنیم. چون $\mathcal{E}_1 > \mathcal{E}_2$ است جهت جریان را باتری ۱ تعیین می‌کند. بنابراین، جهت جریان، ساعتگرد است. در نتیجه با حرکت پادساعتگرد از نقطه $a$ داریم:
+    </p>
+    
+
+    <p class="MsoNormal">
+        $$
+        \begin{align*}
+        V_a - \mathcal{E}_1 + I r_1 + I R + I r_2 + \mathcal{E}_2 = V_a
+        \end{align*}
+        $$
+        </p>
+        
+    <p class="MsoNormal">
+        و از آنجا :
+    </p>
+
+    <p class="MsoNormal">
+        $$
+        \begin{align*}
+        I &= \dfrac{\mathcal{E}_1 - \mathcal{E}_2}{r_1 + R + r_2} \\\\
+        &= \dfrac{۴/۰ \,V - ۲/۰ \,V}{۲/۰ \,\Omega + ۸/۵ \,\Omega + ۱/۵ \,\Omega} \\\\
+        &= ۰/۵۰ \,A
+        \end{align*}
+        $$
+        </p>
+
+        <br>
+
+        <p class="MsoNormal">
+            ب) اختلاف پتانسیل بین دو سر باتری $1$ را با حرکت از نقطه $b$ به سمت نقطه a به‌دست می‌آوریم :
+            </p>
+        
+        <p class="MsoNormal">
+        $$
+        V_b - I r_1 + \mathcal{E}_1 = V_a
+        $$
+        </p>
+
+        <p class="MsoNormal">در نتیجه
+
+            :
+        </p>
+
+        <p class="MsoNormal">
+            $$
+            \begin{align*}
+            V_a - V_b &= \mathcal{E}_1 - I r_1 \\\\
+            &= ۸/۰ \,V - (۰/۵۰ \,A)(۲/۰ \,\Omega) \\\\
+            &= ۷/۰ \,V
+            \end{align*}
+            $$
+            </p>
+
+
+            <br>
+            
+            <p class="MsoNormal">
+                که این نتیجه را می‌توانستیم به‌طور مستقیم از رابطه
+                ۲-۷
+                 نیز به‌دست آوریم. اما در مورد باتری $۲$ که در آن جهت جریان از قطب مثبت وارد و از قطب منفی خارج می‌شود، نمی‌توانیم از این رابطه استفاده کنیم.
+                </p>
+                
+            
+    <br>
+
+
+    <p class="MsoNormal">
+        برای محاسبهٔ اختلاف پتانسیل دو سر باتری $۲$ حتماً باید مسئله را از نو حل کرد. به این منظور، از نقطهٔ $c$ به سمت نقطهٔ $a$ حرکت می‌کنیم:
+        </p>
+                    
+
+    <p class="MsoNormal">
+        $$
+        V_c + I r_2 + \mathcal{E}_2 = V_a
+        $$
+        </p>
+
+
+        <p class="MsoNormal">و در نتیجه:</p>
+
+        <p class="MsoNormal">
+            $$
+            \begin{align*}
+            V_a - V_c &= \mathcal{E}_2 + I r_2 \\\\
+            &= ۲/۰ \,V + (۰/۵ \,A)(۱/۵ \,\Omega) \\\\
+            &= ۲/۸ \,V
+            \end{align*}
+            $$
+            </p>
+            
+        <br><hr><br>
+
+            <p class="MsoStep">فعّالیت ۲-۶ (کار در کلاس)</p>
+        <p class="MsoNormal">
+        تفاوت یک باتری نو و فرسوده عمدتاً در مقدار مقاومت داخلی آن است که می‌تواند کمتر از یک اهم 
+       برای باتری نو تا چند هزار اهم برای باتری فرسوده باشد. برای اندازه‌گیری مقاومت داخلی یک باتری، مدار ساده‌ای متشکل از یک باتری، یک کلید قطع و وصل، و یک مقاومت یا لامپ کوچک را سوار کنید. نخست درحالی که کلید
+            قطع است، ولتاژ دو سر باتری را با یک ولت‌سنج اندازه بگیرید و آن گاه پس از بستن کلید، دوباره ولتاژ دو سر باتری را اندازه بگیرید. همچنین در این حالت، جریان عبوری از مدار را باید به کمک یک آمپرسنج اندازه بگیرید. اکنون با استفاده از رابطه ۲_۷ مقاومت داخلی باتری را محاسبه کنید (البته در یک اندازه‌گیری دقیق‌تر معمولاً از یک مقاومت متغیر استفاده می‌شود و مقاومت داخلی پس از چندین اندازه‌گیری محاسبه می‌شود). آزمایش را یک بار برای باتری نو و یک بار برای باتری فرسوده انجام دهید.
+            </p>
+            
+
+
+
+
+
+            
+    <br><br><br><br><br><br><br><br><br><br>
+</body>
+
+
+</html>

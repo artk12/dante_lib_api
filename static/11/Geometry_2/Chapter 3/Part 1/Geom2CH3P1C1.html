@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi {
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSemic,
+        li.MsoSemic,
+        div.MsoSemic {
+            margin: 0in;
+           
+            font-size: clamp(1.2rem, 1.6vw, 1.3rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #b19af2;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #6ca4ec;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .boxp {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .boxg {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#00f2ff11; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        .boxb {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#0c4e9f2d; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        ::selection {
+            background-color: #59078fa1; /* Change this to your desired highlight color */
+            color: #ffffff; /* Change this to your desired text color */
+          }
+
+
+          mark{
+            background-color:#078b8fa1 ;
+            color: #ffffff;
+            padding: 0 7px;
+        }
+
+        .hlg { background-color: rgba(0, 234, 255, 0.334);  }
+        .hlp { background-color:#5f1487; }
+      
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+    <body class="custom-scrollbar">
+
+
+
+<p class="MsoBold">
+    فصل سوم:
+    <br>
+    روابط طولی در مثلث
+</p>
+
+
+    <p class="MsoNormal">
+        محاسبهٔ فاصله‌های غیرقابل دسترس یکی از مهم‌ترین کاربردهای روابط طولی در هندسه است. از جملهٔ آنها محاسبهٔ ارتفاع کوه‌های بلند است. رشته‌کوه اشترانکوه که ارتفاع آن در برخی نقاط به بیش از ۴۰۰۰ متر می‌رسد در استان لرستان واقع است.
+    </p>
+    <p class="MsoNormal">
+        تئودولیت (زاویه‌یاب) یکی از ابزارهای لازم برای اینگونه محاسبات عملی است.
+    </p>
+
+
+<br><hr>
+
+<div class="MsoBold">
+    درس اول:
+    <br>
+    
+    قضیهٔ سینوس‌ها</div>
+
+<div class="MsoSemi" style="font-size: larger;">یادآوری</div>
+<p class="MsoNormal">
+    منظور از روابط طولی، رابطه‌هایی است که در مورد اندازه‌های پاره‌خط‌ها و زاویه‌ها در شکل‌های مختلف، بحث می‌کند. در سال گذشته روابط طولی زیر را در مثلث قائم‌الزاویه دیدیم:
+</p>
+<br>
+
+<p class="MsoNormal">۱. $AB' = BC \cdot BH$</p>
+<p class="MsoNormal">۲. $AC' = BC \cdot CH$</p>
+<p class="MsoNormal">۳. $AH' = BH \cdot CH$</p>
+<p class="MsoNormal">۴. $AB' + AC' = BC'$</p>
+<p class="MsoNormal">۵. $AB \cdot AC = BC \cdot AH$</p>
+<br>
+<p class="MsoNormal">اینک به ادامه بحث در مثلث‌های دلخواه می‌پردازیم.</p>
+<br><hr><br>
+
+
+<div class="MsoStep">فعالیت
+    1
+</div>
+<p class="MsoNormal">
+    در کتاب ریاضی (پایه دهم) با تعریف نسبت‌های مثلثاتی در مثلث قائم‌الزاویه آشنا شدید. با توجه به تعریف سینوس زاویه در مثلث قائم‌الزاویه $ABC$، جاهای خالی را پر کنید:
+</p>
+<br>
+
+<div class="MsoNormal" style="text-align: left;">
+
+    $\sin B = \dfrac{\cdots}{\cdots} \Rightarrow \dfrac{b}{\sin B} = \cdots$
+    <br><br>
+    $\sin C = \dfrac{\cdots}{\cdots} \Rightarrow \dfrac{c}{\sin C} = \cdots$
+    <br><br>
+    $\sin A = \sin 90^0 = \cdots \Rightarrow \dfrac{a}{\sin A} = \cdots$
+        
+        
+</div>
+<br>
+
+<p class="MsoNormal">بنابراین داریم:</p>
+
+<div class="boxg">
+ 
+    <p class="MsoNormal">
+        در هر مثلث قائم‌الزاویه، نسبت اندازه هر $ \ \  . . . . . . \ \ $ به $ \ \  . . . . . . \ \ $ برابر است با اندازه $ \ \  . . . . . . \ \ $ 
+    </p>
+</div>
+
+
+<br><hr><br>
+
+
+<div class="MsoStep">فعالیت ۲</div>
+<p class="MsoNormal">
+    در کتاب هندسه ۱ دیدیم که عمودمنصف‌های اضلاع هر مثلث در یک نقطه هم‌رس‌اند، و در این کتاب دیدیم که این نقطه، مرکز دایرهٔ محیطی مثلث است. دایرهٔ محیطی مثلث قائم‌الزاویه $ABC$ را رسم می‌کنیم. مرکز این دایره، کجاست و چرا قطر آن با وتر مثلث برابر است؟
+</p>
+<br>
+
+
+
+<p class="MsoNormal">با توجه به نتیجهٔ فعالیت (۱) می‌توانیم بگوییم:</p>
+
+<div class="boxg">
+ 
+    <p class="MsoNormal">
+        در هر مثلث قائم‌الزاویه، نسبت اندازه هر ضلع به سینوس زاویهٔ روبه‌رو به آن ضلع برابر است با اندازهٔ ... دایرهٔ محیطی مثلث.
+    </p>
+</div>
+
+<br>
+<p class="MsoNormal">
+    
+    اکنون نشان می دهیم این نتیجه گیری برای هر مثلث دلخواه نیز درست است.
+</p>
+
+
+<br><hr><br>
+
+
+
+
+<div class="MsoStep">فعالیت ۳</div>
+<p class="MsoNormal">
+    (الف) مثلث $ABC$ با زاویه‌های حاده، $A$ و $B$ و $C$ و دایرهٔ محیطی آن به مرکز $O$ (که درون مثلث است) را در نظر می‌گیریم. خط $BD$ را رسم و $D$ را به $A$ وصل می‌کنیم:
+</p>
+<br>
+<p class="MsoNormal">۱- زاویه‌های $\angle C$ و $\angle D$ چرا با هم برابرند؟</p>
+<br>
+<p class="MsoNormal">۲- چرا مثلث $ABD$ در رأس $A$ قائم‌الزاویه است؟</p>
+<br>
+<p class="MsoNormal">۳- با توجه به دو قسمت قبل، داریم:</p>
+<br>
+
+
+<p class="MsoNormal" style="text-align: left;">
+    $
+
+    \begin{align*} 
+    & \quad \ \ \sin C = \sin D \quad \text{و} \quad  \sin D =  \dfrac{\cdots}{\cdots}    \\ \\
+    & \Rightarrow \sin C = \dfrac{\cdots}{2R}  \\ \\
+    & \Rightarrow \frac{C}{\sin C} = 2R  \\ \\
+
+
+
+    \end{align*}
+    $
+
+</p>
+
+<br>
+
+
+
+<p class="MsoNormal">۴- به‌طور مشابه (با وصل کردن $A$ و $C$ به مرکز و رسم قطرهای گذرنده از آن نقاط) خواهیم داشت:</p>
+<p class="MsoNormal">$$\frac{a}{\sin A} = \cdots \quad و \quad \frac{b}{\sin B} = \cdots$$</p>
+<br>
+
+<p class="MsoNormal">
+    (ب) حال فرض می‌کنیم یکی از زاویه‌های مثلث، مثلاً $\hat{A}$، منفرجه باشد $(\hat{A} > 90^0)$، در این صورت $O$، مرکز دایرهٔ محیطی مثلث، بیرون مثلث است و نقطهٔ $A'$ را روی کمان $BC$ طوری در نظر می‌گیریم که $O$ درون مثلث $A'BC$ بیفتد (یعنی مثلث $A'BC$ حاده‌الزاوایا باشد).
+</p>
+<br>
+<p class="MsoNormal">۱- زاویه‌های $\hat{A}$ (از مثلث $ABC$) و $\hat{A'}$ نسبت به هم چگونه‌اند؟ چرا؟</p>
+<br>
+<p class="MsoNormal">
+    $ \hat{A} + \hat{A'} = 180^0 $
+    بنابراین با توجه به آنچه از مثلثات می‌دانیم، نتیجه می‌شود: $$\sin A = \sin ( \ \ \cdots \ \  - \hat{A'}) = \cdots $$
+</p>
+<br>
+<p class="MsoNormal">و در مثلث $A'BC$ مطابق نتیجهٔ قسمت (الف) می‌توانیم بنویسیم:</p><br>
+
+<p class="MsoNormal">$$\frac{a}{\sin A'} = \cdots \ \ \Rightarrow \ \ \frac{a}{\sin A} = \cdots$$</p>
+
+
+
+<br><br>
+
+
+        <p class="MsoNormal">۲. قطر $CD$ را رسم می‌کنیم٬ چرا مثلث $ADC$ در رأس $A$ قائم‌الزاویه است؟ زاویه $\hat{D}$ در این مثلث، با کدام زاویه از مثلث $ABC$ برابر است؟ چرا؟</p>
+        <br><br>
+        <p class="MsoNormal">۳. با توجه به تعریف نسبت‌های مثلثاتی در مثلث قائم‌الزاویه $ADC$ می‌توان نوشت:</p>
+       
+        <p class="MsoNormal">$$\sin D = \dfrac{\cdots}{\cdots} = \dfrac{b}{\cdots} \ \ \Rightarrow \ \ \sin B = \dfrac{b}{2R}$$</p>
+        <br>
+        <p class="MsoNormal">و به‌طریق مشابه (با رسم قطر گذرنده از $B$) می‌توان ثابت کرد:</p>
+        <p class="MsoNormal">$$\sin C = \frac{c}{2R}$$</p>
+        <br>
+        <div class="boxp">
+            <p class="MsoSemi"><mark>نتیجه</mark></p>
+            <p class="MsoNormal">
+                در هر مثلث دلخواه، نسبت اندازه هر $ \ \ . . . . . \ \ $ به $ \ \ . . . . . \ \ $ زاویهٔ روبه‌رو به آن برابر است با $ \ \ . . . . . \ \ $
+            </p>
+        </div>
+        
+        <br>
+        <div class="boxb">
+            <p class="MsoSemi"><mark>قضیهٔ سینوس‌ها:</mark></p>
+            <p class="MsoNormal">
+                در مثلث $ABC$ با اضلاع $BC = a$، $AC = b$، و $AB = c$ داریم:
+            </p>
+            
+            <p class="MsoNormal" style="text-align: center;">
+                $\dfrac{a}{\sin A} = \dfrac{b}{\sin B} = \dfrac{c}{\sin C} = 2R$
+            </p>
+            
+            <br>
+            <p class="MsoNormal">که $R$ شعاع دایره محیطی مثلث است.</p>
+        </div>
+        <br>
+        <p class="MsoSemi" style="font-size:larger">مثال ۱:</p>
+        <p class="MsoNormal">
+            در مثلث $BC = 10cm$، $ABC \, \text{cm}$ و $\hat{A} = 120^0$ و $AC = \dfrac{10 \sqrt{6}}{3}$ مقدار شعاع دایرهٔ محیطی مثلث و اندازه زاویه‌های $\hat{B}$ و $\hat{C}$ را به‌دست آورید.
+        </p>
+        <br>
+        <p class="MsoSemi">حل:</p>
+        <p class="MsoNormal">
+            به کمک قضیهٔ سینوس‌ها می‌توان نوشت:
+        </p>
+
+<br>
+        <p class="MsoNormal">
+
+        $$
+           
+        \begin{align*}
+
+        \quad  &   \dfrac{a}{ \sin A} = 2R \\ \\
+            \Rightarrow  \ \ & \dfrac{10}{ \sin 120^0} = 2R \\ \\ \\ \\
+
+            & \sin{120^0} = \sin \ \ ( 180^0 - 60^0 ) \\ \\
+     =  \ \ & \sin 60^0 = \dfrac{\sqrt{3}}{2} \\ \\
+
+     \Rightarrow  \ \ &  2R = \dfrac{10}{\dfrac{\sqrt{3}}{2}}   \\ \\
+
+     \Rightarrow  \ \ &  R = \dfrac{10 \sqrt{3}}{3}  \\ \\ \\ \\
+
+
+
+
+     \quad  &  \dfrac{a}{ \sin A} =  \dfrac{b}{ \sin B} = 2R \\ \\
+
+     \Rightarrow  \ \ & \dfrac{\dfrac{10 \sqrt{6}}{3}}{ \sin B} =  \dfrac{20 \sqrt{3}}{3} \\ \\
+
+     \Rightarrow  \ \ & \sin B = \dfrac{10 \sqrt{6}}{20 \sqrt{3}} = \dfrac{\sqrt{2}}{2} \\ \\
+
+     \Rightarrow  \ \ & B = 45^0 \ \ \text{یا} \ \ 135^0 \ \ \text{و} \ \ \hat{A} = 120^0 \\ \\
+     \Rightarrow  \ \ & \hat{B} = 45^0 \Rightarrow \hat{C} = 15^0
+  
+        \end{align*}
+
+        $$
+        </p>
+
+
+
+   
+
+
+        <br><br>
+        <p class="MsoSemi" style="font-size:larger;">مثال ۲:</p>
+        <p class="MsoNormal">
+            از یک بلوار افقی، یک خیابان فرعی با زاویهٔ $60^0$ جدا شده است. اکنون شهرداری منطقه می‌خواهد یک خیابان فرعی دیگر به طول $800$ متر بنا کند تا با زاویهٔ $45^0$ از خیابان فرعی اول جدا شده و به بلوار منتهی شود. این خیابان از چه فاصله‌ای از رأس زاویهٔ $60^0$ باید شروع شود و با بلوار چه زاویه‌ای می‌سازد؟
+        </p>
+
+<br><br>
+
+<p class="MsoSemi">حل:</p>
+<p class="MsoNormal">
+    با یک شکل مناسب مسئله را مدل‌سازی می‌کنیم. اولاً، با توجه به مجموع اندازه‌های زاویه‌های داخلی مثلث، روشن است که $\hat{B} =  180^0 - (45^0 + 60^0) = 75^0$؛ یعنی خیابان فرعی باید با زاویهٔ $75^0$ از بلوار جدا شود. ثانیاً، به کمک قضیهٔ سینوس‌ها در مثلث $ABC$ داریم:
+</p>
+<p class="MsoNormal">
+    $$
+    \begin{align*}
+    
+    \quad  & \dfrac{AB}{\sin C} = \dfrac{BC}{\sin A}  \\ \\
+    \Rightarrow  \ \ & \dfrac{800}{\sin 60^0}  = \dfrac{BC}{ \sin 45^0} \\ \\
+    \Rightarrow  \ \ & BC = \dfrac{800 \times \dfrac{\sqrt{2}}{2}}{\dfrac{\sqrt{3}}{2}}  \\ \\
+     
+    \Rightarrow  \ \ & \dfrac{800 \sqrt{2}}{\sqrt{3}} =  \dfrac{800 \sqrt{6}}{3} \\ \\
+    \approx  \ \ & 653.2 \ \ m
+    \end{align*}
+$$
+</p>
+<br>
+<p class="MsoNormal">
+    یعنی خیابان غربی را باید از فاصلهٔ تقریبی $653.2 \ \ m $ از زاویه $75^0$ جدا کنیم.
+</p>
+
+
+
+<br><hr><br>
+
+
+
+
+
+<div class="MsoStep">کار در کلاس</div>
+<p class="MsoNormal">
+    می‌خواهیم روی یک رودخانهٔ عمیق بین دو نقطهٔ $A$ و $B$ در دو طرف رودخانه، پلی بنا کنیم. برای محاسبات مربوط، به احداث پل، باید فاصله ابتدا و انتهای آن (یعنی طول $AB$) را به‌دست بیاوریم؛ اما امکان اندازه‌گیری مستقیم (بدلیل وجود رودخانه) وجود ندارد. برای این کار از نقطهٔ $A$ در جهتی حرکت می‌کنیم تا با عبور از قسمت کم‌عمق رودخانه $(DE)$ به نقطهٔ $C$ برسیم و طول $BC$ را اندازه‌گیری می‌کنیم؛ سپس با زاویه‌یاب (تئودولیت) زاویه دیدیم $\hat{B}$ و زاویه $\hat{C}$ را اندازه می‌گیریم. بصورت زیر نشان دهید با داشتن طول و زاویه می‌توان فاصله $AB$ را به‌دست آورد:
+</p>
+<p class="MsoNormal">
+    
+    
+    $$
+    
+    \begin{align*}
+
+
+    \quad  & \dfrac{BC}{\sin A} = \dfrac{AB}{\cdots} \\ \\
+    \Rightarrow  \ \ & \dfrac{BC}{ \sin ( 180^0 - ( \cdots + \cdots ) ) } = \dfrac{AB}{ \cdots } \\ \\
+    \Rightarrow  \ \ & AB = \dfrac{ \cdots \times \cdots }{ \sin ( \cdots )}
+    
+
+
+    \end{align*}
+    
+    $$</p>
+<br><br>
+<p class="MsoNormal">
+    اگر $BC = 3 \, \text{km}$ و $\hat{C} = 60^0$ و $\hat{B} = 70^0$ به کمک ماشین حساب طول $AB$ را به‌دست آورید.
+</p>
+<br><hr><br>
+
+<div class="MsoStep">تمرین</div>
+<p class="MsoNormal">۱. ثابت کنید در هر مثلث قائم‌الزاویه $( \hat{A} = 90^0 )$ $ABC$ با ارتفاع $AH = h_a$ داریم:</p>
+<p class="MsoNormal">$$\dfrac{1}{h^2{_a}} = \dfrac{1}{b^2} + \dfrac{1}{c^2}$$</p>
+<br><br>
+
+<p class="MsoNormal">۲. دو ایستگاه رادار، که در فاصلهٔ $20$ کیلومتری از هم واقع‌اند، هواپیمایی را با زاویه‌های $30^0$ و $45^0$ درجه رصد کرده‌اند. فاصله هواپیما را از دو ایستگاه به‌دست آورید.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br><br><br><br>
+
+
+    </body>
+
+
+</html>

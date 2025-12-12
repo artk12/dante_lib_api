@@ -1,0 +1,1753 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi {
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSemic,
+        li.MsoSemic,
+        div.MsoSemic {
+            margin: 0in;
+           
+            font-size: clamp(1.2rem, 1.6vw, 1.3rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #b19af2;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #6ca4ec;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .boxp {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .boxg {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#00f2ff11; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        .boxb {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#0c4e9f2d; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        ::selection {
+            background-color: #59078fa1; /* Change this to your desired highlight color */
+            color: #ffffff; /* Change this to your desired text color */
+          }
+
+
+          mark{
+            background-color:#078b8fa1 ;
+            color: #ffffff;
+            padding: 0 7px;
+        }
+
+        .hlg { background-color: rgba(0, 234, 255, 0.334);  }
+        .hlp { background-color:#5f1487; }
+      
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+    <body class="custom-scrollbar">
+
+        <div class="MsoBold">فصل دوم:
+            <br>
+            تبدیل های هندسی و کاربردها</div>
+        
+        <p class="MsoNormal">
+        تبدیل های هندسی با بسیاری از مفاهیم هندسی از جمله همنهشتی ارتباط نزدیکی دارند. همچنین کاربردهای فراوانی در صنعت، معماری و هنر دارند. خلق بناهای تاریخی که از دستاوردهای با ارزش بشر به شمار می‌آید، بدون به کارگیری تبدیلهای هندسی میسر نمی‌شد. عمارت مسجد نصیرالملک در شیراز نمونه‌ای زیبا از این مطلب است.
+        </p>
+        
+<br><hr>
+
+        <div class="MsoBold">درس اول:
+            <br>
+            تبدیل‌های هندسی</div>
+        
+        <p class="MsoNormal">
+        در زندگی روزمره و بسیاری از پدیده‌های اطرافمان نظیر طراحی پارچه، نقش فرش، کاشی‌کاری، گچ‌بری و... شکل‌های مختلف، طبق الگوی خاصی تکرار می‌شود. در این فصل وضعیت‌های مختلفی را که هر شکل مشخص در اثر حرکت مجموعه نقاط در صفحه پیدا می‌کند، مطالعه و بررسی خواهیم کرد.
+        </p>
+        <br><br>
+        <p class="MsoNormal">
+        این حرکت‌ها می‌توانند دارای ویژگی‌های خاص قابل تعریف باشند؛ حرکاتی که سال‌های قبل با نمونه‌هایی از آن آشنا شده‌ایم و با توجه به نوع این ویژگی‌ها، آنها را انتقال، بازتاب (تقارن محوری) یا دوران نامیده‌ایم. انتقال، بازتاب و دوران را تبدیل‌های هندسی می‌نامیم.
+        </p>
+        <br>
+        <div class="boxg">
+            <p class="MsoNormal">
+                تبدیل‌های مطرح شده در این کتاب می‌تواند "موقعیت" (جایگاه شکل در صفحه)، یا "اندازهٔ شکل" را تغییر دهد. تبدیل‌های فاقد یک شکل را "تصویر" آن می‌نامیم.
+            </p>
+        </div>
+        <br><br>
+        <p class="MsoNormal">
+        در سال‌های گذشته با مفاهیم بازتاب، انتقال و دوران تا حدودی آشنا شدید. در این فصل، این تبدیل‌ها و برخی ویژگی‌های آنها را به‌طور شهودی مرور و یادآوری خواهیم کرد.
+        </p>
+        <br><hr><br>
+        <div class="MsoStep">فعالیت</div>
+        
+        <p class="MsoNormal">
+        ۱- به تصویر روبه‌رو دقت کنید.
+        </p>
+        <br><br>
+        <p class="MsoNormal">
+        اگر چهارضلعی‌های ۱، ۲، ۳ و ۴ را تبدیل یافتهٔ چهارضلعی رنگ شده بدانیم:
+        </p>
+        <br><br>
+        <p class="MsoNormal">
+        الف) کدام چهارضلعی، انتقال یافتهٔ چهارضلعی رنگ‌شده است؟
+        </p>
+        <br>
+        <p class="MsoNormal">
+        ب) کدام چهارضلعی، بازتاب چهارضلعی رنگ‌شده است؟
+        </p>
+        <br>
+        <p class="MsoNormal">
+        پ) کدام شکل، دوران یافتهٔ شکل رنگ‌شده است؟
+        </p>
+        <br><br>
+
+
+
+
+        <p class="MsoNormal">
+            ۲- (الف) بازتاب شکل روبه‌رو را نسبت به خط $d$ رسم کنید. <br>
+            (توضیح دهید که چگونه این کار را انجام می‌دهید. در این حالت خط $d$ نسبت به پاره‌خطی که هر نقطه را به تصویرش نظیر می‌کند، چه وضعیتی دارد؟)
+            </p>
+            <br>
+            <p class="MsoNormal">
+            ب) آیا این تبدیل، موقعیت شکل اولیه را تغییر می‌دهد؟ اندازه‌ها را چطور؟
+            </p>
+            <br>
+            <p class="MsoNormal">
+            پ) در این تبدیل، شیب هر پاره‌خط با شیب پاره‌خط متناظر در تصویر آن برابر است؟
+            </p>
+            <br>
+            <p class="MsoNormal">
+            ت) آیا حالتی وجود دارد که بازتاب، شیب خط را حفظ کند؟
+            </p>
+            
+           <br><br>
+            
+            <p class="MsoNormal">
+            ۳- (الف) تصویر شکل روبه‌رو را تحت انتقال با بردار $\vec{v}$ رسم کنید. (توضیح دهید که چگونه این کار را انجام می‌دهید.) <br>
+            در این حالت پاره‌خط‌هایی که هر نقطه را به تصویرش نظیر می‌کنند، نسبت به هم چه وضعیتی دارند؟
+            </p>
+            <br>
+            <p class="MsoNormal">
+            ب) آیا این تبدیل، موقعیت شکل اولیه را حفظ می‌کند؟ اندازه‌ها را چطور؟
+            </p>
+            <br>
+            <p class="MsoNormal">
+            پ) آیا در این تبدیل، شیب هر پاره‌خط با شیب پاره‌خط متناظر در تصویر آن برابر است؟
+            </p>
+            <br>
+            <p class="MsoNormal">
+            ت) آیا با انجام این تبدیل، اندازه زاویه‌ها ثابت می‌ماند؟
+            </p>
+            <br>
+            <br>
+            
+            <p class="MsoNormal">
+            ۴- در سال‌های گذشته دیدید که برای دوران دادن هر شکل به مرکز دوران $O$ و به اندازه زاویه $\alpha$ کافی است هر نقطه از شکل، مثل نقطه $A$ را به مرکز دوران $O$ وصل کنیم؛ سپس در جهت خواسته‌شده به کمک زاویه $\theta$ زاویه‌ای برابر با $\angle O A A'$ رسم، و روی ضلع دیگر این زاویه پاره‌خطی به اندازه $OA$ جدا کنیم تا نقطه $A'$ به دست آید.
+            </p>
+            <br>
+            <p class="MsoNormal">
+            می‌خواهیم مثلث $ABC$ را حول مرکز $90$، $O$ درجه در جهت حرکت عقربه‌های ساعت دوران دهیم؛ به ترتیبی که گفته شد نقاط $A$ و $B$ را دوران داده‌ایم.
+            </p>
+            <br>
+            <p class="MsoNormal">
+            الف) به همین ترتیب تصویر نقطه $C$ را پیدا، و شکل را کامل کنید.
+            </p>
+            <br>
+            <p class="MsoNormal">
+            ب) آیا این تبدیل، موقعیت شکل اولیه را حفظ می‌کند؟ اندازه‌ها را چطور؟
+            </p>
+            <br>
+            <p class="MsoNormal">
+            پ) آیا در این تبدیل، همواره شیب پاره‌خط اولیه با شیب پاره‌خط تصویر آن برابر است؟
+            </p>
+            <br>
+            <p class="MsoNormal">
+            ت) آیا می‌توانید زاویه دوران را طوری تعیین کنید که دوران تحت آن، شیب خط را حفظ کند؟
+            </p>
+            <br><br>
+
+
+
+
+
+            <div class="boxg">
+                <p class="MsoNormal">
+                    به‌طور شهودی می‌توان دید که بازتاب، انتقال و دوران، می‌توانند موقعیت شکل را تغییر دهند ولی اندازه پاره‌خط‌ها و زاویه‌ها را تغییر نمی‌دهند.
+                </p>
+            </div>
+            <br><br>
+            <p class="MsoNormal">
+            در ادامه این فصل با تبدیلی آشنا خواهید شد که در آن اندازه، زاویه‌ها حفظ می‌شود ولی برخلاف سه تبدیل صفحه قبل، اندازه پاره‌خط‌ها می‌تواند تغییر کند. این تبدیل را <strong>تشابه</strong> می‌نامیم؛ حال که به‌طور شهودی، برخی ویژگی‌های تبدیل‌های مختلف را مرور کردیم، در ادامه با دقت بیشتری به تعریف تبدیل، معرفی، ویژگی‌ها و کاربردهای آن خواهیم پرداخت.
+            </p>
+            <br>
+
+
+            <div class="boxp">
+            <div class="MsoSemi"><mark>تعریف:</mark></div>
+            
+            <p class="MsoNormal">
+                تبدیل $T$
+            در صفحه $P$، تابعی است که به هر نقطه $A$ در صفحه، دقیقاً یک نقطه مانند $A'$ را از همان صفحه نظیر می‌کند و برعکس، هر نقطه $A'$ از صفحه $P$ تصویر دقیقاً یک نقطه $A$ از همان صفحه است. <br>
+            اگر تبدیل را با حرف $T$ نمایش دهیم به اختصار چنین می‌نویسیم:
+            </p>
+            
+            <p class="MsoNormal" style="text-align: center;">
+            $T: P \rightarrow P$ <br>
+            $T(A) = A'$
+            </p>
+            
+        </div>
+        <br><br>
+
+
+
+
+            <p class="MsoNormal">
+            پیش از این به‌طور شهودی دریافتیم که بازتاب، انتقال و دوران طول پاره‌خط را حفظ می‌کند؛ یعنی اندازه پاره‌خطی مثل $AB$ در شکل اولیه با اندازه پاره‌خط $A'B'$ در تصویر آن برابر است. این ویژگی را اصطلاحاً <strong>طول‌پایی</strong> یا <strong>ایزومتری</strong> می‌نامیم.
+            </p>
+
+
+            <br>
+
+
+
+            <div class="boxp">
+            <div class="MsoSemi"><mark>تعریف:</mark></div>
+            
+            <p class="MsoNormal">
+            تبدیل‌هایی که طول پاره‌خط را حفظ می‌کنند، تبدیل‌های <strong>طول‌پای (ایزومتری)</strong> نامیده می‌شوند. <br>
+            به عبارتی اگر داشته باشیم:
+            <br>
+            $AB = A'B'$, $T(B) = B'$ و $T(A) = A'$
+            <br>
+            آن‌گاه داریم: $AB = A'B'$.
+            </p>
+
+            </div>
+
+
+       
+<br><br>
+
+
+
+            <p class="MsoNormal">
+            پیش از این به‌طور شهودی پذیرفتیم که در تبدیل‌هایی که مرور شد، اندازه زاویه حفظ می‌شود. در این فعالیت برای تبدیل‌های طول‌پای این ادعا را اثبات می‌کنیم و در ادامه طول‌پای بودن بازتاب، انتقال و دوران را به‌طور دقیق‌تر مورد بررسی قرار خواهیم داد.
+            </p>
+
+
+            <br><hr><br>
+            
+            <div class="MsoStep">فعالیت</div>
+            
+            <p class="MsoNormal">
+            می‌خواهیم نشان دهیم هر تبدیل طول‌پای اندازه زاویه را حفظ می‌کند. فرض کنید $T$ تبدیل طول‌پای است و داریم:
+            </p>
+
+            <br>
+            
+            <p class="MsoNormal" style="text-align:left;">
+            $T(A) = A'$ <br>
+            $T(B) = B'$ <br>
+            $T(O) = O'$
+            </p>
+            
+<br><br>
+
+<p class="MsoNormal">
+    دلیل همنهشتی دو مثلث $OAB$ و $O'A'B'$ را بنویسید و از آنجا برابری زاویه‌های $AOB$ و $A'O'B'$ را نتیجه بگیرید. <br><br>
+    بنابراین می‌توان نتیجه گرفت:
+    </p>
+    
+    <div class="boxp">
+        <p class="MsoSemi"><mark>قضیه:</mark></p>
+        <p class="MsoNormal">
+            در هر تبدیل طول‌پای، تبدیل‌یافتهٔ هر زاویه، زاویه‌ای هم‌اندازهٔ آن است.
+        </p>
+    </div>
+    <br>
+
+    <div class="boxg">
+    <p class="MsoNormal">
+    در تبدیل‌های مطرح شده در این کتاب، می‌توان ثابت کرد که تبدیل‌یافتهٔ هر خط، یک خط است. بنابراین برای پیدا کردن تبدیل‌یافتهٔ یک خط، کافی است تبدیل‌یافتهٔ دو نقطهٔ دلخواه از آن را پیدا و خط گذرنده از آن دو را رسم کنیم. این مطلب برای یک پاره‌خط هم صادق است. کافی است تبدیل‌یافتهٔ دو نقطهٔ ابتدا و انتهای پاره‌خط را بدست آوریم و به هم وصل کنیم.
+    </p>
+</div>
+
+
+<br>
+
+        <p class="MsoNormal">
+            حال، با استدلال دقیق‌تری بازتاب، انتقال، دوران و تجانس را بررسی خواهیم کرد.
+        </p>
+
+<br><hr>
+
+    <div class="MsoBold">بازتاب</div>
+    
+    <p class="MsoNormal">
+    همان‌طور که پیش از این اشاره شد برای پیدا کردن بازتاب یک نقطه مثل $A$ نسبت به خط $d$ کافی است از نقطه $A$ به خط داده شده عمودی وارد کنیم و پای عمود را $H$ بنامیم. حال $AH$ را از سمت $H$ به اندازهٔ خودش امتداد می‌دهیم تا $A'$ به دست آید.
+    </p>
+    
+    <p class="MsoNormal">
+    در این صورت $A'$ را بازتاب یا قرینهٔ $A$ نسبت به خط $d$ می‌نامیم و می‌نویسیم:
+    </p>
+    
+    <p class="MsoNormal" style="text-align: center;">
+    $S(A) = A'$
+    </p>
+    
+    <p class="MsoNormal">
+    در چنین حالتی خط $d$ عمود منصف پاره‌خط $AA'$ خواهد بود.
+    </p>
+    
+    <p class="MsoNormal">
+    خط $d$، خط بازتاب یا محور بازتاب نامیده می‌شود.
+    </p>
+    
+
+<br><br>
+
+
+<p class="MsoNormal">
+    اگر نقطه‌ای روی خط بازتاب باشد، تصویر آن بر خودش منطبق می‌شود؛ به عبارتی $A'$ همان $A$ است.
+    </p>
+    <br>
+    <div class="boxp">
+        <p class="MsoSemi"><mark>تعریف:</mark></p>
+        <p class="MsoNormal">
+            در هر تبدیل، نقطه‌ای را که تبدیل‌یافتهٔ آن بر خود آن نقطه منطبق می‌شود، <mark >نقطه ثابت تبدیل</mark> می‌نامند.
+        </p>
+    </div>
+    <br>
+
+
+
+
+    <p class="MsoNormal">
+    بنابراین، بازتاب نسبت به خط، بی‌شمار نقطه ثابت تبدیل دارد.
+    </p>
+    <br><hr><br>
+
+
+    <div class="MsoStep">فعالیت</div>
+    
+    <p class="MsoNormal">
+    می‌خواهیم با استدلال دقیقی نشان دهیم بازتاب، تبدیل طول‌پای است. حالت‌های مختلف یک پاره‌خط را نسبت به خط بازتاب در نظر می‌گیریم و در هر حالت نشان می‌دهیم که اندازه پاره‌خط با اندازه تصویر آن برابر است.
+    </p>
+    <br>
+    <p class="MsoNormal">
+    (الف) ابتدا مسئله را برای حالتی در نظر می‌گیریم که $AB$ با خط $d$ موازی است. <br> <br>
+    بازتاب $A$ و $B$ را نسبت به خط $d$ پیدا می‌کنیم و آن را $A'$ و $B'$ می‌نامیم.
+    </p>
+    <br>
+    <p class="MsoNormal">
+    چهارضلعی $ABA'B'$ چه چهارضلعی است؟ چرا؟
+    </p>
+    <br>
+    <p class="MsoNormal">
+    طول پاره‌خط‌های $AB$ و $A'B'$ نسبت به هم چگونه‌اند؟
+    </p>
+    <br>
+    <p class="MsoNormal">
+    (ب) حال فرض می‌کنیم که فقط یکی از نقاط انتهایی پاره‌خط داده شده روی خط بازتاب باشد.
+    </p>
+    <br>
+    <p class="MsoNormal">
+    (اگر هر دو نقطه ابتدا و انتهای پاره‌خط داده شده روی خط بازتاب باشد، اثبات بدیهی است؛ چرا؟)
+    </p>
+    <br>
+    <p class="MsoNormal">
+    بازتاب $A$ نسبت به خط $d$، نقطه $A'$ و بازتاب $M$، خود $M$ است. به عبارتی:
+    </p>
+    <br>
+    <p class="MsoNormal" style="text-align: center;">
+    $S(A) = A' $ و $ S(M) = M $
+    </p>
+    <br>
+    <p class="MsoNormal">
+    آیا می‌توانید به کمک هم‌نهشتی مثلث‌ها، دلیلی برای تساوی $MA = MA'$ ارائه کنید؟
+    </p>
+    <br><br>
+    <p class="MsoNormal">
+    آیا می‌توانید این تساوی را به روش دیگری نشان دهید؟ (از خاصیت عمود منصف یک پاره‌خط کمک بگیرید.)
+    </p>
+    <br><br>
+
+
+    <p class="MsoNormal">
+        (پ) در حالتی که پاره‌خط $AB$ با خط بازتاب $d$، نه موازی و نه متقاطع باشد، پاره‌خط $AB$ را امتداد می‌دهیم تا خط بازتاب را در نقطه $M$ قطع کند. <br><br>
+        نقطه $B'$ بازتاب نقطه $B$ را نسبت به خط بازتاب پیدا و پاره‌خط $MB'$ را رسم می‌کنیم. ادعا می‌کنیم که تصویر نقطه $A$ نیز روی خط $MB'$ واقع می‌شود. چرا؟
+        </p>
+        <br>
+
+        <p class="MsoNormal" style="text-align: left;">
+            $
+            \begin{align*}
+            & AB = MB - {\ldots} \\ \\
+            & A'B' = {\ldots} -  {\ldots} \\ \\
+            & \text{با توجه به قسمت ب} \ \ MB = {\ldots} \ \  \text{و} \ \ MA = \dots
+            \end{align*}
+    \ \
+            \begin{cases}
+            \qquad \\ \\
+            \Rightarrow \ \  {\ldots} \ \   = \ \ {\ldots}  \\ \\
+            \qquad \\ \\
+            \end{cases}
+            $
+        </p>
+        
+                
+
+        <br><br>
+
+
+        <p class="MsoNormal">
+        (ت) در حالتی که پاره‌خط $AB$ بر خط بازتاب عمود است، به‌عنوان تمرین به شما واگذار شده است.
+        </p>
+        <br>
+
+
+
+        <p class="MsoNormal" style="text-align: left;">
+            $$
+            \begin{align*}
+                & AB = AM + \ldots \\ \\
+                & A'B' = \ldots + \ldots \\ \\
+               
+                & \text{با توجه به قسمت ب} \ \  MB = \ldots \ \ \text{و}  \ \  AM = \ldots
+            \end{align*}
+            \quad
+            \begin{cases}
+                
+                \qquad \\ \\
+                \Rightarrow \ \ldots \ = \ \ldots \\ \\
+                \qquad \\ \\
+            \end{cases}
+            $$
+        </p>
+        
+
+
+
+       
+        <br>
+        <p class="MsoNormal">
+            <strong>تذکر:</strong> حالتی که پاره‌خط $AB$ بر خط بازتاب عمود است، به‌عنوان تمرین به شما واگذار شده است.
+            </p>
+            
+
+            <br><br>
+
+
+        <p class="MsoNormal">
+            نتیجه
+        این مراحل را می‌توان در قالب این قضیه بیان کرد:
+        </p>
+        
+        <div class="boxp">
+            <p class="MsoSemi"><mark>قضیه:</mark></p>
+            <p class="MsoNormal">
+                در هر بازتاب، اندازه هر پاره‌خط و اندازه تصویر آن با هم برابرند.
+            </p>
+        </div>
+        
+
+
+        <br>
+        <p class="MsoNormal">
+        به عبارتی این قضیه نشان می‌دهد که بازتاب، تبدیلی طول‌پاست و برای هر دو نقطه $A$ و $B$ از صفحه $P$ داریم $S(B) = B'$ و $S(A) = A'$, آن‌گاه داریم: $AB = A'B'$.
+        </p>
+        <br><hr><br>
+
+
+
+
+        <div class="MsoStep">فعالیت</div>
+        
+        <p class="MsoNormal">
+        می‌خواهیم بررسی کنیم که آیا بازتاب، شیب خط را هم حفظ می‌کند.
+        </p>
+        <br>
+        <p class="MsoNormal">
+        مسئله را برای سه حالت کلی در نظر می‌گیریم:
+        </p><br>
+        
+        <p class="MsoNormal">
+        وقتی خط داده شده با خط بازتاب موازی باشد، وقتی عمود باشد و وقتی نه عمود باشد و نه موازی.
+        </p>
+        <br><br>
+        <p class="MsoNormal">
+        (الف) اگر خط $n$ موازی خط بازتاب $d$ باشد، تصویر آن را تحت بازتاب، خط $n'$ می‌نامیم. <br>
+        خطوط $n$ و $n'$ نسبت به هم چه وضعی دارند؟ چرا؟ <br>
+        آیا در این حالت بازتاب، شیب خط را حفظ می‌کند؟
+        </p>
+        <br><br>
+
+
+
+
+<p class="MsoNormal">
+(ب) اگر خط $n$ بر خط بازتاب $d$ عمود باشد، تصویر آن تحت بازتاب چگونه خواهد بود؟ آیا در این حالت بازتاب، شیب خط را حفظ می‌کند؟
+</p>
+<br><br>
+<p class="MsoNormal">
+پ) اگر خط $n$ با خط بازتاب $d$ عمود و موازی نباشد، خط‌های $d$, $n$ و $n'$ در نقطه‌ای مثل $M$ متقاطع می‌شوند؛ پس $n$ و $n'$ موازی نیستند و در این حالت بازتاب، شیب خط را ............................. . بنابراین:
+</p>
+<br>
+<div class="boxg">
+    <p class="MsoNormal">
+        در حالت کلی، بازتاب شیب خط را ......................
+    </p>
+</div>
+<br><br>
+<p class="MsoNormal">
+دیدیم که طول‌پای‌ها اندازه و زاویه را هم حفظ می‌کنند. بنابراین به‌طور کلی هر چندضلعی و تصویرش تحت تأثیر یک طول‌پای، یک جمله با بازتاب با هم همنهشت هستند.
+</p>
+
+<br><hr><br>
+
+
+<div class="MsoStep">کاردرکلاس</div>
+
+<p class="MsoNormal">
+جاهای خالی را با عبارت مناسب کامل کنید:
+</p>
+<br>
+<p class="MsoNormal">
+(الف) وقتی $A'$ بازتاب $A$ نسبت به خط $d$ است، بازتاب $A'$ نسبت به خط $d$, کدام نقطه است؟ چرا؟
+</p>
+<br>
+<p class="MsoNormal">
+ب) قرینه قرینه هر نقطه چیست؟
+............
+<br>
+در واقع:
+<br>
+$$S(S(A)) = S(......) = \ \ ...... $$
+
+و به زبان ساده تر:
+$$ (A')' = \ \ . . . . . $$
+</p>
+<br>
+<p class="MsoNormal">
+پ) در هر بازتاب تبدیل یافتهٔ یک مثلث، یک ....................... است که با مثلث اولیه .............................. است.
+</p>
+<br>
+<p class="MsoNormal">
+ت) در حالتی که پاره‌خط $AB$ نسبت به خط بازتاب ................................... باشد، بازتاب شیب خط را حفظ می‌کند.
+</p>
+<br>
+<p class="MsoNormal">
+ث) در بازتاب نسبت به خط $d$ تبدیل‌یافته تمام نقاط روی خط ..................... است؛
+<br>
+بنابراین نقطه ثابت تبدیل در هر بازتاب ........................ است.
+</p>
+
+<br><br>
+
+<p class="MsoNormal">
+    در ادامه به کمک ویژگی های انتقال و دوران ثابت میکنیم که این دو تبدیل نیز طولپا هستند.</p>
+
+<br><hr>
+
+<div class="MsoBold">انتقال</div>
+
+<div class="MsoSemi" style="font-size: larger;">یادآوری</div>
+<br>
+<p class="MsoNormal">
+۱- در شکل مقابل یک بردار، ابتدا، انتها، اندازه و راستای آن مشخص شده است.
+</p>
+<br>
+<p class="MsoNormal">
+۲- دو بردار که هم اندازه، هم راستا و هم جهت باشند، دو بردار برابر هستند.
+</p>
+
+
+<br><br>
+
+
+
+
+
+
+
+
+<p class="MsoNormal">
+    در سال‌های گذشته دیدید که برای انتقال دادن یک شکل، کافی است تصویر هر نقطه از شکل را به کمک بردار انتقال پیدا کنیم؛ یعنی اگر نقطه $A'$ تصویر نقطه $A$ باشد، آن‌گاه $A'A = \vec{v}$.
+    </p>
+    
+    <br>
+    <div class="boxp">
+        <p class="MsoSemi"><mark>تعریف:</mark></p>
+        <p class="MsoNormal">
+            انتقال $T$ تحت بردار $\vec{v}$، تبدیلی از صفحه است که در آن، تصویر هر نقطه $A$ از صفحه $P$، نقطه‌ای مانند $A'$ در همان صفحه است که $ \vec{A'A} = \vec{v}$.
+        </p>
+    </div>
+
+    <br><hr><br>
+
+
+    
+    <div class="MsoStep">فعالیت</div>
+    
+    <p class="MsoNormal">
+    ۱- می‌خواهیم نشان دهیم انتقال، تبدیل طول‌پاست.
+    </p>
+    <br>
+    <p class="MsoNormal">
+    (الف) اگر پاره‌خط دلخواه $AB$ با بردار $\vec{v}$ موازی نباشد، تبدیل‌یافته $AB$ را رسم کنید و آن را $A'B'$ بنامید و نشان دهید: $AB = A'B'$.
+    <br>
+    راهنمایی: میدانیم که اگر در یک چهارضلعی، دو ضلع روبه رو موازی و مساوی
+باشند، آن چهارضلعی متوازیالاضلاع است.
+
+</p>
+    <br>
+    <p class="MsoNormal">
+    (ب) اگر پاره‌خط $AB$ با بردار $\vec{v}$ موازی باشد، به کمک مجموع یا تفاضل پاره‌خط‌ها در هر دو حالت زیر نشان دهید: $AB = A'B'$.
+    </p>
+    <br>
+
+
+
+
+
+
+    <p class="MsoNormal" style="text-align: left;">
+
+        $$
+        (1)
+        $$
+        $$
+        \begin{align*}
+            & AB = AA' + \ldots \\ \\
+            & A'B' = \ldots + \ldots \\ \\
+            & \text{طبق تعریف انتقال} \ \ AA' = \ldots
+        \end{align*}
+        \quad
+        \begin{cases}
+            \qquad \\ \\
+            \Rightarrow \ \ldots \ = \ \ldots \\ \\
+            \qquad \\ \\
+        \end{cases}
+        $$
+    </p>
+
+    <br><br>
+
+
+
+
+    <p class="MsoNormal" style="text-align: left;">
+
+
+        $$
+        (2)
+        $$
+
+        $$
+        \begin{align*}
+            & AB = AA' - \ldots \\ \\
+            & A'B' = \ldots - \ldots \\ \\
+            & \text{طبق تعریف انتقال} \ \ AA' = \ldots
+        \end{align*}
+        \quad
+        \begin{cases}
+            \qquad \\ \\
+            \Rightarrow \ \ldots \ = \ \ldots \\ \\
+            \qquad \\ \\
+        \end{cases}
+        $$
+    </p>
+    
+    <br><br>
+
+
+
+
+
+
+    <p class="MsoNormal">
+    <strong>تذکر:</strong> در حالتی که طول بردار $\vec{v}$ با پاره‌خط $AB$ برابر است، به کمک هر یک از روش‌های فوق می‌توان درستی رابطه را نشان داد.
+    </p>
+    <br>
+
+
+
+    <div class="boxp">
+        <p class="MsoSemi"><mark>قضیه:</mark></p>
+        <p class="MsoNormal">
+            در هر انتقال، اندازه هر پاره‌خط و اندازه تصویر آن با هم برابرند.
+        </p>
+    </div>
+    
+    <br><br>
+
+
+
+    <p class="MsoNormal">
+    به عبارتی این قضیه نشان می‌دهد که انتقال، تبدیل طول‌پاست و برای هر دو نقطه $A$ و $B$ از صفحه $P$ که $T(A) = A'$ و $T(B) = B'$ داریم: $AB = A'B'$.
+    </p>
+    <br><br>
+
+    <p class="MsoNormal">
+    ۲- در هر یک از حالت‌های قبل نشان دهید انتقال، شیب خط را هم حفظ می‌کند.
+    </p>
+    
+
+
+
+    <br><hr>
+
+
+    <div class="MsoBold">دوران</div>
+
+<p class="MsoNormal">
+دیدیم که برای دوران دادن شکل به مرکز دوران $O$ و به اندازهٔ زاویه $\alpha$، هر نقطه از شکل، مثل $A$ را به مرکز دوران یعنی $O$ وصل می‌کنیم؛ سپس در جهت خواسته شده، به کمک $OA$ زاویه‌ای برابر $\alpha$ رسم کرده، و روی ضلع دیگر این زاویه، پاره‌خطی به اندازهٔ $OA$ جدا می‌کنیم تا $A'$ به دست آید.
+</p>
+<br>
+<div class="boxp">
+    <p class="MsoSemi"><mark>تعریف:</mark></p>
+    <p class="MsoNormal">
+        دوران $R$ به مرکز نقطه ثابت $O$ و زاویه $\alpha$، تبدیلی از صفحه است که در آن اگر $A'$ تصویر نقطه $A$ باشد، داریم: <br>
+    </p>
+    <p class="MsoNormal" style="text-align: center;">
+        $ \overset{\frown}{AOA'} = \alpha $  و  $ OA = OA'$ 
+    </p>
+</div>
+<br><hr><br>
+
+
+<div class="MsoStep">فعالیت</div>
+
+<p class="MsoNormal">
+می‌خواهیم نشان دهیم دوران، تبدیلی طولپاست.
+</p>
+<br>
+<p class="MsoNormal">
+برای دوران دادن هر پاره‌خط نظیر $AB$ کافی است نقاط $A$ و $B$ را دوران دهیم تا نقاط $A'$ و $B'$ حاصل شود و پاره‌خط $A'B'$ را رسم کنیم.
+</p>
+
+<br><br>
+
+
+
+<p class="MsoNormal">
+    مسئله را برای حالت‌های مختلف در نظر می‌گیریم:
+    </p>
+    <br>
+    <p class="MsoNormal">
+    (الف) مرکز دوران $O$ بر پاره‌خط $AB$ و امتداد آن واقع نباشد و زاویهٔ دوران از زاویهٔ $\overset{\frown}{AOB}$ بیشتر باشد.
+    </p>
+    <br>
+
+
+    <p class="MsoNormal">
+        با توجه به شکل $O_1 + \ \ . . . \ \  = O_3 +  \ \ . . . \ \  = \alpha$ پس می‌توان مدعی شد که $  \ \ . . . \ \  =  \ \ . . . \ \  $ <br>
+        به کمک همنهشتی دو مثلث $OAB$ و $OA'B'$ نشان دهید $AB$ و $A'B'$ هم‌اندازه‌اند.
+        </p>
+        
+
+
+
+    <br><br>
+
+
+    <p class="MsoNormal">
+    (ب) به طور مشابه نشان دهید که اگر $O$ بر پاره‌خط $AB$ واقع نباشد و زاویهٔ $\overset{\frown}{AOB}$ کمتر باشد، باز هم تساوی $AB = A'B'$ برقرار است.
+    </p>
+    <br>
+    <p class="MsoNormal">
+    <strong>تذکر:</strong> در حالتی که زاویه $\overset{\frown}{AOB}$ با زاویه دوران $\alpha$ برابر است با هریک از روش‌های فوق می‌توان درستی رابطه را نمایش داد.
+    </p>
+    
+    <br>
+
+
+    <p class="MsoNormal" style="text-align: left;">
+        $$
+        \begin{align*}
+            & AB = AO + \ldots \\ \\
+            & A'B' = \ldots + \ldots \\ \\
+            & \text{طبق تعریف دوران} \ \ AO = \ldots \ \ \text{و} \ \ OB = \ldots
+        \end{align*}
+        \quad
+        \begin{cases}
+            \qquad \\ \\
+            \Rightarrow \ \ldots = \ldots \\ \\
+            \qquad \\ \\
+        \end{cases}
+        $$
+    </p>
+    
+
+
+
+
+    <br><br>
+    
+    <p class="MsoNormal">
+    (ت) به طریق مشابه نشان دهید اگر نقطه $O$ روی امتداد پاره‌خط $AB$ باشد، حکم برقرار است.
+    </p>
+    
+
+    <br>
+
+    <div class="boxp">
+        <p class="MsoSemi"><mark>قضیه:</mark></p>
+        <p class="MsoNormal">
+            در هر دوران، اندازه هر پاره‌خط و تصویر آن با هم برابرند.
+        </p>
+    </div>
+    
+
+
+    <br><br>
+
+
+    <p class="MsoNormal">
+    به عبارتی این قضیه نشان می‌دهد که دوران، تبدیلی طول‌پاست و برای هر دو نقطه $A$ و $B$ از صفحه $P$ که $R(A) = A'$ و $R(B) = B'$ داریم: $AB = A'B'$.
+    </p>
+    <br><hr><br>
+
+
+
+    <div class="MsoStep">کاردرکلاس</div>
+    
+    <p class="MsoNormal">
+    دوران یافته هر شکل را رسم کنید.
+    </p>
+    <br>
+    <p class="MsoNormal">
+    (الف) دوران به مرکز $A$ و با زاویه $90^0$ در جهت حرکت عقربه‌های ساعت.
+    </p>
+    <br>
+    <p class="MsoNormal">
+    (ب) دوران به مرکز $O$ و با زاویه $120^0$ در جهت خلاف حرکت عقربه‌های ساعت.
+    </p>
+    
+
+<br><hr><br>
+
+
+<div class="MsoStep">تمرین</div>
+
+<p class="MsoNormal">
+۱- در حالتی که پاره‌خط $AB$ در راستای عمود بر خط بازتاب قرار دارد، ثابت کنید که اگر $A'B'$ بازتاب $AB$ باشد، $AB$ و $A'B'$ هم‌اندازه‌اند.
+</p>
+<br><br>
+<p class="MsoNormal">
+۲- در شکل زیر چهارضلعی $A'B'C'D'$ تصویر چهارضلعی محدب $ABCD$ تحت بازتاب است. در شکل اولیه، وقتی به ترتیب از $A$ به $B$, $C$, و $D$ می‌رویم، جهت حرکت، موافق جهت حرکت عقربه‌های ساعت است. جهت حرکت در بازتاب این نقاط چگونه است؟ آیا می‌توان گفت بازتاب، جهت شکل را حفظ می‌کند؟
+</p>
+<br><br>
+<p class="MsoNormal">
+۳- به سؤالات زیر پاسخ دهید.
+</p>
+<br>
+<p class="MsoNormal">
+(الف) در شکل مقابل نقطه $A'$ دوران یافتهٔ نقطه $A$ در دوران به مرکز $O$ و زاویه $\alpha$ است. نشان دهید عمودمنصف $AA'$ از نقطه $O$ می‌گذرد.
+</p>
+<br>
+<p class="MsoNormal">
+(ب) اگر بدانیم $\overset{\triangle}{A'B'C'}$ دوران یافته $\overset{\triangle}{ABC}$ است، چگونه می‌توان مرکز دوران را مشخص کرد؟
+</p>
+<br><br>
+<p class="MsoNormal">
+۴- در شکلی، $d_1$ به موازات $d_2$ و به فاصله $m$ از آن قرار دارد و مثلث $\overset{\triangle}{A'B'C'}$ بازتاب مثلث $\overset{\triangle}ABC$ نسبت به خط $d_1$ است. بازتاب مثلث $\overset{\triangle}{A'B'C'}$ را نسبت به خط $d_2$ رسم کنید و آن را $\overset{\triangle}{A''B''C''}$ بنامید.
+</p>
+<br>
+<p class="MsoNormal">
+(الف) نشان دهید $AA'' = 2m$
+</p>
+<br>
+<p class="MsoNormal">
+(ب) اندازهٔ $BB''$ و $CC''$ چقدر است؟
+</p>
+<br>
+<p class="MsoNormal">
+(پ) با چه تبدیلی می‌توان مثلث $\overset{\triangle}{A''B''C''}$ را تصویر $\overset{\triangle}{ABC}$ دانست؟ چه نتیجه‌ای می‌گیریم؟
+</p>
+<br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class="MsoNormal">
+    ۵- در شکلی، دو خط $d_1$ و $d_2$ با زاویهٔ $\theta$ یکدیگر را قطع کرده‌اند. مثلث $\overset{\triangle}{A'B'C'}$ بازتاب مثلث $\overset{\triangle}{ABC}$ نسبت به خط $d_1$ است. بازتاب مثلث $\overset{\triangle}{A'B'C'}$ را نسبت به خط $d_2$ رسم کنید و آن را $\overset{\triangle}{A''B''C''}$ بنامید.
+    </p>
+    <br>
+    <p class="MsoNormal">
+    (الف) نشان دهید $ \overset{\frown}{AOA''} = 2 \theta $
+    </p>
+    <br>
+    <p class="MsoNormal">
+    (ب) اندازهٔ $\overset{\frown}{BOB''}$ و $\overset{\frown}{COC''}$ چقدر است؟
+    </p>
+    <br>
+    <p class="MsoNormal">
+    (پ) با چه تبدیلی می‌توان مثلث $\overset{\triangle}{A''B''C''}$ را تصویر مثلث $\overset{\triangle}{ABC}$ دانست؟ چه نتیجه‌ای می‌گیرید؟
+    </p>
+    <br><br>
+    <p class="MsoNormal">
+    ۶- نقطه $A$ به فاصله $ 2\sqrt{6} $ از خط $d$ قرار دارد. تصویر نقطه $A$ را تحت بازتاب نسبت به خط $d$، نقطه $A'$ می‌نامیم. نقطه $A'$ را حول نقطه $A'$ به اندازه $120$ درجه دوران می‌دهیم تا حاصل شود. طول پاره‌خط $AA''$ را محاسبه کنید.
+    </p>
+    <br><br>
+    <p class="MsoNormal">
+    ۷- نقطه $A'$ تصویر نقطه $A$ در بازتاب نسبت به خط $l$ است. اگر $AA' = 16$ و نقطه $O$ روی خط $l$ و $OA = 10$ باشد، فاصلهٔ نقطه $A$ از خط $OA'$ چقدر است؟
+    </p>
+    <br><hr>
+
+
+
+
+    <div class="MsoBold">تجانس</div>
+    
+    <p class="MsoNormal">
+    در شکل‌های مشابه دیدید که طول پاره‌خط‌ها الزاماً با هم یکسان نیستند؛ اما با یک نسبت، اندازه همه پاره‌خط‌ها بزرگ‌تر یا کوچک‌تر می‌شوند. ساده‌ترین تبدیل از این نوع را تجانس می‌نامیم. در تجانس ابعاد شکل با نسبت $k \neq 0$ آن را نسبت تجانس (مقیاس) می‌نامیم٬
+     بزرگ یا کوچک می‌شود.
+    </p>
+    <br>
+<p class="MsoNormal">
+
+    تعریف دقسقتر جناس به شکل زیر است:
+</p>
+<br>
+    <div class="boxp" style="background-color: rgba(98, 98, 98, 0.171);">
+        <p class="MsoSemi"><mark>تعریف:</mark></p>
+        <br>
+        <p class="MsoNormal">
+            اگر $O$ نقطه‌ای ثابت در صفحه و $k \neq 0$ یک عدد حقیقی باشد، نقطه $M'$ را تجانس نقطه $M$ در تجانس به مرکز $O$ و نسبت تجانس $k$ گوییم؛ هرگاه سه شرط زیر برقرار باشد:
+        </p>
+        <br>
+        <p class="MsoNormal">
+            (الف) سه نقطه $M$، $M'$ و $O$ روی یک خط راست باشند.
+        </p>
+        <br>
+        <p class="MsoNormal">
+            (ب) $OM' = |k| \times OM$
+        </p>
+        <br>
+        <p class="MsoNormal">
+            (پ)
+            - اگر $k$ مثبت باشد، $M'$ روی نیم‌خط $OM$ و نقاط $M$ و $M'$ در یک طرف نقطه $O$ قرار دارند.
+        </p>
+        <br>
+        <p class="MsoNormal">
+            مثال: $OM' = 2 \times OM$
+        </p>
+        <br>
+        <p class="MsoNormal">
+            - اگر $k = \frac{1}{2}$: $OM' = \frac{1}{2} OM$
+        </p>
+        <br>
+        <p class="MsoNormal">
+            - اگر $k$ منفی باشد، نقطه $O$ بین نقاط $M$ و $M'$ قرار می‌گیرد.
+        </p>
+        <br>
+        <p class="MsoNormal">
+            مثال: $OM' = 2 \times OM$
+        </p>
+    </div>
+    
+    <br><br>
+
+
+
+
+
+
+    <p class="MsoNormal">
+        به عبارتی، هرگاه بخواهیم در تجانس به مرکز $O$ و نسبت $k$، تصویر نقطه‌ای مثل $M$ را پیدا کنیم، ابتدا از $O$ به $M$ وصل می‌کنیم؛ اگر $k$ مقداری مثبت باشد، روی نیم‌خط $OM$، نقطه $M'$ را چنان می‌یابیم که $OM' = k \cdot OM$ و اگر $k$ عددی منفی باشد، نقطه $M'$ را روی خط $OM$ به گونه‌ای جدا می‌کنیم که نقطه $O$ بین نقاط $M$ و $M'$ باشد و $OM' = |k| \dot OM$. در تجانس به مرکز $O$ و نسبت $k$، نقطه $M'$ مجانس نقطه $M$ به نسبت $k$ و نقطه $M$ مجانس نقطه $M'$ با نسبت $\dfrac{1}{k}$ است. چرا؟
+        </p>
+
+        <br><hr><br>
+
+
+        
+        <div class="MsoStep">فعالیت</div>
+        
+        <p class="MsoNormal">
+        ۱- این دو شکل، نمونه‌ای از تجانس را نشان می‌دهند که در یکی، مرکز تجانس داخل شکل اولیه و در دیگری خارج آن در نظر گرفته شده است.
+        </p>
+        <br>
+        <p class="MsoNormal">
+        (الف) به کمک صفحه شطرنجی در هر شکل نسبت تجانس را مشخص کنید.
+        </p>
+        <br>
+        <p class="MsoNormal">
+        (ب) آیا تجانس طولپاست؟ چرا؟
+        </p>
+        <br>
+        <p class="MsoNormal">
+        (پ) در این شکل‌ها، طول هر پاره‌خط را با طول تصویر آن مقایسه کنید. به چه نتیجه‌ای می‌توان رسید؟
+        </p>
+        <br>
+        <p class="MsoNormal">
+        (ت) مساحت هر شکل را با مساحت تصویر آن مقایسه کنید. چه نسبتی با هم دارند؟
+        </p>
+        <br><br>
+        <p class="MsoNormal">
+        ۲- در هر دو حالت فوق، نسبت تجانس مقداری بیش از یک است؛ به عبارتی: $k > 1$.
+        <br>
+        حال مسئله را برای مقادیر مختلف $k$ بررسی می‌کنیم.
+        </p>
+        <br>
+        <p class="MsoNormal">
+        (الف) در هر دو حالت مراحل باقی‌مانده را کامل کنید.
+        </p>
+        <br>
+
+
+        <p class="MsoSemi" style="text-align: center;">
+            html Table for later
+        </p>
+        <br> <br>
+
+
+        <p class="MsoNormal">
+            ب) با توجه به تصاویر صفحه قبل به طور شهودی، درستی یا نادرستی هر عبارت را مشخص کنید:
+            </p>
+            <br>
+            <p class="MsoNormal">
+            پ) شرط اینکه تجانس طول‌پا باشد، این است که .................
+            </p>
+            <br>
+            <p class="MsoNormal">
+            ت) خطوطی که هر نقطه را به تصویر آن نظیر می‌کند، یعنی خطوط $AA'$, $BB'$, و ... نسبت به هم چه وضعی دارند؟
+            </p>
+            <br>
+            <p class="MsoNormal">
+            ث) اگر $\triangle A'B'C'$ مجانس $\triangle ABC$ باشد، مرکز تجانس را چگونه می‌توان پیدا کرد؟
+            </p>
+            
+            <br> 
+
+            <div class="boxb">
+                <p class="MsoNormal">
+                    در تجانس به مرکز $O$ و نسبت $k$:
+                </p>
+                <p class="MsoNormal">
+                    اگر $k > 0$ تجانس را <mark>تجانس مستقیم</mark> می‌نامیم.
+                </p>
+                <p class="MsoNormal">
+                    اگر $k < 0$ تجانس را <mark>تجانس معکوس</mark> می‌نامیم.
+                </p>
+                <p class="MsoNormal">
+                    اگر $|k| < 1$ تصویر شکل .......... می‌شود و آن را <mark>انقباض</mark> می‌نامیم.
+                </p>
+                <p class="MsoNormal">
+                    اگر .......... تصویر شکل، بزرگ‌تر می‌شود و آن را <mark>انبسات</mark> می‌نامیم.
+                </p>
+            </div>
+            <br><br>
+            <p class="MsoNormal">
+            حال که به طور شهودی با تجانس و چگونگی عملکرد آن روی شکل‌های هندسی آشنا شدید با استدلال دقیق‌تری ثابت خواهیم کرد که تجانس تبدیلی است که در حالت کلی شیب خط و اندازهٔ زاویه را حفظ می‌کند.
+            </p>
+            <br>
+
+
+<br><hr><br>
+
+
+            <div class="MsoStep">فعالیت</div>
+            
+            <p class="MsoNormal">
+            می‌خواهیم نشان دهیم تجانس، شیب خط را حفظ می‌کند. برای این منظور، تجانس $D'$ با مرکز تجانس $O$ و نسبت تجانس $k$ و خط $AB$ را در نظر می‌گیریم؛ دو حالت اتفاق می‌افتد:
+            </p>
+            <br>
+            <p class="MsoNormal">
+            (الف) نقطه $O$ روی خط $AB$ است.
+            </p>
+            <br>
+            <p class="MsoNormal">
+            حل: در این حالت بدیهی است که نقاط $A'$ و $B'$ مجانس‌های نقاط $A$ و $B$، روی خط $AB$ واقع می‌شوند؛ بنابراین $A'B'$ بر $AB$ واقع است و شیب خط تغییری نمی‌کند.
+            </p>
+            <br>
+            <p class="MsoNormal">
+            (ب) نقطه $O$ غیرواقع بر خط $AB$ است.
+            </p>
+            <br>
+            <p class="MsoNormal" >
+            حل: در این صورت اگر نقاط $A'$ و $B'$ به ترتیب، مجانس‌های نقاط $A$ و $B$ باشند، طبق تعریف داریم:
+            </p>
+            <br>
+            <p class="MsoNormal" style="text-align:left;">
+                $
+                \begin{cases}
+                    OA' = k \cdot OA \\ \\
+                    OB' = \dots
+                \end{cases}
+                $
+<br><br>
+              
+               
+                $ \Rightarrow \dfrac{OA'}{OA} = \dfrac{OB'}{OB} = \dots \Rightarrow AB \parallel A'B' \quad \text{ (چرا؟) } $
+                
+                
+            </p>
+            
+            <br><br>
+
+
+
+            <p class="MsoNormal">
+            پس در این حالت نیز خط و تصویر آن با هم موازی و شیب دو خط برابر است؛ بنابراین:
+            </p>
+            <br>
+            <div class="boxp">
+                <p class="MsoSemi"><mark>قضیه:</mark></p>
+                <p class="MsoNormal">تجانس شیب خط را حفظ می‌کند.</p>
+            </div>
+            <br>
+
+
+
+            <p class="MsoNormal" >
+            تذکر: حالتی که $k < 0$ به‌عنوان تمرین به شما واگذار شده است.
+            </p>
+            
+
+
+
+
+
+
+
+<br><hr><br>
+            <div class="MsoStep">فعالیت</div>
+
+<p class="MsoNormal">
+می‌خواهیم نشان دهیم تجانس، اندازه زاویه را حفظ می‌کند. تجانس $D$ با مرکز تجانس $O$ و نسبت تجانس $k$ و زاویه $\overset{\frown}{ABC}$ را در نظر می‌گیریم. مجانس این زاویه، یعنی زاویه $\overset{\frown}{A'B'C'}$ را رسم می‌کنیم. به کمک قضیهٔ قبل و شکل داده شده، ثابت کنید: $\overset{\frown}{A'B'C'} = \overset{\frown}{ABC}$.
+</p><br>
+
+<p class="MsoNormal">
+نتیجهٔ این فعالیت را در قالب قضیهٔ زیر مطرح می‌کنیم:
+</p>
+<br>
+<div class="boxp">
+    <p class="MsoSemi"><mark>قضیه:</mark></p>
+    <p class="MsoNormal">تجانس، اندازه زاویه را حفظ می‌کند.</p>
+</div>
+<br>
+<p class="MsoNormal" >
+تذکر: اثبات در حالتی که $k < 0$ به‌عنوان تمرین به شما واگذار شده است.
+</p>
+
+
+
+<br><hr><br>
+<div class="MsoStep">کاردرکلاس</div>
+
+<p class="MsoNormal">
+۱- (الف) فرض کنید پاره‌خط $A'B'$ مجانس پاره‌خط $AB$ در تجانس به مرکز $O$ و نسبت $k$ باشد: نشان دهید $\dfrac{A'B'}{AB} = |k|$ (نقطه $O$ را خارج $AB$ در نظر بگیرید.)
+</p>
+<br>
+<p class="MsoNormal">
+(ب) اگر ضلعی $  A_1' A_2' \dots A_n'$ مجانس $n$ضلعی $A_1 A_2 \dots A_n$ باشد، نشان دهید این دو $n$ضلعی با هم مشابه‌اند.
+</p>
+<br><br>
+<p class="MsoNormal">
+۲- با توجه به ویژگی‌های تجانس و به کمک مثال نقض نشان دهید دو شکل مشابه، الزاماً مجانس نیستند.
+</p>
+<br><hr><br>
+<div class="MsoStep">فعالیت</div>
+
+<p class="MsoNormal">
+پیش از این دیدیم که اگر نقطه‌ای روی خط بازتاب باشد، تصویر آن بر خودش منطبق می‌شود؛ به عبارتی $A'$ همان $A$ است و داریم $S(A) = A' = A$. این نقاط را نقاط .................. نامیم. اما برخی از تبدیل‌ها، هر نقطهٔ صفحه را به خودش نظیر می‌کند؛ چنین تبدیل‌هایی را تبدیل همانی می‌نامیم.
+</p>
+<br>
+<div class="boxp">
+    <p class="MsoSemi"><mark>تعریف:</mark></p>
+    <p class="MsoNormal">
+        تبدیل $T$ را <mark>تبدیل همانی</mark> گوییم، هر گاه به ازای هر نقطهٔ $A$ از صفحه $P$ داشته باشیم $T(A) = A$.
+    </p>
+</div>
+<br><br>
+<p class="MsoNormal">
+معمولاً تبدیل‌های همانی را با $I$ نمایش می‌دهند؛ پس $I(A) = A$.
+</p>
+
+<br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class="MsoNormal">
+    دقت کنید که در بازتاب به جز نقاطی که روی خط بازتاب قرار دارند، تصویر هر نقطه مثل $A$، نقطه‌ای مثل $A'$ است که در طرف دیگر خط بازتاب قرار دارد. بنابراین بازتاب هیچ‌گاه، تبدیل همانی نیست.
+    </p>
+    <br>
+    <p class="MsoNormal">
+    (الف) در چه شرایطی انتقال، دوران و تجانس، می‌تواند تبدیل همانی باشد؟
+    </p>
+    <br>
+    <p class="MsoNormal">
+    (ب) آیا تبدیل همانی طول‌پاست؟
+    </p>
+    <br>
+    <p class="MsoNormal">
+    (پ) توضیح دهید که در هر یک از تبدیل‌های زیر، آیا می‌توان نقطه ثابت تبدیل داشت؟
+    <br>
+    $*$
+    انتقال غیر همانی
+    <br>
+    $*$
+     دوران غیر همانی
+     <br>
+     $*$
+    تجانس غیر همانی
+    </p>
+    
+    <br><hr><br>
+    <div class="MsoStep">کاردرکلاس</div>
+    
+    <p class="MsoNormal">
+    ۱- درستی یا نادرستی هر عبارت را داخل جدول مشخص کنید.
+    </p>
+    <br>
+    <table class="table" style="text-align: center; margin: auto; direction: rtl;width:fit-content;">
+        <tr>
+            <th>ویژگی</th>
+            <th>بازتاب</th>
+            <th>انتقال</th>
+            <th>دوران</th>
+            <th>تجانس</th>
+        </tr>
+        <tr>
+            <th>طول پاره‌خط را حفظ می‌کند.</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>اندازه زاویه را حفظ می‌کند.</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>شیب خط را حفظ می‌کند.</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>جهت شکل را حفظ می‌کند.</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>مساحت شکل را حفظ می‌کند.</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    
+    <br>
+    <br><hr><br>
+
+
+
+    
+    <div class="MsoStep">تمرین</div>
+    
+    <p class="MsoNormal">
+    ۱- در تجانسی با نسبت $k < 0$ و مرکز تجانس $O$ (نقطه $O$ را خارج $AB$ در نظر بگیرید) نشان دهید:
+    </p>
+    <br>
+    <p class="MsoNormal">
+    (الف) تجانس شیب خط را حفظ می‌کند.
+    </p>
+    <br>
+    <p class="MsoNormal">
+    (ب) تجانس زاویه بین خطوط را حفظ می‌کند.
+    </p>
+    <br><br>
+    <p class="MsoNormal">
+    ۲- دایره $C(O, R)$ و نقطه $M$ خارج این دایره مفروض است. مجانس این دایره را نسبت به نقطه $M$ در هر حالت رسم کنید.
+    </p>
+    <br>
+    <p class="MsoNormal">
+        $*$
+    راهنمایی: تصویر مرکز و یک نقطه دلخواه از دایره را تحت تجانس پیدا کنید.
+    </p>
+    <br>
+    <p class="MsoNormal">
+    (الف) $k = 2$
+    </p>
+    <p class="MsoNormal">
+    (ب) $k = -2$
+    </p>
+    <p class="MsoNormal">
+    (پ) $k = \dfrac{1}{2}$
+    </p>
+    
+
+<br><br>
+
+<p class="MsoNormal">
+    ۳- یک مربع را در تجانسی با نسبت تجانس $\dfrac{2}{3}$ و به مرکز محلی تلاقی قطرها تصویر کرده‌ایم. اگر مساحت بین مربع و تصویرش $5$ باشد، محیط مربع اولیه را محاسبه کنید.
+    </p>
+    <br><br>
+    <p class="MsoNormal">
+    ۴- در شکل روبرو اگر خط $l$ را در تجانس به مرکز $O$ و نسبت تجانس $\dfrac{7}{4}$ تصویر کنیم و آن را 
+     $l'$ بنامیم،
+      مساحت بین خط $l$ و $l'$ و خطوط $d$ و $d'$ 
+     چقدر است؟
+    </p>
+    
+
+<br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br><br><br><br>
+
+
+    </body>
+
+
+</html>

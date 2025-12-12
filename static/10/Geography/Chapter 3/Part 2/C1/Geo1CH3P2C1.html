@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 900px;
+            margin: auto;
+            font-size: clamp(1rem, 2.5vw, 2rem);
+        }
+
+        span {
+            font-size: clamp(1rem, 2.4vw, 2rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 2.5vw, 2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.5rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.1rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #87a5ff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+
+        .images {
+            width: -webkit-fill-available;
+            display: block;
+            max-width: 80%;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+    </style>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+<body>
+    <p class="MsoBold">درس 8</p>
+    <p class="MsoBold">تقسیمات کشوری ایران</p>
+    <p class="MsoNormal">
+        به تصاویر شناسنامه‌های زیر توجه کنید. به نظر شما موارد مشخص شده با رنگ سفید به چه مفهوم جغرافیایی در ایران اشاره دارد؟
+    </p>
+
+    <br><br>
+
+    <p class="MsoStep">فعالیت:1</p>
+    <p class="MsoNormal">صفحۀ خالی شناسنامه را با مشخصات خود پر کنید و نام هر کدام از تقسیمات ذکر شده را با توجه به صفحۀ اول شناسنامه خودتان تکمیل نمایید.</p>
+
+    <br><br>
+
+    <p class="MsoStep">تاریخچۀ تقسیمات کشوری در ایران</p>
+    <br>
+    <p class="MsoStep">پیش از اسلام</p>
+    <p class="MsoNormal">
+        پس از ورود آریاییان به فلات ایران و در نخستین مرحلۀ زندگی اجتماعی، یک آبادی کوچک را «ویس» و آبادی بزرگ‌تر را «گئو» می‌نامیدند. بعدها در عصر هخامنشیان، داریوش کشور را به سی َشْهَربیکه همان شهر می‌باشد، تقسیم کرد و برای هر یک از آنان مأمورینی گماشت که آنها را شهربان و به یونانی «ساتراپ» می‌گفتند. در دوران سلوکیان کشور به 72 بخش تقسیم شد. قسمت‌های حکومت هخامنشی در حکومت اشکانیان یا پارت‌ها ادامه داشت. در دوره ساسانیان، کشور به سرزمین (ایالت)، خوره (استان)، تسوگ یا تسوج (شهرستان) و رستاک (دهستان) تقسیم شده بود.
+    </p>
+
+    <br><br>
+
+    <p class="MsoNormal">شکل 1 ـ نقشۀ تقسیمات کشوری ایران در زمان هخامنشیان</p>
+    
+    <br><br>
+
+    <p class="MsoStep">بعد از اسلام</p>
+    <p class="MsoNormal">
+        در دوره عباسیان، قلمرو جغرافیایی آنها به واحدهایی تحت عنوان «ایالت» تقسیم‌بندی می‌شد که در مجموع به 31 ایالت می‌رسید. در دوره صفویه، افشاریه، زندیه و قاجاریه عناصر اصلی تقسیمات کشوری به ترتیب عبارت بودند از: ایالت، ولایت، بلوک و قصبه. در دوره قاجاریه ایران به چهار ایالت و دوازده ولایت تقسیم شد. این ایالت‌ها عبارت بودند از: آذربایجان، کرمان و بلوچستان، فارس و بنادر، خراسان و سیستان.
+    </p>
+    <p class="MsoNormal">
+        در سال 1316 با تصویب قانون تقسیمات کشوری، ایران به ده استان که نام هر استان یک عدد بود و 49 شهرستان تقسیم شد. در این قانون، هر استان به چند شهرستان و هر شهرستان به چند بخش و هر بخش به چند دهستان و هر دهستان به چند قصبه تقسیم می‌شد.
+    </p>
+
+    <br><br>
+
+    <p class="MsoNormal">
+        در سال 1357 ه.ش، در آستانۀ پیروزی انقلاب اسلامی، ایران به 24 استان تقسیم شد. در سال 1372 ه.ش طرح اولین استان جدید با نام اردبیل به تصویب مجلس شورای اسلامی رسید و پس از آن استان‌های قم، قزوین، گلستان، خراسان‌های شمالی، رضوی، جنوبی و البرز اضافه شدند.
+    </p>
+
+    <br><br>
+
+    <p class="MsoStep">تقسیمات کشوری در ایران</p>
+    <p class="MsoNormal">
+        برای ادارۀ بهتر کشور، عرضه خدمات مناسب‌تر و تأمین نیازهای مردم، آن را به واحدهای کوچک‌تری تقسیم می‌کنند. این تقسیمات، متناسب با موقعیت و زمان، تغییر می‌یابد. واحد تقسیمات کشوری ایران در حال حاضر عبارت است از:
+    </p>
+    <br>
+    <p class="MsoNormal">
+        <b>استان:</b> واحدی از تقسیمات کشوری است که با محدودۀ جغرافیایی معین، از به‌هم پیوستن چند شهرستان هم‌جوار با توجه به موقعیت‌های سیاسی، اجتماعی، فرهنگی، اقتصادی و طبیعی تشکیل می‌شود. استان، توسط استاندار اداره می‌شود.
+    </p>
+    <br>
+    <p class="MsoNormal">
+        <b>شهرستان:</b> واحدی از تقسیمات کشوری با محدودۀ جغرافیایی معین است که از به‌هم پیوستن چند بخش هم‌جوار تشکیل شده که از نظر عوامل طبیعی و اوضاع اجتماعی، اقتصادی، سیاسی و فرهنگی، واحد متناسب و هم‌گنی را به‌وجود آورده است. شهرستان توسط فرماندار اداره می‌شود.
+    </p>
+    <br>
+    <p class="MsoNormal">
+        <b>بخش:</b> واحدی از تقسیمات کشوری با محدودۀ جغرافیایی معین است که از به‌هم پیوستن چند دهستان هم‌جوار، شامل چندین مزرعه، مکان، روستا و احیاناً شهر تشکیل شده که از نظر عوامل طبیعی و اوضاع اجتماعی، فرهنگی، اقتصادی و سیاسی، واحد هم‌گنی را به وجود آورده است. بخش، توسط بخشدار اداره می‌شود.
+    </p>
+    <br>
+    <p class="MsoNormal">
+        <b>دهستان:</b> کوچک‌ترین واحد تقسیمات کشوری با محدودۀ جغرافیایی معین است که از به‌هم پیوستن چند روستا، مکان و مزرعۀ هم‌جوار تشکیل می‌شود و از لحاظ محیط طبیعی، فرهنگی، اقتصادی و اجتماعی هم‌گن است و امکان خدمات‌رسانی و برنامه‌ریزی در سامانه و شبکه‌ای واحد را فراهم می‌سازد.
+    </p>
+    <br>
+    <p class="MsoNormal">
+        <b>شهر:</b> محلی است با حدود قانونی که در محدوده جغرافیایی بخش واقع شده و از نظر بافت ساختمانی، اشتغال و سایر عوامل، دارای سیمایی با ویژگی‌های خاص خود بوده، به‌طوری که اکثریت ساکنان دائمی آن در مشاغل کسب، تجارت، صنعت، کشاورزی، خدمات و فعالیت‌های اداری اشتغال دارند. شهر توسط شهردار اداره می‌شود.
+    </p>
+    <br>
+    <p class="MsoNormal">
+        <b>روستا:</b> واحد مبدأ تقسیمات کشوری است که از لحاظ محیط زیستی، وضعیت طبیعی، اجتماعی، فرهنگی و اقتصادی هم‌گن بوده که حداقل تعداد 20 خانوار یا 100 نفر در آنجا سکونت داشته باشند.
+    </p>
+
+    <br><br>
+
+    <p class="MsoStep">فعالیت 2: شناخت محل زندگی خود</p>
+    <p class="MsoNormal">
+        1- به‌طور گروهی، نقشۀ استان خود را ترسیم، و شهرستان‌های آن را مشخص کنید.
+        <br><br>
+        2- با مراجعه به بخش تقسیمات کشوری، وضعیت محل زندگی خود را از نظر قرارگیری در شهرستان، بخش، روستا و شهر، مشخص، و مانند تصاویر بالا برای هر کدام، نقش‌هایی تهیه کنید.
+        <br><br>
+        3- با مراجعه به سایت اینترنتی استانداری یا ادارۀ سیاسی محل زندگی خود، جدیدترین تغییرات تقسیمات کشوری استان خود را تهیه، و به کلاس گزارش کنید.
+    </p>
+</body>
+
+
+
+
+
+
+
+</html>

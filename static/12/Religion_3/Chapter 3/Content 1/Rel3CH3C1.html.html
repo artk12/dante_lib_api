@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #badaff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .box {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+    <body class="custom-scrollbar">
+
+        <p class="MsoBold">درس سوم: توحید و سبک زندگی</p>
+
+        <p class="MsoNormal">بر آستان جانان گر سر توان نهادن<br>گلبانگ سربلندی بر آسمان توان زد1</p><br><br>
+        
+        <p class="MsoNormal">وقتی برای خرید یک کالا به بازار می‌رویم، معمولاً با رسیدن به اولین مغازه و دیدن اولین نمونه دست به خرید نمی‌زنیم، بلکه با جست‌وجو، بهترین‌ها را انتخاب می‌کنیم.</p><br><br>
+        
+        <p class="MsoNormal">امروزه در بازار سبک زندگی، سبک‌های گوناگونی از زیستن تبلیغ می‌شود که ما باید از میان آن‌ها بهترین را انتخاب کنیم. انتخاب هر یک از این سبک‌ها، مسیر زندگی ما را تغییر می‌دهد و سرنوشت دنیا و آخرت ما را رقم می‌زند. وقتی برای خرید یک کالا، آن‌چنان دقت و حساسیتی به‌خرج می‌دهیم، پس باید این انتخاب مهم براساس فکر و به‌دور از احساسات باشد و دلیلی محکم و عقل‌پسند از آن حمایت کند. خوب است بدانیم که هر سبکی از زندگی، ریشه در اندیشه‌های خاصی داشته و از جهان‌بینی2 ویژه‌ای سرچشمه می‌گیرد. شناخت آن ریشه‌ها کمک فراوانی به تصمیم‌گیری درست ما خواهد کرد.</p><br><br>
+        
+        <p class="MsoNormal">«زندگی توحیدی» نیز شیوه‌ای از زندگی است که ریشه در جهان‌بینی توحیدی دارد و در درس‌های گذشته تا حدودی با این جهان‌بینی آشنا شدیم. در این درس می‌خواهیم به این پرسش پاسخ دهیم که ایمان به خداوند، به عنوان خالق و پروردگار جهان، چه سبکی از زندگی را به دنبال می‌آورد و در مقابل آن کدام سبک از زندگی قرار می‌گیرد؟</p>
+        
+        <br><hr><br>
+        
+        <p class="MsoStep">یادآوری</p>
+        
+        <p class="MsoNormal">در پایهٔ دهم، این اصل کلی را آموختیم که افکار و اعتقادات هر فرد مهم‌ترین عامل در تعیین هدف‌ها و رفتارهای اوست؛ مثلاً اگر کسی پذیرفت و ایمان پیدا کرد که سعادت بشر در کسب ثروت است و انسان فقط با لذات مادی خوشبخت می‌شود، به‌طور طبیعی، زندگی خود را صرف رسیدن به همین هدف می‌کند. یا اگر کسی چنین اندیشید و واقعاً معتقد شد که دانش و آگاهی، بزرگ‌ترین کمال انسان است و هیچ امر دیگری با آن قابل مقایسه نیست، عمر خود را به کسب علم خواهد گذراند و در همین راه تلاش خواهد کرد.</p><br><br>
+        
+        <p class="MsoNormal">پس هر فردی متناسب با اعتقادات خویش، مسیر زندگی خود را انتخاب و بر همان اساس رفتار خواهد کرد.</p>
+        
+        <br><hr><br>
+        
+        <p class="MsoStep">بازتاب توحید در زندگی</p>
+        
+        <p class="MsoNormal">با توجه به اصل فوق می‌توانیم بگوییم انسانی که خداوند را به‌عنوان تنها خالق جهان پذیرفته است و ایمان دارد که او پروردگار هستی است، رفتاری متناسب با این اعتقاد خواهد داشت و جهت زندگی خود را خدا قرار خواهد داد. چنین انسانی در مسیر «توحید عملی» حرکت می‌کند. به‌عنوان مثال، می‌توانیم از جعفر بن ابی‌طالب یاد کنیم که در حضور «نجاشی»، پادشاه حبشه، اثرات پذیرش این اعتقاد را، این‌گونه توصیف کرد:</p><br><br>
+        
+        <p class="MsoNormal">«ما قبلاً قومی جاهل بودیم، بت می‌پرستیدیم، مردار می‌خوردیم، مرتکب زشتی‌ها می‌شدیم، پیوند خویشاوندی را قطع می‌کردیم، بی‌پناه را پناه نمی‌دادیم و قوی، ضعیف را می‌بلعید. این چنین بودیم تا اینکه خداوند از میان ما پیامبری مبعوث فرمود که خانواده‌اش را می‌شناسیم و به صداقت و امانت‌داری و عفتش ایمان داریم.</p><br><br>
+        
+        <p class="MsoNormal">پیامبر، ما را به خدا فراخواند که او را یگانه بدانیم، عبادت کنیم و آنچه را که خود و پدرانمان می‌پرستیدیم کنار بگذاریم، چیزی را شریک او قرار ندهیم، او ما را به عدل، احسان، راستی، درستی، امانت‌داری و نیکی نسبت به خویشان و همسایگان دعوت کرد و از خوردن مال یتیم و ارتکاب فحشا و منکر و دروغ نهی کرد و دستور داد نماز را به پا داریم، زکات بپردازیم و ماه رمضان را روزه بگیریم، ما نیز او را تصدیق کرده و به او ایمان آوردیم و از او پیروی کردیم.»</p><br><br>
+        
+        <p class="MsoNormal">البته، از آن‌جا که ایمان همهٔ افراد یکسان نیست و دارای شدت و ضعف است، میزان تأثیرگذاری این اعتقاد بستگی به درجهٔ ایمان افراد به توحید و یکتاپرستی دارد. هرچه ایمان قوی‌تر باشد تأثیر عملی آن در زندگی بیشتر و هرچه ضعیف‌تر باشد تأثیر آن کمتر خواهد بود. با این معیار، هر کس می‌تواند درجهٔ ایمان خود و تأثیر آن را در زندگی خویش بررسی کند.</p> 
+        
+        <br><hr><br>
+        
+        <p class="MsoStep">تدبر در قرآن (۱)</p>
+        <p class="MsoNormal">با تدبر در آیه زیر به سؤالات پاسخ دهید:</p><br><br>
+        <p class="MsoNormal">اِنَّ اللَّهَ رَبِّی وَرَبُّكُمْ فَاعْبُدُوهُ ۚ هَٰذَا صِرَاطٌ مُسْتَقِیمٌ</p><br><br>
+        <p class="MsoNormal">همانا خداوند پروردگار من و پروردگار شماست، پس او را بندگی کنید، که این راه راست و درست است.</p><br><br>
+        <p class="MsoNormal">۱ــ چرا تنها خداوند را باید عبادت کرد؟</p><br><br>
+        <p class="MsoNormal">۲ــ چرا خداوند بندگی خود را، راه راست و درست زندگی بیان کرده است؟</p><br><br>
+        <br><hr><br>
+        <p class="MsoNormal">توحید عملی دارای دو بعد فردی و اجتماعی است که به تبیین هر یک می‌پردازیم:</p>
+        
+        
+        
+        <p class="MsoStep">الف) بُعد فردی توحید عملی و ثمرات آن:</p>
+        <p class="MsoNormal">هرکسی در زندگی خود از فرمان‌های خدا اطاعت کند، گام در مسیر توحید عملی گذاشته است. چنین فردی می‌کوشد تمایلات درونی و تصمیم‌ها و فعالیت‌های خود را در جهت خواست و رضایت الهی قرار دهد؛ مثلاً در انتخاب همسر، شغل، دوست، در چگونگی تحصیل، تفریح، ورزش و حتی در انتخاب نوع پوشش و به‌طور کلی در تمام برنامه‌های روزانهٔ خود خدا را در نظر می‌گیرد و تلاش می‌کند از دایرهٔ فرمان‌های او خارج نشود.</p><br><br>
+        
+        <p class="MsoNormal">از نظر انسان موحد هیچ حادثه‌ای در عالم بی‌حکمت نیست، گرچه حکمت آن را نداند. از همین‌رو موحد واقعی همواره انسانی امیدوار است. در مقابل سختی‌ها و مشکلات، صبور و استوار است و آن‌ها را زمینهٔ موفقیت‌های آینده‌اش قرار می‌دهد. باور دارد که دشواری‌های زندگی نشانهٔ بی‌مهری خداوند نیست، بلکه بستری برای رشد و شکوفایی اوست.</p>
+        
+        <br><hr><br>
+        
+        <p class="MsoStep">خود ارزیابی</p>
+        <p class="MsoNormal">
+          با تفکر در رفتارهای خود، بررسی کنيد که تا چه اندازه ويژگی های توحيد فردی در شما وجود دارد.
+        </p>
+        
+        
+        <br><hr><br>
+        
+        <p class="MsoNormal">در مقابل، اگر کسی دل به هوای نفس (بت درون) سپرده و او را معبود خود قرار دهد و اوامرَش را به فرمان‌های خداوند ترجیح دهد یا در پی کسب رضایت قدرت‌های مادی و طاغوت‌ها (بت‌های بیرون) برآید، چنین شخصی گرفتار شرک عملی شده است.</p><br><br>
+        
+        <p class="MsoNormal">أَرَأَيْتَ مَنِ اتَّخَذَ إِلَٰهَهُ هَوَاهُ ۚ أَفَأَنْتَ تَكُونُ عَلَيْهِ وَكِیلًا3</p><br><br>
+        <p class="MsoNormal">آیا دیدی آن کسی را که هوای نفس خود را معبود خود گرفت، آیا تو ضامن او می‌باشی [و به دفاع از او برمی‌خیزی]؟</p><br><br>
+        <p class="MsoNormal">با تفکر در رفتارهای خود، بررسی کنید که تا چه اندازه ویژگی‌های توحید فردی در شما وجود دارد.</p><br><br>
+        
+        <p class="MsoNormal">تسلیم بودن در برابر امیال نفسانی و فرمان‌پذیری از طاغوت باعث می‌شود شخص، درونی ناآرام و شخصیتی ناپایدار داشته باشد؛ زیرا از یک‌سو هوای نفس وی هر روز خواستهٔ جدیدی جلوی روی او قرار می‌دهد و از سوی دیگر، قدرت‌های مادی که هر روز رنگ عوض می‌کنند او را به بردگی جدیدی می‌کشانند.</p>
+        
+        <br><hr><br>
+        
+        <p class="MsoStep">تدبر در قرآن (۲)</p>
+        
+        <p class="MsoNormal">با توجه به آیهٔ زیر به سؤالات پاسخ دهید:</p><br><br>
+        <p class="MsoNormal">وَمِنَ النَّاسِ مَنْ یَعْبُدُ اللَّهَ عَلَى حَرْفٍ ۖ فَإِنْ أَصَابَهُ خَیْرٌ اطْمَأَنَّ بِهِ ۖ وَإِنْ أَصَابَتْهُ فِتْنَةٌ انْقَلَبَ عَلَىٰ وَجْهِهِ ۖ خَسِرَ الدُّنْیَا وَالْآخِرَةَ ۚ ذَٰلِكَ هُوَ الْخُسْرَانُ الْمُبِینُ</p><br><br>
+        <p class="MsoNormal">از مردم کسی هست که خدا را بر یک جانب و کناره‌ای [تنها به زبان و هنگام وسعت و آسودگی] عبادت و بندگی می‌کند، پس اگر خیری به او رسد، دلش به آن آرام می‌گیرد و اگر بلایی به او رسد، از خدا روی‌گردان می‌شود. او در دنیا و آخرت، [هر دو]، زیان می‌بیند. این همان زیان آشکار است.</p><br><br>
+        <p class="MsoNormal">۱ــ پرستشی که از روی ایمان باشد با پرستشی که از روی تردید باشد چه تفاوتی دارد؟</p><br><br>
+        <p class="MsoNormal">۲ــ چرا برخی انسان‌ها در برابر هر خیر و شری که به آن‌ها می‌رسد دو روش متفاوت پیش می‌گیرند؟</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><hr><br>
+
+<p class="MsoStep">ب) بُعد اجتماعی توحید عملی و ثمرات آن:</p>
+
+<br><br>
+
+
+
+<p class="MsoNormal">بُعد اجتماعی توحید به معنای قرار گرفتن همهٔ ارکان یک جامعه در جهت خداوند و اطاعت همه‌جانبه از اوست. مهم‌ترین رکن یک جامعه حکومت آن است. وقتی یک جامعه توحیدی است که حاکم آن براساس قوانین الهی به حکومت رسیده باشد و همان شرایطی را که خداوند برای حاکم تعیین کرده است دارا باشد و بکوشد قوانین الهی را در جامعه به اجرا درآورد.</p><br><br>
+<p class="MsoNormal">یک جامعه، علاوه بر رکن سیاسی، دارای ارکان دیگری مانند اقتصاد و فرهنگ نیز هست. جامعه‌ای که در مسیر توحید اجتماعی حرکت می‌کند، اقتصاد و فرهنگ و سایر ابعاد و ارکان آن نیز به سوی اجرای فرمان‌های خدای یگانه پیش می‌رود و به‌صورت جامعه‌ای عدالت‌گستر درمی‌آید. جامعهٔ توحیدی، حکومت کسانی را که خداوند به آنها حق حکومت نداده است نمی‌پذیرد، با آنان که نسبت به خداوند و مسلمانان دشمنی می‌ورزند، دوستی نمی‌کند، با ظالمان مبارزه می‌کند، بنابه فرمان خداوند، از محرومان و مستضعفان حمایت می‌کند و به این سخن خداوند گوش فرامی‌دهد که فرموده است:</p><br><br>
+<p class="MsoNormal">یا أَیُّهَا الَّذینَ آمَنُوا لا تَتَّخِذُوا عَدُوِّی وَعَدُوَّکُمْ أَوْلِیاءَ تُلْقُونَ إِلَیْهِمْ بِالْمَوَدَّةِ وَقَدْ کَفَرُوا بِما جاءَکُمْ مِنَ الْحَقِّ...1</p><br><br>
+<p class="MsoNormal">ای کسانی که ایمان آورده‌اید، دشمن من و دشمن خودتان را دوست نگیرید، [به‌گونه‌ای که] با آنان مهربانی کنید حال آنکه آنان به دین حقی که برای شما آمده است، کفر ورزیده‌اند...</p>
+
+<br><hr><br>
+
+
+<p class="MsoStep">دانش تکمیلی</p>
+
+
+<p class="MsoNormal">
+  ممکن است کسی بپرسد: چرا با وجود آنکه کشور ما براساس قوانین اسلامی اداره می‌شود، در ابعاد مختلف اقتصادی و فرهنگی با معیارهای جامعه توحیدی فاصله دارد؟ برای دریافت پاسخ این سؤال به وبگاه گروه قرآن و معارف اسلامی به نشانی http://quran-dept.talif.sch.ir بخش «دانش تکمیلی»، مراجعه کنید.
+</p>
+
+
+<br><hr><br>
+
+
+
+<p class="MsoStep">توحید و شرک در جهان امروز</p>
+<p class="MsoNormal">توحید، روح و محور زندگی دینی و شرک روح و محور زندگی ضد دینی است. تا اینجا مراتب و ابعاد توحید را شناخته‌ایم. اکنون می‌خواهیم ببینیم زندگی انسان عصر حاضر تا چه اندازه توحیدی است و کدام‌یک از مراتب توحید در آن بیشتر مورد غفلت قرار گرفته است. منظور ما از انسان عصر حاضر تمام افراد جامعه نیست، بلکه جو حاکم بر اکثریت افراد است، نه تک‌تک افراد. می‌دانیم که جوامع بشری، امروز از نظر صنعت و فناوری پیشرفت فراوانی کرده‌اند و این جوامع را نمی‌توان از این جهت با جوامع گذشته مقایسه کرد. همچنین انسان امروز کمتر از بت‌پرستان قبل از اسلام، که بیش از 360 بت را می‌پرستیدند1، به دنبال این قبیل بت‌پرستی‌هاست. بنابراین، جای طرح این سؤال هست که آیا انسان و جوامع بشری به سوی زندگی توحیدی حرکت می‌کنند؟</p><br><br>
+<p class="MsoNormal">در ابتدا به نظر می‌رسد که امروزه کمتر کسی گرفتار شرک باشد و از این جهت نیز بشر در مسیر پیشرفت می‌باشد، اما یک واقعیت تلخ در اینجا وجود دارد و آن این است که گرچه شرک در قالب بت و مانند آن در میان بیشتر جوامع امروزی وجود ندارد، اما انواع دیگری از شرک که بسیار پیچیده‌تر از شرک قدیم است، در میان بشر به چشم می‌خورد که خوب است به آنها توجه کنیم و برای دوری از آنها تلاش نماییم؛ از جمله اینکه:</p><br><br>
+<p class="MsoNormal">۱ــ امروزه، بسیاری از انسان‌ها، جهان خلقت را ملک خود تلقی می‌کنند و بدون توجه به نظر مالک حقیقی آن، یعنی خدا، هرگونه که بخواهند در این جهان تصرف می‌کنند. این افراد و جوامع، درواقع خود را مالک و ولی و پرورش‌دهنده (رب) جهان می‌پندارند که از جمله پیامدهای آن تخریب محیط‌زیست، آلوده شدن طبیعت، پیدا شدن جوامع بسیار فقیر در کنار جوامع بسیار ثروتمند و مانند آنهاست. برخی از این انسان‌ها، مانند فرعون که «أَنَا رَبُّكُمُ الْأَعْلَى»1 می‌گفت و خود را پروردگار بزرگ مردم معرفی می‌کرد؛ خود را مالک دیگر جوامع می‌پندارند و برای آنها تصمیم‌گیری می‌کنند.</p><br><br>
+<p class="MsoNormal">۲ــ بسیاری از انسان‌ها چنان به امور دنیوی سرگرم شده‌اند که خدا را فراموش کرده و خداوند در قلب آنها جایگاهی ندارد؛ زینت دنیا و لذات و شهوات چنان در دلشان فزونی یافته که جایی برای خلوت انس با خدا و درک معنویت نیایش با پروردگار باقی نگذاشته است2. گویی هوی و هوس و آنچه و آن کس که آنان را به هوس‌هایشان می‌رساند، بت و معبودشان شده و آنها را همچون خدا می‌پرستند؛ و از ابزارهای جدید مانند سینما، تلویزیون، ماهواره، اینترنت و سایر رسانه‌ها در این راه بهره می‌گیرند و یکسره از خدا و آخرت غافل شده‌اند. به نظر شما وظیفهٔ ما در مقابل وضع موجود چیست و چگونه می‌توانیم به اصلاح جامعهٔ امروزی اقدام کنیم؟</p>
+
+<br><hr><br>
+
+<p class="MsoStep">تحلیل و بررسی</p>
+<p class="MsoNormal">دربارهٔ این سؤال‌ها فکر کنید و در صورت نیاز با دبیر خود مشورت کرده و پاسخی برای هریک تهیه نمایید؛ سپس نتیجهٔ تحلیل و بررسی خود را در کلاس ارائه کنید.</p><br><br>
+<p class="MsoNormal">ــ آیا به‌طور کلی انسان امروزی بیش از گذشته به یاد خداست؟</p><br><br>
+<p class="MsoNormal">ــ آیا مردم در انتخاب نوع پوشش، غذا، تفریح، مشاهدهٔ فیلم، مطالعهٔ کتاب، ورود به سایت‌های اینترنتی و شبکه‌های اجتماعی حلال و حرام الهی را مراعات می‌کنند؟</p><br><br>
+<p class="MsoNormal">ــ آیا بشر امروز، اصولاً به دنبال یادگیری تکالیف الهی خود است؟</p><br><br>
+<p class="MsoNormal">ــ الگوهای بشر امروزی چگونه‌اند؟ آیا الگوهایی هستند که سبک زندگی آنها موردپسند و رضایت خداوند باشد؟</p><br><br>
+<p class="MsoNormal">ــ به نظر شما چگونه می‌توان مظاهر شرک را از جامعه دور کرد و مظاهر توحید را تقویت نمود؟</p>
+
+
+
+<br><hr><br>
+
+<p class="MsoStep">اندیشه و تحقیق</p>
+<p class="MsoNormal">آیا می‌توان تنها به جنبهٔ فردی توحید عملی معتقد بود ولی جنبهٔ اجتماعی آن را قبول نداشت؟</p>
+
+
+
+
+
+<br><br><br><br><br>
+
+
+
+
+
+
+
+    </body>
+
+
+</html>

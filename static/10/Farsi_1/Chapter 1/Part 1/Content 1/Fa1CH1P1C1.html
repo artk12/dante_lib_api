@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #badaff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #722a85;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background-color: #1abbbbe1; /* Scrollbar thumb color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color: #05ffe2;
+        }
+    </style>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+<body class="custom-scrollbar">
+
+<p class="MsoBold">
+    فصل اول:
+    ستایش
+</p>
+
+
+
+
+<p class="MsoStep">
+   به نام کردار
+</p>
+
+<br><br><br><br>
+
+<p class="MsoNormal" style="text-align: center; color:#05ffe2">
+    placeholder for the poem
+</p>
+
+<br><br><br><br>
+
+<p class="MsoNormal">
+   الهی نامه٬ عطار نیشابوری
+</p>
+
+<br><hr><br>
+
+<div class="MsoBold">
+    گونه شناسی
+</div>
+
+<div class="MsoStep">
+    ادبیات تعلیمی
+</div>
+
+<div class="MsoNormal">
+    در این فصل، متن‌هایی را می‌خوانیم که در آنها شاعر یا نویسنده، خواسته است موضوع و مفهومی رفتاری، اخلاقی یا مسئله‌ای اجتماعی و پندآموز را به شیوهٔ اندرز بازگو کند؛ برای این کار از داستان یا حکایت در قالب شعر و نثر بهره گرفته است؛ به این گونه آثار ادبی، «ادبیات تعلیمی» می‌گویند. اثر تعلیمی، اثری است که با هدف آموزش و تعلیم، موضوع‌هایی از حکمت، اخلاق، مذهب یا دانشی از معارف بشری را بیان می‌کند. آثار تعلیمی می‌توانند تخیلی ـ ادبی باشند تا مسئله‌ای را به‌صورت روایی یا نمایشی با جذابیت بیشتر ارائه دهند. از این گونه آثار ادبی، به‌ویژه در کتاب‌های درسی و ادبیات کودک و نوجوان بهره می‌گیرند. بسیاری از شاهکارهای ادبی (قابوس‌نامه، کلیله‌ودمنه، گلستان، بوستان، مثنوی معنوی و...) و برخی آثار طنز، جنبهٔ تعلیمی دارند.
+</div>
+
+<br><hr><br>
+
+<p class="MsoStep">
+    درس یکم:‌چشمه
+</p>
+
+<br><br><br><br>
+
+<p class="MsoNormal" style="text-align: center; color:#05ffe2">
+    placeholder for the poem
+</p>
+<br><br><br><br>
+<p class="MsoNormal">
+    نیما یوشیج (علی اسفندیاری)
+ </p>
+
+ <br><br><br><br><hr>
+ <div class="MsoBold">
+    کارگاه متن پژوهی
+</div>
+
+<div class="MsoStep">
+    قلمرو زبانی
+</div>
+<br>
+<div class="MsoNormal">
+    1- معنای واژه‌های مشخص‌شده را با معادل امروزی آنها مقایسه کنید. در بـن ایـن پردۀ نیلوفـری کیست کند با چو منی همسری؟<br>
+    راست بـه مانند یکی زلزله داده تنش بـر تن ساحل، یله
+</div>
+<br>
+<div class="MsoNormal">
+    2- بیت زیـر را بـر اساس ترتیب اجـزای جمله در زبان فارسی، مرتّب کنید. «گشت یکی چشمه ز سنگی جدا غلغلـه زن، چهره نمـا، تیز پا»
+</div>
+<br><hr><br>
+<div class="MsoStep">
+    قلمرو ادبی
+</div>
+<br>
+<div class="MsoNormal">
+    1- هر یک از بیت‌های زیر را از نظر آرایه‌های ادبی بررسی کنید.<br>
+    چون بگشـایم ز ســر مــو، شـکن مــاه ببینــد رخ خــــود را بـه مـــن<br>
+    گه به دهـان، بر زده کف، چون صدف گــاه چو تیـــری کـه رود بر هـــدف
+</div>
+<br><br>
+<div class="MsoNormal">
+    2- با توجه به شعر نیما، «چشمه» نماد چه کسانی است؟
+</div>
+<br><br>
+<div class="MsoNormal">
+    3- آمیختن دو یا چند حس و یا یک حس با پدیده‌ای ذهنی (انتزاعی)، در کلام را «حس‌آمیزی» می‌گویند.<br>
+    نمونه: «حرف‌هایم مثل یک تکه چمن روشن بود.» در این نمونه، سپهری از «روشن بودن حرف» سخن گفته است. «روشن بودن» امری دیدنی و «حرف»، شنیدنی است. شاعر در این مصراع، دو حس بینایی و شنوایی را با هم آمیخته است.<br>
+    نمونه‌ای از کاربرد این آرایهٔ ادبی را در سرودهٔ نیما بیابید.
+</div>
+<br><br>
+<div class="MsoNormal">
+    4- هر واژه‌ای امکان دارد در معنای حقیقی و یا معنای غیرحقیقی به کار رود. به معنای حقیقی واژه، «حقیقت» و به معنای غیرحقیقی آن، «مجاز» می‌گویند. «حقیقت»، اولین و رایج‌ترین معنایی است که از یک واژه به ذهن می‌رسد. «مجاز»، به‌کار رفتن واژه‌ای است در معنی غیرحقیقی؛ به شرط آنکه میان معنای حقیقی و معنای غیرحقیقی واژه، ارتباط و پیوندی برقرار باشد؛ مثال:<br>
+    پشت دیوار آنچه گویی، هوش دار تان باشد در پِس دیوار، گوش سعدی<br>
+    همانطور که میدانید، «گوش» اندام شنوایی است و در این معنا، «حقیقت» است و نمی‌تواند در پِس دیوار بیاید؛ شاعر در این بیت به مفهوم مجازی «گوش»، یعنی «انسان سخن‌چین» تأکید دارد.<br>
+    اکنون به دو بیت زیر توجه نمایید:
+</div>
+<br><br>
+<div class="MsoNormal">
+    ما را سر باغ و بوستان نیست<br>
+    هر جا که تویی تفرّج آنجاست <br> سعدی<br><br>
+    عالَم از شور و شر عشق خبر هیچ نداشت<br>
+    فتنه‌انگیز جهان نرگس جادوی تو بود<br>
+    حافظ<br><br>
+    در بیت اول، واژۀ «سر» در مفهوم مجازی «قصد و اندیشه» به کار رفته است. «سر» محل و جایگاه «اندیشه» است. در بیت دوم، مقصود شاعر از واژۀ «نرگس»، معنایی غیرحقیقی، یعنی «چشم» است. آنچه که «گل نرگس» و «چشم» را به هم می‌پیوندد و اجازه می‌دهد تا یکی به‌جای دیگری به کار رود، «شباهت» میان آن دو است. به این نوع مجاز، در اصطلاح ادبی «استعاره» می‌گویند؛ در درس پنجم، با آن بیشتر آشنا خواهید شد.<br>
+    در شعر این درس، دو نمونه «مجاز» بیابید و مفهوم هر یک را بنویسید.
+</div>
+<br><hr><br>
+<div class="MsoStep">
+    قلمرو فکری
+</div>
+<br>
+<div class="MsoNormal">
+    1- پس از رسیدن به دریا، چه تغییری در نگرش و نحوة تفکر «چشمه» ایجاد شد؟
+</div>
+<br>
+<div class="MsoNormal">
+    2- معنی و مفهوم بیت زیر را به نثر روان بنویسید.<br>
+    «نعره برآورده، فلک کرده کر<br>
+    دیده سیه کرده، شده زهره در»
+</div>
+<br>
+<div class="MsoNormal">
+    3- سرودة زیر از سعدی است، محتوای آن را با شعر نیما مقایسه کنید.<br>
+    یکی قطره باران ز ابری چکید<br>
+    خجل شد چو پهنای دریا بدید<br>
+    که جاییکه دریاست من کیستم؟<br>
+    گراوه است حقا که من نیستم<br>
+    چو خود را به چشم حقارت بدید<br>
+    صدف در کنارش به جان پرورید<br>
+    بلندی از آن یافت کاو پست شد<br>
+    در نیستی کوفت تا هست شد
+</div>
+<br>
+<div class="MsoNormal">
+    4- دوست دارید جای کدام یک از شخصیت‌های شعر نیما (چشمه، دریا) باشید؟ برای انتخاب خود دلیل بیاورید.
+</div>
+<br>
+<div class="MsoNormal">
+    5- ..........................................................<br>
+</div>
+<br><hr><br>
+<div class="MsoBold">
+    گنج حکمت 
+</div>
+
+<div class="MsoStep">
+  پیرایۀ خرد
+</div>
+<div class="MsoNormal">
+    در آبگیری سه ماهی بود: دو حازم، یکی عاجز. از قضا، روزی دو صیاد بر آن گذشتند و با یکدیگر میعاد نهادند که دام بیارند و هر سه را بگیرند. ماهیان این سخن بشنودند؛ آن که حزم زیادت داشت و بارها دستبرد زمانۀ جافی را دیده بود، سبک‌روی به کار آورد و از آن جانب که آب در می‌آمد، برفور بیرون رفت. در این میان، صیادان برسیدند و هر دو جانب آبگیر محکم ببستند.
+</div>
+<br>
+<div class="MsoNormal">
+    دیگری هم که از پیرایۀ خرد و ذخیرت تجربت بی‌بهره نبود، با خود گفت: «غفلت کردم و فرجام کار غافلان چنین باشد و اکنون وقت حیلت است. هر چند تدبیر در هنگام بلا فایده بیشتر ندهد، با این همه عاقل از منافع دانش هرگز نومید نگردد و در دفع مکاید دشمن تأخیر صواب نبیند. وقت ثبات مردان و روز فکر خردمندان است.» پس خویشتن مرده کرد و بر روی آب می‌رفت. صیاد او را برداشت و چون صورت شد که مرده است، بینداخت. به حیلت خویشتن در جوی افکند و جان به سلامت برد.
+</div>
+<br>
+<div class="MsoNormal">
+    و آن که غفلت بر احوال وی غالب و عجز در افعال وی ظاهر بود، حیران و سرگردان و مدهوش و پای‌کشان، چپ و راست می‌رفت و در فراز و نشیب می‌دوید تا گرفتار شد.
+</div>
+<br>
+<div class="MsoNormal">
+    کلیله و دمنه، ترجمۀ نصرالله منشی
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+</html>

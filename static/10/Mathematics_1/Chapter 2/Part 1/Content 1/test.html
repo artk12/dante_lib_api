@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <title>MathJax v3 with Farsi Numerals</title>
+
+    <!-- Load Fonts -->
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body {
+            font-family: "Yekan Bakh FaNum Light", sans-serif;
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            /* Include other body styles from your original code */
+        }
+
+        /* Adjust MathJax elements */
+        .mjx-math {
+            direction: ltr;     /* Ensure math is rendered left-to-right */
+            text-align: center; /* Adjust alignment if needed */
+            display: block;
+            margin: 1em 0;
+        }
+
+        /* Apply custom font to numerals in MathJax */
+        .mjx-mn {
+            font-family: "Yekan Bakh FaNum Light", sans-serif !important;
+        }
+
+        /* Apply custom font to text numerals */
+        p, h1, h2, h3, h4, h5, h6, div {
+            font-family: "Yekan Bakh FaNum Light", sans-serif;
+        }
+
+        /* Include any other styles from your original script */
+    </style>
+
+    <!-- MathJax Configuration -->
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']],
+                processEscapes: true,
+                macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            options: {
+                renderActions: {
+                    addFarsiNumerals: [200, function (doc) {
+                        const arabicToFarsiMap = {
+                            '0': '۰',
+                            '1': '۱',
+                            '2': '۲',
+                            '3': '۳',
+                            '4': '۴',
+                            '5': '۵',
+                            '6': '۶',
+                            '7': '۷',
+                            '8': '۸',
+                            '9': '۹'
+                        };
+
+                        function replaceNumerals(node) {
+                            if (node.nodeType === Node.TEXT_NODE) {
+                                node.nodeValue = node.nodeValue.replace(/\d/g, function (d) {
+                                    return arabicToFarsiMap[d];
+                                });
+                            } else if (node.nodeType === Node.ELEMENT_NODE) {
+                                for (let i = 0; i < node.childNodes.length; i++) {
+                                    replaceNumerals(node.childNodes[i]);
+                                }
+                            }
+                        }
+
+                        // Process all math expressions
+                        for (const math of doc.math) {
+                            replaceNumerals(math.typesetRoot);
+                        }
+                    }, '']
+                }
+            },
+            loader: {
+                load: ['[tex]/boldsymbol'],
+            },
+            startup: {
+                ready: function () {
+                    //
+                    //  Configure RTL support
+                    //
+                    MathJax.startup.defaultReady();
+                    const elements = document.querySelectorAll('.mjx-math');
+                    elements.forEach(function (el) {
+                        el.style.direction = 'ltr';
+                        el.style.textAlign = 'center';
+                    });
+                }
+            }
+        };
+    </script>
+
+    <!-- Load MathJax v3 -->
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+    <!-- Numeral Replacement Script for Text Content -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+
+            function replaceArabicNumeralsWithFarsi(text) {
+                return text.replace(/\d/g, function (d) {
+                    return arabicToFarsiMap[d];
+                });
+            }
+
+            const elements = document.querySelectorAll('p, h1, h2, h3, h4, h5, h6, div');
+            elements.forEach(function (el) {
+                if (!el.classList.contains('MathJax')) {
+                    el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+                }
+            });
+        });
+    </script>
+
+</head>
+<body>
+
+    <!-- Your content goes here -->
+    <p>مثال: ریشهٔ دوم از ۹ برابر است با ۳.</p>
+    <p>$$ \sqrt{9} = 3 $$</p>
+
+</body>
+</html>

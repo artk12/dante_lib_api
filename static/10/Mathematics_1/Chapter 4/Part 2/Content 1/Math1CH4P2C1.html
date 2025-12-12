@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #badaff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .box {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+    <body class="custom-scrollbar">
+
+        <div class="MsoBold" >
+            درس دوم: سهمی
+        </div>
+        
+        <p class="MsoNormal">
+            آیا تاکنون به مسیری که یک اسکی‌باز یا موتورسوار در مسابقه پرش ارتفاع می‌پیماید، دقت کرده‌اید؟ هیچ‌کدام از این مسیرها، یک خط راست نیستند.
+        </p>
+        
+        <p class="MsoNormal">
+            مسیر طی شده توسط اسکی‌باز یا موتورسوار می‌تواند توسط معادله \( y = ax^2 + bx + c \) محاسبه شود که در آن \( a \)، \( b \)، و \( c \) اعداد حقیقی هستند و البته \( a \neq 0 \) است.
+        </p>
+        
+        <br><hr><br>
+
+        <div class="MsoStep">فعالیت</div>
+        
+        <p class="MsoNormal">
+            معادله \( y = x^2 - 4 \) را در نظر بگیرید.
+        </p>
+        
+        <p class="MsoNormal">
+            (الف) در جدول زیر، چند نقطه که در این معادله صدق می‌کنند، آمده است. این جدول را کامل کنید.
+        </p>
+        
+  
+        <table class="table" style="width: 100%; border-collapse: collapse; text-align:center">
+            <tr>
+                <th>$x$</th>
+                <th> \( y = x^2 - 4 \) </th>
+                <th>$(x, y)$</th>
+            </tr>
+            <tr>
+                <td>$-2$</td>
+                <td> $ y = (-2)^2 - 4 = 0 $ </td>
+                <td>$(-2, 0)$</td>
+            </tr>
+            <tr>
+                <td>$-1$</td>
+                <td>................................</td>
+                <td>...........</td>
+            </tr>
+            <tr>
+                <td>$0$</td>
+                <td> $ y = (0)^2 - 4 = -4 $ </td>
+                <td>$(0, -4)$</td>
+            </tr>
+            <tr>
+                <td>$1$</td>
+                <td>................................</td>
+                <td>...........</td>
+            </tr>
+            <tr>
+                <td>$2$</td>
+                <td>................................</td>
+                <td>...........</td>
+            </tr>
+        </table>
+        <br>
+        <p class="MsoNormal">
+            نقاط به‌دست آمده در جدول بالا را در یک دستگاه مختصات مشخص کرده و آنها را به یکدیگر وصل می‌کنیم (شکل‌های روبه‌رو).
+        </p>
+        
+        <p class="MsoNormal">
+            (ب) پایین‌ترین نقطه این نمودار چه نقطه‌ای است؟ آیا می‌توانید محور تقارن این نمودار را مشخص کنید؟
+        </p>
+        
+        <p class="MsoNormal">
+            ..........................................................................................
+        </p>
+        
+        <p class="MsoNormal">
+            (پ) برای رسم این نمودار، از چند نقطه استفاده کرده‌ایم؟ آیا با نقاط کمتری نیز می‌توانیم این نمودار را رسم کنیم؟
+        </p>
+        
+        <p class="MsoNormal">
+            ..........................................................................................
+        </p>
+        
+        <p class="MsoNormal">
+            (ت) محل برخورد منحنی رسم شده با محور \( x \) ها در چه نقاطی است؟
+        </p>
+        
+        <p class="MsoNormal">
+            ..........................................................................................
+        </p>
+        
+        <br>
+
+        <div class="box">
+            <p class="MsoNormal" style="text-align: center;">
+                نمودار هر معادله به صورت \( y = ax^2 + bx + c \) را که در آن \( a \)، \( b \) و \( c \) اعداد حقیقی هستند و \( a \neq 0 \) است، یک سهمی می‌گوییم که به یکی از دو صورت مقابل است:
+            </p>
+        </div>
+        
+        <br><br><br><p style="color: white;text-align:center">image placeholder</p><br><br><br>
+
+        <div class="box">
+            <p class="MsoNormal" style="text-align: center;">
+                نقطه \( A \) را در شکل‌های مقابل رأس سهمی می‌گوییم:
+                <br>
+                اگر \( a > 0 \) باشد، \( A \) پایین‌ترین نقطه سهمی و اگر \( a < 0 \) باشد، \( A \) بالاترین نقطه سهمی است.
+                <br>
+                همچنین خط عمودی که از رأس سهمی می‌گذرد، خط تقارن سهمی نامیده می‌شود.
+            </p>
+        </div>
+        
+        <br><br><br><p style="color: white;text-align:center">image placeholder</p><br><br><br>
+        
+<br><hr><br>
+        <div class="MsoStep">فعالیت</div>
+
+        <p class="MsoNormal">
+            معادله یک سهمی به‌صورت \( y = x^2 - 4x + 5 \) است.
+        </p>
+
+        <p class="MsoNormal">
+            <strong>(الف)</strong> سمت راست این معادله را به شکل مربع کامل بنویسید.
+           
+            $$ y = x^2 - 4x + 5 \Rightarrow y = (x - 2)^2 + \ \ . . .  $$
+        </p>
+<br>
+        <p class="MsoNormal">
+            <strong>(ب)</strong> ریشه عبارت داخل پرانتز را به‌دست آورید و آن را در ردیف وسط جدول زیر قرار دهید. جاهای خالی را با عبارات‌های مناسب پر کنید.
+           
+            $$ x - 2 = 0 \Rightarrow  \ \ . . . . . . . . . . . . . . . . .  $$
+        </p>
+
+
+
+<table class="table" style="width: 100%; border-collapse: collapse;text-align:center;">
+    <tr>
+        <th>$x$</th>
+        <th> $ y = x^2 - 4x + 5 $ </th>
+        <th>$(x, y)$</th>
+    </tr>
+    <tr>
+        <td>$0$</td>
+        <td>................................</td>
+        <td>...........</td>
+    </tr>
+    <tr>
+        <td>$1$</td>
+        <td>................................</td>
+        <td>...........</td>
+    </tr>
+    <tr>
+        <td>$2$</td>
+        <td>................................</td>
+        <td>...........</td>
+    </tr>
+    <tr>
+        <td>$3$</td>
+        <td>................................</td>
+        <td>...........</td>
+    </tr>
+    <tr>
+        <td>$4$</td>
+        <td>................................</td>
+        <td>...........</td>
+    </tr>
+</table>
+<br>
+
+<p class="MsoNormal">
+    <strong>(ب)</strong> پنج نقطه حاصل شده در جدول بالا را به یکدیگر وصل کنید تا این سهمی رسم شود.
+</p>
+<br>
+<p class="MsoNormal">
+    <strong>(ت)</strong> آیا می‌توانید پایین‌ترین نقطهٔ این سهمی را از معادله آن به شکل \( y = (x - 2)^2 + 1 \) به‌دست آورید؟
+</p>
+<br>
+<p class="MsoNormal" style="text-align: center;">
+    ............................................................................
+</p>
+
+
+<br>
+<div class="box">
+    <p class="MsoNormal">
+        هر سهمی به‌صورت \( y = a(x - h)^2 + k \) که \( a \neq 0 \) است، رأسی به مختصات \( (h, k) \) و خط تقارنی با معادله \( x = h \) دارد.
+    </p>
+</div>
+
+
+<br><hr><br>
+
+
+
+        <div class="MsoStep">کار در کلاس</div>
+
+        <p class="MsoNormal">
+            1. در هر یک از سهمی‌های زیر، رأس را مشخص و سپس آن را رسم کنید.
+        </p>
+<br><br>
+        <p class="MsoNormal" style="text-align: left;">
+            \( y = -2(x + 1)^2 + 1 \)   (الف)
+            <br><br>
+           \( y = -2x^2 + 1 \)   (ب) 
+            </p>
+
+        <br><hr><br>
+        <div class="MsoStep">فعالیت</div>
+
+        <p class="MsoNormal">
+            معادله سهمی به‌صورت \( y = ax^2 + bx + c \) را در نظر بگیرید.
+        </p>
+
+        <p class="MsoNormal">
+            <strong>(الف)</strong> سمت راست این معادله را به شکل مربع کامل بنویسید و نشان دهید:
+            <br>
+            $$ y = a (x + \frac{b}{2a})^2 + \frac{4ac - b^2}{4a} $$
+        </p>
+        <br>
+        <p class="MsoNormal">
+            <strong>(ب)</strong> با استفاده از قسمت قبل، نشان دهید که رأس این سهمی، نقطه \( ( \frac{-b}{2a}, \frac{4ac - b^2}{4a} ) \) است و خط تقارن آن نیز \( x = - \frac{b}{2a} \) است.
+        </p>
+
+        <br><hr><br>
+
+        <div class="MsoBold">مثال</div>
+
+        <p class="MsoNormal">
+            سهمی \( y = -2x^2 + 4x - 3 \) را رسم می‌کنیم.
+        </p>
+
+        <p class="MsoNormal">
+            در این سهمی \( a = -2 \)، \( b = 4 \) و \( c = -3 \) است. مختصات رأس سهمی را به‌دست می‌آوریم:
+        </p>
+
+        <p class="MsoNormal" style="text-align: center;">
+            $$ x = \frac{-b}{2a} = \frac{-4}{2(-2)} = 1 $$
+        </p>
+        <br>
+        <p class="MsoNormal">
+            اکنون در جدول زیر، سه نقطه از آن را پیدا می‌کنیم:
+        </p>
+
+        <table class="table" style="width: 100%; border-collapse: collapse;text-align:center">
+            <tr>
+                <th>$x$</th>
+                <th> $ y = -2x^2 + 4x - 3 $ </th>
+                <th>$(x, y)$</th>
+            </tr>
+            <tr>
+                <td>$0$</td>
+                <td> $  -2(0)^2 + 4(0) - 3 = -3 $ </td>
+                <td>$(0, -3)$</td>
+            </tr>
+            <tr>
+                <td>$1$</td>
+                <td> $  -2(1)^2 + 4(1) - 3 = -1 $ </td>
+                <td>$(1, -1)$</td>
+            </tr>
+            <tr>
+                <td>$2$</td>
+                <td> $  -2(2)^2 + 4(2) - 3 = -3 $ </td>
+                <td>$(2, -3)$</td>
+            </tr>
+        </table>
+
+        <p class="MsoNormal">
+            بنابراین نمودار این سهمی به‌صورت مقابل خواهد بود. 
+            دقت کنید نقاط \( A \) و \( B \) از این سهمی که عرض یکسان دارند، نسبت به خط تقارن یعنی خط \( x = 1 \) قرینه‌اند.
+        </p>
+
+
+
+        <br><hr><br>
+
+
+
+        <div class="MsoStep">فعالیت</div>
+
+        <p class="MsoNormal">
+            معادله دو سهمی به‌صورت \( y = x^2 + 1 \) و \( y = \frac{x^2}{7} + 1 \) است.
+        </p>
+<br>
+        <p class="MsoNormal">
+            <strong>(الف)</strong> مختصات رأس و دو نقطه دیگر از این دو سهمی را در جدول زیر مشخص کنید و سپس نمودار هر دو سهمی را در شکل مقابل رسم کنید و نشان دهید که مختصات رأس هر دو سهمی نقطه \( A (0,1) \) است.
+        </p>
+<br>
+        <table class="table" style="width: fit-content; margin:auto;text-align:center ">
+            <tr>
+                <th>$x$</th>
+                <th> \( y = x^2 + 1 \) </th>
+                <th>$(x, y)$</th>
+            </tr>
+            <tr>
+                <td> . . . . . . . . . . </td>
+                <td> . . . . . . . . . . </td>
+                <td> . . . . . . . . . . </td>
+            </tr>
+            <tr>
+                <td> . . . . . . . . . . </td>
+                <td> . . . . . . . . . . </td>
+                <td> . . . . . . . . . . </td>
+            </tr>
+            <tr>
+                <td> . . . . . . . . . . </td>
+                <td> . . . . . . . . . . </td>
+                <td> . . . . . . . . . . </td>
+            </tr>
+        </table>
+<br>
+        <table class="table" style="width: fit-content; margin:auto;text-align:center ">
+            <tr>
+                <th>$x$</th>
+                <th> \( y = \frac{x^2}{2} + 1 \) </th>
+                <th>$(x, y)$</th>
+            </tr>
+            <tr>
+                <td> . . . . . . . . . . </td>
+                <td> . . . . . . . . . . </td>
+                <td> . . . . . . . . . . </td>
+            </tr>
+            <tr>
+                <td> . . . . . . . . . . </td>
+                <td> . . . . . . . . . . </td>
+                <td> . . . . . . . . . . </td>
+            </tr>
+            <tr>
+                <td> . . . . . . . . . . </td>
+                <td> . . . . . . . . . . </td>
+                <td> . . . . . . . . . . </td>
+            </tr>
+        </table>
+        <br><br>
+        <p class="MsoNormal">
+            <strong>(ب)</strong> معادله سهمی دیگری را که نقطه \( A \) رأس آن است، بنویسید و آن را در دستگاه بالا رسم کنید.
+        </p>
+
+        <br><hr><br>
+
+        <div class="MsoStep">تمرین</div>
+
+        <p class="MsoNormal">
+            1. نمودار هر یک از سهمی‌های زیر را رسم کنید.
+        </p>
+<br>
+        <p class="MsoNormal" style="text-align: left;">
+             \( y = -(x+1)^2 - 3 \) (الف)
+            <br><br>
+           \( y = 3x^2 - 2 \)    (ب)
+            <br><br>
+            \( y = x - x^2 \)   (پ)
+            <br><br>
+            \( y = \frac{x^2}{2} + x - 4 \)    (ت)
+        </p>
+        <br><br>
+        <p class="MsoNormal">
+            2. اگر \( (-2,5) \) و \( (0,5) \) دو نقطه از یک سهمی باشند، خط تقارن این سهمی را به‌دست آورید.
+        </p>
+        <br><br>
+        <p class="MsoNormal">
+            3. نمودار سهمی \( y = ax^2 + bx + c \)، محور \( y \) را در نقاطی به عرض 2 و محور \( x \) ها را در نقاط به طول 1- و 2 قطع کرده است. معادله این سهمی را بنویسید و آن را رسم کنید.
+        </p><br><br>
+
+        <p class="MsoNormal">
+            4. دو پرتابگر وزنه در یک مسابقه ورزشی، وزنه‌های خود را با زاویه‌های متفاوت \( \alpha \) و \( \beta \) که \( \alpha \ \ < \ \ \beta \) است، پرتاب کرده‌اند. پرتابگر \( A \)، زاویه \( \alpha \) را انتخاب می‌کند و مسیر طی شده از رابطه
+            \( y = -\frac{x^2}{2} + \frac{3}{2} + 2 \)
+            به‌دست می‌آید. پرتابگر \( B \) نیز زاویه \( \beta \) را انتخاب می‌کند و مسیر طی شده از رابطه
+            \( y = -2x^2 + 3x + 2 \)
+            به‌دست می‌آید. در هر دو معادله، \( y \) ارتفاع وزنه از سطح زمین و \( x \) مسافت افقی طی شده بر حسب متر است.
+        </p>
+        <br>
+        <p class="MsoNormal">
+            (الف) مسیر حرکت هر کدام از وزنه‌ها را رسم کنید.
+            <br><br>
+            (ب) محل برخورد وزنه‌ها با زمین با محور \( x \) ها در چه نقاطی است؟ کدام یک از وزنه‌ها مسافت افقی بیشتری را طی کرده است؟
+            <br><br>
+            (پ) کدام یک از وزنه‌ها ارتفاع بیشتری از سطح زمین پیدا کرده است؟ اندازه آنها را مشخص کنید.
+        </p>
+
+
+
+    </body>
+
+
+</html>

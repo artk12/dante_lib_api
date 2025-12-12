@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi {
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSemic,
+        li.MsoSemic,
+        div.MsoSemic {
+            margin: 0in;
+           
+            font-size: clamp(1.2rem, 1.6vw, 1.3rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #b19af2;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #6ca4ec;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .boxp {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .boxg {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#00f2ff11; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        .boxb {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#0c4e9f2d; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        ::selection {
+            background-color: #59078fa1; /* Change this to your desired highlight color */
+            color: #ffffff; /* Change this to your desired text color */
+          }
+
+
+          mark{
+            background-color:#078b8fa1 ;
+            color: #ffffff;
+            padding: 0 7px;
+        }
+
+        .hlg { background-color: rgba(0, 234, 255, 0.334);  }
+        .hlp { background-color:#5f1487; }
+      
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+
+    <body class="custom-scrollbar">
+
+
+        <p class="MsoBold">فصل دوم
+            <br>
+            قضیه تالس٬ تشابه و کاربردهای آن</p>
+        
+        <p class="MsoNormal">قضیه تالس و تشابه شکل‌های هندسی، کاربردهای زیادی در محاسبهٔ طول‌ها و فاصله‌های غیر قابل دسترس دارد. محاسبه ارتفاع بلندی‌ها به کمک سایهٔ آنها نمونه‌ای از این کاربردهاست.</p>
+        
+
+<br><hr>
+
+
+<p class="MsoBold">
+    درس اول:
+    <br>
+    نسبت و تناسب در هندسه</p>
+<p class="MsoNormal">با نسبت و تناسب آشنایی دارید و ویژگی اصلی آن، یعنی برابری حاصل‌ضرب طرفین و وسطین را می‌شناسید؛ یعنی می‌دانید که:
+    <br>
+     اگر: $ \frac{a}{b} = \frac{c}{d} $ <br>آنگاه: $ ad = bc $ (با فرض \( b, d \neq 0 \)) و برعکس.
+    <br><br>
+    از تساوی \( xy = zt \) با شرط \( x, y \neq 0 \)، تناسب \( \frac{x}{t} = \frac{y}{z} \) نتیجه می‌شود. نسبت اندازه‌های دو پاره‌خط در هندسه هم به همین صورت تعریف می‌شود به شرطی که هر دو با یک واحد اندازه‌گیری بیان شده باشند. مثلاً اگر \( AB \) پاره‌خطی به طول \( 2 cm \) و \( CD \) پاره‌خطی به طول \( 5 cm \) باشد. حال فرض کنید \( A'B' = 4 cm \) و \( C'D' = 10 cm \) در این صورت:</p>
+
+<p class="MsoNormal">$$ \frac{A'B'}{C'D'} = \frac{4}{10} = \frac{2}{5} $$</p>
+<br>
+<p class="MsoNormal">و بنابراین یک تناسب بصورت \( \frac{AB}{CD} = \frac{A'B'}{C'D'} \) درست می‌شود. بدیهی است که اگر نسبت \( CD \) به \( AB \) برابر \( \frac{5}{2} \) باشد، نسبت \( AB \) به \( CD \) برابر \( \frac{2}{5} \) است.</p>
+<br><hr><br>
+
+
+    <p class="MsoStep">فعالیت ۱</p>
+    <p class="MsoNormal">مثلث \( ABC \) و ارتفاع‌های \( BD \) و \( CE \) از آن را در نظر بگیرید. مساحت مثلث \( ABC \) را یک‌بار با در نظر گرفتن قاعده \( AC \) و ارتفاع \( BD \) و بار دیگر با در نظر گرفتن قاعده \( AB \) بنویسید.</p>
+    <p class="MsoNormal">$$
+    
+    \begin{align*}
+    \text{ABC مساحت } &= \frac{1}{2}  AC \times \ \ . . . . . . .  \\\\
+    \text{ABC مساحت } &= \frac{1}{2}  \ \ . . . . . . . \ \ \times \ \ . . . . . . . 
+    \end{align*}
+
+   $$
+</p>
+
+    <p class="MsoNormal">عبارت‌های سمت راست، هر دو مساوی یکدیگرند. بنابراین: $$ AC \times \ \ . . . . .  \ \ = \ \ . . . . .  \ \ \times \ \ . . . . .  \ \ $$ آیا می‌توانید از آنجا یک تناسب بنویسید؟</p>
+    <br>
+    <p class="MsoNormal">پاسخ خود را با پاسخ دوستانتان مقایسه کنید. آیا همه به یک جواب رسیده‌اید؟ تفاوت پاسخ‌ها چه چیزی را نشان می‌دهد؟</p>
+
+    
+
+
+
+<br><br>
+
+<p class="MsoNormal">با توجه به فعالیت  بالا٬ جای خالی را با عبارت‌های مناسب پر کنید.</p>
+
+<div class="boxb">
+    <p class="MsoNormal">در هر مثلث، نسبت اندازه‌های هر دو ضلع، با عکس نسبت وارد $. . . . . . . . . .$ بر آنها برابر است.</p>
+</div>
+<br><hr><br>
+
+    <p class="MsoStep">فعالیت ۲</p>
+    <p class="MsoNormal">در شکل مقابل ارتفاع‌های \( AH \) و \( A'H' \) در دو مثلث \( ABC \) و \( A'B'C' \) هم اندازه‌اند (\( AH = A'H' \)).</p>
+    <p class="MsoNormal">با پر کردن جاهای خالی و انجام عملیات ریاضی، نتیجهٔ زیر را بدست آورید.</p>
+
+ <div class="MsoNormal" style="text-align: left;">
+$
+    \begin{align*}
+    
+    & S_{ABC} = \text{ABC مساحت } =  \frac{1}{2}  \ \ . . . . \ \ \times \ \ . . . . \ \  \\\\
+    & S_{A'B'C'} = \frac{1}{2}  \ \ . . . . \ \ \times \ \ . . . . \ \ \\\\
+    & \frac{S_{ABC}}{S_{A'B'C'}} = \frac{\frac{1}{2}  \ \ . . . . \ \ \times \ \ . . . .  }{\frac{1}{2}  \ \ . . . . \ \ \times \ \ . . . .  } = \frac{ \ \ . . . . \ \ }{ \ \ . . . . \ \ }
+    
+    \end{align*}
+$
+</div>
+<br>
+<div class="boxp">
+    <p class="MsoStep">نتیجه ۱</p>
+    <p class="MsoNormal">هرگاه اندازهٔ ارتفاع‌های دو مثلث برابر باشد، نسبت مساحت‌های آنها برابر با نسبت اندازهٔ قاعده‌هایی است که این ارتفاع‌ها بر آنها وارد شده است.</p>
+</div>
+<br><hr><br>
+
+    <p class="MsoStep">کار در کلاس</p>
+    <p class="MsoNormal">در شکل مقابل مثلث‌های \( ADE \)، \( ACD \)، \( ABC \) و \( AEF \) را که در رأس \( A \) مشترک‌اند، در نظر بگیرید. ارتفاع متناطر با رأس \( A \)، در همهٔ این مثلث‌ها کدام پاره‌خط است؟</p>
+    <br>
+    <p class="MsoNormal">با توجه به نتیجهٔ فعالیت (۲) جاهای خالی را پر کنید:</p>
+
+    <br>
+
+    <div class="MsoNormal" style="text-align: left;">
+
+        $
+
+        \begin{align*}
+        
+        & \frac{S_{ABC}}{S_{ACD}} = \ \ . . . . . . . . \ \ \\ \\
+       
+        & \frac{S_{ACD}}{S_{AEF}} =  \ \ . . . . . . . . \ \ \\ \\
+   
+        & \frac{S_{ACE}}{S_{ABF}} =  \ \ . . . . . . . . \ \ 
+
+        \end{align*}
+        
+        $
+
+    </div>
+
+<br><br>
+
+
+
+
+<div class="boxp">
+    <p class="MsoStep">نتیجه ۲</p>
+    <p class="MsoNormal">اگر دو مثلث در یک رأس مشترک بوده و قاعدهٔ مقابل به این رأس آنها روی یک خط راست باشد، نسبت مساحت‌های آنها برابر با نسبت اندازهٔ قاعده‌های آن‌هاست. مثلاً در شکل روبه‌رو:</p>
+    <p class="MsoNormal" style="text-align: center;">
+        $$ \frac{S_{ABC}}{S_{ACD}} = \frac{\text{مساحت ABC}}{\text{مساحت ACD}} = \frac{BC}{CD} $$
+    </p>
+</div>
+
+<br><hr><br>
+
+    <p class="MsoStep">کار در کلاس</p>
+    <p class="MsoNormal">در شکل روبه‌رو خط $d$ با \( BC \) موازی است. چرا ارتفاع‌های وارد بر قاعدهٔ \( BC \) در مثلث‌های \( DBC \) و \( ABC \) با هم برابر است؟ اگر طول این ارتفاع‌ها را $h$ بنامیم و طول \( BC \) را b نمایش دهیم، مساحت این مثلث‌ها چقدر است؟</p>
+
+<br>
+<div class="boxp">
+    <p class="MsoStep">نتیجه ۳</p>
+    <p class="MsoNormal">اگر دو مثلث، قاعدهٔ مشترکی داشته باشند و رأس‌های روبه‌روی این قاعده آنها، روی یک خط موازی این قاعده باشند، این مثلث‌ها هم‌مساحت‌اند. مثلاً در شکل بالا مثلث‌های \( ABC \) و \( DBC \) هم‌مساحت‌اند.</p>
+</div>
+
+<br><hr>
+
+<p class="MsoBold">ویژگی‌های تناسب</p>
+<p class="MsoNormal">به کمک اعمال و روش‌های جبری می‌توان از هر تناسب، تناسب‌های تساوی‌های دیگری را نتیجه گرفت. مهم‌ترین این ویژگی‌ها به شرح زیر است (اثبات درستی این ویژگی‌ها را در مجلهٔ ریاضی انتهای فصل می‌توانید ببینید).</p>
+<br>
+<table class="tables" style="width:fit-content; margin:10px auto; text-align:center;">
+    <tr>
+        <th>1</th>
+    </tr>
+    <tr>
+        <td> $$ \frac{a}{b} = \frac{c}{d} \Leftrightarrow ad = bc $$ </td>
+    </tr>
+    <tr>
+        <td> $$ \frac{۳}{۵} = \frac{۶}{۱۰} \Leftrightarrow 3 \times 5 = 5 \times 6 $$ </td>
+    </tr>
+    <tr>
+        <td> $$ b, d \neq ۰ $$ </td>
+    </tr>
+    <tr>
+        <td>(طرفین و وسطین کردن)</td>
+    </tr>
+</table>
+<br>
+
+<table class="tables" style="width:fit-content; margin:10px auto; text-align:center;">
+    <tr>
+        <th>2</th>
+    </tr>
+    <tr>
+        <td> $$ \frac{a}{b} = \frac{c}{d} \Rightarrow \frac{b}{a} = \frac{d}{c} $$ </td>
+    </tr>
+    <tr>
+        <td> $$ \frac{2}{5} = \frac{4}{10} \Rightarrow \frac{5}{2} = \frac{10}{4} $$ </td>
+    </tr>
+    <tr>
+        <td> $$ a, b, c, d \neq ۰ $$ </td>
+    </tr>
+    <tr>
+        <td>(معکوس کردن طرفین تناسب)</td>
+    </tr>
+</table>
+<br>
+
+<table class="tables" style="width:fit-content; margin:10px auto; text-align:center;">
+    <tr>
+        <th>3</th>
+    </tr>
+    <tr>
+        <td> $$ \frac{a}{b} = \frac{c}{d} \Rightarrow \frac{d}{b} = \frac{c}{a} \ \ \text{یا} \ \ \frac{a}{c} = \frac{b}{d} $$ </td>
+    </tr>
+    <tr>
+        <td> $$ \frac{2}{3} = \frac{6}{9} \Rightarrow \frac{9}{3} = \frac{6}{2}  $$ </td>
+    </tr>
+    <tr>
+        <td> $$ a, b, c, d \neq ۰ $$ </td>
+    </tr>
+    <tr>
+        <td>(تعویض جای طرفین یا وسطین)</td>
+    </tr>
+</table>
+<br>
+
+<table class="tables" style="width:fit-content; margin:10px auto; text-align:center;">
+    <tr>
+        <th>4</th>
+    </tr>
+    <tr>
+        <td> $$ \frac{a}{b} = \frac{c}{d} \Rightarrow \frac{a + b}{b} = \frac{c + d}{d} \ \ \text{یا} \ \ \frac{a}{a + b} = \frac{c}{c + d}  $$ </td>
+    </tr>
+    <tr>
+        <td> $$ \frac{2}{3} = \frac{4}{6} \Rightarrow  \frac{2}{5} = \frac{4}{10} $$ </td>
+    </tr>
+    <tr>
+        <td> $$ b, d \neq ۰ $$ </td>
+    </tr>
+    <tr>
+        <td>(ترکیب نسبت در صورت یا مخرج)</td>
+    </tr>
+</table>
+<br>
+
+<table class="tables" style="width:fit-content; margin:10px auto; text-align:center;">
+    <tr>
+        <th>5</th>
+    </tr>
+    <tr>
+        <td> $$ \frac{a}{b} = \frac{c}{d} \Rightarrow \frac{a - b}{b} = \frac{c - d}{d}  \ \ \text{یا} \ \ \frac{a}{a - b} = \frac{c}{c - d}  $$ </td>
+    </tr>
+    <tr>
+        <td> $$ \frac{30}{21} = \frac{20}{14} \Rightarrow \frac{9}{21} = \frac{6}{14} $$ </td>
+    </tr>
+    <tr>
+        <td> $$ b, d \neq ۰ $$ </td>
+    </tr>
+    <tr>
+        <td>(تفضیل نسبت در صورت یا مخرج)</td>
+    </tr>
+</table>
+<br>
+
+<table class="tables" style="width:fit-content; margin:10px auto; text-align:center;">
+    <tr>
+        <th>۶</th>
+    </tr>
+    <tr>
+        <td> $$ \frac{a}{b} = \frac{c}{d} \Rightarrow \frac{a + c}{b + d} = \frac{a}{b} = \frac{c}{d} $$ </td>
+    </tr>
+    <tr>
+        <td> $$ \frac{۴}{۶} = \frac{۸}{۱۲} \Rightarrow \frac{12}{18} = \frac{8}{12} = \frac{4}{6} $$ </td>
+    </tr>
+    <tr>
+        <td> $$ b, d \neq ۰ $$ </td>
+    </tr>
+    <tr>
+        <td>$ \qquad $</td>
+    </tr>
+</table>
+
+<br>
+
+<table class="tables" style="width:fit-content; margin:10px auto; text-align:center;">
+    <tr>
+        <th>7</th>
+    </tr>
+    <tr>
+        <td> 
+            $
+            \begin{align*}
+            & \frac{a_1}{b_1} = \frac{a_2}{b_2} = \ \ . . . \ \ =  \frac{a_n}{b_n}   \\ \\
+            & \Rightarrow  \frac{a_1}{b_1} =  \frac{a_2}{b_2} = \ \ . . . \ \ = \frac{a_n}{b_n}  \\ \\
+            & =  \frac{a_1 + a_2 + \ \ . . . \ \ + a_n}{b_1 + b_2 + \ \ . . . \ \ + b_n} 
+            \end{align*}    
+            $
+        </td>
+    </tr>
+    <tr>
+        <td>  $
+            \begin{align*}
+            & \frac{2}{3} = \frac{4}{6} = \frac{6}{9} =  \frac{8}{12}   \\ \\
+            & \Rightarrow  \frac{2}{3} =  \frac{4}{6} = \frac{6}{9} = \frac{8}{12}  \\ \\
+            & =  \frac{2 + 4 + 6 + 8}{3 + 6 + 9 + 12} \\ \\
+            & = \frac{20}{30}
+            \end{align*}    
+            $ </td>
+    </tr>
+    <tr>
+        <td> $$ b_1 , b_2 , \ \ . . . \ \ , b_n \neq 0  $$ </td>
+    </tr>
+    <tr>
+        <td>(تعمیم ویژگی ۶)</td>
+    </tr>
+</table>
+
+<br><br>
+
+
+<div class="boxb">
+    <p class="MsoSemi">
+        <mark>تعریف واسطهٔ (میانگین) هندسی:</mark></p>
+       
+    <p class="MsoNormal">اگر طرفین یا وسطین یک تناسب شامل دو عدد برابر باشد؛ یعنی:
+        $$ \frac{a}{b} = \frac{b}{c} \ \ \ \ \text{یا} \ \ \ \  \frac{b}{a} = \frac{c}{b} $$
+         با طرفین و وسطین کردن تناسب، نتیجه می‌شود: $$ ac = b^2 $$ در این صورت $b$ را واسطهٔ هندسی $a$ و $c$ می‌نامیم.</p>
+         <br>
+    <p class="MsoNormal">مثلاً اگر دو پاره‌خط به طول‌های $4$ و $9$ واحد داشته باشیم، پاره‌خطی که $6$ واحد طول دارد، واسطهٔ هندسی بین آنهاست (چرا؟)</p>
+</div>
+
+<br><hr><br>
+
+    <p class="MsoStep">تمرین</p>
+
+    <p class="MsoNormal">۱. اگر:
+         $$ \frac{x}{۲} = \frac{y}{۳} = \frac{z}{۵} $$
+          حاصل \( x+y+z \) را بدست آورید.</p>
+    
+<br><br>
+    <p class="MsoNormal">۲. طول پاره‌خطی را بدست آورید که واسطهٔ هندسی بین دو پاره‌خط به طول‌های $8$ و $10$ سانتی‌متر است.</p>
+    <br><br>  
+    <p class="MsoNormal">۳. در شکل مقابل مساحت مثلث \( ACE \) سه برابر مساحت مثلث \( ADE \) و دو برابر مساحت مثلث \( ABD \) است. نسبت‌های \( \frac{BC}{DE} \) و \( \frac{DE}{BD} \) را بدست آورید.</p>
+    <br><br>
+    <p class="MsoNormal">۴. در شکل مقابل \( d \parallel d' \) و مساحت مثلث \( ABC \) ٬ برابر \( ۸ \, cm^۲ \) است. اگر \( BD = ۶ \, cm \) باشد، فاصلهٔ نقطهٔ \( C \) از \( BD \) را بدست آورید.</p>
+
+
+
+
+
+
+
+        
+
+ 
+
+
+<br><br><br><br><br>
+
+
+    </body>
+
+
+</html>

@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 900px;
+            margin: auto;
+            font-size: clamp(1rem, 2.5vw, 2rem);
+        }
+
+        span {
+            font-size: clamp(1rem, 2.4vw, 2rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 2.5vw, 2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.5rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.1rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #badaff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+
+        .images {
+            width: -webkit-fill-available;
+            display: block;
+            max-width: 90%;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1.0rem, 3vw, 2.5rem);
+            text-align: right;
+            color:white;
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #464646;
+            font-size: clamp(1.0rem, 3vw, 2.5rem);
+        }
+        table span{
+            
+            font-size: clamp(1.3rem, 3vw, 2.5rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #722a85;
+        }
+        .isotop span{
+            font-size: clamp(1.7rem, 4vw, 4rem);
+        }
+    </style>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+
+    <body>
+        <p class="MsoBold">کیهان زادگاه الفبای هستی</p>
+        <p class="MsoNormal">او کسی است که آسمان ها و زمین را در شش روز آفرید.</p>
+        <p class="MsoNormal">انسان همواره با پرسش هایی از این دست كه «هستی چگونه پدید آمده است؟ جهان كنونی چگونه شکل گرفته است؟ پدیده های طبیعی چگونه و چرا رخ می دهند؟» روبه رو بوده و پیوسته تلاش كرده است برای این پرسش ها، پاسخ هایی قانع كننده بیابد. پاسخ به نخستین پرسش ــ كه پرسشی بسیار بزرگ و بنیادی است ــ در قلمرو علم تجربی نمی گنجد و آدمی تنها با مراجعه به چارچوب اعتقادی و بینش خویش در پرتو آموزه های الهی می تواند به پاسخی جامع دست یابد.</p>
+        
+        <p class="MsoNormal">اما پس از عبور از این قلمرو، علم تجربی تلاشی گسترده را برای یافتن پاسخ پرسش های دوم و سوم انجام داده است. این تلاش ها سبب شد تا دانش ما دربارۀ جهان مادی افزایش یابد. امروزه ما دربارۀ كیهان و منشأ آن اطلاعاتی داریم كه نیاكانمان حتی نمی توانستند آنها را تصور كنند؛ برای نمونه ما به فضا می رویم؛ با عنصرهای موجود در نقاط گوناگون كیهان آشنا شده ایم؛ در پی یافتن زندگی در دیگر سیاره ها هستیم و مسافرت به مریخ را طراحی می كنیم. آشکار است كه با گذشت زمان، انسان به پیشرفت هایی دست خواهد یافت كه امروز در ذهن ما نمی گنجد.</p>
+        
+        
+        
+        <br>
+        <p class="MsoNormal">تلاش دانشمندان برای شناخت كیهان همچنان ادامه دارد. نمونه ای از آن، سفر طولانی و تاریخی دو فضاپیما به نام های وویجر 1 و 2 در سال 1977 میلادی )1356 خورشیدی( برای شناخت بیشتر سامانۀ خورشیدی است.</p>
+        <br>
+        <img class="images" src="Chem1CH1P1C1ـwebp1.webp" alt="شکل ۱ــ عکس كرۀ زمین از فاصلۀ تقریبی ۷ میلیارد كیلومتری؛ آخرین تصویری كه وویجر۱ پیش از خروج از سامانۀ خورشیدی از زادگاه خود گرفت." class="images">
+        
+        <p class="MsoNormal">شکل 1ــ عکس كرۀ زمین از فاصلۀ تقریبی 7 میلیارد كیلومتری؛ آخرین تصویری كه وویجر1 پیش از خروج از سامانۀ خورشیدی از زادگاه خود گرفت.</p>
+        <br>
+        <p class="MsoNormal">دو فضاپیما مأموریت داشتند با گذر از كنار سیاره های مشتری، زحل، اورانوس و نپتون، شناسنامۀ فیزیکی و شیمیایی آنها را تهیه كنند و بفرستند. این شناسنامه ها می تواند حاوی اطلاعاتی مانند نوع عنصرهای سازنده، تركیب های شیمیایی در اتمسفر آنها و تركیب درصد این مواد باشد.</p>
+        <br><br>
+        <p class="MsoStep">عنصرها چگونه پدید آمدند؟</p>
+        <p class="MsoNormal">یکی از پرسش های مهمی كه شیمی دان ها در پی یافتن پاسخ آن هستند، چگونگی پیدایش عنصرهاست. جالب است بدانید كه مطالعۀ كیهان به ویژه سامانۀ خورشیدی برای پاسخ به این پرسش، كمك شایانی می كند؛ برای نمونه با بررسی نوع و مقدار عنصرهای سازندۀ برخی سیاره های سامانۀ خورشیدی و مقایسۀ آن با عنصرهای سازندۀ خورشید می توان به درک بهتری از چگونگی تشکیل عنصرها دست یافت.</p>
+        <p class="MsoNormal">شواهد تاریخی كه از سنگ نبشته ها و نقاشی های دیوار غارها به دست آمده است نشان می دهد كه انسان اولیه با نگاه به آسمان و مشاهدۀ ستارگان در پی فهم نظام و قانونمندی در آسمان بوده است.</p>
+        <p class="MsoNormal">شاخۀ جذاب دیگری از علم شیمی، اختر شیمی است كه به مطالعۀ مولکول هایی در فضاهای بین ستاره ای می پردازد. اختر شیمی دان ها توانسته اند وجود مولکول های گوناگونی را در مکان هایی بسیار دور ثابت كنند كه تاكنون پای هیچ انسانی به آنجا نرسیده است.</p>
+        <br><br>
+        <p class="MsoSub">آیا می دانید</p>
+        <p class="MsoNormal">زیاد علاقه دانشمندان مسلمان به مطالعه آسمان شب و ستاره ها داشتند. عبدالرحمن صوفی یکی از ستاره شناسان ایرانی است كه برای اولین بار گزارشی درباره كهکشان «آندرومدا» ارائه داده است. كهکشان آندرومدا نزدیك ترین همسایه سامانه خورشیدی است. او همچنین اطلاعات معتبری درباره اندازه، موقعیت، رنگ و جایگاه ستاره ها در صورت های فلکی ارائه داده است.</p>
+        
+       <br><br><br> 
+        <p class="MsoSuccess">خود را بیازمایید</p>
+        <p class="MsoNormal">شکل زیر عنصرهای سازندۀ دو سیارۀ مشتری و زمین را نشان می دهد. با توجه به آن به پرسش های مطرح شده پاسخ دهید.</p>
+        <p class="MsoNormal">آ( فراوان ترین عنصر در هر سیاره، كدام است؟</p>
+        <p class="MsoNormal">ب( عنصرهای مشترک در دو سیاره را نام ببرید.</p>
+        <p class="MsoNormal">پ( در كدام سیاره، عنصر فلزی وجود ندارد؟</p>
+        <p class="MsoNormal">ت( پیش بینی كنید سیارۀ مشتری بیشتر از جنس گاز است یا سنگ؟ چرا؟</p>
+        <p class="MsoNormal">ث( آیا به جز عنصرهای نشان داده شده در شکل، عنصرهای دیگری در زمین یافت می شود؟ چند نمونه نام ببرید.</p>
+        <table style="width:100%; text-align:center; direction: rtl;">
+            <thead>
+                <tr>
+                    <th>عنصر</th>
+                    <th>نماد</th>
+                    <th style="font-size: clamp(1rem, 2vw, 2rem);">درصد فراوانی در زمین</th>
+                    <th style="font-size:clamp(1rem, 2vw, 2rem);">درصد فراوانی در مشتری</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>اکسیژن</td>
+                    <td>O</td>
+                    <td>46.6%</td>
+                    <td>0.0%</td>
+                </tr>
+                <tr>
+                    <td>سیلیکون</td>
+                    <td>Si</td>
+                    <td>27.7%</td>
+                    <td>0.0%</td>
+                </tr>
+                <tr>
+                    <td>آلومینیوم</td>
+                    <td>Al</td>
+                    <td>8.1%</td>
+                    <td>0.0%</td>
+                </tr>
+                <tr>
+                    <td>آهن</td>
+                    <td>Fe</td>
+                    <td>5.0%</td>
+                    <td>0.0%</td>
+                </tr>
+                <tr>
+                    <td>کلسیم</td>
+                    <td>Ca</td>
+                    <td>3.6%</td>
+                    <td>0.0%</td>
+                </tr>
+                <tr>
+                    <td>سدیم</td>
+                    <td>Na</td>
+                    <td>2.8%</td>
+                    <td>0.0%</td>
+                </tr>
+                <tr>
+                    <td>پتاسیم</td>
+                    <td>K</td>
+                    <td>2.6%</td>
+                    <td>0.0%</td>
+                </tr>
+                <tr>
+                    <td>منیزیم</td>
+                    <td>Mg</td>
+                    <td>2.1%</td>
+                    <td>0.0%</td>
+                </tr>
+                <tr>
+                    <td>هیدروژن</td>
+                    <td>H</td>
+                    <td>0.14%</td>
+                    <td>89.8%</td>
+                </tr>
+                <tr>
+                    <td>هلیوم</td>
+                    <td>He</td>
+                    <td>0.00052%</td>
+                    <td>10.2%</td>
+                </tr>
+                <tr>
+                    <td>کربن</td>
+                    <td>C</td>
+                    <td>0.02%</td>
+                    <td>0.3%</td>
+                </tr>
+                <tr>
+                    <td>نیتروژن</td>
+                    <td>N</td>
+                    <td>0.002%</td>
+                    <td>0.2%</td>
+                </tr>
+                <tr>
+                    <td>گوگرد</td>
+                    <td>S</td>
+                    <td>0.03%</td>
+                    <td>0.9%</td>
+                </tr>
+                <tr>
+                    <td>آرگون</td>
+                    <td>Ar</td>
+                    <td>0.00015%</td>
+                    <td>0.01%</td>
+                </tr>
+                <tr>
+                    <td>نئون</td>
+                    <td>Ne</td>
+                    <td>0.00027%</td>
+                    <td>0.01%</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        
+        <p class="MsoNormal">دریافتید كه نوع و میزان فراوانی عنصرها در دو سیارۀ زمین و مشتری متفاوت است در حالی كه عنصرهای مش
+    
+    تركی نیز در این دو سیاره هست. یافته هایی از این دست نشان می دهد كه عنصرها به صورت ناهمگون در جهان هستی توزیع شده اند. این یافته ها باعث شد تا دانشمندان بتوانند چگونگی پیدایش عنصرها را توضیح دهند به طوری كه برخی از آنها بر این باورند كه سر آغاز كیهان با انفجاری مهیب )مهبانگ( همراه بوده كه طی آن انرژی عظیمی آزاد شده است. در آن شرایط پس از پدید آمدن ذره های زیراتمی مانند الکترون، پروتون و نوترون، عنصرهای هیدروژن و هلیم پا به عرصۀ جهان گذاشتند. با گذشت زمان و كاهش دما، گازهای هیدروژن و هلیم تولید شده، متراكم شد و مجموعه های گازی به نام سحابی ایجاد كرد. بعدها این سحابی ها سبب پیدایش ستاره ها و كهکشان ها شد.</p>
+        <p class="MsoNormal">درون ستاره ها همانند خورشید در دماهای بسیار بالا، واكنش های هسته ای رخ می دهد؛ واكنش هایی كه در آنـها از عنصرهای سبك تـر، عنصرهای سنگین تـر پدید می آیـند. جالب است بـدانید كه ستاره ها متولد می شوند؛ رشد می كنند و زمانی می میرند. مرگ ستاره اغلب با یك انفجار بزرگ همراه است كه سبب می شود عنصرهای تشکیل شده در آن در فضا پراكنده شود. به همین دلیل باید ستارگان را كارخانۀ تولید عنصرهـا دانست.</p>
+        
+        <table class="table" style="width:100%; text-align:center; direction: rtl;">
+            <tr>
+                <td>عنصرهای سنگین‌تر مانند آهن، طلا و...</td>
+                <td>$\Rightarrow$</td>
+                <td>عنصرهای سبک مانند لیتیم، کربن و...</td>
+                <td>$\Rightarrow$</td>
+                <td>هلیم</td>
+                <td>$\Rightarrow$</td>
+                <td>هیدروژن</td>
+            </tr>
+            <tr>
+                <td colspan="7">شکل ۲ - روند تشکیل عنصرها</td>
+            </tr>
+        </table>
+        
+        
+        
+        <p class="MsoNormal">و انرژی گرمایی بسیار بالایی دارد. نزدیک ترین ستاره به زمین است كه دمای خیره كنندۀ نور خورشید به دلیل تبدیل هیدروژن به هلیم در واكنش های هسته ای در آن است، انرژی آزاد شده در این واكنش ها آن قدر زیاد است كه می تواند صدها میلیون تن فولاد را ذوب كند. البته توجه داشته باشید كه در واكنش های شیمیایی كه در پدیده های طبیعی پیرامون ما و در زندگی روزانه رخ می دهند، مقدار انرژی مبادله شده بسیار كمتر است.</p>
+        <br><br>
+        <p class="MsoSub">آیا می دانید</p>
+        <p class="MsoNormal">حدود 6000ºC  دمای سطح خورشید به  و دمای درون آن به حدود 10000000ºC می رسد. به دلیل انجام واكنش های هسته ای در این ستاره، هر ثانیه 5000,000,000 كیلوگرم از جرم آن كاسته شده و به انرژی تبدیل می شود. اینشتین رابطۀ  E=mc²  را برای محاسبۀ انرژی تولید شده در واكنش های هسته ای ارائه كرد. در این رابطه،  m  جرم ماده برحسب كیلوگرم،  c  سرعت نور برحسب متر بر ثانیه  (ms⁻¹  10⁸×3) و  E  انرژی آزاد شده برحسب ژول است. بر این اساس اگر در یك واكنش هسته ای  0/0024  گرم ماده به انرژی تبدیل شود، انرژی  2/16×10¹¹  ژول تولید خواهد شد. برآورد می شود كه خورشید می تواند تا  5000,000,000  سال دیگر نورافشانی كند.</p>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    </body>
+
+
+</html>

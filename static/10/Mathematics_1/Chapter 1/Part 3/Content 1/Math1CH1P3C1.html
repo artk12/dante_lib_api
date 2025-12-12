@@ -1,0 +1,1151 @@
+<!DOCTYPE html>
+<html lang="fa">    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #badaff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+    <body class="custom-scrollbar">
+
+        <p class="MsoBold">درس سوم: الگو و دنباله</p>
+        <hr><br>
+        <p class="MsoSub">الگو</p>
+<br>
+        <p class="MsoStep">مثال</p>
+        
+        <p class="MsoNormal">
+        به شکل‌های زیر و تعداد چوب‌کبریت‌های به‌کاررفته در هر یک از آنها توجه کنید.
+        </p>
+        <br>
+        <div class="MsoNormal" style="text-align: center;">
+            <img src="Math1CH1P3C1_SVG1.svg" alt="Shapes made with matchsticks" style="mix-blend-mode: difference;">
+        </div>
+        <div class="custom-scrollbar" style="overflow-x: auto; width: 100%; max-width: 100%; margin: 0 auto;">
+            <table border="1" style="width: 100%; text-align: center; white-space: nowrap;">
+            <tr>
+                <td>$\dots$</td>
+                <td>$n$</td>
+                <td>$\dots$</td>
+                <td>$4$</td>
+                <td>$3$</td>
+                <td>$2$</td>
+                <td>$1$</td>
+                <th>n: شمارهٔ شکل</th>
+            </tr>
+            <tr>
+                <td>$\dots$</td>
+                <td>$\dots$</td>
+                <td>$\dots$</td>
+                <td>$\dots$</td>
+                <td>$11$</td>
+                <td>$8$</td>
+                <td>$5$</td>
+                <th>تعداد چوب‌کبریت‌ها: $a_n$</th>
+            </tr>
+            <tr>
+                <td>$\dots$</td>
+                <td>$a_n = \dots$</td>
+                <td>$\dots$</td>
+                <td>$\dots$</td>
+                <td>$a_3 = ۱۱$</td>
+                <td>$a_2 = ۸$</td>
+                <td>$a_1 = ۵$</td>
+                <th>رابطه بین n و $a_n$</th>
+            </tr>
+        </table>
+    </div>
+    <br><br>
+    <p class="MsoNormal">
+        به‌عنوان مثال ملاحظه می‌شود که، تعداد چوب‌کبریت‌های شکل اول برابر ۵ است، که این مطلب را به‌طور خلاصه بصورت $a_1 = 5$ نشان داده‌ایم (می‌خوانیم: $a$ اندیس ۱ برابر ۵). عبارات‌های $a_1$, $a_2$, $a_3$ ناپدید می‌شوند که مقادیر آنها به‌ترتیب ۵، ۸ و ۱۱ است. به این اعداد جملات الگو هم گفته می‌شود. پس در واقع، عدد ۵ جمله اول الگوست؛ ۸ جمله دوم آن و به همین ترتیب الی آخر.
+        </p>
+        <br>
+        <p class="MsoNormal" style="text-align: center;">
+            <span >$a_1 = ۵ \qquad$</span>
+            <span >$a_2 = ۸ \qquad$</span>
+            <span>$a_3 = ۱۱ $</span>
+        </p>
+        <br><br>
+        <p class="MsoNormal">
+        الف) با این نمادگذاری، $a_n$ نشان‌دهنده چیست و مقدار آن چقدر است؟
+        </p>
+        <br>
+        <p class="MsoNormal">
+        ب) $a_n$ به چه معناست؟
+        </p>
+        <br>
+        <p class="MsoNormal">
+        پ) آیا می‌توانید حاصل $a_n$ را برحسب $n$ بدست آورید؟ برای این کار فعالیت بعد را انجام دهید.
+        </p>
+        <br>
+
+<br><hr style="background-color: #D6D1DA;"><br>
+        <div>
+            <p class="MsoNormal">
+            دنیای اطراف ما سرشار از الگوهای مختلف است. به‌عنوان نمونه، پیدایش شبانه‌روز و تغییر فصول مختلف سال جلوه‌ای از الگوی حاکم بر طبیعت است. از سوی دیگر نظم و قانون‌مندی‌های موجود در یک الگو به خودی خود برای ما جذاب است. چه بسا ممکن است طرح‌های روی یک گل آفتابگردان، شکل‌های هندسی روی یک سطح کاشی‌کاری شده یا مارپیچ‌های روی موزهٔ آتاتیس توجه شما را به خود جلب کرده باشند. بطور کلی می‌توان گفت الگو یک ساختار منظم از اشکال، تصاویر، صداها، نمادها، وقایع یا اعداد است که ممکن است تکرار شوند یا رشد کنند یا ترکیبی از این دو باشند.
+            </p>
+            
+            <p class="MsoNormal">
+            از طرف دیگر یکی از رسالت‌های مهم ریاضیات، مدل‌سازی کردن پدیده‌های طبیعی و پی‌بردن به الگوهای نهفته در آنهاست. اهمیت این موضوع به‌قدری است که برخی از ریاضی‌دانان معتقدند که ریاضی عبارت است از علم مطالعه الگوها.
+            </p>
+        </div>
+        
+<br><hr><br>
+
+        <div class="MsoStep">فعالیت</div>
+
+        <p class="MsoNormal">
+        ۱) آیدا برای بدست آوردن حاصل $a_n$ در مثال بالا، شکل‌های الگو را بصورت روبرو درنظر گرفت. به کمک این روش، مقدار $a_1$, $a_2$, $a_3$ و $a_n$ را بدست آورید.
+        </p>
+        <br>
+        <div class="MsoNormal" style="text-align: center;">
+            <img src="Math1CH1P3C1_SVG2.svg" alt="Shapes made with matchsticks">
+        </div>
+<br>
+
+<br>
+<p class="MsoNormal" style="text-align: center;">
+    \[
+    \begin{align*}
+    &a_1 = ۱(۳) + ۲ \\
+    &a_2 = ۲(۳) + ۲ \\
+    &a_3 = ۳(۳) + ۲ \\
+    &a_4 = ۴(۳) + ۲ \\
+    &\vdots \\
+    & a_{10} = \\
+    &\vdots \\
+    &a_n =
+    \end{align*}
+    \]
+</p>
+
+        <br>
+       
+
+        <p class="MsoNormal">
+        ۲) آیدا روش دیگری را به‌کار برد. او تعداد چوب کبریت‌های افقی و عمودی در هر شکل را بطور جداگانه مورد توجه قرار داد تا بتواند به مقدار $a_n$ دست یابد. مقدار حاصل برای $a_1$ از این روش را در جای مشخص شده بنویسید.
+        </p>
+        <br>
+        <div class="MsoNormal" style="text-align: center;">
+            <img src="Math1CH1P3C1_SVG3.svg" alt="Another method for calculating matches">
+        </div>
+        <br>
+        <p class="MsoNormal" style="text-align: center;">
+            \[
+            \begin{align*}
+            &a_1 = ۱ + ۲(۲) \\
+            &a_2 = ۲ + ۳(۲) \\
+            &a_3 = ۳ + ۴(۲) \\
+            &a_4 = ۴ + ۵(۲) \\
+            &\vdots \\
+            &a_{10} = 10 + (10+1)(2) \\
+            &\vdots \\
+            &a_n =
+            \end{align*}
+            \]
+        </p>
+        <br>
+    
+
+        <p class="MsoNormal">
+        ۳) آیا شما راه دیگری را برای بدست آوردن حاصل $a_n$ می‌دانید؟
+        </p>
+        <br>
+        <p class="MsoNormal">
+        ۴) همان‌طور که در قسمت‌های (۱) و (۲) دیدیم، آیدا و آسا مقدار $a_n$ را بترتیب بصورت‌های $a_n = ۳n + ۲$ و $a_n = n + (n+1)(۲)$ بدست آوردند. جواب آسا را ساده کنید تا به شکل جواب آیدا برسید.
+        </p>
+        <br>
+        <p class="MsoNormal">
+        ۵) به کمک رابطه $a_n = ۳n + ۲$ تعداد چوب کبریت‌های شکل بیستم را بیابید.
+        </p>
+        <br>
+        <p class="MsoNormal">
+        ۶) با استفاده از رابطه $a_n = ۳n + ۲$ مشخص کنید که چندمین شکل در الگوی بالا دارای ۷۷ قطعه چوب کبریت است.
+        </p>
+        <br>
+        <p class="MsoNormal"><strong>تذکر:</strong> در مثال بالا دیدیم که $a_n = ۳n + ۲$ را جمله عمومی الگو می‌نامیم؛ چرا که این رابطه در واقع ساختار جملات الگو را مشخص می‌کند و به کمک آن می‌توان مقدار هر جمله از الگو را بدست آورد. به عبارت دیگر، در اختیار داشتن جمله عمومی یک الگو، به‌معنای آگاهی داشتن از تمام جملات آن الگوست.
+        </p>
+
+        <br><hr><br>
+
+        <div class="MsoSub">الگوی خطی</div>
+
+        <p class="MsoNormal">
+        در الگوی مثال قبل دیدیم که هر جمله دقیقاً ۳ واحد بیش از جمله قبل از خودش بود.
+        </p>
+
+        <div class="MsoNormal" style="text-align: center;">
+            <img src="Math1CH1P3C1_SVG4.svg" style="mix-blend-mode: difference;">
+        </div>
+
+        <p class="MsoNormal">
+        چنین الگوهایی را که در آنها اختلاف هر دو جمله متوالی عددی ثابت است، الگوهای خطی می‌نامیم. برای به‌دلیل این نام‌گذاری، ستون سوم جدول مقابل را درنظر می‌گیریم. اگر این نقاط را در صفحه مختصات مشخص کنیم، همگی آنها روی خط $y = ۳x + ۲$ قرار می‌گیرند. به‌عبارت دیگر مختصات تمام این نقاط در معادله خط گفته شده صدق می‌کند. مشاهده بین معادله خط یعنی $y = ۳x + ۲$ و جمله عمومی الگو یعنی $a_n = ۳n + ۲$ اتفاقی نیست. چرا که در واقع اختلاف بین جملات متوالی الگو بود، در معادله خط به‌عنوان شیب خط ظاهر شده است که این مطلب همواره درست است.
+        </p>
+
+
+
+        <table class="table" style="text-align: center;">
+            <tr>
+                <th>$(n, a_n)$</th>
+                <th>$a_n$</th>
+                <th>n</th>
+            </tr>
+            <tr>
+                <td>$(۱, ۵)$</td>
+                <td>۵</td>
+                <td>۱</td>
+            </tr>
+            <tr>
+                <td>$(۲, ۸)$</td>
+                <td>۸</td>
+                <td>۲</td>
+            </tr>
+            <tr>
+                <td>$(۳, ۱۱)$</td>
+                <td>۱۱</td>
+                <td>۳</td>
+            </tr>
+            <tr>
+                <td>$(۴, ۱۴)$</td>
+                <td>۱۴</td>
+                <td>۴</td>
+            </tr>
+            <tr>
+                <td>...</td>
+                <td>...</td>
+                <td>...</td>
+            </tr>
+        </table>
+
+        <p class="MsoNormal">
+            بطور کلی الگوهایی را که جمله عمومی آنها بصورت $t_n = an + b$ است، الگوهای خطی می‌نامیم که در آن $a$ و $b$ اعداد حقیقی دلخواه و ثابت هستند.
+            </p>
+    <img class="images" src="Math1CH1P3C1_SVG5.svg" style="mix-blend-mode: difference; max-width:300px;">
+            <p class="MsoNormal">
+            دیدیم که در یک الگوی خطی با جمله عمومی $t_n = an + b$، $t_n$ میزان تغییر جملات متوالی برابر $a$ بود. به عبارت دیگر، اختلاف هر دو جمله متوالی در این الگوی خطی برابر ضرب $n$ است. به‌عنوان مثال در یک الگوی خطی با جمله عمومی $t_n = ۴n + ۱۵$، هر جمله نسبت به جمله قبل از خودش ۴ واحد کاهش می‌یابد.
+            </p>
+            <br>
+    
+            <p class="MsoNormal" style="text-align: center;">
+          $ ۱۱, ۷, ۳, -۱, -۵, -۹, ...$
+            </p>
+    
+
+        <br><hr><br>
+        <div class="MsoStep">مثال</div>
+
+        <p class="MsoNormal">
+        در یک الگوی خطی، جملات چهارم و دهم بترتیب ۱۷ و ۴۱ می‌باشند. جمله عمومی الگو را بیابید.
+        </p>
+        <br>
+        <p class="MsoNormal">
+        حل: فرض کنیم جمله عمومی بصورت $C_n = an + b$ باشد. پس داریم:
+        </p>
+        <p class="MsoNormal" style="text-align: left;">
+        \[
+        \begin{align*}
+        C_4 = 17  \Rightarrow & a(4) + b = 17 \\
+       
+        C_{10} = 41   \Rightarrow  &  a(10) + b = 41 \\ 
+      
+        &\text{_____________} \\
+
+        &6a = 24 \Rightarrow a = 4 \Rightarrow b = 1
+        \end{align*}
+        \]
+
+        </p>
+        <br>
+        <p class="MsoNormal">
+        پس 
+        $
+        C_n = 4n + 1
+        $ . 
+        الگوی جملات الگو بصورت زیر خواهند بود:
+        </p>
+
+        <p class="MsoNormal" style="text-align: center;">
+            $$
+            5, 9, 13, \underset{C_4}{\underline{17}}, 21, 25, 29, 33, \underset{C_{10}}{\underline{41}}, 45, \ldots
+            $$
+        </p>
+
+
+        <br><hr><br>
+       
+           
+        <img class="images" src="Math1CH1P3C1_webp1.webp">
+      
+        <img class="images" src="Math1CH1P3C1_webp2.webp">
+      
+    
+      
+
+            <p class="MsoStep">کار در کلاس</p>
+            <p class="MsoNormal">۱) شکل بعدی را در الگوی زیر رسم کنید و جدول را کامل کنید.</p>
+            <img class="images" src="Math1CH1P3C1_SVG6.svg" style="mix-blend-mode: difference;">
+       
+            <div class="custom-scrollbar" style="overflow-x: auto; width: 100%; max-width: 100%; margin: 0 auto;">
+                <table border="1" style="width: 100%; text-align: center; white-space: nowrap;">
+            
+                <tr>
+                    <td>$۵$</td>
+                    <td>$۴$</td>
+                    <td>$۳$</td>
+                    <td>$۲$</td>
+                    <td>$۱$</td>
+                    <th>شمارهٔ شکل : n</th>
+                </tr>
+                <tr>
+                    <td>$...$</td>
+                    <td>$...$</td>
+                    <td>$...$</td>
+                    <td>$۸$</td>
+                    <td>$۴$</td>
+                    <th>تعداد مربع‌های رنگی : $b \ \ _n$</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>$b \ \ _2= $</td>
+                    <td>$b \ \ _1=۴$</td>
+                    <th>رابطه بین n و $b  \ \ _n$</th>
+                </tr>
+            </table>
+            </div>
+            <br><br>
+            <p class="MsoNormal">۲) توضیح دهید که چرا این الگو یک الگوی خطی محسوب می‌شود.</p>
+            <br> 
+            <p class="MsoNormal">۳) با توجه به میزان افزایش جملات الگو، مقدار h در رابطه $b \ \ _n = an + h$ را بیابید و پس از حدس زدن مقدار h، حاصل $b \ \ _n$ را بدست آورید.</p>
+            <br>
+            <p class="MsoNormal">۴) شکل شماره ۲۵۰ دارای چند مربع رنگی است؟</p>
+            <br>
+            <p class="MsoNormal">۵) در چه مرحله‌ای از الگوی بالا، تعداد مربع‌های رنگی برابر ۱۴۴ است؟</p>
+        </div>
+
+         
+
+         </div>
+
+
+<br>
+<br><hr><br>
+<p class="MsoSub">الگوهای غیرخطی</p>
+<img src="Math1CH1P3C1_webp3.webp" class="images">
+<br>
+         <p class="MsoStep">فعالیت</p>
+         <p class="MsoNormal">۱) در الگوی زیر، شکل بعدی را رسم کنید و جدول را کامل نمایید.</p>
+         <img src="Math1CH1P3C1_SVG8.svg" class="images" style="mix-blend-mode: difference;" >
+         <div class="custom-scrollbar" style="overflow-x: auto; width: 100%; max-width: 100%; margin: 0 auto;">
+             <table border="1" style="width: 100%; text-align: center; white-space: nowrap;">
+           
+                <tr>
+                    <th>شمارهٔ شکل : n</th>
+                    <td>$۱$</td>
+                    <td>$۲$</td>
+                    <td>$۳$</td>
+                    <td>$۴$</td>
+                    <td>$۵$</td>
+                </tr>
+                <tr>
+                    <th>تعداد نقطه‌ها : $t_n$</th>
+                    <td>$۵$</td>
+                    <td>$۱۲$</td>
+                    <td>$...$</td>
+                    <td>$...$</td>
+                    <td>$...$</td>
+                </tr>
+                <tr>
+                    <th>رابطه بین n و $t_n$</th>
+                    <td>$t_1=۵$</td>
+                    <td>$t_2=$</td>
+                    <td>$...$</td>
+                    <td>$...$</td>
+                    <td>$...$</td>
+                </tr>
+         </table>
+         </div>
+         <br><br>
+         <p class="MsoNormal">۲) آیا این الگو یک الگو خطی است؟ چرا؟</p>
+
+
+<br><hr><br>
+
+
+
+    <p class="MsoStep">فعالیت</p>
+    <p class="MsoNormal">۳) امیررضا برای یافتن جمله عمومی این الگو، مجموعه نقاط هر شکل را به صورت زیر دسته‌بندی کرد. از شکل‌های امیررضا کمک بگیرید و مقدار $t_n$ را بیابید.</p>
+   
+   <br>
+    <div class="custom-scrollbar" style="    overflow-x: auto;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    align-items: baseline;">
+   
+        <div style="text-align: center; margin:20px">
+            <img class="images" src="Math1CH1P3C1_SVG10.svg" style="margin: -20px auto; max-width:300px; mix-blend-mode:difference">
+            <p>$t_1=(1)^2 + 4(1)$</p>
+        </div>
+        <br>
+        <div style="text-align: center;margin:20px">
+            <img class="images" src="Math1CH1P3C1_SVG11.svg" style="margin: -20px auto; max-width:300px; mix-blend-mode:difference">
+            <p>$t_2=(2)^2 + 4(2)$</p>
+        </div>
+        <br>
+        <div style="text-align: center;margin:20px">
+            <img class="images" src="Math1CH1P3C1_SVG12.svg" style="margin: -20px auto; max-width:300px; mix-blend-mode:difference">
+            <p>$t_3=(3)^2 + 4(3)$</p>
+        </div>
+        <div style="text-align: center;margin:20px">
+
+            <p class="MsoNormal">$t_4 = (4)^2 + 4(4)$</p>
+        </div>
+            <div style="text-align: center;margin:20px">
+
+                <p class="MsoNormal">$ ... $</p></div>
+                <div style="text-align: center;margin:20px">
+
+                    <p class="MsoNormal">$t_n= \ \ ...$</p>
+                
+            </div>
+        </div>
+    
+        <br>
+   
+       
+    <br>
+
+    <p class="MsoNormal">۴) امیرمحمد نگاه دیگری به مسئله داشت. او برای هر شکل این الگو، شکل دیگری را به صورت زیر نظر کرد. با استفاده از این شکل‌ها مقدار $t_n$ را بنویسید.</p>
+
+    <br>
+    <br>
+    <div class="custom-scrollbar" style="    overflow-x: auto;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    align-items: baseline;">
+   
+        <div style="text-align: center; margin:20px">
+            <img class="images" src="Math1CH1P3C1_SVG13.svg" style="margin: -20px auto; max-width:300px; mix-blend-mode:difference">
+            <p>
+                $
+                \begin{align*}
+                t_1 &= 3^2 - 4 \\
+                    &=(1+2)^2 - 4
+                \end{align*}
+                $
+            </p>
+        </div>
+        <br>
+        <div style="text-align: center;margin:20px">
+            <img class="images" src="Math1CH1P3C1_SVG14.svg" style="margin: -20px auto; max-width:300px; mix-blend-mode:difference">
+            <p>
+                $
+                \begin{align*}
+                t_2 &= 4^2 - 4 \\
+                    &=(2+2)^2 - 4
+                \end{align*}
+                $
+            </p>
+        </div>
+        <br>
+        <div style="text-align: center;margin:20px">
+            <img class="images" src="Math1CH1P3C1_SVG15.svg" style="margin: -20px auto; max-width:300px; mix-blend-mode:difference">
+            <p>
+                
+                $
+               t_3  = (3 + 2)^2 - 4
+                $
+            </p>
+        </div>
+        <div style="text-align: center;margin:20px">
+
+            <p class="MsoNormal">$t_4 = (4 + 2 ) ^2 - 4$</p>
+        </div>
+            <div style="text-align: center;margin:20px">
+
+                <p class="MsoNormal">$ ... $</p></div>
+                <div style="text-align: center;margin:20px">
+
+                    <p class="MsoNormal">$t_n= \ \ ...$</p>
+                
+            </div>
+        </div>
+    
+        <br>
+   
+
+
+
+    <br><hr><br>
+    <p class="MsoStep">دنباله</p>
+    <p class="MsoNormal">در بخش قبل برای برخی الگوهای هندسی داده شده، یک الگوی عددی نیز معرفی شد. به عنوان نمونه در فعالیت قبل، تعداد نقاط مربوط به شکل‌های متوالی الگو به صورت زیر بود:</p>
+    <p class="MsoNormal">$$۵, ۱۲, ۲۱, ۳۲, ۴۵, ...$$</p>
+    <p class="MsoNormal">این آرایش از اعداد، مثالی از یک دنباله است.</p>
+        
+    <br>
+        <hr style="background-color: #5d9feb; mix-blend-mode:difference;
+        <br>
+        <p class="MsoStep">نکته</p>
+        <p class="MsoNormal">
+        هر تعداد عدد را که پشت سر هم قرار می‌گیرند، یک دنباله می‌نامیم. این اعداد، جملات دنباله نامیده می‌شوند.</p>
+        <br>
+    <hr>
+
+    <br>
+    <div class="MsoNormal">
+        <p>
+            توجه داریم که ممکن است جملات یک دنباله فاقد الگو باشند. مشابه صفحات قبل، جملهٔ اول این دنباله را با $t_1$، جملهٔ دوم را با $t_2$ و به همین ترتیب جملهٔ nام یا جملهٔ عمومی آن را با $t_n$ نمایش می‌دهیم. پس:
+            <br>
+           $$ t_1=5، \ \  t_2=12،  \ \ t_3=21، \ \  ...، \ \  t_n=n^2+4n$$
+        </p>
+        <p>
+            گفتنی است که این دنباله یک دنبالهٔ درجه 2 نامیده می‌شود؛ زیرا جملهٔ عمومی آن یک چند جمله‌ای درجه دوم است.
+        </p>
+    </div>
+    <br><hr><br>
+  
+        <p class="MsoStep">کار در کلاس</p>
+        <p class="MsoNormal">1. دو دنباله دلخواه مثال بزنید. <br><br>
+        2. جملهٔ عمومی چند دنباله داده شده است. در هر مورد، جاهای خالی را پر کنید.</p>
+    
+<br>
+    <div class="custom-scrollbar" style="overflow-x: auto; width: 100%; max-width: 100%; margin: 0 auto;">
+        <table border="1" style="width: 100%; text-align: center; white-space: nowrap;">
+
+
+            <tr>
+                <th>$t_1$</th>
+                <th>$t_2$</th>
+                <th>$t_3$</th>
+                <th>$t_4$</th>
+                <th>$t_5$</th>
+                <th>$t_6$</th>
+                <th>$t_7$</th>
+                <th>...</th>
+                <th>$t_n$</th>
+                <th>...</th>
+            </tr>
+            <tr>
+                <td>$-۱$</td>
+                <td>$-۲$</td>
+                <td>$-۳$</td>
+                <td>$-۴$</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>...</td>
+                <td>$-n$</td>
+                <td>...</td>
+            </tr>
+            <tr>
+                <td>$۱$</td>
+                <td>$\sqrt{۴}$</td>
+                <td>$\sqrt{۵}$</td>
+                <td>$\sqrt{۷}$</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>...</td>
+                <td></td>
+                <td>...</td>
+            </tr>
+            <tr>
+                <td>$۱$</td>
+                <td>$۴$</td>
+                <td>$۹$</td>
+                <td>$۱۶$</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>...</td>
+                <td></td>
+                <td>...</td>
+            </tr>
+            <tr>
+                <td>$۰.۰۱$</td>
+                <td>$۰.۰۱$</td>
+                <td>$۰.۰۱$</td>
+                <td>$۰.۰۱$</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>...</td>
+                <td></td>
+                <td>...</td>
+            </tr>
+            <tr>
+                <td>$-۱$</td>
+                <td>$۸$</td>
+                <td>$-۲۷$</td>
+                <td>$۶۴$</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>...</td>
+                <td></td>
+                <td>...</td>
+            </tr>
+            <tr>
+                <td>$۵$</td>
+                <td>$۱۸$</td>
+                <td>$۳۱$</td>
+                <td>$۴۴$</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>...</td>
+                <td></td>
+                <td>...</td>
+            </tr>
+            <tr>
+                <td>$-۲$</td>
+                <td>$۱$</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>...</td>
+                <td></td>
+                <td>...</td>
+            </tr>
+            <tr>
+                <td>$۱$</td>
+                <td>$۲$</td>
+                <td>$۴$</td>
+                <td>$۷$</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>...</td>
+                <td></td>
+                <td>...</td>
+            </tr>
+            <tr>
+                <td>$۳$</td>
+                <td>$۴$</td>
+                <td>$۱$</td>
+                <td>$۵$</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>...</td>
+                <td></td>
+                <td>...</td>
+            </tr>
+            <tr>
+                <td>$۱$</td>
+                <td>$۱$</td>
+                <td>$۲$</td>
+                <td>$۵$</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>...</td>
+                <td></td>
+                <td>...</td>
+            </tr>
+            <tr>
+                <td>$۲$</td>
+                <td>$۳$</td>
+                <td>$۵$</td>
+                <td>$۷$</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>...</td>
+                <td></td>
+                <td>...</td>
+            </tr>
+        </table>
+
+    
+
+    </div>
+
+<br>
+<br><br>
+
+    <p class="MsoNormal">۴. الگوی مقابل را در نظر بگیرید.</p>
+    <div class="custom-scrollbar" style="overflow-x: auto;overflow-y:hidden;width: 100%; max-width: 100%; margin: 0 auto;    display: flex;
+    flex-direction: row-reverse;
+    align-content: stretch;
+    justify-content: flex-start;
+    align-items: flex-start;">
+
+        <img class="images" src="Math1CH1P3C1_SVG16.svg" style="max-width:150px;mix-blend-mode:difference; flex: 1 1 50%; max-width: 50%;">
+        <img class="images" src="Math1CH1P3C1_SVG17.svg" style="max-width:150px; mix-blend-mode:difference; flex: 1 1 50%; max-width: 50%;">
+        <img class="images" src="Math1CH1P3C1_SVG19.svg" style="max-width:150px;mix-blend-mode:difference; flex: 1 1 50%; max-width: 50%;">
+        <img class="images" src="Math1CH1P3C1_SVG18.svg" style="max-width:150px;mix-blend-mode:difference; flex: 1 1 50%; max-width: 50%;">
+    </div>
+    <br><br>
+    <p class="MsoNormal">(الف) تعداد مربع‌ها در الگو را به‌صورت یک دنباله تا جملهٔ ششم آن بنویسید.</p>
+    <p class="MsoNormal">(ب) آیا دنباله حاصل یک دنبالهٔ خطی است؟ چرا؟</p>
+
+<br><br>
+<p class="MsoNormal">
+    پ) شکلهای الگوی صفحه قبل را به‌صورت زیر تبدیل می‌کنیم. با دقت در تصویر زیر سعی کنید حاصل $a_n$ را بر حسب $n$ به‌دست آورید.
+</p>
+<div class="custom-scrollbar" style="overflow-x: auto; width: 100%; max-width: 100%; margin:0 auto;    display: flex;
+flex-direction: row-reverse;
+align-content: stretch;
+justify-content: flex-start;
+align-items: baseline;">
+
+    <div>
+        <img src="Math1CH1P3C1_SVG24.svg" style="padding:0;mix-blend-mode:difference; min-width: 90px;">
+        <p class="MsoNormal" style="margin:-50px 0;">$$a_1$$</p>
+    </div>
+    <div>
+        <img src="Math1CH1P3C1_SVG25.svg" style="padding:0;mix-blend-mode:difference; min-width: 110px;">
+        <p class="MsoNormal" style="margin:-50px 0;">$$a_2$$</p>
+    </div>
+    <div>
+        <img  src="Math1CH1P3C1_SVG26.svg" style="padding:0;mix-blend-mode:difference; min-width:130px;">
+        <p class="MsoNormal" style="margin:-50px 0;">$$a_3$$</p>
+    </div>
+    <div style="display: flex; padding-bottom:-60%;" >
+        <p class="MsoNormal">$$ \ \ ... \ \ $$</p>
+    </div>
+    <div>
+        <img src="Math1CH1P3C1_SVG27.svg" style="padding:0;mix-blend-mode:difference; min-width:200px">
+        <p class="MsoNormal" style="margin:-50px 0;">$$a_3$$</p>
+    </div>
+
+    </div>
+<br>
+    <p class="MsoNormal" style="text-align:right;">
+        \[
+        \begin{align*}
+        2a_3 &= 3 \times (3+1) \\ \\
+        a_3 &= 3 \times (3+1) - 2  \\ \\
+        
+        a_n &\Rightarrow \ldots 
+        \end{align*}
+        \]
+    </p>
+
+<br><br>
+
+<p class="MsoNormal">
+    ت) به کمک مرحله قبل حاصل عبارت زیر را بنویسید.
+    \[
+    1 + 2 + 3 + \ldots + n = \frac{n(n+1)}{2}
+    \]
+</p>
+<br><br>
+
+<div class="MsoNormal">
+    <p>1. به الگوی روبرو توجه کنید.</p>
+
+    <div class="custom-scrollbar" style="
+  overflow-x: auto;
+    overflow-y: hidden;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;">
+    <div>
+        <img class="images" src="Math1CH1P3C1_SVG28.svg" style=" width:120px;min-width:90%;margin:0;padding:0;mix-blend-mode:difference;">
+        <p style="text-align: center;">۶ کاشی تیره<br> ۱ کاشی سفید</p>
+    </div>   
+    <div>
+        <img class="images" src="Math1CH1P3C1_SVG29.svg" style="width:180px; min-width:90%;margin:0;padding:0;mix-blend-mode:difference; ">
+        <p style="text-align: center;">۶ کاشی تیره<br> ۱ کاشی سفید</p>
+    </div>
+    <div>
+        <img class="images" src="Math1CH1P3C1_SVG30.svg" style="width:240px; min-width:90%;margin:0;padding:0;mix-blend-mode:difference; ">
+        <p style="text-align: center;">۶ کاشی تیره<br> ۱ کاشی سفید</p>
+    </div>
+    
+
+    </div>
+<br>
+
+    <p>الف) شکل بعدی را رسم کنید و تعداد کاشی‌های تیره و تعداد کاشی‌های سفید آن را مشخص کنید.</p>
+    <p>ب) تعداد کاشی‌های تیره در هر مرحله را به صورت یک دنباله تا جمله هفتم آن بنویسید.</p>
+    <p>پ) اگر $n$ تعداد کاشی‌های سفید و $t_n$ تعداد کاشی‌های تیره باشد، مقدار $n$ را بر حسب $t_n$ بنویسید.</p>
+    <p>ت) برای $t_n=۱۰۰$ کاشی سفید، چند کاشی تیره لازم است؟</p>
+    <p>ث) آیا در این الگو شکلی وجود دارد که شامل ۵۰ کاشی تیره باشد؟ اگر هست، تعداد کاشی‌های سفید آن چند است؟</p>
+</div>
+
+<br><br>
+
+<div class="MsoNormal">
+    <p>2. الگوی زیر را درنظر بگیرید.</p>
+    <p>الف) شکل بعدی را رسم کنید، سپس تعداد نقاط هر مرحله را بصورت یک دنباله تا جمله ششم آن بنویسید.</p>
+    <p>ب) جمله عمومی الگو را بیابید.</p>
+    <p>پ) شکل دهم در این الگو چند نقطه دارد؟</p>
+
+
+
+    <br><br>
+    <div class="MsoNormal">
+        <p>1. به الگوی روبرو توجه کنید.</p>
+    
+        <div class="custom-scrollbar" style="
+      overflow-x: auto;
+        overflow-y: hidden;
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row-reverse;
+        align-content: center;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: nowrap;">
+        <div>
+            <img class="images" src="Math1CH1P3C1_SVG31.svg" style="width:100px;margin:0;padding:0;mix-blend-mode:difference;">
+          
+        </div>   
+        <div>
+            <img class="images" src="Math1CH1P3C1_SVG32.svg" style="width:120px; margin:0;padding:0;mix-blend-mode:difference; ">
+        
+        </div>
+        <div>
+            <img class="images" src="Math1CH1P3C1_SVG33.svg" style="width:180px;margin:0;padding:0;mix-blend-mode:difference; ">
+           
+        </div>
+        <div>
+            <img class="images" src="Math1CH1P3C1_SVG34.svg" style="width:220px; margin:0;padding:0;mix-blend-mode:difference; ">
+           
+        </div>
+    
+        </div>
+        <br>
+    <p>3. جمله عمومی چند دنباله داده شده است. در هر مورد جمله اول، چهار جمله اول دنباله را بنویسید و سپس به هر یک از الگوهای هندسی نظر کنید.</p>
+
+   <div class="MsoNormal">
+
+           (الف) $a_n=۴n$ <br>
+          (ب) $b_n=۳n+۱$ <br>
+            (پ) $c_n=n+۲$ <br>
+            (ت) $d_n=n+n$
+        
+    </div>
+  
+    <br>
+
+    <p>4.برای هر یک از دنباله‌های درجه دو زیر جمله عمومی را بدست آورید و سپس به هر یک از الگوهای هندسی نظر کنید</p>
+الف)
+  $ ۵، ۸، ۱۲، ۲۰، ۲۹ ، ... $
+
+  <br>
+
+ب)
+      $  ۵ ، ۱۲ ، ۲۲ ، ۳۵، ۵۱ ، ... $
+</div>
+
+
+
+
+
+
+<br><br><br>
+    </body>
+
+
+</html>

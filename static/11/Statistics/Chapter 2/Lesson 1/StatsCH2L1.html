@@ -1,0 +1,1029 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: n one;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi {
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSemic,
+        li.MsoSemic,
+        div.MsoSemic {
+            margin: 0in;
+           
+            font-size: clamp(1.2rem, 1.6vw, 1.3rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #b19af2;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #6ca4ec;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .boxp {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .boxg {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#00f2ff11; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        .boxb {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#0c4e9f2d; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        ::selection {
+            background-color: #59078fa1; /* Change this to your desired highlight color */
+            color: #ffffff; /* Change this to your desired text color */
+          }
+
+
+          mark{
+            background-color:#078b8fa1 ;
+            color: #ffffff;
+            padding: 0 7px;
+        }
+
+        .hlg { background-color: rgba(0, 234, 255, 0.334);  }
+        .hlp { background-color:#5f1487; }
+      
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+<body class="custom-scrollbar">
+
+
+        <p class="MsoBold">درس ۱: مبانی احتمال</p>
+        <p class="MsoBold">آمار و احتمال به چه کار می‌آیند؟</p>
+        <p class="MsoNormal">
+            فرض کنید کارشناسان یک کارخانه تولید لوازم خانگی می‌خواهند برای سال آینده، تغییراتی در میزان تولید کالاهای کارخانه به‌وجود آورند. آنها باید مشخص کنند که سرمایه کارخانه به چه نسبتی‌های صرف تولید یخچال، کولر، اجاق‌گاز و ... شود. با توجه به اینکه آنها در مورد آنچه در آینده رخ خواهد داد، اطمینان ندارند، چگونه می‌توانند در این مورد تصمیمی درست بگیرند؟ چگونه می‌توانند از بین دو پیشنهاد مختلف، یکی را بر دیگری ترجیح دهند؟
+        </p>
+        <br>
+        <p class="MsoNormal">
+            ابزارهای حل چنین مسائلی که با آگاهی نسبی از شرایط و یا وقایع آینده همراه است، علم آمار و علم احتمال است.
+        </p>
+        <br>
+        <p class="MsoNormal">
+            به کمک علم آمار، اطلاعات سال‌های گذشته کارخانه را به‌درستی جمع‌آوری کرده و از آن توصیفی مناسب از وضعیت تقاضای کالاهای مختلف به‌دست آورد و سپس به سوال‌هایی مانند «در سال آینده تقاضای یخچال، کولر، اجاق‌گاز و ... چگونه خواهد بود؟» پرداخت. در قدم بعدی، علم احتمال کمک می‌کند که به بهترین تصمیم ممکن برسیم.
+        </p>
+        <br>
+        <p class="MsoNormal">
+            بطور خلاصه بخشی از دو علم نام‌برده عکس هم‌اند: آن‌گاه که با جامعه‌ای ناشناخته سرو کار داریم، شناختن جامعه با استفاده از نمونه‌ها و داده‌ها یک کار آماری است. ولی اگر جامعه را با جزئیات مورد نیاز بشناسیم و بخواهیم بدانیم نمونه‌ای از آن جامعه چگونه خواهند بود، علم احتمال به کمک ما می‌آید. در شکل روبه‌رو، این موضوع نشان داده شده است: ظرفی که در آن مهره‌های رنگی وجود دارد، مانند جامعه است و مهره‌هایی که در دست هستند، مانند نمونه‌اند.
+        </p>
+        <Br>
+        <div class="MsoNormal" style="text-align:center;">
+            <p class="MsoNormal">علم احتمال: بررسی نمونه نامعلوم از یک جامعه معلوم</p>
+            <p class="MsoNormal">علم آمار: شناخت جامعه نامعلوم با استفاده از نمونه‌ها و داده‌های جمع‌آوری شده</p>
+        </div>
+
+    <br><hr><br>
+
+
+        <p class="MsoStep">کار در کلاس</p>
+        <p class="MsoNormal">کدام‌یک از سوال‌های زیر مربوط به علم آمار و کدام‌یک مربوط به علم احتمال است؟ در هر مورد با دیگران گفت‌وگو کنید.</p>
+       <br>
+        <table class="MsoNormal" style="margin:auto;width:fit-content;direction:rtl;text-align:right;">
+            <tr>
+                <th>صورت مسئله</th>
+                <th>احتمال</th>
+                <th>آمار</th>
+            </tr>
+            <tr>
+                
+                <td>۱- می‌دانیم ۹۰ تا از ۱۰۰ سیب یک جعبه سالم است. چند تا سیب از جعبه برداریم، تا تقریباً مطمئن باشیم که دست‌کم یک سیب خراب برداشته‌ایم؟</td>
+           <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                
+                <td>۲- درآمد کارمندان شهرداری چقدر است؟</td>
+           <td></td>
+                <td></td>
+            </tr>
+            <tr>
+              
+                <td>۳- ۹۰ نفر از ۱۵۰ دانش‌آموز پایه یازدهم به ورزش شنا علاقه دارند. اگر ۲۰ نفر از این دانش‌آموزان را به تصادف انتخاب کنیم، چقدر ممکن است کمتر از ۱۵ نفر از آنها به شنا علاقه‌مند باشند؟</td>
+             <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                
+                <td>۴- در انتخابات هفتم اسفند ۱۳۹۴ شهرستان سوادکوه شمالی با مشارکت بیش از ۹۸٪ درصد رکورددار بوده است. اگر از ۱۰ نفر واجد شرایط بپرسیم که آیا در انتخابات شرکت کرده‌اند یا خیر، چقدر ممکن است پاسخ بیش از یک نفر منفی باشد؟</td>
+           <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>۵- چه تعداد از دانش‌آموزان پایه یازدهم مدرسه شما به ورزش شنا علاقه دارند؟</td>
+           <td></td>
+                <td></td>
+           
+            </tr>
+        </table>
+        <br><br>
+
+
+            <p class="MsoSemi" style="font-size: larger;">ریاضی‌دان‌ها چگونه به علم احتمال می‌پردازند؟</p>
+            <p class="MsoNormal">
+                ریاضی‌دانان معمولاً برای حل مسائل سخت و پیچیده، ابتدا کار را از طراحی و حل مسائلی ساده شروع می‌کنند و سپس قدم به قدم به ساختن بنایی استوار از تعریف‌ها، مفاهیم، قضیه‌ها و... به سراغ مسائلی می‌روند که شاید در نگاه اول دست‌نیافتنی به نظر می‌رسیدند. بیایید مانند ریاضی‌دان‌ها مسئله ساده‌ای را که در آن اطمینان وجود ندارد، بررسی کنیم:
+            </p>
+            <br><hr><br>
+
+            <p class="MsoStep">فعالیت</p>
+            <p class="MsoNormal">
+                برقی‌کاری نیاز به یک لامپ سالم دارد. دو جعبه داریم که در اولی و دومی، به‌ترتیب، ۵ و ۷ لامپ وجود دارد، ولی فقط برخی از این لامپ‌ها سالم‌اند: در اولی سه لامپ و در دومی ۳ لامپ سالم است. او باید یکی از دو جعبه را انتخاب کند و از آن جعبه یک لامپ، به‌تصادف، بردارد. به نظر شما کدام جعبه را انتخاب کند؟
+            </p>
+            <br>
+            <p class="MsoNormal">
+                جواب این سوال ساده است: در جعبه اول ۶۰ درصد و در جعبه دوم ...... درصد لامپ‌ها سالم‌اند، پس بهتر است جعبه ... را انتخاب کند.
+            </p>
+            <br>
+            <p class="MsoNormal">
+                اکنون فرض کنید دو جعبه همان شرایط را دارند، ولی برقی‌کار آزمایش، بردارد. به نظر شما، او بهتر است کدام جعبه را انتخاب کند؟
+            </p>
+            <br>
+            <p class="MsoNormal">
+                در این حالت، تصمیم‌گیری به سادگی حالت اول نیست.
+            </p>
+
+        
+    <br><Hr><br>
+
+        <div class="MsoNormal">
+            <p class="MsoStep">کار در کلاس</p>
+            <p class="MsoNormal">
+                به چند حالت مختلف می‌توان ۲ لامپ را یکی پس از دیگری از بین ۵ لامپ جعبه اول مذکور انتخاب کرد؟ در چند حالت هر دو لامپ معیوب است؟ مشابه همین سؤال‌ها را در مورد جعبه دوم بررسی کنید. با توجه به نتایج، کدام جعبه را برای حالت دوم بهتر می‌دانید؟
+            </p>
+            <p class="MsoNormal">
+                چنین مسائلی هر چند ساده‌نگری‌اند، ولی ماهیت آنها بسیار شبیه همان مسائلی است که کارشناسان کارخانه با آن مواجه بودند؛ تصمیم‌گیری برای آینده‌ای که در مورد وقایع آن اطمینان نداریم.
+            </p>
+
+            <br><hr><br>
+            <p class="MsoStep">خواندنی</p>
+            <p class="MsoNormal">
+                از احتمال کیفی تا احتمال کمی
+            </p>
+
+            <br>
+            <p class="MsoNormal">
+                واژهٔ احتمال و مشابه‌های آن مانند شانس، بخت، تصادف در بین مردم عامی هم رایج است: «فردا با احتمال زیاد باران می‌بارد»، «تمایل این‌بار برای المپیک شانس زیادی در آینده دارد»، و...
+            </p>
+
+<br>
+            <p class="MsoNormal">
+                هر گاهی برای توصیف احساسی خود در این موارد، از اعداد استفاده می‌کنند، ولی منظور آنها صرفاً یک بیان کیفی است: «احتمال ۹۹ درصد صفحه بعد طلا گران می‌شود». «تم انتهای جدول یک درصد هم شانس قهرمان شدن ندارد» و...
+            </p>
+<Br>
+
+            <p class="MsoNormal">
+                علم احتمال با رساندن این عبارات کیفی به معانی احتمال و عدم اطمینان، عدد بیان کردن می‌دهد. منظور از این بیان‌ها این است که بتوان با کمک محاسبات ریاضی، به نتایجی روشن، دقیق و قابل اثبات و اتکا رسید.
+            </p>
+
+            <br><hr>
+
+            <p class="MsoBold">ترجمۀ زبان گزاره ‌ها به زبان مجموعه ‌ها</p>
+            <p class="MsoNormal">
+                معمولاً وقتی از احتمال رخ دادن رویدادی صحبت می ‌کنیم، آن رویداد را به شکل یک گزاره بیان می ‌کنیم؛ مثلاً می ‌گوییم:
+            </p>
+            <br>
+            <p class="MsoNormal">
+                احتمال اینکه «فردا باران ببارد»، احتمال اینکه «نتیجهٔ مسابقهٔ فوتبال هفتهٔ آینده تساوی شود»، احتمال اینکه «متهم دستگیرشده، مجرم باشد» و...
+            </p>
+            <Br>
+            <p class="MsoNormal">
+                ولی ریاضی ‌دانان گاهی به ‌شکل دیگری احتمال را به کار می ‌برند. برای روشن شدن این موضوع، همان مثال قبلی را به یاد بیاورید:
+            </p>
+            <br>
+            <p class="MsoNormal">
+                فرض کنید برق ‌کار جعبهٔ او ّ ل را انتخاب کرده و می ‌خواهد از بین 5 لامپ یکی را بردارد. لامپ ‌ها را شماره ‌گذاری می ‌کنیم به نحوی که شماره ‌های 1 تا 3 سالم و شماره ‌های 4 و 5 معیوب باشند.
+            </p>
+            <br>
+            <p class="MsoNormal">
+                شمارهٔ لامپی که بیرون کشیده می ‌شود برای برق ‌کار معلوم نیست، ولی به هر حال یکی از اعضای مجموعهٔ زیر است:
+            </p>
+            <p class="MsoNormal" >
+                $$ S = \{1, 2, 3, 4, 5\}$$
+            </p>
+            <p class="MsoNormal">
+                همان طور که می دانید در علم احتمال به این مجموعه «فضای نمونه» گفته می شود.
+            </p>
+            <br><hr><br>
+            <p class="MsoNormal">
+                به هر عضو فضای نمونه یک «برآمد» می گویند.
+            </p>
+            <br><hr><Br>
+            <p class="MsoNormal">
+                برق ‌کار در صورتی راضی می ‌شود که لامپ انتخابی سالم باشد و این یعنی اینکه شمارهٔ لامپ 1، 2 یا 3 باشد. در این صورت،
+                این اتفاق را هم می ‌توان با یک زیرمجموعهٔ فضای نمونه مشخص کرد:
+            </p>
+            <p class="MsoNormal">
+                $$A = \{1, 2, 3\}$$
+            </p>
+            <p class="MsoNormal">
+                همان طور که در سال های گذشته خوانده اید در علم احتمال به این زیرمجموعه ها «پیشامد» گفته می شود.
+            </p>
+            <Br>
+            <p class="MsoNormal">
+                در زبان علم احتمال به جای اینکه بگوییم «لامپ انتخاب شده سالم باشد»، می ‌توانیم بگوییم «پیشامد A رخ دهد» و به جای
+                اینکه بگوییم «احتمال سالم بودن لامپ انتخابی»، می ‌توانیم بگوییم «احتمال رخ دادن A». عبارت اخیر خلاصه ‌شدهٔ این عبارت
+                است «احتمال اینکه شمارهٔ لامپ انتخابی عضو A باشد».
+            </p>
+
+            <br><hr><br>
+    
+                <p class="MsoStep">کار در کلاس</p>
+                <p class="MsoNormal">
+                    زهرا و شبنم در مورد سؤالی که دربارهٔ پرتاب یک تاس سالم در کلاس مطرح شده با هم صحبت
+                    می ‌کنند. به نظر شما چه کسی درست می ‌گوید؟
+                </p>
+                <br>
+                <p class="MsoNormal">
+                    زهرا: فضای نمونه در این مسئله مجموعهٔ $\{1, 2, \dots, 6\}$ است.
+                </p>
+                <br>
+                <p class="MsoNormal">
+                    شبنم: بله، من هم موافق هستم. سؤالی که خانم معلم پرسیدند این است که اگر تاس را پرتاب کنیم
+                    و عدد ۲ بیاید، آیا پیشامد $\{2, 4, 6\}$ رخ داده است؟
+                </p>
+                <br>
+                <p class="MsoNormal">
+                    زهرا: به نظرم نه، چون ۴ و ۶ هم علاوه بر ۲ عضو این پیشامدند.
+                </p>
+                <br>
+                <p class="MsoNormal">
+                    شبنم: ولی من فکر می ‌کنم این پیشامد رخ داده است، چون این پیشامد، شامل عدد ۲ است.
+                </p>
+                <br>
+                <p class="MsoNormal">
+                    زهرا: پس ۴ و ۶ که نیامدند چه؟
+                </p>
+                <br>
+                <p class="MsoNormal">
+                    شبنم: یعنی باید آنها هم در پرتاب تاس آمده باشند تا بگوییم آن پیشامد رخ داده است؟ اصلاً این ‌طور که شما فکر می ‌کنید،
+                    چگونه ممکن است پیشامد $\{2, 4, 6\}$ رخ دهد؟ مگر می ‌شود تاسی را پرتاب کنیم و سه مقدار مختلف با هم ظاهر شود؟!
+                </p>
+                <br>
+                <p class="MsoNormal">
+                    با توجه به مفهوم «رخ دادن یک پیشامد» می فهمیم که اگر $A_1$ و $A_2$ دو پیشامد باشند، آن ‌گاه:
+                </p>
+                <br>
+                <p class="MsoNormal">
+                    الف) اگر $A_1$ زیرمجموعهٔ $A_2$ باشد، رخ دادن $A_1$ رخ دادن $A_2$ را نتیجه می ‌دهد.
+                </p>
+                
+                <p class="MsoNormal">
+                    ب) رخ دادن پیشامد $A_1 \cap A_2$، یعنی هر دو پیشامد $A_1$ و $A_2$ رخ دهد.
+                </p>
+                
+                <p class="MsoNormal">
+                    پ) رخ دادن پیشامد $A_1 \cup A_2$، یعنی دست ‌کم یکی از دو پیشامد $A_1$ و $A_2$ رخ دهد.
+                </p>
+
+            <br><hr>
+
+                <p class="MsoBold">تشخیص فضای نمونه</p>
+                <p class="MsoNormal">
+                    هرگاه بخواهیم مسئله ‌ای را با کمک علم احتمال بررسی کنیم قدم اوّل شناختن فضای نمونه است.
+                    همان ‌طور که گفته شد فضای نمونه مجموعه ‌ای است که اعضای آن، که به آنها برآمد می ‌گوییم، مشخص می ‌کنند
+                    که نتیجهٔ آزمایش یا مشاهده ‌ای که در حال بررسی آن هستیم چه حالت ‌هایی دارد؛ مثلاً در پرتاب یک تاس،
+                    مجموعهٔ $\{1, 2, \dots, 6\}$ فضای نمونه است.
+                </p>
+                <Br>
+                <p class="MsoNormal">
+                    اگر بخواهیم نتایج حاصل از پرتاب دو تاس را بررسی کنیم از عمل ضرب دکارتی مجموعه‌ ها استفاده می ‌کنیم؛
+                    مجموعهٔ $\{1, 2, \dots, 6\} \times \{1, 2, \dots, 6\}$ که ۳۶ عضو دارد فضای نمونه است. البته لازم است که
+                    یکی از تاس ‌ها را تاس اوّل و دیگری ...
+                </p>
+
+                <br>
+                <p class="MsoNormal">
+                   
+                    را تاس دوم بنامیم تا مشخص شود که معنای برآمد $(1,2)$ چیست. توجه داشته باشید که این برآمد غیر از برآمد $(2,1)$ است.
+                </p>
+
+                <br><hr><br>
+
+                <p class="MsoNormal">
+                    در صورتی که آزمایشی متشکل از دو آزمایش با فضاهای نمونهٔ 
+
+                    $S_1$ و $S_2$ باشد فضای نمونهٔ آن $S_1 \times S_2$ است.
+                    مشابه این موضوع برای هر تعداد آزمایش هم‌زمان نیز درست است.
+                </p>
+                <br><hr><br>
+
+                
+                <p class="MsoSemi" style="font-size: larger;">مثال:</p>
+                <p class="MsoNormal">
+                    یک رانندهٔ تاکسی خطی، در ایستگاه منتظر می ‌ایستد تا حداکثر چهار مسافر سوار کند. البته ممکن است با کمتر از چهار
+                    مسافر نیز حرکت کند. در مسیر برگشت نیز همین اتفاق می‌افتد. فضای نمونه برای توصیف چنین پدیده‌ای، اگر فقط تعداد مسافرها
+                    در دو مسیر رفت و برگشت برای ما مهم باشد، چیست؟
+                </p>
+                <Br>
+                <p class="MsoSemi">حل:</p>
+                <p class="MsoNormal">
+                    با توجه به اینکه تعداد این دو نوع مسافر در رفت و در برگشت عددی بین صفر و چهار است، می ‌توان مجموعهٔ زیر را فضای نمونه گرفت:
+                </p>
+                
+                <p class="MsoNormal" style="text-align:center;">
+                    $$
+                    S = \{0,1,2,3,4\} \times \{0,1,2,3,4\}
+                    $$
+                </p>
+         
+                <p class="MsoNormal">
+                    در این فضای نمونه، منظور از برآمد $(1,2)$ این است که تاکسی با ۱ مسافر حرکت کرده و در برگشت ۲ مسافر سوار کرده است.
+                </p>
+                
+                <br><hr><Br>
+
+
+                <p class="MsoBold">اصول احتمال</p>
+                <p class="MsoNormal">
+                    در حالت کلی شناختن فضای نمونه برای توصیف یک رویداد تصادفی کافی نیست. علاوه بر آن لازم است که بدانیم احتمال رخ دادن پیشامدهای مختلف که زیرمجموعه‌های فضای نمونه‌اند، چقدر است. این موضوع را در درس بعد که در مورد احتمال غیرهم‌شانس است بهتر متوجه خواهید شد.
+                </p>
+                <Br>
+                <p class="MsoNormal">
+                    به عنوان مثال، به وضعیت آب و هوای قلهٔ دماوند در صبح نوروز سال آینده فکر کنید؛ می‌توان فضای نمونه را این چنین در نظر گرفت:
+                </p>
+                
+                <p class="MsoNormal" >
+                {آفتابی، ابری} 
+                </p>
+                <br>
+                <p class="MsoNormal">
+                    آیا چون فضای نمونه دو عضوی است باید احتمال هر کدام 50 درصد باشد؟
+                </p>
+                <Br>
+                <p class="MsoNormal">
+                    ممکن است کسی فضای نمونه را به شکل زیر انتخاب کند:
+                </p>
+                
+                    
+                <p class="MsoNormal">
+                   {آفتابی، ابری بدون بارندگی، بارش باران، بارش برف، بارش تگرگ} 
+                </p>
+                <Br>
+                <p class="MsoNormal">
+                    در این صورت آیا چون فضای نمونه پنج عضو دارد، باید احتمال هر کدام 20 درصد باشد؟
+                </p>
+                <Br>
+                <p class="MsoNormal">
+                    اگر کسی به هر دو سؤال بالا جواب مثبت دهد، پس احتمال آفتابی بودن را یک بار 50 درصد و یک بار 20 درصد دانسته است!
+                </p>
+        
+            <br><hr><br>
+
+              
+            <p class="MsoStep">خواندنی</p>
+            <p class="MsoSemi">یک اشتباه تاریخی</p>
+            <p class="MsoNormal">
+                مشهور است که دالامبر، ریاضی ‌دان، فیـزیک ‌دان، فیلسوف و دائرة ‌المعارف ‌نویس فرانسوی قرن هجدهم، تصور می ‌کرد که اگر یک سکه را دو بار پرتاب کنیم، احتمال اینکه دقیقاً یک بار رو بیاید، برابر یک سوم است. او این ‌گونه استدلال می ‌کرد:
+            </p>
+            <p class="MsoNormal">
+                در چنین آزمایشی سه حالت وجود دارد: «هر دو رو»، «هر دو پشت» و «یک بار رو و یک بار پشت». در نتیجه احتمال وقوع هر یک از این حالات یک سوم است!
+            </p>
+
+            <br><hr><br>
+
+
+            <p class="MsoNormal">
+                همان ‌طور که گفته شد نکته این است در یک فضای نمونه برآمدهای مختلف ممکن است احتمال برابر نداشته باشند. در این حالت، محاسبهٔ احتمال برآمدها و پیشامدها ممکن است ساده نباشد، ولی احتمال پیشامدهای مختلف حتماً باید ویژگی ‌هایی داشته باشد که به آنها اصول احتمال می ‌گویند:
+            </p>
+            <br>
+            <p class="MsoNormal">
+                ۱. برای هر پیشامد دلخواه A، احتمال رخ دادن آن، یعنی P(A)، عددی حقیقی در بازهٔ [0,1] است.
+            </p>
+            <br>
+            <p class="MsoNormal">
+                ۲. P(S) = 1
+            </p>
+            <Br>
+            <p class="MsoNormal">
+                ۳. برای هر دو پیشامد A و B که A ∩ B = ∅، داریم P(A ∪ B) = P(A) + P(B)
+            </p>
+            <Br>
+
+            <p class="MsoNormal">
+                به خاصیتی که در شمارهٔ ۳ برای دو پیشامد A و B فرض شده است، یعنی A ∩ B = ∅، ناسازگاری این دو پیشامد گفته می ‌شود و به این معناست که رخ دادن هر دوی آنها هم ‌زمان محال است. در غیر این صورت، می ‌گوییم A و B سازگارند.
+            </p>
+
+
+            <br><hr>
+            <p class="MsoStep">قضیه</p>
+            <p class="MsoNormal">
+                در مورد هر فضای نمونه، گزاره‌های زیر درست است:
+            </p>
+            <br>
+            <p class="MsoNormal">
+                1.
+                $\quad P(A') = 1 - P(A)$
+            </p>
+            <br>
+            <p class="MsoNormal">
+                2.
+                $\quad P(\emptyset) = 0$
+            </p>
+            <br>
+            <p class="MsoNormal">
+                3. اگر $A, B, C$ پیشامدهایی دو به دو ناسازگار باشند، آن‌گاه 
+                $P(A \cup B \cup C) = P(A) + P(B) + P(C)$
+            </p>
+            <br>
+            <p class="MsoNormal">
+                (این قسمت را می ‌توان برای هر تعداد پیشامد نیز تعمیم داد.)
+            </p>
+            <br>
+            <p class="MsoNormal">
+                4.
+                برای هر دو پیشامد دلخواه $A$ و $B$ 
+                داریم 
+                :
+                $$P(A - B) = P(A) - P(A \cap B)$$
+            </p>
+            
+            <br>
+            
+            <p class="MsoNormal">
+                ۵. برای هر دو پیشامد دلخواه $A$ و $B$ داریم:
+                $P(A \cap B) = P(A) + P(B) - P(A \cap B)$
+            </p>
+         
+            <br>
+
+
+          
+            <p class="MsoSemi">
+                اثبات:
+            </p>
+            <br>
+            <p class="MsoNormal">
+                1.
+                اگر $A$ و $A'$ دو پیشامد ناسازگارند و اجتماع آنها برابر $S$ می ‌شود، داریم:
+                $$ 1 = P (S) = P (A \cup A') = P(A) + P(A') $$
+                در نتیجه:
+                $P(A') = 1 - P(A)$
+            </p>
+
+
+            <br><br>
+
+
+            <p class="MsoNormal">
+                ۲. با توجه به اینکه $\emptyset$ متمم $S$ است، داریم:
+           
+                $$ P({\varnothing}) \ {=} \ 1 - P(S) = 1 - 1 = 0 $$
+            </p>
+            <br>
+
+            <p class="MsoNormal">
+                ۳.
+                توجه کنید که
+                $A$
+                و
+                $B \ \cup \ C$
+                نیز دو پیشامد ناسازگارند و لذا:
+
+                $$
+                \begin{align*}
+
+                & P ( A \cup B \cup C ) \\\\
+              = \ & P ( A \cup ( B \cup C ) ) \\\\
+              = \ & P (A) + P ( B \cup C ) \\\\
+              = \ & P (A) + P (B) + P (C) 
+ 
+                \end{align*}
+                
+                $$
+            </p>
+            <br>
+
+            <p class="MsoNormal">
+                ۴.
+                 واضح است که 
+                 $A = (A - B) \cup (A \cap B)$
+                  و پیشامدهای 
+                  $A - B$
+                   و 
+                   $A \cap B$
+                   ناسازگارند ،
+
+                    پس:
+
+                $$P(A) = P(A - B) + P(A \cap B)$$
+
+            </p>
+            <p class="MsoNormal">
+                و این
+                نتیجه می ‌دهد
+                که:
+            </p>
+            <p class="MsoNormal">
+                $$P(A - B) = P(A) - P(A \cap B)$$
+            </p>
+            <br>
+            <p class="MsoNormal">
+                ۵. توجه کنید که 
+                $A \cup B \ = \ B \cup (A - B) $
+                 و به‌علاوه دو پیشامد 
+                 $B$
+                  و 
+                 $A - B$
+                  ناسازگارند. در نتیجه:
+       
+                $$ P(A \cup B) = P(B) + P (A - B) $$
+            </p>
+            <p class="MsoNormal">
+                با استفاده از شمارهٔ ۴، حکم نتیجه می‌شود. (چرا؟)
+            </p>
+            
+            <br><hr><br>
+
+            <p class="MsoStep">کار در کلاس</p>
+            <p class="MsoNormal">
+                مشخص کنید که در هر قسمت دو پیشامدی که آمده است با هم سازگارند یا ناسازگار؟
+            </p>
+            <Br>
+            <p class="MsoNormal">
+                ۱. دانش ‌آموزی که به تصادف از کلاس انتخاب می ‌کنید، 
+            </p>
+            <p class="MsoNormal">
+                $A$: متولد ماه مهر باشد، 
+                <br>
+                $B$: متولد فصل تابستان باشد.
+            </p>
+            <br>
+            <p class="MsoNormal">
+                ۲. سکه ‌ای که سه بار پرتاب می ‌کنید،
+            </p>
+            <p class="MsoNormal">
+                $A$: هر سه بار مشابه بیاید، 
+                <br>
+                $B$: زوج بار رو بیاید.
+            </p>
+            <Br>
+            <p class="MsoNormal">
+                ۳. فردا 
+            </p>
+            <p class="MsoNormal">
+                $A$: خورشید در آسمان دیده شود، 
+                <br>
+                $B$: باران ببارد.
+            </p>
+            <Br>
+            <p class="MsoNormal">
+                ۴. تاسی را پی در پی پرتاب می ‌کنید،
+            </p>
+            <p class="MsoNormal">
+                $A$: برای اوّلین بار در مرتبهٔ سوم ۶ بیاید، 
+                <br>
+                $B$: تا پرتاب سوم دو بار ۶ بیاید.
+            </p>
+
+        <Br><Hr><br>
+            
+            <p class="MsoStep">تمرین</p>
+            <p class="MsoNormal">
+                ۱. احمد و عباس با هم یک مرتبه سنگ، کاغذ، قیچی بازی می ‌کنند. فضای نمونه برای این بازی چیست؟ فضای نمونه چند عضو دارد؟ در چه تعداد از برآمدها احمد برندهٔ بازی است؟
+            </p>
+            <Br>
+            <p class="MsoNormal">
+                ۲. یک تیم والیبال ۱۴ عضو دارد که قد هیچ دو عضوی برابر نیست. فرض کنید آنها یکی پس از دیگری وارد سالن می ‌شوند. اگر برای ما فقط ترتیب قد آنها اهمیت داشته باشد، فضای نمونه را توصیف کنید. اگر اعضای تیم کاملاً تصادفی وارد سالن شده باشند، احتمال اینکه اوّلین کسی که وارد می ‌شود، بلندقدترین عضو تیم باشد چقدر است؟
+            </p>
+            <Br>
+            <p class="MsoNormal">
+                ۳. در یک ایستگاه هواشناسی، در هر لحظه وضعیت آب و هوا با پنج چیز مشخص می ‌شود: دمای هوا، رطوبت هوا، سرعت باد، وضعیت هوا (صاف یا ابری) و مقدار بارش در ۲۴ ساعت گذشته. ما برای سادگی، وضعیت آب و هوا را به این شکل خلاصه می ‌کنیم: آیا از نظر دما سرد یا گرم است؟ آیا از نظر رطوبت خشک یا مرطوب است؟ آیا باد می ‌وزد یا نمی ‌وزد؟ آیا هوا صاف، نیمه‌ابری یا ابری است؟ و آیا در ۲۴ ساعت گذشته بارندگی رخ داده است یا خیر؟ برای وضعیت هوا در یک لحظه در یک ایستگاه هواشناسی فضای نمونه را به شکل حاصل ضرب دکارتی چند مجموعه بنویسید. این فضا چند عضو دارد؟
+            </p>
+            <Br>
+            <p class="MsoNormal">
+                ۴. فقط با استفاده از اصول احتمال و قضایای اثبات‌شده، گزاره‌های زیر را ثابت کنید:
+            </p>
+            <br>
+            <p class="MsoNormal">
+                الف) اگر $B \subseteq A$ داریم: $P(A - B) = P(A) - P(B)$
+            </p>
+            <p class="MsoNormal">
+                ب) اگر $B \subseteq A$، آن ‌گاه $P(B) \leq P(A)$
+            </p>
+            <Br>
+            <p class="MsoNormal">
+                ۵. عددی به ‌تصادف از بین اعداد ۱ تا ۱۰۰ انتخاب می ‌کنیم. احتمال‌های زیر را محاسبه کنید:
+            </p>
+            <Br>
+            <p class="MsoNormal">
+                الف) عدد انتخابی بر ۲ یا ۳ بخش ‌پذیر باشد.
+            </p>
+            <p class="MsoNormal">
+                ب) عدد انتخابی بر ۲ بخش ‌پذیر باشد، ولی به ۳ بخش ‌پذیر نباشد.
+            </p>
+            <p class="MsoNormal">
+                پ) عدد انتخابی نه بر ۲ بخش ‌پذیر باشد و نه بر ۳.
+            </p>
+            
+
+
+
+<br><br><br><br><br>
+
+
+    </body>
+
+
+</html>

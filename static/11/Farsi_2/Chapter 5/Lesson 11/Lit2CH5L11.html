@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: "Nastaliq";
+            src: url('nas.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+      
+        li.MsoNormal,
+        div.MsoNormal,
+        ul.MsoNormal,
+        ol.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+            
+        }
+        p.MsoNas
+         {
+            margin: 0.5em;
+            
+            font-size: clamp(1.5rem, 1.7vw, 2rem);
+            font-family: "Nastaliq";
+            line-height: 2.3em;
+            color: #dcd7e0;
+            text-align: center;
+         letter-spacing: 0em;
+         word-spacing: 0.4em;
+            
+        }
+        p.MsoNormal
+         {
+            margin: 0in;
+           
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-indent: 1em;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi {
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSemic,
+        li.MsoSemic,
+        div.MsoSemic {
+            margin: 0in;
+           
+            font-size: clamp(1.2rem, 1.6vw, 1.3rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #b19af2;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #6ca4ec;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+        span.uline{
+            border-bottom: 0.1em solid #64E9E1;
+        }
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .boxp {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .boxg {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#00f2ff11; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        .boxb {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#0c4e9f2d; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        ::selection {
+            background-color: #59078fa1; /* Change this to your desired highlight color */
+            color: #ffffff; /* Change this to your desired text color */
+          }
+
+
+          mark{
+            background-color:#078b8fa1 ;
+            color: #ffffff;
+            padding: 0 7px;
+        }
+
+        .hlg { background-color: rgba(0, 234, 255, 0.334);  }
+        .hlp { background-color:#5f1487; }
+      
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+    <body class="custom-scrollbar">
+
+    <p class="MsoBold">
+        درس یازدهم : یاران عشق
+    </p>
+<br>
+<div style="text-align: center;">
+    $$ \ \ 1 \ \ $$
+    <p class="MsoNas" style="text-align:center">بیا عاشقی را رعایت کنیم</p>
+    <p class="MsoNas" style="text-align:center">ز یاران عاشق حکایت کنیم</p>
+    $$***$$
+    <p class="MsoNas" style="text-align:center">از آنها که خونین سفر کرده‌اند</p>
+    <p class="MsoNas" style="text-align:center">سفر بر مدار خطر کرده‌اند</p>
+    $$***$$
+    <p class="MsoNas" style="text-align:center">از آنها که خورشید فریادشان</p>
+    <p class="MsoNas" style="text-align:center">دمید از گلوی سحرزادشان</p>
+    $$***$$
+    <p class="MsoNas" style="text-align:center">چه جانانه چرخ جنون می‌زنند</p>
+    <p class="MsoNas" style="text-align:center">دف عشق با دست خون می‌زنند</p>
+    $$ \ \ 5 \ \ $$
+    <p class="MsoNas" style="text-align:center">به رقصی که بی‌پا و سر می‌کنند</p>
+    <p class="MsoNas" style="text-align:center">چنین نغمه‌ی عشق سر می‌کنند:</p>
+    $$***$$
+    <p class="MsoNas" style="text-align:center">هلا منکرِ جان و جانان ما</p>
+    <p class="MsoNas" style="text-align:center">بزن زخم انکار بر جان ما</p>
+    $$***$$
+    <p class="MsoNas" style="text-align:center">بزن زخم، این مرهم عاشق است</p>
+    <p class="MsoNas" style="text-align:center">که بی زخم مردن، غمِ عاشق است</p>
+    $$***$$
+    <p class="MsoNas" style="text-align:center">مگو سوخت جان من از فرط عشق</p>
+    <p class="MsoNas" style="text-align:center">خموشی است هان، اوّلین شرط عشق</p>
+    $$***$$
+    <p class="MsoNas" style="text-align:center">ببین لاله‌هایی که در باغ ماست</p>
+    <p class="MsoNas" style="text-align:center">خموشند و فریادشان تا خداست</p>
+    $$ \ \ 10 \ \ $$
+    <p class="MsoNas" style="text-align:center">بیا با گل لاله بیعت کنیم</p>
+    <p class="MsoNas" style="text-align:center">که آلاله‌ها را حمایت کنیم</p>
+</div>
+<br>
+<p class="MsoNormal" style="text-align:left">
+    $*$
+    هم صدا با حلق اسماعیل، سیّد حسن حسینی</p>
+
+<br><hr>
+
+ 
+        <p class="MsoBold">کارگاه متن‌پژوهی</p>
+        
+        
+        <p class="MsoStep">قلمرو زبانی</p>
+        <p class="MsoNormal">1. معادل معنایی واژه‌های مشخص شده را بنویسید.</p>
+        <br>
+        <p class="MsoNormal" style="text-align: center;"><span class="uline">منکر</span> آیینه باشد چشم کور</p>
+        <p class="MsoNormal" style="text-align: center;">دشمن آیینه باشد روی زرد</p>
+        <p class="MsoNormal" style="text-align: center;">$*$عمادی شهریاری</p>
+
+        <br>
+
+        <p class="MsoNormal" style="text-align: center;">ملوک زمانه، داور زمانه را</p>
+        <p class="MsoNormal" style="text-align: center;">جز بر ارادت تو مسیر و <span class="uline">مدار</span> نیست</p>
+        <p class="MsoNormal" style="text-align: center;">$*$مسعود سعد سلمان</p>
+
+        <br><br>
+        <p class="MsoNormal">
+            2.
+            همان طور که می‌دانید، صفت بیانی، برای توضیح و وصف یک واژه به کار می‌رود. واژه‌ای که وصف می‌شود، <span class="uline">موصوف</span> نام دارد.</p>
+        <br>
+        <p class="MsoNormal">مثال:</p>
+       
+        <table class="MsoNormal" style="border:none!important;margin:auto;width:fit-content;direction:rtl;text-align:center;">
+            <tr>
+                <td style="border:none!important"><span class="uline">کتاب</span> ِ <span class="uline">خواندنی</span></td>
+                
+                
+            </tr>
+            <tr>
+                <td style="border:none!important">$\text{صفت}$ $\text{موصوف}$ </td>
+                
+            </tr>
+        </table>
+        <br>
+        <p class="MsoNormal">
+            $*$
+            به پرکاربردترین صفت‌ها
+        های بیانی توجه کنید:</p>
+
+<br>
+        <table class="MsoNormal" style="border:none!important;margin:auto;width:fit-content;direction:rtl;text-align:right;">
+
+            <tr>
+                <th style="text-align: center;">مطلق :</th>
+                <td>پاك، خوشحال، خطرناک</td>
+            </tr>
+
+            <tr>
+                <th style="text-align: center;" rowspan="8">
+                    فاعلي:
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    بن مضارع + ــَـ نده : سازنده، درخشنده
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    بن مضارع + ا : گويا، کوشا
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    بن مضارع + ان: خندان، تابان
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    بن ماضی/ بن مضارع + گار: آفریدگار، آموزگار
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    بن ماضی + ار : خریدار، خواستار
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    اسم/ بن/ صفت + گر: زرگر، توانگر، روشنگر
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    اسم/ صفت + بن مضارع: خداشناس، راستگو
+                </td>
+            </tr>
+            <tr>
+                <th style="text-align: center;" rowspan="3"> 
+                    مفعولي:
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    بن ماضی + ه / ـه ( = -ِ ) : پرورده، شکسته
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    بن ماضی + ار: گرفتار، مُردار
+                </td>
+            </tr>
+            <tr>
+                <th style="text-align: center;">
+                    لياقت:
+                </th>
+                <td>
+                    مصدر + ي : آشامیدنی، ستودنی
+                </td>
+            </tr>
+          
+            <tr>
+                <th style="text-align: center;" rowspan="6">
+                    نسبي:
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    اسم + ي : آسماني، نارنجی
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    اسم + ین: امروزین، آهنین
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    اسم + ینه : سیمینه، چرمینه
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    اسم + انی : روحانی، عقلانی
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    اسم + انه : کودکانه، سالانه
+                </td>
+            </tr>
+    
+        </table>
+
+        <br><br>
+
+        
+            
+            <p class="MsoNormal">اکنون مانند نمونه، جدول را کامل کنید.</p>
+            <br>
+            <table class="MsoNormal" style="margin:auto;width:fit-content;direction:ltr;text-align:center;">
+                <tr>
+                    <th>صفت مفعولی</th>
+                    <th>صفت لیاقت</th>
+                    <th>صفت فاعلی</th>
+                    <th>بن مضارع</th>
+                    <th>فعل</th>
+                </tr>
+                <tr>
+                    <td>نوشته</td>
+                    <td>نوشتنی</td>
+                    <td>نویسنده</td>
+                    <td>نویس</td>
+                    <td>نوشت</td>
+                </tr>
+                <tr>
+                    <td>..........</td>
+                    <td>..........</td>
+                    <td>..........</td>
+                    <td>..........</td>
+                    <td>خواندم</td>
+                </tr>
+            </table>
+            <br>
+
+            <hr>
+            <br>
+            <p class="MsoStep">قلمرو ادبی</p>
+            <p class="MsoNormal">1. از متن درس، برای هر یک از آرایه‌های ادبی زیر، نمونه‌ای مناسب بیابید و بنویسید.</p>
+            <ul class="MsoNormal"><br>
+                <li>تشبیه:</li>
+                <li>متناقض نما: </li>
+            </ul>
+            <br><br>
+            <p class="MsoNormal">2. شعر «یاران عاشق» را از نظر قالب و مضمون، با شعر «زاغ و کبک» مقایسه کنید.</p>
+        </div>
+        
+
+    <br><hr><br>
+
+    <p class="MsoStep">قلمرو فکری</p>
+    
+    <p class="MsoNormal">1. در این شعر، مقصود از یاران عاشق، چه کسانی هستند؟ در بیت سوم، به کدام ویژگی آنها اشاره شده است؟</p>
+    <br><br>
+    <p class="MsoNormal">2. در بیت آخر، بر کدام یک از ارزش‌های انقلاب اسلامی تأکید شده است؟</p>
+    <br><br>
+    <p class="MsoNormal">3. نخست، مفهوم کلّی بیت‌های زیر را بنویسید؛ سپس برای هر یک، بیتی متناسب از متن درس بیابید.</p>
+    
+<br>
+    <div class="MsoNormal" style="text-align: center;">
+        کان سوخته را جان شد و آواز نیامد<br>ای مرغ سحر، عشق ز پروانه بیاموز<br>
+        <p style="text-align:center;">$*$سعدی</p><br>
+        که در جوشن عشقید، که از کرب و بلایید<br>چه از تیر و چه از تیغ، شما روی نتابید<br>
+        <p style="text-align: center;">$*$حمید سبزواری</p></li>
+    </div>
+    <br><hr><br>
+    <p class="MsoNas" style="text-align: center;">از چنبر نفس رسته بودند آنها</p>
+    <p class="MsoNas" style="text-align: center;">بُتها همه را شکسته بودند آنها</p>
+    <p style="text-align: center;">$$***$$</p>
+    <br>
+    <p class="MsoNas" style="text-align: center;">پرواز شدند و پر گشودند به عرش</p>
+    <p class="MsoNas" style="text-align: center;">هرچند که دست‌بسته بودند آنها</p>
+
+    <br>
+    <p class="MsoNormal" style="text-align: left;">
+        $*$
+        مصطفی محدثی خراسانی</p>
+
+    <br><hr><Br>
+
+
+        <p class="MsoStep">
+            شعرخوانی  : صبح بی تو
+        </p><br>
+        <div>
+            <p class="MsoNas" style="text-align: center;">صبحِ بی تو، رنگ بعد از ظهر یک آدینه دارد</p>
+            <p class="MsoNas" style="text-align: center;">بی ‌تو حتی مهربانی حالتی از کینه دارد</p>
+            <p class="MsoNas" style="text-align: center;">$$***$$</p>
+            <p class="MsoNas" style="text-align: center;">بی ‌تو می‌گویند: تعطیل است کارِ عشق بازی</p>
+            <p class="MsoNas" style="text-align: center;">عشق، اما کی خبر از شنبه و آدینه دارد</p>
+            <p class="MsoNas" style="text-align: center;">$$***$$</p>
+            <p class="MsoNas" style="text-align: center;">جُغد، بر ویرانه می‌خواند به انکارِ تو اما</p>
+            <p class="MsoNas" style="text-align: center;">خاک این ویرانه‌ها، بویی از آن ویرانه دارد</p>
+            <p class="MsoNas" style="text-align: center;">$$***$$</p>
+            <p class="MsoNas" style="text-align: center;">خواستم از رنجشِ دوری بگویم، یادم آمد</p>
+            <p class="MsoNas" style="text-align: center;">عشق با آزار، خویشاوندی دیرینه دارد</p>
+            <p class="MsoNas" style="text-align: center;">$$***$$</p>
+            <p class="MsoNas" style="text-align: center;">رویِ آنم نیست تا در آرزو، دستی برآرم</p>
+            <p class="MsoNas" style="text-align: center;">ای خوش آن دستی که رنگِ آبرو از پینه دارد</p>
+            <p class="MsoNas" style="text-align: center;">$$***$$</p>
+            <p class="MsoNas" style="text-align: center;">در هوای عشقِ تو پر می زند با بی قراری</p>
+            <p class="MsoNas" style="text-align: center;">آن کبوترْ چاهیِ زخمی که او در سینه دارد</p>
+            <p class="MsoNas" style="text-align: center;">$$***$$</p>
+            <p class="MsoNas" style="text-align: center;">ناگهان قفلِ بزرگ تیرگی را می‌گشاید</p>
+            <p class="MsoNas" style="text-align: center;">آن که در دستش کلید شهر پر آیینه دارد</p>
+            <br>
+            <p class="MsoNormal" style="text-align: left;">
+                $*$
+                قیصر امین پور</p>
+        </div>
+
+
+    <br><Hr><Br>
+
+        <p class="MsoStep">درک و دریافت</p>
+
+        <p class="MsoNormal">1. در خوانش این سروده، به چه نکاتی باید توجّه کنیم؟</p>
+
+        <br><br>
+
+        <p class="MsoNormal">2. «انتظار موعود» یکی از مایه‌های ادبیات انقلاب اسلامی است؛ بر این مبنا، متن شعرخوانی را بررسی کنید.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    <br>    <br>    <br>    <br>    <br>    <br>    <br>    <br>    <br>    <br>    <br>    <br>    <br>    <br>    <br>
+
+    </body>
+
+
+</html>

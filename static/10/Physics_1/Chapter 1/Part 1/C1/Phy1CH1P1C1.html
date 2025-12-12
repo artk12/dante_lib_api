@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 900px;
+            margin: auto;
+            font-size: clamp(1rem, 2.5vw, 2rem);
+        }
+
+        span {
+            font-size: clamp(1rem, 2.4vw, 2rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 2.5vw, 2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.5rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.1rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #87a5ff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+
+        .images {
+            width: -webkit-fill-available;
+            display: block;
+            max-width: 80%;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+    </style>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+<body>
+    <div class="MsoBold">فصل 1</div>
+    <div class="MsoBold">فیزیک و اندازه‌گیری</div>
+    
+    <br>
+    <div class="MsoNormal">
+        یکی از وجوه مشترک فیزیک و معماری، اندازه‌گیری است. معماران هنرمند ایرانی از صدها سال پیش با بهره‌گیری از روش‌ها و فنون اندازه‌گیری، اثرهای بدیع و ماندگاری به یادگار گذاشته‌اند.
+        <br>
+        اگر به دنبال ردپای فیزیک در زندگی خود باشید، لازم نیست جای خیلی دوری بروید؛ زیرا فیزیک با زندگی روزانه‌ی ما عجین شده‌است. وسایل برقی، خودروها، گوشی‌های تلفن همراه و بسیاری از وسایل و ابزارهای اطراف ما، با بهره‌گیری از اصول و قوانین فیزیکی ساخته شده‌اند. فیزیک‌دانان، گستره وسیعی از پدیده‌ها را بررسی می‌کنند. این گستره، اندازه‌های خیلی کوچک مانند اتم‌ها و ذرات سازنده آنها را در بر می‌گیرد و همچنین اندازه‌های خیلی بزرگ مانند کهکشان‌ها و اجزای تشکیل‌دهنده آنها را نیز شامل می‌شود.
+        <br>
+        در این فصل، پس از آشنایی با فیزیک و نظریه‌های فیزیکی، به اهمیت مدل‌سازی در فیزیک پرداخته و با کمیت‌های فیزیکی، دستگاه بین‌المللی یکاها و دقت در اندازه‌گیری آشنا خواهید شد. در پایان فصل نیز نگاهی به چگالی و کاربردهای آن خواهد شد.
+    </div>
+    <br>
+   
+    <body>
+        <p class="MsoNormal">
+            مطالعه و یادگیری فیزیک به این دلیل اهمیت دارد که فیزیک از بنیادی‌ترین دانش‌ها و شالودهٔ تمامی مهندسی‌ها و فناوری‌هایی است که به طور مستقیم یا غیرمستقیم در زندگی ما نقش دارند. فیزیکدانان، پدیده‌های گوناگون طبیعت را مشاهده می‌کنند و می‌کوشند الگوها و نظم‌های خاصی میان این پدیده‌ها بیابند. دانشمندان فیزیک برای توصیف و توضیح پدیده‌های مورد بررسی، اغلب از قانون، مدل و نظریهٔ فیزیکی استفاده می‌کنند. از آنجا که فیزیک، علمی تجربی است، لازم است این قوانین، مدل‌ها و نظریه‌های فیزیکی توسط آزمایش مورد آزمون قرار گیرند. مدل‌ها و نظریه‌های فیزیکی در طول زمان همواره معتبر نیستند و ممکن است دستخوش تغییر شوند. به بیان دیگر همواره این امکان وجود دارد که نتایج آزمایش‌های جدید منجر به بازنگری مدل یا نظریه‌ای شود و حتی ممکن است نظریه‌ای جدید جایگزین آن شود. مثلاً در دهه‌های آغازین قرن گذشته، نظریهٔ اتمی با توجه به مشاهده‌ها و کسب اطلاعات جدید در خصوص رفتار اتم‌ها، بارها اصلاح شد (شکل 1-1).
+        </p>
+    </body>
+    
+    <div class="MsoStep">تغییر مدل اتمی در طول زمان</div>
+    <div class="MsoNormal" style="text-align:center!important">
+        <img src="Phy1CH1P1C1_webp1.webp" class="images" >
+        - دالتون، 1807 میلادی: مدل توپ بیلیارد
+        <br><br><br><img src="Phy1CH1P1C1_webp2.webp" class="images">
+        - تامسون، 1903 میلادی: مدل کیک کشمشی
+        <br><br><br><img src="Phy1CH1P1C1_webp3.webp" class="images">
+        - رادرفورد، 1911 میلادی: مدل هسته‌ای
+        <br><br><br><img src="Phy1CH1P1C1_webp4.webp" class="images">
+        - بور، 1913 میلادی: مدل سیاره‌ای
+        <br><br><br><img src="Phy1CH1P1C1_webp5.webp" class="images">
+        - شرودینگر، 1926 میلادی: مدل ابر الکترونی
+    </div>
+    <br>
+    <div class="MsoStep">نقش تفکر نقادانه</div>
+    <div class="MsoNormal">
+        آزمایش و مشاهده در فیزیک اهمیت زیادی دارند؛ اما آنچه بیش از همه در پیشبرد و تکامل علم فیزیک نقش ایفا می‌کند، تفکر نقادانه و اندیشه‌ورزی فعال فیزیک‌دانان نسبت به پدیده‌هایی است که با آن‌ها مواجه می‌شوند.
+    </div>
+    <br><br>
+<div style=" padding:5%;" >
+    <div class="MsoWarning" style="color:rgb(255, 255, 255)!important">توجه</div>
+    <div class="MsoNormal">
+         مطالب تیتر قرمز جزء ارزشیابی نیست.
+    </div>
+    <div class="MsoWarning">خوب است بدانید</div>
+    <div class="MsoNormal">
+        واژه فیزیک، که ریشه‌هایی در یونان باستان دارد، به معنای "شناخت طبیعت" است. تا جایی که تاریخ علمی ما نشان می‌دهد، فیلسوفان از دوران‌های گوناگون پرسش‌ها و مباحثی در زمینه طبیعت مطرح کرده‌اند. این فیلسوفان از سده‌های هفتم و پنجم قبل از میلاد مسیح در یونان و سپس در مناطقی مانند مقدونیه، سوریه، مصر، و به ویژه در شهر اسکندریه فعال بوده‌اند. کارهای ارشمیدس و دیگر دانشمندان یونان باستان به همین دوره‌ها برمی‌گردد. بررسی‌های تاریخ‌نگاران علم نشان می‌دهد که روش ارشمیدس به روش‌های علمی امروزی نزدیک بوده است.
+        <br>
+        پس از ظهور و گسترش اسلام، دانشمندان مسلمان و به خصوص ایرانی مانند ابوریحان بیرونی (973–1048 م), ابن هیثم (965–1040 م), خواجه نصیرالدین طوسی (1201–1274 م), و ابوعلی سینا (980–1037 م) در زمینه‌های نجوم، نورشناسی و مکانیک دانش فیزیک را گسترش دادند. بعدها، بخشی از این دانش پایه‌ای برای کارهای گالیله و دیگر دانشمندان شد.
+    </div>
+    
+    <div class="MsoNormal">
+        در کتاب‌های تاریخ علم، روایت شده است که گالیله جسم‌های سبک و سنگین را از بالای برج کج پیزا رها کرد تا بررسی کند آیا زمان سقوط آنها یکسان است یا متفاوت. گالیله به این نتیجه رسید که تنها یک بررسی تجربی می‌تواند به این پرسش پاسخ دهد. او با توجه به نتایج آزمایش‌های خود، به این اصل رسید که شتاب جسم در حال سقوط، مستقل از جرم آن است.
+    </div>
+    <br>
+    
+    <div class="MsoNormal">
+        فیزیک، پایه و اساس تمامی مهندسی‌ها و فناوری‌ها است. هیچ مهندسی نمی‌تواند بدون درک قانون‌های اساسی فیزیک، یک تلویزیون با صفحه تخت، یک فضاپیمای میان‌سیاره‌ای، یک لامپ کم مصرف LED یا حتی یک ابزار ساده را طراحی کند. فیزیک شالوده‌ای است که بر تمامی دستاوردهای دانش و فناوری‌های نوین قرار دارد.
+    </div>
+    
+
+    <div class="MsoWarning">Juno کاوشگر فضایی</div>
+    <div class="MsoNormal">
+        1. Juno (جونو): کاوشگری است که ناسا به سوی مشتری (Jupiter)، بزرگ‌ترین سیاره منظومه شمسی، پرتاب کرده است. پس از پنج سال، در تابستان 1395 به مدار نزدیک این سیاره رسید. Juno اطلاعاتی در مورد ویژگی‌های مغناطیسی و گرانشی مشتری به زمین می‌فرستد.
+    </div>
+    <div class="MsoWarning">شتاب‌دهنده ذرات</div>
+    <div class="MsoNormal">
+        2. شتاب‌دهنده ذرات: تونلی به طول 27 کیلومتر که در عمق 175 متری زمین و در مرز فرانسه و سوئیس قرار دارد. بیش از 3000 دانشمند و فیزیک‌دان در این مرکز پژوهشی مشغول به کار هستند. بزرگ‌ترین دستاورد، کشف ذره بوزون هیگز است.
+    </div>
+    <div class="MsoWarning">سامانه موقعیت‌یابی جهانی (GPS)</div>
+    <div class="MsoNormal">
+        3. GPS (سامانه موقعیت‌یابی جهانی): مکان اجسام را با دقت قابل ملاحظه‌ای روی زمین پیدا می‌کند. کارکرد این سامانه براساس نظریه نسبیت اینشتین است.
+    </div>
+    <div class="MsoWarning">ترابری مگ‌لو (Maglev)</div>
+    <div class="MsoNormal">
+        4. Maglev (ترابری مگ‌لو): قطاری است که با استفاده از پیچ‌های ابررسانا در زیر خود، به صورت شناور حرکت می‌کند و تندی بیش از 400 کیلومتر در ساعت دارد.
+    </div>
+    <div class="MsoWarning">میکروسکوپ الکترونی</div>
+    <div class="MsoNormal">
+        5. SEM (میکروسکوپ الکترونی روبشی): در این نوع میکروسکوپ‌ها، به جای نور مرئی، از باریکه‌ای از الکترون‌ها برای تصویربرداری استفاده می‌شود.
+    </div>
+    <div class="MsoWarning">واحد پردازش مرکزی (CPU)</div>
+    <div class="MsoNormal">
+        6. CPU (واحد پردازش مرکزی): متشکل از چندین میلیارد ترانزیستور کوچک است که در یک محفظه سرامیکی جای گرفته‌اند.
+    </div>
+</div>
+    <div class="MsoSuccess">فعالیت 1-1</div>
+    <div class="MsoNormal">
+        افزون بر فهرست بالا، شما و اعضای گروه خود می‌توانید فهرست دیگری از کاربردهای فیزیک در فناوری تهیه کنید. این فهرست می‌تواند به صورت پوستر، پاورپوینت، فیلم‌های کوتاه و ... تهیه و ارائه شود.
+    </div>
+  
+</body>
+
+</html>

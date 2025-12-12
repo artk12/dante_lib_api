@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="fa">
+    
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #badaff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+
+
+    <body class="custom-scrollbar">
+       
+        <div class="MsoBold">درس دوم: دایره مثلثاتی</div>
+
+        <p class="MsoNormal">
+        دایره‌ای به مرکز مبدأ مختصات و شعاع ۱ را در نظر بگیرید. 
+        </p>
+
+        <img class="images" src="Math1CH2P2C1_svg1.svg" style="max-width: 370px;mix-blend-mode:difference;">
+
+        <p class="MsoNormal">
+        اگر با حرکت در خلاف جهت عقربه‌های ساعت به نقطه‌ای مانند \(P\) برسیم، زاویه \( A\overset{\wedge}{O}C \) مثبت است و اگر با حرکت در جهت عقربه‌های ساعت به نقطه‌ای مانند \( Q \) برسیم، زاویه \( A\overset{\wedge}{O}Q \) منفی است. چنین دایره‌ای را یک دایرهٔ مثلثاتی می‌نامیم.
+        </p>
+        <br><hr><br>
+        <div class="MsoStep">مثال</div>
+        <p class="MsoNormal">
+        در هر یک از دایره‌های مثلثاتی سمت راست، مقدار زاویه‌های \( 90^0\)، \(-90^0\)، \( -210^0°\)، و \(225^0\) داده شده‌است.
+        </p>
+        <div style="display: flex; margin:auto">
+            <div>
+        <img class="images" src="Math1CH2P2C1_svg2.svg" style="mix-blend-mode:difference;max-width:300px;">
+        <img class="images" src="Math1CH2P2C1_svg3.svg" style="mix-blend-mode:difference;max-width:300px;">
+        </div>
+        <div>
+        <img class="images" src="Math1CH2P2C1_svg4.svg" style="mix-blend-mode:difference;max-width:300px;">
+        <img class="images" src="Math1CH2P2C1_svg5.svg" style="mix-blend-mode:difference;max-width:300px;">
+    </div>
+        </div>
+
+        <br><hr><br>
+        <div class="MsoStep">فعالیت</div>
+        <p class="MsoNormal">۱. هر یک از زاویه‌های زیر را روی دایره‌های مثلثاتی داده شده، نشان دهید.</p>
+        <img class="images" src="Math1CH2P2C1_svg6.svg" style="mix-blend-mode:difference;max-width:300px;">
+        <img class="images" src="Math1CH2P2C1_svg7.svg" style="mix-blend-mode:difference;max-width:300px;">
+        <img class="images" src="Math1CH2P2C1_svg9.svg" style="mix-blend-mode:difference;max-width:300px;">
+        <br><br>
+        <p class="MsoNormal">۲. فرض کنید \( P(x, y) \) نقطه‌ای دلخواه روی دایرهٔ مثلثاتی روبه‌رو باشد و \( \theta \) زاویه‌ای است که نیم‌خط \( \overrightarrow{OP} \) با محور \( O_x \) می‌سازد. از نقطهٔ \( P \) خطی بر محور \( \overrightarrow{O_x} \) عمود می‌کنیم و محل برخورد را \( Q \) می‌نامیم.</p>
+        <img class="images" src="Math1CH2P2C1_svg8.svg" style="mix-blend-mode:difference;max-width:300px;">
+        <p class="MsoNormal">
+        (الف) در مثلث \( OPQ \)، نسبت‌های مثلثاتی زاویه \( \theta \) را به‌دست آورید.
+        </p>
+        <p class="MsoNormal">
+
+            $$ \cos \theta = \ \ . . . .  \qquad
+             \sin \theta = \ \ . . . .   \qquad
+             \tan \theta = \ \ . . . . $$
+        </p>
+                
+        <br>
+        <p class="MsoNormal">(ب) با توجه به قسمت (الف) می‌توان دید فاصله \( Q \) تا مبدا با \( . . . . \) برابر است و فاصله نقطه \( P \) تا پای عمود، یعنی نقطه \( Q \) با \( . . . . \) برابر است.</p>
+
+        <img class="images" src="Math1CH2P2C1_svg10.svg" style="mix-blend-mode:difference;max-width:300px;">
+        
+        <p class="MsoNormal"> با توجه به قسمت (ب) محور \( x'ox \) یا محور \( x \) را محور کسینوس‌ها و محور \( y'oy \) یا محور \( y \) را محور سینوس‌ها می‌نامیم. به‌عبارت دیگر، اگر \( P \) نقطه‌ای دلخواه روی دایرهٔ مثلثاتی باشد که نیم‌خط \( OP \) با قسمت مثبت محور \( O_x \) زاویه \(\theta  \) می‌سازد، آنگاه \( P \) نقطه‌ای با مختصات \( (x, y) \) است که در آن \( x = \cos \theta \) و \( y = \sin\theta \) است.</p>
+        
+        <br><br>
+        
+        <p class="MsoNormal"><b>نکته:</b> دو محور عمود بر هم \( x'ox \) و \( y'oy \) صفحه را به چهار قسمت تقسیم می‌کنند. هر یک از این قسمت‌ها را یک ناحیه یا یک ربع مثلثاتی می‌نامیم. با توجه به جهت دایرهٔ مثلثاتی، ناحیه \( xoy \) را ربع اول، ناحیهٔ \( x'oy \) را ربع دوم، ناحیهٔ \( x'oy' \) را ربع سوم، و ناحیهٔ \( xoy' \) را ربع چهارم مثلثاتی می‌نامیم.</p>
+        
+        <br><br>
+        
+        <p class="MsoNormal"><b>نکته:</b> زاویه‌های \( 270^0 \)، \( 180^0 \)، \( 90^0 \)، و \( 360^0 \) زاویه‌های مرزی هستند و آن‌ها را در هیچ‌کدام از ناحیه‌های فوق در نظر نمی‌گیریم.</p>
+   
+        <img class="images" src="Math1CH2P2C1_svg11.svg" style="mix-blend-mode:difference;max-width:300px;">
+
+        <div class="MsoStep">کار در کلاس</div>
+
+        <p class="MsoNormal">۱. مشخص کنید انتهای کمان مربوط به هر یک از زاویه‌های زیر در کدام یک از نواحی چهارگانه قرار می‌گیرد؟</p>
+
+        <br>
+
+        <p class="MsoNormal" style="direction: rtl;" >
+
+        \[
+        -95^0 \text{(ت)} \
+        \quad \quad \
+        182^0 \text{(پ)} \ 
+        \quad \quad \
+        65^0  \text{(ب)} \
+        \quad \quad \
+        -30^0 \text{(الف)} \     
+        \]
+        
+    </p><br>
+  
+        <p class="MsoNormal">۲. با توجه به آنچه در فعالیت قبل، به‌دست آوردید، توضیح دهید که اگر انتهای کمان روبه‌رو به زاویه‌ای در ربع اول باشد (زاویه در ربع اول باشد)، آنگاه چرا نسبت‌های مثلثاتی آن زاویه، همگی مثبت‌اند؟</p>
+
+        <br><hr><br>
+
+        <div class="MsoStep">مثال</div>
+
+        <p class="MsoNormal">می‌خواهیم نسبت‌های مثلثاتی زاویه \( 0^0 \) را به‌دست آوریم. می‌دانیم در دایرهٔ مثلثاتی روبه‌رو، \( \cos \theta = x \) و \( \sin \theta = y \). اگر \( \theta = 0^0 \)، آنگاه نقطه \( P \) روی نقطه \( A \) قرار می‌گیرد و داریم \( \sin 0^0 = 0 \)، \( \cos 0^0 = 1 \)، و \( \tan 0^0 = \frac{y}{x} = \frac{0}{1} = 0 \) اما \( \cot 0^0 \) تعریف نمی‌شود (چرا؟).</p>
+
+        <img class="images" src="Math1CH2P2C1_svg12.svg" style="mix-blend-mode:difference;max-width:300px;">
+
+        <div class="MsoStep">فعالیت</div>
+
+        <p class="MsoNormal">۱. در دایرهٔ مثلثاتی روبه‌رو اگر \( \theta = 90^0 \)، نسبت‌های مثلثاتی \( \theta \) را پیدا کنید.</p>
+
+        <img class="images" src="Math1CH2P2C1_svg13.svg" style="mix-blend-mode:difference;max-width:420px;">
+
+        <p class="MsoNormal">۲. اگر \( \theta = 180^0 \)، نسبت‌های مثلثاتی \( \theta \) را پیدا کنید.</p>
+
+        <br><br>
+
+        <p class="MsoNormal">۳. اگر \(\theta = 270^0 \)، نسبت‌های مثلثاتی \( \theta \) را پیدا کنید.</p>
+
+        <br><hr><br>
+
+        <div class="MsoStep">کار در کلاس</div>
+
+        <p class="MsoNormal">با توجه به نتایج بالا جدول زیر را کامل کنید:</p>
+
+        <br>
+
+        <table class="table" style="text-align: center;">
+            <tr>
+                <th>مقدار</th>
+                <th>\(0^0\)</th>
+                <th>\(90^0\)</th>
+                <th>\(180^0\)</th>
+                <th>\(270^0\)</th>
+                <th>\(360^0\)</th>
+            </tr>
+            <tr>
+                <th>\(\sin \theta \)</th>
+                <td>$0$</td>
+                <td></td>
+                <td>$0$</td>
+                <td>$-1$</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <th>\(\cos \theta \)</th>
+                <td></td>
+                <td></td>
+                <td>$-1$</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>\(\tan \theta \)</th>
+                <td></td>
+                <td>تعریف نشده</td>
+                <td>$0$</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>\(\cot \theta\)</th>
+                <td></td>
+                <td></td>
+                <td>تعریف نشده</td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+
+        <br>
+        <div style="margin:10% auto; padding:2% 5%;max-width:350px; background-color:#5f14873c; border: solid 5px black; border-radius:12px;" >
+            <div class="MsoStep" style="text-align:center;">نکته</div>
+            <p class="MsoNormal" style="text-align:left;"><br>
+                $\alpha$ در ربع اول است     $0^0 < \alpha < 90^0  \Rightarrow$  <br><br>
+                $\alpha$ در ربع دوم است $90^0 < \alpha < 180^0 \Rightarrow$     <br><br>
+                $\alpha$ در ربع سوم است $180^0 < \alpha < 270^0 \Rightarrow$    <br><br>
+                $\alpha$ در ربع چهارم است $270^0 < \alpha < 360^0 \Rightarrow$  <br><br>
+
+            </p>
+        </div>    
+   
+
+        <br><hr><br>
+
+        <div class="MsoStep">فعالیت</div>
+
+        <p class="MsoNormal">۱. فرض کنید \( \theta  \) زاویه‌ای در ربع سوم دایرهٔ مثلثاتی باشد. با توجه به اینکه \( x = \cos \theta  \) و \( y = \sin \theta  \) و در ربع سوم، \( x < 0 \) و \( y < 0 \)، علامت هر یک از نسبت‌های مثلثاتی \( \theta  \) را در ربع سوم مشخص کنید.</p>
+        
+        <img class="images" src="Math1CH2P2C1_svg14.svg" style="mix-blend-mode:difference;max-width:300px;">
+        
+        <p class="MsoNormal">۲. فرض کنید \( \alpha \) زاویه‌ای در دایرهٔ مثلثاتی در ربع دوم باشد. فعالیت قبل را برای \( \alpha \) نیز تکرار کنید.</p>
+        
+        <img class="images" src="Math1CH2P2C1_svg15.svg" style="mix-blend-mode:difference;max-width:300px;">
+
+        
+        <p class="MsoNormal">۳. جدول زیر را کامل کنید:</p>
+        
+      
+        
+        <table class="table" style="text-align:center">
+            <tr>
+                <th>مقدار</th>
+                <th>ربع اول \( x,y > 0 \)</th>
+                <th>ربع دوم <br> $. . . .$ </th>
+                <th>ربع سوم <br> $. . . . $</th>
+                <th>ربع چهارم <br>$ . . . . $</th>
+            </tr>
+            <tr>
+                <td>\(\sin \theta \)</td>
+                <td>+</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>\(\cos \theta \)</td>
+                <td></td>
+                <td>–</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>\(\tan \theta \)</td>
+                <td></td>
+                <td></td>
+                <td>+</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>\(\cot \theta \)</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>–</td>
+            </tr>
+        </table>
+        
+
+        
+      
+        </p>
+        <div style="text-align: center; margin:10% auto; padding:2% 5%;max-width:350px; background-color:#5f14873c; border: solid 5px black; border-radius:12px;" >
+            <div class="MsoStep" >نکته</div>
+            <p class="MsoNormal" style="text-align: center;">برای هر زاویه دلخواه \( \theta  \):</p>
+            <p class="MsoNormal" >
+                \[
+                -1 \leq \cos \theta  \leq 1 \quad \text{و} \quad -1 \leq \sin \theta  \leq 1
+                \]
+
+            </p>
+        </div>    
+
+        <hr><br>
+
+        <div class="MsoStep">مثال</div>
+
+        <p class="MsoNormal">آقای جلالی، از دانش‌آموزان پرسید: اگر \( \theta \) زاویه‌ای در ربع دوم مثلثاتی باشد و \( \sin \theta = \frac{5}{7} \)، آیا می‌توان سایر نسبت‌های مثلثاتی \( \theta \) را پیدا کرد؟</p>
+
+        <img class="images" src="Math1CH2P2C1_svg16.svg" style="mix-blend-mode:difference;max-width:300px;">
+
+        <p class="MsoNormal"><b>امین:</b> می‌دانیم \( \sin \theta = y = \frac{5}{7} \)، بنابراین \( P \) نقطه‌ای به عرض \( . . . . \) است.</p>
+
+        <br>
+
+        <p class="MsoNormal"><b>معلم:</b> درست است و حالا طول نقطه \( P \) چگونه به‌دست می‌آید؟</p>
+
+        <br>
+
+        <p class="MsoNormal"><b>امیرعلی:</b> طبق رابطهٔ فیثاغورس، در مثلث قائم‌الزاویه داریم: \( x^2 + y^2 = 1 \)، بنابراین \( x^2 = \frac{24}{49} \). پس داریم \( x = . . . . \).</p>
+
+        <br>
+
+
+        <p class="MsoNormal"><b>معلم:</b> آفرین، این راه کاملاً درست است، ولی کدام مقدار قابل قبول است؟</p>
+
+        <br>
+        <p class="MsoNormal"><b>محمد مهدی:</b> چون \( \theta \) زاویه‌ای در ربع \( . . . . \) است، پس طول نقطه \( P \) منفی است و از این‌رو \( x = . . . . \) قابل قبول است.</p>
+        
+        <br>
+        <p class="MsoNormal"><b>معلم:</b> استدلال محمد مهدی کاملاً منطقی است و \( P \) نقطه‌ای به مختصات \( \left(. . . ., . . . .\right) \) است. در نتیجه:</p>
+        
+        <br><br>
+        
+        <p class="MsoNormal" style="text-align: center;">
+        
+        $ \cot \theta = \frac{\qquad}{\qquad} = \frac{ \qquad}{\qquad} $ <br> <br>
+        $ \tan \theta = \frac{y}{x} = \frac{\qquad}{\qquad} $ <br> <br>
+        $ \cos \theta = x = \ \ . . . . $
+        
+        </p>
+        
+<br><hr><br>
+
+        <div class="MsoStep">فعالیت</div>
+
+        <p class="MsoNormal">۱. فرض کنید نقطه \( P \) روی دایرهٔ مثلثاتی قرار دارد به‌طوری که \( \cos \theta = -\frac{\sqrt{2}}{2} \). می‌دانیم \( \theta \) در ربع سوم مثلثاتی قرار دارد، بنابراین \( y =  \sin \theta = \ \ . . . . \).
+       </p>
+       
+       <img class="images" src="Math1CH2P2C1_svg17.svg" style="mix-blend-mode:difference;max-width:300px;">
+       
+       <p class="MsoNormal">
+            (الف) مختصات نقطه \( P \) را به‌دست آورید.<br><br>
+        (ب) سایر نسبت‌های مثلثاتی زاویه \( \theta \) را به‌دست آورید.</p>
+
+        <br><br>
+
+        <p class="MsoNormal">۲. اگر \( \cos \alpha = \frac{-2}{5} \)، آنگاه در مورد ناحیه‌ای که \( \alpha \) در آن قرار می‌گیرد، بحث کنید.</p>
+
+        <br><br>
+
+        <p class="MsoNormal">۳. زاویه‌ای مثال بزنید که سینوس آن منفی و کسینوس آن مثبت باشد.</p>
+
+        <br><hr><br>
+
+        <div class="MsoSub">رابطه شیب خط با تانژانت زاویه</div>
+        
+        <div class="MsoStep">فعالیت</div>
+        
+        <p class="MsoNormal">نمودار خط \( y = 2x - 4 \) در شکل روبه‌رو رسم شده است. دو نقطه \( B \) و \( C \) روی این خط را درنظر بگیرید و خطی از آن‌ها به محور \( x \) عمود کنید. پای عمودها را به ترتیب \( E \) و \( F \) بنامید.</p>
+        <img class="images" src="Math1CH2P2C1_svg18.svg" style="mix-blend-mode:difference;max-width:380px;">
+
+        <p class="MsoNormal">
+        (الف) تانژانت زاویه \( \alpha \) را به‌دست آورید.
+        </p>
+        
+        <br>
+        
+        <p class="MsoNormal">
+        (ب) شیب این خط را پیدا کنید.
+        </p>
+        <br>
+        <p class="MsoNormal" style="text-align: center;">
+        \[
+        \text{شیب خط} = \frac{\text{تفاضل عرض‌ها}}{\text{تفاضل طول‌ها}} = \ \ . . . . . . . .
+        \]
+        </p>
+        <br>
+        <p class="MsoNormal">
+        (پ) از مقایسه قسمت (الف) و (ب) چه نتیجه‌ای می‌گیرید؟ توضیح دهید.
+        </p>
+        
+       
+        
+        <div class="MsoNormal" style="text-align: justified; margin:10% auto; padding:4% 5%;max-width:350px; background-color:#5f14873c; border: solid 5px black; border-radius:12px;" >
+        
+        شیب هر خط که محور افقی را قطع می‌کند، برابر است با تانژانت زاویهٔ بین آن خط و جهت مثبت محور افقی. به‌عبارت دیگر، اگر \( \alpha \) زاویه‌ای باشد که خط با جهت مثبت محور افقی می‌سازد، آنگاه:
+        \[
+        \text{شیب خط} = \tan \alpha
+        \]
+        </div>
+
+        <br><hr><br>
+
+        <div class="MsoStep">کار در کلاس</div>
+
+            <p class="MsoNormal">۱. مراحل فعالیت بالا را برای خط‌های زیر، تکرار کنید.</p>
+
+            <p class="MsoNormal">(الف) \( 2y-3x=5 \)</p>
+            <p class="MsoNormal">(ب) \( x + y = 2 \)</p>
+
+            <br><br>
+
+            <p class="MsoNormal">۲. معادلهٔ خطی را بنویسید که زاویهٔ آن با جهت مثبت محور \( x \)ها \( 30^0 \) است و از نقطهٔ \( (0, 1) \) می‌گذرد.</p>
+
+            <br><hr><br>
+
+            <div class="MsoStep">تمرین</div>
+
+            <p class="MsoNormal">۱. هر یک از زاویه‌های زیر را روی دایرهٔ مثلثاتی رسم کنید. سپس مشخص کنید در کدام یک از نواحی چهارگانه قرار می‌گیرد.</p>
+        <br>
+            <p class="MsoNormal">(الف) \( +270^0 \)<br>
+                 (ب) \( 225^0 \) <br>
+                 (پ) \( -135^0 \) <br>
+                 (ت) \( 185^0 \) <br>
+                </p>
+        
+        <br><br>
+
+        <p class="MsoNormal">۲. در هر یک از موارد زیر، نسبت مثلثاتی زاویهٔ داده شده است. سایر نسبت‌های مثلثاتی را به‌دست آورید.</p>
+        <br>
+                <p class="MsoNormal">(الف) \( \cos \alpha = \frac{3}{7} \) (در ربع چهارم)</p>
+                <br>
+                <p class="MsoNormal">(ب) \( \sin \beta = \frac{-1}{2} \) (در ربع سوم)</p>
+        
+                <br><br>
+        
+                <p class="MsoNormal">۳. اگر \( \sin \theta \) و \( \tan \theta \) هم علامت باشند، آنگاه \( \theta \) در کدام ربع مثلثاتی قرار دارد؟</p>
+        
+                <br><br>
+        
+                
+               
+                <p class="MsoNormal">۴. حدود زاویهٔ \( \theta \) را در هر یک از حالات زیر مشخص کنید.</p>
+               
+                <br>
+                <p class="MsoNormal">(الف) \( \sin \theta > 0 \), \( \cos \theta > 0 \)</p>
+ 
+                <br>
+                <p class="MsoNormal">(ب) \( \sin \theta < 0 \), \( \cos \theta > 0 \)</p>
+                <br><br>
+        
+
+                <p class="MsoNormal">۵. اگر \( \sin \alpha \times \cos \alpha < 0 \)، آنگاه \( \alpha \) در کدام یک از نواحی چهارگانه می‌تواند قرار بگیرد؟ چرا؟</p>
+
+<br><br>
+
+<p class="MsoNormal">۶. زاویه‌ای مثل \( \alpha \) پیدا کنید به‌طوری که \( \tan \alpha > \cot \alpha \). اکنون زاویه‌ای مثل \( \beta \) پیدا کنید، به‌طوری که \( \cot \beta > \tan \beta \). از این تمرین چه نتیجه‌ای می‌گیرید؟</p>
+
+<br><br>
+
+<p class="MsoNormal">۷. در تمرین ۶ به‌جای تانژانت و کتانژانت، به ترتیب سینوس و کسینوس قرار دهید و در مورد آن بحث کنید.</p>
+
+<br><br>
+
+<p class="MsoNormal">۸. معادله خطی را بنویسید که زاویهٔ آن با جهت مثبت محور \( x \)ها \( 45^0 \) است و نقطهٔ \( (0, 2) \) روی آن قرار دارد.</p>
+
+<br><br>
+
+<p class="MsoNormal">۹. با توجه به شکل زیر، معادلهٔ خط \( \mathscr{l} \) را به‌دست آورید.</p>
+<img class="images" src="Math1CH2P2C1_svg19.svg" style="mix-blend-mode:difference;max-width:380px;">
+
+<br><hr style="background-color: #D6D1DA;"><br>
+
+
+    <p class="MsoNormal">
+    در اخترشناسی، اغلب به مسئله‌هایی برمی‌خوریم که برای حل آن‌ها به مثلثات نیازمندیم. ساده‌ترین این مسئله‌ها، پیدا کردن یک کمان دایره برحسب درجه است. پیدایش مثلثات براساس روابط بین کمان‌ها و وترها بوده است. کهن‌ترین جدولی که به ما رسیده است و در آن طول وترهای کمان‌ها داده شده است، متعلق به یک بابلی در اخترشناسی است. این جدول را تقریباً ۳۰۰ درجه به درجه تنظیم کرده و کروی را نخستین گام در راه پیدایش مثلثات دانست. همه کارهای ریاضی‌دانان و اخترشناسان یونانی در دوران هندسه انجام گرفت و هرگز به مفهوم مثلثات اصلی مثلثات نرسیدند. خورازمی نخستین جدول‌های سینوسی را تنظیم کرد و پس از او همه ریاضی‌دانان ایرانی گام‌هایی در جهت تکمیل این جدول و گسترش مفهوم مثلثاتی برداشتند. مرزوی جدول سینوس‌ها را تقریباً ۳ درجه به درجه تنظیم کرد و برای نخستین بار به دلیل نیازهای اخترشناسی مفهوم تانژانت را تعریف کرد. جدی‌ترین تلاش‌ها به‌وسیله ابو ریحان بیرونی و ابوالوفای بوزجانی انجام گرفت و سرانجام خواجه نصیرالدین طوسی با جمع‌بندی کارهای دانشمندان ایرانی بیش از خود، نخستین کتاب مستقل مثلثات را نوشت. بعد از طوسی، جمشید کاشانی ریاضی‌دان ایرانی با استفاده از روش نیاکان که برای حل معادله درجه سوم پیدا کرده بود، توانست راهی را برای محاسبه سینوس کمان یک درجه با هر دقت دلخواه پیدا کند. پیشرفت بعدی در مثلثات از سدهٔ پانزدهم میلادی و در اروپای غربی انجام گرفت.
+    </p>
+
+                
+    </body>
+
+
+</html>

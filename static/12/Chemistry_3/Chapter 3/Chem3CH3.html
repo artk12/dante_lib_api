@@ -1,0 +1,1771 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi {
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSemic,
+        li.MsoSemic,
+        div.MsoSemic {
+            margin: 0in;
+           
+            font-size: clamp(1.2rem, 1.6vw, 1.3rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #b19af2;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #6ca4ec;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .boxp {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .boxg {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#00f2ff11; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        .boxb {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#0c4e9f2d; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        ::selection {
+            background-color: #59078fa1; /* Change this to your desired highlight color */
+            color: #ffffff; /* Change this to your desired text color */
+          }
+
+
+          mark{
+            background-color:#078b8fa1 ;
+            color: #ffffff;
+            padding: 0 7px;
+        }
+
+        .hlg { background-color: rgba(0, 234, 255, 0.334);  }
+        .hlp { background-color:#5f1487; }
+      
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+    <body class="custom-scrollbar">
+
+        <div class="MsoBold">فصل ٣
+
+            <br>
+
+
+        شیمی جلوه ای از هنر، زیبایی و ماندگاری</div>
+        
+        <p class="MsoNormal">
+            <mark>إِنَّا جَعَلْنا ما عَلَى الْأَرْضِ زِينَةً لَها لِنَبْلُوَهُمْ أَيُّهُمْ أَحْسَنُ عَمَلًا</mark> 
+
+            <br>
+
+
+            (سورهٔ كهف، آیهٔ ٧)
+        </p>
+
+        <br>
+        
+        <p class="MsoNormal">
+            مسلماً ما آنچه را روی زمین است، زینت زمین قرار دادیم تا آنان را آزمایش كنیم که کدامشان در عمل نیکوترند.
+        </p>
+
+        <br>
+        
+        <p class="MsoNormal">
+            آفریدگار هستی به ما فرصتی به نام زندگی بخشیده است تا برای پر رنگ كردن نقش و تأثیر خود در این جهان پهناور پیوسته تلاش كنیم. تلاشی آگاهانه و هدفمند برای آفریدن آثاری جاودانه، آن چنان كه آینه ای باشد از شكرانه امروز و سرمایه ای ارزشمند برای آیندگان.
+        </p>
+
+        <br>
+        
+        <p class="MsoNormal">
+            پویندگان چنین راهی در این پهنه، پیوسته به كشف اسرار می پردازند از جمله آنكه چگونه شمار بسیاری ماده با رفتارهای گوناگون، تنها از شمار معینی اتم با آرایش و چیدمانی نظام مند پدید آمده اند. شیمی دانشی است كه به ما كمك می كند تا هوشمندانه از مواد در خلق آثاری هنرمندانه، زیبا و ماندگار بهره ببریم.
+        </p>
+
+        <br>
+        
+        <p class="MsoNormal">
+            انسان از دیر باز مواد ضروری برای زندگی خود را از خوان نعمت های الهی گسترده شده در جای جای زمین تأمین کرده و برای رفع نیاز آنها را تغییر داده است. پژوهش ها نشان می دهد که در تغییر این مواد، افزون بر محیط و شیوۀ زندگی، آیین ها، آداب و رسوم و حتی ادبیات و افسانه ها نیز نقش داشته اند. 
+        </p>
+        <br>
+        
+        <p class="MsoNormal">
+            با این توصیف، هر یک از آثار به جای مانده از گذشتگان در جهان را می توان نمادی از هنر زمان خویش دانست که افزون بر زیبایی، بازتابی از ماندگاری آن اثر نیز به شمار می رود (شکل ١).
+        </p>
+        
+        <br>
+
+        <p class="MsoNormal">
+            بدیهی است که مواد اولیه برای ساخت چنین آثاری افزون بر فراوانی و در دسترس بودن، باید واکنش پذیری کم، استحکام زیاد و پایداری مناسبی داشته باشند. توجه کنید که عمر طولانی این آثار، تأییدی بر این ویژگی ها است و هر چه عمر یادگار به جا مانده بیشتر باشد، گفتنی های بیشتری با خود دارد، گفتنی هایی که اسرار هنر، زیبایی و ماندگاری را فاش می كند.
+        </p>
+        
+<br>
+
+        <p class="MsoNormal">
+            با رشد و پیشرفت علوم به ویژه شیمی، پرده از این اسرار برداشته شد تا پایه ای برای ساخت سازه ها و بناهای امروزی و در خور ستایش فراهم گردد.
+        </p>
+    
+        
+        <br>
+        <p class="MsoNormal">
+            شیمی ‌دان ها در گام نخست نوع، مقدار، ساختار و رفتار مواد سازندۀ آثار به جا مانده را بررسی كردند، سپس با بهره گیری از دانش شیمی توانستند به مواد جدیدتری دست یابند. موادی با خواص ویژه که کاربردهای معین داشتند. 
+        </p>
+
+        <br>
+        <p class="MsoNormal">
+            برخی بر این باورند که چنین موادی را می توان مبنای کار و کلید موفقیت طراحان، هنرمندان و مهندسان برای خلق سازه های زیبا و ماندگار امروزی دانست.
+        </p>
+
+
+        <br><hr><br>
+        
+        <p class="MsoStep">آیا می دانید</p>
+        
+        <p class="MsoNormal">
+            خاک رس از نخستین مواد در دسترس بشر به شمار می رود. این مخلوط به دلیل تفاوت در نوع و مقدار اجزای سازنده بسیار متنوع است، به طوری که فراورده های آن گستره ای از آجر تا ظروف چینی را در بر می گیرد. 
+        </p>
+        
+        <p class="MsoNormal">
+            سفال معروف به جادوی آب و خاک از کهن ترین دست سازه های انسان است که از خاک رس ساخته می شود.
+        </p>
+        
+
+        <br><hr><br>
+
+        <div class="MsoStep">خود را بیازمایید</div>
+
+        <p class="MsoNormal">
+            خاک رس مخلوطی از مواد گوناگون است. جدول زیر درصد جرمی مواد سازندۀ نوعی خاک رس را نشان می دهد كه از یك معدن طلا استخراج شده است.
+        </p>
+
+        <br>
+
+
+        <div class="custom-scrollbar" style="overflow-x: auto; overflow-y:hidden">
+        <table class="MsoNormal" style="margin:auto;width:fit-content;direction:rtl;text-align:center;">
+            <tr>
+                <th>ماده</th>
+                <td>$SiO_2$</td>
+                <td>$Al_2O_3$</td>
+                <td>$H_2O$</td>
+                <td>$Na_2O$</td>
+                <td>$Fe_2O_3$</td>
+                <td>$MgO$</td>
+                <td>Au و دیگر مواد</td>
+            </tr>
+            <tr>
+                <th>درصد جرمی</th>
+                <td>46/10</td>
+                <td>37/74</td>
+                <td>13/33</td>
+                <td>1/24</td>
+                <td>0/96</td>
+                <td>0/44</td>
+                <td>0/1</td>
+            </tr>
+        </table>
+        <br>
+
+    </div>
+
+        <br><br>
+        <p class="MsoNormal">1ــ با توجه به داده های جدول به پرسش های زیر پاسخ دهید:</p>
+
+        <p class="MsoNormal">
+            آ) نام شیمیایی هر یک از مواد موجود در این نوع خاک را بنویسید.
+        </p>
+
+        <br>
+
+        <p class="MsoNormal">
+            ب) سرخ فام بودن این نوع خاك رس را به وجود کدام ماده نسبت می دهید؟
+        </p>
+
+        <br>
+
+        <p class="MsoNormal">
+            پ) پیش بینی کنید هنگام پختن سفالینه های تهیه شده از این نوع خاك رس، از جرم كدام ماده به مقدار بیشتری کاسته می شود؟ چرا؟
+        </p>
+
+<br><br>
+        <p class="MsoNormal">2ــ اگر اجزای این مخلوط نخست جداسازی شده سپس خالص سازی شوند، پیش بینی کنید ساختار ذره ای هریک از این اجزا در حالت خالص و جامد (به جز SiO2) با کدام الگوی زیر همخوانی دارد؟ چرا؟</p>
+
+        <p class="MsoNormal">
+            با مواد سازندۀ نوعی خاک رس آشنا شدید كه مخلوطی از اکسیدها را در برمی گیرد. یافته های تجربی نشان می دهد که SiO2 افزون برخاک های رس، یکی از سازنده های اصلی بسیاری از سنگ ها، صخره ها و نیز شن و ماسه است. وجود این ماده باعث استحکام و ماندگاری سازه های سنگی و نقشکندهای روی آنها شده است. آیا می دانید چه ساختاری باعث این رفتار ویژه می شود؟
+        </p>
+
+        <br>
+        <hr>
+        <br>
+
+        <p class="MsoNormal">
+            درصد جرمی هر ماده در نمونه، گرم آن ماده را در صد گرم از نمونه نشان می دهد.
+        </p>
+
+        <br>
+        <hr>
+        <br>
+
+        <div class="MsoBold">سیلیس، زیبا، سخت و ماندگار</div>
+
+        <p class="MsoNormal">
+            سیلیسیم پس از اکسیژن فراوان ترین عنصر در پوستۀ جامد زمین است به طوری که ترکیب های گوناگون این دو عنصر بیش از %90 پوستۀ جامد زمین را تشکیل می دهند، از این رو سیلیس (SiO2)، فراوان ترین اکسید در این لایه از سیارۀ ما به شمار می رود. کوارتز از جمله نمونه های خالص و ماسه از جمله نمونه های ناخالص سیلیس است.
+        </p>
+        <br>
+        <p class="MsoNormal">
+            از شیمی ٢ به یاد دارید که ١٤Si، شبه فلزی از خانوادۀ کربن است، از این رو شاید تصور كنید كه ساختار سیلیسیم مانند کربن است و سیلیس ساختاری همانند کربن دی اکسید دارد! (شکل ٢). سیلیس خالص به دلیل داشتن خواص نوری ویژه در ساخت منشورها و عدسی ها به كار می رود.
+        </p>
+<br><hr><br>
+
+
+        <p class="MsoStep">آیا می دانید</p>
+
+        <p class="MsoNormal">
+            عنصر سیلیسیم را می توان از واکنش سیلیس با کربن تهیه کرد. درصد خلوص سیلیسیم تهیه شده در این واکنش برابر با ٩٥ تا ٩٨ % است. خواص فیزیکی سیلیسیم به درصد خلوص آن وابسته است، به طوری که سیلیسیم مورد استفاده در ابزار و وسایل الکترونیکی باید حداقل % ٩٩.٩٩٩٩٩٩  باشد. این سیلیسیم به سیلیسیم ٩N (نه تا ٩) معروف است. امروزه برخی شرکت ها با بهره گیری از فناوری های پیشرفته سیلیسیم ١٢N (دوازده تا ٩) تولید می كنند.
+        </p>
+
+        <br><hr><br>
+
+
+        <div class="MsoStep">با هم بیندیشیم</div>
+
+        <p class="MsoNormal">1ــ با توجه به شکل های زیر به پرسش های داده شده پاسخ دهید:</p>
+    
+    <br>
+        <p class="MsoNormal">آ) از شیمی 1 به یاد دارید كه مواد مولكولی در ساختار خود مولكول های مجزا دارند. كدام ماده جزو مواد مولكولی است؟</p>
+     <br>
+     
+        <p class="MsoNormal">ب) ماده كووالانسی مجموعه ای از اتم های بسیاری است كه با هم پیوندهای اشتراكی دارند. بر این اساس كدام ماده، كووالانسی است؟</p>
+
+     <br><Br>
+     
+        <p class="MsoNormal">2ــ پیش بینی کنید کدام ماده:</p>
+      <br>
+      
+        <p class="MsoNormal">آ) سخت تر است؟ چرا؟</p>
+      <br>
+      
+        <p class="MsoNormal">ب) نقطه ذوب پایین تری دارد؟ چرا؟</p>
+
+      <br><hr><br>
+      
+        <p class="MsoNormal">
+            دریافتید که موادی مانند کربن دی اکسید و آب، مواد مولکولی به شمار می روند زیرا ذره های سازندۀ آنها مولکول های مجزا هستند، اما موادی مانند سیلیس، شامل شمار بسیار زیادی از اتم های سیلیسیم و اکسیژن با پیوندهای اشتراکی $Si - O$ بوده و دارای ساختاری به هم پیوسته و غول آساست. ساختاری که دلیلی بر سختی بالا و دیرگداز بودن چنین موادی است.
+        </p>
+
+        <br>
+     
+     
+        <p class="MsoNormal">
+            از آنجا که این مواد در دما و فشار اتاق به حالت جامد هستند، آنها را با نام جامد کووالانسی نیز می خوانند. یافته های تجربی نشان می دهد که عنصرهای اصلی سازندۀ جامدهای کووالانسی در طبیعت، کربن و سیلیسیم هستند، دو عنصری که از آنها تاکنون یون تک اتمی در هیچ ترکیبی شناخته نشده است، زیرا اتم های $6C$ و $14Si$ با تشکیل پیوندهای اشتراکی به آرایش الکترونی هشت تایی می رسند.
+        </p>
+
+        <br>
+        <hr>
+        <br>
+
+        <p class="MsoNormal">پختن نان سنگک بر روی دانه های درشت سنگ را می توان نشانه ای از مقاومت گرمایی سیلیس دانست.</p>
+
+        <br>
+        <hr>
+        <br>
+
+        <p class="MsoStep">آیا می دانید</p>
+        <p class="MsoNormal">سختی یک کانی، میزان مقاومت آن را در برابر خراشیده شدن نشان می دهد و با یكای موس (Mohs) سنجیده می شود. الماس و كوارتز از سخت ترین مواد موجود در طبیعت هستند كه به ترتیب درجه سختی 10 و 7 دارند.</p>
+
+        <br>
+        <hr>
+        <br>
+
+        <p class="MsoStep">آیا می دانید</p>
+        <p class="MsoNormal">
+            فرایند ذوب یک ماده خالص در دما و فشار معین رخ می دهد که در آن دما و فشار، ماده از حالت جامد به مایع تبدیل می شود.
+        </p>
+        <p class="MsoNormal">
+            در این فرایند، میانگین انرژی جنبشی ذره های سازنده ماده در حالت جامد (اتم ها در جامد کووالانسی و مولکول ها در ماده مولکولی) به تدریج افزایش می یابد تا جایی که ذره ها می توانند با لغزیدن روی یکدیگر، از جایی به جای دیگر حرکت کنند. در این شرایط حالت مایع پدید می آید.
+        </p>
+
+        <br>
+        <hr>
+        <br>
+
+        <div class="MsoStep">خود را بیازمایید</div>
+        <p class="MsoNormal">1ــ گرافیت و الماس از جمله دگرشكل های طبیعی کربن بوده که جزو جامدهای کووالانسی هستند. با توجه به ساختارهای زیر به پرسش ها پاسخ دهید:</p>
+      
+     <Br>
+     
+        <p class="MsoNormal">آ) کدام ساختار، جامد کووالانسی با چینش دو بُعدی اتم ‌ها و کدام یک، جامد کووالانسی با چینش سه بُعدی اتم ‌ها را نشان می دهد؟</p>
+      <br>
+      
+        <p class="MsoNormal">ب) با توجه به اینکه گرافیت موجود در مغز مداد بر روی کاغذ اثر به جا می گذارد، کدام ساختار با این ویژگی همخوانی دارد؟ توضیح دهید.</p>
+      
+      <Br>
+      
+        <p class="MsoNormal">پ) چرا در ساخت مته ها و ابزار برش شیشه از الماس استفاده می شود؟</p>
+      
+      
+      <br>
+        <p class="MsoNormal">ت) كدام چگالی (2/27 یا 3/51 گرم بر سانتی متر مكعب) را به گرافیت می توان نسبت داد؟ چرا؟</p>
+
+
+        <br><br>
+        
+        <p class="MsoNormal">2ــ باتوجه به جدول زیر به پرسش ها پاسخ دهید:</p>
+        
+        <br>
+    
+        <table class="MsoNormal" style="margin:auto;width:fit-content;direction:rtl;text-align:center;">
+            <tr>
+                <th>پیوند</th>
+                <td>$C-C$</td>
+                <td>$Si-Si$</td>
+            </tr>
+            <tr>
+                <th>میانگین آنتالپی $(kJmol^{-1})$</th>
+                <td>348</td>
+                <td>226</td>
+            </tr>
+        </table>
+        
+
+
+
+
+        <br><br>
+        
+        <p class="MsoNormal">آ) اگر سیلیسیم خالص ساختاری همانند الماس داشته باشد، پیش بینی کنید نقطه ذوب الماس بالاتر است یا سیلیسیم؟ چرا؟</p>
+        
+        <br>
+        
+        <p class="MsoNormal">
+            ب) اگر آنتالپی پیوند $Si - O$ بیشتر از پیوند $Si - Si$ و ساختار $(Si)_{(s)}$ با $(SiO_2)_{(s)}$ مشابه باشد، توضیح دهید چرا سیلیسیم در طبیعت به حالت خالص یافت نشده و به طور عمده به شکل سیلیس یافت می شود؟
+        </p>
+
+        <br>
+        <hr>
+     
+
+        <p class="MsoBold">گرافن، گونه ای به ضخامت یک اتم</p>
+        <p class="MsoNormal">
+            گرافن، تک لایه ای از گرافیت است که در آن، اتم های کربن با پیوندهای اشتراکی حلقه های شش گوشه تشکیل داده اند (شکل 3). چنین ساختاری با الگویی مانند کندوی زنبور عسل، استحکام ویژه ای دارد به طوری که مقاومت کششی آن حدود 100 برابر فولاد است.
+        </p>
+     
+     <br>
+        <p class="MsoNormal">
+            از آنجا که ضخامت گرافن به اندازه یک اتم کربن است، می توان آن را یک گونه شیمیایی دو بعدی دانست و انتظار می رود شفاف و انعطاف پذیر باشد. یافته های تجربی نیز این ویژگی های گرافن را تأیید می كنند.
+        </p>
+      <br>
+      
+        <p class="MsoNormal">
+            یک روش ساده برای تهیۀ گرافن استفاده از گرافیت و نوارچسب نازک برای جدا کردن لایه هایی از آن است (شکل 4).
+     
+     
+        </p>
+
+     <br>
+     
+        <p class="MsoNormal">
+            در این روش، نخست مقداری گرد گرافیت را بین دو تكه نوار چسب فشار می دهند. سپس یكی از نوارچسب ها را جدا می ‌كنند. به این ترتیب لایه هایی از گرافیت روی سطح چسبنده نوارچسب قرار می گیرد. در ادامه، این نوارچسب را به سطح چسبنده نوارچسب سوم چسبانده، فشار می دهند و از هم جدا می كنند تا لایه نازک تری از گرافیت روی نوار چسب سوم باقی بماند. با ادامه این كار لایه ای به ضخامت نانومتر در برخی قسمت های نوار چسب باقی می ماند كه همان گرافن است.
+        </p>
+
+
+
+        <br><hr><br>
+        <p class="MsoStep">در میان تارنماها</p>
+        <p class="MsoNormal">
+            با مراجعه به منابع علمی معتبر دربارۀ کاربردهای گرافن اطلاعات جمع آوری و در کلاس ارائه کنید.
+        </p>
+
+
+        <br><hr><br>
+
+
+
+        <div class="MsoStep">کاوش کنید ١</div>
+
+
+        <p class="MsoNormal">درباره «رسانایی الکتریکی گرافن» كاوش كنید.</p>
+        <p class="MsoNormal">وسایل و مواد مورد نیاز: لامپ LED، باتری 9 ولتی، سیم، سوكت، مقاومت 330 اهمی، مداد و کاغذ.</p>
+
+        <p class="MsoNormal">1ــ مداری مطابق شکل روبه رو بسازید.</p>
+        <p class="MsoNormal">2ــ با یک مداد نرم، چهار گوشه ای ضخیم و تیره روی کاغذ بکشید، به طوری که حدود 3 تا 4 سانتی متر طول و حدود 1/5 سانتی متر عرض داشته باشد، سپس مستطیل را با مداد به طور کامل سیاه کنید.</p>
+        <p class="MsoNormal">3ــ نوک فلزی دو سیم رابط را با مستطیل گرافیتی که ضخامتی در حدود چند نانومتر دارد تماس دهید سپس به لامپ نگاه کنید، چه رخ می دهد؟</p>
+        <p class="MsoNormal">4ــ دو نقطۀ اتصال را به هم نزدیک یا از هم دور کنید، چه تغییری در شدت روشنایی لامپ پدید می آید؟</p>
+                
+        <br>
+        <hr>
+        <br>
+
+        <p class="MsoBold">سازه های یخی، زیبا با ظاهری سخت اما زودگداز</p>
+
+        <p class="MsoNormal">
+            با ساختار و رفتار سیلیس به عنوان نماینده ‌ای از جامدهای کووالانسی آشنا شدید. ماده ای که در حالت خالص و تراش خورده، شفاف، زیبا و سخت است. یخ نیز ظاهری شبیه به آن دارد به طوری که سازه های یخی شفاف بوده و هنر به کار رفته در آنها، خود جلوه گر زیبایی است (شکل 5).
+        </p>
+
+        <p class="MsoNormal">
+            می دانید مولکول های $H_2O$ در ساختار یخ در یک آرایش منظم و سه بُعدی با تشکیل حلقه های شش گوشه، شبکه ای همانند کندوی زنبور عسل با استحكام ویژه پدید می آورند. این ساختار هر اتم اکسیژن به دو اتم هیدروژن با پیوند اشتراکی و به دو اتم هیدروژن مولکول ‌های دیگر با پیوندهای هیدروژنی متصل است. این در حالی است که در سیلیس همه اتم ها با پیوندهای اشتراكی به یكدیگر متصل شده اند.
+        </p>
+
+        <br>
+        <hr>
+        <br>
+
+        <p class="MsoNormal">1ــ با خط زدن واژه نادرست در هر مورد، جمله را کامل کنید.</p>
+
+
+
+        <p class="MsoNormal">در ساختار یک جامد 
+
+          $  \frac{ \text{کوالانسی} }{ \text{مولکولی}}  $
+
+
+            ، میان 
+
+         
+            $  \frac{ \text{همه} }{ \text{شمار‌معینی‌از}}  $
+
+             اتم ها پیوندهای اشتراکی وجود دارد. به همین دلیل 
+            چنین موادی نقطۀ ذوب 
+
+            $  \frac{ \text{بالایی} }{ \text{پایینی}}  $
+
+            
+            دارند و دیرگداز نیستند.</p>
+
+
+            <br><br>
+
+
+        <p class="MsoNormal">2ــ واژه های شیمیایی رایج مانند مادۀ مولکولی، فرمول مولکولی و نیروهای بین مولکولی را برای توصیف کدام مواد زیر می توان به کار برد؟ چرا؟</p>
+        
+    
+        <div class="MsoNormal" style="direction:ltr">
+
+            <p class="MsoNormal">
+    
+                $C_6H_{14}(l)$
+                
+            <br>
+               $ SiO_2(s)$
+                
+            <br>
+               $  NaCl(s)$
+                
+            <br>
+               $  HF(g)$
+                
+            <br>
+                $ C(s
+                 \ \text{گرافیت}) $
+            <br>
+            
+              $  Cl_2(g)$</p>
+
+        </div>
+        <br><hr><br>
+
+
+
+
+        <p class="MsoNormal">
+            دریافتید که مولکول ها، واحدهای سازندۀ مواد مولکولی هستند، واحدهای مجزایی که شامل دو یا چند اتم با پیوندهای اشتراکی بوده و نقشی کلیدی در تعیین خواص و رفتار این دسته از مواد دارند. رفتار فیزیکی مواد مولکولی به نوع و قدرت نیروهای بین مولکولی آنها بستگی دارد. برای نمونه آنتالپی تبخیر و نقطه جوش یک تركیب مولكولی به حالت مایع به نیروهای بین مولکولی آن وابسته است، در حالی که رفتار شیمیایی آن به طور عمده به پیوندهای اشتراکی (جفت الکترون های پیوندی) و جفت الکترون های ناپیوندی موجود در مولکول وابسته است.
+        </p>
+
+        <br>
+        <hr>
+        <br>
+
+        <p class="MsoNormal">اغلب ترکیب های آلی جزو مواد مولکولی هستند.</p>
+
+        <br>
+        <hr>
+        <br>
+
+        <p class="MsoStep">آیا می دانید</p>
+        <p class="MsoNormal">
+            هر نمونه از گاز نجیب حاوی اتم هایی با برهم كنش های وان دروالس است، به همین دلیل گازهای نجیب، مواد مولکولی به شمار می روند. گویی هر نمونه از گاز نجیب از مولکول های تك اتمی تشکیل شده است.
+        </p>
+
+        <br><hr><br>
+
+
+
+        
+        <div class="MsoBold">رفتار مولکول ها و توزیع الکترون ها</div>
+
+        <p class="MsoNormal">
+            در شیمی 1 آموختید که ساختار لوویس، الکترون های ظرفیت اتم های سازندۀ یک گونۀ شیمیایی را طوری نمایش می دهد که هر اتم بر اساس توزیع جفت الکترون های پیوندی و ناپیوندی از قاعدۀ هشت تایی پیروی می كند، به جز اتم هیدروژن که تنها یک جفت الکترون پیوندی یا یک پیوند اشتراکی پیرامون آن نمایش داده می شود. توزیع این جفت الکترون ها در هر مولکول نقش مهمی در تعیین رفتار آن به ویژه در میدان الکتریکی دارد.
+        </p>
+        
+        <p class="MsoNormal">
+            ساده ترین مولکول ها، دواتمی هستند. مولکول هایی مانند $H_2$ و $Cl_2$ که از دو اتم یکسان تشکیل شده اند، مولکول دو اتمی جور هسته نامیده می شوند. چنین مولکول هایی در میدان الکتریکی جهت گیری نمی كنند، به دیگر سخن، گشتاور دو قطبی آنها صفر بوده و مولکول های ناقطبی هستند. از سوی دیگر مولکول های دو اتمی مانند $HCl$، مولکول دواتمی ناجور هسته بوده و قطبی هستند. شکل 6، توزیع الکترون ها را بر اساس نقشۀ پتانسیل الکتروستاتیکی برای این مولکول ها نشان می دهد.
+        </p>
+        
+
+        <br><hr><Br>
+
+
+        <div class="MsoStep">آیا می دانید</div>
+        
+        <p class="MsoNormal">
+            نقشه های پتانسیل الکتروستاتیکی ابزاری مناسب برای بررسی تراکم بار الکتریکی روی اتم های سازندۀ یک گونه شیمیایی است. این نقشه ها به شیمی ‌دان ها کمک می كنند تا واکنش پذیری، قدرت اسیدی، قدرت بازی و... را برای گونه های شیمیایی پیش بینی و با یکدیگر مقایسه کنند.
+        </p>
+        
+        <br>
+        <hr>
+        <br>
+        
+        <p class="MsoNormal">
+            بر اساس شکل 6، توزیع یکنواخت و متقارن الکترون ها در مولکول های دو اتمی جور هسته، نشانۀ ناقطبی بودن آن است در حالی که در مولکول های دو اتمی ناجور هسته، توزیع الکترون ها یکنواخت نبوده و تراکم بار الکتریکی روی اتم های سازندۀ آن یکسان نیست. در این شرایط به اتمی که تراکم بار الکتریکی روی آن بیشتر است، بار جزئی منفی $(-\delta)$ و به دیگری بار جزئی مثبت $(+\delta)$ نسبت می دهند. بدیهی است چنین مولکول هایی گشتاور دوقطبی بزرگ تر از صفر دارند.
+        </p>
+        <Br>
+        <p class="MsoNormal">
+            آیا می ‌دانید نقشۀ پتانسیل مولکول های سه اتمی چگونه است؟ شکل 7، دو نمونه از این نقشه ها را نشان می دهد.
+        </p>
+        
+   <br>
+        <p class="MsoNormal">
+            در مولکول خطی کربن دی اکسید،
+             تراکم بار الکتریکی بر روی اتم های اکسیژن بیشتر از اتم کربن است، 
+            از این رو به اتم های اکسیژن بار جزئی منفی $(-\delta)$ و به اتم کربن بار
+             جزئی مثبت $(+\delta)$ نسبت داده می شود. هر چندكه به دلیل توزیع متقارن بار الکتریکی پیرامون اتم مرکزی، 
+             این مولکول در میدان الکتریکی جهت گیری نمی كند و گشتاور دو قطبی آن صفر است.
+        </p>
+
+        
+        <br>
+        <p class="MsoNormal">
+            اگر چه در مولکول خمیدۀ آب تراکم بار الکتریکی روی هسته اتم اکسیژن بیشتر است اما این مولکول بر خلاف کربن دی اکسید در میدان الکتریکی جهت گیری می كند (چرا؟).
+        </p>
+        
+
+        <br><hr><br>
+        <div class="MsoStep">آیا می دانید</div>
+        
+        <p class="MsoNormal">
+            شیمی ‌دان ها در مباحث نظری برای توجیه بارهای الکتریکی جزئی در یک گونۀ شیمیایی از یک کمیت نسبی به نام الکترونگاتیوی بهره می گیرند. کمیتی که برای اتم ‌های یک عنصر در گونه ‌های شیمیایی مختلف، متفاوت است.
+        </p>
+        
+        <br>
+        <hr>
+        <br>
+        
+        <p class="MsoNormal">
+            در مولکول خطی سه اتمی، هسته هر سه اتم سازندۀ آن بر روی یک خط راست قرار دارند.
+        </p>
+        
+        <br><hr><br>
+
+        <p class="MsoNormal">
+            یکی از عواملی که می تواند تقارن و توزیع یکنواخت بارهای الکتریکی را در مولکول های چند اتمی به هم بزند، وجود جفت الکترون های ناپیوندی روی اتم مرکزی است.
+        </p>
+        
+        <br>
+        <hr>
+        <br>
+        
+        <div class="MsoStep">خود را بیازمایید</div>
+        
+        <p class="MsoNormal">1ــ شكل زیر نقشۀ پتانسیل مولکول های كربونیل سولفید $(SCO)$ و اتین $(C_2H_2)$ را نشان می دهد. با توجه به آنها گشتاور دو قطبی کدام مولکول برابر با صفر است؟ چرا؟</p>
+        <br><br>
+        <p class="MsoNormal">2ــ با توجه به نقشۀ پتانسیل مولکول های آمونیاک و گوگرد تری ‌اکسید به پرسش ها پاسخ دهید:</p>
+        <br>
+        <p class="MsoNormal">آ) با بیان دلیل، هر یک از اتم ها را در نقشه های بالا با $(+\delta)$ و $(-\delta)$ نشان دار کنید.</p>
+      
+      <br>
+        <p class="MsoNormal">ب) کدام مولکول قطبی و کدام ناقطبی است؟ چرا؟</p>
+        <br><br>
+        <p class="MsoNormal">3ــ با توجه به شکل های زیر با دلیل پیش بینی کنید کدام مایع، کلروفرم $(CHCl_3)$ و کدام ‌یك کربن تتراکلرید $(CCl_4)$ است؟</p>
+        
+        <br>
+        <hr>
+        <br>
+        
+        <div class="MsoStep">آیا می دانید</div>
+        
+        <p class="MsoNormal">
+            کلروفرم، مایعی بی رنگ بوده که بخار آن سمی و اعتیاد آور است. در گذشته از آن به عنوان مادۀ بیهوش كنندۀ بیمار در اتاق عمل استفاده می شد.
+        </p>
+        
+        <br>
+        <hr>
+        
+        <div class="MsoBold">هنر نمایی شاره (سیال) های مولکولی و یونی برای تولید برق</div>
+        
+        <p class="MsoNormal">
+            خورشید بزرگ ترین منبع انرژی برای زمین است. منبعی تجدید پذیر که انرژی خود را با پرتوهای الکترومغناطیسی به سوی ما گسیل می دارد. بدیهی است که بهره گیری بیشتر از این انرژی پاک، کاهش رد پای زیست محیطی را به دنبال خواهد داشت. دانشمندان برای استفاده بهینه از انرژی خدادادی و رایگان خورشید به دنبال فناوری هایی هستند كه بتوانند بخشی از آن را ذخیره نموده و به شكل انرژی الكتریكی وارد چرخه مصرف نمایند (به ویژه شب ‌هنگام كه نیاز به آن بیشتر احساس می شود). گفتنی است که برای تبدیل پرتوهای خورشیدی به انرژی الکتریکی به دانش و فناوری پیشرفته نیازمند است، از این رو تنها در برخی کشورهای توسعه یافته انجام می شود.
+        </p>
+        
+        <br>
+        <hr>
+        <br>
+        
+        <div class="MsoStep">با هم بیندیشیم</div>
+        
+        <p class="MsoNormal">شکل زیر نمایی از فناوری پیشرفته برای تولید انرژی الکتریکی از پرتوهای خورشیدی را نشان می دهد. با توجه به شکل به پرسش ها پاسخ دهید.</p>
+      <Br>  
+        <p class="MsoNormal">1ــ مشخص كنید هر یك از جمله های زیر، توصیف كدام بخش از این فناوری است؟</p>
+       
+       <Br>
+        <p class="MsoNormal">آ) پرتوهای خورشیدی را روی برج گیرنده متمركز می ‌كنند.</p>
+       
+       <br>
+        <p class="MsoNormal">ب) شاره ‌ای بسیار داغ كه باعث تولید بخار داغ می شود.</p>
+       
+       
+        <Br>
+        <p class="MsoNormal">پ) شاره ‌ای كه توربین را به حركت در می آورد.</p>
+        
+
+
+        <Br><Br>
+        <p class="MsoNormal">2ــ با توجه به جدول زیر به پرسش ها پاسخ دهید:</p>
+       
+       <Br>
+
+
+        <div class="custom-scrollbar" style="overflow-x: auto; overflow-y: hidden;">
+            <table class="MsoNormal" style="margin:auto;width:fit-content;direction:rtl;text-align:center;">
+                <tr>
+                    <th>ماده</th>
+                    <th>نقطه ذوب $(^\circ C)$</th>
+                    <th>نقطه جوش $(^\circ C)$</th>
+                </tr>
+                <tr>
+                    <td>$N_2$</td>
+                    <td>$-210$</td>
+                    <td>$-196$</td>
+                </tr>
+                <tr>
+                    <td>$HF$</td>
+                    <td>$-83$</td>
+                    <td>$19$</td>
+                </tr>
+                <tr>
+                    <td>$NaCl$</td>
+                    <td>$801$</td>
+                    <td>$1413$</td>
+                </tr>
+            </table>
+<br>
+        </div>
+        
+
+
+
+
+        <br>
+        <p class="MsoNormal">آ) کدام ماده در گسترۀ دمایی کمتری به حالت مایع است؟ چرا؟</p>
+       <br>
+       
+        <p class="MsoNormal">ب) کدام ماده را به جای شاره A پیشنهاد می كنید؟ چرا؟</p>
+       
+        <br><br>
+
+        <p class="MsoNormal">
+            3ــ با خط زدن واژه نادرست در هر مورد، جملۀ زیر را کامل کنید.
+            <br><br>
+
+
+            
+            مطابق یک قاعدۀ کلی هر چه تفاوت بین نقطه ذوب و
+             جوش یك مادۀ خالص 
+
+             $ \frac{ \text{بیشتر} }{ \text{کمتر} } $
+
+
+              باشد، آن ماده در گسترۀ دمایی بیشتری
+            
+              به حالت مایع بوده و نیروهای جاذبه میان ذره های سازندۀ مایع 
+
+              
+            $ \frac{ \text{قوی‌تر} }{ \text{ضعیف‌تر} } $
+              
+
+             است.
+
+
+
+        </p>
+        
+        <br>
+        <hr>
+        <br>
+        
+        <p class="MsoNormal">
+            دریافتید که با متمر كز شدن پرتوهای خورشیدی بر روی گیرندۀ برج، دمای سدیم کلرید مذاب (شاره یونی) افزایش می یابد و این شاره بسیار داغ به منبع ذخیره انرژی گرمایی سرازیر می شود تا حتی در روزهای ابری و شب هنگام، انرژی لازم برای تبدیل آب به بخار داغ را فراهم كند. بخار داغ، توربین را برای تولید انرژی الکتریکی به حرکت در می آورد.
+        </p>
+        <br>
+        <p class="MsoNormal">
+            داده های تجربی نشان می دهند که گسترۀ دمایی سدیم کلرید مذاب در این فناوری در حدود $850 - 1350^\circ C$ است، گسترۀ دمایی که برای مواد مولکولی نمی توان انتظار داشت!
+        </p>
+        <br>
+        
+        <p class="MsoNormal">
+            آیا می دانید این ویژگی نشان ‌دهنده چه نوع نیروی جاذبه میان ذره ها است؟ و چه ساختاری برای سدیم کلرید تصویر می كند؟
+        </p>
+
+        
+        <br><hr>
+
+
+        <div class="MsoBold">چینش زیبا، منظم و سه بعدی یون ها در جامد یونی</div>
+
+        <p class="MsoNormal">
+            می دانید که هر ترکیب یونی دوتایی را می توان فراوردۀ واکنش یک فلز با یک نافلز دانست، واکنشی که در آن اتم ها با یکدیگر الکترون دادوستد می كنند. در واکنش هایی از این دست، اتم فلز با از دست دادن الکترون و اتم نافلز با به دست آوردن الکترون، به ترتیب به کاتیون و آنیون تبدیل می شوند. شکل 8، دادوستد الکترون میان اتم های سدیم و کلر را هنگام تشکیل سدیم کلرید نشان می دهد.
+        </p>
+
+        <br>
+        <hr>
+        <br>
+
+        <p class="MsoNormal">
+            از واکنش فلز سدیم با گاز کلر، جامد یونی سفید رنگی بر جای می ماند که همان نمک خوراکی است. نور و گرمای زیاد آزاد شده در این واکنش نشان می دهد که بسیار گرما ده است.
+        </p>
+
+        <br>
+        <hr>
+        <br>
+
+        <p class="MsoNormal">
+            پس از دادوستد الکترون و تشکیل یون ها، میان یون های ناهمنام، نیروی جاذبه و میان یون های همنام، نیروی دافعه پدید می آید. اگر هر یک از یون ها همانند کره ای باردار باشد، انتظار می رود نیروهای جاذبه و دافعه از همۀ جهت ها به آن وارد شود، به دیگر سخن این نیروها به شمار معینی از یون ها محدود نشده بلکه میان همۀ آنها و در فاصله های گوناگون وارد می شود. 
+        </p>
+
+        <br>
+
+
+        <p class="MsoNormal">
+            وجود سدیم کلرید و دیگر جامدهای یونی در طبیعت نشان می دهد که نیروهای جاذبه میان یون های ناهمنام بر نیروهای دافعه میان یون های همنام غالب است، آن چنان که شمار بسیار زیادی از یون ها به سوی یکدیگر کشیده می شوند. چنین روندی، دلیل پدید آمدن آرایش منظمی از یون ها در سه بعد و تشکیل شبکه بلوری جامد یونی است (شکل 9).
+        </p>
+
+        <br>
+
+
+        <p class="MsoNormal">
+            با کمی دقت در شکل 9، در می یابید که آرایش یون ها در سرتاسر شبکه بلوری سدیم کلرید به عنوان نمایندۀ جامدهای یونی از یک الگوی تکراری پیروی می كند، به طوری که هر کاتیون با شمار معینی آنیون و هر آنیون با شمار معینی کاتیون احاطه شده است. به شمار نزدیك ترین یون های ناهمنام موجود پیرامون هر یون در شبكه بلور، عدد کوئوردیناسیون می گویند، بنابراین عدد کوئوردیناسیون هر یک از یون های $Na^+$ و $Cl^-$ در بلور سدیم کلرید با هم مساوی و برابر با 6 است (چرا؟).
+        </p>
+
+        <br>
+        <hr>
+        <br>
+
+        <div class="MsoStep">آیا می دانید</div>
+
+        <p class="MsoNormal">
+            واژه شبکه بلوری برای توصیف آرایش سه بعدی و منظم اتم ها، مولکول ها و یون ها در حالت جامد به كار می رود. فرمول شیمیایی هر ترکیب یونی، ساده ترین نسبت کاتیون ها و آنیون های سازندۀ آن را نشان می دهد.
+        </p>
+
+        <br><hr><br>
+
+
+        <div class="MsoStep">آیا می دانید</div>
+
+        <p class="MsoNormal">
+            در بسیاری از ترکیب های یونی عدد کوئوردیناسیون کاتیون و آنیون یکسان نیست. کلسیم فلوئورید از جمله آنها است. در این ترکیب یونی عدد کوئوردیناسیون کاتیون، 8 و عدد کوئوردیناسیون آنیون، 4 است.
+        </p>
+
+        <br>
+        <hr>
+        <br>
+
+        <div class="MsoStep">با هم بیندیشیم</div>
+
+        <p class="MsoNormal">1ــ توضیح دهید چرا برای توصیف ترکیب های یونی در منابع علمی معتبر هیچ گاه واژه هایی مانند مولکول و فرمول مولکولی به كار نمی رود؟</p>
+      
+      <br><br>
+        <p class="MsoNormal">2ــ جدول زیر اندازۀ شعاع برخی یون های متداول را در مقایسه با اندازۀ اتم سازندۀ آنها نشان می دهد. در مورد این جدول با یکدیگر گفت وگو کنید و روندهای موجود در آن را توضیح دهید.</p>
+ 
+
+        <br><Br>
+
+
+        <p class="MsoNormal">3ــ اگر هریون را کره ای باردار در نظر بگیرید، چگالی بار هم ارز با نسبت بار به حجم آن است. کمیتی که می تواند برای مقایسۀ میزان برهم كنش میان یون ها به كار رود. نسبت ساده تری که می توان به کاربرد، نسبت مقدار بار یون به شعاع آن است. با این توصیف جدول زیر را کامل کنید و به پرسش ها پاسخ دهید.</p>
+       <br>
+
+       <div class="custom-scrollbar" style="overflow-x: auto; overflow-y: hidden;">
+        <table class="MsoNormal" style="margin:auto;width:max-content;direction:rtl;text-align:center;">
+            <tr>
+                <th>کاتیون</th>
+                <th>شعاع $(\text{pm})$</th>
+                <th>نسبت بار به شعاع</th>
+                <th>آنیون</th>
+                <th>شعاع $(\text{pm})$</th>
+                <th>نسبت بار به شعاع</th>
+            </tr>
+            <tr>
+                <td>$Na^+$</td>
+                <td>$102$</td>
+                <td>$9.80 \times 10^{-3}$</td>
+                <td>$F^-$</td>
+                <td>$133$</td>
+                <td>...</td>
+
+            </tr>
+            <tr>
+                <td>$K^+$</td>
+                <td>...</td>
+                <td>$7.24 \times 10^{-3}$</td>
+                <td>$Cl^-$</td>
+                <td>$181$</td>
+                <td>...</td>
+            </tr>
+            <tr>
+                <td>$Mg^{2+}$</td>
+                <td>...</td>
+              
+                <td>$2.77 \times 10^{-2}$</td>
+
+                <td>$O^{2-}$</td>
+                <td>$140$</td>
+                <td>...</td>
+            </tr>
+            <tr>
+                <td>$Ca^{2+}$</td>
+                <td>$99$</td>
+                <td>...</td>
+                <td>$S^{2-}$</td>
+                <td>$184$</td>
+                <td>$1.09 \times 10^{-2}$</td>
+
+            </tr>
+        </table>
+        <Br>
+    </div>
+    
+
+
+
+
+        <Br><br>
+        <p class="MsoNormal">آ) چگالی بار کدام کاتیون کمتر و کدام یك بیشتر است؟ چرا؟</p>
+       
+       <Br>
+        <p class="MsoNormal">ب) چگالی بار کدام آنیون کمتر و کدام یك بیشتر است؟ چرا؟</p>
+       <br>
+       
+        <p class="MsoNormal">پ) پیش بینی كنید نیروی جاذبه میان کدام کاتیون با کدام آنیون از همه قوی ‌تر است؟ چرا؟</p>
+       <br>
+       
+        <p class="MsoNormal">ت) پیش بینی كنید نیروی جاذبه میان کدام کاتیون با کدام آنیون از همه ضعیف ‌تر است؟ چرا؟</p>
+
+        <br>
+        <hr>
+        <br>
+
+        <p class="MsoNormal">
+            اینک می پذیرید که نوع و بار یون ها و در نتیجه قدرت نیروی جاذبه میان آنها در شبکه بلوری، کلیدی برای درک رفتار آنهاست. هر چه نیروی جاذبه میان یون ها قوی تر باشد، استحکام شبکه یونی بیشتر بوده و برای فرو پاشی آن یا جدا کردن کامل یون ها از یکدیگر به انرژی بیشتری نیاز است. شکل 10، فروپاشی شبکه یونی سدیم کلرید را نشان می دهد.
+        </p>
+
+
+        <br>
+
+        <br>
+        <p class="MsoNormal">
+            انرژی لازم برای فروپاشی شبكه یونی سدیم کلرید برابر با $787\ \text{kJmol}^{-1}$ بوده و بیشتر از پتاسیم برمید $689\ \text{kJmol}^{-1}$ است، زیرا چگالی بار یون های سازندۀ شبکه در سدیم کلرید به ترتیب بیشتر از یون های سازنده در پتاسیم برمید است. 
+        </p>
+
+
+        <Br>
+
+
+        <p class="MsoNormal">
+            در شیمی می توان چنین مقایسه ای را با دو معادلۀ واکنش به صورت زیر نمایش داد:
+        </p>
+
+       <br>
+
+ 
+    <p class="MsoNormal">
+        $$NaCl(s) + 787\ \text{kJ} \rightarrow Na^+(g) + Cl^-(g)$$
+    </p>
+
+    <p class="MsoNormal">
+        $$KBr(s) + 689\ \text{kJ} \rightarrow K^+(g) + Br^-(g)$$
+    </p>
+
+
+
+<br>
+
+    
+       <br>
+        <p class="MsoNormal">
+            گرمای مصرف شده در فشار ثابت برای واکنش هایی از این دست را آنتالپی فروپاشی شبکه می نامند و با $\Delta H_\text{فروپاشی}$ نمایش می دهند. بنابراین:
+        </p>
+
+
+
+            <p class="MsoNormal">
+                $$\Delta H_\text{فروپاشی} (NaCl,s) = +787\ \text{kJmol}^{-1}$$
+            </p>
+
+            <p class="MsoNormal">
+                $$\Delta H_\text{فروپاشی} (KBr,s) = +689\ \text{kJmol}^{-1}$$
+            </p>
+    
+
+
+            <br><hr><br>
+
+
+            <div class="MsoStep">خود را بیازمایید</div>
+
+            <p class="MsoNormal">1ــ در هر مورد با خط زدن واژه نادرست، هر یک از عبارت‌های زیر را کامل کنید:</p>
+
+            <br>
+            <p class="MsoNormal">آ) آنتالپی فروپاشی، گرمای 
+
+
+                $  \frac{ \text{آزاد} }{ \text{مصرف} } $
+
+                 شده در فشار ثابت برای فروپاشی
+                 یک 
+                 
+                $ \frac{ \text{مول} }{ \text{گرم} } $
+
+                  از شبکه یونی و تبدیل آن به 
+                  
+                $ \frac{ \text{اتم‌های} }{ \text{یون‌های} } $
+
+                   گازی سازنده است.</p>
+<br>
+            <p class="MsoNormal">ب) هر چه 
+                
+                $ \frac{ \text{بار} }{ \text{چگالی‌بار} } $
+                
+                 یون‌های سازندۀ یک جامد یونی کمتر باشد،
+                 شبکۀ آن  
+                 
+                 $ \frac{ \text{آسان‌تر} }{ \text{دشوارتر} } $
+            
+                 
+                 می‌شود.</p>
+<Br><br>
+
+            <p class="MsoNormal">2ــ با توجه به داده‌های متن درس پیش‌بینی کنید کدام آنتالپی فروپاشی شبکه را می‌توان به $KCl (s)$ نسبت داد؟ چرا؟</p>
+<br>
+            <p class="MsoNormal">$$
+           1037 \quad \text{یا} 649 \quad , \quad 717 \ \ kJmol^{-1}
+                 $$</p>
+
+
+
+            <br><br>
+            <p class="MsoNormal">3ــ با توجه به نمودار زیر به پرسش ‌ها پاسخ دهید.</p>
+<br>
+            <p class="MsoNormal">آ) با افزایش شعاع کاتیون فلزهای قلیایی، آنتالپی فروپاشی شبکه چه تغییری می كند؟ توضیح دهید.</p>
+    
+    <Br>
+            <p class="MsoNormal">ب) با افزایش شعاع آنیون هالید، آنتالپی فروپاشی شبکه چه تغییری می كند؟ توضیح دهید.</p>
+
+
+            <br><br>
+
+            <p class="MsoNormal">4ــ با توجه به جدول زیر که آنتالپی فروپاشی شبکه را برای برخی ترکیب ‌های یونی نشان می ‌دهد، به پرسش ‌ها پاسخ دهید:</p>
+<Br>
+            <p class="MsoNormal">آ) درباره درستی جمله زیر گفت وگو کنید:</p>
+    <Br>
+            <p class="MsoNormal">
+                «آنتالپی فروپاشی شبکه هم با بار الکتریکی کاتیون و هم با بار الکتریکی آنیون، رابطۀ مستقیم دارد».
+            </p>
+
+            <br>
+            <div class="custom-scrollbar" style="overflow-x: auto; overflow-y: hidden;">
+                <table class="MsoNormal" style="margin:auto;width:fit-content;direction:ltr;text-align:center;">
+                    <tr>
+                        <th>کاتیون
+                            <hr style="background-color: black;">
+                   آنیون</th>
+                        <th>$F^-$</th>
+                        <th>$O^{2-}$</th>
+                    </tr>
+                    <tr>
+                        <td>$Na^+$</td>
+                        <td>$926$</td>
+                        <td>$2488$</td>
+                    </tr>
+                    <tr>
+                        <td>$Mg^{2+}$</td>
+                        <td>$2965$</td>
+                        <td>$3798$</td>
+                    </tr>
+                </table>
+            </div>
+
+
+            <br>
+            <br>
+            <p class="MsoNormal">ب) آیا می توان میان آنتالپی فروپاشی شبكه و نقطه ذوب جامدهای یونی رابطه ای در نظر گرفت؟ توضیح دهید.</p>
+
+
+            <br><hr>
+
+
+
+                <div class="MsoBold">فلزها، عنصرهایی شکل پذیر با جلایی زیبا</div>
+
+                <p class="MsoNormal">
+                    مواد از جمله فلزها همواره برای زندگی انسان و ادامۀ آن ضروری و ارزشمند بوده اند به طوری که تمدن های آغازی نیز بر اساس گسترۀ کاربری آنها نام گذاری شده اند. پس از دورۀ سنگی، در دورۀ برنز و سپس آهن، جوامع دچار دگرگونی و رشد چشمگیری شدند و این خود نشان از جایگاه برجستۀ فلزها در تمدن بشری دارد. 
+                </p>
+                <br>
+                <p class="MsoNormal">
+                    این عنصرها هنوز هم کلید رشد، گسترش و ارتقای کیفیت زندگی به شمار می روند، آن ‌چنان که بسیاری باور دارند پایداری جامعه پیشرفته با فناوری کارآمد به گستردگی استفاده از عنصرهای فلزی وابسته است.
+                </p>
+                <br>
+                <p class="MsoNormal">
+                    می دانید که فلزها بخش عمده عنصرهای جدول دوره ای را تشکیل می دهند، عنصرهایی که در هر چهار دستۀ $s$, $p$, $d$ و $f$ جای داشته اما رفتارهای فیزیکی و شیمیایی متنوعی دارند. 
+                </p>
+                <br>
+                <p class="MsoNormal">
+                    داشتن جلا، رسانایی الکتریکی، رسانایی گرمایی و شکل پذیری از جمله رفتارهای فیزیکی فلزها بوده در حالی که واکنش پذیری و تنوع اعداد اکسایش از جمله رفتارهای شیمیایی آنهاست. به نظر شما این رفتارها از چه ساختاری سرچشمه می گیرند؟ شبکه بلوری فلزها با ساختار مواد کووالانسی، مولکولی و یونی چه تفاوت هایی دارد؟
+                </p>
+                
+                <br><hr><br>
+                
+                <div class="MsoStep">با هم بیندیشیم</div>
+                
+                <p class="MsoNormal">1ــ این شکل یك الگوی ساده از شبکۀ بلوری فلزها را نشان می دهد كه برای توجیه برخی رفتارهای فیزیكی آنها ارائه شده و به مدل دریای الكترونی معروف است.</p>
+               
+               <br>
+                <p class="MsoNormal">
+                    بر اساس این مدل، ساختار فلزها آرایش منظمی از كاتیون ها در سه بعد است كه در فضای میان آنها سست ترین الكترون های موجود در اتم، دریایی را ساخته اند و در آن آزادانه جابه جا می شوند. با این توصیف به پرسش های زیر پاسخ دهید.
+                </p>
+
+
+                <p class="MsoNormal">آ) پیش بینی کنید کدام الکترون ها (درونی ــ ظرفیت)، دریای الکترونی را می سازند؟ چرا؟</p>
+                
+                <br>
+                <p class="MsoNormal">ب) کدام ویژگی دریای الکترونی سبب می ‌شود که هر الکترون موجود در آن را نتوان تنها متعلق به یک اتم معین دانست؟</p>
+                <br>
+                
+                <p class="MsoNormal">پ) دربارۀ درستی جملۀ زیر با یکدیگر گفت وگو کنید.</p>
+                <br>
+                
+                <p class="MsoNormal">«دریای الکترونی عاملی است که چیدمان کاتیون ها را در شبکه بلوری فلز حفظ می كند.»</p>
+                <Br><Br>
+                
+                <p class="MsoNormal">2ــ با توجه به شکل های داده شده به پرسش ها پاسخ دهید:</p>
+                <Br>
+                
+                <p class="MsoNormal">آ) هر یک از شکل ها نشان دهندۀ کدام رفتار فیزیكی فلز است؟</p>
+                <br>
+                
+                <p class="MsoNormal">ب) رفتار فلز را در هر یک از این دو شکل با توجه به الگوی دریای الکترونی توجیه کنید.</p>
+                
+
+
+                <br><hr><br>
+                
+                <div class="MsoStep">آیا می دانید</div>
+                
+                <p class="MsoNormal">
+                    یکی از رفتارهای فیزیکی آشکار فلزها، جلای آنها بوده که به بازتاب نور از سطح آنها وابسته است. سطح فلزها نور را همانند یک آینه به طور مستقیم بازتاب می كند از این رو جلای ویژه ای دارند اما موادی که مات دیده می شوند نور بازتاب شده از سطح آنها در همۀ جهت ها پخش می شود.
+                </p>
+                
+                <br><hr><br>
+                
+                <div class="MsoStep">پیوند با زندگی</div>
+                
+                <p class="MsoSemi">«رنگ، نماد زیبایی»</p>
+                <p class="MsoNormal">
+                    طبیعت زیستگاهی برای ما و آزمایشگاهی بزرگ برای علوم تجربی است که در آن رنگ و رنگ آمیزی یکی از خوشایندترین جلوه ها است و به انسان لذتی همراه با آرامش می بخشد. آیا می دانید چرا پوشش بهاری به رنگ سبز، ابرها به رنگ سفید و گل رز به رنگ سرخ دیده می شود؟ 
+                </p>
+
+                <br>
+                <p class="MsoNormal">
+                    آیا می دانید چرا محلول ترکیب ‌های برخی فلزهای واسطه به رنگ ‌های گوناگون دیده می ‌شوند؟ به طور کلی احساس و درک رنگ به دلیل نورهایی است که از محیط پیرامون به چشم ما می رسد، در واقع این نورها همان پرتوهای الکترومغناطیسی بوده که طول موج آنها در گسترۀ $400 \ \text{nm}$ تا $700 \ \text{nm}$ است و چشم ما آنها را می بیند.
+                </p>
+                
+                <br><hr><br>
+                
+                <div class="MsoStep">آیا می دانید</div>
+                
+                <p class="MsoNormal">
+                    هر گاه نور سفید را به محلولی حاوی یون نیکل $Ni^{2+}$ بتابانیم، نوری كه از آن عبور می كند به رنگ سبز است. یون نیکل برخی از پرتوهای ناحیه مرئی را جذب می كند و تركیب پرتوهای عبور كرده با همدیگر نور سبز را می سازد.
+                </p>
+                
+                <br><hr><br>
+                
+                <p class="MsoNormal">
+                    بر اساس شکل 11، اگر یک نمونه ماده همۀ طول موج های مرئی را بازتاب کند، به رنگ سفید و اگر همۀ آنها را جذب کند، به رنگ سیاه دیده می شود، همچنین چشم ما مواد رنگی را با طول موج های عبوری یا بازتاب شده از آنها می بیند.
+                </p>
+                
+                <Br>
+
+
+                <p class="MsoNormal">
+                    اینك می ‌پرسید كه مواد رنگی چه ساختاری دارند؟ سازندۀ اصلی یك ماده رنگی كه به آن رنگ می بخشد، رنگ دانه نام دارد، برای نمونه $Fe_2O_3$ ،$TiO_2$ و دوده از جمله رنگ دانه های معدنی هستند که به ترتیب رنگ های سفید، قرمز و سیاه ایجاد می كنند. 
+                </p>
+                
+                <p class="MsoNormal">
+                    در گذشته انسان، این مواد رنگی را از منابع طبیعی همچون گیاهان، جانوران و برخی كانی ‌ها تهیه می كرد.
+                </p>
+                
+                <br><hr><br>
+                
+                <div class="MsoStep">آیا می دانید</div>
+                
+                <p class="MsoNormal">
+                    سبز، آبی و قرمز سه نور اصلی هستند. هنگامی که دو تا از آنها مخلوط شوند نور های فرعی زرد، فیروزه ای و ارغوانی پدید می آید. از مخلوط هر سه، تنها نور سفید پدید می آید.
+                </p>
+                
+                <br><hr><br>
+                
+                <p class="MsoNormal">
+                    امروزه پیشرفت و گسترش تولید فراورده های صنعتی آن چنان سریع و چشمگیر است كه این فراورده ‌ها در رقابتی اقتصادی افزون بر جنبه های کمی و کیفی از دیدگاه زیباشناختی، باید رنگ و رنگ آمیزی مناسب و جذابی نیز داشته باشند. 
+                </p>
+
+                <br>
+                
+                <p class="MsoNormal">
+                    توجه کنید رنگ هایی كه برای پوشش سطح استفاده می شوند، نوعی کلویید هستند كه لایۀ نازکی روی سطح ایجاد می كنند تا افزون بر زیبایی، مانع خوردگی در برابر اکسیژن، رطوبت و مواد شیمیایی گردد.
+                </p>
+                
+                <br><hr><br>
+                
+                <div class="MsoStep">آیا می دانید</div>
+                
+                <p class="MsoNormal">
+                    رنگدانه های آلی گستره وسیعی دارند به طوری كه شمار آنها بسیار زیاد و متنوع است. از این مواد در غذا، نساجی و... استفاده می شود.
+                </p>
+                
+<br><hr><br>
+
+
+
+                <div class="MsoStep">خود را بیازمایید</div>
+
+                <p class="MsoNormal">
+                    شکل زیر پیشرفت واکنش فلز روی با محلول نمکی از وانادیم $(V)$ را نشان می‌دهد.
+                </p>
+
+               
+                <br>
+
+                <p class="MsoNormal">با توجه به شکل به پرسش‌های داده شده پاسخ دهید.</p>
+
+                <br>
+
+                <p class="MsoNormal">آ) آرایش الکترونی اتم وانادیم $(23V)$ را بنویسید.</p>
+
+
+                <br>
+                <p class="MsoNormal">
+                    ب) آرایش الکترونی وانادیم را در حالت‌های اکسایش $(II)$ و $(III)$ بنویسید.
+                </p>
+
+
+                <br>
+
+
+                <p class="MsoNormal">
+                    پ) توضیح دهید چرا در هر مرحله رنگ محلول متفاوت از دیگری است؟
+                </p>
+
+                <br>
+
+
+                <p class="MsoNormal">
+                    ت) در این واکنش، وانادیم 
+                    
+                    $ (V)  $
+
+                  کدام نقش را دارد (اکسنده یا کاهنده)؟ چرا؟
+                </p>
+
+
+                <br><hr><br>
+
+                
+                <div class="MsoBold">تیتانیم، فلزی فراتر از انتظار</div>
+
+                <p class="MsoNormal">
+                    فلزها افزون بر رفتارهای مشابه، تفاوت های آشکاری در برخی رفتارها نشان می دهند، در واقع هر فلز افزون بر رفتارهای مشترك، رفتارهای ویژۀ خود را نیز دارد.
+                </p>
+             
+             
+                <p class="MsoNormal">
+                    برای نمونه فلزهای دسته $d$ همانند فلزهای دسته $s$ و $p$، دارای ویژگی هایی مانند جلا، رسانایی الکتریکی، رسانایی گرمایی و نیز شکل پذیری هستند، اما در ویژگی هایی مانند سختی، نقطه ذوب و تنوع اعداد اکسایش با آنها تفاوت دارند.
+                </p>
+             
+             
+                <p class="MsoNormal">
+                    در میان عنصرهای دسته $d$ از دورۀ چهارم جدول دوره ای، تیتانیم $(\underline{\text{Ti}})$ با ویژگی های باورنکردنی، فلزی فراتر از انتظار است. ماندگاری و استحكام مناسب از جملۀ این ویژگی هاست.
+                </p>
+
+
+
+                <br><hr><br>
+
+                
+                
+                <div class="MsoStep">آیا می دانید</div>
+
+                
+                
+                <p class="MsoNormal">
+                
+                    تیتانیم، نهمین عنصر فراوان در پوستۀ جامد زمین است. این عنصر در طبیعت به حالت آزاد یافت نمی شود و از جمله کانی های آن $TiO_2$ و $FeTiO_3$ است.
+                </p>
+                
+                
+                <p class="MsoNormal">
+                
+                    از آنجا که تهیه فلز تیتانیم خالص، گران و دشوار است، اغلب از $TiO_2$ در صنایع اولیه استفاده می شود. ترکیبی که پایدار، غیر سمی و منعکس كننده مناسبی برای پرتوهای فرابنفش خورشید است.
+                </p>
+                
+                
+                
+                <p class="MsoNormal">
+                    از این رنگ سفید در کرم های ضدآفتاب و صنایع کاغذ استفاده می شود.
+                </p>
+
+                <br><hr><br>
+
+                <div class="MsoStep">با هم بیندیشیم</div>
+
+                <p class="MsoNormal">
+                    جدول زیر برخی ویژگی های تیتانیم را در مقایسه با فولاد زنگ نزن نشان می دهد. با توجه به جدول به پرسش های داده شده پاسخ دهید.
+                </p>
+              
+                <br>
+                <p class="MsoNormal">آ) هنگامی که موتور جت کار می كند همه اجزای سازنده (ثابت و متحرک) دمای بالایی دارند. تیتانیم بر اساس کدام ویژگی ‌ها برای ساخت این موتور به کار رفته است؟ توضیح دهید.</p>
+                    <br>
+
+
+                <p class="MsoNormal">
+                    ب) توضیح دهید چرا امروزه در ساخت پروانه کشتی اقیانوس ‌پیما به جای فولاد از تیتانیم استفاده می كنند؟
+                </p>
+                <br>
+
+
+                <p class="MsoNormal">
+                    پ) ساخت بناهای هنرمندانه، زیبا و ماندگار همانند موزۀ گوگنهایم با پوشش بیرونی تیتانیم، از چه مزایایی برخوردار است؟ توضیح دهید.
+                </p>
+
+                <br><hr><br>
+
+                <p class="MsoNormal">
+                    تیتانیم افزون بر ویژگی های یاد شده به شکل آلیاژهای گوناگون نیز کاربرد گسترده ای در صنعت یافته است. برای نمونه نیتینول آلیاژی از نیکل و تیتانیم بوده كه به آلیاژ هوشمند معروف است. این آلیاژ در ساخت فراورده های صنعتی و پزشکی به كار می رود (شکل 12).
+                </p>
+
+                <br><hr><br>
+
+
+                <div class="MsoStep">تمرین های دوره ای</div>
+
+                <p class="MsoNormal">
+                    1ــ با توجه به 36 عنصر نخست جدول دوره ای عنصرها به پرسش های زیر پاسخ دهید.
+                </p>
+
+                <br>
+                <p class="MsoNormal">آ) عنصرهای کدام گروه ‌ها جزو مواد مولکولی هستند؟</p>
+                <br>
+               
+                <p class="MsoNormal">ب) عنصرهای کدام گروه جزو مواد کووالانسی هستند؟</p>
+               
+                <br>
+                <p class="MsoNormal">پ) عنصرهای کدام دسته $(s, p \text{ یا } d)$ همگی فلزند؟</p>
+
+                <br>
+                <br>
+               
+               
+                <p class="MsoNormal">
+                    2ــ سیلیسیم کربید $(SiC)$ یک سایندۀ ارزان است که در تهیۀ سنباده به كار می رود.
+                </p>
+              
+                <br>
+                <p class="MsoNormal">آ) این ماده را در کدام دسته از مواد جای می دهید؟ چرا؟</p>
+              
+                <br>
+                <p class="MsoNormal">ب) سختی آن را در مقایسه با الماس و سیلیسیم پیش بینی کنید.</p>
+
+                <br><br>
+
+                <p class="MsoNormal">
+                    3ــ هر یک از شکل های زیر رفتاری از مواد یونی را نشان می دهد. در هر مورد آن رفتار را با دلیل توصیف کنید.
+                </p>
+
+                <br><br>
+
+                <p class="MsoNormal">4ــ برای هر یک از جمله های زیر دلیل بنویسید:</p>
+                <br>
+               
+                <p class="MsoNormal">آ) تنوع و شمار مواد مولکولی بیشتر از مواد کووالانسی است.</p>
+             
+                <br>
+                <p class="MsoNormal">
+                    ب) ترکیب هایی که در دما و فشار اتاق به حالت مایع هستند، جزو مواد مولکولی به شمار می روند.
+                </p>
+              
+                <br>
+                <p class="MsoNormal">
+                    پ) ترتیب واکنش پذیری فلزهای پتاسیم، کلسیم و تیتانیم به صورت $K > 20Ca > 22Ti$ است.
+                </p>
+
+                <br><br>
+
+              
+                <p class="MsoNormal">
+                    5ــ آنیون‌های زیر در طبیعت به شکل نمك های اکسیژن دار یافت می شوند. با توجه به ساختار لوویس آنیون ‌های زیر به پرسش ها پاسخ دهید.
+                </p>
+                <br>
+               
+               
+                <p class="MsoNormal" style="text-align: center;">
+                    یون سولفات | یون فسفات | یون سیلیکات
+                </p>
+
+                <br>
+               
+                <p class="MsoNormal">
+               
+                    آ) هریک از ساختارهای لوویس را با جفت نقطه ها کامل کرده سپس بار الکتریکی هر آنیون را مشخص کنید.
+                </p>
+                <br>
+               
+                <p class="MsoNormal">
+                    ب) فرمول شیمیایی نمک حاصل از این آنیون ها را با یون سدیم سپس یون کلسیم بنویسید.
+                </p>
+
+                <br>
+
+              
+                <br>
+                <p class="MsoNormal">
+                    6ــ نقشه های پتانسیل الکتروستاتیکی پروپان و دی ‌متیل ‌اتر با جرم مولی نزدیک به هم به صورت زیر است. با توجه به آنها به پرسش ها پاسخ دهید.
+                </p>
+               
+                <br>
+               
+                <p class="MsoNormal">آ) کدام یک در میدان الکتریکی جهت گیری نمی كند؟ چرا؟</p>
+                <br>
+               
+                <p class="MsoNormal">ب) توضیح دهید کدام یک از این دو مادۀ گازی شکل، آسان تر به مایع تبدیل می شود؟</p>
+
+              
+              
+                <br><br>
+
+               
+               
+                <p class="MsoNormal">
+                    7ــ گروهی از دانش آموزان همۀ مواد خالص را بر اساس رفتار آنها مطابق نمودار زیر دسته بندی کرده اند. با پر کردن جاهای خالی، نمونه ای برای هر جامد مثال بزنید.
+                </p>
+
+
+                <br><br>
+
+
+
+
+                <br><br><br><br><br><br><br>
+
+    </body>
+
+
+</html>

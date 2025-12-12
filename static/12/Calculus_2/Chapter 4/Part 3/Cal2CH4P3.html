@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal ,
+        ul.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi , b{
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #badaff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #722a85;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background-color: #1abbbbe1; /* Scrollbar thumb color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color: #05ffe2;
+        }
+    </style>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+ 
+</head>
+
+
+
+<body class="custom-scrollbar">
+
+
+
+
+    <p class="MsoBold">
+        درس ۳: آهنگ متوسط تغییر و آهنگ لحظه‌ای تغییر
+    </p>
+    
+    <p class="MsoNormal">
+        با مفهوم سرعت متوسط در فیزیک آشنا شده‌اید. اگر اتومبیلی در امتداد خط راست مسافت $280$ کیلومتر را در $4$ ساعت طی کند، سرعت متوسط آن در این زمان 
+        برابر $ \dfrac{280}{4} = 70$ کیلومتر بر ساعت است. با این حال ممکن است اتومبیل در لحظات مختلف سرعت‌های متفاوتی داشته باشد. 
+        همچنین مطابق آنچه که در درس فیزیک آموخته‌اید، سرعت متوسط روی یک بازه زمانی خیلی کوچک، به سرعت لحظه‌ای نزدیک است. 
+        اگر نمودار مکان-زمان در مورد حرکت اتومبیل را داشته باشیم، سرعت متوسط اتومبیل بین هر دو لحظه دلخواه، برابر شیب خطی است که نمودار مکان-زمان را در آن دو لحظه قطع می‌کند.
+    </p>
+    <p class="MsoNormal">
+        همچنین در درس فیزیک، سرعت لحظه‌ای در هر لحظه دلخواه $t$، برابر شیب خط مماس بر نمودار در آن لحظه تعریف شد. 
+        با آنچه که در درس‌های گذشته ملاحظه کردید، می‌توان گفت که سرعت در لحظه $t$ همان مقدار مشتق تابع (مکان–زمان) در لحظه $t$ است. 
+        مفهوم مشتق را در بسیاری از پدیده‌های دیگر نیز می‌توان مشاهده کرد. ابتدا در مورد سرعت متوسط و سرعت لحظه‌ای به ذکر مثالی خواهیم پرداخت.
+    </p>
+    
+
+    
+    <br><hr><br>
+
+
+
+    <p class="MsoNormal">
+        <b>مثال :
+        </b>
+          خودرویی در امتداد خط راست طبق معادله 
+          $d(t) = -5t^2 + 20t$ حرکت می‌کند، که در آن 
+          $0 \leq t \leq 5$ برحسب ثانیه است. 
+        با در نظر گرفتن نمودار مکان–زمان (شکل): 
+    </p>
+    <br>
+    <p class="MsoNormal">
+        (الف) سرعت متوسط خودرو را در بازه‌های زمانی 
+        $[1, 2]$ و
+        $[1, ۱/۵]$ و 
+        $[1, 1/4]$ 
+        به‌دست آورید.
+    </p>
+    
+    <br>
+
+
+    <p class="MsoNormal">
+        (ب) اگر به همین ترتیب بازه‌های کوچک‌تری مانند $[1, 1/3]$ و $[1, 1/2]$ و $ . . . $ اختیار کنیم، 
+        سرعت متوسط در این بازه‌ها به عددی نزدیک می‌شود؟
+    </p>
+    <br>
+    <p class="MsoNormal">
+        (پ) سرعت لحظه‌ای را با استفاده از مشتق تابع $d$ در $t = 1$ به‌دست آورید.
+    </p>
+    <br>
+    <p class="MsoNormal">
+        (ت) سرعت لحظه‌ای در $t = 2$ و $t = 3$ چقدر است؟
+    </p>
+    
+
+<br><br>
+
+
+
+<p class="MsoNormal">
+    <b>حل:</b> 
+</p>
+<br>
+<p class="MsoNormal">
+    (الف)
+</p>
+
+
+
+<p class="MsoNormal">
+    سرعت متوسط در بازه زمانی $[1, 2]$ برابر است با:
+</p>
+
+<p class="MsoNormal">
+    $$ 
+  \dfrac{d(2) - d(1)}{2 - 1} = \dfrac{20 - 15}{1} = 5 \,  m/s
+    $$
+</p>
+<br>
+<p class="MsoNormal">
+    سرعت متوسط در بازه زمانی $[1, 1/5]$ برابر است با:
+</p>
+<p class="MsoNormal">
+    $$ 
+   \dfrac{d(1/5) - d(1)}{1/5 - 1} = \dfrac{18/75 - 15}{0/5} = \dfrac{3/75}{0/5} = 7/5 \, m/s
+    $$
+</p>
+
+
+<br>
+
+<p class="MsoNormal">
+    سرعت متوسط در بازه زمانی $[1, 1/4]$ برابر است با:
+</p>
+<p class="MsoNormal">
+    $$ 
+    \text{سرعت متوسط} = \dfrac{d(14) - d(1)}{1/4 - 1} = \dfrac{18/2 - 15}{0/4} = \dfrac{3/2}{0/4} = 8 \, m/s
+    $$
+</p>
+
+<br>
+<p class="MsoNormal">
+    (ب) اگر به همین ترتیب بازه‌های زمانی کوچک‌تری اختیار کنیم، سرعت متوسط به سرعت لحظه‌ای در $t = 1$ نزدیک می‌شود.
+</p>
+
+<br>
+<p class="MsoNormal">
+    (پ) 
+    
+    $d'(t) =  -10 t + 20$
+    پس 
+    $d'(1) = 10$
+</p>
+<br>
+<p class="MsoNormal">
+    (ت) 
+    $d'(3) = 0 $
+    ، 
+    $d'(3) = - \ 10$
+</p>
+
+
+<br><hr><br>
+
+
+<p class="MsoNormal">
+    سرعت در لحظه $t = 2$ صفر است و مماس بر منحنی در این نقطه موازی محور $x$هاست و خودرو ساکن است. مقدار سرعت در لحظه‌های 
+    $t = 1$ و $t = 3$ برابر است و علامت منفی در مورد $d'(3)$ نشان می‌دهد که جهت حرکت در $t = 3$ برخلاف جهت حرکت در $t = 1$ است.
+</p>
+
+<br>
+
+
+<p class="MsoNormal">
+    به‌جز مفهوم سرعت، در مطالعه پدیده‌های زیاد دیگری که در قالب یک تابع نمایش داده می‌شوند با موضوع نسبت تغییرات متغیر وابسته به تغییرات متغیر مستقل مواجه می‌شویم. 
+    نسبت تغییرات دما به تغییرات زمان و همچنین نسبت تغییرات جمعیت نسبت به زمان نمونه‌های دیگری از این‌گونه تغییرات هستند.
+</p>
+
+
+
+
+<br><hr><br>
+
+
+
+
+
+
+<p class="MsoNormal">
+    به‌طور کلی آهنگ متوسط تغییر یک تابع در بازه‌ای مانند $[a, a + h]$ به شکل زیر تعریف می‌کنیم:
+</p>
+<p class="MsoNormal">
+    $$ 
+ \dfrac{f(a + h) - f(a)}{h}
+    $$
+</p>
+<br>
+<p class="MsoNormal">
+    همچنین آهنگ تغییر لحظه‌ای تابع $f$ را به‌صورت زیر تعریف می‌کنیم:
+</p> 
+<p class="MsoNormal">
+    $$ 
+    \lim_{h \to 0} \dfrac{f(a + h) - f(a)}{h} = f'(a)
+    $$
+</p>
+
+
+<p class="MsoNormal">
+    آهنگ متوسط تغییر با شیب خط قاطع و آهنگ لحظه‌ای تغییر با مقدار مشتق و شیب خط مماس در آن نقطه برابرند.
+</p>
+
+
+<br><hr><br>
+
+
+
+<p class="MsoStep">
+    کار در کلاس
+</p>
+<p class="MsoNormal">
+    ۱. نمودار زیر موقعیت یک ذره را در لحظه $t$ نمایش می‌دهد. مقادیر زیر را از کوچک به بزرگ مرتب کنید: 
+    (محاسبه عددی لازم نیست.)
+</p>
+<br>
+<ul class="MsoNormal" style="list-style: none;"> 
+    <li>A. سرعت متوسط بین $t = 1$ و $t = 3$</li>
+    <li>B. سرعت متوسط بین $t = 5$ و $t = 6$</li>
+    <li>C. سرعت لحظه‌ای در $t = 1$</li>
+    <li>D. سرعت لحظه‌ای در $t = 3$</li>
+    <li>E. سرعت لحظه‌ای در $t = 5$</li>
+    <li>F. سرعت لحظه‌ای در $t = 6$</li>
+</ul>
+
+
+
+
+<br><hr>
+
+
+
+<p class="MsoBold">
+    کاربردهایی دیگر از آهنگ متوسط تغییر و آهنگ لحظه‌ای تغییر
+</p>
+<hr><br>
+<p class="MsoNormal">
+    آهنگ رشد: همان‌گونه که در حسابان (۱) ملاحظه کردید تابع $f(x) = 7\sqrt{x} + 50$ قد متوسط کودکان را برحسب سانتی‌متر تا حدود $60$ ماهگی نشان می‌دهد، که در آن $x$ مدت زمان پس از تولد (برحسب ماه) است.
+</p>
+<br>
+<p class="MsoNormal">
+    آهنگ متوسط رشد در بازه زمانی $[0, 60]$ چنین است:
+</p>
+
+
+<p class="MsoNormal">
+    $$ 
+    \dfrac{f(60) - f(0)}{60 - 0} = \dfrac{7\sqrt{60} + 50 - 50}{60} \approx 0.9 \ \ \
+    \dfrac{\text{سانتی‌متر}}{\text{ماه}}
+    $$
+</p>
+
+
+<br>
+
+
+<p class="MsoNormal">
+    یعنی در طی $5$ سال، رشد متوسط قد حدود $0.9$ سانتی‌متر در هر ماه است.
+</p>
+
+
+<br><hr><br>
+
+
+<p class="MsoStep">
+    کار در کلاس
+</p>
+<p class="MsoNormal">
+    (الف) آهنگ متوسط رشد در بازه زمانی $[0, 25]$ چقدر است؟
+</p>
+<br>
+<p class="MsoNormal">
+    (ب) آهنگ لحظه‌ای تغییر قد کودک را در $25$ ماهگی و $49$ ماهگی، با هم مقایسه کنید. کدام‌یک بیشتر است؟
+</p>
+
+<br>
+
+<p class="MsoNormal">
+    (پ) اگر قد علی در $16$ ماهگی $80$ سانتی‌متر و در $36$ ماهگی $95$ سانتی‌متر باشد، آهنگ متوسط تغییر رشد او را در این فاصله حساب کنید و با نمودار بالا مقایسه کنید.
+</p>
+
+<br><hr><br>
+
+<br>
+<p class="MsoNormal">
+    نرخ باروری: نمودار زیر روند رو به کاهش نرخ باروری در کشورمان را در طی نیم‌قرن نمایش می‌دهد. 
+    آهنگ متوسط تغییر باروری در بازه زمانی
+     $[1339, 1389]$
+     در مدت $50$ سال برابر است با:
+</p>
+<p class="MsoNormal">
+    $$ 
+    \dfrac{1/6 - 7}{1389 - 1339} = \dfrac{-5/4}{50} = -0/108
+    $$
+</p>
+
+<br>
+
+<p class="MsoNormal">
+    آهنگ متوسط تغییر باروری در بازه زمانی 
+    $[1364, 1379]$
+     را به‌دست آورید. (با استفاده از مقادیر تقریبی روی نمودار.) 
+    بازه زمانی را مشخص کنید که در آن آهنگ متوسط تغییر باروری مثبت باشد.
+</p>
+
+<br><hr><br>
+
+
+<p class="MsoStep">
+    خواندنی
+</p>
+<p class="MsoNormal">
+    نرخ باروری در ایران در سال‌های ۱۳۶۰ تا ۱۳۶۵ به حدود ۶/۵ فرزند رسید. با توجه به اینکه کشورمان امکانات لازم برای چنین رشد جمعیت بالایی را دارا نبود، سیاست‌های کاهش جمعیت و عوامل دیگر باعث شد که نرخ باروری تا سال ۱۳۸۵ به ۱/۹ کاهش یابد. بررسی‌ها نشان می‌دهند که کاهش باروری در ایران بزرگ‌ترین و سریع‌ترین کاهش باروری ثبت شده بود.
+</p>
+<p class="MsoNormal">
+    کارشناسان معتقدند که باید سیاست‌های کاهش رشد جمعیت پس از کاهش نرخ باروری به حدود ۲/۵ فرزند متوقف می‌شد. کاهش رشد جمعیت مشکلات فراوانی نظیر کاهش نیروی کار و بحران سالمندی را درپی خواهد داشت. با ابلاغ سیاست‌های کلی «جمعیت» توسط رهبر معظم انقلاب اسلامی در سال ۱۳۹۳ و تغییر برنامه‌های وزارت بهداشت، بر اساس نتایج سرشماری عمومی نفوس و مسکن سال ۱۳۹۵، نرخ باروری به حدود ۲/۱ افزایش یافته است. با این حال نگرانی‌های مربوط به احتمال کاهش بیش از حد رشد جمعیت در سال‌های ۱۴۲۵ تا ۱۴۳۰ تأکید می‌کند که این سیاست‌ها تا دستیابی کامل به اهداف تعیین شده باید دنبال شود.
+</p>
+
+
+
+
+
+<br><hr>
+
+
+<p class="MsoBold">
+    سرعت متوسط و سرعت لحظه‌ای
+</p>
+
+<hr><br>
+<p class="MsoNormal">
+    <b>مثال:</b> جسمی را از سطح زمین به‌طور عمودی پرتاب می‌کنیم. جهت حرکت به طرف بالا را مثبت در نظر می‌گیریم. فرض کنیم ارتفاع این جسم از سطح زمین در هر لحظه از معادله $h(t) = -5t^2 + 40t$ به‌دست می‌آید. 
+    به‌طور مثال $2$ ثانیه پس از پرتاب، این جسم در ارتفاع $60$ متری از سطح زمین است.
+</p>
+<br>
+<p class="MsoNormal">
+    به هر حال، جسم پس از مدتی به زمین برمی‌گردد. نمودار مکان–زمان حرکت این جسم در شکل نشان داده شده است.
+</p>
+
+<br>
+
+<p class="MsoNormal">
+    اگر سرعت متوسط این جسم در بازه‌های زمانی 
+    $[0, 2]$
+    و 
+    $[1, 2]$
+    و 
+    $[2, 3]$
+     و $[3, 4]$ را به ترتیب با 
+     $v_1$ و 
+      $v_2$و 
+      $v_3$ و 
+      $v_4$ نمایش دهیم، داریم:
+</p>
+
+<br>
+  <div class="MsoNormal" style="text-align: left;direction: ltr;">
+    <p class="MsoNormal">
+        $
+        v_1 = \dfrac{h(2) - h(0)}{2 - 0} = \dfrac{60}{2} = 30  \ \  m/s
+        $
+    </p>
+    <br>
+    <p class="MsoNormal">
+        $
+        v_2 = \dfrac{h(2) - h(1)}{2 - 1} = 25   \ \  m/s
+        $
+    </p>
+    <br>
+    <p class="MsoNormal">
+        $
+        v_3 = \dfrac{h(3) - h(2)}{3 - 2} = \dfrac{75 - 60}{1} = 15  \ \  m/s
+        $
+    </p>
+    <br>
+    <p class="MsoNormal">
+        $
+        v_4 = \dfrac{h(4) - h(3)}{4 - 3} = \dfrac{80 - 75}{1} = 5  \ \  m/s
+        $
+    </p>
+    
+    
+
+  </div>
+
+
+
+  <br>
+
+
+  <br>
+
+
+
+  <p class="MsoNormal">
+    سرعت لحظه‌ای در زمان‌های $t = 1$ و $t = 2$ و $t = 3$ و $t = 4$ با استفاده از مشتق تابع $h$ چنین به‌دست می‌آید:
+</p>
+
+<p class="MsoNormal">
+    $$
+    \begin{align*}
+    h(t) &= -5t^2 + 40t \implies h'(t) = -10t + 40 \\\\
+        h'(1) &= 30 \, m/s \\\\
+        h'(2) &= 20 \, m/s \\\\
+        h'(3) &= 10 \, m/s \\\\
+        h'(4) &= 0 \, m/s \\\\
+    \end{align*}
+    $$
+</p>
+
+
+
+
+
+<p class="MsoNormal">
+    در $t = 4$ جسم به بالاترین ارتفاع خود از سطح زمین (۸۰ متر) می‌رسد و در این لحظه سرعت آن برابر صفر (متر بر ثانیه) می‌شود.
+    سپس جسم شروع به حرکت به طرف زمین می‌کند. سرعت متوسط در بازه $[4, 5]$ برابر است:
+</p>
+<p class="MsoNormal">
+    $$
+    \dfrac{h(5) - h(4)}{5 - 4} = \dfrac{75 - 80}{1} = -5 \, m/s
+    $$
+</p>
+<p class="MsoNormal">
+    و سرعت لحظه‌ای در $t = 5$ برابر $h'(5) = -10 \, m/s$ است. علامت منفی نشان می‌دهد که حرکت جسم رو به پایین است.
+</p>
+
+
+
+<br><hr><br>
+
+<p class="MsoStep">
+    کار در کلاس
+</p>
+<p class="MsoNormal">
+    با توجه به مثال قبل:
+</p>
+<br>
+<ul class="MsoNormal">
+    <p class="MsoNormal">
+        (الف) سرعت جسم هنگام پرتاب و هنگام برخورد به زمین را به‌دست آورید.
+    </p>
+    <p class="MsoNormal">
+        (ب) سرعت متوسط جسم را در بازه زمانی $[5, 8]$ به‌دست آورید.
+    </p>
+    <p class="MsoNormal">
+        (پ) لحظاتی را معلوم کنید که سرعت جسم $35 \, \frac{m}{s}$ و $-35 \, \frac{m}{s}$ است.
+    </p>
+
+
+</ul>
+
+
+<br><hr><br>
+
+
+<p class="MsoStep">
+    تمرین
+</p>
+<p class="MsoNormal">
+    ۱) جدول زیر درجه حرارت $T$ (سانتی‌گراد) را در شهری از ساعت $8$ تا $18$ در یک روز نشان می‌دهد.
+</p>
+
+<br><br>
+
+<table class="MsoNormal" style="margin:auto;width:fit-content;direction:rtl;text-align:center;">
+    <tr>
+        <th>
+               h
+            ساعت </th>
+        <th>
+            T
+            درجه حرارت </th>
+    </tr>
+    <tr>
+        <td>۸</td>
+        <td>۱۱</td>
+    </tr>
+    <tr>
+        <td>۹</td>
+        <td>۱۳</td>
+    </tr>
+    <tr>
+        <td>۱۰</td>
+        <td>۱۴</td>
+    </tr>
+    <tr>
+        <td>۱۱</td>
+        <td>۱۷</td>
+    </tr>
+    <tr>
+        <td>۱۲</td>
+        <td>۱۹</td>
+    </tr>
+    <tr>
+        <td>۱۳</td>
+        <td>۱۸</td>
+    </tr>
+    <tr>
+        <td>۱۴</td>
+        <td>۱7</td>
+    </tr>
+    <tr>
+        <td>۱۵</td>
+        <td>۱5</td>
+    </tr>
+    <tr>
+        <td>۱۶</td>
+        <td>۱3</td>
+    </tr>
+    <tr>
+        <td>۱۷</td>
+        <td>۱0</td>
+    </tr>
+    <tr>
+        <td>۱۸</td>
+        <td>9</td>
+    </tr>
+</table>
+
+
+
+<br><br>
+
+
+<p class="MsoNormal">
+    آهنگ تغییر متوسط درجه حرارت نسبت به زمان را:
+</p>
+<br>
+<ul class="MsoNormal">
+
+    <p class="MsoNormal">
+        (الف) از ساعت ۸ تا ساعت ۱۲ به‌دست آورید.
+    </p>
+    
+    <p class="MsoNormal">
+        (ب) از ساعت ۱۲ تا ساعت ۱۸ به‌دست آورید.
+    </p>
+    
+    <p class="MsoNormal">
+        (پ) پاسخ‌ها را تفسیر کنید.
+    </p>
+
+</ul>
+
+
+<br><br>
+
+
+<p class="MsoNormal">
+    ۲) کسری از جمعیت یک شهر که به وسیله یک ویروس آلوده شده‌اند برحسب زمان (هفته) در نمودار روبه‌رو نشان داده شده است.
+</p>
+<br>
+
+<ul class="MsoNormal">
+    <p class="MsoNormal">
+        (الف) شیب‌های خطوط $l$ و $d$ چه چیزهایی را نشان می‌دهند.
+    </p>
+    <p class="MsoNormal">
+        (ب) گسترش آلودگی در کدام‌یک از زمان‌های 
+        $t = ۱$
+     یا
+        $t = ۲$
+         یا 
+         $t = ۳$
+          بیشتر است؟
+    </p>
+    <p class="MsoNormal">
+        (پ) قسمت ب را برای 
+        $t = ۴$ 
+        و 
+        $t = ۵$
+        و 
+        $t = ۶$ 
+        بررسی کنید.
+    </p>
+    
+
+    <br>
+    <br>
+
+
+    
+</ul>
+
+
+    <p class="MsoNormal">
+        ۳) نمودار روبه‌رو نمایش میزان فروش تعداد نوعی کالا ($N$) پس از صرف $t$ میلیون تومان هزینه برای تبلیغ است.
+    </p>
+<br>
+    <ul class="MsoNormal">
+        <p class="MsoNormal">
+            (الف) آهنگ تغییر $N$ برحسب $t$ را وقتی $t$ از ۱ تا ۲، ۲ تا ۳ و ۳ تا ۴ تغییر می‌کند به‌دست آورید.
+        </p>
+        <p class="MsoNormal">
+            (ب) به نظر شما چرا آهنگ تغییرات، وقتی که مقادیر $t$ افزایش می‌یابند، در حال کاهش است؟
+        </p>
+    </ul>
+
+<br><br>
+
+    <p class="MsoNormal">
+        ۴) معادله حرکت متحرکی به‌صورت $f(t) = t^2 - t + 10$ برحسب متر در بازه زمانی 
+        $[0, 5]$
+         (t برحسب ثانیه)
+          داده شده است.
+    </p>
+
+    <p class="MsoNormal">
+        در کدام لحظه سرعت لحظه‌ای با سرعت متوسط در بازه زمانی
+         $[0, 5]$
+         با هم برابرند؟
+    </p>
+
+
+    <br><br>
+
+
+
+    <p class="MsoNormal">۵) توپی از یک پل به ارتفاع $11$ متر به هوا پرتاب می‌شود. \(f(t)\) نشان‌دهنده فاصله توپ از سطح زمین در زمان \(t\) است. برخی از مقادیر \(f(t)\) در جدول زیر نمایش داده شده است.</p>
+
+    <br>
+    <table class="MsoNormal" style="margin:auto;width:fit-content;direction:ltr;text-align:center;">
+     
+        <tr>
+            <th>
+                $t$
+                <br>
+                s  ثانیه</th>
+          <td>$$0$$</td>
+          <td>$$0.1$$</td>
+          <td>$$0.2$$</td>
+          <td>$$0.3$$</td>
+          <td>$$0.4$$</td>
+          <td>$$0.5$$</td>
+          <td>$$0.6$$</td>
+        </tr>
+        <tr>
+            <th>
+               $ f(t)$
+               <br>
+                m متر</th>
+          <td>$$11$$</td>
+          <td>$$12.4$$</td>
+          <td>$$13.8$$</td>
+          <td>$$15.1$$</td>
+          <td>$$16.3$$</td>
+          <td>$$17.4$$</td>
+          <td>$$18.4$$</td>
+        </tr>
+      </table>
+      <br><br>
+      <p class="MsoNormal" style="direction:rtl;text-align:justify;">
+        بر اساس جدول، کدام یک از مقادیر زیر می‌تواند سرعت توپ را هنگامی که در ارتفاع نظیر زمان $0.4$ ثانیه است، نشان دهد؟
+        </p>
+        
+    
+        <ul class="MsoNormal" style="direction:rtl;text-align:left;direction: ltr;list-style: none;">
+            <li>الف) $1.23 \, \text{m/s}$</li>
+            <li>ب) $14.91 \, \text{m/s}$</li>
+            <li>پ) $11.5 \, \text{m/s}$</li>
+            <li>ت) $16.03 \, \text{m/s}$</li>
+          </ul>
+          
+
+          <br><br>
+
+          <p class="MsoNormal" style="direction:rtl;">
+            ۶) کدام‌یک از عبارات زیر درست و کدام‌یک نادرست است:
+            </p>
+            <br>
+            <ul class="MsoNormal" style="direction:rtl;text-align:right;list-style: none;">
+              <li>الف) آهنگ تغییر متوسط تابعی مانند $f$ در بازه $[0,1]$ همیشه کمتر از شیب آن منحنی در نقطه است.</li>
+              
+              <li>ب) اگر تابعی صعودی باشد، آهنگ تغییر متوسط آن، همواره صعودی است.</li>
+              
+              <li>پ) تابعی وجود ندارد که برای آن هم $f'(a)=0$ و هم $f(a)=0$.</li>
+            </ul>
+            
+            <br><br>
+
+            <p class="MsoNormal" style="direction:rtl;text-align:justify;">
+                ۷) یک توده باکتری پس از $t$ ساعت دارای جرم $m(t) = \sqrt{t} + 2t^{3}$ گرم است.
+                </p>
+                <br>
+                <ul class="MsoNormal" style="direction:rtl;text-align:right;list-style: none;">
+                  <li>الف) جرم این توده باکتری در بازه زمانی 
+                    $3 \leq t \leq 4$
+                     چند گرم افزایش می‌یابد؟</li>
+                  <li>ب) آهنگ رشد جرم توده باکتری در لحظه $t=3$ چقدر است؟</li>
+                </ul>
+                
+
+<br><br>
+
+<p class="MsoNormal" style="direction:rtl;text-align:justify;">
+    ۸) گنجایش ظرفی $40$ لیتر مایع است. در لحظه $t=0$ سوراخی در ظرف ایجاد می‌شود. اگر حجم مایع باقی‌مانده در ظرف پس از $t$ ثانیه از رابطه $V = 40 (1 - \dfrac{t}{100})^2$ به‌دست آید:
+    </p>
+    
+    <br>
+
+
+    <ul class="MsoNormal" style="direction:rtl;text-align:right;list-style: none;">
+        
+        <li>الف) آهنگ تغییر متوسط حجم مایع در بازه زمانی $[0,1]$ چقدر است؟</li>
+
+        <li>ب) در چه زمانی، آهنگ تغییر لحظه‌ای حجم برابر آهنگ تغییر متوسط آن در بازه $[0,100]$ می‌شود؟</li>
+      </ul>
+      
+
+
+
+
+
+    <br><br><br><br><br><br><br><br><br><br>
+</body>
+
+
+
+
+</html>

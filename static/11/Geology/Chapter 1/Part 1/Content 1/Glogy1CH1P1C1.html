@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi {
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSemic,
+        li.MsoSemic,
+        div.MsoSemic {
+            margin: 0in;
+           
+            font-size: clamp(1.2rem, 1.6vw, 1.3rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #b19af2;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #6ca4ec;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .boxp {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .boxg {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#00f2ff11; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        .boxb {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#0c4e9f2d; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+    <body class="custom-scrollbar">
+
+
+
+        <p class="MsoBold">فصل ۱ <br><br> آفرینش کیهان و تکوین زمین</p>
+
+        <p class="MsoNormal">«َوالَّسماَء بَنَیْناهاَ بَِأیٍْد وَإِنَّ الَُموِسُعوَن وَاْلَْْرَضَ فَرْشناهاَ فَنِْعَم الْماِهُدوَن»<br><br>
+        و آسمان را با قدرتی وصف‌ناپذیر بناکردیم و آن را گسترش دادیم و زمین را گسترانیدیم، پس چه نیکو گسترش‌دهندهایم.<br> سورۀ ذاریات ـ آیه‌های 47 و 48</p>
+        <br>
+        <p class="MsoNormal">ذهن کنجکاو بشر، همواره به دنبال کشف اسرار شگفت‌انگیز جهان هستی است. مشاهدة منظرة زیبای آسمان شب یا رصد آن، توجه آدمی را به مطالعه و شناخت اجرام و پدیده‌های آسمانی جلب می‌کند. در کیهان، پدیده‌های متنوعی مانند کهکشان‌ها، منظومه‌ها، ستاره‌ها، سیاره‌ها و... وجود دارد. ستاره‌ها و سیاره‌هایی که در آسمان شب می‌توان دید، تنها، تعداد اندکی از میلیاردها جرم آسمانی در کهکشان راه شیری هستند. برخی از اجرام و پدیده‌های آسمانی به وسیلۀ کاوشگران شناسایی شده‌اند و برخی دیگر، تاکنون حتی رصد هم نشده‌اند و اطلاعاتی از آنها در دست نیست. اندازه‌گیری‌های نجومی نشان می‌دهند که کیهان در حال گسترش است و کهکشان‌ها در حال دور شدن از یکدیگر هستند. در این زمینه، پرسش‌هایی نظیر: گسترش کیهان از چه زمانی آغاز شده است؟ آینده کیهان، چگونه خواهد بود؟ سرنوشت منظومه شمسی و تکوین زمین چیست؟ ساز و کار تشکیل اقیانوس‌ها چگونه است؟ و ... مطرح می‌شود.</p>
+        <br><hr><br>
+        <p class="MsoBold">آفرینش کیهان</p>
+        <p class="MsoNormal">دانشمندان بر این باورند که خداوند، جهان هستی را بر اساس اصول و قوانین آفریده است. آنها با مطالعه و شناخت نظام حاکم بر آفرینش کیهان، به دنبال کشف رازهای خلقت هستند.</p>
+
+        <br>
+
+        <div class="boxg">
+        <p class="MsoStep">جمع‌آوری اطلاعات</p>
+        <p class="MsoNormal">در سال گذشته خواندید که دانشمندان پیدایش جهان را با نظریۀ مه‌بانگ توضیح می‌دهند. در این باره، اطلاعات بیشتری جمع‌آوری و دربارة پیدایش اجرام آسمانی با هم گفتگو کنید.</p>
+        </div>
+
+        <br>
+
+
+        <p class="MsoStep">کهکشان راه شیری</p>
+        <p class="MsoNormal">در کیهان، صدها میلیارد کهکشان وجود دارد. کهکشان‌ها، از تعداد زیادی ستاره، سیاره و فضای بین ستاره‌ای (اغلب گاز و گرد و غبار) تشکیل شده‌اند که تحت تأثیر نیروی گرانش متقابل، یکدیگر را نگه داشته‌اند.<br> اگر در شب‌های صاف و بدون ابر، در مکانی که آلودگی نوری ندارد، به آسمان نگاه کنید، نواری مه‌مانند و کم‌نور، شامل انبوهی از اجرام می‌بینید. این نوار که کهکشان راه شیری نام دارد، یکی از بزرگ‌ترین کهکشان‌های شناخته شده است. کهکشان راه شیری، شکلی مارپیچی دارد که منظومۀ شمسی ما، در لبۀ یکی از بازوهای آن قرار دارد.</p>
+        
+        <br><hr><br>
+
+        <p class="MsoSub">دانشمندان علوم زمین</p>
+        <p class="MsoNormal">ابوسعید سجزی (414ـ330 هـ.ق)، ریاضیدان و ستاره‌شناس برجستۀ ایرانی در سیستان به دنیا آمد و در خراسان و شیراز به علم‌آموزی و مطالعه پرداخت. سجزی، نوعی اسطرلاب ساخت و کتاب «ترکیب الافلاک»، «رساله فی کیفیة صنعه الآلات النجومیة» و همچنین «رساله الاسطرلاب» از تألیفات او در ستاره‌شناسی و ریاضیات هستند که هرکدام دارای نوآوری‌ها و یافته‌های علمی فراوان می‌باشند.<br> برخی دانشمندان ایرانی مانند ابوسعید سجزی و خواجه نصیرالدین طوسی، با اندازه‌گیری‌های دقیق و تفسیر درست یافته‌های علمی، ایرادهایی بر نظریۀ زمین مرکزی وارد کردند. این نظریه در اروپا نیز مخالفانی داشت؛ ولی تا حدود قرن 16 میلادی مطرح بود.</p>
+        <br><hr><br>
+
+
+        <p class="MsoStep">منظومۀ شمسی</p>
+        <p class="MsoNormal">در سال‌های گذشته با برخی از ویژگی‌های منظومۀ شمسی و اجزای آن آشنا شدید. حرکت ظاهری خورشید از شرق به غرب است؛ بنابراین آیا زمین، مرکز جهان است و سایر اجرام به دور آن می‌گردند؟ از هزاران سال قبل، بشر برای پاسخ به این پرسش و پرسش‌های مشابه آن، در جست‌وجو و کاوشگری بوده است. در این زمینه، دو نظریه زیر مطرح شده است:</p>
+        <br><hr><br>
+        <p class="MsoSemi">نظریۀ زمین مرکزی
+            :
+        </p>
+        <p class="MsoNormal">بطلمیوس، دانشمند یونانی بیش از دو هزار سال پیش، با مشاهدۀ حرکت ظاهری ماه و خورشید، به این نتیجه رسید که زمین، در مرکز عالم قرار دارد و اجرام آسمانی دیگر به دور آن می‌گردند. براساس این نظریه، که نظریۀ زمین مرکزی نامگذاری شد، زمین، ثابت است و ماه و خورشید و پنج سیارۀ شناخته‌شده آن روزگار، یعنی عطارد، زهره، مریخ، مشتری و زحل، در مدارهایی دایره‌ای به دور زمین می‌گردند.</p>
+     
+     <br>
+        <p class="MsoSemi">نظریۀ خورشید مرکزی
+            :
+        </p>
+
+
+        <p class="MsoNormal">نیکولاس کوپرنیک، ستاره‌شناس لهستانی که با علم ریاضی نیز به خوبی آشنا بود، با مطالعۀ حرکت سیارات در زمان‌های مختلف، نظریۀ خورشید مرکزی را به شرح زیر بیان کرد:</p>
+        <br>
+     <p class="MsoNormal">
+        $*$
+        زمین همراه با ماه، مانند دیگر سیاره‌ها در مدار دایره‌ای و مخالف حرکت عقربه‌های ساعت به دور خورشید می‌گردد.
+
+     </p>
+     <br>
+        <p class="MsoNormal">
+        $*$
+         حرکت روزانۀ خورشید در آسمان، ظاهری و نتیجۀ چرخش زمین به دور محور خود است.
+        </p>
+
+<br>
+        <p class="MsoNormal"> 
+                    پس از آنکه کوپرنیک، نظریۀ خورشید مرکزی را مطرح کرد، یوهانس کپلر، به بررسی دقیق یادداشت‌های ستاره‌شناسان پرداخت و دریافت که سیارات در مدارهای بیضوی، به دور خورشید در حرکت می‌باشند. او با ارائۀ سه قانون زیر، نظریۀ خورشید مرکزی را اصلاح نمود.</p>
+        
+
+        <br>
+        <p class="MsoStep">قانون اول</p>
+        <p class="MsoNormal">هر سیاره در مداری بیضوی، چنان به دور خورشید می‌گردد که خورشید همواره، در یکی از دو کانون آن قرار دارد.</p>
+        <br>
+        <div class="boxg">
+        <p class="MsoStep">یادآوری</p>
+        <p class="MsoNormal">با توجه به اینکه، نور خورشید حدود 8/3 دقیقه نوری طول می‌کشد تا به زمین برسد فاصله متوسط زمین تا خورشید چند کیلومتر است؟ به این فاصله در اصطلاح ستاره‌شناسی چه گفته می‌شود؟</p>
+        </div>
+        <br>
+
+        <p class="MsoSemic">قانون دوم:</p>
+        <p class="MsoNormal">هر سیاره، چنان به دور خورشید می‌گردد که خط فرضی که سیاره را به خورشید وصل می‌کند، در مدت زمان‌های مساوی، مساحت‌های مساوی ایجاد می‌کند.</p>
+        <br>
+        <p class="MsoSemic">قانون سوم:</p>
+        <p class="MsoNormal">زمان گردش یک دور سیاره به دور خورشید(p)، با افزایش فاصله از خورشید (d) افزایش می‌یابد، به‌طوری که مربع زمان گردش سیاره به دور خورشید، معادل مکعب فاصله آن سیاره تا خورشید است ($ p^2 \propto d^3 $). در این رابطه، p بر حسب سال زمینی و d برحسب واحد نجومی است.</p>
+        
+
+        <br>
+        <div class="boxp">
+        <p class="MsoStep">پیوند با ریاضی</p>
+        <p class="MsoNormal">اگر مدار سیاره‌ای در فاصلهٔ $ 10^6 $ $ \times $ $600$ کیلومتری خورشید قرار داشته باشد، زمان گردش آن به دور خورشید چند سال است؟</p>
+        </div>
+        <br>
+
+<br><hr><br>
+<p class="MsoStep">حرکات زمین</p>
+<p class="MsoNormal">کرۀ زمین دارای حرکت وضعی و انتقالی است. چرخش زمین به دور محورش را حرکت وضعی می‌گویند. این چرخش در جهت خلاف حرکت عقربه‌های ساعت است و در مدت زمان حدود 24 ساعت انجام می‌شود. شب و روز بر اثر حرکت وضعی به‌وجود می‌آید. انحراف 23/5 درجه‌ای محور زمین، نسبت به خط عمود بر سطح مدار گردش زمین به دور خورشید، سبب ایجاد اختلاف مدت زمان روز و شب در عرض‌های جغرافیایی مختلف می‌شود. به صورتی که به‌جز در مدار استوا «مدار صفر درجه»، که طول مدت شب و روز در تمام مدت سال با هم برابر و 12 ساعت است، در سایر نقاط با افزایش عرض جغرافیایی این اختلاف ساعت بیشتر می‌شود. به گردش زمین بر روی مدار بیضوی به دور خورشید، حرکت انتقالی گفته می‌شود که در جهت خلاف حرکت عقربه‌های ساعت انجام می‌شود.</p>
+<br>
+<p class="MsoNormal">میانگین فاصلۀ خورشید از زمین، حدود 150 میلیون کیلومتر است که به آن، یک واحد نجومی می‌گویند. البته این مقدار در اول تیر ماه به حداکثر مقدار خود، یعنی 152 میلیون کیلومتر و در اول دی‌ماه به حداقل خود، یعنی حدود 147 میلیون کیلومتر می‌رسد.</p>
+<br>
+
+<div class="boxg">
+<p class="MsoStep">تحقیق کنید</p>
+<p class="MsoNormal">با توجه به فاصلۀ حداکثر زمین تا خورشید در اول تیر و فاصلۀ حداقلی در اول دی‌ماه، علت گرمای تیرماه و سرمای دی‌ماه چیست؟</p>
+</div>
+
+
+<br><br>
+<p class="MsoNormal">پیدایش فصل‌ها، حاصل حرکت انتقالی زمین و انحراف 23/5 درجه‌ای محور زمین است؛ به علت کروی بودن زمین، زاویۀ تابش خورشید در عرض‌های جغرافیایی مختلف، در یک زمان، متفاوت است. همچنین به علت انحراف محور زمین، زوایای تابش خورشید در یک عرض جغرافیایی نیز در طول سال تفاوت دارد. این تفاوت زاویه، سبب ایجاد فصل‌ها در نقاط مختلف کرۀ زمین شده است.</p>
+
+<p class="MsoNormal">حرکت زمین و زاویۀ انحراف محور آن به گونه‌ای است که می‌توان موقعیت خورشید را نسبت به زمین به‌صورت مشخص کرد.</p>
+
+<br>
+<div class="boxg">
+<p class="MsoStep">خود را بیازمایید</p>
+<p class="MsoNormal">وضعیت فصل‌ها در نیمکرۀ شمالی و جنوبی را مقایسه کنید. جهت تشکیل سایه، در نیمکره شمالی و جنوبی چه تفاوتی دارد؟ در طول یک سال، خورشید در چه روزهایی بر استوا عمود می‌تابد؟</p>
+</div>
+<br><br>
+
+
+<p class="MsoNormal">بر اساس شکل بالا در ابتدای بهار، خورشید بر مدار استوا عمود می‌تابد و در طول بهار بر عرض‌های جغرافیایی بالاتر در نیمکرۀ شمالی عمود می‌تابد به‌طوری‌که، در آخر خرداد و اول تیرماه حداکثر بر مدار رأس‌السرطان، تابش قائم دارد. سپس در طول تابستان بر مدارهای کمتر از 23/5 درجه شمالی، قائم است و مجدداً اول پاییز بر استوا و در ادامه در شش ماهۀ دوم سال، بر عرض‌های جغرافیایی صفر تا 23/5 درجۀ جنوبی قائم می‌تابد.</p>
+
+
+
+<br><hr><br>
+<p class="MsoStep">تکوین زمین و آغاز زندگی در آن</p>
+<p class="MsoNormal">حدود 6 میلیارد سال قبل، با نخستین تجمعات ذرّات کیهانی، شکل‌گیری منظومه شمسی آغاز شد و در حدود 4/6 میلیارد سال قبل، سیارۀ زمین به‌صورت کره‌ای مذاب، تشکیل و در مدار خود قرار گرفت. با گذشت زمان و سرد شدن این گوی مذاب، حدود 4 میلیارد سال قبل، سنگ‌های آذرین به‌عنوان نخستین اجزای سنگ‌کره تشکیل شدند؛ سپس با فوران آتشفشان‌های متعدد، گازهایی که از داخل زمین خارج شدند، به‌تدریج گازهای مختلف مانند اکسیژن، هیدروژن، نیتروژن، هواکره را به وجود آوردند. در ادامه، کرۀ زمین سردتر شد و بخار آب به‌صورت مایع درآمد و آب‌کره تشکیل شد. با تشکیل اقیانوس‌ها و تحت تأثیر انرژی خورشید، شرایط برای تشکیل زیست‌کره فراهم و زندگی انواع تک‌یاخته‌ها در دریاهای کم‌عمق آغاز شد. به وجود آمدن چرخۀ آب، باعث فرسایش سنگ‌ها، تشکیل رسوبات و سنگ‌های رسوبی گردید. در ادامه، با حرکت ورقه‌های سنگ‌کره و ایجاد فشار و گرمای زیاد در مناطق مختلف، سنگ‌های دگرگونی به وجود آمدند.</p>
+
+<p class="MsoNormal">دانشمندان معتقدند شرایط محیط زیست فعلی به‌تدریج و در طی صدها میلیون سال مهیا شده است. با توجه به شواهد زمین‌شناسی، دانشمندان دریافتند که خداوند در آفرینش جهان، ابتدا شرایط محیط زیست را مهیا کرده و سپس جانداران را از ساده تا پیچیده آفریده است. در دوران‌های مختلف، شرایط آب و هوایی و محیط‌زیست تغییرات فراوانی داشته‌اند و بر این اساس، گونه‌های مختلف جانداران در سطح زمین ظاهر و منقرض شده‌اند. به‌عنوان مثال، خزندگان در دوران کربونیفر، ظاهر و در طی 70 ــ 80 میلیون سال، جثۀ آن‌ها بزرگ شد و در کرۀ زمین گسترش یافتند. با نامساعد شدن شرایط محیط زیست و عدم توانایی دایناسورها برای سازگاری با تغییرات محیطی، این موجودات حدود 65 میلیون سال پیش منقرض شدند.</p>
+
+<br>
+
+
+<div class="boxg">
+<p class="MsoStep">تفسیر کنید</p>
+<p class="MsoNormal">با توجه به شکل زیر، ترتیب تشکیل هوا کره، سنگ کره، زیست کره و آب کره را از قدیم به جدید ذکر کنید.</p>
+</div>
+<br>
+
+<p class="MsoStep">سن زمین</p>
+<p class="MsoNormal">از آغاز پیدایش کرۀ زمین تاکنون، مدت زمان بسیار زیادی می‌گذرد و در این مدت، حوادث و وقایع فراوانی در آن رخ داده است. آیا می‌دانید سن زمین و حوادث و وقایع گذشته را چگونه تعیین می‌کنند؟ تعیین سن سنگ‌ها و پدیده‌های مختلف، از نظر بررسی تاریخچه زمین، اکتشاف ذخایر و منابع موجود در زمین، پیش‌بینی حوادث احتمالی آینده و ... اهمیت زیادی دارد. در زمین‌شناسی، سن سنگ‌ها و پدیده‌ها را به دو روش نسبی و مطلق تعیین می‌کنند.</p>
+<br>
+
+<div class="boxg">
+<p class="MsoStep">یادآوری</p>
+<p class="MsoNormal">در کتاب علوم پایۀ نهم با روش تعیین سن نسبی و اصول آن آشنا شدید. با توجه به آن، در شکل روبه‌رو، ترتیب وقایع را از قدیم به جدید شماره‌گذاری کنید.</p>
+</div>
+<br><br>
+
+<p class="MsoNormal">در تعیین سن نسبی، ترتیب تقدم، تأخر و هم‌زمانی وقوع پدیده‌ها، نسبت به یکدیگر مشخص می‌شود. در تعیین سن مطلق (پرتوسنجی)، سن واقعی نمونه‌ها با استفاده از عناصر پرتوزا اندازه‌گیری می‌شود. عناصر پرتوزا به‌طور مداوم، با سرعت ثابت در حال واپاشی هستند. این عناصر پس از واپاشی به عنصر پایدار تبدیل می‌شوند. مدت زمانی که نیمی از یک عنصر پرتوزا به عنصر پایدار تبدیل می‌شود را، نیم‌عمر آن عنصر می‌گویند. در تعیین سن مطلق با استفاده از رابطۀ زیر می‌توان سن مطلق نمونه‌هایی مانند سنگ، چوب، استخوان و... را تعیین کرد.</p>
+<br>
+<p class="MsoNormal" style="text-align: center;">نیم‌عمر $\times$  تعداد نیم‌عمر $=$ سن نمونه</p>
+
+<br>
+
+<div class="boxp">
+<p class="MsoStep">پیوند با ریاضی</p>
+<p class="MsoNormal">در جدول زیر، نیم‌عمر برخی از عناصر پرتوزا و عنصر پایدار حاصل از آنها نشان داده شده است. با استفاده از اطلاعات موجود در آن، به پرسش‌های زیر پاسخ دهید:</p>
+<p class="MsoNormal">1ـ برای تعیین سن نخستین سنگ‌هایی که در کره زمین تشکیل شده‌اند، استفاده از کدام عنصر پرتوزا مناسب‌تر است؟ چرا؟<br> 2ـ برای تعیین سن فسیل ماموت و یا جمجمه انسان اولیه، از کربن 14 استفاده می‌شود. دلیل آن را توضیح دهید.<br> 3ـ اگر مقدار کربن $14$ باقیمانده در یک نمونه استخوان قدیمی حدود $\frac{1}{8}$ مقدار اولیه آن باشد، سن استخوان را محاسبه کنید.</p>
+<table class="tables" style="text-align: center; width:fit-content;">
+    <thead>
+        <tr>
+          <th>عنصر پایدار</th>
+          <th>نیم عمر (تقریبی)</th>
+          <th>عنصر پرتوزا</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>سرب
+            <br>
+            206</td>
+          <td>4/5 <br>
+             میلیارد سال
+
+
+          </td>
+          <td>اورانیوم<br> 238</td>
+        </tr>
+        <tr>
+          <td>سرب<br> 207</td>
+          <td>713 <br>میلیون سال</td>
+          <td>اورانیوم<br> 235</td>
+        </tr>
+        <tr>
+          <td>سرب<br> 208</td>
+          <td>14/1 <br>میلیارد سال</td>
+          <td>توریم<br> 232</td>
+        </tr>
+        <tr>
+          <td>نیتروژن<br> 14</td>
+          <td> 5730
+            <br>
+            سال
+          </td>
+          <td>کربن<br> 14</td>
+        </tr>
+        <tr>
+          <td>آرگون<br> 40</td>
+          <td>1/3 
+            <br>
+            میلیارد سال</td>
+          <td>پتاسیم<br> 40</td>
+        </tr>
+      </tbody>
+  </table>
+  
+
+</div>
+<br>
+
+<br><hr><br>
+
+
+
+
+<p class="MsoStep">زمان در زمین‌شناسی</p>
+<p class="MsoNormal">مفهوم زمان در مقیاس‌های مختلفی به کار می‌رود. شما با واحدهای زمان مانند: ثانیه، دقیقه، ساعت، شبانه‌روز، هفته، ماه، سال، دهه، سده (قرن) و هزاره آشنا هستید؛ اما، واحدهای بزرگتر زمان نیز وجود دارند که در زندگی روزمره ما، کاربرد زیادی ندارند، ولی در علوم زمین بسیار مهم‌اند. مانند عهد، دوره، دوران و اِئون (ابردوران) که واحدهای زمانی مورد استفاده در زمین‌شناسی هستند. معیار تقسیم‌بندی این واحدهای زمانی مختلف، به حوادث مهمی همچون پیدایش یا انقراض گونه خاصی از جانداران، حوادث کوه‌زایی، پیشروی یا پس‌روی جهانی دریاها، عصرهای یخبندان و... بستگی دارد.</p>
+<br><hr><br>
+<p class="MsoStep">پیدایش اقیانوس‌ها</p>
+<p class="MsoNormal">در سال‌های گذشته، با مفهوم سنگ‌کره و ساز و کار حرکت ورقه‌ها آشنا شدید. ورقه‌های سنگ‌کره، به دو نوع قاره‌ای و اقیانوسی تقسیم می‌شوند. البته گاهی ممکن است بخشی از یک ورقه، جنس قاره‌ای و در بخش دیگر از جنس اقیانوسی باشد (مانند ورقه هند) و یا در همه جا از آب پوشیده شده و از جنس اقیانوسی باشد (مانند ورقه اقیانوس آرام). سنگ‌کره قاره‌ای، نسبت به سنگ‌کره اقیانوسی ضخامت بیشتر و چگالی کمتری دارد. از طرفی سن ورقه‌های قاره‌ای زیاد و حدود 3.8 میلیارد سال بوده، در حالی که سنگ‌های بستر اقیانوس‌ها حداکثر 200 میلیون سال قدمت دارند.</p>
+<br>
+
+<div class="boxg">
+<p class="MsoStep">یادآوری</p>
+<p class="MsoNormal">در فصل زمین‌ساخت ورقه‌ای کتاب علوم نهم، در مورد حرکت ورقه‌های سنگ‌کره و پیامدهای آن مطالبی آموختید. در این باره به پرسش‌های زیر پاسخ دهید:</p>
+<p class="MsoNormal">1ـ علت حرکت ورقه‌های سنگ‌کره چیست؟<br> 2ـ انواع حرکت ورقه‌ها را بیان کنید.<br> 3ـ پیامدهای حاصل از حرکت ورقه‌ها را ذکر کنید.</p>
+</div>
+<br><br>
+
+<p class="MsoNormal">نخستین بار سازوکار حرکت ورقه‌های سنگ‌کره توسط دانشمند کانادایی به نام توزو ویلسون در قالب چرخه‌ای به نام چرخه ویلسون مطرح شد.</p>
+
+<p class="MsoNormal">خلاصه مراحل چرخه ویلسون به شرح زیر می‌باشد:</p>
+<br>
+
+<p class="MsoSemi">
+    1ـ مرحله بازشدگی:
+</p>
+<p class="MsoNormal">
+     تحت تأثیر جریان‌های همرفتی سست‌کره، بخشی از پوستۀ قاره‌ای شکافته می‌شود و مواد مذاب سست‌کره، صعود نموده و به سطح زمین می‌رسند. نمونه‌ای از آن آتشفشان‌های کنیا و کلیمانجارو در شرق افریقا ایجاد شده است.</p>
+
+     <br>
+
+
+<p class="MsoSemi">
+    2ـ مرحله گسترش: 
+</p>
+<p class="MsoNormal">
+    
+   
+    در این مرحله، در محل شکاف ایجاد شده، مواد مذاب سست‌کره به بستر اقیانوس رسیده و پشته‌های میان اقیانوسی تشکیل می‌شوند و پوسته جدید ایجاد شده به طرفین حرکت کرده و باعث گسترش بستر اقیانوس می‌شود مانند بستر اقیانوس اطلس (دور شدن آمریکای جنوبی از افریقا) و دریای سرخ (دور شدن عربستان از افریقا).</p>
+
+<br>
+    <p class="MsoSemi">
+        3ـ مرحله بسته شدن: 
+    </p>
+    <p class="MsoNormal">
+        در این مرحله، ورقه اقیانوسی از حاشیه به زیر ورقه قاره‌ای مجاور خود فرو رانده می‌شود (دراز گودال اقیانوسی) و با ادامه فرورانش در نهایت اقیانوس بسته می‌شود (مانند بسته شدن اقیانوس تتیس).</p>
+
+
+
+<p class="MsoNormal">در برخی از اقیانوس‌ها مانند اقیانوس آرام در بخشی از آن، ورقه اقیانوسی به زیر ورقه اقیانوسی دیگر فرو رانده شده و منجر به تشکیل دراز گودال اقیانوسی و جزایر قوسی می‌شود.</p>
+
+
+<br>
+<p class="MsoSemi">
+    4ـ مرحله برخورد: 
+</p>
+<p class="MsoNormal">
+   
+    با بسته شدن اقیانوس و برخورد ورقه‌ها، رسوبات فشرده شده و رشته کوه‌هایی مانند هیمالیا (برخورد هندوستان به آسیا)، زاگرس (برخورد عربستان به ایران) و ... را به وجود می‌آورند.</p>
+
+
+<br>
+    <br><hr><br>
+<p class="MsoSub">دانشمندان علوم زمین</p>
+<p class="MsoNormal">در ادامۀ نظریه‌های جابه‌جایی قاره‌ها و گسترش بستر اقیانوس‌ها، توزو ویلسون زمین‌شناس کانادایی، نخستین بار، ایده وجود ورقه‌های تشکیل‌دهندۀ سنگ‌کره زمین و مرز آنها را عنوان کرد که منجر به ارائۀ نظریۀ زمین‌ساخت ورقه‌ای شد. مراحل تشکیل اقیانوس‌ها نیز، توسط وی ارائه و بعدها به چرخه ویلسون معروف شد. مطالعات علمی او، مورد تحسین جهان قرار گرفت. توزو ویلسون 15 آوریل 1993 ـ 24 اکتبر1908</p>
+
+
+
+
+<div class="boxg">
+<p class="MsoStep">پاسخ دهید</p>
+
+<p class="MsoNormal">1ـ عامل باز و بسته شدن اقیانوس‌ها چیست؟<br> 2ـ چرا با وجود گسترش بستر اقیانوس‌ها، وسعت سطح زمین افزایش نمی‌یابد؟<br> 3ـ علت فرورانش ورقه اقیانوسی چیست؟<br> 4ـ نتیجه فرورانش ورقه اقیانوسی ـ قاره‌ای و اقیانوسی ـ اقیانوسی چیست؟</p>
+</div>
+
+<br>
+
+<div class="boxb">
+<p class="MsoStep">علم، زندگی، کارآفرینی</p>
+
+<p class="MsoNormal"><strong>دیرینه‌شناسی:</strong> شاخه‌ای از علم زمین‌شناسی که به بررسی آثار و بقایای موجودات گذشته زمین در لایه‌های رسوبی می‌پردازد. بر پایه مطالعه فسیل‌ها، پیدایش و نابودی آنها می‌توان به سن نسبی لایه‌های زمین و محیط زندگی موجودات در گذشته پی برد.</p>
+<br>
+<p class="MsoNormal"><strong>سنجش از دور:</strong> علم و فن جمع‌آوری اطلاعات از عوارض سطح زمین، بدون تماس فیزیکی با آنها است. سنجش از دور شامل اندازه‌گیری و ثبت انرژی بازتابی از سطح زمین و جو پیرامون آن، از یک نقطه مناسب در بالاتر از سطح زمین است. پرتوهای بازتابی که از نوع امواج الکترومغناطیس هستند، می‌توانند دارای منابع گوناگونی مانند پرتوهای خورشیدی، پرتوهای حرارتی اجسام یا حتی پرتوهای مصنوعی باشند. به‌دست آوردن اطلاعات از سطح زمین و سطح دریاها، با استفاده از تصاویر اخذ شده از فراز آنها، از بخش‌هایی از طیف الکترومغناطیس که از سطح زمین تابیده یا بازتابیده شده‌اند، انجام می‌شود. سنجش از دور، از انرژی الکترومغناطیسی بهره می‌گیرد. قوی‌ترین منبع تولیدکنندۀ این انرژی، خورشید است که انرژی الکترومغناطیس را در تمام طول موج‌ها، تابش می‌کند.</p>
+
+<br>
+<p class="MsoNormal">متخصصان این رشته‌ها، در مراکزی مانند سازمان زمین‌شناسی و اکتشافات معدنی کشور، شرکت ملی نفت ایران و... می‌توانند به کمک آن حوادثی مانند: وقوع سیل، تغییرات سطح زمین، پراکندگی ریزگردها و... را بررسی کنند و در کیفیت‌بخشی و بهبود اجرای پروژه‌های اکتشافی و آموزشی کمک شایانی داشته باشند.</p>
+
+</div>
+
+
+
+
+
+
+
+<br><br><br><br><br>
+
+
+    </body>
+
+
+</html>

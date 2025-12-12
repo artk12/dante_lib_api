@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi {
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSemic,
+        li.MsoSemic,
+        div.MsoSemic {
+            margin: 0in;
+           
+            font-size: clamp(1.2rem, 1.6vw, 1.3rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #b19af2;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #6ca4ec;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .boxp {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .boxg {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#00f2ff11; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        .boxb {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#0c4e9f2d; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        ::selection {
+            background-color: #59078fa1; /* Change this to your desired highlight color */
+            color: #ffffff; /* Change this to your desired text color */
+          }
+
+
+          mark{
+            background-color:#078b8fa1 ;
+            color: #ffffff;
+            padding: 0 7px;
+        }
+
+        .hlg { background-color: rgba(0, 234, 255, 0.334);  }
+        .hlp { background-color:#5f1487; }
+      
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+
+    <body class="custom-scrollbar">
+
+
+
+<p class="MsoBold">
+    درس سوم:
+    <br>
+    تشابه مثلثات
+</p>
+
+<p class="MsoNormal">
+    در سال گذشته، با مفهوم تشابه و چندضلعی‌های متشابه آشنا شدید. در اینجا می‌خواهیم دربارهٔ تشابه مثلث‌ها بیشتر بدانیم. با توجه به تعریف تشابه چندضلعی‌ها، دو مثلث $ABC$ و $A'B'C'$ متشابه‌اند: اگر و فقط اگر زوایای آنها هم‌اندازه و اندازه‌های اضلاع آنها متناسب باشند:
+</p><br>
+
+<p class="MsoNormal" style="text-align:center">
+
+
+$ {\angle}  A  =  {\angle} A' 
+\qquad
+ {\angle}  B  =  {\angle} B'  
+ \qquad
+ {\angle}  C =  {\angle} C' $
+
+</p>
+
+<p class="MsoNormal" style="text-align:center">
+
+
+    $ 
+    ,
+    $
+    
+    </p>
+
+
+    <br>
+    <p class="MsoNormal" style="text-align:center">
+
+
+        $ 
+    
+        \dfrac{A'B'}{AB} = \dfrac{A'C'}{AC} = \dfrac{B'C'}{BC} \ \ \Leftrightarrow  \ \ \Delta A'B'C \sim \Delta ABC
+
+
+        $
+        
+    </p>
+        
+    
+<br><br>
+
+
+<p class="MsoNormal">
+    نسبت اندازه‌های اضلاع نظیر هم در دو مثلث را نسبت تشابه می‌گوییم. مثلاً اگر $ \dfrac{A'B'}{AB} = \dfrac{1}{2} $ باشد، اندازهٔ اضلاع مثلث $A'B'C'$ نظیر به‌نظیر نصف اضلاع مثلث $ABC$ باشد، می‌گوییم مثلث $A'B'C'$ با مثلث $ABC$ با نسبت تشابه $ \dfrac{1}{2} $ متشابه است.
+</p><br>
+<br>
+<p class="MsoSemi">
+    سوال:
+</p>
+<p class="MsoNormal">  مثلث $ABC$ با چه نسبت تشابهی، با مثلث $A'B'C'$ متشابه است؟</p><br>
+
+<br><hr>
+
+<p class="MsoBold">قضیهٔ اساسی تشابه مثلث‌ها</p>
+
+<div class="boxp">
+    
+    <p class="MsoNormal">اگر خط راستی موازی یکی از اضلاع مثلث، دو ضلع دیگر (یا امتداد آنها) را در دو نقطه قطع کند، مثلثی با آنها تشکیل می‌دهد که با مثلث اصلی متشابه است.</p>
+    <p class="MsoNormal">$$ MN \parallel BC \Rightarrow \triangle AMN \sim \triangle ABC $$</p>
+</div><br>
+<br>
+<p class="MsoNormal">١ــ زاویه‌های $ {\angle} M$ و $ {\angle} N$، به ترتیب با زاویه‌های $ {\angle} B$ و $ {\angle} C$ برابرند. چرا؟</p><br>
+<p class="MsoNormal">٢ــ با توجه به تعمیم قضیهٔ تالس، تناسب زیر را کامل کنید:</p><br>
+<p class="MsoNormal">$$ \dfrac{AM}{. . .} = \dfrac{ . . .}{AC} =  \dfrac{MN}{. . .} $$</p><br>
+
+<p class="MsoNormal">٣ــ از (١) و (٢) در مورد مثلث‌های $AMN$ و $ABC$ چه نتیجه‌ای می‌توان گرفت؟</p><br>
+
+
+<br><br>
+
+
+<p class="MsoNormal">
+    حال با توجه به قضیهٔ اساسی تشابه مثلث‌ها، می‌توانیم سه قضیهٔ اصلی را که حالات‌های مختلف تشابه مثلث‌ها را بیان می‌کند (مانند حالت‌های هم‌نهشتی مثلث‌ها) اثبات کنیم. راهبرد کلی ما برای اثبات این سه قضیه این است که روی اضلاع $AB$ و $AC$ از مثلث بزرگ‌تر، $AM$ و $AN$ را هم‌اندازه دو ضلع نظیر $A'B'$ و $A'C'$ جدا کنیم و ثابت کنیم $MN \parallel BC$ است.
+</p><br>
+
+<div class="boxp">
+    <p class="MsoSemi"><mark>قضیه ١:</mark></p>
+    <p class="MsoNormal">هرگاه دو زاویه از مثلثی با دو زاویه از مثلث دیگر هم‌اندازه باشند، دو مثلث متشابه‌اند.</p>
+    <p class="MsoNormal">$$
+
+       (  \ \ 
+
+       \hat{B} = \hat{B'} \ \  , \ \ \hat{C} = \hat{C'} \ \ \Rightarrow \ \ \Delta ABC \sim \Delta A'B'C'
+
+       \ \  )
+         
+         $$</p>
+</div><br>
+
+<br>
+
+
+    <p class="MsoSemi">اثبات</p>
+    <p class="MsoNormal">روی ضلع‌های $AB$ و $AC$، پاره‌خط‌های $AM$ و $AN$ را به ترتیب هم‌اندازه با $A'B'$ و $A'C'$ جدا می‌کنیم:</p>
+    <br>
+    <p class="MsoNormal" style="text-align: center;">
+
+        $$ (1) $$
+       
+        $ , $
+        $ {\angle} A + {\angle} B + {\angle} C 
+         =  \angle{A'} + \angle{B'} + \angle{C'} 
+        = 180^\circ $
+        <br>
+        $ {\angle} B = {\angle} B'$
+        و 
+      
+        $ {\angle} C = {\angle} C' $
+        
+        ,
+         
+        بنابراین 
+         
+
+         $ {\angle} A = {\angle} A' $
+        
+        </p>
+
+
+        <br><br>
+
+
+    <p class="MsoNormal">
+        
+        
+        $$ (2) $$
+        
+        
+        $$
+
+        \begin{align*}
+
+        & AM  = A'B' \ \ , \ \  AN = A'C' \ \ , \ \ A {\angle} = \angle{A'} \\ \\
+        \overset{ \text{(ض‌ز‌ض)} }{\Rightarrow}  \quad & \Delta AMN \ \  \cong \ \  \Delta A'B'C'  \\ \\
+        {\Rightarrow}  \qquad  & MN = B'C' \ \ \text{و} \ \ \measuredangle M = \measuredangle B'  \ \ \text{و} \ \ \measuredangle N = \measuredangle C' \\ \\
+       
+
+        \end{align*}
+        $$
+    
+    
+    </p>
+
+    <br>
+
+    <p class="MsoNormal"></p>
+        
+        
+        $$ (3) $$
+        
+        
+        $$
+
+        \begin{align*}
+
+       
+        \qquad  & {\measuredangle}M = \measuredangle B'  \ \ \text{و} \ \    \measuredangle B = \measuredangle B'  \\ \\
+
+        {\Rightarrow}  \qquad  &  {\measuredangle}M = {\measuredangle} B \\ \\
+
+        {\Rightarrow}  \qquad  & MN \parallel BC
+
+        \end{align*}
+        $$
+    
+    
+    </p>
+
+    <br>
+
+    <p class="MsoNormal">
+
+        $$ (4) $$
+        طبق قضیه اساسی تشابه٬ 
+        $ \Delta AMN \ \  \sim \ \  \Delta ABC  $
+        و در نتیجه :
+        $$ \Delta A'B'C'  \ \  \sim  \ \  \Delta ABC $$
+
+
+
+    </p>  
+
+    <br>
+<div class="boxp">
+    <p class="MsoSemi"><mark>قضیه ٢:</mark></p>
+    <p class="MsoNormal">هرگاه اندازه‌های دو ضلع از مثلثی با اندازه‌های دو ضلع از مثلث دیگر متناسب باشند و زاویهٔ بین آنها، هم‌اندازه باشند، دو مثلث متشابه‌اند:</p>
+    <p class="MsoNormal">
+        
+        $$  
+        \begin{align*}
+
+        & {\angle} A = \angle{A'}  \ \ , \ \  \dfrac{A'B'}{AB} = \dfrac{A'C'}{AC} \\\\
+        
+        & \Rightarrow   \ \ \Delta ABC \ \ \sim \ \ \Delta A'B'C'
+
+        \end{align*}
+        $$
+    
+    </p>
+</div>
+
+<br>
+<br>
+
+
+    <p class="MsoSemi" style="font-size:larger;">اثبات:</p>
+    <br>
+    <p class="MsoNormal">روی ضلع‌های $AB$ و $AC$، پاره‌خط‌های $AM$ و $AN$ را به ترتیب هم‌اندازه $A'B'$ و $A'C'$  جدا می‌کنیم.</p>
+ 
+    <br>
+    <br>
+
+    <p class="MsoNormal">
+        
+       ۱.
+        
+        مثلث‌های $AMN$ و $A'B'C'$ به چه حالتی هم‌نهشت‌اند؟ اجزای برابر آنها را مشخص کنید.</p>
+    <br>
+    <br>
+   
+    <p class="MsoNormal">
+        
+       ۲.
+        
+        در فرض مسئله به جای $A'B'$ و $A'C'$, پاره‌خط‌های هم اندازه با آنها را قرار دهید. حال بگیرید چرا $MN \parallel BC$؟</p>
+
+        <br><br>
+    <p class="MsoNormal">
+        
+        ۳.
+          با توجه به قضیهٔ اساسی تشابه مثلث‌ها و نتیجهٔ قسمت (١) درستی حکم را ثابت کنید.</p>
+     <br>
+ 
+<br><br>
+
+
+
+<div class="boxp">
+    <p class="MsoSemi"><mark>قضیه ٣:</mark></p>
+    <p class="MsoNormal">هرگاه اندازه‌های سه ضلع از مثلثی با اندازه‌های سه ضلع از مثلث دیگر متناسب باشند، دو مثلث متشابه‌اند:</p>
+    <p class="MsoNormal">$$ \dfrac{A'B'}{AB} = \dfrac{A'C'}{AC} = \dfrac{B'C'}{BC} \Rightarrow \Delta ABC \sim \Delta A'B'C' $$</p>
+</div><br>
+
+<br>
+
+
+    <p class="MsoSemi" style="font-size:larger;">اثبات</p>
+    <p class="MsoNormal">روی $AB$ و $AC$، پاره‌خط‌های $AM$ و $AN$ را به ترتیب هم‌اندازه $A'B'$ و $A'C'$ جدا کنید.</p>
+<br>
+    <p class="MsoNormal">١ــ در فرض به جای $A'B'$ و $A'C'$ مساوی‌های آنها را جای‌گزین کنید و سپس بگویید چرا $MN \parallel BC$؟</p>
+    <br>
+
+<p class="MsoNormal">
+    2_
+    از قضیه اساسی تشابه٬ چه نتیجه ای میگیریم؟
+</p>
+
+    <br>
+    <p class="MsoNormal">۳ــ تعییم قضیهٔ تالس را در مثلث $ABC$ بنویسید. از مقایسه این تناسب‌ها با تناسب‌های فرض، نتیجه بگیرید:</p>
+
+    
+<br>
+
+
+
+<p class="MsoNormal">۴ـ مثلث‌های $A'B'C'$ و $AMN$ به چه حالتی هم‌نهشت‌اند؟ از اینجا درستی حکم را ثابت کنید.</p><br>
+
+<br><br>
+
+    <p class="MsoSemi" style="font-size:larger;">مثال</p>
+    
+    <p class="MsoNormal">مطابق شکل روبه‌رو، یک تیر (دکل) انتقال برق به ارتفاع $۲۱$ متر اثر وزش باد خم شده‌است و در موقعیت جدید، نوک آن از زمین $۱۸$ متر فاصله دارد. می‌خواهیم با قرار دادن یک تیر فلزی به طول $۱۵$ متر، عمود بر آن، آن را بطور موقت سرپا نگه داریم. پای این تیر فلزی را باید در چه فاصله‌ای از پای تیر انتقال برق محکم کنیم؟</p>
+    <br>
+    <p class="MsoSemi">
+        حل:
+    </p>
+    <p class="MsoNormal">اگر تیر برق را با یک پاره‌خط و تیر فلزی نگهدارنده را نیز با پاره‌خطی دیگر مشخص کنیم، شکل روبه‌رو را دوباره رسم می‌کنیم. حال در دو مثلث $ABC$ و $BDE$ داریم:</p>
+    <br>
+    <p class="MsoNormal" style="text-align: left;">
+        $
+        
+        {\angle} B = {\angle} B \ \ , \ \ {\angle} C = {\angle} E = 90^0  \ \ \Rightarrow 
+ 
+        $
+        <br><br>
+        $
+        
+        \Delta ABC \sim \Delta BDE  \ \ \Rightarrow 
+ 
+        $
+    
+    </p>
+    <br>
+    <p class="MsoNormal">(در نوشتن نسبت تشابه، توجه کنید که اضلاع روبه‌رو به زاویه‌ای مساوی در دو مثلث را در یک نسبت بر هم تقسیم کنید.)</p>
+    <br>
+    <p class="MsoNormal" style="text-align:center">
+        $
+        \begin{align*}
+
+        & \dfrac{DE}{AC} = \dfrac{BD}{AB} = \dfrac{BE}{BC} \\\\
+         = \ \  & \dfrac{15}{18} = \dfrac{17}{21} \\\\
+         \Rightarrow \ \  & BD = \dfrac{21 \times 15}{18} = 17/5 m 
+
+        \end{align*}
+         $
+        </p> 
+    <br><br>
+    <p class="MsoNormal">یعنی باید پای تیر فلزی را در فاصله $17/5$ متری از پای دکل برق محکم کرد.</p>
+
+
+<br><br>
+<p class="MsoSemi" style="font-size:larger">
+    مثال:
+</p>
+<p class="MsoNormal"> : در مثلث $ABC$، از نقطه $M$ وسط $AC$، زاویه $NMC$ را مساوی زاویه $B$ جدا کرده‌ایم. اگر $NC=2$ و $NB=۴$، طول $AC$ را به دست آورید.</p><br>
+
+<p class="MsoSemi" style="font-size:larger"></p>
+    حل:
+</p>
+<p class="MsoNormal"> با کمی دقت مشاهده می‌کنید که مثلث‌های $MNC$ و $ABC$ دو زاویهٔ هم‌اندازه دارند و در نتیجه متشابه‌اند.</p><br>
+
+
+<p class="MsoNormal">$$ {\angle} M = {\angle} B \quad , \quad {\angle} C = {\angle} C \Rightarrow \Delta MNC \sim \Delta ABC $$</p><br>
+
+<p class="MsoNormal">از آنجا با نوشتن نسبت تشابه داریم:</p><br>
+<p class="MsoNormal">$$ \dfrac{MC}{BC} = \dfrac{MN}{AB} = \dfrac{NC}{AC} $$</p><br>
+<p class="MsoNormal">و به جای $\dfrac{AC}{2}$، $MC$ را قرار می‌دهیم:</p><br>
+
+
+<p class="MsoNormal">
+    $$ 
+    
+    \begin{align*}
+
+    & \dfrac{AC}{2BC}  = \frac{NC}{AC}  \\ \\
+
+    & \Rightarrow Ac^2 = 2NC \times BC = 2NC(NC+NB) \\ \\
+
+    & \Rightarrow AC^2 = 2 \times 2(2+4) = 24 \\ \\
+
+    & \Rightarrow AC = 2 \sqrt{6}
+
+
+    \end{align*}
+    
+    $$
+</p><br>
+
+<p class="MsoSemi" style="font-size: larger;">
+    مثال:
+</p>
+<p class="MsoNormal">  در شکل مقابل اندازهٔ هر پاره‌خط روی آن نوشته شده است. اندازه $x$ را به دست آورید.</p><br>
+
+<p class="MsoSemi">
+    حل:
+</p>
+<p class="MsoNormal"> به کمک عددهای داده شده، بدیهی است که:</p><br>
+<p class="MsoNormal" style="text-align: center;">$
+    
+    \dfrac{AD}{AC} = \ \ . . . .   \qquad \text{و} \qquad \dfrac{AE}{AB} = \dfrac{6}{12} = \dfrac{1}{2}
+    
+    $</p><br>
+
+    <br><br>
+<p class="MsoSemi">
+سوال:    
+</p>
+
+
+<p class="MsoNormal">
+
+در شکل٬‌روی 
+$AC$
+٬
+$AD'$
+را هم اندازه 
+$AD$
+و روی 
+$AB$
+٬
+$AE'$
+را هم اندازه
+$AE$
+ جدا کنید.
+ چرا 
+ $D'E' \parallel BC$
+ ؟
+    
+</p>
+
+<br><hr>
+
+    <p class="MsoBold">قضیهٔ فیثاغورس و روابط طولی دیگر در مثلث قائم الزاویه</p>
+    <div class="MsoStep">فعالیت ١</div>
+    
+    <p class="MsoNormal">
+        1.
+        در مثلث قائم‌الزاویه $ ( \hat{A} = 90^\circ) ABC$ از ارتفاع $AH$ را رسم می‌کنیم: آیا می‌توانید دو زاویهٔ هم‌اندازه را در دو مثلث $ABH$ و $ABC$ 
+        نام ببرید؟
+      
+        $$ \hat{B} \ \ = \ \ . . .   \qquad \text{و} \qquad \hat{H} = \ \  . . .  \ \ = 90^0 $$ 
+         به همین ترتیب دو زاویهٔ هم‌اندازه از دو مثلث $ACH$ و $ABC$ 
+         
+         را نام ببرید. 
+         <br>
+         بنابراین می‌توانیم بگوییم:</p>
+    
+    <p class="MsoNormal">$$ \Delta ABH \sim \Delta ABC \quad , \quad \Delta ACH \sim \Delta ABC $$</p>
+ 
+    <br>
+
+
+<p class="MsoNormal">
+    چرا مثلث‌های $ABH$ و $ACH$، خودشان با هم متشابه‌اند؟</p><br>
+
+
+
+<br>
+
+<div class="boxp">
+    <p class="MsoStep">نتیجه</p>
+    <p class="MsoNormal">در هر مثلث قائم‌الزاویه، ارتفاع وارد بر وتر، آن را به دو مثلث قائم‌الزاویه تفکیک می‌کند که هر دو با هم و با مثلث اصلی متشابه‌اند.</p>
+</div><br>
+
+<p class="MsoNormal">٢ــ نسبت تشابه دو مثلث $ABH$ و $ABC$ را بنویسید :</p><br>
+<p class="MsoNormal">$$ \dfrac{AH}{...} = \dfrac{AB}{...} = \dfrac{...}{...} \Rightarrow AB^2 = \ \ ... \ \ \times \ \ ... $$</p><br>
+<br>
+<p class="MsoNormal">٣ــ نسبت تشابه دو مثلث $ACH$ و $ABC$ را بنویسید و از آنجا ثابت کنید $AC$ واسطه هندسی بین $BH$ و $CH$ است.</p><br>
+<br>
+<p class="MsoNormal">٤ــ از روابط ٢ و ٣ داریم : (قضیه فیثاغورس)</p><br>
+<p class="MsoNormal">$$ 
+    \begin{align*}
+   & \quad AB^2 + AC^2  \\ \\
+   & = BC \times \ \ ... \ \ + BC \times \ \ ... \ \   \\ \\
+   & = BC ( ...  +  ...  )  \\ \\
+   & = BC.BC  \\ \\
+   & = BC^2  
+    \end{align*}
+    $$</p><br>
+
+<div class="boxp">
+    <p class="MsoStep">نتیجه</p>
+    <p class="MsoNormal">در مثلث قائم‌الزاویه $ABC$ روابط مهم زیر برقرارند. این رابطه‌ها را روابط طولی می‌نامیم؛ زیرا با اندازه‌های اضلاع سروکار دارند:</p>
+    <br> <div style="direction: ltr;">
+    <p class="MsoNormal">١) $AB^2 = BC \cdot BH$</p> <br>
+    <p class="MsoNormal">٢) $AC^2 = BC \cdot CH$</p><br>
+    <p class="MsoNormal">٣) $AB^2 + AC^2 = BC^2$</p><br>
+    <p class="MsoNormal">٤) $AH^2 = BH \cdot CH$</p><br>
+    <p class="MsoNormal">٥) $AH \times BC = AB \times AC$</p><br>
+   </div>
+</div><br>
+<br><hr><br>
+<div class="MsoStep">تمرین</div><br>
+<p class="MsoNormal">١ــ در هر یک از شکل‌های زیر، تشابه مثلث‌ها را ثابت کنید و از آنجا مقادیر $x$ و $y$ را مشخص کنید:</p><br>
+<br>
+
+<p class="MsoNormal">٢ــ در مثلث قائم‌الزاویه $ABC ( \hat{A} = 90^0)$، ارتفاع $AH$ را رسم کرده‌ایم. به کمک روابط طولی در مثلث قائم‌الزاویه در هر یک از موارد زیر با توجه به مفروضات داده شده، مقادیر مجهول را محاسبه کنید.</p><br>
+<div style="direction: ltr;">
+    <p class="MsoNormal">١) $BH = ۹$ ، $CH = ۴$ ، $AH = ?$ ، $AB = ?$ ، $AC = ?$</p>
+<p class="MsoNormal">٢) $AB = ۸$ ، $AC = ۶$ ، $BH = ?$ ، $CH = ?$</p><br>
+</div>
+<br>
+<p class="MsoNormal">٣ــ در شکل روبه‌رو $ A_1 \angle $ $=$ $ {\angle} B$ و $AC = ۴$ و $BD = ۶$ ، طول $BC$ را به دست آورید.</p><br>
+<br>
+<p class="MsoNormal">٤ــ در شکل مقابل، مثلثی با اضلاع $13$ و $14$ و $15$ رسم شده است. به کمک قضیهٔ فیثاغورس در مثلث‌های $ABH$ و $ACH$، مقادیر $x$ و $y$ را به دست آورید و از آنجا مساحت مثلث را محاسبه کنید.</p><br>
+<br>
+<p class="MsoNormal">٥ــ در حیاط یک دبیرستان، دو درخت بلند وجود دارد. معلم هندسه از دانش‌آموزان خواست که برای تعیین ارتفاع این دو درخت روشی را ارائه کنند. در اینجا روش‌های دو دانش‌آموز را می‌بینید. با توجه به اطلاعات داده شده، ارتفاع هر درخت را تعیین کنید.</p><br>
+
+
+
+
+
+<p class="MsoNormal">
+    <mark>الف) روش ترانه:</mark>
+     ترانه یک چوب $2/5$ متری را به صورت عمودی روی زمین در جایی محکم کرد. طول سایه چوب در آن زمان $1/5$ متر بود. همزمان طول سایه درخت $12$ متر بود. با توجه به شکل، ارتفاع این درخت چند متر است؟</p><br>
+
+
+    
+    <p class="MsoNormal">
+        <mark>ب) روش شهرزاد:</mark>
+        شهرزاد آینه‌ای کوچک را که در مقیاس بزرگ می‌توان یک نقطه در نظر گرفت، (نقطه $O$ در شکل) روی زمین و در مسیر خط راستی که از پای درخت تا پای خودش کشیده است، قرار داد؛ سپس روی این خط آنقدر به جلو و عقب حرکت کرد تا بتواند، تصویر نوک درخت را در آینه ببیند. با توجه به آنچه از خواص آینه‌ها و انعکاس نور می‌دانید، بگویید چگونه می‌توان با داشتن طول‌های $AO$ و $BO$ روی زمین و اندازه قد شهرزاد (فاصله چشم او تا زمین)، ارتفاع درخت را به‌دست آورد. اگر قد شهرزاد $160$ سانتی‌متر و فاصله پای او از آینه $2/5$ متر و فاصله آینه از پای درخت $20$ متر باشد، ارتفاع درخت چند متر است؟</p><br>
+
+
+        <br>
+        <p class="MsoNormal">٦ــ با قضیهٔ فیثاغورس آشنا شدید. این قضیه می‌گوید اگر زاویهٔ $A$ از مثلثی مانند $ABC$ قائمه باشد، آنگاه $a^2 = b^2 + c^2$.</p><br>
+        <p class="MsoNormal">الف) عکس این قضیه را بنویسید.</p><br>
+        
+        <p class="MsoNormal">ب) با انجام دادن مراحل زیر نتیجه بگیرید که عکس قضیهٔ فیثاغورس نیز درست است.</p><br>
+        
+<div class="MsoNormal" style="padding-right: 15px;">
+    <p class="MsoNormal">
+        $*$
+        ١) فرض کنیم مثلث $ABC$ داده شده است و رابطهٔ $a^2 = b^2 + c^2$ بین اندازهٔ طول‌های اضلاع آن برقرار است.</p><br>
+        
+        <p class="MsoNormal">
+            $*$
+            ٢) پاره‌خط‌های $A'B'$ و $A'C'$ و $A'B$ را مطابق شکل مقابل به‌گونه‌ای درنظر بگیرید که $A'B' = AB$ و $A'C' = AC$ و $ \hat{ \prime{A} } = 90^0$.</p><br>
+        
+        <p class="MsoNormal">
+            $*$
+            ٣) با استفاده از قضیهٔ فیثاغورس در مثلث $A'B'C'$، اندازهٔ پاره‌خط $B'C'$ را به‌دست آورید و ثابت کنید $B'C = BC$.</p><br>
+        
+        <p class="MsoNormal">
+            $*$
+            ٤) توضیح دهید چرا $\triangle ABC \cong \triangle A'B'C'$ و نتیجه بگیرید $  \hat{A}  = 90^0 $.</p><br>
+        
+</div>
+
+        <br>
+        <p class="MsoNormal">ج) قضیهٔ فیثاغورس و عکس آن‌را به‌صورت یک قضیهٔ دو شرطی بیان نمایید.</p><br>
+        
+
+
+
+
+<br><br><br><br><br>
+
+
+    </body>
+
+
+</html>

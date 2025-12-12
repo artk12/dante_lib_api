@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi , b{
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #badaff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #722a85;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background-color: #1abbbbe1; /* Scrollbar thumb color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color: #05ffe2;
+        }
+    </style>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+<body class="custom-scrollbar">
+ 
+
+    <p class="MsoBold">
+        درس ۵: آشنایی با هندسه تحلیلی
+    </p>
+    
+    <hr><br>
+
+
+    <p class="MsoNormal">
+        در سال‌های گذشته، با دستگاه محورهای مختصات آشنا شده‌اید. محورهای مختصات، صفحه را به چهار ناحیه تقسیم می‌کنند که هر ناحیه یک ربع نامیده می‌شود. نقاط روی محورها در هیچ ربعی نیستند.
+    </p>
+    <p class="MsoNormal">
+        به هر نقطه $P$ در صفحهٔ مختصات یک زوج مرتب $(a, b)$ نسبت می‌شود. به این زوج مختصات نقطه $P$ گفته می‌شود. طول نقطه $P$ را با $x_p$ و عرض آن را با $y_p$ نشان می‌دهیم.
+    </p>
+    <p class="MsoNormal">
+        در این درس، با برخی از ویژگی‌های نقاط در صفحه مختصات آشنا می‌شویم.
+    </p>
+    <br><hr>
+    <p class="MsoBold">
+        فاصله بین دو نقطه
+    </p>
+    <hr><br>
+    <p class="MsoStep">
+        فعّالیت
+    </p>
+    <p class="MsoNormal">
+        روی محور اعداد زیر به مبدأ $O$، نقطه متناظر $4$ را با $A$ و نقطه متناظر $- \ 3 $ را با $B$ مشخص کرده‌ایم:
+    </p>
+    <br>
+    <p class="MsoNormal">
+        ۱) طول پاره‌خط‌های $OA$ و $OB$ چقدر است؟
+    </p>
+    
+
+<br>
+
+<p class="MsoNormal">
+    ۲) طول پاره‌خط $BA$ چقدر است؟
+</p>
+<br>
+<p class="MsoNormal">
+    ۳) فاصله دو نقطه $A$ و $B$ متناظر با $4$ و $-  \ 3$ از یکدیگر چقدر است؟
+</p>
+<br>
+<p class="MsoNormal">
+    ۴) بر روی هر یک از دو محور زیر، در مورد فاصله بین دو نقطه $A$ و $B$ چه می‌توان گفت؟
+</p>
+
+
+<br><hr><br>
+
+<p class="MsoNormal">
+    اگر طول نقاط متناظر با $A$ و $B$ روی محور اعداد را به ترتیب با $x_A$ و $x_B$ نشان دهیم، 
+    در این صورت فاصله بین $A$ و $B$ را به‌صورت $ \ \big| \ AB \ \big| \ =  \ \big| \ x_B - x_A \ \big| \ $ تعریف می‌کنیم.
+</p>
+<br><hr><br>
+
+<p class="MsoStep">
+    خواندنی
+</p>
+<p class="MsoNormal">
+    هندسه تحلیلی شاخه‌ای از ریاضیات است که از ترکیب هندسه و جبر مقدماتی به‌وجود آمده است. 
+    در این رشته، اشکال هندسی و روابط بین آن‌ها را با مقادیر و معادلات عددی و جبری بیان می‌کنند.
+</p>
+<p class="MsoNormal">
+    بنیان‌گذاران هندسه تحلیلی دکارت و فرما در قرن ۱۷ میلادی بوده‌اند. این رشته در مورد اندازه، فاصله، زاویه و فرمول‌های مربوط به آن بحث می‌کند.
+</p>
+
+
+<br><hr><br>
+
+
+<p class="MsoStep">
+    فعّالیت
+</p>
+<p class="MsoNormal">
+    ۱) دو نقطه $A(2, 5)$ و $B(6, 3)$ را در شکل روبه‌رو، در نظر بگیرید:
+</p>
+<br>
+<p class="MsoNormal">
+    الف) روی محور افقی $x_A$ و $x_B$ و روی محور عمودی $y_A$ و $y_B$ را مشخص کنید.
+</p>
+<br>
+<p class="MsoNormal">
+    ب) در مثلث قائم‌الزاویه $AHB \ (\hat{H} = 90^\circ)$ با استفاده از رابطهٔ فیثاغورس، طول پاره‌خط $AB$ را به‌دست آورید.
+</p>
+
+<br><br>
+
+
+<p class="MsoNormal">
+    ۲) در شکل روبه‌رو، اگر $A(x_1, y_1)$ و $B(x_2, y_2)$ دو نقطه دلخواه در صفحه مختصات باشند، طول $AB$ را محاسبه کنید.
+</p>
+
+<p class="MsoNormal">
+    $$
+    \begin{align*}
+    AB^2 &= AH^2 + BH^2 \\\\
+    AB^2 &= \  . . . \\\\
+    AB &= \sqrt{ \ . . . \  } \\\\
+    \end{align*}
+   $$
+</p>
+
+<br><hr><br>
+
+<p class="MsoNormal">
+    به‌طور کلی، اگر در صفحه مختصات دو نقطه $A(x_1, y_1)$ و $B(x_2, y_2)$ را داشته باشیم، طول پاره‌خط $AB$ برابر است با:
+</p>
+<p class="MsoNormal">
+    \[
+    \begin{align*}
+    AB &= \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}
+    \end{align*}
+    \]
+</p>
+
+
+<hr><br>
+
+<p class="MsoStep">
+    کار در کلاس
+</p>
+<p class="MsoNormal">
+    سه نقطه 
+    $B(-1, 2)$
+   
+    ، 
+    $ A(1, 3)$
+     و $C(5, -5)$
+      سه رأس مثلث $ABC$، در صفحهٔ مختصات روبه‌رو، هستند.
+</p>
+<br>
+<p class="MsoNormal">
+    الف) مثلث را رسم کنید.
+</p>
+<br>
+<p class="MsoNormal">
+    ب) طول اضلاع مثلث را به‌دست آورید.
+</p>
+<br>
+<p class="MsoNormal">
+    پ) نشان دهید مثلث $ABC$ قائم‌الزاویه است.
+</p>
+<br>
+<p class="MsoNormal">
+    ت) شیب دو خط $AB$ و $AC$ را به‌دست آورید. چه رابطه‌ای بین دو شیب مشاهده می‌کنید؟
+</p>
+
+<br><hr><br>
+
+<p class="MsoNormal">
+    <b>مثال:</b> در شکل زیر، معادلهٔ عمودمنصف پاره‌خطی را بنویسید که دو نقطهٔ $A(-2, 1)$ و $B(3, 4)$ را به هم وصل کرده است.
+</p>
+<br>
+<p class="MsoNormal">
+    <b>حل:</b> عمودمنصف یک پاره‌خط شامل همه نقاطی است که فاصلهٔ آنها از دو سر پاره‌خط به یک اندازه است. بنابراین، اگر نقطه $P(x, y)$ روی عمودمنصف $AB$ قرار دارد، آنگاه با استفاده از فرمول فاصله پاره‌خط می‌توان نوشت:
+</p>
+
+<p class="MsoNormal">
+$$
+    \sqrt{(x + 2)^2 + (y - 1)^2} = \sqrt{(x - 3)^2 + (y - 4)^2}
+$$
+</p>
+
+<p class="MsoNormal">
+    با به توان دو رساندن طرفین و ساده کردن داریم:
+</p>
+<p class="MsoNormal" style="text-align: center;">
+    $ 5x + 3 = 10 $
+</p>
+<p class="MsoNormal">
+    این معادله برای تمام نقاطی که از $A$ و $B$ هم فاصله‌اند برقرار است. بنابراین، معادله عمودمنصف $AB$ است.
+</p>
+<p class="MsoNormal">
+    در مثال بالا، شیب خط $AB$ برابر $ \dfrac{3}{5}$ و شیب خط عمودمنصف آن برابر $-\dfrac{5}{3}$ است. چه رابطه‌ای بین این دو شیب مشاهده می‌شود؟
+</p>
+
+<br><hr><br>
+
+<p class="MsoNormal">
+    به طور کلی: اگر خطوط $d$ و $d'$ به ترتیب با شیب‌های $m$ و $m'$ بر هم عمود باشند آنگاه $mm' = - \ 1$ و برعکس.
+</p>
+
+
+<br><hr><br>
+
+
+
+<p class="MsoStep">
+    کار در کلاس
+</p>
+<p class="MsoNormal">
+    نشان دهید نقطه $P( - \ 12 , 11)$ روی عمودمنصف پاره‌خط واصل دو نقطه $A(0, - \ 3)$ و $B(6, 15)$ قرار دارد.
+</p>
+
+<br><hr>
+<p class="MsoBold">
+    مختصات نقطه وسط یک پاره‌خط
+</p>
+<hr><br>
+<p class="MsoStep">
+    فعّالیت
+</p>
+<p class="MsoNormal">
+    ۱) در شکل زیر نقطه $M$ وسط پاره‌خط $AB$ است. طول نقطه $M$ چقدر است؟
+</p>
+<br>
+<p class="MsoNormal">
+    ۲) چه ارتباطی بین طول نقطه $M$ و طول نقاط $A$ و $B$ مشاهده می‌کنید؟
+</p>
+<br>
+<p class="MsoNormal">
+    ۳) اگر $A$ و $B$ دو نقطه دلخواه روی محور $x$ها و $M$ وسط $AB$ باشد، طول نقطه $M$ را برحسب طول‌های نقاط $A$ و $B$ به‌دست آورید.
+</p>
+
+<br>
+
+<p class="MsoNormal" style="text-align: left;">
+    $AM = MB$
+<br>
+    $x_M - x_A = \dots$
+</p>
+<br><br>
+
+<p class="MsoNormal">
+    ۴) اگر $A$ و $B$ روی محور $y$ها و عرض نقاط $A$ و $B$ را با $y_A$ و $y_B$ نشان دهیم و $M$ وسط پاره‌خط $AB$ باشد، چه دستوری برای محاسبه عرض نقطه $M$ می‌توان بیان کرد؟
+</p>
+
+<br><hr><br>
+
+
+
+<p class="MsoStep">
+    کار در کلاس
+</p>
+<p class="MsoNormal">
+    اگر $A(1, 5)$ و $B(5, 3)$ دو سر پاره‌خط $AB$ و $M(a, b)$ وسط این پاره‌خط باشد:
+</p>
+<br>
+<p class="MsoNormal">
+    الف) تصویر نقاط $A$ و $B$ و $M$ را روی محورهای مختصات مشخص کنید.
+</p>
+<br>
+<p class="MsoNormal">
+    ب) با توجه به تصویر نقاط $A$ و $B$ و $M$ روی محورهای مختصات، نقطه $M$ را به‌دست آورید.
+</p>
+
+<br><hr><br>
+
+<p class="MsoNormal">
+    اگر $A$ و $B$ دو نقطه در صفحه مختصات و $M$ وسط پاره‌خط $AB$ باشد، مختصات نقطه $M$ برابر است با:
+
+    $$
+    x_M = \dfrac{x_A + x_B}{2} \quad , \quad y_M = \dfrac{y_A + y_B}{2}
+    $$
+</p>
+
+
+<hr><br>
+
+
+<p class="MsoStep">فعّالیت</p>
+<p class="MsoNormal">
+    در شکل روبه‌رو خط $d$ به معادله 
+    $ 2x + y = 5$
+     و نقطه 
+     $A(4, 3)$
+      داده شده است.
+</p>
+<br>
+<p class="MsoNormal">۱. عمود $AH$ را بر خط $d$ رسم کنید.</p>
+<br>
+<p class="MsoNormal">۲. رابطه بین شیب‌های دو خط $d$ و $AH$ را به‌دست آورید.</p>
+<br>
+<p class="MsoNormal">۳. شیب $AH$ را به‌دست آورده و معادله خط $AH$ را بنویسید.</p>
+<br>
+<p class="MsoNormal">
+    ۴. دستگاه مشترک از دو خط $d$ و $AH$ را تشکیل دهید و مختصات محل برخورد دو خط 
+    (نقطه $H$) را به‌دست آورید.
+</p>
+<br>
+<p class="MsoNormal">۵. طول پاره‌خط $AH$ را محاسبه کنید.</p>
+
+
+<br><hr><br>
+
+<p class="MsoNormal">
+    به‌طور کلی، اگر بخواهیم فاصله نقطه $A(x, y)$ از خط $ax + by + c = 0$ را به‌دست آوریم، با استفاده از مراحل فعالیت قبل می‌توان نتیجه گرفت که طول عمود $AH$ برابر است با:
+
+    $$
+    AH = \dfrac{ \ \big| \  ax_0 + by_0 + c \ \big| \  }{\sqrt{a^2 + b^2}}
+    $$
+
+    که در آن، وجود علامت قدرمطلق در صورت کسر برای نامنفی شدن مقدار $AH$ می‌باشد.
+</p>
+
+
+<br><hr><br>
+
+
+<p class="MsoNormal">
+    <b>مثال:</b> فاصله نقطه $A(-2, 4)$ از خط $y = \dfrac{4}{3}x + 4$ را به‌دست آورید.
+</p>
+<br>
+<p class="MsoNormal">
+    <b>حل:</b> ابتدا معادله خط را به‌صورت $4x - 3y + 12 = 0$ می‌نویسیم. طبق فرمول فاصله نقطه از خط، فاصله نقطه $A$ تا خط $d$ (را $AH$ فرض می‌کنیم) و داریم:
+</p>
+<p class="MsoNormal">
+    $$
+    AH = \dfrac{ \ \big| \ 4(-2) - 3(4) + 12 \ \big| \ }{\sqrt{4^2 + (-3)^2}} = \dfrac{ \ \big|  -8 \ \big| \ }{5} = \dfrac{8}{5}
+    $$
+</p>
+<br><hr><br>
+<p class="MsoNormal">
+    <b>مثال:</b> فاصله نقطه $A(1, -4)$ از خط $8x + 6y = k$ برابر ۴ است. مقدار $k$ چقدر است؟
+</p>
+<br>
+<p class="MsoNormal">
+    <b>حل:</b> ابتدا معادله خط را به‌صورت $8x + 6y - k = 0$ می‌نویسیم. مطابق فرمول فاصله نقطه از خط داریم:
+</p>
+
+<br>
+
+<p class="MsoNormal">
+    $$
+    \begin{align}
+    AH &= \frac{ \ \big| \ 8(1) + 6(-4) - k \ \big| \ }{\sqrt{8^2 + 6^2}}  \\\\
+    & \implies 4 = \frac{ \ \big| \ -16 - k \ \big| \ }{10} \\\\
+    & \implies \ \big| \ -16 - k \ \big| \ = 40 \\\\
+   & \implies -16 - k = 40 \implies k = - \ 56  \\\\
+    & \implies -16 - k = -40 \implies k = 24 \\\\
+    \end{align}
+    $$
+</p>
+
+
+<br><hr><br>
+
+
+<p class="MsoStep">کار در کلاس</p>
+<p class="MsoNormal">
+    ۱. اگر نقطه $A(2 ,۳)$ رأس یک مربع و معادله یک ضلع مربع 
+    $3x - 4y = 9$
+     باشد، مساحت مربع چقدر است؟
+</p>
+<br>
+
+<p class="MsoNormal">
+    ۲. دو خط 
+    $3x-2y=۱$
+     و
+      $۲x-3y=2$
+      معادله‌های دو ضلع یک مستطیل اند و نقطه $A(۲,۵)$ یک رأس مستطیل است. مساحت مستطیل چقدر است؟
+</p>
+
+<br><hr><br>
+
+
+<p class="MsoStep">تمرین</p>
+<p class="MsoNormal">
+    ۱. مثلث $ABC$ به رأس‌های 
+    $A(-۱,۷)$
+    ، 
+    $B(-۶,-۲)$
+     و 
+     $C(۳,۳)$
+      را در نظر بگیرید.
+</p>
+<br>
+
+<p class="MsoNormal">
+    الف) مثلث را رسم کنید.
+</p>
+<p class="MsoNormal">
+    ب) نشان دهید مثلث متساوی الساقین است.
+</p>
+<p class="MsoNormal">
+    پ) معادله عمودمنصف ضلع $BC$ را به‌دست آورید.
+</p>
+<p class="MsoNormal">
+    ت) طول ارتفاع $AH$ چقدر است؟
+</p>
+<br><br>
+
+
+<p class="MsoNormal">
+    ۳. شکل نمای جانبی عدسی از منحنی سهمی به معادله 
+    $y = x^2 - ۸x - ۲۰$
+     مطابق شکل زیر مدل‌سازی می‌شود.
+</p>
+<br>
+<p class="MsoNormal">
+    الف) مختصات نقاط انتهایی عدسی $A$ و $B$ را به‌دست آورید.
+</p>
+<p class="MsoNormal">
+    ب) اگر $x$ برحسب سانتی‌متر باشد طول $AB$ را به‌دست آورید.
+</p>
+<p class="MsoNormal">
+    پ) اگر عدسی کاملاً متقارن و $l$ برحسب میلی‌متر باشد بیشترین ضخامت آن چقدر است؟
+</p>
+<br><br>
+
+<p class="MsoNormal">
+    ۴. ثابت کنید فاصلهٔ دو خط موازی $a x + b y + c = 0$ و $a x + b y + c' = 0$ برابر
+
+    $
+    \dfrac{ \\ \big| \ c - c' \ \big| \ }{\sqrt{a \ ^2 + b \ ^{2} \ }}
+    $
+
+    می‌باشد.
+</p>
+
+<br><br>
+
+
+<p class="MsoNormal">
+    ۵. خط 
+    $4x + ۳y = 5$
+     بر دایرهٔ $C$ به مرکز $O(-۱,۲)$ مماس است. طول شعاع دایره چقدر است؟
+</p>
+
+<br><br>
+<p class="MsoNormal">
+    ۶. نقطهٔ $S(x, ۸)$ روی نیم‌دایره‌ای به شعاع $۱۰$ در شکل روبه‌رو داده شده است.
+</p>
+<br>
+<p class="MsoNormal">
+    الف) مقدار $x$ را به‌دست آورید.
+</p>
+<p class="MsoNormal">
+    ب) شیب خط‌های $SQ$ و $PS$ را به‌دست آورید.
+</p>
+<p class="MsoNormal">
+    پ) نشان دهید $P\hat{S}Q$ قائم است.
+</p>
+
+<br><br>
+
+
+<p class="MsoNormal">
+    ۷. اگر فاصله نقطه $A(۱,۲)$ از خط 
+    $ax + ۴y = ۱$
+     برابر $۲$ باشد، مقدار $a$ چقدر است؟
+</p>
+
+<br><br>
+
+<p class="MsoNormal">
+    ۸. سه رأس مثلث 
+    $B(- \ ۳ \ , \ ۳)$
+    ، 
+    $A(- \ ۱1 \ , - \ 1۳)$
+   
+  
+
+
+    ، 
+    $ABC$
+   
+   
+     و 
+
+
+     $C(۳ \ , \ ۱)$
+
+      می‌باشند.
+</p>
+<br>
+<p class="MsoNormal">
+    الف) طول عمودی را که از رأس $B$ بر میانه نظیر رأس $C$ وارد می‌شود به‌دست آورید.
+</p>
+<p class="MsoNormal">
+    ب) مختصات رأس $D$ را چنان تعیین کنید که $ABCD$ یک متوازی‌الأضلاع باشد.
+</p>
+
+<br><br>
+<p class="MsoNormal">
+    ۹. نقطه‌ای روی خط $y=۲x$ تعیین کنید که مجموع فاصله‌های آن تا مبداً مختصات و نقطه $A(۲,۴)$ برابر $5$ باشد.
+</p>
+
+<br><br>
+<p class="MsoNormal">
+    ۱۰. نقاط 
+    $B(۱,-۱)$
+
+    ، 
+    
+
+    $A(۴,۲)$
+    
+    
+    و $C(۸,-۲)$ سه رأس مثلث $ABC$ هستند. اگر $H$ و $M$ به ترتیب پای ارتفاع $AH$ و میانه $AM$ باشند، طول $MH$ را به‌دست آورید.
+</p>
+
+
+
+
+
+
+<br><br><br><br><br><br><br><br><br>
+
+</body>
+
+
+</html>

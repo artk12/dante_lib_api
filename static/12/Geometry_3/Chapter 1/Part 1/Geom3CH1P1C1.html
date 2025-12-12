@@ -1,0 +1,2406 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi {
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSemic,
+        li.MsoSemic,
+        div.MsoSemic {
+            margin: 0in;
+           
+            font-size: clamp(1.2rem, 1.6vw, 1.3rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #b19af2;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #6ca4ec;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .boxp {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .boxg {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#00f2ff11; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        .boxb {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#0c4e9f2d; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        ::selection {
+            background-color: #59078fa1; /* Change this to your desired highlight color */
+            color: #ffffff; /* Change this to your desired text color */
+          }
+
+
+          mark{
+            background-color:#078b8fa1 ;
+            color: #ffffff;
+            padding: 0 7px;
+        }
+
+        .hlg { background-color: rgba(0, 234, 255, 0.334);  }
+        .hlp { background-color:#5f1487; }
+      
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+    <body class="custom-scrollbar">
+
+      
+<p class="MsoBold">
+    فصل اول:
+    <br>
+    ماتریس و کاربرد‌ها
+</p>
+
+<p class="MsoNormal">
+    یکی از کاربردی‌ترین مباحث و موضوع‌های ریاضی مبحث ماتریس است.
+    امروزه از ماتریس به عنوان ابزاری قوی در شاخه‌های دیگر ریاضیات و به‌خصوص در فیزیک کوانتم (هایزنبرگ، اولین شخصی که ماتریس‌ها را در فیزیک به کار برد، می‌گوید: تنها ابزاری که من در مکانیک کوانتم نیاز دارم ماتریس‌ها می‌باشند.) و در رایانه و علومی چون آمار، حسابداری و... استفاده می‌شود. ریاضیات کاربردی، در تمام گرایش‌هایش نیاز مبرم به ماتریس دارد زیرا در بیشتر موارد، حل مسائل کاربردی و عملی با حل دستگاه‌های معادلات و نامعادلات پیوند می‌خورد و حل این دستگاه‌ها با ماتریس رابطهٔ تنگاتنگ دارد.
+</p>
+
+<br><hr>
+
+<p class="MsoBold">
+    درس اول:
+    <br>
+    ماتریس و اعمال روی ماتریس‌ها
+</p>
+
+
+<p class="MsoNormal">
+    اطلاعات مربوط به ۴ تیم اول حاضر در یک سری مسابقات فوتبال که به‌صورت رفت و برگشت انجام می‌شود در جدول زیر آمده است:
+</p>
+<br>
+<table class="table" style="text-align: center; margin:auto; width:fit-content;">
+    <tr>
+        <th>امتیاز</th>
+        <th>مساوی</th>
+        <th>باخت</th>
+        <th>برد</th>
+        <th>$\quad$</th>
+    </tr>
+    <tr>
+        <td>۳۰</td>
+        <td>۳</td>
+        <td>۹</td>
+        <td>۳</td>
+        <th>تیم A</th>
+    </tr>
+    <tr>
+        <td>۲۵</td>
+        <td>۴</td>
+        <td>۷</td>
+        <td>۲</td>
+        <th>تیم B</th>
+    </tr>
+    <tr>
+        <td>۲۳</td>
+        <td>۴</td>
+        <td>۶</td>
+        <td>۲</td>
+        <th>تیم C</th>
+    </tr>
+    <tr>
+        <td>۲۲</td>
+        <td>۴</td>
+        <td>۶</td>
+        <td>۲</td>
+        <th>تیم D</th>
+    </tr>
+</table>
+<br><br>
+<p class="MsoNormal">
+    اگر این اطلاعات را به شکل آرایشی از اعداد در داخل دو کمانه محصور کنیم، در این صورت یک ماتریس شامل ۴ سطر و ۴ ستون حاصل می‌شود که اگر آن را با حرف $M$ نمایش دهیم، خواهیم داشت:
+</p>
+<br>
+<p class="MsoNormal">
+    \[
+    M = \quad
+    \begin{array}{c|cccc}
+        & \ \ \text{برد} \ \ & \ \ \text{باخت} \ \ & \ \ \text{مساوی} \ \ & \ \ \text{امتیاز} \ \ \\ \\
+        \hline \\ 
+        A & \ \ ۹ \ \ & \ \ ۳ \ \ & \ \ ۳ \ \ & \ \ ۳۰ \ \ \\ \\
+        B & \ \ ۷ \ \ & \ \ ۴ \ \ & \ \ ۵ \ \ & \ \ ۲۵ \ \ \\ \\
+        C & \ \ ۶ \ \ & \ \ ۳ \ \ & \ \ ۶ \ \ & \ \ ۲۴ \ \ \\ \\
+        D & \ \ ۶ \ \ & \ \ ۴ \ \ & \ \ ۵ \ \ & \ \ ۲۲ \ \ \\ \\
+    \end{array}
+    \]
+</p>
+
+<br>
+<p class="MsoNormal">
+   $$
+    M = 
+    \begin{bmatrix}
+       \quad ۹ & ۳ & ۳ & ۳۰ \quad \\ \\
+       \quad ۷ & ۴ & ۵ & ۲۵  \quad \\ \\ 
+       \quad ۶ & ۳ & ۶ & ۲۴ \quad \\ \\ 
+       \quad ۶ & ۴ & ۵ & ۲۲ \quad \\ \\
+    \end{bmatrix}
+    $$
+</p>
+
+<br><br>
+<div class="boxb">
+    <p class="MsoSemi"><mark>تعریف</mark></p>
+    <p class="MsoNormal">
+        هر آرایش مستطیلی از اعداد حقیقی، شامل تعدادی سطر و ستون یک ماتریس نامیده می‌شود. هر عدد حقیقی واقع در هر درایهٔ آن ماتریس را درایهٔ ماتریس می‌نامیم.
+    </p>
+</div>
+<br>
+<p class="MsoNormal">
+    معمولاً ماتریس‌ها را با حروف بزرگ مانند $C$، $B$، $A$ و... نام‌گذاری می‌کنیم.
+</p>
+<br><br>
+
+
+<p class="MsoSemi" style="font-size: larger;">مثال:</p>
+<p class="MsoNormal">
+    ماتریس $A$ ماتریسی شامل سه سطر و چهار ستون است. این ماتریس دارای $12 = 4 \times 3$ درایه است و مثلاً عدد حقیقی $\sqrt{2}$ درایهٔ روی سطر اول و ستون چهارم است و درایهٔ $-7$ روی سطر دوم و ستون سوم قرار دارد.
+</p>
+<p class="MsoNormal">
+    در حالت کلی، اگر ماتریسی چون $A$ دارای $m$ سطر و $n$ ستون باشد، می‌نویسیم $A_{m \times n}$ و می‌خوانیم “ماتریسی از مرتبهٔ $m \times n$ (در $m \times n$ است).” برای هر درایهٔ ماتریس و $A$ ستون $n$ و سطر $m$ استفاده می‌کنیم.
+</p>
+
+<p class="MsoNormal">
+    $$
+    A = 
+    \begin{bmatrix} 
+        \quad ۲ & ۰ & \dfrac{۱}{۲} & \sqrt{۲} \quad \\ \\
+        \quad ۵ & ۳ & -۷ & ۱ \quad \\ \\
+
+        \quad -۳ & ۲۰ & \pi & ۱۴ \quad \\ \\
+    \end{bmatrix}
+
+    $$
+</p>
+<br><br>
+<p class="MsoNormal">
+    به منظور مشخص کردن جایگاه آن، دو اندیس در نظر می‌گیریم که اندیس سمت چپ جای سطر و اندیس سمت راست جای ستون آن درایه را مشخص می‌کند. یعنی درایهٔ $a_{ij}$ روی سطر $i$ام و ستون $j$ام.
+</p>
+
+<p class="MsoNormal">
+    ماتریس $A_{2 \times 3}$ و ماتریس $B_{m \times n}$ با درایه‌هایشان نمایش داده شده‌اند:
+</p>
+<br>
+
+<p class="MsoNormal">
+    \[
+    A_{2 \times 3} = 
+    \begin{bmatrix}
+    \quad a_{11} & a_{12} & a_{13} \quad \\ \\ 
+    \quad a_{21} & a_{22} & a_{23} \quad \\ \\
+    \end{bmatrix}
+    \]
+</p>
+
+<p class="MsoNormal" style="text-align: center;">
+و
+</p>
+
+<p class="MsoNormal">
+    \[
+    B_{m \times n} = 
+    \begin{bmatrix}
+       \quad b_{11} & b_{12} & \cdots & b_{1j} & \cdots & b_{1n} \quad \\ \\
+       \quad b_{21} & b_{22} & \cdots & b_{2j} & \cdots & b_{2n} \quad \\ \\
+       \quad \vdots & \vdots & \vdots & \vdots & \vdots & \vdots \quad \\ \\
+       \quad b_{i1} & b_{i2} & \cdots & b_{ij} & \cdots & b_{in} \quad \\ \\
+       \quad \vdots & \vdots & \vdots & \vdots & \vdots & \vdots \quad \\ \\
+       \quad b_{m1} & b_{m2} & \cdots & b_{mj} & \cdots & b_{mn} \quad \\ \\
+    \end{bmatrix}
+    \]
+</p>
+<br><br>
+
+
+<p class="MsoNormal">
+    درایه $b_{ij}$ را درایهٔ عمومی ماتریس $B$ می‌نامیم که می‌نامیم $۱ \leq i \leq m$ و $۱ \leq j \leq n$ تغییر می‌کنند. 
+    همهٔ درایه‌های ماتریس $B$ را می‌توان توسط درایهٔ عمومی نمایش داد و برای اختصار می‌نویسیم $B = [b_{ij}]$.
+</p>
+
+<br><br>
+
+
+<p class="MsoSemi" style="font-size: larger;">مثال:</p>
+<p class="MsoNormal">
+    اگر ماتریس $A = [a_{ij}]_{2 \times 2}$ ماتریسی $2 \times 2$ باشد و برای  $i = j$ داشته باشیم $a_{ij} = ۷$ و برای $i > j$ داشته باشیم $a_{ij} = 5$ و برای $i < j$ داشته باشیم $a_{ij} = -۲$، در این صورت ماتریس $A$ را با درایه‌هایش نمایش دهید.
+</p>
+<br>
+<p class="MsoSemi">
+    حل: 
+</p>
+<br>
+<p class="MsoNormal" style="text-align: center;">
+    $
+
+
+            \begin{align*}
+
+
+        & a_{11} = a_{22} = 7 \\ \\
+        & a_{21} = 5 \\ \\
+        & a_{12} = -2 \\ \\
+        \end{align*}
+
+        $ 
+$ \quad \Rightarrow \quad $
+        $ 
+           A = 
+        \begin{bmatrix}
+        \quad ۷ & -۲ \quad \\ \\ 
+
+        \quad  ۵ & ۷ \quad \\ \\
+        \end{bmatrix}
+$
+        
+</p>
+
+
+<br><br>
+
+
+<div class="boxg" style="background-color: #96909b25;">
+    <p class="MsoNormal">
+        مفهوم ماتریس نخستین بار در کارهای ریاضیدانان ایلینت و کیلین انگلیسی در نیمهٔ اول قرن نوزدهم مطرح شد و مبانی نظری این علم را کارل وایرشتراس و دیگران در نیمهٔ دوم قرن نوزدهم و نیمهٔ اول قرن بیستم پایه‌ریزی کردند.
+    </p>
+</div>
+
+
+
+
+
+
+
+
+<br><hr><br>
+    <p class="MsoStep">کار در کلاس</p>
+    <p class="MsoNormal">
+        اطلاعات مربوط به ۴ فروشگاه $A$, $B$, $C$, $D$ در مورد تعداد شلوار، بلوز و پیراهن‌های موجود در هر فروشگاه، در جدول زیر آمده است. این اطلاعات را یک بار با یک ماتریس $۳ \times ۴$ و یک بار با ماتریس $۴ \times ۳$ نمایش دهید.
+    </p>
+<br>
+    <table class="table" style="direction: rtl; margin:auto; text-align:center; width:fit-content">
+        <tr>
+            <th>فروشگاه A</th>
+            <td>۱۵ بلوز، ۷ پیراهن</td>
+        </tr>
+        <tr>
+            <th>فروشگاه B</th>
+            <td>۱۹ بلوز، ۱۱ پیراهن</td>
+        </tr>
+        <tr>
+            <th>فروشگاه C</th>
+            <td>۲۸ بلوز، ۲۲ پیراهن</td>
+        </tr>
+        <tr>
+            <th>فروشگاه D</th>
+            <td>۳۱ بلوز، ۳۵ پیراهن</td>
+        </tr>
+    </table>
+    
+<br><hr>
+
+
+
+    <p class="MsoBold">معرفی چند ماتریس خاص</p>
+
+
+<p class="MsoNormal">
+    ۱- اگر در ماتریس $A$، تعداد سطرها یا تعداد ستون‌ها برابر و مساوی $n$ باشد، $A$ را یک ماتریس مربعی از مرتبهٔ $(n \times n)$ می‌نامیم. ماتریس‌های زیر همگی مربعی هستند:
+</p>
+<br>
+
+<p class="MsoNormal" style="text-align: center;">
+   $$
+    A = 
+    \begin{bmatrix}
+    \quad (2) & -۱ \quad \\ \\
+    \quad ۵ & (-۱) \quad
+    \end{bmatrix}_{۲ \times ۲} 
+
+    $$
+
+  <br>
+
+    $$
+    B = \begin{bmatrix}
+    \quad (2) & -1 & 3  \quad \\ \\
+    \quad 3 & (-1) & 2 \quad \\ \\
+    \quad 5 & -1 & ( \sqrt{3} ) \quad \\ \\
+      \end{bmatrix}_{3 \times 3}
+    $$
+
+
+    $$
+    C = [۵] \ \ _{۱ \times ۱} = 5
+    $$
+  
+</p>
+<br>
+<p class="MsoNormal">
+    در ماتریس‌های $A$ و $B$، قطرهای مشخص شده را قطر اصلی این دو ماتریس می‌نامیم و اگر $i = j$ در این صورت درایهٔ $a_{ij}$ روی قطر اصلی قرار دارد.
+</p>
+<br><br>
+<p class="MsoNormal">
+    ۲- اگر ماتریس $A$ فقط از یک سطر تشکیل شده باشد (فقط دارای یک سطر باشد)، آن را یک ماتریس سطری می‌نامیم. ماتریس‌های زیر همگی ماتریس‌های سطری هستند:
+</p>
+<br>
+<p class="MsoNormal">
+    $$
+    A = [ \ \ ۱ \quad ۲ \ \ ] \ \ _{۱ \times ۲} 
+    $$
+
+    $$
+    B = [ \ \ 2 \quad  -۱ \quad ۴ \quad ۵  \ \ ] \ \ _{۱ \times 4} 
+ 
+    $$
+    $$
+
+    C = [۷]  \ \ _{۱ \times ۱} = 7
+
+
+    $$
+</p>
+<br><br>
+<p class="MsoNormal">
+    ۳- اگر ماتریسی فقط دارای یک ستون باشد آن را ماتریس ستونی می‌نامیم. ماتریس‌های زیر همگی ماتریس‌های ستونی هستند:
+</p>
+<br>
+<p class="MsoNormal">
+    $$
+    A = \begin{bmatrix} 
+    \ \ ۲   \ \  \\ \\
+    \ \  \pi  \ \   \\ \\
+    \ \  - \dfrac{1}{2}  \ \   \\ \\
+ 
+    \end{bmatrix} \ \ _{۳ \times ۱} 
+$$
+
+$$
+
+    B = \begin{bmatrix}
+    \ \ ۲ \ \  \\ \\
+    \ \  -۱   \ \  \\ \\
+    \ \    ۳  \ \  \\ \\  
+    \ \   ۰  \ \  \\ \\ 
+      \end{bmatrix} \ \ _{۴ \times ۱} 
+
+$$
+   $$
+    C = [ \ \ ۱۱۴ \ \ ] \ \ _{۱ \times ۱} = 114
+    $$
+</p>
+<br><br>
+<p class="MsoNormal">
+    ۴- ماتریس قطری، ماتریسی است مربعی که تمام درایه‌های غیرواقع در قطر اصلی آن صفر باشند. (درایه‌های واقع بر قطر می‌توانند صفر باشند یا نباشند.) ماتریس‌های زیر همگی قطری‌اند:
+</p>
+<br>
+<p class="MsoNormal">
+   $$
+    A = \begin{bmatrix}
+    
+    \quad 2 \ \ & \ \ 0 \quad  \\ \\
+    \quad 0 \ \ & \ \ 0 \quad \\ \\
+   
+    
+    \end{bmatrix}
+   $$ 
+   <br>
+   $$
+    B = \begin{bmatrix} 
+    
+    \quad -1 \ \ & \ \ 0 \ \ & \ \ 0 \quad \\ \\
+    \quad 0 \ \ & \ \ 0 \ \ & \ \ 0 \quad \\ \\
+    \quad 0 \ \ & \ \ 0 \ \ & \ \ 7 \quad \\ \\
+    
+    \end{bmatrix}
+  $$
+<br>
+  $$
+    C = \begin{bmatrix} 
+    \quad 0 \ \ & \ \ 0 \ \ & \ \ 0 \quad \\ \\
+    \quad 0 \ \ & \ \ 0 \ \ & \ \ 0 \quad \\ \\
+    \quad 0 \ \ & \ \ 0 \ \ & \ \ 0 \quad \\ \\
+    \end{bmatrix}
+  $$
+</p>
+<br><br>
+<p class="MsoNormal">
+    ۵- اگر ماتریس قطری باشد و تمام درایه‌های روی قطر اصلی آن با هم برابر باشند آن را یک ماتریس اسکالر می‌نامیم. ماتریس‌های زیر همگی اسکالر هستند:
+</p>
+<br>
+<p class="MsoNormal">
+    $$
+    A = \begin{bmatrix}
+    
+    \quad 1 \ \ & \ \ 0 \quad \\ \\
+    \quad 0 \ \ & \ \ 1 \quad  \\ \\
+   
+    
+    \end{bmatrix}
+   $$ 
+   <br>
+   $$
+    B = \begin{bmatrix} 
+    
+    \quad 3 \ \ & \ \ 0 \ \ & \ \ 0 \quad \\ \\
+    \quad 0 \ \ & \ \ 3 \ \ & \ \ 0 \quad \\ \\
+    \quad 0 \ \ & \ \ 0 \ \ & \ \ 3 \quad \\ \\
+    
+    \end{bmatrix}
+  $$
+<br>
+  $$
+    C = [ 2 ]
+  $$
+</p>
+
+<br><br>
+
+
+<p class="MsoNormal">۶- ماتریس صفر
+ماتریسی است که همهٔ درایه‌های آن صفر باشند. ماتریس صفر را با نماد 
+$\bar{O}$
+نشان می‌دهیم.
+ماتریس 
+$
+\begin{bmatrix}
+
+\ \ 0 \ \ & \ \ 0 \ \   \\ \\
+\ \ 0 \ \ & \ \ 0 \ \  \\ 
+
+
+\end{bmatrix}
+$
+٬
+ماتریس صفر $2\times2$ است.</p>
+
+<br><br>
+
+
+
+
+
+<div class="boxb">
+    <p class="MsoSemi"><mark>تساوی بین دو ماتریس:</mark></p>
+    <div class="MsoNormal">
+        دو ماتریس هم مرتبه $A = [a_{ij}] \ \ _{m \times n}$ و $B = [b_{ij}] \ \ _{m \times n}$ را مساوی می‌گوییم هرگاه درایه‌های آنها نظیر به نظیر با هم برابر باشند. به عبارت دیگر:
+        <p class="MsoNormal" >
+           
+        $$ {\forall} \ \ i,j \ \  a_{ij}   = b_{ij} \iff [a_{ij}] = [b_{ij}] $$
+        
+        </p>
+    </div>
+</div>
+<br><br>
+
+<p class="MsoSemi" style="font-size: larger;">مثال:</p>
+<p class="MsoNormal">اگر دو ماتریس 
+    $$
+    A = \begin{bmatrix} 
+    \quad x+y \ \ & \ \ 9 \quad \\ \\
+    \quad 2 \ \ & \ \ z-1 \quad \\
+    \end{bmatrix} 
+    $$
+    
+$$
+\text{و}
+$$
+
+
+    $$
+    B = \begin{bmatrix} 
+    \quad 3 \ \ & \ \ x + y \quad \\ \\
+    \quad 2 \ \ & \ \ 5 \quad \\
+    \end{bmatrix} 
+    $$
+
+
+    <br>
+    مساوی باشند، 
+    $
+    ( x + y + z )
+    $
+   را بیابید.
+</p>
+
+<br>
+
+<p class="MsoNormal" style="text-align:left;">
+    $
+    A = B \Rightarrow
+    \begin{cases}
+    x - y = 3 \\ \\
+    x + y = 9 \\ \\
+    z - 1 = 5
+    
+    
+    \end{cases}
+    $
+<br><br>
+    $
+    \begin{align*}
+
+
+    \quad & \Rightarrow x = 6, \ y = 3, \ z = 6 \\ \\
+
+
+    \quad & \Rightarrow x+y+z = 15
+
+
+    \end{align*}
+    $
+</p>
+<br><hr>
+
+
+
+
+
+
+<div class="MsoBold">جمع ماتریس‌ها</div>
+<p class="MsoNormal">در کاربرد کلاس مربوط به فروشگاه‌های لباس اگر باشد، شرکت تولیدکننده لباس‌ها به هر یک از ۴ فروشگاه مذکور ۲۰ شلوار، ۳۰ بلوز و ۵۰ پیراهن ارسال کند. در این صورت اطلاعات مربوط به تعداد لباس‌ها در هر فروشگاه به صورت زیر است:</p>
+<br>
+<table class="table" style="text-align: center; margin:auto; width:fit-content">
+    <tr>  
+        
+        <th>D</th>
+        <th>C</th>
+        <th>B</th>
+        <th>A</th>
+        <th></th>
+        
+        
+       
+      
+    </tr>
+    <tr>
+       <td>  
+        
+        12 +  20 
+        
+          </td>
+
+        <td>  
+        
+           17 + 20
+            
+              </td>
+
+
+            <td>  
+        
+                26 + 20
+                
+                  </td>
+
+
+                <td>  
+        
+                    24 + 20
+                    
+                      </td>
+
+     
+        <th>شلوار</th>
+    </tr>
+    <tr>
+        <td>  
+        
+            31 +  30 
+            
+              </td>
+    
+            <td>  
+            
+               28 + 30
+                
+                  </td>
+    
+    
+                <td>  
+            
+                    19 + 30
+                    
+                      </td>
+    
+    
+                    <td>  
+            
+                        15 + 30
+                        
+                          </td>
+        <th>بلوز</th>
+    </tr>
+    <tr>
+        <td>  
+        
+            35 +  50 
+            
+              </td>
+    
+            <td>  
+            
+               22 + 50
+                
+                  </td>
+    
+    
+                <td>  
+            
+                    11 + 50
+                    
+                      </td>
+    
+    
+                    <td>  
+            
+                        7 + 50
+                        
+                          </td>
+        <th>پیراهن</th>
+    </tr>
+</table>
+
+
+
+<br><br>
+
+
+
+
+<p class="MsoNormal">اگر این جدول را با یک ماتریس $3 \times 4$ نمایش دهیم، می‌توان آن را توسط مجموع دو ماتریس که درایه‌های آنها نظیر به نظیر با هم جمع شده‌اند نوشت:</p>
+<br>
+<p class="MsoNormal" style="text-align: center;">
+    $$
+    \begin{bmatrix} 
+    \\
+    \quad 24 \ \ & \ \ 26 \ \ & \ \ 17 \ \ & \ \ 12 \quad \\ \\
+    \quad 15 \ \ & \ \ 19 \ \ & \ \ 28 \ \ & \ \ 31 \quad \\ \\
+    \quad 7 \ \ & \ \ 11 \ \ & \ \ 22 \ \ & \ \ 35 \quad \\ \\
+    \end{bmatrix}_{3 \times 4} 
+    $$
+$ +  $
+
+$$
+    \begin{bmatrix} 
+    \\
+    \quad 20 \ \ & \ \ 20 \ \ & \ \ 20 \ \ & \ \ 20 \quad \\ \\
+    \quad 30 \ \ & \ \ 30 \ \ & \ \ 30 \ \ & \ \ 30 \quad \\ \\
+    \quad 50 \ \ & \ \ 50 \ \ & \ \ 50 \ \ & \ \ 50 \quad \\ \\
+    \end{bmatrix}_{3 \times 4} 
+   $$
+
+   $ =  $
+
+
+   $$
+    \begin{bmatrix} 
+    \\
+    \quad 44 \ \ & \ \ 46 \ \ & \ \ 37 \ \ & \ \ 32 \quad \\ \\
+    \quad 45 \ \ & \ \ 49 \ \ & \ \ 58 \ \ & \ \ 61 \quad \\ \\
+    \quad 57 \ \ & \ \ 61 \ \ & \ \ 72 \ \ & \ \ 85 \quad \\ \\
+    \end{bmatrix}_{3 \times 4} 
+    $$
+</p>
+
+<br><br>
+
+
+
+
+<p class="MsoNormal">برای جمع یا تفاضل دو ماتریس هم‌مرتبه $A$ و $B$ کافی است درایه‌های دو ماتریس را نظیر به نظیر با هم جمع یا از هم کم کنیم که حاصل مجموع یا تفاضل $A$ و $B$ ماتریسی است چون $C$ که از همان مرتبه $A$ و $B$ است. به عبارت دیگر می‌توان نوشت:</p>
+
+
+<br>
+<p class="MsoNormal" style="text-align:left;">
+    $
+
+
+    \begin{align*}
+
+
+
+    \ \ \qquad & A = [a_{ij}]_{m \times n}, \quad B = [b_{ij}]_{m \times n} \\ \\
+    
+    & \Rightarrow A \pm B = [a_{ij}] \pm [b_{ij}] = [a_{ij} \pm b_{ij}]
+   
+   
+   
+   \end{align*}
+    $
+</p>
+
+<br><hr><br>
+
+
+
+<div class="MsoStep">کاردرکلاس</div>
+<p class="MsoNormal">مانند نمونه ماتریس‌های  $A$ و $B$ را در هر حالت با هم جمع یا تفریق کنید.</p>
+<br>
+<p class="MsoNormal" style="text-align: center;">
+    $$
+    A = \begin{bmatrix} 
+    \\
+    \quad 1 \ \ & \ \ 2 \ \ & \ \ 3 \ \ & \ \ -1  \quad \\ \\
+    \quad 4 \ \ & \ \ 5 \ \ & \ \ 6 \ \ & \ \ -1 \quad \\ \\
+    \quad 7 \ \ & \ \ 8 \ \ & \ \ 9 \ \ & \ \ -1 \quad \\ \\
+    \end{bmatrix}
+    $$
+
+,
+
+$$
+    B = \begin{bmatrix} 
+    \\
+    \quad -1 \ \ & \ \ -2 \ \ & \ \ -3 \ \  & \ \ 1 \quad \\ \\
+    \quad 1 \ \ & \ \ 2 \ \ & \ \ 3 \ \ & \ \ 4 \quad \\ \\
+    \quad 5 \ \ & \ \ 6 \ \ & \ \ 7 \ \ & \ \ 8 \quad \\ \\
+    \end{bmatrix}
+    $$
+</p>
+<br>
+<p class="MsoNormal" style="text-align: center;">
+    $$
+    A + B = \begin{bmatrix} 
+    \\
+     1+(-1) \ \ & \ \ 2+(-2) \ \ & \ \ 3+(-3) \ \ & \ \ (-1)+1  \\ \\
+     4+1 \ \ & \ \ 5+2 \ \ & \ \ 6+3 \ \ & \ \ (-1)+4  \\ \\
+     7+5 \ \ & \ \ 8+6 \ \ & \ \ 9+7 \ \ & \ \ (-1)+8  \\ \\
+    \end{bmatrix} 
+    $$
+   
+<br>
+$$
+   =  \begin{bmatrix}  \\
+    \quad 0 \ \ & \ \ 0 \ \ & \ \ 0 \ \ & \ \ 0 \quad \\ \\
+    \quad 5 \ \ & \ \ 7 \ \ & \ \ 9 \ \ & \ \ 3 \quad \\ \\
+    \quad 12 \ \ & \ \ 14 \ \ & \ \ 16 \ \ & \ \ 7 \quad \\ \\
+    \end{bmatrix}
+    $$
+</p>
+
+
+
+
+<br><hr style="background-color: #a2a2a291; width:55%;"><br>
+
+
+
+
+
+
+<p class="MsoNormal">(الف) </p>
+
+<p class="MsoNormal" style="text-align: center;">
+    $$
+    A = \begin{bmatrix} \\
+    \quad 1 \ \ & \ \ 2 \quad \\ \\
+    \quad 3 \ \ & \ \ 4 \quad \\
+    \end{bmatrix}
+    $$
+
+,
+
+$$
+    B = \begin{bmatrix} \\
+    \quad -1 \ \ & \ \ 2 \quad \\ \\
+    \quad 3 \ \ & \ \ 4 \quad \\ \\
+    \end{bmatrix}
+    $$
+<br>
+
+
+
+$$
+\Rightarrow A - B = \ldots
+$$
+</p>
+
+<br><hr style="background-color: #a2a2a291; width:55%;"><br>
+
+<p class="MsoNormal">
+    (ب) 
+</p>
+<p class="MsoNormal" style="text-align: center;">
+    $$
+    A = \begin{bmatrix}  
+    \quad 1 \ \ & \ \ -1 \ \ & \ \ 3 \ \ & \ \ 7 \quad 
+    \end{bmatrix} 
+    $$
+,
+    $$
+    B = \begin{bmatrix} 
+    \quad 3 \ \ & \ \ 2 \ \ & \ \ -1 \ \ & \ \ 4 \quad 
+    \end{bmatrix}
+    $$
+$$
+\Rightarrow A + B = \ldots
+
+$$
+</p>
+
+<br><hr style="background-color: #a2a2a291; width:55%;"><br>
+
+<p class="MsoNormal">(پ) </p>
+
+
+<p class="MsoNormal" style="text-align: center;">
+    $$
+    A = \begin{bmatrix}  \\
+    \quad 2 \ \ & \ \ -1 \ \ & \ \ 3 \ \ & \ \ 2 \quad \\ \\
+    \quad \sqrt{2} \ \ & \ \ 5 \ \ & \ \ -1 \ \ & 4 \quad \\ \\
+    \end{bmatrix} 
+    
+    $$
+
+    ,
+
+    $$
+    B = \begin{bmatrix}  \\
+    \quad 0 \ \ & \ \ 1 \ \ & \ \ 4 \ \ & \ \ -7 \quad \\ \\
+    \quad 1 \ \ & \ \ 2 \ \ & \ \ 3 \ \ & \ \ -9 \quad \\ \\
+    \end{bmatrix} 
+    $$
+    <br>
+
+$$
+\Rightarrow A - B = \ldots
+$$
+</p>
+
+<br><hr style="background-color: #a2a2a291; width:55%;"><br>
+
+<p class="MsoNormal">(ت) </p>
+
+<p class="MsoNormal" style="text-align: center;">
+    $
+    A = \begin{bmatrix} 
+     5  
+    \end{bmatrix} 
+    
+\ \
+    ,
+    \ \
+
+    B = \begin{bmatrix} 
+     -7  \\
+    \end{bmatrix} 
+    \ \
+    \Rightarrow A + B = \ldots
+    $
+</p>
+
+<br><hr style="background-color: #a2a2a291; width:55%;"><br><br>
+
+<p class="MsoNormal">(ث) دو ماتریس $3 \times 3$ و غیرصفر مثال بزنید که جمع آنها برابر با ماتریس صفر باشد.</p>
+
+
+
+<br><hr>
+
+<div class="MsoBold">ضرب یک عدد حقیقی در یک ماتریس</div>
+<div class="boxp">
+    <p class="MsoSemi"><mark>تعریف:</mark></p>
+    <p class="MsoNormal">برای ضرب یک عدد حقیقی در ماتریسی چون $A$ آن عدد را در تمام درایه‌های ماتریس ضرب می‌کنیم. به عبارت دیگر می‌توان نوشت:</p>
+    <p class="MsoNormal" style="text-align: center;">
+        $
+        A = [a_{ij}] \ \ _{m \times n} , \quad r \in \mathbb{R} $
+<br>
+        $
+        \Rightarrow rA = r[a_{ij}] \ \ _{m \times n} = [r a_{ij}] \ \ _{m \times n}
+        $
+    </p>
+</div>
+
+<br><br>
+
+<p class="MsoNormal">در کار در کلاس مربوط به فروشگاه‌های لباس اگر ماتریس حاصل را $A$ بنامیم و قرار باشد در هر فروشگاه تمام سه نوع لباس تعدادشان دو برابر شود ماتریس حاصل به صورت زیر نوشته می‌شود:</p>
+<br>
+<p class="MsoNormal" style="text-align: center;">
+    $$
+    B = \begin{bmatrix} \\
+    \quad 24 \times 2 \ \ & \ \ 26 \times 2 \ \ & \ \ 17 \times 2 \ \ & \ \ 12 \times 2 \quad \\ \\
+    \quad 15 \times 2 \ \ & \ \ 19 \times 2 \ \ & \ \ 28 \times 2 \ \ & \ \ 31 \times 2 \quad \\ \\
+    \quad 7 \times 2 \ \ & \ \ 11 \times 2 \ \ &  \ \ 22 \times 2 \ \ & \ \ 35 \times 2 \quad \\ \\
+    \end{bmatrix}
+    $$
+
+
+    <br>
+
+
+
+    $$
+    = \begin{bmatrix}  \\ 
+    \quad 24 + 24 \ \ & \ \ 26 + 26 \ \ & \ \ 17 + 17 \ \ & \ \ 12 + 12 \quad \\ \\
+    \quad 15 + 15 \ \ & \ \ 19 + 19 \ \ & \ \ 28 + 28 \ \ & \ \ 31 + 31 \quad \\ \\
+    \quad 7 + 7 \ \ & \ \ 11 + 11 \ \ & \ \ 22 + 22 \ \ & \ \ 35 + 35 \quad \\ \\
+    \end{bmatrix}
+    $$
+
+    <br>
+
+
+    $$
+    = \begin{bmatrix}  \\
+    \quad 24 \ \ & \ \ 26 \ \ & \ \ 17 \ \ & \ \ 12 \quad \\ \\
+    \quad 15 \ \ & \ \ 19 \ \ & \ \ 28 \ \ & \ \ 31 \quad \\ \\
+    \quad 7 \ \ & \ \ 11 \ \ & \ \ 22 \ \ & \ \ 35 \quad \\ \\
+    \end{bmatrix} 
+$$
+
+ $ + $
+
+$$
+    \begin{bmatrix}  \\
+    \quad 24 \ \ & \ \ 26 \ \ & \ \ 17 \ \ & \ \ 12 \quad \\ \\
+    \quad 15 \ \ & \ \ 19 \ \ & \ \ 28 \ \ & \ \ 31 \quad \\ \\
+    \quad 7 \ \ & \ \ 11 \ \ & \ \ 22 \ \ & \ \ 35 \quad \\ \\
+    \end{bmatrix} 
+   
+    $$
+
+    <br>
+
+    $$
+    = A + A = 2A
+    $$
+</p>
+
+
+<br><hr><br>
+
+<div class="MsoStep">کاردرکلاس</div>
+<p class="MsoNormal">۱- در هر حالت طرف دوم تساوی‌های زیر را بدست آورید.</p>
+<br><br>
+<p class="MsoNormal" style="text-align: left;">
+    $ \quad
+    -1 \times \begin{bmatrix}  \\ 
+    \quad 1 \ \ & \ \ 2 \ \ & \ \  3 \quad \\ \\
+    \quad 4 \ \ & \ \ 5 \ \ & \ \  6   \quad \\ \\
+    \quad -4 \ \ & \ \ -5 \ \ & \ \  -6 \quad \\ \\
+    \end{bmatrix} =
+    $
+    (الف) 
+</p>
+<br><br>
+<p class="MsoNormal" style="text-align: left;">
+    $ \quad
+    \dfrac{1}{2} \times \begin{bmatrix} \\
+    \quad 4 \ \ & \ \ 6 \ \ & \ \ 8 \ \ & \ \ 1 \quad \\ \\
+    \quad 0 \ \ & \ \ 3 \ \ & \ \ 5 \ \ & \ \ 7 \quad \\ \\
+    \quad \sqrt{7} \ \ & \ \ -1 \ \ & \ \ 2 \ \ & \ \ 8 \quad \\ \\
+    \end{bmatrix} =
+    $
+
+    (ب) 
+</p>
+<br><br>
+<p class="MsoNormal" style="text-align: left;">
+    $ \quad
+    0 \times \begin{bmatrix}  \\ 
+    \quad 1 \ \ & \ \ 2 \ \ & \ \ -1 \quad \\ \\
+    \quad -2 \ \ & \ \ -3 \ \ & \ \ -4 \quad \\ \\
+    \quad 5 \ \ & \ \ 6 \ \ & \ \ 7 \quad \\ \\
+    \quad 1 \ \ & \ \ 1 \ \ & \ \ 0 \quad \\ \\
+    \end{bmatrix} = 
+    $
+    (پ) 
+</p>
+<br><br>
+<p class="MsoNormal" style="text-align: left;">
+    $ \quad
+    7 \times \begin{bmatrix}  \\
+    \quad 0 \ \ & \ \ 0 \ \ & \ \ 0 \quad \\ \\
+    \quad 0 \ \ & \ \ 0 \ \ & \ \ 0 \quad \\ \\
+    \quad 0 \ \ & \ \ 0 \ \ & \ \ 0 \quad \\ \\
+    \end{bmatrix}  =
+    $
+    (ت) 
+</p>
+
+
+<br><br>
+
+<p class="MsoNormal">۲- هر یک از ماتریس‌های زیر را به صورت ضرب یک عدد در یک ماتریس بنویسید.</p>
+
+<p class="MsoNormal" style="text-align: left;">
+    $
+    \begin{bmatrix}  \\
+    \quad 2 \ \ & \ \ 4  \ \ & \ \ 6 \quad \\ \\
+    \quad 8 \ \ & \ \ 4 \ \ & \ \ 2 \quad \\ \\
+    \quad 10 \ \ & \ \ 3 \ \ & \ \ 1 \quad \\ \\
+    \end{bmatrix} = 2 \ \ \times 
+    
+    $
+</p>
+<br><br>
+<p class="MsoNormal" style="text-align: left;">
+    $
+    \begin{bmatrix}  \\
+    \quad 1 \ \ & \ \ -1 \ \ & \ \ -2 \quad \\ \\
+    \quad 3 \ \ & \ \ 1 \ \ & \ \ 4 \quad \\ \\
+    \quad 2 \ \ & \ \ 5 \ \ & \ \ 0 \quad \\ \\
+    \end{bmatrix} = (-1) \ \ \times 
+    
+    $
+</p>
+
+
+<br><br>
+
+
+
+
+<div class="boxp">
+    <p class="MsoSemi"><mark>قرینه یک ماتریس:</mark></p>
+    <p class="MsoNormal">اگر $A = [a_{ij}] \ \ _{m \times n}$ ماتریسی دلخواه باشد، قرینه ماتریس $A$ را با $(-A)$ نمایش داده و از ضرب $(-1)$ در ماتریس $A$ بدست می‌آید. واضح است که:</p>
+    <p class="MsoNormal">$$ A + (-A) = \overset{-}{O} $$</p>
+</div>
+
+<br><hr>
+
+<div class="MsoBold">خواص مهم جمع ماتریس‌ها و ضرب عدد در ماتریس</div>
+<p class="MsoNormal">اگر $A$, $B$ و $C$ ماتریس‌هایی $m \times n$ (هم‌مرتبه) و $r$ و $s$ اعدادی حقیقی باشند خواص زیر همگی به راحتی و با توجه به تعاریف جمع ماتریس‌ها و ضرب عدد در ماتریس قابل اثبات‌اند:</p>
+<br>
+<p class="MsoNormal">
+    $$
+  
+    \text{(الف)} \quad  A + B = B + A \\\\
+     \text{خاصیت جابه‌جایی} 
+
+     $$
+    <br>
+     $$
+    \text{(ب)} \quad  A + (B + C) = (A + B) + C  \\\\
+     \text{خاصیت شرکت‌پذیری} 
+     $$
+     <br>
+     $$
+
+    \text{(پ)} \quad A + \overset{-}{O} = \overset{-}{O} + A = A \\\\
+    \text{خاصیت عضو خنثی برای عمل جمع ماتریس‌ها}
+   
+    $$
+
+
+
+    <br>
+    $$
+
+    \text{(ت)} \quad A + (-A) = (-A) + A = \overset{-}{O} \\\\
+   \text{خاصیت عضو قرینه}
+  
+   $$
+
+
+
+
+   
+
+   <br>
+   $$
+
+   \text{(ث)} \quad r(A \pm B) = rA \pm rB  
+ 
+  $$
+
+
+
+  <br>
+  $$
+
+  \text{(ج)} \quad (r \pm s)A = rA \pm sA  
+
+ $$
+
+
+
+ <br>
+ $$
+
+ \text{(چ)} \quad rA = rB, \ r \neq 0 \Rightarrow A = B 
+
+$$
+
+
+
+<br>
+$$
+
+\text{(ح)} \quad A = B \Rightarrow rA = rB 
+
+$$
+
+</p>
+
+
+<br><br>
+
+
+
+<p class="MsoSemi" style="font-size: larger;">مثال:</p>
+    <div class="MsoNormal">
+    فرض کنیم 
+    $$
+    A = \begin{bmatrix}  \\
+    \quad 1 \ \ & \ \ 2 \ \ & \ \ 3 \quad \\ \\
+    \quad -1 \ \ & \ \ 3 \ \ & \ \ -5 \quad \\ \\
+    \end{bmatrix}
+    $$
+    <p class="MsoNormal" style="text-align: center;">
+    و
+</p>
+
+$$
+B = \begin{bmatrix} \\
+\quad -2 \ \ & \ \ 1 \ \ & \ \ 4 \quad \\ \\
+\quad 3 \ \ & \ \ 2 \ \ & \ \ 0 \quad \\ \\
+\end{bmatrix} 
+$$
+
+   
+</p>
+<br>
+
+<p class="MsoNormal">در این صورت نشان می‌دهیم که: $$(-2)(A + B) = (-2)A + (-2)B$$</p>
+
+<br>
+
+
+
+
+
+
+<div class="MsoNormal">
+    <div class="custom-scrollbar" style="overflow-x: auto; direction: ltr;">
+        $$ 
+        -2(A + B) = (-2) \left( \begin{bmatrix} 
+        \quad 1 \ \ & \ \ 2 \ \ & \ \ 3 \quad \\ \\
+        \quad -1 \ \ & \ \ 3 \ \ & \ \ -5 \quad \\
+        \end{bmatrix} 
+        + 
+        \begin{bmatrix} 
+        \quad -2 \ \ & \ \ 1 \ \ & \ \ 4 \quad \\ \\
+        \quad 3 \ \ & \ \ 2 \ \ & \ \ 0 \quad \\
+        \end{bmatrix} \right)
+        $$
+    </div>
+</div>
+<br><br>
+<div class="MsoNormal">
+    <div class="custom-scrollbar" style="overflow-x: auto; direction: ltr;">
+        $$ 
+        = (-2) \begin{bmatrix} 
+        \quad 1 + (-2) \ \ & \ \ 2 + 1 \ \ & \ \ 3 + 4 \quad \\ \\
+        \quad (-1) + 3 \ \ & \ \ 3 + 2 \ \ & \ \ (-5) + 0 \quad \\
+        \end{bmatrix}
+        $$
+    </div>
+</div>
+<br><br>
+<div class="MsoNormal">
+    <div class="custom-scrollbar" style="overflow-x: auto; direction: ltr;">
+        $$ 
+        = \begin{bmatrix} 
+        \quad (-2)(1 + (-2)) \ \ & \ \ (-2)(2 + 1) \ \ & \ \ (-2)(3 + 4) \quad \\ \\
+        \quad (-2)((-1) + 3) \ \ & \ \ (-2)(3 + 2) \ \ & \ \ (-2)((-5) + 0) \quad \\
+        \end{bmatrix}
+        $$
+    </div>
+</div>
+<br><br>
+<div class="MsoNormal"> 
+    <div class="custom-scrollbar" style="overflow-x: auto; direction: ltr;">
+        $$ 
+        = \begin{bmatrix} 
+        \quad (-2) \times 1 + (-2) \times (-2) \ \ & \ \ (-2) \times 2 + (-2) \times 1 \ \ & \ \ (-2) \times 3 + (-2) \times 4 \quad \\ \\
+        \quad (-2) \times (-1) + (-2) \times 3 \ \ & \ \ (-2) \times 3 + (-2) \times 2 \ \ & \ \ (-2) \times (-5) + (-2) \times 0 \quad \\
+        \end{bmatrix}
+        $$
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+<br><br>
+
+
+<div class="MsoNormal"> 
+    <div class="custom-scrollbar" style="overflow-x: auto; direction: ltr;">
+
+
+        $$
+        R
+        \text{توزیع پذیری ضرب  نسبت به جمع در }
+         
+        \begin{bmatrix} 
+        \quad -2 \times 1 \ \ & \ \ -2 \times 2 \ \ & \ \ -2 \times 3 \quad \\ \\
+        \quad (-2) \times (-1) \ \ & \ \ -2 \times 3 \ \ & \ \ (-2) \times (-5) \quad \\
+        \end{bmatrix}
+        $$
+    </div>
+</div>
+<br><br>
+<div class="MsoNormal"> 
+    <div class="custom-scrollbar" style="overflow-x: auto; direction: ltr;">
+        $$
+        + \begin{bmatrix} 
+        \quad (-2) \times (-2) \ \ & \ \ -2 \times 1 \ \ & \ \ -2 \times 4 \quad \\ \\
+        \quad -2 \times 3 \ \ & \ \ -2 \times 2 \ \ & \ \ -2 \times 0 \quad \\
+        \end{bmatrix}
+        $$
+    </div>
+</div>
+<br><br>
+<div class="MsoNormal"> 
+    <div class="custom-scrollbar" style="overflow-x: auto; direction: ltr;">
+        $$
+        = (-2) \begin{bmatrix} 
+        \quad 1 \ \ & \ \ 2 \ \ & \ \ 3 \quad \\ \\
+        \quad -1 \ \ & \ \ 3 \ \ & \ \ -5 \quad \\
+        \end{bmatrix}
+        + (-2) \begin{bmatrix} 
+        \quad -2 \ \ & \ \ 1 \ \ & \ \ 4 \quad \\ \\
+        \quad 3 \ \ & \ \ 2 \ \ & \ \ 0 \quad \\
+        \end{bmatrix}
+        = (-2)A + (-2)B
+        $$
+    </div>
+</div>
+
+
+
+<br><br>
+
+
+<p class="MsoNormal">در حالت کلی اگر فرض کنیم $A=[a_{ij}] \ \ _{m \times n}$ و $B=[b_{ij}] \ \ _{m \times n}$ در این صورت برای $r \in \mathbb{R}$ داریم:</p>
+<br>
+<p class="MsoNormal">
+    $$
+    r(A \pm B) = r([a_{ij}] \pm [b_{ij}]) = r[a_{ij} \pm b_{ij}] = [r(a_{ij} \pm b_{ij})]
+    $$
+</p>
+<br>
+<p class="MsoNormal"  style="text-align: center;">توزیع‌پذیری ضرب نسبت به جمع در 
+    R
+    $$
+    = [r a_{ij} \pm r b_{ij}]
+    $$
+
+   
+
+    
+</p>
+<br>
+<p class="MsoNormal" style="text-align: center;">تعریف جمع (تفاضل)
+    $$
+    = [ra_{ij}] \pm [rb_{ij}]
+    $$
+    
+</p>
+<br>
+<p class="MsoNormal" style="text-align: center;">تعریف ضرب عدد در ماتریس
+
+    $$
+    = r[a_{ij}] \pm r[b_{ij}]
+    $$
+
+    
+</p>
+<br>
+<p class="MsoNormal" style="text-align: center;">
+    
+
+
+    $$
+    = rA \pm rB
+    $$
+
+    
+</p>
+
+
+<br><hr><br>
+
+
+<div class="MsoStep">کار در کلاس</div>
+<p class="MsoNormal">۱- برای ماتریس 
+
+
+    $$A = \begin{bmatrix} \ \ 1  &  2 \ \ \\\\
+     \ \ -1  &  3 \ \ \end{bmatrix}$$
+     <br>
+     و دو عدد حقیقی $r = 3$ و $s = -2$ بررسی خاصیت (ج) را تحقق کنید.</p>
+
+<br><br>
+
+<p class="MsoNormal">۲- درستی خاصیت (چ) را در حالت کلی ثابت کنید.</p>
+
+
+<br><hr>
+
+
+<div class="MsoBold">ضرب ماتریس سطری در ماتریس ستونی</div>
+<p class="MsoNormal">اگر $A$ ماتریس سطری و $B$ ماتریس ستونی باشد طوری که تعداد ستون‌های ماتریس $A$ با تعداد سطرهای ماتریس $B$ برابر باشد در این صورت $A \times B$ تعریف می‌شود و برای ضرب کافی است هر درایه ماتریس $A$ را در درایه نظیرش در $B$ ضرب کرده و حاصل این ضرب‌ها را با هم جمع کنیم که در این صورت ماتریسی $1 \times 1$ یا عدد حقیقی حاصل می‌شود.</p>
+
+<br><br>
+
+<p class="MsoSemi" style="font-size: larger;">مثال:</p>
+<p class="MsoNormal"> اگر 
+    $$A = \begin{bmatrix} -1 & 2 & 0 & 3 & -5 \end{bmatrix}
+    \quad \text{و} \quad
+    B = \begin{bmatrix} \ \ -2 \ \ \\ \ \  3 \ \ \\ \ \ 7 \ \ \\ \ \ -1 \ \ \\ \ \ -2 \ \ \end{bmatrix}$$
+    <br>
+      در این صورت داریم:</p>
+
+
+      <br>
+<p class="MsoNormal" style="text-align: left;">
+
+    $$
+
+A \times B = \begin{bmatrix} -1 & 2 & 0 & 3 & -5 \end{bmatrix} 
+\quad \times \quad
+\begin{bmatrix} \ \ -2 \ \ \\ \ \  3 \ \ \\ \ \ 7 \ \ \\ \ \ -1 \ \ \\ \ \ -2 \ \ \end{bmatrix}
+ 
+    $$
+
+    <br>
+
+    $
+
+    \begin{align*}
+    & \quad A \times B = [ (-1) \times (-2) + 3 \times 3 + 0 \times v + (-5) \times (-2) ]  \\\\
+    & = [ 2 + 6 + 0 + (-3) + 10  ] \\\\
+    & = [ 15 ] \\\\
+    & = 15
+
+    \end{align*}
+    $
+</p>
+
+
+
+<br><hr><br>
+
+
+<div class="MsoStep">کار در کلاس</div>
+
+<p class="MsoNormal">
+
+یک ماتریس سطری 
+$ 1 \times 3 $
+ مانند  
+ $A$
+ و یک ماتریس ستونی 
+ $ 3 \times 1 $
+ مانند 
+
+ $B$
+
+  طوری تعریف کنید که 
+
+  $
+  A \times B = -7
+  $
+
+</p>
+
+
+
+
+
+
+<br><hr>
+<div class="MsoBold">ضرب ماتریس در ماتریس</div>
+<p class="MsoNormal">اگر $A$ ماتریسی 
+    $p \times n$
+     و 
+     $B$ ماتریسی $p \times n$
+      باشد (تعداد ستون‌های ماتریس $A$ با تعداد سطرهای $B$ برابر باشد) در این صورت 
+      $A_{mp} \times B_{pn}$
+       قابل تعریف بوده و اگر فرض کنیم
+       
+       $ A_{mp} \times B_{pn} = C_={mn} = [c_{ij}] $
+,
+       ماتریس $C$ ماتریسی 
+       $m \times n$ بوده که درایه روی سطر 
+       $i$ام و ستون $j$ام در آن یعنی $c_{ij}$
+        از ضرب سطر $i$ام $A$ در ستون $j$ام $B$
+         بدست می‌آید، یعنی:</p>
+
+
+
+<br>
+
+
+
+<p class="MsoSemi" style="font-size: larger;">مثال:</p>
+
+<p class="MsoNormal" style="text-align: center;">
+    $ 
+    c_{ij} = A \ \ \text{امiسطر }  \times B \ \ \text{امjستون }
+    $</p>
+
+
+    <br>
+
+
+
+    <div class="custom-scrollbar" style="overflow-x: auto; direction: ltr;">
+        <p class="MsoNormal" style="text-align: center;">
+    $$
+    \Rightarrow c_{ij} = \begin{bmatrix} [ a_{i1} & a_{i2} & \dots & a_{ip}   \end{bmatrix} 
+    \times
+    \begin{bmatrix} 
+    \quad b_{1j} \quad \\ \\
+    \quad b_{2j} \quad \\ \\
+    \vdots \\ \\
+    \quad b_{pj} \quad 
+    \end{bmatrix} 
+    = a_{i1} \times b_{1j} + a_{i2} \times b_{2j} + \dots + a_{ip} \times b_{pj} $$</p>
+
+    </div>
+
+
+
+    <br><br>
+<p class="MsoNormal">اگر 
+    $$A = \begin{bmatrix} \\
+\quad 1 \ \ & \ \ 2 \ \ & \ \ -1 \quad \\ \\
+\quad 3 \ \ & \ \ 2 \ \ & \ \ 1 \quad \\ \\
+\quad -1 \ \ & \ \ -2 \ \ & \ \ 4 \quad \\ \\
+\end{bmatrix}_{3 \times 3}$$
+
+ و 
+ 
+$$B = \begin{bmatrix} \\
+\quad 2 \ \ & \ \ 3 \quad \\ \\
+\quad -1 \ \ & \ \ 2 \quad \\ \\
+\quad 4 \ \ & \ \ 5 \quad \\ \\
+\end{bmatrix}_{3 \times 2}$$
+<br>
+، فرض کنیم در این صورت ماتریس حاصل ضرب $A_{3 \times 3} \times B_{3 \times 2} = C = [c_{ij}]_{3 \times 2}$ ماتریسی $3 \times 2$ بوده و داریم:</p>
+
+<br>
+
+
+<div class="custom-scrollbar" style="overflow-x: auto; direction: ltr;">
+    <p class="MsoNormal" style="text-align: center;">
+
+$$ c_{12} = A \text{ سطر اول } \times B \text{ ستون دوم } = \begin{bmatrix}  1  &  2  &  -1  \end{bmatrix} \quad \times \quad  \begin{bmatrix} \ \ 3 \ \  \\ \ \  2 \ \  \\ \ \  5 \ \  \end{bmatrix} = 1 \times 3 + 2 \times 2 + (-1) \times 5 = \cdots $$</p>
+</div>
+
+
+<br><br>
+
+
+<div class="custom-scrollbar" style="overflow-x: auto; direction: ltr;">
+    <p class="MsoNormal" style="text-align: center;">
+$$ c_{32} = A \text{ سطر سوم } \times B \text{ ستون دوم } = \begin{bmatrix} -1  &  -2 &  4  \end{bmatrix} \quad \times \quad  \begin{bmatrix} \ \ 3 \ \  \\ \ \  2 \ \  \\ \ \  5 \ \  \end{bmatrix} = (-3) + (-4) + 20 = \cdots $$</p>
+</div>
+
+
+
+<br><br>
+
+<div class="custom-scrollbar" style="overflow-x: auto; direction: ltr;">
+    <p class="MsoNormal" style="text-align: center;">
+
+
+        $$
+        A \times B = \begin{bmatrix} \\
+        \quad 1 \ \ & \ \ 2 \ \ & \ \ -1 \quad \\ \\
+        \quad 3 \ \ & \ \ 2 \ \ & \ \ 1 \quad \\ \\
+        \quad -1 \ \ & \ \ -2 \ \ & \ \ 4 \quad \\ \\
+        \end{bmatrix} 
+
+
+        \times 
+
+
+        \begin{bmatrix} \\
+        \quad 2 \ \ & \ \ 3 \quad \\ \\
+        \quad -1 \ \ & \ \ 2 \quad \\ \\
+        \quad 4 \ \ & \ \ 5 \quad \\ \\
+        \end{bmatrix} 
+
+
+        = \begin{bmatrix}  \\
+        \quad 2 - 2 - 4 \ \ & \ \ 3 + 4 - 5 \quad \\ \\
+        \quad 6 - 2 + 4 \ \ & \ \ 9 + 4 + 5 \quad \\ \\
+        \quad -2 + 2 + 16 \ \ & \ \ -3 - 4 + 20 \quad \\ \\
+        \end{bmatrix} 
+
+
+        = \begin{bmatrix}  \\
+        \quad -4 \ \ & \ \ 2 \quad \\ \\
+        \quad 8 \ \ & \ \ 18 \quad \\ \\
+        \quad 16 \ \ & \ \ 13 \quad \\ \\
+        \end{bmatrix}
+        $$
+
+
+    </p>
+</div>
+
+
+<br><br>
+<p class="MsoNormal">آیا ضرب $B \times A$ امکان‌پذیر است؟ چرا؟</p>
+
+<br><hr><br>
+
+<div class="MsoStep">کاردرکلاس</div>
+
+
+
+<p class="MsoNormal">۱- برای هر حالت $B \times A$ و $A \times B$ را در صورت امکان محاسبه کنید.</p>
+
+<br>
+
+
+
+
+
+
+
+<div class="custom-scrollbar" style="overflow-x: auto; direction: ltr;">
+    <p class="MsoStep" style="text-align: center;">(الف) 
+        $$
+        A = \begin{bmatrix} \\
+        \quad 1 \ \ & \ \ -1 \ \ & \ \ 4  \quad \\ \\
+        \quad 0 \ \ & \ \ 0 \ \ & \ \ 0 \quad \\ \\
+        \quad 1 \ \ & \ \ 2 \ \ & \ \ 3 \quad \\ \\ 
+        \end{bmatrix}_{3 \times 3}, 
+        \quad 
+        B = \begin{bmatrix} \\
+        \quad 1 \ \ & \ \ 2 \ \ & \ \ 3 \ \ & \ \ -1 \quad \\ \\
+        \quad -1 \ \ & \ \ 0 \ \ & \ \ 1 \ \ & \ \ -2 \quad \\ \\
+        \quad 3 \ \ & \ \ 1 \ \ & \ \ -1 \ \ & \ \ 0 \quad \\ \\
+        \end{bmatrix}_{3 \times 4} 
+        \quad \Rightarrow \quad A \times B = \cdots
+        $$
+    </p>
+    </div>
+    
+    <br><hr style="background-color: #a2a2a291; width:55%;"><br>
+    
+    <div class="custom-scrollbar" style="overflow-x: auto; direction: ltr;">
+    <p class="MsoStep" style="text-align: center;">(ب) 
+        $$
+        A = \begin{bmatrix} \\
+        \quad 1 \ \ & \ \ -1 \quad \\ \\
+        \quad 2 \ \ & \ \ 1 \quad \\ \\
+        \quad 3 \ \ & \ \ -2 \quad \\ \\
+        \end{bmatrix}_{3 \times 2}, 
+        \quad 
+        B = \begin{bmatrix} \\
+        \quad 2 \ \ & \ \ -1 \ \ & \ \ 1 \quad \\ \\
+        \quad 3 \ \ & \ \ 0 \ \ & \ \ 5 \quad \\ \\
+        \end{bmatrix}_{2 \times 3} 
+        \quad \Rightarrow \quad A \times B = \cdots, \quad B \times A = \cdots
+        $$
+    </p>
+    </div>
+    
+    <br><hr style="background-color: #a2a2a291; width:55%;"><br>
+    
+    <div class="custom-scrollbar" style="overflow-x: auto; direction: ltr;">
+    <p class="MsoStep" style="text-align: center;">(پ) 
+        $$
+        A = \begin{bmatrix} \\
+        \quad 1 \quad \\ \\
+        \quad -1 \quad \\ \\
+        \quad 2 \quad \\ \\
+        \end{bmatrix}_{3 \times 1}, 
+        \quad 
+        B = \begin{bmatrix}  \\
+        \quad 2 \ \ & \ \ 3 \ \ & \ \ 4 \quad \\ \\
+        \end{bmatrix}_{1 \times 3} 
+        \quad \Rightarrow \quad A \times B = \cdots, \quad B \times A = \cdots
+        $$
+    </p>
+    </div>
+    
+    <br><hr style="background-color: #a2a2a291; width:55%;"><br>
+    
+    <div class="custom-scrollbar" style="overflow-x: auto; direction: ltr;">
+    <p class="MsoStep" style="text-align: center;">(ت) 
+        $$
+        A = \begin{bmatrix} \\
+        \quad 1 \ \ & \ \ -1 \ \ & \ \ 0 \quad \\ \\
+        \quad 2 \ \ & \ \ -1 \ \ & \ \ -1 \quad \\ \\
+        \end{bmatrix}_{2 \times 3}, 
+        \quad 
+        B = \begin{bmatrix}  \\
+        \quad -1 \ \ & \ \ 2 \ \ & \ \ -2 \quad \\ \\
+        \quad -1 \ \ & \ \ 2 \ \ & \ \ -2 \quad \\ \\
+        \quad -1 \ \ & \ \ 2 \ \ & \ \ -2 \quad \\ \\
+        \end{bmatrix}_{3 \times 3} 
+        \quad \Rightarrow \quad A \times B = \begin{bmatrix} 
+        \quad 0 \ \ & \ \ \cdots \ \ & \ \ \cdots \quad \\ \\
+        \quad \cdots \ \ & \ \ \cdots \ \ & \ \ \cdots \quad \\ \\
+        \end{bmatrix}
+        $$
+    </p>
+    </div>
+
+
+<br><br>
+
+
+<p class="MsoNormal">قسمت (ث) را با این حکم در اعداد حقیقی، که «اگر $a \times b = 0$ آنگاه $a = 0$ یا $b = 0$»، مقایسه کنید.</p>
+
+<br><br>
+
+
+
+
+<p class="MsoNormal">۲- اگر $A$ ماتریسی $3 \times 5$ باشد، در این صورت در هر یک از حالت‌های زیر مشخص کنید که $A \times B$ و $B \times A$ قابل تعریف است یا خیر، و در صورت تعریف مرتبهٔ آن را بیابید:</p>
+
+<br>
+
+
+<div class="MsoNormal" style="text-align: left;">
+    $ B = [b_{ij}] \ \ _{3 \times 2} $ (الف)
+   <br>
+   
+    $ B = [b_{ij}] \ \ _{5 \times 5} $ (ب)
+   <br>
+   
+    $ B = [b_{ij}] \ \ _{1 \times 3} $ (پ)
+   <br>
+   
+    $ B = [b_{ij}] \ \ _{5 \times 4} $ (ت)
+   <br>
+   
+</div>
+<br><hr>
+
+<div class="MsoBold">خواص عمل ضرب ماتریس‌ها</div>
+
+<div class="MsoStep">کار در کلاس</div>
+<p class="MsoNormal">۱- فرض کنید 
+    $$ 
+    A = \begin{bmatrix} \\
+    \quad 1 \ \ & \ \ 2 \quad \\ \\
+    \quad -1 \ \ & \ \ 3 \quad \\ \\
+    \end{bmatrix} 
+    \quad \text{و} \quad 
+    B = \begin{bmatrix}  \\
+    \quad -1 \ \ & \ \ -4 \quad \\ \\
+    \quad 1 \ \ & \ \ 0 \quad \\ \\
+    \end{bmatrix} 
+    $$
+    در این صورت حاصل $(A \times B)$ و $(B \times A)$ را با هم مقایسه کنید. چه نتیجه‌ای می‌گیرید؟
+</p>
+<br>
+
+
+<div class="boxp">
+    <p class="MsoSemi"><mark>نتیجه</mark></p>
+    <p class="MsoNormal">در حالت کلی ضرب ماتریس‌ها خاصیت جابه‌جایی $. . . . . . .$.</p>
+</div>
+<br><br>
+
+
+<p class="MsoNormal">۲- ماتریس اسکالر 
+    $$
+    I = \begin{bmatrix} \\
+    \quad 1 \ \ & \ \ 0 \quad \\ \\
+    \quad 0 \ \ & \ \ 1 \quad \\ \\
+    \end{bmatrix} 
+    $$
+    را از چپ و راست در ماتریس 
+    $$
+    A = \begin{bmatrix} \\
+    \quad a \ \ & \ \ b \quad \\ \\
+    \quad c \ \ & \ \ d \quad \\ \\
+    \end{bmatrix} 
+    $$
+    ضرب کرده و حاصل ضرب‌ها را با هم مقایسه کنید. چه نتیجه‌ای می‌گیرید؟
+</p>
+<br>
+
+<div class="boxp">
+
+    <p class="MsoNormal">ماتریس اسکالر 
+        زیر
+
+        $$
+        I_n = \begin{bmatrix} \\
+        \quad 1 \ \ & \ \ 0 \ \ & \ \ 0 \ \ & \ \ \cdots \ \ & \ \ 0 \quad \\ \\
+        \quad 0 \ \ & \ \ 1 \ \ & \ \ 0 \ \ & \ \ \cdots \ \ & \ \ 0 \quad \\ \\
+        \quad \vdots \ \ & \ \ \quad \ \ & \ \ \quad \ \ & \ \ \quad \quad \\ \\
+        \quad 0 \ \ & \ \ 0 \ \ & \ \ 0 \ \ & \ \ \cdots \ \ & \ \ 1 \quad \\ \\
+        \end{bmatrix}
+        $$
+        
+        که آن را ماتریس واحد یا همانی مرتبه $n$ می‌نامیم، عضو خنثی برای عمل ضرب ماتریس‌های مربعی مرتبه $n$ است. یعنی:</p>
+    <p class="MsoNormal" style="text-align: center;">
+        $$ A_{n \times n} \times I_{n} = I_{n} \times A_{n \times n} = A_{n \times n} $$
+    </p>
+</div>
+<br>
+<br>
+
+
+
+
+
+<p class="MsoNormal">۳- اگر 
+
+    <br>
+
+
+    $$ C = \begin{bmatrix} \\
+    \quad 2 \ \ & \ \ 7 \quad \\ \\
+    \quad 3 \ \ & \ \ -1 \quad \\ \\
+    \end{bmatrix}_{2 \times 2} 
+    $$
+
+    $$
+    B = \begin{bmatrix} \\
+    \quad 1 \ \ & \ \ 3 \quad \\ \\
+    \quad -1 \ \ & \ \ 0 \quad \\ \\
+    \end{bmatrix}_{2 \times 2}
+    
+    $$
+
+    $$
+    A = \begin{bmatrix} \\
+    \quad 1 \ \ & \ \ 2 \quad \\ \\
+    \quad -1 \ \ & \ \ 3 \quad \\ \\
+    \end{bmatrix}_{2 \times 2} 
+    $$
+    <br>
+    در این صورت درستی تساوی 
+    $
+    A \times (B + C)= (A \times B) + (A \times C)
+    $
+    را بررسی کنید.
+</p>
+
+
+
+<br>
+
+<p class="MsoNormal">در حالت کلی اگر 
+    $$ B = [b_{ij}]_{p \times n} \quad و \quad C = [c_{ij}]_{p \times n} \quad و \quad A = [a_{ij}]_{m \times p} $$
+    در این صورت ضرب ماتریس $A$ در مجموع $(B + C)$ خاصیت توزیع‌پذیری با بخشش دارد. یعنی:
+</p>
+
+<p class="MsoNormal" style="text-align: center;">
+    $$ A \times (B + C) = (A \times B) + (A \times C) $$
+</p>
+
+<br><br>
+
+<p class="MsoNormal">۴- با همان ماتریس‌های معرفی شده در شماره (۳) درستی تساوی زیر را بررسی کنید:</p>
+
+<p class="MsoNormal" style="text-align: center;">
+    $$ A \times (B \times C) = (A \times B) \times C $$
+</p>
+
+<br>
+
+<p class="MsoNormal">در حالت کلی اگر 
+    $$ C = [c_{ij}]_{k \times n} \quad و \quad B = [b_{ij}]_{p \times k} \quad و \quad A = [a_{ij}]_{m \times p} $$
+    در این صورت ضرب این سه ماتریس خاصیت شرکت‌پذیری دارد یعنی:
+</p>
+
+<p class="MsoNormal" style="text-align: center;">
+    $$ A \times (B \times C) = (A \times B) \times C $$
+</p>
+
+
+<br><hr><br>
+
+
+
+<div class="MsoStep">تمرین</div>
+
+<p class="MsoNormal">۱- اگر 
+    $$ A = [a_{ij}]_{4 \times 3} $$
+    ماتریسی $3 \times 4$ باشد به‌طوری که برای $i = j$ داشته باشیم $a_{ij} = 7$ و برای $i > j$ داشته باشیم $a_{ij} = z$ و برای $i < j$ داشته باشیم $a_{ij} = x$، در این صورت ماتریس $A$ را با درایه‌هایش مشخص کنید.
+</p>
+
+<br><br>
+
+<p class="MsoNormal">۲- اگر
+    $$ A = \begin{bmatrix}  \\
+    \quad \ \ 2x - y \ \ & \ \ 5 \quad \\ \\
+    \quad \ \ z \ \ & \ \ 1 \quad \\ \\
+    \end{bmatrix} 
+    $$
+     و 
+    $$
+    B = \begin{bmatrix}  \\
+    \quad \ \ 3 \ \ & \ \ 2x + y \quad \\ \\
+    \quad \ \ -2 \ \ & \ \ 1 \quad \\ \\
+    \end{bmatrix}
+    $$
+
+    <br>
+
+
+    در این صورت حاصل $(x + y + z)$ را بیابید.
+</p>
+
+<br><br>
+
+<p class="MsoNormal">۳- دو ماتریس $3 \times 3$ مانند $A$ و $B$ مثال بزنید که $A \neq \overset{-}{O}$ و $B \neq \overset{-}{O}$ ولی $A \times B = \overset{-}{O}$.</p>
+
+<br><br>
+
+<p class="MsoNormal">۴- با یک مثال نقض نشان دهید که قانون حذف در ضرب ماتریس‌ها برقرار نمی‌باشد به عبارت دیگر نشان دهید که در حالت کلی از تساوی $AB = AC$ نمی‌توان نتیجه گرفت $B = C$.</p>
+
+<br><br>
+
+<p class="MsoNormal">۵- اگر $A$ ماتریسی مربعی باشد و توان‌های $A$ را بصورت 
+    $ A^2 = AA $
+    و 
+    $ A^3 = AAA $
+    و ... و 
+    $ A^n = A^{n-1}A $
+    (با فرض $n \in \mathbb{N}, \ n > 1$) تعریف کنیم، در این صورت با فرض 
+
+
+    $$
+    A = \begin{bmatrix} \\
+    \quad 1 \ \ & \ \ 0 \quad \\ \\
+    \quad 0 \ \ & \ \ -1 \quad \\ \\
+    \end{bmatrix} 
+    $$
+
+
+    حاصل $A^2$ و $A^3$ و $A^7$ را بیابید.
+</p>
+
+
+<br><br>
+
+
+
+<p class="MsoNormal">۶- اگر
+    $$ 
+A = \begin{bmatrix}  \\
+    \quad 4 \ \ & \ \ a \quad \\ \\
+    \quad b \ \ & \ \ -1 \quad \\ \\
+\end{bmatrix} 
+$$
+و
+
+$$
+B = \begin{bmatrix}  \\
+    \quad 1 \ \ & \ \ -2 \quad \\ \\
+    \quad 3 \ \ & \ \ 2 \quad \\ \\
+\end{bmatrix} 
+$$
+<br>
+    مقادیر $a$ و $b$ را طوری بدست آورید که حاصل ضرب $A \times B$ ماتریسی قطری باشد.
+</p>
+
+<br><br>
+
+<p class="MsoNormal">۷- اگر $A = [a_{ij}]_{3 \times 3}$ و $B = [b_{ij}]_{3 \times 1}$ به صورت زیر معرفی شده باشند، ابتدا $A$ و $B$ را با درایه‌هایشان نوشته و سپس $B \times A$ و $A \times B$ را بدست آورید:</p>
+<br>
+<p class="MsoNormal" style="text-align: center;">
+    $$
+    a_{ij} = \begin{cases} 
+        i^2 - 1 & i = j \\ \\
+        i - j & i > j \\ \\
+        j - i & i < j  
+    \end{cases}  
+    
+    $$
+
+<br>
+
+
+    $$
+    b_{ij} = \begin{cases} 
+        i^2 + 1 & i = j \\ \\
+        i + j & i > j \\ \\
+        i - j + 2 + 2 & i < j 
+    \end{cases} 
+    $$
+</p>
+<br><br>
+
+
+<p class="MsoNormal">۸- اگر 
+    $$ A = \begin{bmatrix} \\
+    \quad r_1 \quad & \quad 0 \quad & \quad 0 \quad \\ \\
+    \quad 0 \quad & \quad r_2 \quad & \quad 0 \quad \\ \\
+    \quad 0 \quad & \quad 0 \quad & \quad r_3 \quad \\ \\
+    \end{bmatrix} 
+    $$ 
+    ماتریسی قطری باشد و $B$ ماتریسی $3 \times 3$ و دلخواه باشد در این صورت ماتریس $(A \times B)$ را تشکیل دهید. چه نتیجه‌ای می‌گیرید؟
+</p>
+
+<br><br>
+
+<p class="MsoNormal">۹- اگر $A$ ماتریسی $3 \times 3$ و اسکالر باشد و $B$ ماتریسی هم مرتبه $A$ در این صورت:</p>
+<ul class="MsoNormal">
+    <li> (الف) برای $B \times A$ و $A \times B$ قوانینی تعریف کنید. </li>
+    <li> (ب) آیا تساوی $A \times B = B \times A$ برقرار است؟ </li>
+</ul>
+
+<br><br>
+
+<p class="MsoNormal">۱۰- اگر $A$ و $B$ ماتریس‌های $3 \times 3$ و تعویض‌پذیر باشند $(A \times B = B \times A)$ ثابت کنید:</p>
+<p class="MsoNormal" style="text-align: left;">
+<br>
+     $ (A + B)^2 = A^2 + 2AB + B^2 $ 
+     (الف) 
+     <br><br>
+      $ (A - B)(A + B) = A^2 - B^2 $ 
+      (ب)
+     <br>
+</p>
+
+<br><br>
+
+<p class="MsoNormal">۱۱- اگر 
+    $$ 
+    A = \begin{bmatrix} \\
+        \quad -2 \ \ & \ \ 0 \ \ & \ \ 0 \quad \\ \\
+        \quad 0 \ \ & \ \ 3 \ \ & \ \ 0 \quad \\ \\
+        \quad 0 \ \ & \ \ 0 \ \ & \ \ 4 \quad \\ \\
+    \end{bmatrix} 
+    $$
+    
+    مفروض باشد. حاصل $A^3$ را بدست آورید. چه نتیجه‌ای می‌گیرید؟
+</p>
+
+<br><br>
+
+
+
+
+
+
+
+
+
+<br><br><br><br><br>
+
+
+    </body>
+
+
+</html>

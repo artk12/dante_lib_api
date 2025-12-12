@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <title>MathJax Rendering with Farsi Numerals</title>
+    <!-- MathJax Configuration -->
+     <style>
+        
+     </style>
+    <script>
+        window.MathJax = {
+            loader: { 
+                load: ['input/tex', 'output/chtml'] 
+            },
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']],
+                macros: {
+                    RR: '\\mathbb{R}',
+                    bold: ['\\mathbf{#1}', 1],
+                    // Add any additional macros here
+                }
+            },
+            chtml: {
+                font: 'Yekan Bakh FaNum Light', // Custom font
+                displayAlign: 'center',
+                displayIndent: '0',
+                scale: 1.2, // Adjust as needed
+                mtextInheritFont: true,
+                merrorInheritFont: true,
+                exponentsAsSuperscripts: true
+            },
+            options: {
+                renderActions: {
+                    assistiveMml: [],
+                    addMenu: []
+                }
+            }
+        };
+    </script>
+    <!-- Load MathJax 3 -->
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+    <style>
+        /* Custom Font */
+        @font-face {
+            font-family: 'Yekan Bakh FaNum Light';
+            src: url('YekanBakhFaNum-Light.woff2') format('woff2'),
+                 url('YekanBakhFaNum-Light.woff') format('woff'),
+                 url('YekanBakhFaNum-Light.ttf') format('truetype'); /* Include TTF if WOFF/WOFF2 not available */
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        /* Basic Styling */
+        body {
+            direction: rtl;
+            font-family: 'Yekan Bakh FaNum Light', sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        /* Customize MathJax elements for MathJax 3 */
+        .mjx-merror {
+            font-family: 'Yekan Bakh FaNum Light', sans-serif!important;
+            direction: rtl;
+            background-color: #fdd;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+
+        .mjx-mi, 
+        .mjx-mn, 
+        .mjx-mo, 
+        .mjx-mtext {
+            font-family: 'Yekan Bakh FaNum Light', sans-serif;
+            direction: rtl;
+        }
+
+        /* Optional: Adjust spacing for better readability */
+        .mjx-mrow {
+            margin: 0 0.2em;
+        }
+
+        /* Fallback Styling for Testing */
+        .test {
+            font-family: 'Yekan Bakh FaNum Light', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <p class="test">
+        این یک مثال است که شامل ریاضیات در خط است: \( E = mc^2 \) و همچنین یک نمایش ریاضی:
+        \[
+            \int_{1}^{2} f(x) \, dx = F(2) - F(1)
+        \]
+    </p>
+
+    <!-- JavaScript to replace Arabic numerals with Farsi numerals -->
+    <script>
+        /**
+         * Replace Arabic numerals with Farsi numerals in a given text.
+         * @param {string} text - The input text containing Arabic numerals.
+         * @returns {string} - The text with Arabic numerals replaced by Farsi numerals.
+         */
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, d => arabicToFarsiMap[d] || d);
+        }
+
+        /**
+         * Recursively traverse the DOM and replace numerals in text nodes.
+         * @param {Node} node - The current DOM node.
+         */
+        function replaceNumeralsInTextNodes(node) {
+            if (node.nodeType === Node.TEXT_NODE) {
+                node.textContent = replaceArabicNumeralsWithFarsi(node.textContent);
+            } else if (node.nodeType === Node.ELEMENT_NODE &&
+                       node.tagName.toLowerCase() !== 'script' &&
+                       node.tagName.toLowerCase() !== 'style') {
+                // Exclude MathJax-generated elements
+                if (!node.closest('.mjx-chtml')) {
+                    node.childNodes.forEach(child => replaceNumeralsInTextNodes(child));
+                }
+            }
+        }
+
+        /**
+         * Replace digits within MathJax-rendered elements.
+         */
+        function replaceDigitsInMathJax() {
+            const mathDigits = document.querySelectorAll('.mjx-mn'); // Select MathJax number elements
+            mathDigits.forEach(function (el) {
+                el.textContent = replaceArabicNumeralsWithFarsi(el.textContent);
+            });
+        }
+
+        /**
+         * Perform numeral replacement after MathJax has finished typesetting.
+         */
+        MathJax.startup.promise.then(() => {
+            // Replace numerals in regular text
+            const elements = document.querySelectorAll('body *');
+            elements.forEach(function (el) {
+                // Avoid processing within MathJax-generated elements
+                if (!el.closest('.mjx-chtml')) {
+                    replaceNumeralsInTextNodes(el);
+                }
+            });
+
+            // Replace numerals within MathJax-rendered math
+            replaceDigitsInMathJax();
+        }).catch((err) => console.error('MathJax failed to load:', err.message));
+    </script>
+</body>
+</html>

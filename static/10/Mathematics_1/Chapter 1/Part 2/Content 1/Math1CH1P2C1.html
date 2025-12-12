@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="fa">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="Generator" content="Microsoft Word 15 (filtered)">
+        <style>
+            @font-face {
+                font-family: "Yekan Bakh FaNum Light";
+                src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+                font-weight: normal;
+                font-style: normal;
+            }
+    
+            @font-face {
+                font-family: "Yekan Bakh FaNum Regular";
+                src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+                font-weight: normal;
+                font-style: normal;
+            }
+            hr {  
+                
+                height: 3px;  
+                background-color: #5f1487;
+                
+                border: none;  
+            } 
+    
+            body {
+                font-family: "Yekan Bakh FaNum Light";
+                background-color: #1a181c;
+                text-align: right;
+                direction: rtl;
+                padding: 5%;
+                max-width: 1000px;
+                margin: auto;
+                font-size: clamp(1rem, 1.5vw, 1.2rem);
+            }
+    
+            span {
+                font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+                text-align: right;
+                unicode-bidi: embed;
+                
+            }
+    
+            p.MsoNormal,
+            li.MsoNormal,
+            div.MsoNormal {
+                margin: 0in;
+                text-autospace: ideograph-other;
+                font-size: clamp(1rem, 1.5vw, 1.2rem);
+                font-family: "Yekan Bakh FaNum Light";
+                line-height: 2.3em;
+                color: #D6D1DA;
+                text-align: justify;
+                
+            }
+            
+            p.MsoBold,
+            li.MsoBold,
+            div.MsoBold {
+                margin: 0in;
+                text-autospace: ideograph-other;
+                font-size: clamp(1.4rem, 3vw, 1.6rem);
+                font-family: "Yekan Bakh FaNum Regular";
+                color: #B692F6;
+                margin: 10% auto;
+                line-height: 1.5em;
+                
+            }
+            
+            p.MsoWarning,
+            li.MsoWarning,
+            div.MsoWarning {
+                margin: 0in;
+                text-autospace: ideograph-other;
+                font-size: clamp(1.4rem, 3vw, 1.6rem);
+                font-family: "Yekan Bakh FaNum Regular";
+                color: #d67469;
+                margin: 10% auto;
+                line-height: 1.3em;
+                
+            }
+            p.MsoSuccess,
+            li.MsoSuccess,
+            div.MsoSuccess {
+                margin: 0in;
+                text-autospace: ideograph-other;
+                font-size: clamp(1.4rem, 3vw, 1.6rem);
+                font-family: "Yekan Bakh FaNum Regular";
+                color: #64E9E1;
+                margin: 10% auto;
+                line-height: 1.3em;
+            
+            }
+            p.MsoStep,
+            li.MsoStep,
+            div.MsoStep {
+                margin: 0in;
+                text-autospace: ideograph-other;
+                font-size: clamp(1.4rem, 3vw, 1.6rem);
+                font-family: "Yekan Bakh FaNum Regular";
+                color: #ffffff;
+                margin: 5% auto;
+                line-height: 1.7em;
+                
+            }
+            p.MsoSub,
+            li.MsoSub,
+            div.MsoSub {
+                margin: 0in;
+                text-autospace: ideograph-other;
+                font-size: clamp(1.4rem, 3vw, 1.6rem);
+                font-family: "Yekan Bakh FaNum Regular";
+                color: #badaff;
+                margin: 4% auto;
+                line-height: 1.3em;
+                
+            }
+    
+            .MsoPapDefault {
+                text-autospace: ideograph-other;
+            }
+    
+            @page WordSection1 {
+                size: 312.0pt 624.0pt;
+                margin: 1.0in 1.0in 1.0in 1.0in;
+            }
+    
+            div.WordSection1 {
+                page: WordSection1;
+            }
+    
+            .MathJax {
+                margin: auto 0.4rem !important;
+    
+            }
+    
+            .MathJax span {
+                font-family: 'Yekan Bakh FaNum Light' !important;
+                color: #64E9E1;
+    
+            }
+    
+            .images {
+                width: 100%;
+                display: block;
+                max-width: 600px;
+                margin: 50px auto;
+            }
+    
+            .responsive-video {
+                width: -webkit-fill-available;
+                height: auto;
+            }
+            table {
+                width: -webkit-fill-available;
+                border-collapse: collapse;
+                margin: 25px 0;
+                font-size: clamp(1rem, 1.5vw, 1.2rem);
+                text-align: right;
+                color:white;
+               
+                border-radius: 4px;
+                
+            }
+            th, td {
+                padding: 12px;
+                border: 4px solid #000000;
+                font-size: clamp(1rem, 1.5vw, 1.2rem);
+            }
+            table span{
+                
+                font-size: clamp(1rem, 1.5vw, 1.2rem);
+                
+            }
+            .mathalign{
+                
+                text-align: left;
+                
+            }
+            th {
+                background-color: #5f1487;
+            }
+            .isotop span{
+                font-size: clamp(1rem, 1.5vw, 1.2rem);
+            }
+            .custom-scrollbar {
+                overflow-x: auto;
+            }
+            
+            .custom-scrollbar::-webkit-scrollbar {
+                height: 30px; /* Horizontal scrollbar height */
+                min-width: 3.7vw;
+    
+            }
+            
+            .custom-scrollbar::-webkit-scrollbar-track {
+                background: #59078fa1; /* Track background color */
+                border-radius: 10px; /* Rounded corners */
+                border: 4px solid #000000;
+    
+            }
+            
+            .custom-scrollbar::-webkit-scrollbar-thumb {
+                background-color: #1abbbbe1; /* Scrollbar thumb color */
+                border-radius: 10px; /* Rounded corners */
+                border: 4px solid #000000; /* Optional: adds a border around the thumb */
+            }
+            
+            .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+                 /* Scrollbar thumb color on hover */
+                background-color: #05ffe2;
+            }
+        </style>
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({
+                tex2jax: {
+                    inlineMath: [['$', '$'], ['\\(', '\\)']],
+                    displayMath: [['$$', '$$'], ['\\[', '\\]']]
+                },
+                TeX: {
+                    Macros: {
+                        RR: '{\\mathbb{R}}',
+                        bold: ['{\\bf #1}', 1]
+                    }
+                },
+                "HTML-CSS": {
+                    preferredFont: 'Yekan Bakh FaNum Light',
+                    availableFonts: ["Yekan Bakh FaNum Light"],
+                    styles: {
+                        ".MathJax .merror": {
+                            "font-family": "Yekan Bakh FaNum Light",
+                            "direction": "rtl"
+                        },
+                        ".MathJax .mi": {
+                            "font-family": "Yekan Bakh FaNum Light",
+                            "direction": "rtl"
+                        }
+                    }
+                }
+            });
+        </script>
+        <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+        <script type="text/javascript">
+            function replaceArabicNumeralsWithFarsi(text) {
+                const arabicToFarsiMap = {
+                    '0': '۰',
+                    '1': '۱',
+                    '2': '۲',
+                    '3': '۳',
+                    '4': '۴',
+                    '5': '۵',
+                    '6': '۶',
+                    '7': '۷',
+                    '8': '۸',
+                    '9': '۹'
+                };
+                return text.replace(/\d/g, function (d) {
+                    return arabicToFarsiMap[d];
+                });
+            }
+    
+            document.addEventListener("DOMContentLoaded", function () {
+                const elements = document.querySelectorAll('p');
+                elements.forEach(function (el) {
+                    el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+                });
+                MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+            });
+        </script>
+    </head>
+
+
+    <body class="custom-scrollbar">
+
+        <div class="MsoBold">درس دوم: متمم یک مجموعه</div>
+
+
+<p class="MsoSub"><strong>مجموعه مرجع</strong></p>
+<p class="MsoNormal">
+فرض کنیم $U$ نشان دهندهٔ مجموعهٔ تمام کتاب‌های کتابخانه آیت‌الله العظمی مرعشی نجفی (ره) و $A$ مجموعهٔ کتاب‌های خطی آن باشد. اگر مجموعه‌ای را که شامل کتاب‌های چاپی این کتابخانه است، با $A'$ نشان دهیم، آنگاه می‌توانیم نمودار پایین صفحه را دربارهٔ کتاب‌های این کتابخانه رسم کنیم. در این مثال $U$ را که شامل تمام کتاب‌های کتابخانه می‌باشد، مجموعهٔ مرجع و $A'$ را متمم مجموعه $A$ می‌نامیم.
+</p>
+
+<br><hr><br>
+<p class="MsoNormal">
+در هر مبحث، مجموعه‌ای را که همهٔ مجموعه‌های مورد بحث، زیرمجموعه آن باشند، مجموعهٔ مرجع می‌نامیم و آن را با $U$ نشان می‌دهیم.
+</p>
+<br><hr><br>
+<p class="MsoNormal">
+هرگاه $U$ مجموعه مرجع باشد و $A \subseteq U$، آنگاه مجموعه $U - A$ را متمم $A$ می‌نامیم و آن را با نماد $A'$ نشان می‌دهیم. به عبارت دیگر $A'$ شامل عضوهایی از $U$ است که در $A$ نیستند.
+</p>
+<br>
+<hr>
+<div class="MsoStep">فعالیت</div>
+<p class="MsoNormal">الف) دو مجموعهٔ زیر را در نظر بگیرید و اعضای هر یک را روی محور نشان دهید.</p>
+<br><br>
+<div class="MsoNormal" style="text-align: center;">
+$A = \{x \in \mathbb{Z} | -3 > x \geq 2\}$ 
+<img class="images" src="Math1CH1P2C1_SVG1.svg" alt="Number Line A">
+</div>
+<hr style=" background-color:#83d8d418;"><br>
+<div style="text-align: center;" class="MsoNormal">
+$B = \{x \in \mathbb{R} | -3 > x \geq 2\}$ 
+<img class="images" src="Math1CH1P2C1_SVG1.svg" alt="Number Line B">
+</div>
+<br><br>
+<p class="MsoNormal">ب) $A$ را با نمایش اعضا و $B$ را به‌صورت یک بازه بنویسید.</p>
+
+<p class="MsoNormal">
+
+    $$
+    \begin{align*}
+    A &= \{  \qquad \qquad \qquad \qquad \} \\ \\
+    B &= 
+    \end{align*}
+    $$
+ </p>
+<br><br>
+<p class="MsoNormal">پ) در مورد $A$، اگر مجموعهٔ مرجع را $\mathbb{Z}$ در نظر بگیریم، $A'$ را مشخص کنید.</p>
+<br><br>
+<p class="MsoNormal">ت) در مورد $B$ با فرض اینکه $\mathbb{R}$ مجموعهٔ مرجع باشد، $B'$ را مشخص کنید و آن را روی محور نمایش دهید.</p>
+<img class="images" src="Math1CH1P2C1_SVG2.svg" >
+
+
+
+
+<br> <hr style="background-color: #d6d1da99;"> <br>
+
+<p class="MsoNormal">
+    کتابخانه آیت‌الله العظمی مرعشی نجفی (ره)، در شهر مقدس قم یکی از بزرگ‌ترین کتابخانه‌های جهان اسلام است که کتاب‌های نفیس و قدیمی بسیاری را در موضوعات مختلف در خود جای داده است. این کتابخانه از نظر فراوانی نسخه‌های خطی، نخستین کتابخانه کشور و سومین کتابخانه جهان اسلام به‌شمار می‌رود. جدول زیر اطلاعات مختصری دربارهٔ تعداد کتاب‌های این کتابخانه در اختیار ما قرار می‌دهد.
+    </p>
+    
+    <table style="text-align: center;" class="table">
+        <tr>
+            
+            <th>نوع کتاب</th>
+            <th>تعداد</th>
+        </tr>
+        <tr>
+            <td>کتاب‌های خطی</td>
+            <td>42000 جلد</td>
+            
+        </tr>
+        <tr>
+            <td>کتاب‌های چاپی</td>
+            <td>1000000 جلد</td>
+            
+        </tr>
+        <tr>
+            <td>کل کتاب‌ها</td>
+            <td>1042000 جلد</td>
+           
+        </tr>
+    </table>
+
+
+    <br><hr><br>
+
+
+
+    <div class="MsoStep">کار در کلاس</div>
+<br>
+    <p class="MsoNormal">۱) اگر $U$ مجموعهٔ شامل تمام استان‌های کشورمان باشد و $A$ مجموعهٔ استان‌های غیرساحلی، آنگاه $A'$ را با نمایش اعضای آن بنویسید.</p>
+    <img class="images" src="Math1CH1P2C1_png1.png">
+    <br>
+    <p class="MsoNormal">۲) فرض کنیم $U$ مجموعهٔ تمام اتومبیل‌های پلاک‌گذاری شدهٔ کشور و $B$ مجموعهٔ اتومبیل‌های با پلاک فرد باشد. در این صورت $B'$ چه مجموعه‌ای خواهد بود؟</p>
+    <img class="images" src="Math1CH1P2C1_png2.png"
+    <br>
+    <p class="MsoNormal">۳) با فرض اینکه $N$ مجموعهٔ مرجع باشد، هر مجموعه را به متمم خودش وصل کنید.</p>
+
+    <table style="direction: ltr; text-align:left"
+        <tr>
+            <td>{1, 3, 5, 7, 9, ...}</td>
+            <td>{1, 4, 6, 8, 9, 10, 12, 14, ...}</td>
+        </tr>
+        <tr>
+            <td>{3, 6, 9, 12, ...}</td>
+            <td>{2, 4, 6, 8, 10, ...}</td>
+        </tr>
+        <tr>
+            <td>{1, 2, 3, 9, ...}</td>
+            <td>{1, 2, 4, 5, 7, 8, ...}</td>
+        </tr>
+        <tr>
+            <td>{2, 3, 5, 7, 11, 13, ...}</td>
+            <td>{10, 11, 12, 13, 14, ...}</td>
+        </tr>
+    </table>
+    <br><br>
+
+    <p class="MsoNormal">۴) $U$ مجموعه مرجع و $A$ زیرمجموعه دلخواهی از آن می‌باشد. طرف دوم تساوی‌های زیر را بنویسید.</p>
+
+    <p class="MsoNormal" style="text-align: left;">
+    $\emptyset' =$<br>
+    $U' =$<br>
+    $A \cup A' =$<br>
+    $A \cap A' =$
+    </p>
+    <br>
+    <p class="MsoNormal">۵) 
+    الف) اگر $Z$ را به‌عنوان مجموعه مرجع در نظر بگیریم، آنگاه $N'$ را با نوشتن اعضای آن مشخص کنید.<br><br>
+    ب) اگر $R$ را به‌عنوان مجموعه مرجع در نظر بگیریم، در این صورت $N'$ را روی محور نمایش دهید.
+    </p>
+
+    <br><br>
+
+    <p class="MsoNormal">۶) فرض کنیم $U = \{1, 2, 3, 4, 5\}$ مجموعه مرجع باشد و $A = \{1, 2, 3\}$ و $B = \{2, 4\}$. ابتدا $A'$ و $B'$ را بنویسید و سپس جدول‌های زیر را کامل کنید. از هر قسمت چه نتیجه‌ای می‌گیرید؟</p>
+<br><br>
+<p class="MsoNormal" style="text-align: left;">
+$A' = \{ \qquad   \qquad \qquad \}$ <br>
+$B' = \{  \qquad \qquad \qquad \}$ 
+</p>
+<br>
+<div style=" display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: flex-end;
+    flex-wrap: nowrap;
+    align-items: flex-end;">
+
+
+
+<table style="text-align: center; max-width:300px">
+    <tr>
+        <td style="border: none;"></td>
+        <th>$(A')'$</th>
+    </tr>
+    <tr>
+        <td style="border: none;">$\Rightarrow (A')' = A$</td>
+        <td>$\{1, 2, 3\}$</td>
+    </tr>
+</table>
+
+
+<hr style="background-color: #64E9E199;">
+
+
+
+<table style="text-align: center;   max-width:300px" >
+    <tr>
+        <td style="border: none;"></td>
+        <th>$A' \cap \ \ B'$</th>
+       
+        
+    </tr>
+    <tr>
+        <td style="border: none;"></td>
+        <td>$\{ \qquad \qquad \qquad \}$</td>
+    </tr>
+    <tr>
+        <td style="border: none;"></td>
+        <th>$(A \cup B)'$</th>
+    </tr>
+    <tr>
+        <td style="border: none;">$\Rightarrow  \qquad ..... \qquad = \qquad ..... $</td>
+        <td>$\{ \qquad \qquad \qquad \}$</td>
+    </tr>
+    <tr>
+        <td style="border: none;"></td>
+        <th>$A \cup B$</th>
+    </tr>
+    <tr>
+        <td style="border: none;"></td>
+       
+        <td>$\{ \qquad \qquad \qquad \}$</td>
+    </tr>
+
+</table>
+
+
+<hr style="background-color: #64E9E199;">
+
+
+
+<table style="text-align: center;   max-width:300px" >
+    <tr>
+        <td style="border: none;"></td>
+        <th>$A \cap B$</th>
+       
+        
+    </tr>
+    <tr>
+        <td style="border: none;"></td>
+        <td>$\{ \qquad \qquad \qquad \}$</td>
+    </tr>
+    <tr>
+        <td style="border: none;"></td>
+        <th>$(A \cap B)'$</th>
+    </tr>
+    <tr>
+        <td style="border: none;">$\Rightarrow  \qquad ..... \qquad = \qquad ..... $</td>
+        <td>$\{ \qquad \qquad \qquad \}$</td>
+    </tr>
+    <tr>
+        <td style="border: none;"></td>
+        <th>$A' \cup \ \ B'$</th>
+    </tr>
+    <tr>
+        <td style="border: none;"></td>
+       
+        <td>$\{ \qquad \qquad \qquad \}$</td>
+    </tr>
+
+</table>
+
+
+
+<hr style="background-color: #64E9E199;">
+
+
+
+<table style="text-align: center;   max-width:300px" >
+    <tr>
+        <td style="border: none;"></td>
+        <th>$A - B$</th>
+       
+        
+    </tr>
+    <tr>
+        <td style="border: none;"></td>
+        <td>$\{ \qquad \qquad \qquad \}$</td>
+    </tr>
+    <tr>
+        <td style="border: none;"></td>
+        <th>$A - (A \cap B)$</th>
+    </tr>
+    <tr>
+        <td style="border: none;">$\Rightarrow \qquad .....  \ \ =  \ \ ..... \ \ =  \ \ ..... $</td>
+        <td>$\{ \qquad \qquad \qquad \}$</td>
+    </tr>
+    <tr>
+        <td style="border: none;"></td>
+        <th>$A \cap B'$</th>
+    </tr>
+    <tr>
+        <td style="border: none;"></td>
+       
+        <td>$\{ \qquad \qquad \qquad \}$</td>
+    </tr>
+
+</table>
+
+</div>
+<br><br>
+
+<p class="MsoNormal">
+    ۷) الف) فرض کنیم $A \subseteq B \subseteq U$ که در آن $U$ مجموعهٔ مرجع است. در نمودارهای مقابل $A'$ و $B'$ را مشخص کنید و سپس تعیین کنید که آیا بین $A'$ و $B'$ هم رابطهٔ زیر مجموعه بودن برقرار است؟ چگونه؟
+    </p>
+    <br>
+    <div style="display: inline-flex; align-items:center">
+        <div style="text-align: center;" class="MsoNormal">
+        
+        <img style="width:90%; margin:0 10px" class="images" src="Math1CH1P2C1_SVG3.svg"> 
+        $A'$ را هاشور بزنید
+
+        </div>
+        <div style="text-align: center;" class="MsoNormal" >
+            <img style="width:90%; margin:0 10px" class="images" src="Math1CH1P2C1_SVG3.svg" class="MsoNormal"> 
+            $B'$ را هاشور بزنید
+            </div>
+    </div>
+    <br><br><br>
+    <p class="MsoNormal">
+    ب) اگر $U = \{a, b, c, d, e\}$ مجموعهٔ مرجع باشد و $A = \{a, b\}$ و $B = \{a, b, c\}$، در این صورت $A \subseteq B$ می‌باشد. با بدست آوردن $A'$ و $B'$ نشان دهید که بین $A'$ و $B'$ هم رابطهٔ زیر مجموعه بودن برقرار است.
+    </p>
+  
+
+    
+<br><br><hr style="background-color:#D6D1DA99;"><br>
+
+
+
+<p class="MsoStep" style="opacity:0.6;">نرخ بیکاری</p>
+
+<p class="MsoNormal">
+جمعیت در سن کار در یک کشور را به‌عنوان مجموعه مرجع یعنی $U$ در نظر می‌گیریم و فرض می‌کنیم $A$ نشان‌دهنده مجموعه افراد شاغل این کشور باشد. در این صورت $A'$ برابر مجموعه افراد بیکار و نسبت $\frac{n(A')}{n(U)}$ بیانگر نرخ بیکاری آن کشور خواهد بود.
+</p>
+
+<br><hr><br>
+<p class="MsoSub">تعداد عضوهای اجتماع دو مجموعه</p>
+
+<p class="MsoNormal">
+در سال گذشته دیدیم که اگر $A$ یک مجموعه متناهی باشد، آنگاه برای نشان دادن تعداد عضوهای آن از علامت $n(A)$ استفاده می‌شود. مثلاً اگر $G = \{2, 3, 5, 7\}$ در این صورت می‌نویسیم $n(G) = 4$. در این بخش می‌خواهیم رابطه‌ای برای $n(A \cup B)$ بدست آوریم.
+</p>
+
+<br><hr><br>
+
+<div class="MsoStep">فعالیت</div>
+
+<p class="MsoNormal">
+۱) یک تیم کوهنوردی متشکل از ۴ دانش‌آموز و ۳ دانشجوی عضو یک مؤسسه طرفدار محیط زیست است. اعضای این تیم به‌طور داوطلبانه، در روزهای جمعه هر هفته کوه‌های اطراف شهر خود را از وجود زباله پاک‌سازی می‌کنند.
+</p>
+<br>
+<p class="MsoNormal">
+    اعضای دانش‌آموز این تیم مجموعه $   A = \{\text{آتنا}, \text{زهرا}, \text{الناز}, \text{الهام}\}$ و اعضای دانشجویی آن مجموعه $B = \{\text{فاطمه}, \text{معصومه}, \text{فرزانه}\} $ هستند. همان‌گونه که دیده می‌شود، این دو مجموعه هیچ عضو مشترکی ندارند؛ به‌عبارت دیگر $A \cap B = \emptyset$.
+    </p>
+    <br>
+<p class="MsoNormal">
+به دو مجموعه مثل $A$ و $B$ که فاقد عضو مشترک باشند، دو مجموعهٔ جدا از هم یا **مجزا** می‌گوییم.
+</p>
+
+<br>
+<p class="MsoNormal">
+    الف) اعضای $A \cup B$ را که بیانگر اعضای تیم کوهنوردی تیم می‌باشد، بنویسید و جدول زیر را تکمیل کنید.
+    </p>
+    
+    <p class="MsoNormal" style="text-align: left;">
+    $A \cup B =$
+    </p>
+    
+    <table class="table" style="text-align: center;">
+        <tr>
+            <th>$n(A \cap B)$</th>
+            <th>$n(A \cup B)$</th>
+            <th>$n(B)$</th>
+            <th>$n(A)$</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>۴</td>
+        </tr>
+    </table>
+    <br><br>
+    <p class="MsoNormal">
+    ب) تعداد عضوهای $A \cup B$ چه رابطه‌ای با $n(A)$ و $n(B)$ دارد؟ این رابطه را به‌صورت یک فرمول بنویسید.
+    </p>
+    <br><br>
+    <p class="MsoNormal">
+    پ) تحت چه شرایطی این فرمول برای دو مجموعه دلخواه $A$ و $B$ برقرار است؟
+    </p>
+    <br><br>
+
+    <p class="MsoNormal">
+        ۲) الف) مجموعه شماره‌ده‌های طبیعی دو عدد ۲۸ و ۳۰ را به ترتیب $A$ و $B$ می‌نامیم. موارد خواسته شده را بنویسید.
+        </p>
+        
+        <p class="MsoNormal" style="text-align: left;">
+       $A = \{\qquad  \}$ $\Rightarrow n(A) = ۶$  : مجموعه شماره‌ده‌های عدد ۲۸ <br>
+         $B = \{\qquad \}$ $\Rightarrow n(B) =$ : مجموعه شماره‌ده‌های عدد ۳۰<br>
+        $A \cap B = \{\}$ $\Rightarrow n(A \cap B) =$  : مجموعه مشترک عدد ۲۸ و ۳۰<br>
+        $ \qquad \qquad \qquad \qquad \qquad \qquad  A \cup B = \{\}$ $\Rightarrow n(A \cup B) =$
+        </p>
+        <br><br>
+        <p class="MsoNormal">
+        ب) جدول زیر را کامل کنید.
+        </p>
+        
+        <table class="table" style="text-align:center;">
+            <tr>
+                <th>n(A ∪ B)</th>
+                <th>n(A ∩ B)</th>
+                <th>n(B)</th>
+                <th>n(A)</th>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>۶</td>
+            </tr>
+        </table>
+
+        <br><br>
+        <p class="MsoNormal">
+            پ) چرا رابطه‌ای را که در فعالیت (۱) بدست آوردید؛ یعنی $n(A \cup B) = n(A) + n(B)$ در این مثال برقرار نیست؟
+            </p>
+            <br><br>
+            <p class="MsoNormal">
+            ت) با تکمیل نمودار مقابل، سعی کنید رابطه درست برای $n(A \cup B)$ را حس بزنید.
+            </p>
+            <br><br>
+            <p class="MsoNormal">
+            همان‌طور که دیدیم، اگر $A$ و $B$ دو مجموعه متناهی دلخواه باشند، داریم:
+            </p>
+            <br>
+            <div >
+                <p class="MsoNormal" style="text-align: center;" >
+                    $n(A \cup B) = n(A) + n(B) - n(A \cap B)$
+                </p>
+            </div>
+            <br><br>
+            <p class="MsoNormal">
+            با توجه به نمودار فوق، در مورد علت درستی این رابطه با دوستان خود بحث کنید.
+            </p>
+            <br><hr><br>
+            <div class="MsoStep">کار در کلاس</div>
+
+            <p class="MsoNormal">
+            ۱) یک دوره جشنواره فیلم کوتاه با شرکت ۲۱ فیلم در موضوعات مختلف در حال برگزاری است که در بین آنها ۷ فیلم پویانمایی (کارتونی) و ۸ فیلم طنز وجود دارد، بطوری که ۳ تا از فیلم‌های پویانمایی با مضمون طنز می‌باشند. مطلوب است تعداد کل فیلم‌هایی که:
+            </p>
+<br>
+            <p class="MsoNormal">
+            الف) پویانمایی 
+            $\text{یا}$
+            طنزند.<br>
+            ب) غیرپویانمایی 
+            $\text{و}$
+            غیر طنزند.
+            </p>
+            <br>
+            <p class="MsoNormal"><strong>روش اول حل:</strong> مجموعه شامل تمام فیلم‌ها را با $U$، مجموعه فیلم‌های پویانمایی را با $C$ و مجموعه فیلم‌های طنز را با $T$ نشان می‌دهیم. جای‌های خالی را پرکنید و جواب‌ها را بیابید.</p>
+            <br>
+            <p class="MsoNormal">
+            الف) $$n(C \cup T) = n(C) + n(T) - n(C \cap T) = ۷ + \cdots - \cdots = \cdots$$
+            </p>
+<br>
+            <p class="MsoNormal">
+            ب) $$n(C' \cup T') = n(U) - n(C \cup T) = \cdots - \cdots = \cdots$$
+            </p>
+
+            <br>
+
+            <p class="MsoNormal"><strong>روش دوم حل:</strong> در نمودار ون نمایش داده شده، دو مجموعه $C$ و $T$ سطح درون $U$ را به چهار ناحیه جداگانه تقسیم کرده‌اند که عدد مربوط به هر کدام از نواحی نوشته شده است. با نوشتن اعداد مربوط به دو قسمت دیگر، جواب قسمت‌های (الف) و (ب) را بیابید.</p>
+            <br><br>
+            <p class="MsoNormal">
+            ۲) در یک کلاس ۲۵ نفری، تعداد ۱۵ نفر عضو تیم فوتبال و ۱۱ نفر عضو تیم بسکتبال کلاس هستند. اگر ۱۰ نفر از دانش‌آموزان این کلاس عضو هیچ‌یک از این دو تیم نباشند، مشخص کنید چند نفر از آنها عضو هر دو تیم هستند.
+            </p>
+            <br>
+            <p class="MsoNormal"><strong>روش اول حل:</strong> با تکمیل نمودار ون مقدار $X$ را بیابید.</p>
+<br>
+
+
+            <p class="MsoNormal"><strong>روش دوم حل:</strong> چون ۵ نفر عضو هیچ‌یک از این دو تیم نیستند، پس $n(B \cup F) = ۲۰$. حال با نوشتن فرمول $n(B \cup F)$ می‌توان $n(B \cap F)$ را بدست آورد.</p>
+<br>
+
+<br><hr>
+
+
+
+            <div class="MsoStep">تمرین</div>
+            <p class="MsoNormal">
+            ۱) $R$ را به‌عنوان مجموعه مرجع در نظر بگیرید و سپس متمم هر یک از مجموعه‌های زیر را روی محور نشان دهید.
+            </p>
+            <br>
+            <p class="MsoNormal" style="text-align:left;">
+            $A = [-۲, ۳)$  (الف)<br>
+            $B = \{۰, ۱, ۲, ۳, ۴, \dots\}$ (ب) <br>
+           $C = (۰, +\infty)$  (پ) <br>
+           $D = (-\infty, ۱]$  (ت) 
+            </p>
+            <br>
+            <p class="MsoNormal">
+                ۲) $N$ را به‌عنوان مجموعه مرجع در نظر بگیرید.
+                </p>
+                <br>
+                <p class="MsoNormal">
+                الف) مجموعه‌ای نامتناهی مثل $A$ مثال بزنید که $A'$ هم نامتناهی باشد.
+                </p>
+                <br> 
+                <p class="MsoNormal">
+                ب) مجموعه‌ای نامتناهی مثل $B$ مثال بزنید که $B'$ متناهی باشد.
+                </p>
+                <br>
+                <p class="MsoNormal">
+                پ) مجموعه‌ای متناهی مثل $C$ مثال بزنید و $C'$ را بدست آورید. $C'$ متناهی است یا نامتناهی؟
+                </p>
+
+                <br><br>
+
+                <p class="MsoNormal">
+                    ۳) اگر
+                    $n(A) = 15$
+                    ، $n(A \cap B) =  5$ 
+                    و
+                    $n(A \cup B) = 30$
+                    ،
+                    آنگاه 
+                    $n(B)$
+                    را محاسبه کنید.
+                    </p>
+                    
+                    <br><br>
+                    
+                    <p class="MsoNormal">
+                    ۴) فرض کنیم $A$ و $B$ زیرمجموعه‌هایی از مجموعه مرجع $U$ باشند، به‌طوری که $n(U) = ۱۰۰$، $n(A) = 60$، $n(B) = ۴۰$ و $n(A \cap B) = ۲۰$. مطلوب است:
+                    </p>
+                    
+                    <p class="MsoNormal" style="text-align: left;">
+                    $n(A \cup B)$ (الف) <br>
+                    $n(A \cap B')$  (ب)<br>
+                    $n(A' \cap B) $   (پ)<br>
+                    $n(A' \cap B') $   (ت)
+                    </p>
+                    
+                    <br>
+                    
+                    <p class="MsoNormal">
+                    ۵) در یک کلاس ۳۱ نفری، تعداد ۱۴ نفر از دانش‌آموزان عضو گروه سرود و ۱۹ نفر آنها عضو گروه تئاترند. اگر ۱۰ نفر از دانش‌آموزان این کلاس عضو هیچ‌یک از این دو گروه نباشند، مطلوب است:
+                    </p>
+                    <br>
+                    <p class="MsoNormal">
+                    (الف) تعداد دانش‌آموزانی که فقط عضو گروه سرودند.<br>
+                    (ب) تعداد دانش‌آموزانی که عضو هیچ‌یک از این دو گروه نیستند.
+                    </p>
+                    
+                    <br><br>
+                    
+                    <p class="MsoNormal">
+                    ۶) در یک نظرسنجی از ۱۱۰ مشتری یک فروشگاه زنجیره‌ای، مشخص شد که ۷۰ نفر آنها در یک ماه گذشته از محصولات شرکت $A$ و ۵۷ نفرشان از محصولات شرکت $B$ خرید کرده‌اند. همچنین ۳۲ نفر از آنان نیز اعلام کردند که در این مدت از هر دو شرکت خرید کرده‌اند. چه تعداد از این ۱۱۰ نفر در یک ماه گذشته:
+                    </p>
+                    <br>
+                    <p class="MsoNormal">
+                    (الف) دست‌کم از یکی از این دو شرکت خرید کرده‌اند.<br>
+                    (ب) فقط از شرکت $A$ خرید کرده‌اند.<br>
+                    (پ) دقیقاً از یکی از این دو شرکت خرید کرده‌اند.<br>
+                    (ت) از هیچ‌یک از این دو شرکت خرید نکرده‌اند.
+                    </p>
+
+    </body>
+
+
+</html>

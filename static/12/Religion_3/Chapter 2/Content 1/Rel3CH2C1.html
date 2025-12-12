@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #badaff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .box {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+    <body class="custom-scrollbar">
+
+
+        <p class="MsoBold">درس دوم: یگانۀ بی‌همتا</p>
+
+        <br>
+        
+        <p class="MsoNormal">«خدای من! مرا این عزت بس که بندهٔ تو باشم و این افتخار بس که تو پروردگار منی، خدای من! تو همان‌گونه‌ای که من دوست دارم، پس مرا همان‌گونه قرار ده که تو دوست داری.»</p><br>
+        <p class="MsoNormal">امام علی (ع)</p><br>
+        
+        <p class="MsoNormal">مهم‌ترین اعتقاد دینی «توحید و یکتاپرستی» است. اسلام دین توحید و قرآن کتاب توحید است. در اسلام بدون اعتقاد به توحید هیچ اعتقاد دیگری اعتبار ندارد. توحید سرلوحهٔ دعوت همهٔ پیامبران بوده است. خداوند در قرآن کریم اخلاق، احکام و همهٔ اعمال فردی و اجتماعی مؤمنان را بر مدار توحید قرار داده است. توحید مانند روحی در پیکرهٔ معارف و احکام دین حضور دارد و به آن حیات و معنا می‌بخشد؛ از این‌رو شایسته است دربارهٔ ابعاد این اصل اساسی بیشتر بیندیشیم:</p><br>
+        
+        <p class="MsoNormal">1ــ حقیقت توحید چیست و مراتب آن کدام‌اند؟</p><br>
+        <p class="MsoNormal">2ــ مرز میان توحید و شرک چیست؟</p><br>
+        <p class="MsoNormal">3ــ آیا درخواست از غیر خدا مساوی با شرک است؟</p><br>
+        
+        <br><hr><br>
+        <p class="MsoNormal">توحید و برخی مراتب آن</p><br>
+        
+        <p class="MsoNormal">توحید به معنای اعتقاد به خدای یگانه است؛ یعنی خدا بی‌همتاست و شریکی ندارد و این بیانگر اصل و حقیقت توحید است. رسول خدا (ص)، از همان آغاز رسالت خود، از مشرکان می‌خواست با گفتن جملهٔ «لا إله إلّا الله» دست از شرک و بت‌پرستی بردارند و به خدای یگانه ایمان آورند. با گفتن این عبارت، تمام احکام و حقوق اسلامی فرد به رسمیت شناخته می‌شود و دفاع از حقوق او بر دیگر مسلمانان واجب می‌گردد و در زمرهٔ برادران و خواهران دینی قرار می‌گیرد. بنابراین، جمله «لا إله إلّا الله» فقط یک شعار نیست بلکه پایبندی به آن، همهٔ زندگی فرد مسلمان را در رابطه با خدا، خویشتن، خانواده، اجتماع و دیگر مخلوقات تغییر می‌دهد.</p><br>
+        
+        <p class="MsoNormal">توحید و یگانگی خداوند مراتبی دارد که به برخی از این مراتب می‌پردازیم:</p><br>
+        
+        <p class="MsoNormal">توحید در خالقیت:</p><br>
+        <p class="MsoNormal">توحید در خالقیت عبارت از این است که معتقد باشیم خداوند تنها مبدأ و خالق جهان است، موجودات همه مخلوق او هستند و در کار آفرینش شریک و همتایی ندارد.</p><br>
+        <p class="MsoNormal">«اللَّهُ خَالِقُ کُلِّ شَیْءٍ...»<br>خدا آفرینندهٔ هر چیزی است...</p><br>
+        <br>
+        <p class="MsoNormal">توحید در مالکیت:</p><br>
+        <p class="MsoNormal">از آنجا که خداوند تنها خالق جهان است پس تنها مالک آن نیز هست؛ زیرا هر کس که چیزی را پدید می‌آورد، مالک آن است.</p><br>
+        <p class="MsoNormal">«وَ لِلَّهِ مَا فِی السَّمَاوَاتِ وَ مَا فِی الأَرْضِ...»<br>آنچه در آسمان‌ها و آنچه در زمین است، از آن خداست.</p><br>
+        <br>
+        <p class="MsoNormal">توحید در ولایت:</p><br>
+        <p class="MsoNormal">هر کس مالک چیزی باشد حق تصرف و تغییر در آن چیز را دارد، اما دیگران بدون اجازهٔ او نمی‌توانند در آن تصرف یا از آن استفاده کنند. به این حق تصرف، ولایت و سرپرستی می‌گویند.</p><br>
+        <p class="MsoNormal">«...مَا لَهُم مِّن دُونِهِ مِن وَلِیٍّ...»<br>آن‌ها هیچ ولی (سرپرستی) جز او ندارند.</p><br>
+        <p class="MsoNormal">از آنجا که خداوند، تنها مالک جهان است تنها ولی و سرپرست جهان نیز هست و مخلوقات، جز به اجازهٔ او نمی‌توانند در جهان تصرف کنند. چنین اجازه‌ای به معنی واگذاری ولایت خداوند به دیگری نیست، بلکه بدین معناست که خداوند آن شخص را در مسیر و مجرای ولایت خود قرار داده است.</p><br>
+        <br>
+        <p class="MsoNormal">توحید در ربوبیت:</p><br>
+        <p class="MsoNormal">رب به معنای مالک و صاحب اختیاری است که تدبیر و پرورش مخلوق به دست اوست. هر کس که خالق و مالک و ولی چیزی باشد می‌تواند آن را تدبیر کرده و پرورش دهد. از آنجا که خداوند تنها خالق، مالک و ولی جهان است، تنها رب هستی نیز می‌باشد. اوست که جهان را اداره می‌کند و آن را به سوی مقصدی که برایش معین فرموده هدایت می‌نماید و به پیش می‌برد.</p><br><br>
+        <p class="MsoNormal">البته باید به این نکته توجه داشت که توحید در ربوبیت بدان معنا نیست که موجودات، به خصوص انسان، نقشی در پرورش و تدبیر سایر مخلوقات ندارند؛ باغبانی که زحمت می‌کشد و به پرورش درختان اقدام می‌کند، رشد این درختان نتیجهٔ تدبیر اوست. بلکه، توحید در ربوبیت بدین معناست که این باغبان و تدبیرش همه از آن خدا و تحت تدبیر او هستند.</p><br><br>
+        
+        <p class="MsoNormal">کشاورز وقتی خود را با دیگران، یعنی کسانی که در کشت زمین او دخالتی نداشته‌اند، مقایسه می‌کند می‌بیند که این کشت حاصل دسترنج خودش است، اما وقتی رابطهٔ خود را با خدا بررسی می‌کند، می‌بیند که هم خودش و هم نیرو و توانش از آن خداست و کشت و زرع او براساس استعدادی که خداوند در آن قرار داده رشد کرده و محصول داده است. در نتیجه، درمی‌یابد که زارع حقیقی و پرورش‌دهندهٔ اصلی زراعت او خداست و باید شکرگزار او باشد.</p><br>
+        
+        <p class="MsoNormal">«قُلْ أَغَیْرَ اللَّهِ أَبْغِی رَبًّا وَ هُوَ رَبُّ کُلِّ شَیْءٍ...»<br>بگو: آیا جز خدا پروردگاری را بطلبم درحالی‌که او پروردگار همه چیز است؟</p><br>
+        
+        <br><hr><br>
+        <p class="MsoStep">شرک و مراتب آن</p><br>
+        
+        <p class="MsoNormal">شرک به معنای شریک قرار دادن برای خدا است. هر کس که معتقد باشد خداوند شریک دارد مشرک به‌حساب می‌آید. شرک نیز مانند توحید درجاتی دارد که متناسب با درجات توحید، به برخی از آن‌ها می‌پردازیم:</p><br>
+        <br>
+        <p class="MsoNormal">شرک در خالقیت:</p><br>
+        <p class="MsoNormal">اگر کسی معتقد باشد که این جهان را چند خالق آفریده‌اند، گرفتار شرک در خالقیت شده است.</p><br>
+        <p class="MsoNormal">سؤال: چرا خداوند در آفرینش جهان شریکی ندارد؟</p><br>
+        <p class="MsoNormal">این تصور که چند خدا وجود دارد و هرکدام خالق بخشی از جهان‌اند، یا با همکاری یکدیگر این جهان را آفریده‌اند، به معنای آن است که هرکدام از آن‌ها محدود و ناقص هستند و به‌تنهایی نمی‌توانند کل جهان را خلق کنند. همچنین به معنای آن است که هر یک از خدایان کمالاتی دارند که دیگری آن کمالات را ندارد وگرنه عین همدیگر می‌شوند و دیگر چند خدا نیستند. چنین خدایان ناقصی، خود، نیازمند هستند و هر یک از آن‌ها به خالق کامل و بی‌نیازی احتیاج دارد که نیازش را برطرف نماید. پس تصور چند خدایی صحیح نیست و خدای واحد آفرینندهٔ جهان است.</p><br>
+        <br>
+        <p class="MsoNormal">شرک در مالکیت:</p><br>
+        <p class="MsoNormal">اعتقاد به این‌که علاوه بر خداوند و در کنار او، دیگران هم مالک بخشی از جهان هستند. اگر کسی معتقد به شرک در خالقیت باشد، معتقد به شرک در مالکیت نیز خواهد بود.</p><br>
+        <br>
+        <p class="MsoNormal">شرک در ولایت:</p><br>
+        <p class="MsoNormal">اعتقاد به این‌که علاوه بر خداوند و در کنار او، دیگرانی نیز هستند که سرپرستی جهان را بر عهده دارند و خودشان حق تصرف در جهان را دارا می‌باشند.</p><br>
+        <br>
+        <p class="MsoNormal">شرک در ربوبیت:</p><br>
+        <p class="MsoNormal">اعتقاد به این‌که علاوه بر خداوند و در کنار او، دیگرانی نیز هستند که تدبیر امور موجودات را برعهده دارند. اگر کسی در کنار ربوبیت الهی، برای خود یا سایر مخلوقات حساب جداگانه باز کند و گمان کند که کسی می‌تواند مستقل از خداوند، امور را تدبیر کند گرفتار شرک شده است.</p><br>
+        
+
+
+<br><hr><br>
+
+
+<div class="box">
+        <p class="MsoStep" style="opacity:0.6;">بیشتر بدانیم</p> 
+<p class="MsoNormal">مثال زیر می‌تواند ما را در درک بهتر یکتایی خداوند کمک کند: دریای بدون ساحل و بیکرانی را فرض کنید که از هیچ جهت محدود نباشد؛ نه از جهت عمق و ارتفاع و نه از جهت طول و عرض، یعنی از هر جهت بیکران باشد. آیا با این فرض می‌توان دریای دومی را در کنار این دریا قرار داد؟</p><br><br>
+<p class="MsoNormal">روشن است که این دریا، جای خالی برای دریای دیگر قرار نمی‌دهد. «واحد قهار» بودن خداوند که در آیه ۱۶ سوره رعد بیان شده، به معنای آن است که جای خالی برای غیر باقی نگذاشته است تا آن غیر، خود را نشان دهد.</p>
+</div>
+<br><hr><br>
+
+<p class="MsoStep">تدبر در قرآن</p>
+<p class="MsoNormal">الف) با توجه به اهمیت سورهٔ توحید و جایگاه آن در قرآن کریم، در آیات این سوره تدبر کنید و پیام‌های آن را به‌دست آورید.</p><br><br>
+<p class="MsoNormal">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ</p><br><br>
+<p class="MsoNormal">قُلْ هُوَ اللَّهُ أَحَدٌ (۱) اللَّهُ الصَّمَدُ (۲) لَمْ يَلِدْ وَلَمْ يُولَدْ (۳) وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ (۴)</p><br><br>
+<p class="MsoNormal">۱ــ .......................................................</p><br>
+<p class="MsoNormal">۲ــ .......................................................</p><br>
+<p class="MsoNormal">۳ــ .......................................................</p><br><br>
+<p class="MsoNormal">ب) با توجه به آیه ۱۶ سورهٔ رعد، به سؤالات زیر پاسخ دهید:</p><br><br>
+<p class="MsoNormal">قُلْ مَن رَّبُّ السَّمَاوَاتِ وَالْأَرْضِ قُلِ اللَّهُ قُلْ أَفَاتَّخَذْتُم مِّن دُونِهِ أَوْلِيَاءَ لَا يَمْلِكُونَ لِأَنفُسِهِمْ نَفْعًا وَلَا ضَرًّا قُلْ هَلْ يَسْتَوِي الْأَعْمَى وَالْبَصِيرُ أَمْ هَلْ تَسْتَوِي الظُّلُمَاتُ وَالنُّورُ أَمْ جَعَلُوا لِلَّهِ شُرَكَاءَ خَلَقُوا كَخَلْقِهِ فَتَشَابَهَ الْخَلْقُ عَلَيْهِمْ</p><br>
+<p class="MsoNormal">بگو: پروردگار آسمان‌ها و زمین کیست؟ بگو: خداست. بگو: آیا غیر از او سرپرستانی گرفته‌اید که حتی اختیار سود و زیان خود را ندارند؟ بگو: آیا نابینا و بینا برابر است؟ یا تاریکی‌ها و روشنایی برابرند؟ آیا برای خدا شریکانی قرار داده‌اند که همانند او آفریده باشند و آفرینش بر آنان مشتبه شده باشد؟</p><br><br>
+<p class="MsoNormal">۱ــ فاعل در عبارت «خَلَقوا» ضمیر «واو» است که به شرکاء برمی‌گردد.</p><br><br>
+<p class="MsoNormal">۲ــ کسی را می‌توانیم به عنوان رب خود انتخاب کنیم که .......................................................</p><br>
+<p class="MsoNormal">۳ــ کسی که اختیار سود و زیان .................................. نمی‌تواند ..................................</p><br>
+<p class="MsoNormal">۴ــ در چه صورت جا داشت که مردم در اعتقاد به توحید در شک بیفتند؟</p>
+
+<br><hr><br>
+
+<p class="MsoStep">طرح چند سؤال</p>
+<p class="MsoNormal">مرز توحید و شرک کجاست؟ آیا اگر کسی پزشک را وسیلهٔ درمان و بهبود بیماری بداند مشرک است؟ آیا اگر کسی از غیر خدا درخواست کمک کند گرفتار شرک شده است؟ آیا اگر کسی دعا را وسیلهٔ جلب مغفرت الهی و صدقه را وسیلهٔ دفع بلا بداند مشرک است؟ و بالاخره، آیا توسل به پیامبران و معصومین (ع) شرک به حساب می‌آید؟</p><br><br>
+<p class="MsoNormal">در پاسخ به سؤال‌های فوق می‌گوییم: اولاً خداوند رابطهٔ علّی ترا میان پدیده‌های جهان حاکم کرده است. آتش موجب گرما و روشنایی و دارو سبب شفا و بهبودی است. پزشک وسیلهٔ درمان، معمار عامل بنای ساختمان و معلم نیز وسیلهٔ تعلیم و تربیت است.</p><br><br>
+<p class="MsoNormal">در امور معنوی نیز همین‌گونه است. دعا سبب آمرزش، صدقه موجب دفع بلا، و صلهٔ رحم موجب افزایش طول عمر است. همهٔ این روابط توسط خود خداوند طراحی شده و به اذن و ارادهٔ او صورت می‌گیرد. بنابراین، کسی که برای آموختن نزد معلم می‌رود، یا برای درمان به پزشک مراجعه می‌کند، نه تنها معلم و پزشک را شریک خداوند قرار نداده، بلکه به قانون الهی عمل کرده است.</p><br><br>
+<p class="MsoNormal">ثانیاً همان‌گونه که درخواست از پزشک برای درمان بیمار با توحید منافاتی ندارد، درخواست از اولیای الهی برای اجابت خواسته‌ها نیز منافاتی با توحید ندارد؛ زیرا پزشک به واسطهٔ استفاده از اسباب مادی و اولیای الهی به واسطهٔ اسباب غیر مادی و با اذن خداوند این کار را انجام می‌دهند.</p><br><br>
+<p class="MsoNormal">عقیده به توانایی پیامبر اکرم (ص) و اولیای دین (ع) در برآوردن حاجات انسان (مانند شفا دادن) وقتی موجب شرک است که این توانایی را از خود آن‌ها و مستقل از خدا بدانیم. اما اگر این توانایی را صرفاً از خدا و انجام آن را با درخواست اولیا از خداوند و به اذن خدا بدانیم عین توحید است و از این جهت مانند اثر شفابخشی داروست که خداوند به آن بخشیده است. این توانایی تنها به زمان حیات دنیوی پیامبر اکرم (ص) اختصاص ندارد و پس از رحلت ایشان نیز استمرار دارد. به عبارت دیگر، روح مطهر رسول خدا (ص) پس از رحلت زنده است و می‌تواند به انسان‌ها یاری برساند.</p><br><br>
+<p class="MsoNormal">اکنون اگر ما از رسول خدا (ص) چیزی درخواست کنیم، درخواست از جسم ایشان نیست، بلکه از حقیقت روحانی و معنوی ایشان است. آیا اگر کسی از پدر و مادرش و یا هر مؤمنی بخواهد که برای سعادتمندی او دعا کند، چنین درخواستی شرک‌آلود است؟ هیچ گروهی از مسلمانان، غیر از جریانی که امروزه به «تکفیری‌ها» مشهور شده، چنین درخواستی را شرک‌آلود نمی‌دانند.</p><br><br>
+<p class="MsoNormal">جریان تکفیری در سال‌های اخیر برخی از جوامع و کشورهای اسلامی را گرفتار خود کرده است. پیروان این جریان فکری خشک و غیرعقلانی با تفکر غلطی که دربارهٔ توحید و شرک دارند، هر مسلمانی را که مانند آن‌ها نمی‌اندیشد، مشرک و کافر می‌خوانند و گاه کشتن او را واجب می‌شمارند. پیروان این جریان می‌گویند توسل به پیامبران و معصومین شرک است. طلب دعا و شفیع قرار دادن دیگران برای این‌که خدا انسان را ببخشد، شرک است و همچنین معتقدند این‌گونه افراد کافر هستند و مسلمان محسوب نمی‌شوند. متأسفانه این جریان، بزرگ‌ترین ضربه را بر اسلام وارد کرد و سبب تنفر برخی از مردم جهان از دین اسلام شد.</p><br><br>
+
+<br><hr><br>
+
+<p class="MsoStep">هم‌اندیشی</p>
+<p class="MsoNormal">به نظر شما، چرا دقیقاً در زمانی که مسلمانان در پرتو بیداری اسلامی، در حال معرفی اسلام حقیقی به مردم جهان بودند و حتی جمعیت کشورهای صنعتی به سرعت در حال تغییر به نفع مسلمانان بود، چنین جریانی شکل گرفت؟</p><br><br>
+
+<br><hr><br>
+
+<p class="MsoStep">دانش تکمیلی (1)</p>
+<p class="MsoNormal">جریان «تکفیری» که این روزها گروه‌های مختلف با نام‌های گوناگونی را شامل می‌شود، ریشه در یک جریان تاریخی در تاریخ اسلام دارد. برای شناخت ریشه‌های تاریخی این جریان، به وبگاه گروه قرآن و معارف اسلامی به نشانی <a href="http://quran-dept.talif.sch.ir">http://quran-dept.talif.sch.ir</a> بخش «دانش تکمیلی» مراجعه کنید.</p><br><br>
+
+<br><hr><br>
+
+<p class="MsoStep">بیشتر بدانیم</p>
+<p class="MsoNormal">ذکر نمونه‌هایی از توسل در قرآن کریم:</p><br><br>
+<p class="MsoNormal">۱ــ قرآن کریم نقل می‌کند که فرزندان یعقوب از پدرشان درخواست کردند که برای آن‌ها طلب آمرزش کند و یعقوب نیز به آنان وعدهٔ دعا داد.</p><br><br>
+<p class="MsoNormal">۲ــ قرآن کریم بیان می‌کند که استغفار پیامبر در حق گنهکاران مؤثر است:</p><br><br>
+<p class="MsoNormal">«وَلَوْ أَنَّهُمْ إِذ ظَلَمُوا أَنفُسَهُمْ جَاءُوكَ فَاسْتَغْفَرُوا اللَّهَ وَاسْتَغْفَرَ لَهُمُ الرَّسُولُ لَوَجَدُوا اللَّهَ تَوَّابًا رَحِيمًا»</p><br><br>
+<p class="MsoNormal">اگر آنان وقتی به خود ستم کرده بودند، پیش تو می‌آمدند و از خدا آمرزش می‌خواستند و پیامبر برای آنان طلب آمرزش می‌کرد، قطعاً خدا را توبه‌پذیر مهربان می‌یافتند.</p><br><br>
+<p class="MsoNormal">همچنین در تاریخ آمده است که مسلمانان در زمان پیامبر برای درخواست دعا نزد آن حضرت می‌آمدند. پس از رحلت ایشان نیز کنار قبر ایشان می‌رفتند و یا از دور درخواست خود را مطرح می‌کردند.</p>
+
+<br><hr><br>
+
+<p class="MsoStep">دانش تکمیلی (2)</p>
+<p class="MsoNormal">آیا تبرک جستن به قبور یا بارگاه اولیای الهی شرک به حساب می‌آید؟ پاسخ به این سؤال را در وبگاه گروه قرآن و معارف به نشانی <a href="http://quran-dept.talif.sch.ir">http://quran-dept.talif.sch.ir</a> بخش «دانش تکمیلی» مشاهده کنید تا ببینید که جز همین گروه‌های تکفیری و ریشه‌های تاریخی آنان، هیچ‌یک از فرقه‌های مسلمان و علمای اسلامی این امور را شرک به حساب نمی‌آورند.</p>
+
+<br><hr><br>
+<p class="MsoStep">اندیشه و تحقیق</p>
+<p class="MsoNormal">باور به توحید در خالقیت، مالکیت، ولایت و ربوبیت چه تأثیری در زندگی ما می‌گذارد؟</p>
+
+
+<br><br><br><br><br>
+
+
+
+
+
+
+
+    </body>
+
+
+</html>

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 900px;
+            margin: auto;
+            font-size: clamp(1rem, 2.5vw, 2rem);
+        }
+
+        span {
+            font-size: clamp(1rem, 2.4vw, 2rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 2.5vw, 2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.5rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.1rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #badaff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+
+        .images {
+            width: -webkit-fill-available;
+            display: block;
+            max-width: 300px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+    </style>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+<body>
+<div>
+    <p class="MsoBold">گفتار 3 : تنوع تبادلات گازی</p>
+    <p class="MsoNormal">
+    در تک یاخته‌ای‌ها (شکل 17) و جانورانی مانند هیدر که همۀ یاخته‌های بدن نمی‌توانند با محیط تبادلات گازی داشته باشند، ساختار ویژه‌ای برای تنفس وجود ندارد؛ 
+    اما در سایر جانوران، ساختارهای تنفسی ویژه‌ای مشاهده می‌شود که ارتباط یاخته‌های بدن را با محیط فراهم می‌کنند. 
+    در این جانوران، چهار روش اصلی برای تنفس مشاهده می‌شود که عبارت‌اند از تنفس نایدیسی، تنفس پوستی، تنفس آبششی و تنفس ششی.
+    </p>
+    <br>
+    
+    <p class="MsoStep">تنفس نایدیسی</p>
+    <p class="MsoNormal">
+    نایدیس‌ها، لوله‌های منشعب و مرتبط به هم هستند که از طریق منافذ تنفسی به خارج راه دارند (شکل 18). منافذ تنفسی در ابتدای نایدیس قرار دارند. نایدیس به انشعابات کوچک‌تری تقسیم می‌شود. 
+    انشعابات پایانی، که در کنار همۀ یاخته‌های بدن قرار می‌گیرند، بن‌بست بوده و دارای مایعی است که تبادلات گازی را ممکن می‌کند؛ 
+    حشرات چنین تنفسی دارند. در این جانوران دستگاه گردش مواد، نقشی در انتقال گازهای تنفسی ندارد.
+    </p>
+    <br>
+    
+    <p class="MsoStep">تنفس پوستی</p>
+    <p class="MsoNormal">
+    در تنفس پوستی، شبکۀ مویرگی زیرپوستی با مویرگ‌های فراوان وجود دارد و گازها با محیط اطراف از طریق پوست مبادله می‌شوند. 
+    سطح پوست در جانورانی که تنفس پوستی دارند، مرطوب نگه داشته می‌شود. 
+    کرم خاکی تنفس پوستی دارد. تنفس پوستی در دوزیستان نیز وجود دارد (شکل 19).
+    </p>
+    <br>
+    
+    <p class="MsoStep">تنفس آبششی</p>
+    <p class="MsoNormal">
+    ساده‌ترین آبشش‌ها، برجستگی‌های کوچک و پراکندۀ پوستی هستند، مانند آبشش‌های ستارۀ دریایی (شکل 20). 
+    در سایر بی‌مهرگان، آبشش‌ها به نواحی خاص محدود می‌شوند. 
+    ماهیان و نوزاد دوزیستان نیز آبشش دارند (شکل 21). 
+    تبادل گاز از طریق آبشش، بسیار کارآمد است. جهت حرکت خون در مویرگ‌ها، و عبور آب در طرفین تیغه‌های آبششی، برخلاف یکدیگر است.
+    </p>
+    <br>
+    
+    <p class="MsoStep">تنفس ششی</p>
+    <p class="MsoNormal">
+    حلزون از بی‌مهرگان خشکی زی است که برای تنفس، از شش استفاده می‌کند. 
+    در مهره‌داران شش‌دار سازوکارهایی وجود دارد که باعث می‌شود جریان پیوسته‌ای از هوای تازه در مجاورت بخش مبادل‌های برقرار شود. 
+    این ساز و کارها به سازوکارهای تهویه‌ای شهرت دارند. مهره‌داران دو نوع سازوکار متفاوت در تهویه دارند؛ 
+    مثلاً قورباغه به کمک ماهیچه‌های دهان و حلق، با حرکتی شبیه «قورت دادن» هوا را به شش‌ها می‌راند؛ 
+    به این ساز و کار پمپ فشار مثبت می‌گویند (شکل 22). 
+    در انسان ساز و کار فشار منفی وجود دارد که در آن، هوا به وسیلۀ مکش حاصل از فشار منفی قفسه سینه، به شش‌ها وارد می‌شود.
+    پرندگان به علت پرواز، نسبت به سایر مهره‌داران انرژی بیشتری مصرف می‌کنند و بنابراین به اکسیژن بیشتری نیاز دارند. 
+    پرندگان علاوه بر شش، دارای ساختارهایی به نام کیسه‌های هوادار هستند که کارایی تنفس آنها را نسبت به پستانداران افزایش می‌دهد (شکل 23).
+    </p>  
+
+</div>
+</body>
+
+
+</html>

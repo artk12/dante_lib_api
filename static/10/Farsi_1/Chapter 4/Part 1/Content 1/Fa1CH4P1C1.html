@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #badaff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #722a85;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background-color: #1abbbbe1; /* Scrollbar thumb color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color: #05ffe2;
+        }
+    </style>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+<body class="custom-scrollbar">
+
+
+    <div class="MsoBold">گونه شناسی</div>
+    <div class="MsoStep">ادبیات سفر و زندگی</div>
+
+    <div class="MsoNormal">
+        چـون بـه بصـره رسـیدیم، از برهنگـی و عاجزی بـه دیوانگان ماننده بودیم، و سـه مـاه بود که مـویسـر، بـاز نکرده بودیم و می‌خواسـتم که در گرمابه َروم، باشـد که گرم شـوم که هوا سـرد بـود و جامـه نبـود و مـن و بـرادرم هـر یک لُنگی کهنه پوشـیده بودیـم و پلاس پارهای در پشـت بسـته از سـرما. گفتـم اکنـون ما را که در ح ّمـام گذارد؟ خورجینی که بود که کتـاب در آن می‌نهادم، بفروختـم و از بهـای آن ِدَرَمـی چنـد، سـیاه، در کاغذی کردم که به گرمابه باندهم، تاباشـد که ما را َدَمکـی زیادت تـر در گرمابـه بگـذارد که شـوخ از خود باز کنیم.
+        </div><br>
+        
+        <div class="MsoNormal">
+        چـون آندرمکها پیش او نهـادم، در مـا نگریسـت؛ پنداشـت کـه ما دیوانه‌ایم. گفـت: «بروید که هم‌اکنون مـردم از گرمابه بیرون می‌آیند»، و نگذاشـت که ما به گرمابه دررویم. از آنجا با خجالت بیرون آمدیم و به شـتاب برفتیـم. کـودکان بـر در گرمابـه، بازی می‌کردند؛ پنداشـتند که مـا دیوانگانیم. در پی مـا افتادند و سنگ میانداختند و بانـگ می‌کردند.
+        </div><br>
+        
+        <div class="MsoNormal">
+        ما به گوشـهای بازشـدیم و به تعجب در کار دنیامی‌نگریسـتیم و ُمکاری از ما سیدینار مغربی می‌خواسـت، و هیـچ چـاره ندانسـتیم، جز آنکـه وزیـر َملِک اهـواز، که او را ابوالفتـح علی بن احمد می‌گفتند، مردی اهل بود و فضل داشـت از شـعر و ادب، و هم کرمی تمام، به بصره آمده بود؛ پس مرا در آن حال با مردی پارسـی که هم از اهل فضل بود آشـنایی افتاده بود و او را با وزیر، صحبتی بودی و این [مرد] پارسـی هم دسـتتنگ بود و وسـعتی نداشـت که حال مرا مر ّمتی کند.
+        </div><br>
+        
+        <div class="MsoNormal">
+        احوال مـرا نـزد وزیـر بازگفـت. چـون وزیر بشـنید، مردی را با اسـبی نزدیک من فرسـتاد کـه «چنانکه هسـتی برنشـین و نزدیک من آی.» من از بدحالی و برهنگی، شـرم داشـتم و رفتن مناسب ندیدم. رقعهای نوشـتم و عذری خواسـتم و گفتم که «بعد از این به خدمت رسـم.»
+        </div><br>
+        
+        <div class="MsoNormal">
+        و غرض من دو چیز بـود: یکـی بـینوایـی؛ دّویم گفتـم همانا اورا تص ّورشـود که مرا در فضل، مرتبهای اسـت زیادت، تا چـون بـر رقعـۀ من اطلاع یابـد، قیاس کند که مرا اهلیت چیسـت، تا چون بـه خدمت او حاضر شـوم، خجالت نبرم.
+        </div><br>
+        
+        <div class="MsoNormal">
+        درحال، سـیدینار فرسـتاد که این را به بهـای َت َنجامهبدهید. از آن، دودسـت جامۀ نیکو سـاختیم و روز سـیوم به مجلس وزیر شـدیم. مردی اهل و ادیب و فاضل و نیکومنظر و متواضـع دیـدم و متد ّیـن و خوشسـخن. مـا را بـه نزدیک خویـش بازگرفت، و از ا ّول شـعبان تا نیمۀ رمضان آنجا بودیم، و آنچه، آن اعرابی کرای شـتر بر ما داشـت، به سـی دینار، هم این وزیر بفرمـود تـا بدو دادند و مـرا از آن رنج آزاد کردند.
+        </div><br>
+        
+        <div class="MsoNormal">
+        خدای، تبارک و تعالی، همۀ بندگان خود را از عذاب قرض و دین فرج دهد، بِحِّق الحق و اهلِه، و چـون بخواسـتیم رفـت، مـا را بـه اِنعـام و اِکرام به راه دریا گسـیل کـرد؛ چنان کـه در کرامت و فـراغ بـه پارس رسـیدیم. از بـرکات آن آزادمرد، که خدای عز و جل، از آزادمردان خشـنود باد.
+        </div><br>
+        
+        <div class="MsoNormal">
+        بعد از آنکه حال دنیاوی ما نیک شـده بود و هر یک لباسـی پوشـیدیم، روزی به در آن گرمابه شـدیم کـه مـا را در آنجـا نگذاشـتند. چـون از در، دررفتیم، گرمابهبـان و هرکه آنجـا بودند، همه بـرپـایخاسـتند و بایسـتادند؛ چنـدانکـه مـا در حّمـام شـدیم، و دّلاک و قّیـم در آمدند و خدمت کردند و بـه وقتـی کـه بیـرون آمدیـم، هرکه در َمسـلَخ گرمابه بود، همه برپای خاسـته بودند و نمینشسـتند، تـا مـا جامه پوشـیدیم و بیـرون آمدیم.
+        </div><br>
+        
+        <div class="MsoNormal">
+        ودر آن میانه [شـنیدم] حّمامـی به یاری از آ ِن خـود می‌گفـت: «ایـن جوانـان آنانانـد کـه فـلان روز ما ایشـان را در ح ّمام نگذاشـتیم.» و گمـان بردنـد کـه مـا زبـان ایشـان ندانیم. من بـه زبان تـازی گفتـم که: «راسـت می‌گویی، ما آنانیم که پلاس‌پاره‌ها بر پشـت بسـته بودیم.» آن مرد خجل شـد و عذرها خواسـت و این هر دو حـال در مـ ّدت بیسـت روز بـود و این فصل بـدان آوردم تا مردم بدانند که به شـ ّدتی کـه از روزگار پیـش آیـد، نباید نالید و از فضـل و رحمت کـردگار، َج َّل َجلالُه َو َع َّمنَوالُه، ناامید نباید شـد که او، تعالی، رحیم اسـت.
+        </div><br>
+        
+        <p class="MsoNormal">
+            سفر‌نامه ٬ ناصر خسرو
+        </p>
+
+<br><hr>
+
+
+        <div class="MsoBold">
+            کارگاه متن‌پژوهی
+        </div>
+      
+
+        <div class="MsoStep">
+            قلمرو زبانی
+        </div>
+    
+
+        <div class="MsoNormal">
+            1. معانی مختلف واژة «فضل» را با توجه به متن درس بنویسید.
+        </div>
+        <br><br>
+
+        <div class="MsoNormal">
+            2. مترادف هر واژه را بنویسید.
+        </div>
+        <br>
+
+     <table class="tables" style="width: min-content;text-align:center; margin:auto;min-width:300px">
+
+
+        <tr>
+            <th>
+                واژه
+            </th>
+
+            <th>
+                مترادف
+            </th>
+        </tr>
+        <tr>
+            <td>
+                کَرَم
+            </td>
+
+            <td>
+                $\qquad$
+              </td>
+          </tr>
+          <tr>
+              <td>
+                  اِنعـام
+              </td>
+  
+              <td>
+                  $\qquad$
+              </td>
+          </tr>
+          <tr>
+              <td>
+              فراغ
+              </td>
+  
+              <td>
+                  $\qquad$
+              </td>
+          </tr>
+
+
+
+
+
+
+
+     </table>
+        
+
+
+     <br>
+
+
+    
+        <br>
+
+        <div class="MsoNormal">
+            3. در زبان فارسی، کلمه‌ای اهمیت املایی بیشتری دارد که یکی یا چند حرف از حروف شش‌گانه زیر در آن باشد:
+        </div>
+        <br>
+
+        <table class="tables" style="text-align: center;margin:auto; width:max-content;">
+
+            <tr>
+                <th>
+                    ء ٬  ع
+                </th>
+                <td>
+                    $.................$
+                </td>
+                <td>
+                    $.................$
+                </td>
+            </tr>
+
+
+
+            <tr>
+                <th>
+                    ت ٬ ط
+                </th>
+                <td>
+                    $.................$
+                </td>
+                <td>
+                    $.................$
+                </td>
+            </tr>
+
+
+            <tr>
+                <th>
+                    ح ٬ ه
+                </th>
+                <td>
+                    $.................$
+                </td>
+                <td>
+                    $.................$
+                </td>
+            </tr>
+
+
+            <tr>
+                <th>
+                    ذ ٬ ز ٬ ض ٬ ظ
+                </th>
+                <td>
+                    $.................$
+                </td>
+                <td>
+                    $.................$
+                </td>
+
+
+            </tr>
+
+
+
+            <tr>
+                <th>
+                    ث ٬ ش ٬ ص
+                </th>
+                <td>
+                    $.................$
+                </td>
+                <td>
+                    $.................$
+                </td>
+            </tr>
+
+
+
+            <tr>
+                <th>
+                    غ ٬ ق
+                </th>
+                <td>
+                    $.................$
+                </td>
+                <td>
+                    $.................$
+                </td>
+                
+            </tr>
+
+
+
+
+
+        </table>
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+        <div class="MsoNormal">
+            $*$
+            اکنون از متن درس، واژه‌هایی را که این نشانه‌ها در آنها به کار رفته‌اند، بیابید و بنویسید.
+        </div>
+        <br><br>
+
+        <div class="MsoNormal">
+            4. واژه‌ها در گذر زمان، دچار تحول معنایی می‌شوند. برای پی بردن به این موضوع، معنای واژه‌های مشخص‌شده را با کاربرد امروزی آنها مقایسه کنید.
+        </div>
+        <br>
+
+        <div class="MsoNormal">
+            ما را به نزدیک خویش
+            <u style="text-decoration-color: #c370ec;"> بازگرفت. </u>
+             <br>
+            به مجلس وزیر
+            <u style="text-decoration-color: #c370ec;"> شدیم. </u>
+             <br>
+            شوخ از خود
+            <u style="text-decoration-color: #c370ec;"> باز کنیم.   </u>
+        </div>
+        <br>
+
+        <div class="MsoNormal">
+            5. کاربرد معنایی پسوند « ـَــک » را در هر یک از واژه‌های زیر بنویسید.
+        </div>
+        <br> <br>
+
+        <div class="MsoNormal">
+            $*$
+            خورجینک 
+            
+            <br>
+            $*$
+            دَمک 
+            
+            <br>
+            $*$
+            دَرمک
+        </div>
+        <br>
+        <br><hr><br>
+        <div class="MsoStep">
+            قلمرو ادبی
+        </div>
+       
+
+        <div class="MsoNormal">
+            1. در متن درس، نمونه‌ای از تشبیه بیابید و ارکان آن را مشخص کنید.
+        </div>
+        <br>
+        <br>
+        <div class="MsoNormal">
+            2. دو ویژگی برای نثر درس «سفر به بصره» بنویسید.
+        </div>
+        
+
+        <br><hr><br>
+
+        <div class="MsoStep">
+            قلمرو فکری
+        </div>
+        
+
+        <div class="MsoNormal">
+            1. چرا ناصر خسرو دعوت وزیر را نپذیرفت؟
+        </div>
+        <br>
+        <br>
+        <div class="MsoNormal">
+            2. معنا و مفهوم عبارت‌های زیر را به نثر روان بنویسید.
+        </div>
+        <br>
+
+        <div class="MsoNormal">
+            دست‌تنگ بود و وسعتی نداشت که حال مرا مرمتی کند.
+        </div>
+        <br>
+
+        <div class="MsoNormal">
+            چون بر رقعۀ من اطلاع یابد، قیاس کند که مرا اهلیت چیست.
+        </div>
+        <br>
+        <br>
+        <div class="MsoNormal">
+            3. بیت زیر، با کدام قسمت درس ارتباط معنایی دارد؟
+        </div>
+        <br>
+
+        <div class="MsoNormal">
+            دوران روزگار به ما بگذرد بسی <br>
+            گاهی شود بهار، دگر گه خزان شود <br>
+            سعدی
+        </div>
+        <br>
+        <br>
+        <div class="MsoNormal">
+            4. چگونه از پیام‌های درس می‌توانیم برای زندگی بهتر بهره بگیریم؟
+        </div>
+        <br><hr><br>
+
+        <div class="MsoBold">
+            گنج حکمت
+        </div>
+        
+        <div class="MsoStep">
+            شبی در کاروان
+        </div>
+        <br>
+
+        <div class="MsoNormal">
+            یاد دارم که شبی در کاروانی همه شب رفته بودم و سحر در کنار بیشه‌ای خفته. شوریده‌ای که در آن سفر همراه ما بود، نعره‌ای برآورد و راه بیابان گرفت و یک نفس آرام نیافت. چون روز شد، گفتمش: «آن چه حالت بود؟» گفت: «بلبلان را دیدم که به نالش درآمده بودند از درخت و کبکان از کوه و غوکان در آب و‌های ما از بیشه؛ اندیشه کردم که مروّت نباشد همه در تسبیح و من به غفلت، خفته.»
+        </div>
+        <br>
+
+        <div class="MsoNormal">
+            دوش٬ مرغی به صبح می‌نالید <br>
+            عقل و صبرم ببرد و طاقت و هوش <br>
+            یکی از دوستان مخلص را <br>
+            مگر آواز من رسید به گوش <br>
+            گفت باور نداشتم که تو را <br>
+            بانگ مرغی چنین کند مدهوش <br>
+            گفتم این شرط آدمّیت نیست <br>
+            مرغ، تسبیح گوی و من خاموش
+        </div>
+        <br>
+
+        <div class="MsoNormal">
+            گلستان، سعدی
+        </div>
+        <br>
+
+
+
+
+
+        <br><br><br>
+    
+    </body>
+
+
+</html>

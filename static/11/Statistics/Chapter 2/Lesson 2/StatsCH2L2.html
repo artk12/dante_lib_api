@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi {
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSemic,
+        li.MsoSemic,
+        div.MsoSemic {
+            margin: 0in;
+           
+            font-size: clamp(1.2rem, 1.6vw, 1.3rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #b19af2;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #6ca4ec;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .boxp {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .boxg {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#00f2ff11; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        .boxb {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#0c4e9f2d; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        ::selection {
+            background-color: #59078fa1; /* Change this to your desired highlight color */
+            color: #ffffff; /* Change this to your desired text color */
+          }
+
+
+          mark{
+            background-color:#078b8fa1 ;
+            color: #ffffff;
+            padding: 0 7px;
+        }
+
+        .hlg { background-color: rgba(0, 234, 255, 0.334);  }
+        .hlp { background-color:#5f1487; }
+      
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+<body class="custom-scrollbar">
+
+    <p class="MsoBold">درس ۲</p>
+<p class="MsoBold">احتمال غیر هم‌شانس</p>
+<p class="MsoNormal">
+    نتایج بسیاری از آزمایش‌ها و اتفاق‌هایی که در آینده رخ می‌دهند، از قبل مشخص نیست، ولی می‌توان شانس یا احتمال وقوع آنها را از قبل تعیین کرد؛ مثلاً در پرتاب یک تاس سالم، شانس مشاهدهٔ هرکدام از اعداد با یکدیگر برابر است، ولی در مسابقه‌های گروهی، شانس قهرمانی تیم‌ها، لزوماً با یکدیگر برابر نیست. قبل از برگزاری جام جهانی ۲۰۱۴ فوتبال، شانس قهرمانی تیم‌ها به صورت زیر مشخص شده بود:
+</p>
+<br>
+<div class="custom-scrollbar" style="overflow-x: auto; overflow-y: hidden; direction: rtl;">
+    <table class="MsoNormal" style="margin: auto; width: fit-content; direction: rtl; text-align: center;">
+        <tr>
+            <th>تیم</th>
+            <th>احتمال قهرمانی</th>
+        </tr>
+        <tr>
+            <td>برزیل</td>
+            <td>۰.۲۵</td>
+        </tr>
+        <tr>
+            <td>آلمان</td>
+            <td>0.166</td>
+        </tr>
+        <tr>
+            <td>آرژانتین</td>
+            <td>0.181</td>
+        </tr>
+        <tr>
+            <td>اسپانیا</td>
+            <td>۰.۱۲۵</td>
+        </tr>
+        <tr>
+            <td>بلژیک</td>
+            <td>0.066</td>
+        </tr>
+        <tr>
+            <td>فرانسه</td>
+            <td>0.047</td>
+        </tr>
+        <tr>
+            <td>کلمبیا</td>
+            <td>0.043</td>
+        </tr>
+        <tr>
+            <td>هلند</td>
+            <td>۰.۰۴۳</td>
+        </tr>
+        <tr>
+            <td>بقیه تیم‌ها</td>
+            <td>0.079</td>
+        </tr>
+    </table>
+    <Br>
+</div>
+<br><br>
+<p class="MsoNormal">
+    و جالب این است که چهار تیم راه‌یافته به مرحلهٔ نیمه‌نهایی، از هشت تیم نخست جدول فوق بودند. دنیای پیرامون ما سرشار از پیشامدهای غیرهم‌شانس است. به نظر شما احتمال بارش باران و آفتابی بودن هوا در تمام روزهای سال با یکدیگر برابر است؟
+</p>
+
+<br><hr><br>
+
+<p class="MsoStep">فعالیت</p>
+<p class="MsoNormal">
+    یک تاس طوری ساخته شده که روی سه وجه آن عدد ۱، روی دو وجه آن عدد ۲ و روی وجه باقی‌مانده عدد ۳ مشاهده می‌شود. اگر این تاس را پرتاب کنیم:
+</p>
+<br>
+<p class="MsoNormal">
+    ۱. فضای نمونهٔ این آزمایش تصادفی را بنویسید.
+</p>
+<p class="MsoNormal">
+    $$S = \{ ... \, , \, ... \, , \, ... \}$$
+</p>
+
+<br><br>
+<p class="MsoNormal">
+    2.
+    با توجه به اینکه عدد ۱ روی سه وجه این تاس قرار دارد، احتمال اینکه این عدد بعد از پرتاب دیده شود را به‌دست آورید.
+</p>
+<p class="MsoNormal">
+    $$A = \{ 1 \} \implies P(A) = \dfrac{...}{...}  $$
+</p>
+<br>
+<p class="MsoNormal">
+    $-$
+        آیا می‌توانید از رابطهٔ $P(A) = \frac{n(A)}{n(S)}$ برای محاسبه احتمال وقوع پیشامد $A$ استفاده کنید؟ چرا؟
+</p>
+<br>
+<p class="MsoNormal">
+    $*$
+    هر زیرمجموعه تک‌عضوی از فضای نمونه‌ای را یک پیشامد ساده می‌گوییم. در پیشامدهای ساده، معمولاً به‌جای $P(\{ a \})$ می‌نویسیم $P(a)$.
+</p>
+<br><br>
+<p class="MsoNormal">
+    3.
+    مشابه قسمت قبل، یعنی با توجه به تعداد وجوهی از تاس که اعداد ۲ و ۳ روی آنها نوشته شده است، احتمال وقوع پیشامدهای ساده $C = \{ 2 \}$ و $B = \{ 3 \}$ را به‌دست آورید.
+</p>
+<p class="MsoNormal">
+    $$P \{ 2 \} = \dots \quad , \quad P \{ 3 \} = \dots$$
+</p>
+<br><br>
+<p class="MsoNormal">
+    ۴. آیا احتمال وقوع پیشامدهای ساده $A$، $B$، $C$ با یکدیگر برابرند؟ توضیح دهید.
+</p>
+<br><br>
+<p class="MsoNormal">
+    5.
+    به کمک نتایج قسمت‌های قبل، مجموع احتمال‌های ساده را به‌دست آورید.
+</p>
+<p class="MsoNormal">
+    $$P \{ 1 \} + P \{ 2 \}  + P \{ 3 \} = \dots + \dots + \dots = \dots$$
+</p>
+<br><br>
+<p class="MsoNormal">
+    6.
+    اگر $D = \{ 1, 2 \}$ پیشامد مشاهده اعداد $1$ یا $2$ در پرتاب تاس باشد، مقدار $P(D)$ را به‌دست آورید. این مقدار را با $P \{ 1 \} + P \{ 2 \} $ مقایسه کنید.
+</p>
+<br>
+<p class="MsoNormal">
+    $*$
+    همان‌طور که در فعالیت بالا مشاهده می‌کنید، در فضای نمونه‌ای $S$ احتمال وقوع پیشامدهای ساده با یکدیگر برابر نیستند.
+</p>
+
+<br><hr><br>
+
+<p class="MsoNormal">
+    هرگاه حداقل دو پیشامد ساده از فضای نمونه‌ای $S = \{s_1, s_2, \dots, s_n\}$ احتمال نابرابر داشته باشند، $S$ را فضای نمونه‌ای با احتمال غیرهم‌شانس می‌گوییم.
+</p>
+<br><Hr><Br>
+
+<p class="MsoNormal">
+    در احتمال غیرهم‌شانس نیز مانند احتمال هم‌شانس که در سال‌های گذشته خوانده‌ایم، خواص زیر برقرارند:
+</p>
+<br><hr><Br>
+    <p class="MsoNormal">
+        در فضای نمونه‌ای متناهی با احتمال غیرهم‌شانس، اگر $S = \{s_1, s_2, \dots, s_n\}$ و $A = \{a_1, a_2, \dots, a_k\}$ فضای نمونه‌ای و یک زیرمجموعهٔ عضوی $S$ باشد، همواره داریم:
+    </p>
+    <div class="MsoNormal" style="text-align: left; direction:ltr;">
+        <p class="MsoNormal">
+            $1.\quad 0 \leq P(A) \leq 1$
+        </p>
+        <p class="MsoNormal">
+            $2.\quad P(S) = 1$
+        </p>
+        <p class="MsoNormal">
+            $3.\quad P(A) = P(a_1) + P(a_2) + \dots + P(a_k)$
+        </p>
+    </div>
+<br>
+<p class="MsoNormal">
+    با استفاده از خاصیت (۲) و (۳) می‌توانیم نتیجهٔ زیر را بگیریم:
+</p>
+<p class="MsoNormal">
+    $P(S) = P(s_1) + P(s_2) + \dots + P(s_n) = 1$
+</p>
+
+
+<br><Br>
+
+
+<p class="MsoSemi" style="font-size: larger;">مثال:</p>
+<p class="MsoNormal">
+    در یک مسابقهٔ چهارجانبه فوتبال، تیم‌های $a$ , $b$ , $c$ و $d$ حضور دارند. اگر احتمال قهرمانی تیم‌های $a$ , $b$ و $c$ با
+    یکدیگر برابر باشند، ولی احتمال قهرمانی تیم $d$، دو برابر هر یک از تیم‌های دیگر باشد، احتمال قهرمانی هر یک از تیم‌ها را
+    به دست می‌آوریم.
+</p>
+<Br>
+<p class="MsoNormal">
+    فرض کنید احتمال قهرمانی تیم $a$ برابر $x$ باشد، یعنی $P(a) = x$. از آنجایی که شانس قهرمانی تیم‌های $a$ , $b$ و $c$ برابرند، پس
+    $P(b) = P(c) = x$. از سوی دیگر احتمال قهرمانی تیم $d$، دو برابر تیم‌های دیگر است، پس $P(d) = 2P(a) = 2x$. 
+</p>
+<br>
+<p class="MsoNormal">
+    با توجه به اینکه فضای نمونه‌ای در این مسئله $S = \{a, b, c, d\}$ است، بنابراین:
+</p>
+<p class="MsoNormal">
+    $$P(a) + P(b) + P(c) + P(d) = 1$$
+</p>
+<br>
+<p class="MsoNormal">
+    با جای‌گذاری احتمال‌ها برحسب $x$، به تساوی زیر می‌رسیم:
+</p>
+<p class="MsoNormal">
+    $$x + x + x + 2x = 1$$
+</p>
+<p class="MsoNormal">
+    پس $5x = 1$ و در نتیجه $x = \dfrac{1}{5}$. 
+</p>
+<p class="MsoNormal">
+    بنابراین:
+</p>
+<p class="MsoNormal" style="text-align: center;">
+    $$P(a) = P(b) = P(c) = \frac{1}{5}$$ و $$P(d) = 2 \times \frac{1}{5} = \frac{2}{5}$$
+</p>
+<p class="MsoNormal">
+    احتمال قهرمانی هر یک از تیم‌ها عبارت است از:
+</p>
+<p class="MsoNormal" style="text-align: center;">
+    $$P(a) = P(b) = P(c) = \frac{1}{5}$$ و $$P(d) = \frac{2}{5}$$
+</p>
+
+
+
+
+
+<br><hr><Br>
+
+
+<p class="MsoStep">کار در کلاس</p>
+
+
+<p class="MsoNormal">
+    ۱. در یک آزمایش تصادفی، فضای نمونه‌ای $S = \{x, y, z\}$ است. اگر $P(\{x, z\}) = \dfrac{1}{2}$ و $P(\{x, y\}) = \dfrac{2}{3}$، احتمال وقوع هر یک از
+    پیشامدهای ساده را به‌دست آورید.
+</p>
+<br>
+<p class="MsoSemi">حل:</p>
+<p class="MsoNormal">
+    با توجه به اینکه $x$ , $y$ و $z$ همه اعضای فضای نمونه‌ای هستند، $P(x) + P(y) + P(z) = 1$. همچنین با توجه
+    به فرض 
+    $P( \{ x, y \} ) = \dfrac{2}{3}$
+،
+
+  پس:
+
+  $ P (x) + P (y) = \dfrac{2}{3} $
+،
+
+  بنابراین با توجه به تساوی بالا
+  ،
+  $ P (z) = \dfrac{...}{...} $ 
+  .
+
+  <br>
+
+  از سوی دیگر،
+  $ P ( \{ x, z \} ) = \dfrac{1}{2} $
+  ،
+  پس:
+  $ P(x) + P(z) = \dfrac{1}{2}$
+ .
+ از قرار دادن
+ $P(z)$
+
+در این تساوی
+$P(x) = \dfrac{...}{...}$
+به‌دست می‌آید.
+اکنون این مقدار را در تساوی
+
+$ P(x) + P(y) = \dfrac{2}{3} $
+قرار دهید و مقدار
+$P(y)$
+را به‌دست آورید:
+
+$ P(y) = \dfrac{...}{...} $
+
+</p>
+
+
+<br><br>
+
+<p class="MsoNormal">
+    ۲. یک تاس به گونه‌ای ساخته شده که احتمال وقوع هر عدد زوج، سه برابر احتمال وقوع هر عدد فرد است. در پرتاب این
+    تاس، احتمال اینکه یکی از اعداد $2$ یا $3$ مشاهده شود را به‌دست آورید.
+</p>
+<Br>
+<p class="MsoNormal">
+
+    در این سوال،
+    $ P(a) = 3 P (b) $
+
+    که در آن $a$
+    یک عدد زوج و
+    $b$
+    یک عدد فرد از
+    $1$
+    تا
+    $6$
+    هستند.
+    بنابراین:
+    $$ P(1) = P(3) = ... $$
+    و همچنین:
+    $$ P(2) = P(4) = ... $$
+(چرا؟)
+<br><Br>
+حال اگر
+
+$ P(1) = x $
+،
+سپس
+$ P(2) = 3x $ .
+از رابطه زیر استفاده کرده و با جای‌گذاری احتمال پیشامد‌های ساده بر حسب 
+$x$ ،
+مقدار
+$x$
+را به‌دست آورید.
+
+</p>
+<Br>
+<div class="custom-scrollbar" style="overflow-x: auto;overflow-y:hidden;direction:ltr;">
+<p class="MsoNormal" style="text-align: left; direction:ltr ">
+
+    $
+
+    \begin{align*}
+
+    P(S) = 1 & \implies P(1) + P(2) + P(3) + P(4) + P(5) + P(6)  = 1 \\\\
+    & \implies x + 3x + \, ... \, + \, ... \, + \, ... \, + \, ... \, = 1 \\\\
+    & \implies x =  \, ... \, \\\\
+
+    \end{align*}
+
+    $
+
+
+</p><br>
+</div>
+<br><Br>
+<p class="MsoNormal">
+    اکنون با محاسبه $P(2)$ و $P(3)$ می‌توانید $P(\{2, 3\})$ را تعیین کنید:
+</p>
+<p class="MsoNormal">
+    $$P(\{2, 3\}) = \dots + \dots = \dots$$
+</p>
+
+
+
+<br><Hr><br>
+
+    <p class="MsoStep">تمرین</p>
+<p class="MsoNormal">۱. در پرتاب یک سکه سالم، احتمال آمدن «رو» نصف احتمال آمدن «پشت» است. در پرتاب این سکه، احتمال ظاهر شدن «رو» و احتمال ظاهر شدن «پشت» را به دست آورید.</p>
+<br><br>
+
+
+<p class="MsoNormal">۲. در پرتاب یک تاس، احتمال مشاهده هر عدد، متناسب با همان عدد است. مثلاً احتمال مشاهده عدد $3$، سه برابر احتمال مشاهده عدد $1$ است. اگر این تاس را به هوا پرتاب کنیم، احتمال اینکه عدد مشاهده شده، زوج باشد را تعیین کنید.</p>
+<br><Br>
+
+
+<p class="MsoNormal">۳. اگر $S = \{a, b, c, d, e\}$ فضای نمونه‌ای یک آزمایش تصادفی و $A = \{a, b\}$ و $B = \{a, b, c, d\}$ و $C = \{a, b, e\}$ سه پیشامد باشند، به‌طوری‌که 
+    $P(A) = \dfrac{2}{7}$
+     و 
+     $P(B) = \dfrac{3}{5}$
+     ، مقدار $P(C')$ را به دست آورید.</p>
+<br><br>
+
+
+<p class="MsoNormal">۴. در یک تجربه تصادفی، $S = \{x, y, z\}$ فضای نمونه‌ای است. اگر 
+    $P(x)$ , $P(y)$ , $P(z)$ 
+    ، یک دنباله حسابی با قدر نسبت 
+    $\dfrac{1}{4}$
+    تشکیل دهند، احتمال وقوع هر کدام از این پیشامدها را به دست آورید.</p>
+<Br><Br>
+
+
+    <p class="MsoNormal">۵. در پرتاب یک دارت به یک صفحه دارای شکل، مطابق شکل روبه‌رو که به پنج ناحیه مجزا تقسیم شده است:
+
+    
+        
+        فرض کنید احتمال اصابت دارت به ناحیه اول، $x$ باشد.
+         اگر احتمال اصابت به ناحیه 
+         $k$
+         ام
+          برابر 
+          $ (2k - 1) x $ 
+         باشد:
+    </p>
+    <br>
+    <p class="MsoNormal">
+(الف)
+          احتمال اصابت دارت به هر ناحیه را به دست آورید.</p>
+
+   <br>
+    <p class="MsoNormal">(ب) احتمال اصابت دارت به یکی از ناحیه‌های اول، سوم یا چهارم بیشتر است، یا اصابت به دو ناحیه دوم یا پنجم؟</p>
+    
+<br><br>
+
+
+
+<br><br><br><br><br>
+
+
+    </body>
+
+
+</html>

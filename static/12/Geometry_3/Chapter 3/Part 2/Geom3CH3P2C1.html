@@ -1,0 +1,1409 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi {
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSemic,
+        li.MsoSemic,
+        div.MsoSemic {
+            margin: 0in;
+           
+            font-size: clamp(1.2rem, 1.6vw, 1.3rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #b19af2;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #6ca4ec;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .boxp {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .boxg {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#00f2ff11; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        .boxb {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#0c4e9f2d; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        ::selection {
+            background-color: #59078fa1; /* Change this to your desired highlight color */
+            color: #ffffff; /* Change this to your desired text color */
+          }
+
+
+          mark{
+            background-color:#078b8fa1 ;
+            color: #ffffff;
+            padding: 0 7px;
+        }
+
+        .hlg { background-color: rgba(0, 234, 255, 0.334);  }
+        .hlp { background-color:#5f1487; }
+      
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+    <body class="custom-scrollbar">
+
+      
+
+
+
+<p class="MsoBold">
+            درس دوم:
+                    <br>
+           
+        ضرب داخلی و ضرب خارجی بردارها</p>
+            
+            
+        <p class="MsoNormal">فرض کنید دو بردار \( \overrightarrow{a} = (a_1, a_2) \) و \( \overrightarrow{b} = (b_1, b_2) \) همانند شکل داده شده‌اند. می‌خواهیم زاویه بین این دو بردار (\( \theta \)) را پیدا کنیم.</p>
+        
+        <br><br>
+        <p class="MsoNormal">برای این منظور بردار تفاضل \( \overrightarrow{a} - \overrightarrow{b} \) را نیز در این شکل رسم کرده‌ایم تا مقیاسی به طول اضلاع زیر به‌دست آید.</p>
+        
+        <br><br>
+
+
+    <p class="MsoNormal" style="text-align: left;">
+
+        $
+
+        \begin{align*}
+
+
+        |\overrightarrow{a}| & = \sqrt{a_1^2 + a_2^2} \\ \\
+       
+        |\overrightarrow{b}| & = \sqrt{b_1^2 + b_2^2} \\ \\
+                
+        |\overrightarrow{a} - \overrightarrow{b}| & = \sqrt{(a_1 - b_1)^2 + (a_2 - b_2)^2} \\ \\
+                
+
+
+        \end{align*}
+
+        $
+    </p>
+        
+        
+        <br>
+
+
+        <p class="MsoNormal">
+            
+            اکنون با استفاده از
+            قضیه کسینوس‌ها که سال گذشته آموخته‌اید می‌توان نوشت:</p>
+        <br>
+
+
+        <p class="MsoStep" style="opacity: 0.6;text-align:center">
+
+    عبارت (۱)
+
+        </p>
+<p class="MsoNormal" style="text-align: left;">
+
+        $
+        \begin{align*}
+
+     & \quad  \ \ |\overrightarrow{a} - \overrightarrow{b}|^2  \\ \\
+     
+     &   = \ \  |\overrightarrow{a}|^2 + |\overrightarrow{b}|^2 - 2 |\overrightarrow{a}| |\overrightarrow{b}| \cos \theta  \\ \\
+        
+        
+     &  \Rightarrow \ \ \dfrac{1}{2} ( | \overrightarrow{a} |^2  +  | \overrightarrow{b} |^2  - | \overrightarrow{a} - \overrightarrow{b} |^2 )     \\ \\
+
+     &  = \ \ |\overrightarrow{a}| |\overrightarrow{b}| \cos \theta  \\ \\
+       
+     &  \Rightarrow \ \  \cos \theta = \dfrac{\dfrac{1}{2} ( | \overrightarrow{a} |^2  +  | \overrightarrow{b} |^2  - | \overrightarrow{a} - \overrightarrow{b} |^2 )}{|\overrightarrow{a}| |\overrightarrow{b}|} \\ \\
+
+   
+
+        \end{align*}
+
+
+
+$
+
+</p>
+
+
+<br><br>
+
+
+
+    <p class="MsoNormal">از طرفی صورت کسر فوق را می‌توان با توجه به اندازه‌های اضلاع مثلث که قبلاً محاسبه شده‌اند، به‌صورت زیر ساده کرد.</p>
+    
+    
+    
+    <p class="MsoNormal" style="text-align: left;">
+<br>
+   $
+
+
+     \begin{align*}
+
+
+     = \ \  & \dfrac{1}{2} \ \ (|\overrightarrow{a}|^2 + |\overrightarrow{b}|^2 - |\overrightarrow{a} - \overrightarrow{b}|^2) \\ \\
+
+
+     = \ \  & \dfrac{1}{2}  \ \ ( a_1^2 + a_2^2 + b_1^2 + b_2^2 - (a_1 - b_1)^2 - (a_2 - b_2)^2   ) \\ \\
+      
+     = \ \ & \dfrac{1}{2} \ \ ( 2 a_1 b_1 + 2 a_2 b_2 ) = a_1 b_1 + a_2 b_2
+     
+     
+    \end{align*} 
+     
+  $
+
+<br><br>
+
+    </p>
+
+    <p class="MsoNormal">پس عبارت (۱) به‌صورت زیر به‌دست می‌آید.</p>
+    <p class="MsoNormal">
+$$
+        \cos \theta = \ \ \dfrac{a_1 b_1 + a_2 b_2}{ |\overrightarrow{a}| |\overrightarrow{b}| }
+$$
+    </p>
+
+    <br>
+
+
+    <p class="MsoNormal">(رابطه فوق برای حالتی که دو بردار هم‌راستا باشند نیز برقرار است.)</p>
+
+
+
+<br><br>
+
+
+
+<p class="MsoNormal">با محاسبه عبارت سمت راست و حل معادله مقدار $0 \leq \theta \leq \pi$ به‌دست می‌آید.</p>
+<br>
+<p class="MsoNormal">کمیتی که در صورت این کسر سمت راست است را معمولاً با $\overrightarrow{a} \cdot \overrightarrow{b}$ نشان می‌دهند و به آن حاصل‌ضرب داخلی یا حاصل‌ضرب نقطه‌ای دو بردار $\overrightarrow{a}$ و $\overrightarrow{b}$ می‌گویند. بنابراین می‌توان نوشت:</p>
+<p class="MsoNormal">
+    \[
+    \cos \theta = \dfrac{a_1 b_1 + a_2 b_2}{|\overrightarrow{a}| |\overrightarrow{b}|} = \dfrac{\overrightarrow{a} \cdot \overrightarrow{b}}{|\overrightarrow{a}| |\overrightarrow{b}|}
+    \]
+</p>
+<br>
+<p class="MsoNormal">همچنین از روابط فوق معلوم است که
+    :
+</p>
+<p class="MsoNormal">
+    \[
+    \overrightarrow{a} \cdot \overrightarrow{b} = a_1 b_1 + a_2 b_2 = |\overrightarrow{a}| |\overrightarrow{b}| \cos \theta
+    \]
+</p>
+
+<br>
+<p class="MsoNormal">بطور مشابه حاصل‌ضرب داخلی دو بردار در $\mathbb{R}^3$ نیز قابل تعریف است.</p>
+
+<div class="boxp">
+    <p class="MsoSemi" style="font-size: larger;"><mark>تعریف:</mark></p>
+    <p class="MsoNormal">اگر $\overrightarrow{b} = (b_1, b_2, b_3)$ و $\overrightarrow{a} = (a_1, a_2, a_3)$ دو بردار در $\mathbb{R}^3$ باشند:</p>
+    <p class="MsoNormal">در این‌صورت ضرب داخلی $\overrightarrow{a}$ در $\overrightarrow{b}$ را که با نماد $\overrightarrow{a} \cdot \overrightarrow{b}$ نمایش می‌دهیم به‌صورت زیر تعریف می‌کنیم.</p>
+    <p class="MsoNormal">
+        \[
+        \overrightarrow{a} \cdot \overrightarrow{b} = a_1 b_1 + a_2 b_2 + a_3 b_3
+        \]
+    </p>
+</div>
+<br>
+
+
+
+
+
+<br>
+
+
+
+
+    <p class="MsoNormal">با اثباتی مشابه قبل می‌توان نشان داد که اگر $0 \leq \theta \leq \pi$، زاویه بین دو بردار $\overrightarrow{a}$ و $\overrightarrow{b}$ در $\mathbb{R}^3$ باشد آنگاه:</p>
+    <p class="MsoNormal">
+        \[
+        \overrightarrow{a} \cdot \overrightarrow{b} = |\overrightarrow{a}| |\overrightarrow{b}| \cos \theta
+        \]
+    </p>
+    <p class="MsoNormal">از تعریف ضرب داخلی واضح است که اگر یکی از دو بردار $\overrightarrow{a}$، $\overrightarrow{b}$ صفر باشد آنگاه $\overrightarrow{a} \cdot \overrightarrow{b} = 0$. هر چند که در این حالت زاویه $\theta$ بین دو بردار تعریف نمی‌شود.</p>
+<br><br>
+
+
+
+
+        <p class="MsoSemi" style="font-size: larger;">مثال:</p>
+        <p class="MsoNormal">زاویه بین دو بردار $\overrightarrow{b} = (1, -1, 0)$ و $\overrightarrow{a} = (2, -1, 2)$ را پیدا می‌کنیم.</p>
+ 
+ <br><br>
+
+
+        <p class="MsoSemi">حل:</p>
+        <p class="MsoNormal">ابتدا ضرب داخلی دو بردار را به‌صورت زیر به‌دست می‌آوریم:</p>
+        <p class="MsoNormal">
+            \[
+            \overrightarrow{a} \cdot \overrightarrow{b} = (2 \times 1) + (-1 \times -1) + (2 \times 0) = 3
+            \]
+        </p>
+        <p class="MsoNormal">از طرفی اگر $0 \leq \theta \leq \pi$ زاویه بین دو بردار باشد خواهیم داشت:</p>
+   
+   <br>
+        <p class="MsoNormal" style="text-align: left;"> 
+        $
+
+\begin{align*}
+
+
+
+    &       \overrightarrow{a} \cdot \overrightarrow{b} = |\overrightarrow{a}| |\overrightarrow{b}| \cos \theta  \\\\
+    &       \Rightarrow 3 = \sqrt{2^2 + (-1)^2 + 2^2} \sqrt{1^2 + (-1)^2 + 0^2} \cos \theta \\\\
+    &       \Rightarrow \cos \theta  = \frac{3}{3\sqrt{2}} = \frac{\sqrt{2}}{2} \\\\
+    &       \Rightarrow \theta = \frac{\pi}{4}
+        
+        
+        
+ \end{align*}       
+        
+        $
+        </p>
+
+
+<br><hr>
+
+
+<p class="MsoBold">خواص ضرب داخلی</p>
+
+<p class="MsoNormal" style="direction: ltr; text-align:right"> خاصیت جابجایی $\overrightarrow{a} \cdot \overrightarrow{b} = \overrightarrow{b} \cdot \overrightarrow{a}$
+-۱
+</p>
+<br>
+<p class="MsoSemi" style="font-size:larger">اثبات:</p>
+<p class="MsoNormal" style="text-align: left;">
+ $
+ \begin{align*}
+
+ & \overrightarrow{a} \cdot \overrightarrow{b} \\\\
+  = \ \ & a_1 b_1 + a_2 b_2 + a_3 b_3 \\\\
+  = \ \ & b_1 a_1 + b_2 a_2 + b_3 a_3 \\\\
+  = \ \ & \overrightarrow{b} \cdot \overrightarrow{a}
+
+\end{align*}
+ $
+</p>
+<br><br><br>
+
+
+<p class="MsoNormal">۲- $\overrightarrow{a} \cdot \overrightarrow{a} = |\overrightarrow{a}|^2$</p>
+<p class="MsoSemi" style="font-size:larger">اثبات:</p>
+<p class="MsoNormal" style="text-align: left;">
+    $
+
+    \begin{align*}
+
+
+    & \overrightarrow{a} \cdot \overrightarrow{a}  \\\\
+    
+    = \ \ & a_1 a_1 + a_2 a_2 + a_3 a_3 = a_1^2 + a_2^2 + a_3^2  \\\\
+    
+    = \ \ & |\overrightarrow{a}|^2
+
+
+    \end{align*}
+    $
+</p>
+<br><br><br>
+
+
+
+<p class="MsoNormal">۳- خاصیت توزیع پذیری $\overrightarrow{a} \cdot (\overrightarrow{b} + \overrightarrow{c}) = \overrightarrow{a} \cdot \overrightarrow{b} + \overrightarrow{a} \cdot \overrightarrow{c}$</p>
+<p class="MsoSemi" style="font-size:larger">اثبات:</p>
+
+
+<p class="MsoNormal" style="text-align: left;">
+$
+    \begin{align*}
+  
+    & \overrightarrow{a} \cdot (\overrightarrow{b} + \overrightarrow{c})  \\\\
+    
+    = \ \ & a_1 (b_1 + c_1) + a_2 (b_2 + c_2) + a_3 (b_3 + c_3) \\ \\
+ 
+    = \ \ & a_1 b_1 + a_1 c_1 + a_2 b_2 + a_2 c_2 + a_3 b_3 + a_3 c_3 \\ \\
+
+    = \ \ & a_1 b_1 + a_2 b_2 + a_3 b_3 + a_1 c_1 + a_2 c_2 + a_3 c_3 \\ \\
+   
+    = \ \ & \overrightarrow{a} \cdot \overrightarrow{b} + \overrightarrow{a} \cdot \overrightarrow{c}
+
+    \end{align*}
+$
+</p>
+
+
+<br><br><br>
+
+
+
+
+<p class="MsoNormal">۴- برای دو بردار غیرصفر $\overrightarrow{a}$ و $\overrightarrow{b}$:</p>
+<p class="MsoNormal" style="text-align: left;">
+
+    $a$
+    و
+    $b$
+    بر هم عمود هستند
+
+  
+   $  \overrightarrow{a} \cdot \overrightarrow{b}  = 0  \Leftrightarrow $
+
+</p>
+<br>
+
+<p class="MsoNormal" style="text-align: left;">
+ 
+$$
+
+
+\overrightarrow{a} \cdot \overrightarrow{b} = | \overrightarrow{a} | \ \ | \overrightarrow{b} |  \cos \theta  \Leftrightarrow \cos \theta \Leftrightarrow \theta = \dfrac{\pi}{2}
+
+
+$$
+
+</p>
+
+<br><br><br>
+
+<p class="MsoNormal">۵- $\overrightarrow{a} \cdot \overrightarrow{O} = O$, $\overrightarrow{O} \cdot \overrightarrow{a} = O$</p>
+
+
+
+<br><br><br>
+
+
+
+<div class="MsoNormal">
+    <p>۶ -
+        $
+        
+        | \overrightarrow{a} \cdot \overrightarrow{b} | \ \ \leq  | \overrightarrow{a} | \ \ | \overrightarrow{b} |
+        
+        $
+        
+        
+        (نامساوی کشی شوارتز) منظور از \( |\overrightarrow{a} \cdot \overrightarrow{b}| \) قدر مطلق مقدار \( \overrightarrow{a} \cdot \overrightarrow{b} \) است.</p>
+  
+  
+<p style="text-align: left;">
+$
+
+\begin{align*}
+
+& |  \overrightarrow{a} .  \overrightarrow{b} | \\ \\
+= \ \ & \left| \ \ | \overrightarrow{a} | \ \ |  \overrightarrow{b} |  \cos \theta \ \   \right|  \\ \\
+= \ \ & | \overrightarrow{a} | \ \ |  \overrightarrow{b} | \ \ | \cos \theta | \leq |  \overrightarrow{a} |  \ \ |  \overrightarrow{b} |        
+
+
+\end{align*}
+$
+<br>
+
+</p>
+    <p>که در آخرین نامساوی از \( |\cos \theta| \leq ۱ \) استفاده شده است.</p>
+</div>
+
+
+
+
+<br><hr>
+<div class="MsoBold"> تصویر قائم بردار 
+    
+    <span style="position: relative;">
+    a
+    <span style="position: absolute; top: -0.8em; left: -0.1em;">&rarr;</span>
+  </span>
+  
+  بر بردار <span style="position: relative;">
+   b
+    <span style="position: absolute; top: -0.9em; left: -0.2em;">&rarr;</span>
+  </span></div>
+
+
+<p class="MsoNormal">دو بردار غیرصفر $\overrightarrow{a}$ و $\overrightarrow{b}$ را که زاویه بین آنها $\theta$ است با فرض $0 < \theta < \dfrac{\pi}{2}$ در نظر می‌گیریم. می‌خواهیم تصویر قائم بردار $\overrightarrow{a}$ را بر امتداد بردار $\overrightarrow{b}$ نمایش دهیم:</p>
+<p class="MsoNormal" style="text-align: left;">
+    <br>
+    $
+
+   \begin{align*}
+
+
+    &  ( \overrightarrow{a} - \overrightarrow{a'} ) \cdot \overrightarrow{b} = 0 \\ \\
+    \Rightarrow \ \ & ( \overrightarrow{a} - r \overrightarrow{b}  ) \cdot \overrightarrow{b}  = 0 \\ \\
+    \Rightarrow \ \ & \overrightarrow{a} \cdot \overrightarrow{b} - r \overrightarrow{b} \cdot \overrightarrow{b} = 0 \\ \\
+    \Rightarrow \ \ & r = \dfrac{ \overrightarrow{a} \cdot \overrightarrow{b} }{ \left| \overrightarrow{b} \right|^2 }
+
+    \end{align*}
+    $
+</p>
+<br>
+
+
+<p class="MsoNormal">
+    بنابراین بردار تصویر قائم \( \overrightarrow{a} \) بر امتداد بردار \( \overrightarrow{b} \) به‌صورت زیر به‌دست می‌آید.
+    </p>
+
+
+    <br>
+
+
+    <p class="MsoNormal">
+
+$$   \overrightarrow{a'} = r \overrightarrow{b} = \dfrac{ \overrightarrow{a} \cdot \overrightarrow{b} }{ \left| \overrightarrow{b} \right|^2 } \cdot \overrightarrow{b}   $$
+
+    </p>
+    
+<br><br>
+
+
+<p class="MsoSemi" style="font-size: larger;">مثال:</p>
+<p class="MsoNormal">تصویر قائم بردار 
+    \( \overrightarrow{a} = (2, -1, 2) \)
+    را بر امتداد بردار 
+    \( \overrightarrow{b} = (1, -1, 0) \) 
+    بیابید.
+</p>
+<br><br>
+
+
+<p class="MsoSemi">حل:</p>
+<p class="MsoNormal">ابتدا ضرب داخلی دو بردار را به‌صورت زیر به‌دست می‌آوریم:</p>
+<br>
+<p class="MsoNormal" style="text-align: left;">
+$
+\begin{align*}
+& \overrightarrow{a} \cdot \overrightarrow{b} = (2 \times 1) + (-1 \times -1) + (2 \times 0) = 3 \\\\
+& | b | = \sqrt{(1)^2 + (-1)^2 + (0)^2} = \sqrt{2} \\\\
+&  a' = \dfrac{  a \cdot b }{|b|^2} \cdot b \\\\
+& =  \dfrac{3}{2} \cdot b \\\\
+& = \dfrac{3}{2}(1, -1, 0) \\\\
+& = (\dfrac{3}{2}, -\frac{3}{2}, 0) 
+\end{align*}
+$
+</p>
+<br><hr><br>
+    <p class="MsoStep" >کاردرکلاس</p>
+    <p class="MsoNormal">۱- تصویر بردار \( {i} = (1, 0, 0) \) را بر امتداد بردار \( j = (0 , 1, 0) \) را بیابید.</p>
+    <br><br>
+    <p class="MsoNormal">۲- نشان دهید که اگر دو بردار \( \overrightarrow{a} \) و \( \overrightarrow{b} \) بر هم عمود باشند، آنگاه تصویر یکی بر امتداد دیگری بردار صفر می‌شود.</p>
+    <br><br>
+    <p class="MsoNormal">۳- نشان دهید که اگر دو بردار \( \overrightarrow{a} \) و \( \overrightarrow{b} \) در یک راستا باشند، آنگاه تصویر \( \overrightarrow{a} \) بر \( \overrightarrow{b} \) برابر خود \( \overrightarrow{a} \) می‌شود.</p>
+    <br><br>
+    <p class="MsoNormal">۴- هر یک از حالات زیر را با شکل‌های داده شده نظر کنید.</p>
+
+<br><hr>
+
+
+
+
+
+
+
+
+<p class="MsoBold">ضرب خارجی</p>
+
+<p class="MsoNormal">
+در بخش قبل دیدیم که ضرب داخلی دو بردار یک عدد حقیقی است. می‌توان ضرب دو بردار را به گونه‌ای تعریف کرد که حاصل‌ضرب آنها همواره یک بردار باشد.
+</p>
+
+<div class="boxp">
+    <p class="MsoSemi" style="font-size: larger;"><mark>تعریف:</mark></p>
+    <p class="MsoNormal">
+        فرض کنیم \( \overrightarrow{b} = (b_1, b_2, b_3) \) و \( \overrightarrow{a} = (a_1, a_2, a_3) \) دو بردار باشند.
+    </p>
+    <p class="MsoNormal">
+        ضرب خارجی \( \overrightarrow{a} \) در \( \overrightarrow{b} \) را که با نماد \( \overrightarrow{a} \times \overrightarrow{b} \) نمایش می‌دهیم به‌صورت زیر تعریف می‌شود:
+    </p>
+
+<br>
+    <div class="custom-scrollbar" style="overflow-x: auto; direction:ltr; overflow-y :hidden">
+        <p class="MsoNormal" style="text-align: left;">
+            $
+            \overrightarrow{a} \times \overrightarrow{b} \ \ = 
+            \begin{array}{|ccc|} 
+                i & j & k \\ \\
+                \quad a_1 & a_2 & a_3 \quad \\ \\ 
+                \quad  b_1 & b_2 & b_3 \quad \\ 
+            \end{array}
+
+
+            \ \ = \ \
+
+
+
+            \begin{array}{|cc|} 
+              
+                \quad a_2 & a_3  \quad \\ \\ 
+                \quad  b_2 & b_3  \quad \\ 
+
+            \end{array}
+
+         \ \   \overrightarrow{i} - 
+
+\ \
+            \begin{array}{|cc|} 
+               
+                \quad a_1 & a_3  \quad \\ \\ 
+                \quad  b_1 & b_3  \quad \\  
+            \end{array}
+         \ \   \overrightarrow{j} + 
+\ \
+         
+            \begin{array}{|cc|} 
+             
+                \quad a_1 & a_2  \quad \\ \\ 
+                \quad  b_1 & b_2  \quad \\  
+            \end{array}
+         \ \   \overrightarrow{k}
+
+        \ \    = (a_2 b_3 - a_3 b_2 , a_3 b_1 - a_1 b_3 , a_1 b_2 - a_2 b_1) 
+            $
+        </p>
+<br>
+</div>
+</div>
+
+<br><br>
+
+
+<p class="MsoNormal">اگر \( \overrightarrow{b} = (b_x, b_y, b_z) \) و \( \overrightarrow{a} = (a_x, a_y, a_z) \) دو بردار غیرصفر و زاویه بین آنها \( \theta \) باشد، اندازه بردار \( \overrightarrow{a} \times \overrightarrow{b} \) می‌شود:</p>
+<br>
+
+
+<div class="custom-scrollbar" style="overflow-x: auto; overflow-y:hidden; direction:ltr">
+<p class="MsoNormal" style="text-align: left;">
+$
+\begin{align*}
+
+& | \overrightarrow{a} \times \overrightarrow{b} |^2 \\\\
+
+= & | (a_2 b_3 - a_3 b_2 , a_3 b_1 - a_1 b_3 , a_1 b_2 - a_2 b_1)  |^2 \\\\
+
+= & ( a_2 b_3 - a_3 b_2 )^2 + ( a_3 b_1 - a_1 b_3 )^2 + ( a_1 b_2 - a_2 b_1 )^2 \\\\
+
+= & a_{2}^2 b_{3}^2 - 2 a_2 a_3 b_2 b_3  + a_{3}^2 b_{2}^2 + a_{1}^2 b_{3}^2 - 2 a_1 a_3 b_1 b_3 
++ a_{3}^2 b_{1}^2 + a_{1}^2 b_{2}^2 - 2 a_1 a_2 b_1 b_2 + a_{2}^2 b_{1}^2 \\\\
+
+= & ( a_{1}^2 + a_{2}^2 + a_{3}^2 ) ( b_{1}^2 + b_{2}^2 + b_{3}^2 ) - ( a_1 b_1 + a_2 b_2 + a_3 b_3 )^2 \\\\
+
+= & |a|^2 \ \ |b|^2 - ( a \cdot b )^2 \\\\
+
+= & | \overrightarrow{a} |^2 \ \ | \overrightarrow{b} |^2 \ \ -  \ \ | \overrightarrow{a} |^2 \ \
+
+ | \overrightarrow{b} |^2 \ \ \cos^2 \theta \\\\
+
+= & | \overrightarrow{a} |^2 \ \ | \overrightarrow{b} |^2 \ \ ( 1 - \cos^2 \theta ) \\\\
+
+= & | \overrightarrow{a} |^2 \ \ | \overrightarrow{b} |^2 \ \ \sin^2 \theta \\\\
+
+= & ( | \overrightarrow{a} | \ \ | \overrightarrow{b} | \ \ \sin \theta  )^2  
+
+\end{align*}
+$
+</p>
+<br>
+</div>
+<br><br>
+
+
+<p class="MsoNormal">بنابراین:</p>
+<p class="MsoNormal">
+$$
+| a \times b | = | a | \ \ | b | \ \ \sin \theta
+$$
+</p>
+
+<p class="MsoNormal">از هندسه سال قبل می‌دانیم که سمت راست عبارت فوق برابر است با مساحت متوازی‌الاضلاعی که اندازه اضلاع آن برابر \( |\overrightarrow{a}| \) و \( |\overrightarrow{b}| \) است.</p>
+
+<br><br>
+
+
+<p class="MsoSemi" style="font-size: larger;">مثال:</p>
+<p class="MsoNormal">بردارهای \( \overrightarrow{i} \) و \( \overrightarrow{j} \) در \( \mathbb{R}^3 \) در نظر بگیرید. حاصل \( \overrightarrow{i} \times \overrightarrow{j} \) و \( \overrightarrow{j} \times \overrightarrow{i} \) را به‌دست آورید.</p>
+
+<br><br>
+
+<p class="MsoNormal" style="text-align: left;">
+$
+\begin{align*}
+& \overrightarrow{i} \times \overrightarrow{j} = (1, 0, 0) \times (0, 1, 0) \\\\
+& = ((0)(0) - (0)(1), (0)(0) - (1)(0), (1)(1) - (0)(0)) \\\\
+& = (0, 0, 1) = \overrightarrow{k} \\\\
+& \overrightarrow{j} \times \overrightarrow{i} = (0, 1, 0) \times (1, 0, 0) \\\\
+& = ((1)(0) - (0)(0), (0)(0) - (0)(1), (0)(0) - (1)(1)) \\ \\ 
+& = (0, 0, -1) = -\overrightarrow{k}     
+\end{align*}
+$
+</p>
+
+
+
+<br><br><br>
+
+
+<p class="MsoNormal">همان‌طور که مشاهده شد حاصل‌ضرب خارجی دو بردار \( \overrightarrow{i} \) و \( \overrightarrow{j} \) برابر با بردار \( \overrightarrow{k} \) شد که بر هر دوی \( \overrightarrow{i} \) و \( \overrightarrow{j} \) عمود می‌باشد. ضرب خارجی دارای خواص زیر می‌باشد.</p>
+<br><br>
+<p class="MsoSemi" style="font-size: larger;">خاصیت ۱ :</p>
+<p class="MsoNormal">فرض کنید \( \overrightarrow{b} = (b_1, b_2, b_3) \) و \( \overrightarrow{a} = (a_1, a_2, a_3) \) دو بردار باشند. در این صورت</p>
+
+<p class="MsoNormal" style="text-align: center;">
+    \[
+    \overrightarrow{a} \cdot (\overrightarrow{a} \times \overrightarrow{b}) = 0, \quad \overrightarrow{b} \cdot (\overrightarrow{a} \times \overrightarrow{b}) = 0
+    \]
+</p>
+<br><br>
+<p class="MsoNormal">
+    
+    این خاصیت گویای این مطلب است که \( \overrightarrow{a} \bot \overrightarrow{a} \times \overrightarrow{b} \) و \(  \overrightarrow{b} \bot \overrightarrow{b} \times \overrightarrow{a} \)  
+    
+    
+    بنابراین، با توجه به آنچه تاکنون به دست آمده است می‌توان گفت ضرب خارجی
+     دو بردار، برداری است عمود بر آنها که اندازه آن از لحاظ عددی برابر با مساحت متوازی‌الاضلاع
+     ایجاد شده توسط آن دو بردار است. در واقع می‌توان نشان داد که بردار حاصل از ضرب خارجی بر بردار
+     در صفحه شامل آن دو بردار عمود است.</p>
+<br>
+<p class="MsoNormal">اثبات این خاصیت در ادامه می‌آید.</p>
+
+<br><br>
+
+<p class="MsoSemi" style="font-size: larger;">اثبات:</p>
+
+<div class="custom-scrollbar" style="overflow-x:auto; overflow-y:hidden; direction:ltr">
+
+
+
+<p class="MsoNormal" style="text-align: center;">
+
+    
+    \[
+    \overrightarrow{a} \cdot (\overrightarrow{a} \times \overrightarrow{b}) = a_1 (a_2 b_3 - a_3 b_2) + a_2 (a_3 b_2 - a_1 b_3) + a_3 (a_1 b_2 - a_2 b_2) = 0
+    \]
+
+    \[
+    \overrightarrow{b} \cdot (\overrightarrow{a} \times \overrightarrow{b}) = b_2 (a_2 b_3 - a_3 b_2) + b_2 (a_3 b_2 - a_1 b_3) + b_3 (a_1 b_2 - a_2 b_2) = 0
+    \]
+
+
+
+
+</p>
+
+
+<br>
+
+</div>
+
+
+<br><br>
+
+
+
+<p class="MsoNormal">می‌توان نشان داد که برای سه بردار \( \overrightarrow{i} \) و \( \overrightarrow{j} \) و \( \overrightarrow{k} \) روابط زیر برقرار است:</p>
+<br>
+<p class="MsoNormal" style="text-align: left;">
+    $
+    \overrightarrow{i} \times \overrightarrow{j} = \overrightarrow{k}, \quad \overrightarrow{j} \times \overrightarrow{k} = \overrightarrow{i}, \quad \overrightarrow{k} \times \overrightarrow{i} = \overrightarrow{j}
+    $
+    $
+    \overrightarrow{j} \times \overrightarrow{i} = -\overrightarrow{k}, \quad \overrightarrow{k} \times \overrightarrow{j} = -\overrightarrow{i}, \quad \overrightarrow{i} \times \overrightarrow{k} = -\overrightarrow{j}
+   $
+</p>
+<br><br>
+
+
+<p class="MsoNormal">معمولاً این روابط را به‌صورت نمودار چرخشی نیز نمایش می‌دهند.</p>
+
+
+<br><br>
+
+
+<p class="MsoSemi" style="font-size: larger;">خاصیت ۲:</p>
+<p class="MsoNormal" style="text-align: center;">
+    \[
+    \overrightarrow{a} \times \overrightarrow{b} = -\overrightarrow{b} \times \overrightarrow{a}
+    \]
+</p>
+<br><br>
+
+<p class="MsoSemi" style="font-size: larger;">خاصیت ۳:</p>
+<p class="MsoNormal" style="text-align: center;">
+    \[
+    \overrightarrow{a} \times \overrightarrow{a} = \overrightarrow{0}
+    \]
+</p>
+<br><br>
+<p class="MsoSemi" style="font-size: larger;">خاصیت ۴:</p>
+<p class="MsoNormal">اگر \( r \) عددی حقیقی باشد، آنگاه:</p>
+<p class="MsoNormal" style="text-align: center;">
+    \[
+    r \overrightarrow{a} \times \overrightarrow{b} = r (\overrightarrow{a} \times \overrightarrow{b}) = \overrightarrow{a} \times (r \overrightarrow{b})
+    \]
+</p>
+<br><br>
+<p class="MsoSemi" style="font-size: larger;">خاصیت ۵:</p>
+<p class="MsoNormal">برای سه بردار \( \overrightarrow{a}, \overrightarrow{b}, \overrightarrow{c} \) داریم:</p>
+<p class="MsoNormal" style="text-align: center;">
+    \[
+    \overrightarrow{a} \times (\overrightarrow{b} + \overrightarrow{c}) = \overrightarrow{a} \times \overrightarrow{b} + \overrightarrow{a} \times \overrightarrow{c}
+    \]
+    \[
+    (\overrightarrow{a} + \overrightarrow{b}) \times \overrightarrow{c} = (\overrightarrow{a} \times \overrightarrow{c}) + (\overrightarrow{b} \times \overrightarrow{c})
+    \]
+</p>
+<br><br>
+<p class="MsoSemi" style="font-size: larger;">خاصیت ۶:</p>
+<p class="MsoNormal">دو بردار غیرصفر \( \overrightarrow{a} \) و \( \overrightarrow{b} \) با هم موازی هستند اگر و فقط اگر:
+
+ $   \overrightarrow{a} \times \overrightarrow{b} = \overrightarrow{O}  $
+</p>
+
+<br>
+
+<p class="MsoSemi">
+
+اثبات:
+
+
+
+</p>
+<br>
+
+
+<div class="custom-scrollbar" style="overflow-x: auto; overflow-y:hidden; direction:ltr;">
+
+<p class="MsoNormal" style="text-align:left;">
+  $
+    \overrightarrow{a} \times \overrightarrow{b} = \overrightarrow{0} 
+    \Leftrightarrow | \overrightarrow{a} \times  \overrightarrow{b} | = 0 
+    \Leftrightarrow | \overrightarrow{a} \overrightarrow{b} | \ \ \sin \theta = 0 
+    \Leftrightarrow \sin  = 0 \Leftrightarrow \theta = 0
+     \ \ \text{ یا } \ \  \theta = \pi
+    \Leftrightarrow \overrightarrow{a} \parallel \overrightarrow{b}
+  $
+</p>
+<br>
+</div>
+
+<br><hr>
+
+<p class="MsoBold">حجم متوازی السطوح</p>
+
+<p class="MsoNormal">اگر \( \overrightarrow{a}, \overrightarrow{b}, \overrightarrow{c} \) سه بردار غیرواقع در یک صفحه باشند، آنگاه می‌توان به کمک آنها متوازی السطوحی همانند شکل زیر تولید کرد.</p>
+<br><br>
+<p class="MsoNormal">همان‌طور که از شکل مشخص است ارتفاع این متوازی السطوح برابر است با اندازه تصویر قائم بردار \( \overrightarrow{a} \) بر روی بردار \( \overrightarrow{b} \times \overrightarrow{c} \)، یعنی:</p>
+
+<p class="MsoNormal" style="text-align: center;">
+    \[
+    \text{ارتفاع} = \dfrac{ \overrightarrow{a} \cdot (\overrightarrow{b} \times \overrightarrow{c}) }{ | \overrightarrow{b} \times \overrightarrow{c} | }
+    \]
+</p>
+<br>
+
+<p class="MsoNormal">با توجه به اینکه قاعدهٔ این متوازی السطوح توسط بردارهای \( \overrightarrow{b} \) و \( \overrightarrow{c} \) تولید شده، پس مساحت آن برابر است با \( | \overrightarrow{b} \times \overrightarrow{c} | \). با استفاده از دترمینان نیز  می‌توان مساحت متوازی الاضلاع پدید آمده توسط دو بردار \( \overrightarrow{a} \) و \( \overrightarrow{b} \) را به صورت زیر به‌دست آورد:</p>
+
+
+<p class="MsoNormal" style="text-align: center;">
+    \[
+    \overrightarrow{a} \times \overrightarrow{b} = 
+    \begin{array}{|ccc|}
+      i & j & k \\
+      \quad a_1 & a_2 & a_3 \quad \\
+      \quad b_1 & b_2 & b_3 \quad \\
+    \end{array}
+    \]
+</p>
+<br>
+<p class="MsoNormal">پس مساحت \( S \) به صورت زیر به‌دست می‌آید:</p>
+
+<p class="MsoNormal" style="text-align: center;">
+    \[
+    S = | \overrightarrow{a} \times \overrightarrow{b} |
+    \]
+</p>
+
+
+
+<p class="MsoNormal">بنابراین حجم متوازی السطوح به صورت زیر به‌دست می‌آید:</p>
+
+
+<br><br>
+
+
+
+<p class="MsoNormal">از شکل فوق واضح است که اگر سه بردار
+     در یک صفحه قرار بگیرند آنگاه حجم متوازی السطوح برابر صفر است و از رابطه بالا نیز این
+     مطلب قابل اثبات است.
+      لذا در این حالت خاص نیز حجم متوازی السطوح برابر است با 
+      \( |\overrightarrow{a} \cdot (\overrightarrow{b} \times \overrightarrow{c})| \).
+       حجم متوازی السطوح پدید آمده توسط سه بردار \( \overrightarrow{a} = (a_x, a_y, a_z) \)، \( \overrightarrow{b} = (b_x, b_y, b_z) \) و \( \overrightarrow{c} = (c_x, c_y, c_z) \) 
+       با استفاده از دترمینان زیر نیز به دست می‌آید:</p>
+
+<p class="MsoNormal" style="text-align: center;">
+    \[
+    K = 
+    \begin{array}{|ccc|}
+    \quad  a_x & a_y & a_z \quad \\
+    \quad b_x & b_y & b_z \quad \\
+    \quad c_x & c_y & c_z \quad  \\
+    \end{array}
+    \Rightarrow V = |K|
+    \]
+</p>
+<br>
+<p class="MsoNormal">یا \( K = \overrightarrow{a} \cdot (\overrightarrow{b} \times \overrightarrow{c}) \).</p>
+<br>
+<p class="MsoNormal">اگر \( K = 0 \) در این صورت چه نتیجه‌ای می‌گیرید؟</p>
+<br><br>
+<p class="MsoSemi" style="font-size: larger;">مثال:</p>
+<p class="MsoNormal">حجم متوازی السطوحی را به‌دست آورید که توسط بردارهای 
+    \( \overrightarrow{b} = (0, 1, 1) \)، \( \overrightarrow{a} = (1, 1, 0) \) و \( \overrightarrow{c} = (1, 0, 1) \)
+     تولید می‌شود.</p>
+<br><br>
+<p class="MsoSemi">حل:</p>
+<p class="MsoNormal">با استفاده از ضرب خارجی \( \overrightarrow{b} \times \overrightarrow{c} \) در بردار \( \overrightarrow{a} \) به‌دست می‌آید:</p>
+
+<p class="MsoNormal" style="text-align: center;">
+    \[
+    \overrightarrow{b} \times \overrightarrow{c} = (1, 1, -1)
+    \]
+</p>
+<br>
+<p class="MsoNormal">بنابراین حجم متوازی السطوح به‌دست می‌آید:</p>
+<br>
+
+<p class="MsoNormal" style="text-align:left;">
+$
+\begin{align*}
+
+    V & = \ \ | \ \ \overrightarrow{a} \cdot (\overrightarrow{b} \times \overrightarrow{c}) \ \ |  \\\\
+   & =  \ \ | \ \ (1, 1, 0) \cdot (1, 1, -1) \ \ |  \\\\
+   & = \ \  | \ \ 1 + 1 + 0 \ \ | \ \ = 2 
+
+\end{align*}
+ $
+</p>
+
+
+<br><br>
+
+
+
+
+<p class="MsoNormal">پیش‌تر اشاره شد که اگر سه بردار \( \overrightarrow{a} \)، \( \overrightarrow{b} \) و \( \overrightarrow{c} \) در یک صفحه باشند آنگاه حجم متوازی‌السطوح و نیز \( | \overrightarrow{a} \cdot (\overrightarrow{b} \times \overrightarrow{c}) | \) برابر صفر می‌شود. عکس این مطلب نیز صادق است و از آن برای بررسی اینکه سه بردار داده شده در یک صفحه هستند یا نه استفاده می‌شود.</p>
+<br><br>
+
+
+<p class="MsoSemi" style="font-size: larger;">مثال:</p>
+<p class="MsoNormal">آیا بردارهای \( \overrightarrow{a} = (1, 4, 1) \)، \( \overrightarrow{b} = (1, -1, 3) \)، \( \overrightarrow{c} = (1, 9, -1) \) در یک صفحه‌اند؟</p>
+<br><br>
+<p class="MsoSemi">حل:</p>
+<p class="MsoNormal">برای این منظور کافی است \( \overrightarrow{a} \cdot (\overrightarrow{b} \times \overrightarrow{c}) \) را به‌دست آوریم. اگر مقدار آن صفر باشد یعنی حجم متوازی‌السطوح تولید‌شده صفر است و این یعنی سه بردار در یک صفحه‌اند و در غیر این صورت سه بردار در یک صفحه نیستند.</p>
+<br>
+<p class="MsoNormal" style="text-align:left;">
+
+    
+    $
+
+    \begin{align*}
+    
+    & \overrightarrow{b} \times \overrightarrow{c} = (-26, 4, 10) \\\\
+
+    & \Rightarrow \overrightarrow{a} \cdot (\overrightarrow{b} \times \overrightarrow{c}) \\\\
+
+    & = -26 + 16 + 10 = 0
+
+     \end{align*}
+   $
+</p>
+
+<p class="MsoNormal">سه بردار در یک صفحه هستند.</p>
+
+
+<br><hr><br>
+
+
+
+<p class="MsoStep">تمرین</p>
+
+
+<p class="MsoNormal">۱- برای هر یک از بردارهای \( \overrightarrow{a} \) و \( \overrightarrow{b} \) که در زیر آمده است تصویر قائم \( \overrightarrow{a} \) را بر امتداد \( \overrightarrow{b} \) به‌دست آورید.</p>
+<br>
+<p class="MsoNormal">الف) \( \overrightarrow{b} = i \ \ , \ \ \overrightarrow{a}  = (2, -1, 2) \)</p>
+<br>
+<p class="MsoNormal">ب) \( \overrightarrow{b} = (3, 2, 1) \)، \( \overrightarrow{a} = (2, 3, 1) \)</p>
+<br>
+<p class="MsoNormal">پ) \( \overrightarrow{b} = (-1, 2, 4) \)، \( \overrightarrow{a} = (1, 1, 0) \)</p>
+<br><br>
+
+
+<p class="MsoNormal">۲- فرض کنید \( \overrightarrow{a} \)، \( \overrightarrow{b} \) و \( \overrightarrow{c} \) 
+    بردارهایی باشند به ترتیب به طول‌های $1$ و $2$ و $3$ با این خاصیت که 
+    \(  \overrightarrow{a} + \overrightarrow{b} + \overrightarrow{c} = 0  \). 
+    مقدار \( \overrightarrow{a} \cdot \overrightarrow{b} + \overrightarrow{b} \cdot \overrightarrow{c} + \overrightarrow{c} \cdot \overrightarrow{a} = 0  \) 
+    را محاسبه کنید.</p>
+<br><br>
+
+
+<p class="MsoNormal">۳- سه بردار \( \overrightarrow{a} \)، \( \overrightarrow{b} \) و \( \overrightarrow{c} \) 
+    مثال بزنید که برای آنها 
+    \( \overrightarrow{a} \cdot \overrightarrow{b} = \overrightarrow{a} \cdot \overrightarrow{c} \) 
+    ولی 
+    \( \overrightarrow{b} \neq \overrightarrow{c}\).</p>
+<br><br>
+
+
+<p class="MsoNormal">۴- اگر 
+    
+    \( 
+        \overrightarrow{b} = (3, -4, 2) 
+        
+        \)
+        ، \(
+            \overrightarrow{a} = (-1, 1, 4) 
+             \) 
+             و 
+             \( 
+                \overrightarrow{c} = (1, -3, 4)
+                 \)
+     باشد، آنگاه تصویر قائم \( \overrightarrow{a} \) 
+     بر امتداد \( \overrightarrow{b} + \overrightarrow{c} \) 
+     را به‌دست آورید.</p>
+<br><br>
+
+
+<p class="MsoNormal">۵- برداری عمود بر دو بردار  \( \overrightarrow{a} = (1, -3, 2) \)، \( \overrightarrow{b} = (-2, 1, -5) \) بیابید.</p>
+<br><br>
+
+
+<p class="MsoNormal">۶- سه بردار \( \overrightarrow{a} \)، \( \overrightarrow{b} \) و \( \overrightarrow{c} \) مثال بزنید که برای آنها \( \overrightarrow{a} \times \overrightarrow{b} = \overrightarrow{a} \times \overrightarrow{c} \) ولی \( \overrightarrow{b} \neq \overrightarrow{c} \). آیا امکان حذف ضرب خارجی بردارها برقرار است؟ در این باره در کلاس بحث کنید.</p>
+<br><br>
+
+
+<p class="MsoNormal">۷- بردارهای \( \overrightarrow{a} \) و \( \overrightarrow{b} \) 
+    مفروض‌اند به‌طوری که \( |\overrightarrow{a}| = 3 \)، \( |\overrightarrow{b}| = 26 \) 
+    و    \( |  \overrightarrow{a}  \times \overrightarrow{b} | = 72 \) .
+     مقدار \( \overrightarrow{a} \cdot \overrightarrow{b} \) را محاسبه کنید.</p>
+<br><br>
+
+<p class="MsoNormal">۸- مساحت مثلثی که رؤوس آن با نقاط \( A = (3, 5, 7) \)، \( B = (5, 5, 0) \)، \( C = (-4, 0, 4) \) داده شده است را بیابید.</p>
+
+
+
+<br><br><br><br><br>
+
+
+    </body>
+
+
+</html>

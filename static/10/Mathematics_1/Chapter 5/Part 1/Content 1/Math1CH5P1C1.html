@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #badaff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .box {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+    <body class="custom-scrollbar">
+
+
+
+        <p class="MsoBold">
+            فصل ۵ : تابع
+
+        </p>
+<hr><br>
+
+
+    <p class="MsoNormal">
+        تابع یکی از مفاهیم مهم است که در ریاضیات و سایر علوم دارای کاربردهای فراوانی است. توابع به روش‌های گوناگونی نمایش داده می‌شوند. یکی از این روش‌ها استفاده از نمودارهاست. موضوعات متفاوتی به وسیله تابع قابل مدلسازی است. نمودار زیر روند کاهش متوسط تعداد فرزندان یک خانواده در کشورمان را نشان می‌دهد. نمودار بعدی جمعیت کل کشور را در چهار وضعیت مختلف پیش‌بینی می‌کند. کشور ما در معرض سالمند شدن می‌باشد. به طوری که اگر متوسط تعداد فرزندان یک خانواده تا سال ۱۴۳۰ میزان فعلی باشد، در آن موقع، حدود ۳۰% جمعیت را افراد مسن تشکیل خواهند داد. کشور ما با نسبت سالمندی ۸% تا سال ۱۳۹۴ جزء جوان‌ترین کشورها بوده است. همچنین با ادامه روند فعلی تغییرات جمعیت در یک دوره ۳۰ ساله، رشد جمعیت به صفر خواهد رسید و پس از آن رشد جمعیت کشور منفی خواهد شد. سالمندی جمعیت و منفی شدن رشد جمعیت، پیامدهای ناگواری را در پی دارد.
+    </p>
+
+<br><hr><br>
+
+
+        <div class="MsoBold">درس اول:<br> مفهوم تابع و بازنمایی‌های آن</div>
+
+        <p class="MsoNormal">
+            بسیاری از پدیده‌های پیرامون ما به نوعی با هم ارتباط دارند. یک نوع خاص از این ارتباط در موارد زیادی مشاهده می‌شود. به مثال‌های زیر توجه کنید:
+        </p>
+        <p class="MsoNormal">
+            دمایی که به ساعت معینی در یک مکان نسبت داده می‌شود. <br>
+            قیمتی که به اجناس یک فروشگاه نسبت داده می‌شود. <br>
+            نمره‌ای که به یک دانش‌آموز در دروس مختلف تعلق می‌گیرد. <br>
+            عددی که به جمعیت شهرها نسبت داده می‌شود.
+        </p>
+
+
+        <br><hr><br>
+
+
+        <div class="MsoStep">فعالیت ۱</div>
+
+        <p class="MsoNormal">
+            در جدول‌های زیر مثال‌های بالا و مواردی دیگر به کمک جدول ارائه شده‌اند. جاهای خالی را پر کنید. جدول آخر را به سلیقه خودتان تکمیل کنید.
+        </p>
+
+        <p class="MsoNormal">
+            با توجه به جدول مشخص است که در برخی زمان‌ها فقط یک داده را می‌توان به آن نسبت داد. درباره بقیه جدول‌ها مشابه این عبارت را بنویسید.
+        </p>
+
+<br>
+
+<div class="box" style="display: flex;flex-direction: row;
+    align-content: space-around;
+    justify-content: space-between;
+    align-items: baseline;
+    margin:auto;
+    
+">
+
+<div style="width:45%;margin:auto">
+
+    <p class="MsoNormal">به یک ساعت معین فقط یک دما را می‌توان نسبت داد؛ یعنی یک ساعت مشخص دو دمای متفاوت ندارد.</p>
+
+
+</div>
+
+    <div  style="width:45%;margin:auto">
+<table class="table" style="width:100%;text-align:center;">
+    <tr>
+        <th>دما</th>
+        <th>ساعت</th>
+    </tr>
+
+    <tr>
+        <td>15</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>16</td>
+        <td>9</td>
+    </tr>
+    <tr>
+        <td>17</td>
+        <td>10</td>
+    </tr>
+        <td>17</td>
+        <td>11</td>
+    </tr>
+    </tr>
+        <td>18</td>
+        <td>12</td>
+    </tr>
+     </tr>
+        <td>$\quad$</td>
+        <td>$\quad$</td>
+    </tr>
+</table>
+
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+<br>
+
+<div class="box" style="display: flex;flex-direction: row;
+    align-content: space-around;
+    justify-content: space-between;
+    align-items: baseline;
+    margin:auto;
+    
+">
+
+<div style="width:45%;margin:auto">
+
+    <p class="MsoNormal">
+        . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+    </p>
+
+
+</div>
+
+    <div  style="width:45%;margin:auto">
+        <table class="table" style="width:100%;text-align:center;">
+            <tr>
+                <th>قیمت (تومان)</th>
+                <th>کالا</th>
+            </tr>
+            <tr>
+                <td>۱۵۰۰</td>
+                <td>خط‌کش</td>
+            </tr>
+            <tr>
+                <td>۱۰۰۰</td>
+                <td>مداد</td>
+            </tr>
+            <tr>
+                <td>۳۰۰۰</td>
+                <td>دفتر</td>
+            </tr>
+            <tr>
+                <td>۱۵۰۰</td>
+                <td>خودکار</td>
+            </tr>
+        </table>
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+<br>
+
+<div class="box" style="display: flex;flex-direction: row;
+    align-content: space-around;
+    justify-content: space-between;
+    align-items: baseline;
+    margin:auto;
+    
+">
+
+<div style="width:45%;margin:auto">
+
+    <p class="MsoNormal">
+        . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+    </p>
+
+
+</div>
+
+    <div  style="width:45%;margin:auto">
+        <table class="table" style="width:100%;text-align:center;">
+            <tr>
+                <th>نمره</th>
+                <th>درس</th>
+            </tr>
+            <tr>
+                <td>۱۸</td>
+                <td>ادبیات</td>
+            </tr>
+            <tr>
+                <td>۱۷</td>
+                <td>شیمی</td>
+            </tr>
+            <tr>
+                <td>۱۶</td>
+                <td>فیزیک</td>
+            </tr>
+            <tr>
+                <td>۱۸</td>
+                <td>ریاضی</td>
+            </tr>
+        </table>
+
+
+</div>
+
+</div>
+
+<br>
+
+
+<div class="box" style="display: flex;flex-direction: row;
+    align-content: space-around;
+    justify-content: space-between;
+    align-items: baseline;
+    margin:auto;
+    
+">
+
+<div style="width:45%;margin:auto; padding:20px">
+
+    <p class="MsoNormal">یک شخص معین دو روز تولد متفاوت ندارد.</p>
+
+
+
+</div>
+<div  style="width:45%;margin:auto">
+    <table class="table" style="width:100%;;text-align:center;">
+        <tr>
+            <th>روز تولد</th>
+            <th>فرد</th>
+        </tr>
+        <tr>
+            <td>پنج‌شنبه</td>
+            <td>رستگار</td>
+        </tr>
+        <tr>
+            <td>شنبه</td>
+            <td>کشاورز</td>
+        </tr>
+        <tr>
+            <td>دوشنبه</td>
+            <td>احسانی</td>
+        </tr>
+        <tr>
+            <td>شنبه</td>
+            <td>امیدی</td>
+        </tr>
+    </table>
+
+
+</div>
+
+</div>
+
+<br><hr><br>
+
+
+<div class="MsoStep">فعالیت ۲</div>
+
+<p class="MsoNormal">
+    جدول‌های فعالیت ۱ را می‌توان به کمک مجموعه‌ها و پیکان‌هایی که اعضای آن‌ها را به هم مربوط می‌کنند، مشخص کرد. به این شیوه نمایش، نمودارهای پیکانی می‌گوییم. یک نمونه کامل شده است. بقیه را شما کامل کنید.
+</p>
+<br>
+<p class="MsoNormal">
+    توجه دارید که در رابطه‌های بالا، از هر عضو مجموعه $ A $ دقیقاً یک پیکان خارج شده است. این گونه رابطه بین دو مجموعه را یک «تابع» می‌نامند.
+</p>
+<br>
+<div class="box">
+    <p class="MsoNormal">
+        یک تابع از مجموعه $ A $ به مجموعه $ B $، رابطه‌ای بین این دو مجموعه است که در آن به هر عضو از $ A $ دقیقاً یک عضو از $ B $ نسبت داده می‌شود.
+    </p>
+</div>
+<br>
+<p class="MsoNormal">
+    در فعالیت ۱، همه مثال‌های ارائه شده تابع‌هایی هستند که به‌صورت جدول نمایش داده شده‌اند.
+</p>
+
+
+<br><hr><br>
+<div class="MsoStep">کار در کلاس</div>
+
+<p class="MsoNormal">
+    ۱. مجموعه $ A $ شامل سه دانش‌آموز به نام‌های محمد، حسین و امید و مجموعه $ B $ شامل دو رشته ورزشی است که دانش‌آموزان می‌توانند انتخاب کنند. کدام یک از نمودارهای پیکانی داده شده تابع نیست؟
+</p>
+
+
+<br>
+
+
+<p class="MsoNormal">
+    ۲. از مجموعه $ A $ به مجموعه $ B $ نمودار پیکانی را طوری رسم کنید که یک تابع را نمایش دهد. از مجموعه $ X $ به مجموعه $ Y $ این کار را به گونه‌ای انجام دهید که حاصل یک تابع نباشد. پاسخ خود را با پاسخ دوستانتان مقایسه کنید.
+</p>
+
+<p class="MsoNormal">
+    ۳. (الف) آیا رابطه‌ای که به افراد سن آن‌ها را نسبت می‌دهد، یک تابع است؟ رابطه‌ای که به افراد وزن آن‌ها را نسبت می‌دهد، چطور؟
+</p>
+<p class="MsoNormal">
+    (ب) آیا رابطه‌ای که به افراد غذای مورد علاقه آن‌ها را نسبت می‌دهد، یک تابع است؟ توضیح دهید.
+</p>
+
+<p class="MsoNormal">
+    ۴. کدام‌یک از نمودارهای پیکانی زیر یک تابع است؟
+</p>
+
+<br><hr>
+
+
+<div class="MsoBold">نمایش تابع به صورت زوج‌های مرتب و نمودار مختصاتی</div>
+
+<hr><br>
+<div class="MsoStep">فعالیت</div>
+
+
+<p class="MsoNormal">
+    نمودار زیر، دمای هوا را در چهار ساعت متفاوت در اردبیل نشان می‌دهد. رابطه بین زمان و دما را به‌صورت نمودار پیکانی نمایش دهید و معلوم کنید آیا یک تابع است یا خیر. 
+</p>
+<br>
+<p class="MsoNormal">
+    اگر در نمودار، بالا محور افقی را محور طول و محور عمودی را محور عرض درنظر بگیریم، مختصات هر یک از نقاط داده شده را می‌توان با یک «زوج» از اعداد، به‌صورت زیر نمایش داد: 
+    $(۴, ۵) \ \ , \ \ (۳, ۷) \ \ , \ \ (۴, ۶) \ \ , \ \ (۴, ۳)$
+</p>
+
+<br>
+
+
+<p class="MsoNormal">
+    ترتیب نوشتن اعداد در هر زوج مهم است. مثلاً زوج‌های $(۵, ۴)$ و $(۴, ۵)$ برابر نیستند و دو نقطه متفاوت در نمودار را نشان می‌دهند. به همین دلیل به هر یک از زوج‌های بالا یک «زوج مرتب» می‌گوییم.
+</p>
+
+<p class="MsoNormal">
+    اگر همه زوج‌های مرتب بالا را در مجموعه‌ای قرار دهیم، یک نمایش دیگر برای رابطه‌ای که بین زمان و دما به‌دست می‌آید که به آن نمایش زوج مرتب داده شده می‌گویند. به‌طور مثال، از حروفی مانند $ f $ و $ g $ استفاده می‌کنیم:
+    $$ f = \{(۷, ۳)، (۶, ۴)، (۵, ۴)، (۴, ۵)\} $$
+</p>
+
+<p class="MsoNormal">
+    در هر زوج، ترتیب عضو اول را «مؤلفه اول» و عضو دوم را «مؤلفه دوم» می‌نامیم. به‌طور مثال در زوج مرتب $(۳, ۶)$، مؤلفه اول $ ۳ $ و مؤلفه دوم $ ۶ $ است. مجموعه $ A $ یک تابع است. برای ساعت‌های دیگر دمایی را به زمان نسبت دهید و نمودار را به‌صورت زوج مرتب نمایش دهید.
+</p>
+
+<br><hr><br>
+
+<div class="MsoStep">کار در کلاس</div>
+
+<p class="MsoNormal">
+    ۱. نام شهرهای تهران، مشهد، اصفهان، شیراز، تبریز، اهواز و کرمان در یک سطر جدول زیر نوشته شده‌اند. در سطر دیگر، جمعیت آن شهرها را به‌طور تقریبی بنویسید (جمعیت دقیق لازم نیست).
+</p>
+
+<br>
+<table class="table" style="max-width:70%;text-align:center;margin:auto;">
+    <tr>
+        <th>شهر</th>
+        <th>جمعیت</th>
+    </tr>
+    <tr>
+        <td>تهران</td>
+        <td>$\quad$</td>
+    </tr>
+    <tr>
+        <td>مشهد</td>
+        <td>$\quad$</td>
+    </tr>
+    <tr>
+        <td>اصفهان</td>
+        <td>$\quad$</td>
+    </tr>
+    <tr>
+        <td>شیراز</td>
+        <td>$\quad$</td>
+    </tr>
+    <tr>
+        <td>تبریز</td>
+        <td>$\quad$</td>
+    </tr>
+    <tr>
+        <td>اهواز</td>
+        <td>$\quad$</td>
+    </tr>
+    <tr>
+        <td>کرمان</td>
+        <td>$\quad$</td>
+    </tr>
+</table>
+<br><br>
+<p class="MsoNormal">
+    رابطه بالا را به‌صورت پیکانی و زوج مرتب نمایش دهید. آیا این رابطه یک تابع است؟
+</p>
+
+<br><br>
+
+<p class="MsoNormal">
+    ۲. در هر سطر جدول زیر نمایش‌های مختلف یک رابطه داده شده است. جاهای خالی جدول را کامل و معلوم کنید که آیا این رابطه یک تابع است؟ ردیف آخر را به دلخواه خودتان کامل کنید.
+</p>
+<br>
+<p class="MsoNormal">
+    (الف) کدام‌یک از رابطه‌های زیر تابع است؟ چرا؟
+</p>
+<br>
+<p class="MsoNormal" style="text-align:left">
+    $ g = \{(۱, ۵)، (۲, ۹)، (۲, ۵)، (۳, ۰)\} $
+    <br>
+    $ f = \{(۱, ۵)، (۳, ۹)، (۳, ۰)\} $
+</p>
+<br><br>
+<p class="MsoNormal">
+    (ب) با تکمیل جمله زیر برای تشخیص تابع بودن یک رابطه، معیاری به‌دست آورید:
+</p>
+
+<div class="box">
+    <p class="MsoNormal">
+        اگر یک رابطه به‌صورت مجموعه زوج‌های مرتب داده شده باشد، هنگامی این رابطه یک تابع است که هیچ دو زوج مرتب متناقضی در آن $............................................$ .
+    </p>
+</div>
+
+
+<br><hr><br>
+
+    <div class="MsoStep">تمرین</div>
+
+    <p class="MsoNormal">
+        ۱. کدام‌یک از روابط زیر یک تابع را معلوم می‌کند؟ توضیح دهید.
+    </p>
+    <br>
+    <p class="MsoNormal">
+        (الف) رابطه‌ای که به ضلع یک مربع، محیط مربع را نسبت می‌دهد. <br><br>
+        (ب) رابطه‌ای که به هر فرد، دمای بدن او را در یک زمان معین نسبت می‌دهد. <br><br>
+        (ج) رابطه‌ای که به هر فرد، گروه خونی او را نسبت می‌دهد. <br><br>
+        (د) رابطه‌ای که به هر دانش‌آموز، دوستان او را نسبت می‌دهد. <br><br>
+        (هـ) رابطه‌ای که به هر عدد، ریشه‌های دوم آن عدد را نسبت می‌دهد. <br><br>
+        (و) رابطه‌ای که به هر عدد، ریشه سوم آن را نسبت می‌دهد.
+    </p>
+    <br><br><br>
+    <p class="MsoNormal">
+        ۲. مجموعه‌های $ A = \{a, b, c\} $ و $ B = \{۱, ۲\} $ داده شده‌اند:
+    </p>
+    <br><br>
+    <p class="MsoNormal">
+        (الف) به کمک نمودار پیکانی دو رابطه از $ A $ به $ B $ ارائه کنید که تابع باشند. <br><br>
+        (ب) دو رابطه ارائه کنید که تابع نباشند. <br><br>
+        (ج) چهار رابطه به‌دست آمده را به کمک زوج‌های مرتب و نمودار نمایش دهید.
+    </p>
+    
+    <br><br><br>
+
+
+    <p class="MsoNormal">
+        ۳. کدام‌یک از مجموعه‌های زیر یک تابع است؟
+    </p>
+    <br>
+    <p class="MsoNormal" style="text-align: left;">
+        $ f = \{(۲, ۱), (۳, -۵), (۳, ۷)\} $ <br>
+
+        $ h = \{(۲, ۳), (۳, ۲), (۱, ۱)\} $ <br>
+
+        $ r = \{(۲, ۰), (-۷, ۰)\} $ <br>
+
+        $ g = \{(۰, ۱), (\frac{3}{5}, 1), (-5, ۱), (۸, ۱)\} $ <br>
+
+        $ k = \{(۲, ۵)\} $ <br>
+
+        $ l = \{(۱, ۲), (۲, ۴), (۳, ۶), \ \ . . .  \} $
+    </p>
+    <br>
+    <p class="MsoNormal">
+        ۴. $ A $ و $ B $ مجموعه‌هایی غیرعددی‌اند. در شکل زیر در $ A $ و $ B $ اعضای دلخواه بگذارید و یک تابع از $ A $ به $ B $ به کمک نمودار پیکانی ارائه کنید. سعی کنید لااقل سه تابع مختلف بنویسید. پاسخ خود را با پاسخ دوستانتان مقایسه کنید.
+    </p>
+    
+<br><br>
+
+
+
+
+
+        
+    </body>
+
+
+</html>

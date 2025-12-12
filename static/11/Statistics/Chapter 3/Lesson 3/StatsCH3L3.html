@@ -1,0 +1,1158 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi {
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSemic,
+        li.MsoSemic,
+        div.MsoSemic {
+            margin: 0in;
+           
+            font-size: clamp(1.2rem, 1.6vw, 1.3rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #b19af2;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #6ca4ec;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .boxp {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .boxg {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#00f2ff11; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        .boxb {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#0c4e9f2d; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        ::selection {
+            background-color: #59078fa1; /* Change this to your desired highlight color */
+            color: #ffffff; /* Change this to your desired text color */
+          }
+
+
+          mark{
+            background-color:#078b8fa1 ;
+            color: #ffffff;
+            padding: 0 7px;
+        }
+
+        .hlg { background-color: rgba(0, 234, 255, 0.334);  }
+        .hlp { background-color:#5f1487; }
+      
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+    <body class="custom-scrollbar">
+
+     
+        <p class="MsoBold">درس ۳
+            <br>
+        معیارهای پراکندگی</p>
+        
+        <p class="MsoBold">۱- انحراف معیار و واریانس داده‌ها</p>
+        <p class="MsoStep">فعالیت</p>
+        
+        <p class="MsoNormal">
+            در اقتصاد هر کشوری شاخصی تحت عنوان قیمت گوشت نقش بسیار مهمی را ایفا می‌کند. یکی از اقلام مصرفی مورد نیاز در محاسبه سبد تورم در یک کشور، قیمت گوشت قرمز است. در جدول روبرو قیمت گوشت قرمز در سال ۱۳۹۵ در شهرستان‌های استان تهران گردآوری شده است.
+        </p>
+        <br>
+        
+        <p class="MsoNormal">
+            $*$ میانگین قیمت گوشت قرمز در شهرستان‌های استان تهران را به دست آورید؟
+        </p>
+        <br>
+        <p class="MsoNormal">
+            $*$ در نمودار زیر، میانگین قیمت گوشت قرمز در شهرستان‌های استان تهران نشان داده شده است. قیمت گوشت قرمز در هر یک از شهرستان‌های استان تهران را با کشیدن نقطه روی نمودار مشخص کنید.
+        </p>
+        <br>
+        
+        <table class="MsoNormal" style="margin:auto; width:fit-content; direction:rtl; text-align:center; border-collapse:collapse;">
+            <tr>
+                <th>شهرستان‌های استان تهران</th>
+                <th>قیمت گوشت قرمز (هزار تومان)</th>
+            </tr>
+            <tr>
+                <td>تهران</td>
+                <td>42</td>
+            </tr>
+            <tr>
+                <td>اسلام‌شهر</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>دماوند</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>رباط‌کریم</td>
+                <td>26</td>
+            </tr>
+            <tr>
+                <td>ری</td>
+                <td>27</td>
+            </tr>
+            <tr>
+                <td>شمیرانات</td>
+                <td>40</td>
+            </tr>
+            <tr>
+                <td>شهریار</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>فیروز‌کوه</td>
+                <td>۱۶</td>
+            </tr>
+            <tr>
+                <td>قدس</td>
+                <td>۲۰</td>
+            </tr>
+            <tr>
+                <td>ملارد</td>
+                <td>۲۱</td>
+            </tr>
+            <tr>
+                <td>پیشوا</td>
+                <td>۲۲</td>
+            </tr>
+            <tr>
+                <td>پاکدشت</td>
+                <td>۲۳</td>
+            </tr>
+            <tr>
+                <td>ورامین</td>
+                <td>۲۶</td>
+            </tr>
+        </table>
+        <br><br>
+  
+        
+        <p class="MsoNormal">۱) چند نقطه بالای خط قرمز، چند نقطه پایین خط قرمز و چند نقطه روی خط قرمز قرار دارد؟</p>
+        <br><br>
+        <p class="MsoNormal">۲) به‌طور کلی، قیمت گوشت قرمز یعنی اینکه قیمت گوشت قرمز در هر یک از شهرستان‌های استان تهران چقدر از میانگین قیمت دورتر است.</p>
+        <br><br>
+        <p class="MsoNormal">۳) به چند مقدار یا با چه فاصله‌ای با میانگین قیمت گوشت قرمز در شهرستان‌های استان تهران حول خط قرمز و یا همان میانگین قیمت گوشت قرمز نزدیک‌تر یا باشند، نشان‌دهنده چیست؟ چقدر دورتر یا نزدیک‌تر هستند؟</p>
+        <br><br>
+        <p class="MsoNormal">۴) معیاری را برای اندازه‌گیری پراکندگی قیمت گوشت قرمز با همان نقاط حول خط قرمز می‌توانید معرفی کنید؟</p>
+        <br><hr><br>
+        <p class="MsoNormal">
+            دیدیم که قیمت گوشت قرمز یعنی اینکه قیمت گوشت قرمز در هر یک از شهرستان‌های استان تهران چقدر از میانگین قیمت دورتر است. برای معرفی معیار مناسب یکی از راه‌حل ابتدایی این است که تک‌تک داده‌ها کم کنیم و یک‌بار آنها را تفاضل‌ها با میانگین بنامیم. مجموع این تفاضل‌ها برابر با صفر خواهد شد و این به دلیل آن است که برخی از داده‌ها از میانگین بزرگ‌تر و برخی دیگر کوچکترند و نتیجه مقادیر مثبت و منفی حاصل شود که مجموع آنها صفر می‌شود. به همین دلیل، برای رفع این مشکل، قدر مطلق داده‌ها در نظر گرفته می‌شود. اما قدر مطلق نمی‌تواند معیاری برای سنجش پراکندگی داده‌ها باشد، اما قادر مطلق کار آسانی نیست. از این‌رو، می‌توان معیار انحراف داده‌ها از میانگین داده‌ها در نظر گرفته شود.
+        </p>
+      
+        <br>
+      
+        <p class="MsoNormal">
+            در آمار، یک معیار سنجش برای میزان پراکندگی داده‌ها حول میانگین‌شان، 
+            <mark class="hlp">انحراف معیار</mark> است.
+        </p>
+        <br>
+        <p class="MsoSemi">انحراف معیار داده‌ها:</p>
+        <p class="MsoNormal">
+             اگر $n$ داده از جامعه به صورت $x_1, x_2, \dots, x_n$ داشته باشیم، انحراف آنها را با نماد $\sigma$ نشان می‌دهیم، که به صورت زیر محاسبه می‌شود:
+        </p>
+        <br>
+        <p class="MsoNormal" style="text-align: left;">
+            $
+            \begin{align*}
+            \sigma &= \sqrt{\dfrac{\sum_{i=1}^{n} (x_i - \overline{x})^2}{n}}  \\\\
+            &= \sqrt{\dfrac{(x_1 - \overline{x})^2 + (x_2 - \overline{x})^2 + \dots + (x_n - \overline{x})^2}{n}}
+            \end{align*}
+            $
+        </p>
+        <br><br>
+        <p class="MsoNormal">
+            اگر $n$ داده از جامعه به صورت $x_1, x_2, \dots, x_n$ داشته باشیم، انحراف آنها را با نماد $x_i - \overline{x}$ نشان می‌دهیم.
+        </p>
+        <br><br>
+        <p class="MsoSemi">واریانس داده‌ها:</p>
+        <p class="MsoNormal">
+            توان دوم انحراف معیار داده‌ها را واریانس داده‌ها گویند و آن را با نماد $\sigma^2$ نشان می‌دهیم.
+        </p>
+        <br>
+        <p class="MsoNormal">
+            اگر انحراف معیار مجموعه داده‌ها عدد کوچکی باشد، بدین معناست که پراکندگی داده‌ها حول میانگین‌شان کم و نتیجه داده‌ها به هم نزدیک‌تر است. و اگر انحراف معیار مجموعه داده‌ها عددی بزرگ باشد، بدین معناست که پراکندگی داده‌ها حول میانگین‌شان زیاد و در نتیجه داده‌ها از هم دورتر است.
+        </p>
+
+        <br><hr><br>
+
+        <p class="MsoStep">کار در کلاس</p>
+
+        <p class="MsoNormal">
+            انحراف معیار و واریانس مربوط به داده‌های قیمت گوشت قرمز در شهرستان‌های تهران را می‌توانید با تکمیل جدول روبرو محاسبه کنید.
+        </p>
+
+        <table class="MsoNormal" style="margin:auto; width:fit-content; direction:rtl; text-align:center; border-collapse:collapse;">
+            <tr>
+                <th>قیمت گوشت قرمز</th>
+                <th>$x_i - \overline{x}$</th>
+                <th>$(x_i - \overline{x})^2$</th>
+            </tr>
+            <tr>
+                <td>42</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>20</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>25</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>26</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>27</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>40</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>20</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>16</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>20</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>21</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>22</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>23</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>26</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                
+                <td colspan="2">$\sigma$</td>
+                <td></td>
+            </tr>
+            <tr>
+                
+                <td colspan="2">$\sigma^2$</td>
+                <td></td>
+            </tr>
+        </table>
+
+        <br><hr><br>
+
+
+
+        <p class="MsoStep">خواندنی</p>
+
+        <p class="MsoSemi">نرخ تورم</p>
+
+        <p class="MsoNormal">
+            در علم اقتصادی با استفاده از علم آمار، شاخصی تحت عنوان نرخ تورم بیان می‌شود. نرخ تورم، درصد تغییر سطح قیمت مجموعه کالاهای مصرفی مانند خوراک و پوشاک و کالاهای خدماتی مانند مسکن، آب و برق خانوارها در طول زمان را اندازه می‌گیرد.
+        </p>
+        <br>
+        <p class="MsoNormal">
+            به عنوان مثال، اگر متوسط قیمت گوشت قرمز به عنوان کالای مصرفی در سال $a = 28$ و $P = 32$ باشد، در این صورت نرخ تورم برای قیمت گوشت قرمز در سال $a$ برابر است با:
+        </p>
+        <p class="MsoNormal">
+            $$\text{نرخ تورم} = \dfrac{P_1 - P_0}{P_0} \times 100  \% \ $$
+        </p>
+        <br>
+        <p class="MsoNormal">
+            به عنوان مثال، اگر متوسط قیمت گوشت قرمز به عنوان کالای مصرفی در سال $a-1$ و $a$ به ترتیب، $28$ و $32$ هزار تومان برای هرکیلو باشد، در این صورت نرخ تورّم برای قیمت گوشت قرمز در سال $a$ برابر است:
+        </p>
+        
+        <p class="MsoNormal" style="text-align: center;">
+            $$\text{نرخ تورّم} = \dfrac{(32 - 28)}{28} \times 100  = 14 \% \ $$
+        </p>
+        <br>
+        
+        <p class="MsoNormal">
+            یعنی متوسط قیمت گوشت قرمز در سال $a$، $14$ درصد نسبت به سال گذشته افزایش یافته است.
+        </p>
+        <br>
+        
+        <p class="MsoNormal">
+            لازم به ذکر است هر چقدر نرخ تورّم افزایش یابد، قدرت خرید مردم کاهش پیدا می‌کند. همچنین مرکز آمار ایران برای محاسبهٔ نرخ تورّم در یک سال، متوسط قیمت $100$ قلم کالای گروه خوراکی‌ها و آشامیدنی‌ها و $259$ قلم کالای خدماتی برای سال جاری و سال قبل آن در نظر گرفته و این نرخ را محاسبه می‌کند.
+        </p>
+        
+        <br><hr>
+
+        <p class="MsoBold">٢- ضریب تغییرات داده‌ها</p>
+
+        <p class="MsoNormal">
+        یکی از شاخص‌های کیفیت در لاستیک‌های تولید شده اتومبیل توسط یک کارخانه، طول عمر آن لاستیک‌هاست. 
+        هرچقدر متوسط طول عمر لاستیک‌های تولیدی بیشتر و انحراف معیار طول عمر لاستیک‌ها کمتر باشد، به این معناست 
+        که کیفیت لاستیک‌ها بالاتر است. حال با توجه به مطالب گفته شده، به بررسی کیفیت لاستیک‌های تولیدی از نظر طول عمر 
+        در کارخانه (الف) و (ب) می‌پردازیم:
+        </p>
+        <br>
+        <p class="MsoNormal">
+        بر اساس داده‌های به دست آمده میانگین طول عمر لاستیک‌ها در دو کارخانه، و انحراف معیار آنها به شرح جدول روبرو است:
+        </p>
+<br>
+        <table class="MsoNormal" style="margin:auto; width:fit-content; direction:rtl; text-align:center; border-collapse:collapse;">
+            <tr>
+                <th>کارخانه</th>
+                <th>میانگین</th>
+                <th>انحراف معیار</th>
+            </tr>
+            <tr>
+                <td>کارخانه الف</td>
+                <td>٥٤٠٠٠ کیلومتر</td>
+                <td>50 کیلومتر</td>
+            </tr>
+            <tr>
+                <td>کارخانه ب</td>
+                <td>٦٥٠٠٠ کیلومتر</td>
+                <td>100 کیلومتر</td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <p class="MsoNormal">
+        شما ترجیح می‌دهید از کدام کارخانه لاستیک بخرید؟ آیا می‌توان بر اساس میانگین و انحراف معیار نمونه‌های در نظر گرفته شده قضاوت کرد؟
+        </p>
+        <br><hr><br>
+        <p class="MsoSemi">ضریب تغییرات داده‌ها</p>
+
+        <p class="MsoNormal">
+        ضریب تغییرات داده‌ها، معیاری است که از تقسیم انحراف معیار داده‌ها ($\sigma$) به میانگین داده‌ها ($\bar{x}$) به دست می‌آید و آن را با نماد $CV$ نشان می‌دهند:
+        </p>
+        
+        <p class="MsoNormal" style="text-align:center; direction:rtl;">
+        $$ CV = \dfrac{\sigma}{\bar{x}} $$
+        </p>
+        <br>
+        <p class="MsoNormal">
+        هر قدر ضریب تغییرات کمتر باشد، میزان پراکندگی داده‌ها کمتر خواهد شد که این موضوع برای ما مطلوب است.
+        </p>
+
+        <br><hr><br>
+
+        <p class="MsoStep">کار در کلاس</p>
+
+<p class="MsoNormal">
+(الف) با کامل کردن جدول زیر، ضریب تغییرات مربوط به طول عمر دو کارخانه را محاسبه کنید.
+</p>
+<br>
+
+<table class="MsoNormal" style="margin:auto; width:fit-content; direction:rtl; text-align:center; border-collapse:collapse;">
+    <tr>
+        <th>کارخانه</th>
+        <th>میانگین</th>
+        <th>انحراف معیار</th>
+        <th>ضریب تغییرات</th>
+    </tr>
+    <tr>
+        <td>کارخانه الف</td>
+        <td>٥٤٠٠٠ کیلومتر</td>
+        <td>٥٠٠ کیلومتر</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>کارخانه ب</td>
+        <td>٦٥٠٠٠ کیلومتر</td>
+        <td>100 کیلومتر</td>
+        <td></td>
+    </tr>
+</table>
+<br>
+<br>
+    <p class="MsoNormal">
+    محصولات کدام کارخانه را انتخاب می‌کنید؟
+    </p>
+<br>
+    <p class="MsoNormal">
+    (ب) حال با تغییر واحد اندازه‌گیری در جدول قبلی میانگین و انحراف معیار لاستیک‌ها در دو کارخانه (الف) و (ب) به صورت زیر گزارش داده شده است.
+    </p>
+<br>
+
+    <table class="MsoNormal" style="margin:auto; width:fit-content; direction:rtl; text-align:center; border-collapse:collapse;">
+        <tr>
+            <th>کارخانه</th>
+            <th>میانگین</th>
+            <th>انحراف معیار</th>
+            <th>ضریب تغییرات</th>
+        </tr>
+        <tr>
+            <td>کارخانه الف</td>
+            <td>54000000 کیلومتر</td>
+            <td>50000 کیلومتر</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>کارخانه ب</td>
+            <td>65000 کیلومتر</td>
+            <td>10000 کیلومتر</td>
+            <td></td>
+        </tr>
+    </table>
+    <br><br>
+
+    <p class="MsoNormal">
+    همان‌طور که ملاحظه می‌کنید میانگین و انحراف معیار لاستیک‌ها برای کارخانه (الف) برحسب کیلومتر ثابت 
+    و برای کارخانه (ب) برحسب کیلومتر است. در این حالت نیز ضریب تغییرات را در جدول زیر محاسبه کنید. آیا ضریب تغییرات به واحد اندازه‌گیری وابسته است؟
+    </p>
+
+    <br><hr>
+
+    <p class="MsoBold">نمودار جعبه‌ای</p>
+
+    <p class="MsoNormal">
+    در ابتدای این درس با معیارهای پراکندگی آشنا شدیم، حال می‌خواهیم با استفاده از نمودارهای آماری، معیارهای پراکندگی داده‌ها را به صورت تصویری نشان دهیم.
+    </p>
+
+    <br><hr><Br>
+    
+    <p class="MsoStep">فعالیت</p>
+    
+    <p class="MsoNormal">
+    میزان بارش برف سالانه در دو پیست اسکی (الف) و (ب)، برای هفت سال اندازه‌گیری و نتایج، در جدول زیر گردآوری شده است:
+    </p>
+    <br>
+    <table class="MsoNormal" style="margin:auto; width:fit-content; direction:rtl; text-align:center; border-collapse:collapse;">
+        <tr>
+            <th>سال</th>
+            <th>میزان بارش برف در پیست اسکی الف</th>
+            <th>میزان بارش برف در پیست اسکی ب</th>
+        </tr>
+        <tr>
+            <td>1394</td>
+            <td>825</td>
+            <td>566</td>
+        </tr>
+        <tr>
+            <td>1393</td>
+            <td>728</td>
+            <td>581</td>
+        </tr>
+        <tr>
+            <td>1392</td>
+            <td>472</td>
+            <td>93</td>
+        </tr>
+        <tr>
+            <td>۱۳۹۱</td>
+            <td>۷۸۷</td>
+            <td>۱۰۱۶</td>
+        </tr>
+        <tr>
+            <td>1390</td>
+            <td>335</td>
+            <td>525</td>
+        </tr>
+        <tr>
+            <td>1389</td>
+            <td>190</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>1388</td>
+            <td>551</td>
+            <td>271</td>
+        </tr>
+    </table>
+    
+    <br>
+    
+    <p class="MsoNormal" style="font-size: smaller;">
+        $*$
+    عدد ۰ در جدول به این معناست که میزان بارش کمتر از سانتی‌متر است.
+    </p>
+    
+    <br><br>
+
+    <p class="MsoNormal">برای رسم نمودار آماری، مراحل زیر را انجام دهید.</p>
+    <br>
+    <p class="MsoNormal">الف) جدول زیر را کامل کنید.</p>
+    <br>
+    <table class="MsoNormal" style="margin:auto; width:fit-content; direction:rtl; text-align:center; border-collapse:collapse;">
+        <tr>
+        
+            <th>سال</th>
+            <td>پیست اسکی الف</td>
+        </tr>
+        <tr>
+            <th>کمترین مقدار میزان بارش برف $Min$</th>
+            <td></td>
+       
+        </tr>
+        <tr>
+            <th>چارک اول میزان بارش برف $Q_1$</th>
+            <td></td>
+        
+        </tr>
+        <tr>
+            <th>میانه میزان بارش برف $Q_2$</th>
+            <td></td>
+         
+        </tr>
+        <tr>
+            <th>چارک سوم میزان بارش برف $Q_3$</th>
+            <td></td>
+         
+        </tr>
+        <tr>
+            <th>بیشترین مقدار میزان بارش برف $Max$</th>
+            <td></td>
+         
+        </tr>
+    </table>
+    
+    <br><br>
+    
+    <p class="MsoNormal">ب) حال مقادیر جدول را روی یک محور نمایشی می‌دهیم:</p>
+    
+    <br><br>
+    
+    <p class="MsoNormal">پ) برای مشخص کردن حدود دامنه میان چارکی $(IQR)$ 
+        یک جعبه به عرض دلخواه رسم می‌کنیم، سپس با استفاده
+         از یک خط مبنا در جعبه مشخص می‌کنیم و در انتها از دو طرف 
+        جعبه به کمترین و بیشترین مقدار داده‌ها دو خط رسم می‌کنیم.</p>
+    
+    
+    <br><hr><br>
+    <p class="MsoNormal">به این نمودار، نمودار جعبه‌ای می‌گوییم. در این نمودار چارک اول، میانه، چارک سوم، بیشترین و کمترین مقدار داده‌ها به‌طور هزاران نشان داده می‌شود.</p>
+    <br><hr><br>
+
+    <p class="MsoStep">کار در کلاس</p>
+    <p class="MsoNormal">
+        $*$
+        نمودار جعبه‌ای مربوط به پیست (ب) را رسم کنید. و سپس با نمودار جعبه‌ای پیست (الف) مقایسه کنید.</p>
+  
+    <br>
+  
+    <p class="MsoNormal">
+        
+        $*$
+        اگر داده ورودی این دو داده‌ها باشد، چه تغییری می‌کند؟</p>
+    
+
+    <br><hr><br>
+
+    <p class="MsoNormal">فرض کنید سن افرادی که در یک روز سوار اتوبوس شده‌اند، به صورت زیر است:</p>
+    <p class="MsoNormal">$$۳۲، ۵۹، ۶۷، ۵۲، ۷۵، ۴۰، ۲۳، ۶۴، ۵۰، ۶۱$$</p>
+    <br>
+    <p class="MsoNormal">۱) انحراف معیار، واریانس و ضریب تغییرات سن افراد را به دست آورید.</p>
+   
+   <br><br>
+    <p class="MsoNormal">۲) نمودار زیر میزان مصرف گاز CNG را از سال ۱۳۸۵ تا ۱۳۹۴ نشان می‌دهد. با توجه به این نمودار انحراف معیار، واریانس و ضریب تغییرات میزان مصرف گاز CNG از سال ۱۳۸۵ تا ۱۳۹۴ را به دست آورید.</p>
+   <br><Br>
+    <p class="MsoNormal">۳) انحراف معیار، واریانس و ضریب تغییرات را برای هر یک از اعداد جدول زیر به دست آورید.</p>
+ <br>
+    <table class="MsoNormal" style="margin:auto; width:fit-content; direction:rtl; text-align:center; border-collapse:collapse;">
+        <tr>
+            <th>اعداد</th>
+            <th>انحراف معیار</th>
+            <th>واریانس</th>
+            <th>ضریب تغییرات</th>
+        </tr>
+        <tr>
+            <td>100, 12, 8, 16, 10, 4, 7</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>10/11 , 11/36 , 10/11 , 9/88 , 9/42 , 9/76 , 9/62</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>2 , 3000 , 2500 , 2000</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <br><br>
+    <p class="MsoNormal">۴) اعداد دلخواهی را در جدول زیر بنویسید و انحراف معیار، واریانس و ضریب تغییرات را برای هر یک از اعداد به دست آورید.</p>
+    <br>
+    <table class="MsoNormal" style="margin:auto; width:fit-content; direction:rtl; text-align:center; border-collapse:collapse;">
+        <tr>
+            <th>اعداد</th>
+            <th>انحراف معیار</th>
+            <th>واریانس</th>
+            <th>ضریب تغییرات</th>
+        </tr>
+        <tr>
+            <td>$\quad$</td>
+            <td>$\quad$</td>
+            <td>$\quad$</td>
+            <td>$\quad$</td>
+        </tr>
+        <tr>
+            <td>$\quad$</td>
+            <td>$\quad$</td>
+            <td>$\quad$</td>
+            <td>$\quad$</td>
+        </tr>
+        <tr>
+            <td>$\quad$</td>
+            <td>$\quad$</td>
+            <td>$\quad$</td>
+            <td>$\quad$</td>
+        </tr>
+        <tr>
+            <td>$\quad$</td>
+            <td>$\quad$</td>
+            <td>$\quad$</td>
+            <td>$\quad$</td>
+        </tr>
+    </table>
+    <br><br>
+    <p class="MsoNormal">۵) اگر ضریب تغییرات ۱۰ داده ۲ باشد و میانگین آن ۴، واریانس داده‌ها را به دست آورید.</p>
+    
+    <br><br>
+    <p class="MsoNormal">۶) اگر $\sigma$ را ۲ برابر کنیم، ضریب تغییرات داده‌ها چند برابر می‌شود؟</p>
+   
+   <br><br>
+    <p class="MsoNormal">۷) فرض کنید ۱۲ توپ گل قرمز را انتخاب و تعداد گل‌های هر توپ را بشماریم و نتایج زیر به دست آمده است:</p>
+    <p class="MsoNormal">
+        $$ 7 , 4 , 3 , 8 , 6 , 4 , 1 , 7 , 4 , 2 , 1 , 1 , 1 , 3 , 2 , 2 , 2 , 2 , 2 , 5 , 5 , 1 , 2 $$
+    </p>
+  
+    <p class="MsoNormal">نمودار جعبه‌ای برای این داده‌ها رسم کنید.</p>
+   
+    <br><br>
+    <p class="MsoNormal">۸) نمودار جعبه‌ای مربوط به شاخص توده بدن (BMI) به تفکیک جنسیت رسم شده است. این نمودار را تفسیر کنید و به سوالات زیر پاسخ دهید:</p>
+ 
+    <br>
+  
+    <p class="MsoNormal">الف) میانه شاخص توده بدن در خانم‌ها بیشتر است یا آقایان؟</p>
+  <br>
+  
+    <p class="MsoNormal">ب) میزان پراکندگی شاخص توده بدن در خانم‌ها بیشتر است یا آقایان؟</p>
+  
+
+    <br><br>
+    <p class="MsoNormal">۹) داده‌های زیر مربوط به نرخ بیکاری یک کشور در ده سال گذشته است:</p>
+   
+   <br>
+    <table class="MsoNormal" style="margin:auto; width:300px; direction:rtl; text-align:center; border-collapse:collapse;">
+        <tr>
+            <th>سال</th>
+            <th>نرخ بیکاری</th>
+        </tr>
+        <tr>
+            <td>اول</td>
+            <td>۱۱/۵</td>
+        </tr>
+        <tr>
+            <td>دوم</td>
+            <td>۱۱/۳</td>
+        </tr>
+        <tr>
+            <td>سوم</td>
+            <td>۱۰/۵</td>
+        </tr>
+        <tr>
+            <td>چهارم</td>
+            <td>۱۰/۴</td>
+        </tr>
+        <tr>
+            <td>پنجم</td>
+            <td>۱۱/۹</td>
+        </tr>
+        <tr>
+            <td>ششم</td>
+            <td>۱۳/۵</td>
+        </tr>
+        <tr>
+            <td>هفتم</td>
+            <td>۱۳/۲</td>
+        </tr>
+        <tr>
+            <td>هشتم</td>
+            <td>۱۲/۲</td>
+        </tr>
+        <tr>
+            <td>نهم</td>
+            <td>۱۰/۴</td>
+        </tr>
+        <tr>
+            <td>دهم</td>
+            <td>۱۰/۱</td>
+        </tr>
+    </table>
+    <br><Br>
+    <p class="MsoNormal">نمودار جعبه‌ای این داده‌ها را رسم کنید.</p>
+    
+
+
+        <br><hr><br>
+       
+            <p class="MsoStep">خواندنی</p>
+            <p class="MsoSemi">نرخ بیکاری</p>
+            <p class="MsoNormal">
+                امروزه بیکاری یکی از موضوعات مهم در جوامع بشری است که دولتمردان و سیاست‌گذاران تمامی کشور‌های جهان به دنبال
+                راهکارهایی برای از بین بردن این مسئله در کشورشان و فراهم کردن زمینه‌ای برای به‌کارگیری استعداد‌های مردم کشورشان هستند.
+                در علوم اقتصادی با استفاده از علم آمار، شاخصی تحت عنوان نرخ بیکاری بیان می‌شود. نرخ بیکاری، به صورت زیر تعریف می‌شود.
+            </p>
+            <p class="MsoNormal" style="text-align:center;">
+                $$ \text{نرخ‌بیکاری} = \dfrac{\text{جمعیت‌بیکار}}{\text{کل‌جمعیت‌فعال}} $$
+            </p>
+            <br>
+            <p class="MsoNormal">
+                جمعیت بیکار به افراد ۱۰ ساله و یا بالاتر از ۱۰ ساله‌ای گفته می‌شود که سه شرط زیر را توأماً داشته باشند:
+            </p>
+            <p class="MsoNormal">در هفتهٔ مشخص حتی یک ساعت هم کار نکرده باشد.</p>
+            <p class="MsoNormal">آمادگی برای انجام کار داشته باشد.</p>
+            <p class="MsoNormal">
+                در هفتهٔ مشخص و سه هفتهٔ قبل از آن جویای کار باشد. (اقدامات مشخصی را به منظور جست‌وجوی
+                اشتغال، مزد‌بگیری و یا خوداشتغالی به عمل آورده باشد.)
+            </p>
+            <p class="MsoNormal">
+                جمعیت شاغل: به افراد ۱۰ ساله، یا بالاتر از ۱۰ ساله‌ای که در طول هفتهٔ مشخص (بازهٔ زمانی ۷ روزه‌ای که وضع فعالیت افراد در این بازهٔ زمانی مد‌نظر باشد)
+                حداقل یک ساعت کار کرده باشد شاغل گویند.
+            </p>
+            <p class="MsoNormal">
+                جمعیت فعال: به مجموع جمعیت بیکار و شاغل گفته می‌شود.
+            </p>
+    
+        
+
+
+        
+
+<br><br><br><br><br>
+
+
+    </body>
+
+
+</html>

@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal ,
+        ul.MsoNormal {
+            margin: 0in;
+           
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi , b{
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #badaff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .MsoPapDefault {
+           
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #722a85;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background-color: #1abbbbe1; /* Scrollbar thumb color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color: #05ffe2;
+        }
+    </style>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+ 
+</head>
+
+
+
+<body class="custom-scrollbar">
+
+    <p class="MsoBold">درس سوم
+        :
+    اعمال جبری روی توابع</p>
+    
+    <p class="MsoNormal">
+        اگر \( f \) و \( g \) به‌ترتیب دو تابع با دامنه‌های \( D_f \) و \( D_g \) باشند، در این صورت جمع، تفریق، ضرب و تقسیم آنها را به‌صورت زیر تعریف می‌کنیم:
+        </p>
+        
+
+<br>
+
+<div class="custom-scrollbar" style="overflow-y: hidden; overflow-x:auto;direction:rtl;">
+    <table class="MsoNormal" style="margin:auto;width:fit-content;direction:rtl;text-align:center;">
+        <tr>
+            <th>نام عمل</th>
+            <th>تعریف ضابطه</th>
+            <th>تعریف دامنه</th>
+        </tr>
+        <tr>
+            <td>جمع</th>
+            <td>\((f+g)(x) = f(x) + g(x)\)</td>
+            <td>\(D_{f+g} = D_f \cap D_g\)</td>
+        </tr>
+        <tr>
+            <td>تفریق</td>
+            <td>\((f-g)(x) = f(x) - g(x)\)</td>
+            <td>\(D_{f-g} = D_f \cap D_g\)</td>
+        </tr>
+        <tr>
+            <td>ضرب*</td>
+            <td>\((f \cdot g)(x) = f(x) \cdot g(x)\)</td>
+            <td>\(D_{f \cdot g} = D_f \cap D_g\)</td>
+        </tr>
+        <tr>
+            <td>تقسیم</td>
+            <td>\(\left(\dfrac{f}{g}\right)(x) = \dfrac{f(x)}{g(x)}\)</td>
+            <td>\(D_{\frac{f}{g}} = D_f \cap D_g - \{ x \ \big| \ g(x) = 0 \}\)</td>
+        </tr>
+    </table>
+    <br>
+    </div>
+
+
+<br><hr><br>
+
+
+<p class="MsoStep">فعّالیت</p>
+
+<p class="MsoNormal">
+۱) اگر \( f(x) = 2x - 1 \) و \( g(x) = x - 2 \)، آنگاه مجموع، تفاضل، حاصل‌ضرب و حاصل‌تقسیم آنها \(\left(\dfrac{f}{g}\right)\) را به‌دست آورید و دامنه هر یک را مشخص کنید.
+</p>
+<br>
+<p class="MsoSemi">حل:</p>
+<p class="MsoNormal" style="text-align: left;direction: ltr;">
+        $
+        \begin{align*}
+        (f+g)(x) &= f(x) + g(x) \\\\
+                 &= (2x -1) + (x -2) \\\\
+                 &= 3x -3 \\\\
+        \end{align*}
+        $  
+</p>
+    <hr style="background-color: #D6D1DA30;width: 60%;">
+<br>
+    <p class="MsoNormal" style="text-align: left;direction: ltr;">
+$ (f-g)(x) = \ . . . . . . . . . . . . .  $
+</p>
+<br>
+<hr style="background-color: #D6D1DA30;width: 60%;">
+<br>
+<p class="MsoNormal" style="text-align: left;direction: ltr;">
+$
+\begin{align*}
+(f \cdot g)(x) &= f(x) \cdot g(x) \\\\
+&= (2x -1) \cdot (x -2) \\\\
+&= 2x^2 - 5x + 2 \\\\
+\end{align*}
+$
+</p>
+
+<hr style="background-color: #D6D1DA30;width: 60%;">
+<br>
+<p class="MsoNormal" style="text-align: left;direction: ltr;">
+$
+\begin{align*}
+D_{f+g} &= D_{f-g} = D_{f \cdot g} \\\\
+&= D_f \cap D_g \\\\
+&= \mathbb{R} \cap \mathbb{R} \\\\
+&= \mathbb{R} \\\\
+\end{align*}
+$
+</p>
+
+<hr style="background-color: #D6D1DA30;width: 60%;">
+<br>
+<p class="MsoNormal" style="text-align: left;direction: ltr;">
+    
+    $
+    \dfrac{f}{g}(x)= \dfrac{f(x)}{g(x)} = \dfrac{ . . . . . . }{ . . . . . . }
+    $
+
+</p>
+<br><hr style="background-color: #D6D1DA30;width: 60%;"><br>
+
+
+<p class="MsoNormal" style="text-align: left;direction: ltr;">
+$
+\begin{align*}
+    D_{\frac{f}{g}} &= (D_f \cap D_g) - \{x \mid g(x) = 0 \} \\\\
+    &= (\mathbb{R} \ \cap \mathbb{R} ) - \{x \mid x - 2 = 0 \} \\\\
+    &= \mathbb{R} - \{ 2 \} \\\\
+\end{align*}
+$
+</p>
+
+<br><br>
+
+
+<p class="MsoNormal">
+    2.
+    توابع $f$ و $g$ به‌صورت زیر تعریف شده‌اند.
+
+</p>
+
+<br>
+<p class="MsoNormal" style="text-align: left;">
+
+    $
+    f = \{ (-۲ \ , \  ۳) \ , \  (-۱ \ , \  ۵) \ , \  (۰ \ ,  \ -۲) \ , \  (۱ \ , \ ۲) \}
+    $
+    <br><br>
+    $
+    g = \{ (-۲ \ , \  \dfrac{۱}{۳}) \ , \  (-۱ \ , \ ۰) \ , \  (۱ \ , \  \dfrac{۳}{۲}) \ , \  (۴ \ , \ -۶) \}
+    $
+    </p>
+    
+    <br>
+
+
+
+
+
+    <p class="MsoNormal">
+        با توجه به توابع $ f $ و $ g $ جاهای خالی را پر کنید.
+        </p>
+
+<br>
+
+        <p class="MsoNormal" style="text-align: left;">    
+        $
+        D_f = \{-2 \ , \  -1 \ , \  0  \ , \  1\}
+        $
+
+
+
+</p>
+
+<br><hr style="background-color: #D6D1DA30;width: 60%;"><br>
+
+
+<p class="MsoNormal" style="text-align: left;direction: ltr;">
+
+    $
+    D_g = \{ \ \dots  \ ,  \  \dots \ , \ \dots \ , \  \dots \  \}
+    $
+
+</p>
+
+<br><hr style="background-color: #D6D1DA30;width: 60%;"><br>
+
+
+<p class="MsoNormal" style="text-align: left;direction: ltr;">
+
+    $
+    D_f \cap D_g = \{-2 \ , \  -1 \ , \  1\}
+    $
+
+
+</p>
+
+<br><hr style="background-color: #D6D1DA30;width: 60%;"><br>
+
+
+<p class="MsoNormal" style="text-align: left;direction: ltr;">
+
+
+$
+        \begin{align*}
+        f +\ g &= \{( -2 \ , \  3 + \frac{1}{3}) \ , \  (-1 \ , \  5 + \  . . .  \ ) \ , \  ( \  . . .  \ , \  2 + \frac{2}{3})\} \\\\
+              &= \{(-2 \ ,  \ . . .  \ ) \ , \  (-1 \ , \  5) \ , \  (1 \ , \  \frac{8}{3})\}
+        \end{align*}
+$
+</p>
+
+<br><hr style="background-color: #D6D1DA30;width: 60%;"><br>
+
+<p class="MsoNormal" style="text-align: left;direction: ltr;">
+
+$
+        \begin{align*}
+        g - \  f &= \{(-2 \  , \  \frac{1}{3} - 3) \ , \   (-1 \ , \  0 -  \ . . .  ) \ , \  (1 \ , \ . . . \  -  \  2 )\} \\\\
+              &= \{(- 2 \ , \  -\frac{ 8 }{3}) \ , \  (-1 \ , \ . . .  ) \ , \  ( 1 \ , \   . . . )\}
+        \end{align*}
+$
+
+
+</p>
+
+<br><hr style="background-color: #D6D1DA30;width: 60%;"><br>
+
+<p class="MsoNormal" style="text-align: left;direction: ltr;">
+$
+        \begin{align*}
+        f \cdot \  g &= \{ (-2 \ , \  3 \times \frac{1}{3}) \ , \  (\ . . . \ , \  5 \times 0) \ , \  ( \ . . .  \ , \  2 \times \frac{2}{3}) \} \\
+        &= \{ (-2 \ , \ 1) \ , \  (\ . . .  \ , \ . . . ) \ , \  ( 1  \ , \  \frac{4}{3}) \}
+        \end{align*}
+$
+
+</p>
+
+<br><hr style="background-color: #D6D1DA30;width: 60%;"><br>
+
+<p class="MsoNormal" style="text-align: left;direction: ltr;">
+
+$
+        \begin{align*}
+        D_{f/g} &= \{-2 \ , \ -1 \ , \  1\} - \{-1\} \\\\
+        &= \{-2 \ , \ 1\}
+        \end{align*}
+        $
+    
+</p>
+        
+<br><hr style="background-color: #D6D1DA30;width: 60%;"><br>
+
+<p class="MsoNormal" style="text-align: left;direction: ltr;">
+$
+    \begin{align*}
+    \dfrac{f}{g} &= \{( -2 \ , \  \dfrac{3}{7}) \ , \  (1 \ ,  \ \dfrac{7}{7}) \ , \  \ . . .  \} \\\\
+    &= \{(-2 \ , \  \ . . . ) \ , \  (1 \ , \ . . .  ) \}
+    \end{align*}        
+$  
+
+</p>
+<br><hr style="background-color: #D6D1DA30;width: 60%;"><br>
+<p class="MsoNormal" style="text-align: left;direction: ltr;">
+$
+        \begin{align*}
+        D_{g/f} &= \{ -2 \ , \  -1 \ , \ 1\} - \ . . .  \  = \  . . . 
+        \end{align*}
+$
+</p>
+
+<br><hr style="background-color: #D6D1DA30;width: 60%;"><br>
+
+<p class="MsoNormal" style="text-align: left;direction: ltr;">
+
+    $
+    \dfrac{g}{f} = \ . . .      $
+
+</p>
+
+<br><hr><br>
+
+
+<p class="MsoStep">کار در کلاس</p>
+<p class="MsoNormal">۱) توابع $f$ و $g$ را در نظر بگیرید.</p>
+
+  <div class="MsoNormal" style="text-align: left;direction: ltr;">
+    <p>
+        $ f = \{(0,0), (5,0), (-3,4)\} $ 
+    </p>
+    <p>
+        $ g = \{(0,2), (1, \dfrac{3}{5}), (-3, \dfrac{2}{7}), (5,-4)\} $
+    </p>
+
+  </div>
+
+
+    <br><br>
+
+
+    <p class="MsoNormal">
+        دامنه و ضابطه توابع 
+        \( f + \  g \)
+        و 
+        \( f - \ g \)
+        و
+        \( f \cdot \ g \)
+        و
+        \( \dfrac{g}{f} \)
+        و
+         \( \dfrac{f}{g} \)
+        را به‌دست آورید.
+    </p>
+
+    <br><br>
+
+    <p class="MsoNormal">
+        ۲. برای دو تابع با ضابطه‌های 
+        $ f(x) = x^2 + 3x + 1 $
+        و 
+        $ g(x) = x - 3 $
+        جدول داده شده را کامل کنید.
+    </p>
+
+    <br>
+
+<div class="custom-scrollbar" style="overflow-y: hidden; overflow-x:auto;direction:ltr;">
+    <table class="MsoNormal" style="margin:auto;width:fit-content;direction:rtl;text-align:left;">
+        <tr>
+            <th style="text-align: center;">دامنه</th>
+            <th  style="text-align: center;">ضابطه</th>
+            <th  style="text-align: center;">تابع</th>
+        </tr>
+        <tr>
+            <td>$ \qquad  \qquad \qquad  \qquad $</td>
+            <td>\( (f + \ g)(x) = \qquad  \qquad\)</td>
+            <td>\( f  + \ g  \)</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>\( (f - \ g)(x) = \qquad  \qquad \)</td>
+            <td>\( f - \  g \)</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>\( (f \cdot \ g)(x) = \qquad  \qquad \)</td>
+            <td>\( f \cdot \ g \)</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>\( \left(\dfrac{f}{g}\right)(x) = \qquad  \qquad \)</td>
+            <td>\( \dfrac{f}{g} \)</td>
+        </tr>
+    </table>
+    <br>
+
+</div>
+
+<br><br><br>
+
+
+<p class="MsoNormal">
+    ۳. برای دو تابع با ضابطه‌های 
+    $ u(x) = \sqrt{x} + 1 $ 
+    و 
+    $ v(x) = x - 1 $
+    جدول داده شده را کامل کنید.
+</p>
+
+<br>
+<table class="MsoNormal" style="margin:auto;width:fit-content;direction:rtl;text-align:left;">
+    <tr>
+        <th style="text-align: center;">دامنه</th>
+        <th  style="text-align: center;">ضابطه</th>
+        <th  style="text-align: center;">تابع</th>
+    </tr>
+    <tr>
+        <td>$ \qquad  \qquad \qquad  \qquad $</td>
+        <td>\( (u+v)(x) = \qquad \qquad \)</td>
+        <td>\( u+v \)</td>
+    </tr>
+    <tr>
+        <td>$ \qquad \qquad $</td>
+        <td>\( (u-v)(x) = \qquad \qquad \)</td>
+        <td>\( u-v \)</td>
+    </tr>
+    <tr>
+        <td>$ \qquad \qquad $</td>
+        <td>\( (u \cdot v)(x) = \qquad \qquad \)</td>
+        <td>\( u \cdot v \)</td>
+    </tr>
+    <tr>
+        <td>$ \qquad \qquad $</td>
+        <td>\( \left(\dfrac{u}{v}\right)(x) = \qquad \qquad  \)</td>
+        <td>\( \dfrac{u}{v} \)</td>
+    </tr>
+</table>
+
+<br>
+<br><hr><br>
+
+
+<p class="MsoStep">فعالیت</p>
+<p class="MsoNormal">
+    مطابق شکل، دو تابع \( f \) و \( g \) به‌ترتیب با رنگ‌های قرمز و آبی نشان داده شده‌اند.
+</p>
+<br>
+<p class="MsoNormal">
+    الف) ضابطه دو تابع \( f \) و \( g \) را به‌دست آورید.
+</p>
+
+<p class="MsoNormal" style="text-align: center;">
+   $$
+    f(x) = \ . . .  
+   \qquad \qquad
+   g(x) = \ . . .  
+   $$
+</p>
+
+<br>
+
+<p class="MsoNormal">
+    ب) ضابطه دو تابع \( f+ \ g \) و \( f- \ g \) را به‌دست آورید.
+</p>
+
+
+<p class="MsoNormal">
+    $$ (f+g)(x) = \ . . .   \qquad \quad (f-g)(x) = \ . . .  $$
+</p>
+
+<br>
+
+<p class="MsoNormal">
+    پ) با تکمیل جدول مقابل، نمودارهای توابع \( f+ \ g \) و 
+    \( f- \ g \) را با رنگ‌های مختلف رسم کنید.
+</p>
+
+<br>
+
+<p class="MsoNormal">
+    ت) آیا جمع دو تابع خطی همیشه یک تابع خطی است؟ در مورد تفریق آنها چه می‌توان گفت؟
+</p>
+<br>
+<table class="MsoNormal" style="margin:auto;width:fit-content;direction:ltr;text-align:center;">
+    <tr>
+        <th>\( x \)</th>
+        <th>\( 0 \)</th>
+        <th>\( 1 \)</th>
+    </tr>
+    <tr>
+        <th>$ f(x) $</th>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+<th>$ g(x) $</th>
+<td>$ \qquad $</td>
+<td>$ \qquad $</td>
+</tr>
+<tr>
+<th>$ (f+g)(x) $</th>
+<td>$ \qquad $</td>
+<td>$ \qquad $</td>
+</tr>
+<tr>
+<th>$ (f-g)(x) $</th>
+<td>$ \qquad $</td>
+<td>$ \qquad $</td>
+</tr>
+</table>
+
+<br>
+<br><hr><br>
+
+
+<p class="MsoStep">فعالیت</p>
+<p class="MsoNormal">
+    با توجه به شکل دیده می‌شود که 
+    $ l(x) = \dfrac{1}{2} f(x) $
+    . جاهای خالی را پر کنید.
+</p>
+
+
+<p class="MsoNormal" style="text-align: left;">
+    \( g(x) = \ . . . . . . .  \ \ f(x) \)
+</p>
+<p class="MsoNormal" style="text-align: left;">
+    \( h(x) = \ . . . . . . . \ \  f(x) \)
+</p>
+
+
+<br><br>
+
+<p class="MsoNormal">
+    با توجه به نمودار فوق ملاحظه می‌شود که:
+</p>
+
+
+
+
+<br><hr><br>
+<p class="MsoNormal">
+    اگر \( k \) عددی مثبت باشد، برای رسم نمودار تابع با ضابطه 
+    $ l(x) = k f(x) $
+    کافی است عرض هر نقطه از نمودار تابع با ضابطه 
+    $ y = f(x) $
+    را \( k \) برابر کنیم.
+</p>
+<br><hr><br>
+
+
+<p class="MsoStep">کار در کلاس</p>
+<p class="MsoNormal">
+    ۱. با توجه به نمودار تابع با ضابطه 
+    $ y = f(x) $
+    در شکل مقابل، نمودار تابع با ضابطه 
+    $ y = -f(x) $
+    را رسم کنید.
+</p>
+
+<br><br>
+
+<p class="MsoNormal">
+    ۲. عبارت زیر را کامل کنید.
+</p>
+
+
+<p class="MsoNormal">
+    برای رسم نمودار تابع با ضابطه 
+    $ y = -f(x) $
+    کافی است قرینهٔ نمودار تابع با ضابطه 
+    $ y = f(x) $ 
+    را نسبت به محور $  . . . . . . . . . . . $ رسم کنیم.
+</p>
+
+<br><br>
+<p class="MsoNormal">
+    ۳. در شکل روبه‌رو، نمودار تابع \( f \) داده شده است. نمودار تابع با ضابطه 
+    $ y = -2 f(x) $
+    را رسم کنید.
+</p>
+
+
+<br><hr><br>
+
+<p class="MsoStep">تمرین</p>
+<p class="MsoNormal">
+    ۱. با استفاده از نمودار تابع با ضابطه 
+    $ f(x) =  \ \big| \ x \ \big| \ $ 
+    ، نمودار هر یک از توابع با ضابطه‌های زیر را رسم کنید.
+</p>
+
+  <div class="MsoNormal" style="text-align: left;direction: ltr;">
+    <p>
+        الف) \( g(x) = - \ \big| \ x \ \big| \ \)
+    </p>
+    <p>
+        ب) \( h(x) = - \ \big| \ x-3 \ \big| \ \)
+    </p>
+    <p>
+        پ) \(  l (x) = 2 \ \big| \ x-2 \ \big| \ \)
+    </p>
+  </div>
+
+
+<br><br>
+
+<p class="MsoNormal">
+    ۲. در هر مورد، دامنه و ضابطه حاصل جمع، ضرب، تقسیم و تفریق دو تابع داده شده را بیابید.
+</p>
+<br>
+<div class="custom-scrollbar" style="overflow-y: hidden; overflow-x:auto;direction:ltr;">
+    <table class="MsoNormal" style="margin:auto;width:fit-content;direction:ltr;text-align:center;">
+        <tr>
+            <th>الف</th>
+            <td>\( f(x) = \ \big| \  x  \ \big| \ \)</td>
+            <td>\( g(x) = \dfrac{1}{x} \)</td>
+        </tr>
+        <tr>
+            <th>ب</th>
+            <td>\( f(x) = x^2 - 4 \)</td>
+            <td>\( g(x) = x + 2 \)</td>
+        </tr>
+        <tr>
+            <th>پ</th>
+            <td>\( f(x) = \sqrt{x} \)</td>
+            <td>\( g(x) = -\sqrt{x} \)</td>
+        </tr>
+        <tr>
+            <th>ت</th>
+            <td>\( f(x) = \dfrac{x - 2}{x + 5} \)</td>
+            <td>\( g(x) = x^2 + x^3  - 10 \)</td>
+        </tr>
+        <tr>
+            <th>ت</th>
+            <td>\( f = \{(2,5), (3,4), (0,-2)\} \)</td>
+            <td>\( g = \{(-1,2), (0,3), (2,4), (3,0)\} \)</td>
+        </tr>
+    </table>
+    <br>
+</div>
+
+
+<br><hr><br>
+
+
+<p class="MsoNormal">
+    ۳. با استفاده از نمودار تابع با ضابطه 
+    $ f(x) = \sqrt{x} $
+    ، هر یک از نمودارهای زیر را رسم کنید.
+</p>
+
+
+  <div class="MsoNormal" style="text-align: ltr;direction: ltr;">
+    <p>
+        الف) \( r(x) = 2\sqrt{x} \)
+    </p>
+    <p>
+        ب) \( s(x) = - \sqrt{x - 2} \)
+    </p>
+    <p>
+        پ) \( t(x) =  - 3 \sqrt{x} \)
+    </p>
+    <p>
+        ت) \( u(x) = 1 -\sqrt{x} \)
+    </p>
+    <p>
+        ث) \( v(x) = 1 -\sqrt{x-3} \)
+    </p>
+    
+  </div>
+
+
+  <br><br>
+
+
+  <p class="MsoNormal">
+    ۴. در شکل مقابل، نمودار دو تابع \( f \) و \( g \) رسم شده است. نمودار حاصل جمع این دو تابع را به‌دست آورید.
+</p>
+
+<br><br>
+
+<p class="MsoNormal">
+    ۵. با توجه به نمودار سه تابع داده شده، مشخص کنید کدام‌یک از آنها برابر مجموع دو تابع دیگر است؟
+</p>
+
+ 
+
+<br><hr><br>
+
+<p class="MsoSemi">خواندنی</p>
+<br>
+<p class="MsoNormal">
+    یک اجاق دارای دو منبع گرمایی قابل تنظیم است که می‌تواند هم‌زمان، به‌طور مستقل و جدا از هم گرما تولید کند. نمودار دمایی که این دو منبع گرمایی تولید می‌کنند، به‌صورت زیر است. این نمودارها نشان می‌دهند که در عرض ۵ دقیقه، چگونه مقدار دما افزایش و یا کاهش می‌یابد. با توجه به نمودارهای زیر بیشترین و کمترین دمایی که در این اجاق تولید می‌شود چه مقدار است؟
+</p>
+<br><hr><br>
+
+
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br>
+</body>
+
+
+</html>
+ 

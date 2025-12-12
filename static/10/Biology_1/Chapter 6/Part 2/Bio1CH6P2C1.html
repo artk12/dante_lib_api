@@ -1,0 +1,248 @@
+
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 900px;
+            margin: auto;
+            font-size: clamp(1rem, 2.5vw, 2rem);
+        }
+
+        span {
+            font-size: clamp(1rem, 2.4vw, 2rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 2.5vw, 2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.5rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.1rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #badaff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+
+        .images {
+            width: -webkit-fill-available;
+            display: block;
+            max-width: 300px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+    </style>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+<body>
+    <p class="MsoBold">گفتار ۲: سامانۀ بافتی</p>
+    <p class="MsoNormal">اگر ریشه، ساقه و برگ را در نهان‌دانگان برش دهیم، سه بخش در آن‌ها قابل تشخیص است؛ به هر یک از این بخش‌ها سامانۀ بافتی می‌گویند؛ زیرا هر سامانه از بافت‌ها و یاخته‌های گوناگونی تشکیل شده است؛ بنابراین پیکر گیاهان نهان‌دانه (گلدار) از سه سامانۀ بافتی به نام‌های پوششی، زمینه‌ای و آوندی تشکیل می‌شود (شکل ۱۱). هر سامانۀ بافتی، عملکرد خاصی دارد؛ مثلاً سامانۀ بافت پوششی، اندام‌ها را در برابر خطرهایی حفظ می‌کند که در محیط بیرون قرار دارند. به نظر شما عملکرد دو سامانۀ دیگر چیست؟ در ادامه، به توضیح هر یک از این سامانه‌ها می‌پردازیم.</p>
+    <br><br>
+    <p class="MsoStep">سامانۀ بافت پوششی</p>
+    <p class="MsoNormal">این سامانه سراسر اندام گیاه را می‌پوشاند و آن را در برابر عوامل بیماری‌زا و تخریب‌گر، حفظ می‌کند؛ بنابراین عملکردی شبیه پوست در جانوران دارد. سامانۀ بافت پوششی در برگ‌ها، ساقه‌ها و ریشه‌های جوان روپوست نامیده می‌شود و معمولاً از یک لایه یاخته تشکیل شده است (شکل ۱۲). پوششی در اندام‌های مسن گیاه، پیراپوست (پریدرم) نامیده می‌شود و با آن در گفتار ۳، آشنا می‌شوید.</p>
+    <br>
+    <p class="MsoNormal">یکی از کارهای روپوست، کاهش تبخیر آب از اندام‌های هوایی گیاه است؛ اما روپوست چگونه این کار را انجام می‌دهد؟ در شکل ۱۲ می‌بینید که لایه‌ای روی سطح بیرونی یاخته‌های روپوست قرار دارد. این لایه پوستک نامیده می‌شود. پوستک از ترکیبات لیپیدی ساخته شده است. یاخته‌های روپوستی این ترکیبات را می‌سازند. پوستک از ورود نیش حشرات و عوامل بیماری‌زا به گیاه، نیز جلوگیری می‌کند و در حفظ گیاه در برابر سرما نیز نقش دارد. بعضی گیاهان پوستک ضخیم دارند. پوستک به علت لیپیدی بودن به کاهش تبخیر آب از سطح برگ کمک می‌کند.</p>
+    <br>
+    <p class="MsoNormal">بعضی یاخته‌های روپوستی در اندام‌های هوایی گیاه، به یاخته‌های نگهبان روزنه، کرک و یاخته‌های ترشحی، تمایز می‌یابند (شکل ۱۳). یاخته‌های نگهبان روزنه برخلاف یاخته‌های دیگر روپوست، سبزینه دارند. تار کشنده در ریشه‌های جوان، از تمایز یاخته‌های روپوست ایجاد می‌شود. روپوست ریشه، پوستک ندارد. به نظر شما این ویژگی چه فایده‌ای دارد؟</p>
+    <br><br>
+    <p class="MsoStep">واژه‌شناسی</p>
+    <p class="MsoNormal">نرم‌آکند (Parenchyma/ پارانشیم) پارانشیم به بافت نرم و پرکننده‌ای گفته می‌شود که فواصل بافت‌های دیگر را پر می‌کند. معادل نرم‌آکند از صفت نرم و آکند به معنی آکنده و پرکننده تشکیل شده است؛ یعنی بافتی پرکننده و نرم. در کنار آن کلمات سخت‌آکند و چسب‌آکند نیز معنی پیدا می‌کنند.</p>
+    <br><br>
+    <p class="MsoStep">سامانۀ بافت زمینه‌ای</p>
+    <p class="MsoNormal">این سامانه که فضای بین روپوست و بافت آوندی را پر می‌کند از سه نوع بافت پارانشیمی (نرم‌آکند)، کلانشیمی (چسب‌آکند) و اسکلرانشیمی (سخت‌آکند) تشکیل می‌شود. بافت پارانشیمی رایج‌ترین بافت در این سامانه است. یاخته‌های پارانشیمی، دیوارۀ نخستین نازک و چوبی نشده دارند؛ بنابراین نسبت به آب نفوذپذیرند (شکل ۱۴). وقتی گیاه زخمی می‌شود، این یاخته‌ها تقسیم می‌شوند و آن را بازسازی می‌کنند. بافت پارانشیم کارهای متفاوتی، مانند ذخیرۀ مواد و فتوسنتز انجام می‌دهد. پارانشیم سبزینه‌دار به فراوانی در اندام‌های سبز گیاه، مانند برگ دیده می‌شود.</p>
+    <br><br>
+    <p class="MsoStep">فعالیت ۶</p>
+    <p class="MsoNormal">سامانۀ بافت زمینه‌ای در گیاهان آبزی از پارانشیمی ساخته می‌شود که فاصلۀ فراوانی بین یاخته‌های آن وجود دارد. این فاصله‌ها با هوا پر شده‌اند. این ویژگی چه اهمیتی برای گیاهی دارد که در آب زندگی می‌کند؟</p>
+    <br><br><br>
+    <p class="MsoNormal">بافت کلانشیم از یاخته‌هایی با همین نام ساخته شده است. این یاخته‌ها دیوارۀ پسین ندارند؛ اما دیوارۀ نخستین آن‌ها ضخیم است. به همین علت ضمن ایجاد استحکام، سبب انعطاف‌پذیری اندام می‌شوند. این بافت مانع رشد اندام گیاهی نمی‌شود. یاخته‌های کلانشیمی معمولاً زیر روپوست قرار می‌گیرند (شکل ۱۵).</p>
+    <br><br>
+    <p class="MsoNormal">بافت اسکلرانشیم از یاخته‌هایی با همین نام ساخته شده است. ذره‌های سختی که هنگام خوردن گلابی زیر دندان حس می‌کنیم، مجموعه‌ای از این یاخته‌هاست. این یاخته‌ها دیوارۀ پسین ضخیم و چوبی شده دارند. چوبی شدن دیواره، به علت تشکیل ماده‌ای به نام لیگنین (چوب) است که در نهایت سبب مرگ پروتوپلاست می‌شود. این یاخته‌ها نقش استحکامی دارند. دو نوع یاختۀ اسکلرانشیمی وجود دارد. اسکلرئیدها، یاخته‌های کوتاه و فیبرها، یاخته‌های دراز اسکلرانشیمی‌اند. از فیبرها در تولید طناب و پارچه نیز استفاده می‌کنند.</p>
+    <br><br>
+    <p class="MsoStep" style="opacity: 0.6;">بیشتر بدانید</p>
+    <p class="MsoNormal">کرک‌های گزنده! بعضی کرک‌ها نقش دفاعی نیز دارند. کرک گزنده در گیاه گزنه، اسید دارد. وقتی نوک سوزن مانند کرک، شکسته می‌شود، اسید از آن خارج و سبب سوزش پوست می‌شود.</p>
+    <br><br>
+    <p class="MsoStep">سامانه بافت آوندی</p>
+    <p class="MsoNormal">این سامانه بافتی، ترابری مواد را در گیاه بر عهده دارد، زیرا دارای بافت آوند چوبی و بافت آوند آبکشی است. به یاد می‌آورید این دو نوع بافت چه تفاوت اساسی با هم دارند؟ اصلی‌ترین یاخته‌های این بافت‌ها، یاخته‌هایی‌اند که آوندها را می‌سازند و همان‌طور که می‌دانید شیرۀ خام و پرورده را در سراسر گیاه جابه‌جا می‌کنند. در این بافت‌ها علاوه بر آوندها، یاخته‌های دیگری مانند یاخته‌های پارانشیمی و فیبر نیز وجود دارد.</p>
+    <br>
+    <p class="MsoNormal">آوندهای چوبی یاخته‌های مرده‌ای‌اند که دیوارۀ چوبی شدۀ آن‌ها، به جا مانده است. لیگنین در دیوارۀ یاخته‌های آوند چوبی به شکل‌های متفاوتی قرار می‌گیرد (شکل ۱۷). بعضی آوندهای چوبی از یاخته‌های دوکی شکل دراز به نام تراکئید ساخته شده‌اند. در حالی که بعضی دیگر، از به دنبال هم قرار گرفتن یاخته‌های کوتاهی به نام عنصر آوندی تشکیل می‌شوند. در عناصر آوندی دیوارۀ عرضی از بین رفته و لولۀ پیوسته‌ای تشکیل شده است.</p>
+    <br>
+    <p class="MsoNormal">آوند آبکش از یاخته‌هایی ساخته می‌شود که دیوارۀ نخستین سلولزی دارند. دیوارۀ عرضی در این یاخته‌ها صفحۀ آبکشی دارد. این یاخته‌ها هسته ندارند، اما زنده‌اند؛ زیرا سیتوپلاسم آن‌ها از بین نرفته است. در کنار آوندهای آبکش نهاندانگان، یاخته‌های همراه قرار دارند. این یاخته‌ها به آوندهای آبکش در ترابری شیرۀ پرورده کمک می‌کنند (شکل ۱۸). همان‌طور که در شکل ۱۸ می‌بینید، دسته‌های فیبر، آوندها را در بر گرفته‌اند.</p>
+    <br><br>
+    <p class="MsoStep">فعالیت ۷</p>
+    <p class="MsoNormal">الف) سه سامانۀ بافتی و انواع یاخته‌های سامانۀ بافت زمینه‌ای را با هم مقایسه کنید.</p>
+    <p class="MsoNormal">ب) مقدار بافت آوند چوبی در ساقۀ چوبی شده، به مراتب بیشتر از بافت آوند آبکشی است. این وضع چه اهمیتی برای گیاه دارد؟</p>
+    <br><br></body>
+
+</html>

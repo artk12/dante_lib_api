@@ -1,0 +1,233 @@
+
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 900px;
+            margin: auto;
+            font-size: clamp(1rem, 2.5vw, 2rem);
+        }
+
+        span {
+            font-size: clamp(1rem, 2.4vw, 2rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 2.5vw, 2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.5rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.1rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #badaff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+
+        .images {
+            width: -webkit-fill-available;
+            display: block;
+            max-width: 300px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+    </style>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+<body>
+ 
+
+
+    <p class="MsoStep">گفتار ۲: تشکیل ادرار و تخلیۀ آن</p>
+    <br><p class="MsoNormal">فرایند تشکیل ادرار، شامل سه مرحله تراوش، بازجذب و ترشح است (شکل 6).</p>
+    <br><p class="MsoNormal">تراوش: تراوش، نخستین مرحلۀ تشکیل ادرار است. در این مرحله بخشی از خوناب در نتیجۀ فشار خون از کلافک خارج شده به کپسول بومن وارد می‌شوند. این فرایند را تراوش می‌نامند. هم ساختار کلافک و هم ساختار کپسول بومن برای تراوش متناسب شده است. مویرگ‌های کلافک از نوع منفذدار هستند و بنابراین امکان خروج مواد از آنها به خوبی فراهم است. مولکول‌های بزرگ نمی‌توانند وارد کپسول بومن شوند. برای اینکه فشار تراوشی به حد کافی زیاد باشد سازوکار ویژه‌ای در نظر گرفته شده است. قطر سرخرگ آوران بیشتر از قطر سرخرگ وابران است و این، فشار تراوشی را در مویرگ‌های کلافک افزایش می‌دهد (شکل 7). اطراف کلافک را کپسول بومن احاطه کرده است. کپسول بومن شامل دو دیواره است؛ یکی بیرونی و دیگری درونی. دیوارۀ بیرونی از یاخته‌های پوششی سنگفرشی ساده و دیوارۀ درونی که با کلافک در تماس است، از یاخته‌هایی به نام پودوسیت تشکیل شده است (شکل 8). هر یک از پودوسیت‌ها رشته‌های کوتاه و پا مانند فراوانی دارد. پودوسیت‌ها با پاهای خود اطراف مویرگ‌های کلافک را احاطه کرده‌اند. شکاف‌های باریک متعددی که در فواصل بین پاها وجود دارد به خوبی امکان نفوذ مواد را به دیوارۀ درونی فراهم می‌کند.</p>
+    <br><p class="MsoNormal">بازجذب: در تراوش، مواد براساس اندازه وارد گردیزه می‌شوند و هیچ انتخاب دیگری صورت نمی‌گیرد. بنابراین، هم مواد دفعی مثل اوره و هم مواد مفید مثل گلوکز و آمینواسیدها به گردیزه وارد می‌شوند. مواد مفید دوباره باید به خون بازگردند. این مواد از طریق مویرگ‌های دور لوله‌ای، دوباره جذب و به این ترتیب به خون وارد می‌شوند. این فرایند را بازجذب می‌نامند. به محض ورود مواد تراوش شده به لولۀ پیچ‌خوردۀ نزدیک، بازجذب آغاز می‌شود. دیوارۀ لولۀ پیچ‌خوردۀ نزدیک از یک لایه بافت پوششی مکعبی تشکیل شده است که ریزپرز دارند. ریزپرزها سطح بازجذب را افزایش می‌دهند. به علت وجود ریزپرزهای فراوان در لولۀ پیچ‌خوردۀ نزدیک، مقدار مواد بازجذب شده در این قسمت از گردیزه، بیش از سایر قسمتهاست (شکل 9). در بیشتر موارد، بازجذب فعال است و با صرف انرژی انجام می‌گیرد؛ گرچه بازجذب ممکن است غیر فعال باشد مثل بازجذب آب که با اسمز انجام می‌شود.</p>
+    <br><p class="MsoNormal">ترشح: ترشح در جهت مخالف بازجذب رخ می‌دهد و در آن موادی که لازم است دفع شوند از مویرگ‌های دور لوله‌ای یا خود یاخته‌های گردیزه به درون گردیزه ترشح می‌شوند. این فرایند را ترشح می‌نامند. ترشح در بیشتر موارد به روش فعال و با صرف انرژی زیستی انجام می‌گیرد. ترشح در تنظیم میزان pH خون، نقش مهمی دارد. اگر pH خون کاهش یابد، کلیه‌ها یون هیدروژن را ترشح می‌کنند. اگر pH خون افزایش یابد، کلیه بیکربنات بیشتری دفع می‌کند و به این ترتیب pH خون را در محدودهٔ ثابتی نگه می‌دارد. بعضی سموم و داروها به وسیلۀ ترشح دفع می‌شوند.</p>
+    <br><br><p class="MsoStep">تخلیۀ ادرار</p>
+    <br><p class="MsoNormal">ادرار پس از ساخته شدن در کلیه، از طریق میزنای به مثانه وارد می‌شود (شکل 10). حرکت کرمی دیوارۀ میزنای، که نتیجۀ انقباضات ماهیچۀ صاف دیوارۀ آن است، ادرار را به پیش می‌راند. پس از ورود به مثانه، دریچه‌ای که حاصل چین‌خوردگی مخاط مثانه روی دهانۀ میزنای است، مانع بازگشت ادرار به میزنای می‌شود. مثانه، کیسه‌ای است ماهیچه‌ای که ادرار را موقتاً ذخیره می‌کند. چنانچه حجم ادرار جمع‌شده در آن از حد مشخصی فراتر رود، کشیدگی دیوارۀ مثانه باعث فعال شدن سازوکار تخلیه ادرار می‌شود. در محل اتصال مثانه به میزراه، بنداره‌ای قرار دارد که به هنگام ورود ادرار باز می‌شود. این بنداره، که بنداره داخلی میزراه نام دارد، از نوع ماهیچۀ صاف و غیرارادی است. بعد از این بنداره، بنداره دیگری به نام بنداره خارجی میزراه وجود دارد که از نوع ماهیچۀ مخطط و ارادی است. در نوزادان و کودکانی که هنوز ارتباط مغز و نخاع آنان به طور کامل شکل نگرفته است، تخلیۀ مثانه به صورت غیرارادی صورت می‌گیرد.</p>
+    <br><p class="MsoNormal">ترکیب شیمیایی ادرار: دو فرایند بازجذب و ترشح، ترکیب مایع تراوش شده را هنگام عبور از گردیزه و مجرای جمع‌کننده، تغییر می‌دهند و آنچه به لگنچه می‌ریزد، ادرار است. حدود 95 درصد ادرار را آب تشکیل می‌دهد. دفع آب از طریق ادرار، راهی است برای تنظیم مقدار آب بدن. یون‌ها نیز بخش مهمی از ادرار را تشکیل می‌دهند که دفع آنها برای حفظ تعادل یون‌ها صورت می‌گیرد. فراوان‌ترین مادۀ دفعی آلی در ادرار، اوره است. اوره چرا و چگونه تشکیل می‌شود؟ در نتیجۀ تجزیۀ موادی مانند آمینو اسیدها، آمونیاک تولید می‌شود که بسیار سمی است. تجمع آمونیاک در خون به سرعت به مرگ می‌انجامد. کبد، آمونیاک را از طریق ترکیب آن با کربن‌دی‌اکسید به اوره تبدیل می‌کند. ویژگی سمی بودن اوره از آمونیاک بسیار کمتر است و بنابراین، امکان انباشته شدن آن و دفع با فواصل زمانی امکان‌پذیر است. کلیه‌ها اوره را از خون می‌گیرند و همراه با ادرار از بدن دفع می‌کنند. دیگر مادۀ دفعی نیتروژندار در ادرار اوریک اسید است. اوریک اسید انحلال‌پذیری زیادی در آب ندارد؛ بنابراین تمایل آن به رسوب کردن و تشکیل بلور زیاد است. رسوب بلورهای اوریک اسید در کلیه‌ها باعث ایجاد سنگ کلیه و در مفاصل باعث بیماری نقرس می‌شود. نقرس یکی از بیماری‌های مفصلی است که با دردناک شدن مفاصل و التهاب آنها همراه است.</p>
+    <br><p class="MsoNormal">تنظیم آب: تنظیم آب تحت تنظیم عوامل مختلفی مثل هورمون‌ها قرار دارد. یکی از سازوکارها به غلظت مواد حل شده در خون ارتباط دارد. اگر غلظت این مواد از حد مشخصی فراتر رود، مرکز تشنگی در هیپوتالاموس تحریک می‌شود که نتیجه آن فعال شدن مرکز تشنگی و تمایل به نوشیدن آب و از طرف دیگر ترشح هورمون ضد ادراری است. این هورمون با اثر بر کلیه‌ها، بازجذب آب را افزایش می‌دهد و به این ترتیب دفع آب از راه ادرار کاهش پیدا می‌کند. اگر بنا به عللی هورمون ضد ادراری ترشح نشود، مقدار زیادی ادرار رقیق از بدن دفع می‌شود. چنین حالتی به دیابت بیمزه معروف است. مبتلایان به این بیماری احساس تشنگی می‌کنند و مایعات زیادی می‌نوشند. این بیماری به علت برهم زدن توازن آب و یون‌ها در بدن، نیازمند توجه جدی است.</p>
+    <br><br><p class="MsoStep">بیشتر بدانید</p>
+    <p class="MsoNormal">دیابت و کلیه‌ها دیابت به رگ‌های کلیه آسیب می‌رساند. در نتیجه کلیه‌ها نمی‌توانند خون را به درستی تصفیه کنند. نمک و آب بیشتری در بدن می‌ماند که در نهایت به افزایش وزن و تجمع مواد دفعی در خون می‌انجامد. دیابت همچنین باعث آسیب دیدن اعصاب مثانه و ایجاد مشکلاتی در تخلیه ادرار می‌شود. اگر مثانه به موقع تخلیه نشود کلیه‌ها آسیب می‌بینند. علاوه بر این، از آنجا که در دیابت، ادرار حاوی قند است تجمع طولانی مدت ادرار در مثانه امکان رشد باکتری‌ها و عفونت مثانه را فراهم می‌آورد.</p>
+
+
+
+
+  
+</body>
+
+
+</html>

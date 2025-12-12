@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: "Nastaliq";
+            src: url('nas.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+      
+        li.MsoNormal,
+        div.MsoNormal,
+        ul.MsoNormal,
+        ol.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+            
+        }
+        p.MsoNas
+         {
+            margin: 0.5em;
+            
+            font-size: clamp(1.5rem, 1.7vw, 2rem);
+            font-family: "Nastaliq";
+            line-height: 2.3em;
+            color: #dcd7e0;
+            text-align: center;
+         letter-spacing: 0em;
+         word-spacing: 0.4em;
+            
+        }
+        p.MsoNormal
+         {
+            margin: 0in;
+           
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-indent: 1em;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi,  b{
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSemic,
+        li.MsoSemic,
+        div.MsoSemic {
+            margin: 0in;
+           
+            font-size: clamp(1.2rem, 1.6vw, 1.3rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #b19af2;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #6ca4ec;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+        span.uline{
+            border-bottom: 0.1em solid #64E9E1;
+        }
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .boxp {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .boxg {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#00f2ff11; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        .boxb {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#0c4e9f2d; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        ::selection {
+            background-color: #59078fa1; /* Change this to your desired highlight color */
+            color: #ffffff; /* Change this to your desired text color */
+          }
+
+
+          mark{
+            background-color:#078b8fa1 ;
+            color: #ffffff;
+            padding: 0 7px;
+        }
+
+        .hlg { background-color: rgba(0, 234, 255, 0.334);  }
+        .hlp { background-color:#5f1487; }
+      
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+    <body class="custom-scrollbar">
+
+    <p class="MsoBold">گفتار ۲ دومین خط دفاعی: واکنش ‌های عمومی اما سریع</p>
+    <p class="MsoNormal">اگر میکروبی بتواند از نخستین خط دفاعی عبور کند، آیا یاخته‌های بدن ما می‌توانند با آن مبارزه کنند؟</p>
+    <p class="MsoNormal">مشاهدۀ یک دانشمند به دست آمد. او در حین کلید پاسخ به این سؤال، از مشاهدۀ جانورشناسی به نام ایلیا مچنیکوف، مطالعاتی را انجام داد. مچنیکوف برای نخستین بار، درون بدن لارو ستارۀ دریایی، یاخته‌هایی را دید که شبیه آمیب بودند؛ حرکت می‌کردند و مواد اطراف خود را می‌خوردند. او درست حدس زده بود. تا صبح فردا، این یاخته‌های آمیبی شکل، اثری از خرده‌ها باقی نگذاشته بودند. مچنیکوف این یاخته‌ها را بیگانه ‌خوار نامید.</p>
+    <p class="MsoNormal">او بقیۀ عمر خود را به مطالعۀ نحوۀ دفاع بدن در برابر میکروب‌ها پرداخت و سرانجام موفق شد جایزۀ نوبل را به دست آورد.</p>
+    <p class="MsoNormal">قبل از آنکه بیگانه خوارهای بدن ما به میکروب حمله کند، ابتدا باید «بیگانه بودن» آن را تشخیص دهد. دستگاه ایمنی هر فرد، یاخته‌های «خودی» را می‌شناسد و تنها در برابر آنچه که «بیگانه» تشخیص داده می‌شود پاسخ می‌دهد.</p>
+    <p class="MsoNormal">دومین خط دفاعی شامل ساز و کارهایی است که بیگانه‌ها را بر اساس ویژگی‌های عمومی آنها شناسایی می‌کند. بنابراین، از نوع دفاع غیر اختصاصی است. دومین خط دفاعی شامل بیگانه‌خوارها، گویچه‌های سفید، پروتئین‌ها، پاسخ التهابی و تب است.</p>
+    
+    <p class="MsoStep">بیگانه‌خوارها (فاگوسیت ها)</p>
+    <p class="MsoNormal">در انسان انواع مختلفی از یاخته‌های بیگانه‌خوار شناسایی شده‌اند. بیگانه‌خوارها در جای‌جای بدن انسان حضور دارند. درشت‌خوار (ماکروفاژ) یکی از بیگانه‌خوارهاست.</p>
+    <p class="MsoNormal">واژۀ درشت‌خوار برای شما آشناست. آیا درشت‌خوارهای حبابکی را در شش‌ها به یاد دارید؟ درشت‌خوارها در اندام‌های مختلف، از جمله گره‌های لنفاوی، حضور دارند و با میکروب‌ها مبارزه می‌کنند.</p>
+    <p class="MsoNormal">یکی دیگر از وظایف درشت‌خوار از بین بردن یاخته‌های مردۀ بافت‌ها یا بقایای آنهاست. از سال گذشته به یاد دارید که کبد و طحال گویچه‌های قرمز مرده را پاکسازی می‌کنند. این کار به وسیلۀ درشت‌خوارهای این اندام‌ها انجام می‌شود.</p>
+    <p class="MsoNormal">نوع دیگری از بیگانه‌خوارها یاخته‌های دارینه‌ای نام دارد. این یاخته‌ها را به علت داشتن انشعابات دارینه مانند، به این نام می‌خوانند. یاخته‌های دارینه‌ای در بخش‌هایی از بدن که با محیط بیرون در ارتباط‌اند، مثل پوست و لولۀ گوارش، به فراوانی یافت می‌شوند.</p>
+    <p class="MsoNormal">این یاخته‌ها علاوه بر بیگانه‌خواری، قسمت‌هایی از میکروب را در سطح خود قرار می‌دهند. سپس خود را به گره‌های لنفاوی نزدیک می‌رسانند، تا این قسمت‌ها را به یاخته‌های ایمنی ارائه کنند. یاخته‌های ایمنی با شناختن این قسمت‌ها، میکروب مهاجم را شناسایی خواهند کرد.</p>
+    <p class="MsoNormal">بیگانه‌خوار دیگر ماستوسیت نام دارد. ماستوسیت‌ها ماده‌ای به نام هیستامین دارند. هیستامین رگ‌ها را گشاد و نفوذپذیری آنها را زیاد می‌کند. گشاد شدن رگ‌ها باعث افزایش جریان خون و حضور بیشتر گویچه‌های سفید می‌شود.</p>
+    <p class="MsoNormal">نوتروفیل، بیگانه‌خوار دیگری است که از انواع گویچه‌های سفید است. نوتروفیل‌ها را در بخش گویچه‌های سفید بررسی می‌کنیم.</p>
+    
+    <p class="MsoStep">گویچه‌های سفید</p>
+    <p class="MsoNormal">یافته‌های اولیه نشان داد که در جریان بیماری‌های میکروبی، تعداد گویچه‌های سفید افزایش می‌یابد و به این ترتیب، مشخص شد که بین این گویچه‌ها و میکروب‌ها ارتباط وجود دارد. اما هنوز یک سؤال دیگر باقی‌مانده بود: گویچه‌های سفید در خون‌اند، اما میکروب‌ها همه جا می‌توانند باشند. گویچه‌های سفید چگونه با میکروب‌های خارج از خون مبارزه می‌کنند؟ آیا گویچه‌های سفید می‌توانند از خون خارج شوند؟</p>
+    
+    <p class="MsoNormal">با پیشرفت روش‌های رنگ‌آمیزی و کار با میکروسکوپ، دانشمندان به کشفی دست یافتند که می‌توانست این معما را حل کند. دانشمندان مشاهده کردند که گویچه‌های سفید نه تنها در خون، بلکه در بافت‌های دیگر هم یافت می‌شوند. پس گویچه‌های سفید، توانایی خروج از خون را دارند. فرایند عبور گویچه‌های سفید را از دیوارۀ مویرگ‌ها، تراگذری (دیاپدز) می‌نامند.</p>
+    <p class="MsoNormal">تراگذری از ویژگی‌های همۀ گویچه‌های سفید است.</p>
+    
+
+    <br>
+
+
+
+    <br>
+
+
+
+
+
+    <p class="MsoStep">فعّالیت 3</p>
+    <p class="MsoNormal">در شکل زیر، انواع گویچه‌های سفید نشان داده شده است (مقیاس گویچه‌ها نسبت به هم رعایت نشده است). با توجه به آنچه که در سال قبل خوانده‌اید:</p>
+    <ul class="MsoNormal">
+        <li>الف) نام هر یک را بیان کنید.</li>
+        <li>ب) سیتوپلاسم در کدام گویچه‌ها دانه‌دار و در کدام بدون دانه است؟</li>
+        <li>پ) تحقیق کنید که دانه‌ها از چه چیزی ساخته شده‌اند؟</li>
+    </ul>
+    
+
+    <br>
+
+    <br>
+
+
+
+    
+
+    <p class="MsoNormal">نوتروفیل ‌ها را می‌توان به «نیروهای واکنش سریع» تشبیه کرد.
+اگر عامل بیماری‌زا در بافت وارد شود، نوتروفیل‌ها با تراگذری خود را به آنها می‌رسانند و با بیگانه خواری آنها را نابود می‌کنند. نوتروفیل‌ها مواد دفاعی زیادی حمل نمی‌کنند و چابک‌اند.</p>
+<p class="MsoNormal">همۀ عوامل بیماری‌زا را نمی‌توان با بیگانه‌خواری از بین برد. در برابر عوامل بیماری‌زای بزرگ‌تری مثل کرم‌های انگل که قابل بیگانه‌خواری نیستند، ائوزینوفیل‌ها مبارزه می‌کنند. ائوزینوفیل‌ها محتویات دانه‌های خود را به روی انگل می‌ریزند.</p>
+<p class="MsoNormal">بازوفیل‌ها، به مواد حساسیت‌زا پاسخ می‌دهند. دانه‌های این یاخته‌ها هیستامین و ماده‌ای به نام هپارین دارند. هپارین ضد انعقاد خون است.</p>
+<p class="MsoNormal">مونوسیت‌ها، از خون خارج می‌شوند و پس از خروج، تغییر می‌کنند و به درشت‌خوار و یا یاخته‌های دندریتی تبدیل می‌شوند.</p>
+
+<p class="MsoStep">لنفوسیت‌ها</p>
+<p class="MsoNormal">لنفوسیت‌ها انواع مختلفی دارند. لنفوسیتی را که در دفاع غیر اختصاصی نقش دارد، یاختۀ کشندۀ طبیعی می‌نامند که یاخته‌های سرطانی و آلوده به ویروس را نابود می‌کنند. یاختۀ کشندۀ طبیعی، به یاختۀ سرطانی متصل می‌شود، با ترشح پروتئینی به نام پرفورین منفذی در غشا ایجاد می‌کند. سپس با وارد کردن آنزیمی به درون یاخته، باعث مرگ برنامه‌ریزی شده یاخته می‌شود.</p>
+<p class="MsoNormal">در یاخته‌ها، برنامه‌ای وجود دارد که در صورت اجرای آن، یاخته می‌میرد. این نوع مرگ را مرگ برنامه‌ریزی شده می‌نامند. لنفوسیت‌های دفاع اختصاصی را لنفوسیت‌های B و T می‌نامند و کمی بعد با آنها آشنا خواهیم شد.</p>
+
+<br>
+
+<br>
+
+
+
+
+<p class="MsoStep">فعّالیت 4</p>
+<p class="MsoNormal">یک گسترش آماده خون را با میکروسکوپ مشاهده و انواع گویچه‌های سفید را در آن مشاهده کنید.</p>
+
+
+<br>
+
+<br>
+
+
+
+
+
+<p class="MsoNormal">پروتئین‌ها</p>
+<p class="MsoNormal">علاوه بر یاخته‌ها، پروتئین‌ها هم در ایمنی بدن نقش دارند. پروتئین‌های مکمل، گروهی از پروتئین‌های خون (محلول در خوناب) هستند. این پروتئین‌ها در فرد غیر آلوده به صورت غیرفعال‌اند، اما اگر میکروبی به بدن نفوذ کند، فعال می‌شوند.</p>
+<p class="MsoNormal">واکنش فعال شدن، به این صورت است که وقتی یکی از این پروتئین‌ها فعال می‌شود، دیگری را فعال می‌کند و به همین ترتیب ادامه می‌یابد. پروتئین‌های فعال‌شده به کمک یکدیگر، با ایجاد ساختارهای حلقه‌مانند در غشای میکروب‌ها، منافذی به وجود می‌آورند. این منافذ عملکرد غشای یاخته‌ای میکروب را در کنترل ورود و خروج مواد از بین می‌برد و سرانجام یاخته بیگانه می‌میرد.</p>
+<p class="MsoNormal">علاوه بر آن، قرارگرفتن پروتئین‌های مکمل روی میکروب، باعث می‌شود که بیگانه‌خواری آن آسان‌تر انجام شود.</p>
+
+<p class="MsoNormal">یکی دیگر از روش‌های دفاع، ترشح پروتئینی به نام اینترفرون است. اینترفرون نوع یک از یاخته آلوده به ویروس ترشح می‌شود و علاوه بر یاختۀ آلوده، بریاخته‌های سالم مجاور هم اثر می‌کند و آنها را در برابر ویروس مقاوم می‌کند. اینترفرون نوع دو از یاخته‌های کشندۀ طبیعی و لنفوسیت‌های T ترشح می‌شود و درشت‌خوارها را فعال می‌کند. این نوع اینترفرون نقش مهمی در مبارزه علیه یاخته‌های سرطانی دارد.</p>
+
+<p class="MsoStep">پاسخ التهابی</p>
+<p class="MsoNormal">هر یک از ما به نوعی تجربۀ زخمی شدن یا بریدگی را داشته‌ایم. در این موارد، پوست آسیب می‌بیند و میکروب‌ها فرصتی برای نفوذ پیدا می‌کنند. قرمزی، تورم، گرما و درد که در موضع آسیب دیده مشاهده می‌شوند، نشانه‌های التهاب‌اند. التهاب، پاسخی موضعی است که به دنبال آسیب بافتی بروز می‌کند. این پاسخ به از بین بردن میکروب‌ها، جلوگیری از انتشار میکروب‌ها و تسریع بهبودی می‌انجامد.</p>
+<p class="MsoNormal">در التهاب، از ماستوسیت‌های آسیب‌دیده هیستامین رها می‌شود. به این ترتیب، گویچه‌های سفید بیشتری به موضع آسیب هدایت می‌شوند و خوناب بیشتری به بیرون نشت می‌کند. یاخته‌های دیوارۀ مویرگ‌ها و درشت‌خوارها با تولید پیک‌های شیمیایی، گویچه‌های سفید خون را به محل آسیب فرا می‌خوانند.</p>
+<p class="MsoNormal">نوتروفیل‌ها و مونوسیت‌ها با تراگذری از خون خارج می‌شوند. نوتروفیل‌ها بیگانه‌خواری می‌کنند و مونوسیت‌ها به درشت‌خوار تبدیل می‌شوند.</p>
+
+
+
+<br>
+
+
+<br>
+
+
+
+
+<p class="MsoStep">فعّالیت 5</p>
+<p class="MsoNormal">الف) علت قرمزی، تورم و گرم شدگی موضع التهاب را چگونه توضیح می‌دهید؟</p>
+<p class="MsoNormal">ب) خروج خوناب بیشتر در محل التهاب از رگ چه اهمیتی دارد؟</p>
+<p class="MsoNormal">در رابطه با چرک و مواد موجود در آن تحقیق کنید.</p>
+
+<br>
+
+<br>
+
+
+
+
+
+<p class="MsoStep">تب</p>
+<p class="MsoNormal">یکی از نشانه‌های بیماری‌های میکروبی، تب است. فعالیت میکروب‌ها در دماهای بالا کاهش می‌یابد، هیپوتالاموس در پاسخ به بعضی ترشحات ِ میکروب‌ها، دمای بدن را بالا می‌برد.</p>
+
+
+
+<br>
+
+<br>
+
+
+
+
+<p class="MsoStep">فعّالیت 6</p>
+<p class="MsoNormal">الف) تب چگونه بر فعالیت میکروب‌ها اثر می‌گذارد؟</p>
+<p class="MsoNormal">ب) چرا تب‌های شدید خطرناک‌اند؟</p>
+
+
+<br>
+
+
+<br>
+
+
+
+
+
+
+
+<br><br><br><br><br>
+
+
+    </body>
+
+
+</html>

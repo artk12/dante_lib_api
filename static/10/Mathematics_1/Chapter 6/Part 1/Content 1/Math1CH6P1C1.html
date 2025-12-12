@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #badaff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .box {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+    <body class="custom-scrollbar">
+
+
+
+
+        <div class="MsoBold">درس اول: شمارش</div>
+
+        <hr><br>
+
+        <p class="MsoNormal">شاید شمارش در نظر برخی افراد، یک مهارت با اهمیت ریاضی نباشد و تنها یک عمل ساده باشد؛ 
+        اما آیا واقعاً شمردن همیشه آسان است؟</p>
+        
+        <p class="MsoNormal">می‌دانید که دو اتومبیل نباید پلاک یکسان داشته باشند. با پلاک‌هایی به‌صورت مقابل، با استفاده از حروف و اعداد، چند اتومبیل را می‌توان شماره‌گذاری کرد؟</p>
+        
+
+<br><hr>
+        <div class="MsoBold">اصل جمع و اصل ضرب</div>
+        
+            <hr><br>
+
+        <div class="MsoStep">فعالیت</div>
+        
+        <p class="MsoNormal">۱. امین قصد دارد به‌خاطر قبولی در یک آزمون به دوستش پوریا، شیرینی بدهد. او با خود فکر می‌کند که پوریا را به یکی از دو مکان رستوران «یا» آبمیوه فروشی دعوت کند. اگر به رستوران برود، تنها یکی از ۲ نوع غذای  قورمه‌سبزی و قیمه را می‌تواند انتخاب کند و اگر به آبمیوه فروشی برود، تنها یکی از سه نوع آبمیوه هویج٫ سیب و پرتقال را می‌تواند انتخاب کند. چند انتخاب برای پوریا وجود دارد؟</p>
+        <br><br>
+        <p class="MsoNormal">۲. هفته بعد پوریا قصد دارد به‌خاطر تولدش امین را دعوت کند. اما او می‌خواهد امین را هم به آن رستوران «و» هم به آن آبمیوه فروشی ببرد و در رستوران یک انتخاب و در آبمیوه فروشی هم یک انتخاب به او بدهد. امین چند نوع انتخاب خواهد داشت؟</p>
+        <br><br>
+        <p class="MsoNormal">
+
+            3.
+            چه تفاوتی در دو سوال بالا وجود داشت که باعث شد تعداد حالت های موجود در دو مثال متفاوت باشد؟
+        </p>
+        
+        <br><br>
+
+
+        <p class="MsoNormal">۴. در هر یک از دو سؤال بالا چه رابطه‌ای بین تعداد گزینه‌های فهرست‌های انتخابی رستوران و آبمیوه‌فروشی و تعداد حالات جواب وجود دارد؟ چرا؟</p>
+
+        <br><br>
+
+        <div class="box">
+            <p class="MsoStep">
+            اصل جمع:
+        </p>
+
+
+            <p class="MsoNormal">اگر کاری را بتوان به دو روش انجام داد، به‌طوری‌که در روش اول $m$ انتخاب و در روش دوم $n$ انتخاب وجود داشته باشد، برای انجام کار موردنظر $m+n$ روش وجود دارد.</p>
+
+
+        </div>
+      
+        <br><br>
+
+        <p class="MsoNormal" style="text-shadow: 0 0 20px #c05aff;">
+        توجه کنید: که نهایتاً قرار است کار موردنظر فقط با یکی از شیوه‌ها انجام شود. مثلاً در قسمت اول فعالیت قبل، امین فقط یکی از کارهای «دعوت به رستوران یا دعوت به آبمیوه‌فروشی» را انجام می‌دهد.
+        </p>
+
+        <br><br>
+
+        <div class="MsoNormal">تعمیم اصل جمع:</div>
+        <p class="MsoNormal">اگر کاری را بتوان به $k$ روش انجام داد، به‌طوری‌که در روش اول $m_1$ انتخاب و در روش دوم $m_2$ و ... و در روش $k$ام $m_k$ انتخابی وجود داشته باشد، برای انجام کار موردنظر $m_1 + m_2 + \cdots + m_k$ روش وجود دارد.</p>
+
+     
+<br>
+        <div class="box">
+            <p class="MsoStep">
+            اصل ضرب:
+        </p>
+
+
+        <p class="MsoNormal">اگر انجام کاری شامل دو مرحله باشد، به طوری که برای انجام مرحله اول $m$ روش و برای هر کدام از این $m$ روش، مرحله دوم را بتوان به $n$ روش انجام داد، در کل کار موردنظر با $m \times n$ روش قابل انجام است.</p>
+
+
+        </div>
+        <br><hr><br>
+
+        <div class="MsoStep">مثال:</div>
+        <p class="MsoNormal">فردی می‌خواهد با اتومبیل خود از تهران به اصفهان برود و برای این کار قصد دارد از قم عبور کند. اگر از تهران به قم دو مسیر $a$ و $b$ و از قم به اصفهان سه مسیر $1$، $2$ و $3$ وجود داشته باشند، این فرد به چند طریق می‌تواند از تهران به اصفهان سفر کند؟</p>
+        <br>
+        <p class="MsoNormal">حل: طبق اصل ضرب تعداد حالت‌ها $2 \times 3 = 6$ است که عبارت‌اند از:</p>
+        
+        <p class="MsoNormal">
+            $$
+            \begin{align*}
+            a,1 \qquad a,2 \qquad a,3 \\ \\ 
+            b,1 \qquad b,2 \qquad b,3
+            \end{align*}
+            $$
+            </p>
+
+<br><br>
+
+
+<div class="MsoNormal">تعمیم اصل ضرب:</div>
+<p class="MsoNormal">اگر انجام کاری شامل $k$ مرحله باشد، به طوری که برای انجام مرحله اول $m_1$ روش، برای انجام مرحله دوم $m_2$ روش، ... و برای انجام مرحله $k$ام $m_k$ روش وجود داشته باشد (با فرض اینکه در هر مرحله انتخاب تمام روش‌های آن مرحله ممکن باشد)، کار موردنظر با $m_1 \times m_2 \times \ \ . . . \ \  \times m_k$ روش قابل انجام است.</p>
+
+
+<br><hr><br>
+<div class="MsoStep">کار در کلاس</div>
+
+<div class="MsoNormal">
+    ۱. پژمان قصد دارد به عبادت دوستش برود. او به یکی از دو انتخاب «یک شاخه گل» 
+    $\text{یا}$
+    «یک نوع شیرینی» برای بردن به خانه دوستش فکر می‌کند. کل‌هایی که او در نظر دارد، عبارت‌اند از:
+    مریم٬ گلایل٬ زنبق و رز.
+      شیرینی‌هایی که او در نظر دارد، عبارت‌اند از: گردویی، نارگیلی و کشمشی. او چند انتخاب دارد؟
+</div>
+<br><br>
+<p class="MsoNormal">۲. هفته بعد پژمان می‌خواهد به دیدن خانه جدید یکی از دوستانش برود. این بار می‌خواهد «یک شاخه گل» و «یک نوع شیرینی» بخرد و همان گزینه‌ها را در ذهن دارد. او این بار به چند حالت می‌تواند خرید کند؟ آنها را بنویسید.</p>
+<br><br>
+<p class="MsoNormal">۳. در هر یک از قسمت‌های (۱) و (۲) از چه اصلی استفاده کردید؟ چرا؟</p>
+<br><br>
+<p class="MsoNormal">۴. دو مسئله طرح کنید که یکی با اصل جمع و یکی با اصل ضرب حل شود.</p>
+<br><br>
+<p class="MsoNormal">در برخی مسائل لازم است از هر دو اصل جمع و ضرب استفاده شود.</p>
+<br><hr><br>
+<div class="MsoStep">
+    مثال
+</div>
+<p class="MsoNormal">فردی می‌خواهد از تهران به اصفهان برود. او قصد دارد با اتومبیل خود یا با قطار این سفر را انجام دهد. اگر با اتومبیل خود به این سفر برود، مسیرها و انتخاب‌های او مانند مثال قبل است و اگر تصمیم بگیرد با قطار برود، سه نوع قطار می‌تواند انتخاب کند. او در کل چند انتخاب دارد؟</p>
+<br>
+<p class="MsoNormal">حل:  <br>اگر با اتومبیل برود، طبق اصل ضرب به ۶ طریق ممکن است و اگر قطار را انتخاب کند سه طریق. اما طبق اصل جمع در کل ۹ انتخاب دارد. با رسم یک شکل این پاسخ را توجیه کنید.</p>
+
+<br><br>
+
+<p class="MsoNormal">مثال: رمزی از سه حرف تشکیل شده است که هر کدام می‌توانند از حروف فارسی یا حروف کوچک انگلیسی باشند. اگر حروف کنار هم از یک زبان نباشند، برای این رمز چند حالت ممکن وجود دارد؟</p>
+
+<br>
+
+<p class="MsoNormal">حل:</p>
+
+<p class="MsoNormal">حالت اول: اگر گزینه سمت چپ حرف فارسی باشد:
+
+    <p style="text-align: left;">
+     $32 \times 26 \times 32 = 26624$
+</p>
+    
+    </p>
+
+<br>
+
+<p class="MsoNormal">حالت دوم: اگر گزینه سمت چپ حرف انگلیسی باشد:
+  
+
+    <p style="text-align: left;">
+        $26 \times 32 \times 26 = 21632$
+   </p>
+
+
+</p>
+
+<br>
+
+<p class="MsoNormal">تعداد حالات ممکن:
+
+
+    <p style="text-align: left;">
+        $26624 + 21632 = 48256$
+   </p>
+
+</p>
+
+<br><hr><br>
+
+<div class="MsoStep">کار در کلاس</div>
+
+<p class="MsoNormal">
+    الف)
+     با سه رقم ۱، ۲ و ۳ چند عدد سه رقمی می‌توان نوشت؟ به‌طور مثال ۳۲۵ و ۲۵۲ و ۳۵۵ سه نمونه از این اعدادند. برای این کار می‌توان نوشتن عدد سه رقمی را به‌صورت پر کردن سه جایگاه مقابل با ارقام مذکور درنظر گرفت.</p>
+
+     <p class="MsoNormal">پس این کار سه مرحله دارد و هر سه مرحله آن باید انجام شود. برای به‌دست آوردن جواب، تعداد راه‌های پر کردن هر جایگاه باید مشخص شود و با استفاده از اصل ضرب در هم ضرب شود.</p>
+     <br>
+     <p class="MsoNormal">هر جایگاه را به سه حالت می‌توان پر کرد، لذا $27$ عدد وجود دارد.</p>
+     <br>
+ 
+     <p class="MsoNormal">با نمودار درختی در سال‌های پیش آشنا شده‌اید. از این نمودار نیز می‌توان برای به‌دست آوردن تعداد اعداد موردنظر و نیز نوعی از نمایش آنها استفاده کرد. به نمودار درختی کشیده شده در حاشیه صفحه دقت و آن را تکمیل کنید.</p>
+     
+     <br><br><br>
+     
+     <p class="MsoNormal">
+        ب)
+        با همان سه رقم چند عدد سه رقمی می‌توان ساخت که رقم تکراری نداشته باشد؟</p>
+
+
+     <br>
+     <p class="MsoNormal">۱ - برای پر کردن جایگاه اول از سمت چپ (صدگان) چند حالت امکان دارد؟</p>
+     <br>
+     <p class="MsoNormal">۲ - حال فرض کنیم یکی از اعداد را در اولین جایگاه گذاشته‌ایم؛ برای پر کردن جایگاه دوم چند حالت امکان دارد؟</p>
+     <br>
+
+     <p class="MsoNormal">۳ - برای پر کردن جایگاه سوم چند حالت وجود دارد؟</p>
+
+     <br>
+
+    <p class="MsoNormal">لذا 
+        $ . . . . . \ \  \times \ \ . . . . . \ \  \times \  \ . . . . . \ \ = \ \ . . . . .  $
+        عدد سه رقمی توسط $2$ و $3$ و $5$ با ارقام غیرتکراری وجود دارد.</p>
+
+  <br><br>
+    <p class="MsoNormal">
+        پ)
+        با همان سه عدد چند عدد سه رقمی زوج می‌توان نوشت؟</p>
+        <br>
+    <p class="MsoNormal">۱ - جایگاه سمت راست به چند روش می‌تواند پر شود، به گونه‌ای که عدد ساخته شده زوج باشد؟</p>
+    <br>
+    <p class="MsoNormal">۲ - دو جایگاه دیگر هر یک به چند روش می‌توانند پر شوند؟</p>
+    <br>
+    <p class="MsoNormal">لذا تعداد اعداد در این حالت برابر است با 
+        $$ \ \ . . . . . \ \  \times \  \ . . . . . \ \ = \ \ . . . . .  $$
+    </p>
+
+
+
+
+
+    <br>    <br>
+    
+    
+    <p class="MsoNormal">
+        پ)
+        با همان سه عدد چند عدد سه رقمی زوج با ارقام غیرتکراری می‌توان نوشت؟</p>
+
+    <p class="MsoNormal">۱ - جایگاه سمت راست به چند روش می‌تواند پر شود، به گونه‌ای که عدد ساخته شده زوج باشد؟</p>
+    <br> 
+    <p class="MsoNormal">۲ - پس از پر کردن جایگاه سمت راست، جایگاه سمت چپ به چند طریق می‌تواند پر شود؟</p>
+    <br> 
+    <p class="MsoNormal">۳ - حال جایگاه وسط به چند طریق می‌تواند پر شود؟</p>
+    <br> 
+    <p class="MsoNormal">
+        ۴ -
+        لذا تعداد اعداد موردنظر در این حالت برابر است با 
+        $$ \ \ . . . . . \ \  \times \  \ . . . . . \ \ = \ \ . . . . .  $$
+    </p>
+
+    <br><hr><br>
+
+    <div class="MsoStep">مثال</div>
+
+    <p class="MsoNormal">با ارقام $7$، $3$، $2$ و $0$:</p>
+    <br>
+    <p class="MsoNormal">الف) چند عدد سه رقمی می‌توان نوشت؟</p>
+    <br>
+    <p class="MsoNormal">ب) چند عدد سه رقمی با ارقام غیرتکراری می‌توان نوشت؟</p>
+    <br>
+    <p class="MsoNormal">پ) چند عدد سه رقمی فرد با ارقام غیرتکراری می‌توان نوشت؟</p>
+    <br>
+    <p class="MsoNormal">ت) چند عدد سه رقمی زوج با ارقام غیرتکراری می‌توان نوشت؟</p>
+    <br>
+    
+    <p class="MsoNormal">حل:</p>
+    <p class="MsoNormal">الف) با توجه به اصل ضرب و چون رقم صفر در جایگاه صدگان نمی‌تواند باشد: بنابراین تعداد حالات ها مطابق شکل مقابل است.</p>
+    <p class="MsoNormal">لذا $48$ عدد سه رقمی با ارقام مذکور می‌توان نوشت.</p>
+    
+    <p class="MsoNormal">$$3 \times 4 \times 4 = 48$$</p>
+    
+
+
+
+    <p class="MsoNormal">ب) طبق اصل ضرب و با توجه به اینکه رقم صفر در سمت چپ نمی‌تواند بیاید و ارقام نباید تکراری باشند، لذا تعداد حالات‌ها مطابق شکل مقابل است: بنابراین $18$ عدد می‌توان نوشت.</p>
+
+    <p class="MsoNormal">$$3 \times 3 \times 2 = 18$$</p>
+    <br>
+    <p class="MsoNormal">پ) با توجه به اینکه رقم سمت راست باید $3$ یا $7$ باشد و رقم صفر هم نمی‌تواند رقم سمت چپ باشد، لذا تعداد حالات به‌صورت مقابل است.</p>
+    
+    <p class="MsoNormal">$$2 \times 2 \times 2 = 8$$</p>
+    <br>
+    <p class="MsoNormal">ت) چون عدد موردنظر باید زوج باشد، لذا رقم سمت راست باید $2$ یا $0$ باشد و چون در حالتی که رقم $0$ سمت راست باشد، رقم "سمت چپ" هم نمی‌تواند باشد، لذا باید دو حالت زیر را درنظر بگیریم و طبق اصل جمع تعداد حاصل در دو حالت را با هم جمع کنیم.</p>
+    <br>
+    <p class="MsoNormal">حالت اول: اگر رقم سمت راست $2$ باشد: یعنی رقم سمت راست یک حالت می‌تواند باشد.</p>
+    <p class="MsoNormal">لذا طبق اصل ضرب تعداد حالات به‌صورت مقابل است.</p>
+    
+    <p class="MsoNormal">$$2 \times 2 \times 1 = 4$$</p>
+    <br>
+    <p class="MsoNormal">حالت دوم: اگر رقم سمت راست $0$ باشد، حالات‌های جایگاه‌ها به‌صورت مقابل است.</p>
+    <p class="MsoNormal">لذا در کل $10$ عدد می‌توان نوشت.</p>
+    <br>
+    <p class="MsoNormal">$$3 \times 2 \times 1 = 6$$</p>
+    
+    <p class="MsoNormal">راه حل دوم: با توجه به صورت سوال‌های (ب)، (پ) و (ت) می‌توان به‌صورت زیر جواب را حساب کرد:</p>
+    <br>
+    <p class="MsoNormal" style="text-align: center; color:#05ffe2">
+        جواب قسمت (پ) - جواب قسمت (ب) = جواب قسمت (ت)
+    </p>
+
+    <p class="MsoNormal" style="text-align: center; color:#05ffe2">$18 - 8 = 10$</p>
+    
+
+
+
+
+    <br><hr><br>
+
+
+    <div class="MsoStep">تمرین</div>
+
+    <p class="MsoNormal">۱. تعداد حالت‌های ممکن برای رمز یک دستگاه را در حالت‌های زیر به‌دست آورید. مشخص کنید برای این کار از اصل جمع استفاده می‌شود یا از اصل ضرب یا از هر دو.</p>
+    <br>
+    <p class="MsoNormal">الف) این رمز از یک گزینه تشکیل شده، که یک عدد با یک حرف الفبای فارسی است.</p>
+    <br>
+    <p class="MsoNormal">ب) این رمز از دو گزینه تشکیل شده است که گزینه اول یک عدد و گزینه دوم یک حرف الفبای فارسی است.</p>
+    <br>
+    <p class="MsoNormal">پ) این رمز از دو گزینه تشکیل شده است که یکی از گزینه‌ها یک عدد و گزینه دیگر یک حرف الفبای فارسی است.</p>
+    <br>
+    <p class="MsoNormal">ت) این رمز از دو گزینه تشکیل شده است که یا هر دو گزینه عددند یا هر دو گزینه حروف انگلیسی‌اند.</p>
+    <br>
+    <p class="MsoNormal">ث) این رمز از $4$ گزینه تشکیل شده است که دو گزینه اول اعداد غیرتکراری و دو گزینه دوم حروف انگلیسی غیرتکراری‌اند.</p>
+    <br> <br>
+
+    <p class="MsoNormal">۲. در یک شهرک صنعتی $5$ بلوار اصلی و در هر بلوار، بین $8$ تا $10$ خیابان، و در هر خیابان بین $10$ تا $12$ کوچه و در هر کوچه بین $20$ تا $30$ کارخانه وجود دارد. حداقل و حداکثر تعداد کارخانه‌هایی که ممکن است در این شهرک وجود داشته باشد، چند تاست؟</p>
+    <br> <br>
+    
+    <p class="MsoNormal">۳. می‌خواهیم رأس‌های مثلث زیر را با دو رنگ قرمز و آبی رنگ کنیم.</p>
+    <br>
+    <p class="MsoNormal">الف) به چند طریق این کار امکان‌پذیر است؟</p>
+    <br>
+    <p class="MsoNormal">ب) به چند طریق می‌توان این رنگ‌آمیزی را انجام داد، به‌گونه‌ای که رأس‌هایی که به هم وصل‌اند، هم‌رنگ نباشند؟</p>
+    <br>
+    <p class="MsoNormal">پ) هر دو قسمت (الف) و (ب) را در حالتی که از سه رنگ مختلف استفاده می‌کنیم، بررسی کنید.</p>
+    <br><br>
+
+    <p class="MsoNormal">۴. با پلاک‌هایی به‌صورت زیر که عدد دو رقمی سمت راست آنها از مجموعه A انتخاب شود و سایر ارقام از مجموعه B انتخاب شوند و حرف استفاده شده در آن از مجموعه C انتخاب شود، چند ماشین را می‌توان شماره‌گذاری کرد؟</p>
+<p class="MsoNormal" style="text-align: left;">
+    $A = \{11, 22, \ldots, 99\}$<br>
+    $B = \{1, 2, 3, 4, 5, 6, 7, 8, 9\}$<br>
+    $C = \{\text{ب}, \text{ج}, \text{د}, \text{س}, \text{ص}, \text{ط}, \text{ق}, \text{ل}, \text{م}, \text{ن}, \text{و}, \text{هـ}, \text{ی}\}$<br>
+</p>
+<br><br>
+    <p class="MsoNormal">۵. در یک کشور نوعی اتومبیل در $5$ مدل، $10$ رنگ، $3$ حجم موتور مختلف و $2$ نوع دنده (اتوماتیک و غیر اتوماتیک) تولید می‌شود.</p>
+    <br>
+    <p class="MsoNormal">الف) چند نوع مختلف از این اتومبیل تولید می‌شود؟</p>
+    <br>
+    <p class="MsoNormal">ب) اگر یکی از رنگ‌های تولید شده مشکی باشد، چند نوع از این اتومبیل با رنگ مشکی تولید می‌شود؟</p>
+    <br>
+    <p class="MsoNormal">پ) چند نوع از این اتومبیل مشکی دنده اتوماتیک تولید می‌شود؟</p>
+    
+    <br><br>
+
+    <p class="MsoNormal">۶. یک آزمون چندگزینه‌ای شامل $10$ سوال $4$ گزینه‌ای و $5$ سوال $2$ گزینه‌ای (بله – خیر) است. فردی قصد دارد به سوال‌ها به‌صورت تصادفی جواب دهد. او به چند روش می‌تواند این کار را انجام دهد اگر:</p>
+
+    <p class="MsoNormal">الف) مجبور باشد به همه سوال‌ها جواب دهد؟</p>
+    <br>
+    <p class="MsoNormal">ب) بتواند سوال‌ها را بدون جواب هم بگذارد؟</p>
+
+    <br><br>
+
+    <p class="MsoNormal">۷. اگر شکل مقابل نشان‌دهنده جاده‌های بین شهرهای A و B و C و D و E باشد و همه جاده‌ها یک‌طرفه باشند، به چند طریق می‌توان از شهر A به شهر E رفت؟</p>
+
+    <br><br>
+    <p class="MsoNormal">۸. مسئله زیر را به گونه‌ای کامل کنید که جواب ارائه‌شده، درست باشد.</p>
+    <br>
+    <p class="MsoNormal">مسئله: چند عدد دو رقمی زوج می‌توان نوشت؟ به‌طوری‌که ....................؟</p>
+    <br>
+    <p class="MsoNormal">حل: تعداد راه نوشتن یکان برابر $5$ تاست و تعداد راه‌های نوشتن دهگان برابر $4$ تاست. لذا با توجه به اصل ضرب، $20$ عدد با شرایط موردنظر وجود دارد.</p>
+
+    <br><br>
+    <p class="MsoNormal">۹. مسئله‌ای طرح کنید که با استفاده از اصل جمع یا اصل ضرب یا هر دوی آنها حل شود و جواب آن به‌صورت زیر باشد:</p>
+
+    <p class="MsoNormal">$$2 \times 2 \times 2 \ \  + \ \  3 \times 3 \times 3 = 35$$</p>
+
+
+
+<br><br><br><br><br>
+
+
+
+
+
+
+
+    </body>
+
+
+</html>

@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        
+        li.MsoNormal,
+        div.MsoNormal,
+        ul.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+        }
+        p.MsoNormal
+         {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-indent: 1em;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi {
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSemic,
+        li.MsoSemic,
+        div.MsoSemic {
+            margin: 0in;
+           
+            font-size: clamp(1.2rem, 1.6vw, 1.3rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #b19af2;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #6ca4ec;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .boxp {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .boxg {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#00f2ff11; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        .boxb {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#0c4e9f2d; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        ::selection {
+            background-color: #59078fa1; /* Change this to your desired highlight color */
+            color: #ffffff; /* Change this to your desired text color */
+          }
+
+
+          mark{
+            background-color:#078b8fa1 ;
+            color: #ffffff;
+            padding: 0 7px;
+        }
+
+        .hlg { background-color: rgba(0, 234, 255, 0.334);  }
+        .hlp { background-color:#5f1487; }
+      
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+<body class="custom-scrollbar">
+
+
+    <p class="MsoBold">درس چهارم<br>
+        <br>
+        گسترش محتوا (3) : گفت‌وگو</p>
+    <p class="MsoNormal">
+    یکی از تیرهای سقف صدا می‌دهد، سرم را می‌برم بالا.<br>
+    ننه می‌گوید: «برفش ریز است. خیال نمی‌کنم به این زودی‌ها دست از سرمان بردارد.»<br>
+    می‌گویم: «اگر تا صبح ببارد، خطر ندارد؟»<br>
+    می‌گوید: «چرا! خیلی سنگین می‌شود.»<br>
+    برمی‌گردد و فتیلۀ چراغ را می‌کشد بالا. دوباره نگاهی به سقف می‌اندازم و از جایم بلند می‌شوم.<br>
+    ـ کجا؟<br>
+    ـ می‌خواهم برف پشت بام را بریزم.<br>
+    ـ الان؟!<br>
+    ـ آره.<br>
+    ـ ولی هوا سرد است. کف پشت بام هم یخ زده. می‌ترسم لیز بخوری.<br>
+    ـ نترس، حواسم هست.
+    </p>
+    <br>
+    <p class="MsoSemi" style="text-align: left;">
+        $*$
+        کوه مرا صدا زد، بایرامی</p>
+    
+    <br><hr><br>
+
+    <p class="MsoNormal">
+    گفت‌وگوها بخش زیادی از زندگی ما را شکل می‌دهند. آرزوها، نگرانی‌ها و شادی‌های ما در گفت‌وگو تجلّی می‌یابد. یکی از روش‌های گسترش نوشته، ایجاد گفت‌وگوست. گفت‌وگو به معرّفی شخصیت‌های نوشته کمک می‌کند و به شکل غیرمستقیم اطّلاعات بسیاری را از زبان آنان به خواننده انتقال می‌دهد. از گفت‌وگوی صفحۀ قبل درمی‌یابیم راوی پسری کاری و زِبر و زرنگ است؛ مادر او نیز زنی مهربان و دلسوز است.
+    </p>
+    <br>
+
+    <p class="MsoNormal">
+    یکی دیگر از کارکردهای گفت‌وگو، به حرکت درآوردن نوشته است که در نمونۀ زیر می‌بینید:
+    </p>
+    <p class="MsoNormal" style="margin-right: 1.5em;">
+    جاهایی را که پارو کرده‌ام، برف دوباره سفید کرده؛ با خود می‌گویم: «عیبی ندارد، دیگر سنگین نخواهد شد.» ننه صدایم می‌کند، خودم را می‌کشم لب بام.<br>
+    ـ چقدر دیگر مانده؟<br>
+    ـ برف اتاق را ریخته‌ام.<br>
+    ـ می‌خواهی بیایم کمکت؟<br>
+    ـ نه خودم از پسش برمی‌آیم.<br>
+    ـ آخه هنوز خیلی مانده.<br>
+    ـ عیبی ندارد، تمامش می‌کنم تو برو.<br>
+    ـ عرق بر پیشانی‌ام می‌نشیند، می‌ترسم سرما بخورم، خودم را می‌رسانم کنار سوراخ سقف.<br>
+    ـ ننه، کلاهم را بفرست بیاید.
+    </p>
+    <br>
+    <p class="MsoSemi" style="text-align: left;">
+        $*$
+        همان منبع</p>
+
+    <br><hr><br>
+
+    <p class="MsoNormal">
+        برای گسترش محتوا با استفاده از عنصر «گفت‌و‌گو»، می‌توانیم مطابق با مراحل زیر بنویسیم:
+        </p>
+        
+
+    <p class="MsoBold">مرحلۀ اوّل: انتخاب موضوع</p>
+    <p class="MsoNormal">
+    برای دست‌ورزی در گفت‌و‌گونویسی، ابتدا موضوعات گوناگونی را که به ذهن می‌رسد، یادداشت می‌کنیم؛ مانند: شادی، جنگل، عشق، پرنده، دریا، زندگی، دوستی و…<br>
+    در اینجا موضوع انتخابی ما «دریا» است. شما چه موضوعی را برای نوشتن انتخاب می‌کنید؟
+    </p>
+    
+    <br><hr><Br>
+
+    <p class="MsoBold">فعّالیت (1)</p>
+    <p class="MsoNormal">
+    از موضوعاتی که نسبت به آنها دانش، تجربه و دلبستگی بیشتری دارید، چند نمونه بنویسید:
+    </p>
+   
+    <br><hr><br>
+
+    <p class="MsoStep">مرحلۀ دوم: تجسّم و بارش فکری</p>
+    <p class="MsoNormal">
+    ابتدا موضوع «دریا» را در ذهن مجسّم می‌کنیم، از تجربۀ قبلیِ حضور در آن موقعیت، بهره می‌گیریم و تصاویری را که از دریا در ذهن داریم، بازسازی می‌کنیم. به این ترتیب:<br>
+    </p>
+    <ul class="MsoNormal">
+        <br><li>عظمت آفرینندۀ دریا و علت آفرینش آن را درک می‌کنیم.</li>
+        <br><li>همهمۀ شاد ماهیگیران بازگشته از صید و مرغان دریایی را می‌شنویم.</li>
+        <br><li>شن‌های نرم و مطبوع ساحل را زیر پاهایمان حس می‌کنیم.</li>
+        <br><li>طرح‌های زیبا و متنوّع صدف‌ها را لمس می‌کنیم.</li>
+        <br><li>در غروب ساحل به رنگ خورشید نگاه می‌کنیم.</li>
+        <br><li>به رازهای پنهان‌شده در اعماق دریا می‌اندیشیم.</li>
+        <br><li>درخشش مرواریدهای غلتان را در ذهن مجسّم می‌کنیم.</li>
+        <br><li>به ذخایر و ثروت‌های عظیم اعماق دریا فکر می‌کنیم.</li>
+    </ul>
+
+    <br><br>
+
+    <p class="MsoNormal">
+        در ادامه با توجّه به فضایی که گفت‌وگو در آن شکل می‌گیرد، موضوع را گسترش می‌دهیم و موضوعات و محورهای مرتبط با آن را در نموداری ثبت می‌کنیم. موضوع انتخاب‌شده را می‌توان مانند نمونۀ زیر گسترش داد.
+    </p>
+
+        
+    <br><hr><br>
+
+    <p class="MsoStep">فعّالیت (2)</p>
+    <p class="MsoNormal">
+    حالا نوبت شماست؛ موضوع انتخابی خود را در ذهن مجسّم کنید و واژه‌های مرتبط با آن را در نموداری مشابه نشان دهید.
+    </p>
+    <br>
+    <hr>
+
+    <p class="MsoBold">مرحلۀ سوم: سازماندهی و طرح اوّلیه</p>
+    <p class="MsoNormal">
+    در این مرحله، ابتدا دو طرف گفت‌و‌گو را مشخّص می‌کنیم؛ سپس با استفاده از تصویر روشنی که از فضای موضوع داریم و با بهره‌گیری از عناصر و اجزای مرتبط با موضوع، یک گفت‌وگو را طرّاحی می‌کنیم.
+    </p>
+    <br>
+    <table class="MsoNormal" style="margin:auto;text-align:right!important; width:fit-content; direction:rtl; text-align:center;">
+        <tr>
+            <th style="text-align: center;">دو طرف گفت‌وگو</th>
+            <th style="text-align: center;">طرح گفت‌وگو</th>
+        </tr>
+        <tr>
+            <td>دو ماهی</td>
+            <td>دو ماهی از خاطرات خود سخن می‌گویند.</td>
+        </tr>
+        <tr>
+            <td>صدف با دریا</td>
+            <td>صدف از پروردن مروارید با دریا و دریا از خاطره تولّد هزاران مروارید که شاهد آن بوده است، سخن می‌گوید.</td>
+        </tr>
+        <tr>
+            <td>ماهیگیر با خودش</td>
+            <td>نجوای ماهیگیری که در پی صید ماهی، چند روزی در دریا سرگرمان است.</td>
+        </tr>
+        <tr>
+            <td>ناخدا و دوست دوران کودکی‌اش</td>
+            <td>دو ناخدا از خاطرات شیرین دوران کودکی خود می‌گویند.</td>
+        </tr>
+    </table>
+    
+
+    <br><hr><br>
+
+    <p class="MsoStep">فعّالیت (3)</p>
+    <p class="MsoNormal">
+    به کمک تجسّمی که از موضوع خود داشتید، دو طرف گفت‌و‌گو را مشخّص کنید و طرح گفت‌و‌گو را بنویسید.
+    </p>
+    <br>
+
+    <table class="MsoNormal" style="margin:auto;text-align:right!important; width:fit-content; direction:rtl; text-align:center;">
+        <tr>
+            <th style="text-align: center;">دو طرف گفت‌وگو</th>
+            <th style="text-align: center;">طرح گفت‌وگو</th>
+        </tr>
+        <tr>
+            <td>$ \quad $</td>
+            <td>$ \qquad \qquad \qquad \qquad \qquad \qquad \qquad $</td>
+        </tr>
+        <tr>
+            <td>$ \quad $</td>
+            <td>$ \quad $</td>
+        </tr>
+        <tr>
+            <td>$ \quad $</td>
+            <td>$ \quad $</td>
+        </tr>
+        <tr>
+            <td>$ \quad $</td>
+            <td>$ \quad $</td>
+        </tr>
+    </table>
+
+    <br><hr>
+
+    <p class="MsoBold">مرحلۀ چهارم: پیش‌نویس</p>
+    <p class="MsoNormal">
+    اکنون بر اساس یکی از طرح‌هایی که در جدول صفحۀ قبل به آن اشاره شد، گفت‌وگویی را بین ناخدا و دوست دوران کودکی‌اش می‌نویسیم:
+    </p>
+    <ul class="MsoNormal">
+        <br><li>شیخ طائف، بلند شو بریم. باید امشب دست خالی برگردیم. ناخدا، من نمی‌دونم این دریا چی داره که تو ازش دل نمی‌کنی؟!</li>
+        <br><li>تو مهمونی و حبیب خدا ولی دریا همۀ زندگی منه.</li>
+        <br><li>یادمه از وقتی بچّه بودیم، همیشه جای تو لب ساحل بود.</li>
+        <br><li>آره، کنار ساحل کشتی‌سازها.</li>
+        <br><li>می‌رفتی و زل می‌زدی به کشتی‌سازها.</li>
+        <br><li>دلم می‌خواست یه روز یه کشتی بسازم که بزرگ‌ترین کشتی جزیره باشه.</li>
+        <br><li>کشتی‌ساز نشدی امّا ناخدای خوبی شدی. این بهتر نیست ناخدا؟</li>
+        <br><li>ناشکر نیستم، این بلم جای پسرم رو برام پر می‌کنه.</li>
+    </ul>
+    
+    <br><hr><br>
+    <p class="MsoStep">فعّالیت (4)</p>
+    <p class="MsoNormal">
+    با توجّه به طرح گفت‌وگو در فعّالیت (3)، پیش‌نویس متن گفت‌وگو را بنویسید.
+    </p>
+
+    <br><hr>
+
+    <p class="MsoBold">مرحلۀ پنجم: بازبینی و گسترش متن</p>
+    <p class="MsoNormal">
+    در این مرحله با اضافه و کم کردن برخی واژه‌ها، تغییر و اصلاح بعضی جمله‌ها و گاه با کوتاه کردن آنها، پیوستگی گفت‌وگوها را به صورت منطقی برقرار می‌کنیم و نوشته را گسترش می‌دهیم.
+    </p>
+    <br>
+
+      <div class="boxb">
+        <u>سایۀ دو مرد، درحالی که قلّب‌های ماهیگیری در دست دارند، روی شن‌های ساحل پهن شده است.</u>
+
+        <ul class="MsoNormal" style="list-style:outside">
+            <li>شیخ طائف: <u>پاشو</u> بریم. 
+                <u>
+                امروز ما رو شانس نیستیم. اون یک دونه ماهی را هم که گرفتی،
+                 گفتی سهم دریاست و به آب انداختی.
+                </u>
+                  امشب باید دست خالی برگردیم.
+                 ناخدا، من نمی‌دونم این دریا چی داره که تو ازش دل نمی‌کنی؟!</li>
+            <li> تو مهمونی و حبیب خدا ولی دریا همۀ زندگی منه.</li>
+            <li> یادمه از وقتی بچّه بودیم، همیشه جای تو لب ساحل بود.</li>
+            <li><u> آره، همیشه کنار ساحل بودم.</u></li>
+            <li> می‌رفتی و زل می‌زدی به کشتی‌سازها.</li>
+            <li> هی... خیلی دلم می‌خواست یه روز با 
+                <u>دستای خودم</u>
+                 یه
+                 کشتی بسازم که بزرگ‌ترین کشتی جزیره باشه 
+                 
+                 <u>ولی نشد!</u>
+                </li>
+            <li>  کشتی‌ساز نشدی امّا ناخدای خوبی شدی. این بهتر نیست ناخدا؟</li>
+            <li><u>ناخدا طائف به بلم که آرام و سنگین در ساحل لم داده اشاره می‌کند.</u></li>
+            <li>
+                 <u>اینکه کشتی نیست.</u>
+                </li>
+            <li>
+                <u>ناشکری نکن ناخدا.
+                </u>
+                </li>
+            <li>ناشکر نیستم، این بلم جای پسرم رو برام پر می‌کنه.</li>
+        </ul>
+      </div>
+   
+    <br><hr>
+
+    <p class="MsoBold">مرحلۀ ششم: نوشتن نهایی</p>
+    <p class="MsoNormal">
+    در این مرحله، متن کامل گفت‌وگو پاک‌نویس و از نظر املایی و نقطه‌گذاری اصلاح می‌شود.
+    </p>
+  
+    <br><hr><br>
+
+    <p class="MsoStep">فعّالیت (6)</p>
+    <p class="MsoNormal">
+    متن کامل گفت‌وگو را پاک‌نویس کنید.
+    </p>
+
+    <br><hr><Br>
+
+    <p class="MsoNormal">
+        اینک نوشته‌هایتان را بخوانید یا در اختیار دوستانتان قرار دهید تا با استفاده از معیارهای جدول زیر آن را ارزیابی کنند.
+    </p>
+    <br>
+    <table class="MsoNormal" style="margin:auto; width:fit-content; direction:rtl; text-align:center;">
+        <tr>
+            <th>ردیف</th>
+            <th>سنجش‌های ارزیابی</th>
+            <th colspan="2">نمره</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td style="text-align: right;">دو طرف گفت‌وگو و طرح گفت‌وگو</td>
+            <td>6</td>
+            <td>$ \ \ $</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td style="text-align: right;">ایجاد گفت‌وگوی مؤثر و پیش‌برندۀ نوشته</td>
+            <td>6</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td style="text-align: right;">انسجام گفت‌وگو</td>
+            <td>4</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td style="text-align: right;">شیوۀ خواندن</td>
+            <td>2</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td style="text-align: right;">رعایت املا و نشانه‌ها و نکات نگارشی</td>
+            <td>2</td>
+            <td></td>
+        </tr>
+        <tr style="background-color: #05ffe230;">
+            <td>جمع</td>
+            <td></td>
+            <td>20</td>
+            <td></td>
+        </tr>
+    </table>
+    
+
+ <br><hr><br>
+
+    <p class="MsoBold">کارگاه نوشتن</p>
+    <p class="MsoStep">تمرین (2)</p>
+    <p class="MsoNormal">
+    متن زیر را بخوانید؛ سپس موضوع و طرح گفت‌وگو را معیّن کنید.
+    </p>
+    <br>
+    <div class="boxb">
+        <p class="MsoNormal">
+            زری آمرانه گفت: «اینجا من دستور می‌دهم. خانم خانه من هستم. برو اسب را از طویله درآر.»<br>
+            غلام گفت: «خانم از من بشنو، این کار را نکن. فکر فردا را بکن که پسرت از راه می‌رسد و دلش می‌شکند. فکر پس فردا را بکن که آقا می‌آید. ازشان نترس. بگو نمی‌دهم. فارغ! چه کارت می‌توانند بکنند؟»<br>
+            ژاندارم گفت: «مگر تو همشهری من نیستی؟» و راه افتاد.<br>
+            غلام پرسید: «کجا می‌روی؟»<br>
+            ژاندارم گفت: «می‌روم طویله.»<br>
+            غلام گفت: «همشهری‌ام هستی، باش. جرئت داری پایت را به طویله بگذار.»<br>
+            ژاندارم گفت: «تفنگم را نیاوردم. حالا می‌روم می‌آورم.»<br>
+            غلام با ژاندارم دست به یقه شد و داد زد: «حالا تفنگت را به رخ من می‌کشی؟ مگر تو همان کسی نبودی که شب‌ها می‌رفتی مرغ دزدی؟»<br>
+            عمّه خانم غلام را صدا کرد و آهسته گفت: «غلام، جِد نکن. خان کاکا قول داده. فعلاً اسب را بده ببرد. من فکر خوبی کرده‌ام به شرطی که هنوز خسرو برنگشته، اسبش اینجا باشد.»<br>
+            غلام رفت و اسب را از طویله درآورد و افسارش را داد دست ژاندارم. زری احساس کرد که انگار تمام جلا و رنگ باغ را برده‌اند.
+            </p>
+            <br>
+            <p class="MsoSemi" style="text-align: left;">
+                $*$
+                سووشون، دانشور</p>
+    </div>
+   
+    <br><hr><br>
+
+    <p class="MsoStep">تمرین (2)</p>
+    <p class="MsoNormal">
+    موضوعی انتخاب کنید و با رعایت مراحل نوشتن، متن گفت‌وگو را بنویسید.
+    </p>
+
+    <br><hr><br>
+
+    <p class="MsoStep">تمرین (3)</p>
+    <p class="MsoNormal">
+    نوشتۀ دوستانتان را براساس معیارهای جدول ارزشیابی درس بررسی کنید.
+    </p>
+    
+    <br><hr><br>
+
+    <p class="MsoStep">مثل‌نویسی</p>
+    <p class="MsoNormal">
+    مثل‌های زیر را بخوانید؛ سپس یکی را انتخاب کنید و آن را گسترش دهید.
+    </p>
+    <ul class="MsoNormal">
+        <br><li>چرا عاقل کند کاری که باز آرد پشیمانی؟</li>
+        <br><li>عجله، کار شیطان است.</li>
+        <br><li>آدم ترسو، هزار بار می‌میرد.</li>
+        <br><li>آبِ ریخته، جمع شدنی نیست.</li>
+        <br><li>آب در کوزه و ما تشنه لبان می‌گردیم.</li>
+    </ul>
+
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br><br><br><br>
+
+</body>
+
+
+</html>

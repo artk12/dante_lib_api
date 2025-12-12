@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 900px;
+            margin: auto;
+            font-size: clamp(1rem, 2.5vw, 2rem);
+        }
+
+        span {
+            font-size: clamp(1rem, 2.4vw, 2rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 2.5vw, 2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.5rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.1rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #87a5ff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+
+        .images {
+            width: -webkit-fill-available;
+            display: block;
+            max-width: 80%;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+    </style>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+<body>
+
+    <div class="MsoBold">فصل ۳</div>
+<div class="MsoBold">کار، انرژی و توان</div>
+<p class="MsoNormal">
+    خانم زهرا نعمتی، نخستین بانوی ایرانیِ برندۀ نشان طلا از مسابقات جهانی پاراالمپیک (2012 لندن و 2016 ریو). به نظر شما این قهرمان جهان، چقدر انرژی صرف کشیدن کمان میکند؟ مقدار این انرژی و تندی تیری را که از کمان رها میشود چگونه میتوان حساب کرد؟
+</p>
+
+<br><br>
+<p class="MsoNormal">
+    انرژی مهمترین مفهومی است که در سرتاسر فیزیک و علوم و مهندسی با آن سروکار داریم. انرژی این امکان را فراهم میکند تا تمامی فعالیتهای روزمره خود را انجام دهید. بخوابید و استراحت کنید؛ مشاهده کنید و بیندیشید؛ برخیزید و طرحی نو در اندازید! انرژی همچنین توان لازم را برای به حرکت درآوردن موتور خودروها، کشتیها و هواپیماها فراهم میکند.
+</p>
+<p class="MsoNormal">
+    در علوم سال هفتم دیدید که انرژی شکلهای متفاوتی دارد و در همه چیز و همه جا وجود دارد. انرژی میتواند از شکلی به شکل دیگر تبدیل شود و در حین این فرایند، مقدار کل آن پایسته میماند. همچنین دیدید که با انجام کار میتوان انرژی را از جسمی به جسم دیگر منتقل کرد. در این فصل پس از آشنایی با انرژی جنبشی و کار انجام شده توسط نیروهای ثابت، به قضیۀ کار ــ انرژی جنبشی خواهیم پرداخت. در ادامۀ فصل، رابطۀ بین کار و انرژی پتانسیل و پایستگی انرژی مکانیکی را بررسی میکنیم. سرانجام با توان، به عنوان کمیتی برای بیان آهنگ انجام کار آشنا میشویم.
+</p>
+
+<br><br>
+<div class="MsoBold">3ـ1 انرژی جنبشی</div>
+<p class="MsoNormal">
+    در علوم سال هفتم دیدید هر چیزی که حرکت کند، انرژی دارد و انرژی وابسته به حرکت یک جسم را انرژی حرکتی یا انرژی جنبشی نامیدیم (شکل 3ــ1). همچنین دیدید هر چه جسمی تندتر حرکت کند، انرژی جنبشی بیشتری دارد و هنگامی که جسم ساکن باشد، انرژی جنبشی آن صفر است.
+</p>
+<p class="MsoNormal">
+    برای جسمی به جرم \( m \) که با تندی \( v \) حرکت میکند، انرژی جنبشی از رابطه زیر به دست می‌آید:
+    <br>
+    رابطه  3-1 
+    
+    $$ K = \frac{1}{2} mv^2 $$
+</p>
+<br><br>
+<p class="MsoNormal">
+    یکاهای SI جرم و تندی به ترتیب کیلوگرم (kg) و متر بر ثانیه (m/s) است. بنابراین، یکای SI انرژی جنبشی (و هر نوع دیگری از انرژی) \( \text{kg}  \text{m}^2/\text{s}^2 \) است که به افتخار جیمز ژول، فیزیکدان انگلیسی، ژول (J) نامیده میشود. انرژی جنبشی کمیتی نرده‌ای و همواره مثبت است؛ این کمیت تنها به جرم و تندی جسم بستگی دارد و به جهت حرکت جسم وابسته نیست.
+</p>
+<br><br>
+<p class="MsoStep">  مثال 3ـ 1</p>
+<p class="MsoNormal">
+  
+    جرم خودرویی به همراه راننده‌اش \( 840 \, \text{kg} \) است. این خودرو با تندی \( 54.0 \, \text{km/h} \) در حرکت است، انرژی جنبشی آن چند ژول است؟
+<br>
+پاسخ: با توجه به اطلاعات داده شده داریم:
+
+</p>
+
+<p class="MsoNormal">
+
+$$
+\begin{align*}
+m &= 840 \, \text{kg} \ \ \ \ , \\ \\ \\
+v &= 54.0 \, \text{km/h} \\
+& \Rightarrow (54.0 \, \text{km}) \ \ ( \frac{1000 \, \text{m}} {1 \, \text{km}}) \ \ ( \frac{1 \, \text{h}} {3600 \, \text{s}}) \\
+& \Rightarrow  15.0 \, \text{m/s}=
+
+\end{align*}
+$$
+<br>
+</p>
+<p class="MsoNormal">
+
+    <br>با جایگذاری این مقادیر در رابطه \( 3-1 \) داریم:
+    <br>$$ K = \frac{1}{2} m v^2 = \frac{1}{2} (840 \, \text{kg})(15.0 \, \text{m/s})^2 = 9.45 \times 10^4 \, \text{J} $$
+</p>
+    
+
+        <p class="MsoNormal">
+            تمرین 3 ـ 1
+            <br>ماهواره‌ای به جرم \( 220 \, \text{kg} \)، با تندی ثابت \( 2.5 \, \text{km/s} \) دور زمین می‌چرخد. انرژی جنبشی ماهواره را برحسب ژول و مگاژول حساب کنید.
+        </p>
+
+        <p class="MsoNormal">
+            تمرین 3 - 2
+            <br>جرم خودرویی به همراه راننده‌اش \( 840 \, \text{kg} \) است (شکل زیر). تندی خودرو در دو نقطه از مسیرش روی شکل زیر داده شده است. تغییرات انرژی جنبشی خودرو \( \Delta K = K_2 - K_1 \) را بین این دو نقطه حساب کنید.
+        </p>
+
+        <p class="MsoNormal">
+            پرسش 3ـ 1
+            <br>انرژی جنبشی هر یک از اجسام زیر را با هم مقایسه کنید و مقدار آن را به ترتیب از کمترین تا بیشترین بنویسید.
+        </p>
+<br><br>
+        <p class="MsoStep" style="opacity: 0.6;">
+            خوب است بدانید
+        </p>
+        <p class="MsoNormal">
+            لایب نیتس (1716ــ 1646م)
+            <br>لایب نیتس فیلسوف و ریاضی دان آلمانی نخستین دانشمندی بود که به اهمیت انرژی جنبشی در فیزیک پی برد. لایب نیتس استدلال میکرد که در طبیعت حاصل ضرب جرم در مربع تندی پایسته است. وی نام این مفهوم جدید را نیروی زنده نامید.
+            <br>سالها پیش از لایب نیتس، رنه دکارت (1650ــ1596م)، فیلسوف، ریاضیدان و فیزیکدان فرانسوی ادعا کرده بود حاصل ضرب جرم در سرعت که امروزه تکانه نامیده میشود، در طبیعت کمیتی پایسته است.
+            <br>معرفی واژه انرژی به جای اصطلاح نیروی زنده را به توماس یانگ (1829ــ1773م) فیزیکدان انگلیسی نسبت داده‌اند، هر چند از اصطلاح جدید وی در ابتدا چندان استقبال نشد. او در کتابی که در سال 1807 میلادی به چاپ رساند، پیشنهاد کرد که به منظور تمایز بهتر میان مفاهیم نیرو و انرژی، به جای نیروی زنده از واژه انرژی استفاده شود. در سال 1867 میلادی، لُرد کلوین و پیتر تیت دو فیزیکدان اسکاتلندی در جلد اول رساله فلسفه طبیعی، اصطلاح امروزی انرژی جنبشی را برای انرژی جسم در حال حرکت به کار بردند و ضریب یک دوم را هم که لایب نیتس در نظر نگرفته بود، وارد کردند.
+        </p>
+
+
+
+
+
+
+</body>
+
+
+
+</html>

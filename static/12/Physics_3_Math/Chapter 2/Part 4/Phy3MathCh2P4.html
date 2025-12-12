@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal ,
+        ul.MsoNormal {
+            margin: 0in;
+           
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi , b{
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #badaff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .MsoPapDefault {
+           
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #722a85;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background-color: #1abbbbe1; /* Scrollbar thumb color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color: #05ffe2;
+        }
+    </style>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+ 
+</head>
+
+
+
+<body class="custom-scrollbar">
+
+
+    
+    <p class="MsoBold">
+    
+    4-2
+        حرکت دایره‌ای یکنواخت
+
+    </p>
+<p class="MsoNormal">
+تا‌كنون دربارهٔ حركت روی خط راست بحث كرديم. در اينجا می‌خواهيم حركت جسمی را بررسی كنيم كه روی يك دايره يا بخشی از آن حركت می‌كند (شكل 
+2-20
+).
+</p>
+
+
+<br>
+
+
+<p class="MsoNormal">
+    بدین منظور ذره‌ای را در نظر می‌گیریم که روی یک مسیر دایره‌ای با تندی ثابت حرکت می‌کند (شکل ۲-۱). به این نوع حرکت، حرکت دایره‌ای یکنواخت می‌گویند. با اینکه تندی جسم در این حرکت ثابت است، حرکت ذره شتاب‌دار است (چرا؟).
+
+    <br>
+    منظور از ذره می‌تواند جسمی مانند یک ماهواره باشد که در یک مدار دایره‌ای حول زمین می‌چرخد یا الکترونی باشد که در مدل اتمی بور حول هسته می‌چرخد، و یا گلوله‌ای که به انتهای نخی بسته شده و در یک مسیر دایره‌ای در حرکت است.
+
+    صرف نظر از آنکه این ذره چه جسمی است، همواره بردار سرعت ذره ($\vec{v}$) مماس بر مسیر حرکت دایره‌ای است.
+    </p>
+    
+
+    <br><hr><br>
+
+    <p class="MsoStep">
+        پرسش ۲-۸
+    </p>
+    <p class="MsoNormal">
+         چرا در حرکت دایره‌ای یکنواخت، ذره در بازه‌های زمانی برابر، مسافت‌های یکسانی را طی می‌کند؟
+        </p>
+            
+    <br><hr><br>
+
+
+    <p class="MsoNormal">
+        دوره: در حرکت دایره‌ای یکنواخت، مدت زمان لازم برای پیمودن یک دور محیط دایره را دورهٔ تناوب (دوره) می‌نامیم. از آنجا که در این حرکت ذره محیط دایره ($2 \pi r$) را با تندی $v$ در زمان $T$ طی می‌کند، داریم:
+        </p>
+        
+
+        <br><hr><br>
+        <p class="MsoSemi" style="text-align: center;">
+        (۱-۲)
+        $$T = \dfrac{2 \pi r}{v}$$
+        (دوره)
+        </p>
+        <br><hr><br>
+            
+
+
+
+        <p class="MsoNormal">
+            یکای دوره ثانیه، $(s)$ است.
+            </p>
+            
+
+        <br><hr><br>
+            <p class="MsoStep">
+            پرسش ۲-۹
+            </p>
+             <p class="MsoNormal">
+                دورهٔ عقربهٔ ثانیه‌شمار، دقیقه‌شمار و ساعت‌شمار یک ساعت عقربه‌ای چیست؟
+            </p>
+        <br><hr><br>
+
+
+
+        <p class="MsoStep"> 
+            مثال
+                13-2 
+        </p>
+        <p class="MsoNormal">
+      میل‌لنگ یک خودرو که قطر محور آن $4/0 \, \text{cm}$ است، در هر دقیقه $2400$ دور می‌چرخد ($2400 \, \text{rpm}$). تندی نقطه‌ای روی لبهٔ محور این میل‌لنگ چقدر است؟
+            </p>
+
+            <br>
+        <p class="MsoSemi">
+            پاسخ:
+        </p>
+        <p class="MsoNormal">            
+        ابتدا زمان یک دور، یعنی دورهٔ تناوب آن را به روش تبدیل زنجیره‌ای محاسبه می‌کنیم:
+        </p>
+            
+        <p class="MsoNormal">
+            $$
+            \begin{align}
+            T &= \dfrac{1 \, \text{min}}{2400 \, \text{دور}} \times \dfrac{60 \, \text{s}}{1 \, \text{min}} \\\\
+            &= \dfrac{1}{40} \, \text{s}  \\\\
+            &= 0/025 \, \text{s}
+            \end{align}
+            $$
+            </p>
+
+            <p class="MsoNormal">
+                با استفاده از رابطهٔ $T = \dfrac{2 \pi r}{v}$ و اینکه $r = 2/0 \, \text{cm}$ است، تندی این نقطه برابر است با:
+                </p>
+                
+
+        <p class="MsoNormal">
+            $$
+            \begin{align}
+            v &= \dfrac{2 \pi r}{T} \\\\
+            &= \dfrac{2 (3/14 \, \text{rad})(0/020 \, \text{m})}{0/025 \, \text{s}}  \\\\
+            &= 5/0 \, \text{m/s}
+            \end{align}
+            $$
+            </p>
+            
+
+            <br><hr><br>
+
+        <p class="MsoStep">
+مثال ۲-۱۴
+        </p>
+        <p class="MsoNormal">
+          پرّهٔ یک بالگرد با دورهٔ 
+            $0/020 \, \text{s}$ به‌طور یکنواخت می‌چرخد.
+            </p>
+     
+
+            <ul class="MsoNormal">
+            
+                <p>
+                    الف) تعداد دور بر دقیقه (rpm) پرّهٔ بالگرد چقدر است؟
+                    </p>
+                    <p>
+                    ب) اگر شعاع پرّه 
+                    $2/00 \, \text{m}$
+                     باشد، نوک پرّه با چه تندی‌ای می‌چرخد؟
+                    </p>
+
+            </ul>
+
+            <p class="MsoSemi">
+                پاسخ:
+            </p>
+            <p class="MsoNormal">
+            الف) یک دور چرخش در زمان $T$ انجام می‌شود، بنابراین تعداد دور در یک دقیقه ($60 \, \text{s}$) برابر است با:
+            </p>
+            
+        <p class="MsoNormal">
+            $$
+            \begin{align}
+            \text{rpm} &= \left( \dfrac{1 \, \text{دور}}{T \, (\text{s})} \right) \left( \dfrac{60 \, \text{s}}{1 \, \text{min}} \right)  \\\\
+            &= \left( \dfrac{1 \, \text{دور}}{0/020 \, \text{s}} \right) \left( \dfrac{60 \, \text{s}}{1 \, \text{min}} \right)  \\\\
+            &= 3000 \ \  \text{
+                دور
+                /
+                دقیقه
+            }
+            \end{align}
+            $$
+            </p>
+
+            <br>
+
+            <p class="MsoNormal">
+                ب) با توجه به رابطهٔ $T = \dfrac{2 \pi r}{v}$ می‌توان تندی حرکت نوک پرّهٔ بالگرد را تعیین کرد.
+                </p>
+                
+        <p class="MsoNormal">
+        $$
+        \begin{align}
+        v &= \dfrac{2 \pi r}{T} \\\\
+        &= \dfrac{2 (3/14 \, \text{rad})(2/00 \, \text{m})}{0/020 \, \text{s}} \\\\
+        &= 628 \, \text{m/s}
+        \end{align}
+        $$
+        </p>
+
+
+
+        <br><hr><br>
+
+        <p class="MsoStep">
+            مثال 
+            2-5
+        </p>
+        <p class="MsoNormal">        
+            یک دیسک‌گردان در شهربازی را درنظر بگیرید که توسط یک موتور الکتریکی در هر دقیقه $5/00$ دور می‌چرخد. فرض کنید افرادی در فاصله‌های $1/0 \, \text{m}$ و $2/0 \, \text{m}$ و $3/0 \, \text{m}$ از مرکز آن قرار دارند.
+            </p>
+            <p class="MsoNormal">
+            تندی این افراد را به‌دست بیاورید و با هم مقایسه کنید.
+            </p>
+            <br>
+            <p class="MsoNormal">
+            <b>پاسخ:</b>
+            <br>
+            ابتدا دورهٔ حرکت را محاسبه می‌کنیم:
+            </p>
+        <p class="MsoNormal">
+            $$
+            \begin{align}
+            T &= \dfrac{1 \, \text{min}}{ \text{دور} \ 5} \times \dfrac{60 \, \text{s}}{1 \, \text{min}} \\\\
+            &= 12/0 \, \text{s} 
+            \end{align}
+            $$
+            </p>
+            
+
+
+            <br>
+
+
+            <p class="MsoNormal">
+                برای محاسبهٔ تندی افراد در فاصله‌های مختلف از مرکز دیسک‌چرخان، از رابطهٔ 
+                2-12
+                استفاده می‌کنیم.
+                </p>
+            
+                <br>
+
+    <p class="MsoNormal">
+        $$
+        T = \dfrac{2 \pi r}{v} \Rightarrow v = \dfrac{2 \pi r}{T}
+        $$
+        </p>
+            
+        <hr style="background-color: #D6D1DA10;width: 60%;">
+
+        <p class="MsoNormal">
+            $$
+            \begin{align}
+            r_1 = 1/0 \, \text{m} \Rightarrow v_1 &= \dfrac{2 \pi r_1}{T} \\\\
+            &= \dfrac{2 (3/14 \, \text{rad})(1/0 \, \text{m})}{12/0 \, \text{s}}  \\\\
+            &= 0/52 \, \text{m/s}
+            \end{align}
+            $$
+            </p>
+
+            <hr style="background-color: #D6D1DA10;width: 60%;">
+
+        <p class="MsoNormal">
+            $$
+            \begin{align}
+            r_2 = 2/0 \, \text{m} \Rightarrow v_2 &= \dfrac{2 \pi r_2}{T} \\\\
+            &= \dfrac{2 (3/14 \, \text{rad})( 2/0 \, \text{m})}{12/0 \, \text{s}} \\\\
+            &= 1/04 \, \text{m/s}
+            \end{align}
+            $$
+            </p>
+            
+            <hr style="background-color: #D6D1DA10;width: 60%;">
+
+
+            <p class="MsoNormal">
+                $$
+                \begin{align}
+                r_3 = 3/0 \, \text{m} \Rightarrow v_3 &= \dfrac{2 \pi r_3}{T} \\\\
+                &= \dfrac{2 (3/14 \, \text{rad})(3/0 \, \text{m})}{12/0 \, \text{s}} \\\\
+                &= 1/57 \, \text{m/s}
+                \end{align}
+                $$
+                </p>
+                
+
+            <br>
+
+            <p class="MsoNormal">
+                نتیجه می‌گیریم که هر چه از مرکز دیسک دور می‌شویم، تندی حرکت بیشتر می‌شود در حالی که دورهٔ تناوب برای همهٔ افراد یکسان است.
+                </p>
+                    
+
+
+
+
+                <br><hr><br>
+
+
+            <p class="MsoStep">تمرین ۲-۸</p>
+            <p class="MsoNormal">
+            مسافتی را که هر یک از افراد در مثال بالا در مدت $3/0 \, \text{s}$ طی کرده‌اند محاسبه کنید.
+            </p>
+
+            <br><hr><br>
+
+
+
+            <p class="MsoNormal">
+                شتاب مرکزگرا و قانون دوم نیوتون: در حرکت دایره‌ای یکنواخت، اندازهٔ سرعت ثابت است اما جهت آن دائماً تغییر می‌کند. به همین دلیل حرکت دایره‌ای، حرکتی شتاب‌دار است (شکل
+               ۲-۲۲
+                الف و ب).
+                </p>
+                <p class="MsoNormal">
+                در فصل ۱ دیدیم که شتاب متوسط، از نسبت تغییر سرعت به زمان تغییر آن به‌دست می‌آید $(\vec{a}_{av} = \dfrac{\Delta \vec{v}}{\Delta t})$ و اگر بازهٔ زمانی $\Delta t$ خیلی کوچک باشد، شتاب متوسط تبدیل به شتاب لحظه‌ای می‌شود.
+                </p>
+                
+
+        <br>
+
+        <p class="MsoNormal">
+            بر اساس تعریف شتاب متوسط، جهت شتاب متوسط همواره با جهت تغییر سرعت یکسان است. در حالتی که بازهٔ زمانی $\Delta t$ خیلی کوچک انتخاب می‌شود، جهت $\Delta \vec{v}$ به طرف مرکز دایره خواهد بود.
+            پس جهت شتاب لحظه‌ای نیز به طرف مرکز خواهد بود (شکل
+            2-2
+            پ). به همین دلیل به آن شتاب مرکزگرا می‌گویند و آن را با $\vec{a}_c$ نشان می‌دهند (شکل
+            
+            2-2
+
+             ت).
+            اندازهٔ شتاب مرکزگرا از رابطهٔ زیر به‌دست می‌آید:
+            </p>
+            
+
+
+        
+        <br><hr><br>
+        <p class="MsoSemi" style="text-align: center;">
+            (13-2)
+            $$
+            a_c = \dfrac{v^2}{r} 
+            $$
+            (اندازهٔ شتاب مرکزگرا)
+            </p>
+
+
+
+
+            <br><hr><br>
+
+
+
+            <p class="MsoStep">
+                پرسش
+                 ۲-۱۰
+            </p>
+            <p class="MsoNormal">
+                نشان دهید در حرکت دایره‌ای یکنواخت، شتاب مرکزگرا از رابطهٔ 
+                $a_c = \dfrac{4 \pi^2 r}{T^2}$
+                نیز به‌دست می‌آید که در آن $T$ و $r$ به ترتیب دورهٔ تناوب و شعاع دایره است.
+                </p>
+                
+
+
+                <br><hr><br>
+
+
+        <p class="MsoStep">
+            مثال
+            ۲-۱۶
+        </p>
+        <p class="MsoNormal">
+                خودرویی در یک میدان به شعاع $100 \, \text{m}$ با تندی $36/0 \, \text{km/h}$ در حال دور زدن است. دوره و شتاب مرکزگرای خودرو را محاسبه کنید.
+            </p>
+                    
+            <br>
+            <p class="MsoNormal">
+                <b>پاسخ:</b>
+                <br>
+                 با توجه به داده‌های مسئله یعنی شعاع و تندی، می‌توانیم از رابطه‌های 
+                 $T = \dfrac{2 \pi r}{v}$
+                 و 
+                 $a_c = \dfrac{v^2}{r}$
+                  برای محاسبهٔ دوره و شتاب مرکزگرا استفاده کنیم. نخست تبدیل یکاها را انجام می‌دهیم و سپس کمیت‌های خواسته‌شده را به‌دست می‌آوریم:
+                </p>
+                
+                <p class="MsoNormal">
+                    $$
+                    \begin{align}
+                    v &= (36/0 \, \text{km/h}) \left( \dfrac{1000 \, \text{m}}{1 \, \text{km}} \right) \left( \dfrac{1 \, \text{h}}{3600 \, \text{s}} \right)  \\\\
+                    &= 10/0 \, \text{m/s}
+                    \end{align}
+                    $$
+                    </p>
+
+                    <hr style="background-color: #D6D1DA10;width: 60%;">
+
+            <p class="MsoNormal">
+                $$
+                \begin{align}
+                T &= \dfrac{2 \pi r}{v}  \\\\
+                &= \dfrac{2 (3/14 \, \text{rad}) (100 \, \text{m})}{10/0 \, \text{m/s}} \\\\
+                &= 62/8 \, \text{s}
+                \end{align}
+                $$
+                </p>
+                
+                <hr style="background-color: #D6D1DA10;width: 60%;">
+
+
+                <p class="MsoNormal">
+                $$
+                \begin{align}
+                a_c &= \dfrac{v^2}{r}  \\\\
+                &= \dfrac{(10/0 \, \text{m/s})^2}{100 \, \text{m}}  \\\\
+                &= 1/0 \, \text{m/s}^2
+                \end{align}
+                $$
+                </p>
+
+
+
+                <br><hr><br>
+                    
+
+
+                <p class="MsoStep">تمرین ۲-۹</p>
+                <p class="MsoNormal">
+                شکل روبه‌رو مسیر حرکت سورتمه‌ای را در مسابقهٔ المپیک زمستانی نشان می‌دهد. سورتمه روی یک سطح افقی در حال حرکت است.
+                اگر تندی حرکت سورتمه در کل مسیر $34 \, \text{m/s}$ باشد، شتاب مرکزگرای آن را در هر یک از پیچ‌ها به‌دست آورید.
+                </p>
+
+
+             <br><hr><br>
+
+
+                
+            <p class="MsoNormal">
+                دیدیم شتاب جسم در حرکت دایره‌ای یکنواخت در راستای شعاع دایره و جهت آن به طرف مرکز دایره است. از قانون دوم نیوتون می‌دانیم شتاب یک جسم را نیروی خالص وارد بر آن ایجاد می‌کند و شتاب جسم همواره در راستا و جهت نیروی خالص وارد بر جسم است. بنابراین، در حرکت دایره‌ای یکنواخت نیز یک نیروی خالص رو به مرکز، سبب ایجاد شتاب مرکزگرا می‌شود. به این نیروی خالص که منجر به حرکت دایره‌ای می‌شود، 
+                <b>نیروی مرکزگرا</b>
+                می‌گوییم.
+                وقتی جسم متصل به نخى را روی سطح افقی بدون اصطکاک می‌چرخانیم، درمی‌یابیم که باید نخ را دائماً بکشیم؛ یعنی
+
+        نیروی مرکزگرا به آن وارد کنیم (شکل
+                2-23
+         ).
+        
+        
+        
+        نخ نیروی مرکزگرایی را به جسم وارد می‌کند که آن را در مسیر دایره‌ای به حرکت وامی‌دارد. نیروی مرکزگرا نوع جدیدی از نیرو نیست، نیروهای گرانشی یا الکتریکی می‌توانند نیروهای مرکزگرا را تأمین کنند؛ مثلاً نیروی گرانشی، ماه را در مداری تقریباً دایره‌ای نگه می‌دارد. الکترون‌های مدارهای اتم‌ها در مدل بور تحت تأثیر نیروی الکتریکی به طرف هسته در مدارهای خود می‌چرخند و ...
+        </p>
+
+
+
+
+        <p class="MsoNormal">
+            قانون دوم نیوتون $(F_{net} = ma)$ را در حرکت دایره‌ای یکنواخت به‌صورت زیر می‌توانیم بنویسیم:
+            </p>
+            
+    <br><hr><br>
+            <p class="MsoSemi" style="text-align: center;">
+                (14-2)
+                $$
+                F_{net} = m \dfrac{v^2}{r} 
+                    
+                $$
+                (قانون دوم نیوتون در حرکت دایره‌ای یکنواخت)
+                </p>
+    <br><hr><br>      
+
+
+
+    <p class="MsoNormal">
+        در این رابطه $F_{net}$ بزرگی نیروی خالص وارد بر جسم در راستای شعاع و به طرف مرکز دایره است.
+        </p>
+        
+
+
+
+
+
+        <br><hr><br>
+
+
+        <p class="MsoStep">مثال ۲−۱۷</p>
+    <p class="MsoNormal">
+    پدری فرزند $۲۰$ کیلوگرمی خود را در یک چهارچرخهٔ ایمن $۵/۰$ کیلوگرمی قرار می‌دهد و با یک طناب $۲/۰$ متری، چهارچرخه را روی سطح افقی زمین به گونه‌ای می‌کشد تا چهارچرخه روی دایره‌ای حرکت کند. با فرض یکنواخت بودن حرکت چهارچرخه و صرف‌نظر کردن از اصطکاک و با فرض اینکه نیروی کشش طناب $۱۰۰ \, N$ باشد، تندی و دورهٔ چهارچرخه را به‌دست آورید.
+    </p>
+
+
+    <br>
+
+<p class="MsoSemi">
+    پاسخ: 
+</p>
+    <p class="MsoNormal">
+
+        
+        بچه و چهارچرخه را به‌صورت یک ذره فرض می‌کنیم که در یک مسیر دایره‌ای با نیروی مرکزگرا‌ی $100 \, N$ حرکت می‌کند. بر ذره سه نیروی وزن، نیروی عمودی سطح (در راستای عمودی) و نیروی کشش نخ (مرکزگرا) به طرف مرکز دایره وارد می‌شود.
+
+        نیروی وزن و نیروی عمودی سطح همدیگر را خنثی می‌کنند و بنابراین تنها نیروی $\vec{T}$ به‌عنوان نیروی خالص در نظر گرفته می‌شود.
+        </p>
+
+        
+    <p class="MsoNormal">
+        $$
+        m = 25 \, \text{kg} \ \ , \ \  r = 2 \, \text{m}  \ \ , \ \  F_{net} = T = 100 \, \text{N}
+        $$
+        </p>
+        
+        <hr style="background-color: #D6D1DA10;width: 60%;">
+
+        <p class="MsoNormal">
+            $$
+            \begin{align}
+            F_{net} = m \dfrac{v^2}{r} \Rightarrow v &= \sqrt{\dfrac{r F}{m}}  \\\\
+            &= \sqrt{\dfrac{(2 \, \text{m})(100 \, \text{N})}{25 \, \text{kg}}}  \\\\
+            &= 2/8 \, \text{m/s}
+            \end{align}
+            $$
+            </p>
+            
+            <hr style="background-color: #D6D1DA10;width: 60%;">
+
+
+            <p class="MsoNormal">
+                $$
+                \begin{align}
+                \text{دوره}: \ \  T &= \dfrac{2  \pi r}{v} \\\\
+                &= \dfrac{2 \pi (2/0 \, \text{m})}{2/8 \, \text{m/s}}  \\\\
+                &= 4/5 \, \text{s}
+                \end{align}
+                $$
+                </p>
+                
+
+
+
+
+            <p class="MsoStep">تمرین ۲-۱</p>
+        <p class="MsoNormal">
+        خودرویی به جرم $1500 \, \text{kg}$ را در نظر بگیرید که می‌خواهد در یک پیچِ مسطحِ افقی به شعاع $50/0 \, \text{m}$ بدون آنکه بلغزد، دور بزند. اگر ضریب اصطکاک ایستایی بینِ لاستیک و سطحِ جاده $1/0$ باشد، حداکثر تندیِ خودرو چقدر می‌تواند باشد؟
+        </p>
+        <br>
+        <p class="MsoNormal">
+        (
+        <b>راهنمایی:</b>    
+        با اینکه خودرو می‌خواهد یک‌چهارمِ دایره را طی کند، می‌توانیم خودرو را به‌صورتِ یک ذره در نظر بگیریم که در یک‌چهارم دایره، حرکتِ دایره‌ای یکنواخت دارد. در راستایِ عمود بر سطح، نیروی وزن و نیروی عمودیِ سطح بر خودرو وارد می‌شود و نیروی اصطکاک ایستایی که عمود بر راستایِ حرکت است، مانع از لغزشِ خودرو شده و به طرفِ مرکزِ پیچ، بر خودرو وارد می‌شود. این نیرو شتابِ مرکزگرا را برای دور زدن تأمین می‌کند.)
+        </p>
+
+
+
+
+    <br><br><br><br><br><br><br><br><br><br>
+</body>
+
+
+</html>

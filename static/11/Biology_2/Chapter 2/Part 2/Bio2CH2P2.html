@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: "Nastaliq";
+            src: url('nas.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+      
+        li.MsoNormal,
+        div.MsoNormal,
+        ul.MsoNormal,
+        ol.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+            
+        }
+        p.MsoNas
+         {
+            margin: 0.5em;
+            
+            font-size: clamp(1.5rem, 1.7vw, 2rem);
+            font-family: "Nastaliq";
+            line-height: 2.3em;
+            color: #dcd7e0;
+            text-align: center;
+         letter-spacing: 0em;
+         word-spacing: 0.4em;
+            
+        }
+        p.MsoNormal
+         {
+            margin: 0in;
+           
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-indent: 1em;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi,
+        b{
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSemic,
+        li.MsoSemic,
+        div.MsoSemic {
+            margin: 0in;
+           
+            font-size: clamp(1.2rem, 1.6vw, 1.3rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #b19af2;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #6ca4ec;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+        span.uline{
+            border-bottom: 0.1em solid #64E9E1;
+        }
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .boxp {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .boxg {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#00f2ff11; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        .boxb {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#0c4e9f2d; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        ::selection {
+            background-color: #59078fa1; /* Change this to your desired highlight color */
+            color: #ffffff; /* Change this to your desired text color */
+          }
+
+
+          mark{
+            background-color:#078b8fa1 ;
+            color: #ffffff;
+            padding: 0 7px;
+        }
+
+        .hlg { background-color: rgba(0, 234, 255, 0.334);  }
+        .hlp { background-color:#5f1487; }
+      
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+    <body class="custom-scrollbar">
+
+    <p class="MsoBold">گفتار ۲: حواس ویژه</p>
+    <p class="MsoNormal">گیرنده‌های حواس ویژه شامل گیرنده‌های حس بینایی، شنوایی، تعادل، بویایی و چشایی‌اند که در اندام‌های حسی قرار دارند. این گیرنده‌ها در کدام بخش هر یک از این اندام‌ها قرار دارند؟</p>
+    
+    <p class="MsoStep">بینایی</p>
+    <p class="MsoNormal">بیشتر اطلاعات محیط پیرامون را از راه دیدن و به کمک اندام حس بینایی، یعنی چشم دریافت می‌کنیم. کرۀ چشم در حفرۀ استخوانی کاسۀ چشم قرار دارد. ماهیچه‌هایی که به کرۀ چشم متصل‌اند، آن را حرکت می‌دهند. این ماهیچه‌ها را در فعالیت تشریح چشم می‌توانید ببینید. پلک‌ها، مژه‌ها، بافت چربی روی کرۀ چشم و اشک از چشم حفاظت می‌کنند. در شکل ۴ ساختار کرۀ چشم را می‌بینید.</p>
+    
+    <p class="MsoNormal">می‌دانید نوری را که از اجسام بازتاب پیدا می‌کند، گیرنده‌های نوری شبکیه دریافت می‌کنند. نور برای رسیدن به این یاخته‌ها از چه مسیری عبور می‌کند؟</p>
+    
+    <p class="MsoNormal">
+        
+    <b>ساختار کرۀ چشم:</b>
+    
+    خارجی‌ترین لایۀ کرۀ چشم از صلبیّه و قرنیه تشکیل شده است. صلبیّه پرده‌ای سفید رنگ، محکم و قرنیه پردۀ شفاف جلوی چشم است. لایۀ میانی چشم شامل مشیمیّه، جسم مژگانی و عنبیّه است. مشیمیّه لایه‌ای رنگدانه‌دار و پر از مویرگ‌های خونی است.</p>
+
+
+    <p class="MsoNormal">جسم مژگانی، حلقه‌ای بین مشیمیّه و عنبیّه و شامل ماهیچه‌های مژگانی است. عنبیّه بخش رنگین چشم در پشت قرنیه است که در وسط آن، سوراخ مردمک قرار دارد. دو گروه ماهیچه صاف عنبیّه، مردمک را (در نور زیاد) تنگ و (در نور کم) گشاد می‌کنند. ماهیچه‌های تنگ‌کننده را اعصاب پادهم‌حس و ماهیچه‌های گشاد‌کننده را اعصاب هم‌حس عصب‌دهی می‌کنند.</p>
+
+    <p class="MsoNormal">عدسی چشم همگرا، انعطاف‌پذیر و با رشته‌هایی به نام تارهای آویزی به جسم مژگانی متصل است (شکل ۴ـ ب). مایعی شفاف به نام زلالیه فضای جلوی عدسی چشم را پر کرده است که از مویرگ‌ها ترشح می‌شود. زلالیه مواد غذایی و اکسیژن را برای عدسی و قرنیه فراهم و مواد دفعی آنها را جمع‌آوری می‌کند و به خون می‌دهد. ماده‌ای ژله‌ای و شفاف به نام زجاجیه در فضای پشت عدسی قرار دارد که شکل کروی چشم را حفظ می‌کند.</p>
+    
+    <p class="MsoNormal">شبکیه داخلی‌ترین لایۀ چشم است که گیرنده‌های نوری، یعنی یاخته‌های مخروطی و استوانه‌ای و نیز یاخته‌های عصبی در آن قرار دارند (شکل ۵ـ الف). آسۀ یاخته‌های عصبی، عصب بینایی را تشکیل می‌دهند که پیام‌های بینایی را به مغز می‌برد. محل خروج عصب بینایی از شبکیه، نقطۀ کور نام دارد. درون گیرنده‌های نوری مادۀ حساس به نور وجود دارد (شکل ۵ـ ب).</p>
+    
+<br>
+<br>
+
+    <p class="MsoStep">بیشتر بدانید</p>
+    <p class="MsoNormal">
+        <b>این هیثم:</b> اروپاییان او را الحازن (Alhazan) می‌نامند، دانشمند مسلمان قرن چهارم هجری است. او کسی است که برای نخستین بار کتاب المناظر خود، بخش‌های نامگذاری کرد و او همچنین چگونگی دیدن اجسام را توضیح داد. قابل از آن بر مبنای نظر اقلیدس، تصور می‌کردند پرتوهای نور از چشم به اجسام می‌رود و با دیدن آنها می‌شود. ولی ابن هیثم با استدلال تجربی ثابت کرد نور پس از بازتابیدن از اجسام و بازتاب به آنها وارد چشم می‌شود و عدسی، تصویر اجسام را روی پردۀ شبکیه ایجاد می‌کند.
+        ابن هیثم دریافت که پردۀ شبکیه از عصب‌های حساس به نور ارتباط دارد. پرده‌ها، نام سینا ایوبریتان ترجمه کتاب ابن هیثم از یکی از کتاب‌های درسی دانشگاه‌های اروپا بود.
+    </p>
+    
+<br>
+
+
+    <p class="MsoNormal">
+        <b>اثر نور بر شبکیه:</b>
+        پرتوهای نور از قرنیه می‌گذرند و به علّت انحنای آن همگرا می‌شوند. این پرتوها از زلالیه، سوراخ مردمک، عدسی و زجاجیه عبور می‌کنند. عدسی، پرتوهای نور را روی شبکیه و گیرنده‌های نوری آن متمرکز می‌کند.
+    </p>
+    
+    <p class="MsoNormal">یاخته‌های استوانه‌ای در نور کم و یاخته‌های مخروطی در نور زیاد تحریک می‌شوند. گیرنده‌های مخروطی، تشخیص رنگ و جزئیات اجسام را امکان‌پذیر می‌کنند. بخشی از شبکیه را که در امتداد محور نوری کرۀ چشم قرار دارد، لکۀ زرد می‌نامند. این بخش در دقت و تیزبینی اهمیت دارد؛ زیرا گیرنده‌های مخروطی در آن فراوان‌ترند.</p>
+    
+    <p class="MsoNormal">با برخورد نور به شبکیه، مادۀ حساس به نور، درون گیرنده‌های نوری تجزیه می‌شود و واکنش‌هایی را به راه می‌اندازد که به ایجاد پیام عصبی منجر می‌شود. ویتامین A برای ساخت مادۀ حساس به نور لازم است.</p>
+    
+
+    <br>
+
+    <p class="MsoStep">بیشتر بدانید</p>
+<p class="MsoNormal">
+    <b>رنگ چشم:</b>
+    در عنبیه دانه‌های رنگی وجود دارد که حاوی ملانین‌اند. تراکم این دانه‌ها، رنگ چشم را تعیین می‌کند.
+</p>
+<p class="MsoNormal">رنگدانه سیاه ملانین موجود در یاخته‌های مشیمیه و شبکیه، برای جلوگیری از بازتاب نور و دید واضح، لازم است. افرادی که به‌طور ژنتیکی فاقد رنگدانه‌اند و پرتوهای نور درون کره چشم آنها در جهت‌های گوناگون بازتاب پیدا می‌کند، در نتیجه این افراد دید واضحی ندارند.</p>
+
+
+<br>
+
+
+    <p class="MsoNormal">
+        <b>تطابق:</b>
+        با تغییر همگرایی عدسی چشم، می‌توان اجسام دور و نزدیک را واضح دید. هنگام دیدن اشیای نزدیک، با انقباض ماهیچه‌های جسم مژگانی، عدسی ضخیم می‌شود. وقتی به اشیای دور نگاه می‌کنیم با استراحت این ماهیچه‌ها، عدسی باریک‌تر می‌شود. به این ترتیب، تصویر در هر حالت روی شبکیه تشکیل می‌شود. این فرایندها تطابق نام دارد (شکل ۶).
+    </p>
+    
+        
+
+
+    <p class="MsoStep">فعّالیت ۲</p>
+<p class="MsoNormal">با استفاده از شکل ۶، تغییرات چشم هنگام تطابق برای دیدن جسم دور و نزدیک را مقایسه کنید.</p>
+
+<p class="MsoStep">بیماری‌های چشم</p>
+<p class="MsoNormal">برای دیدن درست اجسام، قرنیه، عدسی و کرۀ چشم باید شکل ویژه‌ای داشته باشند تا پرتوهای نور به طور دقیق روی شبکیّه متمرکز شوند.</p>
+
+<p class="MsoNormal">
+    <b>نزدیک‌بینی و دوربینی:</b>
+    در افراد نزدیک‌بین، کرۀ چشم بیش از اندازه بزرگ است و پرتوهای نور اجسام دور، در جلوی شبکیه متمرکز می‌شوند. در نتیجه فرد، اجسام دور را واضح نمی‌بیند. در فرد دوربین، کرۀ چشم از اندازۀ طبیعی کوچک‌تر است و پرتوهای نور اجسام نزدیک در پشت شبکیّه متمرکز می‌شوند و فرد این اجسام را واضح نمی‌بیند.
+</p>
+
+<p class="MsoStep">فعّالیت ۳</p>
+<p class="MsoNormal">ـ با استفاده از شکل ۷ بگویید نزدیک‌بینی و دوربینی با استفاده از کدام عدسی اصلاح می‌شوند؟</p>
+<p class="MsoNormal">ـ در برخی افراد، علت نزدیک‌بینی و دوربینی، تغییر همگرایی عدسی چشم است. با استفاده از آنچه آموختید، بگویید تغییر همگرایی عدسی در چشم، چگونه موجب نزدیک‌بینی و دوربینی می‌شود؟</p>
+
+<p class="MsoNormal">
+    <b>آستیگماتیسم:</b>
+    اگر سطح عدسی یا قرنیه کاملاً کروی و صاف نباشد، پرتوهای نور به طور نامنظم به هم می‌رسند و روی یک نقطۀ شبکیّه متمرکز نمی‌شوند. در نتیجه تصویر واضحی تشکیل نمی‌شود. در این حالت، چشم دچار آستیگماتیسم است (شکل ۸). برای اصلاح دید این فرد از عینکی استفاده می‌کنند که عدسی آن عدم یکنواختی انحنای قرنیه یا عدسی را جبران می‌کند.
+</p>
+
+<p class="MsoNormal">
+    <b>پیرچشمی:</b>
+    با افزایش سن، انعطاف‌پذیری عدسی چشم کاهش پیدا می‌کند و تطابق دشوار می‌شود. این حالت را پیرچشمی می‌گویند که به کمک عینک‌های ویژه اصلاح می‌شود.
+</p>
+
+
+
+<br>
+<br>
+
+
+<p class="MsoStep">بیشتر بدانید</p>
+<p class="MsoNormal">
+    <b>عدسی (لنز) تماسی:</b>
+    امروزه استفاده از عدسی تماسی برای اصلاح دید افراد متداول شده است. لایۀ نازک اشک، فضای بین عدسی تماسی و قرنیۀ چشم را پر می‌کند و آن را در جای خود محکم نگه می‌دارد. استفاده از عدسی تماسی به‌ویژه وقتی شکل غیرطبیعی قرنیه، عامل اختلال در همگرایی پرتوهای نور است، از عینک کارآمدتر است.
+</p>
+
+
+<br>
+<br>
+
+
+
+
+<p class="MsoStep">بیشتر بدانید</p>
+<p class="MsoNormal">
+    <b>آب‌مروارید:</b>
+    گاهی در عدسی چشم افراد مسن، رنگدانه‌های قهوه‌ای تجمع می‌یابند و شفافیت آن را کاهش می‌دهند. در این حالت، عدسی کدر شده، آب مروارید به‌وجود می‌آید. قرار گرفتن در معرض پرتوهای فرابنفش خورشید نیز، ممکن است به آب مروارید منجر شود.
+</p>
+
+
+
+<br>
+
+<br>
+
+
+
+
+<p class="MsoStep">بیشتر بدانید</p>
+<p class="MsoNormal">
+    <b>بیماری آب‌سیاه:</b>
+    مایع زلالیه به‌طور مرتب تولید می‌شود و به‌طور معمول از منافذ کوچک دور عنبیه به خون وارد می‌شود. اگر به علتی مسیر تخلیه این مایع مسدود شود، فشار مایع داخل چشم افزایش می‌یابد. بیماری آب‌سیاه ایجاد می‌شود. افزایش فشار داخل چشم به تحلیل عصب بینایی و کاهش بینایی منجر می‌شود.
+</p>
+
+
+
+<br>
+
+<br>
+
+
+<p class="MsoStep">فعّالیت ۴</p>
+<p class="MsoNormal">
+    <b>مواد و وسایل لازم:</b> چشم سالم گاو به همراه ماهیچه‌های آن، وسایل تشریح، دستکش برای هر گروه.
+</p>
+<p class="MsoNormal">برای آماده کردن چشم از دبیر خود راهنمایی بخواهید.</p>
+<p class="MsoNormal">
+    <b>۱ـ بررسی ویژگی‌های ظاهری چشم:</b> برای تشخیص بالا و پایین چشم، فاصله عصب بینایی تا قرنیه را در نظر بگیرید. سطحی از کره چشم که در آن فاصله عصب تا روی قرنیه بیشتر است، سطح بالایی چشم و سطح دیگر، سطح پایینی آن است (شکل ۱). برای تشخیص چپ یا راست بودن چشم، آن را طوری در دست بگیرید که سطح بالایی آن رو به بالا باشد. قرنیه به شکل تخم‌مرغ دیده می‌شود و بخش پهن‌تر آن به سمت بینی و بخش باریک‌تر آن به سمت گوش قرار دارد (شکل ۲).
+</p>
+<p class="MsoNormal">راه دیگر، بررسی عصب بینایی است. این عصب پس از خروج از چشم به سمت مخالف، خم می‌شود.</p>
+<p class="MsoNormal">در ادامه، بافت‌های چربی بین ماهیچه‌ها و کرۀ چشم را جدا و ماهیچه‌های آن را مشاهده کنید. برای مشاهده دقیق ماهیچه‌ها از مولاژ چشم استفاده کنید.</p>
+<p class="MsoNormal">
+    <b>۲ـ تشریح:</b> ماهیچه‌ها را با قیچی از کرۀ چشم جدا کنید. چشم را روی ظرف تشریح قرار دهید و با چاقوی جراحی، صلبیه را در فاصله یک سانتی‌متری از قرنیه سوراخ کنید و با قیچی دورتا دور قرنیه را در این فاصله برش دهید. دقت کنید قیچی را خیلی درون کرۀ چشم فرو نبرید تا زجاجیه آسیب نبیند (شکل ۳). پس از برش می‌توانید سه لایۀ چشم و بخش‌های تشکیل‌دهندۀ آنها و نقطۀ کور را ببینید. لایۀ شبکیه بسیار نازک است، دقت کنید هنگام کار جمع نشود.
+</p>
+<p class="MsoNormal">به طرز قرار گرفتن عدسی توجه کنید. در کنار عدسی، جسم مژگانی، و تارهای آویزی که عدسی را احاطه کرده‌اند، دیده می‌شوند. عدسی را به آرامی خارج کنید. مایع زلالیه و زجاجیۀ ژله‌ای را مشاهده کنید. در این حالت، زلالیه به طور کامل شفاف نیست؛ زیرا مقداری از دانه‌های سیاه ملانین از بخش‌های دیگر چشم در آن رها شده‌اند.</p>
+<p class="MsoNormal">جسم مژگانی به شکل حلقه‌ای دور محل استقرار عدسی قرار دارد. درون این حلقه، عنبیه قرار دارد که نازک‌تر و شامل ماهیچه‌های صاف حلقوی (تنگ‌کنندۀ مردمک) و شعاعی (گشادکنندۀ مردمک) است. سوراخ وسط عنبیه همان مردمک است. جسم مژگانی و عنبیه به آسانی جدا می‌شوند و قرنیه شفاف و برآمده دیده می‌شود.</p>
+<p class="MsoNormal">پس از انجام تشریح و با استفاده از مشاهده‌های خود، به این پرسش‌ها پاسخ دهید.</p>
+<p class="MsoNormal"><b>الف)</b> ویژگی‌های هریک از سه لایۀ چشم و بخش‌های تشکیل‌دهندۀ آنها را بیان کنید.</p>
+<p class="MsoNormal"><b>ب)</b> زجاجیه و زلالیه را با یکدیگر مقایسه کنید.</p>
+<p class="MsoNormal">از فعالیت خود گزارش تهیه کنید و به معلم ارائه دهید.</p>
+
+
+
+
+
+<br>
+<br>
+
+<p class="MsoStep">بیشتر بدانید</p>
+<p class="MsoNormal">در پشت شبکیۀ چشم بسیاری از مهره‌داران، لایه‌ای درخشان وجود دارد که پرتوهای نور را باز می‌تاباند تا گیرنده‌ها، نور بیشتری دریافت کنند. این موضوع به دید بهتر جانور در شب کمک می‌کند. همچنین موجب درخشندگی چشم این جانوران در شب می‌شود.</p>
+
+
+<br>
+
+<br>
+
+
+<p class="MsoStep">شنوایی و تعادل</p>
+<p class="MsoNormal">گیرنده‌های مکانیکی درون گوش، در شنیدن و حفظ تعادل بدن نقش دارند. این گیرنده‌ها در کدام بخش‌های گوش قرار گرفته‌اند؟ همان‌طور که آموخته‌اید، گوش از سه بخش بیرونی، میانی و درونی تشکیل شده است (شکل ۹).</p>
+
+
+<br>
+
+<br>
+
+
+
+<p class="MsoStep">فعّالیت ۵</p>
+<p class="MsoNormal">با استفاده از شکل ۹ و مولاژ گوش به پرسش‌های زیر پاسخ دهید.</p>
+<p class="MsoNormal">بین بخش بیرونی و میانی گوش کدام ساختار قرار دارد؟</p>
+<p class="MsoNormal">استخوان‌های کوچک در کدام بخش گوش قرار دارند؟</p>
+<p class="MsoNormal">حلزون گوش در کدام بخش آن قرار دارد؟</p>
+
+
+<br>
+
+<br>
+
+
+
+
+<p class="MsoNormal">
+    
+    <b>ساختار گوش:</b>
+    
+    لالۀ گوش و مجرای آن بخش بیرونی گوش را تشکیل می‌دهند. لالۀ گوش امواج صوتی را جمع‌آوری و مجرای شنوایی، آنها را به بخش میانی منتقل می‌کند. موهای کرک مانند درون مجرا و موادی که غده‌های درون مجرا ترشح می‌کنند، نقش حفاظتی دارند. انتهای مجرا و بخش‌های میانی و درونی گوش را استخوان گیجگاهی حفاظت می‌کند.</p>
+<p class="MsoNormal">پردۀ صماخ در انتهای مجرای شنوایی و بین گوش بیرونی و میانی قرار دارد. گوش میانی محفظۀ استخوانی پر از هواست. درون گوش میانی و پشت پردۀ صماخ سه استخوان کوچک چکشی، سندانی و رکابی، به ترتیب قرار دارند و به هم مفصل شده‌اند. همان‌طور که در شکل ۹ می‌بینید، بخشی به نام شیپور استاش، حلق را به گوش میانی مرتبط می‌کند. هوا از راه این مجرا به گوش میانی منتقل می‌شود، تا فشار آن در دو طرف پردۀ صماخ یکسان شود و پرده به درستی بلرزد. گوش درونی از دو بخش حلزونی و دهلیزی تشکیل شده است. بخش حلزونی در شنوایی و بخش دهلیزی در تعادل نقش دارد.</p>
+
+<br>
+
+<br>
+
+
+<p class="MsoStep">بیشتر بدانید</p>
+<p class="MsoNormal">آسیب دیدن حلزون گوش، عصب شنوایی، یا اختلال در ساختارهای هدایت‌کنندۀ صدا به بخش حلزونی، مانند استخوان‌های کوچک گوش میانی به ناشنوایی منجر می‌شود. کاشت حلزون روشی برای بازگرداندن شنوایی است. این دستگاه را با جراحی در زیر پوست پشت گوش قرار می‌دهند. دستگاه امواج صوتی را جمع‌آوری کرده، به جریان الکتریکی تبدیل و الکترودهای آن عصب شنوایی را به طور مستقیم تحریک می‌کنند.</p>
+
+
+<br>
+
+<br>
+
+
+
+
+<p class="MsoNormal">
+    
+    <b>تبدیل صدا به پیام عصبی:</b>
+    
+    
+    امواج صوتی پس از عبور از مجرای شنوایی، به پردۀ صماخ برخورد می‌کنند و آن را به ارتعاش درمی‌آورند. دستۀ استخوان چکشی روی پردۀ صماخ چسبیده و با ارتعاش آن می‌لرزد و استخوان‌های سندانی و رکابی را نیز به ارتعاش درمی‌آورد. کف استخوان رکابی طوری روی دریچه‌ای به نام دریچۀ بیضی قرار گرفته است که لرزش آن، دریچه را می‌لرزاند. این دریچه پرده‌ای نازک است که در پشت آن، بخش حلزونی گوش قرار دارد. بخش حلزونی را مایعی پر کرده است. لرزش دریچۀ بیضی، مایع درون حلزون را به لرزش درمی‌آورد.</p>
+<p class="MsoNormal">همان‌طور که در شکل ۱۰ می‌بینید، در بخش حلزونی یاخته‌های مژک‌داری قرار دارند که مژک‌هایشان با پوششی ژلاتینی تماس دارند. این یاخته‌ها، گیرنده‌های مکانیکی‌اند که با لرزش مایع درون بخش حلزونی، مژک‌های آنها خم می‌شود. در نتیجه کانال‌های یونی غشای آنها باز و این یاخته‌ها تحریک می‌شوند. در نتیجه بخش شنوایی عصب گوش پیام عصبی ایجاد شده را به مغز می‌برد (شکل ۱۰).</p>
+
+
+<br>
+
+<br>
+
+
+
+
+<p class="MsoStep">فعّالیت ۶</p>
+<p class="MsoNormal">دربارۀ نقش حفاظتی موها و مواد ترشحی در مجرای شنوایی گوش اطلاعات جمع‌آوری و به کلاس ارائه کنید.</p>
+
+<br>
+
+<br>
+
+
+
+
+<p class="MsoStep">حفظ تعادل</p>
+<p class="MsoNormal">در بخش دهلیزی گوش داخلی سه مجرای نیم‌دایره‌ای شکل عمود بر هم (در سه جهت فضا) وجود دارد که یاخته‌های مژک‌دار حسّ تعادل درون آنها قرار گرفته‌اند. حرکت سر، این یاخته‌ها را تحریک می‌کند. شکل ۱۱ یاخته‌های گیرندۀ تعادل در یک مجرای نیم‌دایره را نشان می‌دهد. درون مجاری نیم‌دایره از مایعی پر شده است و مژک‌های یاخته‌های گیرنده نیز در ماده‌ای ژلاتینی قرار دارند. با چرخش سر، مایع درون مجرا به حرکت در می‌آید و مادۀ ژلاتینی را به یک طرف خم می‌کند. مژک‌های یاخته‌های گیرنده، خم و این گیرنده‌ها تحریک می‌شوند. آسۀ یاخته‌های عصبی حسّی که شاخۀ دهلیزی (تعادلی) عصب گوش را تشکیل می‌دهند، پیام را به مغز و به ویژه مخچه می‌برند و آن را از موقعیت سر آگاه می‌کنند. برای حفظ تعادل بدن، مغز از گیرنده‌های دیگر مانند گیرنده‌های وضعیت نیز پیام دریافت می‌کند.</p>
+
+
+
+
+<br>
+<br>
+
+
+
+
+
+<p class="MsoStep">بیشتر بدانید</p>
+<p class="MsoNormal">
+بر اساس اعلام سازمان بهداشت جهانی، در سال ۱۳۹۳ (۲۰۱۵ میلادی)، ۱/۱ میلیارد نفر نوجوان و جوان در جهان در خطر از دست دادن شنوایی قرار داشته‌اند. استفاده ناآگاهانه از وسایل صوتی شخصی و یا قرارگرفتن در مکان‌های تفریحی پر سر و صدا این خطر را به وجود آورده است. این سازمان توصیه کرده است برای حفظ شنوایی، حجم صدا و مدت‌زمان استفاده از وسایل صوتی شخصی را کم‌تر از یک ساعت در روز کاهش دهند. همچنین هنگام استفاده از این دستگاه‌ها از نرم‌افزارهایی استفاده کنند که سطح شنوایی را ارزیابی کرده و میزان شنوایی را به‌طور منظم انجام دهند.
+</p>
+
+
+<br>
+<br>
+
+
+<p class="MsoStep">فعّالیت ۷</p>
+<p class="MsoNormal">دربارۀ شغل شنوایی‌سنجی و بینایی‌سنجی گزارشی تهیه و به کلاس ارائه کنید.</p>
+
+
+<p class="MsoStep">بویایی</p>
+<p class="MsoNormal">گیرنده‌های بویایی در سقف حفرۀ بینی قرار دارند. مولکول‌های بودار هوای تنفسی این یاخته‌ها را تحریک می‌کنند. این یاخته‌ها پیام‌های بویایی را به لوب‌های بویایی (پیازهای) بویایی مغز که در تشریح مغز آنها را مشاهده کردید، می‌برند. پیام بویایی سرانجام به قشر مخ ارسال می‌شود (شکل ۱۲).</p>
+
+<br>
+<br>
+
+<p class="MsoStep">چشایی</p>
+<p class="MsoNormal">در دهان و برآمدگی‌های زبان، جوانه‌های چشایی و درون این جوانه‌ها گیرنده‌های چشایی قرار گرفته‌اند. ذرّه‌های غذا در بزاق حل می‌شوند و یاخته‌های گیرندۀ چشایی را تحریک می‌کنند (شکل ۱۳).</p>
+
+<br>
+<br>
+
+<p class="MsoNormal">انسان پنج مزۀ اصلی شیرینی، شوری، ترشی، تلخی و مزۀ اومامی را احساس می‌کند. اومامی، کلمه‌ای ژاپنی به معنای لذیذ است که برای توصیف یک مزۀ مطلوب که با چهار مزۀ دیگر تفاوت دارد، به کار می‌رود. اومامی مزۀ غالب غذاهایی است که آمینواسید گلوتامات دارند، مانند عصاۀ گوشت. حس بویایی در درک درست مزۀ غذا تأثیر دارد؛ مثلاً وقتی سرماخورده و دچار گرفتگی بینی شده‌ایم، مزۀ غذاها را به‌درستی تشخیص نمی‌دهیم.</p>
+
+<br>
+<br>
+
+<p class="MsoStep">پردازش اطلاعات حسی</p>
+<p class="MsoNormal">با وجود یکسان بودن ماهیت پیام عصبی که از گیرنده‌های گوناگون بدن به دستگاه عصبی مرکزی می‌رسند، مغز چگونه آنها را به شکل‌های متفاوتی مانند صدا، تصویر یا مزه تفسیر می‌کند؟ پیام‌هایی که نوع آن از گیرنده‌های حس ارسال می‌کنند، به بخشی از بخش‌های خاصی از دستگاه عصبی مرکزی و قشر مخ فرستاده می‌شوند. شکل ۱۴ مسیر ارسال پیام‌های بینایی را نشان می‌دهد. جلبکی (کیاسمای) بینایی که در فعالیت تشریح مغز آن را مشاهده کردید، محلی است که فیبرهای عصبی چپ و راست به‌صورت ضربدری از یکدیگر عبور می‌کنند.</p>
+<p class="MsoNormal">مخ مقابل پیام‌های دیدۀ چشم راست و مخ راست پیام‌های دیدۀ چشم چپ را دریافت می‌کند. پیام‌های شنوایی، پیش از رسیدن به قشر مخ و پردازش نهایی، به بخش‌هایی از مغز مانند تالاموس می‌رسند.</p>
+
+<br>
+<br>
+
+
+
+
+
+<br><br><br><br><br>
+
+
+    </body>
+
+
+</html>

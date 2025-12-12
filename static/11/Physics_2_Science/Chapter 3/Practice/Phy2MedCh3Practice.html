@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal ,
+        ul.MsoNormal {
+            margin: 0in;
+           
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi , b{
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #badaff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .MsoPapDefault {
+           
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #722a85;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background-color: #1abbbbe1; /* Scrollbar thumb color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color: #05ffe2;
+        }
+    </style>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+ 
+</head>
+
+
+
+<body class="custom-scrollbar">
+
+
+
+
+    <p class="MsoStep">
+      1-3
+         و
+3-2
+        مغناطیس و قطب‌های مغناطیسی و میدان مغناطیسی</p>
+
+    <br>
+    
+        <p class="MsoNormal">
+            ۱.  با توجه به جهت‌گیری عقربه‌های مغناطیسی در شکل زیر، قطب‌های آهنربای میله‌ای و جهت خط‌های میدان مغناطیسی را تعیین کنید.</p>
+    
+    <br>
+    <br>
+
+    <p class="MsoNormal">
+        2.
+    </p>
+        <ul class="MsoNormal">
+            <p> الف) آهنربای میله‌ای با قطب‌های نامشخص در اختیار داریم. دست کم دو روش را برای تعیین قطب‌های این آهنربا بیان کنید.</p>
+            <p>ب) خط‌های میدان مغناطیسی بین دو آهنربا در شکل زیر نشان داده شده است. اندازهٔ میدان مغناطیسی را در نزدیکی قطب‌های آهنرباها با هم مقایسه کنید.</p>
+        </ul>
+        
+        <br><br>
+
+        <p class="MsoNormal">
+        ۳.
+            کودکی یک قطعهٔ کوچک آهنی را بلعیده است. پزشک می‌خواهد آن را با دستگاه شکل زیر بیرون بیاورد.
+            </p>
+            
+            <ul class="MsoNormal">
+                <p>الف) هنگامی که آهنربای دائمی به نوک ثابت آهنی نزدیک می‌شود چه اتفاقی می‌افتد؟</p>
+                <p>ب) ساختن نوک ثابت آهنی چه مزیتی دارد؟</p>
+                <p>پ) این وسیله را باید به درون گلوی کودک وارد و به سوی فلز بلعیده شده هدایت کرد؛ چرا غلاف باید انعطاف‌پذیر باشد؟</p>
+                <p>ت) پزشک می‌خواهد یک گیرهٔ آهنی کاغذ و یک واشر آلومینیومی را از گلوی کودک بیرون بیاورد؛ کدام‌یک را می‌توان بیرون آورد؟ چرا؟</p>
+            </ul>
+            
+            <br><hr><br>
+
+
+            <p class="MsoStep">۳-۳ نیروی مغناطیسی وارد بر ذرهٔ باردار متحرک در میدان مغناطیسی</p>
+
+
+            
+            <p class="MsoNormal">
+                4.
+            چهار ذره هنگام عبور از میدان مغناطیسی درون‌سو مسیرهایی مطابق شکل زیر می‌پیمایند. دربارهٔ نوع بار هر ذره چه می‌توان گفت؟
+            </p>
+
+
+            <br><br>
+
+
+
+    <p class="MsoNormal">
+
+        5.
+        
+        جهت نیروی مغناطیسی وارد بر بار مثبت را در هریک از حالت‌های نشان داده در شکل زیر تعیین کنید.
+        </p>
+        
+
+        <br><br>
+
+
+
+        <p class="MsoNormal">
+    6.
+            
+        حلقۀ رسانای مستطیل شکلی که حامل جریان $I$ است، مطابق شکل درون میدان مغناطیسی یکنواخت می‌چرخد. جهت جریان را در حلقه تعیین کنید.
+        </p>
+
+
+
+        <br><br>
+
+        <p class="MsoNormal">
+        7.
+            
+            پروتونی با تندی 
+            $ 4/4 \times 10^6 \, m/s $
+             درون میدان مغناطیسی یکنواختی به‌اندازۀ 
+            $18 \, mT$
+             در حرکت است. جهت حرکت پروتون با جهت 
+            $\overrightarrow{B}$
+             زاویۀ 
+             $60^{\circ}$
+              می‌سازد.
+            </p>
+            
+        <ul class="MsoNormal">
+            <p>
+                الف) اندازۀ نیروی وارد بر این پروتون را محاسبه کنید.
+                </p>
+                
+                <p>
+                ب) اگر تنها این نیرو بر پروتون وارد شود، شتاب پروتون را حساب کنید. (بار الکتریکی پروتون 
+                $1/6 \times 10^{-19} \, C$
+                 و جرم آن را 
+                $1/7 \times 10^{-27} \, kg$
+                 در نظر بگیرید).
+                </p>
+                
+        </ul>
+            
+        <br><br>
+
+
+
+
+    <p class="MsoNormal">
+    8.
+     ذرۀ باردار مثبتی با جرم ناچیز و با سرعت 
+            $\overrightarrow{v}$
+            در امتداد محور 
+            $x$
+            وارد فضایی می‌شود که میدان‌های یکنواخت 
+            $\overrightarrow{E}$
+            و 
+            $\overrightarrow{B}$
+            وجود دارد (شکل زیر). اندازۀ این میدان‌ها برابر 
+            $E = 450 \, N/C$
+            و
+            $B = 0/18 \, T$
+            است. 
+            است. تندی ذره چقدر باشد تا در همان امتداد محور 
+            $x$
+            به حرکت خود ادامه دهد؟
+            </p>
+
+
+
+                
+        <br><hr><br>
+
+
+
+        <p class="MsoStep">۳_۴ نیروی مغناطیسی وارد بر سیم حامل جریان</p>
+
+        <p class="MsoNormal">
+     9.
+        
+        جهت نیروی الکترومغناطیسی وارد بر سیم حامل جریان را در هر یک از شکل‌های الف، ب و پ با استفاده از قاعدۀ دست راست بیابید.
+        </p>
+
+
+        <br><br>
+
+
+<p class="MsoNormal">
+    10.
+    
+    یک سیم حامل جریان 
+    $1/6$
+        آمپر مطابق شکل زیر با دو نیروسنج فشری که به دو انتهای آن بسته شده‌اند، به‌طور افقی و در راستای غرب – شرق قرار دارد. میدان مغناطیسی زمین را یکنواخت، به‌طرف شمال و اندازۀ 
+    $0/05 \, mT$
+        بگیرید.
+    </p>
+    
+    <ul class="MsoNormal">
+        <p>الف) اندازۀ نیروی مغناطیسی وارد بر هر متر این سیم را پیدا کنید.</p>
+        <p>ب) اگر بخواهیم نیروسنج‌ها عدد صفر را نشان دهند، چه جریانی و در چه جهتی باید از سیم عبور کند؟ جرم هر متر از طول این سیم 
+        $8 $
+        گرم
+        است 
+        $(g = 9/8 \ \ N/kg)$.</p>
+    </ul>
+
+    <br><hr><br>
+
+
+
+    <p class="MsoStep">
+        5-3
+        میدان مغناطیسی حاصل از جریان الکتریکی
+        </p>
+        
+        <p class="MsoNormal">
+            11.
+         یک آهنربای میله‌ای مطابق شکل زیر، بالای سیم‌لوله‌ای آویزان شده است. توضیح دهید با بستن کلید $K$ چه تغییری در وضعیت آهنربا رخ می‌دهد.
+        </p>
+
+
+        <br><br>
+
+
+        <p class="MsoNormal">
+            12.
+            شکل زیر، دو سیم موازی و بلند حامل جریان را نشان می‌دهد. اگر میدان مغناطیسی برآیند حاصل از این سیم‌ها در نقطۀ $A$ صفر باشد، جهت جریان آن را در سیم $۲$ پیدا کنید.
+            </p>
+
+
+        <br><br>
+
+        <p class="MsoNormal">
+          13.
+            
+            سیم‌لوله‌ای شامل $۲۵۰$ حلقه است که دور یک لولۀ پلاستیکی توخالی به طول $۰/۱۴$ متر پیچیده شده است. اگر جریان گذرنده از سیم‌لوله 
+            $۰/۸ \ A$
+             باشد، اندازۀ میدان مغناطیسی درون سیم‌لوله را حساب کنید.
+            </p>
+            
+
+
+            <p class="MsoNormal">
+           14.
+                در شکل زیر دو سیم‌لولهٔ $P$ و $Q$ هم‌محورند و طول برابر دارند. تعداد دور سیم‌لولهٔ $P$ برابر $۲۰۰$ و تعداد دور سیم‌لولهٔ $Q$ برابر $۳۰۰$ است. اگر جریان 
+                $۱ \  A$
+                 از سیم‌لولهٔ $Q$ عبور کند، از سیم‌لولهٔ $P$ چه جریانی باید عبور کند تا برآیند میدان مغناطیسی ناشی از دو سیم‌لوله در نقطۀ $M$ (روی محور دو سیم‌لوله) صفر شود؟
+                </p>
+        
+        
+        <br><hr><br>
+
+        <p class="MsoStep">
+            6-3
+            
+            ویژگی‌های مغناطیسی مواد</p>
+
+
+
+            <p class="MsoNormal">
+            
+                15.
+                شکل الف حوزه‌های مادهٔ فرومغناطیسی را درون میدان خارجی $ \overrightarrow{B} $ نشان می‌دهد. شکل ب همان ماده را پس از حذف میدان $ \overrightarrow{B} $ نشان می‌دهد. نوع مادهٔ فرومغناطیسی را با ذکر دلیل تعیین کنید.
+                </p>
+        
+        
+                <br><br>
+        
+
+
+
+        <p class="MsoNormal">
+    16.
+    
+    با توجه به آنچه در بخش ویژگی‌های مغناطیسی مواد دیدید، نقشه مفهومی زیر را کامل کنید.
+    </p>
+            
+
+        
+        
+
+
+    <br><hr><br>
+
+
+
+    <p class="MsoStep">
+8-3
+         پدیدهٔ القای الکترومغناطیسی و قانون القای الکترومغناطیسی فاراده</p>
+         <br>
+
+
+
+        <p class="MsoNormal">
+17.
+        
+        دو سیم‌لوله با حلقه‌های با مساحت یکسان ولی با تعداد دور متفاوت را مطابق شکل‌های زیر به ولت‌سنج حساس و وصل کرده‌ایم. دریافت خود را از این شکل‌ها بنویسید. (آهنرباها مشابه‌اند و با تندی یکسانی به‌طرف سیم‌لوله‌ها حرکت می‌کنند.)
+        </p>
+        
+        <br>
+        <br>
+    
+        <p class="MsoNormal">
+
+            18.
+            
+            دو سیم‌لولهٔ مشابه را مطابق شکل‌های زیر به ولت‌سنج حساس و وصل کرده‌ایم. دریافت خود را از شکل‌های زیر بنویسید. (آهنرباها مشابه‌اند ولی با تندی متفاوتی به‌طرف سیم‌لوله حرکت می‌کنند.)
+        </p>
+            
+        <br><br>
+
+        <p class="MsoNormal">
+        19.
+            
+            شکل داده شده ساختمان یک بادسنج را نشان می‌دهد. اگر این بادسنج را روی بام خانه نصب کنیم، به هنگام وزیدن باد، میلهٔ آن می‌چرخد و ولت‌سنج عددی را نشان می‌دهد.
+            </p>
+    
+            <ul class="MsoNormal">
+                <p>
+                    الف) چرا چرخش میله سبب انحراف عقربهٔ ولت‌سنج می‌شود؟
+                    </p>
+                    <p>
+                    ب) آیا با افزایش تندی باد، عددی که ولت‌سنج نشان می‌دهد تغییر می‌کند؟ چرا؟
+                    </p>
+                    <p>پ) برای بهبود و افزایش دقت کار دستگاه، دو پیشنهاد ارائه دهید.</p>
+            
+            </ul>
+    
+    
+            <br><br>
+
+    <p class="MsoNormal">
+   20.
+        
+        سطح حلقه‌های پیچه‌ای که دارای $۱۰۰۰$ حلقه است، عمود بر میدان مغناطیسی یکنواختی که اندازهٔ آن 
+        $۰/۰۴۰ \ T$
+            و جهت آن از راست به چپ است، قرار دارد. میدان مغناطیسی در مدت 
+        $۰/۱ \ s$ تغییر می‌کند و به 
+        $۰/۰۴۰ \   T$
+            در خلاف جهت اولیه می‌رسد. اگر سطح هر حلقهٔ پیچه 
+            $۵۰\ cm^2$
+            باشد، اندازهٔ نیروی محرّک القایی متوسط در پیچ‌ه را حساب کنید.
+        </p>
+
+
+<br><hr><br>
+    
+
+
+        <p class="MsoStep">
+9-3
+            
+            قانون لنز</p>
+
+        <p class="MsoNormal">
+21.
+        
+        قطب $N$ یک آهنربا را مطابق شکل روبه‌رو به یک حلقهٔ رسانا نزدیک می‌کنیم. جهت جریان القایی را در حلقه مشخص کنید.
+        </p>
+    
+        <br><br>
+
+        <p class="MsoNormal">
+ 22.
+            
+            دو آهنربای میله‌ای مشابه را مطابق شکل، به‌طور قائم از ارتفاع معینی نزدیک سطح زمین رها می‌کنیم، به‌طوری که یکی از آن‌ها از حلقهٔ رسانایی عبور می‌کند. اگر سطح زمین در محل برخورد آهنرباها نرم باشد، مقدار فرورفتگی آهنرباها را در زمین با یک‌دیگر مقایسه کنید. (تأثیر میدان مغناطیسی زمین روی آهنرباها را نادیده بگیرید.)
+            </p>
+            
+            <br><br>
+
+
+            
+
+    <p class="MsoNormal">
+        23.
+
+        جهت جریان القایی را در هر یک از حلقه‌های رسانای نشان داده شده در شکل‌های زیر تعیین کنید.
+        </p>
+            
+
+        <br><br>
+
+
+
+    <p class="MsoNormal">
+    24.
+
+    شکل زیر سیم‌لولهٔ حامل جریانی را نشان می‌دهد که در حال دور شدن از یک حلقهٔ رساناست. جهت جریان القایی را در حلقه با ذکر دلیل تعیین کنید.
+    </p>
+
+
+    <br><br>
+
+
+    <p class="MsoNormal">
+25.
+        
+        دو حلقهٔ رسانا در نزدیکی یک سیم دراز حامل جریان ثابت $I$ قرار دارند؛ این دو حلقه با تندی یکسان، ولی در جهت‌های متفاوت مطابق شکل زیر حرکت می‌کنند. جهت جریان القایی را در هر حلقه با ذکر دلیل تعیین کنید.
+        </p>
+
+        <br><br>
+
+
+
+        
+        <p class="MsoNormal">
+26.
+            
+            شکل زیر رسانای $U$ شکلی را درون میدان مغناطیسی یکنواخت $\vec{B}$ که عمود بر صفحهٔ شکل و رو به داخل صفحه است نشان می‌دهد. وقتی میلهٔ فلزی $CD$ به طرف راست حرکت کند، جهت جریان القایی در مدار در چه جهتی است؟
+            </p>
+        
+
+        <br><br>
+
+        <p class="MsoNormal">
+            
+            27.
+            در مدار نشان داده شده در شکل زیر، جهت جریان القایی را در مقاومت $R$ در هر یک از دو حالت زیر با ذکر دلیل پیدا کنید:  
+        
+         
+            </p>
+       <ul class="MsoNormal">
+        <p>
+            الف) در لحظهٔ بستن کلید $K$
+        </p>
+        <p>
+            ب) در لحظهٔ باز کردن کلید $K$
+        </p>
+
+       </ul>
+
+       <br><br>
+
+       <p class="MsoNormal">
+    28.
+        
+        حلقهٔ رسانای مربعی شکل، به طول ضلع 
+        $۱۰ \ cm$
+         وارد میدان مغناطیسی درون‌سویی به اندازهٔ 
+         $۲۰ \ mT$
+          و سپس از آن خارج می‌شود.  
+
+        </p>
+        
+        <ul class="MsoNormal">
+            <p>
+
+                الف) در کدام مرحله شار عبوری از حلقه بیشینه است؟ مقدار شار گذرنده از حلقه در این حالت چقدر است؟  
+
+            </p>
+
+        <p>
+            ب) در کدام وضعیت(ها) شار گذرنده از حلقه تغییر می‌کند؟ جهت جریان القایی را در حلقه تعیین کنید.
+        </p>
+        </ul>
+
+
+
+
+        <br>
+        <br>
+
+
+
+
+
+        <p class="MsoNormal">
+  29.
+            
+            حلقهٔ رسانایی به طرف یک آهنربای میله‌ای حرکت می‌کند. شکل زیر، حلقه را در سه وضعیت نسبت به آهنربا نشان می‌دهد. جهت جریان القایی را در حلقه برای هر وضعیت به‌طور جداگانه تعیین کنید.
+            </p>
+        
+            
+        
+        <br><hr><br>
+        
+        
+        
+            <p class="MsoStep">
+              10-3
+                
+                القاگرها</p>
+
+
+<p class="MsoNormal">
+ 30.
+    
+    شکل زیر مداری را نشان می‌دهد؛ شامل یک القاگر (سیم‌لوله)، باتری، رئوستا و آمپرسنج که به‌طور متوالی به یک‌دیگر بسته شده‌اند. اگر بخواهیم بدون تغییر ولتاژ باتری، انرژی ذخیره‌شده در القاگر را زیاد کنیم، چه راهی پیشنهاد می‌کنید؟
+    </p>
+    
+
+
+    <br><hr><br>
+
+
+
+    <p class="MsoStep">
+        11-3
+        جریان متناوب</p>
+    <p class="MsoNormal">
+        31.
+            جریان متناوبی که بیشینهٔ آن 
+            $۲/۰ \ A$
+            و دورهٔ آن 
+            $۰/۰۲۰ \ s$ است، از یک رسانای $5$ اهمی می‌گذرد.  
+            </p>
+            <ul class="MsoNormal">
+            <p>
+                    الف) اولین لحظه‌ای که در آن جریان بیشینه است چه لحظه‌ای است؟ در این لحظه نیروی محرّک القایی چقدر است؟  
+
+            </p>
+            <p>
+                ب) در لحظهٔ $t = \dfrac{۱}{۴۰۰}\ s$، جریان چقدر است؟
+
+            </p>
+            </ul>
+    
+    
+
+
+
+
+                
+    <br><br><br><br><br><br><br><br><br><br>
+</body>
+
+
+</html>

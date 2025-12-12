@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="fa">  
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #badaff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    largeSqrt: ['{\\sqrt{\\phantom{2}}}', 1] // Custom large square root macro.
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: "TeX",
+                scale: 110,
+                linebreaks: { automatic: true },
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+    
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+
+    <body class="custom-scrollbar">
+
+        <p class="MsoBold">فصل ۲ :‌ مثلثات</p>
+
+        <p class="MsoNormal">
+            <span style="font-weight: bold;">الَّشْمُسَ واْلَقَمُرِ بُحْسَباٍن (الرحٰمن:5)</span> <br><br>
+            خورشید و ماه برابر حساب (منظمی در چرخش و گردش) هستند.
+        </p>
+        <img class="images" src="Math1CH2P1C1_webp3.webp">
+        <img class="images" src="Math1CH2P1C1_webp4.webp">
+        <img class="images" src="Math1CH2P1C1_webp5.webp">
+        <p class="MsoNormal">
+            فصل یا موسم یکی از تقسیمات سال بر اساس تغییرات آب و هوایی کره زمین است. به علت مایل بودن محور گردش زمین به دور خورشید نسبت به صفحهٔ استوا و در نتیجه تغییر طول روز و شدت تابش و دما، فصل‌ها پدید می‌آیند.
+        </p>
+<br><hr>
+        <p class="MsoBold">درس اول : نسبت های مثلثاتی</p>
+
+        <p class="MsoNormal">
+            مثلثات شاخه‌ای از ریاضیات است که به بررسی روابط بین زوایا و اضلاع یک مثلث می‌پردازد. یکی از اهداف این علم، اندازه‌گیری فاصله‌ها به‌صورت غیرمستقیم است. مثلثات در علوم مهندسی، فیزیک، نقشه‌برداری، دریانوردی، نجوم و غیره کاربرد دارد.
+            به‌عنوان مثال، فرض کنید یک هواپیما در ارتفاع ۲ کیلومتری از سطح زمین در حال فرود آمدن است.
+        </p>
+
+        <img class="images" src="Math1CH2P1C1_svg1.svg" style="mix-blend-mode: difference;">
+      
+
+        <p class="MsoNormal">
+            اگر زاویهٔ هواپیما با افق ۱۳° باشد، می‌خواهیم محل دقیق فرود هواپیما را بدانیم. این مسئله و مسائلی نظیر این با استفاده از روابط مثلثاتی حل می‌شوند. <br>
+            برای معرفی مفهوم مثلثات، به مفهوم تشابه نیاز داریم. در پایه نهم، با این مفهوم آشنا شدید و دیدید که دو مثلث با هم متشابه‌اند، هرگاه زاویه‌های نظیر در آنها برابر و نسبت اضلاع متناظر نیز با هم برابر باشند. یعنی اگر $ A \overset{\triangle}{B} C \sim  A' \overset{\triangle}{B'} C' $، آنگاه داریم:
+        </p>
+        
+        <p class="MsoNormal" style="text-align: center;">
+            \[
+            \frac{AB}{A'B'} = \frac{BC}{B'C'} = \frac{AC}{A'C'}
+            \quad \text{و} \quad \hat{A} = \hat{A'}, \hat{B} = \hat{B'}, \hat{C} = \hat{C'}
+            \]
+        </p>
+        
+        <p class="MsoNormal">
+            در هندسه ثابت می‌شود:
+        </p>
+        
+       
+
+            <img src="Math1CH2P1C1_svg2.svg"  class="images" style="mix-blend-mode:difference;">
+
+
+        <br>
+
+        <p class="MsoNormal" >
+            هرگاه دو زاویه از مثلثی، با دو زاویه از مثلثی دیگر برابر باشند، آن دو مثلث، متشابه‌اند.
+        </p>
+        <br>
+        <p class="MsoNormal">
+            به عنوان یک نتیجه از مطلب بالا می‌توان دید:
+        </p>
+<br>
+        <div class="MsoNormal" style=>
+            اگر 
+            $A \overset{\triangle}{B} C$  و  $A' \overset{\triangle}{B'} C'$
+             در شکل مقابل، مقابل قائم‌الزاویه باشند و داشته باشیم 
+             $\hat{C} = \hat{C'}$، 
+            آنگاه: 
+        $$ A \overset{\triangle}{B} C \sim  A' \overset{\triangle}{B'} C' $$
+        </div>
+
+        <img src="Math1CH2P1C1_svg3.svg"  class="images" style="mix-blend-mode:difference;">
+
+        <br><hr><br>
+
+        <div class="MsoNormal" style="max-width:450px;margin:10% auto; background-color:#6c01f81c; padding:0; border: 5px solid black; border-radius:12px; box-shadow:5px 5px 0 black;"  >
+            <img class="images" src="Math1CH2P1C1_webp1.webp" style="padding: 0;border-bottom:solid 6px black; margin:0 0 10px 0; max-width:fit-content; border-radius:12px 12px 0 0">
+             <p class="MsoNormal" style="margin:5%; ; padding:1% 5%;">
+                برای اینکه اتومبیل‌ها در پیچ جاده‌ها بتوانند بدون خطر انحراف، حرکت کنند، در جاده شیب عرضی ایجاد می‌کنند، یعنی آن را طوری می‌سازند که قسمت بیرونی جاده نسبت به قسمت درونی، مرتفع‌تر باشد.
+            </p>
+        </div>
+        
+        <div class="MsoNormal" style="max-width:450px;margin:10% auto; background-color:#6c01f81c; padding:0; border: 5px solid black; border-radius:12px; box-shadow:5px 5px 0 black;"  >
+            <img class="images" src="Math1CH2P1C1_webp2.webp" style="padding: 0; margin:0 0 10px 0;border-bottom:solid 6px black; max-width:fit-content; border-radius:12px 12px 0 0 ">
+             <p class="MsoNormal" style="margin:5%; ; padding:1% 5%;">
+                در صفحات گرافن، هر اتم کربن با سه اتم کربن دیگر پیوند دارد که زوایای بین این پیوندها ۱۲۰ درجه است. در آینده‌ای نه‌چندان دور، بهترین میکروفن‌های جهان با استفاده از گرافن ساخته می‌شوند. این میکروفن‌ها، قابلیت ردیابی امواج صوتی فراتر از دامنهٔ شدت شنوایی انسان را دارند.
+            </p>
+        </div>
+        
+        <br><hr><br>
+
+        <div class="MsoStep">کار در کلاس</div>
+      
+        <p class="MsoNormal">
+            ۱) در مثلث‌های قائم‌الزاویهٔ ABC و $A'B'C'$، جای‌های خالی را کامل کنید. $\hat{A} = \hat{A'}$ <br> <br>
+            $$  ABC \ \ \square A'B'C'  \ \  \Rightarrow \frac{AC}{A'C'} = \frac{AB}{\qquad \qquad} = \frac{BC}{\qquad \qquad} $$
+        </p>
+        <img src="Math1CH2P1C1_svg4.svg"  class="images" style="mix-blend-mode:difference;">
+
+       
+        <p class="MsoNormal">
+            ۲) از تساوی $\frac{AC}{A'C'} = \frac{AB}{A'B'}$، می‌توان نتیجه گرفت $\frac{AB}{AC} = \frac{A'B'}{A'C'}$ (چرا؟). با توجه به این نکته، جای‌های خالی را کامل کنید:
+        </p>
+       
+        <p class="MsoNormal" style="text-align: center;">
+            $$ \frac{AB}{BC} =  \frac{\qquad}{\qquad} \quad \text{و} \quad \frac{BC}{AC} = \frac{\qquad}{\qquad} $$
+        </p>
+        <br>     
+        <p class="MsoNormal">
+            <span>نتیجه:</span> اگر زاویه $A$ از مثلث قائم‌الزاویه $ABC$ با زاویه $A'$ از مثلث قائم‌الزاویه $A'B'C'$ (مطابق شکل بالا) برابر باشد، داریم:
+        </p>
+        
+        <p class="MsoNormal" style="text-align: center;">
+            $$ \frac{BC}{AC} = \frac{B'C'}{A'C'} \quad \text{و} \quad \frac{AB}{BC} = \frac{A'B'}{B'C'} \quad \text{و} \quad \frac{AB}{AC} = \frac{A'B'}{A'C'} $$
+        </p>
+
+
+        <br><hr><br>
+
+        <div class="MsoStep">فعالیت</div>
+
+        <p class="MsoNormal">
+            ۱) در شکل سمت راست، درستی تساوی $ \frac{BC}{AB} = \frac{EF}{AE} $ را بررسی کنید.
+        </p>
+        <img src="Math1CH2P1C1_svg6.svg"  class="images" style="mix-blend-mode:difference; ">
+
+        <br>
+
+        <p class="MsoNormal">
+            ۲) نقطهٔ دیگری مثل $M$ را در امتداد $AC$ درنظر بگیرید و از آن نقطه، عمودی بر ضلع دیگر زاویه $A$ رسم کنید و پای عمود را $N$ بنامید. اکنون جای‌های خالی را کامل کنید:
+        </p>
+
+
+        <p class="MsoNormal" >
+            $$ \frac{BC}{AB} = \frac{MN}{. . . .} = \frac{. . . .}{AE} $$
+        </p>
+
+
+        <br><hr><br>
+
+
+        <p class="MsoNormal">
+            همان‌طور که در «کار در کلاس» بالا دیدیم، در مثلث قائم‌الزاویه $ABC$ برای زاویهٔ معین و حاده $A$، نسبت طول ضلع مقابل زاویهٔ $A$، به طول ضلع مجاور آن همواره مقداری ثابت است. این نسبت را تانژانت زاویهٔ $A$ می‌نامیم و آن را با $\tan A$ نشان می‌دهیم. به عبارت دیگر، در مثلث قائم‌الزاویهٔ دلخواه $ABC$، داریم:
+        </p>
+      
+
+         <img src="Math1CH2P1C1_svg5.svg"  class="images" style="mix-blend-mode:difference; margin-top:-5% ">
+        <p class="MsoNormal" style="text-align: center;">
+            $$ \tan A = \frac{ A  \ \ \text{طول ضلع مقابل به زاویهٔ } }{ A  \ \ \text{طول ضلع مجاور به زاویهٔ } } = \frac{BC}{AB} $$
+        </p>
+        <br> <br>
+        <p class="MsoNormal">
+            عکس تانژانت زاویه $A$ را کتانژانت می‌نامیم و آن را با $\cot A$ نشان می‌دهیم. به عبارت دیگر، در مثلث قائم‌الزاویه $ABC$ داریم:
+        </p>
+        <br>
+        <p class="MsoNormal" style="text-align: center;">
+            $$ \cot A = \frac{A \ \  \text{طول ضلع مجاور به زاویه } }{ A  \ \  \text{طول ضلع مقابل به زاویه } } = \frac{AB}{BC} $$
+        </p>
+
+        <br><hr><br>
+
+
+        <div class="MsoStep">فعالیت</div>
+
+            <p class="MsoNormal">
+                ۱) در هر یک از شکل‌های زیر، جای‌های خالی را کامل کنید.
+            </p>
+
+
+            
+        <div style="display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: space-between;
+    align-items: baseline;">
+
+            <img src="Math1CH2P1C1_svg7.svg"  class="images" style="mix-blend-mode:difference; width:50%;max-width:220px;">
+            <img src="Math1CH2P1C1_svg8.svg"  class="images" style="mix-blend-mode:difference; width:50%;max-width:220px;">
+            <img src="Math1CH2P1C1_svg9.svg"  class="images" style="mix-blend-mode:difference;width:100%;margin-top:-15%; max-width:220px;">
+
+
+        </div>
+
+ 
+
+
+            <p class="MsoNormal" style="text-align: left">
+                $ \tan A = \frac{BC}{AB} = \frac{5}{3} $ <br> <br>
+                $ \cot M = \frac{MN}{NO} = \frac{. . . .}{2/5} $ <br>  <br>
+                $ \tan F = \frac{\qquad}{\qquad} = \frac{\qquad}{\qquad} $<br>  <br>
+                $ \cot A = \frac{\qquad}{\qquad} = \frac{\qquad}{\qquad} $ <br>  <br>
+                $ \tan M = \frac{\qquad}{\qquad} = \frac{\qquad}{\qquad} $ <br>  <br>
+                $ \cot F = \frac{\qquad}{\qquad} = \frac{\qquad}{\qquad} $
+            </p>
+    
+            <br><br>
+
+            <p class="MsoNormal">
+                ۲) مثلث متساوی‌الاضلاع $ABC$ با اضلاعی به طول ۲ واحد را درنظر بگیرید.
+            </p>
+            <img src="Math1CH2P1C1_svg10.svg"  class="images" style="max-width:350px;mix-blend-mode:difference;">
+
+           
+            <p class="MsoNormal">
+                (الف) محل برخورد نیمساز زاویه $A$ با پاره‌خط $BC$ را $M$ بنامید. با توجه به خواص مثلث متساوی‌الساقین، $AM = \frac{\qquad}{\qquad}$ و ضلع $BC = \frac{\qquad}{\qquad} $ . بنابراین $BM = MC = \frac{\qquad}{\qquad}$ .
+            </p>
+            <br>
+            <p class="MsoNormal">
+                (ب) با استفاده از رابطه فیثاغورس، طول $AM$ و حاصل کسرهای زیر را به‌دست آورید.
+            </p>
+            <br>
+            <p class="MsoNormal" style="text-align: center;">
+                $$ \tan 30^0 = \frac{BM}{AM} = \frac{\qquad}{\qquad} \quad , \quad \tan 60^0 = \frac{AM}{BM} = \frac{\qquad}{\qquad} $$
+            </p>
+            <br>
+            <p class="MsoNormal">
+                (پ) با استفاده از یک مثلث قائم‌الزاویهٔ متساوی‌الساقین، تانژانت و کتانژانت زاویهٔ ۴۵ درجه را پیدا کنید.
+            </p>
+            
+
+            <br><hr><br>
+
+            <p class="MsoNormal">
+                در هر مثلث قائم‌الزاویه $ABC$، نسبت طول ضلع مقابل زاویهٔ حاده $A$ به طول وتر، همواره مقداری ثابت است که آن را سینوس زاویهٔ $A$ می‌نامیم و با $\sin A$ نشان می‌دهیم. به عبارت دیگر:
+            </p>
+            <br>
+            <p class="MsoNormal" style="text-align: center;">
+                $$ \sin A = \frac{BC}{AC} $$
+            </p>
+            <img src="Math1CH2P1C1_svg5.svg"  class="images" style="max-width:350px;mix-blend-mode:difference; margin-top:-7% ">
+
+            <p class="MsoNormal">
+                همچنین نسبت طول ضلع مجاور زاویهٔ حاده $A$ به طول وتر نیز مقداری ثابت است که آن را کسینوس زاویهٔ $A$ می‌نامیم و آن را با $\cos A$ نشان می‌دهیم. به عبارت دیگر:
+            </p>
+
+            <p class="MsoNormal" style="text-align: center;">
+                $$ \cos A = \frac{\qquad}{\qquad} $$
+            </p>
+
+           
+
+            <p class="MsoNormal">
+                به سادگی می‌توان دید، در مثلث قائم‌الزاویه $ABC$:
+
+
+             $$ 
+
+                \tan A  = \frac{BC}{AB} = \frac{\frac{BC}{AC}}{\frac{AB}{AC}}
+
+             $$
+
+                    و از این رو:
+
+            $$
+
+                \tan A = \frac{sin A}{ \cos A}
+
+            $$
+
+
+
+
+                    به طور مشابه می توان دید:
+
+            $$
+
+                \cot A = \frac{ \cos A}{ \sin A}
+
+            $$
+            </p>
+            <br><hr><br>
+            <p class="MsoNormal">
+                در یک مثلث قائم‌الزاویه، نسبت‌های سینوس، کسینوس، تانژانت و کتانژانت را نسبت‌های مثلثاتی می‌نامیم.
+            </p>
+
+            <br><hr><br>
+
+            <p class="MsoStep" >
+                مثال
+            </p>
+        
+            <p class="MsoNormal">
+                خانم جلالی از دانش‌آموزان خواست تا نسبت‌های مثلثاتی زاویهٔ $45^0$ را حساب کنند. او ابتدا یک مربع با اضلاعی به طول ۱ واحد رسم کرد و از دانش‌آموزان خواست تا قطر $AC$ را رسم کرده و سپس طول آن را حساب کنند.
+            </p>
+            <img src="Math1CH2P1C1_svg11.svg"  class="images" style="max-width:350px;mix-blend-mode:difference;">
+
+        
+            <p class="MsoNormal" >
+                <span >فریبا</span>: با توجه به اینکه مثلث $ADC$ قائم‌الزاویه است، داریم $ (AD)^2 + (DC)^2 = (AC)^2 $.
+            </p>
+            <br>
+            <p class="MsoNormal">
+                در نتیجه $ \sqrt{(AC)^2 = 1^2 + 1^2 = 2} $. چون اندازه قطر همواره عددی مثبت است، پس داریم:
+                $ AC = \sqrt{2} $
+            </p>
+            <br>
+           
+            <p class="MsoNormal">
+                معلم: با توجه به اینکه مثلث $ADC$ متساوی‌الساقین است، از این رو $\hat{A_1} = \hat{C_1} = \ \ . . . .$ .
+            </p>
+            <br>
+            <p class="MsoNormal" style="text-align: center;">
+                $$ \cos A_1 = \cos 45^0 = \frac{. . . .}{. . . .} = \frac{ . . . .}{. . . .} = \frac{. . . .}{. . . .} $$
+
+            </p>
+            <br>
+            <p class="MsoNormal">
+                مبینا: طبق تعریف سینوس،
+                $$ \sin A_1 = \sin 45^0 = \frac{DC}{\text{وتر}} = \frac{1}{\sqrt{2}} = \frac{\qquad}{2} $$
+
+            </p>
+            <br>
+            <p class="MsoNormal">
+                سبا: من هم می‌توانم با توجه به روابط بالا کسینوس 
+                
+                $45^0$
+                را پیدا کنم.
+            </p>
+            <br>
+            <p class="MsoNormal" style="text-align: center;">
+            </p>
+            <br>
+            <p class="MsoNormal">
+                مریم: اکنون در مثلث قائم‌الزاویهٔ $ADC$، طبق تعریف داریم:
+            </p>
+            <br>
+            <p class="MsoNormal" style="text-align: center;">
+                $$ \tan A_1 = \tan 45^0 = \frac{1}{1} = 1 \quad \\ \text{و} \\ \quad \cot A_1 = \cot 45^0 = \frac{1}{1} = 1 $$
+            </p>
+            <br><hr><br>
+
+            <div class="MsoStep">کار در کلاس</div>
+
+            <p class="MsoNormal">
+                به کمک شکل فعالیت قبل، با پیدا کردن نسبت‌های مثلثاتی زاویه‌های $30^0$، $45^0$ و $60^0$، جدول زیر را کامل کنید (در صورت لزوم، کسرها را گویا کنید).
+            </p>
+
+            <table class="table" style="width: 100%; text-align: center;">
+                <tr>
+                    <th>مقدار</th>
+                    <th>$30^0$</th>
+                    <th>$45^0$</th>
+                    <th>$60^0$</th>
+                </tr>
+                <tr>
+                    <th>sinA</th>
+                    <td></td>
+                    <td>$ \frac{\sqrt{2}}{2}$</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>cosA</th>
+                    <td></td>
+                    <td>$\frac{\sqrt{2}}{2}$</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>tanA</th>
+                    <td>$\frac{\sqrt{3}}{3}$</td>
+                    <td>$1$</td>
+                    <td>$ \sqrt{3} $</td>
+                </tr>
+                <tr>
+                    <th>cotA</th>
+                    <td>$$\sqrt{3} $$</td>
+                    <td>$1$</td>
+                    <td>$\frac{\sqrt{3}}{3}$</td>
+                </tr>
+            </table>
+
+
+            <br><hr><br>
+
+            <div class="MsoStep">مثال</div>
+
+            <p class="MsoNormal">
+                یک موشک در ارتفاع ۱۵ متری از سطح زمین و با زاویهٔ $30^0$ پرتاب می‌شود. می‌خواهیم بدانیم پس از طی ۲۰۰۰ متر با همین زاویه، موشک به چه ارتفاعی از سطح زمین می‌رسد؟
+            </p>
+            <img src="Math1CH2P1C1_png1.png"  class="images" >
+
+            <br>
+            <p class="MsoNormal">
+                حل: ابتدا یک مدل ریاضی برای حل این مسئله می‌سازیم. با توجه به شکل زیر، به‌سادگی می‌توان دید، ارتفاع موشک از سطح زمین برابر است با:
+            </p>
+            <br>
+            <p class="MsoNormal" style="text-align: center;">
+                $$ BC + MC = BC + . . . . $$
+            </p>
+            <br>
+            <p class="MsoNormal">
+                بنابراین کافی است طول $BC$ را پیدا کنیم. می‌دانیم $ \sin 30^0 = \frac{1}{2} $، پس در مثلث قائم‌الزاویه $ABC$ داریم:
+            </p>
+            <br>
+            <p class="MsoNormal" style="text-align: center;">
+                $$ \sin 30^0 = \frac{1}{2} = \frac{BC}{\qquad } \Rightarrow BC = $$
+            </p>
+            <br>
+        
+            <p class="MsoNormal" style="direction: ltr;">
+                ارتفاع موشک= $ \ \ . . . . \ \ + \ \ . . . . \ \ = \ \ . . . . \ \ $
+            </p>
+            <br><hr><br>
+            <div class="MsoStep">فعالیت</div>
+
+            <p class="MsoNormal">
+                ۱. یک زاویهٔ $50^0$ رسم کنید. با تشکیل یک مثلث قائم‌الزاویه و اندازه‌گیری طول‌های موردنظر با یک خط‌کش مدرج، نسبت‌های مثلثاتی زاویهٔ $50^0$ را به‌صورت تقریبی حساب کنید. سپس با ماشین‌حساب، مقادیر واقعی را به‌دست آورید و با مقادیر قبل مقایسه کنید.
+            </p>
+            <br>
+            <p class="MsoNormal">
+                ۲. می‌خواهیم مساحت مثلث $ABC$ در شکل زیر را پیدا کنیم. می‌دانیم:
+            </p>
+            <br>
+            <p class="MsoNormal" style="text-align: center;">
+              $$  ABC = \frac{1}{2} \times \text{ارتفاع} \times \text{قاعده}  \qquad  \text{ مثلث مساحت }$$
+            </p>
+            <br>
+            <p class="MsoNormal">
+             (الف) با توجه به اینکه $\sin 50^0 \approx 0.76$، داریم:
+            </p>
+            <br>
+            <p class="MsoNormal" style="text-align: center;">
+                $$ \sin 50^0 = \frac{AH}{\text{وتر}} = \frac{AH}{  \ \ . . . . \ \ } \Rightarrow AH \approx \ \ . . . . $$
+            </p>
+            <br>
+            <p class="MsoNormal">
+                (ب) با توجه به قسمت (الف) داریم:
+            </p>
+            <br>
+            <p class="MsoNormal" style="text-align: center;">
+                $$
+                \begin{align*}
+                ABC & = \frac{1}{2} \times AH \times BC  \qquad  \text{مساحت مثلث }  \\ \\
+                 & = \frac{1}{2} \times  \ \ . . . .  \ \ \times  \ \ . . . .  \ \ \approx  \ \ . . . . 
+                 \end{align*}
+                 $$
+            </p>
+            <br>
+            <p class="MsoNormal">
+                ۳. در هر مثلث، با معلوم بودن مقادیر طول دو ضلع مثلث و اندازه زاویه بین آنها نشان دهید:
+            </p>
+
+            <p class="MsoNormal">
+              $$  A \overset{\triangle}{B} C \text{مساحت } = \frac{1}{2} \times AB \times BC \times \sin B $$
+            </p>
+
+            <br><hr><br>
+
+            <div class="MsoStep">کار در کلاس</div>
+
+            <p class="MsoNormal">
+                ۱. در راهپیمایی ۲۲ بهمن، یک بالن اطلاع‌رسانی توسط دو طناب به زمین بسته شده است. طول یکی از طناب‌ها ۳۰ متر است. می‌خواهیم طول طناب دوم را پیدا کنیم.
+            </p>
+            <img class="images" src="Math1CH2P1C1_png2.png" style="max-width: 370px;mix-blend-mode:difference;">
+            <p class="MsoNormal">
+                (الف) ابتدا اندازهٔ زاویه $B$ را به‌دست آورید. سپس ارتفاع وارد بر ضلع $AC$ را رسم کنید و آن را $BH$ بنامید.
+            </p>
+            <br>
+            <p class="MsoNormal">
+                (ب) طول $BH$ را با استفاده از سینوس زاویه $A$ به‌دست آورید.
+            </p>
+            <br>
+            <p class="MsoNormal">
+                (پ) اکنون با استفاده از سینوس زاویه $65^0$، طول طناب دوم را پیدا کنید. $\sin 65^0 \approx 0.9$
+            </p>
+
+            <br><br><br>
+
+         
+
+            <p class="MsoNormal">۲. مطابق شکل، نردبانی به طول ۸ متر در زیر پنجرهٔ ساختمانی قرار گرفته است. اگر زاویهٔ نردبان با سطح زمین θ=۳۰° باشد، ارتفاع پنجره تا زمین را محاسبه کنید. فاصلهٔ پای نردبان تا ساختمان چقدر است؟</p>
+            <img class="images" src="Math1CH2P1C1_png3.png" style="max-width: 370px;mix-blend-mode:difference;">
+            <p class="MsoNormal" style="text-align: center;">
+                $$\sin \theta = \frac{1}{2} = \frac{BC}{8} \Rightarrow 2BC = \dots \dots \Rightarrow BC = \dots \dots$$
+            </p>
+
+            <p class="MsoNormal">اکنون به کمک رابطهٔ فیثاغورس داریم:</p>
+
+            <p class="MsoNormal" style="text-align: center;">
+                $$AB^2 = AC^2 - BC^2 = \dots \dots - \dots \dots = \dots \dots \Rightarrow AB = \dots \dots$$
+            </p>
+
+<br><hr><br>
+
+            <div class="MsoStep">تمرین</div>
+            <p class="MsoNormal">۱. علی می‌خواهد ارتفاع یک درخت را که طول سایهٔ آن ۳ متر است، حساب کند. قد علی ۱/۵ متر و طول سایهٔ او در همان لحظه ۰/۵ متر است. ارتفاع درخت چقدر است؟</p>
+            <img class="images" src="Math1CH2P1C1_png4.png" style="max-width: 370px;mix-blend-mode:difference;">
+            <br>
+
+            <p class="MsoNormal">۲. مساحت شش ضلعی منتظم زیر را به‌دست آورید.</p>
+            <img class="images" src="Math1CH2P1C1_svg12.svg" style="max-width: 370px;mix-blend-mode:difference;">
+            <br>
+
+            <p class="MsoNormal">۳. یک هواپیما در ارتفاع ۲ کیلومتر از سطح زمین در حال فرود آمدن است. اگر زاویهٔ هواپیما با افق حدود °۱۳ باشد، هواپیما در چه فاصله‌ای از نقطهٔ A فرود می‌آید.</p>
+            <p class="MsoNormal" style="text-align: center;">
+                $$\tan 13° \approx 0.23 $$
+            </p>
+            <img class="images" src="Math1CH2P1C1_svg13.svg" style="max-width: 370px;mix-blend-mode:difference;">
+            <br>
+
+            <p class="MsoNormal">۴. فرض کنید \( \sin 75° \approx 0.96 \). مساحت مثلث ABC در شکل زیر را به‌دست آورید.</p>
+            <img class="images" src="Math1CH2P1C1_svg14.svg" style="max-width: 370px;mix-blend-mode:difference;">
+            <br>
+            
+            <p class="MsoNormal">۵. مساحت مثلث ABC را پیدا کنید.</p>
+            <img class="images" src="Math1CH2P1C1_svg15.svg" style="max-width: 370px;mix-blend-mode:difference;">
+            <br><br>
+    </body>
+
+
+
+</html>

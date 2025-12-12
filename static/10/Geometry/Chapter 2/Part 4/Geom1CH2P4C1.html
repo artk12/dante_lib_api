@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi {
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSemic,
+        li.MsoSemic,
+        div.MsoSemic {
+            margin: 0in;
+           
+            font-size: clamp(1.2rem, 1.6vw, 1.3rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #b19af2;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #6ca4ec;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .boxp {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .boxg {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#00f2ff11; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        .boxb {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#0c4e9f2d; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        ::selection {
+            background-color: #59078fa1; /* Change this to your desired highlight color */
+            color: #ffffff; /* Change this to your desired text color */
+          }
+
+
+          mark{
+            background-color:#078b8fa1 ;
+            color: #ffffff;
+            padding: 0 7px;
+        }
+
+        .hlg { background-color: rgba(0, 234, 255, 0.334);  }
+        .hlp { background-color:#5f1487; }
+      
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+
+    <body class="custom-scrollbar">
+
+
+
+        <div class="MsoBold">درس چهارم:
+            <br>
+            کاربردهایی از قضیهٔ تالس و تشابه مثلث‌ها</div>
+        
+<hr>
+        <p class="MsoBold">
+            نسبت های اجزای فرعی٬ محیط ها و مساحت های دو مثلث متشابه
+        </p>
+        <div class="boxp">
+            <p class="MsoSemi">
+                <mark>قضیه:</mark>
+            </p>
+            <p class="MsoNormal">هرگاه دو مثلث، متشابه باشند، آنگاه نسبت اندازه‌های هر دو جزء متناظر (ارتفاع‌ها، میانه‌ها، نیمسازها و محیط‌ها) مساوی نسبت تشابه و نسبت مساحت‌های آنها مساوی توان دوم (مربع) نسبت تشابه است.</p>
+        </div><br>
+        
+        <p class="MsoNormal">به عنوان مثال اگر مثلث‌های $A'B'C'$ و $ABC$ متشابه باشند و نسبت تشابه آنها $k$ باشد $ \left( \dfrac{A'B'}{AB} = \dfrac{A'C'}{AC} = \dfrac{B'C'}{BC} = k \right) $، آنگاه :</p><br>
+        
+        <p class="MsoNormal">الف) نسبت اندازه‌های ارتفاع‌های متناظر آنها $k$ است :</p><br>
+        <p class="MsoNormal">$$ \dfrac{A'H'}{AH} = k $$</p><br>
+        
+        <p class="MsoNormal">ب) نسبت اندازه‌های میانه‌های متناظر آنها $k$ است :</p><br>
+        <p class="MsoNormal">$$ \dfrac{C'N'}{CN} = k $$</p><br>
+        
+        <p class="MsoNormal">ج) نسبت اندازه‌های نیمسازهای متناظر آنها مساوی $k$ است :</p><br>
+        <p class="MsoNormal">$$ \dfrac{B'D'}{BD} = k $$</p><br>
+        
+        <p class="MsoNormal">در مورد محیط‌های دو مثلث نیز داریم :</p><br>
+        <p class="MsoNormal">$$ \dfrac{P_{A'B'C'}}{P_{ABC}} = \dfrac{A'B' + A'C' + B'C'}{AB + AC + BC} = k $$</p><br>
+        
+        <p class="MsoNormal">و در مورد مساحت‌ها داریم :</p><br>
+        <p class="MsoNormal">$$ \dfrac{S_{A'B'C'}}{S_{ABC}} = k^2 $$</p><br>
+        <br>
+        <p class="MsoNormal"><mark>اثبات :</mark> اگر درستی حکم را برای یکی از ارتفاع‌ها (میانه‌ها، نیمسازها) ثابت کنیم، درستی آن قابل تعمیم به سایر ارتفاع‌ها (میانه‌ها، نیمسازها) است. (چرا؟)</p><br>
+        
+
+        
+        <br>
+        <p class="MsoSemi"><strong>الف) ارتفاع‌ها</strong></p>
+
+<table class="table" style="text-align: center; width:fit-content;">
+    <tr>
+        <th>فرض</th>
+        <td style="text-align: left;">$\triangle ABC \sim \triangle A'B'C'$, $\dfrac{A'B'}{AB} = \dfrac{A'C'}{AC} = \dfrac{B'C'}{BC} = k$</td>
+    </tr>
+    <tr>
+        <th>حکم</th>
+        <td style="text-align: left;">$\dfrac{A'H'}{AH} = k$</td>
+    </tr>
+</table><br>
+
+<div class="MsoNormal">چرا $ {\angle} B$ $=$ $ \prime{B} \angle $ ؟
+    
+
+
+    
+    بنابراین: $$ \Delta A'B'H' \ \ \sim \ \ \Delta ABH $$ (چرا؟!) از آنجا درستی حکم را نتیجه‌گیری کنید.</div><br>
+<br>
+<br>
+<p class="MsoSemi"><strong>ب) میانه‌ها</strong></p>
+
+
+<table class="table" style="text-align: center; width:fit-content;">
+    <tr>
+        <th>فرض</th>
+        <td style="text-align: left;">$\triangle ABC \sim \triangle A'B'C'$, $\dfrac{A'B'}{AB} = \dfrac{A'C'}{AC} = \dfrac{B'C'}{BC} = k$</td>
+    </tr>
+    <tr>
+        <th>حکم</th>
+        <td style="text-align: left;">$\dfrac{A'M'}{AM} = k$</td>
+    </tr>
+</table><br>
+<div class="MsoNormal">چرا $ {\angle} B$ $=$ $ \prime{B} \angle $ ؟
+    
+    <p class="MsoNormal">
+    
+    $$
+    
+    \dfrac{\prime{M}\prime{B}}{BM} = \dfrac{\dfrac{1}{2}...}{\dfrac{1}{2}...} = \dfrac{...}{...} = k \Rightarrow \dfrac{\prime{B}\prime{A}}{AB} = \dfrac{\prime{M}\prime{B}}{BM}
+     
+    $$
+    
+    </p>
+    
+        <br>
+        بنابراین $$ \Delta A'B'M' \ \ \sim \ \ \Delta ABM $$ (چرا؟!) از آنجا درستی حکم را نتیجه‌گیری کنید.</div><br>
+    <br>
+
+
+
+
+<br>
+
+<p class="MsoSemi"><strong>ج) نیمسازها</strong></p>
+
+
+<table class="table" style="text-align: center; width:fit-content;">
+    <tr>
+        <th>فرض</th>
+        <td style="text-align: left;">$\triangle ABC \sim \triangle A'B'C'$, $\dfrac{A'B'}{AB} = \dfrac{A'C'}{AC} = \dfrac{B'C'}{BC} = k$</td>
+    </tr>
+    <tr>
+        <th>حکم</th>
+        <td style="text-align: left;">$\dfrac{B'D'}{BD} = k$</td>
+    </tr>
+</table><br>
+
+<p class="MsoNormal">چرا $\angle A = \angle A'$ , $\angle B = \angle B'$ ؟ از آنجا درستی حکم را نشان دهید. بنابراین $\triangle ABD \sim \triangle A'B'D'$ (چرا؟!)</p><br>
+
+
+<br><br>
+<p class="MsoSemi"><strong>د) محیط‌ها</strong></p><br>
+
+<p class="MsoNormal">به سادگی و به کمک ویژگی تناسب‌ها می‌توان نوشت :</p><br>
+<p class="MsoNormal">$$ \Delta A'B'C' \sim \Delta ABC \Rightarrow \dfrac{A'B'}{AB} = \dfrac{A'C'}{AC} = \dfrac{B'C'}{BC} = k \Rightarrow $$</p><br>
+<p class="MsoNormal">$$ \dfrac{A'B' + A'C' + B'C'}{AB+AC+BC} = k \Rightarrow \dfrac{P_{A'B'C'}}{P_{ABC}} = k $$</p><br>
+
+<p class="MsoSemi"><strong>هـ) مساحت‌ها</strong></p><br>
+
+<p class="MsoNormal">دیدیم که نسبت ارتفاع‌های متناظر، مساوی نسبت تشابه است؛ بنابراین داریم :</p><br>
+<p class="MsoNormal">
+$$ \dfrac{A'H'}{AH} = \dfrac{B'C'}{BC} = k $$ <br>
+$$ \dfrac{S_{A'B'C'}}{S_{ABC}} = \dfrac{\dfrac{1}{2} A'H' \cdot B'C'}{\dfrac{1}{2} AH \cdot BC} = \dfrac{A'H'}{AH} \times \dfrac{B'C'}{BC} = k \times k = k^2 $$
+</p><br>
+
+<br><hr><br>
+
+<div class="MsoStep">کاردرکلاس</div><br>
+
+<p class="MsoNormal">چهارضلعی‌های متشابه $A'B'C'D'$ و $ABCD$ مفروض‌اند.</p><br>
+
+<p class="MsoNormal">۱ــ اگر نسبت تشابه دو چهارضلعی، $k$ باشد، ثابت کنید نسبت محیط‌های آنها مساوی $k$ است.</p><br>
+
+<p class="MsoNormal">۲ــ قطرهای $AC$ و $A'C'$ را رسم کنید. نشان دهید :</p><br>
+<p class="MsoNormal">$$ \Delta ACD \sim \Delta A'C'D' \ \ , \ \ \Delta ABC \sim \Delta A'B'C' $$</p><br>
+<p class="MsoNormal">نسبت تشابه‌ها چیست؟</p><br>
+<br>
+<p class="MsoNormal">۳ــ جاهای خالی را پر کنید :</p><br>
+<p class="MsoNormal">
+$$ 
+
+\begin{align*}
+& \quad \dfrac{S_{A'C'D'}}{S_{ACD}} = \dots , \dfrac{S_{A'B'C'}}{S_{ABC}} = \dots  \\\\
+& \Rightarrow \dfrac{S_{A'C'D'} + S_{A'B'C'}}{S_{ACD} + S_{ABC}} = \dots \\\\
+& \Rightarrow \dfrac{ ... }{ ... } = \dots 
+\end{align*}
+$$
+</p><br>
+
+<p class="MsoNormal">بنابراین نسبت مساحت‌های دو چهارضلعی، مساوی مربع نسبت تشابه آنهاست. به همین ترتیب می‌توانیم نسبت محیط‌ها و مساحت‌های هر دو $n$ ضلعی متشابه را به صورت زیر ثابت کنیم :</p><br>
+
+<div class="boxb">
+
+    <p class="MsoNormal">هرگاه دو چند ضلعی با نسبت تشابه $k$ متشابه باشند، نسبت محیط‌های آنها، مساوی $k$ و نسبت مساحت‌های آنها $k^2$ است.</p>
+
+</div>
+
+<br><br>
+    <p class="MsoSemi">مثال</p>
+    <p class="MsoNormal">محیط یک مثلث متساوی الاضلاع سه برابر محیط مثلث متساوی الاضلاع دیگر است. مساحت مثلث بزرگ‌تر، چند برابر مساحت مثلث کوچک‌تر است؟</p>
+
+<br><br>
+
+    <p class="MsoSemi">حل</p>
+    <p class="MsoNormal">می‌دانیم مثلث‌های متساوی الاضلاع همراه با هم متشابه‌اند (چرا؟) بنابراین نسبت محیط‌های آنها، نسبت تشابه آنهاست، یعنی $k=3$؛ بنابراین $S = k^2 = 9$ یعنی مساحت مثلث بزرگ‌تر، $9$ برابر مساحت مثلث کوچک‌تر است.</p>
+
+<br>
+<div class="boxb">
+    <p class="MsoNormal">هر دو $n$ ضلعی منتظم، همواره با هم متشابه‌اند.</p>
+</div>
+<br><hr><br>
+ 
+
+<div class="MsoStep">کاردرکلاس</div><br>
+
+<p class="MsoNormal">۱- اندازهٔ محیط‌های دو مثلث متشابه به ترتیب $۱۰$ و $۱۸$ واحد است. اگر مساحت مثلث بزرگ‌تر $۱۵$ واحد سطح باشد، مساحت مثلث کوچک‌تر، چند واحد سطح است؟</p><br>
+<br>
+<p class="MsoNormal">۲- نسبت مساحت‌های دو پنج ضلعی متشابه، $\dfrac{4}{9}$ است. اگر محیط یکی از آنها $۱۲$ واحد باشد، محیط پنج ضلعی دیگر چند واحد است؟ (چند جواب داریم؟)</p><br>
+<br>
+<p class="MsoNormal">۳- اندازهٔ اضلاع یک هفت ضلعی را سه برابر می‌کنیم؛ بدون اینکه اندازه‌های زوایا را تغییر دهیم. مساحت هفت ضلعی چند برابر می‌شود؟</p>
+
+
+<br><hr><br>
+<div class="MsoStep">فعالیت</div>
+
+<p class="MsoNormal">در شکل روبه‌رو، $EF=10 \text{ cm}$ و نیمساز دو زاویهٔ متقابل به رأس $O$ است و ${\angle} B = {\angle} C$.</p>
+<br>
+<p class="MsoNormal">الف) چرا مثلث‌های $OCD$ و $OAB$ متشابه‌اند؟</p><br>
+
+<p class="MsoNormal">ب) اگر $\dfrac{OB}{OC} = \dfrac{2}{3}$، نسبت $\dfrac{OE}{OF}$ چقدر است؟</p><br>
+
+<p class="MsoNormal">ج) طول‌های $OE$ و $OF$ را به‌دست آورید.</p>
+
+
+<br><hr><br>
+<div class="MsoStep">تمرین</div>
+
+<p class="MsoNormal">۱- طول‌های اضلاع یک مثلث $۱۰$ و $۱۲$ و $۱۵$ سانتی‌متر است و طول بلندترین ضلع مثلث متشابه آن، $۱۰$ سانتی‌متر است. محیط مثلث دوم را به‌دست آورید.</p><br>
+
+<p class="MsoNormal">۲- در شکل روبه‌رو $BC \parallel MN$ است و مساحت ذوزنقه $MNCB$ هشت برابر مساحت مثلث $AMN$ است. نسبت $\dfrac{MB}{MA}$ را به‌دست آورید.</p><br>
+<br>
+<p class="MsoNormal">۳- در شکل روبه‌رو می‌دانیم $BE=2DE$ است. اولاً $x$ و $y$ را به‌دست آورید. ثانیاً نسبت مساحت مثلث $BCD$ به مساحت $ABE$ را بیابید.</p><br>
+<br>
+
+<p class="MsoNormal">۴- در مثلث قائم‌الزاویه $ABC$ $(\angle A=90^0)$، ارتفاع $AH$ را رسم می‌کنیم. می‌دانید که $\Delta ABH \sim \Delta ABC \sim \Delta ACH$ است. با توجه به این موضوع،</p><br>
+
+<p class="MsoNormal">الف) ثابت کنید: </p><br>
+
+<p class="MsoNormal">
+$$
+\frac{S_{ABH}}{S_{ABC}} = ( \frac{AB}{BC} )^2 , \quad \frac{S_{ACH}}{S_{ABC}} = ( \frac{AC}{BC} )^2
+$$
+</p><br>
+
+<p class="MsoNormal">ب) با جمع کردن دو طرف تساوی‌های بالا و ادامه کار، درستی قضیهٔ فیثاغورس را نتیجه‌گیری کنید.</p><br>
+
+<p class="MsoNormal">۵- مطابق شکل، روی یک ساختمان، یک آنتن به ارتفاع $3/2$ متر نصب شده است. در فاصله $۶۰$ متری از ساختمان، یک تیر برق $۶$ متری قائم وجود دارد و یک ناظر وقتی در فاصله $۲۰$ متری می‌ایستد، انتهای آنتن و انتهای تیر برق را در یک راستا می‌بیند. اگر بدانیم فاصلهٔ چشمان ناظر از زمین $۱/۶$ متر است، بلندی ساختمان را محاسبه کنید.<br> (از چشم ناظر خط راستی موازی زمین رسم کنید تا تیر برق و ساختمان را قطع کند. از قضیهٔ تالس کمک بگیرید.)</p><br>
+<br>
+<p class="MsoNormal">۶- در دوربین‌های قدیمی، موقع عکسبرداری، روی یک حلقه تعداد محدودی (مثلاً سی و شش عدد) تصویر منفی ثبت، و سپس این فیلم ظاهر می‌شود و عکس‌ها بر روی آن چاپ می‌شوند. اگر فرض کنیم عرض یکی از این فیلم‌ها $35 \text{ mm}$ و
+     فاصله‌ای آن درون دوربین تا عدسی     $4.2 \text{ cm}$ 
+     و فاصله عدسی تا درختی که از آن عکس گرفته می‌شود، $6 \text{m}$
+    باشد٬ اندازه واقعی درختی که از آن عکس گرفته می‌شود٬ چند متر است؟
+    </p><br>
+
+<br><hr><br>
+
+<p class="MsoStep">
+    مجله ریاضی
+</p>
+
+<p class="MsoSemi">
+    خواندنی
+</p>
+
+<p class="MsoNormal">اعداد فیثاغورسی به سه عددی می‌گویند که مجموع مربع‌های دو تا از آن‌ها برابر با مربع سومی باشد؛ به عبارتی اعداد $a$ ، $b$ و $c$ را فیثاغورسی گویند، هرگاه $a^2 = b^2 + c^2$. اعداد فیثاغورسی اندازه‌های ضلع‌های یک مثلث قائم‌الزاویه (راست‌گوشه) را تشکیل می‌دهند. بررسی‌ها نشان داده است که در برخی نقاط جهان در ساخت بناها پیش از شناخت قضیه فیثاغورس از ویژگی اعداد فیثاغورسی استفاده می‌شده است.</p><br>
+
+<br>
+<p class="MsoSemi">اثبات ویژگی‌های تناسب</p><br>
+
+<p class="MsoNormal">۱. طرفین - وسطین کردن: طرفین تساوی $$ \frac{a}{b} = \frac{c}{d}$$  را در عدد غیر صفر $$ bd$$  ضرب کنید :</p><br>
+<p class="MsoNormal">
+    $$ \frac{a}{b} \times bd = \frac{c}{d} \times bd \Rightarrow ad = bc$$ 
+</p><br>
+
+<p class="MsoNormal">۲. ویژگی‌های (۲) و (۳) با طرفین – وسطین کردن، به سادگی نتیجه می‌شوند :</p><br>
+<p class="MsoNormal">
+    $$ \frac{a}{b} = \frac{c}{d} \Rightarrow ad = bc \Rightarrow da = cb \Rightarrow \frac{d}{b} = \frac{c}{a}$$ 
+</p><br>
+<p class="MsoNormal">
+    $$ \frac{a}{b} = \frac{c}{d} \Rightarrow ad = bc = ad \Rightarrow \frac{b}{a} = \frac{c}{d}$$ 
+</p><br>
+
+<p class="MsoNormal">۳. ویژگی‌های ۵ و ۴ به صورت زیر با اضافه کردن عدد ۱ به دو طرف تناسب نتیجه می‌شوند :</p><br>
+<p class="MsoNormal">
+    $$ \frac{a}{b} = \frac{c}{d} \Rightarrow \frac{a}{b} + 1 = \frac{c}{d} + 1 \Rightarrow \frac{a+b}{b} = \frac{c+d}{d}$$ 
+</p><br>
+<p class="MsoNormal">
+    $$ \frac{a}{b} = \frac{c}{d} \Rightarrow \frac{a}{b} = \frac{d}{c} \Rightarrow \frac{b}{a} = \frac{d}{c}$$ 
+</p><br>
+
+<p class="MsoNormal"> ویژگی‌های تفصیل نسبت در صورت و مخرج را خودتان اثبات کنید.</p><br>
+
+
+<p class="MsoNormal">اثبات ویژگی ۶:</p><br>
+<p class="MsoNormal">
+    اگر $\frac{a}{b} = \frac{c}{d} = k$ آنگاه $a = bk$ و $c = dk$ بنابراین $a + c = bk + dk = k(b + d)$ پس $\frac{a+c}{b+d} = k$
+</p><br>
+
+<p class="MsoNormal">به همین ترتیب می‌توان تعمیم این ویژگی را هم اثبات کرد.</p><br>
+
+
+
+
+
+
+
+
+
+<br><br><br><br><br>
+
+
+    </body>
+
+
+</html>

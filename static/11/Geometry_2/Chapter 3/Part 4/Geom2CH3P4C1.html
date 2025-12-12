@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi {
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSemic,
+        li.MsoSemic,
+        div.MsoSemic {
+            margin: 0in;
+           
+            font-size: clamp(1.2rem, 1.6vw, 1.3rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #b19af2;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #6ca4ec;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .boxp {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .boxg {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#00f2ff11; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        .boxb {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#0c4e9f2d; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        ::selection {
+            background-color: #59078fa1; /* Change this to your desired highlight color */
+            color: #ffffff; /* Change this to your desired text color */
+          }
+
+
+          mark{
+            background-color:#078b8fa1 ;
+            color: #ffffff;
+            padding: 0 7px;
+        }
+
+        .hlg { background-color: rgba(0, 234, 255, 0.334);  }
+        .hlp { background-color:#5f1487; }
+      
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+    <body class="custom-scrollbar">
+
+
+<p class="MsoBold">
+    درس چهارم:
+    <br>
+    قضیه هرون
+    (محاسبه ارتفاع ها و مساحت مثلث)
+</p>
+
+
+
+<p class="MsoNormal">
+    با مسئله زیر در کتاب هندسه ۱ مواجه شدید:
+</p>
+<br>
+<p class="MsoNormal">
+    در مثلث $ABC$ با اضلاع $15$، $14$، $13$ و ارتفاع $AH$ رسم شده است. به کمک قضیهٔ فیثاغورس در مثلث‌های $AHB$ و $AHC$ اندازه‌های $x$ و $y$ را به‌دست آورید و از آنجا مساحت مثلث را نیز محاسبه کنید:
+</p>
+<br>
+<p class="MsoNormal">
+    به عنوان یادآوری، مسئله را با هم حل می‌کنیم:
+</p>
+<br>
+<p class="MsoNormal">
+
+    $$
+    \begin{cases}
+    
+    CH^2 + AH^2 = \cdots \\ \\
+    BH^2 + AH^2 = \cdots 
+    \end{cases}
+\ \
+\Rightarrow
+\ \
+    \begin{cases}
+    
+    x^2 + y^2 = \cdots \\ \\ 
+    (14 - x)^2 + y^2 = \cdots 
+    
+    \end{cases}
+    
+    $$
+</p>
+<br>
+<p class="MsoNormal">
+    طرفین این دو تساوی را از هم کم می‌کنیم که با حذف $y^2$ معادله‌ای بر حسب $x$ به‌دست می‌آید:
+</p>
+<br>
+<p class="MsoNormal" style="text-align:left">
+    $x^2 - (14 - x)^2 = \cdots \Rightarrow x^2 - 196 - x^2 + 28x = \cdots$
+<br>
+    $\Rightarrow x = \cdots, \quad y = \cdots, \quad S = \dfrac{1}{2} BC \cdot AH = \cdots$
+</p>
+<br>
+<p class="MsoNormal">
+    اگر همین روش را در حالت کلی در مثلث $ABC$ که $BC = a$، $AB = c$ و $AC = b$ به کار ببریم، نتیجه می‌شود:
+</p>
+<br>
+<p class="MsoNormal" style="text-align: center;">
+    (دستور هرون)
+    $$S = \sqrt{P (P - a)(P - b)(P - c)}$$
+   
+</p>
+<br>
+<p class="MsoNormal">
+    که در این دستور $P = \dfrac{a + b + c}{2}$ نصف محیط مثلث است.
+</p>
+<br>
+<p class="MsoNormal">
+    (اثبات کامل این دستور را می‌توانید در مجلهٔ ریاضی انتهای فصل ببینید.)
+</p>
+<br>
+
+<br>
+
+
+<p class="MsoSemi" style="font-size: larger;">مثال:</p>
+<p class="MsoNormal">
+    مساحت مثلث با اضلاع به طول‌های $15$، $14$، $13$ به کمک دستور هرون برابر است با:
+</p>
+<br>
+<p class="MsoNormal" style="text-align: left;">
+    $$ 2P = 13 + 14 + 15 = 42 \Rightarrow P = 21 $$
+    $$ S = \sqrt{21 \times 6 \times 7 \times 8} = \sqrt{ 7^2 \times 3^2 \times 2^4 } = 84 $$
+</p>
+
+<br>
+
+<p class="MsoNormal">
+    و طول‌های سه ارتفاع مثلث نیز برابرند با:
+</p>
+<p class="MsoNormal">
+    $$h_a = \dfrac{2s}{a} = \dfrac{2 \times 84}{14} = 12, \quad h_b = \cdots, \quad h_c = \cdots$$
+</p>
+<br><hr><br>
+
+
+
+
+
+<div class="MsoStep">کاردرکلاس</div>
+<p class="MsoNormal">
+    چهارضلعی $ABCD$ یک مزرعهٔ کشاورزی را نشان می‌دهد که تنها دو ضلع آن بر هم عمودند. طول‌های اضلاع و زمین به سادگی قابل اندازه‌گیری، و اندازه‌های آنها در شکل مشخص شده‌است. با انجام دادن مراحل زیر مساحت این زمین را به‌دست آورید:
+</p>
+<br>
+<p class="MsoNormal">(الف) اگر $B$ را به $D$ وصل کنیم، طول $BD$ را چگونه به‌دست می‌آورید؟</p>
+<p class="MsoNormal">
+    $$BD^2 = \cdots + \cdots = \cdots + \cdots = \cdots \Rightarrow BD = \cdots$$
+</p>
+<br><br>
+<p class="MsoNormal">(ب) مساحت مثلث $ABD$ را چگونه به‌دست می‌آورید؟</p>
+<p class="MsoNormal">
+    $$S_{ABD} = \dfrac{\cdots \times \cdots}{2} = \cdots$$
+</p>
+<br><br>
+<p class="MsoNormal">(پ) مساحت مثلث $CBD$ را به کمک دستور هرون به‌دست آورید.</p>
+<p class="MsoNormal">
+    $$P = \dfrac{\cdots + \cdots + \cdots}{2} = \cdots, \quad S_{CBD} = \cdots$$
+</p>
+
+<br><br>
+<p class="MsoNormal">(ت) مساحت زمین کشاورزی برابر است با:</p>
+<p class="MsoNormal">
+    $$S = \cdots + \cdots = \cdots$$
+</p>
+<br><hr><br>
+
+
+
+<div class="MsoStep">فعالیت</div>
+<p class="MsoNormal">
+    می‌خواهیم دستور دیگری برای محاسبهٔ مساحت مثلث به کمک نسبت‌های مثلثاتی به‌دست آوریم:
+</p><br>
+
+<p class="MsoNormal">۱- در مثلث $ABC$، ارتفاع $BH$ را رسم کرده‌ایم.</p>
+<p class="MsoNormal">
+    $$\sin A = \dfrac{\cdots}{\cdots} \Rightarrow BH = \cdots$$
+</p>
+<br><br>
+<p class="MsoNormal">۲- مساحت مثلث $ABC$ را به کمک ارتفاع $BH$ بنویسید.</p>
+<p class="MsoNormal">
+    $$S_{ABC} = \dfrac{1}{2} BH \times AC = \cdots$$
+</p>
+<br>
+<div class="boxp">
+    <p class="MsoStep"><mark>نتیجه</mark></p>
+    <p class="MsoNormal">
+        مساحت هر مثلث برابر است با نصف حاصل‌ضرب اندازه‌های هر دو ضلع در سینوس زاویهٔ بین آنها:
+    </p>
+    <p class="MsoNormal">
+        $$S_{ABC} = \dfrac{1}{2} b \cdot \sin A = \dfrac{1}{2} ab \cdot \sin C = \dfrac{1}{2} ac \cdot \sin B$$
+    </p>
+</div>
+
+<br><hr><br>
+
+
+<div class="MsoStep">کاردرکلاس</div>
+<p class="MsoNormal">
+    ۱- مثلث $ABC$ با اضلاع ۳ و ۵ و ۷ مفروض است. مساحت مثلث را با استفاده از دستور هرون به‌دست آورید.
+</p>
+<br>
+<p class="MsoNormal" style="text-align: left;">
+    $
+    \begin{align*}
+
+
+    & \quad P = \dfrac{\cdots + \cdots + \cdots}{2} = \cdots \\ \\
+
+    & \Rightarrow S = \sqrt{P(P - a)(P - b)(P - c)} = \cdots \\ \\
+     
+    
+    \end{align*}
+    $
+
+
+</p>
+<br>
+<p class="MsoNormal">
+    ۲- مساحت مثلث را با استفاده از دستور $S = \dfrac{1}{2} AB \cdot AC \cdot \sin A$ بنویسید.
+</p>
+<br>
+<p class="MsoNormal">
+    ۳- از مقایسه نتایج ۱ و ۲، اندازه زاویهٔ منفرجه $\hat{A}$ را به‌دست آورید.
+</p>
+<br><hr><br>
+
+
+
+
+<div class="MsoStep">تمرین</div>
+<p class="MsoNormal">
+    ۱- در مثلث $AC = 6$، $AB = 10$، $ABC$ و $\hat{A} = 60^0$، 
+    <br>
+    (الف) طول $BC$ را به‌دست آورید. 
+    <br>
+    (ب) مساحت مثلث را تعیین کنید. 
+    <br>
+    (پ) مقدار $\sin B$ را پیدا کنید.
+</p>
+<br><br>
+<p class="MsoNormal">
+    ۲- دو زمین کوچک به شکل مثلث با یک دیوار به طول $13$ متر مطابق شکل از هم جدا شده‌اند. ابعاد زمین‌ها هم در شکل مشخص شده‌اند. اگر با برداشتن دیوار، دو زمین به یک زمین تبدیل شود، مساحت آن چقدر می‌شود؟
+</p>
+<p class="MsoNormal">
+    نشان دهید دیوار مشترک با اضلاع $4$ متر و $11$ متر، زاویه‌های برابر می‌سازد $(\alpha = \beta)$.
+</p>
+<br><br>
+<p class="MsoNormal">
+    ۳- دستور محاسبهٔ مساحت مثلث متساوی‌الاضلاع به ضلع $a$ را به کمک دستور هرون به‌دست آورید.
+</p>
+<br><br>
+<p class="MsoNormal">
+    ۴- در شکل مقابل، اولاً طول $BC$ را به‌دست آورید. ثانیاً مساحت چهارضلعی $DECB$ را بیابید.
+</p>
+<br><br>
+<p class="MsoNormal">
+    ۵- در شکل صفحه بعد $AD$ نیم‌ساز زاویهٔ $\hat{A}$ است. با پر کردن جاهای خالی، دستوری دیگری برای محاسبهٔ طول نیم‌ساز زاویهٔ $\hat{A}$ به‌دست آورید.
+</p>
+
+
+<p class="MsoNormal">
+    $$
+    \begin{align*}
+        & \quad S_{ABC} = S_{ABD} + S_{ACD}  \\ \\
+        & \Rightarrow \ \ \frac{1}{2} AB \cdot AC \cdot \sin A \\ \\
+        & \Rightarrow \ \ \frac{1}{2} \cdots \times \cdots \times \sin \frac{A}{2} + \frac{1}{2}  \cdots \times \cdots \times \sin \frac{A}{2} \\ \\
+
+        &  \Rightarrow AB \cdot AC \cdot \sin A = AD \cdot \sin \dfrac{A}{2} (\cdots + \cdots) \\ \\
+
+        &  \Rightarrow AD = \dfrac{AB \cdot AC \cdot \sin A}{(\cdots + \cdots) \sin \dfrac{A}{2}} = \dfrac{2 AB \cdot AC \cdot \sin \dfrac{A}{2} \cdot \cos \dfrac{A}{2}}{(\cdots + \cdots) \sin \dfrac{A}{2}} \\ \\
+       
+        &  \Rightarrow AD = \cdots \Rightarrow \quad  \text{(A نیم‌ساز رأس )} \ \ d_a = \dfrac{2bc \cdot \cos \dfrac{A}{2}}{b + c}
+
+    \end{align*}
+    $$
+</p>
+
+<br><br>
+<p class="MsoNormal">
+    ۶- در مثلث $ABC$ با اضلاع $5$ و $6$ و $7$ سانتی‌متر، نقطه‌ای که از اضلاع به طول‌های $5$ و $6$ به فاصلهٔ $2$ و $3$ سانتی‌متر است از ضلع بزرگ‌تر چه فاصله‌ای دارد؟
+</p>
+<p class="MsoNormal">راهنمایی: از مساحت مثلث استفاده کنید.</p>
+<br><br>
+<p class="MsoNormal">
+    ۷- در شکل، اولاً اندازهٔ زاویهٔ $\hat{A}$ را به‌دست آورید. ثانیاً مساحت چهارضلعی $ABCD$ را بیابید.
+</p>
+<p class="MsoNormal">راهنمایی: $B$ را به $D$ وصل کنید.</p>
+<br><br>
+<p class="MsoNormal">
+    ۸- ثابت کنید مساحت هر متوازی‌الاضلاع برابر است با حاصل‌ضرب دو ضلع مجاور در سینوس زاویهٔ بین آن دو ضلع.
+</p>
+<br><br>
+<p class="MsoNormal">
+    ۹- به کمک قضیهٔ کسینوس‌ها ثابت کنید در مثلث $ABC$:
+</p>
+<br>
+<p class="MsoNormal">(الف) $\hat{A} > 90^0$ اگر و تنها اگر $a^2 > b^2 + c^2$</p>
+<p class="MsoNormal">(ب) $\hat{A} < 90^0$ اگر و تنها اگر $a^2 < b^2 + c^2$</p>
+<p class="MsoNormal">(پ) $\hat{A} = 90^0$ اگر و تنها اگر $a^2 = b^2 + c^2$</p>
+<br><br>
+<p class="MsoNormal">
+    ۱۰- به کمک نتیجهٔ تمرین ۹، حاده (تند)، قائمه یا منفرجه (باز) بودن زاویهٔ $A$ را در هر یک از مثلث‌های زیر تعیین کنید:
+</p>
+<br>
+
+
+<p class="MsoNormal">(الف) $BC = 9$، $AC = 6$، $AB = 10$</p>
+<p class="MsoNormal">(ب) $BC = 9$، $AC = 4$، $AB = 8$</p>
+<p class="MsoNormal">(پ) $BC = 17$، $AC = 15$، $AB = 8$</p>
+
+
+<br><br>
+
+
+
+
+
+
+
+
+<br><br><br><br><br>
+
+
+    </body>
+
+
+</html>

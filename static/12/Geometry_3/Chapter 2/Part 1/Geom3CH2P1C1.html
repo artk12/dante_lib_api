@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi {
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSemic,
+        li.MsoSemic,
+        div.MsoSemic {
+            margin: 0in;
+           
+            font-size: clamp(1.2rem, 1.6vw, 1.3rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #b19af2;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #6ca4ec;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .boxp {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .boxg {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#00f2ff11; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        .boxb {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#0c4e9f2d; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        ::selection {
+            background-color: #59078fa1; /* Change this to your desired highlight color */
+            color: #ffffff; /* Change this to your desired text color */
+          }
+
+
+          mark{
+            background-color:#078b8fa1 ;
+            color: #ffffff;
+            padding: 0 7px;
+        }
+
+        .hlg { background-color: rgba(0, 234, 255, 0.334);  }
+        .hlp { background-color:#5f1487; }
+      
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+    <body class="custom-scrollbar">
+<p class="MsoBold">
+
+    فصل دوم:
+<br>
+        آشنایی با مقاطع مخروطی</p>
+        </div>
+    
+        
+        <p class="MsoNormal">
+            برج طغرل در شرق آرامگاه ابن‌بابویه شهرری و از آثار به‌جامانده از دورۀ سلجوقیان است. ارتفاع برج حدود ۲۰ متر است و به عقیدۀ برخی کارشناسان
+            این برج مانند یک ساعت آفتابی عمل می‌کند و می‌توان از روی تابش آفتاب بر روی کنگره‌های آن، زمان را تشخیص داد. شکل این برج به‌صورت یک مخروط ناقص توخالی است و در نتیجه در ساعت‌های مختلف روز خورشید به درون آن تابیده و سطح داخلی آن را تاحدودی روشن می‌کند. مرز بین سایه و روشنایی، بخشی از محیط یک بیضی است! (چرا؟)
+        </p>
+
+        <br><hr>
+
+
+        <p class="MsoBold">
+
+            درس اول:
+
+        <br>
+ آشنایی با مقاطع مخروطی و مکان هندسی</p>
+        </div>
+      
+      
+            <p class="MsoBold">مقاطع مخروطی</p>
+   
+    
+        
+        <p class="MsoNormal">
+            در پایه‌ی دهم با سطح مقطع صفحه با برخی اجسام هندسی آشنا شدید. فرض کنید یک کره را (مانند شکل) توسط یک صفحه قطع کنیم (برش دهیم). منظور از فصل مشترک خط و کره مجموعه نقاطی است که هم در صفحه و هم در کره قرار دارند. به نظر شما فصل مشترک یک صفحه و یک کره چه شکلی می‌تواند باشد؟
+        </p>
+        <br><br>
+        
+        <p class="MsoNormal">
+            رویه مخروطی: فرض کنید دو خط $d$ و $l$ از نقطه $A$ (مانند شکل) متقاطع (غیرعمود) باشند. سطح حاصل از دوران خط $d$ حول خط $l$ را یک رویه مخروطی (سطح مخروطی) می‌نامیم. در این حالت خط $l$ را محور، نقطه $A$ را رأس و خط $d$ را مولد این سطح مخروطی می‌نامیم.
+        </p>
+        <br>
+        <br>
+        <p class="MsoNormal">
+            حال می‌خواهیم به‌طور شهودی با فصل مشترک یک صفحه و یک سطح مخروطی، با توجه به حالات‌های مختلف صفحه و سطح مخروط نسبت به هم، آشنا شویم. از تصاویر ارائه شده برای درک بهتر شکل حاصل کمک بگیرید.
+        </p>
+        
+<br><br>
+
+<p class="MsoNormal">الف) در حالتی که صفحهٔ $P$ بر محور سطح مخروطی عمود باشد و از رأس آن عبور نکند، شکل حاصل یک دایره است.</p><br>
+<p class="MsoNormal">– در چه حالتی فصل مشترک صفحهٔ $P$ و سطح مخروطی تنها نقطهٔ $A$ خواهد بود؟</p>
+<br>
+<br>
+<p class="MsoNormal">ب) در حالتی که صفحهٔ $P$ بر محور عمود نباشد و یا مولد $l$ نیز موازی نباشد و تنها یکی از دو نیمه مخروط را قطع کند، سطح حاصل یک بیضی خواهد بود.</p>
+<br>
+
+<br>
+<p class="MsoNormal">پ) اگر صفحهٔ $P$ با مولد $l$ موازی باشد و از رأس مخروط عبور نکند، در این صورت فصل مشترک صفحه و سطح مخروطی یک سهمی است. (در این حالت اگر صفحهٔ $P$ از رأس سطح مخروطی عبور کند، فصل مشترک آنها یک خط است.)</p>
+<br>
+
+<br>
+<p class="MsoNormal">ت) اگر صفحهٔ $P$ به گونه‌ای باشد که هر دو نکتهٔ بالایی و پایینی سطح مخروطی را قطع کند و شامل محور $P$ نباشد، در این صورت فصل مشترک صفحه و سطح مخروطی یک هذلولوی است. در این کتاب، به تعریف دقیق و بررسی خواص هذلولوی نخواهیم پرداخت.</p>
+<br>
+
+<br>
+<p class="MsoNormal">با تعریف دایره آشنایی قبلی دارید. توجه داشته باشید که بیضی، سهمی و هذلولوی نیز هر کدام تعاریف دقیق و مشخص دارند، اما اینکه چرا فصل مشترک صفحه و سطح مخروطی مطابق با آنچه گفته شد دایره، بیضی، سهمی یا هذلولوی است، قابل اثبات است ولی ما در این کتاب به این اثبات‌ها نمی‌پردازیم. حال که با دایره، بیضی، سهمی و هذلولوی (مقاطع مخروطی) به‌صورت شهودی آشنا شدیم، برای تعریف دقیق این اشکال، ابتدا مفهوم مکان هندسی را معرفی می‌کنیم.</p>
+
+
+ <br><hr>
+
+ <p class="MsoStep"> مکان هندسی</p>
+ <p class="MsoNormal">طریقه رسم و ویژگی‌های عمود منصف یک پاره‌خط را از کتاب هندسه ۱ به خاطر دارید. دو ویژگی زیر را یادآوری می‌کنیم:</p>
+ <p class="MsoNormal">– هر نقطه روی عمود منصف پاره‌خط، از دو سر پاره‌خط به یک فاصله است.</p>
+ <p class="MsoNormal">– هر نقطه که از دو سر یک پاره‌خط به یک فاصله باشد، حتماً روی عمود منصف آن است.</p>
+ <br>
+ 
+ <p class="MsoNormal">اگر خط $d$ عمود منصف پاره‌خط $AB$ باشد، در این صورت:</p>
+ <p class="MsoNormal">$$ M \ \  \in \ \ d \iff MA=MB $$</p>
+ <br>
+ 
+ <p class="MsoNormal">بطور خلاصه، یک نقطه روی عمود منصف پاره‌خط است، اگر و تنها اگر از دو سر پاره‌خط به یک فاصله باشد.</p>
+ <p class="MsoNormal">به عبارت معادل، می‌گوییم عمود منصف یک پاره‌خط، مکان هندسی نقاطی از صفحه است که از دو سر آن پاره‌خط به یک فاصله‌اند.</p>
+ <br>
+ 
+ <p class="MsoNormal">بطور کلی مفهوم مکان هندسی بصورت زیر تعریف می‌شود:</p>
+ <br>
+ 
+ <div class="boxp">
+     <p class="MsoSemi" style="font-size: larger;"><mark>تعریف:</mark></p>
+     <p class="MsoNormal">مکان هندسی، مجموعه نقاطی از صفحه (یا فضا) است که همهٔ آنها یک ویژگی مشترک داشته باشند و همچنین هر نقطه که آن ویژگی را داشته باشد عضو این مجموعه باشد.</p>
+ </div>
+ <br>
+ <hr><br>
+ <p class="MsoStep">فعالیت ۱</p>
+
+ 
+ <p class="MsoNormal">در کتاب هندسه ۱ با ویژگی‌ها و طریقه رسم نیم‌ساز زاویه آشنا شدید. دو قضیه مهم در مورد نیم‌ساز زاویه را یادآوری کنید:</p>
+ 
+ <br>
+ <p class="MsoNormal">۱- هر نقطه روی نیم‌ساز زاویه ..............</p>
+ <br>
+ <p class="MsoNormal">۲- هر نقطه که .............. روی نیم‌ساز زاویه است.</p>
+ <br>
+ <br>
+ <p class="MsoNormal">اکنون گزاره زیر را کامل کنید:</p>
+ <p class="MsoNormal">یک نقطه روی نیم‌ساز زاویه است، اگر و تنها اگر ..............</p>
+ <p class="MsoNormal">$$(\hat{O}_1 = \hat{O}_2) \quad M \in Oz \iff  \ \ ..............$$</p>
+<br>
+ <p class="MsoNormal">بنابراین می‌توان گفت:</p>
+ <p class="MsoNormal">نیم‌ساز هر زاویه، مکان هندسی نقاطی از صفحه است که ..............</p>
+ 
+<br><hr><br>
+ <p class="MsoStep">فعالیت ۲</p>
+ <p class="MsoNormal">دایرهٔ $C$ به مرکز $O$ و شعاع $r$ را در نظر بگیرید.</p>
+ <p class="MsoNormal">الف) هر نقطه دلخواه $A$ روی دایره، از $O$ چه فاصله‌ای دارد؟</p>
+ <p class="MsoNormal">ب) اگر $B$، یک نقطه در صفحه باشد و از $O$ به فاصله $r$ باشد $(OB=r)$ با برهان خلف نشان دهید، $B$ روی دایره است و از (الف) و (ب) نتیجه بگیرید:</p>
+ <p class="MsoNormal">$$A \ \  \in \ \ C \iff OA=r $$</p>
+ <br>
+ 
+ <div class="boxb">
+     <p class="MsoSemi" style="font-size: larger;"><mark>نتیجه</mark></p>
+     <p class="MsoNormal">نقطه $A$ روی دایره $C(O,r)$ است، اگر و فقط اگر ..............</p>
+ </div>
+ <br>
+ 
+ <div class="boxb">
+    <p class="MsoSemi" style="font-size: larger;"><mark>نتیجه</mark></p>
+ <p class="MsoNormal">دایره $C(O,r)$ مکان هندسی نقاطی از صفحه است که ..............</p>
+ <br>
+ </div>
+
+<br><hr><br>
+
+
+ 
+ <p class="MsoStep">فعالیت ۳</p>
+ <p class="MsoNormal">دو خط موازی $d$ و $d'$ را که فاصله آنها از هم ۲ سانتی‌متر است، در نظر بگیرید. آیا نقطه‌های دلخواه $A$ و $B$ روی $d$، از خط $d'$ فاصله یکسانی دارند؟ این فاصله چقدر است؟ آیا می‌توانید نقطه (یا نقاط) دیگری مشخص کنید که از $d$ به فاصله ۲ سانتی‌متر باشند و روی $d'$ نباشند؟ همه نقاطی که از $d$ به فاصله ۲ سانتی‌متر واقع‌اند، روی چه شکلی قرار دارند؟</p>
+ <br>
+ <br>
+
+ 
+<p class="MsoNormal">
+
+    آیا گزاره زیر درست است؟</p>
+
+ <div class="boxb">
+   
+     <p class="MsoNormal">یک نقطه در صفحه، از خط $d$ به فاصله ۲ سانتی‌متر است، اگر و تنها اگر روی یکی از دو خط $d'$ و $d''$ که موازی $d$ هستند، واقع باشد.</p>
+ </div>
+ <br>
+ <br>
+
+  
+<p class="MsoNormal">
+
+        
+    آیا نتیجه‌گیری زیر درست است؟
+
+</p>
+ 
+ <div class="boxp">
+
+     <p class="MsoNormal">مکان هندسی نقاطی از صفحه که از خط $d$ به فاصله ۲ سانتی‌متر هستند، دو خط راست موازی $d$ (در دو طرف آن) و به فاصله ۲ سانتی‌متر از آن می‌باشد.</p>
+ </div>
+ 
+
+
+<br><hr>
+
+
+<p class="MsoBold"> مکان‌های هندسی مهم در صفحه:</p><br>
+<p class="MsoNormal">– مکان هندسی نقاطی که از دو نقطه ثابت $A$ و $B$ در صفحه به یک فاصله‌اند، عمود منصف $AB$ است.</p><br>
+<p class="MsoNormal">– مکان هندسی نقاطی که از دو ضلع یک زاویه به یک فاصله‌اند، نیمساز آن زاویه است.</p><br>
+<p class="MsoNormal">– مکان هندسی نقاطی که از نقطه ثابت $O$ به فاصله ثابت $k$ قرار دارند، دایره‌ای به مرکز $O$ و به شعاع $k$ است.</p><br>
+<p class="MsoNormal">– مکان هندسی نقاطی از صفحه که از خط $d$ به فاصله ثابت $k$ قرار دارند، دو خط موازی $d$، به فاصله $k$ از آن و در دو طرف آن است.</p><br>
+<br>
+<br><hr>
+
+<p class="MsoBold"> کاربرد مکان هندسی</p>
+<p class="MsoNormal">یکی از مهم‌ترین کاربردهای مکان هندسی، ترسیم‌های هندسی و یافتن نقطه (یا نقاطی) است که دارای ویژگی معینی باشند. بدیهی است که اگر $S$ مکان هندسی نقاطی با ویژگی $P$ باشد، هر نقطه‌ای با ویژگی $P$ باشد، در $S$ است. مجموعه نقاطی است که هر دو ویژگی $P_1$ و $P_2$ را دارند. بنابراین برای یافتن نقطه‌ای که این دو ویژگی را داشته باشد، باید نمودارهای $S_1$ و $S_2$ را رسم کرده و نقطه (یا نقاط) برخورد آنها را بدست آورد.</p>
+<br>
+<br>
+<p class="MsoSemi" style="font-size: larger;">مثال:</p>
+<p class="MsoNormal">دو نقطه $A$ و $B$ و خط $d$ که شامل هیچ یک نیست در صفحه مفروض‌اند. نقطه‌ای بیابید که از $A$ و $B$ به یک فاصله بوده و از $d$ به فاصله ۳ سانتی‌متر باشد.</p>
+<br>
+
+<p class="MsoSemi">حل:</p>
+<p class="MsoNormal">مکان هندسی نقاطی که از $A$ و $B$ به یک فاصله‌اند، عمود منصف $AB$ و مکان هندسی نقاطی که از خط $d$ به فاصله ۳ سانتی‌متر باشد، دو خط موازی $d$ به فاصله ۳ سانتی‌متر از آن هستند. بنابراین نقطه برخورد خط ۱ (عمود منصف $AB$) و دو خط موازی $d$ جواب مسئله است (نقاط $M_1$ و $M_2$).</p>
+
+<br>
+<p class="MsoNormal">بحث در وجود جواب: اگر یکی از دو خط $d'$ و $d''$ را قطع کند دیگری را هم قطع می‌کند و مسئله مانند شکل (۲) جواب دارد. اگر با دو خط موازی باشد، مسئله جواب ندارد و اگر با یکی از دو خط $d'$ و $d''$ منطبق باشد، مسئله بی‌شمار جواب دارد.</p>
+
+
+<br><hr><br>
+
+
+
+<p class="MsoStep">تمرین</p>
+<p class="MsoNormal">۱- مکان هندسی هر یک از مجموعه نقاط زیر را مشخص کنید:</p><Br>
+<p class="MsoNormal">الف) نقاطی از صفحه که از دو خط متقاطع $d$ و $d'$ به یک فاصله‌اند.</p><Br>
+<p class="MsoNormal">ب) مرکزهای همه دایره‌هایی در صفحه که بر خط $d$ در نقطه ثابت $A$ مماس‌اند.</p><Br>
+<p class="MsoNormal">پ) مرکزهای همه دایره‌هایی با شعاع ثابت $r$ که بر خط $d$ در صفحه مماس‌اند.</p><Br>
+<p class="MsoNormal">ت) مرکزهای همه دایره‌هایی با شعاع ثابت $r$ که بر دایره $C(O,r)$ در صفحه این دایره مماس خارجی‌اند.</p>
+<br><br>
+
+<p class="MsoNormal">۲- نقاط $A, B, C, D$ در صفحه مفروض‌اند. نقطه‌ای در این صفحه بیابید که از $A$ و $B$ به یک فاصله و از $C$ و $D$ نیز به یک فاصله باشد (بحث کنید).</p>
+<br><br>
+
+<p class="MsoNormal">۳- نقاط $A, B, C$ و $C$ در صفحه مفروض‌اند. نقطه‌ای بیابید که از $A$ و $B$ به یک فاصله و از $C$ به فاصله $3$ سانتی‌متر باشد (بحث کنید).</p>
+<br><br>
+
+<p class="MsoNormal">۴- نقطه $A$ و خط $d$ در صفحه مفروض‌اند. نقطه‌ای بیابید که از $A$ به فاصله $2$ سانتی‌متر و از $d$ به فاصله $3$ سانتی‌متر باشد (بحث کنید).</p>
+<br><br>
+
+<p class="MsoNormal">۵- هرگاه صفحه‌ای شامل محور یک سطح مخروطی، آن را برش دهد، فصل مشترک (مقطع) حاصل چه شکل است؟</p>
+<br>
+<br>
+<p class="MsoNormal">۶- هرگاه دو خط $d$ و $l$ موازی باشند، از دوران $d$ حول $l$ سطحی ایجاد می‌شود که آن را یک سطح استوانه‌ای می‌نامیم. حال فرض کنید صفحه $P$، یک سطح استوانه‌ای را قطع کند. در حالت‌های مختلف درباره سطح مقطع حاصل بحث کنید (چهار حالت).</p>
+
+
+
+
+
+
+
+<br><br><br><br><br>
+
+
+    </body>
+
+
+</html>

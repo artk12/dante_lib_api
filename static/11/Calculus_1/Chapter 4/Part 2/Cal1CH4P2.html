@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi , b{
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #badaff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #722a85;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background-color: #1abbbbe1; /* Scrollbar thumb color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color: #05ffe2;
+        }
+    </style>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+<body class="custom-scrollbar">
+ 
+
+
+<p class="MsoBold">
+    ۲ درس
+:
+    نسبت‌های مثلثاتی برخی زوایا
+</p>
+<p class="MsoNormal">
+    در سال گذشته به مقدار نسبت‌های مثلثاتی برای برخی از زوایای تند (مانند $۳۰^\circ$، $۴۵^\circ$، $۶۰^\circ$) و نیز زوایای مرزی ($۰^\circ$، $۹۰^\circ$، $۱۸۰^\circ$، $۲۷۰^\circ$، $۳۶۰^\circ$) پرداختیم. همچنین علامت نسبت‌های مثلثاتی را در چهار ربع دایره مثلثاتی یاد گرفتیم. اکنون به مقدار این نسبت‌ها برای برخی دیگر از زوایا و رابطه بین آنها می‌پردازیم.
+</p>
+
+
+<br><hr>
+
+
+
+<p class="MsoBold">
+    نسبت‌های مثلثاتی زوایای متمم
+</p>
+<p class="MsoNormal">
+    می‌دانید که به هر دو زاویه‌ای که مجموع اندازه آنها $۹۰^\circ$ باشد زوایۀ متمم می‌گویند. نسبت‌های مثلثاتی چنین زاویه‌هایی با هم ارتباط دارند. فعالیت زیر به شما کمک می‌کند تا این روابط را پیدا کنید.
+</p>
+
+<p class="MsoStep">
+    فعّالیت
+</p>
+<p class="MsoNormal">
+    یک مثلث قائم‌الزاویه دلخواه مانند شکل زیر را در نظر بگیرید.
+</p>
+<p class="MsoNormal">
+    با توجه به شکل، دو ستون روبه‌رو را همانند نمونه کامل و سپس مقادیر مساوی در دو ستون را با هم نظیر کنید.
+</p>
+
+<br>
+<table class="MsoNormal" style="margin:auto;width:fit-content;direction:ltr;text-align:center;">
+    <tr>
+        <td>$$\sin \theta = \dfrac{b}{a}$$</td>
+        <td>$$\sin \left(\dfrac{\pi}{2} - \theta \right) = \dfrac{c}{a}$$</td>
+    </tr>
+    <tr>
+        <td>$$\cos \theta = \ldots$$</td>
+        <td>$$\cos \left(\dfrac{\pi}{2} - \theta \right) = \ldots$$</td>
+    </tr>
+    <tr>
+        <td>$$\tan \theta = \ldots$$</td>
+        <td>$$\tan \left(\dfrac{\pi}{2} - \theta \right) = \ldots$$</td>
+    </tr>
+    <tr>
+        <td>$$\cot \theta = \ldots$$</td>
+        <td>$$\cot \left(\dfrac{\pi}{2} - \theta \right) = \ldots$$</td>
+    </tr>
+</table>
+
+<br><hr><br>
+
+<p class="MsoNormal">
+    در فعالیت قبل زوایۀ‌های مورد بحث تند بودند. روابط به‌دست آمده در آنجا در حالت کلی نیز برقرار است. به‌طور کلی برای دو زاویۀ متمم $\theta$ و $\dfrac{\pi}{2} - \theta$ همواره روابط روبه‌رو برقرار است.
+</p>
+
+<p class="MsoNormal">
+    $$\sin \left(\dfrac{\pi}{2} - \theta \right) = \cos \theta$$
+</p>
+<p class="MsoNormal">
+    $$\cos \left(\dfrac{\pi}{2} - \theta \right) = \sin \theta$$
+</p>
+<p class="MsoNormal">
+    $$\tan \left(\dfrac{\pi}{2} - \theta \right) = \cot \theta$$
+</p>
+<p class="MsoNormal">
+    $$\cot \left(\dfrac{\pi}{2} - \theta \right) = \tan \theta$$
+</p>
+
+<br><hr>
+
+
+<p class="MsoBold">
+    نسبت‌های مثلثاتی زوایای قرینه
+</p>
+
+
+
+
+<p class="MsoStep">
+    فعّالیت
+</p>
+<p class="MsoNormal">
+    در دایره مثلثاتی روبه‌رو نقطه $P$ انتهای کمان روبه‌رو به زاویه $\alpha$ است. مختصات نقطه $P$ برحسب نسبت‌های مثلثاتی زاویه $\alpha$ که در سال گذشته آموختید، داده شده است. همچنین با توجه به دستگاه مختصات، واضح است که قرینه نقطه $P(x_p, y_p)$ نسبت به محور $x$، نقطه $Q(x_q, y_q) = Q(x_p, -y_p)$ می‌باشد.
+</p>
+
+
+<p class="MsoNormal">
+    (الف) باتوجه به رابطه بین مختصات نقاط $P$ و $Q$ روابط مثلثاتی زیر را مانند نمونه تکمیل کنید.
+</p>
+<br>
+<p class="MsoNormal" style="text-align: left;">
+    $x_Q = x_P \implies \cos(-\alpha) = \cos \alpha$
+    
+    $ y_Q = -y_P \implies  \ . . . . . . . . . . . . . . .  $
+</p>
+<br>
+<p class="MsoNormal">
+    (ب) طرف دوم تساوی‌های زیر را با استفاده از روابط به‌دست آمده از قسمت الف کامل کنید.
+</p>
+<p class="MsoNormal" style="text-align: left;">
+    $\tan(-\alpha) = \ldots$
+<br>
+    $\cot(-\alpha) = \ldots$
+</p>
+
+
+
+<br><hr><br>
+
+<p class="MsoNormal">
+    دو زاویه $\alpha$ و $-\alpha$ قرینه یکدیگرند. برای دو زاویۀ قرینه، روابط مثلثاتی زیر برقرار است.
+</p>
+<br>
+<table class="MsoNormal" style="margin:auto;width:fit-content;direction:ltr;text-align:center;">
+    <tr>
+        <td>$$\sin(-\alpha) = -\sin \alpha$$</td>
+    </tr>
+    <tr>
+        <td>$$\cos(-\alpha) = \cos \alpha$$</td>
+    </tr>
+    <tr>
+        <td>$$\tan(-\alpha) = -\tan \alpha$$</td>
+    </tr>
+    <tr>
+        <td>$$\cot(-\alpha) = -\cot \alpha$$</td>
+    </tr>
+</table>
+
+<br><hr>
+<p class="MsoBold">
+    مقادیر نسبت‌های مثلثاتی زوایای مکمل
+</p>
+<p class="MsoNormal">
+    دو زاویه را مکمل گوییم اگر مجموع آنها $۱۸۰^\circ$ باشد. در فعالیت بعد روابط بین مقادیر نسبت‌های مثلثاتی برای چنین زاویه‌هایی را به‌دست خواهیم آورد.
+</p>
+
+
+<br><hr><br>
+
+
+
+<p class="MsoStep">
+    فعّالیت
+</p>
+<p class="MsoNormal">
+    در دایره مثلثاتی روبه‌رو نقطه $P(x_p, y_p)$ انتهای کمان روبه‌رو به زاویه $\alpha$ است. با توجه به دستگاه مختصات واضح است که نقطه $Q(x_q, y_q) = Q(-x_p, y_p)$ قرینه نقطه $P$ نسبت به محور $y$ها است.
+</p>
+
+<p class="MsoNormal">
+    (الف) با توجه به مختصات نقاط $P$ و $Q$ روابط زیر را همانند نمونه تکمیل کنید.
+</p>
+<br>
+<p class="MsoNormal" style="text-align: left;">
+    $x_Q = -x_P \implies \cos(\pi - \alpha) = -\cos \alpha$
+<br>
+    $y_Q = y_P \implies \ . . . . . . . . . . . . . $
+</p>
+<br>
+<p class="MsoNormal">
+    (ب) با توجه به روابط قسمت الف، تساوی‌های زیر را تکمیل کنید.
+</p>
+<p class="MsoNormal" style="text-align: left;">
+    $\tan(\pi - \alpha) =$
+<br>
+    $\cot(\pi - \alpha) = $
+</p>
+
+
+<br><hr><br>
+
+
+
+<p class="MsoNormal">
+    از فعالیت قبل می‌توان نتیجه گرفت که بین هر دو زاویه مکمل $\alpha$ و $\pi - \alpha$ روابط زیر برقرار است.
+</p>
+<br>
+<table class="MsoNormal" style="margin:auto;width:fit-content;direction:ltr;text-align:center;">
+    <tr>
+        <td>$$\sin(\pi - \alpha) = \sin \alpha$$</td>
+    </tr>
+    <tr>
+        <td>$$\cos(\pi - \alpha) = -\cos \alpha$$</td>
+    </tr>
+    <tr>
+        <td>$$\tan(\pi - \alpha) = -\tan \alpha$$</td>
+    </tr>
+    <tr>
+        <td>$$\cot(\pi - \alpha) = -\cot \alpha$$</td>
+    </tr>
+</table>
+
+
+<br><br>
+
+<p class="MsoNormal">
+    زوایای $\alpha$ و $\pi + \alpha$ را در یک دایره مثلثاتی رسم کنید و نقاط انتهای کمان‌های روبه‌رو به این دو زاویه را به ترتیب $P(x_p, y_p)$ و $Q(x_q, y_q)$ بنامید. از دستگاه مختصات واضح است که نقطه $Q$ قرینه نقطه $P$ نسبت به مبدأ مختصات است و از این رو $Q(x_q, y_q) = Q(-x_p, -y_p)$.
+</p>
+<br>
+<p class="MsoNormal">
+    اکنون با استدلالی مشابه به فعالیت بالا نشان دهید که روابط زیر برقرار است.
+</p>
+
+<br>
+
+<table class="MsoNormal" style="margin:auto;width:fit-content;direction:ltr;text-align:center;">
+    <tr>
+        <td>$$\sin(\pi + \alpha) = -\sin \alpha$$</td>
+    </tr>
+    <tr>
+        <td>$$\cos(\pi + \alpha) = -\cos \alpha$$</td>
+    </tr>
+    <tr>
+        <td>$$\tan(\pi + \alpha) = \tan \alpha$$</td>
+    </tr>
+    <tr>
+        <td>$$\cot(\pi + \alpha) = \cot \alpha$$</td>
+    </tr>
+</table>
+
+<br><br>
+
+<p class="MsoNormal">
+    <b>مثال:</b> مقدار نسبت‌های مثلثاتی برخی زوایا در زیر محاسبه شده است.
+</p>
+
+
+
+<p class="MsoNormal">
+    $$\begin{align*}
+    \sin\left(-\dfrac{7\pi}{6}\right) & = -\sin\left(\dfrac{7\pi}{6}\right) \\\\
+    & = -\sin\left(\pi + \dfrac{\pi}{6}\right) \\\\
+    & = \sin\left(\dfrac{\pi}{6}\right) = \dfrac{1}{2}
+    \end{align*}$$
+</p>
+<br>
+<hr style="max-width: 60%;background-color: #70707073;"> 
+<br>
+<p class="MsoNormal">
+    $$\begin{align*}
+    \tan(225^\circ) & = \tan(180^\circ + 45^\circ) \\\\
+    & = \tan(45^\circ) = 1
+    \end{align*}$$
+</p>
+<br>
+<hr style="max-width: 60%;background-color: #70707073;"> 
+<br>
+<p class="MsoNormal">
+    $$\begin{align*}
+    \cos(120^\circ) & = \cos(180^\circ - 60^\circ) \\\\
+    & = -\cos(60^\circ) = -\dfrac{1}{2}
+    \end{align*}$$
+</p>
+
+
+
+<br><hr>
+
+<p class="MsoBold">
+    نسبت‌های مثلثاتی زوایای با مجموع یا تفاضل
+    2kπ
+     رادیان
+</p>
+<p class="MsoNormal">
+    زوایایی مانند $\alpha$ و $2\pi + \alpha$ در شکل زیر که انتهای کمان‌های آنها برهم منطبق می‌شود را زوایای هم‌انتها گویند. از آنجا که نقطه $P$ انتهای هر دو کمان می‌باشد لذا نسبت‌های مثلثاتی این دو زاویه باهم برابرند.
+</p>
+
+<br>
+
+
+<table class="MsoNormal" style="margin:auto;width:fit-content;direction:ltr;text-align:center;">
+    <tr>
+        <td>$$\sin(2\pi + \alpha) = \sin \alpha$$</td>
+    </tr>
+    <tr>
+        <td>$$\cos(2\pi + \alpha) = \cos \alpha$$</td>
+    </tr>
+    <tr>
+        <td>$$\tan(2\pi + \alpha) = \tan \alpha$$</td>
+    </tr>
+    <tr>
+        <td>$$\cot(2\pi + \alpha) = \cot \alpha$$</td>
+    </tr>
+</table>
+
+<br><br>
+
+
+<p class="MsoNormal">
+    این حالت برای بیش از یک دوران کامل، یعنی زوایای به‌صورت $2k\pi + \alpha$ نیز برقرار است. $(k \in \mathbb{Z})$
+</p><br>
+<table class="MsoNormal" style="margin:auto;width:fit-content;direction:ltr;text-align:center;">
+    <tr>
+        <td>$$\sin(2k\pi + \alpha) = \sin \alpha$$</td>
+    </tr>
+    <tr>
+        <td>$$\cos(2k\pi + \alpha) = \cos \alpha$$</td>
+    </tr>
+    <tr>
+        <td>$$\tan(2k\pi + \alpha) = \tan \alpha$$</td>
+    </tr>
+    <tr>
+        <td>$$\cot(2k\pi + \alpha) = \cot \alpha$$</td>
+    </tr>
+</table>
+
+
+
+<br><br>
+
+
+
+<p class="MsoNormal">
+    از آنجا که زوایای 
+    $-\alpha$ و 
+    $ (k \in \mathbb{Z}) \ \ \    2k\pi - \alpha $
+     نیز هم‌انتها هستند (چرا؟)، با استدلالی مشابه بالا و با استفاده از نتیجۀ فعالیت صفحۀ قبل نشان دهید که نسبت‌های مثلثاتی زوایای 
+    $2k\pi - \alpha$ به‌صورت زیر برقرارند.
+</p>
+
+<br>
+<table class="MsoNormal" style="margin:auto;width:fit-content;direction:ltr;text-align:center;">
+    <tr>
+        <td>$$\sin(2k\pi - \alpha) = -\sin \alpha$$</td>
+    </tr>
+    <tr>
+        <td>$$\cos(2k\pi - \alpha) = \cos \alpha$$</td>
+    </tr>
+    <tr>
+        <td>$$\tan(2k\pi - \alpha) = -\tan \alpha$$</td>
+    </tr>
+    <tr>
+        <td>$$\cot(2k\pi - \alpha) = -\cot \alpha$$</td>
+    </tr>
+</table>
+
+
+<br><br>
+
+
+<p class="MsoNormal">
+    <b>مثال:</b> مقدار نسبت‌های مثلثاتی برخی زوایا در زیر محاسبه شده است.
+</p>
+
+
+
+
+<br>
+<p class="MsoNormal">
+    $$\begin{align*}
+    \text{(الف)} \quad \tan\left(\dfrac{5\pi}{3}\right) & = \tan\left(2\pi - \dfrac{\pi}{3}\right) \\\\
+    & = -\tan\left(\dfrac{\pi}{3}\right) \\\\
+    & = -\sqrt{3}
+    \end{align*}$$
+</p>
+<br>
+<hr style="max-width: 60%;background-color: #70707073;">
+<br>
+<p class="MsoNormal">
+    $$\begin{align*}
+    \text{(ب)} \quad \sin(405^\circ) & = \sin(360^\circ + 45^\circ) \\\\
+    & = \sin(45^\circ) \\\\
+    & = \dfrac{\sqrt{2}}{2}
+    \end{align*}$$
+</p>
+
+
+
+<br><hr><br>
+
+<p class="MsoStep">
+    کار در کلاس
+</p>
+<p class="MsoNormal">
+    ۱. مقدار نسبت‌های مثلثاتی زیر را به‌دست آورید.
+</p>
+
+
+<br>
+  <div class="MsoNormal" style="text-align: left;direction: ltr;">
+    <p class="MsoNormal">
+        (الف) $\sin(210^\circ) = \ldots$
+    </p><br>
+    <p class="MsoNormal">
+        (ب) $\tan\left(-\dfrac{7\pi}{4}\right) = \ldots$
+    </p><br>
+    <p class="MsoNormal">
+        (پ) $\cot(135^\circ) = \ldots$
+    </p><br>
+    <p class="MsoNormal">
+        (ت) $\sin\left(\dfrac{3\pi}{4}\right) = \ldots$
+    </p>
+  </div>
+
+<br><br>
+
+<p class="MsoNormal">
+    ۲. جدول زیر را همانند نمونه کامل کنید. $(0 < \theta <\dfrac{\pi}{2})$
+</p>
+<br><br>
+<p class="MsoNormal">
+    ۳. برای زوایای قرینه $(\alpha = - \ \theta)$ از کدام ستون جدول بالا می‌توان کمک گرفت؟ چرا؟
+</p>
+
+<br><hr><br>
+
+<p class="MsoStep">
+    فعّالیت
+</p>
+<p class="MsoNormal">
+    در دایرۀ مثلثاتی زیر زوایۀ‌های $\theta$ و $\dfrac{\pi}{2} + \theta$ رسم شده‌اند.
+</p>
+
+<br>
+
+<p class="MsoNormal">
+    (الف) با توجه به شکل، نشان دهید دو مثلث $O \overset{\triangle}{P}P'$ و $O \overset{\triangle}{Q}Q'$ هم‌نهشت هستند.
+</p>
+<p class="MsoNormal">
+    (ب) از تساوی اضلاع نظیر در دو مثلث فوق روابط زیر را همانند نمونه تکمیل کنید.
+</p>
+
+<br>
+  <div class="MsoNormal" style="text-align: left;direction: ltr;">
+    <p class="MsoNormal">
+        $x_Q = -y_p \implies \cos\left(\dfrac{\pi}{2} + \theta\right) = -\sin \theta$
+    </p>
+    
+    <p class="MsoNormal">
+        $y_Q = \  . . . . . . . . . . . . .  $
+    </p>
+
+  </div>
+
+
+
+<br><br>
+
+
+
+<p class="MsoNormal">
+    (ب) طرف دوم تساوی‌های زیر را با استفاده از روابط قسمت ب کامل کنید.
+</p>
+<br>
+
+  <div class="MsoNormal" style="text-align: left;direction: ltr;">
+    <p class="MsoNormal">
+        $\tan\left(\dfrac{\pi}{2} + \theta\right) =  \ . . . . . . . . . . . . $
+    </p>
+    
+    <p class="MsoNormal">
+        $\cot\left(\dfrac{\pi}{2} + \theta\right) = \ . . . . . . . . . . . . . $
+    </p>
+
+  </div>
+
+
+<br><hr><br>
+
+  <p class="MsoNormal">
+    به‌طور کلی برای دو زاویۀ $\theta$ و $\dfrac{\pi}{2} + \theta$ روابط زیر برقرار است.
+</p>
+<table class="MsoNormal" style="margin:auto;width:fit-content;direction:ltr;text-align:center;">
+    <tr>
+        <td>$$\sin\left(\dfrac{\pi}{2} + \theta\right) = \cos \theta$$</td>
+    </tr>
+    <tr>
+        <td>$$\cos\left(\dfrac{\pi}{2} + \theta\right) = -\sin \theta$$</td>
+    </tr>
+    <tr>
+        <td>$$\tan\left(\dfrac{\pi}{2} + \theta\right) = -\cot \theta$$</td>
+    </tr>
+    <tr>
+        <td>$$\cot\left(\dfrac{\pi}{2} + \theta\right) = -\tan \theta$$</td>
+    </tr>
+</table>
+<br><hr><br>
+<p class="MsoStep">
+    تمرین
+</p>
+
+  <div class="MsoNormal" style="text-align: left;direction: ltr;">
+
+
+    <p class="MsoNormal">
+        ۱. مقدار نسبت‌های مثلثاتی زیر را به‌دست آورید.
+    </p>
+    <br>
+    <p class="MsoNormal">
+        (الف) $\sin(300^\circ) = \ldots$
+    </p><br>
+    <p class="MsoNormal">
+        (ب) $\cot(750^\circ) = \ldots$
+    </p><br>
+    <p class="MsoNormal">
+        (پ) $\cos\left(-\dfrac{\pi}{6}\right) = \ldots$
+    </p>
+    <br>
+    <p class="MsoNormal">
+        (ت) $\cos\left(-\dfrac{23\pi}{4}\right) = \ldots$
+    </p><br>
+    <p class="MsoNormal">
+        (ث) $\sin\left(\dfrac{5\pi}{4}\right) = \ldots$
+    </p>
+    <br>
+    <p class="MsoNormal">
+        (ج) $\tan(-840^\circ) = \ldots$
+    </p>
+    <br>
+    <p class="MsoNormal">
+        (چ) $\tan(-150^\circ) = \ldots$
+    </p><br>
+    <p class="MsoNormal">
+        (ح) $\cos\left(\dfrac{9\pi}{4}\right) = \ldots$
+    </p><br>
+    <p class="MsoNormal">
+        (خ) $\tan\left(\dfrac{10 \pi}{3}\right) = \ldots$
+    </p>
+    
+
+
+  </div>
+
+
+
+<br><br>
+
+
+<p class="MsoNormal">
+    ۲. شدت نور وارد بر یک سلول خورشیدی، با زاویه تابش $\alpha$ در ارتباط است (شکل زیر). اگر شدت نور را با $I$ نشان دهیم، رابطه زیر:
+    $$  I = k \sin\left(\dfrac{\pi}{2} - \alpha\right)$$
+    که در آن $k$ یک عدد ثابت مثبت است، شدت نور را به‌دست می‌دهد.
+</p>
+
+<br>
+
+
+<p class="MsoNormal">
+    (الف) با توجه به شکل و با استفاده از روابط مثلثاتی، رابطه شدت نور را بر حسب کسینوس زاویه $\theta$ در شکل بازنویسی کنید.
+</p>
+<br>
+<p class="MsoNormal">
+    (ب) شدت نور را برای زاویه‌های 
+    $ \theta = 0 $   و
+    $\theta = \dfrac{\pi}{3}$ و $\theta = \dfrac{\pi}{6}$ بر حسب $k$ به‌دست آورید.
+</p>
+<br>
+<p class="MsoNormal">
+    (پ) زاویه $\theta$ چقدر باشد تا بیشترین شدت نور به‌دست آید؟ چرا؟ (راهنمایی: از دایره مثلثاتی کمک بگیرید.)
+</p>
+
+
+<br><br><br>
+<p class="MsoNormal">
+    ۳. درستی یا نادرستی عبارات زیر را مشخص کنید (زوایا بر حسب رادیان است).
+</p>
+<br>                                                                                
+  <div class="MsoNormal" style="text-align: left;direction: ltr;">
+    <p class="MsoNormal">
+        (الف) $\cos\theta + \cos(\pi - \theta) = \ldots$
+    </p>
+    <br>
+    <p class="MsoNormal">
+        (ب) $\sin\left(\dfrac{\pi}{2} - \theta\right) + \cos\theta = 1$
+    </p>
+    <br>
+    <p class="MsoNormal">
+        (ج) $\cos(7) = \cos(-7)$
+    </p>
+    <br>
+    <p class="MsoNormal">
+        (د) $\tan(\pi - \theta) = \tan\pi - \tan\theta$
+    </p>
+    
+  </div>
+
+
+<br><br><br><br><br><br><br><br><br><br>
+</body>
+
+
+</html>

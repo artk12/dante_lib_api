@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal, ul.Normal {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi , b{
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #badaff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #722a85;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background-color: #1abbbbe1; /* Scrollbar thumb color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color: #05ffe2;
+        }
+    </style>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+<body class="custom-scrollbar">
+ 
+    <p class="MsoBold">درس ۳ : 
+ معادلات گویا و گنگ</p>
+
+ <hr>
+    <p class="MsoBold">معادلات شامل عبارات گویا</p>
+<hr>
+
+<br>
+
+<p class="MsoSemi">حل یک مسئله</p>
+<p class="MsoNormal">
+    در یک مغازهٔ ماهی‌های تزئینی، ماهی‌های آب شور در محلول‌های آب نمک ۷ درصدی 
+    نگهداری می‌شوند. یک کارگر مبتدی ۲۰۰ کیلوگرم محلول آب نمک ۴ درصدی ساخته 
+    است. او چگونه باید این محلول را به غلظت مورد نظر برساند؟
+</p>
+<p class="MsoNormal">
+    برای حل این مسئله سه حالت مختلف فرض می‌کنیم. ممکن است نمک به اندازه کافی 
+    وجود داشته باشد و یا نمک در مغازه موجود نباشد و یا نمک به میزان کافی وجود نداشته 
+    باشد. در هر حالت می‌توان مسئله را مورد بررسی قرار داد.
+</p>
+
+<br>
+
+<p class="MsoNormal">
+    
+<b>    حالت اول:</b>
+    فرض کنیم نمک به اندازه کافی موجود باشد. ابتدا تعیین می‌کنیم در محلول ۴ درصدی چند کیلوگرم نمک وجود دارد:
+</p>
+<p class="MsoNormal" style="text-align: center;">
+    $$  200 \times \dfrac{4}{100}  = 8 \, \text{کیلوگرم}$$
+</p>
+<br>
+<p class="MsoNormal">
+    حالا اگر بخواهیم برای رساندن این محلول به محلول $۷$ درصدی، $x$ کیلوگرم نمک به محلول 
+    بیفزاییم، وزن نمک 
+    $8 + x$
+     و وزن کل محلول 
+    $ \dfrac{8 + x}{200 + x}$
+     خواهد بود. از آنجا که این نسبت باید $7$ درصد باشد تناسب زیر برقرار خواهد بود:
+</p>
+<p class="MsoNormal" style="text-align: center;">
+    $$\dfrac{x + 8}{200 + x} = \dfrac{7}{100}$$
+</p>
+<br>
+<p class="MsoNormal">
+    برای حل این معادله که شامل عبارت گویا است، طرفین معادله را در کوچک‌ترین مضرب مشترک مخرج‌ها یعنی $100(200 + x)$ ضرب می‌کنیم:
+</p>
+<p class="MsoNormal" style="text-align: center;">
+    $$100(x + 8) = 7(200 + x)$$
+</p>
+<p class="MsoNormal">
+    از حل این معادله خواهیم داشت:
+    $$93x = 600$$
+    و در نتیجه:
+</p>
+<p class="MsoNormal" style="text-align: center;">
+    $x = \dfrac{600}{93}$$
+</p>
+<br>
+<p class="MsoNormal">
+    بنابراین تقریباً 
+    $۶.۴۵۱$
+    کیلوگرم نمک باید به محلول اضافه شود تا محلول $7$ درصد نمک به‌دست آید.
+</p>
+
+<br>
+
+<p class="MsoNormal">
+    <b>حالت دوم:</b> اگر نمک در مغازه موجود نباشد.
+</p>
+<p class="MsoNormal">
+    در این حالت باید <span dir="ltr">۴</span> کیلوگرم از آب محلول را تبخیر کنیم تا درصد نمک محلول خود به <span dir="ltr">۷</span> برسد. واضح است که میزان نمک محلول کم نخواهد شد. 
+</p>
+<p class="MsoNormal">
+    در این حالت معادله مورد نظر به‌صورت زیر خواهد بود. (چرا؟)
+
+    $$ \dfrac{8}{200 - \ y \ }  = \ \dfrac{7}{100} $$
+</p>
+
+<br>
+<p class="MsoNormal">
+    از حل این معادله خواهیم داشت:
+    $$ y = \dfrac{600}{7} \quad \implies \quad y = 85.714 $$
+</p>
+<p class="MsoNormal">
+
+     و این بدین معنی است که کارگر باید با تبخیر $85$ کیلوگرم از آب محلول به غلظت مورد نظر برسد.
+</p>
+
+<br><hr><br>
+<p class="MsoStep">کار در کلاس</p>
+<p class="MsoNormal">
+در مسئله ماهی‌های ترشی‌نی حالت سومی هم وجود داشت که نمک به اندازهٔ کافی موجود نباشد. فرض کنیم در مخلوط فقط $5$ کیلوگرم نمک موجود باشد و کارگر ناچار است همان را به محلول بیفزاید. چند کیلوگرم از آب محلول را باید تبخیر کند تا به محلول $7$ درصدی نمک مورد نظر برسد؟
+</p>
+<br><hr><br>
+<p class="MsoNormal">
+    برای حل معادلات شامل عبارات گویا، با ضرب طرفین معادله در کوچک‌ترین مضرب مشترک مخرج کسرها و ساده کردن عبارت جبری به‌دست آمده، معادله را حل می‌کنیم. جواب به‌دست آمده نباید مخرج هیچ‌یک از کسرها را صفر کند (چرا؟)
+    </p>
+    <p class="MsoNormal">
+    همچنین ممکن است برخی از جواب‌ها با شرایط مسئله در محیط پیرامونی مطابقت نداشته باشند که این جواب‌ها نیز مورد قبول نیستند.
+    </p>
+    
+<br><hr><br>
+<p class="MsoNormal">
+    <b>مثال:</b> معادله 
+    $\dfrac{3}{x+2} + \dfrac{2}{x} = \dfrac{4x - 4}{x^2 - 4}$ 
+    را حل کنید.
+    </p>
+    <br>
+    <p class="MsoNormal">
+    <b>حل:</b> کوچک‌ترین مضرب مشترک مخرج‌ها برابر $x(x^2 - 4)$ است. (چرا؟) 
+    </p>
+    <p class="MsoNormal">
+    با ضرب طرفین معادله در این عبارت داریم:
+    </p>
+    
+    <p class="MsoNormal" >
+        $$
+        \begin{align*}
+        3x(x-2) + 2(x^2-4) &= x(4x-4)  \\\\
+        3x^2 - 6x + 2x^2 - 8  &= 4x^2 - 4x \\\\
+        x^2 - 2x - 8 &= 0 \\\\
+        (x-4)(x+2) &= 0
+        \end{align*}
+        $$
+        $$
+     \implies  x = 4  \quad  \text{یا} \quad  x = -2
+        $$
+  
+        </p>
+        
+        <p class="MsoNormal">
+            البته جواب $x = -2$ مورد قبول نیست. (چرا؟)
+            </p>
+            
+<br><hr><br>
+
+            <p class="MsoStep">کار در کلاس</p>
+            <p class="MsoNormal">
+            1. معادله 
+        $ \dfrac{1}{(x-2)^2} + \dfrac{2}{x-2} = 3 $
+            را حل کنید.
+            </p>
+            
+
+            <br><br>
+            <p class="MsoNormal">
+                2. اگر در یک مستطیل با طول $L$ و عرض $w$ داشته باشیم:
+                $\dfrac{L}{w} = \dfrac{w + L}{L}$
+                آنگاه می‌گوییم در این مستطیل نسبت طلایی برقرار است.
+                </p>
+                <br>
+                <p class="MsoNormal">
+                اگر محیط یک زمین ورزشی مستطیل‌شکل، برابر $144$ متر و اندازه طول و عرض آن متناسب با نسبت طلایی باشد، طول و عرض زمین چقدر است؟
+                </p>
+
+                <br><hr><br>
+
+
+                <p class="MsoStep">خواندنی</p>
+<p class="MsoNormal">
+در ریاضیات هنگامی نسبت طلایی پدید می‌آید که نسبت بخش بزرگ‌تر به بخش کوچک‌تر برابر نسبت مجموع دو بخش به بخش بزرگ‌تر باشد.
+</p>
+<p class="MsoNormal">
+مصریان سال‌ها قبل از میلاد از این نسبت آگاه بودند و آن را در ساخت اهرام رعایت کرده‌اند. بسیاری از الگوهای هندسی بدن انسان نیز این نسبت را دارا هستند.
+</p>
+<p class="MsoNormal">
+ریاضی‌دانان این باورند که زیباترین مستطیل به چشم انسان مستطیلی است که نسبت طول به عرض آن برابر عدد طلایی باشد. دلیل این امر آن است که این نسبت در شبکه چشم انسان رعایت شده و هر مستطیلی که این نسبت را دارا باشد به چشم زیبا می‌آید.
+</p>
+<p class="MsoNormal">
+در ساخت برج آزادی تهران، به ارتفاع ۶۳ و عرض ۴۲ متر نسبت طلایی با حد زیادی رعایت شده است. کمیته المپیک نیز در دهه‌های اخیر در کره‌جنوبی، به طول ۵ و عرض ۳ متر به عدد طلایی نزدیک است.
+</p>
+<p class="MsoNormal">
+یکی از هنرهای معماری در تخت جمشید این است که ارتفاع هر درها و پنجره‌ها به همین‌طور نسبت ارتفاع ستون‌ها به فاصله بین ستون‌ها رعایت شده است.
+</p>
+<p class="MsoNormal">
+در پل ورسک، اگر ۳ متر مقیاس نباشد، میدان نقش جهان، مسجد شیخ لطف‌الله، خوش‌نویسی مرحوم عماد حسنی از نسبت طلایی استفاده شده است. با جست‌وجوی اینترنتی به مطلب خواندنی در این زمینه دست می‌یابید.
+</p>
+<br>
+<p class="MsoNormal">
+منبع: مبانی هنرهای تجسمی، قسمت اول، شرکت چاپ و نشر کتاب‌های درسی ایران، ۱۳۸۲
+</p>
+
+<br><hr>
+
+
+<p class="MsoBold">معادلات شامل عبارات‌های گنگ</p>
+
+<hr><br>
+
+<p class="MsoNormal">
+<b>طرح یک مسئله</b>
+</p>
+<p class="MsoNormal">
+معمولاً مرغ‌های دریایی، برای شکار ماهی‌ها، بخشی از مسیر خود را در هوا و بخشی را به موازات سطح آب طی می‌کنند. یک مرغ دریایی در نقطه $A$ به ارتفاع $8$  متر از سطح آب قرار دارد. فاصله تصویر مرغ روی آب از ماهی که در نقطه $C$ قرار دارد $12$ متر است. مرغ ابتدا از نقطه $A$ به نقطه $B$ می‌آید سپس در سطح آب از $B$ به $C$ می‌رود و ماهی را شکار می‌کند. اگر مرغ دریایی برای طی هر متر در هوا $14$ کیلوکالری و برای طی هر متر در سطح آب $10$ کیلوکالری انرژی مصرف کند، نقطه $B$ در چه فاصله‌ای از $C$ باید باشد تا مرغ دریایی روی هم $180$ کیلوکالری انرژی مصرف کند؟
+</p>
+
+<br>
+<p class="MsoNormal">
+    <b>حل:</b> برای درک بهتر صورت مسئله شکل روبه‌رو را رسم می‌کنیم. فاصله $B$ از تصویر مرغ بر روی آب $(H)$ را $x$ می‌گیریم. در نتیجه فاصله میان $B$ و $C$ برابر $12 - x$ می‌شود. با استفاده از رابطه فیثاغورس طول $AB$ برابر 
+    $\sqrt{36 + x^2}$
+    می‌شود.
+    </p>
+
+    <p class="MsoNormal">
+        میزان انرژی مصرف‌شده توسط مرغ دریایی برابر است با:
+        $$
+        \begin{align*}
+        14\sqrt{36 + x^2} + 10 (12 - x)
+        \end{align*}
+        $$
+        </p>
+        <p class="MsoNormal">
+        برای آنکه مرغ دریایی روی هم $180$ کیلوکالری انرژی مصرف کند باید داشته باشیم:
+        $$
+        \begin{align*}
+        14\sqrt{36 + x^2} + 120 - 10x &= 180 \\\\
+        14\sqrt{36 + x^2} &= 10x + 60 \\\\
+        7\sqrt{36 + x^2} &= 5x + 30
+        \end{align*}
+        $$
+        </p>
+        <p class="MsoNormal">
+            با به توان دو رساندن طرفین معادله اخیر و ساده کردن، به معادله درجه دوم 
+            $
+            2x^2 - 25x + 72 = 0
+            $
+            می‌رسیم که از آنجا $x = 4.5$ یا $x =8$.
+          
+            در این صورت فاصله $B$ تا $C$ برابر 
+            $12 - 8 = 4$ 
+            یا 
+            $12 - 4.5 = 7.5$ خواهد بود.
+            </p>
+            <br>
+            <p class="MsoNormal">
+            اگر مرغ دریایی مستقیماً از $A$ به $C$ پرواز می‌کرد چقدر کالری مصرف می‌کرد؟  
+            </p>
+            <p class="MsoNormal">
+            آیا اقدام مرغ دریایی برای شکار ماهی‌ها هوشمندانه نمی‌باشد!؟
+            </p>
+            
+
+<br><hr><br>
+
+<p class="MsoNormal">
+    برخی از معادلات که دارای عبارت‌های رادیکالی از مجهول هستند را معادلات گنگ می‌نامند. برای حل آن‌ها با به توان رساندن طرفین معادله (و در صورت لزوم، تکرار این عمل) و ساده کردن، به معادله‌ای بدون رادیکال می‌رسیم که آن را حل می‌کنیم. جواب‌های به‌دست آمده باید در معادله اصلی آزمایش شوند، زیرا عملیات توان‌رسانی ممکن است جواب‌های اضافی تولید کند.
+    </p>
+
+    <br><hr><br>
+
+    <p class="MsoNormal">
+        <b>مثال:</b> معادله $\sqrt{x+2} = x - 4$ را حل کنید.
+        </p>
+        <br>
+        <p class="MsoNormal">
+        <b>حل:</b>
+        </p>
+        <p class="MsoNormal">
+            $$
+            \begin{align*}
+            (\sqrt{x+2})^2 &= (x-4)^2 \\ \\
+            x + 2 &= x^2 - 8x + 16 \\\\
+            x^2 - 9x + 14 &= 0 \\\\
+            (x-2)(x-7) &= 0 
+            \end{align*}
+            $$
+            $$
+            \implies x  = 2 \quad \text{و} \quad x = 7
+            $$
+            </p>
+            
+            <br>
+
+            <p class="MsoNormal">
+                <b>آزمایش جواب‌ها</b>
+                </p>
+
+                <p class="MsoNormal">
+                    $$
+                    x_1 = 2 : \sqrt{2 + 2} = 2 - 4 \\
+                    2 \neq -2 \quad \times
+                    $$
+                    </p>
+                    
+                    <p class="MsoNormal" style="text-align: center;">
+                    جواب مسئله نیست.
+                    </p>
+                   <br> <hr style="width:30%; background-color: #a69ab321;" ><br>
+                <p class="MsoNormal">
+                $$
+                x_2 = 7 : \sqrt{7 + 2} = 7 - 4 \\
+                3 = 3 \quad \checkmark
+                $$
+                </p>
+                <p class="MsoNormal" style="text-align: center;">
+                جواب معادله است.
+                </p>
+<br>
+                <p class="MsoNormal">
+                    بنابراین $x = 7$ تنها جواب معادله است.
+                    </p>
+
+                    <br>
+                    <p class="MsoNormal">
+                    <b>تذکر:</b> در حل این مسئله طرفین معادله اولیه نامنفی بودند و به توان دو رساندن آنها مشکلی ایجاد نمی‌کرد. در حل معادلات گنگ می‌توان با تعیین دامنه تعریف معادله، جواب‌های نهایی را با استفاده از آن مورد بررسی قرار داد. در حل این مسئله برای به‌دست آوردن دامنه تعریف داریم:
+                    </p>
+                    <p class="MsoNormal">
+                        $$
+                     
+                        \begin{cases} 
+                        x + 2 \geq 0 \implies x \geq -2 \\ \\
+                        x - 4 \geq 0 \implies x \geq 4  \\\\
+                        \end{cases}
+                        \overset{\text{اشتراک نواحی}}{\implies}  \quad x \geq 4
+                     
+                        $$
+                        </p>
+                        <p class="MsoNormal">
+                        بنابراین تنها جواب‌هایی قابل قبول است که در شرط $x \geq 4$ صدق کنند.
+                        </p>
+                        
+                <br><hr><br>
+                
+        <p class="MsoStep">کار در کلاس</p>
+        <p class="MsoNormal">
+        1. آیا عدد صحیحی وجود دارد که جمع آن با جذرش برابر شش باشد؟
+        </p>
+
+        <br><br>
+        <p class="MsoNormal">
+        2. معادله 
+        $\sqrt{x^2 - 4} + 2 \sqrt{x - 2} = 0$
+        را حل کنید؛ سپس در مورد قابل قبول بودن جواب‌های آن بحث کنید. آیا بدون حل نیز می‌توانید به این نتیجه برسید؟
+        </p>
+        
+<br><hr><br>
+
+<p class="MsoStep">تمرین</p>
+<p class="MsoNormal">
+معادلات زیر را حل کنید.
+</p>
+<br>                
+<div class="MsoNormal" style="text-align: left; direction: ltr;">
+    1)
+$
+\dfrac{6}{x} = 2 + \dfrac{x - 3}{x + 1}
+$
+<br><br>
+
+
+    2) $
+    \dfrac{P}{2 - P} + \dfrac{2}{P} = \dfrac{-3}{2}
+    $
+<br><br>
+
+
+    3) $
+    \dfrac{3y + 5}{y^2 + 5y} + \dfrac{y + 4}{y + 5} = \dfrac{y + 1}{y}
+    $
+<br><br>
+
+    4) $
+    2\sqrt{x} = \sqrt{3x + 4}
+    $
+
+
+    <br><br>
+
+        5) $
+        \dfrac{1 - \sqrt{x}}{1 + \sqrt{x}} = 1 - x
+        $
+  
+<br><br>
+
+            6) $
+            \dfrac{5}{\sqrt{x} + 2} = 2 - \dfrac{1}{\sqrt{x}- 2}
+            $
+<br><br>
+                7) $
+                \sqrt{x + 3} + \sqrt{3x + 1} = 4
+                $
+
+
+                    
+         
+    
+</div>
+
+<br><br>
+<p class="MsoNormal">
+    8) پدربزرگ برای اهدا به مهدکودک چند اسباب‌بازی یکسان، مجموعاً به قیمت $120$ هزار تومان خرید. اگر فروشنده برای هر اسباب‌بازی هزار تومان به پدربزرگ تخفیف می‌داد، او می‌توانست با همان پول چهار اسباب‌بازی دیگر هم بخرد. قیمت هر اسباب‌بازی قبل از تخفیف چقدر بوده است؟
+    </p>
+
+
+<br><br>
+
+
+
+<p class="MsoNormal">
+    9) ماشین $A$ کاری را به‌تنهایی $15$ ساعت زودتر از ماشین $B$ انجام می‌دهد. اگر هر دو ماشین یک کار را در $18$ ساعت انجام دهند، چه زمانی برای هر کدام از ماشین‌ها لازم است تا آن کار را به‌تنهایی انجام دهند؟
+    </p>
+
+    <br><br>
+
+    <p class="MsoNormal">
+        10) فاصله بین دو شهر که در کنار رودخانه‌ای واقع شده‌اند $144$ کیلومتر است. یک کشتی از شهر اول به شهر دوم می‌رود و پس از دو ساعت توقف همین مسیر را برمی‌گردد. مدت زمان سفر در مجموع $17$ ساعت می‌باشد. درصورتی که سرعت حرکت کشتی در مسیر جریان آب $8$ کیلومتر در ساعت بیشتر از سرعت آن در خلاف جریان آب باشد، سرعت حرکت کشتی را در جهت حرکت آب تعیین کنید.
+    </p>
+        
+    
+
+
+
+
+
+<br><br><br><br><br><br>
+</body>
+
+
+</html>

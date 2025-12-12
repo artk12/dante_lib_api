@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #badaff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .box {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+    <body class="custom-scrollbar">
+        
+        <div class="MsoBold">درس سوم: ترکیب</div>
+<hr><br>
+<div class="MsoStep">
+    فعالیت
+</div>
+
+        <p class="MsoNormal">همان‌طور که دیدید، با پنج رقم ۵، ۴، ۳، ۲، ۱ تعداد  $\frac{5!}{(5-3)!} = 60$ عدد سه رقمی با رقم‌های غیرتکراری می‌توان نوشت که عبارت‌اند از:</p>
+        <br><br>
+        <table class="table" style="width: max-content; text-align:center;margin:auto">
+            <tr style="background-color: #5d00ff1e;">
+                <td>123</td>
+                <td>132</td>
+                <td>213</td>
+                <td>231</td>
+                <td>312</td>
+                <td>321</td>
+            </tr>
+            <tr style="background-color: #00f7ff0e;">
+                <td>124</td>
+                <td>142</td>
+                <td>214</td>
+                <td>241</td>
+                <td>412</td>
+                <td>421</td>
+            </tr>
+            <tr style="background-color: #5d00ff1e;">
+                <td>125</td>
+                <td>152</td>
+                <td>215</td>
+                <td>251</td>
+                <td>512</td>
+                <td>521</td>
+            </tr>
+            <tr style="background-color: #00f7ff0e;">
+                <td>134</td>
+                <td>143</td>
+                <td>314</td>
+                <td>341</td>
+                <td>413</td>
+                <td>431</td>
+            </tr>
+            <tr style="background-color: #5d00ff1e;">
+                <td>135</td>
+                <td>153</td>
+                <td>315</td>
+                <td>351</td>
+                <td>513</td>
+                <td>531</td>
+            </tr>
+            <tr style="background-color: #00f7ff0e;">
+                <td>145</td>
+                <td>154</td>
+                <td>415</td>
+                <td>451</td>
+                <td>514</td>
+                <td>541</td>
+            </tr>
+            <tr style="background-color: #5d00ff1e;">
+                <td>234</td>
+                <td>243</td>
+                <td>324</td>
+                <td>342</td>
+                <td>423</td>
+                <td>432</td>
+            </tr>
+            <tr style="background-color: #00f7ff0e;">
+                <td>235</td>
+                <td>253</td>
+                <td>325</td>
+                <td>352</td>
+                <td>523</td>
+                <td>532</td>
+            </tr>
+            <tr style="background-color: #5d00ff1e;">
+                <td>245</td>
+                <td>254</td>
+                <td>425</td>
+                <td>452</td>
+                <td>524</td>
+                <td>542</td>
+            </tr>
+            <tr style="background-color: #00f7ff0e;">
+                <td>345</td>
+                <td>354</td>
+                <td>435</td>
+                <td>453</td>
+                <td>534</td>
+                <td>543</td>
+            </tr>
+        </table>
+        <br><br>
+        <p class="MsoNormal">به شش عدد هر ستون نگاه کنید. چه ویژگی‌ای دارند؟</p>
+        
+        <br><br>
+
+        <p class="MsoNormal">۲. با توجه به ستون‌های جدول بالا چگونه می‌توان تمام زیرمجموعه‌های سه عضوی مجموعه $A = \{1, 2, 3, 4, 5\}$ را بنویسیم؟ این زیرمجموعه‌ها چندتا هستند؟ آنها را بنویسید.</p>
+        <br>
+        <p class="MsoNormal" style="text-align:left;">$\{1, 2, 3\}, \ \ ..............................................$</p>
+        <br><br>
+        <p class="MsoNormal">۳. چه تفاوتی در فعالیت ۱ و ۲ وجود داشت که تعداد حالات‌های مورد نظر آنها را متمایز کرد؟</p>
+        <br><br>
+        <p class="MsoNormal">۴. هر ستون در فعالیت ۱ چند زیرمجموعه سه عضوی از فعالیت ۲ را به‌دست می‌دهد؟</p>
+        <br><br>
+        <p class="MsoNormal">۵. با توجه به فعالیت ۴، از تقسیم جواب فعالیت ۱ بر چه عددی تعداد زیرمجموعه‌های فعالیت ۲ حاصل می‌شود؟ این عدد را چگونه می‌توان به‌دست آورد؟</p>
+        <br>
+        <p class="MsoNormal">نتیجه: همان‌طور که مشاهده کردید، در فعالیت ۱ ترتیب قرار گرفتن سه عدد انتخاب شده در کنار هم اهمیت دارد؛ اما در فعالیت ۲ تمام ۶ روش چیدن هر سه عدد انتخاب شده یک زیرمجموعه A را مشخص می‌کند؛ یعنی در واقع هر زیرمجموعه ۳ عضوی، یک حالت را مشخص می‌کند و فقط تعداد زیرمجموعه‌های پنج عضوی مورد نظر اهمیت دارد. ازطرفی می‌دانیم تعداد جایگشت‌های $r$ شئِ از $n$ شئِ متمایز برابر است با:</p>
+        
+        <p class="MsoNormal" style="text-align: center;">
+        $$ P(n, r) = \frac{n!}{(n - r)!} $$
+        </p>
+        
+        <br><br>
+
+        <p class="MsoNormal">بنابراین با توجه به فعالیت‌های ۱ تا ۶ تعداد زیرمجموعه‌های $r$ عضوی از $n$ شئِ متمایز برابر است با:</p>
+
+        <p class="MsoNormal">
+        $$ \frac{P(n, r)}{r!} $$
+        </p>
+
+
+        <br>
+
+
+
+
+        <div class="box">به هر انتخاب $r$ شئِ از $n$ شئِ متمایز که در آن ترتیب انتخاب اهمیت نداشته باشد یا به‌عبارتی به هر زیرمجموعه $r$ عضوی از یک مجموعه $n$ عضوی، یک ترکیب $r$ تایی از $n$ شئ می‌گوییم. تعداد ترکیب‌های $r$ تایی از $n$ شئِ متمایز را معمولاً با $ \binom{n}{r} $ یا $C(n,r)$ نمایش می‌دهیم و داریم:
+
+        
+        $$ \binom{n}{r} = \frac{n!}{(n - r)! r!} \quad , \quad (0 \leq r \leq n) $$
+        
+      
+        </div>
+
+        <br><hr><br>
+        
+
+        <div class="MsoStep">مثال</div>
+
+        <p class="MsoNormal">از میان شش کتاب مختلف:</p>
+        
+        <p class="MsoNormal">الف) به چند طریق می‌توانیم چهار کتاب را در یک قفسه کنار هم بچینیم؟</p>
+        
+        <p class="MsoNormal">ب) به چند طریق می‌توانیم چهار کتاب را برای هدیه دادن به یک نفر انتخاب کنیم؟</p>
+        <br>
+        <p class="MsoNormal">حل:</p>
+        
+        <p class="MsoNormal">الف) چون ترتیب چیدن کتاب‌ها در قفسه مهم است، لذا جواب برابر است با تعداد جایگشت‌های چهارتایی از شش شئِ متمایز؛ یعنی:</p>
+        
+        <p class="MsoNormal" style="text-align: center;">
+        $$ P(6, 4) = \frac{6!}{(6 - 4)!} = 360 $$
+        </p>
+        
+        <p class="MsoNormal">ب) چون ترتیب انتخاب کتاب‌ها اهمیتی ندارد، لذا فقط باید تعداد انتخاب‌های چهارتایی از شش شئِ متمایز؛ یعنی تعداد زیرمجموعه‌های چهارتایی از شش شئِ متمایز را محاسبه کرد که برابر است با:</p>
+        
+        <p class="MsoNormal" style="text-align: center;">
+        $$ \binom{6}{4} = \frac{6!}{(6 - 4)! \times 4!} = 15 $$
+        </p>
+        
+
+
+       <br><hr><br>
+        <div class="MsoStep">مثال</div>
+        
+        <p class="MsoNormal">در یک دوره مسابقات کشتی از بین ۴ داور ایرانی، ۳ داور ژاپنی و ۲ داور روسی قرار است کمیته‌ای از داوران تشکیل شود. به چند روش می‌توان این کار را انجام داد اگر:</p>
+        <br>
+        <p class="MsoNormal">الف) کمیته ۴ نفره باشد؟</p>
+        <br>
+        <p class="MsoNormal">ب) کمیته ۳ نفره باشد و از هر یک از سه کشور یک نفر در کمیته باشد؟</p>
+        <br>
+        <p class="MsoNormal">پ) کمیته ۵ نفره باشد و دقیقاً دو داور ایرانی داشته باشد؟</p>
+        <br>
+        <p class="MsoNormal">ت) کمیته ۵ نفره باشد و حداقل ۳ داور ایرانی داشته باشد؟</p>
+        <br>
+        <p class="MsoNormal">ث) کمیته 7 نفره باشد و شامل ۳ داور ایرانی، ۲ داور ژاپنی و ۲ داور روسی باشد؟</p>
+        <br>
+        <p class="MsoNormal">ج) کمیته ۵ نفره باشد و حداقل یک داور ایرانی داشته باشد؟</p>
+        
+        <br>
+
+
+        <p class="MsoNormal">حل:</p>
+        <br>
+        <p class="MsoNormal">الف) چون فرقی ندارد که ۴ نفر انتخاب شده از کدام کشور باشند، تنها تعداد زیرمجموعه‌های ۴ نفره از این ۹ نفر مورد نظر است که برابر است با:</p>
+
+        <p class="MsoNormal" style="text-align: center;">
+        $$ \binom{9}{4} = \frac{9!}{5! \times 4!} = \frac{9 \times 8 \times 7 \times 6 \times 5!}{5! \times 4 \times 3 \times 2 \times 1} = 126 $$
+        </p>
+        <br>
+        <p class="MsoNormal">ب) تعداد روش‌های انتخاب یک داور ایرانی برابر است با $ \binom{4}{1} = 4 $. به همین طریق ۳ راه برای انتخاب داور ژاپنی و ۲ راه برای انتخاب داور روسی وجود دارد. طبق اصل ضرب تعداد روش‌های انجام این کار برابر است با:</p>
+
+        <p class="MsoNormal" style="text-align: center;">
+        $$ 4 \times 3 \times 2 = 24 $$
+        </p>
+        <br>
+        <p class="MsoNormal">پ) تعداد راه‌های انتخاب دو داور ایرانی برابر است با $ \binom{4}{2} = 6 $. حال ۳ داور دیگر باید از بین ۵ داور غیرایرانی انتخاب شوند که به $ \binom{5}{3} = 10 $ حالت می‌توانند انتخاب شوند. بنابراین طبق اصل ضرب، تعداد روش‌های انجام کار برابر است با:</p>
+
+        <p class="MsoNormal" style="text-align: center;">
+        $$ 6 \times 10 = 60 $$
+        </p>
+        <br>
+
+        <p class="MsoNormal">ت) در این حالت تعداد داوران ایرانی ۳ یا ۴ نفر می‌تواند باشد. در حالتی که داوران ایرانی ۳ نفر باشند، این داوران به $ \binom{4}{3} = 4 $ حالت می‌توانند انتخاب شوند. در این صورت دو نفر دیگر باید از بین ۵ داور غیرایرانی انتخاب شوند که این کار به $ \binom{5}{2} = 10 $ طریق می‌تواند انجام شود. پس طبق اصل ضرب، $4 \times 10 = 40$ روش وجود دارد.</p>
+        <br>
+        <p class="MsoNormal">در حالتی که داوران ایرانی ۴ نفر باشند، انتخاب این ۴ داور به $ \binom{4}{4} = 1 $ روش صورت می‌گیرد و یک داور دیگر باید از بین ۵ داور غیرایرانی انتخاب شود که به $ \binom{5}{1} = 5 $ طریق می‌تواند صورت گیرد. پس طبق اصل ضرب، برای این حالت $1 \times 5 = 5$ روش وجود دارد و جواب کل برابر است با $40 + 5 = 45$.</p>
+        <br> <br>
+        <p class="MsoNormal">ث) تعداد روش‌های انتخاب ۳ داور ایرانی برابر است با $ \binom{4}{3} = 3 $، تعداد راه‌های انتخاب ۲ داور ژاپنی برابر است با $ \binom{3}{2} = 3 $، و تعداد راه‌های انتخاب ۲ داور روسی برابر است با $ \binom{2}{2} = 1 $. لذا طبق اصل ضرب، جواب برابر است با:</p>
+        
+        <p class="MsoNormal" style="text-align: center;">
+        $$ 4 \times 3 \times 1 = 12 $$
+        </p>
+        <br> 
+        <p class="MsoNormal">ج) می‌دانیم تعداد کل کمیته‌های ۵ نفره که می‌توان انتخاب کرد، برابر است با $ \binom{9}{5} = 126 $. از طرفی این کمیته‌های ۵ نفره به دو دسته زیر تقسیم می‌شوند:</p>
+        
+        <p class="MsoNormal">دسته اول: حداقل یک ایرانی در آنهاست.</p>
+        
+        <p class="MsoNormal">دسته دوم: هیچ داور ایرانی در آنها نیست.</p>
+
+
+        <br>
+        <p class="MsoNormal">جمع افراد این دو دسته برابر با $ \binom{9}{5} = 126 $ می‌شود و از آنجا که محاسبه دسته دوم آسان‌تر است، کافی است تعداد دسته دوم را محاسبه کنیم و از $126$ کم کنیم.</p>
+        
+        <p class="MsoNormal">اما تعداد افراد دسته دوم برابر با $ \binom{5}{5} = 1 $ است. چرا؟</p>
+        
+        <p class="MsoNormal">لذا تعداد افراد دسته اول برابر است با $ 126 - 1 = 125 $.</p>
+        
+
+        <br><hr><br>
+        <div class="MsoStep">کار در کلاس</div>
+        
+        <p class="MsoNormal">۱. در کدام یک از موارد زیر ترتیب قرار گرفتن اشیا اهمیت دارد و باید تعداد جایگشت‌های $ r $ شیء از $ n $ شیء متمایز مشخص شود و در کدام یک ترتیب قرار گرفتن اشیا اهمیت ندارد و باید تعداد ترکیب‌های $ r $ تایی از $ n $ شیء متمایز مشخص شود؟</p>
+        <br>
+        <p class="MsoNormal">الف) ساختن کلمه‌ای سه حرفی بدون حرف تکراری با ۵ حرف متمایز (بامعنی و بی‌معنی).</p>
+        <br>
+        <p class="MsoNormal">ب) انتخاب سه شاخه گل از بین پنج شاخه گل متمایز.</p>
+        <br>
+        <p class="MsoNormal">پ) انتخاب یک دفاع چپ، یک دفاع راست و یک دفاع وسط از بین هفت مدافع که همگی در تمامی پست‌ها قابلیت بازی دارند.</p>
+        <br>
+        <p class="MsoNormal">ت) از بین هفت بازیکن دفاعی یک تیم سه نفر قرار است از تیم کنار گذاشته شوند.</p>
+        <br>
+        <p class="MsoNormal">ث) ده نفر در یک مسابقه شرکت خواهند کرد و سه نفر اول به المپیک راه خواهند یافت.</p>
+        <br>
+        <p class="MsoNormal">ج) ده نفر در یک مسابقه شرکت کرده‌اند و قرار است به نفرات اول تا سوم به ترتیب مدال‌های طلا، نقره و برنز داده شود.</p>
+        <br>
+        <p class="MsoNormal">۲. در هر کدام از موارد (کار در کلاس ۱) تعداد حالت‌های ممکن را بنویسید. (نیاز به ساده کردن جواب نیست)</p>
+        <br><br>
+        <p class="MsoNormal">۳. از میان ۸ ریاضیدان و ۶ فیزیک‌دان و ۵ شیمی‌دان قرار است کمیته‌ای علمی انتخاب شود. به چند طریق این کمیته می‌تواند انتخاب شود هرگاه:</p>
+        <br>
+        <p class="MsoNormal">الف) کمیته ۶ نفره باشد و از هر رشته ۲ نفر در آن عضو باشند؟</p>
+        <br>
+        <p class="MsoNormal">ب) کمیته ۷ نفره باشد و از هر رشته حداقل یک نفر در آن عضو باشد؟</p>
+    
+<br>
+        <br><hr><br>
+        <p class="MsoStep">فعالیت</p>
+        
+        <p class="MsoNormal">از بین دو مدرس ریاضی، دو مدرس فیزیک و دو مدرس شیمی، قرار است یک کمیته دو نفره انتخاب شود. به‌گونه‌ای که دو نفر انتخاب شده هم رشته نباشند. چند حالت برای انجام این کار وجود دارد؟</p>
+        <br>
+        <p class="MsoNormal">به جواب‌های چند دانش‌آموز به سؤال بالا که در زیر آمده است، دقت کنید.</p>
+        <br>
+        <p class="MsoNormal">محمد: از دو رشته باید هر کدام یک نفر انتخاب شوند و از رشته سوم کسی انتخاب نشود؛ لذا سه حالت زیر را می‌توان در نظر گرفت:</p>
+        <br>
+        <p class="MsoNormal">- ریاضی یک نفر انتخاب شود؛ فیزیک یک نفر انتخاب شود و شیمی کسی انتخاب نشود.</p>
+        
+        <p class="MsoNormal" style="text-align: center;">
+            $$ \binom{2}{1} \times \binom{2}{1} \times \binom{2}{0} = 2 \times 2 \times 1 = 4 $$
+        </p>
+        <br>
+        <p class="MsoNormal">- ریاضی یک نفر انتخاب شود؛ فیزیک کسی انتخاب نشود و شیمی یک نفر انتخاب شود.</p>
+        
+        <p class="MsoNormal" style="text-align: center;">
+            $$ \binom{2}{1} \times \binom{2}{0} \times \binom{2}{1} = 2 \times 1 \times 2 = 4 $$
+        </p>
+        <br>
+        <p class="MsoNormal">- ریاضی کسی انتخاب نشود؛ فیزیک یک نفر انتخاب شود و شیمی یک نفر انتخاب شود.</p>
+        
+        <p class="MsoNormal" style="text-align: center;">
+            $$ \binom{2}{0} \times \binom{2}{1} \times \binom{2}{1} = 1 \times 2 \times 2 = 4 $$
+        </p>
+        <br> 
+        <p class="MsoNormal">پس در کل $4 + 4 + 4 = 12$ حالت امکان دارد.</p>
+        <br><br>
+        <p class="MsoNormal">پژمان: می‌توان روش محمد را خلاصه‌تر کرد؛ یعنی در یک مرحله تعداد حالت‌های انتخاب دو رشته‌ای را که قرار است از آنها کسی انتخاب شود، محاسبه می‌کنیم که به $\binom{3}{2}$ راه امکان دارد. حال از هر دو رشته انتخاب شده، به دو راه می‌توان یک فرد انتخاب کرد;
+        
+
+    لذا جواب برابر است با
+            $\binom{3}{2} \times 2 \times 2  = 12 $
+            .</p>
+        
+
+            <br><br>
+
+
+        <p class="MsoNormal">حمید: ولی به نظر من مستقیماً با اصل ضرب به روش زیر می‌توان آن را حل کرد. اولین فرد انتخاب شونده می‌تواند هر کدام از ۶ نفر باشد. پس $۶$ حالت برای انتخاب اولین فرد وجود دارد. اما وقتی اولین فرد انتخاب شد، دومین فردی که قرار است انتخاب شود، نمی‌تواند هم‌رشته او باشد. پس برای انتخاب دومین فرد چهار راه وجود دارد. بنابراین تعداد کل راه‌های انتخاب برابر $۶ \times ۴ = ۲۴$ حالت است.</p>
+        <br>
+        <p class="MsoNormal">- دو نفر مدرس ریاضی را $M_1$ و $M_2$، دو نفر مدرس فیزیک را $P_1$ و $P_2$، و دو نفر مدرس شیمی را $C_1$ و $C_2$ در نظر بگیرید و تمام حالت‌های ممکن برای آنها را بنویسید و جواب غلط را مشخص کنید.</p>
+        <br>
+        <p class="MsoNormal">- نمودار درختی جواب غلط را بکشید. سپس علت غلط بودن آن را مشخص کنید.</p>
+
+
+            <br><hr><br>
+
+        <div class="MsoStep">فعالیت</div>
+
+        <p class="MsoNormal">۱. می‌دانیم که$\binom{n}{r}$ همان تعداد زیرمجموعه‌های $r$ تایی از یک مجموعه $n$ عضوی است. حال $\binom{n}{r}$ را یک‌بار با توجه به این تغییر از 
+            $\binom{n}{0}$
+            و
+            $\binom{n}{۱}$
+              یک‌بار با فرمول بدست آورید.</p>
+
+
+
+        <p class="MsoNormal">۲. الف) یک مربی قصد دارد از بین بازیکنان شماره‌های $5, 4, 3, 2, 1$ سه نفر را برای رفتن به زمین بازی انتخاب کند. چند حالت برای این کار امکان دارد؟ با کشیدن جدول مقابل تمام حالات را نمایش دهید.</p>
+
+<br>
+        <table class="tables" style="text-align: center; margin:auto; width: max-content;">
+
+
+            <tr>
+                <th>
+                    به زمین می‌روند
+                </th>
+
+                <th>
+                    به زمین نمی‌روند
+                </th>
+               
+            </tr>
+
+            <tr>
+                <td>
+                    1, 2, 3
+                </td>
+                <td>
+                    4, 5
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    1, 2, 4
+                </td>
+                <td>
+                    3, 5
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    $\quad$
+                </td>
+                <td>
+                    $\quad$
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    $\quad$
+                </td>
+                <td>
+                    $\quad$
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    $\quad$
+                </td>
+                <td>
+                    $\quad$
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    $\quad$
+                </td>
+                <td>
+                    $\quad$
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    $\quad$
+                </td>
+                <td>
+                    $\quad$
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    $\quad$
+                </td>
+                <td>
+                    $\quad$
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    $\quad$
+                </td>
+                <td>
+                    $\quad$
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    $\quad$
+                </td>
+                <td>
+                    $\quad$
+                </td>
+            </tr>
+           
+
+
+
+
+
+        </table>
+
+
+
+        <br><br>
+
+
+        <p class="MsoNormal">ب) این‌بار این مربی قصد دارد از بین همان بازیکنان دو بازیکن انتخاب کند که روی نیمکت بنشینند. چه انتخاب‌هایی دارد؟</p>
+        
+        
+        
+        <br><br>
+        <p class="MsoNormal">پ) بین تعداد انتخاب‌های $ \binom{5}{2} $ و $ \binom{5}{3} $ 
+
+            چه رابطه‌ای هست؟
+             چگونه این رابطه را توجیه می‌کنید؟ 
+            </p>
+        
+        
+        <p class="MsoNormal">
+
+            درستی تساوی 
+            $\binom{n}{r}=\binom{n}{n-r}$
+            را یکبار با استفاده از توجیه بالا و یکبار با استفاده از فرمول اصلی بررسی کنید
+.
+
+        </p>
+        
+<br><br>
+
+<p class="MsoNormal">۳. جاهای خالی را پر کنید.</p>
+<br>
+<p class="MsoNormal">الف) تعداد زیرمجموعه‌های $۵$ عضوی از مجموعه حروف انگلیسی برابر است با: $\binom{ \quad }{ \quad }$</p>
+<br>
+<p class="MsoNormal">ب) تعداد زیرمجموعه‌های $۵$ عضوی از مجموعه حروف انگلیسی که حرف $a$ در آن‌ها هست برابر است با: $\binom{ \quad }{ \quad }$</p>
+<br>
+<p class="MsoNormal">پ) تعداد زیرمجموعه‌های $۵$ عضوی از مجموعه حروف انگلیسی که حرف $a$ در آن‌ها نیست، برابر است با: $\binom{ \quad }{ \quad }$</p>
+<br>
+<p class="MsoNormal">ت) بنابراین: $\binom{ \quad }{ \quad } = \binom{ \quad }{ \quad } + \binom{ \quad }{ \quad }$</p>
+<br><br>
+<p class="MsoNormal">۴. فرض کنیم $A$ یک مجموعه $n$ عضوی و $a$ یکی از اعضای آن باشد. $(a \in A)$</p>
+<br>
+<p class="MsoNormal">الف) تعداد زیرمجموعه‌های $r$ عضوی مجموعه $A$ برابر است با: $\binom{ \quad }{ \quad }$</p>
+<br>
+<p class="MsoNormal">ب) تعداد زیرمجموعه‌های $r$ عضوی $A$ که $a$ در آن‌ها هست، برابر است با: $\binom{ \quad }{ \quad }$</p>
+<br>
+<p class="MsoNormal">پ) تعداد زیرمجموعه‌های $r$ عضوی $A$ که $a$ در آن‌ها نیست، برابر است با: $\binom{ \quad }{ \quad }$</p>
+<br>
+<p class="MsoNormal">ت) بنابراین: $\binom{ \quad }{ \quad } = \binom{ \quad }{ \quad } + \binom{ \quad }{ \quad }$</p>
+
+
+<br><hr><br>
+
+
+
+<div class="MsoStep">تمرین</div>
+
+<p class="MsoNormal">۱. یک فروشنده تنقلات در فروشگاه خود، پسته، بادام، گردو، تخمه کدو، تخمه ژاپنی، نخودچی و کشمش دارد. از نظر او در یک آجیل حداقل پنج نوع از تنقلات فوق باید وجود داشته باشد. او با تنقلات موجود در فروشگاهش چند نوع آجیل می‌تواند درست کند؟</p>
+<br><br>
+<p class="MsoNormal">۲. یک اداره دارای $18$ عضو است. این اداره دارای $1$ رئیس، $3$ معاون، $2$ حسابدار، $6$ کارشناس اداری، $3$ کارمند کارگزینی و $3$ کارشناس امور حقوقی است. این اداره ماهانه باید جلسه‌ای $۵$ نفره به‌جهت بررسی و تصویب آخرین طرح‌های پیشنهادی برگزار کند. به چند طریق این گروه $۵$ نفره می‌تواند انتخاب شود، هرگاه:</p>
+<br>
+<p class="MsoNormal"> 
+    الف) رئیس و دقیقاً یک کارشناس امور حقوقی در جلسه باشند؟
+</p>
+<br>
+<p class="MsoNormal"> 
+    ب) رئیس و دقیقاً یک معاون و یک کارشناس امور حقوقی در جلسه باشند؟
+</p>
+<br>
+<p class="MsoNormal"> 
+    پ) رئیس و دقیقاً یک معاون٬ یک حسابدار و یک کارشناس امور حقوقی در جلسه باشند؟
+</p>
+
+
+<br><br>
+
+<p class="MsoNormal">۳. در یک کلاس تعدادی از دانش‌آموزان که همگی دارای شرایط علمی خوبی‌اند، داوطلب حضور در مسابقات علمی مدرسه هستند. معلم قصد دارد $2$ نفر را به‌تصادف انتخاب کند. او این دو نفر را به $28$ روش می‌تواند از بین داوطلبان انتخاب کند. تعداد داوطلبان چند نفر بوده است؟</p>
+<br>
+<br>
+
+<p class="MsoNormal">۴. گل‌فروشی در فروشگاه خود $۱۰$ نوع گل مختلف دارد. او در هر دسته گل از $۳$ تا $۵$ شاخه گل متناوب قرار می‌دهد. او چند دسته گل مختلف می‌تواند درست کند؟</p>
+<br>
+<br>
+
+<p class="MsoNormal">۵. یک نقاش توپی‌هایی از $۴$ رنگ قرمز، آبی، زرد و مشکی دارد. اگر او با ترکیب دو یا چند رنگ از رنگ‌های متناوب بتواند دقیقاً یک رنگ جدید به‌دست آورد، او چند رنگ می‌تواند داشته باشد؟</p>
+<br>
+
+<p class="MsoNormal">چرا با اینکه در کارهای هنری فقط از همین $۴$ رنگ استفاده می‌شود، اما تعداد رنگ‌های حاصل بیشتر از جواب شماست؟</p>
+<br>
+<br>
+<p class="MsoNormal">۶. هفت نقطه $A، B، C، D، E، F، G$ روی محیط یک دایره قرار دارند. چند مثلث مختلف می‌توان کشید که رؤوس آن از این هفت نقطه انتخاب شده باشند؟</p>
+
+<br><br>
+
+
+<p class="MsoNormal">
+    ۷.
+    یک آشپز ده نوع ادویه دارد. او با استفاده از هر ۳ تا از این ادویه ها یک طعم مخصوص درست می کند. این آشپز چند طعم می‌تواند درست کند هرگاه:</p>
+<p class="MsoNormal">الف) هیچ محدودیتی در استفاده از ادویه‌ها نداشته باشد؟</p>
+<br>
+<p class="MsoNormal">ب) دو نوع ادویه هستند که با هم نمی‌توانند استفاده شوند؟</p>
+<br>
+<p class="MsoNormal">پ) سه ادویه هستند که نباید هر سه با هم استفاده شوند؟</p>
+<br>
+<p class="MsoNormal">ت) ادویه‌ها به ۲ دسته ۵ تایی تقسیم می‌شوند که هیچ‌یک از ادویه‌های دسته اول با هیچ‌یک از ادویه‌های دسته دوم سازگاری ندارند؟</p>
+
+
+<br><br>
+<p class="MsoNormal">
+    ۸.
+    مسئله‌ای طرح کنید که جواب آن برابر باشد با:</p>
+
+
+<p class="MsoNormal" style="text-align: left;">
+    $ \binom{5}{3} \times \binom{6}{2}  $ (الف) 
+
+    <br>
+     $ \binom{5}{3} + \binom{6}{2} $ (ب)
+</p>
+
+
+
+
+    </body>
+
+
+</html>

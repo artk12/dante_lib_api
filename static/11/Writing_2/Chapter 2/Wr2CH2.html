@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        li.MsoNormal,
+        ol.MsoNormal,
+        div.MsoNormal,
+        ul.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+            
+        }
+        p.MsoNormal
+         {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-indent: 1em;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi {
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSemic,
+        li.MsoSemic,
+        div.MsoSemic {
+            margin: 0in;
+           
+            font-size: clamp(1.2rem, 1.6vw, 1.3rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #b19af2;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #6ca4ec;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .boxp {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .boxg {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#00f2ff11; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        .boxb {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#0c4e9f2d; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        ::selection {
+            background-color: #59078fa1; /* Change this to your desired highlight color */
+            color: #ffffff; /* Change this to your desired text color */
+          }
+
+
+          mark{
+            background-color:#078b8fa1 ;
+            color: #ffffff;
+            padding: 0 7px;
+        }
+
+        .hlg { background-color: rgba(0, 234, 255, 0.334);  }
+        .hlp { background-color:#5f1487; }
+      
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+    <body class="custom-scrollbar">
+
+     
+        <p class="MsoBold">درس دوم</p>
+        <p class="MsoBold">گسترش محتوا (1)
+            :
+        زمان و مکان</p>
+        
+        <p class="MsoNormal">«عید تازه از راه رسیده بود. مردم دیگر با سورتمه رفت و آمد نمی‌کردند. برف‌های دور و بَر خانه‌های روستایی و جوی‌ها، آب شده و جاری شده بودند. دو دختر که همسایۀ هم بودند، آمده بودند کنار چالۀ پر از آب گِل آلودی که بین کوچۀ تنگ دو حیاط درست شده بود و می‌خواستند با هم بازی کنند. یکی از دخترها کوچک‌تر از دیگری بود. هر دو بلوز نو پوشیده بودند. دختری که کوچک‌تر بود، بلوز سورمه‌ای پوشیده بود و آن که بزرگ‌تر بود، لباسش زرد رنگ بود. ولی هر دو روسری قرمز سرشان کرده بودند.</p>
+        
+        <p class="MsoNormal">دخترها پس از آنکه عبادت ظهر تمام شده بود، زود آمده بودند کنار چالۀ پرآب و بعد شروع کرده بودند به بازی کردن. فکر کردند برای اینکه خوب بازی کنند، در آب‌های چاله راه بروند. دختر کوچک‌تر شروع کرد با کفش‌هایش شِلِپ کردن؛ امّا دختر بزرگ‌تر نگهش داشت و گفت: «این جوری نه! مامان دعوا می‌کند. نگاه کن. من کفش‌هایم را درآوردم. تو هم کفش‌هایت را دربیاور.»</p>
+        
+        <p class="MsoNormal">دخترها کفش‌هایشان را درآوردند و دامن‌هایشان را بالا زدند و شروع کردند از دو سوی چاله به طرف همدیگر رفتن. آب تا قوزک پای دختر رسیده بود…»</p>
+        <p class="MsoSemi" style="text-align: left;">
+             $*$
+            عید پاک، تولستوی</p>
+        
+        <br><hr><br>
+
+        
+        <p class="MsoNormal">در نوشتۀ صفحۀ قبل، نویسنده زمان و مکان خاصّی را وصف کرده است؛ به گونه‌ای که با خواندن هر سطر آن، تصویری در ذهن خواننده ایجاد می‌شود و هر جمله، آن را کامل‌تر می‌کند. با خواندن این متن، تصویری از اواخر زمستان در کشوری سردسیر در روز عید در ذهن نقش می‌بندد و فضایی در کوچه‌های تنگ میان دو حیاط با گودال‌هایی پر از آب برف‌ها شکل می‌گیرد که کودکان در آن مشغول بازی هستند.</p>
+        <p class="MsoNormal">یکی از راه‌های گسترش محتوای نوشته، پرداختن به عناصرِ «زمان» و «مکان» است. موضوع بسیاری از نوشته‌ها در زمان و مکان مشخّصی رخ می‌دهد و بیانگر فضا و حال و هوای خاصّی است. شرح و توصیف فضا بسیار مهم است و متن را عینی‌تر و ملموس‌تر و خواننده را به محتوای نوشته نزدیک‌تر می‌کند؛ زیرا خوانندۀ متن از طریق آن می‌تواند مطالب را در ذهنش بهتر مجسّم کند. در نوشته، وصف زمان و مکانِ وقوع ماجراها، بسیار ارزشمند است و در بسیاری از انواع نوشته، مانند داستان، سفرنامه، گزارش، نمایش‌نامه و مانند آن کاربرد دارد.</p>
+        <br>
+        <p class="MsoNormal">
+            برای گسترش محتوا با استفاده از دو عنصر «زمان» و «مکان»، می‌توانیم مطابق با مراحل زیر عمل کنیم:
+            </p>
+                    
+        <p class="MsoBold">مرحلۀ اوّل: انتخاب موضوع</p>
+        <p class="MsoNormal">
+        نخستین و مهم‌ترین کار نویسنده، انتخاب موضوعی خاص و مناسب برای نوشتن است. موضوع مناسب، خود به خود ذهن را بازتر و متن را از نوشته‌های مشابه متمایز می‌کند. همان‌طور که در بسیاری از مراکز، صندوقی را برای جمع‌آوری نظرات قرار می‌دهند، ذهنِ ما هم برای نوشتن به یک صندوق نیاز دارد تا اگر به موضوع جالبی برای توصیف زمان و مکان یا حال و هوا دست یافتیم، در آن ذخیره‌اش کنیم. تماشای آیین‌های مذهبی ــ ملّی، خاطرات و تجربیات سفر، دیدن تصاویر، به یاد آوردن خواب و رؤیا، مطالعۀ کتاب، دیدن صحنه‌هایی از نمایش یا فیلم، همگی می‌توانند منبعی برای موضوعات جذّاب و متنوّع باشد.
+        </p>
+        <br>
+        <p class="MsoNormal">موضوع انتخابی ما، «مراسم گلاب‌گیران در قمصر» است.</p>
+        
+        <br><hr><br>
+
+        <p class="MsoStep">فعّالیت (1)</p>
+        <p class="MsoNormal">موضوع‌های پیشنهادی خود را بنویسید.</p>
+
+        <br><hr><br>
+
+        <p class="MsoBold">مرحلۀ دوم: تجسّم و بارش فکری</p>
+        <p class="MsoNormal">پس از انتخاب موضوع، با بهره‌گیری از بارش فکری، اطّلاعات و دانسته‌های خود را نسبت به موضوعی که انتخاب کرده‌ایم، بر روی کاغذ می‌آوریم. اکنون واژه‌های مرتبط با این موضوع را می‌نویسیم: «گلاب، باغ، گلاب گیری، گل محمّدی، دیگ، قمصر کاشان، بهار، بطری‌های بزرگ و کوچک، صلوات، هیزم، اجاق، اسپند، آتش و…»</p>
+        <br><hr>
+        <p class="MsoStep">فعّالیت (2)</p>
+        <p class="MsoNormal">دربارۀ یکی از موضوعاتی که در مرحلۀ قبل انتخاب کرده‌اید، فکر کنید و واژه‌های مرتبط با آن را بنویسید.</p>
+        <br><hr>
+        
+        <p class="MsoBold">مرحلۀ سوم: سازماندهی و طرح اوّلیه</p>
+
+        <p class="MsoNormal">
+        اکنون واژه‌هایی را که به ذهن ما رسیده است، با توجّه به شباهت‌ها و روابط میان آنها، سازماندهی و دسته‌بندی می‌کنیم و بر این اساس، طرح اوّلیۀ نوشته‌مان را مشخّص می‌کنیم. برای نمونه، یکی از این دسته‌بندی‌ها می‌تواند قرار دادن واژه‌ها در سه گروه باشد:
+        </p>
+        <br>
+        <ul class="MsoNormal">
+            <li>الف) واژه‌های مربوط به زمان و مکان</li>
+            <li>ب) واژه‌های مربوط به فضای نوشته</li>
+            <li>پ) واژه‌های مربوط به جزئیات نوشته</li>
+        </ul>
+
+        <div class="boxg">
+            <p class="MsoSemi" style="text-align: center;font-size:larger">زمان و مکان</p><br>
+                <ul class="MsoNormal">
+                    <li>بهار</li>
+                    <li>اردیبهشت</li>
+                    <li>طلوع آفتاب</li>
+                    <li>قمصر و نیاسر کاشان</li>
+                    <li>باغ گل</li>
+                    <li>جوی آب</li>
+                </ul>
+        </div>
+        <div class="boxp">
+            <p class="MsoSemi" style="text-align: center;font-size:larger"">فضای نوشته</p><br>
+                <ul class="MsoNormal">
+                    <li>بطری‌های بزرگ و کوچک</li>
+                    <li>دیگ</li>
+                    <li>دوربین‌های فیلم‌برداری و عکاسی</li>
+                    <li>آواز بلبلان</li>
+                    <li>دود اسفند</li>
+                    <li>عطر گل</li>
+                    <li>صلوات</li>
+                    <li>گل محمّدی</li>
+                    <li>گردشگران</li>
+                    <li>گلاب</li>
+                </ul>
+        </div>
+        
+       <br><br>
+
+        <p class="MsoNormal">
+            پیش از آوردن بندهای میانی، بند آغازین را برای ورود به مطلب در نظر می‌گیریم. پس از آن، هر یک از گروه‌های بالا را که موضوع بندهای میانی است، پشت سر هم می‌آوریم. بخش میانی نوشتۀ ما بر اساس سازماندهی فوق، سه بند دارد. قرار گرفتن بندها باید براساس ترتیبی مشخّص شکل بگیرد. بهتر است روند ارائۀ مطالب و حرکت نوشته از کل به جزء باشد. 
+            </p>
+           
+            <p class="MsoNormal">
+            بر این اساس، مکان و زمانِ رخداد را در بند نخست می‌آوریم. بند دوم را می‌توانیم به حال و هوای نوشته اختصاص دهیم. در بند سوم نیز جزئیات را وصف می‌کنیم و به این شکل، ترتیب قرار گرفتن سه بند میانی مشخّص می‌شود. 
+            </p>
+        
+            <p class="MsoNormal">
+            سپس در پایان، مطالب را در یک بند جمع‌بندی می‌کنیم. جمع‌بندی می‌تواند حتّی به صورتِ یک بیت شعر و یا یک سؤال باشد؛ مهم آن است که ذهن خواننده را با موضوع درگیر کند.
+            </p>
+            
+        <br>
+
+        <div class="boxb">
+            
+            <div class="boxg" style="background-color:#ffffff20;">
+                <p class="MsoSemi" style="text-align: center; margin-bottom:2em;">
+                        بند آغازین 
+                </p> 
+                <p style="text-align: center;">
+                    آغاز جذاب
+                </p>
+            </div>
+            <div class="boxg" style="background-color:#ffffff20;">
+                <p class="MsoSemi" style="text-align: center; margin-bottom:2em;">
+                        بند‌های میانی 
+                </p>
+                <div class="boxg" style="background-color:#5f148735;">
+                    <p style="text-align: center;">
+                        زمان و مکان
+                    </p>
+                </div>
+                <div class="boxg" style="background-color:#5f148735;">
+                    <p style="text-align: center;">
+                        حال و هوا
+                    </p>
+                </div>
+                <div class="boxg" style="background-color:#5f148735;">
+                    <p style="text-align: center;">
+                        توصیف جزئیات
+                    </p>
+                </div>
+            </div>
+            <div class="boxg" style="background-color:#ffffff20;">
+                <p class="MsoSemi" style="text-align: center; margin-bottom:2em;">
+                        بند پایانی   
+                </p>   
+                <p style="text-align: center;">
+                   پایان تاثیر‌گذار
+                </p>
+            </div>
+        </div>
+
+        <br><hr><br>
+
+        <p class="MsoStep">فعّالیت (3)</p>
+        <p class="MsoNormal">طرح اوّلیۀ نوشتۀ خود را تنظیم کنید و به پرسش‌های زیر پاسخ دهید.</p>
+        <br>
+        <ul class="MsoNormal">
+            <li>الف) بخش میانی نوشتۀ شما چند بند موضوعی دارد؟</li>
+            <br>
+            <li>ب) در هر بند، می‌خواهید دربارۀ چه بنویسید؟</li>
+        </ul>
+        
+        <br><hr>
+        
+        <p class="MsoBold">مرحلۀ چهارم: پیش نویس</p>
+        <ul class="MsoNormal" style="direction: rtl; text-align: right;">
+            <li>
+                <p class="MsoSemi" style="font-size: larger;">
+                    1. بند آغازین:</p>
+                <p class="MsoNormal">
+                    در شهر تاریخی کاشان، هر سال مراسم گلاب‌گیران برگزار می‌شود. نمونه‌ای از عظمت خداوند آن است که زیباترین گل‌های محمّدی در کویر خشک کاشان می‌روید و خوش‌بوترین گلاب‌ها، در این شهر آماده می‌شود.
+                </p>
+            </li>
+            <br>
+            <li>
+                <p class="MsoSemi" style="font-size: larger;">
+                    2.
+                    بندهای میانی:</p><br>
+                <ul class="MsoNormal">
+                    <li>
+                        <p class="MsoSemi">زمان و مکان</p>
+                        <p class="MsoNormal">
+                            کاشان شهری در استان اصفهان است که میان کوه‌های کرکس و در کویر مرکزی ایران قرار گرفته و آب و هوایی گرم و خشک بیابانی دارد. گردشگران در اواسط اردیبهشت برای دیدنِ مراسمِ گلاب‌گیری به قمصر و نیاسر سفر می‌کنند. این دو شهر پر از باغ‌های گل محمّدی و جویبارهای فراوان است. بهترین زمان برای حضور در مراسم گلاب‌گیری قمصر ساعات اوّلیۀ روز است؛ یعنی زمانی که هنوز آفتاب کاملاً گرم نشده است. گل‌هایی که در ساعات پیش از طلوع چیده شده‌اند، تازه‌ترند و طبیعتاً گلاب بهتری از آنها به دست می‌آید.
+                        </p>
+                    </li>
+                    <br>
+                    <li>
+                        <p class="MsoSemi">حال و هوا</p>
+                        <p class="MsoNormal">
+                            با طلوع خورشید، عطر گل محمّدی همه را مدهوش می‌کند و بلبلان را به آواز وا می‌دارد. کارگران، سرخوش از عطر گل‌ها و گردشگران حیرت‌زده از این همه زیبایی در کنارِ صدای بلبلان و بوی گل‌ها، به تماشا می‌نشینند. دیگ‌های بزرگ، پر از گل محمّدی و آب می‌شوند و روی تل هیزم قرار می‌گیرند و گلاب، به روش تقطیر به دست می‌آید. دیگ‌هایی که همچون زودپزهایی بزرگ گل‌های تازه چیده را در خود می‌جوشانند و بخار را از طریق لوله‌هایی به شیشه‌های داخل جوی آب‌ها منتقل می‌کنند. گاه بر آتشِ زیرِ دیگ‌ها اسفند دود می‌کنند، مردم صلوات می‌فرستند و دل‌های خود را صفا می‌دهند.
+                            </p>
+                    </li>
+                    <br>
+                    <li>
+                        <p class="MsoSemi">جزئیات</p>
+                        <p class="MsoNormal">
+                            سالانه گردشگران بسیاری از مراسم گلاب‌گیران کاشان در شهرهای قمصر، نیاسر و بَرزَک دیدن می‌کنند و دوربین‌های عکاسی و فیلم‌برداری را برای لحظه‌ای از خود دور نمی‌کنند و سرانجام با کوله‌باری از گلاب و سایر عرقیات و با مقادیر زیادی از خاطره، عکس و فیلم به شهر و خانۀ خود بازمی‌گردند.
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <br>
+            <li>
+                <p class="MsoSemi" style="font-size: largera;">
+                    3.
+                    بند پایانی:
+                </p>
+                <p class="MsoNormal">
+                    برگزاری باشکوه مراسم گلاب‌گیری موجب زنده نگاه داشتن یکی از آیین‌های ارزشمند و کهن ایرانیان است. برکت گل محمّدی و عطر گلاب، گردهمایی باشکوهی را در کویر مرکزی ایران فراهم می‌کند.
+                </p>
+            </li>
+        </ul>
+        <br><hr><br>
+        <p class="MsoStep">فعّالیت (4)</p>
+        <p class="MsoNormal">
+            با توجه به طرح نوشتۀ خود در فعّالیت (3)، متنی بنویسید.
+        </p>
+        <br><hr>
+
+        <p class="MsoBold">مرحلۀ پنجم: بازبینی و گسترش نوشته</p>
+        <p class="MsoNormal">
+        در این مرحله، پس از شکل‌گیری بندها با افزودن واژه‌ها و صفت‌های مناسب و ـ در صورت نیاز ـ استفاده از آرایه‌های گوناگون، نوشته را گسترش می‌دهیم و به ترتیب قرار گرفتن مطالب در بندها دقّت می‌کنیم. همچنین به جملات موضوع و پیوستگی جملات تکمیلی آنها توجّه می‌کنیم؛ با اضافه و کم کردن برخی واژه‌ها، همچنین تغییر و اصلاح بعضی جمله‌ها و گاه کوتاه کردن آنها، اشکالات نوشته را برطرف می‌کنیم.
+        </p>
+        <br>
+        <div class="boxb">
+            <p class="MsoSemi" style="font-size:larger;text-align:center">گل محمّدی</p>
+            <br>
+            <p class="MsoNormal">
+            در شهر تاریخی کاشان، هر سال مراسم دیدنی گلاب‌گیران برگزار می‌شود. گوشه‌ای از عظمت خداوند آن است که زیباترین گل‌های محمّدی و خوشبوترین گلاب‌های جهان از دل کویر خشک کاشان بیرون می‌آید.
+            </p>
+            <p class="MsoNormal">
+            کاشان یکی از شهرهای استان اصفهان است که با آب و هوایی گرم و خشک بیابانی، میان کوه‌های کرکس و کویر مرکزی ایران قرار گرفته است؛ شهری با جاذبه‌های گردشگری فراوان نظیر باغ فین، دیوار سلجوقی، مساجد و خانه‌های دیدنی و قدیمی. گردشگران در اواسط اردیبهشت برای دیدن گلاب‌گیری به قمصر و نیاسر سفر می‌کنند. این دو شهر پر از باغ‌های گل‌محمّدی و جویبارهای فراوان است. بهترین زمان برای حضور در مراسم گلاب‌گیران، ساعات اوّلیۀ روز، یعنی زمانی است که هنوز خورشید سر از بستر کوه برنیاورده و بر تختِ فرمانروایی‌اش تکیه نزده است. گل‌هایی که در ساعات پیش از طلوع چیده شده‌اند شاداب‌ترند و گلاب بهتری از آنها به دست می‌آید.
+            </p>
+            <p class="MsoNormal">
+            صبح روز گلاب‌گیری، با طلوع خورشید، عطر گل محمّدی همه را از خود بی‌خود می‌کند و بلبلان را به آواز خواندن وامی‌دارد. کارگران سرخوش از عطرِ دامن‌های پرگُل خود، و گردشگران حیرت‌زده از این همه زیبایی و فریباییِ گل‌ها به تماشا می‌نشینند و رایحۀ جان‌بخش گل‌ها، روح و جانشان را تسخیر می‌کند. در این هنگام، دیگ‌ها را پر از آب و گلبرگ‌های گل محمّدی می‌کنند. دیگ‌هایی که همچون زودپزهایی بزرگ، گل‌های تازه چیده را در خود می‌جوشانند و بخار را از طریق لوله‌هایی به شیشه‌های داخل جوی آب منتقل می‌کنند. گاه بر آتشِ زیرِ دیگ‌ها دانه‌های اسفند می‌ریزند تا چشم بد از رونق گلاب‌گیری دور شود، مردم صلوات می‌فرستند و دل‌ها را با بوی خوش اسفند و نوای روح‌انگیزِ صلوات، صفا می‌دهند.
+            </p>
+            <p class="MsoNormal">
+            سالانه گردشگران بسیاری از مراسم گلاب‌گیران کاشان در شهرهای قمصر، نیاسر و برزک دیدن می‌کنند و دوربین‌های عکّاسی و فیلم‌برداری را برای لحظه‌ای از خود دور نمی‌سازند و سرانجام با تهیۀ سوغاتی معطّر، با صدها و بلکه هزاران قطعه عکس و فیلم، و دلی شاد به شهر و خانۀ خود بازمی‌گردند.
+            </p>
+            <p class="MsoNormal">
+            برگزاری مراسم باشکوه گلاب‌گیری موجب زنده نگاه داشتن یکی از آیین‌های ارزشمند و کهن ایرانیان است که هرساله به برکت گل محمّدی و عطر گلاب، برپا می‌گردد.
+            </p> 
+        </div>
+        <br><hr><br>
+        <p class="MsoStep">فعّالیت (5)</p>
+        <p class="MsoNormal">
+        نوشتۀ خود را بازبینی و اصلاح کنید و در صورت نیاز گسترش دهید.
+        </p>
+        <br><hr>
+        <p class="MsoBold">مرحلۀ ششم: نوشتن نهایی و پاک‌نویس</p>
+        <p class="MsoNormal">
+        در این مرحله، با توجّه به اصلاحات و تغییراتی که در مراحل قبل اعمال گردید، متن را ویراستاری و پاک‌نویس می‌کنیم.
+        </p>
+        <br><hr><br>
+        <p class="MsoStep">فعّالیت (6)</p>
+        <p class="MsoNormal">
+        اکنون متن کامل نوشتۀ خود را پاک‌نویس کنید.
+        </p>
+        <br><hr><br>
+        <p class="MsoNormal">
+        اینک نوشته‌هایتان را بخوانید یا در اختیار دوستانتان قرار دهید تا با استفاده از معیارهای جدول زیر، آن را ارزیابی کنند.
+        </p>
+        <br>
+        <table class="MsoNormal" style="margin:auto;width:fit-content;direction:rtl;text-align:center;">
+            <tr>
+                <th>ردیف</th>
+                <th>سنجش‌های ارزیابی</th>
+                <th colspan="2">نمره</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td style="text-align: right;">وصف زمان و مکان</td>
+                <td>6</td>
+                <td>$ \\ $</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td style="text-align: right;">وصف حال‌وهوا و فضا</td>
+                <td>6</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td style="text-align: right;">انسجام نوشته</td>
+                <td>4</td>
+                <td></td>
+            </tr>
+           
+            <tr>
+                <td>4</td>
+                <td style="text-align: right;">
+                    ویرایش
+                    <ul>
+                        <li>
+                            پرهیز از نوشتن جمله‌های طولانی
+                        </li>
+                        <br>
+                        <li>
+                             رعایت املا و نکات نگارشی
+                        </li>
+                    </ul>
+                </td>
+                <td>2</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td style="text-align: right;">شیوۀ خواندن</td>
+                <td>2</td>
+                <td></td>
+            </tr>
+            <tr style="background-color: #05ffe240;">
+                <td>جمع</td>
+                <td></td>
+                <td>20</td>
+                <td></td>
+            </tr>
+        </table>
+        
+        <br><hr>
+
+
+        <p class="MsoBold">کارگـاه ِ نوشتــن</p>
+        <p class="MsoStep">تمرین (1)</p>
+        <p class="MsoNormal">
+        نوشتۀ زیر را بخوانید و زمان، مکان، حال و هوا و جزئیات آن را براساس آموزه‌های درس، در متن مشخّص کنید.
+        </p>
+        <br>
+        <div class="boxb">
+            <p class="MsoStep" style="font-size:larger;text-align:center;">سال نو</p>
+        <p class="MsoNormal">
+        باران بند آمده بود؛ امّا هنوز از ساقۀ علف‌ها آب می‌چکید و دشت پر از گودال‌های آب بود. عکس آسمان بر سطح لرزانِ گودال‌های آب تماشایی بود. انگار صدها آینۀ شکسته را کنار هم چیده بودند. ابرهایی که هر لحظه به شکلی درمی‌آمدند، در مقابل آن آینه‌ها، خودشان را برای سال نو آماده می‌کردند. خورشید مثل دخترکی خجالتی از پشت کوه‌ها سرک می‌کشید و سلاح‌ها و کلاه‌های آهنی را برق می‌انداخت. دهانۀ توپ‌ها و خمپاره‌اندازها را با کیسه‌های نایلونی پوشانده بودند تا آب به داخلشان نرود.
+        </p>
+        
+        <p class="MsoNormal">
+        در پشت خاکریز، جعبه‌های خالی مهمّات و پوکه‌های مسی برّاق همه جا پراکنده بودند. چند تا از سنگرها را آب گرفته بود و عدّه‌ای با لباس‌های خیس و گل‌آلود مشغول خالی کردن آنها بودند. صدای خنده‌شان با صدای شِلپ‌شِلپ آب آمیخته بود.
+        </p>
+        
+        <p class="MsoNormal">
+        از سنگر بغل دستی صدایی می‌گفت: «آب را گل نکنیم!»<br>
+        دیگری جواب می‌داد: «تو ماهی‌ات را بگیر!...»
+        </p>
+        
+        <p class="MsoNormal">
+        خنده‌ها از ته دل بود. انگارنه‌انگار که در جبهۀ جنگ بودند. بیشتر چادرها را روی سنگرها زده بودند و سفره‌های هفت‌سینِ عید پهن بود؛ سفره‌هایی که در آنها، جای سماق و سمنو را سرنیزه و مسلسل سیمینوف و حتّی سنگ پر کرده بود.
+        </p>
+        
+        <p class="MsoNormal">
+        گاهی گِردباد کوچکی لنگ‌لنگان از راه می‌رسید و چادرهای باران‌خورده را مشت و مال می‌داد. عدّه‌ای قرآن می‌خواندند و بعضی تند‌تند به ساعتشان نگاه می‌کردند و رادیوهای جیبی را به گوششان چسبانده بودند. ناگهان صدای شلیک چند تیر هوایی بلند شد و زمزمۀ «یا مقلّب‌القلوب...» در سنگرها پیچید. عید آمده بود؛ به همین سادگی!
+        </p>
+        <br>
+        <p class="MsoSemi" style="text-align: left;">
+            $*$
+            شهید باکری، یوسف‌زاده</p>
+        
+        </div>
+        
+        <br><hr><br>
+
+
+        <p class="MsoStep">تمرین (2)</p>
+        <p class="MsoNormal">
+        موضوعی انتخاب کنید و با رعایت مراحل نوشتن، متنی دربارۀ آن بنویسید.
+        </p>
+
+        <br><hr><br>
+        
+        <p class="MsoStep">تمرین (3)</p>
+        <p class="MsoNormal">
+        نوشته دوستانتان را براساس معیارهای جدول ارزشیابی درس تحلیل کنید.
+        </p>
+        <br><hr>
+        <p class="MsoStep">شعرگردانی</p>
+    
+        <p class="MsoNormal">
+        شعر زیر را بخوانید و برداشت خود را از آن بنویسید.
+        </p>
+        <br>
+        <p class="MsoNormal" style="text-align: center;">
+        دیدار یار غایب، دانی چه ذوق دارد؟
+        
+            <br>
+        ابری که در بیابان، بر تشنه‌ای ببارد
+        </p>
+        <p class="MsoSemi" style="text-align: center;">سعدی</p>
+
+
+
+        <br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br><br><br><br>
+
+
+    </body>
+
+
+</html>

@@ -1,0 +1,1409 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal ,
+        ul.MsoNormal {
+            margin: 0in;
+           
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi , b{
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #badaff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .MsoPapDefault {
+           
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #722a85;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background-color: #1abbbbe1; /* Scrollbar thumb color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color: #05ffe2;
+        }
+    </style>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+ 
+</head>
+
+
+
+<body class="custom-scrollbar">
+
+
+    <p class="MsoBold">درس دوم
+        :
+    استدلال و قضیهٔ تالس</p>
+    
+
+    <p class="MsoBold">نسبت و تناسب</p>
+
+    <p class="MsoNormal">
+    در پایه‌های قبل با دو مفهوم نسبت و تناسب و برخی خواص ابتدایی آنها آشنا شده‌اید. می‌دانیم که هر دو نسبت‌سازی یک تناسب تشکیل می‌دهند.
+    </p>
+    
+    <p class="MsoNormal">
+    می‌دانیم که اگر یک مقدار ثابت را به دو طرف یک تناسب جمع و یا تفریق کنیم، نسبت‌سازی دوباره برقرار خواهد بود. همچنین، اگر دو طرف یک تناسب را در یک مقدار ضرب کنیم یا به یک مقدار غیر صفر تقسیم نماییم، نسبت‌سازی برقرار می‌ماند. با توجه به این مطلب هر یک از خواص زیر را به راحتی می‌توان ثابت کرد.
+    </p>
+    
+    <br><hr><br>
+
+    <p class="MsoStep">کار در کلاس</p>
+
+<p class="MsoNormal">
+۱. با فرض اینکه تمام مخرج‌ها مخالف صفرند و با توجه به نکات گفته شده در بالا، هر یک از موارد زیر را ثابت کنید.
+</p>
+
+<br>
+
+  <div class="MsoNormal" style="text-align: center;direction: ltr;">
+
+
+    <p>
+        (الف) $$\dfrac{a}{b} = \dfrac{c}{d} \Rightarrow ad = bc $$  (طرفین و وسطین)
+        </p>
+
+
+        <br>
+        <hr style="width: 60%; background-color: #D6D1DA20;">
+        <br>
+
+
+    <p>
+        (ب) $$ad = bc \Rightarrow \dfrac{a}{b} = \dfrac{c}{d}  $$ (تبدیل حاصل‌ضرب به تناسب)
+        </p>
+            
+           <br>
+        <hr style="width: 60%; background-color: #D6D1DA20;">
+        <br>
+
+        <p>
+        (پ)
+            $$\dfrac{a}{b} = \dfrac{c}{d} \Rightarrow \dfrac{b}{a} = \dfrac{d}{c} $$
+             (معکوس کردن تناسب)
+            </p>
+
+
+            <br>
+            <hr style="width: 60%; background-color: #D6D1DA20;">
+            <br>
+    
+
+            <p>
+              (ت) $$\dfrac{a}{b} = \dfrac{c}{d} \Rightarrow 
+                \begin{cases} 
+                \dfrac{c}{a} = \dfrac{d}{b} \\\\
+                \dfrac{a}{c} = \dfrac{b}{d} \\\\
+                \end{cases} \quad$$
+                (تعویض جای طرفین یا وسطین)
+                </p>
+
+         
+                <br>
+                <hr style="width: 60%; background-color: #D6D1DA20;">
+                <br>
+        
+
+
+                <p>
+                    (ث) $$ \dfrac{a}{b} = \dfrac{c}{d} \Rightarrow 
+                    \begin{cases} 
+                    \dfrac{a+b}{b} = \dfrac{c+ \ d}{d} \\\\
+                    \dfrac{a}{a+b} = \dfrac{c}{c+ \ d} \\\\
+                    \end{cases} $$
+                    (ترکیب نسبت در صورت یا مخرج)
+                    </p>
+                    
+                
+
+
+  <br>
+  <p class="MsoNormal" style="direction: rtl;">
+<b>    راهنمایی: </b>
+    
+    در قسمت (ت) برای اثبات اولین تناسب، به دو طرف تساوی عدد $1$ را اضافه کنید و برای اثبات تناسب دوم، ابتدا کسرها را معکوس نمایید، سپس به دو طرف عدد $1$ را اضافه کنید.
+    </p>
+    
+             
+    <br>
+    <hr style="width: 60%; background-color: #D6D1DA20;">
+    <br>
+
+    <p>
+        (ج)
+        $$
+        \dfrac{a}{b} = \dfrac{c}{d} \Rightarrow 
+        \begin{cases}
+        \dfrac{a - b}{b} = \dfrac{c - \  d}{d} \\\\
+        \dfrac{a}{b - a} = \dfrac{c}{d - \  c} \\\\
+        \end{cases}
+        $$
+        (ترکیب نسبت در صورت یا مخرج)
+        </p>
+  
+<br>
+        <p class="MsoNormal" style="direction: rtl;">
+          <b>  راهنمایی:</b>
+             در قسمت (ج)، برای اثبات اولین تناسب، از دو طرف تساوی عدد $1$ را کم کنید و برای اثبات تناسب دوم، ابتدا کسرها را معکوس کرده، سپس از دو طرف عدد $1$ را کم کنید.
+            </p>
+            
+    </div>
+
+<br><br>
+
+
+<p class="MsoNormal">
+    ۲.
+    با توجه به خواص اثبات‌شده در (۱)، موارد زیر را کامل کنید.
+    </p>
+    
+    <br>
+      <div class="MsoNormal" style="text-align: left;direction: ltr;">
+        <p class="MsoNormal">
+            الف) 
+            $
+            \dfrac{5}{14} = \dfrac{15}{42} \Rightarrow 5 \ \times  \ . . . .  \  = 15 \  \times  \ . . . . 
+            $
+            </p>
+
+            <br>
+        <p>
+            ب) 
+            $
+            3 \times 40 = 12 \times 10 \Rightarrow \  \dfrac{3}{ \quad } = \dfrac{12}{ \quad }
+            $
+            </p>
+                
+       <br>
+
+                <p class="MsoNormal">
+                    پ) 
+                    $
+                    \dfrac{ 7 }{10} = \dfrac{21}{10} \Rightarrow \ \dfrac{10}{ 7 } = \ . . . . 
+                    $
+                    </p>
+                
+                <br>
+
+                <p>
+                    ت) 
+                    $
+                    \dfrac{ 6}{11} = \ \dfrac{18}{33} 
+                   \Rightarrow  \  \dfrac{6}{ 18 }   = \ . . . . \quad , \quad \dfrac{33}{11} = \ . . . .
+                    $
+                    </p>
+                
+                    <br>
+        <p class="MsoNormal">
+            ث) 
+            $
+            \dfrac{4}{14} = \dfrac{10}{35} \Rightarrow  \dfrac{18}{14} = \ . . . . 
+    \quad
+            ,
+    \quad
+            \dfrac{4}{18} = \ . . . .
+            $
+            </p>
+            
+            <br>
+
+            <p class="MsoNormal">
+                ج) 
+                $
+                \dfrac{5}{12} = \dfrac{10}{24} \Rightarrow \dfrac{-۷}{12}   = \ . . . .
+                \quad , \quad
+                \dfrac{5}{-۷} = \ . . . .
+                $
+                </p>
+                
+
+      </div>
+
+        
+      <br><hr>
+
+
+<p class="MsoBold">
+استدلال، قضیهٔ تالس و تعمیم آن
+</p>
+
+<p class="MsoNormal">
+در شکل مقابل داریم: 
+$ D_1E_1 \parallel BC $ 
+و 
+$ D_2E_2 \parallel BC $ 
+و 
+$ D_3E_3 \parallel BC $ 
+. این اطلاعات را می‌توان به این صورت نمایش داد:
+$ D_i E_i \parallel BC $ 
+برای 
+$ 1 \leq i \leq 3 $ 
+.
+</p>
+
+<br>
+
+
+<p class="MsoNormal">
+اندازهٔ پاره‌خط‌های زیر را با خط‌کش مشخص کرده و در کسرها جایگزین کنید و نسبت‌های برابر در ستون‌های مشابه را مشخص نمایید.
+</p>
+
+<br>
+
+<table class="MsoNormal" style="margin:auto;width:fit-content;direction:ltr;text-align:center;">
+    <tr>
+        <td>$$ \dfrac{AD_{ 1 }}{D_{ 1 }B} $$</td>
+        <td>$$ \dfrac{AE_{ 1 }}{E_{ 1 }C} $$</td>
+    </tr>
+    <tr>
+        <td>$$ \dfrac{AD_{ 2 }}{D_{ 2 }B} $$</td>
+        <td>$$ \dfrac{AE_{ 3 }}{E_{ 3 }C} $$</td>
+    </tr>
+    <tr>
+        <td>$$ \dfrac{AD_{ 3 }}{D_{ 3 }B} $$</td>
+        <td>$$ \dfrac{AE_{ 2 }}{E_{ 2 }C} $$</td>
+    </tr>
+</table>
+
+
+<br><br>
+
+<p class="MsoNormal">
+    اگر پاره‌خط 
+    $DE$
+     مانند شکل روبه‌رو و موازی ضلع 
+     $BC$
+      از مثلث 
+      $ABC$
+       باشد، حدس می‌زنید نسبت کدام پاره‌خط‌ها با هم برابر باشند؟
+    $$ \dfrac{  \quad }{ \quad } \  = \  \dfrac{  \quad }{ \quad } $$
+</p>
+
+<br>
+
+<p class="MsoNormal">
+    آیا می‌توان نتیجه گرفت اگر خطی موازی یکی از اضلاع مثلث رسم شود، همواره تساوی مشابه بالا برقرار است؟
+</p>
+
+<br>
+<p class="MsoNormal">
+    در سال‌های قبل دیده‌اید که نمی‌توان به درست بودن نتیجه‌ای که بر اساس مشاهده چند مورد به‌دست آمده باشد، مطمئن بود.
+</p>
+
+
+
+
+
+<br><hr><br>
+<p class="MsoNormal">
+    این نوع از استدلال که در آن با مشاهده و بررسی یک موضوع در چند حالت، نتیجه‌ای کلی از آن گرفته می‌شود؛ یعنی 
+    «جزء به کل می‌رسیم»
+    ، 
+    <b>استدلال استقرایی</b>
+     نامیده می‌شود.
+</p>
+<br><hr><br>
+
+
+
+
+
+
+
+<br><hr><br>
+
+<p class="MsoNormal">
+ <b>استدلال استنتاجی</b>
+    ، استدلالی است که بر اساس نتیجه‌گیری منطقی بر پایه واقعیت‌هایی که درستی آن‌ها را پذیرفته‌ایم، بیان می‌شود.
+</p>
+<br><hr><br>
+
+
+<p class="MsoNormal">
+    در ریاضیاتی که تاکنون خوانده‌اید، با مواردی از استدلال‌های استنتاجی مواجه شده‌اید. در ادامه با استدلال استنتاجی، نتیجه‌ای را که با استدلال استقرایی به‌دست آورده‌ایم، ثابت خواهیم کرد.
+</p>
+
+
+
+<br><hr>
+
+<p class="MsoBold">
+    قضیه تالس
+</p>
+
+<p class="MsoStep">
+    فعالیت
+</p>
+
+<p class="MsoNormal">
+    فرض کنید مانند شکل مقابل پاره‌خط $DE$ موازی ضلع $BC$ باشد.
+</p>
+
+<p class="MsoNormal">
+    می‌خواهیم نشان دهیم:
+
+    $ \dfrac{AD}{DB} = \dfrac{AE}{EC} $ .
+</p>
+
+<br>
+
+<p class="MsoNormal">
+    1.
+     از نقطه $ D $ به $ C $ و از $ B $ به $ E $ وصل کنید. مساحت‌های مثلث‌های 
+     $ DEC $ و $ DEB $ که آن‌ها را با 
+    $ S_{DEC} $ و $ S_{DEB} $ نشان می‌دهیم، با هم برابرند. چرا؟
+</p>
+<br><br>
+<p class="MsoNormal">
+    2.
+     از نقطه $E$ به ضلع $AB$ عمود کنید و پای عمود را $H_1$ بنامید. سپس از $D$ به ضلع $AC$ عمود کنید و پای عمود را $H_2$ بنامید.
+</p>
+
+
+<br><br>
+
+<p class="MsoNormal" style="direction: ltr;">
+
+    3.
+    $ \dfrac{S_{ADE}}{S_{DEB}} = \dfrac{\dfrac{1}{2} EH_{1} \times AD}{\dfrac{1}{2} EH_{1} \times DB} = \dfrac{AD}{DB} $
+</p>
+
+<br><br>
+
+<p class="MsoNormal" style="direction: ltr;">
+    4.
+    $ \dfrac{S_{ADE}}{S_{DEC}} = \dfrac{\dfrac{1}{2} DH_{ 2 } \times AE}{\dfrac{1}{2} DH_{ 2 } \times EC} = \dfrac{AE}{EC} $
+</p>
+
+<br><br>
+
+<p class="MsoNormal">
+   5.
+   
+   از (۱) و (۳) و (۴) نتیجه می‌شود  
+    $ \dfrac{AD}{DB} = \dfrac{AE}{EC} $.   
+    چرا؟ 
+</p>
+
+<br>
+
+
+<p class="MsoNormal">
+    برخی نتایج مهم و پرکاربرد که با استدلال استنتاجی به‌دست می‌آیند، قضیه نامیده می‌شوند.
+</p>
+
+<br>
+
+
+<p class="MsoNormal">
+    نتیجه بالا قضیه‌ای از تالس است. همان‌گونه که مشاهده کردید، رابطه بین طول‌های پاره‌خط‌هایی را که توسط خطی موازی یکی از اضلاع مثلث، بر دو ضلع دیگر آن مثلث به وجود می‌آید، بیان می‌کند.
+</p>
+
+<br><hr><br>
+
+<p class="MsoStep">
+    کار در کلاس
+</p>
+
+<p class="MsoNormal">
+    1. در شکل، پاره‌خط‌های $GH$ و $BC$ موازی‌اند. اندازهٔ پاره‌خط‌های $AC$ و $HC$ را به‌دست آورید.
+</p>
+
+<br><br>
+
+<p class="MsoNormal">
+    2.
+     با تشکیل یک معادله، مقدار $x$ و اندازهٔ پاره‌خط‌های $AI$ و $AJ$ را به‌دست آورید.
+</p>
+
+
+<br><hr><br>
+
+
+<p class="MsoBold">تعمیم قضیه تالس</p>
+
+<p class="MsoStep">فعالیت</p>
+
+<p class="MsoNormal">۱. در شکل مقابل \( DE \parallel BC \).</p>
+<br>
+<p class="MsoNormal">(الف) تناسب قضیه تالس را بنویسید.</p>
+<br>
+<p class="MsoNormal">(ب) به کمک ترکیب نسبت در مخرج تناسب \( \dfrac{AD}{AB} = \dfrac{AE}{AC} \) را نتیجه بگیرید.</p>
+<br>
+<p class="MsoNormal">(پ) به کمک تفصیل نسبت در صورت از تناسب به‌دست آمده در (ب) تناسب 
+$\dfrac{DB}{AB} = \dfrac{EC}{AC}$
+را نتیجه بگیرید.</p>
+
+
+<br>
+
+
+<p class="MsoNormal">توجه کنید که تناسب‌های به‌دست آمده در (ب) و (ج) صورت‌های دیگر قضیه تالس‌اند.</p>
+
+<br><br>
+
+<p class="MsoNormal">۲. 
+    در مثلث \( ABC \) پاره‌خط \( DE \) موازی ضلع \( BC \) است. ابتدا تناسب قضیه تالس را بنویسید.</p>
+<p class="MsoNormal">سپس با توجه به ویژگی‌های تناسب و تکمیل تساوی‌های زیر، تناسب‌های دیگری را از قضیه تالس نتیجه بگیرید.</p>
+
+
+<br><br>
+
+<div class="custom-scrollbar" style="overflow-y: hidden; overflow-x:auto;direction:ltr;">
+    <p class="MsoNormal"> 
+        $$
+        \dfrac{AD}{DB} = \ . . .  \ \Rightarrow
+        \begin{cases} 
+        \dfrac{DB}{DA} = \ . . .  \quad \dfrac{BD}{BA} = \ . . .  \quad  \dfrac{AB}{BD} = \dots \\\\
+        \dfrac{AD}{AB} = \ . . . \quad \dfrac{AB}{AD} = \ . . .  \\\\
+        \end{cases}
+        $$
+        </p>
+
+</div>
+
+
+<br><br>
+
+<p class="MsoNormal">۳. الف) در شکل پاره‌خط‌های \( DE \) و \( BC \) موازی‌اند. با توجه به قضیه تالس داریم:</p>
+
+<p class="MsoNormal">
+$$
+\dfrac{AD}{AB} = \ . . . 
+$$
+</p>
+
+<br>
+
+<p class="MsoNormal">ب) پاره‌خط \( EF \) را موازی \( AB \) رسم می‌کنیم. بنابراین داریم:</p>
+
+<p class="MsoNormal">
+$$
+\dfrac{BF}{BC} = \ . . . 
+$$
+</p>
+
+<br>
+
+<p class="MsoNormal">پ) با توجه به قسمت‌های (الف) و (ب) داریم:</p>
+
+<p class="MsoNormal">
+$$
+\dfrac{AD}{AB} = \dfrac{ \quad }{AC} =  \dfrac{ \quad }{BC}
+$$
+</p>
+
+<br>
+
+<p class="MsoNormal">ت) چهارضلعی \( DEFB \) چه نوع چهارضلعی‌ای است؟</p>
+
+<p class="MsoNormal">پاره‌خط \( BF \) با کدام پاره‌خط برابر است؟</p>
+
+<p class="MsoNormal">
+$$
+BF =
+$$
+</p>
+<br>
+<p class="MsoNormal">ث) با توجه به قسمت‌های (ب) و (ت) داریم:</p>
+
+<p class="MsoNormal">
+    $$
+    \dfrac{AD}{AB} = \dfrac{ \quad }{AC} =  \dfrac{ \quad }{BC}
+    $$
+    </p>
+<br>
+    <p class="MsoNormal">این رابطه تعمیم قضیهٔ تالس است.</p>
+
+
+<br><hr><br>
+
+<p class="MsoStep">کار در کلاس</p>
+
+<p class="MsoNormal">در شکل پاره‌خط \( PQ \) موازی با ضلع \( BC \) است. درستی یا نادرستی هر عبارت را مشخص کنید.</p>
+
+
+  <div class="MsoNormal" style="text-align: left; direction: ltr;">
+<br>
+
+    <p>الف) 
+        $
+        \dfrac{AP}{PB} = \dfrac{AQ}{QC} = \dfrac{PQ}{BC}
+        $
+        </p>
+        <br>
+        <p>ب) 
+        $
+        \dfrac{AP}{AB} = \dfrac{AQ}{AC} = \dfrac{PQ}{BC}
+        $
+        </p>
+        <br>
+        <p>پ) 
+        $
+        \dfrac{PB}{AP} = \dfrac{QC}{AC}
+        $
+        </p>
+        <br>
+        <p>ت) 
+        $
+        \dfrac{PB}{AB} = \dfrac{QC}{AC} = \dfrac{PQ}{BC}
+        $
+        </p>
+        <br>
+        <p>ث) 
+        $
+        \dfrac{PB}{AB} = \dfrac{QC}{AC}
+        $
+        </p>
+        <br>
+        <p>ج) 
+        $
+        \dfrac{AB}{AP} = \dfrac{AC}{AQ} = \dfrac{BC}{PQ}
+        $
+        </p>
+    
+
+  </div>
+
+
+
+
+<br><hr><br>
+<p class="MsoNormal">اگر فرض و حکم یک قضیه را جابه‌جا کنیم، آنچه حاصل می‌شود «عکس قضیه» است. عکس یک قضیه می‌تواند درست یا نادرست باشد.</p>
+<br><hr><br>
+
+
+
+<p class="MsoNormal">در مثال‌های زیر قضیه و عکس آن آمده است.</p>
+
+
+<br>
+
+
+<p class="MsoStep">مثال ۱ :
+</p>
+
+<p class="MsoNormal"><b>قضیه:</b> اگر یک چهارضلعی متوازی‌الاضلاع باشد، آنگاه قطرهایش یکدیگر را نصف می‌کنند.</p>
+
+<br>
+<p class="MsoNormal"><b>عکس قضیه:</b> اگر در یک چهارضلعی قطرها یکدیگر را نصف کنند، آنگاه آن چهارضلعی متوازی‌الاضلاع است.</p>
+
+
+<br><br>
+
+
+<p class="MsoStep"> مثال ۲ :</p>
+
+<p class="MsoNormal"><b>قضیه:</b> اگر دو ضلع از یک مثلث با هم برابر باشند، آنگاه ارتفاع‌های وارد بر آن دو ضلع نیز با هم برابرند.</p>
+
+<br>
+
+<p class="MsoNormal" style="direction: ltr;">
+    فرض: \( AB = AC \)
+<br>
+    حکم: \( BH = CH' \)
+</p>
+
+
+<br>
+
+<p class="MsoNormal"><b>عکس قضیه:</b> اگر دو ارتفاع از یک مثلث با هم برابر باشند، آنگاه اضلاع متناظره آن ارتفاع‌ها نیز با هم برابرند.</p>
+
+<br>
+
+<p class="MsoNormal" style="direction: ltr;">
+    فرض:\( BH = CH' \)
+<br>
+حکم: \( AB = AC \)</p>
+
+<br>
+
+<p class="MsoNormal"><b>مثال ۳:</b> در قضیهٔ تالس فرض و حکم به صورت زیر است.</p>
+<br>
+<p class="MsoNormal" style="direction: ltr;">
+    فرض:
+     $ DE \parallel BC $
+<br>
+حکم :
+$
+\dfrac{AD}{DB} = \dfrac{AE}{EC}
+$
+</p>
+
+<br><br>
+<p class="MsoNormal">با توجه به آنچه گفته شد، فرض و حکم عکس قضیهٔ تالس را بنویسید.</p>
+<br>
+<p class="MsoNormal">
+    فرض:
+<br>
+    حکم:
+</p>
+
+
+<br><br>
+
+<p class="MsoNormal">
+    به عبارت دیگر، عکس قضیهٔ تالس می‌گوید هر گاه پاره‌خط \( DE \) مانند شکل، پاره‌خط‌های \( AB \) و \( AC \) را به گونه‌ای قطع کرده باشد که داشته باشیم:
+    $
+    \dfrac{AD}{DB} = \dfrac{AE}{EC}
+    $
+
+    ،
+    در این صورت، پاره‌خط \( DE \) موازی پاره‌خط \( BC \) است. به نظر شما عکس قضیهٔ تالس درست است یا نه؟ کمی بعد به بررسی این مسئله خواهیم پرداخت.
+    </p>
+    
+    <br>
+
+    <p class="MsoNormal">
+        معمولاً برای نوشتن عکس قضیه، قسمت اصلی فرض با حکم جابه‌جا می‌شود و قسمت‌هایی از فرض ممکن است هم در قضیه و هم در عکس آن ثابت باشند؛ مثلاً در مثال قبل، مثلث بودن \( ABC \) هم در خود قضیه و هم در عکس آن جزو مفروضات است.
+        </p>
+        
+
+        <br><hr>
+
+ <p class="MsoBold">
+برهان خلف
+ </p>
+
+
+
+ <p class="MsoNormal">
+    نوعی از استدلال که در مسائل ریاضی و هندسی از آن استفاده می‌شود، 
+    <b>برهان غیرمستقیم</b>
+     یا 
+    <b>برهان خلف</b>
+     است. در برهان خلف، به‌جای اینکه به‌طور مستقیم از فرض شروع کنیم و به درستی حکم برسیم، فرض می‌کنیم حکم درست نباشد (فرض خلف) و به یک تناقض یا یک نتیجهٔ غیرممکن می‌رسیم و به این ترتیب، فرض خلف باطل و درستی حکم ثابت می‌شود.
+    </p>
+    
+    <br><hr><br>
+
+
+    <p class="MsoNormal" style="direction: ltr;text-align: center;">
+        
+<b>مسئله</b>
+<br>
+        (فرض)  $A$ 
+        $ \Rightarrow$
+        (حکم)  $B$
+
+    </p>
+<br>
+    <p class="MsoSemi">اثبات به روش برهان خلف:</p>
+
+
+    <br>
+
+
+    <img src="
+    " alt="">
+
+
+
+    <p class="MsoNormal">
+        پس نتیجه می‌گیریم حکم \( B \) درست است، زیرا در صورت نادرستی \( B \)، طبق استدلال فوق به یکی از نتایج ۱ یا ۲ می‌رسیم که هیچ‌کدام نمی‌تواند اتفاق بیفتد.
+        </p>
+        
+<br><hr><br>
+
+
+<p class="MsoNormal"><b>مثال:</b> اگر \( n \in \mathbb{N} \) و 
+    \( n^2 \) عددی فرد باشد، آنگاه \( n \) نیز عددی فرد است.</p>
+
+
+<br>
+
+
+<p class="MsoNormal"><b>حل:</b></p>
+
+<p class="MsoNormal">
+با استفاده از برهان خلف فرض کنیم حکم مسئله نادرست باشد؛ یعنی \( n \) عددی فرد نباشد. بنابراین
+ \( n \) عددی زوج خواهد بود و می‌توان 
+
+نوشت \( n = 2k \) به‌طوری که \( k \) یک عدد طبیعی باشد.</p>
+
+
+
+<p class="MsoNormal">
+    بنابراین
+    $
+    n^2 = (2k)^2 = 4k^2 = 2(2k^2)
+    $
+    که عددی زوج است و با فرض مسئله در تناقض است. لذا از ابتدا \( n \) نمی‌توانست عددی زوج باشد.
+    </p>
+    
+
+<br><hr><br>
+
+
+    <p class="MsoNormal"><b>مثال:</b> فرض کنیم \( AD \) نیمساز زاویه \( A \) از مثلث \( ABC \) باشد. اگر \( BD \neq DC \) باشد، آن‌گاه \( AC \neq AB \).</p>
+
+
+    <br>
+    <p class="MsoNormal"><b>حل:</b></p>
+    
+    <p class="MsoNormal">با استفاده از برهان خلف فرض می‌کنیم حکم نادرست باشد.</p>
+    
+
+
+
+
+    <p class="MsoNormal">
+    بنابراین داریم \( AB = AC \) (فرض خلف). در این صورت خواهیم داشت:
+    $
+    ABD \approxeq \triangle ACD
+    $
+    (چرا؟)
+    
+    . از این هم‌نهشتی نتیجه خواهد شد \( BD = DC \) است، که با فرض مسئله در تناقض است. لذا از ابتدا فرض \( AB = AC \) نادرست بوده است. بنابراین \( AB \neq AC \) است.
+    </p>
+    
+    <p class="MsoNormal">
+    حال می‌خواهیم با استفاده از برهان خلف درستی عکس قضیهٔ تالس را ثابت کنیم.
+    </p>
+
+    
+
+
+
+
+
+
+    <br><hr><br>
+    <p class="MsoNormal">
+        با استفاده از برهان خلف فرض می‌کنیم حکم نادرست باشد.
+        </p>
+        
+        <p class="MsoNormal">
+        بنابراین داریم \( AB = AC \) (فرض خلف). در این صورت خواهیم داشت:
+        $$
+         A \overset{\triangle}{B}D \approxeq A \overset{\triangle}{C}D
+        $$
+        (برهان؟). از این هم‌نهشتی نتیجه خواهد شد \( BD = DC \) است، که با فرض مسئله در تناقض است. لذا از ابتدا فرض \( AB = AC \) نادرست بوده است. بنابراین \( AB \neq AC \) است.
+        </p>
+        <br>
+        <p class="MsoNormal">
+        حال می‌خواهیم با استفاده از برهان خلف درستی عکس قضیهٔ تالس را ثابت کنیم.
+        </p>
+        
+<br><hr><br>
+            <p class="MsoNormal">
+                <b>عکس قضیهٔ تالس:</b> مانند شکل مقابل، در مثلث \( ABC \)، اگر 
+                $
+                \dfrac{AE}{EC} = \dfrac{AD}{DB}
+                $
+                آنگاه \( DE \parallel BC \).
+                </p>
+<br><hr><br>
+
+
+<p class="MsoNormal"><b>اثبات:</b> 
+    
+    <br>
+
+
+    با استفاده از برهان خلف فرض می‌کنیم حکم مسئله غلط باشد؛ یعنی \( DE \not\parallel BC \).</p>
+
+
+
+    
+
+    <p class="MsoNormal">
+        لذا از نقطه \( D \) خطی موازی \( BC \) رسم می‌کنیم تا \( AC \) را در نقطه‌ای مانند \( E' \) قطع کند. طبق قضیهٔ تالس داریم
+        $
+        \dfrac{AE'}{E'C} = \dfrac{AD}{DB}
+        $
+        و از مقایسه با فرض مسئله خواهیم داشت:
+        $
+        \dfrac{AE}{EC} = \dfrac{AE'}{E'C}
+        $
+
+            حال با ترکیب نسبت در مخرج داریم
+            $ \dfrac{AE}{AC} = \dfrac{AE'}{AC} $
+
+            و در نتیجه \( AE = AE' \). این یعنی نقطه \( E \) بر \( E' \) منطبق است و لذا \( DE' \) همان \( DE \) است، و این یک تناقض است زیرا \( DE' \parallel BC \) و \( DE \not\parallel BC \) است. بنابراین از ابتدا فرض غلط بودن حکم نادرست بوده است و حکم نمی‌تواند غلط باشد، یعنی \( DE \parallel BC \) است.
+            </p>
+            
+
+            <br><hr>
+
+            <p class="MsoBold">قضیه‌های دو شرطی</p>
+
+<p class="MsoNormal">
+همان‌گونه که دیدیم، قضیهٔ تالس و عکس آن هر دو درست‌اند؛ بنابراین برای مثلثی مانند \(  A \overset{\triangle}{B}C \) در شکل مقابل، می‌توان هر دوی آنها را به‌صورت زیر بیان کرد:
+</p>
+
+<p class="MsoNormal" style="text-align: center;">
+اگر :
+$
+\dfrac{AD}{DB} = \dfrac{AE}{EC}
+$
+آنگاه 
+:
+$ DE \parallel BC $  و برعکس
+</p>
+
+<br><br>
+<p class="MsoNormal">
+    چنین قضیه‌هایی را 
+    <b>قضیه‌های دو شرطی</b>
+     می‌نامیم. قضیه‌های دو شرطی را با نماد \( \Leftrightarrow \) 
+    (که اگر و تنها اگر خوانده می‌شود) بیان کرد.
+    </p>
+    <br>
+    <p class="MsoNormal">
+    به‌طور مثال، قضیهٔ فوق و عکس آن را می‌توان به‌صورت زیر بیان کرد:
+    </p>
+    
+    <p class="MsoNormal">
+    فرض کنیم \( ABC \) یک مثلث و نقاط \( D \) و \( E \) به ترتیب روی \( AB \) و \( AC \) باشند. در این صورت:
+    </p> 
+    
+    <p class="MsoNormal">
+        $$
+        \dfrac{AD}{DB} = \dfrac{AE}{EC} \Leftrightarrow DE \parallel BC
+        $$
+        </p>
+        
+
+        <br>
+
+
+        <p class="MsoNormal">در ادامه مثال‌هایی از قضایای دو شرطی ملاحظه خواهید کرد.</p>
+
+
+        <br><br>
+
+
+
+        <p class="MsoNormal"><b>مثال:</b> در یک مثلث دو ضلع برابرند؛ اگر و تنها اگر زاویه‌های روبه‌رو به آنها باهم برابر باشند.</p>
+
+        <br>
+<p class="MsoNormal"><b>مثال:</b> در مثلث متساوی‌الاضلاع، یک پاره‌خط نیمساز است؛ اگر و تنها اگر میانه باشد.</p>
+
+<br><hr><br>
+
+<p class="MsoStep">کار در کلاس</p>
+
+<p class="MsoNormal">
+با توجه به قضیهٔ فیثاغورس، اگر زاویهٔ \( A \) از مثلثی مانند \( ABC \) قائمه باشد، آنگاه:
+$
+a^2 = b^2 + c^2 
+$ .
+</p>
+<br>
+<p class="MsoNormal">الف) عکس این قضیه را بنویسید.</p>
+
+<br>
+<p class="MsoNormal">
+    ب) با انجام مراحل زیر نتیجه بگیرید که عکس قضیهٔ فیثاغورس نیز درست است.
+    </p>
+    <br>
+<ul class="MsoNormal">
+    <p class="MsoNormal">
+        ۱- فرض کنیم مثلث \( ABC \) داده شده است و رابطهٔ 
+        $
+        a^2 = b^2 + c^2
+        $
+        بین اندازهٔ اضلاع آن برقرار است.
+        </p>
+        
+    
+        <p class="MsoNormal">
+            ۲- پاره‌خط‌های \( A'B' \) و \( A'C' \) را مطابق شکل مقابل به‌گونه‌ای در نظر بگیرید که 
+            $
+            \hat{A'} = 90^0
+            $
+            در این صورت 
+            $ A'C' = AC $
+            و 
+            $ A'B' = AB $
+              است.
+            </p>
+            <p class="MsoNormal">
+                ۳- با استفاده از قضیهٔ فیثاغورس در مثلث \( A'B'C' \)، اندازهٔ پاره‌خط \( B'C' \) را به‌دست آورید و ثابت کنید \( B'C' = BC \).
+                </p>
+        <p class="MsoNormal">
+            ۴- توضیح دهید چرا \(  A \overset{\triangle}{B}C \approxeq  A' \overset{\triangle}{B'}C' \) و نتیجه بگیرید \( \hat{A} = 90^0 \).
+            </p>
+</ul>
+        <br>
+        <p class="MsoNormal">
+        ج) قضیهٔ فیثاغورس و عکس آن را به‌صورت یک قضیهٔ دو شرطی بیان کنید.
+        </p>
+        
+        <br><hr><br>
+
+        <p class="MsoSemi">مثال نقض</p>
+
+        <br>
+    <p class="MsoNormal">
+    نوع دیگری از استدلال که در پایه‌های قبل نیز تا حدودی با آن آشنا شده‌اید، استدلال با مثال نقض است. 
+    استدلال با مثال نقض این‌گونه است: اگر فردی ادعا کند که «همهٔ اعداد فرد، اول‌اند»، این یک حکم کلی دربارهٔ تمام اعداد فرد است و ارائهٔ عدد $9$ به عنوان عددی که فرد و غیر اول است، برای رد این ادعا کافی است. 
+    به چنین مثالی که برای رد یک حکم کلی استفاده می‌شود، مثال نقض می‌گوییم.
+    </p>
+
+<br>
+
+<p class="MsoNormal">
+    به عنوان مثالی دیگر، فرض کنیم فردی ادعا کند که «هیچ فرد ایرانی‌ای تا به حال مدال فیلدز نگرفته است».
+    در این صورت، شما برای رد ادعای او چه می‌توانید بگویید؟ اگر شما حتی یک فرد ایرانی را که مدال فیلدز گرفته است، برای او مثال بزنید، در این صورت ادعای او باطل شده است و در واقع شما با استفاده از یک مثال نقض، ادعای او را باطل کرده‌اید.
+    </p>
+    
+<br>
+
+<p class="MsoNormal">
+    با دقت در ادعای مطرح‌شده خواهیم دید که کلمهٔ «هیچ» در این حکم باعث می‌شود که این ادعا یک حکم کلی برای تمام اعضای یک مجموعه (که در اینجا مجموعهٔ افراد ایرانی است) باشد. بنابراین در این مورد نیز آوردن یک مثال نقض کافی است تا آن حکم رد شود و به‌عبارتی غلط بودن آن حکم اثبات گردد.
+    </p>
+    
+
+
+    <br>
+
+    <p class="MsoNormal">در ادامه نمونه‌هایی از حکم‌های کلی آمده‌اند:</p>
+
+<p class="MsoNormal">الف) همهٔ اعداد اول فردند. (حکم کلی دربارهٔ تمام اعداد اول)</p>
+
+<p class="MsoNormal">ب) «در هر مستطیل، اندازهٔ قطرها باهم برابر است.» (حکم کلی دربارهٔ تمام مستطیل‌ها)</p>
+
+<p class="MsoNormal">پ) «برای هر عدد طبیعی \( n \)، مقدار عبارت \( n^2 + n + 41 \) عددی اول است.» (حکم کلی در مورد تمام اعداد طبیعی)</p>
+
+
+<br>
+
+<p class="MsoNormal">
+    دربارهٔ درستی یا نادرستی حکم «الف»، چه حدسی می‌زنید؟ چگونه می‌توانید حدس خود را ثابت کنید؟
+    </p>
+    <br>
+    <p class="MsoNormal">
+    می‌دانیم که $2$ یک عدد اول و زوج است، بنابراین حکم کلی «الف» با ارائهٔ همین مثال نقض رد می‌شود.
+    </p>
+    <br>
+    <p class="MsoNormal">
+    دربارهٔ درستی یا نادرستی حکم‌های «ب» و «پ» چه حدس‌هایی می‌زنید؟ آیا می‌توانید برای آنها مثال نقض بیاورید و آنها را باطل کنید؟
+    </p>
+    
+<br>
+
+<p class="MsoNormal">
+    اگر برای یک حکم کلی نتوانیم مثال نقض ارائه کنیم، دربارهٔ درستی یا نادرستی آن حکم چه می‌توان گفت؟ آیا در این حالت درستی حکم را باید پذیرفت؟
+    </p>
+    <br>
+    <p class="MsoNormal">
+    برای قسمت (ب) مثال نقض وجود ندارد؛ اما این برای پذیرش این حکم کافی نیست و باید توجه کرد که برای نشان دادن درستی یک حکم کلی، باید آن را 
+   اثبات کنیم
+    .
+    </p>
+    
+<br>
+    <p class="MsoNormal">
+        دربارهٔ گزینه (ب) چه می‌توان گفت؟
+        </p>
+    <br>
+        <p class="MsoNormal">
+        اگر درستی یا نادرستی یک حکم کلی بر ما مشخص نباشد و برای رد آن، مثال نقض نیز نتوانیم ارائه دهیم، نمی‌توان دربارهٔ درستی یا نادرستی آن حکم کلی نتیجه‌ای گرفت.
+        </p>
+        
+
+<br><hr><br>
+
+<p class="MsoStep">تمرین</p>
+
+<p class="MsoNormal">
+۱ در شکل مقابل، مساحت مثلث قائم‌الزاویهٔ \( ABC \) را به دو روش محاسبه کنید و از تساوی دو عبارت به‌دست‌آمده برای مساحت مثلث، یک تناسب به‌دست آورید.
+</p>
+<br><br>
+<p class="MsoNormal">
+    ۲. در هر مورد، مقدار عددی نسبت \( \dfrac{a}{b} \) را به‌دست آورید.
+    </p>
+
+      <div class="MsoNormal" style="text-align: left;direction: ltr;">
+    <br>
+        <p >
+            الف)  
+            $
+            \dfrac{a}{10 + a} = \dfrac{b}{ 8 + b}
+            $
+            </p>
+            <br>
+            <p>
+            ب)  
+            $
+            \dfrac{ 3a + 10}{10 + 2a} = \dfrac{ 3b + 7}{ 7+ 2b}
+            $
+            </p>
+
+      </div>
+    
+
+
+      <br><br>
+
+      <p class="MsoNormal">
+        ۳. ثابت کنید در هر مثلث، پاره‌خطی که وسط‌های دو ضلع مثلث را به هم وصل کند، با ضلع سوم موازی و مساوی نصف آن است.
+        </p>
+        
+
+<br><br>
+
+<p class="MsoNormal">
+    ۴. در شکل مقابل \( PQ \parallel BC \) است. طول پاره‌خط‌های \( AP \) و \( PQ \) را به‌دست آورید.
+    </p>
+    
+<br><br>
+
+<p class="MsoNormal">
+    ۵. در شکل مقابل \( ST \parallel BC \) است. مقادیر \( x \) و \( y \) را به‌دست آورید.
+    </p>
+    <br><br>
+    
+    <p class="MsoNormal">
+        ۶. در ذوزنقه مقابل \( AB \parallel ST \parallel DC \) است. ثابت کنید:
+        </p>
+        
+        <p class="MsoNormal">
+        $$
+        \dfrac{AS}{SD} = \dfrac{BT}{TC}
+        $$
+        </p>
+        
+        <p class="MsoNormal">
+        <b>راهنمایی
+            :
+        </b> یکی از قطرها را رسم کنید.
+        </p>
+        
+
+        <br><br>
+
+        <p class="MsoNormal">
+            ۷.
+             در هر مورد با عوض کردن جای فرض و حکم عکس آنچه را داده شده است، بنویسید.
+            </p>
+          <ul class="MsoNormal">
+          
+  <br>
+            <p class="MsoNormal">
+                الف) اگر در مثلثی سه ضلع برابر باشند، آنگاه سه زاویه نیز برابر خواهند بود.
+                </p>
+                <br>
+                <p class="MsoNormal">
+                ب) اگر در یک چهارضلعی اضلاع روبه‌رو موازی باشند، در این صورت زوایای مقابل با هم برابرند.
+                </p>
+<br>
+                <p class="MsoNormal">
+                    پ) اگر رأس‌های یک چهارضلعی روی یک دایره قرار داشته باشند، در این صورت زوایای مقابل آن چهارضلعی مکمل‌اند.
+                    </p>
+                    <br>
+                    <p class="MsoNormal">
+                    ت) در یک مثلث اگر دو ارتفاع برابر باشند، «ضلع متناظر به ارتفاع بزرگ‌تر» کوچکتر است از «ضلع مقابل به ارتفاع کوچکتر».
+                    </p>
+                    <br>
+                    <p class="MsoNormal">
+                   <b>راهنمایی :</b> شکل بکشید و به زبان ریاضی بنویسید.
+                    </p>
+
+                    
+          </ul>
+            
+
+          <br><br>
+
+          <p class="MsoNormal">
+            ۸. با برهان خلف ثابت کنید نمی‌توان از یک نقطه غیرواقع بر یک خط، دو عمود بر آن خط رسم کرد.
+            </p>
+            
+            <br><br>
+            <p class="MsoNormal">
+                9.
+            هر یک از حکم‌های کلی زیر را با یک مثال نقض رد کنید.
+            </p>
+            
+            <br>
+
+    <ul class="MsoNormal">
+        <p class="MsoNormal">
+            الف) هیچ عدد اول بزرگ‌تر از $۱۲۷$ وجود ندارد.
+            </p>
+            <br>
+            <p class="MsoNormal">
+            ب) مساحت هر مثلث از مساحت هر مربع بیشتر است.
+            </p>
+            <br>
+            <p class="MsoNormal">
+                پ) در هر مثلث اندازه هر ضلع از اندازه هر ارتفاع بزرگ‌تر است.
+                </p>
+       <br>
+                <p class="MsoNormal">
+                ت) در هر مثلث میانه و عمودمنصف متناظر به هر ضلع بر هم منطبق‌اند.
+                </p>
+                
+    </ul>
+
+
+<br><br>
+
+
+
+    <br><br><br><br><br><br><br><br><br><br>
+</body>
+
+
+</html>

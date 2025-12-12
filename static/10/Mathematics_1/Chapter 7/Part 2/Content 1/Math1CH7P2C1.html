@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #badaff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .box {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+    <body class="custom-scrollbar">
+
+
+        <div class="MsoBold">درس دوم:<br> مقدمه‌ای بر علم آمار، جامعه و نمونه</div>
+<hr><br>
+        <p class="MsoNormal">
+        آیا تاکنون به نقش اعداد و ارقام در زندگی روزمره‌ی یک خانواده فکر کرده‌اید؟
+        </p>
+        <br>
+        <p class="MsoNormal">
+        خانواده‌ای را که شامل پدر، مادر و فرزندان است، در نظر بگیرید. اعضای این خانواده در فصل بهار، می‌خواهند به یک مسافرت تفریحی به یکی از شهرهای کشور بروند.
+        </p>
+        <br>
+        <p class="MsoNormal">
+        برای این منظور پدر و مادر خانواده با پیگیری اخبار هواشناسی، به دنبال تعیین مناسب‌ترین زمان برای مسافرت خود هستند. در این اخبار، کارشناس هواشناسی می‌گوید:
+        </p>
+        <br>
+
+        <div class="box">
+            «براساس اعداد و ارقام جمع‌آوری شده، دمای هوا، رطوبت جوی و بارش باران طی دو روز گذشته و با استفاده از روش‌های مدل‌بندی هواشناسی، پیش‌بینی می‌شود، دمای هوا طی سه روز آینده ۵ درجه گرم‌تر شود و بدون تغییر در میزان رطوبت جوی، هوا صاف و آفتابی باشد.»
+        </div>
+        <br>
+
+        <p class="MsoNormal">آنها پس از شنیدن این گزارش، تصمیم می‌گیرند سه روز آینده را برای مسافرت انتخاب کنند.</p>
+        <br>
+        <p class="MsoNormal" >
+        بنابراین هرچه اطلاعات دقیق‌تر و کامل‌تر باشد و از روش‌های مناسب‌تری برای پیش‌بینی استفاده شود، تصمیم‌گیری‌های بهتری در خانواده گرفته می‌شود.
+        </p>
+        <br>
+        <div class="box">
+            <b>تعریف آمار و علم آمار:</b> 
+            <br>
+            <span>آمار</span> مجموعه‌ای از اعداد، ارقام و اطلاعات است. 
+            <b>علم آمار</b> مجموعه روش‌هایی است که شامل جمع‌آوری اعداد و ارقام، سازمان‌دهی و نمایش، تحلیل و تفسیر داده‌ها و در نهایت نتیجه‌گیری، قضاوت و پیش‌بینی مناسب در مورد پدیده‌ها و آزمایش‌های تصادفی می‌شود.
+        </div>
+        
+        <br><hr><br>
+
+        <div class="MsoStep">کار در کلاس</div>
+
+        <p class="MsoNormal"><b>۱)</b> در پیرامون خود، مثال‌هایی را از تصمیم‌گیری یا پیش‌بینی بر اساس اعداد و ارقام بیاورید.</p>
+        <br>
+        <p class="MsoNormal"><b>۲)</b> مراحل علم آمار را در شکل زیر کامل کنید.</p>
+        <br>
+        <p class="MsoNormal"><b>۳)</b> با درنظر گرفتن اخبار هواشناسی مراحل علم آمار را در شکل زیر کامل کنید.</p>
+        <br>
+        <p class="MsoNormal"><b>۴)</b> تفاوت آمار و علم آمار در چیست؟</p>
+        <br>
+        <p class="MsoNormal"><b>۵)</b> مدیر کارخانه‌ای برای پیدا کردن تعداد لامپ‌های معیوب در یک ماه آینده، می‌خواهد یک تحقیق آماری انجام دهد. برای این منظور تعداد لامپ‌های معیوب را در چند روز کاری به صورت زیر جمع‌آوری کرده است.</p>
+        <br>
+        <table class="table" style="text-align: center; width:fit-content; margin:auto;">
+            <tr>
+                <th>تعداد لامپ‌های معیوب</th>
+                <th>روزهای کاری</th>
+            </tr>
+            <tr>
+                <td>۵۰</td>
+                <th>روز کاری اول</th>
+            </tr>
+            <tr>
+                <td>۷۰</td>
+                <th>روز کاری دوم</th>
+            </tr>
+            <tr>
+                <td>۹۰</td>
+                <th>روز کاری سوم</th>
+            </tr>
+            <tr>
+                <td>۱۲۰</td>
+                <th>روز کاری چهارم</th>
+            </tr>
+            <tr>
+                <td>۱۸۰</td>
+                <th>روز کاری پنجم</th>
+            </tr>
+        </table>
+        
+        
+        <br>      
+        <br>
+        <p class="MsoNormal">براساس داده‌های به‌دست آمده، به سوالات زیر پاسخ دهید:</p>
+        <br>
+        <p class="MsoNormal"><b>(الف)</b> روند تغییر اعداد و ارقام در این تمرین نشان‌دهنده چه چیزی است؟</p>
+        <br>
+        <p class="MsoNormal"><b>(ب)</b> در این تمرین چه چیزی به عنوان آمار محسوب می‌شود؟</p>
+        <br>
+        <p class="MsoNormal"><b>(پ)</b> بهترین تصمیمی که مدیر کارخانه بر اساس "علم آمار" می‌تواند بگیرد، چیست؟</p>
+      
+        <p class="MsoNormal">
+        □ توقف یا اصلاح خط تولید لامپ‌ها <br>
+        □ ادامه خط تولید لامپ‌ها
+        </p>
+        
+        <br><br>
+
+        <p class="MsoNormal"><b>۶)</b> کدام جمله درست و کدام جمله نادرست است:</p>
+        <br>
+        <p class="MsoNormal"><b>(الف)</b> اولین قدم در استفاده از «علم آمار»، جمع‌آوری داده‌هاست. ..........</p>
+        <br>
+        <p class="MsoNormal"><b>(ب)</b> پیش‌بینی و تصمیم‌گیری برای آینده، نتیجهٔ استفاده از «علم آمار» است. ..........</p>
+        <br>
+        <p class="MsoNormal"><b>(پ)</b> «علم آمار»، همان اعداد و ارقام است. ..........</p>
+        <br><br>
+        <p class="MsoNormal"><b>۷)</b> به شکل روبرو توجه کنید: آیا این شکل را می‌توان به اعداد و ارقام تبدیل کرد؟ اعداد و ارقام آن چگونه‌اند؟ برای پاسخ به این سوالات، کاربرد علم آمار در مهندسی کامپیوتر را مطالعه کنید.</p>
+        
+        <br><br>
+
+
+        <p class="MsoNormal"><b>۸)</b> جدول سمت راست، جدول عددی شکل سمت چپ نامیده می‌شود. اگر رنگ سبز را با عدد $3$، رنگ زرد را با عدد $2$، رنگ قرمز را با عدد $1$ و رنگ مشکی را با عدد صفر نشان دهیم؛ جدول عددی و شکل زیر را کامل کنید.</p>
+
+        <br><hr><br>
+
+
+        <div class="box">
+             <p class="MsoStep">
+                <b>برای مطالعه</b>
+             </p>
+            <b >کاربرد علم آمار در مهندسی کامپیوتر (پردازش تصویر)</b>
+     
+             <hr style="background-color: #000000 ;"><br>
+        <p class="MsoNormal">
+        هر تصویر از تعداد زیادی مربع‌های کوچک تشکیل شده است. هر یک از این مربع‌های کوچک (پیکسل) نام دارند و به هر پیکسل می‌توان یک عدد را نسبت داد که بیانگر مقدار روشنایی آن است.
+        </p>
+        <br>
+        <p class="MsoNormal">
+        در واقع هر تصویر از یک <span >جدول عددی</span> تشکیل می‌شود که هر یک از اعداد، مقدار روشنایی هر پیکسل را نشان می‌دهند. جدول مربوط به هر تصویر را به راحتی می‌توان به دست آورد. در اینجا نکته‌ حائز اهمیت، کاربرد <b>«پردازش تصویر»</b> است.
+        </p>
+        <br>
+        <p class="MsoNormal">
+        «پردازش تصویر» یکی از موضوعات بسیار مهم در مهندسی کامپیوتر محسوب می‌شود. رشد استفاده از پردازش تصویر در سیستم‌های «کنترل هوشمند سرعت»، «خواندن اتوماتیک پلاک خودرو در طرح‌های زوج و فرد»، «ثبت تخلفات خودرو»، در سال‌های اخیر مشهور بوده است.
+        </p>
+        <br>
+        <p class="MsoNormal">
+        با استفاده از معیارهایی که در علم آمار وجود دارد، می‌توان به بررسی کیفیت تصاویر پرداخته و تصاویر مخدوش و نامناسب را با تصاویر حقیقی‌شان مقایسه کرد.
+        </p>
+    </div>
+
+
+
+    <br><hr>
+
+    <div class="MsoBold">جامعه و نمونه</div>
+
+    <hr><br>
+    <div class="MsoStep">فعالیت</div>
+    
+    <p class="MsoNormal"><b>(الف)</b> چاقی امروزه، به عنوان یکی از مسائل مهم و اساسی در زمینه سلامت افراد محسوب می‌شود. برای اطلاع بیشتر، کاربرد علم آمار در علم پزشکی را مطالعه کنید.</p>
+    <br>
+  
+
+
+    <div class="box">
+   <p class="MsoStep">
+
+    <b>برای مطالعه</b> 
+   </p>
+        <b>کاربرد علم آمار در پزشکی (چاقی)</b>
+
+    <hr style="background-color: black;">
+    <br>
+    <p class="MsoNormal">
+    یکی از کاربردهای علم آمار در علم پزشکی، بررسی موضوع چاقی است. برای اینکه میزان چاقی یک فرد را بسنجیم، از معیاری تحت عنوان «شاخص توده بدنی» استفاده می‌کنیم. این شاخص نسبت وزن افراد \( W \) برحسب کیلوگرم به توان دوم قد آنها \( H \) برحسب متر است که طبق رابطه زیر محاسبه می‌شود:
+    </p>
+    
+    <p class="MsoNormal">
+    $$ \text{BMI} = \frac{W_{kg}}{(H_{m})^2} $$
+    </p>
+    <br>
+    <p class="MsoNormal">بر اساس این شاخص، افراد به دسته‌های مختلفی طبقه‌بندی می‌شوند:</p>
+    <br>
+    <table class="table" style="border-collapse: collapse; width:max-content; margin:auto; text-align:center;">
+        <tr>
+            <th>طبقه‌بندی</th>
+            <th>شاخص توده بدن</th>
+        </tr>
+        <tr>
+            <td>کم‌وزن</td>
+            <td>کمتر از ۱۸.۵</td>
+        </tr>
+        <tr>
+            <td>وزن طبیعی</td>
+            <td>۱۸.۵ تا ۲۴.۹</td>
+        </tr>
+        <tr>
+            <td>اضافه‌وزن</td>
+            <td>۲۵ تا ۲۹.۹</td>
+        </tr>
+        <tr>
+            <td>چاقی درجه یک</td>
+            <td>۳۰ تا ۳۴.۹</td>
+        </tr>
+        <tr>
+            <td>چاقی درجه دو</td>
+            <td>۳۵ تا ۳۹.۹</td>
+        </tr>
+        <tr>
+            <td>چاقی درجه سه</td>
+            <td>بیشتر از ۴۰</td>
+        </tr>
+    </table>
+    <br><br>
+    <p class="MsoNormal">
+    بر اساس علم آمار، با استفاده از مدل‌های آماری مناسب، عوامل موثر بر شاخص توده بدن شناسایی می‌شود. به عنوان مثال، عواملی همچون «رژیم غذایی ناسالم» و «کم‌تحرکی» می‌توانند در بالا رفتن این معیار و ایجاد بیماری چاقی موثر باشند. 
+    </p>
+    <br>
+    <p class="MsoNormal">
+    بنابراین، امروزه با رشد تحقیق‌های صورت‌گرفته و استفاده از خوراکی‌های آماده، نیاز به استفاده از رژیم غذایی سالم، مصرف غذاهای مفید، و همچنین ورزش و فعالیت بدنی، بسیار ضروری است. به همین منظور، ورزش بیشتر و ایجاد برنامه‌های ورزشی در مدارس، گامی کوچک اما موثر در جهت سلامت افراد است.
+    </p>
+</div>
+
+
+<br><hr><br>
+
+
+
+        <div class="MsoStep">مثال ۱</div>
+
+        <p class="MsoNormal">
+        فرض کنید وزن شخصی $100$ کیلوگرم و قدش $1$ متر و $74$ سانتی‌متر باشد. شاخص توده بدن شخص، به‌صورت زیر است:
+        </p>
+
+        <p class="MsoNormal">
+        $$ \text{شاخص توده بدن} = \frac{100}{(1.74)^2} = 33.02 $$
+        </p>
+        <br>
+        <p class="MsoNormal"><b>۱)</b> با مراجعه به جدول موجود در کاربرد علم آمار و احتمال در پزشکی، دربارهٔ چاق بودن این شخص به چه نتیجه‌ای می‌رسید؟</p>
+        <br>
+        <p class="MsoNormal"><b>۲)</b> دربارهٔ چاق بودن خودتان و اعضای خانواده خود اظهار نظر کنید.</p>
+        <br><hr><br>
+
+<p class="MsoStep" style="opacity: 0.4;">
+    ادامه فعالیت
+</p>
+
+        <p class="MsoNormal"><b>ب)</b> شکل (الف)، افراد یک شهر را نشان می‌دهد که شامل افراد عادی و افراد چاق می‌باشد.</p>
+
+
+
+    <br>
+
+    <div class="box">
+        با هدف به دست آوردن آمار افراد چاق و درصد این افراد، فرض کنیم بخواهیم تعداد کل افراد چاق را که در این شهر زندگی می‌کنند، بشماریم یا به عبارت دیگر سرشماری کنیم.
+    </div>
+    <br>
+    <p class="MsoNormal">به نظر شما، این کار به سادگی انجام می‌شود؟</p>
+    <br>
+    <p class="MsoNormal">همان گونه که احتمالاً حدس زده‌اید، جمع‌آوری آمار تمام شهر، کار آسانی نیست. همان‌گونه که در شکل (الف) دیده می‌شود، به جای شماریش کل افراد این شهر، می‌توان تعدادی از افراد شهر را انتخاب کرد و براساس آن، پیش‌بینی کرد که چند درصد از افراد این شهر چاق‌اند.</p>
+    <br>
+    <p class="MsoNormal">به کمک افراد انتخابی از شهر در شکل (ب)، پیش‌بینی کنید که چند درصد افراد این شهر چاق‌اند.</p>
+    <br>
+    <p class="MsoNormal">
+    همان‌طور که می‌بینید این بار پاسخ به سوالات، با دقت بیشتر و آسان‌تر داده می‌شود و براحتی درصد افراد چاق در زیر مجموعه انتخابی قابل محاسبه است.
+    </p>
+    
+    <br><br>
+
+    <div class="box">
+        <b>تعریف جامعه یا جمعیت</b> <br>
+        مجموعهٔ تمام افراد یا اشیائی که دربارهٔ یک یا چند ویژگی آنها تحقیق صورت گیرد. <span>جامعه یا جمعیت</span> نامیده می‌شود و هریک از این افراد یا اشیاء را <span>عضو جامعه</span> می‌نامند.
+    </div>
+    <br>
+    <div class="box">
+        <b>تعریف اندازه یا حجم جامعه</b> <br>
+        تعداد اعضای جامعه را <span >اندازهٔ جامعه یا حجم جامعه</span> گویند. به عنوان مثال، دانش‌آموزان یک مدرسه می‌توانند یک جامعه باشند و هریک از دانش‌آموزان مدرسه عضو این جامعه هستند.
+    </div>
+    <br>
+    <div class="box">
+        <b>تعریف نمونه</b> <br>
+        بخشی از جامعه را که برای مطالعه انتخاب شود، <span >نمونه</span> گویند و هریک از افراد یا اشیاء انتخاب‌شده را <span >عضو نمونه</span> گویند.
+    </div>
+    <br>
+    <div class="box">
+        <b>تعریف اندازه یا حجم نمونه</b> <br>
+        تعداد اعضای نمونه را <span >اندازهٔ نمونه یا حجم نمونه</span> گویند. به عنوان مثال دانش‌آموزان یک کلاس به عنوان یک نمونه از دانش‌آموزان مدرسه هستند و هریک از دانش‌آموزان کلاس، عضو نمونه محسوب می‌شوند.
+    </div>
+
+
+
+    <br><hr><br>
+
+
+
+
+    <div class="MsoStep">کار در کلاس</div>
+    <p class="MsoNormal">در نمودار روبرو تعداد کل قطعات تولیدی دو کارخانه «الف» و «ب» مشخص شده است. برای شناسایی تعداد قطعات معیوب، نمونه‌هایی از تعداد کل قطعات تولیدی انتخاب شده که در نمودار روبرو ارائه شده است.</p>
+    <br>
+    <p class="MsoNormal">به کمک داده‌ها و ارقام موجود در نمودار، جدول صفحه بعد را کامل کنید.</p>
+    
+    
+    <table class="table" style="border-collapse: collapse; width: max-content;text-align:center">
+        
+        <tr>
+            <th>کارخانه ب</th>
+            <th>کارخانه الف</th>
+            <th>جامعه</th>
+            
+            
+        </tr>
+        <tr>
+            <td>$\quad$</td>
+            <td>قطعات تولیدی</td>
+            <th>عضو جامعه</th>
+            
+            
+        </tr>
+        <tr>
+            <td>$\quad$</td>
+            <td>$\quad$</td>
+            <th>اندازهٔ جامعه</th>
+            
+        </tr>
+        <tr>
+            <td>قطعات تولیدی انتخابی</td>
+            <td>$\quad$</td>
+            <th>نمونه</th>
+            
+        </tr>
+        <tr>
+            <td>$\quad$</td>
+            <td>۱۰۰۰</td>
+            <th>اندازهٔ نمونه</th>
+          
+        </tr>
+    </table>
+    
+    
+<br><br>
+
+
+
+<br><hr><br>
+
+        <p class="MsoStep"><b>تمرین</b></p>
+
+        <p class="MsoNormal">
+        ۱) می‌خواهیم دربارهٔ <span>کیفیت محصولات تولیدی</span> یک کارخانه، تحقیقی انجام دهیم. برای این منظور، از تعداد کل قطعات تولید شده در کارخانه که برابر با $10000$ قطعه است، $100$ قطعه انتخاب می‌شود. با توجه به اطلاعات موجود، جدول زیر را کامل کنید:
+        </p>
+<br>
+
+<table class="table" style="border-collapse: collapse; width: max-content; margin: auto;text-align:center;">
+    <tr>
+        <td>$\qquad \qquad$</td>
+        <th>جامعه</th>
+       
+       
+    </tr>
+    <tr>
+        
+        
+        <td>$\qquad \qquad$</td>
+        <th>اندازه جامعه</th>
+       
+    </tr>
+    <tr>
+        
+       
+        <td>$\qquad \qquad$</td>
+    
+        <th>اندازه نمونه</th>
+     
+    </tr>
+    <tr>
+        
+      
+        <td>$\quad \qquad$</td>
+
+        <th>ویژگی مورد بررسی</th>
+    </tr>
+</table>
+
+
+
+        <br><br>
+        <p class="MsoNormal"><b>۲)</b> کدام جمله درست و کدام جمله نادرست است:</p>
+        <br>
+        <p class="MsoNormal"><b>(الف)</b> اندازهٔ جامعه کمتر از اندازهٔ نمونه است. ..........................</p>
+        <p class="MsoNormal"><b>(ب)</b> اعضای نمونه، همان اعضای جامعه‌اند. ..........................</p>
+        <p class="MsoNormal"><b>(پ)</b> نمونه زیر مجموعه‌ای از جامعه است. ..........................</p>
+        <br><br>
+        <p class="MsoNormal"><b>۳)</b> در شکل زیر، دانش‌آموزان یک مدرسه در صف صبحگاهی مشاهده می‌شوند. هر صف افقی نشان‌دهنده تعداد دانش‌آموزان یک کلاس است. جامعه و اعضای آن را مشخص کنید و دو نمونه دلخواه ارائه کنید.</p>
+
+
+    </body>
+
+
+</html>

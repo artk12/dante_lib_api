@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            height: 3px;  
+            background-color: #5f1487;
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi , b{
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #badaff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .MsoPapDefault {
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #722a85;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background-color: #1abbbbe1; /* Scrollbar thumb color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color: #05ffe2;
+        }
+    </style>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+<body class="custom-scrollbar">
+ 
+
+    <p class="MsoBold">درس ۳
+        <br><br>
+    ویژگی‌های لگاریتم و حل معادله‌های لگاریتمی</p>
+    <hr>
+    <p class="MsoBold">ویژگی‌های لگاریتم</p>
+    
+
+    <p class="MsoNormal">
+        برای حل یک مسئله واقعی که در بیان ریاضی آن لگاریتم به‌کار رفته است، نیازمند استفاده از روابطی هستیم که بین لگاریتم‌ها برقرار است. به همین جهت در این قسمت به بیان و اثبات روابط و ویژگی‌های لگاریتم می‌پردازیم. برخی از ویژگی‌های سادهٔ لگاریتم به‌صورت زیر هستند:
+        </p>
+        
+        <br>
+        <p class="MsoNormal"><b>مثال:</b></p>
+
+          <div class="MsoNormal" style="text-align: center;">
+الف) 
+$\log_{ \ a} 1 = 0$
+،
+ زیرا 
+ $a^0 = 1$
+<br>
+ب) 
+$\log_{ \ a} a = 1$
+، زیرا 
+$a^1 = a$
+
+
+          </div>
+
+<br><br>
+          <p class="MsoNormal"><b>مثال:</b> 
+            
+            
+            
+            نشان دهید برای اعداد حقیقی مثبت $a$، $b$ و $c$، که $c \neq 1$، همواره داریم:</p>
+<p class="MsoNormal">$$\log_{ \ c} (ab) = \log_{ \ c} a + \log_{ \ c} b$$</p>
+
+
+
+<br>
+
+
+
+<p class="MsoNormal">
+    <b>حل: </b>فرض کنیم $x = \log_{ \ c} a$ و $y = \log_{ \ c} b$.
+    </p>
+    <p class="MsoNormal">
+    پس طبق تعریف، $a = c^x$ و $b = c^y$.
+    </p>
+    <p class="MsoNormal">
+    از این رو $ab = c^x \cdot c^y = c^{x+y}$.
+    </p>
+    <p class="MsoNormal">
+    و طبق تعریف لگاریتم داریم: $\log_{ \ c} ab = x + y$.
+    </p>
+    <p class="MsoNormal">
+    در نتیجه: $\log_{ \ c} ab = \log_{ \ c} a + \log_{ \ c} b$.
+    </p>
+    
+<br><br>
+
+    <p class="MsoNormal">
+        <b>مثال: </b>با توجه به مثال قبل:
+        </p>
+        <p class="MsoNormal">
+        $$
+        \begin{align*}
+       & \quad  \log_{ \ a} b^2 \\\\
+        &= \log_{ \ a} (b \times b)  \\\\
+       & = \log_{ \ a} b + \log_{ \ a} b  \\\\
+        &= 2 \log_{ \ a} b \\\\
+        \end{align*}
+        $$
+        </p>
+        
+<p class="MsoNormal">
+به طور مشابه :
+
+</p>
+        <p class="MsoNormal">
+            $$
+            \begin{align*}
+            & \quad   \log_{ \ a} b^3 \\\\
+            &   = \log_{ \ a} (b^2 \times b)  \\\\
+            &   = (\log_{ \ a} b^2 + \log_{ \ a} b)  \\\\
+            &   = 2\log_{ \ a} b + \log_{ \ a} b  \\\\
+            &   = 3\log_{ \ a} b 
+         \end{align*}
+             $$
+            </p>
+            
+
+            <br><br>
+
+
+
+            <p class="MsoNormal">
+                و به‌طور کلی اگر $a > 0$، $b > 0$، $a \neq 1$ و $n$ یک عدد حقیقی باشد، آنگاه:
+                </p>
+                <p class="MsoNormal" style="text-align: center;">
+                $$\log_{ \ a} b^n = n \log_{ \ a} b$$
+                </p>
+                <p class="MsoNormal">
+                به خصوص $\log_{ \ a} a^n = n \log_{ \ a} a$.
+                </p>
+                
+                <br>
+                <p class="MsoNormal">
+                    <b>قرارداد:</b> همواره منظور از $ \log_{ \ a } a
+                    $ عبارت است از 
+                    $ \log_{ \ 10 } a $
+                    . همچنین، لگاریتم در پایه $10$ را لگاریتم اعشاری می‌نامیم.
+                    </p>
+
+                    <br><br>
+                    
+                    <p class="MsoNormal">
+                        <b>مثال:</b> فرض کنیم $a = \log2$. نشان دهید $log5 = 1 - a$.
+                        </p>
+                        
+<br>
+
+
+<p class="MsoNormal">
+    <b>حل:</b>
+</p>
+
+<p class="MsoNormal">
+    می‌دانیم :
+    
+    $\log_{ \ 10 } 10 = 1$ .
+</p>
+<p class="MsoNormal">
+    پس طبق مثال بالا:
+   
+    $1 = \log10 = \log2 + \log5$  .
+</p>
+    <p class="MsoNormal">
+    و در نتیجه: $\log5= 1 - \log2 = 1 - a$ .
+    </p>
+    
+
+
+    <br><hr><br>
+
+
+
+    <p class="MsoStep">
+        کار در کلاس
+        </p>
+        <p class="MsoNormal">
+        ۱. نشان دهید که اگر $a, b, c > 0$ و $c \neq 1$، آنگاه:
+        </p>
+        <p class="MsoNormal" style="text-align: center;">
+        $$\log_{ \ c } \frac{a}{b} = \log_{ \ c } a - \log_{ \ c } b$$
+        </p>
+        
+
+        <br><br>
+
+
+        <p class="MsoNormal">
+            ۲. اگر $a = \log 3$ و $b = \log2$، حاصل عبارات‌های زیر را برحسب $a$ و $b$ بنویسید.
+            </p>
+
+              <div class="MsoNormal" style="text-align: left;direction: ltr;">
+                <p class="MsoNormal">
+                    الف) $ \log 75 $
+                    </p>
+                    <p class="MsoNormal">
+                    ب) $ 3 \log \sqrt[ 3 \ \ \  \ ]{4} - \log 250
+
+                    $
+                    </p>
+                    <p class="MsoNormal">
+                    پ) $ \log_{ \ 2 } 0.005 $
+                    </p>
+              </div>
+
+
+
+<br><hr><br>
+
+
+                    <p class="MsoBold">
+                        معادلات لگاریتمی
+                        </p>
+                        <p class="MsoNormal">
+                        در برخی از مدل‌سازی‌ها به یک معادله شامل عبارت‌های لگاریتمی می‌رسیم؛ مانند محاسبهٔ شدت زلزله، مشخص کردن ضعیف‌ترین صدای قابل شنیدن با آستانه شنوایی، پیش‌بینی تعداد جمعیت یک جامعه پس از زمان مشخص و محاسبهٔ نیمه‌عمر عناصر رادیواکتیو. در حل بسیاری از این معادلات، جواب‌ها با استفاده از خواص لگاریتم به‌دست می‌آید که به این معادلات، معادلات لگاریتمی می‌گوییم. منظور از حل معادله لگاریتمی، یافتن مقدار یا مقادیری از متغیر است که در معادله صدق کند.
+                        </p>
+                        <p class="MsoNormal">
+                        تساوی‌های زیر نمونه‌هایی از معادلات لگاریتمی هستند:
+                        </p>
+                        <br>
+                        <p class="MsoNormal" style="text-align: left;direction: ltr;">
+                            $\log (x+1) = 3$
+                            <br>
+                            
+                            $\log_{ \ r} x = \log_{ \ r} r$
+                            <br>
+                            $\log_{ \ r} x + \log_{ \ r} (x-1) = \log_{ \ r} 12$
+                            </p>
+                            <br>
+
+
+                     
+                    <p class="MsoNormal">
+                        در حالت کلی داریم:
+                        </p>
+                                
+
+
+    <p class="MsoNormal">
+        اگر $a > 0$ و $a \neq 1$، آنگاه از تساوی $\log_{ \ a } x = \log_{ \ a } y$ می‌توان نتیجه گرفت $x = y$ و بالعکس، اگر 
+        $ x, y > 0$
+         و 
+         $ x = y
+        $
+        ، آنگاه $\log_{ \ a } x = \log_{ \ a } y$.
+        </p>
+
+<br><br>
+
+        <p class="MsoNormal">
+            <b>مثال:</b> معادله لگاریتمی $\log_{ \ 5 } (x^2 - 2) = \log_{ \ 5 } x$ را حل کنید.
+            </p>
+            
+<br>
+            <p class="MsoNormal">
+                <b>حل:</b> <br>
+                به‌سادگی می‌توان دید 
+                که:
+                $$x^2 - 2 = x$$
+                
+              
+                
+                و از این‌رو :
+
+                $$x^2 - x - 2 = 0$$
+
+
+
+       
+                    از طرفی :
+                    $$x^2 - x - 2 = (x + 1)(x - 2)$$
+                     و در نتیجه ریشه‌های معادله اخیر برابر است با
+                      $2$
+                       و 
+                      $-1$ .
+               
+                    
+
+
+                </p>
+                
+
+
+                <p class="MsoNormal">
+                    قسمت مهم حل یک معادله لگاریتمی آزمایش کردن جواب‌هاست. در این مثال، چون لگاریتم اعداد نامثبت تعریف نشده است، تنها جواب قابل قبول $x = 2$ است (چرا؟).
+                    </p>
+                    
+
+                    <br><br>
+
+
+        <p class="MsoNormal">
+            <b>مثال:</b>
+             معادله لگاریتمی 
+   زیر
+              را حل کنید.
+
+             $$ 3 \log_{ \ 5 } x - \log_{ \ 5 } 4   = \log_{ \ 5 } 16 $$
+            </p>
+            
+
+            <p class="MsoNormal">
+                <b>حل:</b> 
+                <br>
+                می‌دانیم که :
+                $$\log_{ \ 5} x - \log_{ \ 5} 4 = \log_{ \ 5} \left( \frac{x^3}{4} \right)$$
+            </p>
+            <p class="MsoNormal">
+                بنابراین :
+                $$\log_{ \ 5 } \left( \frac{x^3}{4} \right) = \log_{ \ 5} 16$$
+            </p>
+            <p class="MsoNormal">
+                و در نتیجه  :
+                $$\frac{x^3}{4} = 16$$
+            </p>
+            
+
+
+            <p class="MsoNormal">
+                از این رو :
+
+                $$x^3 = 16 \times 4 = 64$$
+                بنابراین :
+                $$ \quad x = 4$$
+            </p>
+            <p class="MsoNormal">
+                با جای‌گذاری 
+                
+                $x = 4$ در معادله بالا می‌توان دید این جواب قابل قبول است.
+            </p>
+            
+
+            <br><hr><br>
+
+            <p class="MsoStep">فعّالیت</p>
+            <p class="MsoNormal">معادله‌های لگاریتمی زیر را حل کنید:</p>
+            <br>
+      <div class="MsoNormal" style="text-align: left;direction: ltr;">
+                
+        <p class="MsoNormal">الف) 
+            $\log_{ \ 5 } (2x - 1) = \log_{ \ 5} x$
+        </p><br>
+        <p class="MsoNormal">ب) 
+            $\log_{ \ 3} (x - 1) + \log_{ \ 3} ( \dfrac{x}{2} + 1 ) = 2$
+        </p><br>
+        <p class="MsoNormal">پ) 
+            $\log x + \log (x + 3) = 1$
+        </p>
+        
+      </div>
+
+
+
+      <br><hr><br>
+
+
+
+      <p class="MsoBold">کاربردهای لگاریتم</p>
+      <p class="MsoNormal">
+          <b>مثال:</b> جدول زیر، جمعیت جهان را در قرن بیستم و پایان دهه اول قرن بیست ویکم نشان می‌دهد.
+      </p>
+      
+<br>
+
+<table class="MsoNormal" style="margin:auto;width:250px;direction:rtl;text-align:center;">
+    <tr>
+        <th>سال</th>
+        <th>جمعیت (میلیون)</th>
+    </tr>
+    <tr>
+        <td>1900</td>
+        <td>1650</td>
+    </tr>
+    <tr>
+        <td>1910</td>
+        <td>1750</td>
+    </tr>
+    <tr>
+        <td>1920</td>
+        <td>1860</td>
+    </tr>
+    <tr>
+        <td>1930</td>
+        <td>2070</td>
+    </tr>
+    <tr>
+        <td>1940</td>
+        <td>2300</td>
+    </tr>
+    <tr>
+        <td>1950</td>
+        <td>2560</td>
+    </tr>
+    <tr>
+        <td>1960</td>
+        <td>3040</td>
+    </tr>
+    <tr>
+        <td>1970</td>
+        <td>3710</td>
+    </tr>
+    <tr>
+        <td>1980</td>
+        <td>4450</td>
+    </tr>
+    <tr>
+        <td>1990</td>
+        <td>5280</td>
+    </tr>
+    <tr>
+        <td>2000</td>
+        <td>6080</td>
+    </tr>
+    <tr>
+        <td>2010</td>
+        <td>6800</td>
+    </tr>
+</table>
+
+<br><br>
+
+<p class="MsoNormal">
+    الف) با توجه به جدول، نمودار جمعیت جهان برحسب سال به صورت زیر است:
+</p>
+
+
+<br><br>
+<p class="MsoNormal">
+    ب) اگر محور $x$ ها بیانگر سال و محور $y$ ها بیانگر جمعیت باشد، تابع جمعیت در انتهای هر سال به‌صورت 
+    $$g(x) = 0.008 (1.01376)^x$$ 
+    برآورد می‌شود. به سادگی دیده می‌شود که جمعیت در پایان سال 2016 تقریباً برابر است با:
+</p>
+<p class="MsoNormal">
+    $$g(2016) = 0.08 (1.01376)^{2016} \approx 7,385,074,512$$
+</p>
+
+<p class="MsoNormal">
+    در اینجا می‌توان حدس زد که در چه سالی جمعیت جهان به ۸ میلیارد خواهد رسید، زیرا داریم:
+</p>
+<br>
+<p class="MsoNormal">
+    $$g(x) = 8 \times 10^{-3} (1.01376)^x = 8 \times 10^9$$
+</p>
+
+<br>
+
+<p class="MsoNormal">
+    $$\begin{align*}
+    (1.01376)^x &= 10^{12} \\
+    x \log 1.01376 &= \log 10^{12} \\
+    x &= \frac{12}{\log 1.01376} \approx 2021
+    \end{align*}$$
+</p>
+<br>
+<p class="MsoNormal">
+    $$(\log 1.01376 \approx 0.005935)$$
+</p>
+
+
+<p class="MsoNormal">
+    <b>مثال:</b> ریشتر، مقیاسی برای اندازه‌گیری بزرگی زمین‌لرزه و نماد میزان انرژی آزاد شده در زلزله است. اگر بزرگی زمین‌لرزه برابر $M$ در مقیاس ریشتر باشد، مقدار انرژی آزاد شده بر حسب ارگ $(Erg)$ از رابطهٔ زیر حاصل می‌شود:
+</p>
+<p class="MsoNormal">
+    $$\log E = 11.8 + 1.5 \ M.$$
+</p>
+
+
+
+<p class="MsoNormal">
+    از این رابطه می‌توان محاسبه کرد که مقدار انرژی آزاد شده در یک زلزله 
+    $۶/۶$
+     ریشتری برابر است با:
+</p>
+<p class="MsoNormal">
+    $$\begin{align*}
+    \log E &= 11.8 + 1.5(6.6) \\\\
+    \log E  &= 21.7 \\\\
+    E &= 10^{21.7} \, \text{Erg.}
+    \end{align*}$$
+</p>
+
+<br><hr><br>
+
+<p class="MsoStep">خواندنی</p>
+<p class="MsoNormal">
+    جالب است بدانید که:  
+</p>
+<p class="MsoNormal">
+    در زلزله ۶/۶ ریشتری بم (۱۳۸۲) ۹۰ درصد از سازه‌های این شهر که بیش از ۲۵۰ سال قدمت داشت از بین رفت. با توجه به اینکه انرژی آزاد شده در یک زلزله ریشتری معادل انفجار یک میلیارد تن $TNT$ است، بنابراین انرژی آزاد شده در زلزله بم معادل انفجار:
+</p>
+<p class="MsoNormal">
+    $$\frac{6.6 \times 10^9}{8} \approx 825 \times 10^6 $$
+</p>
+<p class="MsoNormal">
+    تن انفجار بوده است.  
+</p>
+<p class="MsoNormal">
+    ($825$ میلیون تن $TNT$ بوده است.)
+</p>
+
+<br><hr><br>
+
+
+<p class="MsoNormal">
+    <b>مثال:</b> نیمه‌عمر یک نوع ماده هسته‌ای حدود $25$ سال است. اگر جرم نمونه‌ای از این ماده، $24$ میلی‌گرم باشد، جدول زیر تغییرات جرم نمونه پس از $t$ سال را نشان می‌دهد.
+</p>
+<p class="MsoNormal">
+    با توجه به جدول، جرم باقی‌مانده از این نمونه بعد از گذشت $t$ سال از رابطه:
+</p>
+<p class="MsoNormal">
+    $$m(t) = \frac{1}{2^{ \frac{t}{25} } }= 24 \times 2^{\frac{ - \  t}{25} }$$
+</p>
+<p class="MsoNormal">
+    به‌دست می‌آید. بنابراین، به‌عنوان مثال جرم باقی‌مانده پس از $40$ سال برابر است با:
+</p>
+
+<p class="MsoNormal">
+    $$ m(40) = 24 \left( 2^{-\frac{40}{25}} \right) \approx  \ 7.90 \ \    \text{میلی‌گرم}$$
+</p>
+
+<br><br>
+
+<table class="MsoNormal" style="margin:auto;width:fit-content;direction:ltr;text-align:center;">
+    <tr>
+        <th>زمان (برحسب سال) $t$</th>
+        <th>جرم برحسب میلی‌گرم $m(t)$</th>
+    </tr>
+    <tr>
+        <td>$0$</td>
+        <td>$24$</td>
+    </tr>
+    <tr>
+        <td>$25$</td>
+        <td>$$\frac{1}{2}(24) = 12$$</td>
+    </tr>
+    <tr>
+        <td>$50$</td>
+        <td>$$\frac{1}{2^2} \times 24 = 6$$</td>
+    </tr>
+    <tr>
+        <td>$75$</td>
+        <td>$$\frac{1}{2^3} \times 24 = 3$$</td>
+    </tr>
+    <tr>
+        <td>$100$</td>
+        <td>$$\frac{1}{2^4} \times 24 = 1.5$$</td>
+    </tr>
+</table>
+
+
+<br><hr><br>
+
+
+<p class="MsoStep">تمرین</p>
+<p class="MsoNormal">۱. معادلات لگاریتمی زیر را حل کنید.</p>
+
+<br>
+  <div class="MsoNormal" style="text-align:left;direction: ltr;">
+    <p class="MsoNormal">
+        الف) $\log_{ \ 4} m^2 - \log_{ \ 4} m - 3 = 0$
+    </p>
+    <br>
+    <p class="MsoNormal">
+        ب) $\log_{  \ 2} (12 \ b - 21) - \log_{ \ 2} (b^2 - 3) = 2$
+    </p>
+    <br>
+    <p class="MsoNormal">
+        پ) $\log_{\frac{1}{10}} (x^2 - 1) = -1$
+    </p>
+    
+  </div>
+
+<br><br>
+  <p class="MsoNormal">
+    2. الف) در فعالیت ۱ از درس اول این فصل، دیدیم که جرم باکتری‌ها در زمان $t$ از فرمول $m(t) = 2^t$ به‌دست می‌آید. معکوس این تابع را بنویسید و آن را تفسیر کنید.
+</p>
+
+<br>
+
+
+<p class="MsoNormal">
+    ب) با استفاده از وارون تابع $m(t)$، برآورد کنید در چه زمانی جرم باکتری‌ها حدود $5000$ گرم می‌شود؟  
+    $$\log_{ \ 2} \approx 0.301$$
+</p>
+
+
+<br><br>
+
+
+
+<p class="MsoNormal">
+    ۳) درستی یا نادرستی عبارت‌های زیر را بررسی کنید:
+</p>
+
+
+  <div class="MsoNormal" style="text-align: center;">
+    <p>
+        الف) $a^{\log_{ \ b} a} = a $ 
+        <br>
+        $ (b \neq 1, \, a, b > 0)$
+    </p>
+    <p>
+        ب) $\log_{ \ d} (abc) = \log_{ \ d} a + \log_{ \ d} b + \log_{ \ d} c $
+        <br> $  (d \neq 1, \, a, b, c, d > 0)$
+    </p>
+    <p>
+        پ) $\log x \log y = \log x + \log y$
+    </p>
+    <p>
+        ت) لگاریتم هر عدد مثبت، همواره عددی مثبت است.
+    </p>
+    
+    
+  </div>
+
+
+<br><br>
+
+
+  <p class="MsoNormal">
+    ۴) نیمه‌عمر عنصری چهار روز و جرم اولیه یک نمونه از آن یک گرم است.
+</p>
+<p class="MsoNormal">
+    الف) جرم $m(t)$ را که پس از $t$ روز باقی می‌ماند، بیابید.
+</p>
+<p class="MsoNormal">
+    ب) طی چند روز، این جرم به 
+    $0.01$
+     گرم کاهش می‌یابد؟
+</p>
+
+<br><br>
+
+
+<p class="MsoNormal">
+    ۵) عبارات زیر را ساده کنید.
+    <br>
+    ( $\log 2 \approx 0.301$, $\log 3 \approx 0.4771$ )
+</p>
+<br>
+  <div class="MsoNormal" style="text-align: left;direction: ltr;">
+    <p class="MsoNormal">
+        الف) $\log (18 \times 375)$
+    </p><br>
+    <p class="MsoNormal">
+        ب) $\log \sqrt{0.75}$
+    </p><br>
+    <p class="MsoNormal">
+        پ) $\log \dfrac{\sqrt{8}}{\sqrt[ 4 \ \ \ \ \ ]{2}}$
+    </p>
+    
+  </div>
+
+
+  <br><br>
+
+
+  <p class="MsoNormal">
+    ۶) اگر نمودار تابع با ضابطه $f(x) = \log_{ \ a} x$ از نقطه $(\dfrac{1}{2}, -4)$ عبور کند، مقدار $a$ چند است؟
+</p>
+
+<br><br>
+
+
+<p class="MsoNormal">
+    ۷) گزینه‌های درست را با $ \checkmark $ و گزینه‌های نادرست را با $ X $ علامت بزنید.
+</p>
+
+
+<p class="MsoNormal">
+    $$\log 5 = \log 3 + \log 2 \quad \Box $$
+</p>
+<p class="MsoNormal">
+    $$\log_{ \ b} a \times \log_{ \ a} b = 1  \quad \Box $$
+</p>
+
+<br><br>
+
+<p class="MsoNormal">
+    ۸) نیمه‌عمر یک ماده هسته‌ای $30$ سال است. نمونه‌ای از این ماده $128$ میلی‌گرم جرم دارد. جرمی که پس از $300$ سال باقی می‌ماند چقدر است؟
+</p>
+
+
+
+
+
+
+
+
+
+        <br><br><br><br><br><br><br><br><br><br><br>
+
+
+        
+</body>
+
+
+</html>

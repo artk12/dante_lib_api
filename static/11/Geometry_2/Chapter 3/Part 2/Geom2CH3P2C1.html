@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi {
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSemic,
+        li.MsoSemic,
+        div.MsoSemic {
+            margin: 0in;
+           
+            font-size: clamp(1.2rem, 1.6vw, 1.3rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #b19af2;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #6ca4ec;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .boxp {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .boxg {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#00f2ff11; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        .boxb {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#0c4e9f2d; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        ::selection {
+            background-color: #59078fa1; /* Change this to your desired highlight color */
+            color: #ffffff; /* Change this to your desired text color */
+          }
+
+
+          mark{
+            background-color:#078b8fa1 ;
+            color: #ffffff;
+            padding: 0 7px;
+        }
+
+        .hlg { background-color: rgba(0, 234, 255, 0.334);  }
+        .hlp { background-color:#5f1487; }
+      
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+    <body class="custom-scrollbar">
+
+
+
+
+<p class="MsoBold">
+    درس دوم:
+    <br>
+    قضیه کسینوس‌ها
+</p>
+
+
+<p class="MsoNormal">
+    می‌دانیم که در مثلث قائم‌الزاویه $ABC$ $(\hat{A} = 90^0)$، با داشتن طول‌های دو ضلع $(AB = c)$ و $(AC = b)$ می‌توانیم اندازه وتر مثلث $(BC = a)$ را بر حسب $a^2 = b^2 + c^2$ به‌دست آوریم. حال می‌بینیم که اگر $\hat{A}$ مساوی $90^0$ هم نباشد، می‌توانیم این کار را انجام دهیم.
+</p>
+<br><hr><br>
+
+
+
+<div class="MsoStep">فعالیت ۱</div>
+<p class="MsoNormal">
+    در مثلث $ABC$ $(\hat{A} < 90^0)$، ارتفاع $BH$ را رسم کرده‌ایم. با توجه به تعریف نسبت‌های مثلثاتی در مثلث‌های قائم‌الزاویه، جاهای خالی را پر کنید:
+</p>
+
+<p class="MsoNormal">
+$$
+
+\begin{align*}
+
+ \quad \ \ &  \cos A =  \dfrac{\cdots}{\cdots} \\ \\
+\Rightarrow  \ \ & \ \ AH = \cdots \times \cdots \quad و \quad CH = b - AH = \cdots \\ \\ \\
+
+
+& \sin A = \cdots \Rightarrow BH = \cdots \times \cdots \\ \\
+& \Delta BHC : BC^2 = BH^2 + CH^2 \\ \\
+\Rightarrow  \ \ & a^2 = ( \ \ . . . . . \ \ )^2 + ( \ \ . . . . . \ \ )^2 \\ \\
+
+
+\end{align*}
+$$
+</p>
+
+<br>
+
+<p class="MsoNormal">
+    حال به کمک اتحادهای جبری و اتحاد مثلثاتی $\sin^2 A + \cos^2 A = 1$ نشان دهید:
+</p>
+<p class="MsoNormal">$$a^2 = b^2 + c^2 - 2bc \cdot \cos A$$</p>
+<br>
+<p class="MsoNormal">
+    اکنون در مثلث $ABC$ $(\hat{A} > 90^0)$ ارتفاع $BH$ را در بیرون مثلث رسم می‌کنیم.
+    اگر $\hat{A}_1$ زاویهٔ خارجی رأس $A$ باشد با توجه به اینکه $\hat{A_1} = 180 - \hat{A}$ داریم:
+</p>
+<p class="MsoNormal">$$\cos A_1 = \cdots \quad و \quad \sin A_1 = \cdots$$</p>
+<p class="MsoNormal">
+    و در مثلث $ABH$ نیز با توجه به تعریف نسبت‌های مثلثاتی می‌توان نوشت:
+</p>
+<br>
+<p class="MsoNormal" style="text-align: left;">
+    $
+    
+    \begin{align*}
+    
+     \quad \ \ &  \cos A_1 =  \dfrac{\cdots}{\cdots} \ \ \text{و} \ \ \sin A_1 =  \dfrac{\cdots}{\cdots} \\ \\
+    \Rightarrow  \ \ & \ \ AH = \cdots \times \cdots \quad و \ \  \\ \\
+    & BH = \cdots \times \cdots \quad و \quad  CH = b - AH = \cdots \\ \\ \\
+    
+    
+    & \sin A = \cdots \Rightarrow BH = \cdots \times \cdots \\ \\
+    & \Delta BHC : BC^2 = BH^2 + CH^2 \\ \\
+    \Rightarrow  \ \ & a^2 = ( \ \ . . . . . \ \ )^2 + ( \ \ . . . . . \ \ )^2 \\ \\
+    
+    
+    \end{align*}
+    $
+    </p>
+
+
+<br>
+
+
+<p class="MsoNormal">
+    و با ساده کردن عبارت‌ها نشان دهید:
+</p>
+<p class="MsoNormal">
+    $$a^2 = b^2 + c^2 - 2bc \cdot \cos A$$
+</p>
+<br>
+<p class="MsoSemi">سؤال:</p>
+<p class="MsoNormal">
+    در حالتی که زاویهٔ $\hat{A}$ قائمه باشد، این رابطه به چه صورت در می‌آید؟
+</p>
+<br>
+<div class="boxb">
+    <p class="MsoSemi"><mark>قضیهٔ کسینوس‌ها:</mark></p>
+    <p class="MsoNormal">
+        در هر مثلث، مربع اندازهٔ هر ضلع برابر است با مجموع مربع‌های اندازه‌های دو ضلع دیگر، منهای دو برابر حاصل‌ضرب اندازهٔ آن دو ضلع در کسینوس زاویهٔ بین آن‌ها:
+    </p>
+    <p class="MsoNormal">$$a^2 = b^2 + c^2 - 2bc \cdot \cos A$$</p>
+    <p class="MsoNormal">$$b^2 = \ \  \cdots  \ \  +  \ \  \cdots  \ \  -  \ \  \cdots$$</p>
+    <p class="MsoNormal">$$c^2 = \ \  \cdots \ \  + \ \  \cdots \ \  - \ \  \cdots$$</p>
+</div>
+<br><br>
+<p class="MsoSemi" style="font-size: larger;">مثال:</p>
+<p class="MsoNormal">
+    دو قایق از یک نقطه در دریاچه‌ای با سرعت‌های $60 \, \text{km/h}$ و $100 \, \text{km/h}$ و با زاویهٔ $120^0$ از هم دور می‌شوند. نیم ساعت بعد، دو قایق در چه فاصله‌ای از یکدیگر هستند؟
+</p>
+<p class="MsoStep">حل:</p>
+<p class="MsoNormal">
+    با توجه به نقطه شروع دو قایق و سرعت‌های ثابت، نیم ساعت بعد، مسافت طی شده توسط هر قایق محاسبه می‌شود:
+</p>
+<p class="MsoNormal">
+    $$OA = 60 \times 0.5 = 30 \quad و \quad OB = 100 \times 0.5 = 50$$
+</p>
+<br>
+<p class="MsoNormal">
+    حال به کمک قضیهٔ کسینوس‌ها می‌نویسیم:
+</p>
+<br>
+
+<p class="MsoNormal">
+    $$
+    
+    \begin{align*}
+
+
+    & AB^2 = OA^2 + OB^2 - 2 OA \cdot OB \cdot \cos 120^0 \\ \\
+    & \text{و} \ \ \cos 120^0 = - \dfrac{1}{2} \\ \\
+    & AB^2 = 900 + 2500 - 2 \times 30 \times 50 \ \ ( - \dfrac{1}{2} )  = 4900 \\ \\
+ 
+    & \Rightarrow AB = 70 km 
+      
+    
+    \end{align*}
+     
+    $$
+
+
+
+</p>
+
+
+
+<br><hr><br>
+
+
+
+<div class="MsoStep">کاردرکلاس</div>
+<p class="MsoNormal">
+    در مثلث $AB = 2\sqrt{2}$، $ABC$ و $AC = \sqrt{6} + \sqrt{2}$ و $\hat{A} = 60^0$.
+    <br><br>
+    ۱- 
+    طول ضلع $BC$ را به کمک قضیهٔ کسینوس‌ها به‌دست آورید.
+</p>
+<br>
+
+
+<p class="MsoNormal" style="text-align: left;">
+    
+    $ BC^2 = \ \ . . . \ \ ^2 + \ \ . . . \ \ ^2  \ \  - \ \  2 \times \ \ . . . \ \  \times \ \ . . . \ \  \times \ \ . . . \ \  \Rightarrow $
+    
+    $ BC^2 = \ \ . . . \ \ +  \ \ . . . \ \  -  \ \ . . . \ \ \Rightarrow  $
+
+</p>
+<br>
+
+<p class="MsoNormal" style="text-align: left;">
+    $
+ BC^2 = \ \ . . . . . \ \ \text{و} \ \ BC = \ \ . . . . .
+ $
+ </p>
+
+
+<br><br>
+
+
+<p class="MsoNormal">۲- اندازهٔ $\hat{C}$ را به کمک قضیهٔ سینوس‌ها به‌دست آورید و از آنجا اندازهٔ $\hat{B}$ را هم بیابید.</p>
+<p class="MsoNormal" style="text-align: left;">
+
+
+
+    $
+    
+    \begin{align*}
+
+
+    & \dfrac{c}{\sin C} = \dfrac{a}{\cdots} \\ \\
+
+    & \Rightarrow \dfrac{2\sqrt{2}}{\sin C} = \dfrac{2\sqrt{3}}{\sin 60^0}  \\ \\
+
+    & \Rightarrow \sin C = \cdots \quad و \quad \hat{C} = \cdots \\ \\
+
+    & \Rightarrow \hat{B} = 180 - ( \hat{A} + \hat{C} ) = \cdots
+    
+    \end{align*}
+    
+    $
+</p>
+
+
+
+<br><hr><br>
+
+
+
+<div class="MsoStep">تمرین</div>
+<p class="MsoNormal">
+    ۱- یک درخت کج از نقطهٔ $A$ روی زمین، که در فاصله $15$ متری از نوک درخت است به زاویهٔ $60^0$ دیده می‌شود. اگر فاصلهٔ $A$ تا پای درخت $20$ متر باشد، مطلوب است:
+</p>
+<br>
+<p class="MsoNormal">(الف) طول درخت</p>
+<p class="MsoNormal">(ب) سینوس زاویه‌ای که درخت با سطح زمین می‌سازد.</p>
+<p class="MsoNormal">(پ) فاصله نوک درخت از زمین</p>
+<br><br>
+<p class="MsoNormal">
+    ۲- در مثلث متساوی الاضلاع $ABC$ به ضلع $8$ واحد، نقطه $D$ که به فاصلهٔ $7$ واحد از رأس $A$ قرار دارد از $B$ و $C$ چه فاصله‌ای دارد؟ (فرض کنید $CD > BD$). نقطه $E$ که به فاصلهٔ $5$ واحد از $C$ قرار دارد از $D$ به چه فاصله‌ای است؟ اندازهٔ زاویهٔ $AED$ چند درجه است؟
+</p>
+<br><br>
+<p class="MsoNormal">
+    ۳- یک کشتی از یک نقطه با سرعت $60$ کیلومتر در ساعت در یک جهت در حرکت است و یک ساعت بعد با $30^0$ انحراف به راست با سرعت $40$ کیلومتر در ساعت به حرکت خود ادامه می‌دهد. یک ساعت و نیم پس از آغاز حرکتش در یک بندرگاه پهلو می‌گیرد. فاصله بندرگاه از مبدأ حرکت کشتی چند کیلومتر است؟
+</p>
+
+<br><br>
+
+<p class="MsoNormal">
+    ۴- در مثلث $ABC$، میانهٔ $AM$ را رسم کرده‌ایم $(MB = MC = \dfrac{a}{2})$. با نوشتن قضیهٔ کسینوس‌ها در دو مثلث $AMB$ و $b'$، $AMC$ و $c'$ را محاسبه، و با جمع کردن دو تساوی حاصل، درستی تساوی زیر را ثابت کنید:
+</p>
+<br>
+
+<p class="MsoNormal" style="text-align:center;">
+    (قضیهٔ میانه‌ها)
+   
+    $b^2 + c^2 = 2AM^2 + \dfrac{a^2}{2}$
+    $\quad$
+</p>
+<br>
+<p class="MsoNormal">
+    در حالت خاص $AB = 4$ و $AC = 6$ و $BC = 8$، طول میانهٔ $AM$ را به‌دست آورید.
+</p>
+<br><br>
+<p class="MsoNormal">
+    ۵- در مثلث $ABC$، نقطه دلخواه $D$ روی $BC$ مفروض است. به کمک قضیهٔ کسینوس‌ها در دو مثلث $ADB$ و $ADC$ درستی تساوی زیر را ثابت کنید:
+</p>
+<br>
+<p class="MsoNormal" style="text-align: center;">
+   (قضیهٔ استوارت)
+
+
+    $$AB^2 \cdot DC + AC^2 \cdot DB = AD^2 \cdot BC + DB \cdot DC \cdot BC$$
+</p>
+
+<p class="MsoNormal">
+    به کمک قضیهٔ استوارت، درستی قضیهٔ میانه‌ها را نتیجه‌گیری کنید.
+</p>
+<br><br>
+<p class="MsoNormal">
+    ۶- مسئلهٔ ۲ را بار دیگر، این‌بار به کمک قضیهٔ استوارت حل کنید.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br><br><br><br>
+
+
+    </body>
+
+
+</html>

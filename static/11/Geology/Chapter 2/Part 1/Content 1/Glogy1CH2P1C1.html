@@ -1,0 +1,998 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi {
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSemic,
+        li.MsoSemic,
+        div.MsoSemic {
+            margin: 0in;
+           
+            font-size: clamp(1.2rem, 1.6vw, 1.3rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #b19af2;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #6ca4ec;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .boxp {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .boxg {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#00f2ff11; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        .boxb {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#0c4e9f2d; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        ::selection {
+            background-color: #59078fa1; /* Change this to your desired highlight color */
+            color: #ffffff; /* Change this to your desired text color */
+          }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+
+    <body class="custom-scrollbar">
+
+        <p class="MsoBold">فصل ۲<br><br> منابع معدنی و ذخایر انرژی، زیربنای تمدن و توسعه</p>
+
+        <p class="MsoNormal">زیربنای اقتصادی کشورهای مختلف، متنوع است. مبنای اقتصادی برخی از کشورها، صنعت، کشاورزی یا گردشگری است و برخی دیگر، اقتصاد خود را بر مبنای منابع و ذخایر معدنی بنا نهاده‌اند. مبنای اقتصاد کشور ما، کدام مورد است؟ بسیاری از کالاهایی که در زندگی روزمره از آنها استفاده می‌کنید، یا با آنها سروکار دارید، از منابع فلزی (آهن، آلومینیوم، طلا و منیزیم)، غیر فلزی (رس‌ها، زغال سنگ و ...) و یا مواد نفتی و فرآورده‌های پتروشیمی مانند پلاستیک، بنزین و ... به دست می‌آیند. در علم زمین‌شناسی با مواردی مانند نحوۀ تشکیل، ذخیره و اکتشاف منابع معدنی و سوخت‌های فسیلی مانند زغال سنگ، نفت و گاز آشنا می‌شوید.</p>
+        
+
+        <br><hr>
+        <p class="MsoBold">منابع معدنی در زندگی ما</p>
+        
+        <p class="MsoNormal">بخش عمدۀ مواد مورد نیاز برای زندگی ما، از منابع معدنی تأمین می‌شوند. مس موجود در کابل‌های برق، آهن مورد استفاده در ریل راه‌آهن، پلاتین استفاده شده در ساخت گوشی تلفن همراه، کانی گرافیت به‌کار گرفته شده در مدادی که با آن می‌نویسیم، کانی فلوئوریت موجود در ترکیب خمیردندان و ... از منابع معدنی تهیه می‌شوند. منابع معدنی پس از شناسایی توسط زمین‌شناسان، از معادن استخراج و پس از فرآوری، به کالاهای مورد نیاز تبدیل می‌شوند. تعدادی از کاربردهای مواد معدنی (فلزی ـ غیر فلزی) در جدول 1ـ2 آورده شده است.</p>
+        
+        <br>
+
+
+
+        <div class="boxg">
+
+            <p class="MsoStep">
+                بیشتر بدانید
+            </p>
+
+            <p class="MsoNormal">
+
+                جدول ۱-۲
+                فراوانی و کاربرد برخی از کانی‌ها و منابع طبیعی
+            </p>
+            <table class="tables" style="text-align: center; width:fit-content;">
+                <thead>
+                  <tr>
+                    <th>فلزات بر اساس فراوانی </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>فراوان: آهن، آلومینیوم، منیزیم، منگنز، تیتانیم</td>
+                  </tr>
+                  <tr>
+                    <td>کمیاب: مس، سرب، روی، نیکل، کروم، طلا، نقره، قلع، تنگستن، مولیبدن، اورانیوم، پلاتین
+                        و غیره</td>
+                  </tr>
+                </tbody>
+              </table>
+
+         
+
+              <table class="tables" style="text-align: center; width:fit-content;">
+                <thead>
+                  <tr>
+                    <th>فلزات بر اساس کاربد </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>صنایع شیمیایی: هالیت (سدیم کلرید)، فلوئوریت (کلسیم فلوراید)</td>
+                  </tr>
+                  <tr>
+                    <td>کودهای شیمیایی: آپاتیت (کلسیم فسفات)، سیلویت (پتاسیم کلرید)، گوگرد، کلسیت و سنگ آهک (کلسیم کربنات)، شورۀ (سدیم نیترات)</td>
+                  </tr>
+                  <tr>
+                    <td>ساختمان‌سازی: ریِس (گچ ساختمانی)، سنگ آهک (سیمان)، رس (آجر و کاشی و سرامیک)، شن و ماسه، سنگ‌های تزیینی و نما، فلدسپار (کاشی و سرامیک)، سیلیس (شیشه‌سازی)، پرلیت و پوولان (مصالح سبک وزن)</td>
+                  </tr>
+                  <tr>
+                    <td>گوهرها و کانی‌های نیمه قیمتی: الماس، کروندوم (یاقوت)، گارنت (پیروپ)، آمتیست (کوارتز بنفش)، بریل (زمرد)، فیروزه، عقیق، اسپینل (بلور)، لاجورد و ...</td>
+                  </tr>
+                  <tr>
+                    <td>پزشکی و داروسازی: باریت (عکس‌برداری، رادیولوژی)، انواع کانی‌های رس (آنتی‌بیوتیک‌ها، ضد اسید معده)، فلوئوریت (خمیر دندان)، تالک (پودر بچه، لوازم آرایشی)</td>
+                  </tr>
+                  <tr>
+                    <td>کانی‌های صنعتی: بنتونیت (گل حفاری، خاک رنگ‌بر، جاذب آب و فاضلاب)، فلوریت (فولاد)، سرامیک، سیلیس (تصویه آب و فاضلاب، تولید شیشه)</td>
+                  </tr>
+                  <tr>
+                    <td>کشاورزی: کانی زئولیت در (سبک کردن و هوادهی به خاک و جذب رطوبت)، دولومیت (مکمل غذای دام و طیور)</td>
+                  </tr>
+                  <tr>
+                    <td>سایر موارد: تالک (کاغذسازی، رنگ‌سازی)، باریت (کاغذسازی، رنگ‌سازی)، آزبست (کف‌سازی)</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+
+
+
+        </div>
+<br>
+        <div class="boxg">
+            <p class="MsoStep">گفت‌وگو کنید</p>
+            <p class="MsoNormal">کاربرد بعضی کانی‌ها مانند انیدریت و ژیپس، علاوه بر تهیه گچ‌بنایی در تشخیص آب و هوای گذشته می‌باشد. در مورد دلیل این امر گفت‌وگو کنید.</p>
+            </div>
+            <br><br>
+
+
+
+
+
+      
+        
+        <p class="MsoStep">غلظت عناصر در پوسته زمین</p>
+        
+        <p class="MsoNormal">در سال 1964 میلادی، دو زمین‌شناس به نام‌های کلارک و رینگ وود برای تعیین ترکیب شیمیایی پوسته زمین و بررسی پراکندگی عناصر در بخش‌های مختلف آن، تعداد بسیار زیادی از انواع سنگ‌های مناطق مختلف را نمونه‌برداری و ترکیب شیمیایی آنها را تعیین کردند. امروزه، فراوانی میانگین عناصر پوسته زمین با عنوان غلظت کلارک عناصر شناخته می‌شود (جدول 2ـ2).</p>
+       
+        <br>
+
+
+
+        <p class="MsoNormal" style="text-align: center;">
+            جدول ۲-۲ غلظت کلارک عناصر فراوان در پوسته جامد زمین
+        </p>
+        <br>
+        <table class="tables" style="text-align: center; min-width:350px; width:min-content; margin:auto">
+            <thead>
+              <tr>
+                <th>درصد بر اساس جرم</th>
+                <th>عنصر</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>45/20</td>
+                <td>اکسیژن</td>
+              </tr>
+              <tr>
+                <td>27/20</td>
+                <td>سیلیسیم</td>
+              </tr>
+              <tr>
+                <td>8/00</td>
+                <td>آلومینیوم</td>
+              </tr>
+              <tr>
+                <td>5/80</td>
+                <td>آهن</td>
+              </tr>
+              <tr>
+                <td>5/06</td>
+                <td>کلسیم</td>
+              </tr>
+              <tr>
+                <td>2/32</td>
+                <td>سدیم</td>
+              </tr>
+              <tr>
+                <td>2/77</td>
+                <td>پتاسیم</td>
+              </tr>
+              <tr>
+                <td>1/68</td>
+                <td>منیزیم</td>
+              </tr>
+              <tr>
+                <td>0/86</td>
+                <td>تیتانیوم</td>
+              </tr>
+              <tr>
+                <td>0/12</td>
+                <td>فسفر</td>
+              </tr>
+              <tr>
+                <td>0/10</td>
+                <td>منگنز</td>
+              </tr>
+              <tr>
+                <td>0/013</td>
+                <td>روی</td>
+              </tr>
+              <tr>
+                <td>0/007</td>
+                <td>مس</td>
+              </tr>
+              <tr>
+                <td>0/00016</td>
+                <td>سرب</td>
+              </tr>
+            </tbody>
+          </table>
+          
+          <br> <br>
+
+
+
+
+        <p class="MsoNormal">اندازه‌گیری و تعیین غلظت میانگین عناصر، کاربردهای زیادی دارد. پژوهشگران با اندازه‌گیری مقدار غلظت عناصر در سنگ‌ها و خاک‌های هر منطقه و مقایسه آن با مقادیر غلظت میانگین، به فرایندهای زمین‌شناسی مانند حرکت ورقه‌های سنگ‌کره، تاریخچۀ تکوین یک منطقه، آلودگی‌های زیست‌محیطی و ... پی می‌برند. اگر در منطقه‌ای، غلظت عناصر از میانگین کلارک بالاتر باشد، بی‌هنجاری مثبت و اگر غلظت آنها از میانگین، پایین‌تر باشد، آن را بی‌هنجاری منفی می‌نامند. زمین‌شناسان در پی‌جویی‌های اکتشافی عناصر، به دنبال یافتن مناطقی با بی‌هنجاری مثبت آن عنصر هستند.</p>
+        
+
+        <br>
+        <div class="boxg">
+        <p class="MsoStep">تفسیر کنید</p>
+        
+        <p class="MsoNormal">نتایج حاصل از تجزیه شیمیایی سنگ‌های یک منطقه، در جدول زیر ارائه شده است. در کدام عناصر، بی‌هنجاری مثبت و در کدام عناصر، بی‌هنجاری منفی دیده می‌شود؟</p>
+        
+            <br>
+
+
+            <table class="tables" style="text-align: center; min-width:350px; width:min-content; margin:auto">
+                <thead>
+                  <tr>
+                    <th>درصد بر اساس جرم</th>
+                    <th>عنصر</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>17</td>
+                    <td>Si</td>
+                  </tr>
+                  <tr>
+                    <td>5</td>
+                    <td>Fe</td>
+                  </tr>
+                  <tr>
+                    <td>5.9</td>
+                    <td>Ca</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>Na</td>
+                  </tr>
+                  <tr>
+                    <td>0.7</td>
+                    <td>Cu</td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>Pb</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>Zn</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>K</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+
+
+
+
+            
+
+
+
+        </div>
+
+        <br>
+
+
+
+        <div class="boxg">
+        <p class="MsoStep">یادآوری</p>
+        
+        <p class="MsoNormal">در کتاب‌های درسی علوم تجربی، با مفهوم ویژگی‌ها و کاربرد برخی از کانی‌ها آشنا شدید. تعیین کنید کدام یک از تصاویر زیر، کانی می‌باشند؟ چرا؟</p>
+        
+        </div>
+
+
+<br><br>
+
+        <p class="MsoNormal">کانی‌ها، براساس ترکیب شیمیایی به دو گروه سیلیکات‌ها و غیرسیلیکات‌ها رده‌بندی می‌شوند. سیلیکات‌ها، کانی‌هایی هستند که بیش از 90 درصد از پوسته زمین را تشکیل می‌دهند و در ترکیب شیمیایی خود، بنیان سیلیکاتی (−4 SiO) دارند. کانی‌های سیلیکاتی در سنگ‌های آذرین، رسوبی و یا دگرگونی یافت می‌شوند (شکل 2ـ2). کانی‌های غیرسیلیکاتی، گروهی از کانی‌ها هستند که در ترکیب خود، فاقد بنیان سیلیکاتی هستند. این کانی‌ها نیز در انواع سنگ‌ها یافت می‌شوند.</p>
+        <br>
+        <p class="MsoNormal">به گروهی از کانی‌ها که در آن یک فلز ارزشمند اقتصادی وجود دارد، کانه اطلاق می‌شود. مانند مگنتیت که از آن آهن و یا گالن که از آن سرب استخراج می‌شود. برخی از کانه‌ها به‌صورت آزاد هم یافت می‌شوند: مانند طلا، نقره و مس.</p>
+        
+
+<br>
+
+<div class="boxg">
+
+    <p class="MsoStep">
+        گفت و گو کنید
+    </p>
+    <p class="MsoNormal">
+        $*$
+        در ساخت سرامیک و شیشه، از چه کانی‌هایی استفاده می‌شود؟ 
+        <br>
+        $*$
+        در مورد کانه‌های زیر، اطلاعات جمع‌آوری و جدول زیر را کامل کنید.</p>
+
+        <br>
+
+        <table class="tables" style="text-align: center; min-width:350px; width:min-content; margin:auto">
+
+                <thead>
+                  <tr>
+                    <th>عنصر اقتصادی</th>
+                    <th>ترکیب شیمیایی</th>
+                    <th>کانه</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td></td>
+                    <td></td>
+                    <td>هماتیت</td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td></td>
+                    <td>مگنتیت</td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td></td>
+                    <td>کالکوپیریت</td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td></td>
+                    <td>گالن</td>
+                  </tr>
+                </tbody>
+              </table>
+ 
+
+    
+
+    
+
+</div>
+
+
+<br><hr><br>
+<p class="MsoStep">کانسنگ</p>
+
+<p class="MsoNormal">سنگ معدن یا کانسنگ، از دو بخش کانه و باطله تشکیل شده است. کانه، بخش ارزشمند کانسنگ است و باطله، به موادی که ارزش اقتصادی قابل توجهی ندارند، گفته می‌شود.<br> 
+برای مثال کالکوپیریت، به فرمول شیمیایی CuFeS₂ مهم‌ترین کانة کانسنگ فلز مس است. در معادن مس، این کانی همراه با کانی‌های باطله مختلفی مانند کوارتز، فلدسپار، میکا، کانی‌های رسی، پیریت FeS₂ و ... کانسنگ مس را تشکیل می‌دهند.</p>
+
+<p class="MsoNormal">در بخش‌هایی از پوسته زمین، غلظت عناصر در یک منطقه نسبت به غلظت میانگین، افزایش می‌یابد و حجم زیادی از ماده معدنی در آنجا متمرکز می‌شود (بی‌هنجاری مثبت)، به طوری که استخراج آن از نظر اقتصادی مقرون به صرفه است. به این مناطق، کانسار می‌گویند. استخراج ماده معدنی یا کانسنگ، اغلب پرهزینه است و تنها در صورتی بهره‌برداری آغاز می‌شود که یک عنصر با حجم و غلظت کافی در مادۀ معدنی وجود داشته باشد. با شروع بهره‌برداری یا معدن‌کاری، یک معدن شکل می‌گیرد.</p>
+
+<p class="MsoNormal">افزون بر کانسنگ‌ها، مواد معدنی دیگری هم برای کاربردهای صنعتی یا روزمره استخراج می‌شوند که فلزی نیستند. مانند: شن و ماسه در ساختمان‌سازی، خاک رس در ساخت آجر یا کاشی و سرامیک، سنگ‌های ساختمانی که در نمای ساختمان‌ها، کفپوش، پله و دیوارها به کار می‌روند. به این نوع از سنگ‌ها و کانی‌های غیرفلزی، سنگ‌ها و کانی‌های صنعتی نیز می‌گویند.</p>
+
+<br>
+<div class="boxg">
+<p class="MsoStep">فکر کنید</p>
+<p class="MsoNormal">
+    $*$
+    با آنکه آلومینیوم در پوسته زمین فراوان است، چرا معادن این فلز کمیاب و اغلب در مناطق پرباران و گرم استوایی می‌باشد؟<br> 
+    $*$
+علاوه بر عوامل حجم و غلظت، چه عواملی در مقرون به صرفه شدن یک معدن دخالت دارند؟</p>
+</div>
+
+<br><br>
+
+<p class="MsoNormal">در برخی موارد، بخش غیراقتصادی یا باطله یک کانسنگ، به عنوان شن و ماسه در زیرسازی جاده‌ها و... استفاده می‌شود.</p>
+<br><br>
+
+
+<div class="boxg">
+<p class="MsoStep">گفت‌وگو کنید</p>
+<p class="MsoNormal">1ـ در آب دریاها، مقداری عنصر طلا وجود دارد. به چه دلیل، طلا را از دریا استخراج نمی‌کنیم؟<br> 
+2ـ به چه دلیل برخی از معادن متروکه، پس از مدتی مورد بهره‌برداری مجدد قرار می‌گیرد؟</p>
+</div>
+
+
+<br><br>
+<p class="MsoNormal">کانسنگ‌ها بر اساس منشأ و نحوۀ تشکیل، به سه دستۀ ماگمایی، گرمابی و رسوبی تقسیم‌بندی می‌شوند:</p>
+<br>
+<p class="MsoSemi">
+    الف) کانسنگ‌های ماگمایی:
+</p>
+<p class="MsoNormal">کانسنگ‌های برخی عناصر فلزی مانند کروم، نیکل، پلاتین و آهن می‌توانند از یک ماگمای در حال سرد شدن، تشکیل شوند. با سرد شدن و تبلور یک ماگما، این عناصر که چگالی نسبتاً بالایی دارند، در بخش زیرین ماگما ته‌نشین می‌شوند و این کانسنگ‌ها را می‌سازند (شکل 5ـ2ـ الف).</p>
+<p class="MsoNormal">اگر پس از تبلور بخش اعظم ماگما، مقدار آب و مواد فرّار مانند کربن دی‌اکسید و ... فراوان باشد و از طرفی زمان تبلور بسیار کند و طولانی باشد، شرایط برای رشد بلورهای تشکیل‌دهنده سنگ، فراهم می‌شود. سنگ‌هایی با بلورهای بسیار درشت، به نام پگماتیت، تشکیل می‌شوند (شکل 6ـ2) که می‌تواند کانسار مهمی برای برخی عناصر خاص مانند لیتیم و بعضی کانی‌های گوهری مانند زمرد یا کانی‌های صنعتی مانند مسکوویت (طلق نسوز) باشد.</p>
+
+<br>
+
+
+     <p class="MsoSemi">
+        ب) کانسنگ‌های گرمایی:
+    </p>
+    <p class="MsoNormal">در پوسته زمین، به ازای هر 100 متر افزایش عمق، 3 درجه سانتی‌گراد دما افزایش می‌یابد. به این تغییرات دما در پوسته زمین، شیب زمین‌گرمایی می‌گویند. در بخش‌های عمیق پوسته، به علت گرمای ناشی از شیب زمین‌گرمایی و یا توده‌های مذاب، دمای آب‌های موجود در این مناطق افزایش می‌یابد. منشأ این آب‌ها ممکن است از ماگما، آب‌های نفوذی بستر اقیانوس‌ها و یا آب‌های زیرزمینی راه یافته به اعماق زمین باشد که باعث انحلال برخی از عناصر می‌شوند. این آب‌ها، برخی عناصر را به شکل کانسنگ در داخل شکستگی‌های سنگ ته‌نشین می‌کنند و رگه‌های معدنی را می‌سازند (شکل 7ـ2). از آنجا که عامل تشکیل این کانسنگ‌ها، آب گرم است، کانسنگ‌های گرمابی نامیده می‌شوند. بسیاری از ذخایر مس، سرب، روی، مولیبدن، قلع و برخی فلزات دیگر، منشأ گرمابی دارند.</p>
+
+
+<br>
+
+
+<p class="MsoSemi">
+    پ) کانسنگ‌های رسوبی:
+</p>
+
+<p class="MsoNormal">ذخایر سرب و روی موجود در سنگ‌های آهکی، مس و اورانیوم موجود در ماسه‌سنگ‌ها، نمونه‌هایی از کانسنگ‌های رسوبی مهم هستند. گاهی هوازدگی سنگ‌ها باعث می‌شود تا کانی‌های آن در رسوبات تخریبی رودخانه به علت چگالی زیاد ته‌نشین شده و به‌صورت خالص قابل بهره‌برداری شوند. مانند پلاسرهای طلا، الماس، پلاتین و... . از هزار سال پیش تاکنون در منطقه تخت سلیمان تکاب، از رودخانه زرشوران، طلا برداشت می‌شود.</p>
+
+
+    <br><hr><br>
+
+
+
+<p class="MsoStep">اکتشاف معدن</p>
+<p class="MsoNormal">تشکیل ذخایر فلزی و غیرفلزی در برخی از مناطق پوسته زمین رخ می‌دهد. با آگاهی از اصول تشکیل و عوامل کنترل‌کننده آنها، می‌توان ذخایر معدنی را پیدا کرد. در اولین مرحله اکتشاف، زمین‌شناسان با بررسی نقشه‌های زمین‌شناسی و بازدید صحرایی، مناطقی را که احتمال تشکیل ذخایر معدنی در آن وجود دارد، شناسایی می‌کنند. در مرحله بعد، با آگاهی از ویژگی‌های فیزیکی کانسنگ‌ها، با کمک روش‌های ژئوفیزیکی، ذخایر زیرسطحی و پنهان را شناسایی می‌کنند.</p>
+   <br><hr><br>
+<p class="MsoStep">استخراج معدن و فرآوری ماده معدنی</p>
+<p class="MsoNormal">پس از پایان عملیات اکتشاف و تعیین اقتصادی بودن ذخایر، عملیات استخراج آغاز می‌شود. روش استخراج، بر اساس شکل و چگونگی قرارگیری توده معدنی در پوسته، تعیین می‌شود.
+    روش‌های روباز یا زیرزمینی صورت می‌گیرد (شکل 8 ـ2). همان‌طور که گفته شد، در کانسنگ استخراج‌شده از معدن، افزون بر کانه، کانی‌های باطله نیز وجود دارند. برای مثال در کانسارهای مس، عنصر مس در کانه‌های مختلفی مانند کالکوپیریت و تعدادی کانه دیگر، یافت می‌شود. عیار عنصر مس در این کانسنگ‌ها کمتر از یک درصد است. بنابراین بیش از نود و نه درصد کانسنگ استخراج‌شده، باطله است که باید از آن جدا شود.
+    به فرایند جداسازی کانی‌های مفید اقتصادی از باطله، کانه‌آرایی (فرآوری) ماده معدنی گفته می‌شود. محصول نهایی (کنسانتره) که همان کانه جدا شده از کانسنگ می‌باشد، به کارخانه ذوب منتقل، یا به طور مستقیم یا با تغییر اندک در صنعت استفاده می‌شود.</p>
+<br><hr><br>
+<p class="MsoNormal">جمع‌آوری اطلاعات</p>
+<p class="MsoNormal">در مورد ذخایر پلاسر طلای ایران اطلاعات جمع‌آوری کنید و محل آنها را بر روی نقشه ایران نشان دهید.</p>
+<br><hr><br>
+<p class="MsoNormal">لذت زمین‌شناسی</p>
+<p class="MsoNormal">بازدیدهای صحرایی در شرایط هیجان‌انگیز، در مناطق مختلف انجام می‌شود. دیدن مناطق جدید و بکر، کار کردن در روز و اقامت شبانه در صحرا (فیلد)، از بخش‌های لذت‌بخش و جذاب زندگی زمین‌شناسان است.</p>
+<br><hr><br>
+<p class="MsoNormal">پیوند با ریاضی</p>
+<p class="MsoNormal">عیار اقتصادی طلا در ذخایر آن، حدود ppm 2 است. محاسبه کنید در یک معدن طلا، از 3 تن سنگی که استخراج می‌شود، چند گرم طلا به دست می‌آید؟</p>
+
+<br><hr><br>
+
+<p class="MsoStep">گوهرها، زیبایی شگفت‌انگیز دنیای کانی‌ها</p>
+<p class="MsoNormal">از روزگاران کهن، انسان از زیبایی و ویژگی‌های خیره‌کننده کانی‌ها، برای زیباتر جلوه دادن خود استفاده می‌کرده است. این موضوع، به فطرت زیبادوستی و زیبایی‌شناسی که خداوند متعال در نهاد انسان قرار داده است، برمی‌گردد. شاید این یکی از مهم‌ترین دلایل ایجاد علم گوهرشناسی و پیشرفت‌های بعدی آن بوده است. لازم به ذکر است که تنها از میان حدود 4000 کانی شناخته‌شده، حدود 100 کانی، ویژگی‌های لازم یک گوهر را دارند.</p>
+
+<p class="MsoNormal">گوهرها یا جواهر، شامل سنگ‌ها و کانی‌های قیمتی و نیمه‌قیمتی است که به دلیل زیبایی، درخشش، سختی زیاد، رنگ و کمیاب بودن، از سایر کانی‌ها و سنگ‌ها متمایز هستند و مورد توجه خاص انسان‌ها قرار می‌گیرند. سختی کانی‌ها، براساس مقیاس سختی موهس توصیف می‌شود. این مقیاس بین عدد 1 (نرم‌ترین در تالک) تا عدد 10 (سخت‌ترین در الماس) تقسیم‌بندی می‌گردد. زیبایی رنگ و درخشندگی گوهرهایی مانند یاقوت، زمرد، فیروزه، عقیق و آمتیست (کوارتز بنفش)، توجه هر کسی را به خود جلب می‌کند. گوهرها، نمونه‌های بسیار زیبا و خاص و کمیاب دنیای کانی‌ها هستند که توسط فرایندهای ماگمایی، گرمابی و دگرگونی، اکثراً تحت شرایط خاصی مانند دما و فشار زیاد در اعماق زمین و گاهی با حضور مواد فّرار به وجود می‌آیند.</p>
+
+<br>
+
+<div class="boxg">
+
+<p class="MsoStep">بیشتر بدانید</p>
+<p class="MsoNormal">استفاده از گوهرها به حدود 9000 سال پیش از میلاد برمی‌گردد. احتمالاً اولین بار هندی‌ها و ایرانیان و پس از آنها مصریان در 7000 سال قبل از میلاد مسیح، از گوهرها استفاده می‌کردند. وجود آویزها و مهره‌های آرایشی از جنس تالک، اسلیت، مرمر و صدف در آثار مربوط به 10650 سال پیش در بلندی‌های برادوست کردستان نشانگر این مطلب است. همچنین کشف مهره‌های زینتی از جنس فیروزه و سنگ لاجورد در تپه زاغه در جنوب قزوین، مربوط به 8 تا 9 هزار سال پیش و نیز پیدا شدن مهره‌های فیروزه‌ای در قبرهای دره محمد جعفر متعلق به 6 هزار سال پیش، و داد و ستد تالک، سنگ چخماق، مرمر سفید، عقیق، فیروزه، صدف دریایی و سنگ لاجورد، بین عیلامیان و سومری‌ها در شهر تپه یحیی در 5 تا 6 هزار سال قبل، همگی نشان‌دهنده قدمت و تاریخ استفاده از گوهرها و سنگ‌های زینتی در ایران هستند.</p>
+
+<p class="MsoNormal">در ایران، از قرن دوم تا یازدهم هجری قمری، حدود 35 کتاب در زمینه کانی‌شناسی و گوهرشناسی تألیف شده که معتبرترین آنها از لحاظ علمی، کتاب‌های الجماهر ابوریحان بیرونی و تنسوق‌نامه خواجه نصیرالدین توسی است. جواهرات، اغلب در ابعاد کوچک یافت می‌شوند و جرم آنها برحسب قیراط اندازه‌گیری می‌شود. هر قیراط معادل 0/2 گرم می‌باشد.</p>
+
+</div>
+
+<br><br>
+<p class="MsoNormal">اگر یک گوهر، سختی کافی نداشته باشد، در برابر خراشیدگی مقاوم نیست و از بین می‌رود. برخی خواص دیگر، مانند بازی رنگ، به کانی‌ها درخشندگی و زیبایی خاصی می‌دهد. مانند کانی کریزوبریل با درخشندگی چشم گربه و نوعی گوهر سیلیسی به نام اُپال (معروف به اُپال گرانبها) که درخشش رنگین‌کمانی دارد (شکل 10ـ2).</p>
+
+<br>
+
+<div class="boxp">
+
+
+    <p class="MsoStep">پاسخ دهید
+    
+        </p>
+    
+    <p class="MsoNormal">
+    حداقل یک دلیل بیاورید که کانی کلسیت یا ژیپس نمی‌تواند یک کانی قیمتی باشد؟</p>
+    
+    </div>
+
+<br><br>
+
+<div class="boxg">
+<p class="MsoStep">گفت‌وگو کنید</p>
+<p class="MsoNormal">
+    $*$
+    گوهرها را چگونه تراش می‌دهند؟ </p>
+<p class="MsNormal">
+    $*$
+    تفاوت الماس و برلیان در چیست؟</p>
+<p class="MsoNormal">
+    $*$
+    از الماس در سر مته حفاری استفاده می‌کنند. علت چیست؟</p>
+</div>
+
+<br><br>
+
+
+
+<p class="MsoSemi">الماس:</p>
+<p class="MsoNormal">گوهری با ترکیب کربن خالص است که در دما و فشار بسیار زیاد، در گوشتة زمین تشکیل می‌شود. این کانی، افزون بر استفادۀ گوهری، در ساینده‌ها نیز کاربرد دارد (شکل 11ـ 2).</p>
+<br>
+<p class="MsoSemi">یاقوت:</p>
+<p class="MsoNormal">نام علمی آن کرندوم (اکسید آلومینیم) است. کانی کرندوم به رنگ آبی و سرخ دیده می‌شود، رنگ آبی آن یاقوت کبود و رنگ قرمز آن را یاقوت سرخ می‌گویند. این کانی بعد از الماس، سخت‌ترین کانی می‌باشد (شکل 12ـ 2).</p>
+<br>
+<p class="MsoSemi">زمرد:</p>
+<p class="MsoNormal">معروف‌ترین و گران‌ترین سیلیکات بریلیم که به رنگ سبز یافت می‌شود را «زمرد» می‌نامند (شکل 13ـ 2).</p>
+<br>
+<p class="MsoSemi">گارنت:</p>
+<p class="MsoNormal">از کانی‌های سیلیکاتی است که در سنگ‌های دگرگونی یافت می‌شود و معمولاً به رنگ سبز، قرمز، زرد، نارنجی و... دیده می‌شود. فراوان‌ترین رنگ آن، قرمز تیره است (شکل 14ـ 2).</p>
+<br>
+<p class="MsoSemi">عقیق:</p>
+<p class="MsoNormal">کانی سیلیسی با ترکیب شیمیایی SiO₂ با رنگ‌های متنوع است که به نام‌ها و تراش‌های مختلف در بازار عرضه می‌شود. عقیق، یک نوع کوارتز نیمه‌قیمتی است که در بسیاری از نقاط ایران یافت می‌شود (شکل 15ـ 2).</p>
+<br>
+<p class="MsoSemi">زبرجد:</p>
+<p class="MsoNormal">به نوع شفاف و قیمتی کانی اُلیوین، زبرجد می‌گویند. این کانی، سیلیکاتی و به رنگ سبز زیتونی است به همین دلیل به آن الیوین گفته می‌شود (شکل 16ـ 2).</p>
+<br>
+<p class="MsoSemi">فیروزه:</p>
+<p class="MsoNormal">از گوهرهای قدیمی شناخته‌شده که دارای ترکیب فسفاتی است و برای اولین بار در سنگ‌های آتشفشانی اطراف نیشابور یافت شد و به دیگر نقاط جهان صادر گردید. (شکل 17ـ 2).</p>
+<br><hr><br>
+<p class="MsoStep">سوخت‌های فسیلی</p>
+<p class="MsoNormal">انرژی، برای انجام تمامی فعالیت‌های انسان ضروری است. انسان از گذشته دور، از منابع طبیعی برای تولید انرژی استفاده کرده است. از میان منابع مختلف انرژی در دسترس، سوخت‌های فسیلی اهمیت زیادی دارند و در بیشتر کشورهای جهان، به عنوان منابع اصلی تولید انرژی به شمار می‌روند. سوخت‌های فسیلی از تجزیه مواد آلی گیاهی و جانوری به وجود می‌آیند که در رسوبات یا سنگ‌های رسوبی ذخیره شده‌اند.</p>
+<br>
+<p class="MsoSemi">نفت و گاز:</p>
+<p class="MsoNormal">هیدروکربن‌هایی هستند که به طور طبیعی، به صورت مایع، گاز و نیمه‌جامد در زمین وجود دارند. برخلاف زغال‌سنگ که در محیط‌های خشکی مانند محیط مردابی (اکسیژن اندک) تشکیل می‌شود، نفت خام در محیط دریایی کم‌عمق (کمتر از 200 متر) به وجود می‌آید. در این محیط‌ها، جاندارانی مانند پلانکتون‌ها، مهم‌ترین منشأ مواد آلی هستند. بقایای این موجودات پس از مرگ، در رسوبات ریزدانه بستر دریا مدفون می‌شوند. ماده آلی (نظیر اسیدهای چرب) باقیمانده که توسط لایه‌های بالایی پوشیده و حفظ شده، در لابه‌لای رسوبات ریز یعنی سنگ منشأ (سنگ مادر) نفت را تشکیل می‌دهد (شکل 18ـ 2).</p>
+<br>
+<p class="MsoNormal">مواد آلی در طی تبدیل رسوب ریزدانه به سنگ مادر، از طریق یک سری واکنش‌های شیمیایی به نفت خام تبدیل می‌شود. در فرایند تشکیل ذخایر نفتی، عواملی مانند دما، فشار، وجود باکتری غیرهوازی، زمان و محیطی بدون اکسیژن اهمیت فراوانی دارند (شکل 18ـ 2).</p>
+
+<br>
+
+<div class="boxg">
+
+<p class="MsoSemi">با هم بیندیشید</p>
+<p class="MsoNormal">اگر در فرایند تشکیل نفت خام، فشار و دما از حد مورد نیاز برای تشکیل نفت، بیشتر یا کمتر شود، چه اتفاقی رخ می‌دهد؟</p>
+</div>
+
+<br><br>
+
+
+<p class="MsoSemi">مهاجرت نفت:</p>
+<p class="MsoNormal">نفت و گازی که در سنگ مادر تشکیل می‌شود، همراه با آب دریا که از زمان رسوب‌گذاری در سنگ به دام افتاده، ناشی از فشار طبقات فوقانی، از طریق نفوذپذیری سنگ‌ها، به سمت بالا و اطراف حرکت می‌کند که به آن مهاجرت اولیه نفت می‌گویند. اگر در طی مهاجرت اولیه، مانعی در مسیر حرکت آب و نفت و گاز نباشد، به سطح زمین راه یافته و چشمه‌های نفتی را به وجود می‌آورد. در این صورت نفت، در سطح زمین تبخیر، دچار اکسایش و غلیظ‌شدگی می‌شود و ذخایر قیر طبیعی را به وجود می‌آورد که نمونه‌ای از آنها در استان‌های خوزستان و ایلام دیده می‌شود.</p>
+
+<p class="MsoNormal">اگر نفت و گاز در مسیر مهاجرت خود، به لایه‌ای از سنگ‌های نفوذناپذیر مانند سنگ گچ یا شیل برسند، دیگر قادر به ادامه مهاجرت نخواهند بود. این لایة نفوذناپذیر (پوش‌سنگ) جلوی حرکت نفت و گاز به سطح زمین را می‌گیرد و آنها را در سنگ مخزن که یکی از اجزای نفت‌گیر است، به دام می‌اندازد. ویژگی مهم سنگ مخزن، وجود تخلخل و نفوذپذیری زیاد آن است. مانند: ماسه‌سنگ و سنگ‌آهک حفره‌دار (ریف‌های مرجانی).</p>
+
+<p class="MsoNormal">مخازن نفتی (نفت‌گیرها و تله‌های نفتی)، دارای شکل (وضعیت) هندسی مناسب برای تجمع و ذخیره‌سازی نفت می‌باشند. در داخل سنگ مخزن، به دلیل اختلاف چگالی، آب شور، نفت و گاز از هم جدا می‌شوند که به این جدایش، مهاجرت ثانویه نفت گفته می‌شود. نفت‌گیرها انواع مختلفی دارند. مانند: تاقدیسی، گسلی، گنبد نمکی، ریف مرجانی و... .</p>
+
+<p class="MsoNormal">گفته می‌شود که 99/9 درصد نفتی که در طول تاریخ زمین تولید شده، به سطح زمین رسیده و از بین رفته و 0/1 درصد آن، همة ذخایر نفت موجود را تشکیل داده است.</p>
+<br><br>
+<p class="MsoSemi">زغال‌سنگ:</p>
+<p class="MsoNormal">یک سوخت فسیلی جامد است که از مواد آلی در محیط‌های خشکی به وجود می‌آید. این مواد آلی، بیشتر از گیاهان جنگل حاصل می‌شوند. آنها، در باتلاق‌ها انباشته شده و توسط رسوبات پوشیده می‌شوند و بدون حضور اکسیژن (توسط باکتری غیرهوازی) به مرور زمان، به تورب که یک نوع زغال نارس است، تبدیل می‌شوند. در برخی کشورها مانند ایرلند، تورب به عنوان یک ماده سوختی بهره‌برداری می‌شود (شکل 20ـ2).</p>
+
+<p class="MsoNormal">در طی میلیون‌ها سال، تورب در زیر فشار رسوبات و وزن سنگ‌های بالایی، فشرده‌تر شده و آب و مواد فرّار مانند کربن‌دی‌اکسید و متان از آن خارج می‌شود. با خروج این مواد، در نهایت، ضخامت تورب که ماده‌ای پوک و متخلخل است، کاهش می‌یابد و به لیگنیت تبدیل می‌شود. با افزایش تراکم، لیگنیت به زغال‌سنگ‌های مرغوب‌تری به نام بیتومینه و سپس آنتراسیت تبدیل می‌شود (شکل 21ـ2).</p>
+
+<p class="MsoNormal">در فرایندهای زغال‌شدگی از تورب تا آنتراسیت، تغییرات زیادی رخ می‌دهد و سبب می‌شود با خروج تدریجی آب و مواد فرار، درصد کربن در سنگ حاصل، افزایش یابد و کیفیت و توان تولید انرژی زغال‌سنگ بهتر شود.</p>
+
+<br>
+<div class="boxg">
+
+<p class="MsoStep">فکر کنید</p>
+<p class="MsoNormal">وجود ذخایر زغال‌سنگ در سیبری که امروزه، سرزمینی سرد و بدون جنگل‌های انبوه می‌باشد را چگونه توجیه می‌کنید؟<br>
+لایه‌های زغال‌دار طبس، نشان‌دهنده چه نوع آب و هوایی در گذشته این منطقه است؟<br>
+چرا برخی از مناطق، با وجود جنگلی بودن، مکان مناسبی برای تشکیل زغال‌سنگ نیستند؟</p>
+
+</div>
+<br><br>
+
+<div class="boxb">
+    <p class="MsoStep">علم، زندگی، کارآفرینی</p>
+
+    <p class="MsoSemi">سنگ‌شناسی (پترولوژی):</p>
+    <p class="MsoNormal">سنگ‌شناسی، شاخه‌ای از زمین‌شناسی است که در آن شیوه تشکیل، منشأ، رده‌بندی و ترکیب سنگ‌های آذرین و دگرگونی بررسی می‌شود. فرایندهای دگرگونی، آتشفشانی، نفوذ توده‌های آذرین در درون زمین و حتی در ماه و دیگر سیاره‌ها و مناطق زمین‌گرمایی، توسط پترولوژیست‌ها (سنگ‌شناسان) مورد مطالعه قرار می‌گیرد.</p>
+    <br>
+    <p class="MsoSemi">زمین‌شناسی اقتصادی:</p>
+    <p class="MsoNormal">زمین‌شناسانی که در موضوع زمین‌شناسی اقتصادی تخصص دارند، با بهره‌گیری از اصول زمین‌شناسی و پراکندگی عناصر در پوسته زمین، به دنبال مکان‌هایی هستند که در آن ذخایر معدنی ارزشمند مانند مس، آهن، طلا، نقره، الماس و دیگر گوهرها و... قرار دارند.</p>
+    <br>
+    <p class="MsoSemi">زمین‌شناسی نفت:</p>
+    <p class="MsoNormal">زمین‌شناس نفت، از تخصص خود در شناخت، چگونگی تشکیل و مهاجرت نفت در اعماق چند کیلومتری زمین استفاده می‌کند. همچنین مکان‌هایی که نفت می‌تواند در آنجا انباشته شود، شناسایی و مکان‌هایی از یک میدان نفتی یا گازی که برای حفاری و استخراج نفت مناسب است را مشخص می‌کند.</p>
+    <br>
+    <p class="MsoSemi">ژئوشیمی:</p>
+    <p class="MsoNormal">کلارک و محققان دیگر، مطالعات زیادی درباره ترکیب سیارات به ویژه زمین انجام دادند و یافته‌های آنها، پایه علم ژئوشیمی امروزه را تشکیل داده است. مطالعه روی ترکیب سیارات که در واقع همان ترکیب تقریبی زمین است، تأثیر بسزایی در شناخت عناصر و چگونگی تشکیل آنها دارد و همچنین توزیع نامساوی عناصر در زمین را بررسی می‌کند.</p>
+    <br>
+    <p class="MsoNormal">متخصصین فوق، در سازمان زمین‌شناسی و اکتشافات معدنی کشور، صنایع و معادن، شرکت ملی نفت، گاز، پتروشیمی و جواهرسازی، کمک شایانی در بهبود اقتصاد کشور خواهند داشت.</p>
+    
+
+</div>
+
+
+
+
+
+<br><br><br><br><br>
+
+
+    </body>
+
+
+</html>

@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: "Nastaliq";
+            src: url('nas.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+      
+        li.MsoNormal,
+        div.MsoNormal,
+        ul.MsoNormal,
+        ol.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+            
+        }
+        p.MsoNas
+         {
+            margin: 0.5em;
+            
+            font-size: clamp(1.5rem, 1.7vw, 2rem);
+            font-family: "Nastaliq";
+            line-height: 2.3em;
+            color: #dcd7e0;
+            text-align: center;
+         letter-spacing: 0em;
+         word-spacing: 0.4em;
+            
+        }
+        p.MsoNormal
+         {
+            margin: 0in;
+           
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-indent: 1em;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi, b {
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSemic,
+        li.MsoSemic,
+        div.MsoSemic {
+            margin: 0in;
+           
+            font-size: clamp(1.2rem, 1.6vw, 1.3rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #b19af2;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #6ca4ec;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+        span.uline{
+            border-bottom: 0.1em solid #64E9E1;
+        }
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .boxp {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .boxg {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#00f2ff11; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        .boxb {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#0c4e9f2d; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        ::selection {
+            background-color: #59078fa1; /* Change this to your desired highlight color */
+            color: #ffffff; /* Change this to your desired text color */
+          }
+
+
+          mark{
+            background-color:#078b8fa1 ;
+            color: #ffffff;
+            padding: 0 7px;
+        }
+
+        .hlg { background-color: rgba(0, 234, 255, 0.334);  }
+        .hlp { background-color:#5f1487; }
+      
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+    <body class="custom-scrollbar">
+
+        <p class="MsoStep">گفتار ۲ : همانندسازی دنا</p>
+        <p class="MsoNormal">
+            با توجه به اینکه دنا به عنوان ماده وراثتی، حاوی اطلاعات یاخته است، این پرسش مطرح می‌شود که هنگام تقسیم یاخته، این اطلاعات چگونه بدون کم و کاست به دو یاخته حاصل از تقسیم می‌رسند؟
+            این کار با همانندسازی دنا انجام می‌شود. به ساخته شدن مولکول دنای جدید از روی دنای قدیمی همانندسازی می‌گویند.
+        </p>
+        <br>
+        <p class="MsoNormal">
+            بر اساس مدل واتسون و کریک و وجود رابطهٔ مکملی بین بازها، فرآیند همانندسازی دنا قابل توضیح است؛ گرچه طرح‌های مختلفی برای همانندسازی دنا پیشنهاد شده بود (شکل ۹).
+        </p>
+        <br>
+        <p class="MsoSemi">۱ــ همانندسازی حفاظتی:</p>
+        <p class="MsoNormal">
+            در این طرح، هر دو رشتهٔ دنای اولیه به‌صورت دست‌نخورده باقی مانده و وارد یکی از یاخته‌های حاصل از تقسیم می‌شوند، در حالی که دو رشته دنای جدید وارد یاختهٔ دیگر می‌شوند. چون دنای اولیه به‌طور کامل در یکی از یاخته‌ها حفظ شده است، به آن همانندسازی حفاظتی می‌گویند.
+        </p>
+        <br>
+        <p class="MsoSemi">۲ــ همانندسازی نیمه‌حفاظتی:</p>
+        <p class="MsoNormal">
+            در این طرح، در هر یاخته یکی از دو رشتهٔ دنا مربوط به دنای اولیه است و رشتهٔ دیگر با نوکلئوتیدهای جدید ساخته شده است. چون در هر یاختهٔ حاصل، فقط یکی از دو رشتهٔ دنای قبلی وجود دارد، به آن نیمه‌حفاظتی می‌گویند.
+        </p>
+        <br>
+        <p class="MsoSemi">۳ــ همانندسازی غیرحفاظتی (پراکنده):</p>
+        <p class="MsoNormal">
+            در این طرح، هر کدام از دناهای حاصل، قطعاتی از رشته‌های قبلی و رشته‌های جدید را به‌صورت پراکنده در خود دارند.
+        </p>
+        <br>
+        <p class="MsoStep">کدام طرح مورد تأیید قرار گرفته است؟</p>
+        <p class="MsoNormal">
+            مزلسون و استال با استفاده از روش علمی، پاسخ این پرسش را یافتند. آنها فرضیه‌های متعددی را در نظر گرفتند و با توجه به امکانات، آزمایشی را طراحی کردند تا به نتیجه‌ای قانع‌کننده برسند.
+            برای شروع کار، آنها باید رشته‌های دنای نوساز را از رشته‌های قدیمی تشخیص می‌دادند. به همین منظور، آنها دنا را با استفاده از نوکلئوتیدهایی که ایزوتوپ سنگین نیتروژن (۱۵N) دارند، نشانه‌گذاری کردند.
+        </p>
+
+        <p class="MsoNormal">
+            دناهایی که با ۱۵N ساخته می‌شوند، چگالی بیشتری نسبت به دنای معمولی که در نوکلئوتیدهای خود ۱۴N دارد، دارند. بنابراین، به وسیلهٔ دستگاه سانتریفیوژ با سرعت بالا، می‌توان این دناها را از یکدیگر جدا کرد.
+        </p>
+        <p class="MsoNormal">
+            آنها ابتدا باکتری‌ها را در محیطی حاوی ۱۵N کشت دادند. ۱۵N در ساختار بازهای آلی نیتروژن‌دار که در ساخت دنای باکتری شرکت می‌کردند، وارد شد. پس از چندین مرحله رشد و تکثیر در این محیط، باکتری‌هایی تولید شدند که دنای سنگین‌تری نسبت به باکتری‌های اولیه داشتند.
+        </p>
+        <p class="MsoNormal">
+            سپس این باکتری‌ها را به محیط کشت دارای ۱۴N منتقل کردند. با توجه به اینکه تقسیم باکتری حدود ۲۰ دقیقه طول می‌کشد، در فواصل ۲۰ دقیقه‌ای باکتری‌ها از محیط کشت جدا و بررسی شدند.
+        </p>
+        <p class="MsoNormal">
+            برای سنجش چگالی دناها در هر بازهٔ زمانی، دنای باکتری را استخراج و در شیبی از محلول سزیم کلرید با غلظت‌های متفاوت و با سرعت بسیار بالا سانتریفیوژ کردند؛ در نتیجه مواد بر اساس چگالی در بخش‌های متفاوتی از محلول در لوله قرار گرفتند.
+            مراحل آزمایش مزلسون و استال و نتایج آن را در شکل ۱۰ می‌بینید.
+        </p>
+        <p class="MsoNormal">
+            همان‌طور که مشاهده می‌کنید، نتایج این آزمایش نشان داد که همانندسازی دنا، نیمه‌حفاظتی است.
+        </p>
+        <br>
+        <p class="MsoStep">بیشتر بدانید</p>
+        <p class="MsoNormal">
+            <b>گریزانهٔ هم‌چگال:</b><br>
+            برای جدا کردن ذره‌هایی با چگالی متفاوت و تعیین چگالی آنها، از روشی به نام «گریزانهٔ هم‌چگال» استفاده می‌شود. در این روش، محلولی از نمک یک فلز سنگین مانند سزیم کلرید در لوله آزمایش قرار می‌دهند.
+            غلظت این ماده و چگالی آن به‌طور یکنواخت از پایین به بالای لوله کاهش می‌یابد و به اصطلاح، شیب پیوسته‌ای از غلظت‌های مختلف نمک در آن وجود دارد.
+            با ورود مولکول‌های مد نظر به این محلول و حرکت آنها حین سانتریفیوژ، بر اساس چگالی خود در نقطه‌ای متوقف می‌شوند. چون ذره‌ها با چگالی یکسان در یک منطقه تجمع می‌کنند، نوارهایی تشکیل می‌دهند که به‌آسانی قابل تشخیص‌اند.
+            با مشخص شدن چگالی محلول در هر نقطه از لوله، می‌توان چگالی ذره‌های مورد آزمایش را تعیین کرد.
+        </p>
+        <br>
+        <p class="MsoSemi">عوامل و مراحل همانندسازی</p>
+        <p class="MsoNormal">
+            در فرآیند همانندسازی، عوامل متعددی نقش دارند که مهم‌ترین آنها به شرح زیر است:
+        </p>
+        <ul class="MsoNormal">
+            <li>مولکول دنا به‌عنوان الگو</li>
+            <li>واحدهای سازندۀ دنا که بتوانند نسخهٔ مکمل الگو را بسازند. این واحدها نوکلئوتیدهای آزاد داخل یاخته و دارای سه فسفات هستند که در لحظهٔ اتصال به رشتهٔ پلی‌نوکلئوتید در حال ساخت، دو فسفات خود را از دست می‌دهند.</li>
+            <li>آنزیم‌های لازم برای همانندسازی که با باز کردن دو رشته، نوکلئوتیدها را به‌صورت مکمل روبه‌روی هم قرار می‌دهند و با پیوند فسفودی‌استر آنها را به هم متصل می‌کنند.</li>
+        </ul>
+        <p class="MsoNormal">
+            <b>مراحل همانندسازی:</b> پیش از همانندسازی، باید پیچ‌وتاب فامینه و پروتئین‌های همراه آن، یعنی هیستون‌ها، از دنا جدا شوند تا فرآیند همانندسازی آغاز شود. این کار با کمک آنزیم‌ها انجام می‌شود.
+            سپس آنزیم هلیکاز مارپیچ دنا را باز کرده و دو رشته را از یکدیگر جدا می‌کند (شکل ۱۱).
+        </p>
+        <p class="MsoStep">
+            به نظر شما آنزیم هلیکاز چه پیوندهایی را باز می‌کند؟
+        </p>
+        <p class="MsoNormal">
+            آنزیم‌های دیگری نیز با همکاری یکدیگر فعالیت می‌کنند تا یک رشتهٔ دنا در مقابل رشتهٔ الگو ساخته شود. یکی از مهم‌ترین آنزیم‌ها که نوکلئوتیدهای مکمل را با نوکلئوتیدهای رشتهٔ الگو جفت می‌کند، دنا‌بسپاراز (DNA پلی‌مراز) است.
+            با توجه به اینکه فرآیند همانندسازی در دو جهت انجام می‌شود، به آن همانندسازی دو جهتی نیز می‌گویند.
+        </p>
+        <br>
+        
+        <p class="MsoNormal">
+            <b>دوراهی همانندسازی:</b>
+            در شکل ۱۱ می‌بینید که در محلی که دو رشتهٔ دنا از یکدیگر باز می‌شوند، دو ساختار Y مانند به‌وجود می‌آید که به هر یک از آنها «دوراهی همانندسازی» می‌گویند.
+            در فاصلهٔ بین این دو ساختار، پیوندهای هیدروژنی بین دو رشته شکسته شده و دو رشته از یکدیگر جدا شده‌اند. همچنین پیوندهای فسفودی‌استر جدیدی در حال تشکیل هستند.
+            دنا‌بسپاراز، نوکلئوتیدها را به انتهای رشتهٔ در حال تشکیل اضافه می‌کند. اضافه شدن یک نوکلئوتید به نوع باز موجود در نوکلئوتید رشتهٔ الگو بستگی دارد.
+            هر نوکلئوتید باید مکمل نوکلئوتید موجود در رشتهٔ الگو باشد. هنگام اضافه شدن هر نوکلئوتید سه‌فسفاته به انتهای رشتهٔ پلی‌نوکلئوتید، دو فسفات آن جدا شده و نوکلئوتید به‌صورت تک فسفاته به رشته متصل می‌شود (شکل ۱۲).
+        </p>
+        
+<br>
+<br>
+<p class="MsoStep">فعالیت‌های آنزیم دنابسپاراز</p>
+<p class="MsoNormal">
+    همانندسازی دنا با دقت زیادی انجام می‌شود؛ این دقت تا حدود زیادی مربوط به رابطهٔ مکملی بین نوکلئوتیدها است. اگرچه آنزیم دنابسپاراز، نوکلئوتیدها را براساس رابطهٔ مکملی مقابل هم قرار می‌دهد، ولی گاهی در این مورد اشتباهی هم صورت می‌گیرد؛ بنابراین آنزیم دنابسپاراز پس از برقراری هر پیوند فسفودی‌استر، برمی‌گردد و رابطهٔ مکملی نوکلئوتید را بررسی می‌کند که رابطهٔ آن درست است یا اشتباه؟
+    اگر اشتباه باشد آن را برداشته و نوکلئوتید درست را به جای آن قرار می‌دهد. برای حذف نوکلئوتید نادرست باید بتواند پیوند فسفودی‌استر را بشکند و نوکلئوتید نادرست را از دنا جدا کند. توانایی بریدن دنا را فعالیت نوکلئازی گویند که در آن پیوند فسفودی‌استر می‌شکند. بنابراین آنزیم دنابسپاراز، هم فعالیت بسپارازی (پلیمرازی) دارد که در آن پیوند فسفودی‌استر را تشکیل می‌دهد و هم فعالیت نوکلئازی که در آن پیوند فسفودی‌استر را برای رفع اشتباه می‌شکند. فعالیت نوکلئازی دنابسپاراز را که باعث رفع اشتباه‌ها در همانندسازی می‌شود، ویرایش می‌گویند.
+</p>
+<br>
+
+
+<p class="MsoStep">همانندسازی در پروکاریوت‌ها و یوکاریوت‌ها</p>
+<p class="MsoNormal">
+    در پروکاریوت‌ها که شامل همهٔ باکتری‌ها می‌شوند، مولکول‌های وراثتی در غشا محصور نشده و فام‌تن اصلی دارای یک مولکول دنای حلقوی است که در سیتوپلاسم قرار دارد و به غشای یاخته متصل است. پروکاریوت‌ها علاوه بر دنای اصلی ممکن است مولکول‌هایی از دناهای دیگر به نام دیسَک (پلازمید) داشته باشند. اطلاعات این مولکول‌ها می‌تواند ویژگی‌های دیگری را به باکتری بدهد، مانند افزایش مقاومت باکتری در برابر پادزیست (آنتی‌بیوتیک)‌ها.
+</p>
+
+<p class="MsoNormal">
+    اغلب پروکاریوت‌ها فقط یک جایگاه آغاز همانندسازی در دنای خود دارند. در این جایگاه، دو رشته دنا از هم باز می‌شوند. همانند یوکاریوت‌ها، همانندسازی دو جهتی در باکتری‌ها نیز وجود دارد؛ یعنی از یک نقطه همانندسازی شروع و در دو جهت ادامه می‌یابد تا به همدیگر رسیده و همانندسازی پایان یابد (شکل ۱۳).
+</p>
+
+
+<p class="MsoNormal">
+    در یوکاریوت‌ها که بقیه موجودات زنده، یعنی آغازیان، قارچ‌ها، گیاهان و جانوران را شامل می‌شوند، دنا در هر فام‌تن به‌صورت خطی است و مجموعه‌ای از پروتئین‌ها که مهم‌ترین آنها هیستون‌ها هستند، همراه آن قرار دارند. بیشتر دنا درون هسته قرار دارد که به آن دنای هسته‌ای می‌گویند. در یوکاریوت‌ها علاوه بر هسته، در سیتوپلاسم نیز مقداری دنا وجود دارد که به آن دنای سیتوپلاسمی می‌گویند. این نوع از دنا که حالت حلقوی دارد، در راکیزه (میتوکندری) و دیسه (پلاست) دیده می‌شود.
+</p>
+
+
+<p class="MsoNormal">
+    همانندسازی در یوکاریوت‌ها بسیار پیچیده‌تر از پروکاریوت‌ها است. علت این مسئله وجود مقدار زیاد دنا و قرار داشتن در چندین فام‌تن است که هرکدام از آنها چندین برابر دنای باکتری هستند. بنابراین اگر فقط یک جایگاه آغاز همانندسازی در هر فام‌تن داشته باشند، مدت زمان زیادی برای همانندسازی لازم است.
+</p>
+
+
+<p class="MsoNormal">
+    به همین علت در یوکاریوت‌ها، آغاز همانندسازی در چندین نقطه در هر فام‌تن انجام می‌شود (شکل ۱۴). تعداد جایگاه‌های آغاز همانندسازی در یوکاریوت‌ها حتی می‌تواند بسته به مراحل رشد و نمو تنظیم شود؛ مثلاً در دوران جنینی، در مراحل مورولا و بلاستولا (مرحله تشکیل بلاستوسیست) سرعت تقسیم زیاد و تعداد جایگاه‌های آغاز همانندسازی هم زیاد است ولی پس از تشکیل اندام‌ها، سرعت تقسیم و تعداد جایگاه‌های آغاز کم می‌شوند.
+</p>
+
+
+
+
+<br><br><br><br><br>
+
+
+    </body>
+
+
+</html>

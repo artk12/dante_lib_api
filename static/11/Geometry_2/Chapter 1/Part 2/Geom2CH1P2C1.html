@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi {
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSemic,
+        li.MsoSemic,
+        div.MsoSemic {
+            margin: 0in;
+           
+            font-size: clamp(1.2rem, 1.6vw, 1.3rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #b19af2;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #6ca4ec;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .boxp {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .boxg {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#00f2ff11; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        .boxb {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#0c4e9f2d; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        ::selection {
+            background-color: #59078fa1; /* Change this to your desired highlight color */
+            color: #ffffff; /* Change this to your desired text color */
+          }
+
+
+          mark{
+            background-color:#078b8fa1 ;
+            color: #ffffff;
+            padding: 0 7px;
+        }
+
+        .hlg { background-color: rgba(0, 234, 255, 0.334);  }
+        .hlp { background-color:#5f1487; }
+      
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+    <body class="custom-scrollbar">
+
+<p class="MsoBold">
+    درس دوم:
+    <br>
+
+    رابطه های طولی در دایره
+</p>
+        <p class="MsoNormal">اگر خط‌های شامل دو وتر از یک دایره، یکدیگر را در درون یا بیرون دایره قطع کنند بین اندازهٔ پاره‌خط‌های حاصل روابطی داریم که به بررسی آنها می‌پردازیم.</p>
+<br><hr><br>
+
+
+        <p class="MsoStep">فعالیت</p>
+        <p class="MsoNormal">١- دو وتر $AB$ و $CD$ در نقطهٔ $M$ در داخل دایره یکدیگر را قطع کرده‌اند.</p>
+        <br>   <p class="MsoNormal">(الف) از $A$ به $B$ و از $C$ به $D$ وصل کنید و نشان دهید دو مثلث $MAD$ و $MBC$ مشابه‌اند.</p>
+        <br> <p class="MsoNormal">(ب) با توجه به تشابه این دو مثلث داریم :</p>
+        <p class="MsoNormal">$$\dfrac{AM}{CM} = \dfrac{DM}{....}$$</p>
+        
+        <div class="boxp">
+        <p class="MsoNormal">و در نتیجه : 
+            $AM \times \ \ . . . \ \ = CM \times \ \ . . . \ \ $
+        </p>
+         </div>
+    <br><br>
+            <p class="MsoNormal">٢- خط‌های شامل دو وتر $AB$ و $CD$ در نقطهٔ $M$ در خارج دایره یکدیگر را قطع کرده‌اند.</p>
+            <br> <p class="MsoNormal">(الف) نقطه $A$ به $D$، و نقطه $C$ به $B$ وصل کنید و نشان دهید دو مثلث $MAD$ و $MCB$ باهم مشابه‌اند.</p>
+            <br>   <p class="MsoNormal">(ب) با توجه به این تشابه داریم :</p>
+            <p class="MsoNormal">$$\dfrac{MA}{MC} = \dfrac{MD}{....}$$</p>
+            <div class="boxp">
+                <p class="MsoNormal">و در نتیجه : 
+                    $MA \times \ \ . . . \ \ = MC \times \ \ . . . \ \ $
+                </p>
+                 </div>
+     
+        <br>
+        <div class="boxb">
+            <p class="MsoSemi"><mark>قضیه:</mark></p>
+            <p class="MsoNormal">هرگاه خط‌های شامل دو وتر دلخواه $AB$ و $CD$ در نقطه‌ای مانند $M$ (درون یا بیرون دایره) یکدیگر را قطع کنند، آنگاه: $MA \cdot MB = MC \cdot MD$</p>
+        </div>
+        
+       <br><br>
+        <p class="MsoNormal">٣- فرض کنیم از نقطهٔ $T$ (خارج دایره) مانند شکل یک مماس و یک قاطع بر دایره رسم کرده‌ایم:</p>
+        <p class="MsoNormal">خط $T$ را به $A$ و $B$ وصل، و مشخص کنید چرا؟ $\overset{\frown}{MTA} = \overset{\frown}{TBM}$</p>
+        
+        <br>
+
+        <p class="MsoNormal">(ب) علت تشابه دو مثلث $MAT$ و $MTB$ را مشخص، و با توجه به این تشابه رابطهٔ زیر را کامل کنید.</p>
+<p class="MsoNormal">$$\frac{MA}{MT} = \frac{MT}{....}$$</p>
+<br>
+<p class="MsoNormal">و در نتیجه : $MT^2 = \ \ ... \ \ \times \ \ ... \ \ $</p>
+<br>
+
+<p class="MsoNormal">
+    بنابراین قضیه زیر را داریم:
+</p>
+<div class="boxb">
+    <p class="MsoSemi"><mark>قضیه:</mark></p>
+    <p class="MsoNormal">هرگاه $M$ نقطه‌ای بیرون دایره باشد و از $M$ مماس و قاطعی نسبت به دایره رسم کنیم، مربع اندازهٔ مماس برابر است با حاصل‌ضرب اندازه‌های دو قطعه قاطع.</p>
+</div>
+<br>
+<p class="MsoNormal">یعنی طول مماس واسطهٔ هندسی بین دو قطعه قاطع است.</p>
+<br><hr>
+
+
+
+
+
+<p class="MsoBold">رسم مماس بر دایره از نقطه‌ای خارج دایره</p>
+<p class="MsoNormal">اگر خط $d$ در نقطه $T$ بر دایره مماس باشد و $A$ و $M$ دو نقطه بر خط $d$ در دو طرف نقطه $T$ باشند، هرکدام از پاره‌خط‌های $MT$ و $AT$ بر دایره مماس‌اند.</p>
+<br>
+<p class="MsoNormal">اگر $O$ مرکز دایره باشد، $\Delta OMT$ در رأس $T$ قائم‌الزاویه است؛ چرا؟</p>
+<br>
+<p class="MsoNormal">اگر $N$ وسط پاره‌خط $OM$ باشد، $NM = NO = NT $؛ چرا؟</p>
+<br>
+<p class="MsoNormal">بنابراین دایره به مرکز $N$ و قطر $OM$ از نقطه $T$ می‌گذرد.</p>
+<br>
+<p class="MsoNormal">از این ویژگی می‌توانیم در رسم مماس بر دایره از نقطه $M$ خارج دایره استفاده کنیم.</p>
+<br>
+<p class="MsoNormal">پس برای رسم مماس بر دایره از نقطه $M$ خارج دایره، ابتدا دایره‌ای به قطر $OM$ ( O مرکز  دایره   )  رسم می‌کنیم.</p>
+<br>
+<p class="MsoNormal">این دایره، دایره مفروض را در دو نقطه $T$ و $T'$ قطع می‌کند. خط‌های $MT$ و $MT'$ بر دایره مماس‌اند؛ چرا؟</p>
+
+<br><hr><br>
+<p class="MsoStep">
+    کار در کلاس
+</p>
+<p class="MsoNormal">هرگاه از نقطه $M$ خارج دایره $C(O,R)$ دو مماس بر دایره رسم کنیم و $T$ و $T'$ نقاط تماس باشند، ثابت کنید:</p>
+<p class="MsoNormal">(الف) اندازه‌های دو مماس برابرند.</p>
+<p class="MsoNormal">(ب) نیم‌خط $MO$ نیمساز زاویه $\ TMT'$ است.</p>
+<br><hr>
+<p class="MsoBold">حالت‌های دو دایره نسبت به هم و مماس مشترک‌ها</p>
+<p class="MsoNormal">دو دایره $C(O,R)$ و $C'(O',R')$ را با فرض $R' > R$ و $OO' = d$ در نظر می‌گیریم. حالت‌های مختلفی که این دو دایره می‌توانند نسبت به هم داشته باشند به صورت زیر است:</p>
+<br>
+<p class="MsoSemi" style="text-align: center;opacity:0.6;">
+    a table with images for later
+</p>
+<br><br>
+
+<p class="MsoNormal">هر خط یا پاره‌خطی که بر هر دو دایره مماس باشد، مماس مشترک دو دایره است. اگر دو دایره در یک طرف خط باشند، آن را مماس مشترک خارجی، و اگر دو دایره در دو طرف خط باشند آن را مماس مشترک داخلی می‌نامند.</p>
+<br><hr><br>
+
+
+<p class="MsoStep">فعالیت</p>
+<br><p class="MsoNormal">١- فرض کنیم مانند شکل خط $m$ در نقاط $T$ و $T'$ بر دو دایره مماس است و شعاع‌های $OT$ و $O'T'$ رسم شده است. فرض کنیم فاصله بین مرکزهای دو دایره برابر $d$ باشد؛ از $O'$ خطی موازی خط $m$ رسم می‌کنیم تا شعاع $OT$ را در نقطه‌ای مانند $H$ قطع کند.</p>
+<br><p class="MsoNormal">(الف) $TT'O'H$ مستطیل است؛ چرا؟</p>
+<br><p class="MsoNormal">(ب) با توجه به قضیه فیثاغورس در مثلث $O'HO$، تساوی زیر را توجه کنید.</p>
+<p class="MsoNormal">$$TT' = \sqrt{d^2 - (R - R')^2}$$</p>
+<br>
+<p class="MsoNormal">(پ) با توجه به کار در کلاس قبل بگویید چرا اگر دو مماس مشترک $m$ و $n$ متقاطع باشند، نقطه تقاطع آنها روی خط $OO'$ خواهد بود؟</p>
+<br>
+<p class="MsoNormal">(ت) به مرکز $O$ و به شعاع $R - R'$ دایره‌ای رسم کنید. پاره‌خط $O'H$ برای دایره رسم شده چگونه خطی است؟</p>
+<br>
+<p class="MsoNormal">(ث) فرض کنید دو دایره داده شده، و رسم مماس مشترک خواسته شده باشد. از آنجا که مرکزها و شعاع‌های دو دایره معلوم است، می‌توان دایره مطرح شده در قسمت (ت) را رسم کرد و سپس مماس $O'H$ را بر آن رسم کرد؛ در این صورت چگونه می‌تواند مماس $TT'$ را رسم کنید؟</p>
+
+
+
+
+
+<br><br>
+<p class="MsoNormal">٢- دو مماس مشترک داخلی $m$ و $n$ بر دو دایرهٔ متخارج مطابق شکل رسم شده است. با به‌کار بردن قضیه فیثاغورس در $\triangle O'OH$ نشان دهید:</p>
+<p class="MsoNormal">$$TT' = \sqrt{d^2 - (R + R')^2}$$</p>
+
+<p class="MsoNormal">٣- دو دایرهٔ مماس. دو دایره را که فقط یک نقطه مشترک داشته باشند، مماس می‌نامند. در این نقطهٔ مشترک یک خط بر هر دو مماس است. اگر مرکزهای دو دایره در دو طرف این مماس باشند، آن دو دایره، مماس بیرونی است و اگر هر دو در یک طرف این مماس باشند، آنها را مماس درونی می‌نامند.</p>
+
+<br>
+
+<p class="MsoNormal">با استفاده از دستور محاسبهٔ طول مماس مشترک خارجی، نشان دهید در دو دایره مماس خارجی:</p>
+<p class="MsoNormal">$$TT' = 2\sqrt{ \prime{R} R}$$</p>
+<br>
+<p class="MsoNormal">٤- دو دایره متقاطع. دو دایره را که دو نقطه مشترک داشته باشند، متقاطع می‌نامند. در این حالت دو دایره فقط دو مماس مشترک دارند.</p>
+<p class="MsoNormal">و $|R - R'| < OO' < R + R'$؛ چرا؟</p>
+
+<br>
+<p class="MsoNormal">پاره‌خط $AB$, که دو سر آن روی هر دو دایره است، وتر مشترک دو دایره متقاطع است. چرا پاره‌خط $OO'$ عمود منصف وتر مشترک $AB$ است؟</p>
+<br><br>
+<p class="MsoNormal">٥- دو دایره متداخل. دو دایره را که تمام نقاط یکی درون دیگری باشد، متداخل می‌نامیم. دو دایره متداخل هیچ مماس مشترک ندارند و در آنها $OO' < |R - R'|$</p>
+
+
+<br><hr><br>
+
+
+    <p class="MsoStep">تمرین</p>
+
+
+<p class="MsoNormal">١- در دایره $C(O,R)$ وتر $AB$، و وتر $CD$ به طول ۹ سانتی‌متر را به نسبت ۱ به ۲ تقسیم کرده است. اگر $AB = ۱$cm، آن‌گاه وتر $AB$ را به چه نسبتی قطع می‌کند؟</p>
+<br><br>
+<p class="MsoNormal">٢- از نقطه $P$ در خارج دایره‌ای، مماس $PA$ به طول $\sqrt{۳}$ را بر آن رسم کرده‌ایم (A روی دایره است). همچنین خطی از $P$ گذرانده‌ایم که دایره را در دو نقطه $B$ و $C$ قطع کرده است و $BC = ۲۰$. طول‌های $PB$ و $PC$ را به‌دست آورید.</p>
+<br><br>
+<p class="MsoNormal">٣- در شکل مقابل، دو دایره برهم مماس و دو قطر $AB$ و $CD$ از دایره بزرگ‌تر بر هم عمودند. اگر $AM = ۱۶$ و $ND = ۱۰$، شعاع‌های دو دایره را پیدا کنید.</p>
+<br><br>
+<p class="MsoNormal">٤- مطابق شکل مقابل، تمام دایره‌ها در نقطه $T$ برهم مماس‌اند و از نقطه $M$ روی مماس مشترک آنها بر دایره‌ها مماس رسم کرده‌ایم؛ ثابت کنید:</p>
+<p class="MsoNormal">$$MT_1 = MT_2 = MT_3 = MT_4 = \ \ . . . $$</p>
+<br><br>
+<p class="MsoNormal">٥- طول شعاع‌های دو دایرهٔ متخارج را به‌دست آورید که طول مماس مشترک خارجی آنها مساوی $\sqrt{۷}$ و طول مماس مشترک داخلی آنها $\sqrt{۵}$ و طول خط مرکزین آنها مساوی ۱ واحد است.</p>
+<br><br>
+<p class="MsoNormal">٦- سه دایره به شعاع‌های برابر که دو به دو برهم مماس‌اند. مطابق شکل مقابل این سه دایره و وسیله‌نخی بسته شده‌اند. نشان دهید طول این نخ برابر با 
+    $6r + 2 \pi r$
+     است. همچنین نشان دهید مساحت ناحیه محصور به سه دایره برابر با $r^2  \sqrt{۳} - \dfrac{\pi}{2} $ است.</p>
+<br><br>
+<p class="MsoNormal">٧- طول خط‌المرکزین دو دایره برهم مماس درونی $2$ سانتی‌متر و مساحت ناحیه محصور بین آنها $۱۶ \pi$ سانتی‌متر مربع است. طول شعاع‌های دو دایره را به‌دست آورید.</p>
+<br><br>
+<p class="MsoNormal">٨- مطابق شکل دایره به شعاع $4$ ٬ مساحت ناحیه سایه زده را محاسبه کنید. این ناحیه، یک قطعه دایره نام دارد.</p>
+
+
+
+
+
+
+
+<br><br><br><br><br>
+
+
+    </body>
+
+
+</html>

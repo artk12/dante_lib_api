@@ -1,0 +1,1031 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi {
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSemic,
+        li.MsoSemic,
+        div.MsoSemic {
+            margin: 0in;
+           
+            font-size: clamp(1.2rem, 1.6vw, 1.3rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #b19af2;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #6ca4ec;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .boxp {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .boxg {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#00f2ff11; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        .boxb {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#0c4e9f2d; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        ::selection {
+            background-color: #59078fa1; /* Change this to your desired highlight color */
+            color: #ffffff; /* Change this to your desired text color */
+          }
+
+
+          mark{
+            background-color:#078b8fa1 ;
+            color: #ffffff;
+            padding: 0 7px;
+        }
+
+        .hlg { background-color: rgba(0, 234, 255, 0.334);  }
+        .hlp { background-color:#5f1487; }
+      
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+    <body class="custom-scrollbar">
+
+      
+
+
+        <p class="MsoBold">درس سوم:<br>بیضی و سهمی</p>
+        
+        
+        <p class="MsoBold"> بیضی</p>
+        
+        
+        <p class="MsoStep">فعالیت ۱</p>
+        <p class="MsoNormal">یک نقطه نخ درنظر گرفته و
+             دوسر آن را مطابق شکل در دو نقطه  $F$ و $F'$
+              ثابت کنید.
+              فرض کنید طول نخ $l$ باشد
+              و
+              $ l > FF' $
+               یک قلم را مانند شکل داخل نخ کنید
+                و منحنی‌ای به گونه ای رسم کنید
+              
+               که در تمام زمان رسم، دوسر نخ به‌صورت صاف و کشیده شده باشد.
+             شکل حاصل منحنی بسته‌ای خواهد بود که بیضی نام دارد.</p>
+
+        <br>
+        <br>
+        
+        <p class="MsoNormal">۱- یک نقطه دلخواه روی شکل رسم شده درنظر بگیرید. مجموع فاصله‌های این نقطه از دو نقطه ثابت $F$ و $F'$ برابر چیست؟</p>
+        <br>
+        <br>
+        <p class="MsoNormal">۲- یک نقطه دلخواه مانند $A$ در درون بیضی رسم شده درنظر بگیرید و آن را به دو نقطه ثابت $F$ و $F'$ وصل کنید و نشان دهید مجموع فواصل نقطه موردنظر از $F$ و $F'$ کوچکتر از $FF'$ است.</p>
+        <p class="MsoNormal">(راهنمایی: با ترسیم پاره‌خط $FA$ را از سمت $A$ امتداد دهید تا بیضی را قطع کند. سپس از تساوی مثلثی استفاده نمایید.)</p>
+        <br>
+        <br>
+        <p class="MsoNormal">۳- یک نقطه دلخواه مانند $B$ بیرون بیضی رسم شده درنظر بگیرید و آن را به دو نقطه ثابت $F$ و $F'$ وصل کنید و نشان دهید مجموع فواصل نقطه موردنظر از $F$ و $F'$ بزرگتر از $l$ است.</p>
+        <p class="MsoNormal">(راهنمایی: اگر نقطه $D$ محل برخورد $FB$ با بیضی باشد، $F'D$ را رسم کنید و از تساوی مثلثی استفاده نمایید.)</p>
+        <br>
+        <br>
+        <p class="MsoNormal">۴- از مراحل (۱) تا (۳) متوجه وجود چه ویژگی مشترکی در همهٔ نقاط بیضی شدید که هیچ نقطه دیگری از صفحه، آن ویژگی را ندارد؟</p>
+        
+
+<br><br>
+
+
+<p class="MsoNormal">۵- با توجه به آنچه گفته شد تعریف بیضی را که با استفاده از مکان هندسی در زیر آمده است تکمیل نمایید:</p>
+<br>
+<p class="MsoNormal">بیضی مکان هندسی نقاطی از صفحه است که مجموع فاصله‌شان از دو ................ به مقدار ................ است.</p>
+<br>
+
+<p class="MsoNormal">دو نقطه ثابت که با توجه به آنها، بیضی را بدست آوردیم و آنها را $F$ و $F'$ نامیدیم کانون‌های بیضی نام دارند.</p>
+<br><hr><br>
+
+
+
+<p class="MsoStep">فعالیت ۲</p>
+<p class="MsoNormal">بیضی مقابل را درنظر بگیرید. قطر $AA'$ قطر بزرگ (قطر کانونی) و قطر $BB'$ قطر کوچک بیضی می‌شود. $F$ و $F'$ کانون‌های بیضی هستند و نقطهٔ $O$، وسط پاره‌خط $FF'$، مرکز بیضی است. فرض کنید اندازهٔ پاره‌خط‌های $OF$, $OA$, $OB$ را به ترتیب با $a$, $b$, $c$ نمایش دهیم. بنابراین فاصله دو کانون بیضی برابر $2c$ است.</p>
+<br>
+<p class="MsoNormal">۱- در ترسیم بیضی با نخ و قلم دو وضعیتی را که قلم در نقاط $A$ و $A'$ قرار می‌گیرد درنظر بگیرید.</p><br>
+<p class="MsoNormal">الف) نشان دهید $FA = F'A' = a$ و از آن نتیجه بگیرید $OA' = OA = a$ و لذا اندازهٔ قطر بزرگ بیضی برابر $2a$ است.</p><br>
+<p class="MsoNormal">ب) نشان دهید طول نخ موردنظر برابر است با طول قطر بزرگ بیضی.</p><br>
+<br>
+<br>
+<p class="MsoNormal">۲- الف) در ترسیم بیضی وضعیتی را که قلم در نقطه $B$ قرار دارد درنظر بگیرید و نشان دهید $b + c = a$.</p><br>
+<p class="MsoNormal">ب) با انجام همین کار برای نقطه $B'$ نتیجه بگیرید $OB^2 + c^2 = a^2 $.</p><br>
+<p class="MsoNormal">و با توجه به آن نتیجه بگیرید $OB' = OB = b$ و لذا اندازهٔ قطر کوچک بیضی برابر $2b$ است.</p>
+<br><hr><br>
+
+<p class="MsoStep">کاردرکلاس</p>
+<p class="MsoNormal">۱- مرکز بیضی مقابل بر مبدأ مختصات و قطرهای آن مانند شکل بر محورهای $x$ و $y$ منطبق هستند و فاصله $F$ از هر دو نقطه $O$ و $A$ برابر $4$ است. اگر خطی که در نقطه $F$ به $AA'$ عمود کرده‌ایم بیضی را در نقطه $D$ قطع کرده باشد، مختصات $D$ را بدست آورید.</p>
+
+
+
+<br><hr><br>
+
+<p class="MsoStep">فعالیت ۳</p>
+<p class="MsoNormal">در این فعالیت با انتخاب مقادیر مختلفی برای $a$ و $c$ بیضی موردنظر را رسم می‌کنیم. می‌دانیم که $0 \leq c \leq a$ و لذا $\dfrac{c}{a} \leq 1$. دقت کنید که چگونگی میزان کشیدگی بیضی چه ارتباطی با مقدار کسر $\dfrac{c}{a}$ دارد. در رسم بیضی به‌صورت تقریبی ابتدا دو کانون $F$ و $F'$ را به فاصله $2c$ از هم درنظر بگیرید، سپس نقاط $A$ و $A'$ را بر خط $FF'$ به گونه‌ای انتخاب کنید که فاصله $F$ تا $A$ و فاصله $F'$ تا $A'$ برابر $a - c$ باشد و اندازه $AA'$ برابر $2a$ باشد. سپس با استفاده از رابطه $b^2 = a^2 - c^2$ نقاط $B$ و $B'$ را مشخص کنید و بیضی را به‌طور تقریبی رسم کنید.</p>
+<br><br>
+
+<table class="MsoNormal" style="width: 100%; border-collapse: collapse; border: 3px solid black; margin:auto;">
+   
+    <tr>
+       
+        <td style="border: 3px solid black; padding: 10px;">$\dfrac{c}{a} = \dfrac{1}{4}$ : $a = 4$ و $c = 1$</td>
+        <th style="border: 3px solid black; padding: 10px; text-align: center;">۱</th>
+    </tr>
+    <tr>
+       
+        <td style="border: 3px solid black; padding: 10px;">$\dfrac{c}{a} = \dfrac{1}{4}$ : $a = 8$ و $c = 2$</td>
+        <th style="border: 3px solid black; padding: 10px; text-align: center;">۲</th>
+    </tr>
+    <tr>
+        
+        <td style="border: 3px solid black; padding: 10px;">$\dfrac{c}{a} = \dfrac{1}{2}$ : $a = 2$ و $c = 1$</td>
+        <th style="border: 3px solid black; padding: 10px; text-align: center;">۳</th>
+    </tr>
+    <tr>
+        
+        <td style="border: 3px solid black; padding: 10px;">$\dfrac{c}{a} = \dfrac{1}{2}$ : $a = 4$ و $c = 2$</td>
+        <th style="border: 3px solid black; padding: 10px; text-align: center;">۴</th>
+    </tr>
+    <tr>
+
+        <td style="border: 3px solid black; padding: 10px;">$\dfrac{c}{a} = \dfrac{3}{4}$ : $a = 4$ و $c = 3$</td>
+        <th style="border: 3px solid black; padding: 10px; text-align: center;">۵</th>
+    </tr>
+    <tr>
+        
+        <td style="border: 3px solid black; padding: 10px;">$\dfrac{c}{a} = \dfrac{3}{4}$ : $a = 8$ و $c = 6$</td>
+        <th style="border: 3px solid black; padding: 10px; text-align: center;">۶</th>
+    </tr>
+</table>
+
+<br><br>
+
+
+<p class="MsoNormal">با توجه به آنچه دیدید هرچه مقدار $\dfrac{c}{a}$ به یک نزدیک شود شکل بیضی کشیده‌تر شده و شکل بیضی به پاره‌خط نزدیک‌تر می‌شود و هرچه مقدار $\dfrac{c}{a}$ به صفر نزدیک شود کشیدگی شکل بیضی کمتر شده و شکل بیضی به دایره نزدیک‌تر می‌شود. به این سبب مقدار $\dfrac{c}{a}$ را خروج از مرکز بیضی می‌نامیم.</p>
+<br>
+
+<p class="MsoNormal">در حالتی که $\dfrac{c}{a} = 1$ بیضی تبدیل به یک پاره‌خط و در حالتی که $\dfrac{c}{a} = 0$ بیضی تبدیل به یک دایره می‌شود. چرا؟</p>
+<br><hr>
+
+<p class="MsoBold">یادآوری </p>
+<p class="MsoNormal">در پایه یازدهم دیدیم که کوتاه‌ترین مسیر از نقطه $A$ به نقطه $B$ و با عبور از نقطه‌ای از خط $d$، از نقطه‌ای مانند $M$ روی خط $d$ می‌گذرد. به‌گونه‌ای که در زاویه ایجاد شده، $M_1$ و $M_2$ با هم برابرند.</p>
+
+
+<br><hr><br>
+
+
+
+
+<p class="MsoStep">فعالیت ۴</p>
+<p class="MsoNormal">فرض کنیم خط $d$ مانند شکل مقابل در نقطه $M$ بر بیضی مماس باشد.</p><br>
+<p class="MsoNormal">
+   1. مجموع فواصل کدام یک از نقاط خط $d$ نسبت به دو کانون $F$ و $F'$ کمترین مقدار را دارد؟ چرا؟<br><br>
+  2.  دو زاویه $\alpha$ و $\beta$ نسبت به هم چگونه‌اند؟ چرا؟<br><br>
+   3. با توجه به آنچه گفته شد اگر پرتو نوری از بُعده داخلی یک بیضی تابیده شود، انعکاس نور از کدام نقطه کانون‌های بیضی عبور خواهد کرد؟ چرا؟<br>
+</p>
+<br><hr><br>
+
+<p class="MsoStep">سهمی </p>
+<p class="MsoNormal">با سهمی در سال‌های گذشته تا حدی آشنا شده‌ایم. اکنون قصد داریم آن را به عنوان یک شکل هندسی مورد بررسی قرار دهیم.</p>
+<br>
+
+<p class="MsoStep">فعالیت ۵</p>
+<p class="MsoNormal">یک خط ثابت مانند $d$ و یک نقطه ثابت مانند $F$ خارج از آن درنظر بگیرید و فرض کنید فاصله $F$ از خط $d$ برابر $a$ باشد.</p>
+<p class="MsoNormal">
+    
+    <br>
+    
+   -    یک نقطه بیابید که فاصله آن از خط $d$ و نقطه $F$ یکسان باشد.<br><br>
+     
+     -   آیا می‌توانید نقطه دیگری با همین خاصیت بیابید؟ برای این کار از نقطه $F$ خطی موازی خط $d$ رسم کنید و آن را $d'$ بنامید. تمام نقاط واقع بر خط $d'$ فاصله‌شان از خط $F$ برابر $a$ است. حال توضیح دهید چگونه می‌توانند نقاطی روی خط $d'$ بیابید که از نقطه $F$ و خط $d$ به یک فاصله باشند.<br><br>
+     
+        -  اگر مسئله پیدا کردن تمام نقاطی از صفحه باشد که به فاصله یکسانی از خط $d$ و نقطه $F$ قرار دارند، آیا می‌توانید راهکاری ارائه دهید؟ در زیر روشی برای یافتن نقاط موردنظر ارائه می‌گردد.<br><br>
+ </p>
+<br>
+
+<p class="MsoNormal">فرض کنید سه رأس مثلث به‌گونه‌ای مانند شکل به نام‌های $A$, $B$ و $C$ باشد. یک سر یک نخ به طول $AB$ را در رأس $A$ از گوییا و سر دیگر نخ را در نقطه $F$ ثابت کنید و گوییا را در حالتی قرار دهید که ضلع $BC$ بر خط $d$ واقع باشد و نقطه $A$ بر ضلع $AB$ قرار داشته باشد. یک مدار را مانند شکل به‌گونه‌ای به نخ گرفته شود که هر دو قسمت نخ کاملاً کشیده باشد. در این حالت فاصله نقطه‌ای که نوک قلم در آن قرار دارد از خط $d$ و از نقطه $F$ نسبت به هم چگونه است؟</p>
+
+<br><br>
+
+
+
+
+<p class="MsoNormal">حال در حالتی که ضلع $BC$ کاملاً بر خط $d$ واقع است گونیا را حرکت دهید. دقت کنید که نوک قلم به ضلع $AB$ چسبیده باشد و هر دو تکه نخ در حالت کاملاً کشیده شده باشند. فرض کنید نقطه درحال حرکت نوک قلم را در هر حالت با $X$ نمایش دهیم. پاره‌خط‌های $BX$ و $FX$ هر کدام نمایانگر چه خصوصیتی از نقطه $X$ هستند و بین آنها چه ارتباطی برقرار است؟ چرا؟</p>
+<p class="MsoNormal">توضیح دهید که با ادامه این کار نقاطی که توسط قلم رسم می‌شوند، چه ویژگی مشترکی دارند؟ (دقت کنید که گونیا با منطبق کردن ضلع $BC$ بر خط $d$ در دو طرف نقطه $F$ می‌توان حرکت داد.)</p>
+<br>
+
+<p class="MsoNormal">شکل حاصل از فعالیت قبل سهمی نام دارد. در این حالت نقطه $F$ را کانون سهمی و خط $d$ را خط هادی سهمی می‌نامیم و اگر از $F$ بر خطی عمود رسم کنیم سهمی را در نقطه‌ای قطع می‌کند که به آن رأس سهمی می‌گوییم. دیدیم که تمام نقاط روی سهمی از نقطه $F$ و خط $d$ به یک فاصله‌اند.</p>
+<p class="MsoNormal">حال فرض کنیم نقطه‌ای مانند $Q$ از نقطه $F$ و خط $d$ به یک فاصله باشد ولی روی سهمی واقع نباشد. در این صورت داریم:</p>
+<p class="MsoNormal" style="text-align: left;">
+    <br>
+$
+\begin{cases}
+g = y + t \\ \\
+p = y \\ \\
+\end{cases} \ \ \Rightarrow g = p + t
+$
+</p>
+<br>
+<p class="MsoNormal">و تساوی اخیر با تساوی مثلثی در تناقض است. بنابراین هیچ نقطه‌ای که روی سهمی نباشد نمی‌تواند از $F$ و $d$ به یک فاصله باشد. حال با توجه به آنچه دیدیم می‌توان گفت:</p>
+<br>
+<div class="boxp">
+
+    <p class="MsoNormal">سهمی مکان هندسی نقاطی از یک صفحه است که از یک خط ثابت در آن صفحه و از یک نقطه ثابت غیرو اقع بر آن خط در آن صفحه به یک فاصله باشند.</p>
+</div>
+<br><hr>
+
+<p class="MsoBold">معادله سهمی </p>
+<p class="MsoNormal">با توجه به آنچه گفته شد با سهمی به‌صورت هندسی آشنا شدیم. حال بدنبال این هستیم که برای یک سهمی داده شده معادله آن را بدست آوریم؛ یعنی معادله‌ای بدست آوریم که مختصات هر نقطه از سهمی در آن معادله صدق کند و برعکس هر نقطه که مختصات آن در معادله صدق کند روی سهمی موردنظر باشد. دقت کنید که این کار را فقط برای سهمی خاصی انجام می‌دهیم که خط هادی آنها موازی با یکی از محورهای مختصات باشد.</p>
+
+<br><hr><br>
+
+
+
+
+
+
+<p class="MsoStep">فعالیت ۶</p>
+<p class="MsoNormal">۱- فرض کنید نقطه $F(a,0)$ که در آن $a$ مثبت است، کانون سهمی و خط هادی $d$ موازی محور $y$ها به معادله $x = -a$ باشد و نقطه دلخواه $P(x,y)$ واقع بر سهمی باشد. داریم: $|PF| = |PB|$ . چرا؟</p>
+
+<p class="MsoNormal" style="text-align: center;">
+$$
+\sqrt{(x - a)^2 + (y - 0)^2} = \sqrt{(x + a)^2 + (y - y)^2}
+$$
+</p>
+<br>
+
+<p class="MsoNormal">با به توان رساندن هر طرف و ساده کردن عبارات خواهیم داشت: $y^2 = 4ax$</p>
+<br>
+<p class="MsoNormal">دقت کنید که $a$ برابر با فاصله کانون تا رأس سهمی و همچنین فاصله رأس سهمی تا خط هادی است و فاصله کانون تا خط هادی برابر با $2a$ است. در این حالت عدد مثبت $a$ را فاصله کانونی سهمی می‌نامند و چنانکه دیده می‌شود خطی که از کانون به خط هادی سهمی عمود می‌شود که در اینجا محور $x$هاست محور تقارن سهمی است که به آن محور کانونی سهمی یا محور سهمی هم می‌گوییم.</p>
+<br><br>
+<p class="MsoNormal">۲- در حالتی که خط هادی $d$ موازی محور $y$ها به معادله $x = a$ باشد ولی کانون $F(-a,0)$ در سمت چپ آن قرار داشته باشد با انجام مراحل قسمت (۱) نشان دهید که در این حالت معادله سهمی بصورت $y^2 = -4ax$ است. در این حالت محور $x$ها محور سهمی است.</p>
+<br><br>
+<p class="MsoNormal">۳- در حالتی که خط هادی $d$ موازی محور $x$ها به معادله $y = -a$ باشد و کانون $F(0,a)$ باشد، با انجام مراحل قسمت (۱) نشان دهید که در این حالت معادله سهمی بصورت $x^2 = 4ay$ است. در این حالت محور $x$ها محور سهمی است.</p>
+<br><br>
+<p class="MsoNormal">۴- در حالتی که خط هادی $d$ موازی محور $x$ها به معادله $y = a$ باشد و کانون $F(0,-a)$ باشد، با انجام مراحل قسمت (۱) نشان دهید که در این حالت معادله سهمی به‌صورت $x^2 = -4ay$ است. در این حالت محور $y$ها محور سهمی است.</p>
+
+
+<br><br>
+
+
+
+<p class="MsoNormal">مطالب فوق دربارهٔ سهمی با رأس واقع در مبدا مختصات را می‌توان در جدول زیر خلاصه کرد.</p>
+<br>
+<table class="MsoNormal" style="text-align: center; margin:auto; width:fit-content;direction:rtl">
+    <tr>
+        <th>دهانهٔ سهمی</th>
+        <th>محور سهمی</th>
+        <th>خط هادی</th>
+        <th>کانون</th>
+        <th>معادلهٔ سهمی $(a > 0)$</th>
+    </tr>
+    <tr>
+        <td>رو به راست</td>
+        <td>محور $x$</td>
+        <td>$x = -a$</td>
+        <td>$(a,0)$</td>
+        <td>$y^2 = 4ax$</td>
+    </tr>
+    <tr>
+        <td>رو به چپ</td>
+        <td>محور $x$</td>
+        <td>$x = a$</td>
+        <td>$(-a,0)$</td>
+        <td>$y^2 = -4ax$</td>
+    </tr>
+    <tr>
+        <td>رو به بالا</td>
+        <td>محور $y$</td>
+        <td>$y = -a$</td>
+        <td>$(0,a)$</td>
+        <td>$x^2 = 4ay$</td>
+    </tr>
+    <tr>
+        <td>رو به پایین</td>
+        <td>محور $y$</td>
+        <td>$y = a$</td>
+        <td>$(0, -a)$</td>
+        <td>$x^2 = -4ay$</td>
+    </tr>
+</table>
+
+<br><br>
+
+<p class="MsoSemi" style="font-size: larger;">مثال:</p>
+<p class="MsoNormal">معادله $y^2 = 6x$ مربوط به چه شکلی است؟ آن را مشخص نمایید.</p>
+
+<br><br>
+
+
+<p class="MsoSemi">حل:</p>
+<p class="MsoNormal">این معادله یک سهمی است که دهانه آن رو به راست است و محور آن محور $x$هاست. با قرار دادن $4a = 6$ داریم $a = \dfrac{3}{2}$. لذا کانون آن $F(\dfrac{3}{2},0)$ و خط هادی آن موازی محور $y$ها و به معادله $x = -\dfrac{3}{2}$ است و رأس آن مبدا مختصات است.
+</p>
+
+
+<br><hr>
+
+
+<p class="MsoBold">انتقال (محورها)</p>
+<p class="MsoNormal">دیدیم که $y^2 = 4ax$ معادله یک سهمی است که رأس آن واقع بر مبدا مختصات، کانون $(a, 0)$، خط هادی آن موازی محور $y$ها به معادله $x = -a$ است. محور آن محور $x$ها (خط $y = 0$) و دهانه آن رو به راست است. حال با توجه به آنچه درباره انتقال می‌دانیم می‌توان گفت معادله $(y - k)^2 = 4a(x - h)$ معادله همان سهمی است که به اندازه $h$ به سمت راست (در صورت منفی بودن $h$ به سمت چپ) و به‌اندازه $k$ به سمت بالا (در صورت منفی بودن $k$ به سمت پایین) انتقال یافته است. لذا رأس آن به مختصات $(h, k)$، کانون آن $(a + h, k)$، خط هادی آن موازی محور $y$ها به معادله $x = -a + h$، محور آن خط $y = k$ و دهانه آن کماکان رو به راست است.</p>
+<br><br>
+
+
+<div class="custom-scrollbar" style="overflow-x: auto; direction:ltr ;">
+<table class="MsoNormal" style="text-align: center; margin:auto; width:fit-content; direction:rtl">
+    <tr>
+        <th>دهانهٔ سهمی</th>
+        <th>محور سهمی</th>
+        <th>خط هادی</th>
+        <th>کانون</th>
+        <th>معادلهٔ سهمی</th>
+    </tr>
+    <tr>
+        <td>رو به راست</td>
+        <td>خط $y = k$</td>
+        <td>$x = -a + h$</td>
+        <td>$(a + h, k)$</td>
+        <td>$(y - k)^2 = 4a(x - h)$</td>
+    </tr>
+    <tr>
+        <td>رو به چپ</td>
+        <td>خط $y = k$</td>
+        <td>$x = a + h$</td>
+        <td>$(-a + h, k)$</td>
+        <td>$(y - k)^2 = -4a(x - h)$</td>
+    </tr>
+    <tr>
+        <td>رو به بالا</td>
+        <td>خط $x = h$</td>
+        <td>$y = -a + k$</td>
+        <td>$(h, a + k)$</td>
+        <td>$(x - h)^2 = 4a(y - k)$</td>
+    </tr>
+    <tr>
+        <td>رو به پایین</td>
+        <td>خط $x = h$</td>
+        <td>$y = a + k$</td>
+        <td>$(h, -a + k)$</td>
+        <td>$(x - h)^2 = -4a(y - k)$</td>
+    </tr>
+</table>
+
+<br>
+</div>
+<br><br>
+
+<p class="MsoNormal">همان‌طور که گفته شد رأس این سهمی‌ها نقطه‌ای به مختصات $(h,k)$ است. لذا این حالت‌ها، حالت‌های کلی معادلات است که با قراردادن $(h,k) = (0,0)$ به حالت‌های خاص، که در جدول قبل مطرح شد، خواهیم رسید. معادلات سهمی را در جدول فوق، معادلات استاندارد یا متعارف می‌گوییم.</p>
+<br>
+<p class="MsoSemi" style="font-size: larger;">مثال:</p>
+<p class="MsoNormal">معادله سهمی به رأس $A(2,1)$ و کانون $F(2,5)$ را بیابید و معادله خط هادی آن را بنویسید.</p>
+<br>
+<p class="MsoSemi">حل:</p>
+<p class="MsoNormal">با توجه به جایگاه رأس و کانون این سهمی در دستگاه مختصات، خواهیم داشت:</p>
+<br>
+<p class="MsoNormal">۱) $a = 4$ (چرا؟)</p>
+<p class="MsoNormal">۲) معادله خط هادی $y = -3$ است. چرا؟</p>
+<p class="MsoNormal">۳) دهانه سهمی رو به بالاست. چرا؟</p><br>
+<p class="MsoNormal">لذا معادله آن به صورت $(x - h)^2 = 4a(y - k)$ است و خواهیم داشت:</p>
+
+<p class="MsoNormal" >
+$$
+(x - 2)^2 = 16(y - 1)
+$$
+</p>
+
+<br>
+<p class="MsoSemi" style="font-size: larger;">مثال:</p>
+<p class="MsoNormal">مختصات کانون و همچنین معادله سهمی را به رأس $A(4,6)$ و خط هادی $x = 9$ بنویسید.</p>
+<br>
+<p class="MsoSemi">حل:</p>
+<p class="MsoNormal">با توجه به جایگاه رأس و خط هادی سهمی در دستگاه مختصات، خواهیم داشت:</p>
+<br>
+<p class="MsoNormal">۱) $a = 5$ (چرا؟)</p>
+<p class="MsoNormal">۲) کانون آن به مختصات $F(-1,6)$ است. چرا؟</p>
+<p class="MsoNormal">۳) دهانه سهمی رو به چپ است. چرا؟</p><br>
+<p class="MsoNormal">لذا معادله آن بصورت $(y - k)^2 = -4a(x - h)$ است و خواهیم داشت:</p>
+<p class="MsoNormal" style="text-align: left;">
+$
+\begin{align*}
+(y - 6)^2 = -20(x - 4)
+\end{align*}
+$
+</p>
+<br>
+<hr>
+
+<p class="MsoBold">تبدیل معادلهٔ یک سهمی بصورت متعارف</p>
+
+
+<p class="MsoNormal">چهار حالت معادلهٔ سهمی را که در جدول دوم مطرح شد، ۴ حالت شناخته شده (متعارف) درنظر می‌گیریم. اما در سال‌های قبل معادلاتی با عنوان معادله سهمی مطرح شدند که برخی از آنها در ظاهر به شکل معادلات مطرح شده در جدول نبودند. بطور مثال در پایه دهم معادله‌ای بصورت $y = x^2 + 3x + 5$ به‌عنوان یک سهمی نامیده شد. دقت کنید که ویژگی این معادله سهمی این است که نسبت به یکی از دو متغیر $x$ و $y$ از درجهٔ $1$ و نسبت به دیگری از درجهٔ $2$ است. در ادامه نشان می‌دهیم معادله مطرح شده قابل تبدیل به یکی از ۴ حالت متعارف خواهد بود.</p>
+<br>
+
+<br>
+
+<p class="MsoSemi" style="font-size: larger;">مثال:</p>
+<p class="MsoNormal">معادله یک سهمی بصورت $y = x^2 + 3x + 5$ داده شده است. آن را به یکی از حالت‌های متعارف تبدیل کنید و کانون و خط هادی و محور سهمی را مشخص نمایید.</p>
+<br>
+<p class="MsoSemi">حل:</p>
+<br>
+
+
+
+<p class="MsoNormal">
+    داریم:
+</p>
+<p class="MsoNormal" style="text-align: left;">
+
+$
+\begin{align*}
+& x^2 + 3x = y - 5 \\ \\
+ \Rightarrow \ \ & x^2 + 3x + \dfrac{9}{4} = y - 5 + \dfrac{9}{5} \\ \\
+ \Rightarrow \ \ & ( x + \dfrac{3}{2})^2 = y - \dfrac{11}{4}  
+\end{align*}
+$
+</p>
+<br>
+
+
+<br>
+
+<p class="MsoNormal">
+    لذا معادله یک سهمی است که دهانه آن رو به بالا٬ راس آن
+
+$
+
+( \dfrac{3}{2} , \dfrac{11}{4} )
+
+$
+و
+
+در نتیجه 
+
+$
+
+a = \dfrac{1}{4}
+
+$
+
+است.
+
+
+</p>
+
+<p class="MsoNormal">
+    بنابراین، کانون آن 
+    $F = (h, a+k)$ و خط هادی آن به معادله $y = -a + k = \dfrac{5}{2}$ است. معادله محور سهمی به‌صورت $x = h = -\dfrac{3}{2}$ است.</p>
+
+<p class="MsoNormal">با روش مشابه آنچه در مثال دیدید، معادلات سهمی‌ها را می‌توان به یکی از حالات استاندارد نوشت.</p>
+
+
+
+<br><hr>
+
+
+
+<p class="MsoBold">رسم سهمی</p>
+<p class="MsoNormal">رسم دقیق یک منحنی توسط نرم‌افزارهای ریاضی انجام می‌گیرد. طبیعی است که در رسم منحنی با کاغذ و قلم، شکل حاصل شکل تقریبی منحنی مورد نظر خواهد بود. برای رسم یک سهمی، ابتدا معادله آن را بصورت استاندارد می‌نویسیم و با توجه به آن، مختصات رأس سهمی، مقدار $a$ (فاصله کانونی)، مختصات $F$ (کانون) و خط هادی آن را بدست می‌آوریم و نیز درمی‌یابیم که دهانه سهمی رو به کدام طرف است.</p>
+<br><p class="MsoNormal">یکی از مهم‌ترین نکاتی که باید در رسم سهمی نمایانیم، رأس سهمی است. اگر کانون سهمی را نیز مشخص نماییم دراین صورت خطی که از رأس و کانون سهمی عبور می‌کند محور تقارن سهمی است.</p>
+<br><p class="MsoNormal">حال اگر خطی را که در نقطه $F$ بر محور تقارن سهمی عمود است رسم کنیم و روی آن دو نقطه، مثلاً $B, B'$ را که به فاصله $2a$ از $F$ هستند مشخص نماییم، در این صورت نقاط $B$ و $B'$ بر سهمی واقع‌اند. چرا؟</p>
+<br><p class="MsoNormal">حال با داشتن رأس و دو نقطه دیگر از سهمی و دانستن شکل کلی آن می‌توان شکل سهمی را بصورت تقریبی رسم کرد. قبل از رسم می‌توان نقاط برخورد منحنی با محورهای مختصات را نیز مشخص نمود.</p>
+<br><br>
+<p class="MsoSemi" style="font-size: larger;">مثال:</p>
+<p class="MsoNormal">نمودار معادله $y^2 - 2y + 8 x + 9 = 0$ را رسم کنید.</p>
+<br><br>
+<p class="MsoSemi">حل:</p>
+
+<p class="MsoNormal">ابتدا معادله را به حالت استاندارد تبدیل می‌کنیم:</p>
+<p class="MsoNormal" style="text-align: left;">
+    <br>
+$
+\begin{align*}
+& \ \ y^2 - 2y + 1 = - 8 x - 9 + 1 \\ \\
+\Rightarrow & \ \ (y - 1)^2 = - 8 (x + 1)
+\end{align*}
+$
+</p>
+
+
+<br><br>
+
+
+
+<p class="MsoNormal">لذا معادله فوق یک سهمی با رأس $A(h, k) = (-1, 1)$ است که دهانه آن رو به چپ است. داریم: $a = 4$، و لذا $a = -4$ و بنابراین $F(-a + h, k) = (-3, 1)$ و معادله خط هادی آن به‌صورت $x = a + h = 1$ است.</p>
+<br>
+<p class="MsoNormal">در این‌صورت نقاط $B$ و $B'$ که هم طول با $F$ و به فاصله $a = 4$ از $F$ باشند، یعنی $B(-3, 5)$ و $B'(-3, -3)$ نیز بر سهمی واقع‌اند. فاصله هر یک از آنها را از کانون و خط هادی بررسی کنید. حال با وصل کردن نقاط $A$ و $B$ و $B'$ به‌صورت یک منحنی و ادامه آن، شکل تقریبی سهمی موردنظر را به‌دست آورید.</p>
+
+
+<br><hr>
+<p class="MsoBold">ویژگی بازتابندگی سهمی‌ها و کاربردهای آن</p>
+
+<p class="MsoNormal">یکی از ویژگی‌های مهم سهمی این است که هر شعاع نوری که از کانون آن به بدنه سهمی بتابد، بازتاب آن از کانون سهمی خواهد گذشت. سهمی باید بازتاب آن موازی با محور سهمی بازخواهد گشت و برعکس هر شعاع نوری که موازی با محور سهمی به بدنه سهمی بتابد، بازتاب آن از کانون سهمی خواهد گذشت.</p>
+
+<p class="MsoNormal">در واقع اگر خط $d$ سهمی مماس و نقطه $A$ نقطه تماس آن باشد زاویه‌های θ و θ برابرند.</p>
+<br>
+<p class="MsoNormal">از این ویژگی در ساخت بسیاری از وسایل استفاده شده است. به‌طور مثال چراغ جلوی اتومبیل‌ها را معمولاً به گونه‌ای می‌سازند که جداره پشت لامپ به‌حالت سهمی باشد و شعاع‌های نوری به عقب تابیده شده لامپ را در کانون سهمی قرار می‌دهند. در این‌صورت حتی شعاع‌های نوری که به عقب تابیده می‌شود پس از برخورد به جداره سهمی پشت لامپ به‌صورت شعاع‌هایی موازی با محور سهمی به‌جلو تاب می‌یابد و روشنایی بیشتری به‌وجود می‌آورد.</p>
+<br>
+<p class="MsoNormal">با قرار گرفتن لامپ در راستای عمودی یکسان با کانون سهمی اما کمی بالاتر یا پایین‌تر، شعاع‌های نور کامکان خود را (نه موازی با محور) اما رو به بالا یا پایین خارج می‌شوند که اصطلاحاً نور بالا یا نور پایین ایجاد می‌کنند.</p>
+
+<br>
+<p class="MsoNormal">اگر لامپ در راستای افقی کانون قرار گیرد و کمی جلوتر یا کمی عقب‌تر قرار گیرد، شعاع‌های نور باهم موازی خارج نمی‌شوند.</p>
+
+
+<br><hr><br>
+
+<p class="MsoStep">تمرین</p>
+
+<p class="MsoNormal">۱- دو نقطه $A$ و $B$ روی یک بیضی و $F$ و $F'$ کانون‌های بیضی‌اند. $A$ به کانون $F$ نزدیک‌تر و $B$ به کانون $F'$ نزدیک‌تر است. اگر $AF' = BF$ باشد، نشان دهید:</p>
+<br><p class="MsoNormal">(الف) در حالتی که دو پاره‌خط $AF$ و $BF'$ یکدیگر را درون بیضی قطع نکنند، با هم موازی‌اند.</p><br>
+<p class="MsoNormal">(ب) در حالتی که $AF$ و $BF'$ یکدیگر را درون بیضی و در نقطه‌ای مانند $M$ قطع کنند، مثلث $FMF'$ متساوی الساقین است و $M$ روی قطر کوچک بیضی است.</p>
+<br><Br>
+
+<p class="MsoNormal">۲- قطر دایره $C$، مانند شکل، قطر بزرگ بیضی $e$است و از کانون $F$ عمودی بر $AA'$ رسم کرده‌ایم تا دایره را در نقطه‌ای مانند $M$ قطع کند. ثابت کنید
+    $MF$
+    با نصف
+    قطر کوچک بیضی برابر است.</p>
+<br><br>
+<p class="MsoNormal">۳- در شکل مقابل نقطه $M$ روی بیضی و کانون‌های $F$ و $F'$ مشخص شده‌اند. خط $d$ را به‌گونه‌ای رسم کنید که در نقطه $M$ بر بیضی مماس باشد و سپس از نقطه $F'$ خطی موازی با $MF$ رسم کنید تا خط $d$ را در نقطه‌ای مانند $N$ قطع کند. ثابت کنید $NF' = MF'$.</p>
+<br><br>
+<p class="MsoNormal">۴- نقطه $M$ روی بیضی به اقطار $6$ و $10$ واحد به‌گونه‌ای قرار دارد که فاصله آن تا مرکز بیضی برابر $4$ واحد است.</p><br>
+<p class="MsoNormal">(الف) نشان دهید $OM = OF = OF'$.</p><br>
+<p class="MsoNormal">(ب) نشان دهید مثلث $MFF'$ قائم‌الزاویه است.</p><br>
+<p class="MsoNormal">(ج) طول‌های $MF$ و $MF'$ را به‌دست آورید.</p>
+
+
+<br><br>
+
+<p class="MsoNormal">۵- در بیضی مقابل طول قطر بزرگ دو برابر طول قطر کوچک است. اندازهٔ زاویهٔ $FBF'$ چند درجه است؟</p>
+<br><br>
+
+<p class="MsoNormal">۶- در بیضی مقابل $AA'$ و $BB'$ دو قطراند. خط $d$ در نقطهٔ $B$ بر بیضی مماس است. پاره‌خط $BF$ را رسم می‌کنیم و در نقطهٔ $F$ عمودی بر $BF$ رسم می‌کنیم
+     تا خط $d$ را در نقطهٔ $C$ قطع کند و از $C$ عمودی بر
+      امتداد قطر بزرگ بیضی رسم می‌کنیم تا آن را در نقطه‌ای مانند $D$ قطع کند.
+       اگر $B \hat{C} F = 45^0$، مقدار $\dfrac{AD}{AF}$ را به‌دست آورید.</p>
+<br><br>
+
+<p class="MsoNormal">۷- سهمی $y^2 = 2x - 4y$ مفروض است. مختصات رأس و کانون سهمی را یافته و آن را رسم کنید. همچنین مختصات نقاط برخورد سهمی و محورهای مختصات را بیابید.</p>
+<br><br>
+
+<p class="MsoNormal">۸- مختصات رأس و کانون سهمی به معادله $y = ax^2 + bx + c$ را به‌دست آورید $(a ≠ 0)$.</p>
+<br><br>
+
+<p class="MsoNormal">۹- معادله سهمی را بنویسید که $S(1,2)$ رأس و $F(1,-2)$ کانون آن باشد.</p>
+<br><br>
+
+<p class="MsoNormal">۱۰- سهمی $y^2 = 4x - 4$ مفروض است. به مرکز کانون سهمی و به شعاع $3$ واحد دایره‌ای رسم می‌کنیم. مختصات نقاط برخورد دایره و سهمی را بیابید.</p>
+<br><br>
+
+<p class="MsoNormal">۱۱- سهمی $P$ با کانون $F$ و خط هادی $d$ مفروض است. ثابت کنید مرکز هر دایره که از $F$ بگذرد و بر خط $d$ مماس باشد روی سهمی است و برعکس هر نقطه روی سهمی، مرکز یک دایره است که از $F$ گذشته و بر $d$ مماس است. با توجه به این موضوع تعریف دیگری از سهمی ارائه دهید.</p>
+<br><br>
+
+<p class="MsoNormal">۱۲- در شکل سهمی با رأس $A$ و کانون $F$ و خط هادی $d$ رسم شده است. 
+    از به نقطه دلخواه $M$ روی سهمی وصل کرده و امتداد داده‌ایم تا $d$ را در نقطه‌ای مانند $N$ قطع کند و 
+    از نقطه 
+    $M$
+    ٬
+    $MT$
+     بر $d$ عمود کرده‌ایم. ثابت کنید: $\dfrac{FN}{FA} = \dfrac{2NT}{TH}$.</p>
+
+
+<br><br>
+
+<p class="MsoNormal">۱۳- یک دانش‌آموز با دیدن دو دیش مخابراتی با 
+    ابعاد متفاوت و مشاهده فاصله کانونی متفاوت آنها به این فکر افتاد که چگونه می‌توان با داشتن یک
+     دیش فاصله کانونی آن‌را به‌دست آورد. از معلمش خواست که فرمولی برای محاسبه فاصله کانونی یک دیش به 
+    او بگوید. معلم به او گفت: "باید قطر دهانهٔ دیش را در خودش ضرب کرد و حاصل ضرب را بر
+     اندازه کودی (عمق) دیش تقسیم کرد و عدد حاصل را بر $16$ تقسیم کرد. حاصل فاصله کانونی دیش است."
+     دلیل درستی این دستور را با توجه به سهمی رسم شده در شکل مقابل و فرمول سهمی توضیح دهید.</p>
+<br><br>
+<p class="MsoNormal">۱۴- فرض کنید از مثلث $ABC$، اندازه ضلع $BC$ و ارتفاع $AH$ و محیط مثلث، داده شده باشد. با استفاده از خواص بیضی شیوهٔ رسم این مثلث را توضیح دهید.</p>
+<br><Br>
+<p class="MsoNormal">۱۵- سهمی $y = x^2$ و دو خط موازی 
+    $ d_2 : y = ax + b'$ و $ d_1 : y = ax + b$
+    را که با 
+    سهمی متقاطع‌اند، در نظر بگیرید.</p>
+<br>
+<p class="MsoNormal">الف) معادله درجهٔ دومی تشکیل دهید که ریشه‌های آن طول نقاط برخورد خط $d$ و سهمی $y = x^2$ باشد.</p>
+<br>
+<p class="MsoNormal">ب) فرض کنید $A$ و $B$ نقاط برخورد خط $d_1$ و سهمی باشند و نقطه $M$ وسط پاره‌خط $AB$ باشد. مختصات نقطه $M$ را به‌دست آورید.</p>
+<br>
+<p class="MsoNormal">پ) مراحل (الف) و (ب) را با جایگذاری خط $d_2$ به جای $d_1$ انجام دهید و مختصات نقطه $M'$ (نقطه وسط پاره‌خط حاصل از نقاط تقاطع خط $d_2$ و سهمی) را به‌دست آورید.</p>
+<br>
+<p class="MsoNormal">ت) خط $MM'$ نسبت به محور‌ها چه وضعی دارد؟</p>
+<br>
+<p class="MsoNormal">ث) با استفاده از نتایج قسمت‌های قبل روشی برای رسم محور تقارن یک سهمی با داشتن نمودار آن ارائه دهید و با این روش محور تقارن سهمی مقابل را رسم کنید.</p>
+
+<br><br>
+
+
+
+
+
+
+<br><br><br><br><br>
+
+
+    </body>
+
+
+</html>

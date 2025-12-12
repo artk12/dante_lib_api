@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal ,
+        ul.MsoNormal {
+            margin: 0in;
+           
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi , b{
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #badaff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .MsoPapDefault {
+           
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #722a85;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background-color: #1abbbbe1; /* Scrollbar thumb color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color: #05ffe2;
+        }
+    </style>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+ 
+</head>
+
+
+
+<body class="custom-scrollbar">
+
+
+    
+    <p class="MsoBold">فصل ۲: دینامیک و حرکت دایره‌ای</p>
+
+    <p class="MsoNormal">
+        امروزه تعداد زیادی ماهواره در مدارهایی به دور زمین می‌چرخند، بدون آنکه چرخش آن‌ها به سوختی نیاز داشته باشد. این مدارها تقریباً دایره‌ای‌اند و زمین در مرکز آن‌ها قرار دارد. آیا می‌دانید ماهواره‌ها تحت تأثیر چه نیرویی در مدار خود باقی می‌مانند و اگر این نیرو وجود نداشته باشد حرکت آن‌ها چگونه خواهد شد؟ با مطالعهٔ این فصل می‌توانید به این نوع پرسش‌ها پاسخ دهید و حتی می‌توانید زمان یک دور چرخش و تندی ماهواره را در یک مدار تعیین کنید.
+        </p>
+        
+
+
+    <br><hr><br>
+
+
+
+
+    <p class="MsoNormal">
+    در تمام فعالیت‌های روزانه با نیرو سروکار داریم. راه رفتن، باز و بسته کردن در و پنجره، نوشتن، کار با گوشی همراه، شنا کردن و دوچرخه‌سواری نمونه‌هایی از این دست هستند و همچنین حرکت قطار، هواپیما، خودرو و ... بدون اعمال نیرو انجام نمی‌شوند.
+    </p>
+
+    <br>
+
+    <p class="MsoNormal">
+        در فصل اول با کمیت‌های مکان، تندی، سرعت و شتاب آشنا شدیم و حرکت یک جسم را به کمک آن‌ها توصیف کردیم، اما از اینکه تحت چه شرایطی مثلاً حرکت جسم با سرعت ثابت است یا در چه شرایطی جسم دارای حرکت با شتاب ثابت روی خط راست است یا در چه شرایطی جسم ساکن می‌ماند و... بحثی نکردیم.
+        </p>
+        
+        <br>
+
+    <p class="MsoNormal">
+    وقتی جسمی را می‌کشیم یا آن را هل می‌دهیم، به آن نیرو وارد می‌کنیم. نیرو، حاصل برهم‌کنش یا اثر متقابل دو جسم بر یکدیگر است. نیرو کمیتی برداری است که علاوه بر اندازه، جهت نیز دارد (شکل ۱-۲). معمولاً نیرو را با  $\vec{F}$  نشان می‌دهند. در رسم نیرو از یک پاره‌خط جهت‌دار با مقیاس مناسب استفاده می‌شود؛ مثلاً در شکل ۲-۲، بردار وزن دو گلدان را مشاهده می‌کنید که با مقیاس مناسب رسم شده‌اند.
+    </p>
+
+    <br>
+
+    <p class="MsoNormal">
+        نیرو را به کمک نیروسنج اندازه‌گیری می‌کنیم و یکای آن، نیوتون است که با نماد  $N$  نشان داده می‌شود. اثر نیرو بر یک جسم به شکل‌های مختلف مانند شروع به حرکت کردن، توقف، کم و زیاد شدن اندازهٔ سرعت (تندی)، تغییر جهت سرعت و تغییر شکل آن جسم، خود را نشان می‌دهد. با توجه به آنچه در مورد سرعت فراگرفتیم، می‌توان به‌طور خلاصه نشان داد که نیرویی وارد بر یک جسم می‌تواند سبب تغییر سرعت جسم یا تغییر شکل آن شود.
+        </p>
+        
+        <br>
+
+    <p class="MsoNormal">
+        به‌طور کلی در این فصل می‌خواهیم دربارهٔ نیروها، که نقش اساسی در تغییر سرعت یک جسم یا تغییر شکل جسم دارند، قوانین حرکت و حرکت دایره‌ای بحث کنیم. در کتاب علوم نهم با مفهوم نیرو و قوانین نیوتون دربارهٔ حرکت آشنا شدیم. در اینجا ضمن مرور و یادآوری آن‌ها، مفاهیم فراگرفته شده را گسترش می‌دهیم تا توانایی و درک شما در رابطه با مفهوم نیرو، عمق بیشتری پیدا کند و بتوانید براساس نیروهای وارد شده به یک جسم، حرکت آن را بررسی و تحلیل کنید.
+        </p>
+        
+<br><hr><br>
+
+
+
+
+
+<p class="MsoStep">۱-۲ قوانین حرکت نیوتون</p>
+<p class="MsoNormal">
+ایزاک نیوتون (۱۷۲۷–۱۶۴۳م) نخستین کسی بود که به رابطهٔ میان نیرو و شتاب پی برد. این رابطه همراه با دیگر قانون‌های نیوتون، اساس مکانیک نیوتونی را تشکیل می‌دهند. در این بخش به بررسی سه قانون اصلی حرکت می‌پردازیم.
+</p>
+
+
+
+<br><hr><br>
+
+<p class="MsoSemi">
+    قانون اول نیوتون
+</p>
+<p class="MsoNormal">
+    
+
+    در علوم نهم دیدیم که اگر به جسمی به‌طور هم‌زمان چند نیرو اثر کند و این نیروها اثر یکدیگر را خنثی کنند، به عبارت دیگر برآیند نیروهای وارد بر جسم صفر شود، می‌گوییم نیروهای وارد بر جسم متوازن هستند.
+    </p>
+    
+    <br><hr><br>
+
+    <p class="MsoStep">
+        پرسش
+     2-1
+        </p>
+        <p class="MsoNormal">
+        در شکل روبه‌رو یک کشتی در حال حرکت را می‌بینید که نیروهای وارد بر آن متوازن‌اند. کدام نیروها اثر یکدیگر را خنثی کرده‌اند؟
+        </p>
+
+        <br><hr><br>
+
+
+        <p class="MsoNormal">
+            قبل از سال ۱۶۰۰ میلادی، دیدگاه رایج این بود که هر جسم در حال حرکتی برای ادامهٔ حرکت حتماً نیاز به نیرو دارد، ولی گالیله با طراحی آزمایش‌هایی ذهنی نتیجه گرفت که در نبود نیرو، حرکت جسم متحرک ادامه می‌یابد. نیوتون نظر گالیله را به‌صورت یک قانون بیان کرد که به نام قانون اول نیوتون شهرت دارد: 
+            <b>     
+                    «یک جسم، حالت سکون یا حرکت با سرعت ثابت خود را حفظ می‌کند مگر آنکه نیرویی خالصی (غیرصفر) به آن وارد شود». 
+            </b>
+            به عبارت دیگر وقتی نیروهای وارد بر جسمی متوازن باشند، اگر جسم ساکن باشد، همچنان ساکن باقی می‌ماند و اگر در حال حرکت باشد، سرعت جسم تغییر نمی‌کند و ثابت می‌ماند.
+            </p>
+        
+
+    <br><hr><br>
+
+
+        <p class="MsoStep">
+        پرسش ۲-۲
+        </p>
+        <p class="MsoNormal">
+        در فیلمی علمی ـ تخیلی، موتور یک کشتی فضایی که در فضای تهی خارج از جو زمین و دور از هر سیاره و خورشید در حرکت است، از کار می‌افتد. در نتیجه حرکت کشتی فضایی کُند می‌شود و می‌ایستد. آیا امکان وقوع چنین رویدادی وجود دارد؟ توضیح دهید.
+        </p>
+        
+
+
+<br><hr><br>
+
+
+
+
+<p class="MsoStep">فعّالیت ۲-۱</p>
+<p class="MsoNormal">
+دربارهٔ آزمایش ذهنی گالیله تحقیق کنید و به کلاس گزارش دهید.
+</p>
+
+
+
+<br><hr><br>
+
+
+
+
+<p class="MsoNormal">
+    فرض کنید در اتوبوسی نشسته‌اید و اتوبوس در یک جادهٔ مستقیم حرکت می‌کند. اگر راننده ترمز کند و شما کمربند خود را نبسته باشید، ممکن است به جلو پرتاب شوید (متمایل شوید)، یا اگر اتوبوس ساکن باشد و ناگهان شروع به حرکت کند، به طرف عقب به صندلی خود فشرده می‌شوید. آیا علت آن را می‌دانید؟ بر اساس قانون اول نیوتون، اگر بر جسم نیروی خالصی وارد نشود، جسم ساکن می‌ماند و یا با سرعت ثابت به حرکت خود ادامه می‌دهد. به این خاصیت اجسام که میل دارند وضعیت حرکت خود را هنگامی که نیروی خالص وارد بر آن‌ها صفر است حفظ کنند، <b>لَختی</b> می‌گویند.
+    </p>
+
+
+
+
+    <br><hr><br>
+    
+
+
+
+
+    <p class="MsoStep">
+        پرسش ۳-۲
+        </p>
+        <p class="MsoNormal">
+            الف) در شکل الف مقوا را به سرعت می‌کشیم، برای سکه چه اتفاقی می‌افتد؟ چرا؟
+            </p>
+            <br>
+            <p class="MsoNormal">
+            ب) در شکل ب، اگر به‌آرامی نیرویی وارد بر گوی سنگین را زیاد کنیم کدام نخ پاره می‌شود؟ اگر ناگهان نخ را بکشیم، کدام نخ پاره می‌شود؟ علت را توضیح دهید.
+            </p>
+
+            <br><hr><br>
+
+<p class="MsoSemi">
+    قانون دوم نیوتون
+</p>
+    <p class="MsoNormal">
+
+         قانون اول نیوتون به بررسی حرکت جسمی می‌پردازد که نیروی خالص وارد بر آن صفر است. حال اگر نیروهای وارد بر جسم متوازن نباشند، یعنی نیروی خالصی بر جسم وارد شود، برای حرکت جسم چه اتفاقی می‌افتد؟ قانون دوم نیوتون به این پرسش پاسخ می‌دهد. همان‌طور که در علوم نهم دیدیم، وقتی نیروی خالصی به جسمی وارد می‌شود، سرعت آن تغییر می‌کند و جسم تحت تأثیر آن نیرو، شتابی در جهت نیروی خالص پیدا می‌کند.
+        </p>
+        
+
+    <br><hr><br>
+
+<p class="MsoStep">
+    پرسش
+ 2-4
+    </p>
+    <p class="MsoNormal">
+    در شکل‌های زیر، قطعه‌یخ‌ها روی یک سطح افقی بدون اصطکاک قرار دارند. تفسیر خود را از این شکل‌ها بیان کنید.
+    </p>
+
+    <br><hr><br>
+
+
+
+    <p class="MsoNormal">
+        مشاهدات مختلف نشان می‌دهد هر چه نیروی خالص وارد بر جسم بزرگ‌تر باشد شتابی که جسم می‌گیرد نیز بیشتر خواهد بود. جرم جسم نیز روی شتابی که این جسم می‌گیرد مؤثر است. با یک نیروی خالص معیّن، هر چه جرم جسم بیشتر باشد، شتاب آن کمتر است. یعنی شتاب با جرم نسبت وارون دارد.
+        </p>
+        <br>
+        <p class="MsoNormal">
+        چنین تجربه‌ای در تأیید قانون دوم نیوتون است که بیان می‌کند:
+        </p>
+        <p class="MsoNormal">
+   
+            <strong>     هرگاه بر جسم نیروی خالصی وارد شود، جسم تحت تأثیر آن نیرو شتاب می‌گیرد که این شتاب با نیروی خالص وارد بر جسم نسبت مستقیم دارد و در همان جهت نیروی خالص است و با جرم جسم نسبت وارون دارد.</strong>
+        </p>
+
+        <p class="MsoNormal">
+            $$
+            \vec{a} = \dfrac{\vec{F}_{\text{net}}}{m}
+            $$
+            </p>
+
+            <p class="MsoNormal">
+                و یا :
+            </p>
+
+
+
+            <br><hr><br>
+
+
+            <p class="MsoSemi" style="text-align: center;">
+                (1-2)
+                $$
+                \vec{F}_{net} = m \vec{a}
+                $$
+                (قانون دوم نیوتون)
+            </p>
+
+
+            
+            <br><hr><br>
+
+            <p class="MsoNormal">
+                یکای SI نیرو، نیوتون است. یک نیوتون برابر با مقدار نیروی خالصی $1$ است که به جسمی به جرم یک کیلوگرم، شتابی برابر یک متر بر مربع ثانیه می‌دهد.
+                </p>
+
+                <br><br>
+                        
+            <p class="MsoNormal">
+          <b>  توجه:</b>
+            
+            در رابطهٔ 
+            2-1
+            ، $ m  \vec{a}$ نیرو نیست.
+          
+            تمام نیروهای وارد بر یک جسم با هم جمع‌برداری می‌شوند تا نیروی خالص 
+        (     $\vec{F_{net}}$  )
+             وارد بر جسم به‌دست آید و آن را در سمت چپ معادله قرار می‌دهند.
+            
+            این نیروی خالص مساوی با حاصل‌ضرب جرم در شتاب 
+             ( $ m \vec{a}$ )
+            است.
+            </p>
+
+
+            <br><hr><br>
+
+
+            <p class="MsoStep">مثال
+             2-1
+                </p>
+            <p class="MsoNormal">
+            نیروی موتور یک قایق موتوری که جرم آن با سرنشینش $400 \ \text{kg}$ است، به‌گونه‌ای تنظیم می‌شود که در بازهٔ زمانی معینی، همواره نیروی افقی خالص $800 \ \text{N}$ به طرف جلو بر قایق وارد می‌شود.
+            </p>
+            <ul class="MsoNormal">
+              <p>الف) شتاب این قایق چقدر و در چه جهتی است؟</p>
+              <p>ب) اگر نیروی پِشْران در یک لحظه $1300 \ \text{N}$ باشد، نیروی مقاومت در آن لحظه چقدر است؟</p>
+            </ul>
+            
+
+            <ul class="MsoNormal">
+                <p>پ) چقدر طول می‌کشد تا سرعت قایق از حالت سکون به $15/0 \ \text{m/s}$ برسد؟ در این مدت قایق چقدر جابه‌جا می‌شود؟</p>
+              </ul>
+
+              <br>
+              
+              <p class="MsoSemi">
+                پاسخ :
+              </p>
+              <br>
+              <p class="MsoNormal">
+               
+                الف) از قانون دوم نیوتون برای پیدا کردن شتاب قایق استفاده می‌کنیم. با توجه به اینکه قایق در یک مسیر مستقیم حرکت می‌کند، می‌توان رابطهٔ ۲–۱ را برای یک راستا به‌صورت 
+                $
+              a = \dfrac{F_{\text{net}}}{m}
+              $
+                نوشت:</p>
+     
+              
+                <p class="MsoNormal">
+                    $$
+                    \begin{align}
+                    a &= \dfrac{F_{\text{net}}}{m}  \\\\
+                    &= \dfrac{800 \ \text{N}}{400 \ \text{kg}}  \\\\
+                    &= 2/00 \ \text{N/kg} \\\\
+                    &= 2/00 \ \text{m/s}^2
+                    \end{align}
+                    $$
+                    </p>
+                    
+
+                    <br>
+
+
+        <p class="MsoNormal">
+            با توجه به اینکه جهت شتاب همواره در جهت نیروی خالص است، شتاب قایق به طرف جلو خواهد بود.
+            </p>
+            <p class="MsoNormal">
+            ب) نیروی پیش‌ران و مقاومت در یک راستا هستند، بنابراین می‌توانیم بنویسیم:
+            </p>
+        
+        <p class="MsoNormal">
+            $$
+            \begin{align*}
+            F_{\text{net}} &= F_{\text{پیشران}} - F_{\text{مقاومت}} \\\\
+            800\,\text{N} &= 1300\,\text{N} - F_{\text{مقاومت}} \\\\
+            F_{\text{مقاومت}} &= 500\,\text{N}
+            \end{align*}
+            $$
+            </p>
+            
+<br>
+
+    <p class="MsoNormal">
+        ب) از رابطهٔ سرعت–زمان و سرعت–جابه‌جایی در حرکت با شتاب ثابت استفاده می‌کنیم.
+        </p>
+        
+
+
+    <p class="MsoNormal">
+        $$
+        \begin{align*}
+        v &= at + v_0 \\\\
+        15/0 \, \mathrm{m/s} &= (2/00\, \mathrm{m/s^2})\, t + 0\, \mathrm{m/s} \\\\
+         t &= 7/5\, \mathrm{s}
+        \end{align*}
+        $$
+        </p>
+            
+<hr style="background-color: #D6D1DA10;width: 60%;">
+
+<p class="MsoNormal">
+    $$
+    \begin{align*}
+    v^2 &= v_0^2 + 2a \Delta x \\\\
+   \Delta x &= \dfrac{v^2 - v_0^2}{2a} \\\\
+    &= \dfrac{(15/0 \, \mathrm{m/s})^2 - (0/0 \, \mathrm{m/s})^2}{2(2/00 \, \mathrm{m/s^2})} \\\\
+    &= 56/3 \, \mathrm{m}
+    \end{align*}
+    $$
+    </p>
+
+    <br>
+    
+    <p class="MsoNormal">
+        به این ترتیب، با داشتن نیروی خالص می‌توانیم کمیت‌های شتاب، سرعت، زمان حرکت، مکان و جابه‌جایی را به‌دست آوریم.
+        </p>
+        
+
+
+
+        <br><hr><br>
+
+
+
+
+        <p class="MsoStep">مثال
+         2-2
+            </p>
+<p class="MsoNormal">
+شکل روبه‌رو نیروهای وارد بر توپ فوتبالی به جرم $420 \ g$ را در بالاترین نقطهٔ مسیرش نشان می‌دهد که در آن، $\vec{F_{1}}$
+ نیروی مقاومت هوا و 
+ $\vec{F_{2}}$
+  وزن توپ است. جهت و بزرگی شتاب توپ در این نقطه را تعیین کنید. از نیروهای دیگر وارد بر توپ صرف‌نظر می‌شود.
+</p>
+<br>
+
+<p class="MsoSemi">
+    پاسخ: 
+</p>
+<p class="MsoNormal">
+جهت شتاب در جهت نیروی خالص (برآیند) است.
+</p>
+<p class="MsoNormal">
+    $$
+    \vec{F_2} = (-4/01 \ N) \ \vec{j}
+    \quad \text{و} \quad 
+    \vec{F_1} = (-1/0 \ N) \ \vec{i}
+    $$
+    </p>
+
+    <hr style="background-color: #D6D1DA10;width: 60%;">
+
+    <p class="MsoNormal">
+         
+        $$
+        \begin{align}
+       \text{نیروی خالص} =  \vec{F_{net}} &= \text{نیروی مقاومت هوا} + \text{وزن} \\\\
+        &= \vec{F_1} + \vec{F_2} \\\\
+        &= (-1/0 \ N) \ \vec{i} + (-4/10 \ N) \ \vec{j} \\\\
+        \end{align}
+        $$
+        </p>
+        
+        <hr style="background-color: #D6D1DA10;width: 60%;">
+
+        <p class="MsoNormal">
+            $$
+            \begin{align*} \\
+            \vec{a} &= \dfrac{\vec{F_{net}}}{m} \\\\
+            &= \dfrac{(-1/0 \ N) \ \vec{i} + (-4/10 \ N) \ \vec{j}}{420 \times 10^{-3} \ kg} \\\\
+            &= (-2/4 \ N/kg) \ \vec{i} + (-9/8 \ N/kg) \ \vec{j} \\\\
+            \end{align*}
+            $$
+            </p>
+            
+            <hr style="background-color: #D6D1DA10;width: 60%;">
+            
+    <p class="MsoNormal">
+        $$
+        \begin{align*} \\
+        a &= \sqrt{a_x^2 + a_y^2} \\\\
+        &= \sqrt{(-2/4 \ \text{N/kg})^2 + (-9/8 \ \text{N/kg})^2} \\\\
+        &= 10 \ \text{N/kg} \\\\
+        &= 10 \ \text{m/s}^2
+        \end{align*}
+        $$
+        </p>
+
+
+
+
+        <br><hr><br>
+
+        
+                
+        <p class="MsoSemi">قانون سوم نیوتون:</p>
+        <p class="MsoNormal">
+        وقتی فنری را می‌کشید، فنر نیز شما را می‌کشد. در برخورد راکت با توپ تنیس، راکت به توپ نیرو وارد می‌کند و توپ نیز به راکت نیرو وارد می‌کند. اگر شما دیوار را هل دهید، دیوار نیز شما را هل می‌دهد. دو بار الکتریکی بدون آنکه با هم تماس داشته باشند به هم نیروی الکتریکی وارد می‌کنند. همچنین دو قطب آهن‌ربا بدون تماس با یکدیگر به هم نیروی مغناطیسی وارد می‌کنند (شکل ۲-۴). در این مثال‌ها نیروها اثر متقابل دو جسم بر یکدیگر است.
+        </p>
+
+        <br>
+
+        <p class="MsoNormal">
+            نیروها همواره به‌صورت جفت وجود دارند. اگر یکی از این نیروها را کنش بنامیم، نیروی دیگر <b>واکنش</b> نامیده می‌شود. قانون سوم نیوتون رابطهٔ کمی بین نیروهای کنش و  را به‌صورت زیر بیان می‌کند:
+            </p>
+        
+
+    <br>
+    <p class="MsoNormal">
+        <strong>
+        هرگاه جسمی به جسم دیگر نیرو وارد کند، جسم دوم نیز به جسم اول نیرویی هم‌اندازه و هم‌راستا، اما در خلاف جهت وارد می‌کند.
+        </strong>
+        </p>
+        <br>
+        <p class="MsoNormal">
+        بر اساس قانون سوم نیوتون، در تمام مثال‌های بالا، هر دو نیرو هم‌اندازه و هم‌راستا ولی در خلاف جهت یکدیگرند و می‌توانیم بنویسیم:
+        </p>
+            
+
+
+    <br><hr><br>
+    <p class="MsoSemi" style="text-align: center;">
+        (۲-۲)
+        $$
+        \vec{F}_{۱۲} = -\vec{F}_{۲۱} \Rightarrow F_{۱۲} 
+        = F_{۲۱}
+        $$
+        (قانون سوم نیوتون)
+        </p>
+    <br><hr><br>
+
+
+
+    <p class="MsoNormal">
+        توجه داریم ممکن است نیروهای کنش و واکنش منجر به اثرات متفاوتی شوند؛ مثلاً هنگام کوبیدن میخ در قطعه‌ای چوب، چکش به میخ نیرو وارد می‌کند و سبب فرو رفتن میخ در چوب می‌شود. نیروی وارد از میخ به چکش حرکت چکش را کند و متوقف می‌کند (شکل 
+        2-5
+        ).
+        </p>
+
+        <br>
+    
+    <p class="MsoNormal">
+        توجه کنید که نیروهای کنش و واکنش همواره به دو جسم وارد می‌شوند و هم‌نوع‌اند؛ مثلاً هر دو الکتریکی‌اند، یا هر دو مغناطیسی‌اند، یا هر دو گرانشی‌اند و یا ...
+        </p>
+
+
+
+        <br><hr><br>
+
+
+
+        <p class="MsoStep">
+            مثال
+        2-3
+        </p>
+    <p class="MsoNormal">
+    دو شخص به جرم‌های $75/0 \ kg$ و $50/0 \ kg$ با کفش‌های چرخ‌دار در یک سالن سطح و صاف روبه‌روی هم ایستاده‌اند. شخص اول با نیروی $100/0 \ N$ شخص دوم را به طرف راست هُل می‌دهد.
+    </p>
+
+            <ul class="MsoNormal">
+                <p>
+                    الف) شتابی که شخص دوم می‌گیرد چقدر است؟
+                    </p>
+                    <p>
+                    ب) شتابی که شخص اول می‌گیرد چقدر است؟
+                    </p>
+            </ul>
+
+
+            <b>
+                پاسخ :
+            </b>
+    <p class="MsoNormal">
+         از قانون سوم نیوتون می‌دانیم نیرویی که شخص اول به دوم وارد می‌کند ($\vec{F}_{12}$) هم‌ اندازه و در خلاف جهت نیرویی است که شخص دوم به اول وارد می‌کند ($\vec{F}_{21}$). با انتخاب جهت مثبت محور $x$ به طرف راست می‌توانیم بنویسیم:
+        </p>
+                
+
+    <p class="MsoNormal">
+        $$
+        \begin{align}
+        \vec{F}_{21} &= -\vec{F}_{12} \\\\
+            F_{21} &= F_{12} \\\\
+        &= 100 \, N \\\\
+        \end{align}
+        $$
+        </p>
+                
+            
+        <hr style="background-color: #D6D1DA10;width: 60%;">
+            
+
+    <p class="MsoNormal">
+        $$
+        \begin{align*} \\
+        \vec{a}_2 &= \dfrac{\vec{F}_{12}}{m} \\\\
+        &= \dfrac{(100\, N)\, \vec{i}}{50/0 \, kg} \\\\
+        &= \left( 2/00 \, \dfrac{N}{kg} \right) \vec{i} \\\\
+        &= \left( 2/00 \, m/s^{2} \right) \vec{i} \\\\
+        \end{align*}
+        $$
+        </p>
+            
+        <hr style="background-color: #D6D1DA10;width: 60%;">
+
+    <p class="MsoNormal">
+        $$
+        \begin{align*} \\
+        \vec{a}_2 &= \dfrac{\vec{F}_{21}}{m} \\\\
+        &= \dfrac{-(100/0 \, N)\, \vec{i}}{75\, kg} \\\\
+        &= -\left( 1/33 \, \dfrac{N}{kg} \right) \vec{i} \\\\
+        &= -\left( 1/33 \, m/s^{2} \right) \vec{i}
+        \end{align*}
+        $$
+        </p>
+            
+
+
+        <br><hr><br>
+
+
+    <p class="MsoStep">پرسش ۵-۲</p>
+    <p class="MsoNormal">
+    شخصی در حال هل دادن جعبه‌ای سنگین روی سطح افقی است و این جعبه در جهت این نیرو حرکت می‌کند. با توجه به آنکه نیرویی که شخص به جعبه وارد می‌کند با نیرویی که جعبه به شخص وارد می‌کند هم اندازه است، توضیح دهید چگونه جعبه حرکت می‌کند؟
+    </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <br><br><br><br><br><br><br><br><br><br>
+</body>
+
+
+</html>

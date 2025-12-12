@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 900px;
+            margin: auto;
+            font-size: clamp(1rem, 2.5vw, 2rem);
+        }
+
+        span {
+            font-size: clamp(1rem, 2.4vw, 2rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 2.5vw, 2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.5rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.1rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 3vw, 2.5rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #87a5ff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+
+        .images {
+            width: -webkit-fill-available;
+            display: block;
+            max-width: 80%;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1.0rem, 3vw, 2.5rem);
+            text-align: right;
+            color:white;
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #464646;
+            font-size: clamp(1.0rem, 3vw, 2.5rem);
+        }
+        table span{
+            
+            font-size: clamp(1.3rem, 3vw, 2.5rem);
+            
+        }
+    </style>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+<body>
+
+    <p class="MsoBold">4ـ2 انبساط گرمایی</p>
+    <p class="MsoNormal">
+    اگر درِ یک ظرف شیشه‌ای محکم باشد، معمولاً برای باز کردن درِ ظرف روی آن آب داغ می‌ریزیم. وقتی دو لیوان شیشه‌ای درهم، گیر کرده باشند، با ریختن آب سرد در لیوان داخلی و گذاشتن لیوان بیرونی در آب گرم، می‌توانیم دو لیوان را از هم جدا کنیم. وقتی دندانپزشک سوراخ دندانی را پر می‌کند، باید مادهٔ پرکنندهٔ دندان همان مشخصه‌های انبساط گرمایی دندان را داشته باشد (شکل 4ـ8)، زیرا در غیر این صورت، خوردن یک بستنی سرد و در پی آن نوشیدن چای داغ، بسیار دردناک خواهد بود و ممکن است سبب شکستن دندان نیز بشود.
+    </p>
+    <br><br>
+    <p class="MsoStep">پرسش 4ـ 1</p>
+    <p class="MsoNormal">
+    الف) چرا بهتر است قفل و کلید یک در، هم‌جنس باشند؟<br>
+    ب) چرا در برخی از فصل‌های سال، بعضی از درها در چارچوب خود گیر می‌کنند؟
+    </p>
+    <br><br><br>
+    <p class="MsoNormal">
+    بیشتر اجسام با افزایش دما حجم‌شان زیاد و با کاهش دما حجم‌شان کم می‌شود. همان‌طور که دیدیم این پدیده اساس ساخت بعضی از دماسنج‌ها است. بی‌توجهی به پدیدهٔ انبساط در ساختن پل‌ها، ساختمان‌ها، خط‌آهن‌ها، خطوط انتقال نیرو، خطوط انتقال سوخت و ... می‌تواند مشکل‌هایی را ایجاد کند.
+    </p>
+    <br><br>
+    <p class="MsoStep">فعالیت 4ـ 3</p>
+    <p class="MsoNormal">
+    1) شکل (الف) تصویری واقعی از دو قسمت متوالی خط‌آهن (ریل راه‌آهن) های قدیمی را در گذشته نشان می‌دهد. اگر فاصلهٔ خالی بین این دو قسمت به‌حد کافی زیاد نمی‌بود، چه مشکلی پیش می‌آمد؟<br>
+    2) امروزه بین قسمت‌های متوالی خط‌آهن فاصله‌ای در نظر گرفته نمی‌شود و این قسمت‌ها پشت سرهم جوشکاری می‌شوند (شکل ب). تحقیق کنید در این روش چگونه مشکل ناشی از انبساط در یک روز گرم تابستانی برطرف می‌شود؟
+    </p>
+    <br><br>
+    <p class="MsoNormal">
+    انبساط طولی: میله‌ای فلزی به طول اولیه $L = L_1$ را در نظر بگیرید. اگر دمای میله را به‌اندازهٔ $\Delta T$ افزایش دهیم، تجربه نشان می‌دهد که طول میله به‌اندازهٔ $\Delta L = L_2 - L_1$ افزایش می‌یابد (شکل 4ــ9).
+    </p>
+    <br><br>
+    <p class="MsoNormal">
+    آزمایش‌ها نشان می‌دهند که هرچه تغییر دمای میلهٔ فلزی بیشتر باشد، افزایش طول بیشتر است و هرچه طول اولیهٔ میله بزرگ‌تر باشد، به‌ازای یک تغییر دمای مشخص افزایش طول بیشتر خواهد بود. همچنین اگر دمای دو میله هم‌اندازه که جنس‌های آنها با هم متفاوت است را به یک اندازه افزایش دهیم، میزان افزایش طول آنها متفاوت است. بنابراین، در تغییرات دمایی به نسبت کوچک، $\Delta L$ را می‌توان از رابطهٔ زیر به‌دست آورد:
+    </p>
+    <br><br>
+    <p class="MsoNormal">
+        (4ــ2)
+    $$
+    \Delta L = \alpha L_1 \Delta T
+    $$
+    </p>
+    <br><br>
+    <p class="MsoNormal">
+    به $\alpha$ ضریب انبساط طولی میله می‌گویند که به جنس میله بستگی دارد. در رابطهٔ 4ــ2، $\Delta L$ و $L_1$ برحسب متر (m)، $\Delta T$ برحسب کلوین (K) یا درجهٔ سلسیوس (°C) و از آنجا یکای $\alpha$، بر کلوین ($K^{-1}$) یا بر درجهٔ سلسیوس ($°C^{-1}$) تعیین می‌شود.
+    </p>
+    <br><br>
+    <p class="MsoNormal">
+    ضریب انبساط طولی برخی اجسام در جدول 4ــ1 داده شده است. توجه کنید که مقادیر داده شده برای $\alpha$ در جدول بسیار کوچک است. همچنین ضریب انبساط طولی $\alpha$ علاوه بر جنس ماده، به دما نیز اندکی وابسته است، اما به دلیل اینکه این وابستگی ناچیز است، معمولاًً آن را در محاسبات معمولی نادیده می‌گیریم.
+    </p>
+    <br><br>
+
+<p class="MsoStep">جدول 4ـ1 ضریب انبساط طولی برخی اجسام</p>
+
+<table>
+    <tr>
+        <th class="MsoNormal">ماده</th>
+        <th class="MsoNormal">ضریب انبساط طولی $\left( \frac{1}{K} \right)$</th>
+        <th class="MsoNormal">ماده</th>
+        <th class="MsoNormal">ضریب انبساط طولی $\left( \frac{1}{K} \right)$</th>
+    </tr>
+    <tr>
+        <td class="MsoNormal">مس</td>
+        <td class="MsoNormal">$17 \times 10^{-6}$</td>
+        <td class="MsoNormal">الماس</td>
+        <td class="MsoNormal">$1.2 \times 10^{-6}$</td>
+    </tr>
+    <tr>
+        <td class="MsoNormal">برنج</td>
+        <td class="MsoNormal">$19 \times 10^{-6}$</td>
+        <td class="MsoNormal">شیشهٔ پیرکس</td>
+        <td class="MsoNormal">$3.3 \times 10^{-6}$</td>
+    </tr>
+    <tr>
+        <td class="MsoNormal">آلومینیوم</td>
+        <td class="MsoNormal">$23 \times 10^{-6}$</td>
+        <td class="MsoNormal">شیشهٔ معمولی</td>
+        <td class="MsoNormal">$9.1 \times 10^{-6}$</td>
+    </tr>
+    <tr>
+        <td class="MsoNormal">سرب</td>
+        <td class="MsoNormal">$29 \times 10^{-6}$</td>
+        <td class="MsoNormal">فولاد</td>
+        <td class="MsoNormal">$13 \times 10^{-6}$</td>
+    </tr>
+    <tr>
+        <td class="MsoNormal">یخ (در $0°C$)</td>
+        <td class="MsoNormal">$51 \times 10^{-6}$</td>
+        <td class="MsoNormal">بتن</td>
+        <td class="MsoNormal">$14 \times 10^{-6}$</td>
+    </tr>
+</table>
+
+<br><br><br>
+
+    <p class="MsoStep">مثال 4ـ 1</p>
+    <p class="MsoNormal">
+    طول یک پل معلق (شکل الف)، در پایین‌ترین دمای منطقه $1158 \text{m}$ است. این پل از نوعی فولاد با $\alpha = 13 \times 10^{-6} \text{°C}^{-1}$ ساخته شده است. فرض کنید کمترین دمای ممکن $-50\text{°C}$ و بیشترین دمای ممکن $+50\text{°C}$ باشد. بیشترین تغییر طول ممکن پل چقدر است؟
+    </p>
+    <br>
+    <p class="MsoNormal">پاسخ: با استفاده از رابطهٔ 4ــ2 داریم:</p>
+    <p class="MsoNormal">
+    $$
+    \Delta L = \alpha L_1 \Delta T = (13 \times 10^{-6} 1 / \ \ ^0 \text{C}^{-1}) \ \ (1158 \text{m}) \ \ (100 \text{°C}) = 1.5 \text{m}
+    $$
+    </p>
+    <br>
+    <p class="MsoNormal">
+    تغییر طول $1.5 \text{m}$ مقدار نسبتاً زیادی است. بدیهی است که در عمل نمی‌توان فضایی خالی به طول $1.5 \text{m}$ را برای این تغییر طول روی پل در نظر گرفت. برای رفع این مشکل از تعدادی بست انبساطی انگشتی که از جنس فلز هستند استفاده می‌کنند. شکل (ب)، نوعی از این بست‌ها و شکل (پ)، نمونه‌ای دیگر از این بست‌ها را نشان می‌دهد.
+    </p>
+    <br><br>
+    <p class="MsoStep">آزمایش ٤ـ ١</p>
+    <p class="MsoNormal">
+    هدف: اندازه‌گیری ضریب انبساط طولی
+    </p>
+    <br>
+    <p class="MsoNormal">
+    وسیله‌های موردنیاز: دستگاه اندازه‌گیری ضریب انبساط طولی، چند لولهٔ فلزی توخالی، ارلن با لوله جانبی و درپوش، لولهٔ لاستیکی، دماسنج، مجموعه پایه و گیره و چراغ الکلی.
+    </p>
+    
+    <p class="MsoNormal">
+    شرح آزمایش:
+    </p>
+    <p class="MsoNormal">
+    1ــ طول لولهٔ توخالی موردنظر را اندازه بگیرید ($L_1$) و لوله را روی دستگاه نصب کنید.<br>
+    2ــ در ارلن مقداری آب بریزید و درپوش آن را بگذارید.<br>
+    3ــ دمای محیط را بخوانید ($\theta_1$) و دماسنج را در جای نشان‌داده شده قرار دهید.<br>
+    4ــ ارلن را گرما دهید تا آب به جوش آید.<br>
+    5ــ آن‌قدر صبر کنید تا بخار آب از لوله خارج و لولهٔ توخالی کاملاً گرم شود و سپس دمای دماسنج را بخوانید ($\theta_2$).<br>
+    6ــ افزایش طول میلهٔ توخالی را با ریزسنج متصل به دستگاه اندازه بگیرید ($\Delta L$).<br>
+    7ــ با استفاده از رابطهٔ 4ــ2 ضریب انبساط طولی را به‌دست آورید.<br>
+    8ــ می‌توانید این آزمایش را برای میله‌های توخالی دیگر، تکرار کنید.
+    </p>
+    <br><br>
+    <p class="MsoStep">دماسنج نواری دوفلزه</p>
+    <p class="MsoNormal">
+    نوار دوفلزه (بیمتال) از دو تیغهٔ فلزی متفاوت، مانند برنج و آهن ساخته شده است که سرتاسر به هم جوش داده شده یا پرچ شده‌اند. هرگاه این نوار، گرم یا سرد شود، نوار مانند شکل 4ــ10 (الف) خم می‌شود (شکل با اندکی اغراق رسم شده است). از این ویژگی می‌توان برای دماسنجی و ساختن دماسنج استفاده کرد. به این نوع دماسنج‌ها، دماسنج نواری دوفلزه گفته می‌شود. شکل 4ــ10 (ب)، طرحی از این دماسنج را که در آن از یک نوار دوفلزهٔ پیچ‌دار استفاده شده است، نشان می‌دهد و شکل 4ــ10 (پ)، تصویری واقعی از این نوع دماسنج است.
+    </p>
+    <br><br>
+    <p class="MsoStep">فناوری و کاربرد</p>
+    <p class="MsoNormal">
+    دماپا (ترموستات): در دماسنج نواری دوفلزه دیدیم که یک نوار دوفلزه با افزایش یا کاهش دما خم می‌شود. این خم‌شدگی طوری است که در هنگام گرم شدن، تیغهٔ با ضریب انبساط بیشتر، کمان خارجی و تیغهٔ دیگر کمان داخلی را تشکیل می‌دهد (شکل 4ــ11 الف). از این ویژگی برای ساخت نوعی دماپا (ترموستات) استفاده می‌شود. دماپاها در بسیاری از وسایل الکتریکی مانند یخچال، آبگرمکن، کتری برقی و ... کاربرد دارند (شکل 4 ــ 11 ب). در واقع دماپا کلیدی الکتریکی است که در آن، قطع و وصل جریان با استفاده از حسگرهای گرمایی انجام می‌شود. اغلب از نوارهای دوفلزه به عنوان حسگرهای گرمایی در دماپا استفاده می‌شود. در مدل سادهٔ نشان‌داده‌شده در شکل 4ــ11 پ، عبور جریان الکتریکی از کتری برقی باعث گرم شدن نوار دوفلزه می‌شود. وقتی دمای نوار به‌اندازهٔ معینی برسد، بر اثر خم شدن نوار، جریان قطع شده و کتری برقی خاموش می‌شود (شکل 4 ــ 11 ت). با خاموش شدن کتری، دمای تیغه کاهش می‌یابد و نوار دوباره به شکل وضعیت قبلی خود بازمی‌گردد و به این ترتیب، دوباره مدار وصل شده و کتری برقی روشن می‌شود.
+    </p>
+    <br><br>
+    <p class="MsoNormal">
+    توجیه انبساط گرمایی، مبتنی بر دیدگاه میکروسکوپی است. انبساط گرمایی یک جسم پیامد تغییر فاصلهٔ بین اتم‌ها یا مولکول‌های تشکیل‌دهندهٔ آن است. برای درک این مدل، چگونگی رفتار اتم‌ها در یک مادهٔ جامد را در نظر بگیرید. همان‌گونه که در فصل 3 دیدیم، می‌توان اتم‌ها را ذراتی در نظر گرفت که با فنرهایی به اتم‌های مجاور متصل شده‌اند (شکل 4ــ12). اتم‌ها پیرامون مکان‌های تعادل خود با دامنهٔ کم، نوسان می‌کنند. می‌توان نشان داد با افزایش دمای جامد، فاصلهٔ متوسط بین اتم‌ها افزایش می‌یابد و در نتیجه، جسم جامد منبسط می‌شود.
+    </p>
+    <br><br>
+    <p class="MsoNormal">
+    در مایع با افزایش دما حرکت کاتوره‌ای اتم‌ها و مولکول‌ها بیشتر می‌شود. این افزایش حرکت‌ها باعث دور شدن اتم‌ها و مولکول‌ها از هم می‌شود و حجم مایع افزایش می‌یابد.
+    </p>
+    <br><br>
+    <p class="MsoNormal">
+    انبساط سطحی و حجمی: سطح و حجم بیشتر اجسام با افزایش دما زیاد می‌شود. تجربه نشان می‌دهد با انبساط جسم جامد، شکل آن عوض نمی‌شود و همهٔ ابعاد آن به تناسب افزایش می‌یابد. در این‌جا ابتدا به انبساط سطحی می‌پردازیم. اگر مساحت اولیهٔ جسم جامد $A_1$ و افزایش دما $\Delta T$ باشد، افزایش مساحتی به‌اندازهٔ $\Delta A$ پیدا می‌کند (شکل 4ــ13). نشان داده می‌شود که این افزایش مساحت به‌طور تقریبی از رابطهٔ زیر به‌دست می‌آید:
+    </p>
+    <br>
+    <p class="MsoNormal">
+        (4ــ3)
+    $$
+    \Delta A = 2 \alpha A_1 \Delta T
+    $$
+    </p>
+    <br>
+    <p class="MsoNormal">
+    در این رابطه، $\alpha$ ضریب انبساط طولی جسم جامد با یکای بر کلوین ($K^{-1}$) یا بر درجهٔ سلسیوس ($°C^{-1}$) است، یکای $\Delta A$ و $A_1$، متر مربع ($m^2$) و یکای $\Delta T$، کلوین (K) یا درجهٔ سلسیوس (°C) است.
+    </p>
+    <br><br>
+    <p class="MsoStep">فعالیت 4ـ 4</p>
+    <p class="MsoNormal">
+    ورق‌های فلزی و مستطیلی شکل به اضلاع $a_1$ و $b_1$ را در نظر بگیرید. بر اثر افزایش دمای $\Delta T$، طول اضلاع مستطیل به‌اندازهٔ $\Delta a$ و $\Delta b$ افزایش می‌یابند. اگر ضریب انبساط طولی ورقه $\alpha$ باشد، نشان دهید که افزایش مساحت این ورقه با تقریب مناسب از رابطهٔ $\Delta A = 2 \alpha A_1 \Delta T$ به دست می‌آید.
+    </p>
+    <br><br>
+    <p class="MsoStep">مثال 4ـ2</p>
+    <p class="MsoNormal">
+    مساحت یک ورقهٔ مسی $2500 \text{cm}^2$ است. اگر دمای این ورقه را $50 \text{°C}$ افزایش دهیم، مساحت آن چقدر افزایش خواهد یافت؟
+    </p>
+    <br>
+    <p class="MsoNormal">
+    پاسخ: از رابطهٔ 4ــ3 استفاده می‌کنیم. ضریب انبساط طولی مس با استفاده از جدول 4ــ1 برابر $17 \times 10^{-6} \text{°C}^{-1}$ است؛ بنابراین داریم:
+    </p>
+    <br>
+    <p class="MsoNormal">
+    $$
+    \begin{align*}
+    \Delta A &= 2 \alpha A_1 \Delta T \\ \\ 
+    &= 2 (1.7 \times 10^{-5} \text{°C}^{-1})(2500 \text{cm}^2)(50 \text{°C}) \\ \\
+    &= 4.3 \text{cm}^2
+    \end{align*}
+    $$
+    </p>
+    <br><br>
+    <p class="MsoStep">تمرین 4ـ 3</p>
+    <p class="MsoNormal">
+    شکل‌های (الف) و (ب) نشان می‌دهند که وقتی روی یک ورقهٔ فلزی حفره‌ای دایره‌ای داشته باشیم و ورقه را گرم کنیم، قطر (یا مساحت) حفره بزرگ می‌شود. فرض کنید جنس ورقه، برنجی است و حفره‌ای به قطر یک اینچ (2.54 cm) درون آن ایجاد شده است. وقتی دمای ورقه، $200 \text{°C}$ افزایش یابد، افزایش مساحت حفره چقدر خواهد شد؟
+    </p>
+    <br><br><br>
+    <p class="MsoNormal">اکنون به انبساط حجمی می‌پردازیم.</p>
+    <p class="MsoNormal">
+    همان‌طور که گفتیم حجم بیشتر اجسام با افزایش دما زیاد می‌شود. اگر حجم اولیهٔ جسم (جامد یا مایع) $V_1$ و افزایش دما $\Delta T$ باشد، جسم افزایش حجمی به اندازهٔ $\Delta V$ پیدا می‌کند که از رابطهٔ زیر به‌دست می‌آید:
+    </p>
+
+    <p class="MsoNormal">
+        (4ــ4)
+    $$
+    \Delta V = \beta V_1 \Delta T
+    $$
+    </p>
+    <br>
+    <p class="MsoNormal">
+    در این رابطه، $\beta$ ضریب انبساط حجمی جامد یا مایع است. یکای $\Delta V$ و $V_1$ متر مکعب (m³)، یکای $\Delta T$، کلوین (K) یا درجهٔ سلسیوس (°C) و از آنجا یکای $\beta$، بر کلوین ($K^{-1}$) یا بر درجهٔ سلسیوس ($°C^{-1}$) است.
+    </p>
+    <br>
+    <p class="MsoNormal">
+    انبساط طولی بیشتر جامدها در راستاهای مختلف، با ضریب انبساط طولی یکسان صورت می‌گیرد. می‌توان نشان داد که ضریب انبساط حجمی این جامدها با تقریب مناسبی سه برابر ضریب انبساط طولی آنهاست.
+    </p>
+    <br>
+    <p class="MsoNormal">
+    $$
+    \beta_{\text{جامد}} = 3\alpha
+    $$
+    </p>
+    <br>
+    <p class="MsoNormal">
+    چون مایع‌ها شکل معینی ندارند، انبساط آنها را فقط به‌صورت حجمی بررسی می‌کنیم. در جدول 4ــ2 ضریب انبساط حجمی برخی مایع‌ها داده شده است.
+    </p>
+    <br><br>
+    <p class="MsoNormal">جدول 4ــ2 ضریب انبساط حجمی چند مایع در دمای حدود $20 \text{°C}$</p>
+
+    <table>
+        <tr>
+            <th class="MsoNormal">ماده</th>
+            <th class="MsoNormal">ضریب انبساط $\left( \frac{1}{K} \right)$</th>
+        </tr>
+        <tr>
+            <td class="MsoNormal">جیوه</td>
+            <td class="MsoNormal">$0.18 \times 10^{-3}$</td>
+        </tr>
+        <tr>
+            <td class="MsoNormal">آب</td>
+            <td class="MsoNormal">$0.27 \times 10^{-3}$</td>
+        </tr>
+        <tr>
+            <td class="MsoNormal">گلیسیرین</td>
+            <td class="MsoNormal">$0.49 \times 10^{-3}$</td>
+        </tr>
+        <tr>
+            <td class="MsoNormal">روغن زیتون</td>
+            <td class="MsoNormal">$0.70 \times 10^{-3}$</td>
+        </tr>
+        <tr>
+            <td class="MsoNormal">پارافین</td>
+            <td class="MsoNormal">$0.76 \times 10^{-3}$</td>
+        </tr>
+        <tr>
+            <td class="MsoNormal">بنزین</td>
+            <td class="MsoNormal">$1.00 \times 10^{-3}$</td>
+        </tr>
+        <tr>
+            <td class="MsoNormal">اتانول</td>
+            <td class="MsoNormal">$1.09 \times 10^{-3}$</td>
+        </tr>
+        <tr>
+            <td class="MsoNormal">استیک اسید</td>
+            <td class="MsoNormal">$11.0 \times 10^{-3}$</td>
+        </tr>
+        <tr>
+            <td class="MsoNormal">بنزن</td>
+            <td class="MsoNormal">$12.5 \times 10^{-3}$</td>
+        </tr>
+        <tr>
+            <td class="MsoNormal">کلروفرم</td>
+            <td class="MsoNormal">$12.7 \times 10^{-3}$</td>
+        </tr>
+        <tr>
+            <td class="MsoNormal">استون</td>
+            <td class="MsoNormal">$14.3 \times 10^{-3}$</td>
+        </tr>
+        <tr>
+            <td class="MsoNormal">اتر</td>
+            <td class="MsoNormal">$16.0 \times 10^{-3}$</td>
+        </tr>
+        <tr>
+            <td class="MsoNormal">آمونیاک</td>
+            <td class="MsoNormal">$24.5 \times 10^{-3}$</td>
+        </tr>
+    </table>
+<br><br>
+    <p class="MsoStep">مثال 4ـ3</p>
+    <p class="MsoNormal">
+    در یک روز داغ تابستان که دمای هوا $40 \text{°C}$ است، شخصی باک (مخزن) $55$ لیتری اتومبیل خود را از بنزین کاملاً پر می‌کند. فرض کنید بنزین از منبعی در زیرزمین با دمای $12 \text{°C}$ بالا آمده باشد. شخص اتومبیل را پارک می‌کند و ساعتی بعد بازمی‌گردد. مشاهده می‌کند بنزین قابل توجهی از باک سرریز شده است. چقدر بنزین از باک بیرون ریخته است؟ (از افزایش حجم باک که بسیار ناچیز است صرف‌نظر می‌شود.)
+    </p>
+    <p class="MsoNormal">
+    پاسخ: با توجه به اینکه بنزین، زمان کافی برای هم‌دما شدن با محیط داشته است، دمای نهایی آن را $40 \text{°C}$ در نظر می‌گیریم. اکنون با استفاده از رابطهٔ 4ــ4 و جدول 4ــ2 برای ضریب انبساط حجمی بنزین خواهیم داشت:
+    </p>
+    <br>
+    <p class="MsoNormal">
+    $$
+    \Delta V = \beta V_1 \Delta T = (1.00 \times 10^{-3} \text{°C}^{-1})(55 \text{L})(40 \text{°C} - 12 \text{°C}) = 1.5 \text{L}
+    $$
+    </p>
+    <br>
+    <p class="MsoNormal">
+    بنابراین، در کمال تعجب درمی‌یابیم که $1.5$ لیتر بنزین روی زمین ریخته است.
+    </p>
+    <br>
+    <p class="MsoNormal">
+    نکتهٔ مهم در استفاده از رابطهٔ 4ــ4 این است که باید یکای $\Delta V$ و $V_1$ یکسان باشد. مقایسهٔ ضریب انبساط حجمی جامدها با ضریب انبساط حجمی مایعات نشان می‌دهد انبساط حجمی جامدها عموماً از مایعات بسیار کمتر است و به‌همین دلیل در بسیاری از محاسبات می‌توان از مقدار افزایش حجم جامد در مقابل مقدار افزایش حجم مایع صرف‌نظر کرد.
+    </p>
+    <br><br>
+    <p class="MsoStep">مثال 4ـ4</p>
+    <p class="MsoNormal">
+    ارلنی شیشه‌ای با ضریب انبساط طولی $9.0 \times 10^{-6} \text{°C}^{-1}$ را که در دمای $20.0 \text{°C}$ گنجایشی برابر با $200 \text{cm}^3$ دارد، مطابق شکل با گلیسیرین در همان دما پر کرده‌ایم. اگر دمای ظرف و گلیسیرین را به $60 \text{°C}$ برسانیم:
+    </p>
+    <p class="MsoNormal">
+    الف) آیا گلیسیرین از ظرف بیرون می‌ریزد؟<br><br>
+    ب) اگر پاسخ قسمت (الف) مثبت است، حجم گلیسیرین سرریز شده چقدر است؟
+    </p>
+    <br><br>
+    <p class="MsoNormal">
+    پاسخ: الف) افزایش حجم گلیسیرین و افزایش گنجایش ظرف را با استفاده از رابطه‌های 4ــ4 و 4ــ5 محاسبه می‌کنیم.
+    </p>
+    <br>
+    <p class="MsoNormal">
+    $$
+    \begin{align*}
+    \Delta V_{\text{گلیسیرین}} & = \beta_{\text{گلیسیرین}} V_1 \Delta T \\ \\
+    &= (49 \times 10^{-5} \text{°C}^{-1})(200 \text{cm}^3)(60 \text{°C} - 20 \text{°C}) \\ \\
+    &= 3.9 \text{cm}^3
+    \end{align*}
+    $$
+    </p>
+    <br>
+    <p class="MsoNormal">
+    $$
+    \begin{align*}
+     \Delta V_{\text{ظرف}} &= \beta_{\text{شیشه}} V_1 \Delta T \\ \\
+    &= (3 \alpha_{\text{شیشه}}) V_1 \Delta T \\ \\
+    &= (3 \times 9.0 \times 10^{-6} \text{°C}^{-1})(200 \text{cm}^3)(60 \text{°C} - 20 \text{°C}) \\ \\
+    &= 0.2 \text{cm}^3
+    \end{align*}
+    $$
+    </p>
+    <br>
+    <p class="MsoNormal">
+    در این محاسبه از جدول 4ــ2 برای ضریب انبساط حجمی گلیسیرین استفاده کرده‌ایم؛ چون افزایش حجم گلیسیرین بیش از افزایش گنجایش ظرف است، پس گلیسیرین از ظرف سرریز می‌شود.
+    </p>
+    <br>
+    <p class="MsoNormal">
+    ب) حجم گلیسیرین سرریز شده برابر است با
+    </p>
+    <p class="MsoNormal"><br>
+    $$
+    \begin{align*}
+    &\Delta V_{\text{گلیسیرین}} - \Delta V_{\text{ظرف}} \\ \\
+    &= 3.9 \text{cm}^3 - 0.2 \text{cm}^3 \\ \\
+    &= 3.7 \text{cm}^3
+    \end{align*}
+    $$
+    </p>
+    <br><br>
+    <p class="MsoStep">فعالیت 4ـ 5</p>
+    <p class="MsoNormal">
+    آزمایشی را طراحی و اجرا کنید که با آن بتوانید حجم گلیسیرین سرریز شده در مثال 4ــ4 را اندازه بگیرید. سپس از روی آن، ضریب انبساط حجمی گلیسیرین را تعیین کنید.
+    </p>
+    <br><br>
+    <p class="MsoStep">تمرین 4ـ 4</p>
+    <p class="MsoNormal">
+    افزایش دما که به طور معمول موجب افزایش حجم اجسام می‌شود، بر جرم آنها تأثیری ندارد. به همین دلیل انتظار داریم که چگالی اجسام با افزایش دما کاهش یابد. رابطهٔ چگالی با تغییر دما به‌صورت $\rho_2 = \frac{\rho_1}{1 + \beta \Delta T}$ است که در آن $\rho_1$ و $\rho_2$ به ترتیب چگالی ماده در دماهای $T_1$ و $T_2$، $\beta$ ضریب انبساط حجمی و $\Delta T = T_2 - T_1$ است.
+    </p>
+    <br>
+    <p class="MsoNormal">
+    الف) رابطهٔ چگالی با تغییر دما را به‌دست آورید.<br><br>
+    ب) نشان دهید با تقریب مناسبی می‌توان چگالی جسم را از رابطهٔ $\rho_2 = \rho_1 (1 - \beta \Delta T)$ نیز به‌دست آورد.
+    </p>
+    <br><br>
+    <p class="MsoStep">مثال 4ـ5</p>
+    <p class="MsoNormal">
+    یک قطعه سرب را در دمای اتاق در نظر بگیرید. اگر دمای این قطعه را $200 \text{°C}$ افزایش دهیم، چگالی آن چند برابر می‌شود؟
+    </p>
+    <br>
+    <p class="MsoNormal">
+    $$
+    \rho_2 = \rho_1 (1 - \beta \Delta T) \implies \frac{\rho_2}{\rho_1} = \rho_1 (1 - 3 \alpha \Delta T)
+    $$
+    $$
+    =  (1 - (3 \times 29 \times 10^{-6} \text{°C}^{-1})(200 \text{°C})) = 0.98
+    $$
+    </p>
+    <br><br><br>
+    <p class="MsoStep">انبساط غیرعادی آب</p>
+    <p class="MsoNormal">
+    در زمستان‌های سرد، سطح آب آبگیرها و دریاچه‌های کوچک یخ می‌زند و به‌تدریج یخ ضخیم‌تر می‌شود؛ اما در ته آبگیرها، دمای آب بالاتر از $0 \text{°C}$ بوده و برای موجودات زنده‌ای که آن‌جا زندگی می‌کنند، نسبتاً گرم و مناسب است. در واقع حجم بیشتر مایع‌ها با کم شدن دما کاهش و در نتیجه چگالی آنها افزایش می‌یابد، ولی رفتار آب در محدودهٔ دمایی $0 \text{°C}$ تا $4 \text{°C}$ متفاوت است؛ یعنی در این محدوده با کاهش دما، حجم آب افزایش و در نتیجه چگالی آن کاهش می‌یابد. شکل‌های 4ــ14 (الف) و (ب)، به ترتیب نمودار حجم برحسب دما و نمودار چگالی برحسب دما را برای آب شیرین نشان می‌دهد که در آنها رفتار غیرعادی آب در محدودهٔ $0 \text{°C}$ تا $4 \text{°C}$ دیده می‌شود. همان‌طور که در این شکل‌ها نشان داده شده است، در بازهٔ دمایی $0 \text{°C}$ تا $4 \text{°C}$ با افزایش دما، حجم آب کاهش و چگالی آن افزایش می‌یابد. پس از دمای $4 \text{°C}$ مانند دیگر اجسام، با افزایش دما، حجم افزایش و چگالی کاهش می‌یابد. همین تغییر حجم غیرعادی آب است که موجب می‌شود دریاچه‌ها به‌جای اینکه از پایین به بالا یخ بزنند، از بالا یخ بزنند. وقتی دمای سطح آب مثلاً از $10 \text{°C}$ اندکی کمتر شود، چگالی آب نسبت به آب زیر خود افزایش می‌یابد و این آب، پایین می‌رود. این رفتار تا رسیدن به دمای $4 \text{°C}$ ادامه می‌یابد؛ ولی همان‌طور که دیدیم در دمای پایین‌تر از $4 \text{°C}$، حجم آب افزایش پیدا می‌کند و در نتیجه چگالی آن کاهش می‌یابد؛ یعنی سرد شدن بیشتر آب موجب می‌شود که چگالی آب سطح دریاچه نسبت به آب زیر آن کمتر شود و در نتیجه در سطح باقی بماند تا اینکه یخ بزند. بنابراین، در حالی که آب زیر دریاچه هنوز مایع است و دمایی بیش از صفر درجه دارد، سطح آب یخ می‌زند. اگر آب دریاچه‌ها از پایین به بالا یخ می‌زد، اثرات زیست‌محیطی زیانباری در پی داشت و حیات گیاهی و جانوری در عمق دریاچه‌ها از بین می‌رفت.
+    </p>
+    <br><br>
+
+
+</body>
+
+</html>

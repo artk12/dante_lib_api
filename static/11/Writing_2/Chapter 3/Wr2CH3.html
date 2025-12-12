@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+        li.MsoNormal,
+        div.MsoNormal,
+        ul.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+            
+        }
+        p.MsoNormal
+         {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-indent: 1em;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi {
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSemic,
+        li.MsoSemic,
+        div.MsoSemic {
+            margin: 0in;
+           
+            font-size: clamp(1.2rem, 1.6vw, 1.3rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #b19af2;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #6ca4ec;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .colored-text{
+            color:#B692F6;
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+        .boxp {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#a600ff20; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+
+        .boxg {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#00f2ff11; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        .boxb {
+            margin: 0in;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            text-align:right; 
+            background-color:#0c4e9f2d; 
+            padding:20px; 
+            margin:20px; 
+            border: 5px solid black; 
+            box-shadow: 5px 5px 0 black;
+            border-radius:12px;
+        }
+        ::selection {
+            background-color: #59078fa1; /* Change this to your desired highlight color */
+            color: #ffffff; /* Change this to your desired text color */
+          }
+
+
+          mark{
+            background-color:#078b8fa1 ;
+            color: #ffffff;
+            padding: 0 7px;
+        }
+
+        .hlg { background-color: rgba(0, 234, 255, 0.334);  }
+        .hlp { background-color:#5f1487; }
+      
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+
+        /* Container holding the checkbox and its label */
+        .checkbox-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            user-select: none;
+        }
+
+        /* Hide the default checkbox */
+        .checkbox-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #a600ffc4;
+            border-radius: 4px;
+        }
+
+        /* On hover, add a border */
+        .checkbox-container:hover input ~ .checkmark {
+            background-color: #a600ff74;
+        }
+
+        /* When the checkbox is checked, change the background color */
+        .checkbox-container input:checked ~ .checkmark {
+            background-color:#a600ffc4;
+        }
+
+        /* Add a checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .checkbox-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .checkbox-container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid rgb(165, 255, 255);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+    <body class="custom-scrollbar">
+
+     
+
+        <p class="MsoBold">درس سوم</p>
+        <p class="MsoBold">گسترش محتوا (2)</p>
+        <p class="MsoBold">شخصیت</p>
+        <p class="MsoNormal">
+        «مردی بود میانه قد، ‌با قیافه‌ای آفتاب‌سوخته و چروک‌برداشته و لباس نظامی مرتّب و تمیز. تازه ریشش را تراشیده بود. حتماً هنوز چهل سالش نشده بود و خیلی به زحمت سعی می‌کرد فارسی سلیس حرف بزند. تفنگش را وارونه روی دوشش انداخته بود و ما با هم قدم می‌زدیم…»
+        </p>
+        <p class="MsoSemi" style="text-align: left;">سه تار، آل احمد</p>
+        
+        <br><hr><br>
+        <p class="MsoNormal">
+        در نمونۀ بالا با مردی مواجه می‌شویم که نویسنده توانسته است ظاهر و رفتارش را برای ما به تصویر بکشد. با این کار، هنگام خواندن، تصویری از فرد یا افرادی که در متن حضور دارند، در ذهن ما نقش می‌بندد؛ به گونه‌ای که تا پایان متن، تمام رفتار و گفتار آنها را در ذهن مجسّم می‌کنیم. حضور شخصیت‌ها در نوشته باعث می‌شود متن از یکنواختی خارج شود. از شخصیت‌پردازی و توصیف شخصیت‌ها می‌توان در انواع نوشته استفاده کرد.
+        </p>
+        <br>
+        <p class="MsoNormal">
+        توصیف، گسترش دادنِ موضوع با دقّت در ویژگی‌های افراد، اشیا و مکان‌هاست. با توصیف می‌توان موضوع موردبحث را در ذهن مخاطب به تصویر کشید. همچنین می‌توان با آوردن وابسته‌ها (صفت‌ها و مضافٌ‌الیه‌ها)، تشبیهات، توضیحات و مانند آن به توصیف پرداخت.
+        </p>
+        <br>
+        <p class="MsoNormal">
+        در این درس با توجّه به مراحل زیر، به توصیف اشخاص می‌پردازیم:
+        </p>
+     
+        
+        <p class="MsoBold">مرحلۀ اوّل: موضوع‌یابی (انتخاب شخصیت)</p>
+        <p class="MsoNormal">
+        در این مرحله باید موضوعی را برای نوشتن انتخاب کرد. انتخاب شخصیت، در حقیقت همان انتخاب موضوع است. بهترین کار این است که تصویری از افراد خاص را در جاهای گوناگون تصوّر کنیم. اگر به مسیر روزانۀ خود از خانه تا مدرسه با دقّت نگاه کنیم، شخصیت‌های متفاوتی را در جاهای مختلفی می‌بینیم که با توجّه به ظاهر و رفتار آنها می‌توانیم متن زیبایی خلق کنیم. رانندۀ تاکسی یا اتوبوس، فروشنده‌ها، مسافران و مأموران در ایستگاه‌های مترو و اتوبوس، رانندۀ وانتی که میوه و سبزی می‌فروشد، دانش‌آموزانی که در سنین مختلف به مدرسه می‌روند، تعمیرکاری که مشغول کار است، نانوا و کسانی که در صف نان هستند، خویشاوندان و حتّی افراد خانواده می‌توانند شخصیت اصلی یا یکی از شخصیت‌های نوشتۀ ما باشند.
+        </p>
+        <br>
+        
+        <p class="MsoNormal">
+        پس با دقّت بیشتری به اطراف نگاه کنیم؛ یعنی خوب ببینیم و بشنویم و با زیر نظرگرفتن اشخاص پیرامونمان، ویژگی‌های آنان را خوب بررسی کنیم و با تلاش ذهنی، آنها را در قالب شخصیت‌هایی خلق کنیم؛ مانند وصف برخی از شخصیت‌های کتاب فارسی سال پیش، از جمله: شخصیت «چشمه» در درس «چشمه»، «ناصر خسرو» و «گرمابه‌بان» در درس «سفر به بصره»، «نیما یوشیج» در متن «پیرمرد، چشم ما بود» و بسیاری از شخصیت‌های دیگر.
+        </p>
+        <br>
+        
+        <p class="MsoNormal">
+        گاه شخصیت‌ها می‌توانند حیوان باشند؛ مانند داستان «سپید دندان» که از زبان سگی با همین نام روایت شده است. گاه نیز به اشیا جان می‌بخشیم و به آنها شخصیت انسانی می‌دهیم؛ مانند ماجرای «یخی که عاشق خورشید شد» در کتاب نگارش سال گذشته. در این درس، شخصیتی که موضوع نوشتۀ ماست، یکی از هم‌کلاسی‌هایم به نام بهروز است.
+        </p>
+
+        <br><hr><br>
+        
+        <p class="MsoStep">فعّالیت (1)</p>
+        <p class="MsoNormal">
+        چند تن از افراد پیرامونتان را به عنوان موضوع نوشته انتخاب کنید و نام آنها را بنویسید.
+        </p>
+
+        <br><hr>
+        
+        <p class="MsoBold">مرحلۀ دوم: تجسّم و بارش فکری</p>
+        <p class="MsoNormal">
+        برای مجسّم کردن یک شخصیت یا یک شیء کافی است آن را به گونه‌ای معرّفی کنیم که دیگران بتوانند تصویری از آن در ذهن خود بسازند. برای این کار، نخست باید افرادی را که می‌خواهیم در نوشتۀ ما حضور داشته باشند، در ذهن مجسّم کنیم. برای نمونه در موضوع «هم‌کلاسی‌ام بهروز»، شخصیت اصلی، دانش‌آموزی است که در مکانی مشخّص مانند مدرسه یا کلاس حضور دارد. نویسنده برای تصویری کردن این شخصیت، به ظاهر و رفتار او در مدرسه توجّه کرده و آنچه را برای خواننده جالب است، بر روی کاغذ می‌آورد.
+        </p>
+
+        <br>
+        <table class="MsoNormal" style="margin:auto; width:fit-content; direction:ltr; text-align:center;">
+            <tr>
+                <th colspan="2">ویژگی‌های شخصیت بهروز</th>
+            </tr>
+            <tr>
+                <th style="background-color:#c9eaf330;">ویژگی اخلاقی</td>
+                <th style="background-color:#fbd4dd30;">ظاهری</td>
+            </tr>
+            <tr>
+                <td style="text-align:right;">عادت‌ها</td>
+                <td style="text-align:right;">رنگ پوست</td>
+            </tr>
+            <tr>
+                <td style="text-align:right;">علایق</td>
+                <td style="text-align:right;">شکل، رنگ و حالت مو</td>
+            </tr>
+            <tr>
+                <td style="text-align:right;">باورها</td>
+                <td style="text-align:right;">سن و سال</td>
+            </tr>
+            <tr>
+                <td style="text-align:right;">...</td>
+                <td style="text-align:right;">قد و اندازه</td>
+            </tr>
+            <tr>
+                <td style="text-align:right;">...</td>
+                <td style="text-align:right;">لباس و کیف و کفش</td>
+            </tr>
+            <tr>
+                <td style="text-align:right;">...</td>
+                <td style="text-align:right;">چهره</td>
+            </tr>
+            <tr>
+                <td style="text-align:right;">...</td>
+                <td style="text-align:right;">...</td>
+            </tr>
+        </table>
+        
+        <br><Hr><br>
+
+        
+
+
+            <p class="MsoStep">فعّالیت (2)</p>
+            <p class="MsoNormal">
+            یکی از موضوع‌هایی را که در فعّالیت (1) نوشتید، انتخاب کنید و با تجسّم شخصیت، ویژگی‌های او را مانند جدول صفحۀ قبل بنویسید.
+            </p>
+            <br>
+            <table class="MsoNormal" style="margin:auto; width:350px; direction:ltr; text-align:center;">
+                <tr>
+                    <th colspan="2">$ \\ $</th>
+                </tr>
+                <tr>
+                    <th style="background-color:#c9eaf330;">ویژگی اخلاقی</td>
+                    <th style="background-color:#fbd4dd30;">ظاهری</td>
+                </tr>
+                <tr>
+                    <td>$ \\ $</td>
+                    <td>$ \\ $</td>
+                </tr>
+                <tr>
+                    <td>$ \\ $</td>
+                    <td>$ \\ $</td>
+                </tr>
+                <tr>
+                    <td>$ \\ $</td>
+                    <td>$ \\ $</td>
+                </tr>
+                <tr>
+                    <td>$ \\ $</td>
+                    <td>$ \\ $</td>
+                </tr>
+                <tr>
+                    <td>$ \\ $</td>
+                    <td>$ \\ $</td>
+                </tr>
+                <tr>
+                    <td>$ \\ $</td>
+                    <td>$ \\ $</td>
+                </tr>
+                <tr>
+                    <td>$ \\ $</td>
+                    <td>$ \\ $</td>
+                </tr>
+            </table>
+
+            <br><hr><br>
+            
+            
+            <p class="MsoBold">مرحلۀ سوم: سازماندهی و طرح اوّلیه</p>
+            <p class="MsoNormal">
+            در این مرحله طرح اوّلیۀ نوشته را تنظیم می‌کنیم. این کار نوشتن را آسان‌تر می‌کند؛ یعنی باید بدانیم پس از نوشتن بند آغازین، در بندهای میانی، چه مواردی را با چه ترتیبی بیاوریم. با توجّه به موضوع انتخاب‌شده (هم‌کلاسی‌ام بهروز)، طرح را به این ترتیب در ذهن مرتّب می‌کنیم:
+            </p>
+            <br>
+            <ul class="MsoNormal">
+                <li>بند آغازین</li>
+                <li>بندهای میانی</li>
+                <ul>
+                    <li>معرّفی بهروز با توجّه به ظاهر</li>
+                    <li>معرّفی بهروز با توجّه به رفتار</li>
+                </ul>
+                <li>بند پایانی</li>
+            </ul>
+            <br>
+            
+            <p class="MsoNormal">
+            به این ترتیب، با سازماندهی ذهن خود، می‌دانیم از کجا باید شروع کنیم، بندهای میانی را به چه ترتیبی بیاوریم و نوشته را در کجا به پایان برسانیم.
+            </p>
+            <br><hr><br>
+            
+            <p class="MsoStep">فعّالیت (3)</p>
+            <p class="MsoNormal">
+            با توجّه به طرح اوّلیۀ نوشتۀ خود، به پرسش‌های زیر پاسخ دهید:
+            </p>
+            <br>
+            <ul class="MsoNormal">
+                <li>بندهای میانی نوشتۀ شما چند بند موضوعی دارد؟</li>
+                <br>
+                <li>در بندهای میانی، دربارۀ چه موضوعاتی می‌خواهید بنویسید؟</li>
+            </ul>
+            
+            <br><hr>
+            
+            <p class="MsoBold">مرحلۀ چهارم: پیش‌نویس</p>
+            <p class="MsoNormal">
+            در این مرحله، مطابق با نقشۀ طرّاحی‌شده در مرحلۀ پیش، جمله‌هایی می‌سازیم و آنها را در پی هم می‌آوریم. این جمله‌ها پیش‌نویس اوّلیۀ نوشته را شکل می‌دهد.
+            </p>
+            <br>
+       
+            <p class="MsoSemi">
+                1. بند آغازین:
+            </p><br>
+          
+            <p class="MsoNormal">
+                زندگی به آدم یاد می‌دهد که از ظاهر افراد نباید زود دربارۀ آنها قضاوت کرد. برای مثال، گوشه‌ای از زندگی بهروز را در دوران مدرسه شرح می‌دهم:
+            </p>
+            
+            <br>
+            
+         
+          
+            <p class="MsoSemi">
+                2. بند میانی:
+            </p>
+                
+            <p class="MsoNormal">
+              
+                   بهروز پسری دوازده‌ساله با صورتی سبزه و موهای موج‌دار بود. همان روز اوّل مهر موهایش را از ته می‌تراشید. قدّ او 120 سانتی‌متر بود، امّا سعی می‌کرد موقع راه رفتن خودش را قدبلندتر جلوه دهد. لباس‌هایش همگی راه‌راهِ از بالا به پایین بودند. کفش‌هایی انتخاب می‌کرد که زیرۀ ضخیم‌تری داشته باشد. دلیلش را خودتان می‌دانید. از بس فوتبال بازی می‌کرد، همیشه کفشش پاره بود. کیفش را روی دوشش نمی‌انداخت و سعی می‌کرد دستۀ کیف چرمی مشکی‌اش را در دست بگیرد؛ اینجوری باکلاس‌تر بود!
+                
+                
+                    همه می‌گفتند آدم مرموز و توداری است؛ چون تا چیزی از او نمی‌پرسیدند، حرفی نمی‌زد. سعی می‌کرد مثل کتاب‌خوان‌ها باشد، امّا هر وقت کارنامه‌اش صادر می‌شد، دیگر جرئت نداشت به خانه برود. در مدرسه خیلی به درس‌ها توجّه می‌کرد. معاونان همیشه خوبی‌های او را به رخ ما می‌کشیدند و هر بلایی سر دیگران می‌آورد، تبرئه‌اش می‌کردند. هر وقت معلّم جدیدی می‌آمد، فکر می‌کرد بهروز شاگرد اوّل است، امّا آخرِ سال شرمندۀ معلّم می‌شد.
+            
+            
+            </p>
+            <br>
+            
+            <p class="MsoSemi">
+                3. بند پایانی:
+            </p>
+            <p class="MsoNormal">
+                در جامعه، افرادی مانند بهروز دیده می‌شوند. آیا شما تاکنون با چنین کسانی دیدار داشته‌اید؟
+            </p>
+            
+            <br><hr><br>
+            
+            <p class="MsoStep">فعّالیت (4)</p>
+            <p class="MsoNormal">
+            با توجه به طرح نوشتۀ خود، پیش‌نویس آن را بنویسید.
+            </p>
+            
+            <br><hr>
+            
+            <p class="MsoBold">مرحلۀ پنجم: بازبینی و گسترش موضوع</p>
+            <p class="MsoNormal">
+            در این مرحله، نوشتۀ قبلی خود را بازبینی و اصلاح می‌کنیم و با استفاده از آنچه تاکنون آموخته‌ایم، آن را گسترش می‌دهیم.
+            </p>
+          
+            <div class="boxb">
+            <p class="MsoSemi" style="font-size:larger;text-align: center;">شاگرد اوّل کلاس ما</p>
+            
+            
+            <p class="MsoSemi">1. بند آغازین:</p>
+            <p class="MsoNormal">
+            زندگی به 
+            <u>آدمی می‌آموزد</u>
+             که 
+            <u>ظاهر اشخاص ملاک خوبی برای زود قضاوت کردن نیست</u>. 
+            <u>برای درک این مطلب، به بخش‌هایی از شخصیت بهروز، هم‌کلاسی قدیمم در دوران مدرسه اشاره می‌کنم:</u>
+            </p>
+            
+            <br>
+            <p class="MsoSemi">2. بندهای میانی:</p>
+            
+            <p class="MsoNormal">
+            الف) 
+             بهروز پسری دوازده‌ساله بود با صورتی سبزه و موهای موج‌دار.
+             <u>البته</u>
+             <u> اوّل مهر که قرار بود به مدرسه برود موهایش</u>
+               را از ته می‌تراشید.
+<u>             انگار سالی ده سانتی‌متر رشد می‌کرد؛ قدّ او درست صدوبیست
+</u>              سانتی‌متر بود
+             امّا سعی می‌کرد موقع راه رفتن، خودش را 
+             <u>بیشتر</u>
+             بکشد تا
+             قدبلندتر دیده شود. 
+             <u>برای این منظور،</u>
+              همۀ لباس‌هایی که 
+              <u>می‌پوشید،</u>
+             راه‌راه از بالا به پایین بودند. کفش‌هایی انتخاب می‌کرد
+             که زیرۀ ضخیم‌تری داشته باشد. دلیلش را خودتان می‌دانید.
+             از بس فوتبال بازی می‌کرد، 
+             همیشه 
+                <u>لب‌ولچۀ کفشش آویزان بود.</u>
+             کیفش را <u>هیچ‌وقت</u> روی دوشش نمی‌انداخت و
+             سعی می‌کرد همیشه 
+             <u>مثل مهندس‌ها</u>
+              دستۀ
+             کیف چرمی مشکی‌اش را در دست بگیرد؛ اینجوری باکلاس‌تر بود!
+            </p>
+            
+            <br>
+            <p class="MsoNormal">
+            ب)
+             همه می‌گفتند آدم مرموز و
+              توداری است؛ چون تا چیزی از او نمی‌پرسیدند، حرفی نمی‌زد. سعی می‌کرد مثل کتاب‌خوان‌ها باشد،
+              <u>امّا بین خودمان باشد، فقط سعی می‌کرد!</u>
+               هر وقت کارنامه‌اش صادر می‌شد،
+              دیگر جرئت نداشت به خانه برود. در مدرسه خیلی به درس‌ها توجه می‌کرد.
+              <u>معاونان</u> همیشه خوبی‌های او را به رخ ما می‌کشیدند و هر بلایی سر دیگران می‌آورد،
+              تبرئه‌اش می‌کردند. 
+              <u>باورشان نمی‌شد
+               که او آب‌زیرکاه باشد.
+            </u>
+              هر وقت معلّم جدیدی می‌آمد، فکر می‌کرد بهروز شاگرد اوّل است ولی <u>آخر سال شرمندۀ معلّم می‌شد</u>.
+            </p>
+            
+            <br>
+            <p class="MsoSemi">3. بند پایانی:</p>
+            <p class="MsoNormal">
+            در جامعه، افراد 
+            <u>مرموزی چون</u>
+             بهروز بسیار هستند. 
+            آیا شما تاکنون با چنین کسانی دیدار داشته‌اید؟ <u>دربارۀ آنها چگونه قضاوت کرده‌اید</u>؟
+            </p>
+            
+        </div>
+
+        <br><br>
+
+        
+        <p class="MsoNormal">
+            چنان که دیدید، نویسنده ابتدا متنی ساده نوشته، سپس واژه‌ها و جمله‌هایی را که زیرشان خط کشیده شده، به متن افزوده و آن را زیباتر کرده است؛ به این ترتیب متن، آراسته و گسترده شده است.
+            </p>
+        
+        <br><hr><br>
+            
+            <p class="MsoStep">فعّالیت (5)</p>
+            <p class="MsoNormal">
+            پیش‌نویس نوشتۀ خود را بخوانید و آن را گسترش دهید.
+            </p>
+        
+        <br><hr><br>
+        
+        <p class="MsoBold">مرحلۀ ششم: نوشتن نهایی و پاک‌نویس</p>
+        <p class="MsoNormal">
+        در این مرحله، با توجّه به اصلاحات و تغییرات ایجادشده در مراحل پیش، متن کامل شده را ویرایش و پاک‌نویس می‌کنیم.
+        </p>
+        <br><hr><br>
+        <p class="MsoStep">فعّالیت (6)</p>
+        <p class="MsoNormal">
+        اکنون متن نوشتۀ خود را به‌طور کامل پاک‌نویس کنید.
+        </p>
+        <br><hr><br>
+        <p class="MsoNormal">
+        اینک نوشته‌هایتان را بخوانید یا در اختیار دوستانتان قرار دهید تا با استفاده از معیارهای جدول زیر، آن را ارزیابی کنند.
+        </p>
+        
+        <br>
+        <table class="MsoNormal" style="margin:auto;width:fit-content;direction:rtl;text-align:center;">
+            <tr>
+                <th>ردیف</th>
+                <th>سنجش‌های ارزیابی</th>
+                <th colspan="2">نمره</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td style="text-align: right;">تجسّم شخصیت<br>
+                    <ul>
+                    <li style="text-align: right;">الف) توجّه به ویژگی‌های ظاهری</li><br>
+                    <li style="text-align: right;">ب) توجّه به رفتار</li>
+                    </ul>
+                </td>
+                <td>12</td>
+                <td>$ \\ $</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td style="text-align: right;">انسجام نوشته</td>
+                <td>4</td>
+                <td></td>
+            </tr>
+         
+            <tr>
+                <td>4</td>
+                <td style="text-align: right;">
+                   ویرایش
+                    <ul>
+                        <li>رعایت نشانه‌ها و نکات نگارشی</li><br>
+                        <li>رعایت املا</li>
+                    </ul>
+                </td>
+                <td>2</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td style="text-align: right;">شیوۀ خواندن</td>
+                <td>2</td>
+                <td></td>
+            </tr>
+            <tr style="background-color:#05ffe230">
+                <td>جمع</td>
+                <td></td>
+                <td>20</td>
+                <td></td>
+            </tr>
+        </table>
+        
+<br><hr>
+        <p class="MsoBold">کارگاه نوشتن</p>
+
+        <p class="MsoStep">تمرین (1)</p>
+        <p class="MsoNormal">
+        نوشته‌های زیر را بخوانید و ویژگی‌های رفتاری شخصیت‌های آن را در متن مشخّص کنید.
+        </p>
+        
+        <div class="MsoNormal">
+            <div class="boxb">
+                <p class="MsoNormal">
+                    <u>الف)</u> نوجوان که بود تابستان‌ها سرکار می‌رفت. یک روز قرار شد همراه خانواده به باغی در خارج از شهر برویم و استراحتی بکنیم؛ وقتی موضوع را به محمّدابراهیم گفتیم، گفت: «من نمی‌آیم، کار دارم، من توی یک مغازه کار می‌کنم.» گفتم: «الان که تابستان است و درس و مشق نداری. زندگی هم که روبه‌راه است پس چرا کار می‌کنی؟» گفت: «نمی‌خواهم دائم دنبال بازی باشم. دوست دارم سرکار بروم.» پرسیدم: «حالا چه کار می‌کنی؟» گفت: «توی یک مغازۀ میوه‌فروشی کار می‌کنم.» گفتم: «چرا میوه‌فروشی؟! می‌رفتی تو یک بزّازی کار می‌کردی که لااقل کارش تروتمیز‌تر است.» گفت: «اتّفاقاً چون کارش سخت‌تر و بیشتر است آن را انتخاب کرده‌ام. در مغازۀ بزّازی همه‌اش باید یک گوشه بنشینم و چرت بزنم.»
+                </p>
+                <br>
+                <p class="MsoSemi" style="text-align: left;">
+                    $*$
+                    شهید همّت، عربلو</p>
+            </div>
+            
+            <div class="boxb">
+                <p class="MsoNormal">
+                    <u>ب)</u> نشستن در گوشۀ خاکریز و به فکر فرو رفتن، کار همیشۀ سیّد بود. او به دوردست‌ها خیره می‌شد و پرواز آرام کبوترها را که از میان دود و غبارِ انفجار می‌گذشتند، دنبال می‌کرد؛ درست مثل زمانی که از کنار گنبد حضرت عبدالعظیم پرمی‌کشیدند.
+                </p>
+                <br>
+                <p class="MsoSemi" style="text-align: left;">
+                    
+                    $*$شهید آوینی، جعفری مطلق</p>
+                </div>
+        </div>
+        <br>
+        <hr>
+        <br>
+
+        <p class="MsoStep">تمرین (2)</p>
+        <p class="MsoNormal">
+        موضوعی انتخاب کنید و با رعایت مراحل نوشتن، متنی بنویسید.
+        </p>
+        <br><hr><br>
+        
+        <p class="MsoStep">حکایت نگاری</p>
+        <p class="MsoNormal">
+        حکایت زیر را بخوانید و آن را به زبان ساده بازنویسی کنید.
+        </p>
+        <br>
+        <div class="boxb">
+            <p class="MsoNormal" style="direction: rtl;">
+            طاووسی و زاغی، در صحنِ باغی به هم رسیدند و عیب و هنر یکدیگر را دیدند. طاووس با زاغ گفت: «این موزۀ (کفش) سرخ که در پای توست، لایق دیبای نگارین من است. همان وقت که به وجود می‌آمده‌ایم در پوشیدن موزه اشتباه کرده‌ایم. من موزۀ سیاه تو را پوشیده‌ام و تو موزۀ سرخ مرا.»
+            </p>
+            <p class="MsoNormal">
+            زاغ گفت: «برخلاف این است؛ اگر خطایی رفته است، در پوشش‌های دیگر رفته است. باقی پوشش‌های زیبای تو مناسب موزۀ من است؛ در آن خواب‌آلودگی، تو سر از گریبان من درآوردی و من سر از گریبان تو.»
+            </p>
+            <p class="MsoNormal">
+            در آن نزدیکی، سنگ پشتی بود و آن مجادله را می‌شنید؛ سر برآورد که ای یاران عزیز! از این گفت‌وگوی باطل دست بردارید؛ خدای تعالی همه چیز را به یک کس نداده است. هرکس را به دادۀ خود، خُرسند باید بود و خشنود.
+            </p>
+            <br>
+            <p class="MsoSemi" style="text-align: left;">
+                $*$
+                بهارستان، جامی (با اندکی تصرّف)
+            </p>
+        </div>
+        
+
+
+        <br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br><br><br><br>
+
+
+    </body>
+
+
+</html>

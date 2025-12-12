@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="fa">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #badaff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #5f1487;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+            min-width: 3.7vw;
+
+        }
+   
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1abbbbe1; /* Scrollbar thumb color */
+            
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color:  #05ffe2;
+           
+        
+            
+        }
+        .custom-scrollbar table {
+            direction: ltr;
+        }
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the class 'custom-scrollbar'
+            var scrollContainers = document.querySelectorAll('.custom-scrollbar');
+            
+            scrollContainers.forEach(function(container) {
+                // Make sure the scroll starts from the left after everything is loaded
+                container.scrollLeft = 0;
+        
+                // Ensure this works after a brief delay (helps with rendering issues)
+                setTimeout(function() {
+                    container.scrollLeft = 0;
+                }, 100); // 100 milliseconds delay to ensure content has rendered
+            });
+        });
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+    <body class="custom-scrollbar">
+
+        <p class="MsoStep">
+            <strong>فعالیت</strong>
+        </p>
+        
+        <p class="MsoNormal">
+            ۱) مشابه آنچه که برای ریشه‌های دوم، سوم، چهارم و پنجم گفته شد، می‌توان برای ریشه‌های دیگر نیز عمل کرد. جدول زیر را که مربوط به ریشه‌های مختلف عدد ۶۴ است، کامل کنید.
+        </p>
+
+        
+        <br><br>
+
+        <table class="table" style="margin:auto; text-align: center;width:fit-content">
+            <tr>
+                <th>ریشه</th>
+                <th>مقدار</th>
+            </tr>
+            <tr>
+                <th>ریشه‌ دوم</th>
+                <td>$$ \sqrt{64} = 8 $$  $$ -\sqrt{64} = -8 $$</td>
+            </tr>
+            <tr>
+                <th>ریشه سوم</th>
+                <td>$$\quad$$ $$\quad$$</td>
+            </tr>
+            <tr>
+                <th>ریشه‌ چهارم</th>
+                <td>$$ \sqrt[4]{64} $$ $$ -\sqrt[4]{64} $$</td>
+            </tr>
+            <tr>
+                <th>ریشه پنجم</th>
+                <td>$$ \sqrt[5]{64} $$ $$ \quad $$</td>
+            </tr>
+            <tr>
+                <th>ریشه‌ ششم</th>
+                <td>$$\quad$$ $$\quad$$</td>
+            </tr>
+            <tr>
+                <th>ریشه هفتم</th>
+                <td>$$\quad$$ $$\quad$$</td>
+            </tr>
+            <tr>
+                <th>ریشه‌ هشتم</th>
+                <td>$$\quad$$ $$\quad$$</td>
+            </tr>
+            </table>
+
+    <br><br><br>
+
+    <p class="MsoNormal">
+        ریشه‌های ششم عدد ۶۴ اعداد $ \sqrt[6]{64} $ و $ -\sqrt[6]{64} $ یا همان .......... و .......... هستند؛ زیرا $ 2^6 = 64 $ و $ (-2)^6 = 64 $.
+        </p>
+        <br>
+        <p class="MsoNormal">
+        دربارهٔ ریشه‌های هفتم و هشتم عدد ۶۴ چه می‌توانید بگویید؟
+        </p>
+        <br>
+        <p class="MsoNormal">
+        به‌طور کلی اگر $ n \in \mathbb{N} $، دربارهٔ ریشهٔ $ n $ام عدد ۶۴ چه می‌توان گفت؟
+        </p>
+        <br>
+        <p class="MsoNormal">
+        در حالت کلی اگر $ a $ یک عدد مثبت باشد و $ n \in \mathbb{N} $، دربارهٔ تعداد ریشه‌های $ n $ام چه می‌توان گفت؟
+        </p>
+    
+        <br><br><br>
+
+        <p class="MsoNormal">
+            ۲) جدول زیر را که دربارهٔ ریشه‌های مختلف عدد ۶۴ است، تکمیل کنید.
+        </p>
+        <br>
+        <table class="table" style="margin:auto; text-align: center; width:fit-content;">
+            <tr>
+                <th>ریشه</th>
+                <th>مقدار</th>
+            </tr>
+            <tr>
+                <th>ریشه‌ دوم</th>
+                <td>وجود ندارد</td>
+            </tr>
+            <tr>
+                <th>ریشه سوم</th>
+                <td>$$ \sqrt[3]{64} = -4 $$</td>
+            </tr>
+            <tr>
+                <th>ریشه‌ چهارم</th>
+                <td>وجود ندارد</td>
+            </tr>
+            <tr>
+                <th>ریشه پنجم</th>
+                <td>$$ \sqrt[5]{64} $$</td>
+            </tr>
+            <tr>
+                <th>ریشه‌ ششم</th>
+                <td>$$ \sqrt[6]{64} $$</td>
+            </tr>
+            <tr>
+                <th>ریشه هفتم</th>
+                <td></td>
+            </tr>
+            <tr>
+                <th>ریشه‌ هشتم</th>
+                <td></td>
+            </tr>
+        </table>
+        
+        <br><br>
+
+            <p class="MsoNormal">
+            ریشه‌های زوج $ -64 $ وجود ندارند؛ زیرا عددی وجود ندارد که به توان ........ برسد و مساوی $ -64 $ شود.
+            دربارهٔ ریشه‌ nام $ ( n \in \mathbb{N} ) $ عدد $ -64 $ بحث کنید.
+            </p>
+
+            
+            <p class="MsoNormal">
+            اگر $ a $ یک عدد منفی و $ n \in \mathbb{N} $ باشد، دربارهٔ ریشهٔ $ n $ام عدد $ a $ چه می‌توان گفت؟
+            </p>
+            
+            <div class="MsoNormal" style="text-align:right; background-color:#a600ff20; padding:20px; margin:20px; border: 5px solid black; box-shadow: 5px 5px 0 black;border-radius:12px;">
+            اگر $ n \geq 2 $ یک عدد طبیعی باشد، $ b $ را یک ریشهٔ $ n $ام عدد $ a $ می‌نامیم. هرگاه: $ b^n = a $.
+            </div>
+            
+        
+            <br><br><br>
+
+            <p class="MsoNormal">
+                ۳) جدول زیر را کامل کنید.
+            </p>
+         <br><br>   
+            
+        <table class="table" style="margin:auto; text-align: center;width:fit-content">
+            
+            <tr >
+                <th > $ a > 0 $</th>
+                <th > $ a > 0 $</th>
+            </tr>
+
+            <tr>
+                <th >  فرد n</th>
+                <th >  زوج  n</th>
+                
+            </tr>
+            
+            <tr>
+                <td > $ \qquad \qquad ... \qquad \qquad $</td>
+                <td >  امn  دارای دو ریشه  a  <br> است $ \sqrt[n]{a} $ و $ -\sqrt[n]{a} $</td>
+            </tr>
+
+            <tr>
+                <td > $ a = \quad ... $ <br> $ n = \quad ...  $ </td>
+                <td > $ a = 81 $ <br> $ n = 4 $ </td>
+            </tr>
+
+            <tr>
+                <td > $ \qquad \qquad ... \qquad \qquad $</td>
+                <td >
+                     دارای دو ریشه چهارم  $۸۱$<br> $\sqrt[4]{81}=3$ و $-\sqrt[4]{81}=-3$</td>
+            </tr>
+
+        </table>
+
+
+        <br><br> 
+
+        <table class="table" style="margin:auto; text-align: center;width:fit-content">
+            
+            <tr >
+                <th > $ a < 0 $</th>
+                <th > $ a < 0 $</th>
+            </tr>
+
+            <tr>
+                <th >  فرد n</th>
+                <th >  زوج  n</th>
+                
+            </tr>
+            
+            <tr>
+                
+                <td >ریشه$n$ام وجود ندارد</td>
+
+                <td > $ \qquad \qquad ... \qquad \qquad $</td>
+            </tr>
+
+            <tr>
+                <td > $ a = \quad ... $ <br> $ n = \quad ...  $ </td>
+                <td > $ a = \quad ... $ <br> $ n = \quad ...  $ </td>
+            </tr>
+
+            <tr>
+                <td > $ \qquad \qquad ... \qquad \qquad $</td>
+                <td > $ \qquad \qquad ... \qquad \qquad $</td>
+            </tr>
+
+        </table>
+
+
+        <br><br><br>
+
+        <p class="MsoNormal">
+            ۴) در پایه نهم دیدید که:
+            </p>
+            <br>
+            <p class="MsoNormal">
+            برای هر دو عدد $ a $ و $ b $ مثبت:  <br>
+            $ \sqrt{a} \times \sqrt{b} = \sqrt{ab} $ 
+            <br><br>
+            برای هر دو عدد $ a $ و $ b $ : <br>
+            $ \sqrt[3]{a} \times \sqrt[3]{b} = \sqrt{ab} $ 
+            <br>
+            <br> آیا رابطه بالا دربارهٔ $ \sqrt[4]{a} \times \sqrt[4]{b} = \sqrt[4]{ab} $ نیز برقرار می‌باشد؟ مثال بزنید.
+            </p>
+            <br>
+            <p class="MsoNormal">
+            با توجه به اینکه $ 4 $ یک عدد زوج است، باید $ a $ و $ b $ ................. باشند.
+            </p>
+            <br><br>
+            <p class="MsoNormal" style="text-align: center;">
+                $ \sqrt[4]{6} \times \sqrt[4]{81} = 2 \times 3 = ........ $ 
+                <br><br>
+                $ \sqrt[4]{6} \times \sqrt[4]{81} = \sqrt[4]{..........} = 6 $
+            </p>
+            <br><br>
+            <p class="MsoNormal">
+                دربارهٔ $ \sqrt[5]{a} \times \sqrt[5]{b} = \sqrt[5]{ab} $ چه می‌توان گفت؟ 
+                <br><br> آیا $ a $ و $ b $ حتماً باید نامنفی باشند؟ مثالی از $ a $ و $ b $ نامنفی و مثالی از $ a $ و $ b $ منفی ارائه کنید و نشان دهید تساوی همواره برقرار است.
+            </p>
+            <br><hr><br>
+
+            <p class="MsoStep">
+                کار در کلاس
+            </p>
+            
+            <p class="MsoNormal">
+                ۱) حاصل هر عبارت را به‌دست آورید:
+            </p>
+            <br>
+            <table class="table" style="margin:auto; text-align: center; width:fit-content;">
+                <tr>
+                    <td>$ \sqrt[7]{128} = $</td>
+                    <td>$ \sqrt[4]{625} = $</td>
+                    <td>$ \sqrt[7]{-128} = $</td>
+                </tr>
+                <tr>
+                    <td>$ \sqrt[8]{256} = $</td>
+                    <td>$ -\sqrt[4]{0.0016} = $</td>
+                    <td>$ \sqrt[6]{0} = $</td>
+                </tr>
+                <tr>
+                    <td> $ \sqrt[9]{-1} = $ </td>
+                    <td>$ \sqrt[5]{\frac{-1}{32}} = $</td>
+                    <td>$ \qquad $</td>
+                </tr>
+            </table>
+           
+            <br><br>
+
+            <p class="MsoNormal">
+                ۲) با توجه به اینکه:
+            </p>
+            
+            <p class="MsoNormal" style="text-align: center;">
+                $$ \sqrt[n]{a} \times \sqrt[n]{b} = \sqrt[n]{ab} $$
+            </p>
+            
+            <p class="MsoNormal" style="text-align: center;">
+                $$ \left( \sqrt[5]{2} \right)^3 = \sqrt[5]{2} \times \sqrt[5]{2} \times \sqrt[5]{2} $$ 
+                $$ = \sqrt[3]{2^3} $$
+            </p>
+                
+            
+            
+            <p class="MsoNormal">
+                به‌طور کلی داریم:
+            </p>
+            
+            <p class="MsoNormal">
+                $  \sqrt[n]{a} \times \sqrt[n]{b} = 
+                    \begin{cases} 
+                    \sqrt[n]{ab} &  \text{زوج} \ \  n  \ \ \text{و} \ \ a,b \geq 0 \\ \\ 
+                    \sqrt[n]{ab} & \text{یک عدد طبیعی فرد} \ \  n \ \  \text{دلخواه و}  \ \  a, b
+                    \end{cases} $
+            </p>
+            <br><br>
+            <p class="MsoNormal">
+                قرارداد: به‌طور کلی این قرارداد را اعمال می‌کنیم:
+            </p>
+            
+                
+            <div class="MsoNormal" style="text-align:right; background-color:#a600ff20; padding:20px; margin:20px; border: 5px solid black; box-shadow: 5px 5px 0 black;border-radius:12px;">
+                وقتی می‌نویسیم $ \sqrt[n]{a} $ و $ n $ را زوج فرض می‌کنیم، $ a $ را مثبت یا برابر صفر در نظر می‌گیریم.
+            </div>
+
+            <br><br>
+            <p class="MsoNormal">
+                بنابراین باید به یاد داشته باشیم که ریشه‌های زوج برای عددهای منفی بی‌معنا هستند. پس هرگاه $$ \sqrt{x} $$ نوشتیم، از آن می‌فهمیم که $$ x \geq 0 $$ است.
+            </p>
+            
+           
+            
+            <p class="MsoNormal">
+                تساوی‌های فوق را می‌توان به‌صورت مقابل نمایش داد:
+            </p>
+            <p class="MsoNormal" style="text-align: center;">
+                $$ \sqrt[n]{a} \times \sqrt[n]{b} = \sqrt[n]{ab} $$
+            </p>
+            <br><hr><br>
+            <p class="MsoStep">
+                تمرین
+            </p>
+            <p class="MsoNormal">
+                درستی رابطه $ \sqrt[k]{a^m} = \left( \sqrt[k]{a} \right)^m $ را با مقادیر دهی‌های مختلف به $ m, k $ و $ a $ بررسی کنید (اگر $ k $ زوج باشد، $ a $ باید مثبت باشد).
+            </p>
+            
+<br><hr><br>
+<p class="MsoStep">فعالیت</p>
+<p class="MsoNormal">
+
+    ۱.
+    جدول زیر را کامل کنید.
+</p>
+<br><br>
+<table class="table"  style="text-align:center;width:fit-content; margin:auto;">
+
+    <tr>
+        <th colspan="2">$\sqrt[n]{a^n}$</th>
+       
+    </tr>
+    
+    <tr>
+        <th  colspan="2">$a \geq 0 $</th>
+        
+    </tr>
+    <tr>
+        <td>زوج n</td>
+        <td>زوج n</td>
+    </tr>
+    <tr>
+    <tr>
+        <td>$n = 3$<br>$a = 2$</td>
+        <td>$n = 4$<br>$a = 2$</td>
+    </tr>
+    <tr>
+        <td>$\sqrt[3]{2^3} = 2 \qquad ... $</td>
+        <td>$\sqrt[4]{2^4} = 2 \qquad ( 2 = |2| ) $</td>
+    </tr>
+
+</table>
+
+<br><br>
+
+<table class="table"  style="text-align:center;width:fit-content; margin:auto;">
+
+    <tr>
+        <th colspan="2">$\sqrt[n]{a^n}$</th>
+       
+    </tr>
+    
+    <tr>
+        <th  colspan="2">$a < 0 $</th>
+        
+    </tr>
+    <tr>
+        <td>فرد n</td>
+        <td>فرد n</td>
+    </tr>
+    <tr>
+    <tr>
+        <td>$n = 3$<br>$a = -2$</td>
+        <td>$n = 4$<br>$a = -2$</td>
+    </tr>
+    <tr>
+        <td>$\sqrt[3]{ ( -2 ) ^3 } = 2 \qquad ... $</td>
+        <td>$\sqrt[4]{ ( -2 ) ^4 } = 2 \qquad ( 2 = |-2| ) $</td>
+    </tr>
+
+</table>
+
+<br><br>
+
+
+<p class="MsoNormal" style="text-align: center;">
+    اگر $ a \geq 0 $ از جدول بالا نتیجه می‌گیریم که: <br>
+    $ \sqrt[n]{a^n} = \dots $ <br> <br>
+    و اگر $ a < 0 $ آنگاه
+    :
+    <br>
+    $ \sqrt[n]{a^n} = \dots 
+
+        \begin{cases} 
+        \dots \quad \text{ زوج} \ \  n \\ \\ 
+        \dots \quad \text{فرد} \ \ n  \\ \\
+        \end{cases} $
+
+</p>
+
+
+<br><br><br>
+
+<p class="MsoNormal">
+
+    ۲.
+    جدول زیر را کامل کنید.
+</p>
+<br><br>
+<table class="table"  style="text-align:center;width:fit-content; margin:auto;">
+
+    <tr>
+        <th colspan="2">$ (\sqrt[n]{a}) ^n $</th>
+       
+    </tr>
+    
+    <tr>
+        <th  colspan="2">$a \geq 0 $</th>
+        
+    </tr>
+    <tr>
+        <td>زوج n</td>
+        <td>زوج n</td>
+    </tr>
+    <tr>
+    <tr>
+        <td>$n = 3$<br>$a = 8$</td>
+        <td>$n = 4$<br>$a = 16$</td>
+    </tr>
+    <tr>
+        <td>$\sqrt[3]{8^3} = 2^3 = \ \ ... $</td>
+        <td>$\sqrt[4]{2^4} = 2^4 = 16 $</td>
+    </tr>
+
+</table>
+
+<br><br>
+
+<table class="table"  style="text-align:center;width:fit-content; margin:auto;">
+
+    <tr>
+        <th colspan="2">$ (\sqrt[n]{a}) ^n $</th>
+       
+    </tr>
+    
+    <tr>
+        <th  colspan="2">$a < 0 $</th>
+        
+    </tr>
+    <tr>
+        <td>فرد n</td>
+        <td>فرد n</td>
+    </tr>
+    
+    <tr>
+        <td>$n = 3$<br>$a = -8$</td>
+        <td>$n = 4$<br>$a = -16$</td>
+    </tr>
+    <tr>
+        <td>$ (\sqrt[3]{8}) ^3 =  \ \ ... $</td>
+        <td>$ (\sqrt[4]{-16} ^4) \rightarrow  $ تعریف نشده</td>
+    </tr>
+
+</table>
+
+<br><br>
+
+
+<p class="MsoNormal" style="text-align: center;">
+    اگر $ a \geq 0 $ از جدول بالا نتیجه می‌گیریم که: <br>
+    $  (\sqrt[n]{a}) ^n  = \dots $ <br> <br>
+    و اگر $ a < 0 $ آنگاه
+    :
+    <br>
+    $  (\sqrt[n]{a}) ^n  = \dots 
+
+    \begin{cases} 
+    \dots \quad \text{ زوج} \ \  n \\ \\ 
+    \dots \quad \text{فرد} \ \ n  \\ \\
+    \end{cases} $
+
+
+</p>
+
+
+<br><hr><br>
+
+<p class="MsoStep">
+    کار در کلاس 
+
+</p>
+
+<p class="MsoNormal">
+
+    تساوی زیر برای چه مقادیری از a و n برقرار نیست؟ <br>
+    $$ \sqrt[n]{a^n} = \left( \sqrt[n]{a} \right)^n $$
+</p>
+<br><hr><br>
+
+<p class="MsoStep">
+   تمرین
+
+</p>
+
+<p class="MsoNormal">
+
+    (الف) یکی از علامت‌های $ > $ یا $ < $ را در $ \dots $ قرار دهید:
+</p>
+<br>
+<div class="MsoNormal" style="text-align:center;">
+    $ (0.5)^2  \quad  \dots  \quad  (0.5)^3 $<br><br>
+    $ \sqrt{0.5}  \quad  \dots  \quad  \sqrt[3]{0.5} $<br><br>
+    $ 4^2 \quad  \dots  \quad  4^3 $ <br><br>
+    $ \sqrt{4} \quad  \dots  \quad  \sqrt[]{4} $
+    
+</div>
+
+<br><br>
+
+<p class="MsoNormal">
+    (ب) وقتی $ 0 < a < 1 $ است، یکی از علامت‌های مقایسه را در $\dots$ قرار دهید:
+</p>
+<br>
+<p class="MsoNormal" style="text-align: center;">
+    $a^2 \quad \dots \quad a^3 
+    \qquad \qquad
+    \sqrt{a} \quad \dots \quad \sqrt[3]{a}$
+</p>
+<br><br>
+<p class="MsoNormal">
+    (پ) وقتی $a > 1$ است، یکی از علامت‌های مقایسه را در $\dots$ قرار دهید:
+</p>
+<br>
+<p class="MsoNormal" style="text-align: center;">
+    $a^2 \quad \dots \quad a^3 
+    \qquad \qquad
+    \sqrt{a} \quad \dots \quad \sqrt[3]{a}$
+</p>
+<br><br>
+<p class="MsoNormal">
+    (الف) یکی از علامت‌های $ =, >, < $ را در $\dots$ قرار دهید:
+</p>
+<br>
+<table class="MsoNormal" style="text-align: center;">
+    <tr>
+        <td>$ (-0.5)^2 \quad \dots \quad (-0.5)^3 $</td>
+        <td>$ (-2)^2 \quad \dots \quad (-2)^3 $</td>
+    </tr>
+    <tr>
+        <td>$ (-0.5)^3 \quad \dots \quad (-0.5)^5 $</td>
+        <td>$ (-2)^3 \quad \dots \quad (-2)^5 $</td>
+    </tr>
+    <tr>
+        <td>$ (0.5)^4 \quad \dots \quad (0.5)^2 $</td>
+        <td>$ (-2)^4 \quad \dots \quad (-2)^2 $</td>
+    </tr>
+</table>
+
+<br><br>
+
+
+<p class="MsoNormal">
+    ۳) با توجه به تعریف ریشه (اگر $ \sqrt[n]{a} - b $ آنگاه $b^n = a$)، نشان دهید برای هر عدد $a$ و هر عدد طبیعی $n$ (به‌شرط با معنا بودن رادیکال) رابطه زیر برقرار است:
+</p>
+
+<p class="MsoNormal" style="text-align: center;">
+    $$ \left( \sqrt[n]{a} \right)^n = a $$
+</p>
+
+<br><br>
+
+<p class="MsoNormal">
+    ۴) آیا تساوی $ \sqrt[n]{a} + \sqrt[n]{b} = \sqrt[n]{a+b} $ برقرار است؟ 
+    $n$
+    را
+    برابر
+    $3$ 
+    ٬
+ 
+
+    $4$
+
+    یا
+
+    $5$
+      در نظر بگیرید
+     و به‌جای 
+    $a$ و $b$ مقادیر عددی بدهید.
+</p>
+
+
+
+<br><br>
+<p class="MsoNormal">
+    ۵) عددهای زیر را مانند نمونه محاسبه کنید.
+</p>
+
+<p class="MsoNormal" style="text-align: left;">
+    $ 5^{-3} = \frac{1}{5^{3}} = ( \frac{1}{5} ) ^3 \ \ \rightarrow \ \ \sqrt[3]{5^{-3}} = {\frac{1}{5}} $ <br><br>
+    $ \sqrt[5]{2^{-5}} = $ <br><br>
+    $ \sqrt[7]{\frac{1}{128}} $ <br><br>
+    $ \sqrt[4]{3^{-4}} = $
+</p>
+<br><br>
+<p class="MsoNormal">
+    ۶) به‌جای $a$ و $b$ و عدد طبیعی $n$ عددهایی قرار دهید. به‌طوری که:
+</p>
+<br> <br>
+<p class="MsoNormal" style="text-align: right;">
+    الف) تساوی $ \sqrt[n]{\frac{a}{b}} = \frac{\sqrt[n]{a}}{\sqrt[n]{b}} $ برقرار باشد. <br> <br>
+    ب) تساوی $ \sqrt[n]{\frac{a}{b}} = \frac{\sqrt[n]{a}}{\sqrt[n]{b}} $ برقرار نباشد.
+</p>
+
+
+
+
+
+
+
+
+
+
+    </body>
+
+
+
+
+
+
+
+
+</html>

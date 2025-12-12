@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal ,
+        ul.MsoNormal {
+            margin: 0in;
+           
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi , b{
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+           
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #badaff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .MsoPapDefault {
+           
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #722a85;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background-color: #1abbbbe1; /* Scrollbar thumb color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color: #05ffe2;
+        }
+    </style>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+ 
+</head>
+
+
+
+<body class="custom-scrollbar">
+
+
+    
+    <p class="MsoBold">درس دوم
+        :
+    دایره</p>
+    
+
+    <p class="MsoNormal">دایره یکی از شکل‌های مهم هندسی است که با تعریف و برخی ویژگی‌های آن در سال‌های قبل آشنا شده‌اید. می‌دانیم دایره، مجموعهٔ نقاطی از صفحه است که فاصلهٔ آنها از نقطهٔ ثابت در همان صفحه، مقداری ثابت و مثبت باشد. این نقطهٔ ثابت را مرکز دایره و مقدار ثابت را اندازهٔ شعاع دایره می‌نامیم. دایرهٔ $C$ را به مرکز $O$ و شعاع $r$ معمولاً با نماد $C(O, r)$ نمایش می‌دهیم.</p>
+    <p class="MsoNormal">در این درس به تحلیل برخی از ویژگی‌های دایره در دستگاه مختصات خواهیم پرداخت.</p>
+    <br>
+
+    <p class="MsoNormal">دایرهٔ $C(O, r)$ را به گونه‌ای در نظر بگیرید که مرکز آن نقطهٔ $O(\alpha, \beta)$ و نقطهٔ $M(x, y)$ نقطهٔ دلخواهی روی آن باشد. می‌دانیم که فاصلهٔ مرکز دایره از تمام نقاط روی آن برابر با مقدار ثابت $r$ است.</p>
+    <p class="MsoNormal">بنابراین، به کمک رابطهٔ فاصلهٔ دو نقطه که در سال‌های گذشته با آن آشنا شدیم، داریم :</p>
+    
+
+<br>
+
+<div class="MsoNormal" style="text-align: left;">
+    <p>
+        $
+        OM = \sqrt{(x - \alpha)^۲ + (y - \beta)^۲}
+        $
+        </p>
+        <p>از طرفی $OM = r$</p>
+        <p>
+        $
+        \Rightarrow (x - \alpha)^۲ + (y - \beta)^۲ = r^۲
+        $
+        </p>
+        
+</div>
+
+
+<br><hr><br>
+<p class="MsoNormal">رابطهٔ 
+    $(x - \alpha)^۲ + (y - \beta)^۲ = r^۲$
+     معادلهٔ دایره‌ای به مرکز 
+     $O(\alpha, \beta)$
+      و شعاع 
+      $r$
+       در صفحهٔ مختصات است که به آن <b>معادلهٔ استاندارد دایره</b> می‌گوییم.</p>
+<br><hr><br>
+
+
+
+
+<p class="MsoStep">فعّالیت</p>
+<p class="MsoNormal">می‌توان دید که:</p>
+<ul class="MsoNormal">
+    <p>الف) اگر نقطه‌ای مثل $B$ <b>روی دایره</b> باشد، فاصلهٔ آن تا مرکز دایره برابر شعاع دایره است، یعنی 
+        :
+        $OB = r$</p>
+    <p>ب) اگر نقطه‌ای مثل $A$ <b>درون دایره</b> باشد، فاصلهٔ آن تا مرکز دایره ............. شعاع دایره است، یعنی 
+        :
+        $OA \  \  \square  \ \ r$</p>
+    <p>پ) اگر نقطه‌ای مثل $C$ <b>بیرون دایره</b> باشد، فاصلهٔ آن تا مرکز دایره ............. شعاع دایره است، یعنی 
+        :
+        $OC  \ \  \square \ \  r$</p>
+    
+</ul>
+
+
+<br>
+
+<p class="MsoNormal">بدین ترتیب اگر معادلهٔ دایرهٔ $C(O, r)$ به مرکز $O(\alpha, \beta)$ و شعاع $r$ در دستگاه مختصات داده شده باشد، می‌توان وضعیت نقاط مختلف صفحه را نسبت به دایره بررسی کرد:</p>
+
+
+<br><hr><br>
+<p class="MsoNormal">نقاطی که در معادلهٔ $(x - \alpha)^۲ + (y - \beta)^۲ = r^۲$ صدق کنند، نقاطی از صفحه هستند که روی دایره قرار دارند.</p>
+<p class="MsoNormal">مجموعه جواب نامعادلهٔ $(x - \alpha)^۲ + (y - \beta)^۲ < r^۲$ نقاطی از صفحه را مشخص می‌کند که .............</p>
+<p class="MsoNormal">مجموعه جواب نامعادلهٔ $(x - \alpha)^۲ + (y - \beta)^۲ > r^۲$ نقاطی از صفحه را مشخص می‌کند که .............</p>
+<br><hr><br>
+
+<br>
+
+<p class="MsoNormal"><b>مثال :</b></p>
+<p class="MsoNormal">الف) اگر مرکز دایره‌ای نقطهٔ 
+    $(-2 , 1)$ 
+    و شعاع آن $۳$ باشد، معادلهٔ استاندارد دایره به شکل زیر خواهد بود:</p>
+<p class="MsoNormal">
+$$
+(x + ۲)^۲ + (y - ۱)^۲ = ۹
+$$
+</p>
+<p class="MsoNormal">ب) اگر معادلهٔ دایره‌ای به شکل $(x - 3)^2 + (y + 1)^2 = 4$ باشد، مختصات مرکز آن 
+    $(3 , -1)$ 
+    و اندازهٔ شعاع برابر با $۲$ است.</p>
+<br>
+<p class="MsoNormal" style="font-size: smaller;opacity: 0.6;">
+    
+  (  رسم شکل برعهدهٔ دانش‌آموزان است.)
+
+</p>
+
+
+<br><hr><br>
+
+<p class="MsoStep">کار در کلاس</p>
+<p class="MsoNormal">۱) در حالت‌های زیر، معادلهٔ دایره را بنویسید:</p>
+<ul class="MsoNormal">
+    <p>الف) دایره‌ای به مرکز مبدأ مختصات و شعاع $2$.</p>
+    <p>ب) دایره‌ای به مرکز مبدأ مختصات و شعاع $r$.</p>
+    <p>پ) دایره‌ای که از نقطهٔ $(1 , -3)$ بگذرد و مرکز آن 
+        $(2 , -1)$ 
+        باشد.</p>
+</ul>
+
+    <br>
+<p class="MsoNormal">۲) با تکمیل جدول، وضعیت هر نقطه را نسبت به دایره مشخص کنید:</p>
+
+<br>
+
+<div class="custom-scrollbar" style="overflow-y: hidden; overflow-x:auto;direction:ltr;">
+
+    <table class="MsoNormal" style="margin:auto;width:fit-content;direction:ltr;text-align:center;">
+
+        <tr>
+            <th rowspan="2">معادلهٔ دایره</th>
+        
+            <th rowspan="2">شعاع و مختصات مرکز دایره</th>
+            <th  colspan="3">نقاط</th>
+        
+        </tr>
+        
+        <tr>
+            <th>$A(1, 1)$</th>
+            <th>$B(0, 3)$</th>
+            <th>$C(-2, 4)$</th>
+        </tr>
+        <tr>
+            <td>$(x + 2)^۲ + (y - 3)^۲ = 4$</td>
+            <td>.............</td>
+            <td>.............</td>
+            <td>.............</td>
+            <td>.............</td>
+        </tr>
+        <tr>
+            <td>.............</td>
+            <td style="direction: rtl;">دایره به مرکز $(1, -2)$ و شعاع $3$</td>
+            <td>.............</td>
+            <td>بیرون دایره</td>
+            <td>.............</td>
+        </tr>
+    </table>
+<br>
+</div>
+
+<br><br>
+
+
+
+
+
+<p class="MsoNormal">۳) اگر معادلهٔ دایره‌ای به شکل 
+    $ (x + 1)^2 + y^2 = 4$
+     باشد:</p>
+
+<ul class="MsoNormal">
+    <p>(الف) مختصات مرکز دایره و اندازهٔ شعاع دایره را بنویسید.</p>
+
+    <p>(ب) مختصات نقاط تقاطع این دایره را با محورهای مختصات پیدا کنید.</p>
+    
+    <p>(پ) شکل این دایره را رسم کنید و صحت پاسخ‌های خود را به کمک شکل بررسی کنید.</p>
+</ul>
+
+<br><br>
+
+<p class="MsoNormal">۴) معادلهٔ دایره‌های زیر را بنویسید:</p>
+
+<img src="" alt="">
+<br>
+<img src="
+" alt="">
+<br>
+
+
+<br><hr><br>
+
+
+
+<p class="MsoSemi">معادلهٔ گستردهٔ یک دایره</p>
+<br>
+<p class="MsoNormal">معادلهٔ دایرهٔ 
+    $ (x - ۲)^۲ + (y + ۳)^۲ = 1$
+     را در نظر بگیرید.</p>
+
+<p class="MsoNormal">این معادله را به کمک اتحادها می‌توان به شکل زیر ساده کرد:</p>
+
+
+<p class="MsoNormal">
+    $$
+    \begin{align*}
+     x^۲ - ۲x + ۴ + y^۲ + ۶y + ۹ &= ۱ \\\\
+   x^۲ + y^۲ - ۴x + ۶y + ۱۲ &= ۰
+    \end{align*}
+    $$
+    </p>
+
+    <br>
+    
+    <p class="MsoNormal">این رابطه را معادلۀ گسترشۀ دایره یا معادلۀ ضمنی دایره می‌نامیم.</p>
+    <p class="MsoNormal">بدیهی است که معادلۀ استاندارد دایره و معادلۀ گسترشۀ آن به یکدیگر قابل تبدیل‌اند.</p>
+
+    <br>
+    <p class="MsoNormal">
+       <b> مثال : </b>
+        فرض کنید معادلۀ گسترشۀ یک دایره به شکل $x^۲ + y^۲ - ۶x + ۲y + ۶ = ۰$ باشد. با استفاده از مربع کامل کردن، سعی می‌کنیم معادلۀ گسترشۀ دایره را به معادلۀ استاندارد تبدیل کنیم. داریم :</p>
+    
+        <p class="MsoNormal">$$
+            \begin{align*}
+            x^2 + y^2 - ۶x + ۲y + ۶ &= ۰ \\\\
+             (x^2 - ۶x) + (y^2 + ۲y) + ۶ &= ۰ \\\\
+   (x - ۳)^2 - ۹ + (y + ۱)^2 - ۱ + ۶ &= ۰ \\\\
+            (x - ۳)^2 + (y + ۱)^2 &= ۴
+            \end{align*}
+            $$</p>
+
+            <br>
+            
+            <p class="MsoNormal">مختصات مرکز و شعاع این دایره را بنویسید و نمودار آن را رسم کنید.</p>
+
+            <br>
+
+            <p class="MsoNormal">معادلهٔ گستردهٔ یک دایره را به شکل \( x^2 + y^2 + ax + by + c = 0 \) در نظر می‌گیریم. با تبدیل \( x^2 + ax \) و \( y^2 + by \) به دو مربع کامل داریم :</p>
+
+
+
+
+<div class="custom-scrollbar" style="overflow-y: hidden; overflow-x:auto;direction:ltr;">
+    <p class="MsoNormal">
+        \[
+        \begin{align*}
+       & (x^2 + a x) + (y^2 + b y) + c = 0 \\\\
+        \Rightarrow \  & (x + \frac{a}{2})^2 - \frac{a^2}{4} + (y + \frac{b}{2})^2 - \frac{b^2}{4} + c = 0 \\\\
+        \Rightarrow \  & (x + \frac{a}{2})^2 + (y + \frac{b}{2})^2 = \frac{a^2}{4} + \frac{b^2}{4} - c = \frac{a^2 + b^2 - 4c}{4}
+        \end{align*}
+        \]
+        </p>
+</div>
+<br>
+
+
+<p class="MsoNormal">بدین ترتیب :</p>
+
+
+<br><hr><br>
+
+
+<p class="MsoNormal">اگر معادلۀ گستردۀ یک دایره $x^2 + y^2 + a x + b y + c = 0$ باشد، مختصات مرکز این دایره $O \left( \dfrac{-a}{2} , \dfrac{-b}{2} \right)$ است. شعاع این دایره برابر است با :</p>
+<p class="MsoNormal">
+$$
+r = \dfrac{1}{2} \sqrt{a^2 + b^2 - 4c}
+$$
+</p>
+
+<br><hr><br>
+
+<p class="MsoNormal">بدیهی است که با توجه به مثبت بودن $r$، معادلۀ یک دایره $x^2 + y^2 + a x + b y + c = 0$ است اگر و تنها اگر رابطه $a^2 + b^2 > 4 c$ برقرار باشد. (چرا؟)</p>
+
+
+
+<br><hr><br>
+
+<p class="MsoStep">کار در کلاس</p>
+<p class="MsoNormal">معادلۀ گستردۀ دایره‌ای به شکل $x^2 + y^2 - 2x - 6y + 6 = 0$ است. مختصات مرکز این دایره و شعاع آن را پیدا کنید و معادلۀ دایره را به شکل استاندارد بنویسید.</p>
+
+<br><hr><br>
+
+
+
+<p class="MsoSemi">اوضاع نسبی خط و دایره</p>
+<br>
+<p class="MsoNormal">در سال‌های گذشته به طور شهودی با اوضاع نسبی خط و دایره آشنا شده‌اید. در این فعالیت قصد داریم به کمک معادلۀ دایره و خط، این مفاهیم را مرور کنیم:</p>
+<br>
+<p class="MsoNormal">دایره $C(O, r)$ را در صفحه در نظر بگیرید. با توجه به شکل، به سادگی می‌توان دید که خط و دایره می‌توانند یک، یا دو نقطۀ اشتراک داشته، یا هیچ نقطۀ اشتراکی نداشته باشند.</p>
+
+<br>
+<p class="MsoNormal">اگر خط $d$ با دایره متقاطع باشد، $OH < r$ است.</p>
+<p class="MsoNormal">اگر خط $d$ بر دایره مماس باشد، $OH = r$ است.</p>
+<p class="MsoNormal">اگر خط $d$ دایره را قطع نکند، $OH > r$ است.</p>
+
+
+<br><hr><br>
+<p class="MsoSemi">یادآوری</p>
+<br>
+<p class="MsoNormal">۱- خط مماس در نقطهٔ تماس با دایره، بر شعاع آن دایره عمود است.</p>
+<p class="MsoNormal">۲- فاصلهٔ نقطهٔ $A(x_0, y_0)$ از خط به معادلهٔ $ax + by + c = 0$ برابر است با:</p>
+$$
+d = \dfrac{ \ \big| \ ax_0 + by_0 + c \ \big| \ }{\sqrt{a^2 + b^2}}
+$$
+<br><hr><br>
+
+<br>
+
+
+<p class="MsoNormal">در حالتی که معادلهٔ دایرهٔ $C(O, r)$ به مرکز $O(\alpha, \beta)$ و شعاع $r$ در دستگاه مختصات داده شده باشد، می‌توان وضعیت خطوط مختلف صفحه را نسبت به دایره بررسی کرد.</p>
+
+<br>
+
+<p class="MsoSemi">مثال:</p>
+<p class="MsoNormal">وضعیت خط $x + y = 3$ را نسبت به دایرهٔ $x^2 + y^2 - 2x - 3 = 0$ مشخص کنید.</p>
+
+<br>
+
+<p class="MsoBold">حل:</p>
+
+<p class="MsoNormal">کافی است فاصلهٔ مرکز دایره را از خط داده شده حساب کرده و اندازهٔ آن را با اندازهٔ شعاع دایره مقایسه کنیم.</p>
+
+
+<p class="MsoNormal">مرکز دایره از رابطهٔ $O\left( \dfrac{-a}{2}, \dfrac{-b}{2} \right)$، نقطهٔ $(1, 0)$ و شعاع دایره از رابطهٔ $r = \dfrac{1}{2} \sqrt{a^2 + b^2 - 4c}$ برابر است با $2$.</p>
+
+
+<p class="MsoNormal">از طرفی فاصلهٔ مرکز دایره از خط داده شده برابر است با:</p>
+<p class="MsoNormal">
+$$
+d = \dfrac{ \ \big| \ 1(1) + 1(0) - 3 \ \big| \ }{\sqrt{1^2 + 1^2}} = \dfrac{2}{\sqrt{2}} = \sqrt{2}
+$$
+</p>
+
+
+<p class="MsoNormal">و از آنجا که این مقدار از شعاع دایره کمتر است، پس می‌توان چنین نتیجه گرفت که خط داده شده با دایره متقاطع است.</p>
+
+
+
+<br><hr><br>
+
+<p class="MsoStep">کار در کلاس</p>
+<p class="MsoNormal">۱) در موارد زیر وضعیت خط و دایره را نسبت به هم مشخص کنید.</p>
+<br>
+<p class="MsoNormal">(الف) دایرهٔ $x^2 + y^2 + 2x + 2y - 1 = 0$ و خط $x + y = 1$</p>
+<br>
+<p class="MsoNormal">(ب) دایرهٔ $(x - 2)^2 + (y + 3)^2 = 4$ و خط $y = -1$</p>
+
+
+<br><br>
+
+
+<p class="MsoNormal">۲) معادلهٔ دایره‌ای را بنویسید که بر خط 
+    $3x + 4y - 1 = 0$
+     مماس بوده و مرکز آن $C(1, 2)$ باشد.</p>
+
+
+<br><br>
+
+
+<p class="MsoNormal">۳) مرکز دایره‌ای، نقطهٔ 
+    $O(2, -3)$
+     است. این دایره روی خط
+    $3x - 4y + 2 = 0$
+     وترى به طول $6$ جدا می‌کند. معادلهٔ این دایره را بنویسید.</p>
+
+
+<br><hr><br>
+
+
+
+<p class="MsoSemi">اوضاع نسبی دو دایره</p>
+<br>
+<p class="MsoNormal">نظیر آنچه برای اوضاع نسبی نقطه و دایره و همین طور خط و دایره دیدید، قصد داریم ابتدا به طور شهودی وضعیت‌های مختلفی را که دو دایرهٔ دلخواه می‌توانند نسبت به هم داشته باشند، مشخص کنیم و سپس وضعیت دو دایره در صفحه مختصات و با داشتن معادلهٔ دو دایره بررسی کنیم.</p>
+<br>
+<p class="MsoNormal">دو دایرهٔ دلخواه \( C(O,r) \) و \( C'(O',r') \) را با فرض \( r' > r \) در نظر بگیرید. در جدول زیر حالت‌های مختلف دو دایره نسبت به هم داده شده و در هر مورد، رابطهٔ بین اندازهٔ شعاع‌های دو دایره و فاصلهٔ بین مرکزهای دو دایره بیان شده است.</p>
+<br>
+<p class="MsoNormal">پاره‌خطی که مرکزهای دو دایره را به هم وصل می‌کند، <b>خط‌المرکزین</b> نامیده می‌شود. در اینجا اندازهٔ خط‌المرکزین را با \( d \) نمایش داده‌ایم.</p>
+
+<br>
+
+<table class="MsoNormal" style="margin:auto;width:fit-content;direction:rtl;text-align:center;">
+    <tr>
+        <td>دو دایرهٔ بیرون هم (متخارج)</td>
+        <td>\( d > r + r' \)</td>
+        <td><img src="" alt=""></td>
+    </tr>
+    <tr>
+        <td>دو دایرهٔ مماس بیرون</td>
+        <td>\( d = r + r' \)</td>
+        <td><img src="" alt=""></td>
+    </tr>
+    <tr>
+        <td>دو دایرهٔ متقاطع</td>
+        <td>\( r - r' < d < r + r' \)</td>
+        <td><img src="" alt=""></td>
+    </tr>
+    <tr>
+        <td>دو دایرهٔ مماس درون</td>
+        <td>\( d = r - r' \)</td>
+        <td><img src="" alt=""></td>
+    </tr>
+    <tr>
+        <td>دو دایرهٔ متداخل</td>
+        <td>\( d < r - r' \)</td>
+        <td><img src="" alt=""></td>
+    </tr>
+    <tr>
+        <td>دو دایرهٔ هم‌مرکز</td>
+        <td>\( d = 0 \)</td>
+        <td><img src="" alt=""></td>
+    </tr>
+</table>
+
+<br><br>
+
+
+<p class="MsoNormal">در حالتی که معادلهٔ دو دایره را داشته باشیم، بدون رسم دو دایره می‌توانیم وضعیت آن‌ها را نسبت به هم مشخص کنیم.</p>
+
+<br>
+
+
+<p class="MsoSemi">مثال :</p>
+<p class="MsoNormal">وضعیت دو دایره 
+    
+    $x^2 + y^2 + 6x + 8y = 0$
+    
+    و 
+    $x^2 + y^2 + 8x + 6y + 12 = 0$
+     را نسبت به هم مشخص کنید و سپس نمودار دو دایره را رسم کنید.</p>
+
+<br>
+
+<p class="MsoSemi">حل :</p>
+<p class="MsoNormal">به کمک آنچه دیدیم، ابتدا مختصات مرکز و طول شعاع هر دایره را پیدا می‌کنیم و سپس با مقایسه مقادیر مجموع و تفاضل دو شعاع با طول خط‌المرکزین، وضعیت دو دایره را نسبت به هم مشخص می‌کنیم.</p>
+
+<p class="MsoNormal">در دایره $x^2 + y^2 + 6x + 8y = 0$ با پیدا کردن مرکز دایره و اندازهٔ شعاع داریم: مرکز دایره نقطهٔ $O(-3, -4)$ و اندازهٔ شعاع برابر $5$ است.</p>
+
+<p class="MsoNormal">به روش مشابه در دایره $x^2 + y^2 - 4x + 6y + 12 = 0$، مرکز دایره نقطهٔ $O'(2, -3)$ و اندازهٔ شعاع $r' = 1$ است.</p>
+
+<p class="MsoNormal">از طرفی طول خط‌المرکزین برابر است با: 
+$$
+OO' = \sqrt{(-3 - 2)^2 + (-4 + 3)^2} = \sqrt{26}
+$$
+</p>
+
+<p class="MsoNormal">بنابراین از آنجا که داریم: 
+$$
+\begin{align}
+& r - r' < d < r + r'  \\\\
+= \ \  &  5 - 1 < \sqrt{26} < 5 + 1
+\end{align}
+$$
+پس دایره‌های فوق، متقاطع هستند.
+</p>
+
+<br>
+
+<p class="MsoNormal">رسم دو دایره و بررسی صحت پاسخ به کمک شکل، به دانش‌آموزان واگذار شده است.</p>
+
+
+
+<br><hr><br>
+
+<p class="MsoStep">کار در کلاس</p>
+
+<p class="MsoNormal">۱) با انجام مراحل زیر، معادلهٔ دایره‌ای را بنویسید که بر دایرهٔ $x^2 + y^2 + 2x - 4y - 4 = 0$ مماس بیرونی و مرکز آن نقطهٔ $O(2, -2)$ باشد :</p>
+
+<ul class="MsoNormal">
+    <li>مختصات نقطهٔ $O'$، مرکز دایرهٔ داده شده عبارت است از : ..........................</li>
+    <li>اندازهٔ $r'$ یعنی شعاع دایره داده شده برابر است با : ..........................</li>
+    <li>طول $OO'$ برابر است با : ..........................</li>
+    <li>شرط اینکه دو دایره مماس بیرونی باشند این است که : ..........................
+
+    پس شعاع $r$ باید برابر .......................... باشد.</li>
+
+<li class="MsoNormal">معادلهٔ دایرهٔ مطلوب را با معلوم بودن اندازهٔ شعاع و مختصات مرکز آن بنویسید :</li>
+</ul>
+
+
+
+
+<br><br>
+
+
+<p class="MsoNormal">۲. برای حالت‌های زیر معادلهٔ دو دایره را بنویسید و پاسخ خود را با دوستانتان مقایسه کنید.</p>
+<ul class="MsoNormal">
+    <p>الف) دو دایره هم مرکز باشند.</p>
+    <p>ب) دو دایره بیرون هم باشند.</p>
+    
+</ul>
+
+<br>
+
+<p class="MsoNormal">۳. برای موارد زیر وضعیت دو دایره را نسبت به هم مشخص کنید:</p>
+
+<div class="MsoNormal" style="text-align: left;direction: ltr;">
+    
+    <p>الف)  
+        $x^2 + y^2 - ۲x - ۴y = ۰$ و $x^2 + y^2 - ۲x + ۴y = ۰$  
+        </p>
+        
+        <p>ب)  
+        $x^2 + y^2 - ۲x + ۴y + ۱ = ۰$ و $(x + ۱)^2 + (y - ۲)^2 = ۱$  
+        </p>
+
+        
+</div>
+
+
+
+<br><hr><br>
+
+
+<p class="MsoStep">تمرین</p>
+<p class="MsoNormal">۱. در هر دایره مختصات مرکز دایره و اندازهٔ شعاع آن را پیدا کنید. محل تقاطع هر دایره را با محورهای مختصات، در صورت وجود مشخص کنید و درستی پاسخ خود را به کمک رسم دایره بررسی کنید.</p>
+
+
+<div class="MsoNormal" style="text-align: left;direction: ltr;">
+    <p>الف) \( x^2 + y^2 - 6x + 2y + 1 = 0 \)</p>
+<p>ب) \( x^2 + (y + 3)^2 - 4 = 0 \)</p>
+</div>
+
+<br><br>
+
+
+<p class="MsoNormal">۲. در حالت‌های زیر معادلهٔ دایره را بنویسید:</p>
+
+<ul class="MsoNormal">
+    <p>الف) دایره‌ای که از مبدأ مختصات بگذرد و مرکز آن \( C(1, -2) \) باشد.</p>
+    <p>ب) دایره‌ای که مرکز آن \( (3,2) \) و نقطهٔ \( (-9, -3) \) نقطه‌ای روی آن باشد.</p>
+    <p>پ) دایره‌ای که نقاط \( (3,0) \) و \( (1,-4) \) دو سر یکی از قطرهای آن باشند.</p>
+</ul>
+
+<br>
+
+<p class="MsoNormal">۳.
+     وضعیت نقاط 
+     $ (1,0) $
+    و
+     $ (0,-1) $
+     و
+     $ (-1,-2) $
+     و
+     $ (0,0) $ 
+
+    را نسبت به دایرهٔ $ x^2 + y^2 - 2x + 4y + 1 = 0 $ مشخص کنید.</p>
+
+
+    <br><br>
+
+    <p class="MsoNormal">۴. شهرداری قصد دارد در یک فضای سبز دایره‌ای شکل به شعاع $1300$ متر، دو مسیر پیاده‌روی مطابق شکل بسازد. اگر مختصات مرکز دایره $(13, 13)$ و هر واحد برابر $100$ متر باشد:</p>
+
+<ul class="MsoNormal">
+
+    
+    <p>الف) معادلهٔ این دایره چیست؟</p>
+<p>ب) مختصات نقاط برخورد دو مسیر را با دایره پیدا کنید.</p>
+<p>پ) دو مسیر در چه نقطه‌ای با یکدیگر متقاطع‌اند؟</p>
+<p>ت) طول مسیر عمودی چقدر است؟</p>
+
+</ul>
+
+
+<br>
+
+
+<p class="MsoNormal">۵. معادلهٔ گستردهٔ یک دایره به شکل $x^2 + y^2 + 2x - 8y = 0$ است. مختصات مرکز دایره و اندازهٔ شعاع آن را پیدا کنید و معادلهٔ آن را به شکل استاندارد بنویسید.</p>
+
+<br><br>
+
+<p class="MsoNormal">۶. وضع خط‌های زیر را نسبت به دایره مشخص کنید:</p>
+
+<div class="MsoNormal" style="text-align: left;direction: ltr;">
+    
+    <p>الف) $x^2 + y^2 - 4x - 4y + 7 = 0$ و $6x + 4y = 0$</p>
+<p>ب) $x^2 + y^2 = 2$ و $y = -x - 2$</p>
+
+
+</div>
+
+
+<br>
+
+<p class="MsoNormal">۷. اگر بدانیم خط $l$ در نقطه $(3,4)$ بر دایره‌ای به مرکز مبدأ مختصات مماس است، معادلهٔ خط مماس چیست؟</p>
+
+
+<br><br>
+
+
+<p class="MsoNormal">۸. معادلهٔ دایره‌ای را بنویسید که مرکز آن، نقطهٔ $(0,3)$ و بر خط $3x - 4y = 3$ مماس باشد.</p>
+
+
+<br><br>
+
+
+<p class="MsoNormal">۹. مشخص کنید در حالت‌های زیر دو دایره نسبت به هم چه وضعی دارند؟</p>
+
+
+<div class="MsoNormal" style="text-align: left;direction: ltr;">
+    
+    <p>الف) $x^2 + y^2 - 2x + 4y = 4$ و $x^2 + y^2 + 2x - 4y = 9$</p>
+<p>ب) $(x - 2)^2 + (y + 3)^2 = 7$ و $x^2 + (y - 5)^2 = 5$</p>
+
+</div>
+    <br><br><br><br><br><br><br><br><br><br>
+</body>
+
+
+</html>

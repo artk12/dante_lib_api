@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <style>
+        @font-face {
+            font-family: "Yekan Bakh FaNum Light";
+            src: url('YekanBakhFaNum-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Yekan Bakh FaNum Regular";
+            src: url('YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        hr {  
+            height: 3px;  
+            background-color: #5f1487;
+            
+            border: none;  
+        } 
+
+        body {
+            font-family: "Yekan Bakh FaNum Light";
+            background-color: #1a181c;
+            text-align: right;
+            direction: rtl;
+            padding: 5%;
+            max-width: 1000px;
+            margin: auto;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+
+        span {
+            font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+            text-align: right;
+            unicode-bidi: embed;
+            
+        }
+
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Light";
+            line-height: 2.3em;
+            color: #D6D1DA;
+            text-align: justify;
+            
+        }
+        
+        p.MsoBold,
+        li.MsoBold,
+        div.MsoBold {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #B692F6;
+            margin: 10% auto;
+            line-height: 1.5em;
+            
+        }
+        
+        p.MsoWarning,
+        li.MsoWarning,
+        div.MsoWarning {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #d67469;
+            margin: 10% auto;
+            line-height: 1.3em;
+            
+        }
+        p.MsoSuccess,
+        li.MsoSuccess,
+        div.MsoSuccess {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #64E9E1;
+            margin: 10% auto;
+            line-height: 1.3em;
+        
+        }
+        p.MsoStep,
+        li.MsoStep,
+        div.MsoStep {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #ffffff;
+            margin: 5% auto;
+            line-height: 1.7em;
+            
+        }
+        p.MsoSemi,
+        li.MsoSemi,
+        div.MsoSemi , b{
+            margin: 0in;
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            line-height: 2.3em;
+            color: #f0eef2;
+            text-align: justify;
+            
+        }
+        p.MsoSub,
+        li.MsoSub,
+        div.MsoSub {
+            margin: 0in;
+            text-autospace: ideograph-other;
+            font-size: clamp(1.4rem, 3vw, 1.6rem);
+            font-family: "Yekan Bakh FaNum Regular";
+            color: #badaff;
+            margin: 4% auto;
+            line-height: 1.3em;
+            
+        }
+
+        .MsoPapDefault {
+            text-autospace: ideograph-other;
+        }
+
+        @page WordSection1 {
+            size: 312.0pt 624.0pt;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+        .MathJax {
+            margin: auto 0.4rem !important;
+
+        }
+
+        .MathJax span {
+            font-family: 'Yekan Bakh FaNum Light' !important;
+            color: #64E9E1;
+
+        }
+
+        .images {
+            width: 100%;
+            display: block;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .responsive-video {
+            width: -webkit-fill-available;
+            height: auto;
+        }
+        table {
+            width: -webkit-fill-available;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            text-align: right;
+            color:white;
+           
+            border-radius: 4px;
+            
+        }
+        th, td {
+            padding: 12px;
+            border: 4px solid #000000;
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        table span{
+            
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            
+        }
+        .mathalign{
+            
+            text-align: left;
+            
+        }
+        th {
+            background-color: #722a85;
+        }
+        .isotop span{
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+        }
+        .custom-scrollbar {
+            overflow-x: auto;
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 30px; /* Horizontal scrollbar height */
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #59078fa1; /* Track background color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000;
+
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background-color: #1abbbbe1; /* Scrollbar thumb color */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid #000000; /* Optional: adds a border around the thumb */
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+             /* Scrollbar thumb color on hover */
+            background-color: #05ffe2;
+        }
+    </style>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            TeX: {
+                Macros: {
+                    RR: '{\\mathbb{R}}',
+                    bold: ['{\\bf #1}', 1]
+                }
+            },
+            "HTML-CSS": {
+                preferredFont: 'Yekan Bakh FaNum Light',
+                availableFonts: ["Yekan Bakh FaNum Light"],
+                styles: {
+                    ".MathJax .merror": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    },
+                    ".MathJax .mi": {
+                        "font-family": "Yekan Bakh FaNum Light",
+                        "direction": "rtl"
+                    }
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript">
+        function replaceArabicNumeralsWithFarsi(text) {
+            const arabicToFarsiMap = {
+                '0': '۰',
+                '1': '۱',
+                '2': '۲',
+                '3': '۳',
+                '4': '۴',
+                '5': '۵',
+                '6': '۶',
+                '7': '۷',
+                '8': '۸',
+                '9': '۹'
+            };
+            return text.replace(/\d/g, function (d) {
+                return arabicToFarsiMap[d];
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll('p');
+            elements.forEach(function (el) {
+                el.innerHTML = replaceArabicNumeralsWithFarsi(el.innerHTML);
+            });
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        });
+    </script>
+</head>
+
+<body class="custom-scrollbar">
+ 
+
+
+
+
+
+    <p class="MsoBold">درس ۱
+        :
+    تابع نمایی</p>
+    <br>
+    <p class="MsoNormal">
+        آیا تاکنون با خود فکر کرده‌اید که دانشمندان چگونه قدمت یک شیء، باستانی یا یک فسیل را پیدا می‌کنند؟
+        در بدن هر موجود زنده کربن ۱۴ موجود است که با مرگ آن موجود، کربن ۱۴ شروع به از بین رفتن می‌کند.
+        بنابراین با اندازه‌گیری مقدار کربن باقی‌مانده، می‌توان سن آن شیء یا موجود را پیدا کرد.
+        در حل این‌گونه مسائل از تابع نمایی استفاده می‌شود.
+    </p>
+    
+<br><hr><br>
+
+    <p class="MsoStep">فعّالیت</p>
+    <p class="MsoNormal">
+        یک توده باکتری را در محیط کشت در نظر بگیرید. فرض کنید با نمونه‌گیری از این جامعه، مشخص شده است که جرم باکتری‌ها در هر ساعت دو برابر می‌شود.
+        اگر جرم باکتری‌ها را پس از $t$ ساعت با $m(t)$ نشان دهیم و با $1$ گرم شروع کنیم یعنی $m(0) = 1$، آن‌گاه باتوجه به جدول، به پرسش‌های زیر پاسخ دهید.
+    </p>
+
+
+
+
+
+
+
+
+
+
+
+    <p class="MsoNormal">جدول (۱)</p>
+    <table class="MsoNormal" style="margin:auto;width:fit-content;direction:ltr;text-align:center;">
+        <tr>
+            <th> 
+            
+                زمان  (ساعت)
+            t
+            </th>
+            <th>جرم باکتری‌ها m(t)</th>
+        </tr>
+        <tr>
+            <td>۰</td>
+            <td>۱</td>
+        </tr>
+        <tr>
+            <td>۱</td>
+            <td>۲</td>
+        </tr>
+        <tr>
+            <td>۲</td>
+            <td>۴</td>
+        </tr>
+        <tr>
+            <td>۳</td>
+            <td>۸</td>
+        </tr>
+        <tr>
+            <td>؟</td>
+            <td>۱۶</td>
+        </tr>
+        <tr>
+            <td>۵</td>
+            <td>؟</td>
+        </tr>
+        <tr>
+            <td>۶</td>
+            <td>؟</td>
+        </tr>
+        <tr>
+            <td> $ \vdots $  </td>
+            <td> $ \vdots $ </td>
+        </tr>
+        <tr>
+            <td>؟</td>
+            <td>۱۰۲۴</td>
+        </tr>
+    </table>
+    
+
+
+    <br>
+
+
+    <p class="MsoNormal">
+        الف) در زمان‌های $t = 6$ و $t = 5$ جرم باکتری‌ها را به‌دست آورید.
+    </p>
+    <br>
+    <p class="MsoNormal">
+        ب) پس از چند ساعت جرم باکتری‌ها $256$ گرم می‌شود؟ پس از چند ساعت به $1024$ گرم می‌رسد؟
+    </p>
+    <br>
+    <p class="MsoNormal">
+        پ) آیا از اعداد این جدول می‌توان الگویی را برای محاسبه جرم باکتری‌ها در هر زمان به‌دست آورد؟
+    </p>
+    
+
+
+<br>
+
+
+<p class="MsoNormal">
+    اگر بخواهیم جرم باکتری‌ها را در مرحلهٔ یازدهم یا مرحله‌ای بالاتر پیدا کنیم، قطعاً محاسبات، خیلی دشوارتر و وقت‌گیر خواهد شد.
+    برای ساده‌تر شدن محاسبات، جدول (۱) را بر اساس توان‌های ۲ بازنویسی می‌کنیم تا جدول (۲) حاصل شود.
+    در جدول (۲) به جای علامت سؤال‌ها اعداد مناسب قرار دهید.
+</p>
+
+
+<p class="MsoNormal" style="text-align: center;">جدول (۲)</p>
+<table class="MsoNormal" style="margin:auto;width:180px;direction:ltr;text-align:center;">
+    <tr>
+        <th>$t$</th>
+        <th>$m(t)$</th>
+    </tr>
+    <tr>
+        <td>$0$</td>
+        <td>$2^0 = 1$</td>
+    </tr>
+    <tr>
+        <td>$1$</td>
+        <td>$2^1 = 2$</td>
+    </tr>
+    <tr>
+        <td>$2$</td>
+        <td>$2^2 = 4$</td>
+    </tr>
+    <tr>
+        <td>$3$</td>
+        <td>$?$</td>
+    </tr>
+    <tr>
+        <td>$\dots$</td>
+        <td>$\dots$</td>
+    </tr>
+    <tr>
+        <td>$?$</td>
+        <td>$2^9 = ?$</td>
+    </tr>
+</table>
+
+
+<br><br>
+
+<p class="MsoNormal">
+    نمودار روبه‌رو رابطهٔ بین زمان و جرم باکتری‌ها را نشان می‌دهد.
+    با توجه به فعالیت صفحهٔ قبل، جرم باکتری‌ها در پایان ساعت اول، دوم، ... و $n$ام از دنبالهٔ زیر به‌دست می‌آید:
+
+
+    $$2^1, 2^2, 2^3, \dots, 2^n$$
+
+    به عبارت دیگر، جرم باکتری‌ها برحسب زمان $t$ از رابطه
+    $m(t) = 2^t$ به‌دست می‌آید.
+</p>
+
+
+
+<br><hr><br>
+
+
+
+<p class="MsoStep">فعّالیت</p>
+<p class="MsoNormal">
+    در نمودار فعالیت قبل، طول نقاط مشخص شده اعداد صحیح نامنفی هستند. می‌توان نقاطی از آن نمودار، با طول اعداد گویا را نیز به‌دست آورد.
+</p>
+<br>
+<p class="MsoNormal">
+    الف) جاهای خالی جدول را با قرار دادن اعداد مناسب پر کنید.
+</p>
+
+
+
+
+
+<div class="custom-scrollbar" style="overflow-y: hidden; overflow-x:auto;direction:ltr;">
+<table class="MsoNormal" style="margin:auto;width:fit-content;direction:ltr;text-align:center;">
+    <tr>
+        <th>$x$</th>
+        <td>$-3$</td>
+        <td>$-2$</td>
+        <td>$-1$</td>
+        <td>$0$</td>
+        <td>$\dfrac{1}{3}$</td>
+        <td>$\dfrac{1}{2}$</td>
+        <td>$\dfrac{2}{3}$</td>
+        <td>$1$</td>
+        <td>$\dfrac{3}{2}$</td>
+        <td>$2$</td>
+        <td>$3$</td>
+    </tr>
+    <tr>
+        <th>$2^x$</th>
+        <td>$2^{-3}$</td>
+        <td>$ . . .  $</td>
+        <td>$ . . .  $</td>
+        <td>$2^0$</td>
+        <td>$2^{\frac{1}{3}}$</td>
+        <td>$ . . .  $</td>
+        <td>$2^{\frac{2}{3}}$</td>
+        <td>$ . . .  $</td>
+        <td>$2^{\frac{3}{2}}$</td>
+        <td>$ . . .  $</td>
+        <td>$ . . .  $</td>
+
+    </tr>
+    <tr>
+        <th>$f(x)$</th>
+        <td>$\dfrac{1}{8}$</td>
+        <td>$ . . .  $</td>
+        <td>$ . . .  $</td>
+        <td>$ . . .  $</td>
+        <td>$\sqrt[3]{2} \approx 1.26$</td>
+        <td>$\sqrt{2} \approx 1.4$</td>
+        <td>$\sqrt[3]{4} \approx 1.56$</td>
+        <td>$ . . .  $</td>
+        <td>$\sqrt{8} \approx 2.83$</td>
+        <td>$ . . .  $</td>
+        <td>$ . . .  $</td>
+    </tr>
+</table>
+<br> </div>
+
+<br><br>
+
+<p class="MsoNormal">
+    ب) نقاط به‌دست آمده را در یک صفحهٔ شطرنجی مشخص کنید 
+    (برخی از نقاط در دستگاه مشخص شده‌اند).
+</p>
+
+
+<br>
+
+
+
+<p class="MsoNormal">
+    همان‌طور که ملاحظه می‌شود دامنهٔ تابع $y = 2^x$ همهٔ اعداد حقیقی و برد آن همواره اعداد مثبت است.
+</p>
+<br>
+<p class="MsoNormal">
+    اگر تعداد نقاط خیلی زیاد شوند، شکلی شبیه نمودار روبه‌رو حاصل می‌شود.
+</p>
+<br>
+<p class="MsoNormal">
+    پ) چرا نمودار روبه‌رو یک تابع است؟
+</p>
+<br>
+<p class="MsoNormal">
+    ت) نقطهٔ $x = \sqrt{7}$ را روی محور $x$ها مشخص کنید، سپس مقدار تقریبی $2^{\sqrt{7}}$ را با استفاده از نمودار پیدا کنید.
+</p>
+<br>
+<p class="MsoNormal">
+    ث) کدام‌یک از اعداد زیر بین دو عدد $20$ و $32$ قرار دارد؟
+</p>
+<p class="MsoNormal" style="text-align: center;">
+    $$2^{\frac{5}{2}} \qquad     2^{\frac{3}{2}}      \qquad 2^5     \qquad 2^{-1}  $$
+</p>
+<p class="MsoNormal">
+    ج) چرا نمودار تابع $y = 2^x$ محور $x$ها را قطع نمی‌کند؟
+</p>
+
+<br><hr><br>
+
+
+<p class="MsoStep">کار در کلاس</p>
+<p class="MsoNormal">
+    الف) نمودار تابع $y = (\dfrac{1}{2})^x$ را رسم کنید و آن را با نمودار $y = 2^x$ مقایسه کنید.
+</p>
+<br>
+<p class="MsoNormal">
+    ب) دامنه و برد تابع را به‌دست آورید.
+</p>
+
+<br><hr><br>
+
+<p class="MsoNormal">
+    هر تابع با ضابطهٔ $f(x) = a^x$، که در آن $a$ عددی مثبت و مخالف یک است را یک تابع نمایی می‌نامیم.
+</p>
+
+<br><hr><br>
+
+<p class="MsoNormal">
+    پ) نقطه $({0.5}, (\dfrac{1}{2})^{0.5})$ را روی نمودار مشخص کنید.
+</p>
+
+<br>
+<p class="MsoNormal">
+    <b>مثال:</b> توابع زیر همگی نمایی هستند:
+</p>
+
+
+<p class="MsoNormal" style="text-align: center;">
+
+    $$f(x) = (3.14)^x$$
+
+    $$g(x) = (\dfrac{1}{2})^x $$
+    
+   $$h(x) = (\dfrac{3}{2})^x$$
+    
+
+</p>
+
+
+<br>
+
+<p class="MsoNormal">
+    <b>تذکر:</b> در حالت کلی هر تابع با ضابطه $h(x) = k a^x$ $(k \neq 0, \; a > 0, \; a \neq 1)$ رفتار نمایی دارد.
+    به‌عنوان مثال، توابع 
+    $f(x) = 3 \times 2^x$
+    
+    یا 
+    $g(x) = (\dfrac{2}{5})^{x-1}$
+     
+     رفتار نمایی دارند.
+</p>
+
+
+<br>
+
+<p class="MsoNormal">
+    <b>مثال:</b> اگر $10$ گرم نمک را به مقدار کمی آب اضافه کنیم، مقدار نمک حل‌شده در آب پس از $t$ دقیقه از رابطه 
+    زیر به‌دست می‌آید. 
+    $$q(t) = 10 (\dfrac{4}{5})^t$$
+    بنابراین پس از مثالاً $4$ دقیقه، مقدار نمک حل‌شده در آب برابر است با:
+</p>
+<p class="MsoNormal" style="text-align: center;">
+    $$
+    q(4) = 10 (\dfrac{4}{5})^4 = 2.096 \, gr
+    $$
+</p>
+<p class="MsoNormal">
+    نمودار این تابع برای $0 \leq t \leq 5$ در شکل روبه‌رو رسم شده است.
+</p>
+
+<br><br>
+<p class="MsoNormal">
+    <b>مثال:</b> فرض کنید جرم یک مقدار کربن ۱۴ برحسب گرم با نیمه‌عمر $5730$ سال باشد (یعنی پس از $5730$ سال نصف مقدار اولیه از بین می‌رود). 
+    مقدار این کربن بعد از $t$ سال از رابطه 
+    زیر
+    به‌دست می‌آید:
+    $$
+    Q(t) = 10 (\dfrac{1}{2})^{\frac{t}{5730}}
+    $$
+</p>
+<p class="MsoNormal">
+    الف) در لحظه $t = 0$ داریم $Q(0) = 10 \, gr$ و بعد از $2000$ سال داریم:
+</p>
+<p class="MsoNormal" style="text-align: center;">
+    $$
+    Q(2000) = 10 (\dfrac{1}{2})^{\frac{2000}{5730}} \approx 7.185 \, gr
+    $$
+</p>
+<p class="MsoNormal">
+    ب) اگر $t = 5730$، آن‌گاه $Q(5730) = 10 \times \dfrac{1}{2} = 5 \, gr$، یعنی بعد از $5730$ سال، مقدار کربن $14$ نصف می‌شود.
+</p>
+
+
+<br><hr><br>
+
+
+<p class="MsoStep">کار در کلاس</p>
+<p class="MsoNormal">
+    ۱) نمودارهای سه تابع 
+    $g(x) = 3^x$ 
+    ، 
+    $f(x) = 2^x$
+    و 
+    $h(x) = 5^x$
+     در شکل (۱) رسم شده‌اند.
+    ضابطه هر تابع را روی نمودار آن بنویسید.
+</p>
+<br><br>
+<p class="MsoNormal">
+    ۲) دامنه و برد هر تابع را بنویسید.
+</p>
+<br><br>
+<p class="MsoNormal">
+    ۳) آیا این توابع یک‌به‌یک هستند؟ چرا؟
+</p>
+<br><br>
+<p class="MsoNormal">
+    ۴) نمودارهای توابع 
+    $v(x) = (\dfrac{1}{3})^x$
+    ، 
+    $u(x) = (\dfrac{1}{2})^x$
+    و 
+    $t(x) = (\dfrac{1}{5})^x$
+      در شکل (۲) رسم شده‌اند.
+    ابتدا ضابطه هر یک را روی نمودار بنویسید و سپس دامنه و برد آنها را به‌دست آورید.
+    آیا این توابع یک‌به‌یک هستند؟
+</p>
+
+
+<br><br>
+
+
+
+<p class="MsoNormal">
+    5.
+    الف) اعداد مقابل را از کوچک به بزرگ مرتب کنید:
+</p>
+<p class="MsoNormal" style="text-align: center;">
+    $2^4, \; (\dfrac{1}{2})^2, \; 2^2, \; 2^3, \; (\dfrac{1}{2})^4, \; (\dfrac{1}{2})^3$
+</p>
+
+<br>
+<p class="MsoNormal">
+    ب) جاهای خالی را پر کنید:
+</p>
+<p class="MsoNormal">
+    در تابع $f(x) = a^x$:
+</p>
+<br>
+<p class="MsoNormal" style="margin-right: 20px;">
+    - اگر $a > 1$، با افزایش مقدار $x$، مقادیر تابع $f$ ...... می‌یابند.
+</p>
+<p class="MsoNormal" style="margin-right: 20px;">
+    - اگر $0 < a < 1$، با افزایش مقدار $x$، مقادیر تابع $f$ ...... می‌یابند.
+</p>
+
+<br><hr><br>
+
+
+<p class="MsoNormal">
+    در سال‌های قبل، توان‌های طبیعی، صحیح و گویای اعداد حقیقی را تعریف کرده و با ویژگی‌های مقدماتی آن‌ها آشنا شده‌ایم. 
+    این قوانین برای توان‌های حقیقی نیز برقرارند. اگر $a$ و $b$ دو عدد حقیقی مثبت و مخالف یک، و $x$ و $y$ دو عدد حقیقی باشند، آنگاه داریم:
+</p>
+
+
+
+<br>
+
+
+
+  <div class="MsoNormal" style="text-align:left;direction: ltr;">
+    <p class="MsoNormal">
+        ۱) $a^0 = 1$
+    </p>
+    <br>
+    <p class="MsoNormal">
+        ۲) $a^{-x} = \dfrac{1}{a^x}$
+    </p>
+    <br>
+    <p class="MsoNormal">
+        ۳) $a^x \cdot a^y = a^{x+y}$
+    </p>
+    <br>
+    <p class="MsoNormal">
+        ۴) \((a^x)^y = a^{xy}\)
+    </p>
+    <br>
+
+    <p class="MsoNormal">
+        ۵) $(ab)^x = a^x \ b^x$
+    </p>
+    <br>
+    <p class="MsoNormal">
+        ۶) $(\dfrac{a}{b})^x = \dfrac{a^x}{b^x}$
+    </p>
+    <br>
+    <p class="MsoNormal">
+        ۷) $\dfrac{a^x}{a^y} = a^{x-y}$
+    </p>
+    
+  </div>
+
+<br><hr><br>
+
+<p class="MsoStep">تمرین</p>
+<p class="MsoNormal">
+    ۱) تحت شرایط ایده‌آل، جرم یک توده معین از باکتری‌ها در هر ساعت دو برابر می‌شود. فرض کنید در ابتدا $100$ میلی‌گرم باکتری وجود دارد.
+</p>
+<br>
+<p class="MsoNormal">
+    الف) جرم توده پس از $t$ ساعت را به صورت یک تابع نمایی بنویسید.
+</p>
+<br>
+<p class="MsoNormal">
+    ب) جرم توده را پس از $20$ ساعت به‌دست آورید.
+</p>
+
+
+
+
+<br><br>
+
+
+<p class="MsoNormal">
+    2.
+    نمودار توابع $y = 2^x + ۱$
+    ،
+    $y = 2^{x}$
+    و
+    
+    $y = 2^{x} - ۱$  در شکل روبه‌رو آمده‌اند.
+    
+    ضابطه هر تابع را روی آن مشخص کنید. با مقایسه نمودارهای توابع 
+    $y = a^{x} +2$
+،
+    $y = a^x$
+     و 
+    $y = a^{x}-2$ 
+    با یکدیگر چه نتیجه‌ای می‌گیرید؟ 
+    (a > 1).
+</p>
+
+
+<br><br>
+
+<p class="MsoNormal">
+    ۳.
+داروها در بدن با ادرار دفع می‌شوند. فرض کنید 
+$۱۰$ میلی‌گرم 
+از یک نوع دارو در بدن شخصی قرار دارد و مقدار آن پس از 
+$t$
+ساعت از رابطه
+$
+A(t) = ۱۰ (۰/۸)^t
+$
+به دست می‌آید.
+</p>
+<br>
+<p class="MsoNormal">
+    الف) مقدار دارو پس از $8$ ساعت چقدر است؟
+    </p>
+    <p class="MsoNormal">
+    ب) چه درصدی از دارو در هر ساعت از بین می‌رود؟
+    </p>
+    
+
+<br><br><br>
+    <p class="MsoNormal">
+    4.
+    الف) سه عدد بین اعداد 
+    $3^{2.5}$ 
+    و 
+    $3^{\sqrt{10}}$ 
+    پیدا کنید.
+    </p>
+    <br>
+    <p class="MsoNormal">
+    ب) نامعادلهٔ توانی 
+    $
+    ۴^{۲x-1} \  > \  \dfrac{1}{۱۰۲۴}
+    $
+    را حل کنید.
+    </p>
+    
+    <br>
+
+
+    <p class="MsoNormal">
+        پ) اگر $x$ و $y$ و $z$ سه عدد حقیقی باشند، به‌طوری که $a^x > a^y > a^z$، آن‌گاه چه رابطه‌ای بین $x$ و $y$ و $z$ برقرار است؟ (a > 1).
+        </p>
+
+<br><br>
+
+
+    <p class="MsoNormal">
+        5.
+    ابتدا مقدار تقریبی هر عدد را به کمک نمودار پیدا کنید. سپس به کمک ماشین حساب، درستی پاسخ خود را بررسی کنید.
+    </p>
+  
+      <div class="MsoNormal" style="text-align:left; direction: ltr;">
+
+        <p class="MsoNormal">
+            الف) $3^{\frac{3}{2}}$
+            </p>
+            <br>
+            <p class="MsoNormal">
+            ب) $۲^{۱۲۵}$
+            </p>
+            <br>
+            <p class="MsoNormal">
+            پ) $۳ \ ^{1 \  - \ \sqrt{2}}$
+            </p>
+
+
+
+      </div>
+    
+
+
+      <br><br>
+
+
+ 
+      <p class="MsoNormal">
+        6.
+      الف) در شکل زیر خط 
+      $y = \dfrac{13}{3}$ 
+      نمودار 
+      $y = 2^x$ 
+      را قطع کرده است. طول نقطه برخورد بین کدام دو عدد صحیح قرار دارد؟ چرا؟
+      </p>
+      <br>
+      <p class="MsoNormal">
+      ب) خط 
+      $y = \sqrt{7}$ 
+      را رسم کنید. طول نقطه برخورد این خط و نمودار 
+      $y = 2^x$ 
+      بین کدام دو عدد صحیح قرار دارد؟
+      </p>
+      
+
+      <br><br>
+
+
+
+      <p class="MsoNormal">
+        7.
+      در تصفیهٔ آب، داخل فیلترها، لایهٔ تمیزکننده‌ای قرار دارد که حدود 
+      $ \% \  ۳۰$ 
+      از ناخالصی‌ها را حذف می‌کند و در نتیجه 
+      $ \% \  ۷۰$ 
+      از ناخالصی‌ها باقی می‌ماند. اگر داخل این فیلترها، دو لایه قرار دهیم، آنگاه 
+      $
+      ۰/۷ \times ۰/۷ = ۰/۴۹
+      $
+      یا 
+      $ ۴۹ \% \    $  
+      از ناخالصی‌ها باقی می‌ماند.
+      </p>
+      <br>
+      <p class="MsoNormal">
+        الف) درصد ناخالصی‌های موجود در آب از کدام رابطه به دست می‌آید؟
+        </p>
+        <br>
+        <p class="MsoNormal">
+        ب) با قرار دادن چند لایه در فیلتر می‌توان بیش از 
+        $۹۶ \% \ $
+
+         از ناخالصی‌های آب را از بین برد؟
+        </p>
+        
+
+        
+
+
+
+    <br><br><br><br><br><br><br><br><br>
+
+    
+</body>
+
+
+</html>
